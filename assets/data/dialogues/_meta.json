@@ -1,0 +1,40 @@
+{
+ "lang": "hu",
+ "variety": "hu_HU",
+ "label": "표준 헝가리어 (Magyarország)",
+ "version": "v1-2026-09-03",
+ "schema": "v1",
+ "levels": {
+  "L1": {
+   "file": "L1.json",
+   "schema": "5ep40turn",
+   "target_turns": 200,
+   "current_turns": 0,
+   "status": "미착수 (콘텐츠 대기)"
+  },
+  "L2": {
+   "file": null,
+   "schema": "TBD",
+   "target_turns": 300,
+   "status": "미착수"
+  },
+  "L3": {
+   "file": null,
+   "schema": "TBD",
+   "target_turns": 300,
+   "status": "미착수"
+  }
+ },
+ "characters_canonical": {
+  "A": {
+   "name": "Minjun",
+   "role": "한국인 학습자(남)",
+   "gender": "male"
+  },
+  "B": {
+   "name": "TBD",
+   "role": "헝가리어 화자(여)",
+   "gender": "female"
+  }
+ }
+}
