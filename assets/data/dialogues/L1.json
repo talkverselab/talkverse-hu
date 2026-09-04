@@ -1,0 +1,29 @@
+{
+ "level": "L1",
+ "variety": "hu_HU",
+ "version": "v1-2026-09-03",
+ "schema": "v1-L1-5ep40turn",
+ "title": "L1 — 매칭 narrative (목표 200 turn)",
+ "description": "헝가리어 L1 스토리 — 콘텐츠 대기. 5 ep × 40 turn = 200.",
+ "kpi": {
+  "episodes_target": 5,
+  "turns_per_episode": 40,
+  "turns_total_target": 200,
+  "turns_total_current": 0,
+  "progress_pct": 0.0
+ },
+ "characters": {
+  "A": {
+   "name": "Minjun",
+   "role": "한국인 학습자(남)",
+   "gender": "male"
+  },
+  "B": {
+   "name": "TBD",
+   "role": "헝가리어 화자(여)",
+   "gender": "female"
+  }
+ },
+ "function_words": [],
+ "episodes": []
+}
