@@ -1,0 +1,258 @@
+{
+ "lesson": 1,
+ "title": "헝가리어 기본 문형 1",
+ "subtitle": "회화에 바로 쓰는 핵심 패턴 10개 × 예문 3",
+ "tts_lang": "hu-HU",
+ "stages": [
+  {
+   "stage": 1,
+   "title": "인칭·소개·질문"
+  },
+  {
+   "stage": 2,
+   "title": "동사·시간·장소"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "p01",
+   "key": "… vagyok",
+   "label": "나는 ~이다",
+   "explanation": "van 동사 1인칭 vagyok.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Minjun vagyok.",
+     "rd": "민준 버죡.",
+     "ko": "나는 민준이야."
+    },
+    {
+     "tl": "Diák vagyok.",
+     "rd": "디아크 버죡.",
+     "ko": "나는 학생이야."
+    },
+    {
+     "tl": "Fáradt vagyok.",
+     "rd": "파러트 버죡.",
+     "ko": "나는 피곤해."
+    }
+   ]
+  },
+  {
+   "id": "p02",
+   "key": "A nevem …",
+   "label": "내 이름은 ~",
+   "explanation": "nevem = 내 이름.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "A nevem Anna.",
+     "rd": "어 네벰 언너.",
+     "ko": "내 이름은 안나야."
+    },
+    {
+     "tl": "Hogy hívnak?",
+     "rd": "호지 히브넉?",
+     "ko": "네 이름이 뭐야?"
+    },
+    {
+     "tl": "Őt Péternek hívják.",
+     "rd": "외트 페테르넥 히브야크.",
+     "ko": "그는 페테르라고 해."
+    }
+   ]
+  },
+  {
+   "id": "p03",
+   "key": "Honnan jössz?",
+   "label": "어디에서 왔어?",
+   "explanation": "-ból/-ből = ~에서.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Honnan jössz?",
+     "rd": "혼넌 요쓰?",
+     "ko": "어디에서 왔어?"
+    },
+    {
+     "tl": "Koreából jövök.",
+     "rd": "코레아볼 요뵈크.",
+     "ko": "한국에서 왔어."
+    },
+    {
+     "tl": "Ő Szegedről jön.",
+     "rd": "외 쎄게드뢸 욘.",
+     "ko": "그는 세게드에서 와."
+    }
+   ]
+  },
+  {
+   "id": "p04",
+   "key": "Van …",
+   "label": "있다",
+   "explanation": "van = 있다, nincs = 없다.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Van időm.",
+     "rd": "번 이되m.",
+     "ko": "나 시간 있어."
+    },
+    {
+     "tl": "Van testvéred?",
+     "rd": "번 테슈트베레드?",
+     "ko": "형제 있어?"
+    },
+    {
+     "tl": "Nincs pénzem.",
+     "rd": "닌치 펜젬.",
+     "ko": "나 돈 없어."
+    }
+   ]
+  },
+  {
+   "id": "p05",
+   "key": "Mit …?",
+   "label": "무엇을",
+   "explanation": "의문사 mit.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Mit csinálsz?",
+     "rd": "미트 치날쓰?",
+     "ko": "뭐 해?"
+    },
+    {
+     "tl": "Mi ez?",
+     "rd": "미 에즈?",
+     "ko": "이게 뭐야?"
+    },
+    {
+     "tl": "Mit szeretnél?",
+     "rd": "미트 쎄레트넬?",
+     "ko": "뭘 원해?"
+    }
+   ]
+  },
+  {
+   "id": "p06",
+   "key": "… kérek",
+   "label": "~ 주세요",
+   "explanation": "kérek = 부탁합니다.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Egy kávét kérek.",
+     "rd": "에지 카베트 케렉.",
+     "ko": "커피 한 잔 주세요."
+    },
+    {
+     "tl": "Vizet kérek.",
+     "rd": "비제트 케렉.",
+     "ko": "물 주세요."
+    },
+    {
+     "tl": "Számlát kérek.",
+     "rd": "삼라트 케렉.",
+     "ko": "계산서 주세요."
+    }
+   ]
+  },
+  {
+   "id": "p07",
+   "key": "Tudok …",
+   "label": "나는 ~할 수 있다",
+   "explanation": "tud + 동사원형.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Tudok magyarul.",
+     "rd": "투독 머져룰.",
+     "ko": "나 헝가리어 할 수 있어."
+    },
+    {
+     "tl": "Tudsz segíteni?",
+     "rd": "투쓰 셰기테니?",
+     "ko": "나 좀 도와줄래?"
+    },
+    {
+     "tl": "Holnap tudunk menni.",
+     "rd": "홀넙 투둔크 멘니.",
+     "ko": "우리 내일 갈 수 있어."
+    }
+   ]
+  },
+  {
+   "id": "p08",
+   "key": "Hol van …?",
+   "label": "~는 어디에 있어?",
+   "explanation": "장소 묻기.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Hol van az állomás?",
+     "rd": "홀 번 어즈 알로마시?",
+     "ko": "역이 어디예요?"
+    },
+    {
+     "tl": "Hol laksz?",
+     "rd": "홀 럭쓰?",
+     "ko": "어디 살아?"
+    },
+    {
+     "tl": "Hol vagyunk?",
+     "rd": "홀 버준크?",
+     "ko": "우리 어디야?"
+    }
+   ]
+  },
+  {
+   "id": "p09",
+   "key": "…-kor",
+   "label": "~시에",
+   "explanation": "시각 + -kor.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Hétkor.",
+     "rd": "헤트코르.",
+     "ko": "7시에."
+    },
+    {
+     "tl": "Nyolckor találkozunk.",
+     "rd": "뇰츠코르 털랄코준크.",
+     "ko": "우리 8시에 만나."
+    },
+    {
+     "tl": "Hány órakor?",
+     "rd": "한 오러코르?",
+     "ko": "몇 시에?"
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "key": "… volt",
+   "label": "~였다",
+   "explanation": "van 의 과거 volt.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Jó volt.",
+     "rd": "요 볼트.",
+     "ko": "좋았어."
+    },
+    {
+     "tl": "A film szép volt.",
+     "rd": "어 필름 셉 볼트.",
+     "ko": "영화 좋았어."
+    },
+    {
+     "tl": "Tegnap fáradt voltam.",
+     "rd": "테그넙 파러트 볼텀.",
+     "ko": "나 어제 피곤했어."
+    }
+   ]
+  }
+ ]
+}
