@@ -1,29 +1,510 @@
 {
  "level": "L1",
  "variety": "hu_HU",
- "version": "v1-2026-09-03",
- "schema": "v1-L1-5ep40turn",
- "title": "L1 — 매칭 narrative (목표 200 turn)",
- "description": "헝가리어 L1 스토리 — 콘텐츠 대기. 5 ep × 40 turn = 200.",
+ "version": "v2-2026-09-11",
+ "schema": "v2-L1-8turn",
+ "title": "L1 — 헝가리어 첫 만남 (초안)",
+ "description": "헝가리어 회화 초안 — 5편 × 8턴. 한글 독음 포함.",
  "kpi": {
   "episodes_target": 5,
-  "turns_per_episode": 40,
-  "turns_total_target": 200,
-  "turns_total_current": 0,
-  "progress_pct": 0.0
+  "turns_per_episode": 8,
+  "turns_total_target": 40,
+  "turns_total_current": 40,
+  "progress_pct": 100.0
  },
  "characters": {
   "A": {
    "name": "Minjun",
-   "role": "한국인 학습자(남)",
+   "role": "",
    "gender": "male"
   },
   "B": {
-   "name": "TBD",
-   "role": "헝가리어 화자(여)",
+   "name": "Anna",
+   "role": "",
    "gender": "female"
   }
  },
  "function_words": [],
- "episodes": []
+ "episodes": [
+  {
+   "id": "ep1",
+   "title": "첫 인사",
+   "emoji": "💕",
+   "scenario": "언어교환 앱에서 처음 말을 건다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Szia! Minjun vagyok. És te?",
+     "rd": "씨어! 민준 버죡. 에시 테?",
+     "ko": "안녕! 나는 민준이야. 너는?",
+     "note": "vagyok = 나는 ~이다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Szia, Anna vagyok. Honnan jössz?",
+     "rd": "씨어, 언너 버죡. 혼넌 요쓰?",
+     "ko": "안녕, 나는 안나야. 어디에서 왔어?",
+     "note": "honnan = 어디에서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Koreából jövök. Magyarul tanulok.",
+     "rd": "코레아볼 요뵈크. 머져룰 터눌록.",
+     "ko": "한국에서 왔어. 헝가리어 배우고 있어.",
+     "note": "-ból = ~에서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Szuper! A magyarod már jó.",
+     "rd": "쑤페르! 어 머져로드 마르 요.",
+     "ko": "멋지다! 네 헝가리어 벌써 좋은데.",
+     "note": "már = 벌써",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Köszönöm! Minden nap gyakorlok.",
+     "rd": "쾨쐬뇜! 민덴 넙 죠코를록.",
+     "ko": "고마워! 매일 연습해.",
+     "note": "minden nap = 매일",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Budapesten laksz?",
+     "rd": "부더페슈텐 럭쓰?",
+     "ko": "부다페스트에 살아?",
+     "note": "lakik = 살다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Igen, két hónapja.",
+     "rd": "이겐, 케트 호넙여.",
+     "ko": "응, 두 달 됐어.",
+     "note": "-ja = ~째",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Akkor megmutatom a várost!",
+     "rd": "어꼬르 메그무터톰 어 바로슈트!",
+     "ko": "그럼 내가 도시를 보여 줄게!",
+     "note": "megmutat = 보여 주다",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep2",
+   "title": "카페에서",
+   "emoji": "☕",
+   "scenario": "처음 만나 카페에서 주문한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Mit szeretnél inni?",
+     "rd": "미트 쎄레트넬 인니?",
+     "ko": "뭐 마실래?",
+     "note": "mit = 무엇을",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Egy kávét kérek. És te?",
+     "rd": "에지 카베트 케렉. 에시 테?",
+     "ko": "커피 하나 주세요. 너는?",
+     "note": "kérek = 주세요",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Én teát kérek tejjel.",
+     "rd": "엔 테아트 케렉 테이옐.",
+     "ko": "나는 밀크티로 할게.",
+     "note": "-val/-vel = ~와 함께",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Jó itt a sütemény?",
+     "rd": "요 이트 어 쉬테멘?",
+     "ko": "여기 디저트 맛있어?",
+     "note": "itt = 여기",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Nagyon jó! A rétes a kedvencem.",
+     "rd": "너존 요! 어 레테시 어 케드벤쳄.",
+     "ko": "엄청! 레테시가 내 최애야.",
+     "note": "kedvenc = 좋아하는 것",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Akkor kérünk kettőt.",
+     "rd": "어꼬르 케륀크 케퇴트.",
+     "ko": "그럼 두 개 시키자.",
+     "note": "kérünk = (우리) 주문하다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Tökéletes. Én hívlak meg.",
+     "rd": "퇴켈레테시. 엔 히블럭 메그.",
+     "ko": "완벽해. 내가 살게.",
+     "note": "meghív = 한턱내다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Nem, nem, ma én fizetek!",
+     "rd": "넴, 넴, 머 엔 피제텍!",
+     "ko": "아니 아니, 오늘은 내가 낼게!",
+     "note": "ma = 오늘",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep3",
+   "title": "길 묻기",
+   "emoji": "🗺️",
+   "scenario": "박물관 가는 길을 묻는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Elnézést, hol van a múzeum?",
+     "rd": "엘네제슈트, 홀 번 어 무제움?",
+     "ko": "실례합니다, 박물관이 어디예요?",
+     "note": "hol = 어디",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Menj egyenesen, aztán balra.",
+     "rd": "멘 에제네센, 어즈탄 벌러.",
+     "ko": "직진하다가 왼쪽으로 가.",
+     "note": "egyenesen = 직진",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Messze van?",
+     "rd": "메쎄 번?",
+     "ko": "멀어?",
+     "note": "messze = 먼",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Nem, öt perc gyalog.",
+     "rd": "넴, 외트 페르츠 죨록.",
+     "ko": "아니, 걸어서 5분이야.",
+     "note": "gyalog = 걸어서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Remek. Ma nyitva van?",
+     "rd": "레멕. 머 니트버 번?",
+     "ko": "좋다. 오늘 열었어?",
+     "note": "nyitva = 열린",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Igen, hatig.",
+     "rd": "이겐, 허티그.",
+     "ko": "응, 6시까지.",
+     "note": "-ig = ~까지",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Velem jössz?",
+     "rd": "벨렘 요쓰?",
+     "ko": "같이 갈래?",
+     "note": "velem = 나와 함께",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Szívesen! Imádom a művészetet.",
+     "rd": "씨베센! 이마돔 어 뮈베세테트.",
+     "ko": "좋아! 나 예술 진짜 좋아해.",
+     "note": "szívesen = 기꺼이",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep4",
+   "title": "약속 잡기",
+   "emoji": "📅",
+   "scenario": "주말에 만날 약속을 잡는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Ráérsz szombaton?",
+     "rd": "라에르쓰 쏨버톤?",
+     "ko": "토요일에 시간 있어?",
+     "note": "ráér = 한가하다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Igen, ráérek. Mit csináljunk?",
+     "rd": "이겐, 라에렉. 미트 치날윤크?",
+     "ko": "응, 한가해. 뭐 할까?",
+     "note": "csináljunk = 하자",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Mehetnénk moziba.",
+     "rd": "메헤트넨크 모지버.",
+     "ko": "영화관에 갈 수도 있지.",
+     "note": "mehetnénk = 갈 수 있을 텐데",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Jó ötlet! Hány órakor?",
+     "rd": "요 외틀레트! 한 오러코르?",
+     "ko": "좋은 생각! 몇 시에?",
+     "note": "hány órakor = 몇 시에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Hétkor? Utána eszünk valamit.",
+     "rd": "헤트코르? 우타너 에쐰크 벌러미트.",
+     "ko": "7시? 그 다음에 뭐 좀 먹자.",
+     "note": "utána = 그 후에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Rendben. Hol találkozunk?",
+     "rd": "렌드벤. 홀 털랄코준크?",
+     "ko": "좋아. 어디서 만나?",
+     "note": "találkozik = 만나다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "A Deák téren, az állomás előtt.",
+     "rd": "어 데악 테렌, 어즈 알로마시 엘뢰트.",
+     "ko": "데악 광장, 역 앞에서.",
+     "note": "előtt = ~앞에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Oké, szombaton találkozunk!",
+     "rd": "오케, 쏨버톤 털랄코준크!",
+     "ko": "알았어, 토요일에 봐!",
+     "note": "találkozunk = 만나자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep5",
+   "title": "감정 말하기",
+   "emoji": "💬",
+   "scenario": "영화를 보고 나서 마음을 전한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "A film tényleg szép volt.",
+     "rd": "어 필름 텐레그 셉 볼트.",
+     "ko": "영화 정말 좋았어.",
+     "note": "volt = ~였다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Igen, de a vége szomorú volt.",
+     "rd": "이겐, 데 어 베게 쏘모루 볼트.",
+     "ko": "응, 근데 결말이 슬펐어.",
+     "note": "de = 하지만",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Szeretek veled filmet nézni.",
+     "rd": "쎄레텍 벨레드 필메트 네즈니.",
+     "ko": "너랑 영화 보는 게 좋아.",
+     "note": "veled = 너와",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Én is. Nagyon kedves vagy.",
+     "rd": "엔 이시. 너존 케드베시 버지.",
+     "ko": "나도. 너 참 다정해.",
+     "note": "is = ~도",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Jövő héten újra találkozunk?",
+     "rd": "요뵈 헤텐 우이러 털랄코준크?",
+     "ko": "다음 주에 또 볼까?",
+     "note": "jövő hét = 다음 주",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Persze. Írj nekem!",
+     "rd": "페르쎄. 이르이 네켐!",
+     "ko": "당연하지. 문자해!",
+     "note": "írj = 써(명령)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Írok. Jó éjszakát, Anna.",
+     "rd": "이록. 요 에이써카트, 언너.",
+     "ko": "그럴게. 잘 자, 안나.",
+     "note": "jó éjszakát = 잘 자",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Jó éjszakát, Minjun. Szia!",
+     "rd": "요 에이써카트, 민준. 씨어!",
+     "ko": "잘 자, 민준. 안녕!",
+     "note": "szia = 안녕(양쪽)",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  }
+ ]
 }
