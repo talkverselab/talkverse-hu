@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../core/pane.dart';
 import '../core/theme.dart';
 import '../main.dart';
 import '../widgets/spanish_decor.dart';
@@ -81,10 +82,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                         meta: meta,
                         progress: _progress['${meta.level}/${meta.id}'] ?? (0, 0),
                         onTap: () async {
-                          await Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => EpisodeScreen(meta: meta)),
-                          );
+                          await openPane(context, (_) => EpisodeScreen(meta: meta));
                           _load();
                         },
                       ),

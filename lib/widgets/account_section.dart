@@ -12,10 +12,12 @@ import '../screens/login_screen.dart';
 class AccountSection extends StatelessWidget {
   const AccountSection({super.key});
 
-  BoxDecoration get _box => BoxDecoration(
+  // ListTile 물결이 보이게 Material 로 감싼다(배경색 있는 DecoratedBox 안이면 디버그 경고).
+  static Widget _box({required Widget child}) => Material(
         color: AppColors.cal,
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: AppColors.gualda),
+        clipBehavior: Clip.antiAlias,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14), side: const BorderSide(color: AppColors.gualda)),
+        child: child,
       );
 
   @override
@@ -23,8 +25,7 @@ class AccountSection extends StatelessWidget {
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       ValueListenableBuilder<Map<String, dynamic>?>(
         valueListenable: Account.user,
-        builder: (context, u, _) => Container(
-          decoration: _box,
+        builder: (context, u, _) => _box(
           child: u == null
               ? ListTile(
                   leading: const Icon(Icons.account_circle_outlined, color: AppColors.rojo),
@@ -54,8 +55,7 @@ class AccountSection extends StatelessWidget {
         ),
       ),
       const SizedBox(height: 8),
-      Container(
-        decoration: _box,
+      _box(
         child: Column(children: [
           ValueListenableBuilder<Set<String>>(
             valueListenable: Purchase.owned,
