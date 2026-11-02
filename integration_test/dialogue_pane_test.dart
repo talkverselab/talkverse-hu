@@ -7,6 +7,7 @@ import 'package:hungarian_universe/data/db/app_database.dart';
 import 'package:hungarian_universe/data/db/seed_loader.dart';
 import 'package:hungarian_universe/main.dart';
 import 'package:hungarian_universe/services/achievement_service.dart';
+import 'package:hungarian_universe/services/hu_suffix.dart';
 import 'package:hungarian_universe/services/ko_reading.dart';
 import 'package:hungarian_universe/services/learner_prefs.dart';
 import 'package:integration_test/integration_test.dart';
@@ -38,6 +39,7 @@ void main() {
     await KoReadingPrefs.load();
     await AppLangPrefs.load();
     await LearnerPrefs.load();
+    await HuSuffixes.load();
     await AchievementService.instance.load();
     await t.pumpWidget(const HungarianUniverseApp());
     await wait(t, 1500);
@@ -75,5 +77,16 @@ void main() {
     await t.tap(rail('프로필'));
     await wait(t, 1500);
     await shot(t, '09_profile');
+
+    // 헝가리어 강점 칸(UX 시안 01): 접미사 지도 → 묶음 하나의 회화 문장
+    await t.tap(rail('홈'));
+    await wait(t, 1000);
+    await t.scrollUntilVisible(find.text('Ragok').first, 200, scrollable: find.byType(Scrollable).first);
+    await t.tap(find.text('Ragok').first); // 홈 「접미사」 타일(부제 Ragok)
+    await wait(t, 2000);
+    await shot(t, '10_suffix_map');
+    await t.tap(find.text('~안에서부터(~에서)').first);
+    await wait(t, 1200);
+    await shot(t, '11_suffix_uses');
   });
 }

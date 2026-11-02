@@ -13,6 +13,8 @@ import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import 'achievement_desk.dart';
+import 'suffix_text.dart';
+import '../services/hu_suffix.dart';
 
 /// 「모든 문장 듣기」 재생 패널 — 일본어앱 Grok UXUI 시안 02 「만화책 읽기형」을 옮김(2026-11-02, 일본어앱 `data/review/uxui/sian_02.md`).
 ///
@@ -236,7 +238,7 @@ class _Script extends StatelessWidget {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(LearnerPrefs.fill(t.tl), style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+                        SuffixText(LearnerPrefs.fill(t.tl), others: [for (final x in d.turns) LearnerPrefs.fill(x.tl)], style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
                         if (showGloss && t.gloss.isNotEmpty && t.gloss != t.tl) Text(t.gloss, style: const TextStyle(fontSize: 11, color: AppColors.ai, fontWeight: FontWeight.w600)),
                         if (showRd && t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
                         if (showKo) Text(LearnerPrefs.fill(t.ko, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.sumiLight, height: 1.35)),
@@ -328,7 +330,7 @@ class _Caption extends StatelessWidget {
         child: Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(LearnerPrefs.fill(turn.tl), style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+              SuffixText(LearnerPrefs.fill(turn.tl), others: [for (final x in d.turns) LearnerPrefs.fill(x.tl)], style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
               if (showGloss && turn.gloss.isNotEmpty && turn.gloss != turn.tl) Text(turn.gloss, style: const TextStyle(fontSize: 12, color: AppColors.ai, fontWeight: FontWeight.w600)),
               if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
               if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko, ko: true), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),
@@ -409,6 +411,7 @@ class _ControlBar extends StatelessWidget {
       Text(tr('자막'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.sumi)),
       const SizedBox(width: 4),
       chip('Magyar', true, null, fixed: true),
+      ValueListenableBuilder<bool>(valueListenable: HuSuffixes.show, builder: (_, on, _) => chip('접미사', on, () => HuSuffixes.show.value = !on)), // 헝가리어 강점 칸(UX 시안 01)
       if (hasGloss) chip('단어 뜻', showGloss, onGloss), // 헝가리어 데이터엔 아직 단어 뜻 칸이 없다
       if (hasRd) chip('독음', showRd, onRd),
       chip('한국어', showKo, onKo),

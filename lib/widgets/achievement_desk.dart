@@ -6,6 +6,7 @@ import '../core/theme.dart';
 import '../services/achievement_service.dart';
 import '../services/dialogue_service.dart';
 import 'spanish_decor.dart';
+import '../services/hu_suffix.dart';
 
 /// 「나」 탭 성과 데스크 — 일본어앱에서 옮김(시안 02 §5·wire_02). 큰 숫자 대신 문장 + 작은 진행 막대. 경쟁·순위·포인트·스트릭 없음.
 class AchievementDesk extends StatefulWidget {
@@ -85,6 +86,11 @@ class _WeekLine extends StatelessWidget {
         Text(line, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
         const SizedBox(height: 4),
         Text(trf('편 {0} 완주 · 그림 카드 {1}장 맞음', [e, c]), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
+        // 헝가리어 강점 한 줄(UX 시안 01) — 시트를 열어 본 접미사 짝 수
+        ValueListenableBuilder<Set<String>>(
+          valueListenable: HuSuffixes.seen,
+          builder: (_, s, _) => Text(trf('만난 접미사 {0}종', [s.length]), style: const TextStyle(fontSize: 11.5, color: AppColors.beni, fontWeight: FontWeight.w700)),
+        ),
       ]),
     );
   }

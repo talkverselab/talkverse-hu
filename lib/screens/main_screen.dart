@@ -13,6 +13,7 @@ import 'grammar_lesson_screen.dart';
 import 'profile_screen.dart';
 import 'sentence_flashcard_screen.dart';
 import 'speaking_practice_screen.dart';
+import 'suffix_map_screen.dart';
 import 'progress_screen.dart';
 import 'topic_vocab_screen.dart';
 import 'verb_screen.dart';
@@ -377,6 +378,8 @@ class _MenuGrid extends StatelessWidget {
         builder: (_) => const SpeakingPracticeScreen()),
       _MenuItem(label: tr('청크 검색'), sub: 'Keresés', badge: '🔍', color: AppColors.gualdaDeep,
         builder: (_) => const ChunkSearchScreen()),
+      _MenuItem(label: tr('접미사'), sub: 'Ragok', badge: '-ból', color: AppColors.beni, // 헝가리어 강점(UX 시안 01)
+        builder: (_) => const SuffixMapScreen()),
       _MenuItem(label: tr('동사 활용'), sub: 'Ragozás', badge: 'V', color: AppColors.irregular,
         builder: (_) => const VerbScreen()),
       _MenuItem(label: tr('단어'), sub: 'Szókincs', badge: 'W', color: AppColors.oliva,
