@@ -136,6 +136,7 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
   절차: `docs/ios-build-and-testflight.md`.
 - `ios/Runner/Info.plist` 에 마이크·음성 인식 권한 문구가 있다(말하기 연습). 지우면 iOS 에서 크래시.
 - `release.yml`(Android) 은 `ios/**`·`docs/**`·`tools/**` 만 바뀐 푸시는 건너뛴다.
+- **맥미니(M6) TestFlight 배포(2026-11-03 첫 업로드 성공, 빌드 2611030117)**: `bash tools/ios_release.sh`(백그라운드, 8~12분) — 아카이브 → 자동 서명 export → PC `D:\OneDrive\app project\hungarian_universe\ios\` 백업 → App Store Connect 업로드. 번들 ID `com.talkverse.hungarianUniverse`, 빌드 번호 = KST 시각. 빌드 뒤 `ios/` 의 pbxproj(CocoaPods·SwiftPM 줄)·xcscheme·xcworkspace 잡음은 되돌린다(pbxproj 는 팀 ID 6줄 + entitlements 3줄 + capability 만 커밋). 아이콘은 talkverse.uk 세션 담당.
 
 ## 8. Zealot 무선 설치 (apps.talkverse.uk) — 2026-10-11
 
