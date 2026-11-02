@@ -144,6 +144,12 @@ const Map<String, String> kDictEn = {
   '삭제': 'Delete',
   '삭제하지 못했습니다. 네트워크를 확인하고 다시 시도해 주세요.': 'Could not delete. Check your connection and try again.',
   '계정': 'Account',
+  // 헝가리어앱 화면 문구(스페인어 템플릿 흔적 교체, 2026-11-03)
+  'Hamarosan · 준비 중': 'Hamarosan · coming soon',
+  '발음 (gy · sz · 장모음)': 'Pronunciation (gy · sz · long vowels)',
+  '진행 · Haladás': 'Progress',
+  '1. nap · 입문 (A1)': 'Day 1 · Beginner (A1)',
+  '낮 · talkverse.uk 톤 (자두 #8E3F87)': 'Light · talkverse.uk tone (plum #8E3F87)',
 };
 
 const Map<String, String> kDictJa = {
@@ -276,6 +282,12 @@ const Map<String, String> kDictJa = {
   '삭제': '削除',
   '삭제하지 못했습니다. 네트워크를 확인하고 다시 시도해 주세요.': '削除できませんでした。ネットワークを確認してもう一度お試しください。',
   '계정': 'アカウント',
+  // 헝가리어앱 화면 문구(스페인어 템플릿 흔적 교체, 2026-11-03)
+  'Hamarosan · 준비 중': 'Hamarosan · 準備中',
+  '발음 (gy · sz · 장모음)': '発音 (gy · sz · 長母音)',
+  '진행 · Haladás': '進捗',
+  '1. nap · 입문 (A1)': 'Day 1 · 入門 (A1)',
+  '낮 · talkverse.uk 톤 (자두 #8E3F87)': 'ライト · talkverse.uk トーン (プラム #8E3F87)',
 };
 
 const Map<String, String> kDictZh = {
@@ -408,4 +420,10 @@ const Map<String, String> kDictZh = {
   '삭제': '删除',
   '삭제하지 못했습니다. 네트워크를 확인하고 다시 시도해 주세요.': '删除失败。请检查网络后重试。',
   '계정': '账户',
+  // 헝가리어앱 화면 문구(스페인어 템플릿 흔적 교체, 2026-11-03)
+  'Hamarosan · 준비 중': 'Hamarosan · 即将推出',
+  '발음 (gy · sz · 장모음)': '发音 (gy · sz · 长元音)',
+  '진행 · Haladás': '进度',
+  '1. nap · 입문 (A1)': '第1天 · 入门 (A1)',
+  '낮 · talkverse.uk 톤 (자두 #8E3F87)': '浅色 · talkverse.uk 风格 (梅紫 #8E3F87)',
 };

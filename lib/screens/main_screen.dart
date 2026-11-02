@@ -156,7 +156,7 @@ class HomeScreen extends StatelessWidget {
                           Row(
                             children: const [
                               Text(
-                                '¡Hola!',
+                                'Szia!',
                                 style: TextStyle(
                                   fontSize: 28,
                                   fontWeight: FontWeight.w700,
@@ -319,7 +319,7 @@ class _TodayMissionState extends State<_TodayMission> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              meta.level == 'L1' ? 'PRINCIPIANTE 1' : meta.level,
+              meta.level == 'L1' ? 'KEZDŐ 1' : meta.level, // 헝가리어 「초급」
               style: const TextStyle(
                 color: AppColors.gualdaBright,
                 fontSize: 11,
@@ -387,10 +387,10 @@ class _MenuGrid extends StatelessWidget {
             asset: 'assets/data/vocab/travel_expressions.json')),
       _MenuItem(label: tr('빈도 단어'), sub: 'Gyakoriság', badge: 'F', color: AppColors.magyar,
         builder: (_) => const WordFreqScreen()),
-      _MenuItem(label: tr('성·수'), sub: 'Nem', badge: 'el/la', color: AppColors.mar,
+      _MenuItem(label: tr('성·수'), sub: 'Nem', badge: 'a/az', color: AppColors.mar,
         builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
-      _MenuItem(label: tr('발음'), sub: 'Kiejtés', badge: 'rr', color: AppColors.er,
-        builder: (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)'))),
+      _MenuItem(label: tr('발음'), sub: 'Kiejtés', badge: 'gy', color: AppColors.er,
+        builder: (_) => _ComingSoon(title: tr('발음 (gy · sz · 장모음)'))),
       _MenuItem(label: tr('단어 카드'), sub: 'Kártyák', badge: 'R', color: AppColors.gualdaDeep,
         builder: (_) => const WordFlashcardScreen()),
     ];
@@ -484,7 +484,7 @@ class _ComingSoon extends StatelessWidget {
       appBar: AppBar(title: Text(title)),
       body: Center(
         child: Text(
-          tr('Próximamente · 준비 중'),
+          tr('Hamarosan · 준비 중'),
           style: TextStyle(color: AppColors.tintaLight, letterSpacing: 2),
         ),
       ),
