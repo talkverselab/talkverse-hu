@@ -8,21 +8,34 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'app_database.dart';
 
 class SeedLoader {
-  // v1: 초기 시드 (L1 샘플 대화 + 빈도 단어 + 핵심 동사)
-  static const _kSeededKey = 'db_seeded_v2'; // v2: 독음(rd) + 회화 초안
+  /// 번들 `assets/data/version.json` 의 `db`(업데이트 번호)와 저장된 번호가 다르면 DB 를 다시 채운다(사용자 지시 2026-11-04, 일본어앱과 같음).
+  /// 데이터를 바꿀 때 version.json 의 번호만 올린다. 다시 채우면 회화 학습 기록(user_progress)도 지워지니 꼭 필요할 때만.
+  static const _kDbVersion = 'db_version';
+  static const _kOldSeeded = 'db_seeded_v2'; // 옛 키 — 이미 v2 로 채운 기기는 번호 2 로 본다(학습 기록 보존)
 
   final AppDatabase db;
   SeedLoader(this.db);
 
   Future<void> seedIfNeeded() async {
     final prefs = await SharedPreferences.getInstance();
-    if (prefs.getBool(_kSeededKey) == true) return;
+    final bundled = await bundledVersion();
+    if (prefs.getInt(_kDbVersion) == null && prefs.getBool(_kOldSeeded) == true) await prefs.setInt(_kDbVersion, 2);
+    if (prefs.getInt(_kDbVersion) == bundled) return;
 
     await _seedWords();
     await _seedVerbs();
     await _seedTurns();
 
-    await prefs.setBool(_kSeededKey, true);
+    await prefs.setInt(_kDbVersion, bundled);
+  }
+
+  static Future<int> bundledVersion() async {
+    try {
+      final j = json.decode(await rootBundle.loadString('assets/data/version.json')) as Map<String, dynamic>;
+      return (j['db'] as num).toInt();
+    } catch (_) {
+      return 0;
+    }
   }
 
   static String? _s(dynamic v) {

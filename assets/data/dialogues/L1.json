@@ -41,6 +41,18 @@
      "note": "vagyok = 나는 ~이다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Szia",
+       "szia",
+       "씨어"
+      ],
+      [
+       "vagyok",
+       "van",
+       "번"
+      ]
      ]
     },
     {
@@ -52,6 +64,23 @@
      "note": "honnan = 어디에서",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Szia",
+       "szia",
+       "씨어"
+      ],
+      [
+       "vagyok",
+       "van",
+       "번"
+      ],
+      [
+       "jössz",
+       "jön",
+       "왼"
+      ]
      ]
     },
     {
@@ -63,6 +92,23 @@
      "note": "-ból = ~에서",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Koreából",
+       "korea",
+       ""
+      ],
+      [
+       "jövök",
+       "jön",
+       "왼"
+      ],
+      [
+       "tanulok",
+       "tanul",
+       "타눌"
+      ]
      ]
     },
     {
@@ -74,6 +120,28 @@
      "note": "már = 벌써",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Szuper",
+       "szuper",
+       "쑤페르"
+      ],
+      [
+       "magyarod",
+       "magyarod",
+       ""
+      ],
+      [
+       "már",
+       "már",
+       "마르"
+      ],
+      [
+       "jó",
+       "jó",
+       "요"
+      ]
      ]
     },
     {
@@ -85,6 +153,23 @@
      "note": "minden nap = 매일",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Köszönöm",
+       "köszön",
+       "쾨쇠니"
+      ],
+      [
+       "nap",
+       "nap",
+       "넙"
+      ],
+      [
+       "gyakorlok",
+       "gyakor",
+       ""
+      ]
      ]
     },
     {
@@ -96,6 +181,18 @@
      "note": "lakik = 살다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Budapesten",
+       "budapest",
+       ""
+      ],
+      [
+       "laksz",
+       "laksz",
+       ""
+      ]
      ]
     },
     {
@@ -107,6 +204,18 @@
      "note": "-ja = ~째",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Igen",
+       "igen",
+       "이겐"
+      ],
+      [
+       "hónapja",
+       "hónap",
+       "호넙"
+      ]
      ]
     },
     {
@@ -118,6 +227,23 @@
      "note": "megmutat = 보여 주다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Akkor",
+       "akkor",
+       "어꼬르"
+      ],
+      [
+       "megmutatom",
+       "megmutat",
+       "메그무타트"
+      ],
+      [
+       "várost",
+       "város",
+       "버로슈"
+      ]
      ]
     }
    ]
@@ -137,6 +263,18 @@
      "note": "mit = 무엇을",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "szeretnél",
+       "szeret",
+       "쎄레트"
+      ],
+      [
+       "inni",
+       "iszik",
+       "이식"
+      ]
      ]
     },
     {
@@ -148,6 +286,18 @@
      "note": "kérek = 주세요",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "kávét",
+       "kávé",
+       "카베"
+      ],
+      [
+       "kérek",
+       "kér",
+       "께르"
+      ]
      ]
     },
     {
@@ -159,6 +309,23 @@
      "note": "-val/-vel = ~와 함께",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "teát",
+       "tea",
+       ""
+      ],
+      [
+       "kérek",
+       "kér",
+       "께르"
+      ],
+      [
+       "tejjel",
+       "tej",
+       ""
+      ]
      ]
     },
     {
@@ -170,6 +337,23 @@
      "note": "itt = 여기",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Jó",
+       "jó",
+       "요"
+      ],
+      [
+       "itt",
+       "itt",
+       "이트"
+      ],
+      [
+       "sütemény",
+       "sütemény",
+       ""
+      ]
      ]
     },
     {
@@ -181,6 +365,28 @@
      "note": "kedvenc = 좋아하는 것",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Nagyon",
+       "nagyon",
+       "너존"
+      ],
+      [
+       "jó",
+       "jó",
+       "요"
+      ],
+      [
+       "rétes",
+       "rétes",
+       ""
+      ],
+      [
+       "kedvencem",
+       "kedvencem",
+       ""
+      ]
      ]
     },
     {
@@ -192,6 +398,18 @@
      "note": "kérünk = (우리) 주문하다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Akkor",
+       "akkor",
+       "어꼬르"
+      ],
+      [
+       "kérünk",
+       "kér",
+       "께르"
+      ]
      ]
     },
     {
@@ -203,6 +421,18 @@
      "note": "meghív = 한턱내다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Tökéletes",
+       "tökéletes",
+       "퇴켈레시"
+      ],
+      [
+       "hívlak",
+       "hívlak",
+       ""
+      ]
      ]
     },
     {
@@ -214,6 +444,18 @@
      "note": "ma = 오늘",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "ma",
+       "ma",
+       "머"
+      ],
+      [
+       "fizetek",
+       "fizet",
+       "피제트"
+      ]
      ]
     }
    ]
@@ -233,6 +475,28 @@
      "note": "hol = 어디",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Elnézést",
+       "elnézés",
+       "엘네제시"
+      ],
+      [
+       "hol",
+       "hol",
+       "홀"
+      ],
+      [
+       "van",
+       "van",
+       "번"
+      ],
+      [
+       "múzeum",
+       "múzeum",
+       ""
+      ]
      ]
     },
     {
@@ -244,6 +508,28 @@
      "note": "egyenesen = 직진",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Menj",
+       "megy",
+       "메지"
+      ],
+      [
+       "egyenesen",
+       "egyenes",
+       "에제녜시"
+      ],
+      [
+       "aztán",
+       "aztán",
+       "어스탄"
+      ],
+      [
+       "balra",
+       "bal",
+       "벌"
+      ]
      ]
     },
     {
@@ -255,6 +541,18 @@
      "note": "messze = 먼",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Messze",
+       "messze",
+       "메쎄"
+      ],
+      [
+       "van",
+       "van",
+       "번"
+      ]
      ]
     },
     {
@@ -266,6 +564,18 @@
      "note": "gyalog = 걸어서",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "perc",
+       "perc",
+       "페르츠"
+      ],
+      [
+       "gyalog",
+       "gyalog",
+       ""
+      ]
      ]
     },
     {
@@ -277,6 +587,23 @@
      "note": "nyitva = 열린",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Remek",
+       "remek",
+       "레멕"
+      ],
+      [
+       "nyitva",
+       "nyit",
+       "니트"
+      ],
+      [
+       "van",
+       "van",
+       "번"
+      ]
      ]
     },
     {
@@ -288,6 +615,13 @@
      "note": "-ig = ~까지",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Igen",
+       "igen",
+       "이겐"
+      ]
      ]
     },
     {
@@ -299,6 +633,13 @@
      "note": "velem = 나와 함께",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "jössz",
+       "jön",
+       "왼"
+      ]
      ]
     },
     {
@@ -310,6 +651,18 @@
      "note": "szívesen = 기꺼이",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Szívesen",
+       "szíves",
+       "시베시"
+      ],
+      [
+       "művészetet",
+       "művészet",
+       ""
+      ]
      ]
     }
    ]
@@ -329,6 +682,18 @@
      "note": "ráér = 한가하다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Ráérsz",
+       "ráérik",
+       ""
+      ],
+      [
+       "szombaton",
+       "szombat",
+       ""
+      ]
      ]
     },
     {
@@ -340,6 +705,23 @@
      "note": "csináljunk = 하자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Igen",
+       "igen",
+       "이겐"
+      ],
+      [
+       "ráérek",
+       "ráér",
+       ""
+      ],
+      [
+       "csináljunk",
+       "csinál",
+       "치날"
+      ]
      ]
     },
     {
@@ -351,6 +733,18 @@
      "note": "mehetnénk = 갈 수 있을 텐데",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Mehetnénk",
+       "megy",
+       "메지"
+      ],
+      [
+       "moziba",
+       "mozi",
+       ""
+      ]
      ]
     },
     {
@@ -362,6 +756,23 @@
      "note": "hány órakor = 몇 시에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Jó",
+       "jó",
+       "요"
+      ],
+      [
+       "ötlet",
+       "ötlet",
+       "외틀레트"
+      ],
+      [
+       "órakor",
+       "óra",
+       "오러"
+      ]
      ]
     },
     {
@@ -373,6 +784,18 @@
      "note": "utána = 그 후에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Hétkor",
+       "hétkor",
+       ""
+      ],
+      [
+       "eszünk",
+       "eszik",
+       "에식"
+      ]
      ]
     },
     {
@@ -384,6 +807,18 @@
      "note": "találkozik = 만나다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Rendben",
+       "rend",
+       "렌드"
+      ],
+      [
+       "találkozunk",
+       "találkozik",
+       "털랄코지크"
+      ]
      ]
     },
     {
@@ -395,6 +830,18 @@
      "note": "előtt = ~앞에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "téren",
+       "tér",
+       "테르"
+      ],
+      [
+       "állomás",
+       "állomás",
+       ""
+      ]
      ]
     },
     {
@@ -406,6 +853,23 @@
      "note": "találkozunk = 만나자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Oké",
+       "oké",
+       "오케"
+      ],
+      [
+       "szombaton",
+       "szombat",
+       ""
+      ],
+      [
+       "találkozunk",
+       "találkozik",
+       "털랄코지크"
+      ]
      ]
     }
    ]
@@ -425,6 +889,28 @@
      "note": "volt = ~였다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "film",
+       "film",
+       "필름"
+      ],
+      [
+       "tényleg",
+       "tényleg",
+       "테니렉"
+      ],
+      [
+       "szép",
+       "szép",
+       "쎕"
+      ],
+      [
+       "volt",
+       "van",
+       "번"
+      ]
      ]
     },
     {
@@ -436,6 +922,28 @@
      "note": "de = 하지만",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Igen",
+       "igen",
+       "이겐"
+      ],
+      [
+       "vége",
+       "vég",
+       "베그"
+      ],
+      [
+       "szomorú",
+       "szomorú",
+       "쏘모루"
+      ],
+      [
+       "volt",
+       "van",
+       "번"
+      ]
      ]
     },
     {
@@ -447,6 +955,23 @@
      "note": "veled = 너와",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Szeretek",
+       "szeret",
+       "쎄레트"
+      ],
+      [
+       "filmet",
+       "film",
+       "필름"
+      ],
+      [
+       "nézni",
+       "néz",
+       "네즈"
+      ]
      ]
     },
     {
@@ -458,6 +983,13 @@
      "note": "is = ~도",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "kedves",
+       "kedves",
+       "케드베슈"
+      ]
      ]
     },
     {
@@ -469,6 +1001,28 @@
      "note": "jövő hét = 다음 주",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Jövő",
+       "jövő",
+       "요뵈"
+      ],
+      [
+       "héten",
+       "hét",
+       "헤트"
+      ],
+      [
+       "újra",
+       "újra",
+       "우이러"
+      ],
+      [
+       "találkozunk",
+       "találkozik",
+       "털랄코지크"
+      ]
      ]
     },
     {
@@ -480,6 +1034,13 @@
      "note": "írj = 써(명령)",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Persze",
+       "persze",
+       "페르쎄"
+      ]
      ]
     },
     {
@@ -491,6 +1052,18 @@
      "note": "jó éjszakát = 잘 자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Írok",
+       "ír",
+       "이르"
+      ],
+      [
+       "éjszakát",
+       "éjszaka",
+       ""
+      ]
      ]
     },
     {
@@ -502,6 +1075,18 @@
      "note": "szia = 안녕(양쪽)",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Jó",
+       "jó",
+       "요"
+      ],
+      [
+       "éjszakát",
+       "éjszaka",
+       ""
+      ]
      ]
     }
    ]
