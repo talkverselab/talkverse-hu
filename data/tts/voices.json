@@ -53,67 +53,67 @@
  },
  "emotions": {
   "neutral": {
-   "instruct": "calm and natural, everyday tone",
+   "instruct": "calm and natural, everyday tone, natural conversational pace, subtle",
    "ref": "I have a meeting this afternoon, so I am preparing the documents now."
   },
   "polite": {
-   "instruct": "polite and professional, like a clerk or station staff",
+   "instruct": "polite and professional, like a clerk or station staff, natural conversational pace, subtle",
    "ref": "Good afternoon. Your order is ready. Please enjoy your meal."
   },
   "stiff": {
-   "instruct": "very nervous and stiff, formal and overly polite",
+   "instruct": "very nervous and stiff, formal and overly polite, natural conversational pace, subtle",
    "ref": "Thank you very much for your time today. I will do my very best."
   },
   "cheerful": {
-   "instruct": "cheerful, bright and friendly",
+   "instruct": "cheerful, bright and friendly, natural conversational pace, subtle",
    "ref": "Oh, you made it! The weather is great and I feel wonderful today."
   },
   "amused": {
-   "instruct": "amused, laughing warmly, relaxed",
+   "instruct": "amused, laughing warmly, relaxed, natural conversational pace, subtle",
    "ref": "Ha ha, that is so funny. Yes, keep going just like that."
   },
   "teasing": {
-   "instruct": "teasing, playful and mischievous",
+   "instruct": "teasing, playful and mischievous, natural conversational pace, subtle",
    "ref": "Oh, what is that face? Come on, be honest. I will not tell anyone."
   },
   "excited": {
-   "instruct": "excited, bursting with energy, bright and loud",
+   "instruct": "excited, bursting with energy, bright and loud, natural conversational pace, subtle",
    "ref": "No way, this is amazing! We really have to go there right now!"
   },
   "surprised": {
-   "instruct": "surprised, caught off guard, voice jumps",
+   "instruct": "surprised, caught off guard, voice jumps, natural conversational pace, subtle",
    "ref": "Wait, what? Really? I had no idea at all!"
   },
   "shout": {
-   "instruct": "surprised and loud, an exaggerated comic retort",
-   "ref": "Hey! What are you doing? Stop it right now!"
+   "instruct": "loud comic retort, not screaming, natural conversational pace, subtle",
+   "ref": "Hey! What are you doing? Come on!"
   },
   "tsukkomi": {
-   "instruct": "a quick sharp comic retort, exasperated but fond",
+   "instruct": "a quick sharp comic retort, exasperated but fond, natural conversational pace, subtle",
    "ref": "Oh come on, that is not what I said at all!"
   },
   "annoyed": {
-   "instruct": "annoyed, irritated, sighing",
+   "instruct": "annoyed, irritated, sighing, natural conversational pace, subtle",
    "ref": "Seriously, again? I told you this three times already."
   },
   "sad": {
-   "instruct": "sad, quiet, voice slightly trembling",
+   "instruct": "a little sad and quiet, natural conversational pace, subtle",
    "ref": "I see. I thought it would be different this time."
   },
   "worried": {
-   "instruct": "worried and anxious, hesitant",
+   "instruct": "a little worried, hesitant, natural conversational pace, subtle",
    "ref": "Are you sure it is okay? I really do not know about this."
   },
   "flustered": {
-   "instruct": "flustered and embarrassed, stammering, unsure",
+   "instruct": "a little embarrassed and unsure, natural conversational pace, subtle",
    "ref": "Oh, no, I did not mean that, I just, um, sorry."
   },
   "shy": {
-   "instruct": "shy, soft, slightly trailing off",
+   "instruct": "shy, soft, slightly trailing off, natural conversational pace, subtle",
    "ref": "Well, if you are free, maybe we could go together."
   },
   "gentle": {
-   "instruct": "gentle, warm and tender, quiet",
+   "instruct": "gentle, warm and tender, quiet, natural conversational pace, subtle",
    "ref": "It is all right. I am here, so take your time."
   }
  },

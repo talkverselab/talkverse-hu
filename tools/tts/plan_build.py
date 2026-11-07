@@ -25,7 +25,8 @@ def voice(name):
 
 
 def clean(s):
-    s = re.sub(r'\([^)]*\)', '', s)
+    s = re.sub(r'\([^)]*\)', '', s).replace('…', ',').replace('...', ',')
+    s = re.sub(r',\s*([,.!?])', r'\1', s).strip(' ,')
     s = re.sub(r'[\U0001F000-\U0001FAFF☀-➿️‍]', '', s)
     return re.sub(r'\s+', ' ', s).strip()
 

@@ -55,3 +55,15 @@ def seg_files(ep):
 
 def planned():
     return sorted(os.path.basename(p)[:-5] for p in glob.glob(f'{R}/data/tts/plan/*.json') if os.path.basename(p)[:-5] in EP)
+
+
+VOX = '_vox'
+OUT = 'hu'
+
+
+def base(ep):
+    return ep[:-len(VOX)] if ep.endswith(VOX) else ep
+
+
+def job(ep, name, voice, emo, text, out=None):
+    return {'out': out or f'{OUT}/{ep}/{name}', 'text': text, 'language': 'Hungarian', 'reference': f'out/ref_hu/{voice}_{emo}.wav'}
