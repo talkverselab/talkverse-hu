@@ -1,0 +1,436 @@
+{
+ "id": "r2_travel_b1",
+ "region": "R2",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "온천의 고수",
+ "emoji": "♟️",
+ "scene": "온천 물속 체스판. 말 움직이는 법도 모르는 {name} 이 한 판만 두기로 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bácsi",
+  "C": "Dávid"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "할 줄 아는 정도 말하기(tudok + 동사원형)",
+ "expressions": [
+  "Figyelj",
+  "Komolyan",
+  "Durva",
+  "rendben",
+  "egy pillanat",
+  "Úristen",
+  "Naná"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "hu": "Figyelj, ezek a bácsik a vízben sakkoznak. Komolyan.",
+   "rd": "피젤이, 에젝 어 바칙 어 비즈벤 셔꼬즈넉. 코모연.",
+   "ko": "야, 저 할아버지들 물속에서 체스 둔다. 진짜로.",
+   "note": "sakkozik = 체스를 두다",
+   "tags": [
+    "expr:Figyelj",
+    "expr:Komolyan"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "bácsik",
+     "bácsi",
+     ""
+    ],
+    [
+     "vízben",
+     "víz",
+     "비즈"
+    ],
+    [
+     "sakkoznak",
+     "sakkozik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Durva. Én csak egy kicsit tudok sakkozni.",
+   "rd": "두르버. 엔 척 에지 키치트 투독 셔꼬즈니.",
+   "ko": "대박. 난 체스 조금밖에 못 둬.",
+   "note": "tudok + 동사원형 = ~할 줄 안다",
+   "tags": [
+    "expr:Durva"
+   ],
+   "lemmas": [
+    [
+     "Durva",
+     "durva",
+     "두르버"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "tudok",
+     "tud",
+     "투드"
+    ],
+    [
+     "sakkozni",
+     "sakkozik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Na, ülj ide! Harminc éve senki nem győzött le engem.",
+   "rd": "너, 윌이 이데! 허르민츠 에베 센키 넴 죄죄트 레 엔겜.",
+   "ko": "자, 여기 앉아! 30년째 나를 이긴 사람이 없어.",
+   "note": "legyőz = 이기다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "ülj",
+     "ülj",
+     "위이"
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "győzött",
+     "győz",
+     "죄즈"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Jól van, de csak egy partit, rendben?",
+   "rd": "욜 번, 데 척 에지 퍼르티트, 렌드벤?",
+   "ko": "좋아요, 그런데 한 판만요, 괜찮죠?",
+   "note": "parti = (체스) 한 판",
+   "tags": [
+    "expr:rendben"
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "partit",
+     "parti",
+     "퍼르티"
+    ],
+    [
+     "rendben",
+     "rend",
+     "렌드"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Mit csinálsz? Ezt a lovat miért oda tetted?",
+   "rd": "미트 치날쓰? 에즈트 어 로버트 미에르트 오더 테떼드?",
+   "ko": "뭐 해? 왜 그 말을 저기 놨어?",
+   "note": "ló → lovat = 말을",
+   "tags": [],
+   "lemmas": [
+    [
+     "csinálsz",
+     "csinál",
+     "치날"
+    ],
+    [
+     "lovat",
+     "lova",
+     ""
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "oda",
+     "oda",
+     "오더"
+    ],
+    [
+     "tetted",
+     "tetted",
+     "테테드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Nem tudom. Szép volt ott.",
+   "rd": "넴 투돔. 쎄프 볼트 오트.",
+   "ko": "몰라. 거기가 예뻐서.",
+   "note": "volt = ~였다",
+   "tags": [],
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Várj, egy pillanat, ez matt! Úristen, harminc év!",
+   "rd": "바르이, 에지 필러너트, 에즈 머트! 우리슈텐, 허르민츠 에브!",
+   "ko": "잠깐, 잠깐만, 이거 외통이야! 세상에, 30년인데!",
+   "note": "matt = 외통수",
+   "tags": [
+    "expr:egy pillanat",
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "pillanat",
+     "pillanat",
+     "필러넛"
+    ],
+    [
+     "matt",
+     "matt",
+     ""
+    ],
+    [
+     "harminc",
+     "harminc",
+     ""
+    ],
+    [
+     "év",
+     "év",
+     "에브"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Az egész fürdő ide jön! Mindenki téged néz!",
+   "rd": "어즈 에게쓰 퓌르되 이데 욘! 민덴키 테게드 네즈!",
+   "ko": "온천 사람들 다 이쪽으로 와! 다들 널 보고 있어!",
+   "note": "az egész = 전체",
+   "tags": [],
+   "lemmas": [
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "fürdő",
+     "fürdő",
+     ""
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "néz",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Holnap jön a másik fürdő csapata. Te játszol helyettem!",
+   "rd": "홀너프 욘 어 마식 퓌르되 처퍼터. 테 야트쏠 헤예뗌!",
+   "ko": "내일 다른 온천 팀이 와. 네가 나 대신 둬!",
+   "note": "helyettem = 나 대신",
+   "tags": [],
+   "lemmas": [
+    [
+     "Holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "fürdő",
+     "fürdő",
+     ""
+    ],
+    [
+     "csapata",
+     "csapat",
+     "처펏"
+    ],
+    [
+     "játszol",
+     "játszik",
+     "야찍"
+    ],
+    [
+     "helyettem",
+     "helyette",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Mi van? Azt se tudom, hogyan lép a ló!",
+   "rd": "미 번? 어즈트 세 투돔, 호젼 레프 어 로!",
+   "ko": "네? 저는 말이 어떻게 움직이는지도 몰라요!",
+   "note": "azt se tudom = 그것조차 모른다",
+   "tags": [],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "hogyan",
+     "hogyan",
+     "호전"
+    ],
+    [
+     "lép",
+     "lép",
+     "렙"
+    ],
+    [
+     "ló",
+     "ló",
+     "로"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Naná. Ezért nem látja senki, mit fogsz lépni.",
+   "rd": "너나. 에제르트 넴 라트여 센키, 미트 폭쓰 레프니.",
+   "ko": "당연하지. 그래서 아무도 네 수를 못 읽는 거야.",
+   "note": "fogsz + 동사원형 = ~할 것이다",
+   "tags": [
+    "expr:Naná"
+   ],
+   "lemmas": [
+    [
+     "Naná",
+     "naná",
+     ""
+    ],
+    [
+     "látja",
+     "lát",
+     "라트"
+    ],
+    [
+     "fogsz",
+     "fog",
+     "포그"
+    ],
+    [
+     "lépni",
+     "lép",
+     "렙"
+    ]
+   ]
+  }
+ ]
+}

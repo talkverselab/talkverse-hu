@@ -1,0 +1,215 @@
+{
+ "id": "r1_friends_a2",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "손 흔들었을 뿐인데",
+ "emoji": "🪑",
+ "scene": "벼룩시장 경매 한복판. 멀리 있는 Réka 를 보고 손을 흔든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Eladó"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "숫자·값 알아듣기, 부정 명령 ne ~ 익히기",
+ "expressions": [
+  "Hé",
+  "Jaj",
+  "Mi van?",
+  "Szuper"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "hu": "Ki ad ezer forintot?",
+   "rd": "키 어드 에제르 포린토트?",
+   "ko": "천 포린트 내실 분?",
+   "note": "ezer = 천",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ki",
+     "ki",
+     "키"
+    ],
+    [
+     "ad",
+     "ad",
+     "어드"
+    ],
+    [
+     "forintot",
+     "forint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Réka! Hé, itt vagyok!",
+   "rd": "레커! 헤, 이트 버죡!",
+   "ko": "레카! 야, 나 여기 있어!",
+   "note": "hé = 야, 저기",
+   "tags": [
+    "expr:Hé"
+   ],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Ezer forint! Ki ad többet?",
+   "rd": "에제르 포린트! 키 어드 퇴베트?",
+   "ko": "천 포린트! 더 내실 분?",
+   "note": "többet = 더 많이",
+   "tags": [],
+   "lemmas": [
+    [
+     "forint",
+     "forint",
+     ""
+    ],
+    [
+     "ad",
+     "ad",
+     "어드"
+    ],
+    [
+     "többet",
+     "több",
+     "퇴그"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Jaj, ne integess!",
+   "rd": "여이, 네 인테게시!",
+   "ko": "아이고, 손 흔들지 마!",
+   "note": "ne integess = 손 흔들지 마",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "integess",
+     "integess",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Mi van? Hol vagy?",
+   "rd": "미 번? 홀 버지?",
+   "ko": "뭐? 어디 있어?",
+   "note": "Mi van? = 뭐?, 뭐야?",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Kétezer! Szuper, köszönöm!",
+   "rd": "케테제르! 쑤페르, 쾨쐬뇜!",
+   "ko": "이천! 좋습니다, 감사합니다!",
+   "note": "kétezer = 이천",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "lemmas": [
+    [
+     "Kétezer",
+     "kétezer",
+     ""
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Mi? Mi az a kétezer?",
+   "rd": "미? 미 어즈 어 케테제르?",
+   "ko": "뭐? 이천이 뭔데?",
+   "note": "mi az = 그게 뭐야",
+   "tags": [],
+   "lemmas": [
+    [
+     "kétezer",
+     "kétezer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Gratulálok! A szék a tiéd.",
+   "rd": "그러툴랄록! 어 쎅 어 티에드.",
+   "ko": "축하해! 의자는 네 거야.",
+   "note": "a tiéd = 네 것",
+   "tags": [],
+   "lemmas": [
+    [
+     "Gratulálok",
+     "gratulál",
+     "그러툴랄"
+    ],
+    [
+     "szék",
+     "szék",
+     ""
+    ]
+   ]
+  }
+ ]
+}

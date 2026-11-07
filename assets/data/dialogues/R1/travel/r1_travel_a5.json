@@ -1,0 +1,230 @@
+{
+ "id": "r1_travel_a5",
+ "region": "R1",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "세케시페헤르바르",
+ "emoji": "🎫",
+ "scene": "기차역 매표소. 도시 이름이 너무 길다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pénztáros"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "기차표 사기(-ra/-re, -ba/-be 가는 곳)",
+ "expressions": [
+  "Jó napot",
+  "izé",
+  "Sajnos",
+  "Ja"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Jó napot! Egy jegyet kérek Széke, Székes...",
+   "rd": "요 너포트! 에지 예제트 케렉 쎄케, 쎄케시...",
+   "ko": "안녕하세요! 표 한 장 주세요, 세케, 세케시…",
+   "note": "jegyet = 표를",
+   "tags": [
+    "expr:Jó napot"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "jegyet",
+     "jegye",
+     ""
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Szegedre megy?",
+   "rd": "쎄게드레 메지?",
+   "ko": "세게드 가세요?",
+   "note": "-re = ~로(도시)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szegedre",
+     "szeg",
+     ""
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Nem, nem. Székes, izé, fehér...",
+   "rd": "넴, 넴. 쎄케시, 이제, 페헤르...",
+   "ko": "아니요, 아니요. 세케시, 그, 페헤르…",
+   "note": "izé = 그거, 뭐더라",
+   "tags": [
+    "expr:izé"
+   ],
+   "lemmas": [
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "fehér",
+     "fehér",
+     "페헤르"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Ja, Székesfehérvárra kéri?",
+   "rd": "여, 쎄케슈페헤르바러 케리?",
+   "ko": "아, 세케시페헤르바르요?",
+   "note": "ja = 아(알았을 때)",
+   "tags": [
+    "expr:Ja"
+   ],
+   "lemmas": [
+    [
+     "Ja",
+     "ja",
+     "여"
+    ],
+    [
+     "kéri",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Igen, oda! Mikor indul a vonat?",
+   "rd": "이겐, 오더! 미코르 인둘 어 보너트?",
+   "ko": "네, 거기요! 기차 언제 출발해요?",
+   "note": "indul = 출발하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "oda",
+     "oda",
+     "오더"
+    ],
+    [
+     "indul",
+     "indul",
+     "인둘"
+    ],
+    [
+     "vonat",
+     "vonat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Sajnos most ment el. Amíg mondta.",
+   "rd": "셔이노시 모슈트 멘트 엘. 어믹 몬드터.",
+   "ko": "아쉽지만 방금 떠났어요. 말씀하시는 동안에요.",
+   "note": "amíg = ~하는 동안",
+   "tags": [
+    "expr:Sajnos"
+   ],
+   "lemmas": [
+    [
+     "Sajnos",
+     "sajnos",
+     "셔이노시"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "ment",
+     "megy",
+     "메지"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Jaj! Akkor egy jegyet kérek Győrbe.",
+   "rd": "여이! 어꼬르 에지 예제트 케렉 죄르베.",
+   "ko": "아이고! 그럼 죄르 표로 주세요.",
+   "note": "Győrbe = 죄르로",
+   "tags": [
+    "expr:Ja"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "jegyet",
+     "jegye",
+     ""
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  }
+ ]
+}

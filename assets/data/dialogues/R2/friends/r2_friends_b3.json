@@ -1,0 +1,370 @@
+{
+ "id": "r2_friends_b3",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "전부 천 포린트",
+ "emoji": "🏷️",
+ "scene": "Réka 의 벼룩시장 매대를 10분만 봐주기로 했다. 규칙은 하나, 전부 천 포린트",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Vevő"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "값 말하기와 -ért(~에)로 값 표현",
+ "expressions": [
+  "légyszi",
+  "Mindjárt",
+  "Oké",
+  "nyugi",
+  "Tessék"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Vigyázol a dolgaimra tíz percig, légyszi? Mindjárt jövök.",
+   "rd": "비자졸 어 돌거임러 티즈 페르칙, 레지씨? 민드야르트 요뵉.",
+   "ko": "내 물건 10분만 봐줄래? 금방 올게.",
+   "note": "vigyáz = 돌보다, 조심하다",
+   "tags": [
+    "expr:légyszi",
+    "expr:Mindjárt"
+   ],
+   "lemmas": [
+    [
+     "Vigyázol",
+     "vigyáz",
+     "비거즈"
+    ],
+    [
+     "dolgaimra",
+     "dolgaim",
+     ""
+    ],
+    [
+     "percig",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ],
+    [
+     "jövök",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Oké, nyugi. Mi mennyibe kerül?",
+   "rd": "오케, 뉴기. 미 메니베 케륄?",
+   "ko": "알았어, 걱정 마. 뭐가 얼마야?",
+   "note": "mennyibe kerül = 얼마예요",
+   "tags": [
+    "expr:Oké",
+    "expr:nyugi"
+   ],
+   "lemmas": [
+    [
+     "Oké",
+     "oké",
+     "오케"
+    ],
+    [
+     "nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "kerül",
+     "kerül",
+     "케륄"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Minden ezer forint. Ne gondolkodj!",
+   "rd": "민덴 에제르 포린트. 네 곤돌코드이!",
+   "ko": "전부 천 포린트. 생각하지 마!",
+   "note": "minden = 전부",
+   "tags": [],
+   "lemmas": [
+    [
+     "forint",
+     "forint",
+     ""
+    ],
+    [
+     "gondolkodj",
+     "gondol",
+     "곤돌"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Elnézést, ez a szék is ezer forint?",
+   "rd": "엘네제슈트, 에즈 어 쎅 이시 에제르 포린트?",
+   "ko": "실례합니다, 이 의자도 천 포린트예요?",
+   "note": "szék = 의자",
+   "tags": [],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "szék",
+     "szék",
+     ""
+    ],
+    [
+     "forint",
+     "forint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Igen, kérem. Minden ezer forint.",
+   "rd": "이겐, 케렘. 민덴 에제르 포린트.",
+   "ko": "네. 전부 천 포린트예요.",
+   "note": "kérem = 네(정중히)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
+    ],
+    [
+     "forint",
+     "forint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "És a lámpa? És az a bicikli ott?",
+   "rd": "에시 어 람퍼? 에시 어즈 어 비칙리 오트?",
+   "ko": "그럼 램프는요? 저기 저 자전거는요?",
+   "note": "az a bicikli ott = 저기 저 자전거",
+   "tags": [],
+   "lemmas": [
+    [
+     "lámpa",
+     "lámpa",
+     ""
+    ],
+    [
+     "bicikli",
+     "bicikli",
+     ""
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Hát, minden ezer. Tessék, vigye!",
+   "rd": "하트, 민덴 에제르. 테쎅, 비제!",
+   "ko": "음, 전부 천이에요. 여기요, 가져가세요!",
+   "note": "vigye = 가져가세요",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "vigye",
+     "visz",
+     "비스"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Na, hogy ment? Hol a biciklim?",
+   "rd": "너, 호지 멘트? 홀 어 비칙림?",
+   "ko": "자, 어땠어? 내 자전거 어디 있어?",
+   "note": "hogy ment? = 어땠어?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "ment",
+     "megy",
+     "메지"
+    ],
+    [
+     "biciklim",
+     "biciklim",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Jó hírem van: mindent eladtam! Négyezer forint!",
+   "rd": "요 히렘 번: 민덴트 엘러드텀! 네제제르 포린트!",
+   "ko": "좋은 소식이야: 다 팔았어! 4천 포린트!",
+   "note": "eladtam = 팔았다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "hírem",
+     "hír",
+     "히르"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "eladtam",
+     "elad",
+     "엘러드"
+    ],
+    [
+     "forint",
+     "forint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Ezer forintért eladtad a biciklimet?!",
+   "rd": "에제르 포린테르트 엘러드터드 어 비칙리메트?!",
+   "ko": "내 자전거를 천 포린트에 팔았다고?!",
+   "note": "-ért = ~에(값)",
+   "tags": [],
+   "lemmas": [
+    [
+     "forintért",
+     "forint",
+     ""
+    ],
+    [
+     "eladtad",
+     "elad",
+     "엘러드"
+    ],
+    [
+     "biciklimet",
+     "bicikli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Te mondtad: minden ezer. Ne gondolkodj!",
+   "rd": "테 몬드터드: 민덴 에제르. 네 곤돌코드이!",
+   "ko": "네가 그랬잖아: 전부 천. 생각하지 마!",
+   "note": "te mondtad = 네가 말했다",
+   "tags": [],
+   "lemmas": [
+    [
+     "mondtad",
+     "mond",
+     "몬드"
+    ],
+    [
+     "gondolkodj",
+     "gondol",
+     "곤돌"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Jól van. Ki kér egy barátot ezer forintért?",
+   "rd": "욜 번. 키 케르 에지 버라토트 에제르 포린테르트?",
+   "ko": "좋아. 친구 하나 천 포린트에 사실 분?",
+   "note": "jól van = 좋아, 알았어",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kér",
+     "kér",
+     "께르"
+    ],
+    [
+     "barátot",
+     "barát",
+     "버랏"
+    ],
+    [
+     "forintért",
+     "forint",
+     ""
+    ]
+   ]
+  }
+ ]
+}

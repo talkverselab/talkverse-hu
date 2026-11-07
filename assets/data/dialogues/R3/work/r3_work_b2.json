@@ -1,0 +1,547 @@
+{
+ "id": "r3_work_b2",
+ "region": "R3",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_hungary",
+  "media"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "없는 이름의 날",
+ "emoji": "💐",
+ "scene": "오늘 카페에 꽃이 넘친다. 이름의 날이라는데, 달력에 내 이름은 없다. Bence 가 분필을 집어 든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bence",
+  "C": "Néni",
+  "D": "Virágos"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "이름의 날(névnap) 문화와 축하 인사",
+ "expressions": [
+  "Várj",
+  "Sajnos",
+  "Ne már",
+  "Nézd",
+  "Figyelj",
+  "Igazából",
+  "Szerintem"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Miért kap ma mindenki virágot? Mi történt?",
+   "rd": "미에르트 커프 머 민덴키 비라고트? 미 퇴르텐트?",
+   "ko": "오늘 왜 다들 꽃을 받아? 무슨 일 있어?",
+   "note": "kap = 받는다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "kap",
+     "kap",
+     "커프"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "virágot",
+     "virág",
+     "비라그"
+    ],
+    [
+     "történt",
+     "történik",
+     "퇴르텐닉"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Ma van Anna névnapja. Itt minden névnek van napja.",
+   "rd": "머 번 언너 네브너프여. 이트 민덴 네브넥 번 너프여.",
+   "ko": "오늘이 언너의 이름의 날이야. 여기선 이름마다 날이 있어.",
+   "note": "névnap = 이름의 날",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ma",
+     "ma",
+     "머"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "névnapja",
+     "névnapja",
+     ""
+    ],
+    [
+     "névnek",
+     "név",
+     "네브"
+    ],
+    [
+     "napja",
+     "nap",
+     "넙"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Minden névnek? Akkor nekem mikor van?",
+   "rd": "민덴 네브넥? 어꼬르 네켐 미코르 번?",
+   "ko": "이름마다? 그럼 내 건 언제야?",
+   "note": "mikor = 언제",
+   "tags": [],
+   "lemmas": [
+    [
+     "névnek",
+     "név",
+     "네브"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Várj, megnézem. Sajnos a te neved nincs a naptárban.",
+   "rd": "바르이, 멕네젬. 셔이노시 어 테 네베드 닌치 어 너프타르번.",
+   "ko": "잠깐, 볼게. 안타깝지만 네 이름은 달력에 없어.",
+   "note": "naptár = 달력",
+   "tags": [
+    "expr:Várj",
+    "expr:Sajnos"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "megnézem",
+     "megnéz",
+     "메그네즈"
+    ],
+    [
+     "neved",
+     "neved",
+     "네베드"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "naptárban",
+     "naptár",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Jaj, de kár. Nekem soha nem lesz virágom?",
+   "rd": "여이, 데 카르. 네켐 쇼허 넴 레쓰 비라곰?",
+   "ko": "아, 아쉽다. 나는 평생 꽃을 못 받는 거야?",
+   "note": "soha nem = 절대 안",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "kár",
+     "kár",
+     "카르"
+    ],
+    [
+     "soha",
+     "soha",
+     "쇼허"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "virágom",
+     "virágom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Ne már! Nézd, felírom a táblára: ma {name} névnapja van.",
+   "rd": "네 마르! 네즈드, 펠리롬 어 타블라러: 머 {name} 네브너프여 번.",
+   "ko": "에이! 봐, 칠판에 쓸게. 오늘은 {name}의 이름의 날.",
+   "note": "tábla = 칠판",
+   "tags": [
+    "expr:Ne már",
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "felírom",
+     "felír",
+     ""
+    ],
+    [
+     "táblára",
+     "tábla",
+     ""
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "névnapja",
+     "névnapja",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Bence, ezt nem lehet! Ez nem igaz!",
+   "rd": "벤체, 에즈트 넴 레헤트! 에즈 넴 이거즈!",
+   "ko": "벤체, 이러면 안 돼! 이거 거짓말이잖아!",
+   "note": "nem lehet = 안 된다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bence",
+     "bence",
+     ""
+    ],
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "igaz",
+     "igaz",
+     "이거즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Boldog névnapot, kedves! Hoztam egy rétest.",
+   "rd": "볼독 네브너포트, 케드베시! 호즈텀 에지 레테슈트.",
+   "ko": "이름의 날 축하해요! 레테시 가져왔어요.",
+   "note": "boldog névnapot = 이름의 날 축하합니다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Boldog",
+     "boldog",
+     "볼도그"
+    ],
+    [
+     "névnapot",
+     "névnap",
+     ""
+    ],
+    [
+     "kedves",
+     "kedves",
+     "케드베슈"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Köszönöm, néni, de... igazából nem...",
+   "rd": "쾨쐬뇜, 네니, 데... 이거자볼 넴...",
+   "ko": "감사합니다, 할머니, 근데… 사실은…",
+   "note": "igazából = 사실은",
+   "tags": [
+    "expr:Igazából"
+   ],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "igazából",
+     "igaz",
+     "이거즈"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Figyelj, már az egész utca tudja. Nézd, mennyi ember!",
+   "rd": "피젤이, 마르 어즈 에게쓰 우트처 투드여. 네즈드, 메니 엠베르!",
+   "ko": "야, 벌써 온 동네가 알아. 봐, 사람 얼마나 많은지!",
+   "note": "az egész utca = 거리 전체",
+   "tags": [
+    "expr:Nézd",
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "utca",
+     "utca",
+     "우트처"
+    ],
+    [
+     "tudja",
+     "tud",
+     "투드"
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "D",
+   "hu": "Elnézést, elfogyott az összes virágom. Ki ez a híres {name}?",
+   "rd": "엘네제슈트, 엘포죠트 어즈 외쎄시 비라곰. 키 에즈 어 히레시 {name}?",
+   "ko": "실례합니다, 제 꽃이 다 팔렸어요. 이 유명한 {name} 씨가 누구예요?",
+   "note": "elfogyott = 다 떨어졌다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "elfogyott",
+     "elfogy",
+     ""
+    ],
+    [
+     "virágom",
+     "virágom",
+     ""
+    ],
+    [
+     "híres",
+     "híres",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Én vagyok. De ez nem is ünnep!",
+   "rd": "엔 버죡. 데 에즈 넴 이시 윈네프!",
+   "ko": "저예요. 근데 이거 기념일도 아니에요!",
+   "note": "ünnep = 기념일, 명절",
+   "tags": [],
+   "lemmas": [
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "ünnep",
+     "ünnep",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Már igen. A polgármester is ide jön, és beszédet mond.",
+   "rd": "마르 이겐. 어 폴가르메슈테르 이시 이데 욘, 에시 베쎄데트 몬드.",
+   "ko": "이제는 맞아. 구청장님도 오셔서 연설하신대.",
+   "note": "beszédet mond = 연설한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "polgármester",
+     "polgármester",
+     ""
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "beszédet",
+     "beszéde",
+     ""
+    ],
+    [
+     "mond",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Bence! Mi lesz holnap?",
+   "rd": "벤체! 미 레쓰 홀너프?",
+   "ko": "벤체! 내일은 어쩌려고?",
+   "note": "mi lesz? = 어떻게 될까?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bence",
+     "bence",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Szerintem semmi. A jövő évi naptárba már beírták a neved.",
+   "rd": "쎄린템 셈미. 어 요뵈 에비 너프타르버 마르 베이르탁 어 네베드.",
+   "ko": "아무 일 없을걸. 내년 달력엔 벌써 네 이름이 들어갔대.",
+   "note": "beírták = 써넣었다",
+   "tags": [
+    "expr:Szerintem"
+   ],
+   "lemmas": [
+    [
+     "jövő",
+     "jövő",
+     "요뵈"
+    ],
+    [
+     "évi",
+     "évi",
+     ""
+    ],
+    [
+     "naptárba",
+     "naptár",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "beírták",
+     "beír",
+     ""
+    ],
+    [
+     "neved",
+     "neved",
+     "네베드"
+    ]
+   ]
+  }
+ ]
+}

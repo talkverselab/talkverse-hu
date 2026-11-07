@@ -1,0 +1,221 @@
+{
+ "id": "r1_travel_c2",
+ "region": "R1",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "어디야, 레카",
+ "emoji": "😴",
+ "scene": "에게르행 기차. 같이 가기로 한 Réka 가 답이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "채팅으로 어디 있는지 묻기와 재촉하기",
+ "expressions": [
+  "légyszi",
+  "Jaj",
+  "Bocsi",
+  "Mi van?"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Hol vagy? Indul a vonat!",
+   "rd": "홀 버지? 인둘 어 보너트!",
+   "ko": "어디야? 기차 출발해!",
+   "note": "hol vagy? = 어디야?",
+   "tags": [],
+   "at": "08:10",
+   "read": false,
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "vonat",
+     "vonat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Réka?",
+   "rd": "레커?",
+   "ko": "레카?",
+   "note": "부를 때는 이름만",
+   "tags": [],
+   "at": "08:12",
+   "read": false,
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Elindult a vonat!",
+   "rd": "엘린둘트 어 보너트!",
+   "ko": "기차 떠났어!",
+   "note": "elindult = 출발했다",
+   "tags": [],
+   "at": "08:15",
+   "read": false,
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Elindult",
+     "elindul",
+     ""
+    ],
+    [
+     "vonat",
+     "vonat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Jól vagy? Válaszolj, légyszi!",
+   "rd": "욜 버지? 발러쏠이, 레지씨!",
+   "ko": "괜찮아? 답 좀 해 줘!",
+   "note": "válaszolj = 답해",
+   "tags": [
+    "expr:légyszi"
+   ],
+   "at": "08:40",
+   "read": false,
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Jaj. Egyedül megyek Egerbe.",
+   "rd": "여이. 에제뒬 메젝 에게르베.",
+   "ko": "아이고. 혼자 에게르 가네.",
+   "note": "egyedül = 혼자",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "at": "09:05",
+   "read": false,
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Bocsi, aludtam. 😴",
+   "rd": "보치, 얼루드텀. 😴",
+   "ko": "미안, 자고 있었어. 😴",
+   "note": "aludtam = 나는 잤다",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "09:31",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "aludtam",
+     "aludt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Mi van? Hol vagy?",
+   "rd": "미 번? 홀 버지?",
+   "ko": "뭐야? 어디야?",
+   "note": "mi van? = 뭐야?",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "at": "09:31",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Mögötted ülök. Szép a sapkád.",
+   "rd": "뫼괴떼드 윌뢱. 쎄프 어 셔프카드.",
+   "ko": "네 뒤에 앉아 있어. 모자 예쁘다.",
+   "note": "mögötted = 네 뒤에",
+   "tags": [],
+   "at": "09:32",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "ülök",
+     "ül",
+     "위일"
+    ],
+    [
+     "sapkád",
+     "sapkád",
+     ""
+    ]
+   ]
+  }
+ ]
+}

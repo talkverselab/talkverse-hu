@@ -1,0 +1,229 @@
+{
+ "id": "r1_friends_a3",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "덥다고 했을 뿐인데",
+ "emoji": "🥵",
+ "scene": "땡볕 벼룩시장. 덥다고 말하려다 헝가리어 학습자가 꼭 한 번 밟는 함정을 밟는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "「덥다」는 melegem van — 몸 상태를 말하는 틀 익히기",
+ "expressions": [
+  "Na",
+  "Tényleg?",
+  "semmi baj",
+  "Na ne"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Na, jól vagy?",
+   "rd": "너, 욜 버지?",
+   "ko": "야, 괜찮아?",
+   "note": "na = 자, 야(말 꺼낼 때)",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jaj, nagyon meleg vagyok!",
+   "rd": "여이, 너죤 멜렉 버죡!",
+   "ko": "아이고, 나 완전 게이야!",
+   "note": "meleg vagyok = 나 게이야(덥다는 melegem van)",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "meleg",
+     "meleg",
+     "멜레그"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Tényleg? Jó, semmi baj.",
+   "rd": "테닐렉? 요, 셈미 버이.",
+   "ko": "진짜? 그래, 아무 문제 없어.",
+   "note": "semmi baj = 아무 문제 없어",
+   "tags": [
+    "expr:Tényleg?",
+    "expr:semmi baj"
+   ],
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Igen, nagyon! És te?",
+   "rd": "이겐, 너죤! 에시 테?",
+   "ko": "응, 완전! 너는?",
+   "note": "és te? = 너는?",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Én? Hát, én nem.",
+   "rd": "엔? 하트, 엔 넴.",
+   "ko": "나? 음, 난 아니야.",
+   "note": "hát = 음, 글쎄",
+   "tags": [],
+   "lemmas": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Na ne! Ma mindenki meleg!",
+   "rd": "너 네! 머 민덴키 멜렉!",
+   "ko": "에이! 오늘은 다들 게이지!",
+   "note": "na ne = 에이, 설마",
+   "tags": [
+    "expr:Na",
+    "expr:Na ne"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "meleg",
+     "meleg",
+     "멜레그"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Hű. Melegem van, ezt akarod mondani?",
+   "rd": "휘. 멜레겜 번, 에즈트 어커로드 몬더니?",
+   "ko": "어휴. 「더워」라고 하려던 거지?",
+   "note": "melegem van = 나 더워",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "akarod",
+     "akar",
+     "어커르"
+    ],
+    [
+     "mondani",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj. Ezt mondtam a tanáromnak is!",
+   "rd": "여이. 에즈트 몬드텀 어 터나롬넉 이시!",
+   "ko": "아이고. 선생님한테도 그렇게 말했어!",
+   "note": "tanár = 선생님",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "mondtam",
+     "mond",
+     "몬드"
+    ],
+    [
+     "tanáromnak",
+     "tanár",
+     "터나르"
+    ]
+   ]
+  }
+ ]
+}

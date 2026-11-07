@@ -1,0 +1,238 @@
+{
+ "id": "r1_survival_s1",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "「네」만 했을 뿐인데",
+ "emoji": "☕",
+ "scene": "카페에서 커피 한 잔을 주문하는데, 다 못 알아듣고 「네」만 하다가 일이 커진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bence"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "주문 표현 kérek 과 멈춰 세우는 말 익히기",
+ "expressions": [
+  "Jó napot",
+  "kérek",
+  "várjon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Jó napot! Mit kér?",
+   "rd": "요 너포트! 미트 케르?",
+   "ko": "안녕하세요! 뭐 드릴까요?",
+   "note": "Mit kér? = 뭐 드릴까요?(존댓말)",
+   "tags": [
+    "expr:Jó napot"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "kér",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó napot! Egy kávét kérek.",
+   "rd": "요 너포트! 에지 카베트 케렉.",
+   "ko": "안녕하세요! 커피 한 잔 주세요.",
+   "note": "kávét kérek = 커피 주세요(-t 목적격)",
+   "tags": [
+    "expr:Jó napot",
+    "expr:kérek"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Tejjel és cukorral?",
+   "rd": "테옐 에시 추코럴?",
+   "ko": "우유랑 설탕 넣어 드려요?",
+   "note": "-val/-vel = ~와 함께",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tejjel",
+     "tej",
+     "테이"
+    ],
+    [
+     "cukorral",
+     "cukor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Igen, köszönöm.",
+   "rd": "이겐, 쾨쐬뇜.",
+   "ko": "네, 감사합니다.",
+   "note": "köszönöm = 감사합니다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Süteményt is kér?",
+   "rd": "쉬테메니트 이시 케르?",
+   "ko": "케이크도 드릴까요?",
+   "note": "is = ~도",
+   "tags": [],
+   "lemmas": [
+    [
+     "Süteményt",
+     "sütemény",
+     "슈테메니"
+    ],
+    [
+     "kér",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Igen, igen.",
+   "rd": "이겐, 이겐.",
+   "ko": "네, 네.",
+   "note": "못 알아들어도 일단 igen",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Akkor egy kávé, három sütemény és egy rétes!",
+   "rd": "어꼬르 에지 카베, 하롬 쉬테메니 에시 에지 레테시!",
+   "ko": "그럼 커피 하나, 케이크 셋, 레테시 하나요!",
+   "note": "három = 셋",
+   "tags": [],
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "kávé",
+     "kávé",
+     "카베"
+    ],
+    [
+     "sütemény",
+     "sütemény",
+     "슈테메니"
+    ],
+    [
+     "rétes",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj, várjon! Csak egy kávét kérek!",
+   "rd": "여이, 바르욘! 척 에지 카베트 케렉!",
+   "ko": "아, 잠깐만요! 커피 한 잔만 주세요!",
+   "note": "várjon = 기다리세요(존댓말), csak = ~만",
+   "tags": [
+    "expr:kérek",
+    "expr:várjon"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "várjon",
+     "vár",
+     "바르"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  }
+ ]
+}

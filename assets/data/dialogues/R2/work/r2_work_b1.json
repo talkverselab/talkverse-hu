@@ -1,0 +1,366 @@
+{
+ "id": "r2_work_b1",
+ "region": "R2",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_hungary"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "20분짜리 면접",
+ "emoji": "🪑",
+ "scene": "카페 아르바이트 면접 날. 창가에 앉은 남자가 앉으라고 해서 열심히 자기소개를 했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Férfi",
+  "C": "Bence"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "일자리 찾아온 용건 말하기와 할 수 있는 일 말하기(tudok + 동사원형)",
+ "expressions": [
+  "Elnézést",
+  "Tessék",
+  "Szóval",
+  "bocsi",
+  "Na jó"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Elnézést, az állás miatt jöttem.",
+   "rd": "엘네제슈트, 어즈 알라시 미어트 요뗌.",
+   "ko": "실례합니다, 일자리 때문에 왔어요.",
+   "note": "miatt = ~ 때문에",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "állás",
+     "állás",
+     "알라시"
+    ],
+    [
+     "jöttem",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Az állás miatt? Tessék, üljön le.",
+   "rd": "어즈 알라시 미어트? 테쎅, 윌욘 레.",
+   "ko": "일자리요? 네, 앉으세요.",
+   "note": "üljön le = 앉으세요(존댓말)",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "állás",
+     "állás",
+     "알라시"
+    ],
+    [
+     "üljön",
+     "ül",
+     "위일"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Köszönöm. Nagyon szeretem a kávét, és gyorsan tanulok.",
+   "rd": "쾨쐬뇜. 너죤 쎄레템 어 카베트, 에시 죠르션 터눌록.",
+   "ko": "감사합니다. 커피를 정말 좋아하고, 빨리 배워요.",
+   "note": "gyorsan = 빨리",
+   "tags": [],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "szeretem",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "gyorsan",
+     "gyors",
+     "죠르시"
+    ],
+    [
+     "tanulok",
+     "tanul",
+     "타눌"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Értem. És mit tud még?",
+   "rd": "에르템. 에시 미트 투드 멕?",
+   "ko": "그렇군요. 또 뭘 할 수 있어요?",
+   "note": "mit tud? = 뭘 할 수 있어요?(존댓말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Értem",
+     "ért",
+     "에르트"
+    ],
+    [
+     "tud",
+     "tud",
+     "투드"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Hétvégén is tudok dolgozni. Reggel hatkor is!",
+   "rd": "헤트베겐 이시 투독 돌고즈니. 렉겔 허트코르 이시!",
+   "ko": "주말에도 일할 수 있어요. 아침 여섯 시에도요!",
+   "note": "-kor = ~시에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hétvégén",
+     "hétvége",
+     "헤트베게"
+    ],
+    [
+     "tudok",
+     "tud",
+     "투드"
+    ],
+    [
+     "dolgozni",
+     "dolgoz",
+     "돌고즈"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Hatkor? Hű, az durva.",
+   "rd": "허트코르? 휘, 어즈 두르버.",
+   "ko": "여섯 시에요? 와, 그건 세네요.",
+   "note": "durva = 심하다, 장난 아니다",
+   "tags": [],
+   "lemmas": [
+    [
+     "durva",
+     "durva",
+     "두르버"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Szóval... megkaptam az állást?",
+   "rd": "쏘벌... 멕커프텀 어즈 알라슈트?",
+   "ko": "그래서… 저 붙었나요?",
+   "note": "megkaptam = 받아 냈다(정활용)",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "megkaptam",
+     "megkap",
+     "메그커프"
+    ],
+    [
+     "állást",
+     "állás",
+     "알라시"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Szia, bocsi a késésért! Te jöttél az állás miatt?",
+   "rd": "씨어, 보치 어 케세세르트! 테 요뗄 어즈 알라시 미어트?",
+   "ko": "안녕, 늦어서 미안! 일자리 때문에 온 사람이 너야?",
+   "note": "a késésért = 늦은 것에 대해",
+   "tags": [
+    "expr:bocsi"
+   ],
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "késésért",
+     "késés",
+     ""
+    ],
+    [
+     "jöttél",
+     "jön",
+     "왼"
+    ],
+    [
+     "állás",
+     "állás",
+     "알라시"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Igen, de már beszéltem a főnökkel. Ő az, ugye?",
+   "rd": "이겐, 데 마르 베쎌템 어 푀뇌껠. 외 어즈, 우제?",
+   "ko": "네, 근데 사장님이랑 벌써 얘기했어요. 이분 맞죠?",
+   "note": "ő az = 저분이 그 사람이다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "beszéltem",
+     "beszélt",
+     ""
+    ],
+    [
+     "főnökkel",
+     "főnök",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Én csak egy kávét szeretnék. Húsz perce várok.",
+   "rd": "엔 척 에지 카베트 쎄레트넥. 후쓰 페르체 바록.",
+   "ko": "저는 그냥 커피 한 잔 마시고 싶은데요. 20분째 기다리고 있어요.",
+   "note": "húsz perce = 20분째",
+   "tags": [],
+   "lemmas": [
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "szeretnék",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "perce",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "várok",
+     "vár",
+     "바르"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Na jó, fel vagy véve. Vidd neki a kávét!",
+   "rd": "너 요, 펠 버지 베베. 비드 네키 어 카베트!",
+   "ko": "좋아, 합격. 저분한테 커피 갖다 드려!",
+   "note": "fel vagy véve = 너 채용됐어",
+   "tags": [
+    "expr:Na jó"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ],
+    [
+     "véve",
+     "vesz",
+     "베쓰"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ]
+   ]
+  }
+ ]
+}

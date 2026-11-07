@@ -1,0 +1,556 @@
+{
+ "id": "r3_study_b3",
+ "region": "R3",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "감자 발표",
+ "emoji": "🥔",
+ "scene": "미술사 수업 발표 날. Anna 의 컴퓨터에서 복사해 온 파일을 열었더니 슬라이드 대신 감자 그림이 떴다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Professzor"
+ },
+ "register": "mixed",
+ "twist": 13,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "발표 말(Nézzük az első képet!)과 즉흥으로 이어 가기",
+ "expressions": [
+  "Nyugi",
+  "ugye",
+  "Tessék",
+  "Jaj",
+  "izé",
+  "Te jó ég"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Anna, segítesz? Öt perc múlva kezdem az előadást, és remeg a kezem.",
+   "rd": "언너, 세기테쓰? 외트 페르츠 물버 케즈뎀 어즈 엘뢰어다슈트, 에시 레멕 어 케젬.",
+   "ko": "언너, 도와줄래? 5분 뒤에 발표 시작인데 손이 떨려.",
+   "note": "remeg = 떨린다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "segítesz",
+     "segít",
+     "셰기트"
+    ],
+    [
+     "perc",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "kezdem",
+     "kezd",
+     "케즈드"
+    ],
+    [
+     "előadást",
+     "előadás",
+     ""
+    ],
+    [
+     "remeg",
+     "remeg",
+     ""
+    ],
+    [
+     "kezem",
+     "kéz",
+     "케즈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Nyugi, jó lesz. A gépen van a fájl, ugye?",
+   "rd": "뉴기, 요 레쓰. 어 게펜 번 어 파일, 우제?",
+   "ko": "진정해, 잘될 거야. 파일 컴퓨터에 있지?",
+   "note": "nyugi = 진정해",
+   "tags": [
+    "expr:Nyugi",
+    "expr:ugye"
+   ],
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "gépen",
+     "gépe",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "fájl",
+     "fájl",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Igen, tegnap a te gépedről másoltam át.",
+   "rd": "이겐, 텍너프 어 테 게페드뢸 마숄텀 아트.",
+   "ko": "응, 어제 네 컴퓨터에서 복사했어.",
+   "note": "másoltam át = 옮겨 복사했다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "tegnap",
+     "tegnap",
+     "테그너프"
+    ],
+    [
+     "gépedről",
+     "gépedről",
+     ""
+    ],
+    [
+     "másoltam",
+     "másolt",
+     ""
+    ],
+    [
+     "át",
+     "át",
+     "아트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Az én gépemről? Várj, melyik mappából?",
+   "rd": "어즈 엔 게펨뢸? 바르이, 메익 머빠볼?",
+   "ko": "내 컴퓨터에서? 잠깐, 어느 폴더에서?",
+   "note": "mappa = 폴더",
+   "tags": [],
+   "lemmas": [
+    [
+     "gépemről",
+     "gépem",
+     ""
+    ],
+    [
+     "mappából",
+     "mappából",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Tessék, {name}, kezdheti. Mi a téma?",
+   "rd": "테쎅, {name}, 케즈드헤티. 미 어 테머?",
+   "ko": "네, {name} 씨, 시작하세요. 주제가 뭐죠?",
+   "note": "kezdheti = 시작해도 됩니다",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "kezdheti",
+     "kezdhet",
+     ""
+    ],
+    [
+     "téma",
+     "téma",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "A téma a modern magyar festészet. Nézzük az első képet!",
+   "rd": "어 테머 어 모데른 머져르 페슈테쎄트. 네쥑 어즈 엘쇠 케페트!",
+   "ko": "주제는 현대 헝가리 회화입니다. 첫 그림을 보시죠!",
+   "note": "festészet = 회화",
+   "tags": [],
+   "lemmas": [
+    [
+     "téma",
+     "téma",
+     ""
+    ],
+    [
+     "modern",
+     "modern",
+     ""
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "festészet",
+     "festészet",
+     ""
+    ],
+    [
+     "képet",
+     "képe",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Jaj, ne! Te jó ég, ez az én krumplim!",
+   "rd": "여이, 네! 테 요 엑, 에즈 어즈 엔 크룸플림!",
+   "ko": "아이고, 안 돼! 맙소사, 이거 내 감자야!",
+   "note": "krumplim = 내 감자",
+   "tags": [
+    "expr:Jaj",
+    "expr:Te jó ég"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "ég",
+     "ég",
+     "에그"
+    ],
+    [
+     "krumplim",
+     "krumplim",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Krumpli? Folytassa, kérem.",
+   "rd": "크룸플리? 포이터쎠, 케렘.",
+   "ko": "감자요? 계속하세요.",
+   "note": "folytassa = 계속하세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Krumpli",
+     "krumpli",
+     ""
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Igen, izé, a krumpli a magyar lélek. Egyszerű, de mindenhol ott van.",
+   "rd": "이겐, 이제, 어 크룸플리 어 머져르 렐렉. 에지쎄뤼, 데 민덴홀 오트 번.",
+   "ko": "네, 저, 감자는 헝가리의 영혼입니다. 소박하지만 어디에나 있지요.",
+   "note": "lélek = 영혼",
+   "tags": [
+    "expr:izé"
+   ],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "lélek",
+     "lélek",
+     "레렉"
+    ],
+    [
+     "mindenhol",
+     "mindenhol",
+     ""
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Érdekes! És a következő képen?",
+   "rd": "에르데케시! 에시 어 쾨베트케죄 케펜?",
+   "ko": "흥미롭네요! 다음 그림은요?",
+   "note": "következő = 다음",
+   "tags": [],
+   "lemmas": [
+    [
+     "Érdekes",
+     "érdekes",
+     "에르데케시"
+    ],
+    [
+     "következő",
+     "következik",
+     "쾨베트케지크"
+    ],
+    [
+     "képen",
+     "képe",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Az is krumpli. De nézzék: ez már szomorú krumpli.",
+   "rd": "어즈 이시 크룸플리. 데 네젝: 에즈 마르 쏘모루 크룸플리.",
+   "ko": "그것도 감자입니다. 하지만 보세요, 이건 슬픈 감자입니다.",
+   "note": "nézzék = 보세요(여러분, 존댓말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ],
+    [
+     "nézzék",
+     "néz",
+     "네즈"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "szomorú",
+     "szomorú",
+     "쏘모루"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Zseniális! Harminc éve tanítok, de ilyet még nem láttam.",
+   "rd": "제니알리시! 허르민츠 에베 터니톡, 데 이예트 멕 넴 라떰.",
+   "ko": "천재적이에요! 30년을 가르쳤지만 이런 건 처음 봅니다.",
+   "note": "zseniális = 천재적인",
+   "tags": [],
+   "lemmas": [
+    [
+     "Zseniális",
+     "zseniális",
+     ""
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "tanítok",
+     "tanít",
+     "터니트"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "láttam",
+     "lát",
+     "라트"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "hu": "Szeptemberben Bécsben konferencia lesz. Ezt ott is elő kell adnia.",
+   "rd": "쎄프템베르벤 베치벤 콘페렌치어 레쓰. 에즈트 오트 이시 엘뢰 켈 어드니어.",
+   "ko": "9월에 빈에서 학회가 있어요. 거기서도 발표해야겠습니다.",
+   "note": "elő kell adnia = 발표해야 한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szeptemberben",
+     "szeptember",
+     ""
+    ],
+    [
+     "konferencia",
+     "konferencia",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "elő",
+     "elő",
+     "엘뢰"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "adnia",
+     "ad",
+     "어드"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Bécsben, krumpliról? Anna, most mit csináljak?",
+   "rd": "베치벤, 크룸플리롤? 언너, 모슈트 미트 치날역?",
+   "ko": "빈에서, 감자로? 언너, 나 이제 어떡해?",
+   "note": "mit csináljak? = 뭘 해야 하지?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bécsben",
+     "bécs",
+     ""
+    ],
+    [
+     "krumpliról",
+     "krumpli",
+     ""
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "csináljak",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Semmit. Már beírtam a nevem: én vagyok a társszerző.",
+   "rd": "셈미트. 마르 베이르텀 어 네벰: 엔 버죡 어 타르쎄르죄.",
+   "ko": "아무것도. 내 이름 벌써 써 놨어, 내가 공동 저자야.",
+   "note": "társszerző = 공동 저자",
+   "tags": [],
+   "lemmas": [
+    [
+     "beírtam",
+     "beír",
+     ""
+    ],
+    [
+     "nevem",
+     "név",
+     "네브"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "társszerző",
+     "társszerző",
+     ""
+    ]
+   ]
+  }
+ ]
+}

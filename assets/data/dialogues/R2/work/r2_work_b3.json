@@ -1,0 +1,376 @@
+{
+ "id": "r2_work_b3",
+ "region": "R2",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_hungary"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "할머니께 드린 인사",
+ "emoji": "👵",
+ "scene": "Bence 가 어르신께 쓰는 인사를 가르쳐 준다. 어미 하나만 틀리면 뜻이 완전히 달라진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bence",
+  "C": "Néni"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "어르신 인사 csókolom 과 어미 -om / -lak 의 차이",
+ "expressions": [
+  "Figyelj",
+  "Igazából",
+  "Durva",
+  "Tessék",
+  "Ne már"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, a néniknek itt azt mondjuk: csókolom.",
+   "rd": "피젤이, 어 네닉넥 이트 어즈트 몬드육: 초콜롬.",
+   "ko": "잘 들어, 여기선 할머니들한테 「초콜롬」이라고 해.",
+   "note": "csókolom = 어르신께 드리는 인사",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "néniknek",
+     "néni",
+     ""
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "mondjuk",
+     "mond",
+     "몬드"
+    ],
+    [
+     "csókolom",
+     "csókol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Csókolom? Az mit jelent?",
+   "rd": "초콜롬? 어즈 미트 옐렌트?",
+   "ko": "초콜롬? 그게 무슨 뜻이야?",
+   "note": "jelent = 뜻하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "jelent",
+     "jelen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Igazából azt, hogy kezét csókolom. De ez csak köszönés.",
+   "rd": "이거자볼 어즈트, 호지 케제트 초콜롬. 데 에즈 척 쾨쐬네시.",
+   "ko": "사실은 「손에 입 맞춥니다」라는 말이야. 그래도 그냥 인사야.",
+   "note": "köszönés = 인사",
+   "tags": [
+    "expr:Igazából"
+   ],
+   "lemmas": [
+    [
+     "Igazából",
+     "igaz",
+     "이거즈"
+    ],
+    [
+     "kezét",
+     "kéz",
+     "케즈"
+    ],
+    [
+     "csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "köszönés",
+     "köszönés",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Durva. És mindig így kell mondani?",
+   "rd": "두르버. 에시 민딕 이지 켈 몬더니?",
+   "ko": "세다. 항상 이렇게 말해야 해?",
+   "note": "így = 이렇게",
+   "tags": [
+    "expr:Durva"
+   ],
+   "lemmas": [
+    [
+     "Durva",
+     "durva",
+     "두르버"
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "mondani",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Csak az idősebb néniknek. Na, jön egy!",
+   "rd": "척 어즈 이되세브 네닉넥. 너, 욘 에지!",
+   "ko": "나이 드신 할머니들한테만. 자, 한 분 오신다!",
+   "note": "idősebb = 나이가 더 많은",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "idősebb",
+     "idős",
+     "이되시"
+    ],
+    [
+     "néniknek",
+     "néni",
+     ""
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Csókollak, néni! Mit kér?",
+   "rd": "초콜럭, 네니! 미트 케르?",
+   "ko": "너한테 뽀뽀할게요, 할머니! 뭐 드릴까요?",
+   "note": "csókollak = 내가 너에게 입 맞춘다(-lak)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csókollak",
+     "csókol",
+     ""
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "kér",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Tessék? Mit mondott, kedves?",
+   "rd": "테쎅? 미트 몬도트, 케드베시?",
+   "ko": "네? 뭐라고 했어요?",
+   "note": "kedves = 어른이 젊은이를 부르는 말",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "mondott",
+     "mond",
+     "몬드"
+    ],
+    [
+     "kedves",
+     "kedves",
+     "케드베슈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Jaj, ne már! Csókolom, nem csókollak!",
+   "rd": "여이, 네 마르! 초콜롬, 넴 초콜럭!",
+   "ko": "아이고, 아 좀! 초콜롬이지, 초콜러크가 아니야!",
+   "note": "ne már = 아 좀, 그러지 마",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "csókollak",
+     "csókol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Bocsánat, néni! Nem akarom megcsókolni!",
+   "rd": "보차너트, 네니! 넴 어커롬 멕초콜니!",
+   "ko": "죄송해요, 할머니! 입 맞출 생각 없어요!",
+   "note": "nem akarom = 원하지 않는다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bocsánat",
+     "bocsánat",
+     "버치너트"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "akarom",
+     "akar",
+     "어커르"
+    ],
+    [
+     "megcsókolni",
+     "megcsókol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Kár. Ezt negyven éve nem mondta nekem senki.",
+   "rd": "카르. 에즈트 네지벤 에베 넴 몬드터 네켐 센키.",
+   "ko": "아쉽네. 그 말을 40년째 아무도 안 해 줬는데.",
+   "note": "kár = 아쉽다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kár",
+     "kár",
+     "카르"
+    ],
+    [
+     "negyven",
+     "negyven",
+     ""
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Na, ő holnap is itt lesz.",
+   "rd": "너, 외 홀너프 이시 이트 레쓰.",
+   "ko": "자, 저분 내일도 오시겠다.",
+   "note": "lesz = ~일 것이다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,381 @@
+{
+ "id": "r2_work_c1",
+ "region": "R2",
+ "island": "work",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "work_hungary"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "사장의 첫 주문",
+ "emoji": "📦",
+ "scene": "하룻밤 새 사장이 됐다. Bence 가 컵이 떨어졌다고 메시지를 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bence"
+ },
+ "register": "chat",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅으로 수량 묻고 답하기(Mennyi? Hány?)",
+ "expressions": [
+  "Ne már",
+  "Figyelj",
+  "Tényleg",
+  "Szuper",
+  "Egy pillanat"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Jó reggelt, főnök! 😎",
+   "rd": "요 렉겔트, 푀뇍! 😎",
+   "ko": "좋은 아침입니다, 사장님! 😎",
+   "note": "főnök = 사장, 상사",
+   "tags": [],
+   "at": "08:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "reggelt",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "főnök",
+     "főn",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Ne már. Ez nem vicces.",
+   "rd": "네 마르. 에즈 넴 비쩨시.",
+   "ko": "아 좀. 안 웃겨.",
+   "note": "vicces = 웃긴",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "at": "08:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "vicces",
+     "vicces",
+     "비체시"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Figyelj, elfogytak a poharak. Te rendeled, emlékszel?",
+   "rd": "피젤이, 엘포지턱 어 포허럭. 테 렌델레드, 엠렉쎌?",
+   "ko": "야, 컵 다 떨어졌어. 네가 주문하는 거, 기억나?",
+   "note": "elfogytak = 다 떨어졌다",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "at": "08:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "elfogytak",
+     "elfogy",
+     ""
+    ],
+    [
+     "poharak",
+     "pohár",
+     ""
+    ],
+    [
+     "rendeled",
+     "rendel",
+     "렌델"
+    ],
+    [
+     "emlékszel",
+     "emlékszik",
+     "에믈레크시크"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Jaj, tényleg. Mennyi kell?",
+   "rd": "여이, 테닐렉. 메니 켈?",
+   "ko": "아이고, 맞다. 얼마나 필요해?",
+   "note": "tényleg = 정말, 맞다",
+   "tags": [
+    "expr:Tényleg"
+   ],
+   "at": "08:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Nem tudom. Rendelj sokat.",
+   "rd": "넴 투돔. 렌델이 쇼커트.",
+   "ko": "몰라. 많이 주문해.",
+   "note": "rendelj = 주문해",
+   "tags": [],
+   "at": "08:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Kész! Száz dobozt rendeltem.",
+   "rd": "케쓰! 싸즈 도보즈트 렌델템.",
+   "ko": "됐다! 백 상자 주문했어.",
+   "note": "doboz = 상자",
+   "tags": [],
+   "at": "08:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kész",
+     "kész",
+     "케스"
+    ],
+    [
+     "dobozt",
+     "doboz",
+     "도보즈"
+    ],
+    [
+     "rendeltem",
+     "rendel",
+     "렌델"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Szuper. Hány pohár van egy dobozban?",
+   "rd": "쑤페르. 하니 포하르 번 에지 도보즈번?",
+   "ko": "좋아. 한 상자에 컵이 몇 개 들었어?",
+   "note": "hány = 몇 개",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "at": "08:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "pohár",
+     "pohár",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "dobozban",
+     "doboz",
+     "도보즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Egy pillanat... ezer.",
+   "rd": "에지 필러너트... 에제르.",
+   "ko": "잠깐만… 천 개.",
+   "note": "ezer = 천",
+   "tags": [
+    "expr:Egy pillanat"
+   ],
+   "at": "08:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "pillanat",
+     "pillanat",
+     "필러넛"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Ezer? Az százezer pohár!",
+   "rd": "에제르? 어즈 싸제제르 포하르!",
+   "ko": "천 개? 그럼 십만 개잖아!",
+   "note": "százezer = 십만",
+   "tags": [],
+   "at": "08:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "százezer",
+     "százezer",
+     ""
+    ],
+    [
+     "pohár",
+     "pohár",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Itt a teherautó. Nem férünk ki az ajtón. 😂",
+   "rd": "이트 어 테헤러우토. 넴 페륀크 키 어즈 어이톤. 😂",
+   "ko": "트럭 왔어. 문으로 나갈 수가 없어. 😂",
+   "note": "teherautó = 트럭",
+   "tags": [],
+   "at": "11:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "teherautó",
+     "teherautó",
+     ""
+    ],
+    [
+     "férünk",
+     "fér",
+     "페르"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "ajtón",
+     "ajtó",
+     "어이토"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Mondd a vendégeknek, hogy ez modern művészet.",
+   "rd": "몬드 어 벤데겍넥, 호지 에즈 모데른 뮈베쎄트.",
+   "ko": "손님들한테 현대미술이라고 해.",
+   "note": "művészet = 예술",
+   "tags": [],
+   "at": "11:32",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Mondd",
+     "mond",
+     "몬드"
+    ],
+    [
+     "vendégeknek",
+     "vendég",
+     "벤데그"
+    ],
+    [
+     "modern",
+     "modern",
+     ""
+    ],
+    [
+     "művészet",
+     "művészet",
+     "뮈베세트"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Anna már rajzolja.",
+   "rd": "언너 마르 러이졸여.",
+   "ko": "언너가 벌써 그리고 있어.",
+   "note": "rajzolja = 그것을 그린다",
+   "tags": [],
+   "at": "11:33",
+   "stamp": "😂",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "rajzolja",
+     "rajzol",
+     ""
+    ]
+   ]
+  }
+ ]
+}

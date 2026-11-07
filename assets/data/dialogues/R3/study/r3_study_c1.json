@@ -1,0 +1,598 @@
+{
+ "id": "r3_study_c1",
+ "region": "R3",
+ "island": "study",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "답 없는 교수님",
+ "emoji": "📩",
+ "scene": "코바치 교수에게 시험 날짜를 물었다. 읽음 표시는 뜨는데 답이 없다. 메시지만 길어진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Kovács"
+ },
+ "register": "chat",
+ "twist": 12,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "격식 있게 재촉하기(조건법 lenne, 존댓말 명령형)",
+ "expressions": [
+  "Tisztelt",
+  "Elnézést",
+  "Tudom",
+  "Szerintem",
+  "Sajnos",
+  "Mindegy",
+  "Úristen"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Tisztelt Professzor Úr! Mikor lesz a vizsga?",
+   "rd": "티쓰텔트 프로페쏘르 우르! 미코르 레쓰 어 비지거?",
+   "ko": "존경하는 교수님께! 시험이 언제인가요?",
+   "note": "mikor = 언제",
+   "tags": [
+    "expr:Tisztelt"
+   ],
+   "at": "09:00",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tisztelt",
+     "tisztelt",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "vizsga",
+     "vizsga",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Elnézést, újra én vagyok. Megkapta az üzenetemet?",
+   "rd": "엘네제슈트, 우이러 엔 버죡. 멕커프터 어즈 위제네테메트?",
+   "ko": "죄송합니다, 또 저입니다. 제 메시지 받으셨나요?",
+   "note": "újra = 다시",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "at": "12:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "újra",
+     "újra",
+     "우이러"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "üzenetemet",
+     "üzenet",
+     "위제네트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "A dátum sajnos nagyon fontos lenne nekem.",
+   "rd": "어 다툼 셔이노시 너죤 폰토시 렌네 네켐.",
+   "ko": "날짜가 제게 아주 중요해서요.",
+   "note": "lenne = ~일 텐데(조건법)",
+   "tags": [
+    "expr:Sajnos"
+   ],
+   "at": "15:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "dátum",
+     "dátum",
+     ""
+    ],
+    [
+     "sajnos",
+     "sajnos",
+     "셔이노시"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "fontos",
+     "fontos",
+     "폰토슈"
+    ],
+    [
+     "lenne",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Tudom, hogy sok a dolga, de egy szó is elég lenne.",
+   "rd": "투돔, 호지 쇽 어 돌거, 데 에지 쏘 이시 엘렉 렌네.",
+   "ko": "바쁘신 건 알지만, 한마디만 주셔도 충분합니다.",
+   "note": "elég = 충분한",
+   "tags": [
+    "expr:Tudom"
+   ],
+   "at": "18:45",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "dolga",
+     "dolog",
+     "돌록"
+    ],
+    [
+     "szó",
+     "szó",
+     "쏘"
+    ],
+    [
+     "elég",
+     "elég",
+     "엘렉"
+    ],
+    [
+     "lenne",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Ha nem írhat, kérem, küldjön egy pontot.",
+   "rd": "허 넴 이르허트, 케렘, 퀼드욘 에지 폰토트.",
+   "ko": "쓰기 어려우시면 마침표 하나만 보내 주세요.",
+   "note": "pont = 점, 마침표",
+   "tags": [],
+   "at": "20:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "írhat",
+     "ír",
+     "이르"
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
+    ],
+    [
+     "küldjön",
+     "küld",
+     "퀼드"
+    ],
+    [
+     "pontot",
+     "pont",
+     "폰트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "A dolgozatom is kész, ha ez érdekli.",
+   "rd": "어 돌고저톰 이시 케쓰, 허 에즈 에르덱리.",
+   "ko": "제 보고서도 끝났습니다, 궁금하시면요.",
+   "note": "érdekli = 관심 있으시다",
+   "tags": [],
+   "at": "21:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "dolgozatom",
+     "dolgozat",
+     ""
+    ],
+    [
+     "kész",
+     "kész",
+     "케스"
+    ],
+    [
+     "érdekli",
+     "érdekel",
+     "에르데켈"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Szerintem látta az üzeneteimet, mert a rendszer azt mutatja: olvasva.",
+   "rd": "쎄린템 라떠 어즈 위제네테이메트, 메르트 어 렌드쎄르 어즈트 무터트여: 올버슈버.",
+   "ko": "제 메시지를 보신 것 같습니다, 시스템에 「읽음」이라고 나와서요.",
+   "note": "olvasva = 읽음",
+   "tags": [
+    "expr:Szerintem"
+   ],
+   "at": "21:40",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "látta",
+     "lát",
+     "라트"
+    ],
+    [
+     "üzeneteimet",
+     "üzenete",
+     "위제네테"
+    ],
+    [
+     "rendszer",
+     "rendszer",
+     "렌드세르"
+    ],
+    [
+     "mutatja",
+     "mutat",
+     "무타트"
+    ],
+    [
+     "olvasva",
+     "olvas",
+     "올버스"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Ha egy szót sem ír, azt fogom gondolni, hogy rosszul írtam valamit.",
+   "rd": "허 에지 쏘트 셈 이르, 어즈트 포곰 곤돌니, 호지 로쑬 이르텀 벌러미트.",
+   "ko": "한마디도 없으시면 제가 뭔가 잘못 썼다고 생각하겠습니다.",
+   "note": "azt fogom gondolni = 그렇게 생각할 것이다",
+   "tags": [],
+   "at": "22:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "szót",
+     "szó",
+     "쏘"
+    ],
+    [
+     "ír",
+     "ír",
+     "이르"
+    ],
+    [
+     "fogom",
+     "fog",
+     "포그"
+    ],
+    [
+     "gondolni",
+     "gondol",
+     "곤돌"
+    ],
+    [
+     "rosszul",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "írtam",
+     "írt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Professzor Úr, él még? Bocsánat, ezt nem akartam elküldeni.",
+   "rd": "프로페쏘르 우르, 엘 멕? 보차너트, 에즈트 넴 어커르텀 엘퀼데니.",
+   "ko": "교수님, 살아 계세요? 죄송합니다, 이건 보내려던 게 아닙니다.",
+   "note": "él = 살아 있다",
+   "tags": [],
+   "at": "23:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Professzor",
+     "professzor",
+     ""
+    ],
+    [
+     "él",
+     "él",
+     "엘"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "akartam",
+     "akart",
+     ""
+    ],
+    [
+     "elküldeni",
+     "elküld",
+     "엘퀼드"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Ha a múltkori puszi miatt haragszik, azt Réka írta.",
+   "rd": "허 어 물트코리 푸씨 미어트 허럭씩, 어즈트 레커 이르터.",
+   "ko": "지난번 「쪽」 때문에 화나신 거라면, 그건 레카가 쓴 겁니다.",
+   "note": "haragszik = 화나 있다",
+   "tags": [],
+   "at": "23:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "múltkori",
+     "múltkori",
+     ""
+    ],
+    [
+     "puszi",
+     "puszi",
+     ""
+    ],
+    [
+     "haragszik",
+     "haragszik",
+     ""
+    ],
+    [
+     "írta",
+     "ír",
+     "이르"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Úristen. Mindegy, jó éjszakát, holnap is írok.",
+   "rd": "우리슈텐. 민데지, 요 에이써카트, 홀너프 이시 이록.",
+   "ko": "세상에. 아무튼 안녕히 주무세요, 내일도 쓰겠습니다.",
+   "note": "jó éjszakát = 안녕히 주무세요",
+   "tags": [
+    "expr:Mindegy",
+    "expr:Úristen"
+   ],
+   "at": "23:58",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "éjszakát",
+     "éjszaka",
+     "에이사카"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "írok",
+     "ír",
+     "이르"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Kedves {name}! Mind a tizenegyet elolvastam.",
+   "rd": "케드베시 {name}! 민드 어 티제네제트 엘롤버슈텀.",
+   "ko": "{name} 씨! 열한 통 다 읽었습니다.",
+   "note": "mind a tizenegyet = 열한 개 전부를",
+   "tags": [],
+   "at": "00:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kedves",
+     "kedves",
+     "케드베슈"
+    ],
+    [
+     "tizenegyet",
+     "tizenegy",
+     ""
+    ],
+    [
+     "elolvastam",
+     "elolvas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Szándékosan nem válaszoltam: egyre jobban írt magyarul.",
+   "rd": "싼데코션 넴 발러쏠텀: 에지레 요번 이르트 머져룰.",
+   "ko": "일부러 답을 안 했어요. 갈수록 헝가리어를 잘 쓰시더군요.",
+   "note": "szándékosan = 일부러",
+   "tags": [],
+   "at": "00:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szándékosan",
+     "szándékos",
+     ""
+    ],
+    [
+     "válaszoltam",
+     "válaszolt",
+     ""
+    ],
+    [
+     "egyre",
+     "egyre",
+     "에지레"
+    ],
+    [
+     "jobban",
+     "jobb",
+     ""
+    ],
+    [
+     "írt",
+     "ír",
+     "이르"
+    ],
+    [
+     "magyarul",
+     "magyar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "A feltételes mód már szinte tökéletes.",
+   "rd": "어 펠테텔레시 모드 마르 씬테 퇴켈레테시.",
+   "ko": "조건법은 이제 거의 완벽합니다.",
+   "note": "feltételes mód = 조건법",
+   "tags": [],
+   "at": "00:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "feltételes",
+     "feltételes",
+     ""
+    ],
+    [
+     "mód",
+     "mód",
+     "모드"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "szinte",
+     "szinte",
+     "씨테"
+    ],
+    [
+     "tökéletes",
+     "tökéletes",
+     "퇴켈레시"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "hu": "És a vizsga mikor lesz?",
+   "rd": "에시 어 비지거 미코르 레쓰?",
+   "ko": "그럼 시험은 언제인가요?",
+   "note": "vizsga = 시험",
+   "tags": [],
+   "at": "00:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "vizsga",
+     "vizsga",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "hu": "Ez volt a vizsga, ötös. Puszi, Kovács",
+   "rd": "에즈 볼트 어 비지거, 외퇴시. 푸씨, 코바치",
+   "ko": "이게 시험이었습니다, 5점. 쪽, 코바치",
+   "note": "ötös = 5점(최고 점수)",
+   "tags": [],
+   "at": "00:12",
+   "stamp": "😇",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "vizsga",
+     "vizsga",
+     ""
+    ],
+    [
+     "ötös",
+     "ötös",
+     ""
+    ]
+   ]
+  }
+ ]
+}

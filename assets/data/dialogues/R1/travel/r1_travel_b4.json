@@ -1,0 +1,257 @@
+{
+ "id": "r1_travel_b4",
+ "region": "R1",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "자리 양보",
+ "emoji": "🚋",
+ "scene": "만원 트램. 친절하게 자리를 양보했을 뿐인데 차 안이 시끄러워진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Néni",
+  "C": "Bácsi"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "자리 양보하기와 존댓말 명령형(üljön le)",
+ "expressions": [
+  "Tessék",
+  "Elnézést",
+  "Mi van?",
+  "Nem baj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Tessék, néni, üljön le!",
+   "rd": "테쎅, 네니, 윌욘 레!",
+   "ko": "여기요, 할머니, 앉으세요!",
+   "note": "üljön le = 앉으세요",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "üljön",
+     "ül",
+     "위일"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Néni? Hány évesnek néz engem?",
+   "rd": "네니? 하니 에베슈넥 네즈 엔겜?",
+   "ko": "할머니요? 내가 몇 살로 보여요?",
+   "note": "hány évesnek = 몇 살로",
+   "tags": [],
+   "lemmas": [
+    [
+     "Néni",
+     "néni",
+     ""
+    ],
+    [
+     "évesnek",
+     "éves",
+     "에베슈"
+    ],
+    [
+     "néz",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Elnézést, én csak kedves akartam lenni.",
+   "rd": "엘네제슈트, 엔 척 케드베시 어커르텀 렌니.",
+   "ko": "죄송해요, 그냥 친절하게 하려던 거예요.",
+   "note": "akartam = ~하려고 했다",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kedves",
+     "kedves",
+     "케드베슈"
+    ],
+    [
+     "akartam",
+     "akart",
+     ""
+    ],
+    [
+     "lenni",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Ha ő nem akar, leülök én.",
+   "rd": "허 외 넴 어커르, 레윌뢱 엔.",
+   "ko": "저분이 싫으면 내가 앉지요.",
+   "note": "ha = 만약",
+   "tags": [],
+   "lemmas": [
+    [
+     "akar",
+     "akar",
+     "어커르"
+    ],
+    [
+     "leülök",
+     "leül",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Maga csak álljon ott!",
+   "rd": "머거 척 알욘 오트!",
+   "ko": "당신은 거기 그냥 서 있어요!",
+   "note": "maga = 당신, álljon = 서 계세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "álljon",
+     "áll",
+     "알"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Mi van? Ki maga, hogy ezt mondja?",
+   "rd": "미 번? 키 머거, 호지 에즈트 몬드여?",
+   "ko": "뭐요? 당신이 뭔데 그런 말을 해요?",
+   "note": "ki maga = 당신이 뭔데",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "mondja",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Elnézést... én itt inkább leszállok.",
+   "rd": "엘네제슈트... 엔 이트 인카브 레쌀록.",
+   "ko": "죄송해요… 저는 여기서 그냥 내릴게요.",
+   "note": "leszállok = 내린다",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "inkább",
+     "inkább",
+     "인깝"
+    ],
+    [
+     "leszállok",
+     "leszáll",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Nem baj, ő a férjem. Mindig ilyen.",
+   "rd": "넴 버이, 외 어 페르옘. 민딕 이옌.",
+   "ko": "괜찮아요, 내 남편이에요. 늘 이래요.",
+   "note": "a férjem = 내 남편",
+   "tags": [
+    "expr:Nem baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "férjem",
+     "férj",
+     ""
+    ]
+   ]
+  }
+ ]
+}

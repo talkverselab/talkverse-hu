@@ -1,0 +1,254 @@
+{
+ "id": "r1_friends_b3",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "온천의 열쇠",
+ "emoji": "♨️",
+ "scene": "뜨끈한 온천. 라커 열쇠가 사라지자 탕 전체가 나선다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Bácsi"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "소재 묻기(Hol a …?)와 함께하자는 말(keressük meg)",
+ "expressions": [
+  "figyelj",
+  "Nem tudom",
+  "Úristen",
+  "Elnézést",
+  "légyszi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Jaj, figyelj! Hol a szekrény kulcsa?",
+   "rd": "여이, 피젤이! 홀 어 쎅레니 쿨처?",
+   "ko": "아이고, 야! 라커 열쇠 어디 있어?",
+   "note": "kulcs = 열쇠",
+   "tags": [
+    "expr:figyelj"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "szekrény",
+     "szekrény",
+     ""
+    ],
+    [
+     "kulcsa",
+     "kulcsa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Nem tudom. Nálad volt, nem?",
+   "rd": "넴 투돔. 날러드 볼트, 넴?",
+   "ko": "몰라. 너한테 있었잖아?",
+   "note": "nálad = 너한테",
+   "tags": [
+    "expr:Nem tudom"
+   ],
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Nem, nálam nincs! Biztos a vízben van.",
+   "rd": "넴, 날럼 닌치! 비즈토시 어 비즈벤 번.",
+   "ko": "아니, 나한테 없어! 분명 물속에 있어.",
+   "note": "biztos = 분명",
+   "tags": [],
+   "lemmas": [
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "vízben",
+     "víz",
+     "비즈"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Úristen! Akkor keressük meg!",
+   "rd": "우리슈텐! 어꼬르 케레쒹 멕!",
+   "ko": "세상에! 그럼 찾자!",
+   "note": "keressük meg = 찾아보자",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "keressük",
+     "keres",
+     "케레시"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Elnézést, mit keresnek a lábam alatt?",
+   "rd": "엘네제슈트, 미트 케레슈넥 어 라범 얼러트?",
+   "ko": "실례지만, 내 발밑에서 뭘 찾으세요?",
+   "note": "a lábam alatt = 내 발밑에서",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "keresnek",
+     "keres",
+     "케레시"
+    ],
+    [
+     "lábam",
+     "láb",
+     "라브"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Egy kulcsot! Bácsi, segítsen, légyszi!",
+   "rd": "에지 쿨초트! 바치, 세기트센, 레지씨!",
+   "ko": "열쇠요! 할아버지, 좀 도와주세요!",
+   "note": "segítsen = 도와주세요(존댓말)",
+   "tags": [
+    "expr:légyszi"
+   ],
+   "lemmas": [
+    [
+     "kulcsot",
+     "kulcs",
+     "쿨치"
+    ],
+    [
+     "segítsen",
+     "segít",
+     "셰기트"
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Emberek, mindenki keresse a kulcsot!",
+   "rd": "엠베렉, 민덴키 케레쎄 어 쿨초트!",
+   "ko": "여러분, 다들 열쇠 찾아요!",
+   "note": "mindenki = 모두",
+   "tags": [],
+   "lemmas": [
+    [
+     "Emberek",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "keresse",
+     "keres",
+     "케레시"
+    ],
+    [
+     "kulcsot",
+     "kulcs",
+     "쿨치"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Réka... az ott a kezeden nem kulcs?",
+   "rd": "레커... 어즈 오트 어 케제덴 넴 쿨치?",
+   "ko": "레카… 네 손에 그거 열쇠 아니야?",
+   "note": "kezeden = 네 손에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "kezeden",
+     "kezed",
+     "케제드"
+    ],
+    [
+     "kulcs",
+     "kulcs",
+     "쿨치"
+    ]
+   ]
+  }
+ ]
+}

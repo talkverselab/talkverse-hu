@@ -1,0 +1,604 @@
+{
+ "id": "r3_love_b2",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "예순 개의 봉투",
+ "emoji": "✉️",
+ "scene": "A 가 두 달 동안 고향에 다녀온다. 출발 전날, Anna 가 큰 상자를 들고 왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "기간 말하기(két hónapra, hatvan napig)와 아쉬운 마음을 돌려 말하기",
+ "expressions": [
+  "Persze",
+  "Semmi baj",
+  "Ugye",
+  "Amúgy",
+  "Igazából"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szóval tényleg hazamész? Azt hittem, csak viccelsz.",
+   "rd": "쏘벌 테닐렉 허저메쓰? 어즈트 히뗌, 척 비쩰쓰.",
+   "ko": "그러니까 진짜 집에 가? 농담인 줄 알았어.",
+   "note": "viccelsz = 농담한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "hazamész",
+     "hazamegy",
+     "허저메지"
+    ],
+    [
+     "hittem",
+     "hitt",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "viccelsz",
+     "viccel",
+     "비츠첼"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Csak két hónapra. A családom már nagyon vár, és a papírokat is intézni kell.",
+   "rd": "척 케트 호너프러. 어 철라돔 마르 너죤 바르, 에시 어 퍼피로커트 이시 인테즈니 켈.",
+   "ko": "두 달만이야. 가족이 많이 기다리고, 서류도 처리해야 해.",
+   "note": "két hónapra = 두 달 동안(예정 기간)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "hónapra",
+     "hónap",
+     "호넙"
+    ],
+    [
+     "családom",
+     "család",
+     "처라드"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "vár",
+     "vár",
+     "바르"
+    ],
+    [
+     "papírokat",
+     "papír",
+     "퍼피르"
+    ],
+    [
+     "intézni",
+     "intéz",
+     "인테즈"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Persze, semmi baj. Két hónap nem olyan sok, ugye?",
+   "rd": "페르쎄, 셈미 버이. 케트 호너프 넴 오연 쇽, 우제?",
+   "ko": "그럼, 괜찮아. 두 달이면 그렇게 길지 않지, 그렇지?",
+   "note": "ugye = 그렇지?",
+   "tags": [
+    "expr:Persze",
+    "expr:Semmi baj",
+    "expr:Ugye"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "hónap",
+     "hónap",
+     "호넙"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Nem, egyáltalán nem sok. Amúgy mi van ebben a nagy dobozban?",
+   "rd": "넴, 에잘털란 넴 쇽. 어무지 미 번 에벤 어 너지 도보즈번?",
+   "ko": "응, 전혀 길지 않아. 그건 그렇고 이 큰 상자엔 뭐가 있어?",
+   "note": "amúgy = 그건 그렇고",
+   "tags": [
+    "expr:Amúgy"
+   ],
+   "lemmas": [
+    [
+     "egyáltalán",
+     "egyáltalán",
+     "에자알탈란"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "dobozban",
+     "doboz",
+     "도보즈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Semmi különös. Csak hatvan boríték, hogy legyen mit csinálnod.",
+   "rd": "셈미 퀼뢰뇌시. 척 허트번 보리텍, 호지 레젠 미트 치날노드.",
+   "ko": "별거 아니야. 그냥 봉투 예순 개, 네가 할 일이 있으라고.",
+   "note": "boríték = 봉투",
+   "tags": [],
+   "lemmas": [
+    [
+     "különös",
+     "különös",
+     "퀼뢰뫼시"
+    ],
+    [
+     "hatvan",
+     "hatvan",
+     ""
+    ],
+    [
+     "boríték",
+     "boríték",
+     ""
+    ],
+    [
+     "legyen",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "csinálnod",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Hatvan? Várj, mindegyiken egy dátum van.",
+   "rd": "허트번? 바르이, 민데지켄 에지 다툼 번.",
+   "ko": "예순 개? 잠깐, 봉투마다 날짜가 있네.",
+   "note": "mindegyiken = 각각에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hatvan",
+     "hatvan",
+     ""
+    ],
+    [
+     "mindegyiken",
+     "mindegyik",
+     ""
+    ],
+    [
+     "dátum",
+     "dátum",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Igen, minden napra egy. De előre nem nyithatod ki, komolyan mondom.",
+   "rd": "이겐, 민덴 너프러 에지. 데 엘뢰레 넴 니트허토드 키, 코모연 몬돔.",
+   "ko": "응, 하루에 하나씩. 근데 미리 열면 안 돼, 진심이야.",
+   "note": "nem nyithatod ki = 열 수 없다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "napra",
+     "nap",
+     "넙"
+    ],
+    [
+     "előre",
+     "előre",
+     "엘뢰레"
+    ],
+    [
+     "nyithatod",
+     "nyithat",
+     ""
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "mondom",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jó, de csak egyet nézek meg. Hű, ez egy krumpli sállal!",
+   "rd": "요, 데 척 에제트 네젝 멕. 휘, 에즈 에지 크룸플리 샬럴!",
+   "ko": "알았어, 근데 하나만 볼게. 와, 목도리 두른 감자네!",
+   "note": "sállal = 목도리로, 목도리를 두른",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "nézek",
+     "néz",
+     "네즈"
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ],
+    [
+     "sállal",
+     "sál",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Az első napon a krumpli hazaér, és nagyon fázik.",
+   "rd": "어즈 엘쇠 너폰 어 크룸플리 허저에르, 에시 너죤 파직.",
+   "ko": "첫날에 감자가 집에 도착하는데, 많이 추워해.",
+   "note": "hazaér = 집에 도착한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "napon",
+     "nap",
+     "넙"
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ],
+    [
+     "hazaér",
+     "hazaér",
+     ""
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "fázik",
+     "fáz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "És a második napon? Mi történik a krumplival?",
+   "rd": "에시 어 마쇼딕 너폰? 미 퇴르테닉 어 크룸플리벌?",
+   "ko": "둘째 날엔? 감자한테 무슨 일이 생겨?",
+   "note": "történik = 일어난다",
+   "tags": [],
+   "lemmas": [
+    [
+     "napon",
+     "nap",
+     "넙"
+    ],
+    [
+     "történik",
+     "történik",
+     "퇴르텐닉"
+    ],
+    [
+     "krumplival",
+     "krumpli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Azt majd holnap tudod meg. Hatvan napig minden reggel rám kell gondolnod.",
+   "rd": "어즈트 머이드 홀너프 투도드 멕. 허트번 너픽 민덴 렉겔 람 켈 곤돌노드.",
+   "ko": "그건 내일 알게 돼. 육십 일 동안 매일 아침 내 생각을 해야 해.",
+   "note": "rám kell gondolnod = 너는 내 생각을 해야 한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "majd",
+     "majd",
+     "머이드"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "tudod",
+     "tud",
+     "투드"
+    ],
+    [
+     "napig",
+     "nap",
+     "넙"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "gondolnod",
+     "gondol",
+     "곤돌"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Anna, ezt mikor rajzoltad? Csak tegnap mondtam el, hogy megyek.",
+   "rd": "언너, 에즈트 미코르 러이졸터드? 척 텍너프 몬드텀 엘, 호지 메젝.",
+   "ko": "언너, 이걸 언제 그렸어? 간다고 어제 말했잖아.",
+   "note": "csak tegnap = 겨우 어제",
+   "tags": [],
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "rajzoltad",
+     "rajzol",
+     ""
+    ],
+    [
+     "tegnap",
+     "tegnap",
+     "테그너프"
+    ],
+    [
+     "mondtam",
+     "mond",
+     "몬드"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Igazából a múlt hónap óta tudom, Réka elmondta. Minden este rajzoltam.",
+   "rd": "이거자볼 어 물트 호너프 오터 투돔, 레커 엘몬드터. 민덴 에슈테 러이졸텀.",
+   "ko": "사실 지난달부터 알고 있었어, 레카가 말해 줬거든. 매일 밤 그렸어.",
+   "note": "igazából = 사실은",
+   "tags": [
+    "expr:Igazából"
+   ],
+   "lemmas": [
+    [
+     "Igazából",
+     "igaz",
+     "이거즈"
+    ],
+    [
+     "múlt",
+     "múlt",
+     "물트"
+    ],
+    [
+     "hónap",
+     "hónap",
+     "호넙"
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "elmondta",
+     "elmond",
+     "엘몬드"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "rajzoltam",
+     "rajzol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Minden este? És mi van az utolsó borítékban?",
+   "rd": "민덴 에슈테? 에시 미 번 어즈 우톨쇼 보리텍번?",
+   "ko": "매일 밤? 그럼 마지막 봉투엔 뭐가 있어?",
+   "note": "utolsó = 마지막",
+   "tags": [],
+   "lemmas": [
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "utolsó",
+     "utolsó",
+     "우톨쇼"
+    ],
+    [
+     "borítékban",
+     "boríték",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Az üres. Azt neked kell rajzolnod, amikor visszajössz.",
+   "rd": "어즈 위레시. 어즈트 네케드 켈 러이졸노드, 어미코르 비써요쓰.",
+   "ko": "그건 비어 있어. 네가 돌아오면 네가 그려야 해.",
+   "note": "amikor visszajössz = 네가 돌아올 때",
+   "tags": [],
+   "lemmas": [
+    [
+     "üres",
+     "üres",
+     "위레시"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "rajzolnod",
+     "rajzol",
+     ""
+    ],
+    [
+     "visszajössz",
+     "vissza",
+     "비써"
+    ]
+   ]
+  }
+ ]
+}

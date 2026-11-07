@@ -1,0 +1,384 @@
+{
+ "id": "r2_work_b2",
+ "region": "R2",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_hungary"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "빨간 버튼",
+ "emoji": "🔴",
+ "scene": "카페 첫 출근. Bence 가 규칙은 딱 하나라고 한다. 규칙이 하나면 지키기 쉬울 텐데",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bence",
+  "C": "Néni"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "금지하는 말(ne + 명령형)과 과거형으로 일 따지기",
+ "expressions": [
+  "Na",
+  "Jól van",
+  "Nem tudom",
+  "Úristen",
+  "Elnézést"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Na, első nap! Ma csak egy szabály van.",
+   "rd": "너, 엘쇠 너프! 머 척 에지 써바이 번.",
+   "ko": "자, 첫날! 오늘 규칙은 딱 하나야.",
+   "note": "szabály = 규칙",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "nap",
+     "nap",
+     "넙"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "szabály",
+     "szabály",
+     "사발리"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jól van. Mi az?",
+   "rd": "욜 번. 미 어즈?",
+   "ko": "알았어. 뭔데?",
+   "note": "jól van = 알았어, 좋아",
+   "tags": [
+    "expr:Jól van"
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "A piros gombot ne nyomd meg.",
+   "rd": "어 피로시 곰보트 네 뇸드 멕.",
+   "ko": "빨간 버튼은 누르지 마.",
+   "note": "ne nyomd meg = 누르지 마(정활용 명령)",
+   "tags": [],
+   "lemmas": [
+    [
+     "piros",
+     "piros",
+     ""
+    ],
+    [
+     "gombot",
+     "gomb",
+     ""
+    ],
+    [
+     "nyomd",
+     "nyomd",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Miért? Mit csinál?",
+   "rd": "미에르트? 미트 치날?",
+   "ko": "왜? 그거 뭐 하는 건데?",
+   "note": "mit csinál? = 뭘 하는데?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "csinál",
+     "csi",
+     "치"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Nem tudom. Nekem is ezt mondták.",
+   "rd": "넴 투돔. 네켐 이시 에즈트 몬드탁.",
+   "ko": "몰라. 나도 그렇게 들었어.",
+   "note": "mondták = 그들이 말했다",
+   "tags": [
+    "expr:Nem tudom"
+   ],
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "mondták",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Jó napot! Egy teát kérek.",
+   "rd": "요 너포트! 에지 테아트 케렉.",
+   "ko": "안녕하세요! 차 한 잔 주세요.",
+   "note": "teát = 차를(-t 목적격)",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "teát",
+     "tea",
+     "테아"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Bence, egy kérdés. A kávégép miért nem áll le?",
+   "rd": "벤체, 에지 케르데시. 어 카베게프 미에르트 넴 알 레?",
+   "ko": "벤체, 질문 하나. 커피 머신이 왜 안 멈춰?",
+   "note": "nem áll le = 안 멈춘다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bence",
+     "bence",
+     ""
+    ],
+    [
+     "kérdés",
+     "kérdés",
+     "케르데시"
+    ],
+    [
+     "kávégép",
+     "kávégép",
+     ""
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Mit nyomtál meg?",
+   "rd": "미트 뇸탈 멕?",
+   "ko": "뭐 눌렀어?",
+   "note": "nyomtál = 네가 눌렀다",
+   "tags": [],
+   "lemmas": [
+    [
+     "nyomtál",
+     "nyom",
+     "너음"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "A pirosat. Kíváncsi voltam.",
+   "rd": "어 피로셔트. 키반치 볼텀.",
+   "ko": "빨간 거. 궁금했어.",
+   "note": "kíváncsi = 궁금한",
+   "tags": [],
+   "lemmas": [
+    [
+     "pirosat",
+     "piros",
+     ""
+    ],
+    [
+     "voltam",
+     "volt",
+     "볼트"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Úristen! Hozz még csészéket, gyorsan!",
+   "rd": "우리슈텐! 호즈 멕 체쎄케트, 죠르션!",
+   "ko": "세상에! 컵 더 가져와, 빨리!",
+   "note": "hozz = 가져와",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "csészéket",
+     "csésze",
+     ""
+    ],
+    [
+     "gyorsan",
+     "gyors",
+     "죠르시"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Már harminc csésze tele van, és a padlón is folyik!",
+   "rd": "마르 허르민츠 체쎄 텔레 번, 에시 어 퍼들론 이시 포익!",
+   "ko": "벌써 서른 잔이 찼고, 바닥에도 흘러!",
+   "note": "folyik = 흐른다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "harminc",
+     "harminc",
+     ""
+    ],
+    [
+     "csésze",
+     "csésze",
+     ""
+    ],
+    [
+     "tele",
+     "tél",
+     "텔"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "padlón",
+     "padló",
+     ""
+    ],
+    [
+     "folyik",
+     "folyik",
+     "폴리크"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Elnézést... én teát kértem.",
+   "rd": "엘네제슈트... 엔 테아트 케르템.",
+   "ko": "저기요… 저는 차를 시켰는데요.",
+   "note": "kértem = 내가 주문했다",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "teát",
+     "tea",
+     "테아"
+    ],
+    [
+     "kértem",
+     "kért",
+     ""
+    ]
+   ]
+  }
+ ]
+}

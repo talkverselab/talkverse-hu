@@ -1,0 +1,264 @@
+{
+ "id": "r1_life_c3",
+ "region": "R1",
+ "island": "life",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "초록 대문, 큰 개",
+ "emoji": "🛵",
+ "scene": "랑고시 배달. 기사가 집 앞에 왔다는데 아무도 안 보인다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Futár"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "배달 기사와 문자로 위치 맞추기",
+ "expressions": [
+  "Jó napot",
+  "Bocsánat",
+  "Sajnos"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Jó napot! Itt vagyok a kapunál.",
+   "rd": "요 너포트! 이트 버죡 어 커푸날.",
+   "ko": "안녕하세요! 대문 앞이에요.",
+   "note": "kapunál = 대문 옆에",
+   "tags": [
+    "expr:Jó napot"
+   ],
+   "at": "12:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "kapunál",
+     "kapu",
+     "커푸"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó napot! Nem látom.",
+   "rd": "요 너포트! 넴 라톰.",
+   "ko": "안녕하세요! 안 보이는데요.",
+   "note": "nem látom = 그게 안 보여요",
+   "tags": [
+    "expr:Jó napot"
+   ],
+   "at": "12:31",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "látom",
+     "lát",
+     "라트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Zöld kapu, nagy kutya.",
+   "rd": "죌드 커푸, 너지 쿠텨.",
+   "ko": "초록 대문, 큰 개요.",
+   "note": "zöld = 초록색",
+   "tags": [],
+   "at": "12:31",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Zöld",
+     "zöld",
+     "죄르드"
+    ],
+    [
+     "kapu",
+     "kapu",
+     "커푸"
+    ],
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "kutya",
+     "kutya",
+     "쿠티어"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Itt nincs kutya.",
+   "rd": "이트 닌치 쿠텨.",
+   "ko": "여긴 개가 없는데요.",
+   "note": "nincs = 없다",
+   "tags": [],
+   "at": "12:32",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "kutya",
+     "kutya",
+     "쿠티어"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Akkor rossz ház. Bocsánat.",
+   "rd": "어꼬르 로쓰 하즈. 보차너트.",
+   "ko": "그럼 다른 집이네요. 죄송해요.",
+   "note": "rossz ház = 틀린 집",
+   "tags": [
+    "expr:Bocsánat"
+   ],
+   "at": "12:34",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "rossz",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "ház",
+     "ház",
+     "하즈"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "És a lángosom?",
+   "rd": "에시 어 란고숌?",
+   "ko": "제 랑고시는요?",
+   "note": "lángosom = 내 랑고시",
+   "tags": [],
+   "at": "12:34",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "lángosom",
+     "lángosom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Sajnos a kutya megette.",
+   "rd": "셔이노시 어 쿠텨 메게떼.",
+   "ko": "안타깝게도 개가 먹었어요.",
+   "note": "megette = 먹어 치웠다",
+   "tags": [
+    "expr:Sajnos"
+   ],
+   "at": "12:36",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Sajnos",
+     "sajnos",
+     "셔이노시"
+    ],
+    [
+     "kutya",
+     "kutya",
+     "쿠티어"
+    ],
+    [
+     "megette",
+     "megeszik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Akkor jó étvágyat neki.",
+   "rd": "어꼬르 요 에트바져트 네키.",
+   "ko": "그럼 개한테 맛있게 먹으라고 해 주세요.",
+   "note": "jó étvágyat = 맛있게 드세요",
+   "tags": [],
+   "at": "12:37",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "étvágyat",
+     "étvágy",
+     ""
+    ]
+   ]
+  }
+ ]
+}

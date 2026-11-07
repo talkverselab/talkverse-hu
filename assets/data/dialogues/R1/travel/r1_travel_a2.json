@@ -1,0 +1,229 @@
+{
+ "id": "r1_travel_a2",
+ "region": "R1",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "다비드가 아니었다",
+ "emoji": "♨️",
+ "scene": "온천 김 속. 안경을 벗은 {name} 이 옆 사람을 룸메이트 Dávid 로 알고 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bácsi"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "편한 말로 부탁하기와 사람을 잘못 봤을 때 사과하기",
+ "expressions": [
+  "Figyelj",
+  "Mennyi kell?",
+  "Tessék",
+  "Nem baj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Dávid, jó a víz?",
+   "rd": "다비드, 요 어 비즈?",
+   "ko": "다비드, 물 좋아?",
+   "note": "víz = 물",
+   "tags": [],
+   "lemmas": [
+    [
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Jó, jó. Nagyon meleg.",
+   "rd": "요, 요. 너죤 멜렉.",
+   "ko": "좋아, 좋아. 아주 따뜻해.",
+   "note": "meleg = 따뜻한",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "meleg",
+     "meleg",
+     "멜레그"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Figyelj, éhes vagyok. Van pénzed?",
+   "rd": "피젤이, 에헤시 버죡. 번 펜제드?",
+   "ko": "야, 나 배고파. 돈 있어?",
+   "note": "figyelj = 야, 있잖아(말 꺼낼 때)",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "éhes",
+     "éhes",
+     "에헤시"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "pénzed",
+     "pénzed",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Van. Mennyi kell?",
+   "rd": "번. 메니 켈?",
+   "ko": "있지. 얼마 필요해?",
+   "note": "mennyi kell? = 얼마 필요해?",
+   "tags": [
+    "expr:Mennyi kell?"
+   ],
+   "lemmas": [
+    [
+     "Van",
+     "van",
+     "번"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Ezer forint. Lángosra.",
+   "rd": "에제르 포린트. 란고슈러.",
+   "ko": "천 포린트. 랑고시 사 먹게.",
+   "note": "-ra = ~에(쓸 곳)",
+   "tags": [],
+   "lemmas": [
+    [
+     "forint",
+     "forint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Tessék. De ki az a Dávid?",
+   "rd": "테쎅. 데 키 어즈 어 다비드?",
+   "ko": "여기. 그런데 다비드가 누구야?",
+   "note": "ki = 누구",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Jaj, elnézést! Hol a szemüvegem?",
+   "rd": "여이, 엘네제슈트! 홀 어 쎄뮈베겜?",
+   "ko": "아이고, 죄송합니다! 제 안경 어디 있지?",
+   "note": "szemüveg = 안경",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "szemüvegem",
+     "szemüveg",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Nem baj. Nekem is hozz egy lángost!",
+   "rd": "넴 버이. 네켐 이시 호즈 에지 란고슈트!",
+   "ko": "괜찮아. 나도 랑고시 하나 갖다 줘!",
+   "note": "hozz = 가져와",
+   "tags": [
+    "expr:Nem baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "hozz",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "lángost",
+     "lángos",
+     ""
+    ]
+   ]
+  }
+ ]
+}

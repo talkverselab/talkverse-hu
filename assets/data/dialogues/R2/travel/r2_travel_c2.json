@@ -1,0 +1,394 @@
+{
+ "id": "r2_travel_c2",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "목도리는 여행 중",
+ "emoji": "🧣",
+ "scene": "돌려받기로 한 목도리가 아직 Zsófi 에게 있다. 왜인지 사진이 계속 온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zsófi"
+ },
+ "register": "chat",
+ "twist": 10,
+ "twist_type": "emotion",
+ "flags": [
+  "romance",
+  "alcohol"
+ ],
+ "goal": "채팅으로 놀리기와 초대에 답하기",
+ "expressions": [
+  "Mi van?",
+  "nézd",
+  "tényleg",
+  "Szóval",
+  "Komolyan"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Zsófi, mikor kapom vissza a sálamat?",
+   "rd": "죠피, 미코르 커폼 비써 어 샬러머트?",
+   "ko": "소피, 내 목도리 언제 돌려받아?",
+   "note": "sálamat = 내 목도리를",
+   "tags": [],
+   "at": "20:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Zsófi",
+     "zsófi",
+     ""
+    ],
+    [
+     "kapom",
+     "kap",
+     "커프"
+    ],
+    [
+     "vissza",
+     "vissza",
+     "비써"
+    ],
+    [
+     "sálamat",
+     "sálamat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Most nem tud beszélni. Éppen utazik. 😄",
+   "rd": "모슈트 넴 투드 베쎌니. 에뻰 우터직. 😄",
+   "ko": "지금은 통화 못 해. 여행 중이거든. 😄",
+   "note": "éppen = 지금 막",
+   "tags": [],
+   "at": "20:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "tud",
+     "tud",
+     "투드"
+    ],
+    [
+     "beszélni",
+     "beszél",
+     "베쎌"
+    ],
+    [
+     "utazik",
+     "utazik",
+     "우터직"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Mi van? A sálam utazik?",
+   "rd": "미 번? 어 샬럼 우터직?",
+   "ko": "뭐? 내 목도리가 여행을 해?",
+   "note": "utazik = 여행하다",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "at": "20:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "sálam",
+     "sálam",
+     ""
+    ],
+    [
+     "utazik",
+     "utazik",
+     "우터직"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Igen, nézd! Ő a Balatonnál. 📷",
+   "rd": "이겐, 네즈드! 외 어 벌러톤날. 📷",
+   "ko": "응, 봐! 발라톤에 있어. 📷",
+   "note": "-nál = ~에, ~ 곁에",
+   "tags": [
+    "expr:nézd"
+   ],
+   "at": "20:16",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "nézd",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Ez tényleg az én sálam! Miért van egy kutyán?",
+   "rd": "에즈 테닐렉 어즈 엔 샬럼! 미에르트 번 에지 쿠탼?",
+   "ko": "이거 진짜 내 목도리네! 왜 개한테 둘렀어?",
+   "note": "kutya = 개",
+   "tags": [
+    "expr:tényleg"
+   ],
+   "at": "20:17",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "sálam",
+     "sálam",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kutyán",
+     "kutya",
+     "쿠티어"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Egerben is volt. Ott egy kicsit sokat ivott. 🍷",
+   "rd": "에게르벤 이시 볼트. 오트 에지 키치트 쇼커트 이보트. 🍷",
+   "ko": "에게르에도 갔었어. 거기서 좀 많이 마셨어. 🍷",
+   "note": "ivott = 마셨다",
+   "tags": [],
+   "at": "20:18",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Egerben",
+     "eger",
+     ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "ivott",
+     "iszik",
+     "이식"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Hű. Már többet utazott, mint én.",
+   "rd": "휘. 마르 퇴베트 우터조트, 민트 엔.",
+   "ko": "와. 벌써 나보다 많이 여행했네.",
+   "note": "mint = ~보다",
+   "tags": [],
+   "at": "20:18",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "többet",
+     "több",
+     "퇴그"
+    ],
+    [
+     "utazott",
+     "utazik",
+     "우터직"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Igen. Jövő héten Pécsre megy.",
+   "rd": "이겐. 요뵈 헤텐 페치레 메지.",
+   "ko": "응. 다음 주에 페치 가.",
+   "note": "jövő héten = 다음 주에",
+   "tags": [],
+   "at": "20:19",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "héten",
+     "hét",
+     "헤트"
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Szóval nem kapom vissza.",
+   "rd": "쏘벌 넴 커폼 비써.",
+   "ko": "그러니까 안 돌려준다는 거네.",
+   "note": "szóval = 그러니까",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "at": "20:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "kapom",
+     "kap",
+     "커프"
+    ],
+    [
+     "vissza",
+     "vissza",
+     "비써"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Csak egy baj van: egyedül fél.",
+   "rd": "척 에지 버이 번: 에제뒬 펠.",
+   "ko": "문제가 하나 있어. 혼자서는 무서워해.",
+   "note": "fél = 무서워하다",
+   "tags": [],
+   "at": "20:24",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "egyedül",
+     "egyed",
+     "에제드"
+    ],
+    [
+     "fél",
+     "fél",
+     "펠"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Komolyan? Fél a sál?",
+   "rd": "코모연? 펠 어 샬?",
+   "ko": "진짜? 목도리가 무서워해?",
+   "note": "komolyan = 진짜로",
+   "tags": [
+    "expr:Komolyan"
+   ],
+   "at": "20:24",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "sál",
+     "sál",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Igen. Jössz vele? 😇",
+   "rd": "이겐. 요쓰 벨레? 😇",
+   "ko": "응. 같이 가 줄래? 😇",
+   "note": "vele = 그것과 함께",
+   "tags": [],
+   "at": "20:25",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ]
+   ]
+  }
+ ]
+}

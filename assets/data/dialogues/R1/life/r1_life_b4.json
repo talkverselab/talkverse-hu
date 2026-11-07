@@ -1,0 +1,240 @@
+{
+ "id": "r1_life_b4",
+ "region": "R1",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "8시 반은 7시 반",
+ "emoji": "🕢",
+ "scene": "병원 접수처. fél nyolc 를 8시 반으로 알고 한 시간 늦게 왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Asszisztens"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "시각 말하기 fél·negyed·háromnegyed",
+ "expressions": [
+  "Jó napot",
+  "Hát",
+  "Kérem"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Jó napot! Fél nyolcra jöttem az orvoshoz.",
+   "rd": "요 너포트! 펠 뇰츠러 요뗌 어즈 오르보슈호즈.",
+   "ko": "안녕하세요! 「반 여덟 시」로 진료 왔어요.",
+   "note": "fél nyolc = 7시 반(8시로 가는 중의 반)",
+   "tags": [
+    "expr:Jó napot"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "jöttem",
+     "jön",
+     "왼"
+    ],
+    [
+     "orvoshoz",
+     "orvos",
+     "오르보시"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Fél nyolcra? Most fél kilenc van!",
+   "rd": "펠 뇰츠러? 모슈트 펠 킬렌츠 번!",
+   "ko": "「반 여덟 시」요? 지금 「반 아홉 시」예요!",
+   "note": "fél kilenc = 8시 반",
+   "tags": [],
+   "lemmas": [
+    [
+     "Fél",
+     "fél",
+     "펠"
+    ],
+    [
+     "kilenc",
+     "kilenc",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Igen, fél nyolc. Nyolc és fél, nem?",
+   "rd": "이겐, 펠 뇰츠. 뇰츠 에시 펠, 넴?",
+   "ko": "네, 「반 여덟」이요. 8시 반 아니에요?",
+   "note": "..., nem? = ~지요?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "fél",
+     "fél",
+     "펠"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Nem. A fél nyolc az hét harminc.",
+   "rd": "넴. 어 펠 뇰츠 어즈 헤트 허르민츠.",
+   "ko": "아니요. 「반 여덟」은 7시 30분이에요.",
+   "note": "hét harminc = 7시 30분",
+   "tags": [],
+   "lemmas": [
+    [
+     "fél",
+     "fél",
+     "펠"
+    ],
+    [
+     "hét",
+     "hét",
+     "헤트"
+    ],
+    [
+     "harminc",
+     "harminc",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Hét harminc? De ott van a nyolc!",
+   "rd": "헤트 허르민츠? 데 오트 번 어 뇰츠!",
+   "ko": "7시 30분요? 그런데 8이 들어 있잖아요!",
+   "note": "de = 하지만",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hét",
+     "hét",
+     "헤트"
+    ],
+    [
+     "harminc",
+     "harminc",
+     ""
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Hát igen, ez magyar idő. Jöjjön holnap háromnegyed nyolcra!",
+   "rd": "하트 이겐, 에즈 머져르 이되. 요왼 홀너프 하롬네제드 뇰츠러!",
+   "ko": "네, 이게 헝가리 시간이에요. 내일 「4분의 3 여덟 시」에 오세요!",
+   "note": "háromnegyed nyolc = 7시 45분",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "idő",
+     "idő",
+     "이뢰"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "háromnegyed",
+     "háromnegyed",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Háromnegyed?! Kérem, mondja számmal!",
+   "rd": "하롬네제드?! 케렘, 몬드여 쌈멀!",
+   "ko": "4분의 3이요?! 제발 숫자로 말해 주세요!",
+   "note": "számmal = 숫자로",
+   "tags": [
+    "expr:Kérem"
+   ],
+   "lemmas": [
+    [
+     "Háromnegyed",
+     "háromnegyed",
+     ""
+    ],
+    [
+     "mondja",
+     "mond",
+     "몬드"
+    ],
+    [
+     "számmal",
+     "szám",
+     ""
+    ]
+   ]
+  }
+ ]
+}

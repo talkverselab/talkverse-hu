@@ -1,0 +1,297 @@
+{
+ "id": "r1_travel_b5",
+ "region": "R1",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "언제 깊어져",
+ "emoji": "🏖️",
+ "scene": "발라톤 남쪽 호숫가. 수영하러 들어갔는데 물이 아무리 걸어도 무릎이다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "어디서 할 수 있는지 묻기(hol lehet)와 -ig(~까지)",
+ "expressions": [
+  "Figyelj",
+  "Gyere",
+  "menjünk",
+  "Nyugi",
+  "Nézd",
+  "Szuper"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Figyelj, hol lehet itt úszni?",
+   "rd": "피젤이, 홀 레헤트 이트 우쓰니?",
+   "ko": "야, 여기 어디서 수영해?",
+   "note": "lehet = ~할 수 있다",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "úszni",
+     "úszni",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Itt, a Balatonban! Gyere, menjünk be!",
+   "rd": "이트, 어 벌러톤번! 제레, 멘윈크 베!",
+   "ko": "여기, 발라톤에서! 와, 들어가자!",
+   "note": "menjünk = 가자",
+   "tags": [
+    "expr:Gyere",
+    "expr:menjünk"
+   ],
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "menjünk",
+     "megy",
+     "메지"
+    ],
+    [
+     "be",
+     "be",
+     "베"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "De a víz csak a térdemig ér.",
+   "rd": "데 어 비즈 척 어 테르데믹 에르.",
+   "ko": "근데 물이 무릎까지밖에 안 와.",
+   "note": "-ig = ~까지",
+   "tags": [],
+   "lemmas": [
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "térdemig",
+     "térdemig",
+     ""
+    ],
+    [
+     "ér",
+     "ér",
+     "에르"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Nyugi, menj tovább! Mindjárt mély lesz.",
+   "rd": "뉴기, 멘이 토바브! 민드야르트 메이 레쓰.",
+   "ko": "진정해, 더 가! 곧 깊어져.",
+   "note": "mély = 깊은",
+   "tags": [
+    "expr:Nyugi"
+   ],
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "menj",
+     "megy",
+     "메지"
+    ],
+    [
+     "tovább",
+     "tovább",
+     "토밥"
+    ],
+    [
+     "mély",
+     "mély",
+     "메이"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Már húsz perce megyünk. Még mindig a térdem!",
+   "rd": "마르 후쓰 페르체 메쥔크. 멕 민딕 어 테르뎀!",
+   "ko": "벌써 20분째 걷고 있어. 아직도 무릎이야!",
+   "note": "húsz perce = 20분째",
+   "tags": [],
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "húsz",
+     "húsz",
+     ""
+    ],
+    [
+     "perce",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "megyünk",
+     "megy",
+     "메지"
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "térdem",
+     "térd",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Hát, ez a déli part. Menjünk még!",
+   "rd": "하트, 에즈 어 델리 퍼르트. 멘윈크 멕!",
+   "ko": "음, 여긴 남쪽 호숫가니까. 더 가자!",
+   "note": "part = 호숫가",
+   "tags": [
+    "expr:menjünk"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "déli",
+     "déli",
+     ""
+    ],
+    [
+     "part",
+     "part",
+     "퍼르트"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Nézd, egy falu! Ott egy templom!",
+   "rd": "네즈드, 에지 펄루! 오트 에지 템플롬!",
+   "ko": "봐, 마을이야! 저기 교회도 있어!",
+   "note": "falu = 마을",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "Nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "falu",
+     "falu",
+     ""
+    ],
+    [
+     "templom",
+     "templom",
+     "템플롬"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Szuper, ez a másik part. Átsétáltunk.",
+   "rd": "쑤페르, 에즈 어 마식 퍼르트. 아트세탈툰크.",
+   "ko": "좋아, 여기가 건너편이네. 우리 걸어서 건넜어.",
+   "note": "átsétáltunk = 걸어서 건넜다",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "part",
+     "part",
+     "퍼르트"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "id": "r1_survival_s3",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "세 번째 뵙네요",
+ "emoji": "🏥",
+ "scene": "다리를 절며 병원을 찾는 길. 할머니가 알려 준 대로 걷고 또 걷는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Néni"
+ },
+ "register": "polite",
+ "twist": 8,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "길 묻기(Hol van …?)와 길 안내(menjen, balra) 알아듣기",
+ "expressions": [
+  "Elnézést",
+  "Hol van",
+  "Menjen",
+  "sajnos"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Elnézést! Hol van a kórház?",
+   "rd": "엘네제슈트! 홀 번 어 코르하즈?",
+   "ko": "실례합니다! 병원이 어디예요?",
+   "note": "kórház = 병원",
+   "tags": [
+    "expr:Elnézést",
+    "expr:Hol van"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kórház",
+     "kórház",
+     "코르하즈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "A kórház? Menjen egyenesen, aztán balra!",
+   "rd": "어 코르하즈? 멘옌 에제네센, 어즈탄 벌러!",
+   "ko": "병원이요? 쭉 가서 왼쪽이요!",
+   "note": "menjen = 가세요(존댓말), balra = 왼쪽으로",
+   "tags": [
+    "expr:Menjen"
+   ],
+   "lemmas": [
+    [
+     "kórház",
+     "kórház",
+     "코르하즈"
+    ],
+    [
+     "egyenesen",
+     "egyenes",
+     "에제녜시"
+    ],
+    [
+     "aztán",
+     "aztán",
+     "어스탄"
+    ],
+    [
+     "balra",
+     "bal",
+     "벌"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Köszönöm! Nagyon fáj a lábam.",
+   "rd": "쾨쐬뇜! 너죤 파이 어 라범.",
+   "ko": "감사합니다! 다리가 너무 아파서요.",
+   "note": "láb = 다리, 발",
+   "tags": [],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "fáj",
+     "fáj",
+     "파이"
+    ],
+    [
+     "lábam",
+     "láb",
+     "라브"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Nincs messze, csak öt perc.",
+   "rd": "닌치 메쎄, 척 외트 페르츠.",
+   "ko": "안 멀어요, 5분밖에 안 걸려요.",
+   "note": "messze = 멀리",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "messze",
+     "messze",
+     "메쎄"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "perc",
+     "perc",
+     "페르츠"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Elnézést, hol van a... Jaj, megint maga?",
+   "rd": "엘네제슈트, 홀 번 어... 여이, 메긴트 머거?",
+   "ko": "실례합니다! 병원이 어… 어머, 또 뵙네요?",
+   "note": "megint = 또",
+   "tags": [
+    "expr:Elnézést",
+    "expr:Hol van"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "megint",
+     "megint",
+     "메긴트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Már harmadszor jön erre!",
+   "rd": "마르 허르머드쏘르 욘 에레!",
+   "ko": "벌써 세 번째 이쪽으로 오시네요!",
+   "note": "harmadszor = 세 번째로",
+   "tags": [],
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "harmadszor",
+     "harmad",
+     ""
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Igen, sajnos. Most már nagyon fáj a lábam.",
+   "rd": "이겐, 셔이노시. 모슈트 마르 너죤 파이 어 라범.",
+   "ko": "네, 안타깝게도요. 이제 다리가 정말 아파요.",
+   "note": "sajnos = 안타깝게도",
+   "tags": [
+    "expr:sajnos"
+   ],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "sajnos",
+     "sajnos",
+     "셔이노시"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "fáj",
+     "fáj",
+     "파이"
+    ],
+    [
+     "lábam",
+     "láb",
+     "라브"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Hát nézze! A kórház ott van, maga mögött.",
+   "rd": "하트 네제! 어 코르하즈 오트 번, 머거 뫼괴트.",
+   "ko": "아이고 보세요! 병원은 저기, 바로 뒤에 있어요.",
+   "note": "maga mögött = 당신 뒤에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "nézze",
+     "néz",
+     "네즈"
+    ],
+    [
+     "kórház",
+     "kórház",
+     "코르하즈"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  }
+ ]
+}

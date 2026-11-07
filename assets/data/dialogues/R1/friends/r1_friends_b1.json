@@ -1,0 +1,300 @@
+{
+ "id": "r1_friends_b1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "계단의 소파",
+ "emoji": "🛋️",
+ "scene": "Réka 가 벼룩시장에서 산 소파를 선물이라며 끌고 왔다. 계단이 좁다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Néni"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "친구 말투와 어른께 쓰는 말투(üljön le) 나란히 익히기",
+ "expressions": [
+  "Figyelj",
+  "Nem baj",
+  "Jaj, ne már",
+  "Szóval"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj! Vettem neked egy kanapét a piacon!",
+   "rd": "피젤이! 베뗌 네케드 에지 커너페트 어 피어촌!",
+   "ko": "야! 시장에서 네 소파 샀어!",
+   "note": "figyelj = 야, 들어 봐",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "kanapét",
+     "kanapé",
+     ""
+    ],
+    [
+     "piacon",
+     "piac",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Mi? De hát kicsi a szobám!",
+   "rd": "미? 데 하트 키치 어 쏘밤!",
+   "ko": "뭐? 근데 내 방 좁잖아!",
+   "note": "kicsi = 작은",
+   "tags": [],
+   "lemmas": [
+    [
+     "hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "kicsi",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "szobám",
+     "szobám",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Nem baj. Már a lépcsőn van, gyere segíteni!",
+   "rd": "넴 버이. 마르 어 레프쵠 번, 제레 세기테니!",
+   "ko": "괜찮아. 벌써 계단에 있어, 와서 도와!",
+   "note": "lépcső = 계단",
+   "tags": [
+    "expr:Nem baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "lépcsőn",
+     "lépcső",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "segíteni",
+     "segít",
+     "셰기트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Jaj, ne már! Nem megy tovább!",
+   "rd": "여이, 네 마르! 넴 메지 토바브!",
+   "ko": "아이고, 말도 안 돼! 더 안 들어가!",
+   "note": "ne már = 에이, 그만 좀",
+   "tags": [
+    "expr:Jaj, ne már"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ],
+    [
+     "tovább",
+     "tovább",
+     "토밥"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Elnézést! Én hogy megyek most le?",
+   "rd": "엘네제슈트! 엔 호지 메젝 모슈트 레?",
+   "ko": "실례해요! 나는 이제 어떻게 내려가지?",
+   "note": "le = 아래로",
+   "tags": [],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Néni, tessék, üljön le a kanapéra!",
+   "rd": "네니, 테쎅, 윌욘 레 어 커너페러!",
+   "ko": "할머니, 여기, 소파에 앉으세요!",
+   "note": "üljön le = 앉으세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Néni",
+     "néni",
+     ""
+    ],
+    [
+     "tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "üljön",
+     "ül",
+     "위일"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "kanapéra",
+     "kanapé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Jó, köszönöm. És egy kávét is kérek.",
+   "rd": "요, 쾨쐬뇜. 에시 에지 카베트 이시 케렉.",
+   "ko": "그래, 고마워요. 커피도 한 잔 줘요.",
+   "note": "kávét is kérek = 커피도 주세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Szóval most a néni itt lakik a lépcsőn?",
+   "rd": "쏘벌 모슈트 어 네니 이트 러킥 어 레프쵠?",
+   "ko": "그러니까 이제 할머니가 계단에 사시는 거야?",
+   "note": "szóval = 그러니까",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "lakik",
+     "lakik",
+     "러키크"
+    ],
+    [
+     "lépcsőn",
+     "lépcső",
+     ""
+    ]
+   ]
+  }
+ ]
+}

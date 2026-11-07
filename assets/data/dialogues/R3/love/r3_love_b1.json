@@ -1,0 +1,638 @@
+{
+ "id": "r3_love_b1",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "가장 긴 단어",
+ "emoji": "🍽️",
+ "scene": "식당 데이트. Anna 가 헝가리어에서 가장 긴 단어를 말해 보라며 내기를 건다. 이 식당에 전통이 있는 줄은 몰랐다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Pincér"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "내기·조건문, 식당에서의 존댓말, 긴 낱말을 끊어 읽기",
+ "expressions": [
+  "Figyelj",
+  "Naná",
+  "Komolyan?",
+  "Mi van?",
+  "Tudod"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, ismered a leghosszabb magyar szót? Ha kimondod, a következő randit én fizetem.",
+   "rd": "피젤이, 이슈메레드 어 렉호써브 머져르 쏘트? 허 키몬도드, 어 쾨베트케죄 런디트 엔 피제템.",
+   "ko": "있잖아, 헝가리어에서 제일 긴 단어 알아? 말하면 다음 데이트는 내가 낼게.",
+   "note": "leghosszabb = 가장 긴",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "ismered",
+     "ismer",
+     "이슈메르"
+    ],
+    [
+     "leghosszabb",
+     "hosszú",
+     "호쑤"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "szót",
+     "szó",
+     "쏘"
+    ],
+    [
+     "kimondod",
+     "kimond",
+     ""
+    ],
+    [
+     "következő",
+     "következik",
+     "쾨베트케지크"
+    ],
+    [
+     "randit",
+     "randi",
+     "런디"
+    ],
+    [
+     "fizetem",
+     "fizet",
+     "피제트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Naná. Tegnap éjjel három óráig gyakoroltam, mert tudtam, hogy ezzel jössz.",
+   "rd": "너나. 텍너프 에옐 하롬 오라익 져코롤텀, 메르트 투드텀, 호지 에젤 요쓰.",
+   "ko": "당연하지. 어젯밤 세 시까지 연습했어, 네가 이걸로 나올 줄 알았거든.",
+   "note": "ezzel jössz = 이걸로 나온다",
+   "tags": [
+    "expr:Naná"
+   ],
+   "lemmas": [
+    [
+     "Naná",
+     "naná",
+     ""
+    ],
+    [
+     "éjjel",
+     "éj",
+     "에이"
+    ],
+    [
+     "óráig",
+     "óra",
+     "오러"
+    ],
+    [
+     "gyakoroltam",
+     "gyakorol",
+     ""
+    ],
+    [
+     "tudtam",
+     "tud",
+     "투드"
+    ],
+    [
+     "jössz",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Komolyan? Na, halljuk, de lassan, hogy élvezzem!",
+   "rd": "코모연? 너, 헐육, 데 러쎤, 호지 엘베젬!",
+   "ko": "진짜? 자, 들어 보자, 대신 천천히, 내가 즐길 수 있게!",
+   "note": "halljuk = 들어 보자",
+   "tags": [
+    "expr:Komolyan?"
+   ],
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "halljuk",
+     "halljuk",
+     ""
+    ],
+    [
+     "lassan",
+     "lassan",
+     "러셔느"
+    ],
+    [
+     "élvezzem",
+     "élvez",
+     "엘베즈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Megszentségtelenít... izé, hol tartottam?",
+   "rd": "멕쎈트섹텔레니트... 이제, 홀 터르토떰?",
+   "ko": "메그센트셰그텔레니트… 어, 어디까지 했지?",
+   "note": "hol tartottam? = 어디까지 했지?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Megszentségtelenít",
+     "megszentségtelenít",
+     ""
+    ],
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "tartottam",
+     "tartott",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Elnézést, jól hallom? Itt valaki a nagy szót próbálja kimondani?",
+   "rd": "엘네제슈트, 욜 헐롬? 이트 벌러키 어 너지 쏘트 프로발여 키몬더니?",
+   "ko": "실례합니다, 제가 제대로 들었나요? 여기 누가 그 큰 단어를 시도하시나요?",
+   "note": "próbál = 시도한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "hallom",
+     "hall",
+     "헐"
+    ],
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "szót",
+     "szó",
+     "쏘"
+    ],
+    [
+     "próbálja",
+     "próbál",
+     "프로발"
+    ],
+    [
+     "kimondani",
+     "kimond",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Igen, de ez csak kettőnk között van. Nem kell semmit csinálni.",
+   "rd": "이겐, 데 에즈 척 케뙨크 쾨죄트 번. 넴 켈 셈미트 치날니.",
+   "ko": "네, 근데 이건 저희 둘 사이 일이에요. 아무것도 안 하셔도 돼요.",
+   "note": "kettőnk között = 우리 둘 사이",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "csinálni",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Hölgyeim és uraim, figyelem! A kettes asztal most elmondja a leghosszabb magyar szót!",
+   "rd": "횔제임 에시 우러임, 피젤렘! 어 케떼시 어쓰털 모슈트 엘몬드여 어 렉호써브 머져르 쏘트!",
+   "ko": "신사 숙녀 여러분, 주목! 2번 테이블이 지금 가장 긴 헝가리어 단어를 말합니다!",
+   "note": "figyelem = 주목",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hölgyeim",
+     "hölgyeim",
+     "회지에임"
+    ],
+    [
+     "uraim",
+     "úr",
+     "우르"
+    ],
+    [
+     "figyelem",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "kettes",
+     "kettes",
+     ""
+    ],
+    [
+     "asztal",
+     "asztal",
+     "어슬러"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "elmondja",
+     "elmond",
+     "엘몬드"
+    ],
+    [
+     "leghosszabb",
+     "hosszú",
+     "호쑤"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "szót",
+     "szó",
+     "쏘"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Mi van? Anna, miért áll fel mindenki?",
+   "rd": "미 번? 언너, 미에르트 알 펠 민덴키?",
+   "ko": "뭐야? 언너, 왜 다들 일어나?",
+   "note": "feláll = 일어선다",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Ja, tudod, ez itt szokás. Ha sikerül, ingyen vacsorázunk.",
+   "rd": "여, 투도드, 에즈 이트 쏘카시. 허 시케륄, 인젠 버초라준크.",
+   "ko": "아, 있잖아, 여기 풍습이야. 성공하면 저녁이 공짜야.",
+   "note": "szokás = 풍습",
+   "tags": [
+    "expr:Tudod"
+   ],
+   "lemmas": [
+    [
+     "Ja",
+     "ja",
+     "여"
+    ],
+    [
+     "tudod",
+     "tud",
+     "투드"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "szokás",
+     "szokás",
+     ""
+    ],
+    [
+     "sikerül",
+     "siker",
+     "시케르"
+    ],
+    [
+     "ingyen",
+     "ingyen",
+     ""
+    ],
+    [
+     "vacsorázunk",
+     "vacsorázik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "És ha nem sikerül?",
+   "rd": "에시 허 넴 시케륄?",
+   "ko": "실패하면?",
+   "note": "sikerül = 성공한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "sikerül",
+     "siker",
+     "시케르"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Akkor a vendég mosogat. Tessék, mindenki figyel!",
+   "rd": "어꼬르 어 벤덱 모쇼거트. 테쎅, 민덴키 피젤!",
+   "ko": "그럼 손님이 설거지합니다. 자, 다들 듣고 있습니다!",
+   "note": "mosogat = 설거지한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "vendég",
+     "vendég",
+     "벤데그"
+    ],
+    [
+     "mosogat",
+     "mosogat",
+     ""
+    ],
+    [
+     "figyel",
+     "figyel",
+     "피겔"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Megszentségteleníthetetlen... jaj, ez már nem magyar.",
+   "rd": "멕쎈트섹텔레니트헤테틀렌... 여이, 에즈 마르 넴 머져르.",
+   "ko": "메그센트셰그텔레니트헤테틀렌… 아이고, 이건 이제 헝가리어가 아니야.",
+   "note": "már nem = 더는 아닌",
+   "tags": [],
+   "lemmas": [
+    [
+     "Megszentségteleníthetetlen",
+     "megszentségteleníthetetlen",
+     ""
+    ],
+    [
+     "jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "hu": "Sajnálom. A konyha arra van, a kötényt megtalálja a széken.",
+   "rd": "셔이날롬. 어 코니허 어러 번, 어 쾨테니트 멕털랄여 어 쎄켄.",
+   "ko": "유감입니다. 주방은 저쪽이고, 앞치마는 의자에 있습니다.",
+   "note": "kötény = 앞치마",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sajnálom",
+     "sajnál",
+     "셔이날"
+    ],
+    [
+     "konyha",
+     "konyha",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kötényt",
+     "kötény",
+     ""
+    ],
+    [
+     "megtalálja",
+     "megtalál",
+     "메그털랄"
+    ],
+    [
+     "széken",
+     "szék",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "Hé, várjon! Két kötényt kérek.",
+   "rd": "헤, 바르욘! 케트 쾨테니트 케렉.",
+   "ko": "저기요, 잠깐만요! 앞치마 두 개 주세요.",
+   "note": "várjon = 기다리세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hé",
+     "hé",
+     "헤"
+    ],
+    [
+     "várjon",
+     "vár",
+     "바르"
+    ],
+    [
+     "kötényt",
+     "kötény",
+     ""
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "hu": "Te miért jössz? Te nem hibáztál.",
+   "rd": "테 미에르트 요쓰? 테 넴 히바즈탈.",
+   "ko": "넌 왜 와? 넌 틀리지 않았잖아.",
+   "note": "hibázik = 실수한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "jössz",
+     "jön",
+     "왼"
+    ],
+    [
+     "hibáztál",
+     "hibázik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "hu": "Mert még nem akarok hazamenni. Te mosol, én törölök.",
+   "rd": "메르트 멕 넴 어커록 허저멘니. 테 모숄, 엔 퇴뢸뢱.",
+   "ko": "아직 집에 가기 싫으니까. 네가 씻어, 내가 닦을게.",
+   "note": "hazamenni = 집에 가다",
+   "tags": [],
+   "lemmas": [
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "akarok",
+     "akar",
+     "어커르"
+    ],
+    [
+     "hazamenni",
+     "hazamegy",
+     "허저메지"
+    ],
+    [
+     "mosol",
+     "mos",
+     ""
+    ],
+    [
+     "törölök",
+     "töröl",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,392 @@
+{
+ "id": "r2_culture_b2",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "우리 마을 춤",
+ "emoji": "💃",
+ "scene": "Réka 가 끌고 간 민속춤 모임(táncház). 왼발과 오른발이 헷갈리기 시작한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Tánctanár"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "방향 말(balra, jobbra)과 ne + 명령형",
+ "expressions": [
+  "Gyere",
+  "Komolyan?",
+  "bocsi",
+  "nem baj",
+  "Szóval"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Gyere, ma táncház van. Nem nehéz, csak figyelj a lábamra.",
+   "rd": "제레, 머 탄츠하즈 번. 넴 네헤즈, 척 피젤이 어 라범러.",
+   "ko": "와, 오늘 민속춤 모임이야. 안 어려워, 내 발만 봐.",
+   "note": "táncház = 민속춤 모임",
+   "tags": [
+    "expr:Gyere"
+   ],
+   "lemmas": [
+    [
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "táncház",
+     "táncház",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "nehéz",
+     "nehéz",
+     "네헤즈"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "lábamra",
+     "lábam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Komolyan? Nekem két bal lábam van.",
+   "rd": "코모연? 네켐 케트 벌 라범 번.",
+   "ko": "진짜? 나 왼발만 두 개야.",
+   "note": "két bal lába van = 몸치다",
+   "tags": [
+    "expr:Komolyan?"
+   ],
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "bal",
+     "bal",
+     "벌"
+    ],
+    [
+     "lábam",
+     "láb",
+     "라브"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Balra, jobbra, balra, ugrás! Egyszerű, ugye?",
+   "rd": "벌러, 요브러, 벌러, 욱라시! 에지쎄뤼, 우제?",
+   "ko": "왼쪽, 오른쪽, 왼쪽, 점프! 쉽지?",
+   "note": "balra = 왼쪽으로, jobbra = 오른쪽으로",
+   "tags": [],
+   "lemmas": [
+    [
+     "Balra",
+     "bal",
+     "벌"
+    ],
+    [
+     "jobbra",
+     "jobb",
+     ""
+    ],
+    [
+     "ugrás",
+     "ugrás",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Jaj, bocsi! Ez a te lábad volt?",
+   "rd": "여이, 보치! 에즈 어 테 라버드 볼트?",
+   "ko": "앗, 미안! 이거 네 발이었어?",
+   "note": "bocsi = 미안",
+   "tags": [
+    "expr:bocsi"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "lábad",
+     "láb",
+     "라브"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Igen, de nem baj. Csak ne ugorj többet!",
+   "rd": "이겐, 데 넴 버이. 척 네 우고르이 퇴베트!",
+   "ko": "응, 괜찮아. 더 뛰지만 마!",
+   "note": "ne ugorj = 뛰지 마",
+   "tags": [
+    "expr:nem baj"
+   ],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "ugorj",
+     "ugrik",
+     "우그릭"
+    ],
+    [
+     "többet",
+     "több",
+     "퇴그"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Elfelejtettem, melyik a bal. Forgok, és nem tudok megállni!",
+   "rd": "엘펠레이테뗌, 메익 어 벌. 포르곡, 에시 넴 투독 메갈니!",
+   "ko": "어느 쪽이 왼쪽인지 까먹었어. 돌고 있는데 못 멈추겠어!",
+   "note": "forog = 돌다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Elfelejtettem",
+     "elfelejtett",
+     ""
+    ],
+    [
+     "bal",
+     "bal",
+     "벌"
+    ],
+    [
+     "tudok",
+     "tud",
+     "투드"
+    ],
+    [
+     "megállni",
+     "megáll",
+     "메갈"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Várj, mi van? Nézd, a többiek is forognak!",
+   "rd": "바르이, 미 번? 네즈드, 어 퇴비엑 이시 포록넉!",
+   "ko": "잠깐, 뭐야? 봐, 다른 사람들도 돌아!",
+   "note": "a többiek = 나머지 사람들",
+   "tags": [],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "többiek",
+     "többi",
+     "퇴비"
+    ],
+    [
+     "forognak",
+     "forog",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Mi ez a lépés? Melyik faluból hoztad?",
+   "rd": "미 에즈 어 레페시? 메익 펄루볼 호즈터드?",
+   "ko": "이 스텝 뭐야? 어느 마을에서 가져왔어?",
+   "note": "lépés = 스텝, 걸음",
+   "tags": [],
+   "lemmas": [
+    [
+     "lépés",
+     "lépés",
+     "레페스"
+    ],
+    [
+     "faluból",
+     "falu",
+     ""
+    ],
+    [
+     "hoztad",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Izé... ez a mi falunk tánca.",
+   "rd": "이제... 에즈 어 미 펄룬크 탄처.",
+   "ko": "어… 저희 마을 춤이에요.",
+   "note": "izé = 어…(말 막힐 때)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Izé",
+     "izé",
+     ""
+    ],
+    [
+     "falunk",
+     "fal",
+     "펄"
+    ],
+    [
+     "tánca",
+     "tánca",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Hallottátok? Mától ez a neve: {name} tánca!",
+   "rd": "헐로따톡? 마톨 에즈 어 네베: {name} 탄처!",
+   "ko": "들었지? 오늘부터 이름은 {name} 춤이다!",
+   "note": "mától = 오늘부터",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hallottátok",
+     "hallik",
+     "헐릭"
+    ],
+    [
+     "neve",
+     "név",
+     "네브"
+    ],
+    [
+     "tánca",
+     "tánca",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Szóval jövő héten te tanítod. Százan jönnek.",
+   "rd": "쏘벌 요뵈 헤텐 테 터니토드. 싸전 욘넥.",
+   "ko": "그러니까 다음 주엔 네가 가르쳐. 백 명 온대.",
+   "note": "százan = 백 명이서",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "jövő",
+     "jövő",
+     "요뵈"
+    ],
+    [
+     "héten",
+     "hét",
+     "헤트"
+    ],
+    [
+     "tanítod",
+     "tanít",
+     "터니트"
+    ],
+    [
+     "jönnek",
+     "jön",
+     "왼"
+    ]
+   ]
+  }
+ ]
+}

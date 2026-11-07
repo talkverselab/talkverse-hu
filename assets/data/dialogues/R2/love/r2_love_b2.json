@@ -1,0 +1,390 @@
+{
+ "id": "r2_love_b2",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "레카의 면접",
+ "emoji": "📋",
+ "scene": "벼룩시장 뒤편. 토요일 데이트를 앞둔 A 를 Réka 가 불러 앉히고 질문을 쏟아낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "순서 말하기(első, második, utolsó)와 '~하면'(ha)",
+ "expressions": [
+  "Persze",
+  "Izé",
+  "Figyelj",
+  "Szóval"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Ülj le. Hallom, hogy szombaton találkozol Annával.",
+   "rd": "윌이 레. 헐롬, 호지 쏨버톤 털랄코졸 언나벌.",
+   "ko": "앉아. 토요일에 언너 만난다며.",
+   "note": "hallom, hogy = ~라고 들었어",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ülj",
+     "ülj",
+     "위이"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "szombaton",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "találkozol",
+     "találkozik",
+     "털랄코지크"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Igen, de ez mi? Ez egy interjú?",
+   "rd": "이겐, 데 에즈 미? 에즈 에지 인테르유?",
+   "ko": "응, 근데 이게 뭐야? 면접이야?",
+   "note": "interjú = 면접",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "interjú",
+     "interjú",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Pontosan. Első kérdés: túrós vagy mákos rétes?",
+   "rd": "폰토션. 엘쇠 케르데시: 투로시 버지 마코시 레테시?",
+   "ko": "맞아. 첫 질문, 코티지치즈야 양귀비씨야?",
+   "note": "mákos = 양귀비씨를 넣은",
+   "tags": [],
+   "lemmas": [
+    [
+     "Pontosan",
+     "pontos",
+     "폰토시"
+    ],
+    [
+     "kérdés",
+     "kérdés",
+     "케르데시"
+    ],
+    [
+     "túrós",
+     "túrós",
+     ""
+    ],
+    [
+     "mákos",
+     "mákos",
+     ""
+    ],
+    [
+     "rétes",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Túrós, persze. Ez tényleg ilyen fontos?",
+   "rd": "투로시, 페르쎄. 에즈 테닐렉 이옌 폰토시?",
+   "ko": "코티지치즈지, 당연히. 이게 그렇게 중요해?",
+   "note": "ilyen = 이렇게",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Túrós",
+     "túrós",
+     ""
+    ],
+    [
+     "persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "fontos",
+     "fontos",
+     "폰토슈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Nagyon. Második: melyik a kedvenc múzeumod?",
+   "rd": "너죤. 마쇼딕: 메익 어 케드벤츠 무제우모드?",
+   "ko": "아주. 둘째, 제일 좋아하는 미술관은?",
+   "note": "második = 둘째",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "kedvenc",
+     "kedvenc",
+     "케드벤츠"
+    ],
+    [
+     "múzeumod",
+     "múzeumod",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Izé... amelyikben Anna van.",
+   "rd": "이제... 어메익벤 언너 번.",
+   "ko": "어… 언너가 있는 곳.",
+   "note": "amelyikben = ~가 있는 그곳에",
+   "tags": [
+    "expr:Izé"
+   ],
+   "lemmas": [
+    [
+     "Izé",
+     "izé",
+     ""
+    ],
+    [
+     "amelyikben",
+     "amelyik",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Jó válasz. Utolsó: ha késik, hány percet vársz?",
+   "rd": "요 발러쓰. 우톨쇼: 허 케식, 하니 페르체트 바르쓰?",
+   "ko": "좋은 답이야. 마지막, 걔가 늦으면 몇 분 기다려?",
+   "note": "hány = 몇",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "válasz",
+     "válasz",
+     "바라스"
+    ],
+    [
+     "késik",
+     "késik",
+     "케시크"
+    ],
+    [
+     "percet",
+     "perce",
+     ""
+    ],
+    [
+     "vársz",
+     "vár",
+     "바르"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Amennyit kell. De figyelj, kié ez a lista?",
+   "rd": "어메니트 켈. 데 피젤이, 키에 에즈 어 리슈터?",
+   "ko": "필요한 만큼. 근데 있잖아, 이 목록 누구 거야?",
+   "note": "kié = 누구의 것",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "kié",
+     "ki",
+     "키"
+    ],
+    [
+     "lista",
+     "lista",
+     "리슈터"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Anna írta. Tizenkét oldal, éjjel kettőkor küldte.",
+   "rd": "언너 이르터. 티젠케트 올덜, 에옐 케뙤코르 퀼드테.",
+   "ko": "언너가 썼어. 열두 쪽, 새벽 두 시에 보냈더라.",
+   "note": "küldte = 그걸 보냈다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "írta",
+     "ír",
+     "이르"
+    ],
+    [
+     "oldal",
+     "oldal",
+     "올덜"
+    ],
+    [
+     "éjjel",
+     "éj",
+     "에이"
+    ],
+    [
+     "kettőkor",
+     "kettőkor",
+     ""
+    ],
+    [
+     "küldte",
+     "küld",
+     "퀼드"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Anna írta? Szóval ő is izgul?",
+   "rd": "언너 이르터? 쏘벌 외 이시 이즈굴?",
+   "ko": "언너가 썼다고? 그럼 언너도 떨려?",
+   "note": "izgul = 긴장한다",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "írta",
+     "ír",
+     "이르"
+    ],
+    [
+     "izgul",
+     "izgul",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Izgul? Már négyszer átöltözött, pedig még csak szerda van.",
+   "rd": "이즈굴? 마르 네지쎄르 아퇼퇴죄트, 페딕 멕 척 쎄르더 번.",
+   "ko": "떨리냐고? 벌써 옷을 네 번 갈아입었어, 아직 수요일인데.",
+   "note": "átöltözött = 옷을 갈아입었다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Izgul",
+     "izgul",
+     ""
+    ],
+    [
+     "átöltözött",
+     "átöltözik",
+     ""
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "szerda",
+     "szerda",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  }
+ ]
+}

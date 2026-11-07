@@ -1,0 +1,234 @@
+{
+ "id": "r1_love_c4",
+ "region": "R1",
+ "island": "love",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "고양이가 썼어",
+ "emoji": "🐈",
+ "scene": "밤 11시, Anna 가 먼저 메시지를 보낸다. A 는 자고 있고, Anna 혼자 초조해진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "ignore",
+ "flags": [
+  "romance"
+ ],
+ "goal": "데이트 제안하기, 사과하기(Bocsi)",
+ "expressions": [
+  "Bocsi",
+  "Mindegy",
+  "Jaj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia! Alszol?",
+   "rd": "씨어! 얼쏠?",
+   "ko": "안녕! 자?",
+   "note": "alszol = 너 잔다",
+   "tags": [],
+   "at": "23:01",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Csak egy kérdés.",
+   "rd": "척 에지 케르데시.",
+   "ko": "그냥 질문 하나.",
+   "note": "kérdés = 질문",
+   "tags": [],
+   "at": "23:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kérdés",
+     "kérdés",
+     "케르데시"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Holnap múzeum? Velem?",
+   "rd": "홀너프 무제움? 벨렘?",
+   "ko": "내일 미술관? 나랑?",
+   "note": "múzeum = 박물관·미술관",
+   "tags": [],
+   "at": "23:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "múzeum",
+     "múzeum",
+     "무제움"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Jaj. Túl sokat írok?",
+   "rd": "여이. 툴 쇼커트 이록?",
+   "ko": "아이고. 내가 너무 많이 쓰나?",
+   "note": "túl sokat = 너무 많이",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "at": "23:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "írok",
+     "ír",
+     "이르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Mindegy. Felejtsd el. 😅",
+   "rd": "민데지. 펠레이트슈드 엘. 😅",
+   "ko": "됐어. 잊어 줘. 😅",
+   "note": "mindegy = 상관없어",
+   "tags": [
+    "expr:Mindegy"
+   ],
+   "at": "23:48",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Mindegy",
+     "mindegy",
+     "민데지"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Bocsi, elaludtam! Igen, múzeum!",
+   "rd": "보치, 엘럴루드텀! 이겐, 무제움!",
+   "ko": "미안, 잠들었어! 응, 미술관!",
+   "note": "elaludtam = 잠들었다",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "07:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "elaludtam",
+     "elaludt",
+     ""
+    ],
+    [
+     "múzeum",
+     "múzeum",
+     "무제움"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Nem én írtam. A macskám volt. 😳",
+   "rd": "넴 엔 이르텀. 어 머치캄 볼트. 😳",
+   "ko": "나 아니야. 우리 고양이가 쓴 거야. 😳",
+   "note": "macska = 고양이",
+   "tags": [],
+   "at": "07:16",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "írtam",
+     "írt",
+     ""
+    ],
+    [
+     "macskám",
+     "macskám",
+     ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "A macskád cuki. Ő is jön?",
+   "rd": "어 머치카드 추키. 외 이시 욘?",
+   "ko": "네 고양이 귀엽다. 걔도 와?",
+   "note": "ő = 그 사람, 그것",
+   "tags": [],
+   "at": "07:17",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "macskád",
+     "macskád",
+     ""
+    ],
+    [
+     "cuki",
+     "cuki",
+     ""
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ]
+   ]
+  }
+ ]
+}

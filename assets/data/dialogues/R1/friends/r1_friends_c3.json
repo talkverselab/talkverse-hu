@@ -1,0 +1,242 @@
+{
+ "id": "r1_friends_c3",
+ "region": "R1",
+ "island": "friends",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "읽고 안 읽씹",
+ "emoji": "🍲",
+ "scene": "몸살이 났다. Réka 에게 보낸 메시지가 읽혔는데 답이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "아프다고 말하기와 채팅 혼잣말",
+ "expressions": [
+  "Hé",
+  "Na",
+  "nyisd ki"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Réka, beteg vagyok.",
+   "rd": "레커, 베텍 버죡.",
+   "ko": "레카, 나 아파.",
+   "note": "beteg = 아픈",
+   "tags": [],
+   "at": "10:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "beteg",
+     "beteg",
+     "베테그"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Nagyon fáj a fejem.",
+   "rd": "너죤 파이 어 페옘.",
+   "ko": "머리 너무 아파.",
+   "note": "fej = 머리",
+   "tags": [
+    "expr:Na"
+   ],
+   "at": "10:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "fáj",
+     "fáj",
+     "파이"
+    ],
+    [
+     "fejem",
+     "fej",
+     "페이"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Látod? Olvastad?",
+   "rd": "라토드? 올버슈터드?",
+   "ko": "봤어? 읽었어?",
+   "note": "olvastad = 네가 그걸 읽었다",
+   "tags": [],
+   "at": "10:40",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Látod",
+     "lát",
+     "라트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Hé! Nem válaszolsz?",
+   "rd": "헤! 넴 발러쏠쓰?",
+   "ko": "야! 답 안 해?",
+   "note": "válaszolsz = 네가 답한다",
+   "tags": [
+    "expr:Hé"
+   ],
+   "at": "11:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hé",
+     "hé",
+     "헤"
+    ],
+    [
+     "válaszolsz",
+     "válaszol",
+     "발러졸"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Jó, akkor meghalok. Szia.",
+   "rd": "요, 어꼬르 멕헐록. 씨어.",
+   "ko": "그래, 그럼 나 죽는다. 안녕.",
+   "note": "meghalok = 나 죽는다",
+   "tags": [],
+   "at": "12:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "meghalok",
+     "meghal",
+     "메그헐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Na, nyisd ki az ajtót.",
+   "rd": "너, 니슈드 키 어즈 어이토트.",
+   "ko": "야, 문 열어.",
+   "note": "nyisd ki = 열어",
+   "tags": [
+    "expr:Na",
+    "expr:nyisd ki"
+   ],
+   "at": "12:41",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "nyisd",
+     "nyit",
+     "니트"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "ajtót",
+     "ajtó",
+     "어이토"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Mi? Hol vagy?",
+   "rd": "미? 홀 버지?",
+   "ko": "뭐? 어디야?",
+   "note": "hol vagy? = 어디야?",
+   "tags": [],
+   "at": "12:41",
+   "ui": "bubble",
+   "lemmas": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Itt, levessel. Egy órája csengetek.",
+   "rd": "이트, 레베쎌. 에지 오라여 첸게텍.",
+   "ko": "여기, 수프 들고. 한 시간째 초인종 눌러.",
+   "note": "egy órája = 한 시간째",
+   "tags": [],
+   "at": "12:42",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "levessel",
+     "leves",
+     ""
+    ],
+    [
+     "órája",
+     "óra",
+     "오러"
+    ],
+    [
+     "csengetek",
+     "csenget",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,583 @@
+{
+ "id": "r3_travel_b2",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "로자 민박",
+ "emoji": "🏡",
+ "scene": "에게르 근처 마을, 밤 10시. 민박을 찾던 {name} 이 불 켜진 집 문을 두드린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Néni"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "어른께 인사하기(Csókolom)와 숙소·계산 묻기",
+ "expressions": [
+  "Csókolom",
+  "ugye",
+  "Hát persze",
+  "Hogyhogy",
+  "Úristen",
+  "Jaj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Csókolom, elnézést a késésért! Ez a Rózsa panzió, ugye?",
+   "rd": "초콜롬, 엘네제슈트 어 케세세르트! 에즈 어 로져 펀지오, 우제?",
+   "ko": "안녕하세요, 할머니, 늦어서 죄송해요! 여기 로자 민박 맞죠?",
+   "note": "csókolom = 어른께 드리는 인사",
+   "tags": [
+    "expr:Csókolom",
+    "expr:ugye"
+   ],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "késésért",
+     "késés",
+     ""
+    ],
+    [
+     "panzió",
+     "panzió",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Gyere be, gyere be! Jaj, de sovány vagy!",
+   "rd": "제레 베, 제레 베! 여이, 데 쇼바니 버지!",
+   "ko": "들어와, 들어와! 아이고, 왜 이렇게 말랐어!",
+   "note": "sovány = 마른",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "lemmas": [
+    [
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "be",
+     "be",
+     "베"
+    ],
+    [
+     "sovány",
+     "sovány",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Köszönöm. Tudom, hogy késő van, de van még vacsora?",
+   "rd": "쾨쐬뇜. 투돔, 호지 케쇠 번, 데 번 멕 버초러?",
+   "ko": "고맙습니다. 늦은 거 아는데, 저녁 아직 있나요?",
+   "note": "késő = 늦은",
+   "tags": [],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "késő",
+     "késik",
+     "케시크"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "vacsora",
+     "vacsora",
+     "버초라"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Hát persze! Húsleves, töltött káposzta, és ülj már le!",
+   "rd": "하트 페르쎄! 후슐레베시, 퇼퇴트 카포쓰터, 에시 윌이 마르 레!",
+   "ko": "당연하지! 고깃국, 양배추말이, 얼른 앉아!",
+   "note": "hát persze = 당연하지",
+   "tags": [
+    "expr:Hát persze"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "töltött",
+     "tölt",
+     "퇼트"
+    ],
+    [
+     "káposzta",
+     "káposzta",
+     ""
+    ],
+    [
+     "ülj",
+     "ülj",
+     "위이"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Hű, ez nagyon finom! A neten nem írták, hogy itt ilyen jó.",
+   "rd": "휘, 에즈 너죤 피놈! 어 네텐 넴 이르탁, 호지 이트 이옌 요.",
+   "ko": "와, 아주 맛있어요! 인터넷에 이렇게 좋다고는 안 쓰여 있었는데.",
+   "note": "a neten = 인터넷에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ],
+    [
+     "neten",
+     "net",
+     ""
+    ],
+    [
+     "írták",
+     "ír",
+     "이르"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Egyél még! Aztán alhatsz a kisszobában.",
+   "rd": "에젤 멕! 어즈탄 얼허트쓰 어 키쏘바번.",
+   "ko": "더 먹어! 그다음엔 작은방에서 자면 돼.",
+   "note": "egyél = 먹어",
+   "tags": [],
+   "lemmas": [
+    [
+     "Egyél",
+     "eszik",
+     "에식"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "alhatsz",
+     "alszik",
+     "얼루시크"
+    ],
+    [
+     "kisszobában",
+     "kisszobába",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Jó reggelt! Hol lehet fizetni, kártyával vagy készpénzzel?",
+   "rd": "요 렉겔트! 홀 레헤트 피제트니, 카르탸벌 버지 케쓰펜젤?",
+   "ko": "(다음 날 아침) 안녕하세요! 어디서 계산해요, 카드요 현금이요?",
+   "note": "készpénz = 현금",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "reggelt",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "fizetni",
+     "fizet",
+     "피제트"
+    ],
+    [
+     "kártyával",
+     "kár",
+     "카르"
+    ],
+    [
+     "készpénzzel",
+     "készpénz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Fizetni? Hát ez nem hotel, egyél még egy kicsit!",
+   "rd": "피제트니? 하트 에즈 넴 호텔, 에젤 멕 에지 키치트!",
+   "ko": "돈을? 여기 호텔 아니야, 조금 더 먹어!",
+   "note": "fizetni = 돈 내기",
+   "tags": [],
+   "lemmas": [
+    [
+     "Fizetni",
+     "fizet",
+     "피제트"
+    ],
+    [
+     "hotel",
+     "hotel",
+     "호텔"
+    ],
+    [
+     "egyél",
+     "eszik",
+     "에식"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Hogyhogy nem hotel? Ez nem a Rózsa panzió?",
+   "rd": "호지호지 넴 호텔? 에즈 넴 어 로져 펀지오?",
+   "ko": "호텔이 아니라니요? 여기 로자 민박 아니에요?",
+   "note": "hogyhogy = 어째서",
+   "tags": [
+    "expr:Hogyhogy"
+   ],
+   "lemmas": [
+    [
+     "Hogyhogy",
+     "hogyhogy",
+     ""
+    ],
+    [
+     "hotel",
+     "hotel",
+     "호텔"
+    ],
+    [
+     "panzió",
+     "panzió",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Rózsa én vagyok. A panzió a szomszéd faluban van.",
+   "rd": "로져 엔 버죡. 어 펀지오 어 쏨쎄드 펄루번 번.",
+   "ko": "로자는 나야. 민박은 옆 마을에 있어.",
+   "note": "szomszéd = 이웃",
+   "tags": [],
+   "lemmas": [
+    [
+     "Rózsa",
+     "rózsa",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "panzió",
+     "panzió",
+     ""
+    ],
+    [
+     "szomszéd",
+     "szomszéd",
+     "쏨세드"
+    ],
+    [
+     "faluban",
+     "falu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Úristen! Akkor miért engedett be?",
+   "rd": "우리슈텐! 어꼬르 미에르트 엔게데트 베?",
+   "ko": "세상에! 그럼 왜 저를 들여보내셨어요?",
+   "note": "beenged = 들여보내다",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "engedett",
+     "enged",
+     "엔게드"
+    ],
+    [
+     "be",
+     "be",
+     "베"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Azt hittem, az unokámhoz jöttél.",
+   "rd": "어즈트 히뗌, 어즈 우노캄호즈 요뗄.",
+   "ko": "우리 손주 보러 온 줄 알았지.",
+   "note": "unoka = 손주",
+   "tags": [],
+   "lemmas": [
+    [
+     "hittem",
+     "hitt",
+     ""
+    ],
+    [
+     "unokámhoz",
+     "un",
+     ""
+    ],
+    [
+     "jöttél",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Jaj, nagyon sajnálom! Akkor én most megyek.",
+   "rd": "여이, 너죤 셔이날롬! 어꼬르 엔 모슈트 메젝.",
+   "ko": "아이고, 정말 죄송해요! 그럼 저 이제 갈게요.",
+   "note": "sajnálom = 죄송해요",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "sajnálom",
+     "sajnál",
+     "셔이날"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "Hova mész? Az unokám úgyse jön, ebédre meg rakott krumpli lesz.",
+   "rd": "호버 메쓰? 어즈 우노캄 우지세 욘, 에베드레 멕 러코트 크룸플리 레쓰.",
+   "ko": "어딜 가? 손주는 어차피 안 와, 점심은 감자 그라탱이야.",
+   "note": "úgyse = 어차피 ~ 않다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hova",
+     "hova",
+     "호버"
+    ],
+    [
+     "mész",
+     "mész",
+     "메쓰"
+    ],
+    [
+     "unokám",
+     "unokám",
+     ""
+    ],
+    [
+     "úgyse",
+     "úgysem",
+     ""
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "ebédre",
+     "ebéd",
+     ""
+    ],
+    [
+     "rakott",
+     "rak",
+     "러크"
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "hu": "Rózsa néni, és holnap mit főz?",
+   "rd": "로져 네니, 에시 홀너프 미트 푀즈?",
+   "ko": "로자 할머니, 내일은 뭐 만드세요?",
+   "note": "főz = 요리하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Rózsa",
+     "rózsa",
+     ""
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "főz",
+     "főz",
+     ""
+    ]
+   ]
+  }
+ ]
+}

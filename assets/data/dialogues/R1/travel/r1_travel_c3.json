@@ -1,0 +1,229 @@
+{
+ "id": "r1_travel_c3",
+ "region": "R1",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "곧 도착해",
+ "emoji": "🚄",
+ "scene": "Dávid 를 만나러 기차를 탔다. 무슨 기차인지는 모른다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅으로 위치 알리기(-ban/-ben)",
+ "expressions": [
+  "Mindjárt",
+  "Nem tudom",
+  "Mi van?",
+  "Figyelj",
+  "Király"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Mindjárt ott vagyok! 🚆",
+   "rd": "민드야르트 오트 버죡! 🚆",
+   "ko": "곧 도착해! 🚆",
+   "note": "mindjárt = 곧",
+   "tags": [
+    "expr:Mindjárt"
+   ],
+   "at": "10:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Mindjárt",
+     "mindjárt",
+     "민드야르트"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Szuper. Melyik vonat?",
+   "rd": "쑤페르. 메익 보너트?",
+   "ko": "좋아. 어느 기차?",
+   "note": "melyik = 어느",
+   "tags": [],
+   "at": "10:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "vonat",
+     "vonat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Nem tudom. Gyors. 😄",
+   "rd": "넴 투돔. 죠르시. 😄",
+   "ko": "몰라. 빨라. 😄",
+   "note": "gyors = 빠른",
+   "tags": [
+    "expr:Nem tudom"
+   ],
+   "at": "10:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Na, hol vagy?",
+   "rd": "너, 홀 버지?",
+   "ko": "그래서, 어디야?",
+   "note": "na = 그래서, 자",
+   "tags": [],
+   "at": "11:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Itt minden németül van.",
+   "rd": "이트 민덴 네메튈 번.",
+   "ko": "여기 전부 독일어로 돼 있어.",
+   "note": "németül = 독일어로",
+   "tags": [],
+   "at": "12:38",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "németül",
+     "német",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Mi van?",
+   "rd": "미 번?",
+   "ko": "뭐?",
+   "note": "mi van? = 뭐?, 뭐야?",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "at": "12:38",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Figyelj, Bécsben vagyok.",
+   "rd": "피젤이, 베치벤 버죡.",
+   "ko": "있잖아, 나 빈이야.",
+   "note": "Bécs = 빈(오스트리아)",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "at": "12:41",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Király. Hozz csokit!",
+   "rd": "키라이. 호즈 초키트!",
+   "ko": "대박. 초콜릿 사 와!",
+   "note": "király = 끝내준다(글자 뜻: 왕)",
+   "tags": [
+    "expr:Király"
+   ],
+   "at": "12:42",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Király",
+     "király",
+     "키라이"
+    ],
+    [
+     "csokit",
+     "csoki",
+     ""
+    ]
+   ]
+  }
+ ]
+}

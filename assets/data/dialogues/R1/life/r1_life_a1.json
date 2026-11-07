@@ -1,0 +1,214 @@
+{
+ "id": "r1_life_a1",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "우유 많이",
+ "emoji": "🥛",
+ "scene": "룸메이트 Dávid 가 장 보러 나가는 길에 우유를 부탁한다. 얼마나? 그냥 많이.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "필요한 것 묻기(Mi kell?)와 mindegy 쓰기",
+ "expressions": [
+  "Mi kell?",
+  "Mindegy",
+  "Tessék",
+  "Úristen"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia! Mész a boltba?",
+   "rd": "씨어! 메쓰 어 볼트버?",
+   "ko": "야! 가게 가?",
+   "note": "a boltba = 가게로(-ba 안으로)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "boltba",
+     "bolt",
+     "볼트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Igen, most megyek. Mi kell?",
+   "rd": "이겐, 모슈트 메젝. 미 켈?",
+   "ko": "응, 지금 가. 뭐 필요해?",
+   "note": "kell = 필요하다",
+   "tags": [
+    "expr:Mi kell?"
+   ],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Csak tej.",
+   "rd": "척 테이.",
+   "ko": "우유만.",
+   "note": "csak = ~만",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "tej",
+     "tej",
+     "테이"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Mennyi tej?",
+   "rd": "메니 테이?",
+   "ko": "우유 얼마나?",
+   "note": "mennyi = 얼마나",
+   "tags": [],
+   "lemmas": [
+    [
+     "tej",
+     "tej",
+     "테이"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Mindegy. Sok.",
+   "rd": "민데지. 쇽.",
+   "ko": "아무거나. 많이.",
+   "note": "mindegy = 상관없어",
+   "tags": [
+    "expr:Mindegy"
+   ],
+   "lemmas": [
+    [
+     "Mindegy",
+     "mindegy",
+     "민데지"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Itt vagyok! Tessék, a tej.",
+   "rd": "이트 버죡! 테쎅, 어 테이.",
+   "ko": "왔어! 자, 우유.",
+   "note": "tessék = 여기 있어",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "tej",
+     "tej",
+     "테이"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Úristen! Ez húsz liter!",
+   "rd": "우리슈텐! 에즈 후쓰 리테르!",
+   "ko": "세상에! 이거 20리터잖아!",
+   "note": "úristen = 세상에",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "húsz",
+     "húsz",
+     ""
+    ],
+    [
+     "liter",
+     "liter",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Azt mondtad: sok.",
+   "rd": "어즈트 몬드터드: 쇽.",
+   "ko": "네가 많이라고 했잖아.",
+   "note": "azt mondtad = 네가 그렇게 말했다",
+   "tags": [],
+   "lemmas": [
+    [
+     "mondtad",
+     "mond",
+     "몬드"
+    ]
+   ]
+  }
+ ]
+}

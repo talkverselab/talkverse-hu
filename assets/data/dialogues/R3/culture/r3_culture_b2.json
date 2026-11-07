@@ -1,0 +1,547 @@
+{
+ "id": "r3_culture_b2",
+ "region": "R3",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media",
+  "love"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "안나의 첫 비명",
+ "emoji": "😱",
+ "scene": "Anna 의 첫 개인전 개막식. A 가 축사 세 문장을 맡았다. kiállítás(전시)와 kiáltás(비명)는 글자 두 개 차이다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Réka",
+  "D": "Igazgató"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "공식 자리의 인사말(üdvözlöm Önöket)과 비슷한 낱말 구별",
+ "expressions": [
+  "Nyugi",
+  "Ne már",
+  "Semmi baj",
+  "Úristen",
+  "Bocsi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Jaj, remegek. Ma este megnyitó, az első saját kiállításom!",
+   "rd": "여이, 레메겍. 머 에슈테 멕니토, 어즈 엘쇠 셔야트 키알리타숌!",
+   "ko": "아, 떨려. 오늘 밤 개막이야, 내 첫 개인전!",
+   "note": "kiállítás = 전시회",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "remegek",
+     "remeg",
+     ""
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "megnyitó",
+     "megnyit",
+     ""
+    ],
+    [
+     "saját",
+     "saját",
+     "셔야트"
+    ],
+    [
+     "kiállításom",
+     "kiállítás",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Nyugi, minden rendben lesz. Hányan jönnek?",
+   "rd": "뉴기, 민덴 렌드벤 레쓰. 하년 욘넥?",
+   "ko": "진정해, 다 잘될 거야. 몇 명 와?",
+   "note": "hányan? = 몇 명이서?",
+   "tags": [
+    "expr:Nyugi"
+   ],
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "jönnek",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Legalább ötvenen. És az igazgató azt szeretné, ha te mondanál pár szót.",
+   "rd": "레걸라브 외트베넨. 에시 어즈 이거즈거토 어즈트 쎄레트네, 허 테 몬더날 파르 쏘트.",
+   "ko": "적어도 쉰 명. 그리고 관장님이 네가 몇 마디 해 줬으면 하셔.",
+   "note": "azt szeretné, ha = ~하면 좋겠다고 한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Legalább",
+     "legalább",
+     "레걸랍"
+    ],
+    [
+     "ötvenen",
+     "ötven",
+     ""
+    ],
+    [
+     "igazgató",
+     "igazgat",
+     "이거즈거트"
+    ],
+    [
+     "szeretné",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "mondanál",
+     "monda",
+     "몬더"
+    ],
+    [
+     "szót",
+     "szó",
+     "쏘"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Én, magyarul? Ne már, Anna, én még a kenyeret is rosszul kérem!",
+   "rd": "엔, 머져룰? 네 마르, 언너, 엔 멕 어 케네레트 이시 로쑬 케렘!",
+   "ko": "나? 헝가리어로? 에이, 안나, 난 빵도 제대로 못 시켜!",
+   "note": "még … is = ~조차",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "lemmas": [
+    [
+     "magyarul",
+     "magyar",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "kenyeret",
+     "kenyere",
+     ""
+    ],
+    [
+     "rosszul",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Semmi baj, három mondat: üdvözlöm Önöket, ez Anna kiállítása, köszönöm.",
+   "rd": "셈미 버이, 하롬 몬더트: 위드뵈즐룀 외뇌케트, 에즈 언너 키알리타셔, 쾨쐬뇜.",
+   "ko": "괜찮아, 세 문장이야. 환영합니다, 안나의 전시입니다, 감사합니다.",
+   "note": "üdvözlöm Önöket = 여러분을 환영합니다",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "mondat",
+     "monda",
+     "몬더"
+    ],
+    [
+     "üdvözlöm",
+     "üdvözöl",
+     "위드뵈죌"
+    ],
+    [
+     "kiállítása",
+     "kiállítása",
+     ""
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Kiállítása, kiállítása... Oké, ez nem lehet nehéz.",
+   "rd": "키알리타셔, 키알리타셔... 오케, 에즈 넴 레헤트 네헤즈.",
+   "ko": "전시, 전시… 좋아, 이게 어려울 리 없지.",
+   "note": "nem lehet = ~일 리 없다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kiállítása",
+     "kiállítása",
+     ""
+    ],
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "nehéz",
+     "nehéz",
+     "네헤즈"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "hu": "Hölgyeim és uraim, kérem, figyeljenek! Most {name} szól néhány szót.",
+   "rd": "횔제임 에시 우러임, 케렘, 피젤예넥! 모슈트 {name} 쏠 네하니 쏘트.",
+   "ko": "신사 숙녀 여러분, 주목해 주십시오! 이제 {name} 님이 몇 마디 하겠습니다.",
+   "note": "hölgyeim és uraim = 신사 숙녀 여러분",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hölgyeim",
+     "hölgyeim",
+     "회지에임"
+    ],
+    [
+     "uraim",
+     "úr",
+     "우르"
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
+    ],
+    [
+     "figyeljenek",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "szól",
+     "szól",
+     "쏠"
+    ],
+    [
+     "szót",
+     "szó",
+     "쏘"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Üdvözlöm Önöket! Ez Anna első kiáltása!",
+   "rd": "위드뵈즐룀 외뇌케트! 에즈 언너 엘쇠 키알타셔!",
+   "ko": "여러분을 환영합니다! 이것은 안나의 첫 비명입니다!",
+   "note": "kiáltás = 비명, 외침",
+   "tags": [],
+   "lemmas": [
+    [
+     "Üdvözlöm",
+     "üdvözöl",
+     "위드뵈죌"
+    ],
+    [
+     "kiáltása",
+     "kiáltása",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Úristen, kiáltása! Nem kiállítása!",
+   "rd": "우리슈텐, 키알타셔! 넴 키알리타셔!",
+   "ko": "세상에, 「비명」이래! 「전시」가 아니라!",
+   "note": "-a/-e = 그의",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "kiáltása",
+     "kiáltása",
+     ""
+    ],
+    [
+     "kiállítása",
+     "kiállítása",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "hu": "Milyen bátor! Kérem, mindenki kiáltson Annával együtt!",
+   "rd": "미옌 바토르! 케렘, 민덴키 키알트숀 언나벌 에쥐트!",
+   "ko": "참 대담하군요! 여러분, 다 같이 안나와 함께 외칩시다!",
+   "note": "kiáltson = 외치십시오",
+   "tags": [],
+   "lemmas": [
+    [
+     "bátor",
+     "bátor",
+     "바토르"
+    ],
+    [
+     "kiáltson",
+     "kiált",
+     ""
+    ],
+    [
+     "együtt",
+     "együtt",
+     "에듀트"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Várjatok, ne! Miért kiabál ötven ember?",
+   "rd": "바르여톡, 네! 미에르트 키어발 외트벤 엠베르?",
+   "ko": "잠깐, 안 돼! 왜 쉰 명이 소리를 질러?",
+   "note": "kiabál = 소리 지르다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Várjatok",
+     "vár",
+     "바르"
+    ],
+    [
+     "kiabál",
+     "kiabál",
+     ""
+    ],
+    [
+     "ötven",
+     "ötven",
+     ""
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Bocsi, Anna! Csak két betű volt a különbség.",
+   "rd": "보치, 언너! 척 케트 베튀 볼트 어 퀼뢴브섹.",
+   "ko": "미안, 안나! 글자 두 개 차이였어.",
+   "note": "különbség = 차이",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "betű",
+     "betű",
+     ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "különbség",
+     "különbség",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "hu": "Hé, a rendőrök is itt vannak! A szomszédok hívták őket.",
+   "rd": "헤, 어 렌되뢱 이시 이트 번넉! 어 쏨쎄독 히브탁 외케트.",
+   "ko": "야, 경찰도 왔어! 이웃들이 불렀대.",
+   "note": "rendőr = 경찰",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hé",
+     "hé",
+     "헤"
+    ],
+    [
+     "rendőrök",
+     "rendőr",
+     "렌되르"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "vannak",
+     "van",
+     "번"
+    ],
+    [
+     "szomszédok",
+     "szomszéd",
+     "쏨세드"
+    ],
+    [
+     "hívták",
+     "hív",
+     "히브"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "D",
+   "hu": "Csodálatos, minden képet eladtunk! Holnap megismételjük?",
+   "rd": "초달러토시, 민덴 케페트 엘러드툰크! 홀너프 메기슈메텔윅?",
+   "ko": "훌륭합니다! 그림이 다 팔렸어요. 내일 또 할까요?",
+   "note": "megismétel = 되풀이하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csodálatos",
+     "csodálatos",
+     "초달러토시"
+    ],
+    [
+     "képet",
+     "képe",
+     ""
+    ],
+    [
+     "eladtunk",
+     "elad",
+     "엘러드"
+    ],
+    [
+     "megismételjük",
+     "megismétel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Minden képet? {name}, jövőre is te beszélsz, és addig ne tanulj meg magyarul.",
+   "rd": "민덴 케페트? {name}, 요뵈레 이시 테 베쎌쓰, 에시 어딕 네 터눌이 멕 머져룰.",
+   "ko": "그림을 다? {name}, 내년에도 네가 말해, 그때까지 헝가리어 배우지 마.",
+   "note": "addig = 그때까지",
+   "tags": [],
+   "lemmas": [
+    [
+     "képet",
+     "képe",
+     ""
+    ],
+    [
+     "jövőre",
+     "jövő",
+     "요뵈"
+    ],
+    [
+     "beszélsz",
+     "beszél",
+     "베쎌"
+    ],
+    [
+     "tanulj",
+     "tanulj",
+     ""
+    ],
+    [
+     "magyarul",
+     "magyar",
+     ""
+    ]
+   ]
+  }
+ ]
+}

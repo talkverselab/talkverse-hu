@@ -1,0 +1,204 @@
+{
+ "id": "r1_culture_c1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "media",
+  "love"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "새벽 세 시의 좋아요",
+ "emoji": "❤️",
+ "scene": "밤중에 Anna 의 옛날 사진을 구경하다 손가락이 미끄러졌다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "채팅의 짧은 대답과 véletlenül(실수로)",
+ "expressions": [
+  "Aha",
+  "Jaj",
+  "Nem baj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia! Ébren vagy? 😄",
+   "rd": "씨어! 에브렌 버지? 😄",
+   "ko": "안녕! 안 자? 😄",
+   "note": "ébren = 깨어 있는",
+   "tags": [],
+   "at": "02:41",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Igen. Miért?",
+   "rd": "이겐. 미에르트?",
+   "ko": "응. 왜?",
+   "note": "miért? = 왜?",
+   "tags": [],
+   "at": "02:42",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Most lájkoltad a képemet.",
+   "rd": "모슈트 라이콜터드 어 케페메트.",
+   "ko": "방금 내 사진에 좋아요 눌렀어.",
+   "note": "lájkol = 좋아요를 누르다",
+   "tags": [],
+   "at": "02:42",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "lájkoltad",
+     "lájkol",
+     ""
+    ],
+    [
+     "képemet",
+     "képemet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Melyiket?",
+   "rd": "메이케트?",
+   "ko": "어떤 거?",
+   "note": "melyiket? = 어느 것을?",
+   "tags": [],
+   "at": "02:43",
+   "ui": "bubble",
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "A régit. Nyolcéves vagyok rajta.",
+   "rd": "어 레기트. 뇰체베시 버죡 러이터.",
+   "ko": "옛날 거. 거기서 나 여덟 살이야.",
+   "note": "rajta = 그 위에(사진 속에)",
+   "tags": [],
+   "at": "02:43",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "régit",
+     "régi",
+     "레기"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj. Véletlenül.",
+   "rd": "여이. 벨레틀레뉠.",
+   "ko": "아이고. 실수로.",
+   "note": "véletlenül = 실수로",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "at": "02:45",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Aha. Véletlenül.",
+   "rd": "어허. 벨레틀레뉠.",
+   "ko": "아하. 실수로.",
+   "note": "aha = 아하",
+   "tags": [
+    "expr:Aha"
+   ],
+   "at": "02:45",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Nem baj. Van még száz kép. 😏",
+   "rd": "넴 버이. 번 멕 싸즈 케프. 😏",
+   "ko": "괜찮아. 사진 백 장 더 있어. 😏",
+   "note": "nem baj = 괜찮아",
+   "tags": [
+    "expr:Nem baj"
+   ],
+   "at": "02:46",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "kép",
+     "kép",
+     "켑"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,221 @@
+{
+ "id": "r1_culture_a1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "이에 낀 행운",
+ "emoji": "🍰",
+ "scene": "빵집의 마지막 양귀비씨 레테시를 손에 넣었다. Anna 가 「너 양귀비씨 있다」고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "관용구 mákod van 과 되묻는 말 익히기",
+ "expressions": [
+  "Nézd",
+  "Tessék?",
+  "Hát"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Nézd! Az utolsó mákos rétes.",
+   "rd": "네즈드! 어즈 우톨쇼 마코시 레테시.",
+   "ko": "봐! 마지막 양귀비씨 레테시야.",
+   "note": "mákos = 양귀비씨가 든",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "Nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "utolsó",
+     "utolsó",
+     "우톨쇼"
+    ],
+    [
+     "mákos",
+     "mákos",
+     ""
+    ],
+    [
+     "rétes",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Gyorsan! Egyet kérek!",
+   "rd": "죠르션! 에제트 케렉!",
+   "ko": "빨리! 하나 주세요!",
+   "note": "egyet kérek = 하나 주세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Gyorsan",
+     "gyors",
+     "죠르시"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Hű, mákod van!",
+   "rd": "휘, 마코드 번!",
+   "ko": "와, 너 운 좋다!",
+   "note": "mákod van = 운이 좋다(직역: 네게 양귀비씨가 있다)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "mákod",
+     "mákod",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Tessék? A fogamon?",
+   "rd": "테쎅? 어 포거몬?",
+   "ko": "뭐라고? 내 이에?",
+   "note": "fog = 이, -on = ~위에",
+   "tags": [
+    "expr:Tessék?"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "fogamon",
+     "fogam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Nem, nem! Szerencséd van.",
+   "rd": "넴, 넴! 쎄렌체드 번.",
+   "ko": "아니, 아니! 운이 좋다고.",
+   "note": "szerencse = 운",
+   "tags": [],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj, értem. Na, együnk!",
+   "rd": "여이, 에르템. 너, 에쥔크!",
+   "ko": "아, 알겠어. 자, 먹자!",
+   "note": "együnk = 먹자",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "értem",
+     "ért",
+     "에르트"
+    ],
+    [
+     "együnk",
+     "eszik",
+     "에식"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Hát... most már tényleg mákos a fogad.",
+   "rd": "하트... 모슈트 마르 테닐렉 마코시 어 포거드.",
+   "ko": "음… 이제는 진짜 네 이에 양귀비씨 꼈어.",
+   "note": "most már = 이제는",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "mákos",
+     "mákos",
+     ""
+    ],
+    [
+     "fogad",
+     "fog",
+     "포그"
+    ]
+   ]
+  }
+ ]
+}

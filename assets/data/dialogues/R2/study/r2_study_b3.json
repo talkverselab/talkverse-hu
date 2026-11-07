@@ -1,0 +1,330 @@
+{
+ "id": "r2_study_b3",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "잘 본 구술시험",
+ "emoji": "📝",
+ "scene": "구술시험 날. 떨면서 들어간 강의실에서 카드를 뽑았는데 공부한 적 없는 문제다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tanár",
+  "C": "Réka"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "구술시험 말(Húzzon egy tételt)과 Mit tud …-ról/-ről?",
+ "expressions": [
+  "Hát",
+  "Szóval",
+  "Igazából",
+  "Mi van"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Jó napot! Húzzon egy tételt.",
+   "rd": "요 너포트! 후존 에지 테텔트.",
+   "ko": "안녕하세요! 문제 카드를 뽑으세요.",
+   "note": "tétel = 구술시험 문제",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "tételt",
+     "tétel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó napot. Hát, a tizenhármas.",
+   "rd": "요 너포트. 하트, 어 티젠하르머시.",
+   "ko": "안녕하세요. 음, 13번이요.",
+   "note": "tizenhármas = 13번",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "tizenhármas",
+     "tizenhármas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Szóval, a szív. Mit tud a szívről?",
+   "rd": "쏘벌, 어 씨브. 미트 투드 어 씨브뢸?",
+   "ko": "자, 심장. 심장에 대해 뭘 아시죠?",
+   "note": "-ról/-ről = ~에 대해",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "szív",
+     "szív",
+     "씨브"
+    ],
+    [
+     "tud",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "A szívről? Hát, ha szeretünk, gyorsabban ver.",
+   "rd": "어 씨브뢸? 하트, 허 쎄레튄크, 죠르셔번 베르.",
+   "ko": "심장이요? 음, 사랑하면 더 빨리 뜁니다.",
+   "note": "ver = (심장이) 뛴다",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "szívről",
+     "szív",
+     "씨브"
+    ],
+    [
+     "szeretünk",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "gyorsabban",
+     "gyorsan",
+     ""
+    ],
+    [
+     "ver",
+     "ver",
+     "베르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Érdekes. És most hogy ver az Öné?",
+   "rd": "에르데케시. 에시 모슈트 호지 베르 어즈 외네?",
+   "ko": "흥미롭군요. 지금 당신 심장은 어때요?",
+   "note": "az Öné = 당신의 것",
+   "tags": [],
+   "lemmas": [
+    [
+     "Érdekes",
+     "érdekes",
+     "에르데케시"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "ver",
+     "ver",
+     "베르"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Nagyon gyorsan. Igazából ezt nem tanultam.",
+   "rd": "너죤 죠르션. 이거자볼 에즈트 넴 터눌텀.",
+   "ko": "아주 빨라요. 사실 이건 공부 안 했어요.",
+   "note": "igazából = 사실은",
+   "tags": [
+    "expr:Igazából"
+   ],
+   "lemmas": [
+    [
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "gyorsan",
+     "gyors",
+     "죠르시"
+    ],
+    [
+     "tanultam",
+     "tanult",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Őszinte válasz. Négyes, a következő!",
+   "rd": "외씬테 발러쓰. 네제시, 어 쾨베트케죄!",
+   "ko": "솔직한 답이군요. 4점, 다음 분!",
+   "note": "négyes = 4점",
+   "tags": [],
+   "lemmas": [
+    [
+     "Őszinte",
+     "őszinte",
+     "외세인테"
+    ],
+    [
+     "válasz",
+     "válasz",
+     "바라스"
+    ],
+    [
+     "következő",
+     "következik",
+     "쾨베트케지크"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Hol voltál? A te vizsgád a földszinten van, már elkezdődött!",
+   "rd": "홀 볼탈? 어 테 비지가드 어 푈드씬텐 번, 마르 엘케즈되되트!",
+   "ko": "어디 있었어? 네 시험 1층에서 벌써 시작했어!",
+   "note": "földszint = 1층(지상층)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "voltál",
+     "van",
+     "번"
+    ],
+    [
+     "vizsgád",
+     "vizsgád",
+     ""
+    ],
+    [
+     "földszinten",
+     "földszint",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "elkezdődött",
+     "elkezdődik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Mi van? Akkor ez milyen vizsga volt?",
+   "rd": "미 번? 어꼬르 에즈 미옌 비지거 볼트?",
+   "ko": "뭐? 그럼 이건 무슨 시험이었어?",
+   "note": "milyen = 어떤",
+   "tags": [
+    "expr:Mi van"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "vizsga",
+     "vizsga",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Ez? Orvosi, harmadéveseknek.",
+   "rd": "에즈? 오르보시, 허르머데베섹넥.",
+   "ko": "이거? 의대 3학년 시험이야.",
+   "note": "orvosi = 의학의",
+   "tags": [],
+   "lemmas": [
+    [
+     "harmadéveseknek",
+     "harmadéves",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Négyest kaptam.",
+   "rd": "네제슈트 커프텀.",
+   "ko": "나 4점 받았어.",
+   "note": "kaptam = 내가 받았다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Négyest",
+     "négyes",
+     ""
+    ],
+    [
+     "kaptam",
+     "kap",
+     "커프"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,530 @@
+{
+ "id": "r3_friends_b1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "부다페스트에서? 위에서?",
+ "emoji": "🚋",
+ "scene": "표 없이 트램을 탔다. 검표원 앞에서 한 접미사 실수가 트램 전체를 깨운다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Ellenőr",
+  "D": "Néni"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "도시 이름의 격(-ban/-ben 과 -on/-en) 맛보기",
+ "expressions": [
+  "Nyugi",
+  "Elnézést",
+  "Jaj, ne már",
+  "Bocsánat",
+  "Hát nem",
+  "szóljak"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "hu": "Jó napot kívánok! Jegyeket, bérleteket kérem!",
+   "rd": "요 너포트 키바녹! 예제케트, 베를레테케트 케렘!",
+   "ko": "안녕하세요! 표, 정기권 보여 주세요!",
+   "note": "jegy = 표, bérlet = 정기권",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "kívánok",
+     "kíván",
+     "키반"
+    ],
+    [
+     "bérleteket",
+     "bérlet",
+     ""
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Réka, mit akar? Nekem nincs jegyem, otthon maradt a táskámban.",
+   "rd": "레커, 미트 어커르? 네켐 닌치 예젬, 오트혼 머러드트 어 타슈캄번.",
+   "ko": "레카, 뭐래? 나 표 없어, 집 가방에 두고 왔어.",
+   "note": "otthon maradt = 집에 남았다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "akar",
+     "akar",
+     "어커르"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "jegyem",
+     "jegyem",
+     ""
+    ],
+    [
+     "otthon",
+     "otthon",
+     "오트혼"
+    ],
+    [
+     "maradt",
+     "marad",
+     "머러드"
+    ],
+    [
+     "táskámban",
+     "táskám.",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Nyugi, mondd neki, hogy új vagy itt. Néha működik.",
+   "rd": "뉴기, 몬드 네키, 호지 우이 버지 이트. 네허 뮈쾨딕.",
+   "ko": "진정해, 여기 처음이라고 해. 가끔 먹혀.",
+   "note": "működik = 작동한다, 먹힌다",
+   "tags": [
+    "expr:Nyugi"
+   ],
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "mondd",
+     "mond",
+     "몬드"
+    ],
+    [
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "működik",
+     "működik",
+     "뮈쾨딕"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Elnézést, új vagyok. Csak két hete lakom Budapestben.",
+   "rd": "엘네제슈트, 우이 버죡. 척 케트 헤테 러콤 부더페슈트벤.",
+   "ko": "실례합니다, 저 처음이에요. 부다페스트 안에 산 지 2주밖에 안 됐어요.",
+   "note": "Budapestben = 틀린 말(Budapesten 이 맞다)",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "hete",
+     "hét",
+     "헤트"
+    ],
+    [
+     "lakom",
+     "lakik",
+     "러키크"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Budapestben? Jaj, ne már, Budapesten!",
+   "rd": "부더페슈트벤? 여이, 네 마르, 부더페슈텐!",
+   "ko": "부다페스트 「안에」요? 아이고, 부다페스트 「위에」죠!",
+   "note": "헝가리 도시는 대개 -on/-en",
+   "tags": [
+    "expr:Jaj, ne már"
+   ],
+   "lemmas": [
+    [
+     "Budapestben",
+     "budapest",
+     "부더페슈트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Bocsánat. És akkor Szegedben?",
+   "rd": "보차너트. 에시 어꼬르 쎄게드벤?",
+   "ko": "죄송합니다. 그럼 세게드 「안에」는요?",
+   "note": "bocsánat = 죄송합니다",
+   "tags": [
+    "expr:Bocsánat"
+   ],
+   "lemmas": [
+    [
+     "Bocsánat",
+     "bocsánat",
+     "버치너트"
+    ],
+    [
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "hu": "Szegeden, drágám! De Győrben, ezt mindenki tudja.",
+   "rd": "쎄게덴, 드라감! 데 죄르벤, 에즈트 민덴키 투드여.",
+   "ko": "세게드 「위에」지, 얘야! 근데 죄르는 「안에」, 다들 아는 거야.",
+   "note": "drágám = 얘야, 자기야",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szegeden",
+     "szeg",
+     ""
+    ],
+    [
+     "drágám",
+     "drága",
+     "드라가"
+    ],
+    [
+     "tudja",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Miért nem Győrön? Mi itt a szabály?",
+   "rd": "미에르트 넴 죄뢴? 미 이트 어 써바이?",
+   "ko": "왜 죄르는 「위에」가 아니에요? 규칙이 뭐예요?",
+   "note": "szabály = 규칙",
+   "tags": [],
+   "lemmas": [
+    [
+     "Miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "szabály",
+     "szabály",
+     "사발리"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Szabály? Ez Magyarország, itt csak hallani kell.",
+   "rd": "써바이? 에즈 머져로르싹, 이트 척 헐러니 켈.",
+   "ko": "규칙이요? 여긴 헝가리예요, 그냥 귀로 듣는 겁니다.",
+   "note": "hallani kell = 들어야 한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szabály",
+     "szabály",
+     "사발리"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "hallani",
+     "hall",
+     "헐"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "hu": "Hát nem, szabály igenis van! Gyere el hozzám, megtanítalak!",
+   "rd": "하트 넴, 써바이 이게니시 번! 제레 엘 호잠, 멕터니털럭!",
+   "ko": "아니지, 규칙 있고말고! 우리 집에 와, 내가 가르쳐 줄게!",
+   "note": "megtanítalak = 내가 널 가르쳐 줄게",
+   "tags": [
+    "expr:Hát nem"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "szabály",
+     "szabály",
+     "사발리"
+    ],
+    [
+     "igenis",
+     "igenis",
+     "이게니시"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "megtanítalak",
+     "megtanít",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Emberek, szavazzunk! Ki mondja, hogy Pécsen, és ki, hogy Pécsben?",
+   "rd": "엠베렉, 써버준크! 키 몬드여, 호지 페첸, 에시 키, 호지 페치벤?",
+   "ko": "여러분, 투표합시다! 페치 「위에」 누구, 「안에」 누구?",
+   "note": "szavazzunk = 투표합시다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Emberek",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "szavazzunk",
+     "szavaz",
+     ""
+    ],
+    [
+     "mondja",
+     "mond",
+     "몬드"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "{name}, az egész villamos szavaz. Mit csináltál?",
+   "rd": "{name}, 어즈 에게쓰 빌러모시 써버즈. 미트 치날탈?",
+   "ko": "{name}, 트램 전체가 투표하고 있어. 너 뭘 한 거야?",
+   "note": "villamos = 트램",
+   "tags": [],
+   "lemmas": [
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "villamos",
+     "villamos",
+     ""
+    ],
+    [
+     "szavaz",
+     "szavaz",
+     ""
+    ],
+    [
+     "csináltál",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Semmit! Csak nincs jegyem, szóljak neki még egyszer?",
+   "rd": "셈미트! 척 닌치 예젬, 쏠역 네키 멕 에지쎄르?",
+   "ko": "아무것도! 그냥 표가 없는 건데, 다시 말할까?",
+   "note": "szóljak = 내가 말할까",
+   "tags": [
+    "expr:szóljak"
+   ],
+   "lemmas": [
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "jegyem",
+     "jegyem",
+     ""
+    ],
+    [
+     "szóljak",
+     "szól",
+     "쏠"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "Ne szólj! Már a végállomáson állunk, mindenki vitatkozik.",
+   "rd": "네 쏠이! 마르 어 베갈로마숀 알룬크, 민덴키 비터트코직.",
+   "ko": "말하지 마! 벌써 종점이야, 다들 싸우고 있어.",
+   "note": "végállomás = 종점",
+   "tags": [],
+   "lemmas": [
+    [
+     "szólj",
+     "szól",
+     "쏠"
+    ],
+    [
+     "végállomáson",
+     "végállomás",
+     ""
+    ],
+    [
+     "állunk",
+     "áll",
+     "알"
+    ],
+    [
+     "vitatkozik",
+     "vitatkozik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "hu": "Hagyja a jegyet! Holnap ugyanitt, kilenckor: Miskolc!",
+   "rd": "허지여 어 예제트! 홀너프 우져니트, 킬렌츠코르: 미슈콜츠!",
+   "ko": "표는 됐어요! 내일 같은 곳, 9시: 미슈콜츠!",
+   "note": "ugyanitt = 같은 곳에서",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hagyja",
+     "hagy",
+     "허지"
+    ],
+    [
+     "jegyet",
+     "jegye",
+     ""
+    ],
+    [
+     "ugyanitt",
+     "ugyanitt",
+     ""
+    ],
+    [
+     "kilenckor",
+     "kilenc",
+     ""
+    ]
+   ]
+  }
+ ]
+}

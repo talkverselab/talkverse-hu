@@ -1,0 +1,269 @@
+{
+ "id": "r1_culture_b1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "이미 팔린 점심",
+ "emoji": "🖼️",
+ "scene": "현대미술 전시실. 먹던 레테시를 받침대에 잠깐 올려 뒀을 뿐이다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Teremőr"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "전시장에서 쓰는 말과 존댓말 금지 표현(ne nyúljon)",
+ "expressions": [
+  "Gyere",
+  "egy pillanat",
+  "Mindegy",
+  "Mindjárt"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Gyere, ez a kedvenc termem a múzeumban.",
+   "rd": "제레, 에즈 어 케드벤츠 테르멤 어 무제움번.",
+   "ko": "이리 와, 미술관에서 내가 제일 좋아하는 전시실이야.",
+   "note": "kedvenc = 가장 좋아하는",
+   "tags": [
+    "expr:Gyere"
+   ],
+   "lemmas": [
+    [
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "kedvenc",
+     "kedvenc",
+     "케드벤츠"
+    ],
+    [
+     "termem",
+     "termem",
+     ""
+    ],
+    [
+     "múzeumban",
+     "múzeum",
+     "무제움"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Várj, egy pillanat. Hova teszem a rétesemet?",
+   "rd": "바르이, 에지 필러너트. 호버 테쎔 어 레테세메트?",
+   "ko": "잠깐만. 내 레테시 어디 두지?",
+   "note": "hova = 어디로",
+   "tags": [
+    "expr:egy pillanat"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "pillanat",
+     "pillanat",
+     "필러넛"
+    ],
+    [
+     "teszem",
+     "tesz",
+     "테스"
+    ],
+    [
+     "rétesemet",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Mindegy, tedd oda! Mindjárt visszajövünk.",
+   "rd": "민데지, 테드 오더! 민드야르트 비써요뷘크.",
+   "ko": "아무 데나, 거기 둬! 금방 돌아올 거야.",
+   "note": "tedd oda = 거기 놔",
+   "tags": [
+    "expr:Mindegy",
+    "expr:Mindjárt"
+   ],
+   "lemmas": [
+    [
+     "Mindegy",
+     "mindegy",
+     "민데지"
+    ],
+    [
+     "tedd",
+     "tesz",
+     "테스"
+    ],
+    [
+     "oda",
+     "oda",
+     "오더"
+    ],
+    [
+     "visszajövünk",
+     "visszajön",
+     "비슈서요"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Nézd, mennyi ember áll ott!",
+   "rd": "네즈드, 메니 엠베르 알 오트!",
+   "ko": "봐, 저기 사람 엄청 많이 서 있어!",
+   "note": "mennyi + 단수 = 얼마나 많은",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Mit néznek? Új mű?",
+   "rd": "미트 네즈넥? 우이 뮈?",
+   "ko": "뭘 보는 거지? 새 작품인가?",
+   "note": "mű = 작품",
+   "tags": [],
+   "lemmas": [
+    [
+     "néznek",
+     "néz",
+     "네즈"
+    ],
+    [
+     "mű",
+     "mű",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj. Az ott az én rétesem!",
+   "rd": "여이. 어즈 오트 어즈 엔 레테셈!",
+   "ko": "아이고. 저거 내 레테시야!",
+   "note": "az ott = 저기 저것",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "rétesem",
+     "rétesem",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Kérem, ne nyúljon hozzá! Egy úr már megvette.",
+   "rd": "케렘, 네 뉼욘 호자! 에지 우르 마르 멕베떼.",
+   "ko": "손대지 마세요! 어떤 분이 벌써 사 가셨습니다.",
+   "note": "ne nyúljon hozzá = 손대지 마세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kérem",
+     "kér",
+     "께르"
+    ],
+    [
+     "nyúljon",
+     "nyúlik",
+     ""
+    ],
+    [
+     "úr",
+     "úr",
+     "우르"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "megvette",
+     "megvesz",
+     "메그베스"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Szóval gratulálok. Művész vagy.",
+   "rd": "쏘벌 그러툴랄록. 뮈베쓰 버지.",
+   "ko": "그러니까… 축하해. 너 예술가야.",
+   "note": "gratulálok = 축하해",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "gratulálok",
+     "gratulál",
+     "그러툴랄"
+    ]
+   ]
+  }
+ ]
+}

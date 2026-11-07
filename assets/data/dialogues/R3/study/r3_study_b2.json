@@ -1,0 +1,557 @@
+{
+ "id": "r3_study_b2",
+ "region": "R3",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "기숙사 벼룩시장",
+ "emoji": "🛏️",
+ "scene": "토요일 복도 벼룩시장. 공부하느라 바빠서 Réka 에게 방에 있는 걸 대신 팔아 달라고 했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Gondnok"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "물건 팔고 값 말하기와 mindegy 의 위험",
+ "expressions": [
+  "Hé",
+  "Hát",
+  "Semmi baj",
+  "Nem tudom",
+  "Mindegy",
+  "Szuper",
+  "Király",
+  "Te jó ég"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Hé, szombaton bolhapiac lesz a folyosón! Van valami eladó cuccod?",
+   "rd": "헤, 쏨버톤 볼허피어츠 레쓰 어 포요숀! 번 벌러미 엘러도 추쪼드?",
+   "ko": "야, 토요일에 복도에서 벼룩시장 열려! 팔 물건 있어?",
+   "note": "bolhapiac = 벼룩시장",
+   "tags": [
+    "expr:Hé"
+   ],
+   "lemmas": [
+    [
+     "Hé",
+     "hé",
+     "헤"
+    ],
+    [
+     "szombaton",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "bolhapiac",
+     "bolhapiac",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "folyosón",
+     "folyosó",
+     ""
+    ],
+    [
+     "eladó",
+     "elad",
+     "엘러드"
+    ],
+    [
+     "cuccod",
+     "cuccod",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hát, a régi magyar könyveim. De most tanulnom kell.",
+   "rd": "하트, 어 레기 머져르 쾨니베임. 데 모슈트 터눌놈 켈.",
+   "ko": "음, 옛날 헝가리어 책들. 근데 지금 공부해야 해.",
+   "note": "tanulnom kell = 내가 공부해야 한다",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "régi",
+     "régi",
+     "레기"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "könyveim",
+     "könyveim",
+     ""
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "tanulnom",
+     "tanulni",
+     ""
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Semmi baj, eladom helyetted. Mit adhatok el?",
+   "rd": "셈미 버이, 엘러돔 헤예떼드. 미트 어드허톡 엘?",
+   "ko": "괜찮아, 내가 대신 팔아 줄게. 뭘 팔아도 돼?",
+   "note": "helyetted = 너 대신",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "eladom",
+     "elad",
+     "엘러드"
+    ],
+    [
+     "helyetted",
+     "helyette",
+     ""
+    ],
+    [
+     "adhatok",
+     "adhat",
+     ""
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Nem tudom, nézd meg a szobámban. Mindegy, ami nem kell.",
+   "rd": "넴 투돔, 네즈드 멕 어 쏘밤번. 민데지, 어미 넴 켈.",
+   "ko": "몰라, 내 방 봐 봐. 필요 없는 거면 뭐든 상관없어.",
+   "note": "ami nem kell = 필요 없는 것",
+   "tags": [
+    "expr:Nem tudom",
+    "expr:Mindegy"
+   ],
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "szobámban",
+     "szob",
+     ""
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Szuper, bízz bennem!",
+   "rd": "쑤페르, 비즈 벤넴!",
+   "ko": "좋아, 나만 믿어!",
+   "note": "bízz bennem = 나를 믿어",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "bízz",
+     "bízik",
+     "비즈크"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Na, hogy megy? Miért van itt ilyen sok ember?",
+   "rd": "너, 호지 메지? 미에르트 번 이트 이옌 쇽 엠베르?",
+   "ko": "자, 어때? 왜 이렇게 사람이 많아?",
+   "note": "hogy megy? = 어떻게 돼 가?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Király, már nyolcvanezer forintot kerestem. Nézd!",
+   "rd": "키라이, 마르 뇰츠버네제르 포린토트 케레슈템. 네즈드!",
+   "ko": "최고야, 벌써 8만 포린트 벌었어. 봐!",
+   "note": "kerestem = 내가 벌었다",
+   "tags": [
+    "expr:Király"
+   ],
+   "lemmas": [
+    [
+     "Király",
+     "király",
+     "키라이"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "nyolcvanezer",
+     "nyolcvan",
+     ""
+    ],
+    [
+     "forintot",
+     "forint",
+     ""
+    ],
+    [
+     "kerestem",
+     "keres",
+     "케레시"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Nyolcvanezret? Három könyvért?",
+   "rd": "뇰츠버네즈레트? 하롬 쾨니베르트?",
+   "ko": "8만? 책 세 권으로?",
+   "note": "-ért = ~의 값으로",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nyolcvanezret",
+     "nyolcvan",
+     ""
+    ],
+    [
+     "könyvért",
+     "könyv",
+     "쾨니브"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Könyvért? Nem, a könyvek nem kellettek senkinek.",
+   "rd": "쾨니베르트? 넴, 어 쾨니벡 넴 켈레떽 센키넥.",
+   "ko": "책? 아니, 책은 아무도 안 사더라.",
+   "note": "nem kellettek = 필요 없었다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Könyvért",
+     "könyv",
+     "쾨니브"
+    ],
+    [
+     "könyvek",
+     "könyve",
+     ""
+    ],
+    [
+     "kellettek",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Akkor mit adtál el?",
+   "rd": "어꼬르 미트 어드탈 엘?",
+   "ko": "그럼 뭘 판 거야?",
+   "note": "adtál el = 네가 팔았다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "adtál",
+     "ad",
+     "어드"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "A lámpát, a széket, az asztalt. Azt mondtad, mindegy!",
+   "rd": "어 람파트, 어 쎄케트, 어즈 어쓰털트. 어즈트 몬드터드, 민데지!",
+   "ko": "스탠드, 의자, 책상. 네가 상관없다며!",
+   "note": "szék = 의자",
+   "tags": [
+    "expr:Mindegy"
+   ],
+   "lemmas": [
+    [
+     "lámpát",
+     "lámpa",
+     ""
+    ],
+    [
+     "széket",
+     "szék",
+     ""
+    ],
+    [
+     "asztalt",
+     "asztal",
+     "어슬러"
+    ],
+    [
+     "mondtad",
+     "mond",
+     "몬드"
+    ],
+    [
+     "mindegy",
+     "mindegy",
+     "민데지"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Az asztalomat? Te jó ég, hol fogok tanulni?",
+   "rd": "어즈 어쓰털로머트? 테 요 엑, 홀 포곡 터눌니?",
+   "ko": "내 책상을? 세상에, 나 어디서 공부해?",
+   "note": "fogok tanulni = 공부할 것이다",
+   "tags": [
+    "expr:Te jó ég"
+   ],
+   "lemmas": [
+    [
+     "asztalomat",
+     "asztalom",
+     ""
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "ég",
+     "ég",
+     "에그"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "fogok",
+     "fog",
+     "포그"
+    ],
+    [
+     "tanulni",
+     "tanul",
+     "타눌"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Az ágyon. Bár az ágyra már van vevő.",
+   "rd": "어즈 아죤. 바르 어즈 아지러 마르 번 베뵈.",
+   "ko": "침대에서. 근데 침대는 벌써 살 사람이 있어.",
+   "note": "vevő = 사는 사람",
+   "tags": [],
+   "lemmas": [
+    [
+     "ágyon",
+     "ágy",
+     "아지"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "vevő",
+     "vevő",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "hu": "Elnézést, ki adta el a kollégium bútorait?",
+   "rd": "엘네제슈트, 키 어드터 엘 어 콜레기움 부토러이트?",
+   "ko": "실례합니다, 기숙사 가구를 판 사람이 누구죠?",
+   "note": "bútor = 가구",
+   "tags": [],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "adta",
+     "ad",
+     "어드"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "kollégium",
+     "kollégium",
+     ""
+    ],
+    [
+     "bútorait",
+     "bútorai",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Hát, ő. Én csak segítettem.",
+   "rd": "하트, 외. 엔 척 세기테뗌.",
+   "ko": "음, 얘요. 전 그냥 도운 거고요.",
+   "note": "segítettem = 내가 도왔다",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "segítettem",
+     "segített",
+     ""
+    ]
+   ]
+  }
+ ]
+}

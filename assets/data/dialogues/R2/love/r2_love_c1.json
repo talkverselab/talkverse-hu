@@ -1,0 +1,361 @@
+{
+ "id": "r2_love_c1",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "단톡방의 어머니",
+ "emoji": "👩‍👧",
+ "scene": "Réka 가 Anna 와 A 를 이어 주겠다며 단톡방을 만들었다. 그리고 한 명을 더 초대했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Anna",
+  "D": "Anna anyukája"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "단톡방 말투, '~가 ~에게 마음에 든다'(tetszik neked)",
+ "expressions": [
+  "Jaj",
+  "Bocsi",
+  "Várj",
+  "Légyszi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Csináltam egy csoportot. Sziasztok! 😎",
+   "rd": "치날텀 에지 초포르토트. 씨어쓰톡! 😎",
+   "ko": "방 하나 만들었어. 얘들아 안녕! 😎",
+   "note": "csoport = 그룹",
+   "tags": [],
+   "at": "19:00",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Csináltam",
+     "csinált",
+     ""
+    ],
+    [
+     "csoportot",
+     "csoport",
+     "초포르트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Réka, ez mi? Miért vagyunk csak hárman?",
+   "rd": "레커, 에즈 미? 미에르트 버쥰크 척 하르먼?",
+   "ko": "레카, 이게 뭐야? 왜 우리 셋뿐이야?",
+   "note": "hárman = 셋이서",
+   "tags": [],
+   "at": "19:01",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "vagyunk",
+     "van",
+     "번"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "hárman",
+     "hárman",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Szia! Réka azt mondta, te akarsz kérdezni valamit. 😳",
+   "rd": "씨어! 레커 어즈트 몬드터, 테 어커르쓰 케르데즈니 벌러미트. 😳",
+   "ko": "안녕! 레카가 네가 뭐 물어볼 거라던데. 😳",
+   "note": "valamit = 뭔가를",
+   "tags": [],
+   "at": "19:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ],
+    [
+     "akarsz",
+     "akar",
+     "어커르"
+    ],
+    [
+     "kérdezni",
+     "kérdez",
+     "케르데즈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Én? Nekem azt mondta, hogy te akarsz.",
+   "rd": "엔? 네켐 어즈트 몬드터, 호지 테 어커르쓰.",
+   "ko": "내가? 나한테는 네가 그런다고 했는데.",
+   "note": "azt mondta = 그렇게 말했다",
+   "tags": [],
+   "at": "19:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ],
+    [
+     "akarsz",
+     "akar",
+     "어커르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Jaj, de lassúak vagytok. Anna tetszik neked, te tetszel neki.",
+   "rd": "여이, 데 러쓔억 버지톡. 언너 테트씩 네케드, 테 테트쎌 네키.",
+   "ko": "아이고, 둘 다 진짜 느려. 넌 언너가 좋고, 언너는 네가 좋아.",
+   "note": "lassú = 느린",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "at": "19:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "lassúak",
+     "lassú",
+     ""
+    ],
+    [
+     "vagytok",
+     "van",
+     "번"
+    ],
+    [
+     "tetszik",
+     "tetszik",
+     "테트씨크"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "RÉKA!!!",
+   "rd": "레커!!!",
+   "ko": "레카!!!",
+   "note": "큰 글자 = 소리치기",
+   "tags": [],
+   "at": "19:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "RÉKA",
+     "réka",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Várj, ez igaz?",
+   "rd": "바르이, 에즈 이거즈?",
+   "ko": "잠깐, 그거 진짜야?",
+   "note": "igaz = 사실인",
+   "tags": [
+    "expr:Várj"
+   ],
+   "at": "19:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "igaz",
+     "igaz",
+     "이거즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Bocsi, Anna anyukáját is hozzáadtam. Véletlenül. 😇",
+   "rd": "보치, 언너 어뉴카야트 이시 호자어드텀. 벨레틀레뉠. 😇",
+   "ko": "미안, 언너 엄마도 넣어 버렸어. 실수로. 😇",
+   "note": "hozzáadtam = 추가했다",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "19:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "anyukáját",
+     "anyu",
+     "어뉴"
+    ],
+    [
+     "hozzáadtam",
+     "hozzáad",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "D",
+   "hu": "Szervusztok! Ki ez a {name}, aki tetszik?",
+   "rd": "쎄르부쓰톡! 키 에즈 어 {name}, 어키 테트씩?",
+   "ko": "안녕들! 마음에 든다는 그 {name}은 누구니?",
+   "note": "szervusztok = 안녕(여럿에게)",
+   "tags": [],
+   "at": "19:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szervusztok",
+     "szervusztok",
+     ""
+    ],
+    [
+     "tetszik",
+     "tetszik",
+     "테트씨크"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "ANYA, NE! 😱",
+   "rd": "어녀, 네! 😱",
+   "ko": "엄마, 안 돼! 😱",
+   "note": "ne = 안 돼, 하지 마",
+   "tags": [],
+   "at": "19:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "ANYA",
+     "anya",
+     "어니어"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "D",
+   "hu": "Akkor vasárnap ebéd nálunk. Hoztok rétest?",
+   "rd": "어꼬르 버샤르너프 에베드 날룬크. 호즈톡 레테슈트?",
+   "ko": "그럼 일요일 점심은 우리 집에서. 레테시 가져올래?",
+   "note": "nálunk = 우리 집에서",
+   "tags": [],
+   "at": "19:07",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "vasárnap",
+     "vasárnap",
+     ""
+    ],
+    [
+     "ebéd",
+     "ebéd",
+     ""
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Gyere, légyszi. Melléd ülök. 🙈",
+   "rd": "제레, 레지씨. 멜레드 윌뢱. 🙈",
+   "ko": "와 줘, 제발. 네 옆에 앉을게. 🙈",
+   "note": "melléd = 네 옆으로",
+   "tags": [
+    "expr:Légyszi"
+   ],
+   "at": "19:08",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ],
+    [
+     "ülök",
+     "ül",
+     "위일"
+    ]
+   ]
+  }
+ ]
+}

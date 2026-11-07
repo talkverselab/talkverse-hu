@@ -1,0 +1,238 @@
+{
+ "id": "r1_friends_c4",
+ "region": "R1",
+ "island": "friends",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "말 한 마리",
+ "emoji": "🐴",
+ "scene": "시장에 간 Réka 가 뭐 사다 줄까 묻는다. 농담은 상대를 보고 해야 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "짧은 채팅 답, 목적격(lovat)과 필요 없다는 말(nem kell)",
+ "expressions": [
+  "Oké",
+  "Ne már",
+  "Úristen"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Piacon vagyok. Mit hozzak?",
+   "rd": "피어촌 버죡. 미트 호적?",
+   "ko": "시장이야. 뭐 사다 줄까?",
+   "note": "hozzak = 내가 가져올까",
+   "tags": [],
+   "at": "11:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Piacon",
+     "piac",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "hozzak",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Haha, egy lovat!",
+   "rd": "허허, 에지 로버트!",
+   "ko": "하하, 말 한 마리!",
+   "note": "lovat = 말을(ló 의 목적격)",
+   "tags": [],
+   "at": "11:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Haha",
+     "haha",
+     ""
+    ],
+    [
+     "lovat",
+     "lova",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Oké.",
+   "rd": "오케.",
+   "ko": "오케이.",
+   "note": "oké = 좋아",
+   "tags": [
+    "expr:Oké"
+   ],
+   "at": "11:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Oké",
+     "oké",
+     "오케"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Réka? Ez vicc volt.",
+   "rd": "레커? 에즈 비츠 볼트.",
+   "ko": "레카? 농담이었어.",
+   "note": "vicc = 농담",
+   "tags": [],
+   "at": "11:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "vicc",
+     "vicc",
+     "비츠"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Fehér vagy fekete?",
+   "rd": "페헤르 버지 페케테?",
+   "ko": "흰색, 검은색?",
+   "note": "vagy = 또는",
+   "tags": [],
+   "at": "11:42",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Fehér",
+     "fehér",
+     "페헤르"
+    ],
+    [
+     "fekete",
+     "fekete",
+     "페케테"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Ne már! Nem kell ló!",
+   "rd": "네 마르! 넴 켈 로!",
+   "ko": "그만해! 말 필요 없어!",
+   "note": "nem kell = 필요 없다",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "at": "11:42",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "ló",
+     "ló",
+     "로"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Késő. A kapud előtt áll. 😄",
+   "rd": "케쇠. 어 커푸드 엘뢰트 알. 😄",
+   "ko": "늦었어. 네 대문 앞에 서 있어. 😄",
+   "note": "késő = 늦은",
+   "tags": [],
+   "at": "12:15",
+   "stamp": "😄",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Késő",
+     "késik",
+     "케시크"
+    ],
+    [
+     "kapud",
+     "kapud",
+     ""
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Úristen. Mit eszik?!",
+   "rd": "우리슈텐. 미트 에씩?!",
+   "ko": "세상에. 뭐 먹어?!",
+   "note": "eszik = 먹는다",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "at": "12:16",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "eszik",
+     "eszik",
+     "에식"
+    ]
+   ]
+  }
+ ]
+}

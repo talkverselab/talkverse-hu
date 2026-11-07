@@ -1,0 +1,534 @@
+{
+ "id": "r3_travel_b3",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "할라슬레 사랑해요",
+ "emoji": "🐟",
+ "scene": "강가 식당. Réka 가 오늘은 혼자 주문하라고 한다. 모음 하나만 틀리면 되는데",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Pincérnő"
+ },
+ "register": "mixed",
+ "twist": 14,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "공손한 주문(szeretnék)과 szeretlek 구별",
+ "expressions": [
+  "Figyelj",
+  "Jól van",
+  "Te jó ég",
+  "Semmi baj",
+  "légyszi",
+  "Naná",
+  "Na, látod?"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, ma te rendelsz. Eleget tanultál, már nem segítek.",
+   "rd": "피젤이, 머 테 렌델쓰. 엘레게트 터눌탈, 마르 넴 세기텍.",
+   "ko": "야, 오늘은 네가 주문해. 공부 많이 했으니까 이제 안 도와줘.",
+   "note": "rendelsz = 네가 주문한다",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "rendelsz",
+     "rendel",
+     "렌델"
+    ],
+    [
+     "tanultál",
+     "tanul",
+     "타눌"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "segítek",
+     "segít",
+     "셰기트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jól van, meg tudom csinálni. Szeretnék, szeretnék...",
+   "rd": "욜 번, 멕 투돔 치날니. 쎄레트넥, 쎄레트넥...",
+   "ko": "좋아, 할 수 있어. 세레트네크, 세레트네크…",
+   "note": "szeretnék = ~하고 싶어요",
+   "tags": [
+    "expr:Jól van"
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "csinálni",
+     "csinál",
+     "치날"
+    ],
+    [
+     "szeretnék",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Mondd csak: szeretnék egy halászlét. Ez nem nehéz.",
+   "rd": "몬드 척: 쎄레트넥 에지 헐라쓸레트. 에즈 넴 네헤즈.",
+   "ko": "그냥 말해: 세레트네크 할라슬레. 어렵지 않아.",
+   "note": "halászlé = 매운 생선 수프",
+   "tags": [],
+   "lemmas": [
+    [
+     "Mondd",
+     "mond",
+     "몬드"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "szeretnék",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "halászlét",
+     "halászlé",
+     ""
+    ],
+    [
+     "nehéz",
+     "nehéz",
+     "네헤즈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Jó estét! Mit hozhatok?",
+   "rd": "요 에슈테트! 미트 호즈허톡?",
+   "ko": "안녕하세요! 뭘 가져다 드릴까요?",
+   "note": "mit hozhatok? = 뭘 드릴까요?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "hozhatok",
+     "hozhat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Jó estét, szeretlek! Izé, egy halászlét!",
+   "rd": "요 에슈테트, 쎄레틀렉! 이제, 에지 헐라쓸레트!",
+   "ko": "안녕하세요, 사랑해요! 저, 할라슬레요!",
+   "note": "szeretlek = 사랑해",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "halászlét",
+     "halászlé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Engem szeret, vagy a halászlét?",
+   "rd": "엔겜 쎄레트, 버지 어 헐라쓸레트?",
+   "ko": "저를 사랑하세요, 할라슬레를 사랑하세요?",
+   "note": "engem = 나를",
+   "tags": [],
+   "lemmas": [
+    [
+     "szeret",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "halászlét",
+     "halászlé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Jaj, bocsánat! Szeretnék egy halászlét!",
+   "rd": "여이, 보차너트! 쎄레트넥 에지 헐라쓸레트!",
+   "ko": "아이고, 죄송해요! 할라슬레 먹고 싶어요!",
+   "note": "-nék = ~하고 싶다(조건형)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "bocsánat",
+     "bocsánat",
+     "버치너트"
+    ],
+    [
+     "halászlét",
+     "halászlé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Te jó ég, ezt felvettem.",
+   "rd": "테 요 엑, 에즈트 펠베뗌.",
+   "ko": "세상에, 이거 찍었어.",
+   "note": "felvettem = 녹화했다",
+   "tags": [
+    "expr:Te jó ég"
+   ],
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "ég",
+     "ég",
+     "에그"
+    ],
+    [
+     "felvettem",
+     "felvesz",
+     "펠베스"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Semmi baj, ez a nap fénypontja. Kér mellé kenyeret?",
+   "rd": "셈미 버이, 에즈 어 너프 페니폰트여. 케르 멜레 케네레트?",
+   "ko": "괜찮아요, 오늘 제일 재밌는 일이에요. 빵도 곁들일까요?",
+   "note": "mellé = 곁에",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "nap",
+     "nap",
+     "넙"
+    ],
+    [
+     "fénypontja",
+     "fénypont",
+     ""
+    ],
+    [
+     "mellé",
+     "mell",
+     "멜"
+    ],
+    [
+     "kenyeret",
+     "kenyere",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Igen, köszönöm. Réka, töröld ki azt a videót, légyszi!",
+   "rd": "이겐, 쾨쐬뇜. 레커, 퇴뢸드 키 어즈트 어 비데오트, 레지씨!",
+   "ko": "네, 고맙습니다. 레카, 그 영상 좀 지워 줘!",
+   "note": "töröld ki = 지워",
+   "tags": [
+    "expr:légyszi"
+   ],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "töröld",
+     "töröld",
+     ""
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "videót",
+     "videó",
+     ""
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Naná, hogy nem törlöm ki. Már elküldtem Annának.",
+   "rd": "너나, 호지 넴 퇴를룀 키. 마르 엘퀼드템 언나넉.",
+   "ko": "당연히 안 지우지. 벌써 언너한테 보냈어.",
+   "note": "elküldtem = 보냈다",
+   "tags": [
+    "expr:Naná"
+   ],
+   "lemmas": [
+    [
+     "Naná",
+     "naná",
+     ""
+    ],
+    [
+     "törlöm",
+     "törlöm",
+     ""
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "elküldtem",
+     "elküld",
+     "엘퀼드"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Tessék, a számla. A halászlét a ház állja.",
+   "rd": "테쎅, 어 쌈러. 어 헐라쓸레트 어 하즈 알여.",
+   "ko": "여기 계산서요. 할라슬레는 저희가 살게요.",
+   "note": "a ház állja = 가게가 낸다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "számla",
+     "számla",
+     ""
+    ],
+    [
+     "halászlét",
+     "halászlé",
+     ""
+    ],
+    [
+     "ház",
+     "ház",
+     "하즈"
+    ],
+    [
+     "állja",
+     "áll",
+     "알"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Hogyhogy? Mi van a számla hátulján?",
+   "rd": "호지호지? 미 번 어 쌈러 하툴얀?",
+   "ko": "어째서요? 계산서 뒤에 뭐가 있죠?",
+   "note": "hátul = 뒤쪽",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hogyhogy",
+     "hogyhogy",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "számla",
+     "számla",
+     ""
+    ],
+    [
+     "hátulján",
+     "hátulja",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Várj, ez egy telefonszám. És alatta: én is szeretlek.",
+   "rd": "바르이, 에즈 에지 텔레폰쌈. 에시 얼러떠: 엔 이시 쎄레틀렉.",
+   "ko": "잠깐, 이거 전화번호야. 그 아래엔: 저도 사랑해요.",
+   "note": "alatta = 그 아래",
+   "tags": [],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "telefonszám",
+     "telefonszám",
+     ""
+    ],
+    [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Na, látod? Mégis jól tanultál magyarul.",
+   "rd": "너, 라토드? 메기시 욜 터눌탈 머져룰.",
+   "ko": "봐? 헝가리어 잘 배웠네.",
+   "note": "mégis = 그래도",
+   "tags": [
+    "expr:Na, látod?"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "látod",
+     "lát",
+     "라트"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "tanultál",
+     "tanul",
+     "타눌"
+    ],
+    [
+     "magyarul",
+     "magyar",
+     ""
+    ]
+   ]
+  }
+ ]
+}

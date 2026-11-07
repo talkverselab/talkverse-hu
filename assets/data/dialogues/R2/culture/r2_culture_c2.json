@@ -1,0 +1,355 @@
+{
+ "id": "r2_culture_c2",
+ "region": "R2",
+ "island": "culture",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "media",
+  "love"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "어미 하나 차이",
+ "emoji": "💬",
+ "scene": "Anna 가 그림을 올렸다. 「그림 마음에 들어」를 쓰려다 어미 하나를 틀렸다. 그것도 공개 댓글에",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Réka"
+ },
+ "register": "chat",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "tetszik(그것이 마음에 든다) / tetszel(네가 마음에 든다) 구별",
+ "expressions": [
+  "Úristen",
+  "Mi van",
+  "Bocsi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Kész az új rajzom! Mit szóltok? 🎨",
+   "rd": "케쓰 어즈 우이 러이좀! 미트 쏠톡? 🎨",
+   "ko": "새 그림 완성! 어때? 🎨",
+   "note": "mit szóltok? = 너희 생각은?",
+   "tags": [],
+   "at": "20:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kész",
+     "kész",
+     "케스"
+    ],
+    [
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "rajzom",
+     "rajzom",
+     ""
+    ],
+    [
+     "szóltok",
+     "szól",
+     "쏠"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hű, nagyon tetszel!",
+   "rd": "휘, 너죤 테트쎌!",
+   "ko": "와, 네가 정말 마음에 들어!",
+   "note": "tetszel = 네가 마음에 든다",
+   "tags": [],
+   "at": "20:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "tetszel",
+     "tetszik",
+     "테트씨크"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Úristen, {name}! Ezt mindenki látja! 😂",
+   "rd": "우리슈텐, {name}! 에즈트 민덴키 라트여! 😂",
+   "ko": "세상에, {name}! 이거 다 보고 있어! 😂",
+   "note": "mindenki látja = 다들 그걸 본다",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "at": "20:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "látja",
+     "lát",
+     "라트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Mi van? Mit írtam?",
+   "rd": "미 번? 미트 이르텀?",
+   "ko": "왜? 내가 뭐라고 썼어?",
+   "note": "írtam = 내가 썼다",
+   "tags": [
+    "expr:Mi van"
+   ],
+   "at": "20:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "írtam",
+     "írt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Olvasd el még egyszer. Lassan.",
+   "rd": "올버슈드 엘 멕 에지쎄르. 러쎤.",
+   "ko": "다시 읽어 봐. 천천히.",
+   "note": "olvasd el = 읽어 봐",
+   "tags": [],
+   "at": "20:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Olvasd",
+     "olvas",
+     "올버스"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj, ne! A rajz tetszik!",
+   "rd": "여이, 네! 어 러이즈 테트씩!",
+   "ko": "안 돼! 그림이 마음에 든다고!",
+   "note": "tetszik = 그것이 마음에 든다",
+   "tags": [],
+   "at": "20:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "rajz",
+     "rajz",
+     ""
+    ],
+    [
+     "tetszik",
+     "tetszik",
+     "테트씨크"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Bocsi, töröltem! Ez csak egy rag volt!",
+   "rd": "보치, 퇴뢸템! 에즈 척 에지 럭 볼트!",
+   "ko": "미안, 지웠어! 어미 하나 틀린 거야!",
+   "note": "töröltem = 지웠다",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "20:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "töröltem",
+     "töröl",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "rag",
+     "rag",
+     ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Anna látta. Sok sikert. 😇",
+   "rd": "언너 라떠. 쇽 시케르트. 😇",
+   "ko": "안나가 봤어. 행운을 빌어. 😇",
+   "note": "sok sikert = 행운을 빌어",
+   "tags": [],
+   "at": "20:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "látta",
+     "lát",
+     "라트"
+    ],
+    [
+     "sikert",
+     "siker",
+     "시케르"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Anna? Ott vagy?",
+   "rd": "언너? 오트 버지?",
+   "ko": "안나? 거기 있어?",
+   "note": "ott vagy? = 거기 있어?",
+   "tags": [],
+   "at": "21:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Itt vagyok. Csak olvastam, sokszor.",
+   "rd": "이트 버죡. 척 올버슈텀, 쇽쏘르.",
+   "ko": "여기 있어. 읽고 있었어, 여러 번.",
+   "note": "sokszor = 여러 번",
+   "tags": [],
+   "at": "21:52",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "olvastam",
+     "olvas",
+     "올버스"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Kár, hogy törölted. Az első változat jobban tetszett.",
+   "rd": "카르, 호지 퇴뢸테드. 어즈 엘쇠 발토저트 요번 테트쎄트.",
+   "ko": "지워서 아쉽다. 첫 번째 게 더 마음에 들었는데.",
+   "note": "kár = 아쉽다",
+   "tags": [],
+   "at": "21:53",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kár",
+     "kár",
+     "카르"
+    ],
+    [
+     "törölted",
+     "töröl",
+     ""
+    ],
+    [
+     "változat",
+     "változat",
+     ""
+    ],
+    [
+     "jobban",
+     "jobb",
+     ""
+    ],
+    [
+     "tetszett",
+     "tetszik",
+     "테트씨크"
+    ]
+   ]
+  }
+ ]
+}

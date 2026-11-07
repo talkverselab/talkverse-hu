@@ -1,0 +1,279 @@
+{
+ "id": "r1_travel_b3",
+ "region": "R1",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "황소의 피",
+ "emoji": "🍷",
+ "scene": "에게르의 포도주 저장고. Dávid 가 이 동네 명물을 마시자고 한다. 이름이 수상하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid",
+  "C": "Pincemester"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [
+  "alcohol"
+ ],
+ "goal": "되묻기(Mit?)와 거절하기(nem iszom)",
+ "expressions": [
+  "Komolyan?",
+  "Naná",
+  "Mi van?",
+  "Persze",
+  "Jól van",
+  "Tessék"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Itt vagyunk Egerben! Most bikavért iszunk.",
+   "rd": "이트 버쥰크 에게르벤! 모슈트 비커베르트 이쑨크.",
+   "ko": "에게르 도착! 이제 비커베르 마시자.",
+   "note": "bikavér = 에게르 붉은 포도주(글자 뜻: 황소 피)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "vagyunk",
+     "van",
+     "번"
+    ],
+    [
+     "bikavért",
+     "bikavért",
+     ""
+    ],
+    [
+     "iszunk",
+     "iszik",
+     "이식"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Vért iszunk? Komolyan?",
+   "rd": "베르트 이쑨크? 코모연?",
+   "ko": "피를 마신다고? 진심이야?",
+   "note": "vért = 피를(vér + -t)",
+   "tags": [
+    "expr:Komolyan?"
+   ],
+   "lemmas": [
+    [
+     "Vért",
+     "vér",
+     "베르"
+    ],
+    [
+     "iszunk",
+     "iszik",
+     "이식"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Naná, friss. Reggel még itt volt a bika.",
+   "rd": "너나, 프리시. 렉겔 멕 이트 볼트 어 비커.",
+   "ko": "당연하지, 신선해. 아침까지 여기 있던 황소야.",
+   "note": "naná = 당연하지",
+   "tags": [
+    "expr:Naná"
+   ],
+   "lemmas": [
+    [
+     "Naná",
+     "naná",
+     ""
+    ],
+    [
+     "friss",
+     "friss",
+     "프리시"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "bika",
+     "bika",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Mi van? Én nem iszom vért!",
+   "rd": "미 번? 엔 넴 이쏨 베르트!",
+   "ko": "뭐라고? 난 피 안 마셔!",
+   "note": "nem iszom = 안 마셔",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "iszom",
+     "iszom",
+     ""
+    ],
+    [
+     "vért",
+     "vér",
+     "베르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Tessék, két pohár. Egészségükre!",
+   "rd": "테쎅, 케트 포하르. 에게쓰세귁레!",
+   "ko": "자, 두 잔이요. 건배!",
+   "note": "egészségükre = 두 분 건강을 위해",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "pohár",
+     "pohár",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Hű, ez bor?",
+   "rd": "휘, 에즈 보르?",
+   "ko": "어라, 이거 와인이야?",
+   "note": "bor = 포도주",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "bor",
+     "bor",
+     "보르"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Persze, hogy bor! Csak így hívják.",
+   "rd": "페르쎄, 호지 보르! 척 이지 히브약.",
+   "ko": "당연히 와인이지! 그냥 그렇게 부르는 거야.",
+   "note": "így hívják = 이렇게 부른다",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "bor",
+     "bor",
+     "보르"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "hívják",
+     "hív",
+     "히브"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jól van. Kérek még egy pohár bikát.",
+   "rd": "욜 번. 케렉 멕 에지 포하르 비카트.",
+   "ko": "알았어. 황소 한 잔 더 주세요.",
+   "note": "még egy = 하나 더",
+   "tags": [
+    "expr:Jól van"
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "pohár",
+     "pohár",
+     ""
+    ],
+    [
+     "bikát",
+     "bika",
+     ""
+    ]
+   ]
+  }
+ ]
+}

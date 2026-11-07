@@ -1,0 +1,204 @@
+{
+ "id": "r1_life_a3",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "저 몇 살로 보이세요?",
+ "emoji": "🥖",
+ "scene": "빵집. 아주머니께 배운 공손한 인사를 스물두 살 점원에게 그대로 써 본다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Eladó"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "빵 주문하기, 인사는 상대 나이에 맞게",
+ "expressions": [
+  "Csókolom",
+  "Tessék?",
+  "kérek",
+  "Bocsánat"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Csókolom! Egy kenyeret kérek.",
+   "rd": "초콜롬! 에지 케네레트 케렉.",
+   "ko": "안녕하세요! 빵 하나 주세요.",
+   "note": "kenyeret = 빵을(kenyér 의 목적격)",
+   "tags": [
+    "expr:Csókolom",
+    "expr:kérek"
+   ],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "kenyeret",
+     "kenyere",
+     ""
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Tessék? Hogy mondta?",
+   "rd": "테쎅? 호지 몬드터?",
+   "ko": "네? 뭐라고 하셨어요?",
+   "note": "hogy mondta? = 뭐라고 하셨어요?",
+   "tags": [
+    "expr:Tessék?"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Csókolom. Ez nem jó?",
+   "rd": "초콜롬. 에즈 넴 요?",
+   "ko": "「초콜롬」이요. 이 말 틀려요?",
+   "note": "csókolom = 어르신께만 쓰는 인사(글자 뜻: 입 맞춥니다)",
+   "tags": [
+    "expr:Csókolom"
+   ],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Hány évesnek néz engem?",
+   "rd": "하니 에베슈넥 네즈 엔겜?",
+   "ko": "저를 몇 살로 보세요?",
+   "note": "hány éves = 몇 살",
+   "tags": [],
+   "lemmas": [
+    [
+     "évesnek",
+     "éves",
+     "에베슈"
+    ],
+    [
+     "néz",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Hát, nem tudom. Hatvan?",
+   "rd": "하트, 넴 투돔. 허트번?",
+   "ko": "음… 모르겠어요. 예순?",
+   "note": "hatvan = 60",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Huszonkét éves vagyok!",
+   "rd": "후쏜케트 에베시 버죡!",
+   "ko": "저 스물두 살이에요!",
+   "note": "huszonkét = 22",
+   "tags": [],
+   "lemmas": [
+    [
+     "Huszonkét",
+     "huszonkét",
+     ""
+    ],
+    [
+     "éves",
+     "éves",
+     "에베슈"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Jaj, bocsánat! Akkor szia?",
+   "rd": "여이, 보차너트! 어꼬르 씨어?",
+   "ko": "아이고, 죄송해요! 그럼 안녕?",
+   "note": "szia = 안녕(친구끼리)",
+   "tags": [
+    "expr:Bocsánat"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "bocsánat",
+     "bocsánat",
+     "버치너트"
+    ],
+    [
+     "szia",
+     "szia",
+     "씨어"
+    ]
+   ]
+  }
+ ]
+}

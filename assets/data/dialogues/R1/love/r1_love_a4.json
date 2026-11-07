@@ -1,0 +1,206 @@
+{
+ "id": "r1_love_a4",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "음악이 멈춘 순간",
+ "emoji": "🪩",
+ "scene": "시끄러운 클럽. Anna 가 춤을 청하는데 안 들린다. 소리친 순간 음악이 딱 멈춘다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "DJ"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "못 들었을 때 되묻기, 크게 말해 달라고 하기",
+ "expressions": [
+  "Tessék?",
+  "Mi van?",
+  "Légyszi",
+  "Nem baj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia! Táncolsz velem?",
+   "rd": "씨어! 탄촐쓰 벨렘?",
+   "ko": "안녕! 나랑 춤출래?",
+   "note": "velem = 나랑",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Tessék? Nem hallom!",
+   "rd": "테쎅? 넴 헐롬!",
+   "ko": "뭐라고? 안 들려!",
+   "note": "nem hallom = 안 들려",
+   "tags": [
+    "expr:Tessék?"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "hallom",
+     "hall",
+     "헐"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Azt kérdeztem: táncolsz velem?",
+   "rd": "어즈트 케르데즈템: 탄촐쓰 벨렘?",
+   "ko": "물었잖아, 나랑 춤출래?",
+   "note": "azt kérdeztem = 내가 물은 건",
+   "tags": [],
+   "lemmas": [
+    [
+     "kérdeztem",
+     "kérdez",
+     "케르데즈"
+    ],
+    [
+     "táncolsz",
+     "táncol",
+     "탄촐"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Mi van? Hangosabban, légyszi!",
+   "rd": "미 번? 헌고셔번, 레지씨!",
+   "ko": "뭐? 더 크게, 제발!",
+   "note": "hangosabban = 더 크게",
+   "tags": [
+    "expr:Mi van?",
+    "expr:Légyszi"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "TÁNCOLSZ VELEM?!",
+   "rd": "탄촐쓰 벨렘?!",
+   "ko": "나랑 춤출 거냐고?!",
+   "note": "táncolsz = 네가 춤춘다",
+   "tags": [],
+   "lemmas": [
+    [
+     "TÁNCOLSZ",
+     "táncol",
+     "탄촐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Na, táncolsz vele vagy nem?",
+   "rd": "너, 탄촐쓰 벨레 버지 넴?",
+   "ko": "자, 저분이랑 출 거야 말 거야?",
+   "note": "vele = 그 사람이랑",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "táncolsz",
+     "táncol",
+     "탄촐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Jaj, mindenki minket néz.",
+   "rd": "여이, 민덴키 민케트 네즈.",
+   "ko": "아이고, 다들 우리를 봐.",
+   "note": "minket = 우리를",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "néz",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Nem baj. Én csak téged nézlek.",
+   "rd": "넴 버이. 엔 척 테게드 네즐렉.",
+   "ko": "괜찮아. 나는 너만 봐.",
+   "note": "nézlek = 내가 너를 본다",
+   "tags": [
+    "expr:Nem baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "nézlek",
+     "nézlek",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,392 @@
+{
+ "id": "r2_love_b1",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "안개 속 고백",
+ "emoji": "♨️",
+ "scene": "온천 첫 데이트. Anna 가 A 의 안경을 받아 들고 잠깐 자리를 비운다. 김이 자욱해서 앞이 안 보인다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Feri bácsi"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "마음 말하기(Tetszel nekem)와 '~ 없이'(nélkül)",
+ "expressions": [
+  "Nem baj",
+  "Egy pillanat",
+  "Mindjárt",
+  "Figyelj",
+  "Légyszi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Gyere a meleg vízbe! És add ide a szemüveged.",
+   "rd": "제레 어 멜렉 비즈베! 에시 어드 이데 어 쎄뮈베게드.",
+   "ko": "따뜻한 물로 와! 안경은 이리 줘.",
+   "note": "add ide = 이리 줘",
+   "tags": [],
+   "lemmas": [
+    [
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "meleg",
+     "meleg",
+     "멜레그"
+    ],
+    [
+     "vízbe",
+     "víz",
+     "비즈"
+    ],
+    [
+     "add",
+     "ad",
+     "어드"
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ],
+    [
+     "szemüveged",
+     "szemüveg",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó, de szemüveg nélkül semmit nem látok.",
+   "rd": "요, 데 쎄뮈벡 넬퀼 셈미트 넴 라톡.",
+   "ko": "그래, 근데 안경 없으면 아무것도 안 보여.",
+   "note": "nélkül = ~ 없이",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "szemüveg",
+     "szemüveg",
+     ""
+    ],
+    [
+     "látok",
+     "lát",
+     "라트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Nem baj, pont ez a terv. Egy pillanat, mindjárt jövök.",
+   "rd": "넴 버이, 폰트 에즈 어 테르브. 에지 필러너트, 민드야르트 요뵉.",
+   "ko": "괜찮아, 바로 그게 계획이야. 잠깐만, 금방 올게.",
+   "note": "mindjárt = 금방",
+   "tags": [
+    "expr:Nem baj",
+    "expr:Egy pillanat",
+    "expr:Mindjárt"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "pont",
+     "pont",
+     "폰트"
+    ],
+    [
+     "terv",
+     "terv",
+     "테르브"
+    ],
+    [
+     "pillanat",
+     "pillanat",
+     "필러넛"
+    ],
+    [
+     "mindjárt",
+     "mindjárt",
+     "민드야르트"
+    ],
+    [
+     "jövök",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Figyelj, Anna, régóta mondani akarok valamit.",
+   "rd": "피젤이, 언너, 레고터 몬더니 어커록 벌러미트.",
+   "ko": "있잖아 언너, 오래전부터 하고 싶은 말이 있어.",
+   "note": "régóta = 오래전부터",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "régóta",
+     "régóta",
+     "레고터"
+    ],
+    [
+     "mondani",
+     "mond",
+     "몬드"
+    ],
+    [
+     "akarok",
+     "akar",
+     "어커르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Mondjad csak, hallgatlak.",
+   "rd": "몬드여드 척, 헐거틀럭.",
+   "ko": "말해 봐, 듣고 있어.",
+   "note": "hallgatlak = 내가 네 말을 듣고 있다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Mondjad",
+     "mond",
+     "몬드"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "hallgatlak",
+     "hallgat",
+     "헐르거트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Nagyon tetszel nekem. Szép vagy, és jó az illatod.",
+   "rd": "너죤 테트쎌 네켐. 쎄프 버지, 에시 요 어즈 일러토드.",
+   "ko": "네가 정말 좋아. 예쁘고 향기도 좋아.",
+   "note": "tetszel nekem = 네가 내 마음에 들어",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "tetszel",
+     "tetszik",
+     "테트씨크"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "illatod",
+     "illatod",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Köszönöm. A feleségem is ezt mondja.",
+   "rd": "쾨쐬뇜. 어 펠레세겜 이시 에즈트 몬드여.",
+   "ko": "고맙네. 내 아내도 그렇게 말하지.",
+   "note": "feleség = 아내",
+   "tags": [],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "feleségem",
+     "feleség",
+     "펠레시그"
+    ],
+    [
+     "mondja",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Mi van?! Ki maga?",
+   "rd": "미 번?! 키 머거?",
+   "ko": "뭐야?! 누구세요?",
+   "note": "ki maga? = 누구세요?(존대)",
+   "tags": [],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Feri bácsi. A barátaim is hallották, nagyon tetszett nekik.",
+   "rd": "페리 바치. 어 버라터임 이시 헐로딱, 너죤 테트쎄트 네킥.",
+   "ko": "페리 아저씨야. 내 친구들도 들었는데, 아주 좋아하더군.",
+   "note": "hallották = 그들이 그걸 들었다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Feri",
+     "feri",
+     ""
+    ],
+    [
+     "bácsi",
+     "bácsi",
+     ""
+    ],
+    [
+     "barátaim",
+     "barát",
+     "버랏"
+    ],
+    [
+     "hallották",
+     "hallik",
+     "헐릭"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "tetszett",
+     "tetszik",
+     "테트씨크"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Mi történt? Miért tapsol mindenki?",
+   "rd": "미 퇴르텐트? 미에르트 터프숄 민덴키?",
+   "ko": "무슨 일이야? 왜 다들 박수 쳐?",
+   "note": "tapsol = 박수 친다",
+   "tags": [],
+   "lemmas": [
+    [
+     "történt",
+     "történik",
+     "퇴르텐닉"
+    ],
+    [
+     "tapsol",
+     "tapsol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Semmi. Add vissza a szemüvegem, légyszi.",
+   "rd": "셈미. 어드 비써 어 쎄뮈베겜, 레지씨.",
+   "ko": "아무것도 아니야. 안경 돌려줘, 제발.",
+   "note": "add vissza = 돌려줘",
+   "tags": [
+    "expr:Légyszi"
+   ],
+   "lemmas": [
+    [
+     "vissza",
+     "vissza",
+     "비써"
+    ],
+    [
+     "szemüvegem",
+     "szemüveg",
+     ""
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Nem. Előbb mondd el nekem is, amit neki mondtál.",
+   "rd": "넴. 엘뢰브 몬드 엘 네켐 이시, 어미트 네키 몬드탈.",
+   "ko": "싫어. 먼저 저분한테 한 말, 나한테도 해 줘.",
+   "note": "előbb = 먼저",
+   "tags": [],
+   "lemmas": [
+    [
+     "mondd",
+     "mond",
+     "몬드"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  }
+ ]
+}

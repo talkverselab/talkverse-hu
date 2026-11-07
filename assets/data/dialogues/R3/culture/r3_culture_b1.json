@@ -1,0 +1,560 @@
+{
+ "id": "r3_culture_b1",
+ "region": "R3",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "할머니 이름은 István",
+ "emoji": "📦",
+ "scene": "Réka 가 이웃 할머니 소포를 맡겼다. 이름은 성부터 쓴다는 건 안다. 그런데 Istvánné 는 뭘까",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Néni"
+ },
+ "register": "mixed",
+ "twist": 13,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "이름 순서(성 + 이름)와 옛 호칭 -né 이해하기",
+ "expressions": [
+  "Figyelj",
+  "Persze",
+  "Hát",
+  "Csókolom",
+  "Hogyhogy"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, ezt a csomagot vidd el a szomszédba, a harmadik emeletre.",
+   "rd": "피젤이, 에즈트 어 초머고트 비드 엘 어 쏨쎄드버, 어 허르머딕 에멜레트레.",
+   "ko": "들어 봐, 이 소포 3층 이웃집에 좀 갖다 줘.",
+   "note": "vidd el = 가져가",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "csomagot",
+     "csomag",
+     ""
+    ],
+    [
+     "vidd",
+     "visz",
+     "비스"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "szomszédba",
+     "szomszéd",
+     "쏨세드"
+    ],
+    [
+     "emeletre",
+     "emelet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Persze, kinek szól? Itt az áll, hogy Szabó Istvánné.",
+   "rd": "페르쎄, 키넥 쏠? 이트 어즈 알, 호지 써보 이슈트반네.",
+   "ko": "그래. 누구 앞이야? 여기 Szabó Istvánné 라고 돼 있어.",
+   "note": "az áll = 그렇게 쓰여 있다",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "kinek",
+     "ki",
+     "키"
+    ],
+    [
+     "szól",
+     "szól",
+     "쏠"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Igen, ő a néni. Előbb a családnév, aztán a keresztnév, ezt már tudod, ugye?",
+   "rd": "이겐, 외 어 네니. 엘뢰브 어 철라드네브, 어즈탄 어 케레쓰트네브, 에즈트 마르 투도드, 우제?",
+   "ko": "응, 그 할머니야. 먼저 성, 그다음 이름, 이건 알지?",
+   "note": "családnév = 성",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "családnév",
+     "családnév",
+     ""
+    ],
+    [
+     "aztán",
+     "aztán",
+     "어스탄"
+    ],
+    [
+     "keresztnév",
+     "keresztnév",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "tudod",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Tudom, tudom. Szóval Szabó a családnév, és István a néni neve.",
+   "rd": "투돔, 투돔. 쏘벌 써보 어 철라드네브, 에시 이슈트반 어 네니 네베.",
+   "ko": "알아, 알아. 그러니까 Szabó 가 성이고, István 이 할머니 이름이네.",
+   "note": "keresztnév = 이름",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "családnév",
+     "családnév",
+     ""
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "neve",
+     "név",
+     "네브"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Hát... nem egészen, de menj csak, majd meglátod!",
+   "rd": "하트... 넴 에게쎈, 데 멘이 척, 머이드 멕라토드!",
+   "ko": "음… 꼭 그렇진 않아. 일단 가 봐, 보면 알아!",
+   "note": "nem egészen = 꼭 그렇진 않다",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "egészen",
+     "egésze",
+     "에게세"
+    ],
+    [
+     "menj",
+     "megy",
+     "메지"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "majd",
+     "majd",
+     "머이드"
+    ],
+    [
+     "meglátod",
+     "meglát",
+     "메글라트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Csókolom! Szabó István nénit keresem.",
+   "rd": "초콜롬! 써보 이슈트반 네니트 케레셈.",
+   "ko": "안녕하세요! Szabó István 할머니를 찾는데요.",
+   "note": "keresem = 그 사람을 찾는다",
+   "tags": [
+    "expr:Csókolom"
+   ],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "nénit",
+     "néni",
+     ""
+    ],
+    [
+     "keresem",
+     "keres",
+     "케레시"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Kit? István, a férjem, már harminc éve nem lakik itt.",
+   "rd": "키트? 이슈트반, 어 페르옘, 마르 허르민츠 에베 넴 러킥 이트.",
+   "ko": "누구? 내 남편 István 은 30년 전부터 여기 안 살아.",
+   "note": "harminc éve = 30년 전부터",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kit",
+     "ki",
+     "키"
+    ],
+    [
+     "férjem",
+     "férj",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "harminc",
+     "harminc",
+     ""
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "lakik",
+     "lakik",
+     "러키크"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Bocsánat, de a csomagon ez áll: Szabó Istvánné. Ez nem Ön?",
+   "rd": "보차너트, 데 어 초머곤 에즈 알: 써보 이슈트반네. 에즈 넴 왼?",
+   "ko": "죄송한데 소포에 이렇게 써 있어요. Szabó Istvánné. 할머니 아니세요?",
+   "note": "a csomagon = 소포 위에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bocsánat",
+     "bocsánat",
+     "버치너트"
+    ],
+    [
+     "csomagon",
+     "csomag",
+     ""
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Dehogynem! Az annyit tesz: István felesége, így írtuk régen.",
+   "rd": "데호지넴! 어즈 어니트 테쓰: 이슈트반 펠레세게, 이지 이르툭 레겐.",
+   "ko": "맞고말고! 그건 István 의 아내라는 뜻이야. 옛날엔 그렇게 썼지.",
+   "note": "-né = ~의 아내",
+   "tags": [],
+   "lemmas": [
+    [
+     "Dehogynem",
+     "dehogy",
+     "데허고"
+    ],
+    [
+     "tesz",
+     "tesz",
+     "테스"
+    ],
+    [
+     "felesége",
+     "feleség",
+     "펠레시그"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "írtuk",
+     "ír",
+     "이르"
+    ],
+    [
+     "régen",
+     "rég",
+     "레그"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "És az Ön neve? Az igazi neve?",
+   "rd": "에시 어즈 왼 네베? 어즈 이거지 네베?",
+   "ko": "그럼 할머니 성함은요? 진짜 이름이요.",
+   "note": "igazi = 진짜의",
+   "tags": [],
+   "lemmas": [
+    [
+     "neve",
+     "név",
+     "네브"
+    ],
+    [
+     "igazi",
+     "igazi",
+     "이거지"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Margit. Ezt ötven éve nem kérdezte meg senki.",
+   "rd": "머르기트. 에즈트 외트벤 에베 넴 케르데즈테 멕 센키.",
+   "ko": "머르기트. 그걸 50년 동안 아무도 안 물어봤어.",
+   "note": "senki + nem = 아무도 ~않다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Margit",
+     "margit",
+     ""
+    ],
+    [
+     "ötven",
+     "ötven",
+     ""
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "kérdezte",
+     "kérdez",
+     "케르데즈"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Margit néni, akkor ez Önnek szól. A feladó: Kiss Béla.",
+   "rd": "머르기트 네니, 어꼬르 에즈 왼넥 쏠. 어 펠러도: 키시 벨러.",
+   "ko": "머르기트 할머니, 그럼 이거 할머니 거예요. 보낸 분은 Kiss Béla 네요.",
+   "note": "feladó = 보낸 사람",
+   "tags": [],
+   "lemmas": [
+    [
+     "Margit",
+     "margit",
+     ""
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "szól",
+     "szól",
+     "쏠"
+    ],
+    [
+     "feladó",
+     "felad",
+     "펠러드"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "hu": "Jaj, ne szólj Rékának! Béla a barátom, nyolcvankét éves.",
+   "rd": "여이, 네 쏠이 레카넉! 벨러 어 버라톰, 뇰츠번케트 에베시.",
+   "ko": "어머, 레카한테 말하지 마! 벨러는 내 남자친구야, 여든두 살이고.",
+   "note": "ne szólj = 말하지 마",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "szólj",
+     "szól",
+     "쏠"
+    ],
+    [
+     "barátom",
+     "barát",
+     "버랏"
+    ],
+    [
+     "nyolcvankét",
+     "nyolcvan",
+     ""
+    ],
+    [
+     "éves",
+     "éves",
+     "에베슈"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "Na, megvan a néni? Hogyhogy ilyen sokáig tartott?",
+   "rd": "너, 멕번 어 네니? 호지호지 이옌 쇼카익 터르토트?",
+   "ko": "그래, 할머니 찾았어? 왜 이렇게 오래 걸렸어?",
+   "note": "hogyhogy = 어째서",
+   "tags": [
+    "expr:Hogyhogy"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "megvan",
+     "megvan",
+     "메그번"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "tartott",
+     "tart",
+     "터르트"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "hu": "Megvan. De ha megkérdezed, ki az a Béla, én semmit sem tudok.",
+   "rd": "멕번. 데 허 멕케르데제드, 키 어즈 어 벨러, 엔 셈미트 셈 투독.",
+   "ko": "찾았어. 근데 Béla 가 누구냐고 물어보면, 난 아무것도 몰라.",
+   "note": "semmit sem = 아무것도 ~않다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Megvan",
+     "megvan",
+     "메그번"
+    ],
+    [
+     "megkérdezed",
+     "megkérdez",
+     "메그케르데즈"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "tudok",
+     "tud",
+     "투드"
+    ]
+   ]
+  }
+ ]
+}

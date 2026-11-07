@@ -1,0 +1,248 @@
+{
+ "id": "r1_culture_b2",
+ "region": "R1",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "혼자 친 박수",
+ "emoji": "🎻",
+ "scene": "클래식 콘서트. 음악이 멈춘 줄 알고 A 가 손을 든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "말리는 표현(ne + 명령형)과 szerintem",
+ "expressions": [
+  "Szerintem",
+  "Várj",
+  "Úristen"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Ez nagyon szép. Vége van?",
+   "rd": "에즈 너죤 쎄프. 베게 번?",
+   "ko": "이거 너무 좋다. 끝났어?",
+   "note": "vége van = 끝났다",
+   "tags": [],
+   "lemmas": [
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Nem tudom. Szerintem még nincs vége.",
+   "rd": "넴 투돔. 쎄린템 멕 닌치 베게.",
+   "ko": "몰라. 내 생각엔 아직 안 끝났어.",
+   "note": "szerintem = 내 생각엔",
+   "tags": [
+    "expr:Szerintem"
+   ],
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "vége",
+     "vég",
+     "베그"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Csend van. Akkor most tapsolok!",
+   "rd": "첸드 번. 어꼬르 모슈트 터프숄록!",
+   "ko": "조용하네. 그럼 이제 박수 친다!",
+   "note": "taps = 박수, tapsolok = 박수 친다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csend",
+     "csen",
+     "첸"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "tapsolok",
+     "tapsol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Ne! Várj, {name}, ne tapsolj!",
+   "rd": "네! 바르이, {name}, 네 터프숄이!",
+   "ko": "안 돼! 잠깐, {name}, 박수 치지 마!",
+   "note": "ne tapsolj = 박수 치지 마",
+   "tags": [
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "tapsolj",
+     "tapsolj",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Jaj. Mindenki engem néz.",
+   "rd": "여이. 민덴키 엔겜 네즈.",
+   "ko": "아이고. 다들 나만 봐.",
+   "note": "engem = 나를",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "néz",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Várj... most mindenki tapsol!",
+   "rd": "바르이... 모슈트 민덴키 터프숄!",
+   "ko": "잠깐… 이제 다 박수 쳐!",
+   "note": "mindenki = 모두(동사는 단수)",
+   "tags": [
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "tapsol",
+     "tapsol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "A karmester is meghajol. Mi van?",
+   "rd": "어 커르메슈테르 이시 멕허욜. 미 번?",
+   "ko": "지휘자도 인사하네. 뭐야?",
+   "note": "karmester = 지휘자",
+   "tags": [],
+   "lemmas": [
+    [
+     "karmester",
+     "karmester",
+     ""
+    ],
+    [
+     "meghajol",
+     "meghajol",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Úristen, hazamegy! Ennyi volt a koncert.",
+   "rd": "우리슈텐, 허저메지! 에니 볼트 어 콘체르트.",
+   "ko": "세상에, 집에 간다! 콘서트 이걸로 끝이야.",
+   "note": "ennyi volt = 이게 다였다",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "hazamegy",
+     "hazamegy",
+     "허저메지"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "koncert",
+     "koncert",
+     ""
+    ]
+   ]
+  }
+ ]
+}

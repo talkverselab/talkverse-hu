@@ -1,0 +1,244 @@
+{
+ "id": "r1_life_c2",
+ "region": "R1",
+ "island": "life",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "건물 단톡방",
+ "emoji": "🏢",
+ "scene": "Dávid 에게 보낸 줄 알았는데, 아주머니가 있는 건물 전체 단톡방이었다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid",
+  "C": "Marika néni",
+  "D": "Feri bácsi"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "짧은 명령·경고 문자(Ne nyisd ki!)",
+ "expressions": [
+  "Figyelj",
+  "Jaj",
+  "Szép volt"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Figyelj, jön a néni!",
+   "rd": "피젤이, 욘 어 네니!",
+   "ko": "야, 아주머니 온다!",
+   "note": "figyelj = 야, 들어 봐",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "at": "19:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Ne nyisd ki az ajtót!",
+   "rd": "네 니슈드 키 어즈 어이토트!",
+   "ko": "문 열지 마!",
+   "note": "ne nyisd ki = 열지 마",
+   "tags": [],
+   "at": "19:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "nyisd",
+     "nyit",
+     "니트"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "ajtót",
+     "ajtó",
+     "어이토"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Megint leves!",
+   "rd": "메긴트 레베시!",
+   "ko": "또 국이야!",
+   "note": "megint = 또",
+   "tags": [],
+   "at": "19:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Megint",
+     "megint",
+     "메긴트"
+    ],
+    [
+     "leves",
+     "leves",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Kivel beszélsz?",
+   "rd": "키벨 베쎌쓰?",
+   "ko": "누구랑 얘기하니?",
+   "note": "kivel = 누구와",
+   "tags": [],
+   "at": "19:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kivel",
+     "ki",
+     "키"
+    ],
+    [
+     "beszélsz",
+     "beszél",
+     "베쎌"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Jaj... ez a ház csoportja?!",
+   "rd": "여이... 에즈 어 하즈 초포르트여?!",
+   "ko": "어머… 여기 건물 단톡방이에요?!",
+   "note": "csoport = 그룹",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "at": "19:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "ház",
+     "ház",
+     "하즈"
+    ],
+    [
+     "csoportja",
+     "csoport",
+     "초포르트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "D",
+   "hu": "Igen. Én is kérek levest!",
+   "rd": "이겐. 엔 이시 케렉 레베슈트!",
+   "ko": "응. 나도 국 줘!",
+   "note": "én is = 나도",
+   "tags": [],
+   "at": "19:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ],
+    [
+     "levest",
+     "leves",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Szép volt. 👏",
+   "rd": "쎄프 볼트. 👏",
+   "ko": "잘했다. 👏",
+   "note": "szép volt = 잘했다(비꼬는 말로도)",
+   "tags": [
+    "expr:Szép volt"
+   ],
+   "at": "19:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Holnap mindenkinek. Tíz liter.",
+   "rd": "홀너프 민덴키넥. 티즈 리테르.",
+   "ko": "내일 전부 다 준다. 10리터.",
+   "note": "mindenkinek = 모두에게",
+   "tags": [],
+   "at": "19:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "liter",
+     "liter",
+     ""
+    ]
+   ]
+  }
+ ]
+}

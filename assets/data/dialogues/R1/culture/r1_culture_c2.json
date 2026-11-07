@@ -1,0 +1,225 @@
+{
+ "id": "r1_culture_c2",
+ "region": "R1",
+ "island": "culture",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "예쁜 감자, 또",
+ "emoji": "🥔",
+ "scene": "Anna 가 새 그림을 올렸다. 댓글 창이 시끄러워진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Réka",
+  "D": "Réka anyukája"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "댓글에 쓰는 짧은 칭찬과 사과",
+ "expressions": [
+  "Hű",
+  "Bocsi",
+  "Mi van"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Új rajzom! 🎨",
+   "rd": "우이 러이좀! 🎨",
+   "ko": "새 그림! 🎨",
+   "note": "rajz = 그림",
+   "tags": [],
+   "at": "19:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Új",
+     "új",
+     "우이"
+    ],
+    [
+     "rajzom",
+     "rajzom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hű! Szép krumpli! 😄",
+   "rd": "휘! 쎄프 크룸플리! 😄",
+   "ko": "와! 예쁜 감자! 😄",
+   "note": "krumpli = 감자",
+   "tags": [
+    "expr:Hű"
+   ],
+   "at": "19:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Krumpli?!",
+   "rd": "크룸플리?!",
+   "ko": "감자?!",
+   "note": "?! = 황당할 때",
+   "tags": [],
+   "at": "19:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Krumpli",
+     "krumpli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Jaj. {name}, ez Réka.",
+   "rd": "여이. {name}, 에즈 레커.",
+   "ko": "아이고. {name}, 이거 레카야.",
+   "note": "ez = 이것, 이 사람",
+   "tags": [],
+   "at": "19:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Bocsi! Szép Réka!",
+   "rd": "보치! 쎄프 레커!",
+   "ko": "미안! 예쁜 레카!",
+   "note": "bocsi = 미안",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "19:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "D",
+   "hu": "Réka, mi van az arcoddal?",
+   "rd": "레커, 미 번 어즈 어르초덜?",
+   "ko": "레카, 얼굴이 왜 그러니?",
+   "note": "mi van …-val? = ~가 왜 그래?",
+   "tags": [
+    "expr:Mi van"
+   ],
+   "at": "19:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "arcoddal",
+     "arcod",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Anyu! Ne írj ide!",
+   "rd": "어뉴! 네 이르이 이데!",
+   "ko": "엄마! 여기 쓰지 마!",
+   "note": "ne írj = 쓰지 마",
+   "tags": [],
+   "at": "19:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Anyu",
+     "anyu",
+     "어뉴"
+    ],
+    [
+     "írj",
+     "írj",
+     ""
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "hu": "Szerintem szép krumpli vagy, kicsim.",
+   "rd": "쎄린템 쎄프 크룸플리 버지, 키침.",
+   "ko": "엄마 생각엔 넌 예쁜 감자야, 아가.",
+   "note": "kicsim = 우리 아가",
+   "tags": [],
+   "at": "19:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ],
+    [
+     "kicsim",
+     "kicsi",
+     "키치"
+    ]
+   ]
+  }
+ ]
+}

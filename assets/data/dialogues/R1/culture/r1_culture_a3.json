@@ -1,0 +1,231 @@
+{
+ "id": "r1_culture_a3",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "그 배우의 목소리",
+ "emoji": "🎬",
+ "scene": "Réka 네 소파에서 외국 영화를 본다. 배우가 헝가리어를 너무 잘한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "놀라서 되묻기(Tényleg? Hogyhogy?)",
+ "expressions": [
+  "Tényleg?",
+  "Persze",
+  "Hogyhogy?"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Hű, ez a színész jól beszél magyarul!",
+   "rd": "휘, 에즈 어 씨네쓰 욜 베쎌 머져룰!",
+   "ko": "와, 이 배우 헝가리어 잘한다!",
+   "note": "színész = 배우",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "színész",
+     "színész",
+     ""
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "beszél",
+     "beszél",
+     "베쎌"
+    ],
+    [
+     "magyarul",
+     "magyar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Mi? Ez szinkron.",
+   "rd": "미? 에즈 씬크론.",
+   "ko": "뭐? 이거 더빙이야.",
+   "note": "szinkron = 더빙",
+   "tags": [],
+   "lemmas": [
+    [
+     "szinkron",
+     "szinkron",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Szinkron? Tényleg?",
+   "rd": "씬크론? 테닐렉?",
+   "ko": "더빙? 진짜?",
+   "note": "tényleg? = 진짜?",
+   "tags": [
+    "expr:Tényleg?"
+   ],
+   "lemmas": [
+    [
+     "Szinkron",
+     "szinkron",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Persze. Itt minden film szinkronos.",
+   "rd": "페르쎄. 이트 민덴 필므 씬크로노시.",
+   "ko": "당연하지. 여기선 영화가 다 더빙이야.",
+   "note": "persze = 당연하지",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "film",
+     "film",
+     "필름"
+    ],
+    [
+     "szinkronos",
+     "szinkron",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "De jó hangja van!",
+   "rd": "데 요 헌그여 번!",
+   "ko": "목소리 진짜 좋다!",
+   "note": "hang = 목소리",
+   "tags": [],
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "hangja",
+     "hang",
+     "헝"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Tudom. Minden este hallom.",
+   "rd": "투돔. 민덴 에슈테 헐롬.",
+   "ko": "알아. 매일 저녁 들어.",
+   "note": "hallom = 내가 그걸 듣는다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "hallom",
+     "hall",
+     "헐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Minden este? Hogyhogy?",
+   "rd": "민덴 에슈테? 호지호지?",
+   "ko": "매일 저녁? 어째서?",
+   "note": "hogyhogy? = 어째서?",
+   "tags": [
+    "expr:Hogyhogy?"
+   ],
+   "lemmas": [
+    [
+     "este",
+     "este",
+     "에슈테"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Az apám. Otthon így kéri a sót.",
+   "rd": "어즈 어팜. 오트혼 이지 케리 어 쇼트.",
+   "ko": "우리 아빠야. 집에서도 저 목소리로 소금 달래.",
+   "note": "só = 소금, sót = 소금을",
+   "tags": [],
+   "lemmas": [
+    [
+     "apám",
+     "apám",
+     "어팜"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "kéri",
+     "kér",
+     "께르"
+    ],
+    [
+     "sót",
+     "só",
+     ""
+    ]
+   ]
+  }
+ ]
+}

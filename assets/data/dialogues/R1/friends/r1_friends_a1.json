@@ -1,0 +1,233 @@
+{
+ "id": "r1_friends_a1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "너도 잘하네!",
+ "emoji": "🚲",
+ "scene": "자전거에 부딪힐 뻔한 Réka 와 처음 말을 튼다. 칭찬을 받아 기뻐서 그대로 돌려줬는데…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "자기소개(… vagyok)와 칭찬 주고받기",
+ "expressions": [
+  "Bocsi",
+  "Jól vagy?",
+  "Köszi",
+  "Hát"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Bocsi! Jól vagy?",
+   "rd": "보치! 욜 버지?",
+   "ko": "미안! 괜찮아?",
+   "note": "bocsi = 미안(가벼운 말)",
+   "tags": [
+    "expr:Bocsi",
+    "expr:Jól vagy?"
+   ],
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Igen, jól vagyok. Ez a te biciklid?",
+   "rd": "이겐, 욜 버죡. 에즈 어 테 비칙리드?",
+   "ko": "응, 괜찮아. 이거 네 자전거야?",
+   "note": "jól vagyok = 괜찮아",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "biciklid",
+     "biciklid",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Réka vagyok. És te?",
+   "rd": "레커 버죡. 에시 테?",
+   "ko": "나는 레카야. 너는?",
+   "note": "és te? = 너는?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "{name} vagyok. Magyarul tanulok.",
+   "rd": "{name} 버죡. 머져룰 터눌록.",
+   "ko": "나는 {name}. 헝가리어 배워.",
+   "note": "magyarul = 헝가리어로",
+   "tags": [],
+   "lemmas": [
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "tanulok",
+     "tanul",
+     "타눌"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Hű, de jól beszélsz!",
+   "rd": "휘, 데 욜 베쎌쓰!",
+   "ko": "와, 말 진짜 잘한다!",
+   "note": "de + 형용사/부사 = 정말 ~하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "beszélsz",
+     "beszél",
+     "베쎌"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Köszi! Te is jól beszélsz magyarul!",
+   "rd": "쾨씨! 테 이시 욜 베쎌쓰 머져룰!",
+   "ko": "고마워! 너도 헝가리어 잘하네!",
+   "note": "köszi = 고마워(köszönöm 의 줄임)",
+   "tags": [
+    "expr:Köszi"
+   ],
+   "lemmas": [
+    [
+     "Köszi",
+     "köszi",
+     "쾨씨"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "beszélsz",
+     "beszél",
+     "베쎌"
+    ],
+    [
+     "magyarul",
+     "magyar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Hát... én magyar vagyok.",
+   "rd": "하트... 엔 머져르 버죡.",
+   "ko": "음… 나 헝가리 사람인데.",
+   "note": "hát = 음, 글쎄(말 꺼낼 때)",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj. Ja, persze.",
+   "rd": "여이. 여, 페르쎄.",
+   "ko": "아이고. 아, 그렇지.",
+   "note": "persze = 물론, 그렇지",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "persze",
+     "persze",
+     "페르쎄"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "id": "r1_love_c2",
+ "region": "R1",
+ "island": "love",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "나 언너인데",
+ "emoji": "📲",
+ "scene": "Réka 에게 보낸 줄 알았던 메시지가 Anna 에게 갔다. 그리고 또 갔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "도움 청하기(Segíts!)와 채팅에서 놀랄 때",
+ "expressions": [
+  "Úristen",
+  "Segíts",
+  "Ne már"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Réka, Anna nagyon cuki!",
+   "rd": "레커, 언너 너죤 추키!",
+   "ko": "레카, 언너 너무 귀여워!",
+   "note": "cuki = 귀여운",
+   "tags": [],
+   "at": "20:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "cuki",
+     "cuki",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Mit írjak neki?",
+   "rd": "미트 이르역 네키?",
+   "ko": "뭐라고 쓰지?",
+   "note": "írjak = 내가 쓸까",
+   "tags": [],
+   "at": "20:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "írjak",
+     "írja",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Szia. Anna vagyok. 😄",
+   "rd": "씨어. 언너 버죡. 😄",
+   "ko": "안녕. 나 언너인데. 😄",
+   "note": "… vagyok = 나는 …야",
+   "tags": [],
+   "at": "20:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Úristen. Rossz chat!",
+   "rd": "우리슈텐. 로쓰 츠허트!",
+   "ko": "세상에. 방을 잘못 왔어!",
+   "note": "rossz = 잘못된",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "at": "20:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "chat",
+     "chat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Réka, segíts! Mit mondjak?",
+   "rd": "레커, 세기트시! 미트 몬드역?",
+   "ko": "레카, 도와줘! 뭐라고 하지?",
+   "note": "segíts = 도와줘",
+   "tags": [
+    "expr:Segíts"
+   ],
+   "at": "20:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "segíts",
+     "segít",
+     "셰기트"
+    ],
+    [
+     "mondjak",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Még mindig én vagyok.",
+   "rd": "멕 민딕 엔 버죡.",
+   "ko": "아직도 나야.",
+   "note": "még mindig = 아직도",
+   "tags": [],
+   "at": "20:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Még",
+     "még",
+     "메그"
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Jó. Elköltözöm.",
+   "rd": "요. 엘쾰퇴죔.",
+   "ko": "알았어. 나 이사 갈게.",
+   "note": "elköltözöm = 이사 간다",
+   "tags": [],
+   "at": "20:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Ne már! Holnap is cuki leszek.",
+   "rd": "네 마르! 홀너프 이시 추키 레쎅.",
+   "ko": "에이 왜 그래! 내일도 귀여울게.",
+   "note": "ne már = 에이, 그러지 마",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "at": "20:15",
+   "stamp": "😇",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "cuki",
+     "cuki",
+     ""
+    ],
+    [
+     "leszek",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  }
+ ]
+}

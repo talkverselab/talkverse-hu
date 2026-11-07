@@ -1,0 +1,447 @@
+{
+ "id": "r2_life_b4",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "계단의 옷장",
+ "emoji": "🚪",
+ "scene": "벼룩시장에서 산 옷장을 둘이서 계단으로 올리다가 2층과 3층 사이에 끼었다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid",
+  "C": "Marika néni"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "함께 일할 때 쓰는 말(Told! Várj! Hogyhogy?)",
+ "expressions": [
+  "Figyelj",
+  "Hogyhogy",
+  "Mindjárt",
+  "Ne már",
+  "Semmi baj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, vettem egy szekrényt a bolhapiacon. Olcsó volt!",
+   "rd": "피젤이, 베뗌 에지 쎅레니트 어 볼허피어촌. 올초 볼트!",
+   "ko": "야, 벼룩시장에서 옷장 샀어. 쌌어!",
+   "note": "bolhapiac = 벼룩시장",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "vettem",
+     "vett",
+     "벳트"
+    ],
+    [
+     "szekrényt",
+     "szekrény",
+     ""
+    ],
+    [
+     "bolhapiacon",
+     "bolhapiac",
+     ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hű, de nagy! Biztos, hogy befér?",
+   "rd": "휘, 데 너지! 비즈토시, 호지 베페르?",
+   "ko": "와, 엄청 크다! 확실히 들어가?",
+   "note": "befér = 안에 들어간다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "befér",
+     "befér",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Persze, gyerünk! Te alulról fogod, én felülről.",
+   "rd": "페르쎄, 제륀크! 테 얼룰롤 포고드, 엔 펠륄뢸.",
+   "ko": "당연하지, 가자! 넌 아래서 잡아, 난 위에서.",
+   "note": "gyerünk = 가자",
+   "tags": [],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "gyerünk",
+     "gyerünk",
+     "계루네시"
+    ],
+    [
+     "alulról",
+     "alulról",
+     ""
+    ],
+    [
+     "fogod",
+     "fog",
+     "포그"
+    ],
+    [
+     "felülről",
+     "felülről",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Várj, várj! Megállt, nem megy tovább!",
+   "rd": "바르이, 바르이! 메갈트, 넴 메지 토바브!",
+   "ko": "잠깐, 잠깐! 멈췄어, 더 안 올라가!",
+   "note": "tovább = 더, 계속",
+   "tags": [],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ],
+    [
+     "tovább",
+     "tovább",
+     "토밥"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Hogyhogy nem megy? Told még egy kicsit!",
+   "rd": "호지호지 넴 메지? 톨드 멕 에지 키치트!",
+   "ko": "왜 안 가? 조금만 더 밀어!",
+   "note": "told = 그걸 밀어",
+   "tags": [
+    "expr:Hogyhogy"
+   ],
+   "lemmas": [
+    [
+     "Hogyhogy",
+     "hogyhogy",
+     ""
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Tolom! De most már visszafelé sem megy.",
+   "rd": "톨롬! 데 모슈트 마르 비써펠레 셈 메지.",
+   "ko": "밀고 있어! 근데 이제 뒤로도 안 가.",
+   "note": "visszafelé = 뒤로",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tolom",
+     "tol",
+     ""
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "visszafelé",
+     "visszafelé",
+     ""
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Gyerekek, én hogy megyek le a boltba?",
+   "rd": "제레켁, 엔 호지 메젝 레 어 볼트버?",
+   "ko": "얘들아, 나는 가게에 어떻게 내려가니?",
+   "note": "hogy megyek le? = 어떻게 내려가지?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Gyerekek",
+     "gyereke",
+     ""
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "boltba",
+     "bolt",
+     "볼트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Jaj, Marika néni! Mindjárt megoldjuk!",
+   "rd": "여이, 머리커 네니! 민드야르트 메골드육!",
+   "ko": "아이고, 아주머니! 금방 해결할게요!",
+   "note": "mindjárt = 금방",
+   "tags": [
+    "expr:Mindjárt"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "megoldjuk",
+     "megold",
+     "메그올드"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Dávid, az egész ház itt áll. Feri bácsi hívta a tűzoltókat.",
+   "rd": "다비드, 어즈 에게쓰 하즈 이트 알. 페리 바치 히브터 어 튀졸토커트.",
+   "ko": "다비드, 건물 사람들 다 나왔어. 페리 아저씨가 소방관 불렀어.",
+   "note": "tűzoltó = 소방관",
+   "tags": [],
+   "lemmas": [
+    [
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "ház",
+     "ház",
+     "하즈"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ],
+    [
+     "bácsi",
+     "bácsi",
+     ""
+    ],
+    [
+     "hívta",
+     "hív",
+     "히브"
+    ],
+    [
+     "tűzoltókat",
+     "tűzoltó",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Tűzoltókat?! Ne már, ez csak egy szekrény!",
+   "rd": "튀졸토커트?! 네 마르, 에즈 척 에지 쎅레니!",
+   "ko": "소방관?! 아 좀, 이거 그냥 옷장이야!",
+   "note": "csak = 그냥",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "lemmas": [
+    [
+     "Tűzoltókat",
+     "tűzoltó",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "szekrény",
+     "szekrény",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Semmi baj, gyerekek. Tessék, átadom a levest a szekrény fölött.",
+   "rd": "셈미 버이, 제레켁. 테쎅, 아터돔 어 레베슈트 어 쎅레니 푈뢰트.",
+   "ko": "괜찮다, 얘들아. 자, 옷장 위로 국 건네 줄게.",
+   "note": "fölött = 위로",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "gyerekek",
+     "gyereke",
+     ""
+    ],
+    [
+     "átadom",
+     "átad",
+     ""
+    ],
+    [
+     "levest",
+     "leves",
+     ""
+    ],
+    [
+     "szekrény",
+     "szekrény",
+     ""
+    ],
+    [
+     "fölött",
+     "fölött",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Dávid... a tűzoltók is levest kérnek.",
+   "rd": "다비드... 어 튀졸톡 이시 레베슈트 케르넥.",
+   "ko": "다비드… 소방관들도 국 달래.",
+   "note": "kérnek = 그들이 달라고 한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "tűzoltók",
+     "tűzoltó",
+     ""
+    ],
+    [
+     "levest",
+     "leves",
+     ""
+    ],
+    [
+     "kérnek",
+     "kér",
+     "께르"
+    ]
+   ]
+  }
+ ]
+}

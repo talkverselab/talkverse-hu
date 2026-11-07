@@ -1,0 +1,560 @@
+{
+ "id": "r3_friends_b2",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "media"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "소파 속 편지",
+ "emoji": "💌",
+ "scene": "계단에서 고생한 그 소파 쿠션 틈에서 옛날 편지가 나왔다. 그때 그 할머니가 다시 찾아온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Néni"
+ },
+ "register": "mixed",
+ "twist": 13,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "옛일 말하기(과거형)와 어른께 쓰는 말(üljön le)",
+ "expressions": [
+  "nézd",
+  "Hű",
+  "Elnézést",
+  "Csókolom",
+  "Tessék",
+  "Sajnos"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Réka, nézd, mit találtam a kanapéban! Egy régi levél.",
+   "rd": "레커, 네즈드, 미트 털랄텀 어 커너페번! 에지 레기 레벨.",
+   "ko": "레카, 봐, 소파에서 뭐 찾았게! 옛날 편지야.",
+   "note": "levél = 편지",
+   "tags": [
+    "expr:nézd"
+   ],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "találtam",
+     "talált",
+     ""
+    ],
+    [
+     "kanapéban",
+     "kanapé",
+     ""
+    ],
+    [
+     "régi",
+     "régi",
+     "레기"
+    ],
+    [
+     "levél",
+     "levél",
+     "레벨"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Pénz van benne? Mert ha igen, a fele az enyém.",
+   "rd": "펜즈 번 벤네? 메르트 허 이겐, 어 펠레 어즈 에넴.",
+   "ko": "안에 돈 있어? 있으면 반은 내 거야.",
+   "note": "a fele = 그 절반",
+   "tags": [],
+   "lemmas": [
+    [
+     "Pénz",
+     "pénz",
+     "펜즈"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "fele",
+     "fel",
+     "펠"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Nincs pénz. „Drága Ilonka, szombaton várlak a hídnál.”",
+   "rd": "닌치 펜즈. „드라거 일론커, 쏨버톤 바를럭 어 히드날.”",
+   "ko": "돈은 없어. 「사랑하는 일론커, 토요일에 다리에서 기다릴게.」",
+   "note": "várlak = 내가 널 기다린다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "pénz",
+     "pénz",
+     "펜즈"
+    ],
+    [
+     "szombaton",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "várlak",
+     "várlak",
+     ""
+    ],
+    [
+     "hídnál",
+     "híd",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Hű, mikori ez? Nézd meg a dátumot!",
+   "rd": "휘, 미코리 에즈? 네즈드 멕 어 다투모트!",
+   "ko": "와, 언제 거야? 날짜 봐 봐!",
+   "note": "mikori = 언제 적",
+   "tags": [
+    "expr:nézd",
+    "expr:Hű"
+   ],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "mikori",
+     "mikori",
+     ""
+    ],
+    [
+     "dátumot",
+     "dátum",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Ezerkilencszázhatvannyolc. Ez a szó hosszabb, mint a levél.",
+   "rd": "에제르킬렌치자즈허트버뇰츠. 에즈 어 쏘 호써브, 민트 어 레벨.",
+   "ko": "천구백육십팔. 이 낱말이 편지보다 길어.",
+   "note": "hosszabb = 더 긴",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ezerkilencszázhatvannyolc",
+     "ezerkilencszázhatvannyolc",
+     ""
+    ],
+    [
+     "szó",
+     "szó",
+     "쏘"
+    ],
+    [
+     "hosszabb",
+     "hosszú",
+     "호쑤"
+    ],
+    [
+     "levél",
+     "levél",
+     "레벨"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "És mi lett? Eljött Ilonka a hídhoz, vagy nem?",
+   "rd": "에시 미 레트? 엘요트 일론커 어 히드호즈, 버지 넴?",
+   "ko": "그래서 어떻게 됐어? 일론커가 다리에 왔어, 안 왔어?",
+   "note": "mi lett? = 어떻게 됐어?",
+   "tags": [],
+   "lemmas": [
+    [
+     "lett",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "hídhoz",
+     "híd",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Honnan tudnám? A kanapét te vetted, kitől volt?",
+   "rd": "혼넌 투드남? 어 커너페트 테 베떼드, 키퇼 볼트?",
+   "ko": "내가 어떻게 알아? 소파는 네가 샀잖아, 누구 거였어?",
+   "note": "honnan tudnám = 내가 어떻게 알겠어",
+   "tags": [],
+   "lemmas": [
+    [
+     "Honnan",
+     "honnan",
+     "혼넌"
+    ],
+    [
+     "tudnám",
+     "tud",
+     "투드"
+    ],
+    [
+     "kanapét",
+     "kanapé",
+     ""
+    ],
+    [
+     "vetted",
+     "vesz",
+     "베쓰"
+    ],
+    [
+     "kitől",
+     "ki",
+     "키"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Egy bácsitól a piacon. Már nem tudjuk meg, sajnos.",
+   "rd": "에지 바치톨 어 피어촌. 마르 넴 투드육 멕, 셔이노시.",
+   "ko": "시장에서 어떤 할아버지한테. 이젠 못 알아내지, 아쉽게도.",
+   "note": "sajnos = 아쉽게도",
+   "tags": [
+    "expr:Sajnos"
+   ],
+   "lemmas": [
+    [
+     "bácsitól",
+     "bácsi",
+     ""
+    ],
+    [
+     "piacon",
+     "piac",
+     ""
+    ],
+    [
+     "tudjuk",
+     "tud",
+     "투드"
+    ],
+    [
+     "sajnos",
+     "sajnos",
+     "셔이노시"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Elnézést, ott van még a kanapé? Olyan jól ültem rajta.",
+   "rd": "엘네제슈트, 오트 번 멕 어 커너페? 오연 욜 윌템 러이터.",
+   "ko": "실례해요, 그 소파 아직 있나요? 앉기 참 좋았는데.",
+   "note": "rajta = 그 위에",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "kanapé",
+     "kanapé",
+     ""
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "ültem",
+     "ül",
+     "위일"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Csókolom! Tessék, üljön le, ezt most találtuk benne.",
+   "rd": "초콜롬! 테쎅, 윌욘 레, 에즈트 모슈트 털랄툭 벤네.",
+   "ko": "안녕하세요! 여기 앉으세요, 방금 이걸 안에서 찾았어요.",
+   "note": "benne = 그 안에",
+   "tags": [
+    "expr:Csókolom",
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "üljön",
+     "ül",
+     "위일"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "találtuk",
+     "talál",
+     "털랄"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Várjanak... ez Pista írása.",
+   "rd": "바르여넉... 에즈 피슈터 이라셔.",
+   "ko": "잠깐만요… 이건 피슈터 글씨인데.",
+   "note": "írás = 글씨",
+   "tags": [],
+   "lemmas": [
+    [
+     "Várjanak",
+     "vár",
+     "바르"
+    ],
+    [
+     "írása",
+     "írása",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Ismeri Pistát? És ki az az Ilonka?",
+   "rd": "이슈메리 피슈타트? 에시 키 어즈 어즈 일론커?",
+   "ko": "피슈터를 아세요? 그럼 일론커는 누구예요?",
+   "note": "ismeri = 아세요(존댓말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ismeri",
+     "ismer",
+     "이슈메르"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "hu": "Én vagyok Ilonka. Pista a férjem.",
+   "rd": "엔 버죡 일론커. 피슈터 어 페르옘.",
+   "ko": "내가 일론커예요. 피슈터는 내 남편이고.",
+   "note": "férj = 남편",
+   "tags": [],
+   "lemmas": [
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "férjem",
+     "férj",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Úristen! És elment a hídhoz?",
+   "rd": "우리슈텐! 에시 엘멘트 어 히드호즈?",
+   "ko": "세상에! 그래서 다리에 가셨어요?",
+   "note": "elment = 갔다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "elment",
+     "elmegy",
+     "엘메지"
+    ],
+    [
+     "hídhoz",
+     "híd",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "hu": "Nem kaptam meg. Hatvan éve mondja, hogy írt, és nem hittem neki.",
+   "rd": "넴 커프텀 멕. 허트번 에베 몬드여, 호지 이르트, 에시 넴 히뗌 네키.",
+   "ko": "못 받았어요. 60년째 썼다고 하는데, 안 믿었어요.",
+   "note": "hatvan éve = 60년째",
+   "tags": [],
+   "lemmas": [
+    [
+     "kaptam",
+     "kap",
+     "커프"
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "mondja",
+     "mond",
+     "몬드"
+    ],
+    [
+     "írt",
+     "ír",
+     "이르"
+    ],
+    [
+     "hittem",
+     "hitt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "hu": "Jaj, most bocsánatot kell kérnem tőle. De csak holnap!",
+   "rd": "여이, 모슈트 보차너토트 켈 케르넴 퇼레. 데 척 홀너프!",
+   "ko": "아이고, 이제 사과해야겠네. 근데 내일 할래요!",
+   "note": "bocsánatot kér = 사과하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "bocsánatot",
+     "bocsánat",
+     "버치너트"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "kérnem",
+     "kér",
+     "께르"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ]
+   ]
+  }
+ ]
+}

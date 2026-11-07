@@ -1,0 +1,492 @@
+{
+ "id": "r3_travel_b4",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "돌려줘야 하는데",
+ "emoji": "❄️",
+ "scene": "1월 밤 야외 온천. 머리카락이 어는 추위 속에서 드디어 목도리를 돌려받는 날",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zsófi"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "조건 말하기(ha …)와 마음을 돌려 말하기",
+ "expressions": [
+  "Na végre",
+  "Bocsi",
+  "Szóval",
+  "Jaj",
+  "Tudod",
+  "Hát"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Na végre, már azt hittem, nem jössz! A hajam megfagyott.",
+   "rd": "너 벡레, 마르 어즈트 히뗌, 넴 요쓰! 어 허염 멕퍼죠트.",
+   "ko": "드디어, 안 오는 줄 알았어! 머리카락이 얼었어.",
+   "note": "megfagyott = 얼었다",
+   "tags": [
+    "expr:Na végre"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "végre",
+     "vég",
+     "베그"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "hittem",
+     "hitt",
+     ""
+    ],
+    [
+     "jössz",
+     "jön",
+     "왼"
+    ],
+    [
+     "hajam",
+     "hajam",
+     ""
+    ],
+    [
+     "megfagyott",
+     "megfagy",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Bocsi, a villamos megint késett. Hű, kint mínusz öt, a víz meg forró!",
+   "rd": "보치, 어 빌러모시 메긴트 케세트. 휘, 킨트 미누쓰 외트, 어 비즈 멕 포로!",
+   "ko": "미안, 트램이 또 늦었어. 와, 밖은 영하 5도인데 물은 뜨겁네!",
+   "note": "forró = 뜨거운",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "villamos",
+     "villamos",
+     ""
+    ],
+    [
+     "megint",
+     "megint",
+     "메긴트"
+    ],
+    [
+     "késett",
+     "késik",
+     "케시크"
+    ],
+    [
+     "kint",
+     "kint",
+     "킨트"
+    ],
+    [
+     "mínusz",
+     "mínusz",
+     ""
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ],
+    [
+     "forró",
+     "forr",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Ez a tél legjobb része. Csak az arcod fázik, a többi nem.",
+   "rd": "에즈 어 텔 렉요브 레쎄. 척 어즈 어르초드 파직, 어 퇴비 넴.",
+   "ko": "이게 겨울의 제일 좋은 점이야. 얼굴만 춥고, 나머지는 안 추워.",
+   "note": "fázik = 춥다(사람이)",
+   "tags": [],
+   "lemmas": [
+    [
+     "tél",
+     "tél",
+     "텔"
+    ],
+    [
+     "legjobb",
+     "jó",
+     "요"
+    ],
+    [
+     "része",
+     "rész",
+     "레스"
+    ],
+    [
+     "arcod",
+     "arc",
+     "어르츠"
+    ],
+    [
+     "fázik",
+     "fáz",
+     ""
+    ],
+    [
+     "többi",
+     "többi",
+     "퇴비"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Szóval hoztad a sálamat? Balaton, Eger, Pécs: sokat látott már.",
+   "rd": "쏘벌 호즈터드 어 샬러머트? 벌러톤, 에게르, 페치: 쇼커트 라토트 마르.",
+   "ko": "그래서 내 목도리 가져왔어? 발라톤, 에게르, 페치, 많이도 봤네.",
+   "note": "hoztad = 네가 가져왔다(정활용)",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "hoztad",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "sálamat",
+     "sálamat",
+     ""
+    ],
+    [
+     "látott",
+     "lát",
+     "라트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Hoztam. Ott van a táskámban, az öltözőben.",
+   "rd": "호즈텀. 오트 번 어 타슈캄번, 어즈 욀퇴죄벤.",
+   "ko": "가져왔어. 탈의실 내 가방에 있어.",
+   "note": "hoztam = 내가 가져왔다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hoztam",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "táskámban",
+     "táskám.",
+     ""
+    ],
+    [
+     "öltözőben",
+     "öltöző",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Akkor vége a kalandnak. Visszakapom, és kész.",
+   "rd": "어꼬르 베게 어 컬런드넉. 비써커폼, 에시 케쓰.",
+   "ko": "그럼 모험도 끝이네. 돌려받으면 끝이지.",
+   "note": "kaland = 모험",
+   "tags": [],
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "vége",
+     "vég",
+     "베그"
+    ],
+    [
+     "kalandnak",
+     "kaland",
+     ""
+    ],
+    [
+     "kész",
+     "kész",
+     "케스"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Igen. Csak van egy gondom.",
+   "rd": "이겐. 척 번 에지 곤돔.",
+   "ko": "응. 그런데 문제가 하나 있어.",
+   "note": "gond = 걱정, 문제",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "gondom",
+     "gondom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Mi az? Megint fél egyedül?",
+   "rd": "미 어즈? 메긴트 펠 에제뒬?",
+   "ko": "뭔데? 또 혼자 무서워해?",
+   "note": "megint = 또",
+   "tags": [],
+   "lemmas": [
+    [
+     "fél",
+     "fél",
+     "펠"
+    ],
+    [
+     "egyedül",
+     "egyed",
+     "에제드"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Nem ő. Ha visszaadom, nincs több okod írni nekem.",
+   "rd": "넴 외. 허 비써어돔, 닌치 퇴브 오코드 이르니 네켐.",
+   "ko": "목도리 말고. 돌려주면 너 나한테 연락할 이유가 없잖아.",
+   "note": "ok = 이유",
+   "tags": [],
+   "lemmas": [
+    [
+     "visszaadom",
+     "visszaad",
+     ""
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "több",
+     "több",
+     "퇴그"
+    ],
+    [
+     "okod",
+     "okod",
+     ""
+    ],
+    [
+     "írni",
+     "ír",
+     "이르"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Jaj, Zsófi. Tudod, hány sálam van otthon?",
+   "rd": "여이, 죠피. 투도드, 하니 샬럼 번 오트혼?",
+   "ko": "아이고, 소피. 나 집에 목도리 몇 개 있는지 알아?",
+   "note": "otthon = 집에",
+   "tags": [
+    "expr:Jaj",
+    "expr:Tudod"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "sálam",
+     "sálam",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "otthon",
+     "otthon",
+     "오트혼"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Hány? Mondd!",
+   "rd": "하니? 몬드!",
+   "ko": "몇 개? 말해 봐!",
+   "note": "hány = 몇",
+   "tags": [],
+   "lemmas": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Négy. És tudtam, hogy elvetted.",
+   "rd": "네지. 에시 투드텀, 호지 엘베떼드.",
+   "ko": "네 개. 그리고 네가 가져간 거 알고 있었어.",
+   "note": "tudtam = 알고 있었다",
+   "tags": [],
+   "lemmas": [
+    [
+     "tudtam",
+     "tud",
+     "투드"
+    ],
+    [
+     "elvetted",
+     "elvesz",
+     "엘베스"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Tudtad? Akkor miért nem szóltál?",
+   "rd": "투드터드? 어꼬르 미에르트 넴 쏠탈?",
+   "ko": "알았어? 그럼 왜 말 안 했어?",
+   "note": "szóltál = 네가 말했다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tudtad",
+     "tud",
+     "투드"
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "szóltál",
+     "szól",
+     "쏠"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Hát... a kesztyűmet is ott akartam hagyni.",
+   "rd": "하트... 어 케쓰튀메트 이시 오트 어커르텀 허지니.",
+   "ko": "음… 장갑도 두고 올 참이었거든.",
+   "note": "kesztyű = 장갑",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "kesztyűmet",
+     "kesztyű",
+     ""
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "akartam",
+     "akart",
+     ""
+    ],
+    [
+     "hagyni",
+     "hagy",
+     "허지"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+{
+ "id": "r1_culture_b4",
+ "region": "R1",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "절대 「맛있다」고 하지 마",
+ "emoji": "🍲",
+ "scene": "Anna 의 할머니 댁 일요일 점심. Anna 가 들어가기 전에 단단히 일러 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Nagymama"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "음식 칭찬과 사양하는 말",
+ "expressions": [
+  "Figyelj",
+  "Hogyhogy?",
+  "Köszönöm"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj! A nagyinál ne mondd, hogy finom.",
+   "rd": "피젤이! 어 너지날 네 몬드, 호지 피놈.",
+   "ko": "잘 들어! 할머니 댁에서 맛있다고 하지 마.",
+   "note": "finom = 맛있는",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "nagyinál",
+     "nagyi",
+     ""
+    ],
+    [
+     "mondd",
+     "mond",
+     "몬드"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hogyhogy? És ha tényleg finom?",
+   "rd": "호지호지? 에시 허 테닐렉 피놈?",
+   "ko": "어째서? 진짜 맛있으면?",
+   "note": "hogyhogy? = 어째서?",
+   "tags": [
+    "expr:Hogyhogy?"
+   ],
+   "lemmas": [
+    [
+     "Hogyhogy",
+     "hogyhogy",
+     ""
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Egyél, kedvesem! Itt a húsleves.",
+   "rd": "에젤, 케드베셈! 이트 어 후슐레베시.",
+   "ko": "먹으렴, 얘야! 고깃국이다.",
+   "note": "egyél = 먹어",
+   "tags": [],
+   "lemmas": [
+    [
+     "Egyél",
+     "eszik",
+     "에식"
+    ],
+    [
+     "kedvesem",
+     "kedvesem",
+     ""
+    ],
+    [
+     "húsleves",
+     "húsleves",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Köszönöm! Hű, ez nagyon finom!",
+   "rd": "쾨쐬뇜! 휘, 에즈 너죤 피놈!",
+   "ko": "감사합니다! 와, 이거 정말 맛있어요!",
+   "note": "köszönöm = 감사합니다",
+   "tags": [
+    "expr:Köszönöm"
+   ],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Jaj, {name}...",
+   "rd": "여이, {name}...",
+   "ko": "아이고, {name}…",
+   "note": "jaj = 아이고",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Finom? Akkor még egy tányérral!",
+   "rd": "피놈? 어꼬르 멕 에지 타네럴!",
+   "ko": "맛있어? 그럼 한 그릇 더!",
+   "note": "tányér = 접시, 그릇",
+   "tags": [],
+   "lemmas": [
+    [
+     "Finom",
+     "finom",
+     "피놈"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "tányérral",
+     "tányér",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Köszönöm, de már nem tudok enni.",
+   "rd": "쾨쐬뇜, 데 마르 넴 투독 엔니.",
+   "ko": "감사합니다만, 이제 못 먹겠어요.",
+   "note": "nem tudok enni = 못 먹겠다",
+   "tags": [
+    "expr:Köszönöm"
+   ],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "tudok",
+     "tud",
+     "투드"
+    ],
+    [
+     "enni",
+     "eszik",
+     "에식"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Nem ízlik?! Akkor főzök valami mást!",
+   "rd": "넴 이즐릭?! 어꼬르 푀죅 벌러미 마슈트!",
+   "ko": "입에 안 맞아?! 그럼 다른 거 해 주마!",
+   "note": "ízlik = 입에 맞다",
+   "tags": [],
+   "lemmas": [
+    [
+     "ízlik",
+     "ízlik",
+     ""
+    ],
+    [
+     "főzök",
+     "főz",
+     ""
+    ],
+    [
+     "mást",
+     "más",
+     "마시"
+    ]
+   ]
+  }
+ ]
+}

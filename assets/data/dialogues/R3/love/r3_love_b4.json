@@ -1,0 +1,617 @@
+{
+ "id": "r3_love_b4",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love",
+  "media"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "따님 말고 랑고시",
+ "emoji": "🫓",
+ "scene": "일요일 점심, Anna 어머니 댁. 존댓말이 어려운데 끝소리 하나가 더 어렵다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Anna anyukája"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "어른과의 존댓말(maga·3인칭 동사)과 말 놓기(Tegeződjünk!)",
+ "expressions": [
+  "Figyelj",
+  "Hű",
+  "Tényleg?",
+  "Aha",
+  "Izé"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "hu": "Jó napot, üljön le, kérem. Anna sokat mesélt magáról.",
+   "rd": "요 너포트, 윌욘 레, 케렘. 언너 쇼커트 메셀트 머가롤.",
+   "ko": "어서 와요, 앉으세요. 언너가 당신 얘기를 많이 했어요.",
+   "note": "üljön le = 앉으세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "üljön",
+     "ül",
+     "위일"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
+    ],
+    [
+     "mesélt",
+     "mesél",
+     "메셸"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Csókolom! Remélem, nem csak rosszat mesélt.",
+   "rd": "초콜롬! 레멜렘, 넴 척 로써트 메셀트.",
+   "ko": "안녕하세요! 나쁜 얘기만 한 건 아니면 좋겠네요.",
+   "note": "remélem = 바란다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "rosszat",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "mesélt",
+     "mesél",
+     "메셸"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Figyelj, ne izgulj. Anyukám nem harap, csak minden kérdést kétszer tesz fel.",
+   "rd": "피젤이, 네 이즈굴이. 어뉴캄 넴 허러프, 척 민덴 케르데슈트 케트쎄르 테쓰 펠.",
+   "ko": "있잖아, 긴장하지 마. 우리 엄마 안 물어, 그냥 뭐든 두 번씩 물어봐.",
+   "note": "kétszer = 두 번",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "izgulj",
+     "izgulj",
+     ""
+    ],
+    [
+     "harap",
+     "harap",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kérdést",
+     "kérdés",
+     "케르데시"
+    ],
+    [
+     "kétszer",
+     "kétszer",
+     "케트쎄르"
+    ],
+    [
+     "tesz",
+     "tesz",
+     "테스"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Szóval maga az a híres krumpli?",
+   "rd": "쏘벌 머거 어즈 어 히레시 크룸플리?",
+   "ko": "그러니까 당신이 그 유명한 감자군요?",
+   "note": "híres = 유명한",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "híres",
+     "híres",
+     ""
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Igen, sajnos én vagyok az. Nagyon finom az illat, ez mi?",
+   "rd": "이겐, 셔이노시 엔 버죡 어즈. 너죤 피놈 어즈 일러트, 에즈 미?",
+   "ko": "네, 안타깝게도 저예요. 냄새가 정말 좋네요, 이게 뭐예요?",
+   "note": "sajnos = 안타깝게도",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "sajnos",
+     "sajnos",
+     "셔이노시"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ],
+    [
+     "illat",
+     "illat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Lángos, a férjem anyjának a receptje. Kóstolja meg, de vigyázzon, forró.",
+   "rd": "란고시, 어 페르옘 어니야넉 어 레체프트예. 코슈톨여 멕, 데 비자존, 포로.",
+   "ko": "랑고시예요, 시어머니 레시피죠. 드셔 보세요, 근데 조심해요, 뜨거워요.",
+   "note": "kóstolja meg = 맛보세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Lángos",
+     "lángos",
+     ""
+    ],
+    [
+     "férjem",
+     "férj",
+     ""
+    ],
+    [
+     "anyjának",
+     "anya",
+     "어니어"
+    ],
+    [
+     "receptje",
+     "recept",
+     ""
+    ],
+    [
+     "vigyázzon",
+     "vigyáz",
+     "비거즈"
+    ],
+    [
+     "forró",
+     "forr",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Hű, ez fantasztikus! Még soha nem ettem ilyen jót.",
+   "rd": "휘, 에즈 펀터쓰티쿠시! 멕 쇼허 넴 에뗌 이옌 요트.",
+   "ko": "와, 이거 최고예요! 이렇게 맛있는 건 처음 먹어 봐요.",
+   "note": "még soha = 아직 한 번도",
+   "tags": [
+    "expr:Hű"
+   ],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "fantasztikus",
+     "fantasztikus",
+     "펀터스티쿠시"
+    ],
+    [
+     "soha",
+     "soha",
+     "쇼허"
+    ],
+    [
+     "ettem",
+     "esz",
+     ""
+    ],
+    [
+     "jót",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Tényleg ízlik? Anna szerint a vendégek inkább a rétest szeretik.",
+   "rd": "테닐렉 이즐릭? 언너 쎄린트 어 벤데겍 인카브 어 레테슈트 쎄레틱.",
+   "ko": "정말 입에 맞아요? 언너 말로는 손님들은 레테시를 더 좋아한다던데요.",
+   "note": "ízlik = 입에 맞다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "ízlik",
+     "ízlik",
+     ""
+    ],
+    [
+     "vendégek",
+     "vendége",
+     ""
+    ],
+    [
+     "inkább",
+     "inkább",
+     "인깝"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ],
+    [
+     "szeretik",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Nem, nem, őszintén mondom: nagyon szeretem a lányát!",
+   "rd": "넴, 넴, 외씬텐 몬돔: 너죤 쎄레템 어 라냐트!",
+   "ko": "아니요, 아니요, 솔직히 말씀드리면, 따님을 정말 사랑해요!",
+   "note": "a lányát = 따님을(a lángosát = 랑고시를)",
+   "tags": [],
+   "lemmas": [
+    [
+     "őszintén",
+     "őszinte",
+     "외세인테"
+    ],
+    [
+     "mondom",
+     "mond",
+     "몬드"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "szeretem",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "lányát",
+     "lány",
+     "라니"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "{name}, te most mit mondtál?",
+   "rd": "{name}, 테 모슈트 미트 몬드탈?",
+   "ko": "{name}, 너 방금 뭐라고 했어?",
+   "note": "most = 방금",
+   "tags": [],
+   "lemmas": [
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "mondtál",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Hát, ez gyors volt. Ebéd előtt még senki nem mondta ezt.",
+   "rd": "하트, 에즈 죠르시 볼트. 에베드 엘뢰트 멕 센키 넴 몬드터 에즈트.",
+   "ko": "음, 빠르네요. 점심 전에 그런 말을 한 사람은 없었어요.",
+   "note": "ebéd előtt = 점심 전에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "gyors",
+     "gyors",
+     "죠르시"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Jaj, nem, a lángosát! A lányát, izé, nem úgy értettem.",
+   "rd": "여이, 넴, 어 란고샤트! 어 라냐트, 이제, 넴 우지 에르테뗌.",
+   "ko": "아이고, 아니요, 랑고시를요! 따님은, 어, 그런 뜻이 아니에요.",
+   "note": "izé = 어, 그거",
+   "tags": [
+    "expr:Izé"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "lángosát",
+     "lángosát",
+     ""
+    ],
+    [
+     "lányát",
+     "lány",
+     "라니"
+    ],
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "úgy",
+     "úgy",
+     "우지"
+    ],
+    [
+     "értettem",
+     "értett",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "hu": "Aha, szóval a lányomat nem szereti? Anna, hallod ezt?",
+   "rd": "어허, 쏘벌 어 라뇨머트 넴 쎄레티? 언너, 헐로드 에즈트?",
+   "ko": "아하, 그러니까 내 딸은 사랑하지 않는다? 언너, 들었니?",
+   "note": "hallod = 너 듣고 있지",
+   "tags": [
+    "expr:Aha"
+   ],
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "lányomat",
+     "lányom",
+     ""
+    ],
+    [
+     "szereti",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "hallod",
+     "hall",
+     "헐"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "Hallom, anya. Kíváncsi vagyok, mit felel.",
+   "rd": "헐롬, 어녀. 키반치 버죡, 미트 펠렐.",
+   "ko": "들었어, 엄마. 뭐라고 대답할지 궁금하네.",
+   "note": "felel = 대답한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hallom",
+     "hall",
+     "헐"
+    ],
+    [
+     "anya",
+     "anya",
+     "어니어"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "felel",
+     "felel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "hu": "Hát... a lángost is szeretem.",
+   "rd": "하트... 어 란고슈트 이시 쎄레템.",
+   "ko": "음… 랑고시'도' 사랑해요.",
+   "note": "is = ~도",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "lángost",
+     "lángos",
+     ""
+    ],
+    [
+     "szeretem",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "hu": "Na jó, tegeződjünk! Éva vagyok, és még van lángos.",
+   "rd": "너 요, 테게죄드윈크! 에버 버죡, 에시 멕 번 란고시.",
+   "ko": "좋아요, 우리 말 놓자! 나는 에바야, 랑고시 더 있어.",
+   "note": "tegeződjünk = 서로 말 놓자",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "tegeződjünk",
+     "tegeződik",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "lángos",
+     "lángos",
+     ""
+    ]
+   ]
+  }
+ ]
+}

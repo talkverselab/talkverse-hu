@@ -1,0 +1,264 @@
+{
+ "id": "r1_love_b5",
+ "region": "R1",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "하트냐 감자냐",
+ "emoji": "☕",
+ "scene": "Bence 의 카페. A 의 커피에 그려진 하트를 Anna 가 보고 말았다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Bence"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [
+  "romance",
+  "jealousy"
+ ],
+ "goal": "누가 했는지 묻기(Ki …?)와 어느 쪽인지 묻기(melyik)",
+ "expressions": [
+  "Tessék",
+  "Figyelj",
+  "Jól van",
+  "Hát"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Ki rajzolt szívet a kávédba?",
+   "rd": "키 러이졸트 씨베트 어 카베드버?",
+   "ko": "누가 네 커피에 하트 그렸어?",
+   "note": "szív = 하트, 심장",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ki",
+     "ki",
+     "키"
+    ],
+    [
+     "rajzolt",
+     "rajzol",
+     ""
+    ],
+    [
+     "szívet",
+     "szíve",
+     ""
+    ],
+    [
+     "kávédba",
+     "kávédba",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Bence. Mindenkinek rajzol, ez a munkája.",
+   "rd": "벤체. 민덴키넥 러이졸, 에즈 어 문카여.",
+   "ko": "벤체. 다들 그려 줘, 그게 일이잖아.",
+   "note": "mindenkinek = 모두에게",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bence",
+     "bence",
+     ""
+    ],
+    [
+     "rajzol",
+     "rajzik",
+     ""
+    ],
+    [
+     "munkája",
+     "munka",
+     "문커"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Nekem soha nem rajzol szívet. Bence!",
+   "rd": "네켐 쇼허 넴 러이졸 씨베트. 벤체!",
+   "ko": "나한텐 하트 그려 준 적 없어. 벤체!",
+   "note": "soha nem = 절대 안",
+   "tags": [],
+   "lemmas": [
+    [
+     "soha",
+     "soha",
+     "쇼허"
+    ],
+    [
+     "rajzol",
+     "rajzik",
+     ""
+    ],
+    [
+     "szívet",
+     "szíve",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Tessék, Anna. Mit kérsz?",
+   "rd": "테쎅, 언너. 미트 케르쓰?",
+   "ko": "응, 언너. 뭐 줄까?",
+   "note": "mit kérsz? = 뭘 원해?",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "kérsz",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Figyelj: mostantól a kávéjába én rajzolok.",
+   "rd": "피젤이: 모슈턴톨 어 카베야버 엔 러이졸록.",
+   "ko": "잘 들어. 이제부터 얘 커피엔 내가 그려.",
+   "note": "mostantól = 이제부터",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "mostantól",
+     "mostantól",
+     "모슈턴톨"
+    ],
+    [
+     "kávéjába",
+     "kávéjába",
+     ""
+    ],
+    [
+     "rajzolok",
+     "rajzol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Jól van, tessék, itt a tej.",
+   "rd": "욜 번, 테쎅, 이트 어 테이.",
+   "ko": "알았어, 자, 우유 여기.",
+   "note": "tej = 우유",
+   "tags": [
+    "expr:Tessék",
+    "expr:Jól van"
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "tej",
+     "tej",
+     "테이"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Anna, ez szív vagy krumpli?",
+   "rd": "언너, 에즈 씨브 버지 크룸플리?",
+   "ko": "언너, 이거 하트야 감자야?",
+   "note": "vagy = 또는",
+   "tags": [],
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "szív",
+     "szív",
+     "씨브"
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Hát... te melyiket szeretnéd?",
+   "rd": "하트... 테 메이케트 쎄레트네드?",
+   "ko": "음… 넌 어느 쪽이면 좋겠어?",
+   "note": "melyik = 어느 것",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "szeretnéd",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,537 @@
+{
+ "id": "r3_friends_b4",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "love"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "그 새의 주인",
+ "emoji": "☕",
+ "scene": "Réka 는 2주째 Bence 의 카페를 피한다. 끌고 가 앵무새를 보이는데, Bence 가 새를 알아본다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Bence",
+  "D": "Papagáj"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "지난 일 되짚기와 마음을 들키는 한마디",
+ "expressions": [
+  "Na, gyere",
+  "Úristen",
+  "Várj",
+  "Mi van",
+  "hallod",
+  "Szóval"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Réka, két hete kerülöd a kávézót. Miattad otthon iszom rossz kávét.",
+   "rd": "레커, 케트 헤테 케륄뢰드 어 카베조트. 미어떠드 오트혼 이쏨 로쓰 카베트.",
+   "ko": "레카, 너 2주째 카페 피하잖아. 너 때문에 집에서 맛없는 커피 마셔.",
+   "note": "kerül = 피하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "hete",
+     "hét",
+     "헤트"
+    ],
+    [
+     "kerülöd",
+     "kerül",
+     "케륄"
+    ],
+    [
+     "kávézót",
+     "kávézó",
+     ""
+    ],
+    [
+     "otthon",
+     "otthon",
+     "오트혼"
+    ],
+    [
+     "iszom",
+     "iszom",
+     ""
+    ],
+    [
+     "rossz",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Nem megyek oda többet. Az a madár mindent elrontott.",
+   "rd": "넴 메젝 오더 퇴베트. 어즈 어 머다르 민덴트 엘론토트.",
+   "ko": "거기 다신 안 가. 그 새가 다 망쳤어.",
+   "note": "elront = 망치다",
+   "tags": [],
+   "lemmas": [
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ],
+    [
+     "oda",
+     "oda",
+     "오더"
+    ],
+    [
+     "többet",
+     "több",
+     "퇴그"
+    ],
+    [
+     "madár",
+     "madár",
+     ""
+    ],
+    [
+     "elrontott",
+     "elront",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Na, gyere már! Hozd a madarat is, és essünk túl rajta.",
+   "rd": "너, 제레 마르! 호즈드 어 머더러트 이시, 에시 에쒼크 툴 러이터.",
+   "ko": "자, 가자! 새도 데려와, 그냥 해치워 버리자.",
+   "note": "túlesik = 해치우다",
+   "tags": [
+    "expr:Na, gyere"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "madarat",
+     "madara",
+     ""
+    ],
+    [
+     "essünk",
+     "esik",
+     "에시크"
+    ],
+    [
+     "túl",
+     "túl",
+     "툴"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Hű, Réka, de rég láttalak! Add ide egy pillanatra azt a madarat.",
+   "rd": "휘, 레커, 데 렉 라떨럭! 어드 이데 에지 필러너트러 어즈트 어 머더러트.",
+   "ko": "와, 레카, 진짜 오랜만이다! 그 새 잠깐 줘 봐.",
+   "note": "láttalak = 내가 널 봤다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "rég",
+     "rég",
+     "레그"
+    ],
+    [
+     "láttalak",
+     "láttalak",
+     ""
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ],
+    [
+     "pillanatra",
+     "pillanat",
+     "필러넛"
+    ],
+    [
+     "madarat",
+     "madara",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Miért? Mit akarsz vele?",
+   "rd": "미에르트? 미트 어커르쓰 벨레?",
+   "ko": "왜? 뭐 하려고?",
+   "note": "vele = 그것으로",
+   "tags": [],
+   "lemmas": [
+    [
+     "Miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "akarsz",
+     "akar",
+     "어커르"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Várj, ezt a foltot ismerem. Pityu, te vagy az?",
+   "rd": "바르이, 에즈트 어 폴토트 이슈메렘. 피튜, 테 버지 어즈?",
+   "ko": "잠깐, 이 얼룩 내가 아는데. 피튜, 너니?",
+   "note": "folt = 얼룩",
+   "tags": [
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "foltot",
+     "folt",
+     ""
+    ],
+    [
+     "ismerem",
+     "ismer",
+     "이슈메르"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "hu": "Bence, szeretlek! Bence, szeretlek!",
+   "rd": "벤체, 쎄레틀렉! 벤체, 쎄레틀렉!",
+   "ko": "벤체, 사랑해! 벤체, 사랑해!",
+   "note": "szeretlek = 널 사랑해",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bence",
+     "bence",
+     ""
+    ],
+    [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Úristen, ez tényleg ő! A nagymamám madara, tíz éve elveszett.",
+   "rd": "우리슈텐, 에즈 테닐렉 외! 어 너지머맘 머더러, 티즈 에베 엘베쎄트.",
+   "ko": "세상에, 진짜 얘야! 우리 할머니 새야, 10년 전에 잃어버렸어.",
+   "note": "nagymama = 할머니",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "nagymamám",
+     "nagy",
+     "너지"
+    ],
+    [
+     "madara",
+     "madara",
+     ""
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "elveszett",
+     "elveszik",
+     "엘베직"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Mi van? Akkor ki tanította neki ezt a mondatot?",
+   "rd": "미 번? 어꼬르 키 터니토떠 네키 에즈트 어 몬더토트?",
+   "ko": "뭐야? 그럼 그 말은 누가 가르쳤어?",
+   "note": "tanít = 가르치다",
+   "tags": [
+    "expr:Mi van"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "tanította",
+     "tanít",
+     "터니트"
+    ],
+    [
+     "mondatot",
+     "mondat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "A nagymamám. Minden reggel ezt mondta nekem, a madár meg hallotta.",
+   "rd": "어 너지머맘. 민덴 렉겔 에즈트 몬드터 네켐, 어 머다르 멕 헐로떠.",
+   "ko": "우리 할머니. 매일 아침 나한테 그렇게 말하셨거든, 새가 들은 거지.",
+   "note": "meg = 그리고(한편)",
+   "tags": [],
+   "lemmas": [
+    [
+     "nagymamám",
+     "nagy",
+     "너지"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ],
+    [
+     "madár",
+     "madár",
+     ""
+    ],
+    [
+     "hallotta",
+     "hall",
+     "헐"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Réka, hallod? Szóval nem tőled tanulta!",
+   "rd": "레커, 헐로드? 쏘벌 넴 퇼레드 터눌터!",
+   "ko": "레카, 들었어? 그러니까 너한테 배운 게 아니었어!",
+   "note": "tőled = 너에게서",
+   "tags": [
+    "expr:hallod",
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "hallod",
+     "hall",
+     "헐"
+    ],
+    [
+     "tanulta",
+     "tanul",
+     "타눌"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Ja, azt hittem, te tanítottad neki. Kár, már örültem.",
+   "rd": "여, 어즈트 히뗌, 테 터니토떠드 네키. 카르, 마르 외륄템.",
+   "ko": "아, 네가 가르친 줄 알았어. 아깝네, 벌써 좋아했는데.",
+   "note": "kár = 아깝다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ja",
+     "ja",
+     "여"
+    ],
+    [
+     "hittem",
+     "hitt",
+     ""
+    ],
+    [
+     "tanítottad",
+     "tanít",
+     "터니트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "örültem",
+     "örül",
+     "외뢰"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Nem, nem én tanítottam.",
+   "rd": "넴, 넴 엔 터니토떰.",
+   "ko": "아니, 내가 가르친 건 아니야.",
+   "note": "nem én = 내가 아니라",
+   "tags": [],
+   "lemmas": [
+    [
+     "tanítottam",
+     "tanít",
+     "터니트"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "hu": "Értem. Hát, jó.",
+   "rd": "에르템. 하트, 요.",
+   "ko": "그렇구나. 음, 그래.",
+   "note": "értem = 알겠어",
+   "tags": [],
+   "lemmas": [
+    [
+     "Értem",
+     "ért",
+     "에르트"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "De attól még igaz.",
+   "rd": "데 어똘 멕 이거즈.",
+   "ko": "그래도 그 말이 틀린 건 아니야.",
+   "note": "attól még = 그렇다고 해도",
+   "tags": [],
+   "lemmas": [
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "igaz",
+     "igaz",
+     "이거즈"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "D",
+   "hu": "Bence, szeretlek!",
+   "rd": "벤체, 쎄레틀렉!",
+   "ko": "벤체, 사랑해!",
+   "note": "szeretlek = 널 사랑해",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bence",
+     "bence",
+     ""
+    ],
+    [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  }
+ ]
+}

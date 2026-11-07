@@ -1,0 +1,332 @@
+{
+ "id": "r2_study_b1",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "제일 정중한 감사 인사",
+ "emoji": "🙇",
+ "scene": "어학원 마지막 수업 전날. 선생님께 제대로 감사하고 싶다고 하자 Réka 가 특별한 단어를 가르쳐 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Tanárnő"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "감사 인사 묻기와 긴 단어 농담",
+ "expressions": [
+  "Figyelj",
+  "Tényleg",
+  "Naná",
+  "Úristen",
+  "Persze",
+  "Te jó ég",
+  "Hogyhogy"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Réka, holnap utolsó óra. Hogy köszönjem meg a tanárnak?",
+   "rd": "레커, 홀너프 우톨쇼 오러. 호지 쾨쐰옘 멕 어 터나르넉?",
+   "ko": "레카, 내일 마지막 수업이야. 선생님께 어떻게 감사 인사하지?",
+   "note": "megköszön = 감사를 표하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "utolsó",
+     "utolsó",
+     "우톨쇼"
+    ],
+    [
+     "köszönjem",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "tanárnak",
+     "tanár",
+     "터나르"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Figyelj, van egy különleges szó. Megtanítom neked.",
+   "rd": "피젤이, 번 에지 퀼뢴레게시 쏘. 멕터니톰 네케드.",
+   "ko": "들어 봐, 특별한 단어가 있어. 가르쳐 줄게.",
+   "note": "különleges = 특별한",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "különleges",
+     "különleges",
+     "퀼뢴레게시"
+    ],
+    [
+     "szó",
+     "szó",
+     "쏘"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Tényleg? Hosszú?",
+   "rd": "테닐렉? 호쑤?",
+   "ko": "정말? 길어?",
+   "note": "hosszú = 긴",
+   "tags": [
+    "expr:Tényleg"
+   ],
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Naná. Megszentségteleníthetetlenségeskedéseitekért.",
+   "rd": "너나. 멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트.",
+   "ko": "당연하지. (헝가리어에서 제일 길다는 그 단어)",
+   "note": "naná = 당연하지",
+   "tags": [
+    "expr:Naná"
+   ],
+   "lemmas": [
+    [
+     "Naná",
+     "naná",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Úristen! Ez tényleg azt jelenti, hogy köszönöm?",
+   "rd": "우리슈텐! 에즈 테닐렉 어즈트 옐렌티, 호지 쾨쐬뇜?",
+   "ko": "세상에! 이게 정말 「감사합니다」라는 뜻이야?",
+   "note": "azt jelenti = 그런 뜻이다",
+   "tags": [
+    "expr:Tényleg",
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "jelenti",
+     "jelent",
+     "옐렌트"
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Persze. Nagyon udvarias!",
+   "rd": "페르쎄. 너죤 우드버리어시!",
+   "ko": "그럼. 아주 정중해!",
+   "note": "udvarias = 정중한",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "udvarias",
+     "udvarias",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Tanárnő, egy pillanat. Megszentségteleníthetetlenségeskedéseitekért!",
+   "rd": "터나르뇌, 에지 필러너트. 멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트!",
+   "ko": "선생님, 잠깐만요. (그 긴 단어)!",
+   "note": "egy pillanat = 잠깐만",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tanárnő",
+     "tanárnő",
+     ""
+    ],
+    [
+     "pillanat",
+     "pillanat",
+     "필러넛"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Te jó ég! Hogyhogy ezt tudja?",
+   "rd": "테 요 엑! 호지호지 에즈트 투드여?",
+   "ko": "세상에! 그걸 어떻게 아세요?",
+   "note": "te jó ég = 맙소사",
+   "tags": [
+    "expr:Te jó ég",
+    "expr:Hogyhogy"
+   ],
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "ég",
+     "ég",
+     "에그"
+    ],
+    [
+     "tudja",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Réka tanította meg. Ez azt jelenti: köszönöm, ugye?",
+   "rd": "레커 터니토떠 멕. 에즈 어즈트 옐렌티: 쾨쐬뇜, 우제?",
+   "ko": "레카가 가르쳐 줬어요. 「감사합니다」라는 뜻 맞죠?",
+   "note": "ugye? = 그렇죠?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "tanította",
+     "tanít",
+     "터니트"
+    ],
+    [
+     "jelenti",
+     "jelent",
+     "옐렌트"
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Nem. Ez nem köszönet, ez csak a leghosszabb szavunk.",
+   "rd": "넴. 에즈 넴 쾨쐬네트, 에즈 척 어 렉호써브 써분크.",
+   "ko": "아뇨. 감사 인사가 아니라, 그냥 우리말에서 제일 긴 단어예요.",
+   "note": "leghosszabb = 가장 긴",
+   "tags": [],
+   "lemmas": [
+    [
+     "köszönet",
+     "köszönet",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "leghosszabb",
+     "hosszú",
+     "호쑤"
+    ],
+    [
+     "szavunk",
+     "szó",
+     "쏘"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "De hibátlanul kimondta. Ötös!",
+   "rd": "데 히바틀러눌 키몬드터. 외퇴시!",
+   "ko": "그래도 틀리지 않고 말했네요. 5점!",
+   "note": "ötös = 5점(최고 점수)",
+   "tags": [],
+   "lemmas": [
+    [
+     "hibátlanul",
+     "hibátlanul",
+     ""
+    ],
+    [
+     "kimondta",
+     "kimond",
+     ""
+    ]
+   ]
+  }
+ ]
+}

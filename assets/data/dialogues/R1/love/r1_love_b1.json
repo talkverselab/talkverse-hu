@@ -1,0 +1,306 @@
+{
+ "id": "r1_love_b1",
+ "region": "R1",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "결혼식은 언제니",
+ "emoji": "🍲",
+ "scene": "첫 데이트 장소는 Anna 할머니 댁. 점심 조금이라더니 음식이 끝없이 나온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Nagymama"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "어른께 쓰는 말(Csókolom, 3인칭 동사)과 친구에게 쓰는 말 구별",
+ "expressions": [
+  "Figyelj",
+  "Légyszi",
+  "Mi van?",
+  "Hát"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Csak egy kis ebéd lesz a nagymamámnál, ne félj.",
+   "rd": "척 에지 키시 에베드 레쓰 어 너지머맘날, 네 펠이.",
+   "ko": "할머니 댁에서 점심 조금만 먹는 거야, 겁내지 마.",
+   "note": "nagymamámnál = 우리 할머니 댁에서",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kis",
+     "kis",
+     "키시"
+    ],
+    [
+     "ebéd",
+     "ebéd",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "nagymamámnál",
+     "nagymamám.",
+     ""
+    ],
+    [
+     "félj",
+     "fél",
+     "펠"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "hu": "Szia, drágám! Egyél még egy kis gulyást!",
+   "rd": "씨어, 드라감! 에젤 멕 에지 키시 구야슈트!",
+   "ko": "어서 와, 얘야! 굴라시 좀 더 먹어!",
+   "note": "egyél = 먹어",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "drágám",
+     "drága",
+     "드라가"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "kis",
+     "kis",
+     "키시"
+    ],
+    [
+     "gulyást",
+     "gulyás",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Csókolom! Köszönöm, de már három tányérral ettem.",
+   "rd": "초콜롬! 쾨쐬뇜, 데 마르 하롬 타네럴 에뗌.",
+   "ko": "안녕하세요! 고맙습니다만 벌써 세 그릇 먹었어요.",
+   "note": "csókolom = 어른께 하는 인사",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "tányérral",
+     "tányér",
+     ""
+    ],
+    [
+     "ettem",
+     "esz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Az semmi! Anna, hozd a rétest is!",
+   "rd": "어즈 셈미! 언너, 호즈드 어 레테슈트 이시!",
+   "ko": "그건 아무것도 아니야! 언너, 레테시도 가져와!",
+   "note": "hozd = 가져와",
+   "tags": [],
+   "lemmas": [
+    [
+     "hozd",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Figyelj, Anna, segíts, légyszi. Nem bírom.",
+   "rd": "피젤이, 언너, 세기트시, 레지씨. 넴 비롬.",
+   "ko": "야 언너, 좀 도와줘, 제발. 못 먹겠어.",
+   "note": "nem bírom = 못 버티겠어",
+   "tags": [
+    "expr:Figyelj",
+    "expr:Légyszi"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "segíts",
+     "segít",
+     "셰기트"
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ],
+    [
+     "bírom",
+     "bír",
+     "비르"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Na, és mikor lesz az esküvő? Már kész a torta!",
+   "rd": "너, 에시 미코르 레쓰 어즈 에슈퀴뵈? 마르 케쓰 어 토르터!",
+   "ko": "자, 결혼식은 언제니? 케이크는 벌써 다 됐어!",
+   "note": "esküvő = 결혼식",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "esküvő",
+     "esküvő",
+     "에슈퀴뵈"
+    ],
+    [
+     "kész",
+     "kész",
+     "케스"
+    ],
+    [
+     "torta",
+     "torta",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Mi van? Anna, mit mondtál neki rólam?",
+   "rd": "미 번? 언너, 미트 몬드탈 네키 롤럼?",
+   "ko": "뭐? 언너, 나에 대해 뭐라고 말했어?",
+   "note": "rólam = 나에 대해",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "mondtál",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Hát... csak azt, hogy ma egy nagyon fontos embert hozok.",
+   "rd": "하트... 척 어즈트, 호지 머 에지 너죤 폰토시 엠베르트 호족.",
+   "ko": "음… 그냥 오늘 아주 중요한 사람을 데려온다고만.",
+   "note": "fontos = 중요한",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "fontos",
+     "fontos",
+     "폰토슈"
+    ],
+    [
+     "embert",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "hozok",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  }
+ ]
+}

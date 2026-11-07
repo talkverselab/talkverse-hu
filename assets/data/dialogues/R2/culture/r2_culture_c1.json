@@ -1,0 +1,355 @@
+{
+ "id": "r2_culture_c1",
+ "region": "R2",
+ "island": "culture",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "베이글리 열네 개",
+ "emoji": "🥮",
+ "scene": "크리스마스 파티 단체방. 누가 뭘 가져올지 정하는 중이다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Réka",
+  "D": "Bence"
+ },
+ "register": "chat",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "단체방에서 Ki mit hoz? 로 역할 나누기",
+ "expressions": [
+  "Sziasztok",
+  "Szuper",
+  "Izé"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Sziasztok! Szombaton buli nálam, ki mit hoz?",
+   "rd": "씨어쓰톡! 쏨버톤 불리 날럼, 키 미트 호즈?",
+   "ko": "얘들아! 토요일에 우리 집에서 파티, 누가 뭐 가져올래?",
+   "note": "ki mit hoz? = 누가 뭘 가져와?",
+   "tags": [
+    "expr:Sziasztok"
+   ],
+   "at": "18:00",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Sziasztok",
+     "sziasztok",
+     "씨어스톡"
+    ],
+    [
+     "buli",
+     "buli",
+     "불리"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "hoz",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "hu": "Én bejglit hozok.",
+   "rd": "엔 베익리트 호족.",
+   "ko": "나는 베이글리 가져갈게.",
+   "note": "bejgli = 크리스마스 양귀비씨·호두 말이빵",
+   "tags": [],
+   "at": "18:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "bejglit",
+     "bejgli",
+     ""
+    ],
+    [
+     "hozok",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Mi az a bejgli?",
+   "rd": "미 어즈 어 베익리?",
+   "ko": "베이글리가 뭐야?",
+   "note": "mi az a …? = ~가 뭐야?",
+   "tags": [],
+   "at": "18:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "bejgli",
+     "bejgli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Mákos vagy diós sütemény. Mindenki szereti.",
+   "rd": "마코시 버지 디오시 쉬테메니. 민덴키 쎄레티.",
+   "ko": "양귀비씨나 호두 케이크야. 다들 좋아해.",
+   "note": "diós = 호두가 든",
+   "tags": [],
+   "at": "18:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Mákos",
+     "mákos",
+     ""
+    ],
+    [
+     "diós",
+     "diós",
+     ""
+    ],
+    [
+     "sütemény",
+     "sütemény",
+     "슈테메니"
+    ],
+    [
+     "szereti",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Szuper! Akkor én is hozok.",
+   "rd": "쑤페르! 어꼬르 엔 이시 호족.",
+   "ko": "좋다! 그럼 나도 가져갈게.",
+   "note": "akkor = 그럼",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "at": "18:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "hozok",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "D",
+   "hu": "Én is bejglit hozok.",
+   "rd": "엔 이시 베익리트 호족.",
+   "ko": "나도 베이글리 가져갈게.",
+   "note": "én is = 나도",
+   "tags": [],
+   "at": "18:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "bejglit",
+     "bejgli",
+     ""
+    ],
+    [
+     "hozok",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Itt vagyok. Már tizennégy bejgli van az asztalon.",
+   "rd": "이트 버죡. 마르 티젠네지 베익리 번 어즈 어쓰털론.",
+   "ko": "나 왔어. 탁자에 벌써 베이글리가 열네 개야.",
+   "note": "asztal = 탁자",
+   "tags": [],
+   "at": "19:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "tizennégy",
+     "tizennégy",
+     ""
+    ],
+    [
+     "bejgli",
+     "bejgli",
+     ""
+    ],
+    [
+     "asztalon",
+     "asztal",
+     "어슬러"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Tizennégy?! Én még hozok hatot.",
+   "rd": "티젠네지?! 엔 멕 호족 허토트.",
+   "ko": "열네 개?! 나 여섯 개 더 가져가는데.",
+   "note": "hatot = 여섯을",
+   "tags": [],
+   "at": "19:31",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tizennégy",
+     "tizennégy",
+     ""
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "hozok",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "És ital? Ki hozott italt?",
+   "rd": "에시 이털? 키 호조트 이털트?",
+   "ko": "그럼 음료는? 누가 음료 가져왔어?",
+   "note": "ital = 음료",
+   "tags": [],
+   "at": "19:33",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "ital",
+     "ital",
+     "이털"
+    ],
+    [
+     "hozott",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "hu": "Izé... mindenki azt hitte, hogy valaki hoz.",
+   "rd": "이제... 민덴키 어즈트 히떼, 호지 벌러키 호즈.",
+   "ko": "어… 다들 누가 가져오겠지 했어.",
+   "note": "azt hitte = 그렇게 생각했다",
+   "tags": [
+    "expr:Izé"
+   ],
+   "at": "19:34",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Izé",
+     "izé",
+     ""
+    ],
+    [
+     "hitte",
+     "hisz",
+     "히쓰"
+    ],
+    [
+     "hoz",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Csengetnek. A szomszéd néni kérdezi, kérünk-e bejglit. 😂",
+   "rd": "첸게트넥. 어 쏨쎄드 네니 케르데지, 케륀크-에 베익리트. 😂",
+   "ko": "초인종이다. 옆집 할머니가 베이글리 필요하냐고 물으셔. 😂",
+   "note": "-e = ~인지(간접의문)",
+   "tags": [],
+   "at": "19:40",
+   "stamp": "😂",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Csengetnek",
+     "csenget",
+     ""
+    ],
+    [
+     "szomszéd",
+     "szomszéd",
+     "쏨세드"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "kérdezi",
+     "kérdez",
+     "케르데즈"
+    ],
+    [
+     "kérünk",
+     "kér",
+     "께르"
+    ],
+    [
+     "bejglit",
+     "bejgli",
+     ""
+    ]
+   ]
+  }
+ ]
+}

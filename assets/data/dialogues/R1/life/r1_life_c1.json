@@ -1,0 +1,224 @@
+{
+ "id": "r1_life_c1",
+ "region": "R1",
+ "island": "life",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "레테시 어디 갔어",
+ "emoji": "🥮",
+ "scene": "Dávid 가 냉장고의 레테시를 찾는다. 채팅으로 범인을 묻는데…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "「누가 ~했어?」 묻기와 채팅 맞장구",
+ "expressions": [
+  "Amúgy",
+  "Aha",
+  "Izé",
+  "Nem baj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Ki ette meg a rétesemet?",
+   "rd": "키 에떼 멕 어 레테세메트?",
+   "ko": "누가 내 레테시 먹었어?",
+   "note": "ki ette meg? = 누가 먹어 치웠어?",
+   "tags": [],
+   "at": "18:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Ki",
+     "ki",
+     "키"
+    ],
+    [
+     "ette",
+     "eszik",
+     "에식"
+    ],
+    [
+     "rétesemet",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Nem én! Miért?",
+   "rd": "넴 엔! 미에르트?",
+   "ko": "나 아니야! 왜?",
+   "note": "nem én = 나 아니야",
+   "tags": [],
+   "at": "18:03",
+   "ui": "bubble",
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Semmi. Csak kérdezem.",
+   "rd": "셈미. 척 케르데젬.",
+   "ko": "아무것도. 그냥 물어보는 거야.",
+   "note": "kérdezem = 내가 그걸 묻는다",
+   "tags": [],
+   "at": "18:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "kérdezem",
+     "kérdez",
+     "케르데즈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Amúgy finom volt.",
+   "rd": "어무지 피놈 볼트.",
+   "ko": "근데 맛있더라.",
+   "note": "amúgy = 근데, 그나저나",
+   "tags": [
+    "expr:Amúgy"
+   ],
+   "at": "18:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Amúgy",
+     "amúgy",
+     "어무지"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Aha! 😏",
+   "rd": "어허! 😏",
+   "ko": "아하! 😏",
+   "note": "aha = 아하",
+   "tags": [
+    "expr:Aha"
+   ],
+   "at": "18:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj. Izé, bocsi.",
+   "rd": "여이. 이제, 보치.",
+   "ko": "아이고. 저기… 미안.",
+   "note": "izé = 저기, 그거(말 막힐 때)",
+   "tags": [
+    "expr:Izé"
+   ],
+   "at": "18:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "bocsi",
+     "bocsi",
+     "보치"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Nem baj. Az szappan volt.",
+   "rd": "넴 버이. 어즈 써뻔 볼트.",
+   "ko": "괜찮아. 그거 비누였어.",
+   "note": "szappan = 비누",
+   "tags": [
+    "expr:Nem baj"
+   ],
+   "at": "18:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "szappan",
+     "szappan",
+     ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Ja... ezért volt olyan tiszta.",
+   "rd": "여... 에제르트 볼트 오연 티쓰터.",
+   "ko": "아… 어쩐지 깔끔하더라.",
+   "note": "ezért = 그래서",
+   "tags": [],
+   "at": "18:07",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Ja",
+     "ja",
+     "여"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "tiszta",
+     "tiszta",
+     "티스터"
+    ]
+   ]
+  }
+ ]
+}

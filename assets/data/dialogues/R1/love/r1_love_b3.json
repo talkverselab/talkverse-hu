@@ -1,0 +1,273 @@
+{
+ "id": "r1_love_b3",
+ "region": "R1",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love",
+  "media"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "언너가 너무 많아",
+ "emoji": "💐",
+ "scene": "7월의 이름의 날. A 가 꽃을 잔뜩 들고 Bence 의 카페에 왔는데, 오늘 이곳엔 언너가 한 명이 아니다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Bence",
+  "D": "Anna néni"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "이름의 날 축하하기(Boldog névnapot!)",
+ "expressions": [
+  "Hű",
+  "Mi van?",
+  "De hát",
+  "Szóval"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "hu": "Hű, de sok virág! Mi van ma?",
+   "rd": "휘, 데 쇽 비락! 미 번 머?",
+   "ko": "와, 꽃 많다! 오늘 뭐 있어?",
+   "note": "virág = 꽃",
+   "tags": [
+    "expr:Hű"
+   ],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "virág",
+     "virág",
+     "비라그"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Ma van Anna névnapja, de nem látom.",
+   "rd": "머 번 언너 네브너프여, 데 넴 라톰.",
+   "ko": "오늘 언너 이름의 날인데, 안 보여.",
+   "note": "névnap = 이름의 날",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ma",
+     "ma",
+     "머"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "névnapja",
+     "névnapja",
+     ""
+    ],
+    [
+     "látom",
+     "lát",
+     "라트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Hát szólj neki hangosan! Kicsi a kávézó.",
+   "rd": "하트 쏠이 네키 헌고션! 키치 어 카베조.",
+   "ko": "그럼 크게 불러! 카페 작잖아.",
+   "note": "szólj = 불러",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "szólj",
+     "szól",
+     "쏠"
+    ],
+    [
+     "hangosan",
+     "hangos",
+     ""
+    ],
+    [
+     "kávézó",
+     "kávézik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Boldog névnapot, Anna! Ez a tiéd!",
+   "rd": "볼독 네브너포트, 언너! 에즈 어 티에드!",
+   "ko": "이름의 날 축하해, 언너! 이거 네 거야!",
+   "note": "a tiéd = 네 것",
+   "tags": [],
+   "lemmas": [
+    [
+     "Boldog",
+     "boldog",
+     "볼도그"
+    ],
+    [
+     "névnapot",
+     "névnap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "D",
+   "hu": "Köszönöm, drágám! Honnan tudod a nevem?",
+   "rd": "쾨쐬뇜, 드라감! 혼넌 투도드 어 네벰?",
+   "ko": "고맙구나, 얘야! 내 이름은 어떻게 알았니?",
+   "note": "honnan = 어디서",
+   "tags": [],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "drágám",
+     "drága",
+     "드라가"
+    ],
+    [
+     "tudod",
+     "tud",
+     "투드"
+    ],
+    [
+     "nevem",
+     "név",
+     "네브"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Jaj, ma itt mindenki Anna. Már hárman állnak mögötted.",
+   "rd": "여이, 머 이트 민덴키 언너. 마르 하르먼 알넉 뫼괴떼드.",
+   "ko": "아이고, 오늘 여기 다 언너야. 벌써 세 명이 네 뒤에 서 있어.",
+   "note": "mögötted = 네 뒤에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "hárman",
+     "hárman",
+     ""
+    ],
+    [
+     "állnak",
+     "áll.",
+     "얼러모쉬"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Mi van? De hát nekem csak egy Annám van!",
+   "rd": "미 번? 데 하트 네켐 척 에지 언남 번!",
+   "ko": "뭐? 근데 나한테 언너는 한 명뿐인데!",
+   "note": "Annám = 나의 언너",
+   "tags": [
+    "expr:Mi van?",
+    "expr:De hát"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Hallottam. Szóval van egy Annád?",
+   "rd": "헐로떰. 쏘벌 번 에지 언나드?",
+   "ko": "들었어. 그러니까… 너한테 언너가 있다는 거네?",
+   "note": "Annád = 너의 언너",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Hallottam",
+     "hallott",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  }
+ ]
+}

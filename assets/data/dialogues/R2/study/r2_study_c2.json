@@ -1,0 +1,362 @@
+{
+ "id": "r2_study_c2",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "5점이나 받았어",
+ "emoji": "😢",
+ "scene": "시험 결과가 나왔다. Réka 에게 슬픈 소식을 전한다. 점수 체계를 잘못 알고 있는 줄은 모른 채",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "chat",
+ "twist": 11,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "점수 말하기(ötös, egyes)와 위로·축하",
+ "expressions": [
+  "Sajnos",
+  "Mi van",
+  "Várj",
+  "Úristen",
+  "Naná",
+  "Szóval"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Megjött az eredmény. Sajnos ötös lett. 😢",
+   "rd": "멕요트 어즈 에레드메니. 셔이노시 외퇴시 레트. 😢",
+   "ko": "결과 나왔어. 아쉽게도 5점이야. 😢",
+   "note": "ötös = 5점",
+   "tags": [
+    "expr:Sajnos"
+   ],
+   "at": "16:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Megjött",
+     "megjön",
+     ""
+    ],
+    [
+     "eredmény",
+     "eredmény",
+     "에레드메니"
+    ],
+    [
+     "ötös",
+     "ötös",
+     ""
+    ],
+    [
+     "lett",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Sajnos? Mi van?",
+   "rd": "셔이노시? 미 번?",
+   "ko": "아쉽게도? 뭐야?",
+   "note": "sajnos = 아쉽게도",
+   "tags": [
+    "expr:Sajnos",
+    "expr:Mi van"
+   ],
+   "at": "16:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Sajnos",
+     "sajnos",
+     "셔이노시"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Nagyon sokat tanultam, és csak ötös.",
+   "rd": "너죤 쇼커트 터눌텀, 에시 척 외퇴시.",
+   "ko": "엄청 공부했는데 겨우 5점이야.",
+   "note": "sokat = 많이",
+   "tags": [],
+   "at": "16:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "tanultam",
+     "tanult",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "ötös",
+     "ötös",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Várj. Szerinted melyik a legjobb jegy?",
+   "rd": "바르이. 쎄린테드 메익 어 렉요브 예지?",
+   "ko": "잠깐. 네 생각엔 제일 좋은 점수가 뭐야?",
+   "note": "jegy = 점수, 표",
+   "tags": [
+    "expr:Várj"
+   ],
+   "at": "16:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "legjobb",
+     "jó",
+     "요"
+    ],
+    [
+     "jegy",
+     "jegy",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Az egyes, nem? Egyes, első, legjobb.",
+   "rd": "어즈 에제시, 넴? 에제시, 엘쇠, 렉요브.",
+   "ko": "1점 아니야? 1점, 1등, 최고.",
+   "note": "egyes = 1점",
+   "tags": [],
+   "at": "16:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "legjobb",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Úristen, nálunk az ötös a legjobb! Az egyes azt jelenti: megbuktál.",
+   "rd": "우리슈텐, 날룬크 어즈 외퇴시 어 렉요브! 어즈 에제시 어즈트 옐렌티: 멕북탈.",
+   "ko": "세상에, 우리는 5점이 최고야! 1점은 낙제라는 뜻이야.",
+   "note": "megbuktál = 네가 떨어졌다",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "at": "16:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "ötös",
+     "ötös",
+     ""
+    ],
+    [
+     "legjobb",
+     "jó",
+     "요"
+    ],
+    [
+     "jelenti",
+     "jelent",
+     "옐렌트"
+    ],
+    [
+     "megbuktál",
+     "megbukik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Komolyan? Akkor szuper vagyok!",
+   "rd": "코모연? 어꼬르 쑤페르 버죡!",
+   "ko": "진짜? 그럼 나 대단한 거네!",
+   "note": "szuper = 끝내주는",
+   "tags": [],
+   "at": "16:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Naná! Gratulálok!",
+   "rd": "너나! 그러툴랄록!",
+   "ko": "당연하지! 축하해!",
+   "note": "gratulálok = 축하해",
+   "tags": [
+    "expr:Naná"
+   ],
+   "at": "16:14",
+   "stamp": "🎉",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Naná",
+     "naná",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Várj. Jaj.",
+   "rd": "바르이. 여이.",
+   "ko": "잠깐. 아이고.",
+   "note": "jaj = 아이고",
+   "tags": [
+    "expr:Várj"
+   ],
+   "at": "16:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Mi az?",
+   "rd": "미 어즈?",
+   "ko": "왜?",
+   "note": "mi az? = 뭔데?",
+   "tags": [],
+   "at": "16:15",
+   "ui": "bubble",
+   "lemmas": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Anna tegnap egyest kapott. Tortát vettem neki.",
+   "rd": "언너 텍너프 에제슈트 커포트. 토르타트 베뗌 네키.",
+   "ko": "언너 어제 1점 받았거든. 내가 케이크 사 줬어.",
+   "note": "torta = 케이크",
+   "tags": [],
+   "at": "16:16",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "tegnap",
+     "tegnap",
+     "테그너프"
+    ],
+    [
+     "kapott",
+     "kap",
+     "커프"
+    ],
+    [
+     "vettem",
+     "vett",
+     "벳트"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Szóval ezért sírt, amikor énekeltél?",
+   "rd": "쏘벌 에제르트 시르트, 어미코르 에네켈텔?",
+   "ko": "그래서 네가 노래할 때 걔가 운 거구나?",
+   "note": "énekeltél = 네가 노래했다",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "at": "16:17",
+   "stamp": "😂",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "sírt",
+     "sír",
+     "시르"
+    ],
+    [
+     "énekeltél",
+     "énekel",
+     "에네켈"
+    ]
+   ]
+  }
+ ]
+}

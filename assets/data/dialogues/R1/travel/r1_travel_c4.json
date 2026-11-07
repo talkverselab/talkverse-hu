@@ -1,0 +1,257 @@
+{
+ "id": "r1_travel_c4",
+ "region": "R1",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "목도리",
+ "emoji": "🧣",
+ "scene": "어제 기차 옆자리였던 사람에게서 메시지가 왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zsófi"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "모르는 사람 메시지에 답하기와 시간 묻기",
+ "expressions": [
+  "Tényleg",
+  "Jaj",
+  "köszi",
+  "ráérsz"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia! Tegnap a vonaton melletted ültem. 😊",
+   "rd": "씨어! 텍너프 어 보너톤 멜레떼드 윌템. 😊",
+   "ko": "안녕! 어제 기차에서 네 옆에 앉았어. 😊",
+   "note": "melletted = 네 옆에",
+   "tags": [],
+   "at": "22:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "vonaton",
+     "vonat",
+     ""
+    ],
+    [
+     "melletted",
+     "mellette",
+     ""
+    ],
+    [
+     "ültem",
+     "ül",
+     "위일"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Tényleg? Ki vagy?",
+   "rd": "테닐렉? 키 버지?",
+   "ko": "정말? 누구야?",
+   "note": "tényleg? = 정말?",
+   "tags": [
+    "expr:Tényleg"
+   ],
+   "at": "22:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Zsófi. Aki az ablaknál ült.",
+   "rd": "죠피. 어키 어즈 어블럭날 윌트.",
+   "ko": "소피. 창가에 앉아 있던.",
+   "note": "ablak = 창문",
+   "tags": [],
+   "at": "22:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Zsófi",
+     "zsófi",
+     ""
+    ],
+    [
+     "ablaknál",
+     "ablak",
+     "어블러크"
+    ],
+    [
+     "ült",
+     "ül",
+     "위일"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Ó, igen! Hogy találtál meg?",
+   "rd": "오, 이겐! 호지 털랄탈 멕?",
+   "ko": "아, 맞아! 어떻게 찾았어?",
+   "note": "hogy = 어떻게",
+   "tags": [],
+   "at": "22:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "találtál",
+     "talál",
+     "털랄"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "A sálad nálam van.",
+   "rd": "어 샬러드 날럼 번.",
+   "ko": "네 목도리 나한테 있어.",
+   "note": "sál = 목도리",
+   "tags": [],
+   "at": "22:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "sálad",
+     "sálad",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj, köszi! Hol kapom vissza?",
+   "rd": "여이, 쾨씨! 홀 커폼 비써?",
+   "ko": "아이고, 고마워! 어디서 돌려받아?",
+   "note": "visszakap = 돌려받다",
+   "tags": [
+    "expr:Jaj",
+    "expr:köszi"
+   ],
+   "at": "22:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "köszi",
+     "köszi",
+     "쾨씨"
+    ],
+    [
+     "kapom",
+     "kap",
+     "커프"
+    ],
+    [
+     "vissza",
+     "vissza",
+     "비써"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Nem hagytad ott. Én vettem el.",
+   "rd": "넴 허지터드 오트. 엔 베뗌 엘.",
+   "ko": "네가 두고 간 게 아니야. 내가 가져왔어.",
+   "note": "én vettem el = 내가 가져왔다(én 이 초점)",
+   "tags": [],
+   "at": "22:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "hagytad",
+     "hagy",
+     "허지"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "vettem",
+     "vett",
+     "벳트"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Holnap ráérsz? 😇",
+   "rd": "홀너프 라에르쓰? 😇",
+   "ko": "내일 시간 돼? 😇",
+   "note": "ráérsz = 너 시간 있어?",
+   "tags": [
+    "expr:ráérsz"
+   ],
+   "at": "22:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "ráérsz",
+     "ráérik",
+     ""
+    ]
+   ]
+  }
+ ]
+}

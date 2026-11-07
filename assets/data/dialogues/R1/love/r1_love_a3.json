@@ -1,0 +1,211 @@
+{
+ "id": "r1_love_a3",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "레테시도",
+ "emoji": "🥧",
+ "scene": "Anna 가 직접 구운 레테시를 내민다. A 가 끝소리 하나를 틀린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "szeretem(그걸 좋아해)과 szeretlek(너를 사랑해) 구별",
+ "expressions": [
+  "Tényleg?",
+  "Tessék?",
+  "Jaj",
+  "Aha"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Kóstold meg! Én sütöttem.",
+   "rd": "코슈톨드 멕! 엔 쉬퇴뗌.",
+   "ko": "먹어 봐! 내가 구웠어.",
+   "note": "kóstold meg = 맛봐",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kóstold",
+     "kóstold",
+     ""
+    ],
+    [
+     "sütöttem",
+     "süt",
+     "슈트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hű, de finom!",
+   "rd": "휘, 데 피놈!",
+   "ko": "와, 진짜 맛있다!",
+   "note": "finom = 맛있는",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Tényleg? Szereted?",
+   "rd": "테닐렉? 쎄레테드?",
+   "ko": "진짜? 좋아해?",
+   "note": "szereted = 네가 그걸 좋아한다",
+   "tags": [
+    "expr:Tényleg?"
+   ],
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Igen! Nagyon szeretlek!",
+   "rd": "이겐! 너죤 쎄레틀렉!",
+   "ko": "응! 널 정말 사랑해!",
+   "note": "szeretlek = 너를 사랑해(szeretem = 그걸 좋아해)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Tessék? Mit mondtál?",
+   "rd": "테쎅? 미트 몬드탈?",
+   "ko": "뭐? 뭐라고 했어?",
+   "note": "mit mondtál? = 뭐라고 했어?",
+   "tags": [
+    "expr:Tessék?"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "mondtál",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj, nem! A rétest szeretem!",
+   "rd": "여이, 넴! 어 레테슈트 쎄레템!",
+   "ko": "아이고, 아니! 레테시를 좋아한다고!",
+   "note": "a rétest = 레테시를, -t = 목적격",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ],
+    [
+     "szeretem",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Aha. Csak a rétest?",
+   "rd": "어허. 척 어 레테슈트?",
+   "ko": "아하. 레테시만?",
+   "note": "csak = ~만",
+   "tags": [
+    "expr:Aha"
+   ],
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Hát... a rétest is.",
+   "rd": "하트... 어 레테슈트 이시.",
+   "ko": "음… 레테시'도'.",
+   "note": "is = ~도",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  }
+ ]
+}

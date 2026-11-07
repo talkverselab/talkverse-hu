@@ -1,0 +1,379 @@
+{
+ "id": "r2_culture_b1",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "사흘 된 걸작",
+ "emoji": "🎤",
+ "scene": "받침대 위 레테시가 팔린 뒤 기자가 찾아왔다. 사실대로 말할수록 더 깊어 보인다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Újságíró"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "인터뷰에서 사실 바로잡기(igazából, komolyan)",
+ "expressions": [
+  "Hát",
+  "igazából",
+  "Figyelj",
+  "Szóval",
+  "Nyugi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "hu": "Ön a művész? Mit jelent ez a rétes?",
+   "rd": "왼 어 뮈베쓰? 미트 옐렌트 에즈 어 레테시?",
+   "ko": "작가님이세요? 이 레테시는 무슨 뜻인가요?",
+   "note": "Ön = 당신(동사는 3인칭)",
+   "tags": [],
+   "lemmas": [
+    [
+     "művész",
+     "művész",
+     ""
+    ],
+    [
+     "jelent",
+     "jelen",
+     ""
+    ],
+    [
+     "rétes",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hát... igazából ez csak az ebédem.",
+   "rd": "하트... 이거자볼 에즈 척 어즈 에베뎀.",
+   "ko": "음… 사실 이건 그냥 제 점심이에요.",
+   "note": "igazából = 사실은",
+   "tags": [
+    "expr:Hát",
+    "expr:igazából"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "igazából",
+     "igaz",
+     "이거즈"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "ebédem",
+     "ebédem",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Az ebédje, zseniális! A művész és a mindennapi éhség!",
+   "rd": "어즈 에베드예, 제니알리시! 어 뮈베쓰 에시 어 민덴너피 에흐섹!",
+   "ko": "점심! 천재적이네요! 예술가와 일상의 허기!",
+   "note": "zseniális = 천재적인",
+   "tags": [],
+   "lemmas": [
+    [
+     "ebédje",
+     "ebédje",
+     ""
+    ],
+    [
+     "zseniális",
+     "zseniális",
+     ""
+    ],
+    [
+     "művész",
+     "művész",
+     ""
+    ],
+    [
+     "mindennapi",
+     "mindennapi",
+     ""
+    ],
+    [
+     "éhség",
+     "éhség",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Figyelj, mondj valami okosat, mindenki téged néz.",
+   "rd": "피젤이, 몬드이 벌러미 오코셔트, 민덴키 테게드 네즈.",
+   "ko": "들어 봐, 똑똑한 말 좀 해, 다들 너만 봐.",
+   "note": "valami okosat = 뭔가 똑똑한 것을",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "mondj",
+     "mond",
+     "몬드"
+    ],
+    [
+     "okosat",
+     "okos",
+     "오코시"
+    ],
+    [
+     "néz",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Szóval... megéheztem, letettem, és elfelejtettem.",
+   "rd": "쏘벌... 메게헤즈템, 레테뗌, 에시 엘펠레이테뗌.",
+   "ko": "그러니까… 배고팠고, 내려놨고, 잊어버렸어요.",
+   "note": "elfelejt = 잊어버리다",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "megéheztem",
+     "megéhezik",
+     ""
+    ],
+    [
+     "letettem",
+     "letesz",
+     ""
+    ],
+    [
+     "elfelejtettem",
+     "elfelejtett",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Éhség, elengedés, felejtés! Ezt leírom, ez lesz a címlap!",
+   "rd": "에흐섹, 엘렌게데시, 펠레이테시! 에즈트 레이롬, 에즈 레쓰 어 침러프!",
+   "ko": "허기, 놓아줌, 망각! 받아 적겠습니다, 이게 1면이에요!",
+   "note": "címlap = 1면, 표지",
+   "tags": [],
+   "lemmas": [
+    [
+     "Éhség",
+     "éhség",
+     ""
+    ],
+    [
+     "elengedés",
+     "elengedés",
+     ""
+    ],
+    [
+     "felejtés",
+     "felejt",
+     "펠레이트"
+    ],
+    [
+     "leírom",
+     "leír",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "címlap",
+     "címlap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Várjon, kérem! Komolyan, a rétes már háromnapos!",
+   "rd": "바르욘, 케렘! 코모연, 어 레테시 마르 하롬너포시!",
+   "ko": "잠깐만요! 진짜로, 그 레테시 벌써 사흘 됐어요!",
+   "note": "háromnapos = 사흘 된",
+   "tags": [],
+   "lemmas": [
+    [
+     "Várjon",
+     "vár",
+     "바르"
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
+    ],
+    [
+     "rétes",
+     "rétes",
+     "레테시"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "háromnapos",
+     "háromnap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Zseniális! A vevő már kérdezi: mikor lesz a következő?",
+   "rd": "제니알리시! 어 베뵈 마르 케르데지: 미코르 레쓰 어 쾨베트케죄?",
+   "ko": "천재적이에요! 구매자가 벌써 묻네요, 다음 작품은 언제냐고요!",
+   "note": "vevő = 구매자",
+   "tags": [],
+   "lemmas": [
+    [
+     "Zseniális",
+     "zseniális",
+     ""
+    ],
+    [
+     "vevő",
+     "vevő",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "kérdezi",
+     "kérdez",
+     "케르데즈"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "következő",
+     "következik",
+     "쾨베트케지크"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "A következő? Anna, mit csináljak?",
+   "rd": "어 쾨베트케죄? 언너, 미트 치날역?",
+   "ko": "다음 작품? 안나, 나 어떡해?",
+   "note": "mit csináljak? = 어떡하지?",
+   "tags": [],
+   "lemmas": [
+    [
+     "következő",
+     "következik",
+     "쾨베트케지크"
+    ],
+    [
+     "csináljak",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Nyugi, már sütöm a másodikat. A pénz fele az enyém.",
+   "rd": "뉴기, 마르 쉬툄 어 마쇼디커트. 어 펜즈 펠레 어즈 에넴.",
+   "ko": "진정해, 벌써 두 번째 굽고 있어. 돈 반은 내 거야.",
+   "note": "nyugi = 진정해",
+   "tags": [
+    "expr:Nyugi"
+   ],
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "sütöm",
+     "süt",
+     "슈트"
+    ],
+    [
+     "másodikat",
+     "második",
+     ""
+    ],
+    [
+     "pénz",
+     "pénz",
+     "펜즈"
+    ],
+    [
+     "fele",
+     "fel",
+     "펠"
+    ]
+   ]
+  }
+ ]
+}

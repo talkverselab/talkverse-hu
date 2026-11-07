@@ -1,0 +1,340 @@
+{
+ "id": "r2_friends_b2",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "media"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "글자 하나 차이",
+ "emoji": "💋",
+ "scene": "Réka 네 집에 처음 가는 날. 어머니께 드릴 인사를 현관 앞에서 연습했는데",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Réka anyukája"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "어른께 드리는 인사 csókolom 과 -lom/-lak 구별",
+ "expressions": [
+  "Figyelj",
+  "Nyugi",
+  "Oké",
+  "ugye",
+  "Semmi baj",
+  "izé"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, anyámnak azt mondod: csókolom. Ez fontos.",
+   "rd": "피젤이, 어냠넉 어즈트 몬도드: 초콜롬. 에즈 폰토시.",
+   "ko": "야, 우리 엄마한테는 「초콜롬」이라고 해. 이거 중요해.",
+   "note": "csókolom = 어른께 드리는 인사",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "anyámnak",
+     "anyám",
+     "언얌"
+    ],
+    [
+     "mondod",
+     "mond",
+     "몬드"
+    ],
+    [
+     "csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "fontos",
+     "fontos",
+     "폰토슈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Csókolom? De az nem azt jelenti, hogy csók?",
+   "rd": "초콜롬? 데 어즈 넴 어즈트 옐렌티, 호지 촉?",
+   "ko": "초콜롬? 근데 그거 「키스」라는 뜻 아니야?",
+   "note": "csók = 키스",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "jelenti",
+     "jelent",
+     "옐렌트"
+    ],
+    [
+     "csók",
+     "csók",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "De igen, de így köszönünk a néniknek. Nyugi, ne gondolkodj!",
+   "rd": "데 이겐, 데 이지 쾨쐬뉜크 어 네닉넥. 뉴기, 네 곤돌코드이!",
+   "ko": "맞아, 근데 어른들께 그렇게 인사해. 진정해, 생각하지 마!",
+   "note": "köszön = 인사하다",
+   "tags": [
+    "expr:Nyugi"
+   ],
+   "lemmas": [
+    [
+     "igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "köszönünk",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "néniknek",
+     "néni",
+     ""
+    ],
+    [
+     "gondolkodj",
+     "gondol",
+     "곤돌"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Oké. Csókolom, csókolom, csókolom.",
+   "rd": "오케. 초콜롬, 초콜롬, 초콜롬.",
+   "ko": "알았어. 초콜롬, 초콜롬, 초콜롬.",
+   "note": "외워 두기",
+   "tags": [
+    "expr:Oké"
+   ],
+   "lemmas": [
+    [
+     "Oké",
+     "oké",
+     "오케"
+    ],
+    [
+     "csókolom",
+     "csókol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Jaj, de jó, hogy jöttél! Te vagy {name}, ugye?",
+   "rd": "여이, 데 요, 호지 요뗄! 테 버지 {name}, 우제?",
+   "ko": "어머, 와 줘서 반갑다! 네가 {name}, 맞지?",
+   "note": "de jó = 참 잘됐다",
+   "tags": [
+    "expr:ugye"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "jöttél",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Igen! Csókollak!",
+   "rd": "이겐! 초콜럭!",
+   "ko": "네! 키스할게!",
+   "note": "csókollak = 내가 너에게 키스한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Hű. Hát, köszönöm?",
+   "rd": "휘. 하트, 쾨쐬뇜?",
+   "ko": "어머. 음, 고마워?",
+   "note": "hát = 음",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Jaj, ne! Csókolom, nem csókollak!",
+   "rd": "여이, 네! 초콜롬, 넴 초콜럭!",
+   "ko": "아이고, 안 돼! 초콜롬이지, 초콜라크가 아니고!",
+   "note": "-lak = 내가 너를",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "csókollak",
+     "csókol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Mi a különbség? Csak egy betű!",
+   "rd": "미 어 퀼뢴브섹? 척 에지 베튀!",
+   "ko": "뭐가 달라? 글자 하나인데!",
+   "note": "betű = 글자",
+   "tags": [],
+   "lemmas": [
+    [
+     "különbség",
+     "különbség",
+     ""
+    ],
+    [
+     "betű",
+     "betű",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Semmi baj. De a férjem most jön, neki ezt ne mondd!",
+   "rd": "셈미 버이. 데 어 페르옘 모슈트 욘, 네키 에즈트 네 몬드!",
+   "ko": "괜찮아. 근데 남편이 지금 오니까, 그이한텐 하지 마!",
+   "note": "férj = 남편",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "férjem",
+     "férj",
+     ""
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "mondd",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Jó, rendben. Csók, izé, jó napot!",
+   "rd": "요, 렌드벤. 촉, 이제, 요 너포트!",
+   "ko": "네, 알겠어요. 초… 어, 안녕하세요!",
+   "note": "rendben = 알겠습니다",
+   "tags": [
+    "expr:izé"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ]
+   ]
+  }
+ ]
+}

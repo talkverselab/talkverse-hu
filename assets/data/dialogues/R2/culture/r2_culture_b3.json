@@ -1,0 +1,346 @@
+{
+ "id": "r2_culture_b3",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media",
+  "love"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "「ő」는 누구야",
+ "emoji": "🕵️",
+ "scene": "Anna 가 어떤 사람 얘기를 꺼낸다. 헝가리어 ő 는 그도 그녀도 된다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance",
+  "jealousy"
+ ],
+ "goal": "3인칭 ő 와 과거형으로 이야기하기",
+ "expressions": [
+  "Figyelj",
+  "De jó",
+  "Aha",
+  "Hát"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, találkoztam valakivel. Nagyon aranyos.",
+   "rd": "피젤이, 털랄코즈텀 벌러키벨. 너죤 어러뇨시.",
+   "ko": "있잖아, 어떤 사람을 만났어. 엄청 귀여워.",
+   "note": "aranyos = 귀여운",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "találkoztam",
+     "találkozik",
+     "털랄코지크"
+    ],
+    [
+     "aranyos",
+     "aranyos",
+     "어러뇨시"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "De jó... Fiú vagy lány?",
+   "rd": "데 요... 피우 버지 라니?",
+   "ko": "좋겠네… 남자야, 여자야?",
+   "note": "de jó = 좋다",
+   "tags": [
+    "expr:De jó"
+   ],
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "lány",
+     "lány",
+     "라니"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Magyarul csak annyit mondok: ő.",
+   "rd": "머져룰 척 어니트 몬독: 외.",
+   "ko": "헝가리어로는 그냥 「ő」라고만 해.",
+   "note": "ő = 그, 그녀(성 구별 없음)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Magyarul",
+     "magyar",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "mondok",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Nagyszerű. És mit csinál ez az ő?",
+   "rd": "너지쎄뤼. 에시 미트 치날 에즈 어즈 외?",
+   "ko": "잘됐네. 그 「ő」는 뭐 하는 사람인데?",
+   "note": "nagyszerű = 훌륭한",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nagyszerű",
+     "nagyszerű",
+     "너지세뤼"
+    ],
+    [
+     "csinál",
+     "csi",
+     "치"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Nyelvet tanul. Mindig rossz ragot használ, de szépen nevet.",
+   "rd": "넬베트 터눌. 민딕 로쓰 러고트 허쓰날, 데 쎄펜 네베트.",
+   "ko": "언어를 배워. 어미를 맨날 틀리는데, 웃는 게 예뻐.",
+   "note": "rag = 어미, 접미사",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nyelvet",
+     "nyelve",
+     ""
+    ],
+    [
+     "tanul",
+     "tan",
+     ""
+    ],
+    [
+     "rossz",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "ragot",
+     "rag",
+     ""
+    ],
+    [
+     "használ",
+     "használ",
+     "하스날"
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
+    ],
+    [
+     "nevet",
+     "neve",
+     "네베"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Aha. És hol találkoztatok?",
+   "rd": "어허. 에시 홀 털랄코즈터톡?",
+   "ko": "아하. 어디서 만났어?",
+   "note": "találkoztatok = 너희가 만났다",
+   "tags": [
+    "expr:Aha"
+   ],
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "találkoztatok",
+     "találkozik",
+     "털랄코지크"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "A múzeum előtt. Azt mondta, hogy a rajzom krumpli.",
+   "rd": "어 무제움 엘뢰트. 어즈트 몬드터, 호지 어 러이좀 크룸플리.",
+   "ko": "미술관 앞에서. 내 그림이 감자래.",
+   "note": "előtt = ~앞에서",
+   "tags": [],
+   "lemmas": [
+    [
+     "múzeum",
+     "múzeum",
+     "무제움"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ],
+    [
+     "rajzom",
+     "rajzom",
+     ""
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Szemtelen ember. És mit akarsz tőle?",
+   "rd": "쎔텔렌 엠베르. 에시 미트 어커르쓰 퇼레?",
+   "ko": "건방진 사람이네. 그래서 뭘 바라는데?",
+   "note": "szemtelen = 건방진",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szemtelen",
+     "szemtelen",
+     ""
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "akarsz",
+     "akar",
+     "어커르"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Hát... azt akarom, hogy végre rájöjjön.",
+   "rd": "하트... 어즈트 어커롬, 호지 벡레 라요왼.",
+   "ko": "음… 이제 좀 눈치챘으면 좋겠어.",
+   "note": "rájön = 알아차리다",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "akarom",
+     "akar",
+     "어커르"
+    ],
+    [
+     "végre",
+     "vég",
+     "베그"
+    ],
+    [
+     "rájöjjön",
+     "rájön",
+     "라이욘"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Mire? Várj, hány ember mondta ezt neked?",
+   "rd": "미레? 바르이, 하니 엠베르 몬드터 에즈트 네케드?",
+   "ko": "뭘? 잠깐, 너한테 그 말 한 사람이 몇 명이야?",
+   "note": "hány ember = 몇 사람",
+   "tags": [],
+   "lemmas": [
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Egy. És most éppen mellettem ül.",
+   "rd": "에지. 에시 모슈트 에뻰 멜레뗌 윌.",
+   "ko": "한 명. 지금 내 옆에 앉아 있어.",
+   "note": "éppen = 바로 지금",
+   "tags": [],
+   "lemmas": [
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "éppen",
+     "éppen",
+     "에펜"
+    ],
+    [
+     "ül",
+     "ül",
+     "위일"
+    ]
+   ]
+  }
+ ]
+}

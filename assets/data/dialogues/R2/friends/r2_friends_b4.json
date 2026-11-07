@@ -1,0 +1,379 @@
+{
+ "id": "r2_friends_b4",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "실수 공책",
+ "emoji": "📓",
+ "scene": "Réka 의 가방에서 내 이름이 적힌 공책이 떨어졌다. 안에는 내 실수가 빽빽하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "속마음을 들켰을 때의 말과 hiányzik(그립다)",
+ "expressions": [
+  "Jaj",
+  "Várj",
+  "Hát",
+  "Komolyan",
+  "Persze",
+  "Na jó"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Mi ez a füzet? Az én nevem van rajta.",
+   "rd": "미 에즈 어 퓌제트? 어즈 엔 네벰 번 러이터.",
+   "ko": "이 공책 뭐야? 내 이름이 써 있네.",
+   "note": "füzet = 공책",
+   "tags": [],
+   "lemmas": [
+    [
+     "füzet",
+     "füze",
+     ""
+    ],
+    [
+     "nevem",
+     "név",
+     "네브"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Jaj, add vissza! Az nem a tiéd.",
+   "rd": "여이, 어드 비써! 어즈 넴 어 티에드.",
+   "ko": "아이고, 돌려줘! 네 거 아니야.",
+   "note": "add vissza = 돌려줘",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "add",
+     "ad",
+     "어드"
+    ],
+    [
+     "vissza",
+     "vissza",
+     "비써"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Várj, „Meleg vagyok.” Ezt én mondtam!",
+   "rd": "바르이, „멜렉 버죡.” 에즈트 엔 몬드텀!",
+   "ko": "잠깐, 「나 게이야.」 이거 내가 한 말이잖아!",
+   "note": "ezt = 이것을",
+   "tags": [
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "mondtam",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Hát igen. Minden hibádat leírom.",
+   "rd": "하트 이겐. 민덴 히바더트 레이롬.",
+   "ko": "뭐, 그렇지. 네 실수는 전부 적어.",
+   "note": "hiba = 실수",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "hibádat",
+     "hibádat",
+     ""
+    ],
+    [
+     "leírom",
+     "leír",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Komolyan? Még a fél hetet is?",
+   "rd": "코모연? 멕 어 펠 헤테트 이시?",
+   "ko": "진짜? 그 6시 반까지도?",
+   "note": "még … is = ~까지도",
+   "tags": [
+    "expr:Komolyan"
+   ],
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "fél",
+     "fél",
+     "펠"
+    ],
+    [
+     "hetet",
+     "hete",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Persze, az a kedvencem.",
+   "rd": "페르쎄, 어즈 어 케드벤쳄.",
+   "ko": "당연하지, 그게 내 최애야.",
+   "note": "kedvenc = 가장 좋아하는 것",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "kedvencem",
+     "kedvencem",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Ez nagyon gonosz, Réka. Csak nevetsz rajtam?",
+   "rd": "에즈 너죤 고노쓰, 레커. 척 네베트쓰 러이텀?",
+   "ko": "이건 너무 못됐어, 레카. 나 비웃기만 하는 거야?",
+   "note": "nevet = 웃다",
+   "tags": [],
+   "lemmas": [
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "gonosz",
+     "gonosz",
+     "고노스"
+    ],
+    [
+     "nevetsz",
+     "nevet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Olvasd el az utolsó oldalt.",
+   "rd": "올버슈드 엘 어즈 우톨쇼 올덜트.",
+   "ko": "마지막 쪽 읽어 봐.",
+   "note": "olvasd el = 읽어 봐",
+   "tags": [],
+   "lemmas": [
+    [
+     "Olvasd",
+     "olvas",
+     "올버스"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "utolsó",
+     "utolsó",
+     "우톨쇼"
+    ],
+    [
+     "oldalt",
+     "oldal",
+     "올덜"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "„Ma {name} egy hibát sem csinált. Kicsit hiányzik.”",
+   "rd": "„머 {name} 에지 히바트 셈 치날트. 키치트 히아니직.”",
+   "ko": "「오늘 {name} 실수 0개. 조금 허전하다.」",
+   "note": "hiányzik = 그립다, 허전하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ma",
+     "ma",
+     "머"
+    ],
+    [
+     "hibát",
+     "hiba",
+     "히버"
+    ],
+    [
+     "csinált",
+     "csinál",
+     "치날"
+    ],
+    [
+     "hiányzik",
+     "hiányzik",
+     "히아니직"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Na jó, elég. Add már vissza!",
+   "rd": "너 요, 엘렉. 어드 마르 비써!",
+   "ko": "그래, 됐어. 이제 돌려줘!",
+   "note": "elég = 충분한, 됐어",
+   "tags": [
+    "expr:Na jó"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "elég",
+     "elég",
+     "엘렉"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "vissza",
+     "vissza",
+     "비써"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Réka, te sírsz?",
+   "rd": "레커, 테 시르쓰?",
+   "ko": "레카, 너 울어?",
+   "note": "sírsz = 너 운다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "sírsz",
+     "sír",
+     "시르"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Dehogy! Csak erős volt a paprika.",
+   "rd": "데호지! 척 에뢰시 볼트 어 퍼프리커.",
+   "ko": "아니거든! 파프리카가 매웠을 뿐이야.",
+   "note": "dehogy = 천만에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Dehogy",
+     "dehogy",
+     "데허고"
+    ],
+    [
+     "erős",
+     "erős",
+     "에뢰시"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "paprika",
+     "paprika",
+     ""
+    ]
+   ]
+  }
+ ]
+}

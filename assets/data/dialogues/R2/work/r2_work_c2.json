@@ -1,0 +1,335 @@
+{
+ "id": "r2_work_c2",
+ "region": "R2",
+ "island": "work",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "work_hungary"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "읽고 답이 없는 벤체",
+ "emoji": "📵",
+ "scene": "토요일 근무를 바꾸고 싶다. Bence 는 읽기만 하고 답이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bence"
+ },
+ "register": "chat",
+ "twist": 9,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "부탁하고 조르는 말(Légyszi!)과 근무 바꾸기",
+ "expressions": [
+  "Ráérsz",
+  "Légyszi",
+  "Na jó",
+  "Komolyan",
+  "Bocsi",
+  "Hogyhogy"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Szia! Ráérsz szombaton?",
+   "rd": "씨어! 라에르쓰 쏨버톤?",
+   "ko": "안녕! 토요일에 시간 돼?",
+   "note": "ráérsz? = 시간 있어?",
+   "tags": [
+    "expr:Ráérsz"
+   ],
+   "at": "09:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "szombaton",
+     "szombat",
+     "솜바트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Szombaton dolgozom, de a fürdőbe szeretnék menni. Cserélünk?",
+   "rd": "쏨버톤 돌고좀, 데 어 퓌르되베 쎄레트넥 멘니. 체렐륀크?",
+   "ko": "토요일에 일인데 온천에 가고 싶어서. 바꿀래?",
+   "note": "cserélünk? = 우리 바꿀까?",
+   "tags": [],
+   "at": "09:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szombaton",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "dolgozom",
+     "dolgoz",
+     "돌고즈"
+    ],
+    [
+     "fürdőbe",
+     "fürdőbe",
+     ""
+    ],
+    [
+     "szeretnék",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "menni",
+     "megy",
+     "메지"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Bence? Látom, hogy olvastad.",
+   "rd": "벤체? 라톰, 호지 올버슈터드.",
+   "ko": "벤체? 읽은 거 보여.",
+   "note": "olvastad = 네가 그것을 읽었다",
+   "tags": [],
+   "at": "10:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bence",
+     "bence",
+     ""
+    ],
+    [
+     "olvastad",
+     "olvas",
+     "올버스"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Légyszi! Hozok rétest is.",
+   "rd": "레지씨! 호족 레테슈트 이시.",
+   "ko": "제발! 레테시도 사 올게.",
+   "note": "légyszi = 제발, 부탁이야",
+   "tags": [
+    "expr:Légyszi"
+   ],
+   "at": "10:40",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Légyszi",
+     "légyszi",
+     ""
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Na jó, két rétest.",
+   "rd": "너 요, 케트 레테슈트.",
+   "ko": "알았어, 레테시 두 개.",
+   "note": "két = 두(명사 앞)",
+   "tags": [
+    "expr:Na jó"
+   ],
+   "at": "11:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Komolyan nem válaszolsz? Ez durva.",
+   "rd": "코모연 넴 발러쏠쓰? 에즈 두르버.",
+   "ko": "진짜 답 안 해? 너무한다.",
+   "note": "válaszolsz = 네가 답한다",
+   "tags": [
+    "expr:Komolyan"
+   ],
+   "at": "12:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "válaszolsz",
+     "válaszol",
+     "발러졸"
+    ],
+    [
+     "durva",
+     "durva",
+     "두르버"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Bocsi, eddig nem tudtam írni. A te műszakodat csinálom.",
+   "rd": "보치, 에딕 넴 투드텀 이르니. 어 테 뮈써코더트 치날롬.",
+   "ko": "미안, 지금까지 답을 못 했어. 네 근무를 하고 있거든.",
+   "note": "műszak = 근무 시간",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "14:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "eddig",
+     "eddig",
+     "에딕"
+    ],
+    [
+     "tudtam",
+     "tud",
+     "투드"
+    ],
+    [
+     "írni",
+     "ír",
+     "이르"
+    ],
+    [
+     "műszakodat",
+     "műszak",
+     ""
+    ],
+    [
+     "csinálom",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Az enyémet? Hogyhogy?",
+   "rd": "어즈 에네메트? 호지호지?",
+   "ko": "내 걸? 어떻게?",
+   "note": "hogyhogy? = 어째서?",
+   "tags": [
+    "expr:Hogyhogy"
+   ],
+   "at": "14:21",
+   "ui": "bubble",
+   "lemmas": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Ma szombat van.",
+   "rd": "머 쏨버트 번.",
+   "ko": "오늘 토요일이야.",
+   "note": "szombat = 토요일",
+   "tags": [],
+   "at": "14:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Ma",
+     "ma",
+     "머"
+    ],
+    [
+     "szombat",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Úristen. Mindjárt megyek!",
+   "rd": "우리슈텐. 민드야르트 메젝!",
+   "ko": "세상에. 금방 갈게!",
+   "note": "mindjárt = 금방",
+   "tags": [],
+   "at": "14:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Két rétes. Emlékszel? 😇",
+   "rd": "케트 레테시. 엠렉쎌? 😇",
+   "ko": "레테시 두 개. 기억하지? 😇",
+   "note": "emlékszel = 네가 기억한다",
+   "tags": [],
+   "at": "14:22",
+   "stamp": "😇",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "rétes",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  }
+ ]
+}

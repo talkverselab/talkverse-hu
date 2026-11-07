@@ -1,0 +1,368 @@
+{
+ "id": "r2_life_c2",
+ "region": "R2",
+ "island": "life",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "다비드 엄마입니다",
+ "emoji": "🌭",
+ "scene": "모르는 번호로 문자가 왔다. Dávid 의 어머니가 아들 안부를 대신 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid anyukája",
+  "C": "Dávid"
+ },
+ "register": "chat",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "어른과 문자 주고받기, 전해 들은 말 옮기기(Azt mondta, …)",
+ "expressions": [
+  "Csókolom",
+  "De jó",
+  "Tényleg",
+  "Na jó"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia, {name}! Dávid anyukája vagyok. 😊",
+   "rd": "씨어, {name}! 다비드 어뉴카여 버죡. 😊",
+   "ko": "안녕, {name}! 다비드 엄마야. 😊",
+   "note": "anyuka = 엄마",
+   "tags": [],
+   "at": "16:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "anyukája",
+     "anyukája",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Csókolom! Honnan van meg a számom?",
+   "rd": "초콜롬! 혼넌 번 멕 어 싸몸?",
+   "ko": "안녕하세요! 제 번호는 어떻게 아세요?",
+   "note": "honnan van meg? = 어디서 났어요?",
+   "tags": [
+    "expr:Csókolom"
+   ],
+   "at": "16:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "számom",
+     "számom",
+     "서몸"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Dávid telefonjából. Eszik rendesen?",
+   "rd": "다비드 텔레폰야볼. 에씩 렌데센?",
+   "ko": "다비드 전화기에서. 밥은 잘 먹니?",
+   "note": "rendesen = 제대로",
+   "tags": [],
+   "at": "16:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "telefonjából",
+     "telefon",
+     "텔레폰"
+    ],
+    [
+     "rendesen",
+     "rendes",
+     "렌데시"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Igen, azt hiszem. Miért?",
+   "rd": "이겐, 어즈트 히쎔. 미에르트?",
+   "ko": "네… 그런 것 같아요. 왜요?",
+   "note": "azt hiszem = 그런 것 같아",
+   "tags": [],
+   "at": "16:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "hiszem",
+     "hisz",
+     "히쓰"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Nem válaszol. Küldtem neki kolbászt.",
+   "rd": "넴 발러쏠. 퀼드템 네키 콜바쓰트.",
+   "ko": "답을 안 해서. 소시지를 좀 보냈어.",
+   "note": "kolbász = 소시지",
+   "tags": [],
+   "at": "16:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "válaszol",
+     "válaszol",
+     "발러졸"
+    ],
+    [
+     "kolbászt",
+     "kolbász",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "De jó! Mennyit?",
+   "rd": "데 요! 메니트?",
+   "ko": "좋네요! 얼마나요?",
+   "note": "de jó = 좋다",
+   "tags": [
+    "expr:De jó"
+   ],
+   "at": "16:23",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Tíz kilót, neked is. Dávid mondta, hogy itt nincs családod.",
+   "rd": "티즈 킬로트, 네케드 이시. 다비드 몬드터, 호지 이트 닌치 철라도드.",
+   "ko": "10킬로, 네 몫도야. 다비드가 네 가족이 여기 없다더라.",
+   "note": "neked is = 너한테도",
+   "tags": [],
+   "at": "16:24",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "kilót",
+     "kiló",
+     ""
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "családod",
+     "családod",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Tényleg ezt mondta?",
+   "rd": "테닐렉 에즈트 몬드터?",
+   "ko": "정말 그렇게 말했어요?",
+   "note": "tényleg = 정말",
+   "tags": [
+    "expr:Tényleg"
+   ],
+   "at": "16:26",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Igen. Azt mondta, te vagy itt a családja.",
+   "rd": "이겐. 어즈트 몬드터, 테 버지 이트 어 철라드여.",
+   "ko": "그래. 여기서는 네가 자기 가족이래.",
+   "note": "azt mondta = 그렇게 말했다",
+   "tags": [],
+   "at": "16:26",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "családja",
+     "család",
+     "처라드"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Anya írt neked?! Ne olvasd el!",
+   "rd": "어녀 이르트 네케드?! 네 올버슈드 엘!",
+   "ko": "엄마가 너한테 문자 했어?! 읽지 마!",
+   "note": "ne olvasd el = 읽지 마",
+   "tags": [],
+   "at": "16:40",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Anya",
+     "anya",
+     "어니어"
+    ],
+    [
+     "írt",
+     "ír",
+     "이르"
+    ],
+    [
+     "olvasd",
+     "olvas",
+     "올버스"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Már késő. 🥹",
+   "rd": "마르 케쇠. 🥹",
+   "ko": "이미 늦었어. 🥹",
+   "note": "már késő = 이미 늦었다",
+   "tags": [],
+   "at": "16:41",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "késő",
+     "késik",
+     "케시크"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Na jó. De a kolbász az enyém.",
+   "rd": "너 요. 데 어 콜바쓰 어즈 에넴.",
+   "ko": "그래 됐고. 근데 소시지는 내 거야.",
+   "note": "az enyém = 내 것",
+   "tags": [
+    "expr:Na jó"
+   ],
+   "at": "16:41",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "kolbász",
+     "kolbász",
+     ""
+    ]
+   ]
+  }
+ ]
+}

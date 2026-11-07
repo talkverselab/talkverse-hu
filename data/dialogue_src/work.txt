@@ -1,0 +1,283 @@
+=== r2_work_b1
+kind: long
+title: 20분짜리 면접
+emoji: 🪑
+scene: 카페 아르바이트 면접 날. 창가에 앉은 남자가 앉으라고 해서 열심히 자기소개를 했다
+b: Férfi
+c: Bence
+register: mixed
+twist: 10 reveal
+purpose: work_hungary
+goal: 일자리 찾아온 용건 말하기와 할 수 있는 일 말하기(tudok + 동사원형)
+expressions: Elnézést; Tessék; Szóval; bocsi; Na jó
+A | Elnézést, az állás miatt jöttem. | 실례합니다, 일자리 때문에 왔어요. | miatt = ~ 때문에
+B | Az állás miatt? Tessék, üljön le. | 일자리요? 네, 앉으세요. | üljön le = 앉으세요(존댓말)
+A | Köszönöm. Nagyon szeretem a kávét, és gyorsan tanulok. | 감사합니다. 커피를 정말 좋아하고, 빨리 배워요. | gyorsan = 빨리
+B | Értem. És mit tud még? | 그렇군요. 또 뭘 할 수 있어요? | mit tud? = 뭘 할 수 있어요?(존댓말)
+A | Hétvégén is tudok dolgozni. Reggel hatkor is! | 주말에도 일할 수 있어요. 아침 여섯 시에도요! | -kor = ~시에
+B | Hatkor? Hű, az durva. | 여섯 시에요? 와, 그건 세네요. | durva = 심하다, 장난 아니다
+A | Szóval... megkaptam az állást? | 그래서… 저 붙었나요? | megkaptam = 받아 냈다(정활용)
+C | Szia, bocsi a késésért! Te jöttél az állás miatt? | 안녕, 늦어서 미안! 일자리 때문에 온 사람이 너야? | a késésért = 늦은 것에 대해
+A | Igen, de már beszéltem a főnökkel. Ő az, ugye? | 네, 근데 사장님이랑 벌써 얘기했어요. 이분 맞죠? | ő az = 저분이 그 사람이다
+B | Én csak egy kávét szeretnék. Húsz perce várok. | 저는 그냥 커피 한 잔 마시고 싶은데요. 20분째 기다리고 있어요. | húsz perce = 20분째
+C | Na jó, fel vagy véve. Vidd neki a kávét! | 좋아, 합격. 저분한테 커피 갖다 드려! | fel vagy véve = 너 채용됐어
+
+=== r2_work_b2
+kind: long
+title: 빨간 버튼
+emoji: 🔴
+scene: 카페 첫 출근. Bence 가 규칙은 딱 하나라고 한다. 규칙이 하나면 지키기 쉬울 텐데
+b: Bence
+c: Néni
+register: mixed
+twist: 7 chaos
+purpose: work_hungary
+goal: 금지하는 말(ne + 명령형)과 과거형으로 일 따지기
+expressions: Na; Jól van; Nem tudom; Úristen; Elnézést
+B | Na, első nap! Ma csak egy szabály van. | 자, 첫날! 오늘 규칙은 딱 하나야. | szabály = 규칙
+A | Jól van. Mi az? | 알았어. 뭔데? | jól van = 알았어, 좋아
+B | A piros gombot ne nyomd meg. | 빨간 버튼은 누르지 마. | ne nyomd meg = 누르지 마(정활용 명령)
+A | Miért? Mit csinál? | 왜? 그거 뭐 하는 건데? | mit csinál? = 뭘 하는데?
+B | Nem tudom. Nekem is ezt mondták. | 몰라. 나도 그렇게 들었어. | mondták = 그들이 말했다
+C | Jó napot! Egy teát kérek. | 안녕하세요! 차 한 잔 주세요. | teát = 차를(-t 목적격)
+A | Bence, egy kérdés. A kávégép miért nem áll le? | 벤체, 질문 하나. 커피 머신이 왜 안 멈춰? | nem áll le = 안 멈춘다
+B | Mit nyomtál meg? | 뭐 눌렀어? | nyomtál = 네가 눌렀다
+A | A pirosat. Kíváncsi voltam. | 빨간 거. 궁금했어. | kíváncsi = 궁금한
+B | Úristen! Hozz még csészéket, gyorsan! | 세상에! 컵 더 가져와, 빨리! | hozz = 가져와
+A | Már harminc csésze tele van, és a padlón is folyik! | 벌써 서른 잔이 찼고, 바닥에도 흘러! | folyik = 흐른다
+C | Elnézést... én teát kértem. | 저기요… 저는 차를 시켰는데요. | kértem = 내가 주문했다
+
+=== r2_work_b3
+kind: long
+title: 할머니께 드린 인사
+emoji: 👵
+scene: Bence 가 어르신께 쓰는 인사를 가르쳐 준다. 어미 하나만 틀리면 뜻이 완전히 달라진다
+b: Bence
+c: Néni
+register: mixed
+twist: 6 slip
+purpose: work_hungary
+goal: 어르신 인사 csókolom 과 어미 -om / -lak 의 차이
+expressions: Figyelj; Igazából; Durva; Tessék; Ne már
+B | Figyelj, a néniknek itt azt mondjuk: csókolom. | 잘 들어, 여기선 할머니들한테 「초콜롬」이라고 해. | csókolom = 어르신께 드리는 인사
+A | Csókolom? Az mit jelent? | 초콜롬? 그게 무슨 뜻이야? | jelent = 뜻하다
+B | Igazából azt, hogy kezét csókolom. De ez csak köszönés. | 사실은 「손에 입 맞춥니다」라는 말이야. 그래도 그냥 인사야. | köszönés = 인사
+A | Durva. És mindig így kell mondani? | 세다. 항상 이렇게 말해야 해? | így = 이렇게
+B | Csak az idősebb néniknek. Na, jön egy! | 나이 드신 할머니들한테만. 자, 한 분 오신다! | idősebb = 나이가 더 많은
+A | Csókollak, néni! Mit kér? | 너한테 뽀뽀할게요, 할머니! 뭐 드릴까요? | csókollak = 내가 너에게 입 맞춘다(-lak)
+C | Tessék? Mit mondott, kedves? | 네? 뭐라고 했어요? | kedves = 어른이 젊은이를 부르는 말
+B | Jaj, ne már! Csókolom, nem csókollak! | 아이고, 아 좀! 초콜롬이지, 초콜러크가 아니야! | ne már = 아 좀, 그러지 마
+A | Bocsánat, néni! Nem akarom megcsókolni! | 죄송해요, 할머니! 입 맞출 생각 없어요! | nem akarom = 원하지 않는다
+C | Kár. Ezt negyven éve nem mondta nekem senki. | 아쉽네. 그 말을 40년째 아무도 안 해 줬는데. | kár = 아쉽다
+B | Na, ő holnap is itt lesz. | 자, 저분 내일도 오시겠다. | lesz = ~일 것이다
+
+=== r2_work_b4
+kind: long
+title: 월급 10퍼센트
+emoji: 🔑
+scene: 용기를 내서 사장에게 월급 인상을 말했다. 사장이 너무 쉽게 좋다고 한다
+b: Főnök
+register: mixed
+twist: 10 chaos
+purpose: work_hungary
+goal: 윗사람에게 말 꺼내기와 조건 듣기(De akkor…)
+expressions: Persze; Komolyan; Jól van; Rendben; Hát; Tessék
+A | Főnök úr, van egy perce? | 사장님, 잠깐 시간 있으세요? | van egy perce? = 1분 있으세요?
+B | Persze. Mi a baj? | 그럼. 무슨 일이야? | mi a baj? = 무슨 문제야?
+A | Szeretnék több pénzt. Tíz százalékkal többet. | 돈을 더 받고 싶어요. 10퍼센트 더요. | -kal/-kel = ~만큼
+B | Tízet? Nem, adok harmincat. | 10? 아니, 30 줄게. | adok = 내가 준다
+A | Komolyan? Köszönöm, főnök úr! | 정말요? 감사합니다, 사장님! | komolyan? = 진심이에요?
+B | De akkor szombaton is te nyitsz. | 대신 토요일에도 네가 문 열어. | nyitsz = 네가 연다
+A | Jól van. Rendben. | 네. 알겠습니다. | rendben = 알겠다, 좋다
+B | És vasárnap is. És te rendeled a poharakat. | 일요일도. 컵 주문도 네가 해. | rendeled = 네가 그것을 주문한다(정활용)
+A | Hát, oké. Még valami? | 음, 네. 또 있어요? | még valami? = 또 뭐 있어요?
+B | Igen, itt a kulcs. Holnaptól te vagy a főnök. | 응, 여기 열쇠. 내일부터 네가 사장이야. | holnaptól = 내일부터
+A | Tessék?! És Ön hova megy? | 네?! 그럼 사장님은 어디 가시는데요? | Ön = 당신(존댓말)
+B | A Balatonra. Harminc éve várok erre! | 벌러톤에. 30년을 기다렸어! | erre = 이것을(vár + -ra)
+
+=== r2_work_c1
+kind: chat
+title: 사장의 첫 주문
+emoji: 📦
+scene: 하룻밤 새 사장이 됐다. Bence 가 컵이 떨어졌다고 메시지를 보낸다
+b: Bence
+register: chat
+twist: 9 chaos
+purpose: work_hungary
+goal: 채팅으로 수량 묻고 답하기(Mennyi? Hány?)
+expressions: Ne már; Figyelj; Tényleg; Szuper; Egy pillanat
+B | Jó reggelt, főnök! 😎 | 좋은 아침입니다, 사장님! 😎 | főnök = 사장, 상사 | at=08:02
+A | Ne már. Ez nem vicces. | 아 좀. 안 웃겨. | vicces = 웃긴 | at=08:03
+B | Figyelj, elfogytak a poharak. Te rendeled, emlékszel? | 야, 컵 다 떨어졌어. 네가 주문하는 거, 기억나? | elfogytak = 다 떨어졌다 | at=08:05
+A | Jaj, tényleg. Mennyi kell? | 아이고, 맞다. 얼마나 필요해? | tényleg = 정말, 맞다 | at=08:06
+B | Nem tudom. Rendelj sokat. | 몰라. 많이 주문해. | rendelj = 주문해 | at=08:06
+A | Kész! Száz dobozt rendeltem. | 됐다! 백 상자 주문했어. | doboz = 상자 | at=08:11
+B | Szuper. Hány pohár van egy dobozban? | 좋아. 한 상자에 컵이 몇 개 들었어? | hány = 몇 개 | at=08:12
+A | Egy pillanat... ezer. | 잠깐만… 천 개. | ezer = 천 | at=08:14
+B | Ezer? Az százezer pohár! | 천 개? 그럼 십만 개잖아! | százezer = 십만 | at=08:14
+B | Itt a teherautó. Nem férünk ki az ajtón. 😂 | 트럭 왔어. 문으로 나갈 수가 없어. 😂 | teherautó = 트럭 | at=11:30
+A | Mondd a vendégeknek, hogy ez modern művészet. | 손님들한테 현대미술이라고 해. | művészet = 예술 | at=11:32
+B | Anna már rajzolja. | 언너가 벌써 그리고 있어. | rajzolja = 그것을 그린다 | at=11:33 stamp=😂
+
+=== r2_work_c2
+kind: chat
+title: 읽고 답이 없는 벤체
+emoji: 📵
+scene: 토요일 근무를 바꾸고 싶다. Bence 는 읽기만 하고 답이 없다
+b: Bence
+register: chat
+twist: 9 ignore
+purpose: work_hungary
+goal: 부탁하고 조르는 말(Légyszi!)과 근무 바꾸기
+expressions: Ráérsz; Légyszi; Na jó; Komolyan; Bocsi; Hogyhogy
+A | Szia! Ráérsz szombaton? | 안녕! 토요일에 시간 돼? | ráérsz? = 시간 있어? | at=09:02
+A | Szombaton dolgozom, de a fürdőbe szeretnék menni. Cserélünk? | 토요일에 일인데 온천에 가고 싶어서. 바꿀래? | cserélünk? = 우리 바꿀까? | at=09:03
+A | Bence? Látom, hogy olvastad. | 벤체? 읽은 거 보여. | olvastad = 네가 그것을 읽었다 | at=10:15
+A | Légyszi! Hozok rétest is. | 제발! 레테시도 사 올게. | légyszi = 제발, 부탁이야 | at=10:40
+A | Na jó, két rétest. | 알았어, 레테시 두 개. | két = 두(명사 앞) | at=11:30
+A | Komolyan nem válaszolsz? Ez durva. | 진짜 답 안 해? 너무한다. | válaszolsz = 네가 답한다 | at=12:10
+B | Bocsi, eddig nem tudtam írni. A te műszakodat csinálom. | 미안, 지금까지 답을 못 했어. 네 근무를 하고 있거든. | műszak = 근무 시간 | at=14:20
+A | Az enyémet? Hogyhogy? | 내 걸? 어떻게? | hogyhogy? = 어째서? | at=14:21
+B | Ma szombat van. | 오늘 토요일이야. | szombat = 토요일 | at=14:21
+A | Úristen. Mindjárt megyek! | 세상에. 금방 갈게! | mindjárt = 금방 | at=14:22
+B | Két rétes. Emlékszel? 😇 | 레테시 두 개. 기억하지? 😇 | emlékszel = 네가 기억한다 | at=14:22 stamp=😇
+
+=== r3_work_b1
+kind: long
+title: 더운 날의 면접
+emoji: 🥵
+scene: 한여름 회사 면접. 에어컨이 고장 난 방에서 「덥다」고 말했는데 면접관의 표정이 묘하다
+b: Igazgató
+register: polite
+twist: 8 slip
+purpose: work_hungary
+goal: 면접 질문에 답하기와 melegem van / meleg vagyok 구분
+expressions: Semmi baj; Szóval; Igazából; Tényleg; Várjon
+B | Jó napot, foglaljon helyet! Sajnos ma nem működik a légkondi. | 안녕하세요, 앉으세요! 아쉽게도 오늘 에어컨이 안 돼요. | foglaljon helyet = 앉으세요(격식)
+A | Semmi baj. Köszönöm, hogy behívott. | 괜찮습니다. 불러 주셔서 감사합니다. | behívott = 불렀다
+B | Szóval, miért szeretne nálunk dolgozni? | 그래서, 왜 저희 회사에서 일하고 싶으세요? | nálunk = 우리 쪽에서
+A | Mert szeretek emberekkel beszélni, és tavaly óta magyarul is tudok. | 사람들과 이야기하는 걸 좋아하고, 작년부터 헝가리어도 할 줄 알아서요. | tavaly óta = 작년부터
+B | Nagyszerű. Mi a legnagyobb gyengesége? | 훌륭하네요. 가장 큰 약점이 뭔가요? | gyengeség = 약점
+A | Hát, igazából a ragok. Néha rosszul mondom őket. | 음, 사실 격 어미요. 가끔 틀리게 말해요. | rag = 격 어미
+B | Így is jól beszél. De piros az arca, minden rendben? | 그래도 잘하시는데요. 근데 얼굴이 빨개요, 괜찮으세요? | minden rendben? = 다 괜찮아요?
+A | Elnézést, nagyon meleg vagyok. | 죄송합니다, 저는 아주 게이입니다.(「덥다」고 말하려던 것) | meleg vagyok = 나는 게이다(덥다는 melegem van)
+B | Ó, köszönöm, hogy elmondta. Nálunk ez nem probléma. | 아, 말씀해 주셔서 감사합니다. 저희는 전혀 문제없습니다. | elmondta = 말해 주었다
+A | Tényleg? Pedig reggel óta nagyon meleg vagyok, nyáron mindig. | 정말요? 그런데 아침부터 아주 그래요, 여름엔 항상요. | pedig = 그런데, 하지만
+B | Nyáron? És télen nem? | 여름에요? 겨울엔 아니고요? | télen = 겨울에
+A | Télen nem. Télen nagyon hideg vagyok. | 겨울엔 아니에요. 겨울엔 아주 차가운 사람이에요. | hideg vagyok = 나는 차갑다(춥다는 fázom)
+B | Várjon... Ön azt akarja mondani, hogy melege van? | 잠깐만요… 덥다는 말씀이세요? | melege van = (그분이) 덥다
+A | Igen, melegem van! Miért, mit mondtam? | 네, 더워요! 왜요, 제가 뭐라고 했나요? | melegem van = 나는 덥다
+B | Semmit. Holnap kezdhet, a gyengeségét már ismerjük. | 아무 말도요. 내일부터 나오세요, 약점은 이제 잘 알겠네요. | kezdhet = 시작해도 된다
+
+=== r3_work_b2
+kind: long
+title: 없는 이름의 날
+emoji: 💐
+scene: 오늘 카페에 꽃이 넘친다. 이름의 날이라는데, 달력에 내 이름은 없다. Bence 가 분필을 집어 든다
+b: Bence
+c: Néni
+d: Virágos
+register: mixed
+twist: 10 chaos
+purpose: work_hungary media
+goal: 이름의 날(névnap) 문화와 축하 인사
+expressions: Várj; Sajnos; Ne már; Nézd; Figyelj; Igazából; Szerintem
+A | Miért kap ma mindenki virágot? Mi történt? | 오늘 왜 다들 꽃을 받아? 무슨 일 있어? | kap = 받는다
+B | Ma van Anna névnapja. Itt minden névnek van napja. | 오늘이 언너의 이름의 날이야. 여기선 이름마다 날이 있어. | névnap = 이름의 날
+A | Minden névnek? Akkor nekem mikor van? | 이름마다? 그럼 내 건 언제야? | mikor = 언제
+B | Várj, megnézem. Sajnos a te neved nincs a naptárban. | 잠깐, 볼게. 안타깝지만 네 이름은 달력에 없어. | naptár = 달력
+A | Jaj, de kár. Nekem soha nem lesz virágom? | 아, 아쉽다. 나는 평생 꽃을 못 받는 거야? | soha nem = 절대 안
+B | Ne már! Nézd, felírom a táblára: ma {name} névnapja van. | 에이! 봐, 칠판에 쓸게. 오늘은 {name}의 이름의 날. | tábla = 칠판
+A | Bence, ezt nem lehet! Ez nem igaz! | 벤체, 이러면 안 돼! 이거 거짓말이잖아! | nem lehet = 안 된다
+C | Boldog névnapot, kedves! Hoztam egy rétest. | 이름의 날 축하해요! 레테시 가져왔어요. | boldog névnapot = 이름의 날 축하합니다
+A | Köszönöm, néni, de... igazából nem... | 감사합니다, 할머니, 근데… 사실은… | igazából = 사실은
+B | Figyelj, már az egész utca tudja. Nézd, mennyi ember! | 야, 벌써 온 동네가 알아. 봐, 사람 얼마나 많은지! | az egész utca = 거리 전체
+D | Elnézést, elfogyott az összes virágom. Ki ez a híres {name}? | 실례합니다, 제 꽃이 다 팔렸어요. 이 유명한 {name} 씨가 누구예요? | elfogyott = 다 떨어졌다
+A | Én vagyok. De ez nem is ünnep! | 저예요. 근데 이거 기념일도 아니에요! | ünnep = 기념일, 명절
+B | Már igen. A polgármester is ide jön, és beszédet mond. | 이제는 맞아. 구청장님도 오셔서 연설하신대. | beszédet mond = 연설한다
+A | Bence! Mi lesz holnap? | 벤체! 내일은 어쩌려고? | mi lesz? = 어떻게 될까?
+B | Szerintem semmi. A jövő évi naptárba már beírták a neved. | 아무 일 없을걸. 내년 달력엔 벌써 네 이름이 들어갔대. | beírták = 써넣었다
+
+=== r3_work_b3
+kind: long
+title: 말 놓으라기에
+emoji: 🤝
+scene: 회사 이사가 이제 말을 놓자고 한다. 말을 놓으니 입도 같이 풀렸다
+b: Igazgató
+register: mixed
+twist: 8 slip
+purpose: work_hungary
+goal: Tegeződjünk? 존댓말에서 반말로 바꾸는 장면
+expressions: Tényleg; Látod; Persze; Figyelj; Amúgy; Várj
+B | Már fél éve itt dolgozik, és jól dolgozik. Tegeződjünk? | 여기서 일한 지 벌써 반년이고, 일도 잘하세요. 말 놓을까요? | tegeződjünk = 서로 말 놓자
+A | Tényleg? Ez nagy megtiszteltetés, igazgató úr! | 정말요? 큰 영광입니다, 이사님! | megtiszteltetés = 영광
+B | Na, hagyjuk az igazgató urat. Laci vagyok. | 자, 「이사님」은 그만. 나는 러치야. | hagyjuk = 그만두자
+A | Jó, akkor szia, Laci. Furcsa, de jó érzés. | 좋아, 그럼 안녕, 러치. 이상한데 기분 좋다. | furcsa = 이상한
+B | Látod, nem fáj. És hogy tetszik az új terv? | 봐, 안 아프지. 그래서 새 계획은 어때? | hogy tetszik? = 어때, 마음에 들어?
+A | Mondjam őszintén, Laci? | 솔직히 말해 줄까, 러치? | őszintén = 솔직하게
+B | Persze, most már tegeződünk. | 그럼, 이제 말 놓는 사이잖아. | most már = 이제는
+A | Figyelj, ez a terv borzalmas. Ki írta, egy krumpli? | 야, 이 계획 끔찍해. 누가 쓴 거야, 감자가? | borzalmas = 끔찍한
+B | Hát... én írtam. | 음… 내가 썼어. | én írtam = 내가 썼다(주어 강조)
+A | Nem baj. Amúgy a nyakkendőd is csúnya, ha már tegeződünk. | 괜찮아. 그나저나 네 넥타이도 별로야, 말 놓은 김에. | ha már = ~한 김에
+B | A nyakkendőmet a feleségem vette. | 그 넥타이는 아내가 사 줬어. | vette = 그것을 샀다
+A | Tudod, mi még rossz, Laci? A fizetésem. | 또 뭐가 별로인 줄 알아, 러치? 내 월급. | fizetés = 월급
+B | Várj, azt mondtam, tegeződjünk. Nem azt, hogy mondj el mindent! | 잠깐, 말을 놓자고 했지. 다 말하라고는 안 했어! | mondj el = 말해 버려
+A | Akkor... visszamagázhatom, igazgató úr? | 그럼… 다시 존댓말 써도 될까요, 이사님? | magáz = 존댓말을 쓰다
+B | Igen, kérem. Holnaptól Ön lesz az új terv felelőse. | 네, 그러시죠. 내일부터 새 계획 담당은 그쪽입니다. | felelős = 담당자
+
+=== r3_work_b4
+kind: long
+title: 매일 오는 할머니
+emoji: 🏠
+scene: 임대료를 세 배로 올린다는 편지가 왔다. 카페가 문을 닫게 생겼는데, 오늘도 그 할머니가 커피를 드시러 온다
+b: Bence
+c: Néni
+register: mixed
+twist: 14 reveal
+purpose: work_hungary
+goal: 걱정 나누기와 어르신께 말하기(3인칭 존댓말)
+expressions: Hát; Sajnos; Szerintem; Mindegy; Figyelj; Ne már; Tessék
+B | Olvastad a levelet? A tulajdonos háromszor annyit kér a helyért. | 편지 읽었어? 건물주가 임대료를 세 배로 달래. | tulajdonos = 주인
+A | Háromszor annyit? Hát ezt nem tudjuk kifizetni! | 세 배? 그건 못 내지! | kifizetni = 다 내다
+B | Sajnos nem. Szerintem egy hónap múlva bezárunk. | 못 내지. 내 생각엔 한 달 뒤면 문 닫아. | egy hónap múlva = 한 달 뒤에
+A | Ki ez a tulajdonos? Még sosem láttuk. | 건물주가 누군데? 한 번도 못 봤잖아. | még sosem = 아직 한 번도 안
+B | Senki sem tudja. Csak a levelei jönnek. | 아무도 몰라. 편지만 와. | levelei = 그의 편지들
+A | Mindegy. Jön a néni, legalább ő ne tudja meg. | 아무튼. 할머니 오신다, 저분은 모르시게 하자. | legalább = 적어도
+C | Csókollak, kedves! Mi van, miért ilyen szomorú? | 뽀뽀할게요! 무슨 일이에요, 왜 이렇게 시무룩해요? | csókollak = 그때 그 실수를 놀리는 말
+A | Semmi, néni. Tessék, a kávéja, ma is ingyen van. | 아무것도 아니에요, 할머니. 여기 커피요, 오늘도 공짜예요. | ingyen = 공짜로
+B | Figyelj, már egy éve ingyen iszik. Ezért nincs pénzünk! | 야, 벌써 1년째 공짜로 드시잖아. 그러니까 돈이 없지! | ezért = 그래서
+A | Egy nyugdíjas néni? Ne már, egy kávé nem gond. | 연금으로 사시는 할머니인데? 에이, 커피 한 잔이 뭐라고. | nyugdíjas = 연금 생활자
+C | Milyen levél? Mutassa csak! | 무슨 편지요? 어디 봐요! | mutassa = 보여 주세요(존댓말)
+C | Jaj, ezt az unokám írta. Szólok neki, hogy ne írjon többet. | 아이고, 이건 내 손주가 썼네. 더 쓰지 말라고 일러야겠어요. | unoka = 손주
+B | Az unokája? Ezt hogy érti, néni? | 손주분이요? 그게 무슨 말씀이세요, 할머니? | hogy érti? = 무슨 뜻이에요?
+C | A ház az enyém, kedves. Az egész utca is. | 이 건물 내 거예요. 이 거리 전체도요. | az enyém = 내 것
+A | És én egy éve ingyen adok Önnek kávét? | 그럼 저는 1년째 공짜 커피를 드린 거예요? | Önnek = 당신께(존댓말)
+C | Igen. Holnap is jövök, csókollak! | 그래요. 내일도 올게요, 뽀뽀! | -lak = 내가 너를 ~한다
+
+=== r3_work_c1
+kind: chat
+title: 전 직원 방의 레테시
+emoji: 🥧
+scene: 회사 메신저. 옆자리 동료에게 물어본다는 게 전 직원 방에 올라갔다
+b: Kolléga
+c: Igazgató
+d: Bécsi iroda
+register: chat
+twist: 11 chaos
+purpose: work_hungary
+goal: 회사 메신저에서 사과하고 부탁하기(ne + 명령형, 존댓말)
+expressions: Hé; Bocsánat; Figyelj; Bocsi; Jaj
+A | A konyhában van egy almás rétes. Kié? 😄 | 부엌에 사과 레테시가 있어요. 누구 거예요? 😄 | kié? = 누구 것? | at=11:02
+B | Hé, ez a Mindenki csoport! Ezer ember látja ezt. | 야, 여기 「전 직원」 방이야! 천 명이 보고 있어. | csoport = 그룹 | at=11:03
+A | Jaj! Bocsánat, mindenki, rossz helyre írtam. | 앗! 여러분 죄송합니다, 잘못 올렸어요. | rossz helyre = 틀린 곳으로 | at=11:04
+D | Jó napot, itt a bécsi iroda. Miért kaptunk üzenetet egy rétesről? | 안녕하세요, 빈 지사입니다. 왜 레테시 메시지가 왔죠? | üzenet = 메시지 | at=11:06
+B | Figyelj, már harminc válasz van. Mindenki azt írja, hogy ne írjunk ide. | 야, 답글이 벌써 서른 개야. 다들 여기 쓰지 말자고 쓰고 있어. | ne írjunk = 쓰지 말자 | at=11:08
+A | Kérem, ne írjanak ide! | 제발 여기 쓰지 말아 주세요! | ne írjanak = 쓰지 마세요(여러분, 존댓말) | at=11:09
+B | Te is ide írtad. | 너도 여기 썼잖아. | ide = 여기로 | at=11:09
+A | Bocsi. | 미안. | bocsi = 미안(가벼운 말) | at=11:10
+B | Ezt is. | 그것도. | ezt is = 이것도 | at=11:10
+C | Itt az igazgató. Kérem, mindenki hagyja abba. | 이사입니다. 모두 그만하세요. | hagyja abba = 그만두세요 | at=11:20
+D | A levelezőnk leállt a rétes miatt. Ez komoly? | 저희 메일이 레테시 때문에 멈췄습니다. 이게 진심입니까? | leállt = 멈췄다 | at=11:31
+B | Most ötven ember áll a konyhában. Mind a rétest nézi. | 지금 부엌에 쉰 명이 서 있어. 다들 레테시를 보고 있어. | mind = 모두 | at=11:40
+A | Nem írok többet. Soha. | 이제 안 쓰겠습니다. 영원히. | többet = 더 | at=11:41
+C | Még valami: az a rétes az enyém. Ne nyúljanak hozzá! | 하나 더요. 그 레테시 제 겁니다. 손대지 마세요! | ne nyúljanak hozzá = 손대지 마세요 | at=11:45 stamp=😇

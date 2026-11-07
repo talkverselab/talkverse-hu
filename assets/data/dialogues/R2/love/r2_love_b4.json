@@ -1,0 +1,441 @@
+{
+ "id": "r2_love_b4",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "끈 없는 부츠",
+ "emoji": "🌉",
+ "scene": "영하의 밤, 마지막 트램을 향해 뛰는데 Anna 가 신발끈을 묶겠다며 멈춘다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "재촉하기와 '일부러'(direkt), 날씨 말하기",
+ "expressions": [
+  "Várj",
+  "Nem baj",
+  "Nézd",
+  "Tényleg?"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Futás, ott jön az utolsó villamos!",
+   "rd": "푸타시, 오트 욘 어즈 우톨쇼 빌러모시!",
+   "ko": "뛰어, 저기 마지막 트램 온다!",
+   "note": "futás = 뛰어(구호)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Futás",
+     "futás",
+     ""
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "utolsó",
+     "utolsó",
+     "우톨쇼"
+    ],
+    [
+     "villamos",
+     "villamos",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Várj, bekötöm a cipőfűzőmet!",
+   "rd": "바르이, 베쾨툄 어 치푀퓌죄메트!",
+   "ko": "잠깐, 신발끈 좀 묶을게!",
+   "note": "cipőfűző = 신발끈",
+   "tags": [
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "bekötöm",
+     "bekötöm",
+     ""
+    ],
+    [
+     "cipőfűzőmet",
+     "cipőfűző",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Anna, elment! Most mi lesz ebben a hidegben?",
+   "rd": "언너, 엘멘트! 모슈트 미 레쓰 에벤 어 히덱벤?",
+   "ko": "언너, 가 버렸어! 이 추위에 이제 어떡해?",
+   "note": "mi lesz? = 어떻게 돼?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "elment",
+     "elmegy",
+     "엘메지"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "hidegben",
+     "hideg",
+     "히데그"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Hát, akkor gyalogolunk. Csak negyven perc a hídon át.",
+   "rd": "하트, 어꼬르 졀로골룬크. 척 네지벤 페르츠 어 히돈 아트.",
+   "ko": "음, 그럼 걷지 뭐. 다리 건너서 사십 분밖에 안 돼.",
+   "note": "a hídon át = 다리를 건너",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "gyalogolunk",
+     "gyalogol",
+     ""
+    ],
+    [
+     "negyven",
+     "negyven",
+     ""
+    ],
+    [
+     "perc",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "hídon",
+     "híd",
+     ""
+    ],
+    [
+     "át",
+     "át",
+     "아트"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Negyven perc? Itt mínusz öt fok van!",
+   "rd": "네지벤 페르츠? 이트 미누쓰 외트 폭 번!",
+   "ko": "사십 분? 여기 영하 5도야!",
+   "note": "mínusz öt fok = 영하 5도",
+   "tags": [],
+   "lemmas": [
+    [
+     "Negyven",
+     "negyven",
+     ""
+    ],
+    [
+     "perc",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "mínusz",
+     "mínusz",
+     ""
+    ],
+    [
+     "fok",
+     "fok",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Nem baj, nézd, milyen szép éjjel a Duna.",
+   "rd": "넴 버이, 네즈드, 미옌 쎄프 에옐 어 두너.",
+   "ko": "괜찮아, 봐, 밤의 두너강 얼마나 예뻐.",
+   "note": "milyen szép = 얼마나 예쁜지",
+   "tags": [
+    "expr:Nem baj",
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "éjjel",
+     "éj",
+     "에이"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Szép, de már nem érzem a lábam.",
+   "rd": "쎄프, 데 마르 넴 에르젬 어 라범.",
+   "ko": "예뻐, 근데 벌써 발에 감각이 없어.",
+   "note": "nem érzem = 못 느낀다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "érzem",
+     "érez",
+     "에레즈"
+    ],
+    [
+     "lábam",
+     "láb",
+     "라브"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Gyere közelebb, mindjárt melegebb lesz.",
+   "rd": "제레 쾨젤레브, 민드야르트 멜레게브 레쓰.",
+   "ko": "더 가까이 와, 금방 따뜻해져.",
+   "note": "közelebb = 더 가까이",
+   "tags": [],
+   "lemmas": [
+    [
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "közelebb",
+     "közel",
+     "쾨젤"
+    ],
+    [
+     "mindjárt",
+     "mindjárt",
+     "민드야르트"
+    ],
+    [
+     "melegebb",
+     "meleg",
+     "멜레그"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Várj... a csizmádon nincs is cipőfűző.",
+   "rd": "바르이... 어 치즈마돈 닌치 이시 치푀퓌죄.",
+   "ko": "잠깐… 네 부츠엔 끈이 없잖아.",
+   "note": "nincs is = 아예 없다",
+   "tags": [
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "csizmádon",
+     "csizmádon",
+     ""
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "cipőfűző",
+     "cipőfűző",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Tényleg? Hát ez furcsa.",
+   "rd": "테닐렉? 하트 에즈 푸르처.",
+   "ko": "진짜? 거참 이상하네.",
+   "note": "furcsa = 이상한",
+   "tags": [
+    "expr:Tényleg?"
+   ],
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "furcsa",
+     "furcsa",
+     "푸르처"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Anna. Te direkt lekésted a villamost?",
+   "rd": "언너. 테 디렉트 레케슈테드 어 빌러모슈트?",
+   "ko": "언너. 너 일부러 트램 놓친 거야?",
+   "note": "direkt = 일부러",
+   "tags": [],
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "direkt",
+     "direkt",
+     ""
+    ],
+    [
+     "lekésted",
+     "lekésik",
+     ""
+    ],
+    [
+     "villamost",
+     "villamos",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Csak még negyven percet akartam veled lenni.",
+   "rd": "척 멕 네지벤 페르체트 어커르텀 벨레드 렌니.",
+   "ko": "그냥 너랑 사십 분만 더 있고 싶었어.",
+   "note": "akartam = 하고 싶었다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "negyven",
+     "negyven",
+     ""
+    ],
+    [
+     "percet",
+     "perce",
+     ""
+    ],
+    [
+     "akartam",
+     "akart",
+     ""
+    ],
+    [
+     "lenni",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  }
+ ]
+}

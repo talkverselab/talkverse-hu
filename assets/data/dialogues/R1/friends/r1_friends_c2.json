@@ -1,0 +1,243 @@
+{
+ "id": "r1_friends_c2",
+ "region": "R1",
+ "island": "friends",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "공짜는 싸다는 뜻 아니야?",
+ "emoji": "📢",
+ "scene": "자전거를 대신 팔아 준다고 중고 앱에 글을 올렸다. Réka 의 전화가 불난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅으로 상황 묻기, ingyen(공짜) 구별",
+ "expressions": [
+  "Figyelj",
+  "Nem tudom",
+  "Jaj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, miért hívnak engem?",
+   "rd": "피젤이, 미에르트 히브넉 엔겜?",
+   "ko": "야, 왜 사람들이 나한테 전화해?",
+   "note": "hívnak = (사람들이) 전화한다",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "at": "10:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "hívnak",
+     "hív",
+     "히브"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Kik? Nem tudom.",
+   "rd": "킥? 넴 투돔.",
+   "ko": "누가? 몰라.",
+   "note": "kik = 누구들",
+   "tags": [
+    "expr:Nem tudom"
+   ],
+   "at": "10:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kik",
+     "ki",
+     "키"
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Már tíz ember! Kérik a biciklimet.",
+   "rd": "마르 티즈 엠베르! 케릭 어 비칙리메트.",
+   "ko": "벌써 10명! 내 자전거 달래.",
+   "note": "kérik = 그들이 그걸 달라고 한다",
+   "tags": [],
+   "at": "10:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "biciklimet",
+     "bicikli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Jaj. Az a hirdetés...",
+   "rd": "여이. 어즈 어 히르데테시...",
+   "ko": "아이고. 그 광고…",
+   "note": "hirdetés = 광고",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "at": "10:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "hirdetés",
+     "hirdetés",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Milyen hirdetés?! Mit írtál?",
+   "rd": "미옌 히르데테시?! 미트 이르탈?",
+   "ko": "무슨 광고?! 뭐라고 썼어?",
+   "note": "milyen = 어떤",
+   "tags": [],
+   "at": "10:14",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "hirdetés",
+     "hirdetés",
+     ""
+    ],
+    [
+     "írtál",
+     "ír",
+     "이르"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Olcsó bicikli: ingyen. Ez olcsó, nem?",
+   "rd": "올초 비칙리: 인젠. 에즈 올초, 넴?",
+   "ko": "싼 자전거: 공짜. 이게 싸다는 뜻 아니야?",
+   "note": "ingyen = 공짜로",
+   "tags": [],
+   "at": "10:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Olcsó",
+     "olcsó",
+     ""
+    ],
+    [
+     "bicikli",
+     "bicikli",
+     ""
+    ],
+    [
+     "ingyen",
+     "ingyen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Nem! Az nulla!",
+   "rd": "넴! 어즈 눌러!",
+   "ko": "아니! 그건 0이야!",
+   "note": "nulla = 0",
+   "tags": [],
+   "at": "10:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "nulla",
+     "nulla",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Most száz ember áll a háznál. 😱",
+   "rd": "모슈트 싸즈 엠베르 알 어 하즈날. 😱",
+   "ko": "지금 백 명이 집 앞에 서 있어. 😱",
+   "note": "száz = 백",
+   "tags": [],
+   "at": "10:31",
+   "stamp": "😱",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ],
+    [
+     "háznál",
+     "ház",
+     "하즈"
+    ]
+   ]
+  }
+ ]
+}

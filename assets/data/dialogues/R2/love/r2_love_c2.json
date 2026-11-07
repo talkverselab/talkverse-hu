@@ -1,0 +1,339 @@
+{
+ "id": "r2_love_c2",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "글자 하나",
+ "emoji": "💋",
+ "scene": "Anna 가 자기 작은 전시에 A 를 먼저 초대한다. A 의 엄지가 모음 하나를 틀린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "초대 주고받기, csak(~만)과 csók(키스) 구별",
+ "expressions": [
+  "Hű",
+  "Tessék?",
+  "Bocsi",
+  "Aha",
+  "Izé"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia! Pénteken kiállításom lesz, nem nagy. 😊",
+   "rd": "씨어! 펜테켄 키알리타숌 레쓰, 넴 너지. 😊",
+   "ko": "안녕! 금요일에 내 전시 있어, 크진 않아. 😊",
+   "note": "kiállítás = 전시",
+   "tags": [],
+   "at": "19:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "kiállításom",
+     "kiállítás",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hű, de jó! Hol?",
+   "rd": "휘, 데 요! 홀?",
+   "ko": "와, 좋다! 어디서?",
+   "note": "de jó = 정말 좋다",
+   "tags": [
+    "expr:Hű"
+   ],
+   "at": "19:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Az egyetemen. De csak húsz jegy van.",
+   "rd": "어즈 에제테멘. 데 척 후쓰 예지 번.",
+   "ko": "대학교에서. 근데 표가 스무 장뿐이야.",
+   "note": "jegy = 표",
+   "tags": [],
+   "at": "19:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "egyetemen",
+     "egyetem",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "húsz",
+     "húsz",
+     ""
+    ],
+    [
+     "jegy",
+     "jegy",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Akkor nekem is jut?",
+   "rd": "어꼬르 네켐 이시 유트?",
+   "ko": "그럼 나도 받을 수 있어?",
+   "note": "jut = 돌아온다",
+   "tags": [],
+   "at": "19:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "jut",
+     "jut",
+     "유트"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Csak egy maradt. Kinek adjam?",
+   "rd": "척 에지 머러드트. 키넥 어드염?",
+   "ko": "한 장 남았어. 누구 줄까?",
+   "note": "kinek adjam? = 누구에게 줄까?",
+   "tags": [],
+   "at": "19:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "maradt",
+     "marad",
+     "머러드"
+    ],
+    [
+     "adjam",
+     "ad",
+     "어드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Csók nekem! 😄",
+   "rd": "촉 네켐! 😄",
+   "ko": "나한테 키스! 😄",
+   "note": "csók = 키스(csak = ~만)",
+   "tags": [],
+   "at": "19:23",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Csók",
+     "csók",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Tessék? 😳",
+   "rd": "테쎅? 😳",
+   "ko": "뭐라고? 😳",
+   "note": "tessék? = 뭐라고?",
+   "tags": [
+    "expr:Tessék?"
+   ],
+   "at": "19:23",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj, bocsi! Csak nekem, nem csók!",
+   "rd": "여이, 보치! 척 네켐, 넴 촉!",
+   "ko": "아이고, 미안! 나한테'만', 키스 말고!",
+   "note": "csak = ~만",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "19:24",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "csók",
+     "csók",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Aha. Szóval csók nincs.",
+   "rd": "어허. 쏘벌 촉 닌치.",
+   "ko": "아하. 그러니까 키스는 없다는 거네.",
+   "note": "nincs = 없다",
+   "tags": [
+    "expr:Aha"
+   ],
+   "at": "19:25",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "csók",
+     "csók",
+     ""
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Izé... nem így értettem!",
+   "rd": "이제... 넴 이지 에르테뗌!",
+   "ko": "어… 그런 뜻이 아니었어!",
+   "note": "nem így értettem = 그런 뜻 아니었어",
+   "tags": [
+    "expr:Izé"
+   ],
+   "at": "19:25",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Izé",
+     "izé",
+     ""
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "értettem",
+     "értett",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "A jegy a tiéd. A másikról pénteken beszélünk. 😇",
+   "rd": "어 예지 어 티에드. 어 마식롤 펜테켄 베쎌륀크. 😇",
+   "ko": "표는 네 거야. 나머지는 금요일에 얘기하자. 😇",
+   "note": "a másikról = 다른 것에 대해",
+   "tags": [],
+   "at": "19:27",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "jegy",
+     "jegy",
+     ""
+    ],
+    [
+     "pénteken",
+     "péntek",
+     ""
+    ],
+    [
+     "beszélünk",
+     "beszél",
+     "베쎌"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,575 @@
+=== r1_life_a1
+kind: short
+title: 우유 많이
+emoji: 🥛
+scene: 룸메이트 Dávid 가 장 보러 나가는 길에 우유를 부탁한다. 얼마나? 그냥 많이.
+b: Dávid
+register: casual
+twist: 7 chaos
+purpose: making_friends
+goal: 필요한 것 묻기(Mi kell?)와 mindegy 쓰기
+expressions: Mi kell?; Mindegy; Tessék; Úristen
+B | Szia! Mész a boltba? | 야! 가게 가? | a boltba = 가게로(-ba 안으로)
+A | Igen, most megyek. Mi kell? | 응, 지금 가. 뭐 필요해? | kell = 필요하다
+B | Csak tej. | 우유만. | csak = ~만
+A | Mennyi tej? | 우유 얼마나? | mennyi = 얼마나
+B | Mindegy. Sok. | 아무거나. 많이. | mindegy = 상관없어
+A | Itt vagyok! Tessék, a tej. | 왔어! 자, 우유. | tessék = 여기 있어
+B | Úristen! Ez húsz liter! | 세상에! 이거 20리터잖아! | úristen = 세상에
+A | Azt mondtad: sok. | 네가 많이라고 했잖아. | azt mondtad = 네가 그렇게 말했다
+
+=== r1_life_a2
+kind: short
+title: 우유 나눠 드려요
+emoji: 🍼
+scene: 20리터 우유가 남아서 아래층 Marika 아주머니의 문을 두드린다. 한 분께만 드렸을 뿐인데…
+b: Marika néni
+register: mixed
+twist: 7 chaos
+purpose: study_abroad
+goal: 어르신께 하는 인사 Csókolom 과 권하는 말(Kér …?)
+expressions: Csókolom; Kér tejet?; Egy pillanat; Úristen
+A | Csókolom! Kér tejet? | 안녕하세요! 우유 드실래요? | csókolom = 어르신께 하는 인사
+B | Tejet? Hát, mennyi van? | 우유? 글쎄… 얼마나 있는데? | mennyi van? = 얼마나 있어?
+A | Húsz liter. | 20리터요. | húsz = 스물
+B | Úristen! Miért? | 세상에! 왜? | miért = 왜
+A | Hosszú történet. Tessék. | 얘기가 길어요. 여기요. | hosszú = 긴
+B | Köszönöm! Egy pillanat, szólok valakinek. | 고맙다! 잠깐만, 누구한테 좀 말할게. | szólok = 말을 건넨다
+A | Marika néni, ki ez a sok ember? | 아주머니, 이 많은 사람들은 누구예요? | ez a sok ember = 이 많은 사람들
+B | Az egész ház. Mindenki tejet kér! | 건물 전체야. 다들 우유 달라네! | az egész ház = 건물 전체
+
+=== r1_life_a3
+kind: short
+title: 저 몇 살로 보이세요?
+emoji: 🥖
+scene: 빵집. 아주머니께 배운 공손한 인사를 스물두 살 점원에게 그대로 써 본다
+b: Eladó
+register: polite
+twist: 5 slip
+purpose: study_abroad
+goal: 빵 주문하기, 인사는 상대 나이에 맞게
+expressions: Csókolom; Tessék?; kérek; Bocsánat
+A | Csókolom! Egy kenyeret kérek. | 안녕하세요! 빵 하나 주세요. | kenyeret = 빵을(kenyér 의 목적격)
+B | Tessék? Hogy mondta? | 네? 뭐라고 하셨어요? | hogy mondta? = 뭐라고 하셨어요?
+A | Csókolom. Ez nem jó? | 「초콜롬」이요. 이 말 틀려요? | csókolom = 어르신께만 쓰는 인사(글자 뜻: 입 맞춥니다)
+B | Hány évesnek néz engem? | 저를 몇 살로 보세요? | hány éves = 몇 살
+A | Hát, nem tudom. Hatvan? | 음… 모르겠어요. 예순? | hatvan = 60
+B | Huszonkét éves vagyok! | 저 스물두 살이에요! | huszonkét = 22
+A | Jaj, bocsánat! Akkor szia? | 아이고, 죄송해요! 그럼 안녕? | szia = 안녕(친구끼리)
+
+=== r1_life_a4
+kind: short
+title: 딱 랑고시 하나
+emoji: 🤢
+scene: 병원. 의사가 어제 뭘 먹었는지 묻는다. 대답이 점점 늘어난다
+b: Orvos
+register: polite
+twist: 7 reveal
+purpose: study_abroad
+goal: 아픈 곳 말하기(Fáj a …)
+expressions: Fáj a hasam; Hát; Jaj
+A | Jó napot! Jaj, fáj a hasam. | 안녕하세요! 아이고, 배가 아파요. | fáj a hasam = 배가 아파요
+B | Mit evett tegnap? | 어제 뭘 드셨어요? | evett = 드셨다(eszik 의 과거)
+A | Csak egy lángost. | 랑고시 하나만요. | lángos = 튀긴 빵, 랑고시
+B | Egyet? Biztos? | 하나요? 확실해요? | biztos = 확실한
+A | Hát... egyet reggel. | 음… 아침에 하나요. | reggel = 아침에
+B | És este? | 저녁에는요? | este = 저녁에
+A | Este hatot. | 저녁엔 여섯 개요. | hatot = 여섯 개를(hat 의 목적격)
+B | Hatot? Hű, hol vette? | 여섯 개요? 와, 어디서 사셨어요? | hol vette? = 어디서 사셨어요?
+
+=== r1_life_a5
+kind: short
+title: 집주인은 어디에
+emoji: 🚿
+scene: 한겨울에 온수가 끊겨 집주인 Laci 아저씨에게 전화한다. 아저씨 뒤로 물소리가 난다
+b: Laci bácsi
+register: polite
+twist: 8 reveal
+purpose: study_abroad
+goal: 집 문제 말하기(Nincs …)와 Ön 으로 묻기
+expressions: Tényleg?; Hát; Jaj; Persze
+A | Jó napot! Nincs meleg víz. | 안녕하세요! 온수가 안 나와요. | meleg víz = 더운물
+B | Tényleg? Hát, most tél van. | 그래요? 뭐, 지금 겨울이잖아요. | tél = 겨울
+A | Igen, és nagyon hideg van! | 네, 그래서 엄청 추워요! | hideg van = 춥다
+B | Jaj. Menjen a fürdőbe! | 아이고. 온천에 가세요! | fürdő = 온천, 목욕탕
+A | A fürdőbe? Ez komoly? | 온천요? 진심이세요? | komoly = 진지한
+B | Persze! Ott sok meleg víz van. | 그럼요! 거긴 더운물이 많아요. | ott = 거기
+A | Ön most hol van? | 지금 어디 계세요? | Ön = 당신(존댓말)
+B | Én? A fürdőben, három hete. | 저요? 온천이요, 3주째요. | három hete = 3주 전부터 쭉
+
+=== r1_life_b1
+kind: long
+title: 파프리카 1 kk
+emoji: 🌶️
+scene: 부엌. 레시피를 보고 처음 끓인 굴라시. 냄새가 건물을 타고 올라간다
+b: Dávid
+c: Marika néni
+register: casual
+twist: 8 chaos
+purpose: study_abroad
+goal: 요리 재촉·권유(Kóstold meg! Mutasd!)
+expressions: Kóstold meg; Mi van?; Úristen; Mutasd
+B | Mi ez a szag? Mit csinálsz? | 이 냄새 뭐야? 뭐 해? | szag = 냄새
+A | Gulyást főzök! Kóstold meg! | 굴라시 끓여! 맛봐! | kóstold meg = 맛봐
+B | Hű, de piros! Úristen, víz! | 와, 진짜 빨갛다! 세상에, 물! | de + 형용사 = 정말 ~하다
+A | Mi van? A recept szerint csináltam! | 왜? 레시피대로 했는데! | szerint = ~에 따라
+B | Mutasd! Mennyi paprikát tettél bele? | 보여 줘! 파프리카 얼마나 넣었어? | tettél bele = 네가 안에 넣었다
+A | Egy kk. Az egy kiló, nem? | 1 kk. 그거 1킬로잖아, 아니야? | ..., nem? = ~지, 아니야?
+B | Kávéskanál! A kk kávéskanál! | 찻숟갈! kk 는 찻숟갈이라고! | kávéskanál = 찻숟갈(요리책의 kk)
+C | Gyerekek, miért sír az egész ház? | 얘들아, 왜 온 건물이 울고 있니? | sír = 운다
+
+=== r1_life_b2
+kind: long
+title: 이름의 날이 없는 사람
+emoji: 💐
+scene: 집 안이 꽃투성이다. Dávid 의 이름의 날(névnap)인데, 내 이름은 달력에 없다
+b: Dávid
+register: casual
+twist: 8 emotion
+purpose: study_abroad
+goal: 이름의 날 문화와 「그건 또 뭐야?」 묻기
+expressions: Az meg mi?; Hát; Sajnos; Nézd
+A | Miért van itt ennyi virág? | 왜 여기 꽃이 이렇게 많아? | ennyi = 이만큼
+B | Ma van a névnapom! Marika néni hozta. | 오늘 내 이름의 날이야! 마리카 아주머니가 갖다주셨어. | névnap = 이름의 날
+A | Névnap? Az meg mi, születésnap? | 이름의 날? 그건 또 뭐야? 생일이야? | az meg mi? = 그건 또 뭐야?
+B | Nem. Minden névnek van egy napja. | 아니. 이름마다 자기 날이 있어. | névnek ... napja = 이름의 날
+A | És az én nevemnek? | 내 이름은? | nevemnek = 내 이름에게
+B | Hát... sajnos az nincs a naptárban. | 음… 아쉽지만 그건 달력에 없어. | naptár = 달력
+A | Jaj. Szóval nekem soha nincs névnapom. | 아이고. 그럼 나는 이름의 날이 영영 없네. | soha nincs = 절대 없다
+B | Nézd, beleírtam: holnap van. Te hozod a tortát! | 봐, 써 넣었어. 내일이야. 케이크는 네가 가져와! | beleírtam = 안에 적어 넣었다
+
+=== r1_life_b3
+kind: long
+title: 분홍색 팀
+emoji: 🩷
+scene: 빨래를 도와줬다. Dávid 의 빨간 재킷과 흰 옷을 한꺼번에
+b: Dávid
+register: casual
+twist: 8 chaos
+purpose: study_abroad
+goal: 색깔 말과 소유 접미사(-m, -d)
+expressions: Köszi; Várj; Bocsi; Nézd
+B | Szia, hol a fehér pólóm? Edzésre megyek. | 야! 내 흰 티 어디 있어? 훈련 가. | pólóm = 내 티셔츠
+A | Kimostam mindent. Nézd, tiszta! | 전부 빨았어. 봐, 깨끗해! | kimostam = 다 빨았다
+B | Köszi! Várj, ez miért rózsaszín? | 고마워! 잠깐… 이거 왜 분홍색이야? | rózsaszín = 분홍색
+A | Hát... a piros kabátod is ott volt. | 음… 네 빨간 재킷도 거기 있었거든. | kabátod = 네 재킷
+B | És a törölközőm? A zoknim? | 내 수건은? 양말은? | törölköző = 수건
+A | Minden rózsaszín. Bocsi. | 전부 분홍색이야. 미안. | minden = 전부
+A | Na, milyen volt a meccs? | (경기 뒤) 그래서 경기는 어땠어? | meccs = 경기
+B | Nyertünk! Holnap jön a csapat a ruhákkal. | 이겼어! 내일 팀 전체가 옷 들고 온대. | ruhákkal = 옷들을 가지고
+
+=== r1_life_b4
+kind: long
+title: 8시 반은 7시 반
+emoji: 🕢
+scene: 병원 접수처. fél nyolc 를 8시 반으로 알고 한 시간 늦게 왔다
+b: Asszisztens
+register: polite
+twist: 4 slip
+purpose: study_abroad
+goal: 시각 말하기 fél·negyed·háromnegyed
+expressions: Jó napot; Hát; Kérem
+A | Jó napot! Fél nyolcra jöttem az orvoshoz. | 안녕하세요! 「반 여덟 시」로 진료 왔어요. | fél nyolc = 7시 반(8시로 가는 중의 반)
+B | Fél nyolcra? Most fél kilenc van! | 「반 여덟 시」요? 지금 「반 아홉 시」예요! | fél kilenc = 8시 반
+A | Igen, fél nyolc. Nyolc és fél, nem? | 네, 「반 여덟」이요. 8시 반 아니에요? | ..., nem? = ~지요?
+B | Nem. A fél nyolc az hét harminc. | 아니요. 「반 여덟」은 7시 30분이에요. | hét harminc = 7시 30분
+A | Hét harminc? De ott van a nyolc! | 7시 30분요? 그런데 8이 들어 있잖아요! | de = 하지만
+B | Hát igen, ez magyar idő. Jöjjön holnap háromnegyed nyolcra! | 네, 이게 헝가리 시간이에요. 내일 「4분의 3 여덟 시」에 오세요! | háromnegyed nyolc = 7시 45분
+A | Háromnegyed?! Kérem, mondja számmal! | 4분의 3이요?! 제발 숫자로 말해 주세요! | számmal = 숫자로
+
+=== r1_life_b5
+kind: long
+title: 안 먹으면 의사 부른다
+emoji: 🍲
+scene: 고장 난 전구 때문에 잠깐 들렀을 뿐인데, Marika 아주머니의 식탁에서 나갈 수가 없다
+b: Marika néni
+register: mixed
+twist: 7 chaos
+purpose: study_abroad
+goal: 음식 사양하기(Elég, tele vagyok)와 Nem ízlik?
+expressions: Gyere be; Tessék; Nem ízlik?; Dehogy
+B | Gyere be, éhes vagy? Főztem egy kis levest. | 들어와! 배고프니? 국 좀 끓였어. | gyere be = 들어와
+A | Köszönöm, nem vagyok éhes. | 고맙습니다, 배 안 고파요. | éhes = 배고픈
+B | Egy kicsit! Tessék, itt a leves és a hús. | 조금만! 자, 국이랑 고기. | hús = 고기
+A | Nagyon finom! De most már elég. | 정말 맛있어요! 그런데 이제 됐어요. | elég = 충분해
+B | Elég? Nem ízlik? | 됐다고? 맛이 없니? | nem ízlik? = 입에 안 맞아?
+A | Dehogy! Csak tele vagyok. | 아니에요! 그냥 배불러요. | dehogy = 천만에, 전혀 아니야
+B | Nem eszel? Hívom az orvost! | 안 먹어? 의사 부른다! | hívom = 내가 그를 부른다
+A | Jaj, ne! Jól van, kérek még. | 아이고, 안 돼요! 알겠어요, 더 주세요. | jól van = 알겠어
+
+=== r1_life_c1
+kind: chat
+title: 레테시 어디 갔어
+emoji: 🥮
+scene: Dávid 가 냉장고의 레테시를 찾는다. 채팅으로 범인을 묻는데…
+b: Dávid
+register: chat
+twist: 7 reveal
+purpose: study_abroad
+goal: 「누가 ~했어?」 묻기와 채팅 맞장구
+expressions: Amúgy; Aha; Izé; Nem baj
+B | Ki ette meg a rétesemet? | 누가 내 레테시 먹었어? | ki ette meg? = 누가 먹어 치웠어? | at=18:02
+A | Nem én! Miért? | 나 아니야! 왜? | nem én = 나 아니야 | at=18:03
+B | Semmi. Csak kérdezem. | 아무것도. 그냥 물어보는 거야. | kérdezem = 내가 그걸 묻는다 | at=18:03
+A | Amúgy finom volt. | 근데 맛있더라. | amúgy = 근데, 그나저나 | at=18:04
+B | Aha! 😏 | 아하! 😏 | aha = 아하 | at=18:04
+A | Jaj. Izé, bocsi. | 아이고. 저기… 미안. | izé = 저기, 그거(말 막힐 때) | at=18:05
+B | Nem baj. Az szappan volt. | 괜찮아. 그거 비누였어. | szappan = 비누 | at=18:05
+A | Ja... ezért volt olyan tiszta. | 아… 어쩐지 깔끔하더라. | ezért = 그래서 | at=18:07
+
+=== r1_life_c2
+kind: chat
+title: 건물 단톡방
+emoji: 🏢
+scene: Dávid 에게 보낸 줄 알았는데, 아주머니가 있는 건물 전체 단톡방이었다
+b: Dávid
+c: Marika néni
+d: Feri bácsi
+register: chat
+twist: 5 chaos
+purpose: study_abroad
+goal: 짧은 명령·경고 문자(Ne nyisd ki!)
+expressions: Figyelj; Jaj; Szép volt
+A | Figyelj, jön a néni! | 야, 아주머니 온다! | figyelj = 야, 들어 봐 | at=19:10
+A | Ne nyisd ki az ajtót! | 문 열지 마! | ne nyisd ki = 열지 마 | at=19:10
+A | Megint leves! | 또 국이야! | megint = 또 | at=19:11
+C | Kivel beszélsz? | 누구랑 얘기하니? | kivel = 누구와 | at=19:12
+A | Jaj... ez a ház csoportja?! | 어머… 여기 건물 단톡방이에요?! | csoport = 그룹 | at=19:12
+D | Igen. Én is kérek levest! | 응. 나도 국 줘! | én is = 나도 | at=19:13
+B | Szép volt. 👏 | 잘했다. 👏 | szép volt = 잘했다(비꼬는 말로도) | at=19:13
+C | Holnap mindenkinek. Tíz liter. | 내일 전부 다 준다. 10리터. | mindenkinek = 모두에게 | at=19:15
+
+=== r1_life_c3
+kind: chat
+title: 초록 대문, 큰 개
+emoji: 🛵
+scene: 랑고시 배달. 기사가 집 앞에 왔다는데 아무도 안 보인다
+b: Futár
+register: chat
+twist: 7 reveal
+purpose: study_abroad
+goal: 배달 기사와 문자로 위치 맞추기
+expressions: Jó napot; Bocsánat; Sajnos
+B | Jó napot! Itt vagyok a kapunál. | 안녕하세요! 대문 앞이에요. | kapunál = 대문 옆에 | at=12:30
+A | Jó napot! Nem látom. | 안녕하세요! 안 보이는데요. | nem látom = 그게 안 보여요 | at=12:31
+B | Zöld kapu, nagy kutya. | 초록 대문, 큰 개요. | zöld = 초록색 | at=12:31
+A | Itt nincs kutya. | 여긴 개가 없는데요. | nincs = 없다 | at=12:32
+B | Akkor rossz ház. Bocsánat. | 그럼 다른 집이네요. 죄송해요. | rossz ház = 틀린 집 | at=12:34
+A | És a lángosom? | 제 랑고시는요? | lángosom = 내 랑고시 | at=12:34
+B | Sajnos a kutya megette. | 안타깝게도 개가 먹었어요. | megette = 먹어 치웠다 | at=12:36
+A | Akkor jó étvágyat neki. | 그럼 개한테 맛있게 먹으라고 해 주세요. | jó étvágyat = 맛있게 드세요 | at=12:37
+
+=== r1_life_c4
+kind: chat
+title: 읽고 답 없는 집주인
+emoji: 💧
+scene: 수도관이 터졌다. 집주인 Laci 아저씨에게 문자를 보내는데, 읽기만 하고 답이 없다
+b: Laci bácsi
+register: chat
+twist: 6 ignore
+purpose: study_abroad
+goal: 상황이 번지는 것을 문자로 알리기(Most már …)
+expressions: Kérem; Most már; Nem baj; Bocsánat
+A | Jó napot! Folyik a víz. | 안녕하세요! 물이 새요. | folyik = 흐른다 | at=08:10
+A | A konyhában. | 부엌에서요. | konyha = 부엌 | at=08:40
+A | Most már a szobában is. | 이제 방에서도요. | most már = 이제는 | at=09:15
+A | Dávid úszik. 😅 | 다비드가 수영해요. 😅 | úszik = 수영한다 | at=09:50
+A | Kérem, válaszoljon! | 제발 답 좀 해 주세요! | válaszoljon = 답하세요(존댓말) | at=10:30
+B | Jó napot! Bocsánat, fürdőben voltam. | 안녕하세요! 죄송해요, 온천에 있었어요. | fürdőben = 온천에 | at=15:12
+A | Nem baj. Most már itt is fürdő van. | 괜찮아요. 이제 여기도 온천이에요. | itt is = 여기도 | at=15:13
+
+=== r2_life_b1
+kind: long
+title: 12번 서류
+emoji: 🗂️
+scene: 구청 창구. 주소 카드(lakcímkártya)를 받으려면 서류가, 서류를 받으려면 카드가 필요하다
+b: Ügyintéző
+register: polite
+twist: 10 reveal
+purpose: study_abroad
+goal: 관공서에서 서류 요청하고 따지기
+expressions: Jó napot; Rendben; Tessék; Hát igen; Tényleg?
+A | Jó napot! Lakcímkártyát szeretnék kérni. | 안녕하세요! 주소 카드를 받고 싶어요. | lakcímkártya = 주소 카드 
+B | Rendben. Kérem a szerződést a lakásról. | 네. 집 계약서 주세요. | szerződés = 계약서
+A | Tessék. Az útlevelem is itt van. | 여기요. 제 여권도 여기 있어요. | útlevél = 여권
+B | Szép. De hiányzik a tizenkettes papír. | 좋아요. 그런데 12번 서류가 없네요. | hiányzik = 빠져 있다
+A | Hol kapok ilyet? | 그런 건 어디서 받아요? | ilyet = 이런 것을
+B | A harmadik emeleten, a nyolcas ablaknál. | 3층 8번 창구에서요. | emelet = 층
+A | Most jövök onnan! Azt mondták, oda lakcímkártya kell. | 방금 거기서 왔어요! 거기엔 주소 카드가 필요하대요. | onnan = 거기서부터
+B | Igen, a tizenkettes papírhoz kell lakcímkártya. Ez így van. | 네, 12번 서류에는 주소 카드가 필요해요. 원래 그래요. | -hoz = ~에(필요한 대상)
+A | De a kártyához kell a papír! Ez egy kör! | 그런데 카드에 서류가 필요하잖아요! 이건 뺑뺑이예요! | kör = 원
+B | Hát igen. Nekem sincs kártyám, pedig húsz éve itt dolgozom. | 그러게요. 저도 카드가 없어요, 여기서 20년 일했는데요. | nekem sincs = 나도 없다
+A | Tényleg? Akkor hol lakik Ön hivatalosan? | 정말요? 그럼 공식적으로는 어디 사세요? | hivatalosan = 공식적으로
+B | Hivatalosan sehol. Ne mondja el senkinek! | 공식적으로는 아무 데도요. 아무한테도 말하지 마세요! | sehol = 아무 데도
+
+=== r2_life_b2
+kind: long
+title: 건배사는 천천히
+emoji: 🥂
+scene: Dávid 의 부모님이 오는 날. 긴 단어 egészségedre 를 연습하는데 자꾸 다른 말이 된다
+b: Dávid
+c: Dávid apja
+register: mixed
+twist: 8 slip
+flags: alcohol profanity_mild
+purpose: study_abroad
+goal: 건배 인사 egészségedre 와 말 놓기 Tegeződjünk
+expressions: Figyelj; Persze; Jól van; Tessék?; Ne már
+B | Figyelj, ma este jönnek a szüleim. Tudsz koccintani? | 야, 오늘 저녁에 우리 부모님 오셔. 건배할 줄 알아? | koccint = 잔을 부딪치다
+A | Persze! Mit kell mondani? | 당연하지! 뭐라고 해야 돼? | mit kell mondani? = 뭐라고 해야 해?
+B | Azt, hogy „egészségedre”. Lassan mondd! | 「에게세게드레」라고 해. 천천히 말해 봐! | egészségedre = 건배(네 건강을 위해)
+A | Egész... seggedre? | 전체… 네 엉덩이에? | 띄어 말하면 뜻이 달라진다
+B | Nem, az mást jelent! Ne mondd apámnak! | 아니, 그건 뜻이 달라! 우리 아빠한테 하지 마! | segg = 엉덩이(거친 말)
+A | Jól van, értem. Egészségedre, egészségedre! | 알겠어, 이해했어. 건배, 건배! | jól van = 알겠어
+C | Szia, {name}! Tegeződjünk, és igyunk egyet! | 안녕, {name}! 말 놓고 한잔하자! | tegeződjünk = 말 놓자
+A | Köszönöm! Egész seggedre! | 고맙습니다! 당신 엉덩이 전체를 위해! | egész seggedre = 네 엉덩이 전체에
+C | Tessék? | 뭐라고? | tessék? = 뭐라고?
+B | Úristen. Apa, még tanulja a nyelvet. | 세상에. 아빠, 아직 말 배우는 중이야. | tanulja = 그걸 배운다
+C | Hát ez remek! Mostantól így mondjuk a családban. | 이거 최고다! 앞으로 우리 집은 이렇게 말한다. | mostantól = 이제부터
+B | Ne már! Karácsonykor nagymama is ezt fogja mondani. | 아 좀! 크리스마스엔 할머니도 이 말 하시겠네. | fogja mondani = 말할 것이다
+
+=== r2_life_b3
+kind: long
+title: 빠른 아주머니
+emoji: 🏊
+scene: 온천 수영장. Dávid 가 수영 실력을 뽐내는데 수영모 쓴 Marika 아주머니가 지나간다
+b: Dávid
+c: Marika néni
+register: mixed
+twist: 11 reveal
+purpose: study_abroad
+goal: 어르신께 쓰는 tetszik 말투(Hogy tetszik lenni?)
+expressions: Gyere; Persze; Csókolom; Hogy tetszik lenni?; Ne már
+B | Gyere, megmutatom, hogy kell gyorsan úszni. Nézd! | 와, 빨리 수영하는 법 보여 줄게. 봐! | megmutatom = 내가 보여 줄게
+A | Hű, te tényleg gyors vagy! | 와, 너 진짜 빠르다! | gyors = 빠른
+C | Bocsánat, kisfiam, mehetek? | 미안하다 얘야, 지나가도 되니? | kisfiam = 얘야(어린 남자에게)
+B | Persze, tessék. Várj, ez Marika néni? | 그럼요, 가세요. 잠깐, 이거 마리카 아주머니야? | várj = 잠깐
+A | Csókolom! Hogy tetszik lenni? | 안녕하세요! 잘 지내세요? | hogy tetszik lenni? = 어르신께 쓰는 안부
+C | Jól, csak ez a fiú lassú. Nem baj, még fiatal. | 잘 지내지, 이 청년이 느릴 뿐. 괜찮아, 아직 젊으니까. | lassú = 느린
+B | Lassú?! Na, jöjjön, két hossz! | 느리다고요?! 자, 오세요, 두 바퀴요! | jöjjön = 오세요(존댓말)
+A | Dávid, ne már! Nyolcvan éves! | 다비드, 아 좀! 여든이시잖아! | ne már = 아 좀
+C | Nyolcvankettő. Mehetünk? | 여든둘이다. 갈까? | mehetünk = 우리 가도 된다
+B | Ez nem lehet! Hogy csinálta?! | 말도 안 돼! 어떻게 하신 거예요?! | nem lehet = 그럴 리 없어
+C | Régen az olimpián úsztam, kisfiam. Ne siess, még fiatal vagy. | 옛날에 올림픽에서 수영했단다, 얘야. 서두르지 마, 아직 젊잖니. | régen = 옛날에
+B | Marika néni... nem edzene engem? | 아주머니… 저 좀 훈련시켜 주시면 안 될까요? | edzene = 훈련시켜 주실 텐데(조건법)
+
+=== r2_life_b4
+kind: long
+title: 계단의 옷장
+emoji: 🚪
+scene: 벼룩시장에서 산 옷장을 둘이서 계단으로 올리다가 2층과 3층 사이에 끼었다
+b: Dávid
+c: Marika néni
+register: casual
+twist: 9 chaos
+purpose: study_abroad
+goal: 함께 일할 때 쓰는 말(Told! Várj! Hogyhogy?)
+expressions: Figyelj; Hogyhogy; Mindjárt; Ne már; Semmi baj
+B | Figyelj, vettem egy szekrényt a bolhapiacon. Olcsó volt! | 야, 벼룩시장에서 옷장 샀어. 쌌어! | bolhapiac = 벼룩시장
+A | Hű, de nagy! Biztos, hogy befér? | 와, 엄청 크다! 확실히 들어가? | befér = 안에 들어간다
+B | Persze, gyerünk! Te alulról fogod, én felülről. | 당연하지, 가자! 넌 아래서 잡아, 난 위에서. | gyerünk = 가자
+A | Várj, várj! Megállt, nem megy tovább! | 잠깐, 잠깐! 멈췄어, 더 안 올라가! | tovább = 더, 계속
+B | Hogyhogy nem megy? Told még egy kicsit! | 왜 안 가? 조금만 더 밀어! | told = 그걸 밀어
+A | Tolom! De most már visszafelé sem megy. | 밀고 있어! 근데 이제 뒤로도 안 가. | visszafelé = 뒤로
+C | Gyerekek, én hogy megyek le a boltba? | 얘들아, 나는 가게에 어떻게 내려가니? | hogy megyek le? = 어떻게 내려가지?
+B | Jaj, Marika néni! Mindjárt megoldjuk! | 아이고, 아주머니! 금방 해결할게요! | mindjárt = 금방
+A | Dávid, az egész ház itt áll. Feri bácsi hívta a tűzoltókat. | 다비드, 건물 사람들 다 나왔어. 페리 아저씨가 소방관 불렀어. | tűzoltó = 소방관
+B | Tűzoltókat?! Ne már, ez csak egy szekrény! | 소방관?! 아 좀, 이거 그냥 옷장이야! | csak = 그냥
+C | Semmi baj, gyerekek. Tessék, átadom a levest a szekrény fölött. | 괜찮다, 얘들아. 자, 옷장 위로 국 건네 줄게. | fölött = 위로
+A | Dávid... a tűzoltók is levest kérnek. | 다비드… 소방관들도 국 달래. | kérnek = 그들이 달라고 한다
+
+=== r2_life_c1
+kind: chat
+title: 옷장 팝니다
+emoji: 🏷️
+scene: 계단에 낀 옷장을 중고 장터에 올렸다. 구매자 쪽지가 왔는데 뭔가 이상하다
+b: Vevő
+register: chat
+twist: 11 reveal
+purpose: study_abroad
+goal: 중고 거래 문자(Mennyibe kerül? Hol lehet megnézni?)
+expressions: Jó napot; Mennyibe kerül; Szuper; Hát; Hogyhogy; Igazából
+B | Jó napot! Még eladó a szekrény? | 안녕하세요! 옷장 아직 파시나요? | eladó = 판매 중인 | at=20:14
+A | Jó napot! Igen, még eladó. | 안녕하세요! 네, 아직 팔아요. | még = 아직 | at=20:15
+B | Mennyibe kerül? Jó állapotban van? | 얼마예요? 상태는 좋아요? | mennyibe kerül? = 얼마예요? | at=20:15
+A | Húszezer forint. Nagyon jó állapotban van. | 2만 포린트요. 상태 아주 좋아요. | állapot = 상태 | at=20:16
+B | Szuper. Hol lehet megnézni? | 좋네요. 어디서 볼 수 있어요? | lehet = ~할 수 있다 | at=20:16
+A | Hát... a lépcsőn. | 음… 계단에서요. | lépcső = 계단 | at=20:18
+B | A lépcsőn? Hogyhogy? | 계단에서요? 어째서요? | hogyhogy? = 어째서? | at=20:18
+A | Igazából beragadt. Már három hete ott van. | 사실 끼었어요. 벌써 3주째 거기 있어요. | beragadt = 끼어서 안 움직인다 | at=20:19
+B | Várjon. Zöld kapu, második emelet? | 잠깐만요. 초록 대문, 2층이요? | várjon = 기다리세요 | at=20:20
+A | Igen! Honnan tudja? | 네! 어떻게 아세요? | honnan = 어디서부터 | at=20:20
+B | Én adtam el Dávidnak. Ezért volt olyan olcsó. | 제가 다비드한테 판 거예요. 그래서 그렇게 쌌던 거고요. | adtam el = 내가 팔았다 | at=20:21
+B | Az én lépcsőmön is beragadt. 😅 | 우리 계단에서도 끼었거든요. 😅 | lépcsőmön = 내 계단에서 | at=20:21
+
+=== r2_life_c2
+kind: chat
+title: 다비드 엄마입니다
+emoji: 🌭
+scene: 모르는 번호로 문자가 왔다. Dávid 의 어머니가 아들 안부를 대신 묻는다
+b: Dávid anyukája
+c: Dávid
+register: chat
+twist: 9 emotion
+purpose: study_abroad
+goal: 어른과 문자 주고받기, 전해 들은 말 옮기기(Azt mondta, …)
+expressions: Csókolom; De jó; Tényleg; Na jó
+B | Szia, {name}! Dávid anyukája vagyok. 😊 | 안녕, {name}! 다비드 엄마야. 😊 | anyuka = 엄마 | at=16:20
+A | Csókolom! Honnan van meg a számom? | 안녕하세요! 제 번호는 어떻게 아세요? | honnan van meg? = 어디서 났어요? | at=16:21
+B | Dávid telefonjából. Eszik rendesen? | 다비드 전화기에서. 밥은 잘 먹니? | rendesen = 제대로 | at=16:21
+A | Igen, azt hiszem. Miért? | 네… 그런 것 같아요. 왜요? | azt hiszem = 그런 것 같아 | at=16:22
+B | Nem válaszol. Küldtem neki kolbászt. | 답을 안 해서. 소시지를 좀 보냈어. | kolbász = 소시지 | at=16:22
+A | De jó! Mennyit? | 좋네요! 얼마나요? | de jó = 좋다 | at=16:23
+B | Tíz kilót, neked is. Dávid mondta, hogy itt nincs családod. | 10킬로, 네 몫도야. 다비드가 네 가족이 여기 없다더라. | neked is = 너한테도 | at=16:24
+A | Tényleg ezt mondta? | 정말 그렇게 말했어요? | tényleg = 정말 | at=16:26
+B | Igen. Azt mondta, te vagy itt a családja. | 그래. 여기서는 네가 자기 가족이래. | azt mondta = 그렇게 말했다 | at=16:26
+C | Anya írt neked?! Ne olvasd el! | 엄마가 너한테 문자 했어?! 읽지 마! | ne olvasd el = 읽지 마 | at=16:40
+A | Már késő. 🥹 | 이미 늦었어. 🥹 | már késő = 이미 늦었다 | at=16:41
+C | Na jó. De a kolbász az enyém. | 그래 됐고. 근데 소시지는 내 거야. | az enyém = 내 것 | at=16:41
+
+=== r3_life_b1
+kind: long
+title: 모든 다비드를 환영합니다
+emoji: 🎉
+scene: Dávid 몰래 이름의 날 파티를 준비한다. 초대 글에서 낱말 하나를 빠뜨렸다
+b: Dávid
+c: Másik Dávid
+d: Marika néni
+register: mixed
+twist: 9 chaos
+purpose: study_abroad
+goal: 목적격과 소유 표현(minden Dávidot / Dávid minden barátját) 구별
+expressions: Persze; ugye; Úristen; Figyelj; Jaj
+A | Marika néni, tetszik jönni este? Meglepetésbulit csinálok Dávid névnapjára. | 아주머니, 오늘 저녁에 오실래요? 다비드 이름의 날에 깜짝 파티 해요. | tetszik jönni? = 오시겠어요?(어르신께)
+D | Persze, hozok levest. Hányan lesztek? | 그럼, 국 가져갈게. 몇 명이나 되니? | hányan? = 몇 명이서?
+A | Talán tízen. Kiírtam a netre: „Várunk minden Dávidot”, ugye jó? | 열 명쯤요. 인터넷에 「모든 다비드를 기다립니다」라고 썼어요, 괜찮죠? | kiírtam = 올렸다
+D | Minden Dávidot? Nem „Dávid minden barátját”? | 모든 다비드를? 「다비드의 모든 친구를」이 아니고? | barátját = 그의 친구를
+A | Jaj... az nem ugyanaz? | 아이고… 그거 같은 말 아니에요? | ugyanaz = 같은 것
+C | Szia, Dávid vagyok. Itt van a buli? | 안녕, 나 다비드야. 파티 여기야? | buli = 파티
+A | Szia! Te Dávid barátja vagy? | 안녕! 너 다비드 친구야? | barátja = 그의 친구
+C | Nem, én csak egy másik Dávid vagyok. Lent jön még harminc. | 아니, 난 그냥 다른 다비드야. 아래에 서른 명 더 와. | másik = 다른
+A | Harminc?! Marika néni, harminc Dávid jön fel a lépcsőn! | 서른?! 아주머니, 다비드 서른 명이 계단으로 올라와요! | jön fel = 올라온다
+D | Mondtam. Megyek, főzök még levest. | 내가 말했지. 가서 국 더 끓일게. | mondtam = 내가 말했다
+B | Megjöttem! Ki ez a sok ember a lakásomban? | 나 왔어! 내 집에 이 많은 사람들 누구야? | lakásomban = 내 집 안에
+A | Boldog névnapot! Ők mind Dávidok. | 이름의 날 축하해! 이 사람들 다 다비드야. | ők mind = 그들 모두
+B | Mind?! Negyven Dávid van a konyhámban, és egyiket sem ismerem! | 다?! 우리 부엌에 다비드가 마흔 명인데 한 명도 몰라! | egyiket sem = 하나도 ~않다
+C | Figyelj, egy rendőr van a lépcsőn. Panasz jött a zaj miatt. | 야, 계단에 경찰 왔어. 시끄럽다고 신고 들어왔대. | panasz = 민원
+A | Úristen! Mit akar? | 세상에! 뭐래? | mit akar? = 뭘 원해?
+C | Azt mondja, ő is Dávid. És hol a leves? | 자기도 다비드래. 그리고 국 어디 있냐는데? | azt mondja = 그렇게 말한다
+
+=== r3_life_b2
+kind: long
+title: 진짜 집주인
+emoji: 🔑
+scene: 월세 문제로 Laci 아저씨를 찾다가 Marika 아주머니에게 물었다. 2년 동안 몰랐던 사실이 나온다
+b: Marika néni
+register: mixed
+twist: 10 reveal
+purpose: study_abroad
+goal: 놀람 표현과 「~ 때문에」(miatt), 간접 인용
+expressions: Csókolom; Micsoda; Na; Hát
+A | Csókolom, tetszik tudni, hol van Laci bácsi? A lakbér miatt keresem. | 안녕하세요! 라치 아저씨 어디 계신지 아세요? 월세 때문에 찾아요. | lakbér = 월세
+B | Hát hol lenne, a fürdőben. Mennyi lakbért fizettek neki? | 어디 있겠니, 온천이지. 월세를 얼마나 내는데? | hol lenne? = 어디 있겠어?
+A | Minden hónapban százötvenezer forintot. Ő a tulajdonos, nem? | 매달 15만 포린트요. 그분이 집주인이잖아요? | tulajdonos = 소유주
+B | Ő?! Ezt ki mondta? | 그 사람이?! 누가 그래? | ezt ki mondta? = 누가 그랬어?
+A | Ő mondta. Már két éve neki fizetünk. | 그분이요. 벌써 2년째 그분께 내고 있어요. | két éve = 2년째
+B | Na, idefigyelj. A ház az enyém, a lakás is az enyém. | 자, 잘 들어. 건물도 내 거고, 그 집도 내 거야. | az enyém = 내 것
+A | Micsoda? Akkor ki Laci bácsi? | 뭐라고요? 그럼 라치 아저씨는 누구예요? | micsoda? = 뭐라고?
+B | Laci a férjem. Negyvenhat éve. | 라치는 내 남편이야. 46년째. | férj = 남편
+A | A férje?! De ő a fürdőben lakik! | 남편이요?! 그런데 온천에 사시잖아요! | a férje = 남편분(Ön 에게 '당신의 남편')
+B | Tíz éve azt mondta, sós a levesem. Azóta ott van. | 10년 전에 내 국이 짜다고 했거든. 그 뒤로 거기 있어. | sós = 짠
+A | Csak ezért? És azóta nem beszélnek? | 그것 때문에요? 그 뒤로 말씀 안 하세요? | azóta = 그때부터
+B | Nem. De minden kedden viszek neki levest. | 안 해. 그래도 화요일마다 국은 갖다줘. | visz = 가져간다
+A | És a mi pénzünk? A lakbér? | 그럼 저희 돈은요? 월세는요? | pénzünk = 우리 돈
+B | Azt a fürdőre költi. Ezért nem jön haza. | 그걸 온천에 쓰는 거지. 그래서 집에 안 오는 거고. | költ = 돈을 쓴다
+A | Akkor most mit csináljak? Kinek fizessek? | 그럼 저는 어떡해요? 누구한테 내야 돼요? | fizessek = 내가 내야 할까
+B | Továbbra is neki. Ha elfogy a pénze, hazajön, és azt nem bírnám. | 계속 그 사람한테 내. 돈 떨어지면 집에 오잖아, 그건 내가 못 견뎌. | nem bírnám = 못 견딜 거야(조건법)
+
+=== r3_life_b3
+kind: long
+title: 뇌진탕 검사
+emoji: 🏥
+scene: 온천에서 미끄러져 머리를 찧고 응급실에 왔다. 날짜도 모르는데, 내기로 외운 헝가리어 최장 단어는 안다
+b: Dávid
+c: Orvos
+d: Nővér
+register: mixed
+twist: 11 chaos
+purpose: study_abroad
+goal: 병원에서 다친 경위 말하기, 긴 단어 농담
+expressions: Hát; Izé; Rendben; Figyelj; Úristen
+C | Jó napot, mi történt? Hol fáj? | 안녕하세요! 무슨 일이에요? 어디가 아파요? | mi történt? = 무슨 일이에요?
+A | Jó napot! Elcsúsztam a fürdőben, és megütöttem a fejem. | 안녕하세요! 온천에서 미끄러져서 머리를 부딪쳤어요. | elcsúsztam = 미끄러졌다
+B | Én hoztam be. Azóta furcsákat mond, doktor úr. | 제가 데려왔어요. 그 뒤로 이상한 말을 해요, 의사 선생님. | furcsa = 이상한
+C | Rendben, ellenőrizzük. Milyen nap van ma? | 네, 확인해 봅시다. 오늘 무슨 요일이죠? | ellenőrizzük = 확인합시다
+A | Hát, izé... hétfő vagy szombat? | 음, 저기… 월요일이나 토요일? | izé = 저기, 그거
+C | Szerda. Hogy hívják a szobatársát? | 수요일이에요. 룸메이트 이름이 뭐죠? | hogy hívják? = 이름이 뭐예요?
+A | Őt? Hát, ő az, aki sokat eszik. | 쟤요? 음… 많이 먹는 애요. | aki = ~하는 사람
+B | Jaj, ne már. Doktor úr, ez komoly? | 아 좀. 의사 선생님, 심각한 거예요? | komoly = 심각한
+C | Még egy teszt. Mondjon nekem egy hosszú magyar szót. | 검사 하나 더요. 긴 헝가리어 단어 하나 말해 보세요. | mondjon = 말하세요(존댓말)
+A | Megszentségteleníthetetlenségeskedéseitekért. | (헝가리어에서 가장 길다는 그 단어.) | 뜻은 몰라도 된다: 농담으로 쓰는 긴 단어
+C | Tessék?! Ezt még egyszer, lassan! | 네?! 다시 한번, 천천히요! | még egyszer = 한 번 더
+D | Mi történt, doktor úr? Rosszul van a beteg? | 무슨 일이에요, 선생님? 환자가 안 좋아요? | rosszul van = 몸이 안 좋다
+C | Hallgassa! Ezt húsz éve nem tudom kimondani. | 들어 보세요! 나는 이걸 20년째 못 말해요. | kimondani = 말로 내뱉다
+A | Megszentségteleníthetetlenségeskedéseitekért. Mehetek már? | (또 그 단어.) 이제 가도 돼요? | mehetek = 가도 돼요?
+D | Úristen! Hívom a főorvost és az egész osztályt! | 세상에! 과장님이랑 병동 전체를 부를게요! | főorvos = 과장 의사
+B | Figyelj, nem tudod a nevemet, de ezt tudod? Akkor te mosogatsz. | 야, 내 이름은 몰라도 그건 안다고? 그럼 설거지는 네가 해. | mosogatsz = 네가 설거지한다
+
+=== r3_life_b4
+kind: long
+title: 말 놓자
+emoji: 🎂
+scene: 겨울 밤, 아무한테도 말 안 한 내 생일. 국을 받으러 안 내려가자 Marika 아주머니가 올라온다
+b: Marika néni
+c: Dávid
+register: mixed
+twist: 13 emotion
+purpose: study_abroad
+goal: 말 놓는 장면(Tegeződjünk)과 Ön→te 전환
+expressions: Csókolom; Aha; Semmi baj; Hát; Na; Szóval
+B | Háromszor csengettem. Nem jöttél a levesért, jól vagy? | 벨을 세 번 눌렀어. 국 받으러 안 왔던데, 괜찮니? | csengettem = 벨을 눌렀다
+A | Csókolom. Jól vagyok, csak fáradt. | 안녕하세요. 괜찮아요, 그냥 피곤해서요. | fáradt = 피곤한
+B | Aha. Akkor miért piros a szemed? | 그래. 그럼 눈은 왜 빨갛니? | szemed = 네 눈
+A | Semmi baj, csak a paprika. | 별일 아니에요, 그냥 파프리카 때문에요. | semmi baj = 별일 없어
+B | Ma nem főztél semmit, nem éreztem szagot. | 오늘 아무것도 안 끓였잖아, 냄새가 안 났어. | éreztem = 느꼈다
+A | Hát, ma van a születésnapom, és {country} nagyon messze van. | 사실 오늘 제 생일이에요, {country}는 너무 멀고요. | messze = 멀리
+B | Tudom, hogy ma van. Ebben a házban mindent tudok. | 오늘인 거 안다. 이 건물 일은 내가 다 알아. | ebben a házban = 이 건물에서
+A | Honnan...? Jaj, nem akartam gondot csinálni. | 어떻게…? 아이고, 폐 끼치기 싫었어요. | gond = 걱정거리
+B | Na, idefigyelj. Hány éve lakunk egy házban? | 자, 잘 들어. 우리 한 건물에 산 지 몇 년이지? | idefigyelj = 여기 잘 들어
+A | Majdnem két éve. Miért? | 거의 2년이요. 왜요? | majdnem = 거의
+B | Akkor elég a csókolomból. Marika vagyok, tegeződjünk! | 그럼 「초콜롬」은 그만하자. 난 마리카야, 말 놓자! | tegeződjünk = 말 놓자
+A | Csak így, Marika? Jaj, ezt nem tudom kimondani. | 이렇게 그냥, 마리카? 아이고, 이 말 못 하겠어요. | csak így = 이렇게 그냥
+B | A fiam Kanadában él, ő sem hív. Szóval most te eszed a levest. | 내 아들은 캐나다에 사는데, 걔도 전화 안 해. 그러니까 이젠 네가 그 국을 먹는 거야. | te eszed = 네가 그걸 먹는다
+A | Ezért hozott... ezért hoztál mindig levest? | 그래서 가져오셨… 그래서 늘 국을 가져왔구나? | hozott → hoztál = 존댓말에서 반말로
+B | Ezért. Na, nyisd ki az ajtót. | 그래서지. 자, 문 열어. | nyisd ki = 열어
+C | Meglepetés, boldog szülinapot! Hoztam húsz liter tejet. | 깜짝이야, 생일 축하해! 우유 20리터 가져왔어. | szülinap = 생일(구어)
+
+=== r3_life_c1
+kind: chat
+title: 사라진 치르미
+emoji: 🐈
+scene: 건물 단톡방. Marika 아주머니의 고양이 Cirmi 가 사라졌다고 하자 모두 고양이를 찾아 나선다
+b: Dávid
+c: Marika néni
+d: Feri bácsi
+register: chat
+twist: 9 chaos
+purpose: study_abroad
+goal: 단톡방 공지·개수 말하기, 2인칭 복수 명령
+expressions: Jaj; Szuper; Amúgy; Szívesen; Puszi
+C | Emberek, eltűnt Cirmi! Reggel óta nem láttam. | 여러분, 치르미가 없어졌어요! 아침부터 못 봤어요. | eltűnt = 사라졌다 | at=18:05
+A | Jaj, milyen macska? Segítek keresni. | 어머, 어떤 고양이요? 찾는 거 도울게요. | keresni = 찾기 | at=18:06
+C | Szürke, kövér, mindenkire mérges. | 회색이고, 뚱뚱하고, 누구한테나 화나 있어. | mérges = 화난 | at=18:07
+D | Találtam egy szürke macskát a kapu előtt! | 대문 앞에서 회색 고양이 찾았어요! | találtam = 찾았다 | at=18:15
+B | Én is, a kukánál! Ez is szürke. | 나도, 쓰레기통 옆에서! 이것도 회색이야. | kuka = 쓰레기통 | at=18:17
+A | Várjatok! Hány macskája van Marika néninek? | 잠깐만요! 아주머니 고양이가 몇 마리예요? | várjatok = 기다려(여럿에게) | at=18:20
+C | Egy! De hozzátok ide, megnézem. | 한 마리! 그래도 가져와 봐, 내가 볼게. | hozzátok = 그걸 가져와(여럿에게) | at=18:21
+A | Már négy macska van nálunk. Az egyik a kanapén alszik. | 벌써 우리 집에 고양이 네 마리예요. 한 마리는 소파에서 자요. | nálunk = 우리 집에 | at=18:40
+B | Hat. Az egyik megette a kolbászt. | 여섯. 한 마리는 소시지 먹었어. | megette = 먹어 치웠다 | at=18:52
+D | Hoztam még kettőt a pincéből. Szívesen! | 지하실에서 두 마리 더 데려왔어요. 천만에요! | pince = 지하실 | at=19:03
+B | Amúgy most jut eszembe: allergiás vagyok a macskára. 🤧 | 근데 지금 생각났는데, 나 고양이 알레르기 있어. 🤧 | most jut eszembe = 지금 생각났다 | at=19:04
+C | Megvan Cirmi! A szekrényben aludt a lépcsőn. | 치르미 찾았어요! 계단의 옷장에서 자고 있었어. | megvan = 찾았다 | at=19:20
+A | Szuper. És most kié ez a nyolc macska? | 좋네요. 그럼 이 고양이 여덟 마리는 누구 거예요? | kié? = 누구 것? | at=19:21
+D | Nem az enyém. Jó éjszakát. | 내 건 아니에요. 잘 자요. | jó éjszakát = 잘 자요 | at=19:22
+C | Nekem csak Cirmi kell. Puszi! | 나는 치르미만 있으면 돼. 쪽! | puszi = 쪽(볼 뽀뽀, 끝인사) | at=19:22
+A | Eladó egy szekrény. Nyolc macska ingyen jár hozzá. | 옷장 팝니다. 고양이 여덟 마리 무료 증정. | ingyen = 공짜로 | at=19:25

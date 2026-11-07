@@ -1,0 +1,391 @@
+{
+ "id": "r2_life_b3",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "빠른 아주머니",
+ "emoji": "🏊",
+ "scene": "온천 수영장. Dávid 가 수영 실력을 뽐내는데 수영모 쓴 Marika 아주머니가 지나간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid",
+  "C": "Marika néni"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "어르신께 쓰는 tetszik 말투(Hogy tetszik lenni?)",
+ "expressions": [
+  "Gyere",
+  "Persze",
+  "Csókolom",
+  "Hogy tetszik lenni?",
+  "Ne már"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Gyere, megmutatom, hogy kell gyorsan úszni. Nézd!",
+   "rd": "제레, 멕무터톰, 호지 켈 죠르션 우쓰니. 네즈드!",
+   "ko": "와, 빨리 수영하는 법 보여 줄게. 봐!",
+   "note": "megmutatom = 내가 보여 줄게",
+   "tags": [
+    "expr:Gyere"
+   ],
+   "lemmas": [
+    [
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "megmutatom",
+     "megmutat",
+     "메그무타트"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "gyorsan",
+     "gyors",
+     "죠르시"
+    ],
+    [
+     "úszni",
+     "úszni",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hű, te tényleg gyors vagy!",
+   "rd": "휘, 테 테닐렉 죠르시 버지!",
+   "ko": "와, 너 진짜 빠르다!",
+   "note": "gyors = 빠른",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "gyors",
+     "gyors",
+     "죠르시"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Bocsánat, kisfiam, mehetek?",
+   "rd": "보차너트, 키슈피엄, 메헤텍?",
+   "ko": "미안하다 얘야, 지나가도 되니?",
+   "note": "kisfiam = 얘야(어린 남자에게)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bocsánat",
+     "bocsánat",
+     "버치너트"
+    ],
+    [
+     "kisfiam",
+     "kisfiam",
+     ""
+    ],
+    [
+     "mehetek",
+     "mehet",
+     "메헤트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Persze, tessék. Várj, ez Marika néni?",
+   "rd": "페르쎄, 테쎅. 바르이, 에즈 머리커 네니?",
+   "ko": "그럼요, 가세요. 잠깐, 이거 마리카 아주머니야?",
+   "note": "várj = 잠깐",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Csókolom! Hogy tetszik lenni?",
+   "rd": "초콜롬! 호지 테트씩 렌니?",
+   "ko": "안녕하세요! 잘 지내세요?",
+   "note": "hogy tetszik lenni? = 어르신께 쓰는 안부",
+   "tags": [
+    "expr:Csókolom",
+    "expr:Hogy tetszik lenni?"
+   ],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "tetszik",
+     "tetszik",
+     "테트씨크"
+    ],
+    [
+     "lenni",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Jól, csak ez a fiú lassú. Nem baj, még fiatal.",
+   "rd": "욜, 척 에즈 어 피우 러쓔. 넴 버이, 멕 피어털.",
+   "ko": "잘 지내지, 이 청년이 느릴 뿐. 괜찮아, 아직 젊으니까.",
+   "note": "lassú = 느린",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "fiú",
+     "fiú",
+     "피우"
+    ],
+    [
+     "lassú",
+     "lassú",
+     ""
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "fiatal",
+     "fiatal",
+     "피어털"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Lassú?! Na, jöjjön, két hossz!",
+   "rd": "러쓔?! 너, 요왼, 케트 호쓰!",
+   "ko": "느리다고요?! 자, 오세요, 두 바퀴요!",
+   "note": "jöjjön = 오세요(존댓말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Lassú",
+     "lassú",
+     ""
+    ],
+    [
+     "jöjjön",
+     "jön",
+     "왼"
+    ],
+    [
+     "hossz",
+     "hossz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Dávid, ne már! Nyolcvan éves!",
+   "rd": "다비드, 네 마르! 뇰츠번 에베시!",
+   "ko": "다비드, 아 좀! 여든이시잖아!",
+   "note": "ne már = 아 좀",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "lemmas": [
+    [
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "éves",
+     "éves",
+     "에베슈"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Nyolcvankettő. Mehetünk?",
+   "rd": "뇰츠번케뙤. 메헤튄크?",
+   "ko": "여든둘이다. 갈까?",
+   "note": "mehetünk = 우리 가도 된다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nyolcvankettő",
+     "nyolcvankettő",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Ez nem lehet! Hogy csinálta?!",
+   "rd": "에즈 넴 레헤트! 호지 치날터?!",
+   "ko": "말도 안 돼! 어떻게 하신 거예요?!",
+   "note": "nem lehet = 그럴 리 없어",
+   "tags": [],
+   "lemmas": [
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "csinálta",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Régen az olimpián úsztam, kisfiam. Ne siess, még fiatal vagy.",
+   "rd": "레겐 어즈 올림피안 우쓰텀, 키슈피엄. 네 시에시, 멕 피어털 버지.",
+   "ko": "옛날에 올림픽에서 수영했단다, 얘야. 서두르지 마, 아직 젊잖니.",
+   "note": "régen = 옛날에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Régen",
+     "rég",
+     "레그"
+    ],
+    [
+     "olimpián",
+     "olimpia",
+     ""
+    ],
+    [
+     "úsztam",
+     "úszik",
+     ""
+    ],
+    [
+     "kisfiam",
+     "kisfiam",
+     ""
+    ],
+    [
+     "siess",
+     "siet",
+     "시에트"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "fiatal",
+     "fiatal",
+     "피어털"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Marika néni... nem edzene engem?",
+   "rd": "머리커 네니... 넴 에제네 엔겜?",
+   "ko": "아주머니… 저 좀 훈련시켜 주시면 안 될까요?",
+   "note": "edzene = 훈련시켜 주실 텐데(조건법)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Marika",
+     "marika",
+     ""
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "edzene",
+     "edz",
+     ""
+    ]
+   ]
+  }
+ ]
+}

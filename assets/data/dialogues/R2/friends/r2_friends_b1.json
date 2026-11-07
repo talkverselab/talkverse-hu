@@ -1,0 +1,357 @@
+{
+ "id": "r2_friends_b1",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "가방 속 고백",
+ "emoji": "🦜",
+ "scene": "맡아 둔 앵무새를 집에 못 두고 카페까지 데려왔다. 하필 Bence 의 카페다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Papagáj",
+  "D": "Bence"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "당황할 때 쓰는 말과 남에게 떠넘기기",
+ "expressions": [
+  "Mi van",
+  "Nyugi",
+  "Nézd",
+  "Sziasztok",
+  "Tessék",
+  "ne már"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Mi van a táskádban? Miért mozog?",
+   "rd": "미 번 어 타슈카드번? 미에르트 모족?",
+   "ko": "네 가방에 뭐야? 왜 움직여?",
+   "note": "mozog = 움직인다",
+   "tags": [
+    "expr:Mi van"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "táskádban",
+     "táskádban",
+     ""
+    ],
+    [
+     "mozog",
+     "mozog",
+     "모조그"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "A madarad. Otthon egész nap sírt, ezért elhoztam.",
+   "rd": "어 머더러드. 오트혼 에게쓰 너프 시르트, 에제르트 엘호즈텀.",
+   "ko": "네 새야. 집에서 종일 울어서 데려왔어.",
+   "note": "ezért = 그래서",
+   "tags": [],
+   "lemmas": [
+    [
+     "madarad",
+     "madarad",
+     ""
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "nap",
+     "nap",
+     "넙"
+    ],
+    [
+     "sírt",
+     "sír",
+     "시르"
+    ],
+    [
+     "elhoztam",
+     "elhoztam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Mi?! Ide hoztad, Bence kávézójába?!",
+   "rd": "미?! 이데 호즈터드, 벤체 카베조야버?!",
+   "ko": "뭐?! 여길 데려왔어, 벤체 카페에?!",
+   "note": "ide = 여기로",
+   "tags": [],
+   "lemmas": [
+    [
+     "hoztad",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "kávézójába",
+     "kávézik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Nyugi, alszik. Nézd, egy szót sem mond.",
+   "rd": "뉴기, 얼씩. 네즈드, 에지 쏘트 셈 몬드.",
+   "ko": "진정해, 자고 있어. 봐, 한마디도 안 하잖아.",
+   "note": "nyugi = 진정해",
+   "tags": [
+    "expr:Nyugi",
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "alszik",
+     "alszik",
+     "얼루시크"
+    ],
+    [
+     "szót",
+     "szó",
+     "쏘"
+    ],
+    [
+     "mond",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "D",
+   "hu": "Sziasztok! Mit kértek, friss rétest?",
+   "rd": "씨어쓰톡! 미트 케르텍, 프리시 레테슈트?",
+   "ko": "안녕! 뭐 줄까, 갓 구운 레테시?",
+   "note": "sziasztok = 안녕(여럿에게)",
+   "tags": [
+    "expr:Sziasztok"
+   ],
+   "lemmas": [
+    [
+     "Sziasztok",
+     "sziasztok",
+     "씨어스톡"
+    ],
+    [
+     "kértek",
+     "kért",
+     ""
+    ],
+    [
+     "friss",
+     "friss",
+     "프리시"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Bence, szeretlek! Bence, szeretlek!",
+   "rd": "벤체, 쎄레틀렉! 벤체, 쎄레틀렉!",
+   "ko": "벤체, 사랑해! 벤체, 사랑해!",
+   "note": "szeretlek = 널 사랑해",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bence",
+     "bence",
+     ""
+    ],
+    [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "hu": "Tessék? Ki mondta ezt?",
+   "rd": "테쎅? 키 몬드터 에즈트?",
+   "ko": "뭐? 누가 그랬어?",
+   "note": "tessék? = 뭐라고?",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Nem én! Izé, {name} mondta!",
+   "rd": "넴 엔! 이제, {name} 몬드터!",
+   "ko": "나 아냐! 어, {name} 쟤가 그랬어!",
+   "note": "izé = 어, 그게(말 막힐 때)",
+   "tags": [],
+   "lemmas": [
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Én?! Réka, ne már!",
+   "rd": "엔?! 레커, 네 마르!",
+   "ko": "내가?! 레카, 그러지 마!",
+   "note": "ne már = 그러지 마",
+   "tags": [
+    "expr:ne már"
+   ],
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "hu": "Hű. Figyelj, ez kedves, de én csak kávét tudok adni.",
+   "rd": "휘. 피젤이, 에즈 케드베시, 데 엔 척 카베트 투독 어드니.",
+   "ko": "와. 야, 고맙긴 한데 내가 줄 수 있는 건 커피뿐이야.",
+   "note": "kedves = 다정한",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "kedves",
+     "kedves",
+     "케드베슈"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "tudok",
+     "tud",
+     "투드"
+    ],
+    [
+     "adni",
+     "ad",
+     "어드"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Kávét! Bence, szeretlek!",
+   "rd": "카베트! 벤체, 쎄레틀렉!",
+   "ko": "커피! 벤체, 사랑해!",
+   "note": "kávét = 커피를",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Holnap eladom ezt a madarat. Olcsón.",
+   "rd": "홀너프 엘러돔 에즈트 어 머더러트. 올촌.",
+   "ko": "내일 이 새 판다. 싸게.",
+   "note": "olcsón = 싸게",
+   "tags": [],
+   "lemmas": [
+    [
+     "Holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "eladom",
+     "elad",
+     "엘러드"
+    ],
+    [
+     "madarat",
+     "madara",
+     ""
+    ]
+   ]
+  }
+ ]
+}

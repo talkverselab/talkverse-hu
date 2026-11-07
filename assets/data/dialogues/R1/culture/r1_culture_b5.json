@@ -1,0 +1,222 @@
+{
+ "id": "r1_culture_b5",
+ "region": "R1",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "제일 긴 낱말, 두 개요",
+ "emoji": "🥖",
+ "scene": "빵집 줄. 일주일 외운 헝가리어 최장 낱말을 Réka 에게 자랑하려 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Eladó"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "Mit jelent? 로 뜻 묻기, 가게에서 수량 답하기",
+ "expressions": [
+  "Figyelj",
+  "Ne már",
+  "Hát"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Mit tanulsz? Mi ez a hosszú szó?",
+   "rd": "미트 터눌쓰? 미 에즈 어 호쑤 쏘?",
+   "ko": "뭐 배워? 이 긴 낱말은 뭐야?",
+   "note": "hosszú = 긴",
+   "tags": [],
+   "lemmas": [
+    [
+     "tanulsz",
+     "tanul",
+     "타눌"
+    ],
+    [
+     "hosszú",
+     "hosszú",
+     "호쑤"
+    ],
+    [
+     "szó",
+     "szó",
+     "쏘"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "A leghosszabb magyar szó. Figyelj, mondom!",
+   "rd": "어 렉호써브 머져르 쏘. 피젤이, 몬돔!",
+   "ko": "헝가리어에서 제일 긴 낱말이야. 들어 봐, 말한다!",
+   "note": "leg-…-bb = 가장 ~한",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "leghosszabb",
+     "hosszú",
+     "호쑤"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "szó",
+     "szó",
+     "쏘"
+    ],
+    [
+     "mondom",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Ne már! Itt, a pékségben?",
+   "rd": "네 마르! 이트, 어 펙섹벤?",
+   "ko": "에이! 여기, 빵집에서?",
+   "note": "pékség = 빵집",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "pékségben",
+     "pékség",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Igen! Megszentségteleníthetetlenségeskedéseitekért!",
+   "rd": "이겐! 멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트!",
+   "ko": "응! 메그센트셰그텔레니트헤테틀렌셰게시케데셰이테케르트!",
+   "note": "헝가리어 최장 낱말로 유명한 장난말",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Úristen! És mit jelent?",
+   "rd": "우리슈텐! 에시 미트 옐렌트?",
+   "ko": "세상에! 그래서 무슨 뜻이야?",
+   "note": "mit jelent? = 무슨 뜻이야?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "jelent",
+     "jelen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Nem tudom. Egy hétig tanultam.",
+   "rd": "넴 투돔. 에지 헤틱 터눌텀.",
+   "ko": "몰라. 일주일 동안 외웠어.",
+   "note": "egy hétig = 일주일 동안",
+   "tags": [],
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "hétig",
+     "hét",
+     "헤트"
+    ],
+    [
+     "tanultam",
+     "tanult",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Tessék. Hány darabot kér?",
+   "rd": "테쎅. 하니 더러보트 케르?",
+   "ko": "네. 몇 개 드릴까요?",
+   "note": "hány darabot? = 몇 개를?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "darabot",
+     "darab",
+     "더럽"
+    ],
+    [
+     "kér",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Hát... kettőt.",
+   "rd": "하트... 케뙤트.",
+   "ko": "음… 두 개요.",
+   "note": "kettőt = 둘을(목적격)",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ]
+   ]
+  }
+ ]
+}

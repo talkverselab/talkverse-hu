@@ -1,0 +1,240 @@
+{
+ "id": "r1_friends_b5",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "말하는 새",
+ "emoji": "🦜",
+ "scene": "Réka 가 벼룩시장에서 앵무새를 사 왔다. 집에서 들은 말을 뭐든 따라 한다는데",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Papagáj"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "놀람 표현과 -lak(너를 ~한다) 알아듣기",
+ "expressions": [
+  "Nézd",
+  "Komolyan?",
+  "Látod",
+  "Király"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Nézd, mit vettem a piacon! Ez a madár beszél!",
+   "rd": "네즈드, 미트 베뗌 어 피어촌! 에즈 어 머다르 베쎌!",
+   "ko": "봐, 시장에서 뭐 샀게! 이 새 말해!",
+   "note": "madár = 새",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "Nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "vettem",
+     "vett",
+     "벳트"
+    ],
+    [
+     "piacon",
+     "piac",
+     ""
+    ],
+    [
+     "madár",
+     "madár",
+     ""
+    ],
+    [
+     "beszél",
+     "beszél",
+     "베쎌"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Komolyan? Szia, madár!",
+   "rd": "코모연? 씨어, 머다르!",
+   "ko": "진짜? 안녕, 새야!",
+   "note": "komolyan? = 진짜?",
+   "tags": [
+    "expr:Komolyan?"
+   ],
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "madár",
+     "madár",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Szia, madár! Szia, madár!",
+   "rd": "씨어, 머다르! 씨어, 머다르!",
+   "ko": "안녕, 새야! 안녕, 새야!",
+   "note": "szia = 안녕",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "madár",
+     "madár",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Látod? Mindent mond, amit otthon hall.",
+   "rd": "라토드? 민덴트 몬드, 어미트 오트혼 헐.",
+   "ko": "봤지? 집에서 듣는 건 다 말해.",
+   "note": "látod = 봤지",
+   "tags": [
+    "expr:Látod"
+   ],
+   "lemmas": [
+    [
+     "Látod",
+     "lát",
+     "라트"
+    ],
+    [
+     "mond",
+     "mond",
+     "몬드"
+    ],
+    [
+     "otthon",
+     "otthon",
+     "오트혼"
+    ],
+    [
+     "hall",
+     "hall",
+     "헐"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Király! Mit tud még?",
+   "rd": "키라이! 미트 투드 멕?",
+   "ko": "끝내준다! 또 뭐 할 줄 알아?",
+   "note": "király = 끝내준다(원뜻은 왕)",
+   "tags": [
+    "expr:Király"
+   ],
+   "lemmas": [
+    [
+     "Király",
+     "király",
+     "키라이"
+    ],
+    [
+     "tud",
+     "tud",
+     "투드"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Bence, szeretlek! Bence, szeretlek!",
+   "rd": "벤체, 쎄레틀렉! 벤체, 쎄레틀렉!",
+   "ko": "벤체, 사랑해! 벤체, 사랑해!",
+   "note": "szeretlek = 널 사랑해",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bence",
+     "bence",
+     ""
+    ],
+    [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Várj, melyik Bence? A kávézóból?",
+   "rd": "바르이, 메익 벤체? 어 카베조볼?",
+   "ko": "잠깐… 어느 벤체? 카페 그 벤체?",
+   "note": "kávézó = 카페",
+   "tags": [],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "kávézóból",
+     "kávézó",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "A kávézóból! Bence, szeretlek!",
+   "rd": "어 카베조볼! 벤체, 쎄레틀렉!",
+   "ko": "카페 그 벤체! 벤체, 사랑해!",
+   "note": "-ból/-ből = ~에서",
+   "tags": [],
+   "lemmas": [
+    [
+     "kávézóból",
+     "kávézó",
+     ""
+    ],
+    [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  }
+ ]
+}

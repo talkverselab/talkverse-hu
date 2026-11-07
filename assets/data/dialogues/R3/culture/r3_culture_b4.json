@@ -1,0 +1,502 @@
+{
+ "id": "r3_culture_b4",
+ "region": "R3",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media",
+  "love"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "촛불 속의 소개",
+ "emoji": "🕯️",
+ "scene": "11월 1일 저녁, 촛불로 가득한 공동묘지. Anna 가 같이 가자고 했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 14,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "만성절 풍습과 과거 이야기(-ról/-ről mesél)",
+ "expressions": [
+  "Gyere",
+  "Hát",
+  "Te jó ég",
+  "tudod",
+  "izé",
+  "Nem tudom"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Gyere velem ma este. Mindenszentek van, kimegyünk a temetőbe.",
+   "rd": "제레 벨렘 머 에슈테. 민덴쎈텍 번, 키메쥔크 어 테메퇴베.",
+   "ko": "오늘 저녁 같이 가자. 만성절이라 묘지에 가.",
+   "note": "Mindenszentek = 만성절(11월 1일)",
+   "tags": [
+    "expr:Gyere"
+   ],
+   "lemmas": [
+    [
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kimegyünk",
+     "kimegy",
+     "키메지"
+    ],
+    [
+     "temetőbe",
+     "temető",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "A temetőbe, este? Hát, nem ez a legjobb randi.",
+   "rd": "어 테메퇴베, 에슈테? 하트, 넴 에즈 어 렉요브 런디.",
+   "ko": "묘지, 저녁에? 음, 최고의 데이트는 아닌데.",
+   "note": "randi = 데이트",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "temetőbe",
+     "temető",
+     ""
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "legjobb",
+     "jó",
+     "요"
+    ],
+    [
+     "randi",
+     "randi",
+     "런디"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Ki mondta, hogy randi? Várj, amíg meglátod.",
+   "rd": "키 몬드터, 호지 런디? 바르이, 어믹 멕라토드.",
+   "ko": "누가 데이트래? 일단 보고 말해.",
+   "note": "amíg = ~할 때까지",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ki",
+     "ki",
+     "키"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ],
+    [
+     "randi",
+     "randi",
+     "런디"
+    ],
+    [
+     "meglátod",
+     "meglát",
+     "메글라트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Te jó ég, ez gyönyörű. Hány gyertya ég itt?",
+   "rd": "테 요 엑, 에즈 죄뇌뤼. 하니 제르텨 엑 이트?",
+   "ko": "세상에, 너무 아름답다. 여기 촛불이 몇 개나 켜져 있는 거야?",
+   "note": "ég = 타다(하늘이라는 뜻도)",
+   "tags": [
+    "expr:Te jó ég"
+   ],
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "ég",
+     "ég",
+     "에그"
+    ],
+    [
+     "gyönyörű",
+     "gyönyörű",
+     "죠뇌루"
+    ],
+    [
+     "gyertya",
+     "gyertya",
+     ""
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Több ezer. Ilyenkor az egész ország kijön, tudod.",
+   "rd": "퇴브 에제르. 이옌코르 어즈 에게쓰 오르싹 키욘, 투도드.",
+   "ko": "몇 천 개. 이맘때면 온 나라가 나와, 알지.",
+   "note": "ilyenkor = 이맘때",
+   "tags": [
+    "expr:tudod"
+   ],
+   "lemmas": [
+    [
+     "Több",
+     "több",
+     "퇴그"
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "ország",
+     "ország",
+     "오르싸그"
+    ],
+    [
+     "kijön",
+     "kijön",
+     "키왼"
+    ],
+    [
+     "tudod",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Azt hittem, ez szomorú lesz. De mindenki halkan beszélget.",
+   "rd": "어즈트 히뗌, 에즈 쏘모루 레쓰. 데 민덴키 헐컨 베쎌게트.",
+   "ko": "슬플 줄 알았어. 근데 다들 조용조용 이야기하네.",
+   "note": "halkan = 조용히",
+   "tags": [],
+   "lemmas": [
+    [
+     "hittem",
+     "hitt",
+     ""
+    ],
+    [
+     "szomorú",
+     "szomorú",
+     "쏘모루"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "halkan",
+     "halk",
+     ""
+    ],
+    [
+     "beszélget",
+     "beszélget",
+     "베세엘게트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Nem sírunk, csak eljövünk hozzájuk. Itt van a nagypapám.",
+   "rd": "넴 시룬크, 척 엘요뷘크 호자육. 이트 번 어 너지퍼팜.",
+   "ko": "울진 않아, 그냥 찾아오는 거야. 여기 우리 할아버지 계셔.",
+   "note": "hozzájuk = 그들에게",
+   "tags": [],
+   "lemmas": [
+    [
+     "sírunk",
+     "sír",
+     "시르"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "eljövünk",
+     "eljövünk",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "nagypapám",
+     "nagypap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jó estét... izé, nem tudom, mit kell itt mondani.",
+   "rd": "요 에슈테트... 이제, 넴 투돔, 미트 켈 이트 몬더니.",
+   "ko": "안녕하세요… 어, 여기서 뭐라고 해야 할지 모르겠어.",
+   "note": "mit kell mondani = 뭐라고 해야 하는지",
+   "tags": [
+    "expr:izé",
+    "expr:Nem tudom"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "mondani",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Semmit, ő szerette a csendet. Majd én beszélek.",
+   "rd": "셈미트, 외 쎄레떼 어 첸데트. 머이드 엔 베쎌렉.",
+   "ko": "아무 말 안 해도 돼, 조용한 걸 좋아하셨어. 내가 말할게.",
+   "note": "majd = 나중에, 내가 알아서",
+   "tags": [],
+   "lemmas": [
+    [
+     "szerette",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "csendet",
+     "csend",
+     ""
+    ],
+    [
+     "beszélek",
+     "beszél",
+     "베쎌"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Szia, nagypapa, hoztam valakit! Igen, ő az, akiről meséltem.",
+   "rd": "씨어, 너지퍼퍼, 호즈텀 벌러키트! 이겐, 외 어즈, 어키뢸 메셀템.",
+   "ko": "안녕, 할아버지, 누구 데려왔어! 응, 내가 얘기했던 그 사람이야.",
+   "note": "akiről = ~에 대해 말한 그 사람",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "nagypapa",
+     "nagypapa",
+     ""
+    ],
+    [
+     "hoztam",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "meséltem",
+     "mesélt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Rólam meséltél neki? Mikor?",
+   "rd": "롤럼 메셀텔 네키? 미코르?",
+   "ko": "내 얘기를 했어? 언제?",
+   "note": "rólam = 나에 대해",
+   "tags": [],
+   "lemmas": [
+    [
+     "meséltél",
+     "mesél",
+     "메셸"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Tavasszal. Hoztam neki virágot, és mindent elmondtam.",
+   "rd": "터버썰. 호즈텀 네키 비라고트, 에시 민덴트 엘몬드텀.",
+   "ko": "봄에. 꽃 갖다 드리면서 전부 말씀드렸어.",
+   "note": "tavasszal = 봄에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tavasszal",
+     "tavasz",
+     ""
+    ],
+    [
+     "virágot",
+     "virág",
+     "비라그"
+    ],
+    [
+     "elmondtam",
+     "elmond",
+     "엘몬드"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Mindent? Mi az a minden?",
+   "rd": "민덴트? 미 어즈 어 민덴?",
+   "ko": "전부? 그 전부가 뭔데?",
+   "note": "minden = 모든 것",
+   "tags": [],
+   "lemmas": []
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "Hogy van valaki, aki krumplinak hívta a rajzomat. És hogy azóta nem tudok mást rajzolni.",
+   "rd": "호지 번 벌러키, 어키 크룸플리넉 히브터 어 러이조머트. 에시 호지 어조터 넴 투독 마슈트 러이졸니.",
+   "ko": "내 그림을 감자라고 부른 사람이 있다고. 그 뒤로 다른 걸 못 그리겠다고.",
+   "note": "azóta = 그 뒤로",
+   "tags": [],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "krumplinak",
+     "krumpli",
+     ""
+    ],
+    [
+     "hívta",
+     "hív",
+     "히브"
+    ],
+    [
+     "rajzomat",
+     "rajzomat",
+     ""
+    ],
+    [
+     "azóta",
+     "azóta",
+     "어조터"
+    ],
+    [
+     "tudok",
+     "tud",
+     "투드"
+    ],
+    [
+     "mást",
+     "más",
+     "마시"
+    ],
+    [
+     "rajzolni",
+     "rajzol",
+     ""
+    ]
+   ]
+  }
+ ]
+}

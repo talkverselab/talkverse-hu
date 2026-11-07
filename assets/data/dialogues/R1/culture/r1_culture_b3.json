@@ -1,0 +1,267 @@
+{
+ "id": "r1_culture_b3",
+ "region": "R1",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "양동이 하나",
+ "emoji": "🪣",
+ "scene": "부활절 월요일, Anna 네 시골집. 물 뿌리는 풍습에 Dávid 말만 믿고 왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Nagymama"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "부활절 인사와 Szabad …? 로 허락 구하기",
+ "expressions": [
+  "Hát",
+  "Jaj",
+  "Csókolom",
+  "Jól van"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Boldog húsvétot! Hoztál kölnit a locsoláshoz?",
+   "rd": "볼독 후슈베토트! 호즈탈 쾰니트 어 로촐라슈호즈?",
+   "ko": "부활절 잘 보내! 물 뿌리기용 향수 가져왔어?",
+   "note": "locsolás = 부활절에 물·향수 뿌리는 풍습",
+   "tags": [],
+   "lemmas": [
+    [
+     "Boldog",
+     "boldog",
+     "볼도그"
+    ],
+    [
+     "húsvétot",
+     "húsvét",
+     ""
+    ],
+    [
+     "kölnit",
+     "kölni",
+     ""
+    ],
+    [
+     "locsoláshoz",
+     "locsol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Kölnit? Dávid azt mondta, vizet kell hozni.",
+   "rd": "쾰니트? 다비드 어즈트 몬드터, 비제트 켈 호즈니.",
+   "ko": "향수? Dávid 가 물 가져오라던데.",
+   "note": "víz → vizet = 물을",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kölnit",
+     "kölni",
+     ""
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ],
+    [
+     "vizet",
+     "vize",
+     "비제"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "hozni",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Hát régen vizet hoztak. Mennyi vizet hoztál?",
+   "rd": "하트 레겐 비제트 호즈턱. 메니 비제트 호즈탈?",
+   "ko": "옛날엔 물을 가져왔지. 얼마나 가져왔어?",
+   "note": "régen = 옛날에",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "régen",
+     "rég",
+     "레그"
+    ],
+    [
+     "vizet",
+     "vize",
+     "비제"
+    ],
+    [
+     "hoztak",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Nem sokat, csak egy vödröt.",
+   "rd": "넴 쇼커트, 척 에지 뵈드뢰트.",
+   "ko": "많이는 아니고, 양동이 하나.",
+   "note": "vödör → vödröt = 양동이를",
+   "tags": [],
+   "lemmas": [
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "vödröt",
+     "vödör",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Egy vödröt? Jaj, jön a nagymamám!",
+   "rd": "에지 뵈드뢰트? 여이, 욘 어 너지머맘!",
+   "ko": "양동이?! 아이고, 우리 할머니 오셔!",
+   "note": "jön = 온다",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "lemmas": [
+    [
+     "vödröt",
+     "vödör",
+     ""
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "nagymamám",
+     "nagy",
+     "너지"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Csókolom! Szabad locsolni?",
+   "rd": "초콜롬! 써버드 로촐니?",
+   "ko": "안녕하세요! 뿌려도 되나요?",
+   "note": "csókolom = 어르신께 하는 인사",
+   "tags": [
+    "expr:Csókolom"
+   ],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "locsolni",
+     "locsol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Szabad, szabad... Jaj, jaj, jaj!",
+   "rd": "써버드, 써버드... 여이, 여이, 여이!",
+   "ko": "되지, 되지… 어머, 어머, 어머!",
+   "note": "szabad = 해도 된다",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "lemmas": [
+    [
+     "Szabad",
+     "szabad",
+     "써버드"
+    ],
+    [
+     "jaj",
+     "jaj",
+     "야이"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Jól van, most én jövök. Hol a vödröm?",
+   "rd": "욜 번, 모슈트 엔 요뵉. 홀 어 뵈드룀?",
+   "ko": "좋아. 이제 내 차례다. 내 양동이 어디 있지?",
+   "note": "most én jövök = 이제 내 차례",
+   "tags": [
+    "expr:Jól van"
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "jövök",
+     "jön",
+     "왼"
+    ],
+    [
+     "vödröm",
+     "vödröm",
+     ""
+    ]
+   ]
+  }
+ ]
+}

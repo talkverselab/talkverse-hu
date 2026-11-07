@@ -1,0 +1,253 @@
+{
+ "id": "r1_life_b3",
+ "region": "R1",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "분홍색 팀",
+ "emoji": "🩷",
+ "scene": "빨래를 도와줬다. Dávid 의 빨간 재킷과 흰 옷을 한꺼번에",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "색깔 말과 소유 접미사(-m, -d)",
+ "expressions": [
+  "Köszi",
+  "Várj",
+  "Bocsi",
+  "Nézd"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia, hol a fehér pólóm? Edzésre megyek.",
+   "rd": "씨어, 홀 어 페헤르 폴롬? 에제슈레 메젝.",
+   "ko": "야! 내 흰 티 어디 있어? 훈련 가.",
+   "note": "pólóm = 내 티셔츠",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "fehér",
+     "fehér",
+     "페헤르"
+    ],
+    [
+     "pólóm",
+     "pólóm",
+     ""
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Kimostam mindent. Nézd, tiszta!",
+   "rd": "키모슈텀 민덴트. 네즈드, 티쓰터!",
+   "ko": "전부 빨았어. 봐, 깨끗해!",
+   "note": "kimostam = 다 빨았다",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "Kimostam",
+     "kimostam",
+     ""
+    ],
+    [
+     "tiszta",
+     "tiszta",
+     "티스터"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Köszi! Várj, ez miért rózsaszín?",
+   "rd": "쾨씨! 바르이, 에즈 미에르트 로져씬?",
+   "ko": "고마워! 잠깐… 이거 왜 분홍색이야?",
+   "note": "rózsaszín = 분홍색",
+   "tags": [
+    "expr:Köszi",
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "Köszi",
+     "köszi",
+     "쾨씨"
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "rózsaszín",
+     "rózsaszín",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Hát... a piros kabátod is ott volt.",
+   "rd": "하트... 어 피로시 커바토드 이시 오트 볼트.",
+   "ko": "음… 네 빨간 재킷도 거기 있었거든.",
+   "note": "kabátod = 네 재킷",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "piros",
+     "piros",
+     ""
+    ],
+    [
+     "kabátod",
+     "kabátod",
+     ""
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "És a törölközőm? A zoknim?",
+   "rd": "에시 어 퇴뢸쾨죔? 어 족님?",
+   "ko": "내 수건은? 양말은?",
+   "note": "törölköző = 수건",
+   "tags": [],
+   "lemmas": [
+    [
+     "törölközőm",
+     "töröl",
+     ""
+    ],
+    [
+     "zoknim",
+     "zoknim",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Minden rózsaszín. Bocsi.",
+   "rd": "민덴 로져씬. 보치.",
+   "ko": "전부 분홍색이야. 미안.",
+   "note": "minden = 전부",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "lemmas": [
+    [
+     "rózsaszín",
+     "rózsaszín",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Na, milyen volt a meccs?",
+   "rd": "너, 미옌 볼트 어 메치?",
+   "ko": "(경기 뒤) 그래서 경기는 어땠어?",
+   "note": "meccs = 경기",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "meccs",
+     "meccs",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Nyertünk! Holnap jön a csapat a ruhákkal.",
+   "rd": "네르튄크! 홀너프 욘 어 처퍼트 어 루하껄.",
+   "ko": "이겼어! 내일 팀 전체가 옷 들고 온대.",
+   "note": "ruhákkal = 옷들을 가지고",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nyertünk",
+     "nyer",
+     "네르"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "csapat",
+     "csapat",
+     "처펏"
+    ],
+    [
+     "ruhákkal",
+     "ruha",
+     "루하"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "id": "r1_travel_a3",
+ "region": "R1",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "시식만 했을 뿐인데",
+ "emoji": "🧀",
+ "scene": "시장 통로. 소시지 한 점을 맛봤더니 옆 가게들이 줄줄이 달려든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Eladó",
+  "C": "Néni",
+  "D": "Bácsi"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "맛보기 권유에 답하기와 배부르다고 말하기",
+ "expressions": [
+  "Hű",
+  "de finom",
+  "Várjon",
+  "Tessék",
+  "Hát"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Jó napot! Kóstolja meg a kolbászt!",
+   "rd": "요 너포트! 코슈톨여 멕 어 콜바쓰트!",
+   "ko": "안녕하세요! 소시지 맛보세요!",
+   "note": "kóstolja meg = 맛보세요(존댓말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "kolbászt",
+     "kolbász",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Köszönöm. Hű, de finom!",
+   "rd": "쾨쐬뇜. 휘, 데 피놈!",
+   "ko": "고맙습니다. 와, 정말 맛있네요!",
+   "note": "de finom = 정말 맛있다",
+   "tags": [
+    "expr:Hű",
+    "expr:de finom"
+   ],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Várjon! Az enyémet is kóstolja meg!",
+   "rd": "바르욘! 어즈 에네메트 이시 코슈톨여 멕!",
+   "ko": "잠깐만요! 내 것도 맛보세요!",
+   "note": "az enyém = 내 것",
+   "tags": [
+    "expr:Várjon"
+   ],
+   "lemmas": [
+    [
+     "Várjon",
+     "vár",
+     "바르"
+    ],
+    [
+     "kóstolja",
+     "kóstol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Hm, ez is nagyon finom.",
+   "rd": "흠, 에즈 이시 너죤 피놈.",
+   "ko": "음, 이것도 아주 맛있네요.",
+   "note": "ez is = 이것도",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hm",
+     "hm",
+     ""
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "D",
+   "hu": "Itt a szalámi! Tessék, tessék!",
+   "rd": "이트 어 썰라미! 테쎅, 테쎅!",
+   "ko": "여기 살라미요! 자, 자!",
+   "note": "tessék = 자, 드세요",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "szalámi",
+     "szalámi",
+     ""
+    ],
+    [
+     "tessék",
+     "tessék",
+     "테셰크"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj, köszönöm, de már jóllaktam.",
+   "rd": "여이, 쾨쐬뇜, 데 마르 욜럭텀.",
+   "ko": "아이고, 고맙습니다만 이제 배불러요.",
+   "note": "jóllaktam = 배불러요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "jóllaktam",
+     "jóllakik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Na, és mit vesz?",
+   "rd": "너, 에시 미트 베쓰?",
+   "ko": "그래서, 뭘 사시겠어요?",
+   "note": "vesz = 사다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "vesz",
+     "vesz",
+     "베쓰"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Hát... egy vizet kérek.",
+   "rd": "하트... 에지 비제트 케렉.",
+   "ko": "그게… 물 한 병 주세요.",
+   "note": "hát = 그게, 음",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "vizet",
+     "vize",
+     "비제"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  }
+ ]
+}

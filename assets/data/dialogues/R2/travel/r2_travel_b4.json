@@ -1,0 +1,365 @@
+{
+ "id": "r2_travel_b4",
+ "region": "R2",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "포가차 두 개 남았어",
+ "emoji": "🥐",
+ "scene": "발라톤행 완행이 밭 한가운데 멈춘 지 40분. 옆자리 아저씨는 태평하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tamás"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "존댓말에서 반말로 바꾸기(Tegeződjünk)와 시간 묻기",
+ "expressions": [
+  "Elnézést",
+  "szívesen",
+  "Tegeződjünk",
+  "Figyelj",
+  "Szerintem"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Elnézést, tudja, miért állunk már negyven perce?",
+   "rd": "엘네제슈트, 투드여, 미에르트 알룬크 마르 네지벤 페르체?",
+   "ko": "실례합니다, 왜 40분째 서 있는지 아세요?",
+   "note": "negyven perce = 40분째",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "tudja",
+     "tud",
+     "투드"
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "állunk",
+     "áll",
+     "알"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "negyven",
+     "negyven",
+     ""
+    ],
+    [
+     "perce",
+     "perc",
+     "페르츠"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Nem baj, ráérünk. Kér egy pogácsát?",
+   "rd": "넴 버이, 라에륀크. 케르 에지 포가차트?",
+   "ko": "괜찮아요, 시간 많아요. 포가차 하나 드실래요?",
+   "note": "pogácsa = 짭짤한 작은 빵",
+   "tags": [],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "ráérünk",
+     "ráér",
+     "라에르"
+    ],
+    [
+     "pogácsát",
+     "pogácsa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Köszönöm, szívesen. Hű, ez nagyon finom!",
+   "rd": "쾨쐬뇜, 씨베센. 휘, 에즈 너죤 피놈!",
+   "ko": "감사합니다, 좋아요. 와, 아주 맛있네요!",
+   "note": "szívesen = 기꺼이",
+   "tags": [
+    "expr:szívesen"
+   ],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "szívesen",
+     "szíves",
+     "시베시"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "A feleségem süti. Tegeződjünk, ha már itt ülünk!",
+   "rd": "어 펠레세겜 쉬티. 테게죄드윈크, 허 마르 이트 윌륀크!",
+   "ko": "아내가 구운 거예요. 여기 앉은 김에 말 놓을까요?",
+   "note": "tegeződjünk = 말 놓자",
+   "tags": [
+    "expr:Tegeződjünk"
+   ],
+   "lemmas": [
+    [
+     "feleségem",
+     "feleség",
+     "펠레시그"
+    ],
+    [
+     "süti",
+     "süt",
+     "슈트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "ülünk",
+     "ül",
+     "위일"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Jó, persze, {name} vagyok. Te hova mész?",
+   "rd": "요, 페르쎄, {name} 버죡. 테 호버 메쓰?",
+   "ko": "좋아, 그래, 나는 {name}. 넌 어디 가?",
+   "note": "te = 너(이제 반말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "hova",
+     "hova",
+     "호버"
+    ],
+    [
+     "mész",
+     "mész",
+     "메쓰"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Tamás. Fonyódra megyek, de előbb megeszem ezt a pogácsát.",
+   "rd": "터마시. 포뇨드러 메젝, 데 엘뢰브 메게쎔 에즈트 어 포가차트.",
+   "ko": "타마시. 폰요드 가는데, 먼저 이 포가차부터 먹고.",
+   "note": "megeszem = 다 먹는다(정활용)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tamás",
+     "tamás",
+     ""
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ],
+    [
+     "előbb",
+     "előbb",
+     "엘뢰브"
+    ],
+    [
+     "megeszem",
+     "megeszik",
+     ""
+    ],
+    [
+     "pogácsát",
+     "pogácsa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Figyelj, szerinted mikor indul a vonat?",
+   "rd": "피젤이, 쎄린테드 미코르 인둘 어 보너트?",
+   "ko": "있잖아, 네 생각엔 기차 언제 출발할 것 같아?",
+   "note": "szerinted = 네 생각에",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "indul",
+     "indul",
+     "인둘"
+    ],
+    [
+     "vonat",
+     "vonat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Szerintem mindjárt. Még két pogácsa van.",
+   "rd": "쎄린템 민드야르트. 멕 케트 포가처 번.",
+   "ko": "내 생각엔 곧. 포가차 두 개 남았어.",
+   "note": "még = 아직",
+   "tags": [
+    "expr:Szerintem"
+   ],
+   "lemmas": [
+    [
+     "mindjárt",
+     "mindjárt",
+     "민드야르트"
+    ],
+    [
+     "pogácsa",
+     "pogácsa",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Mi köze a pogácsának a vonathoz?",
+   "rd": "미 쾨제 어 포가차넉 어 보너트호즈?",
+   "ko": "포가차가 기차랑 무슨 상관이야?",
+   "note": "mi köze? = 무슨 상관이야?",
+   "tags": [],
+   "lemmas": [
+    [
+     "köze",
+     "köz",
+     "쾨즈"
+    ],
+    [
+     "pogácsának",
+     "pogácsa",
+     ""
+    ],
+    [
+     "vonathoz",
+     "vonat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Hát, én vezetem a vonatot. Ebédszünet van.",
+   "rd": "하트, 엔 베제템 어 보너토트. 에베드쒸네트 번.",
+   "ko": "음, 내가 이 기차 기관사야. 점심시간이거든.",
+   "note": "vezetem = 내가 운전한다(정활용)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "vezetem",
+     "vezet",
+     "베제트"
+    ],
+    [
+     "vonatot",
+     "vonat",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "id": "r1_love_a2",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "감자 경매",
+ "emoji": "🖼️",
+ "scene": "다음 날 벤치. Anna 가 A 를 그린 감자 그림을 인터넷에 올렸더니 일이 커졌다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "놀라서 되묻기(Komolyan? Mi van?)와 '내 것' 말하기",
+ "expressions": [
+  "Figyelj",
+  "Komolyan?",
+  "Úristen",
+  "Mi van?"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, feltettem a krumplit a netre.",
+   "rd": "피젤이, 펠테뗌 어 크룸플리트 어 네트레.",
+   "ko": "있잖아, 그 감자를 인터넷에 올렸어.",
+   "note": "feltettem = 올렸다",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "feltettem",
+     "feltesz",
+     "펠테스"
+    ],
+    [
+     "krumplit",
+     "krumpli",
+     ""
+    ],
+    [
+     "netre",
+     "net",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Engem? Komolyan?",
+   "rd": "엔겜? 코모연?",
+   "ko": "나를? 진짜?",
+   "note": "engem = 나를",
+   "tags": [
+    "expr:Komolyan?"
+   ],
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Már ezer ember szereti.",
+   "rd": "마르 에제르 엠베르 쎄레티.",
+   "ko": "벌써 천 명이 좋아해.",
+   "note": "ezer = 천, 수사 뒤 명사는 단수",
+   "tags": [],
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "szereti",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Ezer? Úristen!",
+   "rd": "에제르? 우리슈텐!",
+   "ko": "천 명? 세상에!",
+   "note": "úristen = 세상에",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Egy néni meg akar venni.",
+   "rd": "에지 네니 멕 어커르 벤니.",
+   "ko": "어떤 할머니가 널 사고 싶대.",
+   "note": "megvesz = 사다",
+   "tags": [],
+   "lemmas": [
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "akar",
+     "akar",
+     "어커르"
+    ],
+    [
+     "venni",
+     "vesz",
+     "베쓰"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Mi van? És eladsz?",
+   "rd": "미 번? 에시 엘러드쓰?",
+   "ko": "뭐? 그래서 날 팔 거야?",
+   "note": "eladsz = 네가 (나를) 판다",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "eladsz",
+     "elad",
+     "엘러드"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Nem. Ez a krumpli az enyém.",
+   "rd": "넴. 에즈 어 크룸플리 어즈 에넴.",
+   "ko": "아니. 이 감자는 내 거야.",
+   "note": "az enyém = 내 것",
+   "tags": [],
+   "lemmas": [
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj. Most piros krumpli vagyok.",
+   "rd": "여이. 모슈트 피로시 크룸플리 버죡.",
+   "ko": "아이고. 나 지금 빨간 감자야.",
+   "note": "piros = 빨간",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "piros",
+     "piros",
+     ""
+    ],
+    [
+     "krumpli",
+     "krumpli",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  }
+ ]
+}

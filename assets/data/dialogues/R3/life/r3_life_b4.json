@@ -1,0 +1,569 @@
+{
+ "id": "r3_life_b4",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "말 놓자",
+ "emoji": "🎂",
+ "scene": "겨울 밤, 아무한테도 말 안 한 내 생일. 국을 받으러 안 내려가자 Marika 아주머니가 올라온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marika néni",
+  "C": "Dávid"
+ },
+ "register": "mixed",
+ "twist": 13,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "말 놓는 장면(Tegeződjünk)과 Ön→te 전환",
+ "expressions": [
+  "Csókolom",
+  "Aha",
+  "Semmi baj",
+  "Hát",
+  "Na",
+  "Szóval"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Háromszor csengettem. Nem jöttél a levesért, jól vagy?",
+   "rd": "하롬쏘르 첸게뗌. 넴 요뗄 어 레베세르트, 욜 버지?",
+   "ko": "벨을 세 번 눌렀어. 국 받으러 안 왔던데, 괜찮니?",
+   "note": "csengettem = 벨을 눌렀다",
+   "tags": [],
+   "lemmas": [
+    [
+     "csengettem",
+     "cseng",
+     ""
+    ],
+    [
+     "jöttél",
+     "jön",
+     "왼"
+    ],
+    [
+     "levesért",
+     "leves",
+     ""
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Csókolom. Jól vagyok, csak fáradt.",
+   "rd": "초콜롬. 욜 버죡, 척 파러드트.",
+   "ko": "안녕하세요. 괜찮아요, 그냥 피곤해서요.",
+   "note": "fáradt = 피곤한",
+   "tags": [
+    "expr:Csókolom"
+   ],
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "fáradt",
+     "fárad",
+     "파러드"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Aha. Akkor miért piros a szemed?",
+   "rd": "어허. 어꼬르 미에르트 피로시 어 쎄메드?",
+   "ko": "그래. 그럼 눈은 왜 빨갛니?",
+   "note": "szemed = 네 눈",
+   "tags": [
+    "expr:Aha"
+   ],
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "piros",
+     "piros",
+     ""
+    ],
+    [
+     "szemed",
+     "szem",
+     "쎔"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Semmi baj, csak a paprika.",
+   "rd": "셈미 버이, 척 어 퍼프리커.",
+   "ko": "별일 아니에요, 그냥 파프리카 때문에요.",
+   "note": "semmi baj = 별일 없어",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "paprika",
+     "paprika",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Ma nem főztél semmit, nem éreztem szagot.",
+   "rd": "머 넴 푀즈텔 셈미트, 넴 에레즈템 써고트.",
+   "ko": "오늘 아무것도 안 끓였잖아, 냄새가 안 났어.",
+   "note": "éreztem = 느꼈다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ma",
+     "ma",
+     "머"
+    ],
+    [
+     "főztél",
+     "főz",
+     ""
+    ],
+    [
+     "éreztem",
+     "érez",
+     "에레즈"
+    ],
+    [
+     "szagot",
+     "szag",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Hát, ma van a születésnapom, és {country} nagyon messze van.",
+   "rd": "하트, 머 번 어 쓀레테슈너폼, 에시 {country} 너죤 메쎄 번.",
+   "ko": "사실 오늘 제 생일이에요, {country}는 너무 멀고요.",
+   "note": "messze = 멀리",
+   "tags": [
+    "expr:Hát",
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "születésnapom",
+     "születésnap",
+     ""
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "messze",
+     "messze",
+     "메쎄"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Tudom, hogy ma van. Ebben a házban mindent tudok.",
+   "rd": "투돔, 호지 머 번. 에벤 어 하즈번 민덴트 투독.",
+   "ko": "오늘인 거 안다. 이 건물 일은 내가 다 알아.",
+   "note": "ebben a házban = 이 건물에서",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "házban",
+     "ház",
+     "하즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Honnan...? Jaj, nem akartam gondot csinálni.",
+   "rd": "혼넌...? 여이, 넴 어커르텀 곤도트 치날니.",
+   "ko": "어떻게…? 아이고, 폐 끼치기 싫었어요.",
+   "note": "gond = 걱정거리",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Honnan",
+     "honnan",
+     "혼넌"
+    ],
+    [
+     "akartam",
+     "akart",
+     ""
+    ],
+    [
+     "gondot",
+     "gond",
+     "곤드"
+    ],
+    [
+     "csinálni",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Na, idefigyelj. Hány éve lakunk egy házban?",
+   "rd": "너, 이데피젤이. 하니 에베 러쿤크 에지 하즈번?",
+   "ko": "자, 잘 들어. 우리 한 건물에 산 지 몇 년이지?",
+   "note": "idefigyelj = 여기 잘 들어",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "idefigyelj",
+     "idefigyelj",
+     ""
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "lakunk",
+     "lakik",
+     "러키크"
+    ],
+    [
+     "házban",
+     "ház",
+     "하즈"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Majdnem két éve. Miért?",
+   "rd": "머이드넴 케트 에베. 미에르트?",
+   "ko": "거의 2년이요. 왜요?",
+   "note": "majdnem = 거의",
+   "tags": [],
+   "lemmas": [
+    [
+     "Majdnem",
+     "majdnem",
+     "머이드넴"
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Akkor elég a csókolomból. Marika vagyok, tegeződjünk!",
+   "rd": "어꼬르 엘렉 어 초콜롬볼. 머리커 버죡, 테게죄드윈크!",
+   "ko": "그럼 「초콜롬」은 그만하자. 난 마리카야, 말 놓자!",
+   "note": "tegeződjünk = 말 놓자",
+   "tags": [
+    "expr:Csókolom"
+   ],
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "elég",
+     "elég",
+     "엘렉"
+    ],
+    [
+     "csókolomból",
+     "csókol",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "tegeződjünk",
+     "tegeződik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Csak így, Marika? Jaj, ezt nem tudom kimondani.",
+   "rd": "척 이지, 머리커? 여이, 에즈트 넴 투돔 키몬더니.",
+   "ko": "이렇게 그냥, 마리카? 아이고, 이 말 못 하겠어요.",
+   "note": "csak így = 이렇게 그냥",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "kimondani",
+     "kimond",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "A fiam Kanadában él, ő sem hív. Szóval most te eszed a levest.",
+   "rd": "어 피엄 커너다번 엘, 외 셈 히브. 쏘벌 모슈트 테 에쎄드 어 레베슈트.",
+   "ko": "내 아들은 캐나다에 사는데, 걔도 전화 안 해. 그러니까 이젠 네가 그 국을 먹는 거야.",
+   "note": "te eszed = 네가 그걸 먹는다",
+   "tags": [
+    "expr:Na",
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "fiam",
+     "fi",
+     "피"
+    ],
+    [
+     "él",
+     "él",
+     "엘"
+    ],
+    [
+     "hív",
+     "hív",
+     "히브"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "eszed",
+     "eszed",
+     ""
+    ],
+    [
+     "levest",
+     "leves",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Ezért hozott... ezért hoztál mindig levest?",
+   "rd": "에제르트 호조트... 에제르트 호즈탈 민딕 레베슈트?",
+   "ko": "그래서 가져오셨… 그래서 늘 국을 가져왔구나?",
+   "note": "hozott → hoztál = 존댓말에서 반말로",
+   "tags": [],
+   "lemmas": [
+    [
+     "hozott",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "levest",
+     "leves",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Ezért. Na, nyisd ki az ajtót.",
+   "rd": "에제르트. 너, 니슈드 키 어즈 어이토트.",
+   "ko": "그래서지. 자, 문 열어.",
+   "note": "nyisd ki = 열어",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "nyisd",
+     "nyit",
+     "니트"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "ajtót",
+     "ajtó",
+     "어이토"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "hu": "Meglepetés, boldog szülinapot! Hoztam húsz liter tejet.",
+   "rd": "멕레페테시, 볼독 쓀리너포트! 호즈텀 후쓰 리테르 테예트.",
+   "ko": "깜짝이야, 생일 축하해! 우유 20리터 가져왔어.",
+   "note": "szülinap = 생일(구어)",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Meglepetés",
+     "meglepetés",
+     "메글레페테시"
+    ],
+    [
+     "boldog",
+     "boldog",
+     "볼도그"
+    ],
+    [
+     "szülinapot",
+     "szülinap",
+     "쓸리넙"
+    ],
+    [
+     "húsz",
+     "húsz",
+     ""
+    ],
+    [
+     "liter",
+     "liter",
+     ""
+    ],
+    [
+     "tejet",
+     "tej",
+     "테이"
+    ]
+   ]
+  }
+ ]
+}

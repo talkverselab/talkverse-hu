@@ -1,0 +1,359 @@
+{
+ "id": "r2_travel_c1",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "셋이서 가자더니",
+ "emoji": "🚌",
+ "scene": "에게르 주말 여행 단체 채팅방. 차 한 대로 셋이 가기로 했는데 인원이 불어난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Dávid"
+ },
+ "register": "chat",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅으로 인원·계획 맞추기(hányan, hárman)",
+ "expressions": [
+  "Oké",
+  "nem baj",
+  "Várjatok",
+  "Mi van?",
+  "Szuper",
+  "Király"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Hétvégén Eger? Hárman, Dávid kocsijával?",
+   "rd": "헤트베겐 에게르? 하르먼, 다비드 코치야벌?",
+   "ko": "주말에 에게르? 셋이서, 다비드 차로?",
+   "note": "hárman = 셋이서",
+   "tags": [],
+   "at": "09:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hétvégén",
+     "hétvége",
+     "헤트베게"
+    ],
+    [
+     "kocsijával",
+     "kocsija",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "hu": "Oké! Jön az öcsém is, ha nem baj.",
+   "rd": "오케! 욘 어즈 외쳄 이시, 허 넴 버이.",
+   "ko": "좋아! 내 남동생도 가, 괜찮으면.",
+   "note": "öcs = 남동생",
+   "tags": [
+    "expr:Oké",
+    "expr:nem baj"
+   ],
+   "at": "09:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Oké",
+     "oké",
+     "오케"
+    ],
+    [
+     "öcsém",
+     "öcsém",
+     ""
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Jó, akkor én hozom Annát meg Bencét.",
+   "rd": "요, 어꼬르 엔 호좀 언나트 멕 벤체트.",
+   "ko": "그래, 그럼 난 언너랑 벤체 데려올게.",
+   "note": "meg = ~랑",
+   "tags": [],
+   "at": "09:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "hozom",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Várjatok, az már hat ember! Öt hely van!",
+   "rd": "바르여톡, 어즈 마르 허트 엠베르! 외트 헤이 번!",
+   "ko": "잠깐, 벌써 여섯 명이야! 자리는 다섯 개야!",
+   "note": "várjatok = 너희 기다려",
+   "tags": [
+    "expr:Várjatok"
+   ],
+   "at": "09:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Várjatok",
+     "vár",
+     "바르"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "hely",
+     "hely",
+     "헤이"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Nem baj. Szóltam a focicsapatnak is. ⚽",
+   "rd": "넴 버이. 쏠텀 어 포치처퍼트넉 이시. ⚽",
+   "ko": "괜찮아. 축구팀한테도 말했어.",
+   "note": "szóltam = 말해 뒀다",
+   "tags": [
+    "expr:nem baj"
+   ],
+   "at": "09:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "focicsapatnak",
+     "focicsapat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Hányan vannak?",
+   "rd": "하년 번넉?",
+   "ko": "몇 명인데?",
+   "note": "hányan = 몇 명이서",
+   "tags": [],
+   "at": "09:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hányan",
+     "hányan",
+     ""
+    ],
+    [
+     "vannak",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Tizenegyen. Plusz az edző.",
+   "rd": "티제네젠. 플루쓰 어즈 에죄.",
+   "ko": "열한 명. 코치까지.",
+   "note": "edző = 코치",
+   "tags": [],
+   "at": "09:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tizenegyen",
+     "tizenegy",
+     ""
+    ],
+    [
+     "edző",
+     "edz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Mi van, tizennyolc ember? Mivel megyünk?",
+   "rd": "미 번, 티제뇰츠 엠베르? 미벨 메쥔크?",
+   "ko": "뭐, 열여덟 명? 뭘 타고 가?",
+   "note": "mivel = 무엇으로",
+   "tags": [],
+   "at": "09:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "tizennyolc",
+     "tizennyolc",
+     ""
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "megyünk",
+     "megy",
+     "메지"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Nyugi, megoldom.",
+   "rd": "뉴기, 메골돔.",
+   "ko": "진정해, 내가 해결할게.",
+   "note": "megoldom = 내가 해결한다",
+   "tags": [],
+   "at": "09:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "megoldom",
+     "megold",
+     "메그올드"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Szuper hír! Vettem egy buszt a bolhapiacon. 🚌",
+   "rd": "쑤페르 히르! 베뗌 에지 부쓰트 어 볼허피어촌. 🚌",
+   "ko": "좋은 소식! 벼룩시장에서 버스 샀어. 🚌",
+   "note": "hír = 소식",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "at": "15:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "hír",
+     "hír",
+     "히르"
+    ],
+    [
+     "buszt",
+     "busz",
+     ""
+    ],
+    [
+     "bolhapiacon",
+     "bolhapiac",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Király! Jár is?",
+   "rd": "키라이! 야르 이시?",
+   "ko": "대박! 움직이긴 해?",
+   "note": "jár = (기계가) 돌아간다",
+   "tags": [
+    "expr:Király"
+   ],
+   "at": "15:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Király",
+     "király",
+     "키라이"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Nem tudom. Szép.",
+   "rd": "넴 투돔. 쎄프.",
+   "ko": "몰라. 예뻐.",
+   "note": "짧을수록 웃긴 답",
+   "tags": [],
+   "at": "15:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ]
+   ]
+  }
+ ]
+}

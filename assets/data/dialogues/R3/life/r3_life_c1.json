@@ -1,0 +1,529 @@
+{
+ "id": "r3_life_c1",
+ "region": "R3",
+ "island": "life",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "사라진 치르미",
+ "emoji": "🐈",
+ "scene": "건물 단톡방. Marika 아주머니의 고양이 Cirmi 가 사라졌다고 하자 모두 고양이를 찾아 나선다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid",
+  "C": "Marika néni",
+  "D": "Feri bácsi"
+ },
+ "register": "chat",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "단톡방 공지·개수 말하기, 2인칭 복수 명령",
+ "expressions": [
+  "Jaj",
+  "Szuper",
+  "Amúgy",
+  "Szívesen",
+  "Puszi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "hu": "Emberek, eltűnt Cirmi! Reggel óta nem láttam.",
+   "rd": "엠베렉, 엘튄트 치르미! 렉겔 오터 넴 라떰.",
+   "ko": "여러분, 치르미가 없어졌어요! 아침부터 못 봤어요.",
+   "note": "eltűnt = 사라졌다",
+   "tags": [],
+   "at": "18:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Emberek",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "eltűnt",
+     "eltűnik",
+     "엘튀니크"
+    ],
+    [
+     "láttam",
+     "lát",
+     "라트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jaj, milyen macska? Segítek keresni.",
+   "rd": "여이, 미옌 머치커? 세기텍 케레슈니.",
+   "ko": "어머, 어떤 고양이요? 찾는 거 도울게요.",
+   "note": "keresni = 찾기",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "at": "18:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "macska",
+     "macska",
+     ""
+    ],
+    [
+     "keresni",
+     "keres",
+     "케레시"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Szürke, kövér, mindenkire mérges.",
+   "rd": "쒸르케, 쾨베르, 민덴키레 메르게시.",
+   "ko": "회색이고, 뚱뚱하고, 누구한테나 화나 있어.",
+   "note": "mérges = 화난",
+   "tags": [],
+   "at": "18:07",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szürke",
+     "szürke",
+     ""
+    ],
+    [
+     "kövér",
+     "kövér",
+     ""
+    ],
+    [
+     "mérges",
+     "mérges",
+     "메르게시"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "hu": "Találtam egy szürke macskát a kapu előtt!",
+   "rd": "털랄텀 에지 쒸르케 머치카트 어 커푸 엘뢰트!",
+   "ko": "대문 앞에서 회색 고양이 찾았어요!",
+   "note": "találtam = 찾았다",
+   "tags": [],
+   "at": "18:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Találtam",
+     "talált",
+     ""
+    ],
+    [
+     "szürke",
+     "szürke",
+     ""
+    ],
+    [
+     "macskát",
+     "macska",
+     ""
+    ],
+    [
+     "kapu",
+     "kapu",
+     "커푸"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Én is, a kukánál! Ez is szürke.",
+   "rd": "엔 이시, 어 쿠카날! 에즈 이시 쒸르케.",
+   "ko": "나도, 쓰레기통 옆에서! 이것도 회색이야.",
+   "note": "kuka = 쓰레기통",
+   "tags": [],
+   "at": "18:17",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "kukánál",
+     "kuka",
+     ""
+    ],
+    [
+     "szürke",
+     "szürke",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Várjatok! Hány macskája van Marika néninek?",
+   "rd": "바르여톡! 하니 머치카여 번 머리커 네니넥?",
+   "ko": "잠깐만요! 아주머니 고양이가 몇 마리예요?",
+   "note": "várjatok = 기다려(여럿에게)",
+   "tags": [],
+   "at": "18:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Várjatok",
+     "vár",
+     "바르"
+    ],
+    [
+     "macskája",
+     "macska",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "néninek",
+     "néni",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Egy! De hozzátok ide, megnézem.",
+   "rd": "에지! 데 호자톡 이데, 멕네젬.",
+   "ko": "한 마리! 그래도 가져와 봐, 내가 볼게.",
+   "note": "hozzátok = 그걸 가져와(여럿에게)",
+   "tags": [],
+   "at": "18:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "hozzátok",
+     "hozzá",
+     ""
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ],
+    [
+     "megnézem",
+     "megnéz",
+     "메그네즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Már négy macska van nálunk. Az egyik a kanapén alszik.",
+   "rd": "마르 네지 머치커 번 날룬크. 어즈 에직 어 커너펜 얼씩.",
+   "ko": "벌써 우리 집에 고양이 네 마리예요. 한 마리는 소파에서 자요.",
+   "note": "nálunk = 우리 집에",
+   "tags": [],
+   "at": "18:40",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "macska",
+     "macska",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kanapén",
+     "kanapé",
+     ""
+    ],
+    [
+     "alszik",
+     "alszik",
+     "얼루시크"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Hat. Az egyik megette a kolbászt.",
+   "rd": "허트. 어즈 에직 메게떼 어 콜바쓰트.",
+   "ko": "여섯. 한 마리는 소시지 먹었어.",
+   "note": "megette = 먹어 치웠다",
+   "tags": [],
+   "at": "18:52",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "megette",
+     "megeszik",
+     ""
+    ],
+    [
+     "kolbászt",
+     "kolbász",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "hu": "Hoztam még kettőt a pincéből. Szívesen!",
+   "rd": "호즈텀 멕 케뙤트 어 핀체뵐. 씨베센!",
+   "ko": "지하실에서 두 마리 더 데려왔어요. 천만에요!",
+   "note": "pince = 지하실",
+   "tags": [
+    "expr:Szívesen"
+   ],
+   "at": "19:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hoztam",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "pincéből",
+     "pince",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Amúgy most jut eszembe: allergiás vagyok a macskára. 🤧",
+   "rd": "어무지 모슈트 유트 에쎔베: 얼레르기아시 버죡 어 머치카러. 🤧",
+   "ko": "근데 지금 생각났는데, 나 고양이 알레르기 있어. 🤧",
+   "note": "most jut eszembe = 지금 생각났다",
+   "tags": [
+    "expr:Amúgy"
+   ],
+   "at": "19:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Amúgy",
+     "amúgy",
+     "어무지"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "jut",
+     "jut",
+     "유트"
+    ],
+    [
+     "eszembe",
+     "ész",
+     "에스"
+    ],
+    [
+     "allergiás",
+     "allergiás",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "macskára",
+     "macska",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Megvan Cirmi! A szekrényben aludt a lépcsőn.",
+   "rd": "멕번 치르미! 어 쎅레니벤 얼루드트 어 레프쵠.",
+   "ko": "치르미 찾았어요! 계단의 옷장에서 자고 있었어.",
+   "note": "megvan = 찾았다",
+   "tags": [],
+   "at": "19:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Megvan",
+     "megvan",
+     "메그번"
+    ],
+    [
+     "szekrényben",
+     "szekrény",
+     ""
+    ],
+    [
+     "aludt",
+     "alszik",
+     "얼루시크"
+    ],
+    [
+     "lépcsőn",
+     "lépcső",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Szuper. És most kié ez a nyolc macska?",
+   "rd": "쑤페르. 에시 모슈트 키에 에즈 어 뇰츠 머치커?",
+   "ko": "좋네요. 그럼 이 고양이 여덟 마리는 누구 거예요?",
+   "note": "kié? = 누구 것?",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "at": "19:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "kié",
+     "ki",
+     "키"
+    ],
+    [
+     "macska",
+     "macska",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "D",
+   "hu": "Nem az enyém. Jó éjszakát.",
+   "rd": "넴 어즈 에넴. 요 에이써카트.",
+   "ko": "내 건 아니에요. 잘 자요.",
+   "note": "jó éjszakát = 잘 자요",
+   "tags": [],
+   "at": "19:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "éjszakát",
+     "éjszaka",
+     "에이사카"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "hu": "Nekem csak Cirmi kell. Puszi!",
+   "rd": "네켐 척 치르미 켈. 푸씨!",
+   "ko": "나는 치르미만 있으면 돼. 쪽!",
+   "note": "puszi = 쪽(볼 뽀뽀, 끝인사)",
+   "tags": [
+    "expr:Puszi"
+   ],
+   "at": "19:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "hu": "Eladó egy szekrény. Nyolc macska ingyen jár hozzá.",
+   "rd": "엘러도 에지 쎅레니. 뇰츠 머치커 인젠 야르 호자.",
+   "ko": "옷장 팝니다. 고양이 여덟 마리 무료 증정.",
+   "note": "ingyen = 공짜로",
+   "tags": [],
+   "at": "19:25",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Eladó",
+     "elad",
+     "엘러드"
+    ],
+    [
+     "szekrény",
+     "szekrény",
+     ""
+    ],
+    [
+     "macska",
+     "macska",
+     ""
+    ],
+    [
+     "ingyen",
+     "ingyen",
+     ""
+    ],
+    [
+     "jár",
+     "jár",
+     "야르"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,375 @@
+{
+ "id": "r2_life_b2",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "건배사는 천천히",
+ "emoji": "🥂",
+ "scene": "Dávid 의 부모님이 오는 날. 긴 단어 egészségedre 를 연습하는데 자꾸 다른 말이 된다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid",
+  "C": "Dávid apja"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "slip",
+ "flags": [
+  "alcohol",
+  "profanity_mild"
+ ],
+ "goal": "건배 인사 egészségedre 와 말 놓기 Tegeződjünk",
+ "expressions": [
+  "Figyelj",
+  "Persze",
+  "Jól van",
+  "Tessék?",
+  "Ne már"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, ma este jönnek a szüleim. Tudsz koccintani?",
+   "rd": "피젤이, 머 에슈테 욘넥 어 쓀레임. 투드쓰 코찐터니?",
+   "ko": "야, 오늘 저녁에 우리 부모님 오셔. 건배할 줄 알아?",
+   "note": "koccint = 잔을 부딪치다",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "jönnek",
+     "jön",
+     "왼"
+    ],
+    [
+     "szüleim",
+     "szülő",
+     ""
+    ],
+    [
+     "koccintani",
+     "koccint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Persze! Mit kell mondani?",
+   "rd": "페르쎄! 미트 켈 몬더니?",
+   "ko": "당연하지! 뭐라고 해야 돼?",
+   "note": "mit kell mondani? = 뭐라고 해야 해?",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "mondani",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Azt, hogy „egészségedre”. Lassan mondd!",
+   "rd": "어즈트, 호지 „에게쓰세게드레”. 러쎤 몬드!",
+   "ko": "「에게세게드레」라고 해. 천천히 말해 봐!",
+   "note": "egészségedre = 건배(네 건강을 위해)",
+   "tags": [],
+   "lemmas": [
+    [
+     "egészségedre",
+     "egészség",
+     ""
+    ],
+    [
+     "mondd",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Egész... seggedre?",
+   "rd": "에게쓰... 섹게드레?",
+   "ko": "전체… 네 엉덩이에?",
+   "note": "띄어 말하면 뜻이 달라진다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "seggedre",
+     "seggedre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Nem, az mást jelent! Ne mondd apámnak!",
+   "rd": "넴, 어즈 마슈트 옐렌트! 네 몬드 어팜넉!",
+   "ko": "아니, 그건 뜻이 달라! 우리 아빠한테 하지 마!",
+   "note": "segg = 엉덩이(거친 말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "mást",
+     "más",
+     "마시"
+    ],
+    [
+     "jelent",
+     "jelen",
+     ""
+    ],
+    [
+     "mondd",
+     "mond",
+     "몬드"
+    ],
+    [
+     "apámnak",
+     "apám",
+     "어팜"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jól van, értem. Egészségedre, egészségedre!",
+   "rd": "욜 번, 에르템. 에게쓰세게드레, 에게쓰세게드레!",
+   "ko": "알겠어, 이해했어. 건배, 건배!",
+   "note": "jól van = 알겠어",
+   "tags": [
+    "expr:Jól van"
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "értem",
+     "ért",
+     "에르트"
+    ],
+    [
+     "egészségedre",
+     "egészség",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Szia, {name}! Tegeződjünk, és igyunk egyet!",
+   "rd": "씨어, {name}! 테게죄드윈크, 에시 이쥰크 에제트!",
+   "ko": "안녕, {name}! 말 놓고 한잔하자!",
+   "note": "tegeződjünk = 말 놓자",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "igyunk",
+     "iszik",
+     "이식"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Köszönöm! Egész seggedre!",
+   "rd": "쾨쐬뇜! 에게쓰 섹게드레!",
+   "ko": "고맙습니다! 당신 엉덩이 전체를 위해!",
+   "note": "egész seggedre = 네 엉덩이 전체에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "seggedre",
+     "seggedre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Tessék?",
+   "rd": "테쎅?",
+   "ko": "뭐라고?",
+   "note": "tessék? = 뭐라고?",
+   "tags": [
+    "expr:Tessék?"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Úristen. Apa, még tanulja a nyelvet.",
+   "rd": "우리슈텐. 어퍼, 멕 터눌여 어 넬베트.",
+   "ko": "세상에. 아빠, 아직 말 배우는 중이야.",
+   "note": "tanulja = 그걸 배운다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "tanulja",
+     "tanul",
+     "타눌"
+    ],
+    [
+     "nyelvet",
+     "nyelve",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Hát ez remek! Mostantól így mondjuk a családban.",
+   "rd": "하트 에즈 레멕! 모슈턴톨 이지 몬드육 어 철라드번.",
+   "ko": "이거 최고다! 앞으로 우리 집은 이렇게 말한다.",
+   "note": "mostantól = 이제부터",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "remek",
+     "remek",
+     "레멕"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "mondjuk",
+     "mond",
+     "몬드"
+    ],
+    [
+     "családban",
+     "család",
+     "처라드"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Ne már! Karácsonykor nagymama is ezt fogja mondani.",
+   "rd": "네 마르! 커라초니코르 너지머머 이시 에즈트 폭여 몬더니.",
+   "ko": "아 좀! 크리스마스엔 할머니도 이 말 하시겠네.",
+   "note": "fogja mondani = 말할 것이다",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "nagymama",
+     "nagymama",
+     ""
+    ],
+    [
+     "fogja",
+     "fog",
+     "포그"
+    ],
+    [
+     "mondani",
+     "mond",
+     "몬드"
+    ]
+   ]
+  }
+ ]
+}

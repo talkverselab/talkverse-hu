@@ -1,0 +1,604 @@
+{
+ "id": "r3_culture_b3",
+ "region": "R3",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "속담 열 개",
+ "emoji": "🐕",
+ "scene": "Réka 네 일요일 점심. 무서운 아버지에게 잘 보이려고 속담을 열 개 외워 왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Réka apukája"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "slip",
+ "flags": [
+  "alcohol"
+ ],
+ "goal": "헝가리어 속담과 존댓말에서 반말로 넘어가기(Tegeződjünk!)",
+ "expressions": [
+  "Figyelj",
+  "Nyugi",
+  "Úristen",
+  "Bocsánat",
+  "Kérlek"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, apám szigorú. Csak mosolyogj, és ne mondj semmi okosat.",
+   "rd": "피젤이, 어팜 씨고루. 척 모쇼욕이, 에시 네 몬드이 셈미 오코셔트.",
+   "ko": "잘 들어, 우리 아빠 엄격해. 웃기만 하고 똑똑한 말은 하지 마.",
+   "note": "szigorú = 엄격한",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "apám",
+     "apám",
+     "어팜"
+    ],
+    [
+     "szigorú",
+     "szigorú",
+     ""
+    ],
+    [
+     "mosolyogj",
+     "mosolyog",
+     ""
+    ],
+    [
+     "mondj",
+     "mond",
+     "몬드"
+    ],
+    [
+     "okosat",
+     "okos",
+     "오코시"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Nyugi, megtanultam tíz magyar közmondást. Imádni fog.",
+   "rd": "뉴기, 멕터눌텀 티즈 머져르 쾨즈몬다슈트. 이마드니 폭.",
+   "ko": "걱정 마, 헝가리 속담 열 개 외웠어. 엄청 좋아하실걸.",
+   "note": "közmondás = 속담",
+   "tags": [
+    "expr:Nyugi"
+   ],
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "megtanultam",
+     "megtanult",
+     ""
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "közmondást",
+     "közmondás",
+     ""
+    ],
+    [
+     "fog",
+     "fog",
+     "포그"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Tíz közmondást? Jaj, jön, mosolyogj!",
+   "rd": "티즈 쾨즈몬다슈트? 여이, 욘, 모쇼욕이!",
+   "ko": "속담 열 개? 아이고, 오신다, 웃어!",
+   "note": "mosolyogj = 웃어",
+   "tags": [],
+   "lemmas": [
+    [
+     "közmondást",
+     "közmondás",
+     ""
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "mosolyogj",
+     "mosolyog",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Üdvözlöm, foglaljon helyet! Ön magyarul tanul, nehéz?",
+   "rd": "위드뵈즐룀, 폭럴욘 헤예트! 왼 머져룰 터눌, 네헤즈?",
+   "ko": "어서 오세요, 앉으시죠! 헝가리어를 배우신다고요, 어렵습니까?",
+   "note": "foglaljon helyet = 앉으세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Üdvözlöm",
+     "üdvözöl",
+     "위드뵈죌"
+    ],
+    [
+     "foglaljon",
+     "foglal",
+     "포글럴"
+    ],
+    [
+     "helyet",
+     "hely",
+     "헤이"
+    ],
+    [
+     "magyarul",
+     "magyar",
+     ""
+    ],
+    [
+     "tanul",
+     "tan",
+     ""
+    ],
+    [
+     "nehéz",
+     "nehéz",
+     "네헤즈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Igen, de sehol sincs kolbászból a kerítés.",
+   "rd": "이겐, 데 세홀 신치 콜바쓰볼 어 케리테시.",
+   "ko": "네, 하지만 어디든 울타리가 소시지로 되어 있진 않죠.",
+   "note": "속담: 어디나 사는 건 쉽지 않다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "sehol",
+     "sehol",
+     ""
+    ],
+    [
+     "sincs",
+     "sincs",
+     "신치"
+    ],
+    [
+     "kolbászból",
+     "kolbász",
+     ""
+    ],
+    [
+     "kerítés",
+     "kerítés",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Hát, ez igaz. Jó mondás!",
+   "rd": "하트, 에즈 이거즈. 요 몬다시!",
+   "ko": "음, 맞는 말입니다. 좋은 속담이에요!",
+   "note": "mondás = 말, 속담",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "igaz",
+     "igaz",
+     "이거즈"
+    ],
+    [
+     "mondás",
+     "mondás",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Hű, ez működött. Most már elég, jó?",
+   "rd": "휘, 에즈 뮈쾨되트. 모슈트 마르 엘렉, 요?",
+   "ko": "오, 먹혔다. 이제 그만해, 알았지?",
+   "note": "működik = 작동하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "működött",
+     "működik",
+     "뮈쾨딕"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "elég",
+     "elég",
+     "엘렉"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Kóstolja meg a pörköltet. Ezt én főztem, negyven éve ez a receptem.",
+   "rd": "코슈톨여 멕 어 푀르쾰테트. 에즈트 엔 푀즈템, 네지벤 에베 에즈 어 레체프템.",
+   "ko": "포르쾰트 드셔 보세요. 제가 만들었어요, 40년 된 레시피입니다.",
+   "note": "kóstolja meg = 맛보세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kóstolja",
+     "kóstol",
+     ""
+    ],
+    [
+     "pörköltet",
+     "pörkölt",
+     ""
+    ],
+    [
+     "főztem",
+     "főz",
+     ""
+    ],
+    [
+     "negyven",
+     "negyven",
+     ""
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "receptem",
+     "receptem",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Köszönöm! Kutyából nem lesz szalonna!",
+   "rd": "쾨쐬뇜! 쿠탸볼 넴 레쓰 썰론너!",
+   "ko": "감사합니다! 개로는 베이컨을 못 만들죠!",
+   "note": "속담: 나쁜 건 안 변한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "szalonna",
+     "szalonna",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Úristen, {name}, ezt most komolyan mondtad?",
+   "rd": "우리슈텐, {name}, 에즈트 모슈트 코모연 몬드터드?",
+   "ko": "세상에, {name}, 그거 지금 진심이야?",
+   "note": "komolyan = 진지하게",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "mondtad",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Kutyából? Azt mondja, hogy kutyát főztem?",
+   "rd": "쿠탸볼? 어즈트 몬드여, 호지 쿠탸트 푀즈템?",
+   "ko": "개요? 내가 개를 끓였다는 말입니까?",
+   "note": "azt mondja = 그렇게 말한다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kutyából",
+     "kutya",
+     "쿠티어"
+    ],
+    [
+     "mondja",
+     "mond",
+     "몬드"
+    ],
+    [
+     "főztem",
+     "főz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Nem, bocsánat! Bagoly mondja verébnek, hogy nagyfejű!",
+   "rd": "넴, 보차너트! 버고이 몬드여 베레브넥, 호지 너지페위!",
+   "ko": "아뇨, 죄송합니다! 올빼미가 참새더러 머리 크다네요!",
+   "note": "속담: 네가 할 말이냐",
+   "tags": [
+    "expr:Bocsánat"
+   ],
+   "lemmas": [
+    [
+     "bocsánat",
+     "bocsánat",
+     "버치너트"
+    ],
+    [
+     "mondja",
+     "mond",
+     "몬드"
+    ],
+    [
+     "verébnek",
+     "veréb",
+     ""
+    ],
+    [
+     "nagyfejű",
+     "nagyfejű",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "hu": "Engem nagyfejűnek nevez?",
+   "rd": "엔겜 너지페위넥 네베즈?",
+   "ko": "나더러 머리가 크다는 겁니까?",
+   "note": "nevez = 부르다",
+   "tags": [],
+   "lemmas": [
+    [
+     "nagyfejűnek",
+     "nagyfejű",
+     ""
+    ],
+    [
+     "nevez",
+     "nevez",
+     "네베즈"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "Kérlek, hallgass már! Tessék, egyél krumplit!",
+   "rd": "케를렉, 헐거시 마르! 테쎅, 에젤 크룸플리트!",
+   "ko": "제발 좀 조용히 해! 자, 감자나 먹어!",
+   "note": "hallgass = 입 다물어",
+   "tags": [
+    "expr:Kérlek"
+   ],
+   "lemmas": [
+    [
+     "Kérlek",
+     "kér",
+     "께르"
+    ],
+    [
+     "hallgass",
+     "hallgass",
+     "헐그어시"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "egyél",
+     "eszik",
+     "에식"
+    ],
+    [
+     "krumplit",
+     "krumpli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "hu": "Még hét van. Várj, ez jó: aki másnak vermet ás, maga esik bele!",
+   "rd": "멕 헤트 번. 바르이, 에즈 요: 어키 마슈넉 베르메트 아시, 머거 에식 벨레!",
+   "ko": "아직 일곱 개 남았어. 잠깐, 이거 좋다. 남의 구덩이 파는 자, 제가 빠진다!",
+   "note": "verem → vermet = 구덩이를",
+   "tags": [],
+   "lemmas": [
+    [
+     "Még",
+     "még",
+     "메그"
+    ],
+    [
+     "hét",
+     "hét",
+     "헤트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "másnak",
+     "más",
+     "마시"
+    ],
+    [
+     "vermet",
+     "verem",
+     ""
+    ],
+    [
+     "ás",
+     "ás",
+     ""
+    ],
+    [
+     "esik",
+     "esik",
+     "에시크"
+    ],
+    [
+     "bele",
+     "bél",
+     "벨"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "hu": "Réka, hozd a pálinkát, negyven éve nem nevettem így! Tegeződjünk, {name}!",
+   "rd": "레커, 호즈드 어 팔린카트, 네지벤 에베 넴 네베뗌 이지! 테게죄드윈크, {name}!",
+   "ko": "레카, 팔린카 가져와, 40년 만에 이렇게 웃네! 말 놓자, {name}!",
+   "note": "tegeződjünk = 서로 말 놓자",
+   "tags": [],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "hozd",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "pálinkát",
+     "pálinka",
+     ""
+    ],
+    [
+     "negyven",
+     "negyven",
+     ""
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "nevettem",
+     "nevet",
+     ""
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ]
+   ]
+  }
+ ]
+}

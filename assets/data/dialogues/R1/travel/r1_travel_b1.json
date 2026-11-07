@@ -1,0 +1,292 @@
+{
+ "id": "r1_travel_b1",
+ "region": "R1",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "랑고시 2분",
+ "emoji": "🚆",
+ "scene": "발라톤행 기차가 잠깐 선 역. Réka 가 랑고시를 사러 내린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "말리는 말과 어디 있는지 묻고 답하기",
+ "expressions": [
+  "Figyelj",
+  "Várj",
+  "Mi van?",
+  "Hogyhogy",
+  "mindjárt"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, leszállok egy lángosért. Két perc!",
+   "rd": "피젤이, 레쌀록 에지 란고세르트. 케트 페르츠!",
+   "ko": "야, 랑고시 사러 내릴게. 2분이면 돼!",
+   "note": "-ért = ~를 가지러",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "leszállok",
+     "leszáll",
+     ""
+    ],
+    [
+     "lángosért",
+     "lángos",
+     ""
+    ],
+    [
+     "perc",
+     "perc",
+     "페르츠"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Várj! A vonat mindjárt indul!",
+   "rd": "바르이! 어 보너트 민드야르트 인둘!",
+   "ko": "잠깐! 기차 곧 출발해!",
+   "note": "mindjárt = 곧",
+   "tags": [
+    "expr:Várj",
+    "expr:mindjárt"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "vonat",
+     "vonat",
+     ""
+    ],
+    [
+     "mindjárt",
+     "mindjárt",
+     "민드야르트"
+    ],
+    [
+     "indul",
+     "indul",
+     "인둘"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Nyugi! Fogd a biciklimet és a táskámat.",
+   "rd": "뉴기! 폭드 어 비칙리메트 에시 어 타슈카머트.",
+   "ko": "진정해! 내 자전거랑 가방 잡고 있어.",
+   "note": "fogd = 잡아(정활용 명령)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "biciklimet",
+     "bicikli",
+     ""
+    ],
+    [
+     "táskámat",
+     "táskámat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Réka, hol vagy? Már megy a vonat!",
+   "rd": "레커, 홀 버지? 마르 메지 어 보너트!",
+   "ko": "레카, 어디야? 기차 벌써 가!",
+   "note": "már = 벌써",
+   "tags": [],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ],
+    [
+     "vonat",
+     "vonat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Szia, ez egy néni telefonja. Itt maradtam!",
+   "rd": "씨어, 에즈 에지 네니 텔레폰여. 이트 머러드텀!",
+   "ko": "안녕, 이거 어떤 할머니 전화야. 나 여기 남았어!",
+   "note": "maradtam = 나는 남았다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "telefonja",
+     "telefon",
+     "텔레폰"
+    ],
+    [
+     "maradtam",
+     "maradt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Mi van? Nálam van a táskád és a biciklid!",
+   "rd": "미 번? 날럼 번 어 타슈카드 에시 어 비칙리드!",
+   "ko": "뭐? 네 가방이랑 자전거 나한테 있어!",
+   "note": "nálam = 나한테",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "táskád",
+     "táskád",
+     ""
+    ],
+    [
+     "biciklid",
+     "biciklid",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Réka? Te hogyhogy már itt vagy?",
+   "rd": "레커? 테 호지호지 마르 이트 버지?",
+   "ko": "(발라톤 역) 레카? 너 어떻게 벌써 여기 있어?",
+   "note": "hogyhogy = 어떻게 된 거야",
+   "tags": [
+    "expr:Hogyhogy"
+   ],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "hogyhogy",
+     "hogyhogy",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "A néni elhozott kocsival. A lángosod már hideg.",
+   "rd": "어 네니 엘호조트 코치벌. 어 란고쇼드 마르 히덱.",
+   "ko": "그 할머니가 차로 데려다줬어. 네 랑고시 벌써 식었어.",
+   "note": "elhozott = 데려다줬다",
+   "tags": [],
+   "lemmas": [
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "elhozott",
+     "elhoz",
+     ""
+    ],
+    [
+     "kocsival",
+     "kocsi",
+     "코치"
+    ],
+    [
+     "lángosod",
+     "lángosod",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "hideg",
+     "hideg",
+     "히데그"
+    ]
+   ]
+  }
+ ]
+}

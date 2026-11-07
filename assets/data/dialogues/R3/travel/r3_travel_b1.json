@@ -1,0 +1,550 @@
+{
+ "id": "r3_travel_b1",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "오늘의 검표원",
+ "emoji": "🧥",
+ "scene": "한겨울 온천 탈의실. 옷이 사라지고 사물함에 낯선 제복만 남았다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid",
+  "C": "Néni",
+  "D": "Ellenőr"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "없어진 물건 설명하기와 검표 상황 표현",
+ "expressions": [
+  "Hogyhogy",
+  "Viccelsz",
+  "Gyere",
+  "Izé",
+  "Nézd",
+  "Hát"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Dávid, baj van. Az öltözőben valaki elvitte a ruhámat.",
+   "rd": "다비드, 버이 번. 어즈 욀퇴죄벤 벌러키 엘비떼 어 루하머트.",
+   "ko": "다비드, 큰일이야. 탈의실에서 누가 내 옷을 가져갔어.",
+   "note": "öltöző = 탈의실",
+   "tags": [],
+   "lemmas": [
+    [
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "öltözőben",
+     "öltöző",
+     ""
+    ],
+    [
+     "elvitte",
+     "elvisz",
+     "엘비스"
+    ],
+    [
+     "ruhámat",
+     "ruha",
+     "루하"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Hogyhogy elvitte? Mi maradt a szekrényben?",
+   "rd": "호지호지 엘비떼? 미 머러드트 어 쎅레니벤?",
+   "ko": "어떻게 가져가? 사물함에 뭐가 남았어?",
+   "note": "szekrény = 사물함, 장",
+   "tags": [
+    "expr:Hogyhogy"
+   ],
+   "lemmas": [
+    [
+     "Hogyhogy",
+     "hogyhogy",
+     ""
+    ],
+    [
+     "elvitte",
+     "elvisz",
+     "엘비스"
+    ],
+    [
+     "maradt",
+     "marad",
+     "머러드"
+    ],
+    [
+     "szekrényben",
+     "szekrény",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Csak ez a sötétkék kabát, egy sapka meg egy kis gép.",
+   "rd": "척 에즈 어 쇠테트켁 커바트, 에지 셔프커 멕 에지 키시 게프.",
+   "ko": "이 남색 재킷이랑 모자, 작은 기계뿐이야.",
+   "note": "gép = 기계",
+   "tags": [],
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "sötétkék",
+     "sötétkék",
+     ""
+    ],
+    [
+     "kabát",
+     "kabát",
+     ""
+    ],
+    [
+     "sapka",
+     "sapka",
+     ""
+    ],
+    [
+     "kis",
+     "kis",
+     "키시"
+    ],
+    [
+     "gép",
+     "gép",
+     "게프"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Várj, ez egy ellenőr egyenruhája! Legalább meleg.",
+   "rd": "바르이, 에즈 에지 엘레뇌르 에젠루하여! 레걸라브 멜렉.",
+   "ko": "잠깐, 이거 검표원 제복이잖아! 적어도 따뜻하네.",
+   "note": "egyenruha = 제복",
+   "tags": [],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "ellenőr",
+     "ellenőr",
+     ""
+    ],
+    [
+     "egyenruhája",
+     "egyenruha",
+     ""
+    ],
+    [
+     "meleg",
+     "meleg",
+     "멜레그"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Viccelsz? Ebben menjek haza a villamossal?",
+   "rd": "비쩰쓰? 에벤 멘옉 허저 어 빌러모쎨?",
+   "ko": "농담해? 이거 입고 트램 타고 집에 가라고?",
+   "note": "ebben = 이것을 입고",
+   "tags": [
+    "expr:Viccelsz"
+   ],
+   "lemmas": [
+    [
+     "Viccelsz",
+     "viccel",
+     "비츠첼"
+    ],
+    [
+     "menjek",
+     "megy",
+     "메지"
+    ],
+    [
+     "haza",
+     "haza",
+     "허저"
+    ],
+    [
+     "villamossal",
+     "villamos",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Nincs más, kint mínusz tíz fok van. Gyere!",
+   "rd": "닌치 마시, 킨트 미누쓰 티즈 폭 번. 제레!",
+   "ko": "다른 수 없어, 밖은 영하 10도야. 와!",
+   "note": "fok = 도",
+   "tags": [
+    "expr:Gyere"
+   ],
+   "lemmas": [
+    [
+     "Nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "más",
+     "más",
+     "마시"
+    ],
+    [
+     "kint",
+     "kint",
+     "킨트"
+    ],
+    [
+     "mínusz",
+     "mínusz",
+     ""
+    ],
+    [
+     "fok",
+     "fok",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Jó napot! Tessék, itt a bérletem, érvényes!",
+   "rd": "요 너포트! 테쎅, 이트 어 베를레템, 에르베네시!",
+   "ko": "안녕하세요! 여기 제 정기권요, 유효해요!",
+   "note": "érvényes = 유효한",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "bérletem",
+     "bérletem",
+     ""
+    ],
+    [
+     "érvényes",
+     "érvényes",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Izé... köszönöm, jó.",
+   "rd": "이제... 쾨쐬뇜, 요.",
+   "ko": "저… 고맙습니다, 됐습니다.",
+   "note": "izé = 저, 그",
+   "tags": [
+    "expr:Izé"
+   ],
+   "lemmas": [
+    [
+     "Izé",
+     "izé",
+     ""
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Nézd! Mindenki előveszi a jegyét, és neked adja.",
+   "rd": "네즈드! 민덴키 엘뢰베씨 어 예제트, 에시 네케드 어드여.",
+   "ko": "봐! 다들 표를 꺼내서 너한테 줘.",
+   "note": "előveszi = 꺼낸다",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "Nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "előveszi",
+     "elővesz",
+     ""
+    ],
+    [
+     "jegyét",
+     "jegye",
+     ""
+    ],
+    [
+     "adja",
+     "ad",
+     "어드"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Az a bácsi ott nem mutatta meg a jegyét! Büntesse meg!",
+   "rd": "어즈 어 바치 오트 넴 무터떠 멕 어 예제트! 뷘테쎄 멕!",
+   "ko": "저 할아버지 표 안 보여 줬어요! 벌금 물리세요!",
+   "note": "büntesse meg = 벌을 주세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "bácsi",
+     "bácsi",
+     ""
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "mutatta",
+     "mutat",
+     "무타트"
+    ],
+    [
+     "jegyét",
+     "jegye",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Hát... elnézést, van jegye?",
+   "rd": "하트... 엘네제슈트, 번 예제?",
+   "ko": "저기… 실례합니다, 표 있으세요?",
+   "note": "van jegye? = 표 있으세요?",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "jegye",
+     "jegy",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Várj, ott jön valaki. Az a te pulcsid!",
+   "rd": "바르이, 오트 욘 벌러키. 어즈 어 테 풀치드!",
+   "ko": "잠깐, 저기 누가 와. 저거 네 후드티야!",
+   "note": "pulcsi = 스웨터, 후드티",
+   "tags": [],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "pulcsid",
+     "pulcsid",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "D",
+   "hu": "Jó napot! Jegyeket, bérleteket kérek!",
+   "rd": "요 너포트! 예제케트, 베를레테케트 케렉!",
+   "ko": "안녕하세요! 표, 정기권 보여 주세요!",
+   "note": "검표원의 정해진 말",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "bérleteket",
+     "bérlet",
+     ""
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Jó napot, kolléga! Az a pulcsi az enyém.",
+   "rd": "요 너포트, 콜레거! 어즈 어 풀치 어즈 에넴.",
+   "ko": "안녕하세요, 동료분! 그 후드티 제 겁니다.",
+   "note": "kolléga = 동료",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "kolléga",
+     "kolléga",
+     ""
+    ],
+    [
+     "pulcsi",
+     "pulcsi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "D",
+   "hu": "És az a kabát az enyém. De tartsa meg estig, én visszamegyek a fürdőbe.",
+   "rd": "에시 어즈 어 커바트 어즈 에넴. 데 터르트셔 멕 에슈틱, 엔 비써메젝 어 퓌르되베.",
+   "ko": "그 재킷은 제 거고요. 그래도 저녁까지 입고 계세요, 저는 온천으로 돌아갑니다.",
+   "note": "tartsa meg = 갖고 계세요",
+   "tags": [],
+   "lemmas": [
+    [
+     "kabát",
+     "kabát",
+     ""
+    ],
+    [
+     "tartsa",
+     "tart",
+     "터르트"
+    ],
+    [
+     "estig",
+     "est",
+     ""
+    ],
+    [
+     "visszamegyek",
+     "visszamegy",
+     "비슈서메그"
+    ],
+    [
+     "fürdőbe",
+     "fürdőbe",
+     ""
+    ]
+   ]
+  }
+ ]
+}

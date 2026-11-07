@@ -1,0 +1,530 @@
+{
+ "id": "r3_love_c1",
+ "region": "R3",
+ "island": "love",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "마흔일곱 매칭",
+ "emoji": "🔥",
+ "scene": "셋이 있는 단톡방. Anna 가 데이팅앱에서 A 의 프로필을 찾았다. A 는 그런 앱을 깐 적이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Dávid"
+ },
+ "register": "chat",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [
+  "romance",
+  "jealousy"
+ ],
+ "goal": "해명하기, 놀랄 때 쓰는 말, '이미 가는 중'(úton vagyok)",
+ "expressions": [
+  "Várj",
+  "Úristen",
+  "Aha",
+  "Király",
+  "Egyébként",
+  "Légyszi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia, kérdezhetek valamit? Ez itt te vagy?",
+   "rd": "씨어, 케르데즈헤텍 벌러미트? 에즈 이트 테 버지?",
+   "ko": "안녕, 뭐 좀 물어봐도 돼? 여기 이거 너야?",
+   "note": "kérdezhetek = 물어봐도 돼",
+   "tags": [],
+   "at": "21:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "kérdezhetek",
+     "kérdezhet",
+     ""
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Hol? Várj, nézem.",
+   "rd": "홀? 바르이, 네젬.",
+   "ko": "어디? 잠깐, 볼게.",
+   "note": "nézem = 내가 그걸 본다",
+   "tags": [
+    "expr:Várj"
+   ],
+   "at": "21:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "nézem",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Az appon találtam. „Szeretem a krumplit és a hosszú sétákat.”",
+   "rd": "어즈 어뽄 털랄텀. „쎄레템 어 크룸플리트 에시 어 호쑤 세타커트.”",
+   "ko": "앱에서 찾았어. \"감자와 긴 산책을 좋아합니다.\"",
+   "note": "séta = 산책",
+   "tags": [],
+   "at": "21:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "appon",
+     "app",
+     ""
+    ],
+    [
+     "találtam",
+     "talált",
+     ""
+    ],
+    [
+     "krumplit",
+     "krumpli",
+     ""
+    ],
+    [
+     "hosszú",
+     "hosszú",
+     "호쑤"
+    ],
+    [
+     "sétákat",
+     "séta",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Úristen, ezt nem én írtam! Nekem nincs is ilyen appom.",
+   "rd": "우리슈텐, 에즈트 넴 엔 이르텀! 네켐 닌치 이시 이옌 어뽐.",
+   "ko": "세상에, 이거 내가 쓴 거 아니야! 나 그런 앱도 없어.",
+   "note": "nincs is = 아예 없다",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "at": "21:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "írtam",
+     "írt",
+     ""
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "appom",
+     "appom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Aha. És az „egyedül vagyok, de csak hétfőn” is hazugság? 😐",
+   "rd": "어허. 에시 어즈 „에제뒬 버죡, 데 척 헤트푄” 이시 허죽샥? 😐",
+   "ko": "아하. 그럼 \"혼자예요, 근데 월요일만요\"도 거짓말이야? 😐",
+   "note": "hazugság = 거짓말",
+   "tags": [
+    "expr:Aha"
+   ],
+   "at": "21:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "egyedül",
+     "egyed",
+     "에제드"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "hétfőn",
+     "hétfő",
+     ""
+    ],
+    [
+     "hazugság",
+     "hazugság",
+     "허주그샤그"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Ezt csak egy ember csinálhatta. Dávid!!!",
+   "rd": "에즈트 척 에지 엠베르 치날허떠. 다비드!!!",
+   "ko": "이건 한 사람밖에 없어. 다비드!!!",
+   "note": "csinálhatta = 했을 수 있다",
+   "tags": [],
+   "at": "21:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "csinálhatta",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Szívesen. Már negyvenhét találatod van, király vagy. 😎",
+   "rd": "씨베센. 마르 네지벤헤트 털랄러토드 번, 키라이 버지. 😎",
+   "ko": "천만에. 벌써 매칭이 마흔일곱이야, 너 대단해. 😎",
+   "note": "találat = 매칭, 검색 결과",
+   "tags": [
+    "expr:Király"
+   ],
+   "at": "21:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szívesen",
+     "szíves",
+     "시베시"
+    ],
+    [
+     "negyvenhét",
+     "negyvenhét",
+     ""
+    ],
+    [
+     "találatod",
+     "találat",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "király",
+     "király",
+     "키라이"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Negyvenhét?! Törölj mindent, de most azonnal!",
+   "rd": "네지벤헤트?! 퇴뢸이 민덴트, 데 모슈트 어존널!",
+   "ko": "마흔일곱?! 다 지워, 지금 당장!",
+   "note": "töröl = 지운다",
+   "tags": [],
+   "at": "21:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Negyvenhét",
+     "negyvenhét",
+     ""
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "azonnal",
+     "azonnal",
+     "어존널"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Nem lehet. Hárman ma este jönnek hozzánk rétessel.",
+   "rd": "넴 레헤트. 하르먼 머 에슈테 욘넥 호잔크 레테쎌.",
+   "ko": "안 돼. 세 명이 오늘 저녁 우리 집에 레테시 들고 와.",
+   "note": "hozzánk = 우리 집으로",
+   "tags": [],
+   "at": "21:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "jönnek",
+     "jön",
+     "왼"
+    ],
+    [
+     "rétessel",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "MI VAN? Dávid, te hány embert hívtál meg?",
+   "rd": "미 번? 다비드, 테 하니 엠베르트 히브탈 멕?",
+   "ko": "뭐?! 다비드, 너 몇 명을 부른 거야?",
+   "note": "hívtál meg = 초대했다",
+   "tags": [],
+   "at": "21:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "embert",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "hívtál",
+     "hív",
+     "히브"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Én senkit, te hívtad őket. Egyébként jól írsz. 😇",
+   "rd": "엔 센키트, 테 히브터드 외케트. 에제브켄트 욜 이르쓰. 😇",
+   "ko": "난 아무도, 네가 부른 거지. 그나저나 글 잘 쓰더라. 😇",
+   "note": "egyébként = 그나저나",
+   "tags": [
+    "expr:Egyébként"
+   ],
+   "at": "21:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "hívtad",
+     "hív",
+     "히브"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "írsz",
+     "ír",
+     "이르"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Ez komoly? Emberek mennek hozzád rétessel?",
+   "rd": "에즈 코모이? 엠베렉 멘넥 호자드 레테쎌?",
+   "ko": "이거 진짜야? 사람들이 네 집에 레테시 들고 가?",
+   "note": "komoly = 진지한",
+   "tags": [],
+   "at": "21:23",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "komoly",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "mennek",
+     "megy",
+     "메지"
+    ],
+    [
+     "rétessel",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Anna, semmit nem tudok! Segíts, légyszi.",
+   "rd": "언너, 셈미트 넴 투독! 세기트시, 레지씨.",
+   "ko": "언너, 난 아무것도 몰라! 도와줘, 제발.",
+   "note": "semmit nem tudok = 아무것도 몰라",
+   "tags": [
+    "expr:Légyszi"
+   ],
+   "at": "21:24",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "tudok",
+     "tud",
+     "투드"
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "Jól van. Már úton vagyok.",
+   "rd": "욜 번. 마르 우톤 버죡.",
+   "ko": "알았어. 벌써 가는 중이야.",
+   "note": "úton vagyok = 가는 중이야",
+   "tags": [],
+   "at": "21:26",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "úton",
+     "út",
+     "우트"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "hu": "Jössz? Miért?",
+   "rd": "요쓰? 미에르트?",
+   "ko": "온다고? 왜?",
+   "note": "jössz = 네가 온다",
+   "tags": [],
+   "at": "21:26",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jössz",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "hu": "Mert te csak az én rétesemet eszed. 😌",
+   "rd": "메르트 테 척 어즈 엔 레테세메트 에쎄드. 😌",
+   "ko": "너는 내 레테시만 먹는 거니까. 😌",
+   "note": "rétesemet = 내 레테시를",
+   "tags": [],
+   "at": "21:27",
+   "stamp": "😌",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "rétesemet",
+     "rétes",
+     "레테시"
+    ],
+    [
+     "eszed",
+     "eszed",
+     ""
+    ]
+   ]
+  }
+ ]
+}

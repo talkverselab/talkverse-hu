@@ -1,0 +1,528 @@
+{
+ "id": "r3_life_b3",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "뇌진탕 검사",
+ "emoji": "🏥",
+ "scene": "온천에서 미끄러져 머리를 찧고 응급실에 왔다. 날짜도 모르는데, 내기로 외운 헝가리어 최장 단어는 안다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid",
+  "C": "Orvos",
+  "D": "Nővér"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "병원에서 다친 경위 말하기, 긴 단어 농담",
+ "expressions": [
+  "Hát",
+  "Izé",
+  "Rendben",
+  "Figyelj",
+  "Úristen"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "hu": "Jó napot, mi történt? Hol fáj?",
+   "rd": "요 너포트, 미 퇴르텐트? 홀 파이?",
+   "ko": "안녕하세요! 무슨 일이에요? 어디가 아파요?",
+   "note": "mi történt? = 무슨 일이에요?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "történt",
+     "történik",
+     "퇴르텐닉"
+    ],
+    [
+     "fáj",
+     "fáj",
+     "파이"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó napot! Elcsúsztam a fürdőben, és megütöttem a fejem.",
+   "rd": "요 너포트! 엘추쓰텀 어 퓌르되벤, 에시 메귀퇴뗌 어 페옘.",
+   "ko": "안녕하세요! 온천에서 미끄러져서 머리를 부딪쳤어요.",
+   "note": "elcsúsztam = 미끄러졌다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "fürdőben",
+     "fürdő",
+     ""
+    ],
+    [
+     "megütöttem",
+     "megütött",
+     ""
+    ],
+    [
+     "fejem",
+     "fej",
+     "페이"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Én hoztam be. Azóta furcsákat mond, doktor úr.",
+   "rd": "엔 호즈텀 베. 어조터 푸르차커트 몬드, 독토르 우르.",
+   "ko": "제가 데려왔어요. 그 뒤로 이상한 말을 해요, 의사 선생님.",
+   "note": "furcsa = 이상한",
+   "tags": [],
+   "lemmas": [
+    [
+     "hoztam",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "be",
+     "be",
+     "베"
+    ],
+    [
+     "furcsákat",
+     "furcsa",
+     "푸르처"
+    ],
+    [
+     "mond",
+     "mond",
+     "몬드"
+    ],
+    [
+     "doktor",
+     "doktor",
+     "독토르"
+    ],
+    [
+     "úr",
+     "úr",
+     "우르"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Rendben, ellenőrizzük. Milyen nap van ma?",
+   "rd": "렌드벤, 엘레뇌리쥑. 미옌 너프 번 머?",
+   "ko": "네, 확인해 봅시다. 오늘 무슨 요일이죠?",
+   "note": "ellenőrizzük = 확인합시다",
+   "tags": [
+    "expr:Rendben"
+   ],
+   "lemmas": [
+    [
+     "Rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "ellenőrizzük",
+     "ellenőriz",
+     "엘렌외리즈"
+    ],
+    [
+     "nap",
+     "nap",
+     "넙"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Hát, izé... hétfő vagy szombat?",
+   "rd": "하트, 이제... 헤트푀 버지 쏨버트?",
+   "ko": "음, 저기… 월요일이나 토요일?",
+   "note": "izé = 저기, 그거",
+   "tags": [
+    "expr:Hát",
+    "expr:Izé"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "hétfő",
+     "hétfő",
+     ""
+    ],
+    [
+     "szombat",
+     "szombat",
+     "솜바트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Szerda. Hogy hívják a szobatársát?",
+   "rd": "쎄르더. 호지 히브약 어 쏘버타르샤트?",
+   "ko": "수요일이에요. 룸메이트 이름이 뭐죠?",
+   "note": "hogy hívják? = 이름이 뭐예요?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szerda",
+     "szerda",
+     ""
+    ],
+    [
+     "hívják",
+     "hív",
+     "히브"
+    ],
+    [
+     "szobatársát",
+     "szobatárs",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Őt? Hát, ő az, aki sokat eszik.",
+   "rd": "외트? 하트, 외 어즈, 어키 쇼커트 에씩.",
+   "ko": "쟤요? 음… 많이 먹는 애요.",
+   "note": "aki = ~하는 사람",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "eszik",
+     "eszik",
+     "에식"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Jaj, ne már. Doktor úr, ez komoly?",
+   "rd": "여이, 네 마르. 독토르 우르, 에즈 코모이?",
+   "ko": "아 좀. 의사 선생님, 심각한 거예요?",
+   "note": "komoly = 심각한",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "úr",
+     "úr",
+     "우르"
+    ],
+    [
+     "komoly",
+     "komoly",
+     "코모이"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Még egy teszt. Mondjon nekem egy hosszú magyar szót.",
+   "rd": "멕 에지 테쓰트. 몬드욘 네켐 에지 호쑤 머져르 쏘트.",
+   "ko": "검사 하나 더요. 긴 헝가리어 단어 하나 말해 보세요.",
+   "note": "mondjon = 말하세요(존댓말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Még",
+     "még",
+     "메그"
+    ],
+    [
+     "teszt",
+     "teszt",
+     "테스트"
+    ],
+    [
+     "hosszú",
+     "hosszú",
+     "호쑤"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "szót",
+     "szó",
+     "쏘"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Megszentségteleníthetetlenségeskedéseitekért.",
+   "rd": "멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트.",
+   "ko": "(헝가리어에서 가장 길다는 그 단어.)",
+   "note": "뜻은 몰라도 된다: 농담으로 쓰는 긴 단어",
+   "tags": [],
+   "lemmas": [
+    [
+     "Megszentségteleníthetetlenségeskedéseitekért",
+     "megszentségteleníthetetlenségeskedéseitek",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Tessék?! Ezt még egyszer, lassan!",
+   "rd": "테쎅?! 에즈트 멕 에지쎄르, 러쎤!",
+   "ko": "네?! 다시 한번, 천천히요!",
+   "note": "még egyszer = 한 번 더",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "lassan",
+     "lassan",
+     "러셔느"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "D",
+   "hu": "Mi történt, doktor úr? Rosszul van a beteg?",
+   "rd": "미 퇴르텐트, 독토르 우르? 로쑬 번 어 베텍?",
+   "ko": "무슨 일이에요, 선생님? 환자가 안 좋아요?",
+   "note": "rosszul van = 몸이 안 좋다",
+   "tags": [],
+   "lemmas": [
+    [
+     "történt",
+     "történik",
+     "퇴르텐닉"
+    ],
+    [
+     "doktor",
+     "doktor",
+     "독토르"
+    ],
+    [
+     "úr",
+     "úr",
+     "우르"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "beteg",
+     "beteg",
+     "베테그"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "hu": "Hallgassa! Ezt húsz éve nem tudom kimondani.",
+   "rd": "헐거쎠! 에즈트 후쓰 에베 넴 투돔 키몬더니.",
+   "ko": "들어 보세요! 나는 이걸 20년째 못 말해요.",
+   "note": "kimondani = 말로 내뱉다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hallgassa",
+     "hallgat",
+     "헐르거트"
+    ],
+    [
+     "húsz",
+     "húsz",
+     ""
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "kimondani",
+     "kimond",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Megszentségteleníthetetlenségeskedéseitekért. Mehetek már?",
+   "rd": "멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트. 메헤텍 마르?",
+   "ko": "(또 그 단어.) 이제 가도 돼요?",
+   "note": "mehetek = 가도 돼요?",
+   "tags": [],
+   "lemmas": [
+    [
+     "Megszentségteleníthetetlenségeskedéseitekért",
+     "megszentségteleníthetetlenségeskedéseitek",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "D",
+   "hu": "Úristen! Hívom a főorvost és az egész osztályt!",
+   "rd": "우리슈텐! 히봄 어 푀오르보슈트 에시 어즈 에게쓰 오쓰타이트!",
+   "ko": "세상에! 과장님이랑 병동 전체를 부를게요!",
+   "note": "főorvos = 과장 의사",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "főorvost",
+     "főorvos",
+     ""
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "osztályt",
+     "osztály",
+     "오스타이"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "hu": "Figyelj, nem tudod a nevemet, de ezt tudod? Akkor te mosogatsz.",
+   "rd": "피젤이, 넴 투도드 어 네베메트, 데 에즈트 투도드? 어꼬르 테 모쇼거트쓰.",
+   "ko": "야, 내 이름은 몰라도 그건 안다고? 그럼 설거지는 네가 해.",
+   "note": "mosogatsz = 네가 설거지한다",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "tudod",
+     "tud",
+     "투드"
+    ],
+    [
+     "nevemet",
+     "név",
+     "네브"
+    ],
+    [
+     "mosogatsz",
+     "mosogat",
+     ""
+    ]
+   ]
+  }
+ ]
+}

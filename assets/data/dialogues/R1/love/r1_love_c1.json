@@ -1,0 +1,233 @@
+{
+ "id": "r1_love_c1",
+ "region": "R1",
+ "island": "love",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "레테시 때문에 읽씹",
+ "emoji": "📱",
+ "scene": "데이팅앱에서 매칭된 Anna 와 첫 채팅. 약속을 물었더니 답이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "ignore",
+ "flags": [
+  "romance"
+ ],
+ "goal": "채팅에서 쓰는 짧은 답과 약속 묻기",
+ "expressions": [
+  "Bocsi",
+  "ráérsz",
+  "Na"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia! Te is szereted a rétest? 😄",
+   "rd": "씨어! 테 이시 쎄레테드 어 레테슈트? 😄",
+   "ko": "안녕! 너도 레테시 좋아해? 😄",
+   "note": "szereted = 네가 그걸 좋아한다",
+   "tags": [],
+   "at": "21:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "szereted",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Igen! Nagyon szeretem.",
+   "rd": "이겐! 너죤 쎄레템.",
+   "ko": "응! 엄청 좋아해.",
+   "note": "nagyon = 아주",
+   "tags": [
+    "expr:Na"
+   ],
+   "at": "21:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "szeretem",
+     "szeret",
+     "쎄레트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Na, melyik a kedvenced?",
+   "rd": "너, 메익 어 케드벤체드?",
+   "ko": "그래서 제일 좋아하는 건?",
+   "note": "kedvenc = 좋아하는 것",
+   "tags": [
+    "expr:Na"
+   ],
+   "at": "21:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "kedvenced",
+     "kedvenc",
+     "케드벤츠"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "A túrós. Holnap ráérsz?",
+   "rd": "어 투로시. 홀너프 라에르쓰?",
+   "ko": "코티지치즈 맛. 내일 시간 돼?",
+   "note": "ráérsz = 너 시간 있어?",
+   "tags": [
+    "expr:ráérsz",
+    "expr:Na"
+   ],
+   "at": "21:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "túrós",
+     "túrós",
+     ""
+    ],
+    [
+     "ráérsz",
+     "ráérik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Bocsi, túl gyors vagyok?",
+   "rd": "보치, 툴 죠르시 버죡?",
+   "ko": "미안, 내가 너무 빨랐나?",
+   "note": "túl = 너무",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "21:40",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "túl",
+     "túl",
+     "툴"
+    ],
+    [
+     "gyors",
+     "gyors",
+     "죠르시"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj. Felejtsd el.",
+   "rd": "여이. 펠레이트슈드 엘.",
+   "ko": "아이고. 잊어 줘.",
+   "note": "felejtsd el = 잊어 줘",
+   "tags": [],
+   "at": "23:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Bocsi, rétest sütöttem. Holnap hozok neked. 😇",
+   "rd": "보치, 레테슈트 쉬퇴뗌. 홀너프 호족 네케드. 😇",
+   "ko": "미안, 레테시 굽고 있었어. 내일 갖다 줄게. 😇",
+   "note": "neked = 너에게",
+   "tags": [
+    "expr:Bocsi",
+    "expr:Na"
+   ],
+   "at": "23:40",
+   "stamp": "😇",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "rétest",
+     "rétes",
+     "레테시"
+    ],
+    [
+     "sütöttem",
+     "süt",
+     "슈트"
+    ],
+    [
+     "hozok",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  }
+ ]
+}

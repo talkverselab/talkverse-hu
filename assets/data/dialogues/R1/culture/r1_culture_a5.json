@@ -1,0 +1,235 @@
+{
+ "id": "r1_culture_a5",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "맥주잔은 부딪치지 마",
+ "emoji": "🍻",
+ "scene": "동네 술집에서 첫 건배. 맥주잔을 부딪치려는 순간 온 술집이 쳐다본다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Pincér"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [
+  "alcohol"
+ ],
+ "goal": "건배사 egészségedre 와 헝가리의 맥주 건배 풍습",
+ "expressions": [
+  "Na",
+  "Ne már",
+  "Nézd",
+  "Semmi baj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Na, egészségedre!",
+   "rd": "너, 에게쓰세게드레!",
+   "ko": "자, 건배!",
+   "note": "egészségedre = 네 건강을 위해(건배)",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "egészségedre",
+     "egészség",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Egészségedre! Gyere, koccintsunk!",
+   "rd": "에게쓰세게드레! 제레, 코찐트슌크!",
+   "ko": "건배! 자, 잔 부딪치자!",
+   "note": "koccintsunk = 잔을 부딪치자",
+   "tags": [],
+   "lemmas": [
+    [
+     "Egészségedre",
+     "egészség",
+     ""
+    ],
+    [
+     "koccintsunk",
+     "koccint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Ne már! Sörrel nem koccintunk!",
+   "rd": "네 마르! 쇠렐 넴 코찐툰크!",
+   "ko": "아 좀! 맥주로는 안 부딪쳐!",
+   "note": "sörrel = 맥주로",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "koccintunk",
+     "koccint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Miért nem? Mi van?",
+   "rd": "미에르트 넴? 미 번?",
+   "ko": "왜 안 돼? 뭐야?",
+   "note": "miért = 왜",
+   "tags": [],
+   "lemmas": [
+    [
+     "Miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Régi szokás. Nézd, mindenki minket néz.",
+   "rd": "레기 쏘카시. 네즈드, 민덴키 민케트 네즈.",
+   "ko": "옛날 풍습이야. 봐, 다들 우리 쳐다봐.",
+   "note": "szokás = 풍습",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "Régi",
+     "régi",
+     "레기"
+    ],
+    [
+     "szokás",
+     "szokás",
+     ""
+    ],
+    [
+     "néz",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj, bocsánat! Most mit csináljak?",
+   "rd": "여이, 보차너트! 모슈트 미트 치날역?",
+   "ko": "아이고, 죄송해요! 이제 어떡하죠?",
+   "note": "mit csináljak? = 어떡하지?",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "bocsánat",
+     "bocsánat",
+     "버치너트"
+    ],
+    [
+     "csináljak",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Semmi baj! Mindenkinek egy pálinka, és ön fizet.",
+   "rd": "셈미 버이! 민덴키넥 에지 팔린커, 에시 왼 피제트.",
+   "ko": "괜찮아요! 다들 팔린카 한 잔씩, 손님이 내시고요.",
+   "note": "mindenkinek = 모두에게",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "pálinka",
+     "pálinka",
+     ""
+    ],
+    [
+     "fizet",
+     "fizet",
+     "피제트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Mindenkinek? Hány ember van itt?",
+   "rd": "민덴키넥? 하니 엠베르 번 이트?",
+   "ko": "모두요? 여기 몇 명이나 있는데요?",
+   "note": "hány = 몇",
+   "tags": [],
+   "lemmas": [
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  }
+ ]
+}

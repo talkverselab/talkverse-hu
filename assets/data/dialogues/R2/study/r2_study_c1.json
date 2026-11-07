@@ -1,0 +1,384 @@
+{
+ "id": "r2_study_c1",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "물음표 하나",
+ "emoji": "❓",
+ "scene": "수업 단톡방. Réka 의 물음표 하나가 저녁 내내 커진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka",
+  "C": "Anna",
+  "D": "Tanárnő"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "소문 전하기(Azt hallottam, hogy…)와 단톡방 반응",
+ "expressions": [
+  "Nem tudom",
+  "Szerintem",
+  "Tényleg",
+  "Szuper",
+  "Komolyan",
+  "Durva"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Holnap elmarad az óra?",
+   "rd": "홀너프 엘머러드 어즈 오러?",
+   "ko": "내일 휴강이야?",
+   "note": "elmarad = 취소된다",
+   "tags": [],
+   "at": "18:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "elmarad",
+     "elmarad",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Nem tudom. Szerintem igen.",
+   "rd": "넴 투돔. 쎄린템 이겐.",
+   "ko": "몰라. 아마 그럴걸.",
+   "note": "szerintem = 내 생각엔",
+   "tags": [
+    "expr:Nem tudom",
+    "expr:Szerintem"
+   ],
+   "at": "18:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Tényleg elmarad? Szuper!",
+   "rd": "테닐렉 엘머러드? 쑤페르!",
+   "ko": "진짜 휴강이야? 좋다!",
+   "note": "tényleg = 정말",
+   "tags": [
+    "expr:Tényleg",
+    "expr:Szuper"
+   ],
+   "at": "18:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "elmarad",
+     "elmarad",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Azt hallottam, hogy egész héten elmarad.",
+   "rd": "어즈트 헐로떰, 호지 에게쓰 헤텐 엘머러드.",
+   "ko": "이번 주 내내 휴강이라고 들었어.",
+   "note": "azt hallottam = 그렇게 들었다",
+   "tags": [],
+   "at": "18:11",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "hallottam",
+     "hallott",
+     ""
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "héten",
+     "hét",
+     "헤트"
+    ],
+    [
+     "elmarad",
+     "elmarad",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Komolyan? Ki mondta?",
+   "rd": "코모연? 키 몬드터?",
+   "ko": "진짜? 누가 그랬어?",
+   "note": "komolyan? = 진짜?",
+   "tags": [
+    "expr:Komolyan"
+   ],
+   "at": "18:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Te mondtad.",
+   "rd": "테 몬드터드.",
+   "ko": "네가 그랬잖아.",
+   "note": "te mondtad = 네가 말했다",
+   "tags": [],
+   "at": "18:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "mondtad",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Úristen, azt írják, hogy bezár az egyetem! 😱",
+   "rd": "우리슈텐, 어즈트 이르약, 호지 베자르 어즈 에제템! 😱",
+   "ko": "세상에, 학교가 문 닫는대! 😱",
+   "note": "bezár = 문을 닫다",
+   "tags": [],
+   "at": "18:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "írják",
+     "ír",
+     "이르"
+    ],
+    [
+     "bezár",
+     "bezár",
+     "베자르"
+    ],
+    [
+     "egyetem",
+     "egyetem",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Durva. Akkor már veszem is a repülőjegyet.",
+   "rd": "두르버. 어꼬르 마르 베쎔 이시 어 레퓔뢰예제트.",
+   "ko": "대박. 그럼 비행기표 바로 산다.",
+   "note": "veszem = 내가 그것을 산다",
+   "tags": [
+    "expr:Durva"
+   ],
+   "at": "18:31",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Durva",
+     "durva",
+     "두르버"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "veszem",
+     "veszik",
+     "베세크"
+    ],
+    [
+     "repülőjegyet",
+     "repülőjegy",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Én meg eladtam a tankönyvemet.",
+   "rd": "엔 멕 엘러드텀 어 턴쾨니베메트.",
+   "ko": "난 교재 팔았어.",
+   "note": "eladtam = 내가 팔았다",
+   "tags": [],
+   "at": "18:33",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "eladtam",
+     "elad",
+     "엘러드"
+    ],
+    [
+     "tankönyvemet",
+     "tankönyv",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "hu": "Jó estét! Holnap nyolckor dolgozat lesz.",
+   "rd": "요 에슈테트! 홀너프 뇰츠코르 돌고저트 레쓰.",
+   "ko": "좋은 저녁이에요! 내일 8시에 쪽지시험 봅니다.",
+   "note": "dolgozat = 쪽지시험, 보고서",
+   "tags": [],
+   "at": "18:40",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "nyolckor",
+     "nyolckor",
+     ""
+    ],
+    [
+     "dolgozat",
+     "dolgozat",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "hu": "Tanárnő, Ön is itt van?!",
+   "rd": "터나르뇌, 왼 이시 이트 번?!",
+   "ko": "선생님, 여기 계셨어요?!",
+   "note": "Ön is = 당신도(존댓말)",
+   "tags": [],
+   "at": "18:41",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tanárnő",
+     "tanárnő",
+     ""
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "D",
+   "hu": "Mindig itt voltam. A repülőjegy visszaváltható? 😇",
+   "rd": "민딕 이트 볼텀. 어 레퓔뢰예지 비써발트허토? 😇",
+   "ko": "전 항상 있었어요. 비행기표는 환불되나요? 😇",
+   "note": "visszaváltható = 환불할 수 있는",
+   "tags": [],
+   "at": "18:42",
+   "stamp": "😇",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "voltam",
+     "volt",
+     "볼트"
+    ],
+    [
+     "repülőjegy",
+     "repülőjegy",
+     ""
+    ],
+    [
+     "visszaváltható",
+     "visszavált",
+     ""
+    ]
+   ]
+  }
+ ]
+}

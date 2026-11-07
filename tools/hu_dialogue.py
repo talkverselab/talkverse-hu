@@ -1,0 +1,207 @@
+"""회화 초안 원고(data/dialogue_src/*.txt) → 편 JSON(assets/data/dialogues/R<레벨>/<주제>/<id>.json) + 규칙 검사.
+  <venv>/bin/python tools/hu_dialogue.py build [원고...]   원고를 JSON 으로(독음·표현 태그·레마 자동)
+  <venv>/bin/python tools/hu_dialogue.py check [원고...]   검사만
+  <venv>/bin/python tools/hu_dialogue.py stats             전체 편 수·반전 비율·종류
+
+원고 형식(편마다):
+  === r1_friends_a1
+  kind: short            (short|long|chat|survival)
+  title: 한국어 제목
+  emoji: ☕
+  scene: 장면 한 줄
+  b: Réka                (c: · d: 있으면)
+  register: casual       (polite|casual|chat|mixed)
+  twist: 5 chaos         (턴 번호 + chaos|slip|reveal|emotion|ignore)
+  flags: romance         (없으면 생략)
+  purpose: making_friends
+  goal: 학습 목표 한 줄
+  expressions: Na; Mi újság?
+  A | 헝가리어 | 한국어 | note | at=21:03 stamp=😂 read=false
+"""
+import collections, glob, json, os, re, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from rd_hu import rd
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC = os.path.join(ROOT, 'data/dialogue_src')
+OUT = os.path.join(ROOT, 'assets/data/dialogues')
+LEX = os.path.join(ROOT, 'assets/data/vocab/lexicon_hu.json')
+TURNS = {'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16)}
+MAXW = {'R1': 8, 'R2': 12, 'R3': 16}  # 턴당 낱말 — 교착어라 적게 잡는다
+TW = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
+WORD = re.compile(r"\{[a-z_]+\}|[A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]+")
+# 표현 풀 — 헝가리어 구어 덩어리(최우선 원칙 0-1). 편마다 2개 이상.
+POOL = ['na', 'hát', 'szóval', 'persze', 'jaj', 'tessék', 'figyelj', 'várj', 'komolyan', 'mi van', 'nem baj', 'semmi baj', 'oké', 'nem tudom', 'mindegy', 'tényleg', 'ugye', 'légyszi',
+        'köszi', 'sziasztok', 'puszi', 'durva', 'ne már', 'na ne', 'jól van', 'rendben', 'hogyhogy', 'mi a helyzet', 'mizu', 'naná', 'aha', 'egyébként', 'amúgy', 'szerintem', 'sajnos',
+        'gyere', 'menjünk', 'nézd', 'tudod', 'izé', 'igazából', 'pont', 'mindjárt', 'egy pillanat', 'bocsi', 'bocsánat', 'elnézést', 'nem igaz', 'úristen', 'te jó ég', 'de jó', 'de', 'ja',
+        'megyek', 'kérem', 'kérek', 'lehet', 'nincs mit', 'szívesen', 'ez az', 'mi az', 'miért', 'tudom', 'látod', 'hallod', 'várjál', 'ugyan', 'nahát', 'hű', 'ó', 'hé', 'szuper', 'király', 'de hát']
+
+
+def parse(path):
+    eps, ep = [], None
+    for ln, raw in enumerate(open(path, encoding='utf-8'), 1):
+        s = raw.strip()
+        if not s or s.startswith('#'):
+            continue
+        if s.startswith('==='):
+            ep = {'id': s[3:].strip(), 'turns': [], '_src': f'{os.path.basename(path)}:{ln}'}
+            eps.append(ep)
+        elif re.match(r'^[A-D] \|', s):
+            p = [x.strip() for x in s.split('|')]
+            t = {'speaker': p[0], 'hu': p[1], 'ko': p[2] if len(p) > 2 else '', 'note': p[3] if len(p) > 3 else ''}
+            for kv in (p[4].split() if len(p) > 4 else []):
+                k, _, v = kv.partition('=')
+                t[k] = False if v == 'false' else v
+            ep['turns'].append(t)
+        else:
+            k, _, v = s.partition(':')
+            ep[k.strip()] = v.strip()
+    return eps
+
+
+def to_json(e, lemmatize=None):
+    m = re.match(r'r(\d)_([a-z]+)_', e['id'])
+    region, island = f'R{m.group(1)}', m.group(2)
+    tw = e.get('twist', '0 chaos').split()
+    speakers = {'A': '{name}'}
+    for k in 'bcd':
+        if e.get(k):
+            speakers[k.upper()] = e[k]
+    exprs = [x.strip() for x in e.get('expressions', '').split(';') if x.strip()]
+    d = {'id': e['id'], 'region': region, 'island': island, 'kind': e.get('kind', 'short'), 'draft': True, 'purpose': e.get('purpose', '').split(), 'domain': [island],
+         'title': e.get('title', ''), 'emoji': e.get('emoji', '💬'), 'scene': e.get('scene', ''), 'speakers': speakers, 'register': e.get('register', 'mixed'),
+         'twist': int(tw[0]), 'twist_type': tw[1] if len(tw) > 1 else '', 'flags': e.get('flags', '').split(), 'goal': e.get('goal', ''), 'expressions': exprs, 'turns': []}
+    for i, t in enumerate(e['turns'], 1):
+        o = {'num': i, 'speaker': t['speaker'], 'hu': t['hu'], 'rd': rd(t['hu']), 'ko': t['ko'], 'note': t['note'],
+             'tags': [f'expr:{x}' for x in exprs if x.lower() in t['hu'].lower()]}
+        for k in ('at', 'stamp', 'read'):
+            if k in t:
+                o[k] = t[k]
+        if d['kind'] == 'chat':
+            o['ui'] = 'bubble'
+        if lemmatize:
+            o['lemmas'] = lemmatize(t['hu'])
+        d['turns'].append(o)
+    return d
+
+
+def check(e, lex_rank):
+    errs, warns = [], []
+    d = to_json(e)
+    r, kind, ts = d['region'], d['kind'], d['turns']
+    lo, hi = TURNS[r]
+    if kind == 'survival':
+        lo = 6
+    if not lo <= len(ts) <= hi:
+        errs.append(f'턴 수 {len(ts)} (허용 {lo}~{hi})')
+    for k in ('title', 'scene', 'goal'):
+        if not d[k]:
+            errs.append(f'{k} 없음')
+    if d['twist_type'] not in TW:
+        errs.append(f'twist_type {d["twist_type"]!r}')
+    if not 2 <= d['twist'] <= len(ts):
+        errs.append(f'twist 턴 {d["twist"]}')
+    elif d['twist'] <= len(ts) // 2 and d['twist_type'] != 'ignore':
+        warns.append(f'반전이 앞쪽(턴 {d["twist"]}) — 본론 후반 권장')
+    if len(d['expressions']) < 2:
+        errs.append('expressions 2개 미만')
+    text = ' '.join(t['hu'] for t in ts).lower()
+    for x in d['expressions']:
+        if x.lower().rstrip('?!.') not in text:
+            errs.append(f'표현이 대사에 없음: {x}')
+    hits = {p for p in POOL if re.search(r'(?<![a-záéíóöőúüű])' + re.escape(p) + r'(?![a-záéíóöőúüű])', text)}
+    if len(hits) < 2:
+        errs.append(f'표현 풀 {len(hits)}개(2개 이상)')
+    sp = set(d['speakers'])
+    for t in ts:
+        words = [w for w in WORD.findall(t['hu'])]
+        if t['speaker'] not in sp:
+            errs.append(f'턴 {t["num"]} 화자 {t["speaker"]} 미선언')
+        if not t['ko'] or not t['note']:
+            errs.append(f'턴 {t["num"]} ko/note 없음')
+        if re.search(r'[가-힣]', t['hu']):
+            errs.append(f'턴 {t["num"]} 대사에 한글')
+        if r == 'R1' and kind != 'chat' and len(words) < 2:
+            errs.append(f'턴 {t["num"]} R1 한 낱말 답')
+        if len(words) > MAXW[r] + (2 if kind == 'long' else 0):
+            warns.append(f'턴 {t["num"]} 낱말 {len(words)}개')
+        if len(re.findall(r'[.!?…]+', t['hu'])) > 2:
+            warns.append(f'턴 {t["num"]} 3문장 이상')
+    if d['speakers'].get('B') and not any(t['speaker'] == 'A' for t in ts):
+        errs.append('A 대사 없음')
+    if lex_rank:
+        out = sorted({w for w in (lemma(x) for t in ts for x in WORD.findall(t['hu']) if not x.startswith('{') and not x[0].isupper()) if w not in lex_rank})
+        cap = {'R1': 5, 'R2': 8, 'R3': 12}[r]
+        if len(out) > cap:
+            warns.append(f'단어표 밖 {len(out)}개: {", ".join(out[:10])}')
+    return errs, warns
+
+
+_lem = None
+
+
+def lemma(w):
+    global _lem
+    if _lem is None:
+        import simplemma
+        _lem = simplemma
+    lw = w.lower()
+    if lw in ('igen', 'nincs', 'szia', 'persze'):
+        return lw
+    return _lem.lemmatize(lw, lang='hu').lower()
+
+
+def lemmas_of(lex):
+    func = {'det', 'conj', 'pron', 'postp', 'particle', 'suffix', 'num'}
+
+    def f(text):
+        out, seen = [], set()
+        for i, w in enumerate(x for x in WORD.findall(text) if not x.startswith('{')):
+            if i > 0 and w[0].isupper():
+                continue
+            b = lemma(w)
+            e = lex.get(b)
+            if (e and e.get('pos') in func) or len(b) < 2 or b in seen:
+                continue
+            seen.add(b)
+            out.append([w, b, (e or {}).get('rd', '')])
+        return out
+    return f
+
+
+def main():
+    cmd = sys.argv[1] if len(sys.argv) > 1 else 'check'
+    files = sys.argv[2:] or sorted(glob.glob(os.path.join(SRC, '*.txt')))
+    lex = json.load(open(LEX, encoding='utf-8'))['words']
+    if cmd == 'stats':
+        ds = [json.load(open(f, encoding='utf-8')) for f in glob.glob(os.path.join(OUT, 'R*/*/*.json'))]
+        n = len(ds)
+        c = collections.Counter(d['twist_type'] for d in ds)
+        print(f'{n}편', dict(collections.Counter(d['region'] for d in ds)), dict(collections.Counter(d['island'] for d in ds)), dict(collections.Counter(d['kind'] for d in ds)))
+        print('반전', dict(c), f"chaos {c['chaos'] * 100 // max(n, 1)}%")
+        return
+    bad = 0
+    ids = collections.Counter()
+    for f in files:
+        for e in parse(f):
+            ids[e['id']] += 1
+            errs, warns = check(e, lex)
+            for x in errs:
+                print(f'✗ {e["id"]}: {x}')
+            for x in warns:
+                print(f'  △ {e["id"]}: {x}')
+            bad += bool(errs)
+            if cmd == 'build' and not errs:
+                d = to_json(e, lemmas_of(lex))
+                p = os.path.join(OUT, d['region'], d['island'], d['id'] + '.json')
+                os.makedirs(os.path.dirname(p), exist_ok=True)
+                json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    for k, v in ids.items():
+        if v > 1:
+            print(f'✗ 편 id 중복: {k}')
+    print(f'{sum(ids.values())}편, 오류 편 {bad}')
+
+
+if __name__ == '__main__':
+    main()

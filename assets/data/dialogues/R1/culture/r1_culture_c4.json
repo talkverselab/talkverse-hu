@@ -1,0 +1,233 @@
+{
+ "id": "r1_culture_c4",
+ "region": "R1",
+ "island": "culture",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "새해 첫 생선",
+ "emoji": "🐟",
+ "scene": "12월 31일 자정이 막 지났다. A 는 맛있게 먹는 중이다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "새해 인사와 음식 미신",
+ "expressions": [
+  "Ne már",
+  "Mi van",
+  "Jaj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Boldog új évet! 🎆",
+   "rd": "볼독 우이 에베트! 🎆",
+   "ko": "새해 복 많이! 🎆",
+   "note": "boldog új évet = 새해 복 많이",
+   "tags": [],
+   "at": "00:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Boldog",
+     "boldog",
+     "볼도그"
+    ],
+    [
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "évet",
+     "éve",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Neked is! Mit eszel?",
+   "rd": "네케드 이시! 미트 에쎌?",
+   "ko": "너도! 뭐 먹어?",
+   "note": "neked is = 너도",
+   "tags": [],
+   "at": "00:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "eszel",
+     "eszel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Halat. Finom!",
+   "rd": "헐러트. 피놈!",
+   "ko": "생선. 맛있어!",
+   "note": "hal = 생선",
+   "tags": [],
+   "at": "00:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Halat",
+     "hala",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Halat?! Ne már!",
+   "rd": "헐러트?! 네 마르!",
+   "ko": "생선?! 아 안 돼!",
+   "note": "ne már! = 아 좀!",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "at": "00:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Halat",
+     "hala",
+     ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Mi van?",
+   "rd": "미 번?",
+   "ko": "왜?",
+   "note": "mi van? = 왜?",
+   "tags": [
+    "expr:Mi van"
+   ],
+   "at": "00:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "A hal elúszik a szerencsével!",
+   "rd": "어 헐 엘루씩 어 쎄렌체벨!",
+   "ko": "생선이 운을 달고 헤엄쳐 가잖아!",
+   "note": "elúszik = 헤엄쳐 가 버리다",
+   "tags": [],
+   "at": "00:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "hal",
+     "hal",
+     "헐"
+    ],
+    [
+     "elúszik",
+     "elúszik",
+     ""
+    ],
+    [
+     "szerencsével",
+     "szerencse",
+     "세렌체"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Jaj. Három halat ettem.",
+   "rd": "여이. 하롬 헐러트 에뗌.",
+   "ko": "아이고. 세 마리 먹었어.",
+   "note": "ettem = 먹었다",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "at": "00:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "halat",
+     "hala",
+     ""
+    ],
+    [
+     "ettem",
+     "esz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Akkor idén ne ülj mellém. 😅",
+   "rd": "어꼬르 이덴 네 윌이 멜렘. 😅",
+   "ko": "그럼 올해 내 옆에 앉지 마. 😅",
+   "note": "mellém = 내 옆으로",
+   "tags": [],
+   "at": "00:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "idén",
+     "idén",
+     ""
+    ],
+    [
+     "ülj",
+     "ülj",
+     "위이"
+    ],
+    [
+     "mellém",
+     "mellé",
+     ""
+    ]
+   ]
+  }
+ ]
+}

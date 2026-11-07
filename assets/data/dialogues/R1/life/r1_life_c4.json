@@ -1,0 +1,233 @@
+{
+ "id": "r1_life_c4",
+ "region": "R1",
+ "island": "life",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "읽고 답 없는 집주인",
+ "emoji": "💧",
+ "scene": "수도관이 터졌다. 집주인 Laci 아저씨에게 문자를 보내는데, 읽기만 하고 답이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Laci bácsi"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "상황이 번지는 것을 문자로 알리기(Most már …)",
+ "expressions": [
+  "Kérem",
+  "Most már",
+  "Nem baj",
+  "Bocsánat"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Jó napot! Folyik a víz.",
+   "rd": "요 너포트! 포익 어 비즈.",
+   "ko": "안녕하세요! 물이 새요.",
+   "note": "folyik = 흐른다",
+   "tags": [],
+   "at": "08:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "A konyhában.",
+   "rd": "어 코니하번.",
+   "ko": "부엌에서요.",
+   "note": "konyha = 부엌",
+   "tags": [],
+   "at": "08:40",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "konyhában",
+     "konyha",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Most már a szobában is.",
+   "rd": "모슈트 마르 어 쏘바번 이시.",
+   "ko": "이제 방에서도요.",
+   "note": "most már = 이제는",
+   "tags": [
+    "expr:Most már"
+   ],
+   "at": "09:15",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "szobában",
+     "szoba",
+     "서버"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Dávid úszik. 😅",
+   "rd": "다비드 우씩. 😅",
+   "ko": "다비드가 수영해요. 😅",
+   "note": "úszik = 수영한다",
+   "tags": [],
+   "at": "09:50",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "úszik",
+     "úszik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Kérem, válaszoljon!",
+   "rd": "케렘, 발러쏠욘!",
+   "ko": "제발 답 좀 해 주세요!",
+   "note": "válaszoljon = 답하세요(존댓말)",
+   "tags": [
+    "expr:Kérem"
+   ],
+   "at": "10:30",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kérem",
+     "kér",
+     "께르"
+    ],
+    [
+     "válaszoljon",
+     "válaszol",
+     "발러졸"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Jó napot! Bocsánat, fürdőben voltam.",
+   "rd": "요 너포트! 보차너트, 퓌르되벤 볼텀.",
+   "ko": "안녕하세요! 죄송해요, 온천에 있었어요.",
+   "note": "fürdőben = 온천에",
+   "tags": [
+    "expr:Bocsánat"
+   ],
+   "at": "15:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "fürdőben",
+     "fürdő",
+     ""
+    ],
+    [
+     "voltam",
+     "volt",
+     "볼트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Nem baj. Most már itt is fürdő van.",
+   "rd": "넴 버이. 모슈트 마르 이트 이시 퓌르되 번.",
+   "ko": "괜찮아요. 이제 여기도 온천이에요.",
+   "note": "itt is = 여기도",
+   "tags": [
+    "expr:Most már",
+    "expr:Nem baj"
+   ],
+   "at": "15:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "fürdő",
+     "fürdő",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  }
+ ]
+}

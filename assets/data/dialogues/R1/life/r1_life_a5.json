@@ -1,0 +1,253 @@
+{
+ "id": "r1_life_a5",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "집주인은 어디에",
+ "emoji": "🚿",
+ "scene": "한겨울에 온수가 끊겨 집주인 Laci 아저씨에게 전화한다. 아저씨 뒤로 물소리가 난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Laci bácsi"
+ },
+ "register": "polite",
+ "twist": 8,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "집 문제 말하기(Nincs …)와 Ön 으로 묻기",
+ "expressions": [
+  "Tényleg?",
+  "Hát",
+  "Jaj",
+  "Persze"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Jó napot! Nincs meleg víz.",
+   "rd": "요 너포트! 닌치 멜렉 비즈.",
+   "ko": "안녕하세요! 온수가 안 나와요.",
+   "note": "meleg víz = 더운물",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "meleg",
+     "meleg",
+     "멜레그"
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Tényleg? Hát, most tél van.",
+   "rd": "테닐렉? 하트, 모슈트 텔 번.",
+   "ko": "그래요? 뭐, 지금 겨울이잖아요.",
+   "note": "tél = 겨울",
+   "tags": [
+    "expr:Tényleg?",
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "tél",
+     "tél",
+     "텔"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Igen, és nagyon hideg van!",
+   "rd": "이겐, 에시 너죤 히덱 번!",
+   "ko": "네, 그래서 엄청 추워요!",
+   "note": "hideg van = 춥다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "hideg",
+     "hideg",
+     "히데그"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Jaj. Menjen a fürdőbe!",
+   "rd": "여이. 멘옌 어 퓌르되베!",
+   "ko": "아이고. 온천에 가세요!",
+   "note": "fürdő = 온천, 목욕탕",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "fürdőbe",
+     "fürdőbe",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "A fürdőbe? Ez komoly?",
+   "rd": "어 퓌르되베? 에즈 코모이?",
+   "ko": "온천요? 진심이세요?",
+   "note": "komoly = 진지한",
+   "tags": [],
+   "lemmas": [
+    [
+     "fürdőbe",
+     "fürdőbe",
+     ""
+    ],
+    [
+     "komoly",
+     "komoly",
+     "코모이"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Persze! Ott sok meleg víz van.",
+   "rd": "페르쎄! 오트 쇽 멜렉 비즈 번.",
+   "ko": "그럼요! 거긴 더운물이 많아요.",
+   "note": "ott = 거기",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "meleg",
+     "meleg",
+     "멜레그"
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Ön most hol van?",
+   "rd": "왼 모슈트 홀 번?",
+   "ko": "지금 어디 계세요?",
+   "note": "Ön = 당신(존댓말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Én? A fürdőben, három hete.",
+   "rd": "엔? 어 퓌르되벤, 하롬 헤테.",
+   "ko": "저요? 온천이요, 3주째요.",
+   "note": "három hete = 3주 전부터 쭉",
+   "tags": [],
+   "lemmas": [
+    [
+     "fürdőben",
+     "fürdő",
+     ""
+    ],
+    [
+     "hete",
+     "hét",
+     "헤트"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "id": "r1_travel_c1",
+ "region": "R1",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "싸게 샀지",
+ "emoji": "💡",
+ "scene": "벼룩시장에서 산 램프 사진을 Réka 에게 자랑한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "산 물건 이야기하기(hol, mennyiért)",
+ "expressions": [
+  "Nézd",
+  "ugye",
+  "Durva"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Nézd, mit vettem! 📷",
+   "rd": "네즈드, 미트 베뗌! 📷",
+   "ko": "봐, 뭐 샀게!",
+   "note": "vettem = 내가 샀다",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "at": "11:20",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "vettem",
+     "vett",
+     "벳트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Hű! Hol vetted?",
+   "rd": "휘! 홀 베떼드?",
+   "ko": "와! 어디서 샀어?",
+   "note": "hol = 어디서",
+   "tags": [],
+   "at": "11:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "vetted",
+     "vesz",
+     "베쓰"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "A bolhapiacon. Szép, ugye?",
+   "rd": "어 볼허피어촌. 쎄프, 우제?",
+   "ko": "벼룩시장에서. 예쁘지?",
+   "note": "bolhapiac = 벼룩시장",
+   "tags": [
+    "expr:ugye"
+   ],
+   "at": "11:21",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "bolhapiacon",
+     "bolhapiac",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Szép. Mennyiért?",
+   "rd": "쎄프. 메니에르트?",
+   "ko": "예쁘네. 얼마에?",
+   "note": "mennyiért = 얼마에",
+   "tags": [],
+   "at": "11:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szép",
+     "szép",
+     "쎕"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Ötezer forint. Olcsó!",
+   "rd": "외테제르 포린트. 올초!",
+   "ko": "5천 포린트. 싸지!",
+   "note": "olcsó = 싼",
+   "tags": [],
+   "at": "11:22",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Ötezer",
+     "ötezer",
+     ""
+    ],
+    [
+     "forint",
+     "forint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Durva.",
+   "rd": "두르버.",
+   "ko": "대박.",
+   "note": "durva = 대박, 심하다",
+   "tags": [
+    "expr:Durva"
+   ],
+   "at": "11:23",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Durva",
+     "durva",
+     "두르버"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Miért?",
+   "rd": "미에르트?",
+   "ko": "왜?",
+   "note": "miért = 왜",
+   "tags": [],
+   "at": "11:23",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Miért",
+     "miért",
+     "미에르트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "A régi lámpám! Kétezerért adtam el.",
+   "rd": "어 레기 람팜! 케테제레르트 어드텀 엘.",
+   "ko": "내 옛날 램프야! 2천에 팔았어.",
+   "note": "eladtam = 팔았다",
+   "tags": [],
+   "at": "11:24",
+   "stamp": "😂",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "régi",
+     "régi",
+     "레기"
+    ],
+    [
+     "lámpám",
+     "lámpám",
+     ""
+    ],
+    [
+     "adtam",
+     "ad",
+     "어드"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  }
+ ]
+}

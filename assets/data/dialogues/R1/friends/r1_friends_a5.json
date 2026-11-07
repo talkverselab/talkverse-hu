@@ -1,0 +1,224 @@
+{
+ "id": "r1_friends_a5",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "안 매워",
+ "emoji": "🌶️",
+ "scene": "시장 파프리카 가판대. Réka 의 「안 매워」는 믿으면 안 된다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "권하고 되묻기, 급할 때 쓰는 말(gyorsan)",
+ "expressions": [
+  "Tényleg",
+  "Persze",
+  "Mi van?",
+  "Tessék"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Kérsz paprikát? Nem erős.",
+   "rd": "케르쓰 퍼프리카트? 넴 에뢰시.",
+   "ko": "파프리카 먹을래? 안 매워.",
+   "note": "erős = 매운(강한)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kérsz",
+     "kér",
+     "께르"
+    ],
+    [
+     "paprikát",
+     "paprika",
+     ""
+    ],
+    [
+     "erős",
+     "erős",
+     "에뢰시"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Tényleg nem erős?",
+   "rd": "테닐렉 넴 에뢰시?",
+   "ko": "진짜 안 매워?",
+   "note": "tényleg = 진짜로",
+   "tags": [
+    "expr:Tényleg"
+   ],
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "erős",
+     "erős",
+     "에뢰시"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Persze! Én is eszem.",
+   "rd": "페르쎄! 엔 이시 에쎔.",
+   "ko": "당연하지! 나도 먹잖아.",
+   "note": "persze = 당연하지",
+   "tags": [
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "eszem",
+     "eszem",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Na jó. Jaj, jaj, jaj!",
+   "rd": "너 요. 여이, 여이, 여이!",
+   "ko": "그래 좋아. 으, 으, 으악!",
+   "note": "na jó = 그래 좋아",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "jaj",
+     "jaj",
+     "야이"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Mi van? Nem erős!",
+   "rd": "미 번? 넴 에뢰시!",
+   "ko": "뭐야? 안 맵다니까!",
+   "note": "Mi van? = 뭐야?",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "erős",
+     "erős",
+     "에뢰시"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Vizet! Gyorsan, vizet!",
+   "rd": "비제트! 죠르션, 비제트!",
+   "ko": "물! 빨리, 물!",
+   "note": "vizet = 물을(víz 의 목적격)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Vizet",
+     "vize",
+     "비제"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Tessék, igyál! Ja, várj, ez nem víz.",
+   "rd": "테쎅, 이잘! 여, 바르이, 에즈 넴 비즈.",
+   "ko": "자, 마셔! 아, 잠깐, 이거 물 아니다.",
+   "note": "igyál = 마셔",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "igyál",
+     "iszik",
+     "이식"
+    ],
+    [
+     "várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Hát akkor mi?! Jaj!",
+   "rd": "하트 어꼬르 미?! 여이!",
+   "ko": "그럼 뭔데?! 으악!",
+   "note": "hát akkor = 그럼",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ]
+   ]
+  }
+ ]
+}

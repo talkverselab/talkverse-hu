@@ -1,0 +1,212 @@
+{
+ "id": "r1_love_c3",
+ "region": "R1",
+ "island": "love",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "뒤돌아봐",
+ "emoji": "👀",
+ "scene": "앱에서 매칭되자마자 Anna 가 먼저 말을 건다. 그런데 뭔가 너무 잘 안다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "지금 뭐 하는지 묻기, '어떻게 알았어?'",
+ "expressions": [
+  "Köszi",
+  "Mi van?",
+  "Honnan tudod?"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Szia! Tetszik a képed. 😊",
+   "rd": "씨어! 테트씩 어 케페드. 😊",
+   "ko": "안녕! 네 사진 마음에 들어. 😊",
+   "note": "tetszik = 마음에 든다",
+   "tags": [],
+   "at": "16:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "képed",
+     "képed",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Köszi! Mit csinálsz?",
+   "rd": "쾨씨! 미트 치날쓰?",
+   "ko": "고마워! 뭐 해?",
+   "note": "mit csinálsz? = 뭐 해?",
+   "tags": [
+    "expr:Köszi"
+   ],
+   "at": "16:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Köszi",
+     "köszi",
+     "쾨씨"
+    ],
+    [
+     "csinálsz",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Kávézom. Te?",
+   "rd": "카베좀. 테?",
+   "ko": "커피 마셔. 너는?",
+   "note": "kávézom = 커피 마신다",
+   "tags": [],
+   "at": "16:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kávézom",
+     "kávézom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Én is.",
+   "rd": "엔 이시.",
+   "ko": "나도.",
+   "note": "én is = 나도",
+   "tags": [],
+   "at": "16:04",
+   "ui": "bubble",
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Szép a kék pulóvered.",
+   "rd": "쎄프 어 켁 풀로베레드.",
+   "ko": "파란 스웨터 예쁘다.",
+   "note": "pulóver = 스웨터",
+   "tags": [],
+   "at": "16:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "kék",
+     "kék",
+     "케크"
+    ],
+    [
+     "pulóvered",
+     "pulóver",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Mi van? Honnan tudod?",
+   "rd": "미 번? 혼넌 투도드?",
+   "ko": "뭐야? 어떻게 알아?",
+   "note": "honnan tudod? = 어떻게 알아?",
+   "tags": [
+    "expr:Mi van?",
+    "expr:Honnan tudod?"
+   ],
+   "at": "16:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "tudod",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Nézz hátra. 😄",
+   "rd": "네즈 하트러. 😄",
+   "ko": "뒤돌아봐. 😄",
+   "note": "nézz hátra = 뒤돌아봐",
+   "tags": [],
+   "at": "16:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Nézz",
+     "néz",
+     "네즈"
+    ],
+    [
+     "hátra",
+     "hát",
+     "핫"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Ne mozogj! Még rajzollak.",
+   "rd": "네 모족이! 멕 러이졸럭.",
+   "ko": "움직이지 마! 아직 그리는 중이야.",
+   "note": "még = 아직",
+   "tags": [],
+   "at": "16:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "mozogj",
+     "mozogj",
+     ""
+    ],
+    [
+     "rajzollak",
+     "rajzol",
+     ""
+    ]
+   ]
+  }
+ ]
+}

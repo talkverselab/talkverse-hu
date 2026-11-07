@@ -1,0 +1,368 @@
+{
+ "id": "r2_culture_b4",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "빈 사탕 트리",
+ "emoji": "🎄",
+ "scene": "크리스마스이브의 Anna 네 집. 트리에 걸린 하얀 사탕을 만져 봤는데 가볍다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna",
+  "C": "Anna apukája"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "금지 표현(tilos, ne nyúlj)과 크리스마스 풍습",
+ "expressions": [
+  "Gyere",
+  "Nézd",
+  "Jól van",
+  "Várj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Gyere, nézd a fát! Az a fehér cukorka a szaloncukor.",
+   "rd": "제레, 네즈드 어 파트! 어즈 어 페헤르 추코르커 어 썰론추코르.",
+   "ko": "와서 트리 봐! 저 하얀 사탕이 살론추코르야.",
+   "note": "szaloncukor = 트리에 거는 사탕",
+   "tags": [
+    "expr:Gyere",
+    "expr:Nézd"
+   ],
+   "lemmas": [
+    [
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "fát",
+     "fa",
+     "퍼"
+    ],
+    [
+     "fehér",
+     "fehér",
+     "페헤르"
+    ],
+    [
+     "cukorka",
+     "cukorka",
+     ""
+    ],
+    [
+     "szaloncukor",
+     "szaloncukor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Szép. Ehetek egyet?",
+   "rd": "쎄프. 에헤텍 에제트?",
+   "ko": "예쁘다. 하나 먹어도 돼?",
+   "note": "ehetek = 먹어도 된다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szép",
+     "szép",
+     "쎕"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Nem! Karácsonyig tilos, ez a szabály.",
+   "rd": "넴! 커라초닉 틸로시, 에즈 어 써바이.",
+   "ko": "안 돼! 크리스마스까지 금지, 규칙이야.",
+   "note": "tilos = 금지된",
+   "tags": [],
+   "lemmas": [
+    [
+     "tilos",
+     "tilos",
+     ""
+    ],
+    [
+     "szabály",
+     "szabály",
+     "사발리"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Jól van, jól van. Csak megnézem.",
+   "rd": "욜 번, 욜 번. 척 멕네젬.",
+   "ko": "알았어, 알았어. 구경만 할게.",
+   "note": "megnézem = 살펴본다",
+   "tags": [
+    "expr:Jól van"
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "megnézem",
+     "megnéz",
+     "메그네즈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Ne nyúlj hozzá, apa számolja őket!",
+   "rd": "네 뉼이 호자, 어퍼 싸몰여 외케트!",
+   "ko": "손대지 마, 아빠가 세고 계셔!",
+   "note": "számol = 세다",
+   "tags": [],
+   "lemmas": [
+    [
+     "nyúlj",
+     "nyúl",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     "어퍼"
+    ],
+    [
+     "számolja",
+     "számol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Várj... ez üres, ez is, ez is!",
+   "rd": "바르이... 에즈 위레시, 에즈 이시, 에즈 이시!",
+   "ko": "잠깐… 이거 비었어. 이것도. 이것도!",
+   "note": "üres = 빈",
+   "tags": [
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "üres",
+     "üres",
+     "위레시"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Az nem lehet! Hadd nézzem!",
+   "rd": "어즈 넴 레헤트! 허드 네젬!",
+   "ko": "말도 안 돼! 나 좀 보자!",
+   "note": "hadd = ~하게 해 줘",
+   "tags": [],
+   "lemmas": [
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "nézzem",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Mi folyik itt? Ki nyúlt a fához?",
+   "rd": "미 포익 이트? 키 뉼트 어 파호즈?",
+   "ko": "무슨 일이니? 누가 트리 건드렸어?",
+   "note": "mi folyik itt? = 무슨 일이야?",
+   "tags": [],
+   "lemmas": [
+    [
+     "folyik",
+     "folyik",
+     "폴리크"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "nyúlt",
+     "nyúl",
+     ""
+    ],
+    [
+     "fához",
+     "fa",
+     "퍼"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Jó estét, nem én! Az összes cukorka üres.",
+   "rd": "요 에슈테트, 넴 엔! 어즈 외쎄시 추코르커 위레시.",
+   "ko": "안녕하세요, 저 아니에요! 사탕이 전부 비었어요.",
+   "note": "az összes = 전부",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "cukorka",
+     "cukorka",
+     ""
+    ],
+    [
+     "üres",
+     "üres",
+     "위레시"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Hát... tudod, ez egy nagyon régi magyar szokás.",
+   "rd": "하트... 투도드, 에즈 에지 너죤 레기 머져르 쏘카시.",
+   "ko": "음… 있잖니, 이건 아주 오래된 헝가리 풍습이란다.",
+   "note": "szokás = 풍습",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "tudod",
+     "tud",
+     "투드"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "régi",
+     "régi",
+     "레기"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "szokás",
+     "szokás",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Apa, mi van a szádban?",
+   "rd": "어퍼, 미 번 어 싸드번?",
+   "ko": "아빠, 입에 뭐 있어요?",
+   "note": "száj → szád = 네 입",
+   "tags": [],
+   "lemmas": [
+    [
+     "Apa",
+     "apa",
+     "어퍼"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "szádban",
+     "szád",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Semmi. A papírokat meg szépen visszaakasztottam.",
+   "rd": "셈미. 어 퍼피로커트 멕 쎄펜 비써어커쓰토떰.",
+   "ko": "아무것도. 포장지는 곱게 다시 걸어 놨다.",
+   "note": "visszaakaszt = 도로 걸다",
+   "tags": [],
+   "lemmas": [
+    [
+     "papírokat",
+     "papír",
+     "퍼피르"
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
+    ],
+    [
+     "visszaakasztottam",
+     "visszaakaszt",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "id": "r1_life_b1",
+ "region": "R1",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "파프리카 1 kk",
+ "emoji": "🌶️",
+ "scene": "부엌. 레시피를 보고 처음 끓인 굴라시. 냄새가 건물을 타고 올라간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dávid",
+  "C": "Marika néni"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "요리 재촉·권유(Kóstold meg! Mutasd!)",
+ "expressions": [
+  "Kóstold meg",
+  "Mi van?",
+  "Úristen",
+  "Mutasd"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Mi ez a szag? Mit csinálsz?",
+   "rd": "미 에즈 어 썩? 미트 치날쓰?",
+   "ko": "이 냄새 뭐야? 뭐 해?",
+   "note": "szag = 냄새",
+   "tags": [],
+   "lemmas": [
+    [
+     "szag",
+     "szag",
+     ""
+    ],
+    [
+     "csinálsz",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Gulyást főzök! Kóstold meg!",
+   "rd": "구야슈트 푀죅! 코슈톨드 멕!",
+   "ko": "굴라시 끓여! 맛봐!",
+   "note": "kóstold meg = 맛봐",
+   "tags": [
+    "expr:Kóstold meg"
+   ],
+   "lemmas": [
+    [
+     "Gulyást",
+     "gulyás",
+     ""
+    ],
+    [
+     "főzök",
+     "főz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Hű, de piros! Úristen, víz!",
+   "rd": "휘, 데 피로시! 우리슈텐, 비즈!",
+   "ko": "와, 진짜 빨갛다! 세상에, 물!",
+   "note": "de + 형용사 = 정말 ~하다",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "piros",
+     "piros",
+     ""
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Mi van? A recept szerint csináltam!",
+   "rd": "미 번? 어 레체프트 쎄린트 치날텀!",
+   "ko": "왜? 레시피대로 했는데!",
+   "note": "szerint = ~에 따라",
+   "tags": [
+    "expr:Mi van?"
+   ],
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "recept",
+     "recept",
+     ""
+    ],
+    [
+     "csináltam",
+     "csinált",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Mutasd! Mennyi paprikát tettél bele?",
+   "rd": "무터슈드! 메니 퍼프리카트 테뗄 벨레?",
+   "ko": "보여 줘! 파프리카 얼마나 넣었어?",
+   "note": "tettél bele = 네가 안에 넣었다",
+   "tags": [
+    "expr:Mutasd"
+   ],
+   "lemmas": [
+    [
+     "Mutasd",
+     "mutasd",
+     "무터슈트"
+    ],
+    [
+     "paprikát",
+     "paprika",
+     ""
+    ],
+    [
+     "tettél",
+     "tesz",
+     "테스"
+    ],
+    [
+     "bele",
+     "bél",
+     "벨"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Egy kk. Az egy kiló, nem?",
+   "rd": "에지 크. 어즈 에지 킬로, 넴?",
+   "ko": "1 kk. 그거 1킬로잖아, 아니야?",
+   "note": "..., nem? = ~지, 아니야?",
+   "tags": [],
+   "lemmas": [
+    [
+     "kk",
+     "k.",
+     ""
+    ],
+    [
+     "kiló",
+     "kiló",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Kávéskanál! A kk kávéskanál!",
+   "rd": "카베슈커날! 어 크 카베슈커날!",
+   "ko": "찻숟갈! kk 는 찻숟갈이라고!",
+   "note": "kávéskanál = 찻숟갈(요리책의 kk)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kávéskanál",
+     "kávés",
+     ""
+    ],
+    [
+     "kk",
+     "k.",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Gyerekek, miért sír az egész ház?",
+   "rd": "제레켁, 미에르트 시르 어즈 에게쓰 하즈?",
+   "ko": "얘들아, 왜 온 건물이 울고 있니?",
+   "note": "sír = 운다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Gyerekek",
+     "gyereke",
+     ""
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "sír",
+     "sír",
+     "시르"
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "ház",
+     "ház",
+     "하즈"
+    ]
+   ]
+  }
+ ]
+}

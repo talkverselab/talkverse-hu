@@ -1,0 +1,260 @@
+{
+ "id": "r1_friends_b2",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "media"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "이름의 날 반반",
+ "emoji": "💐",
+ "scene": "꽃다발을 잔뜩 든 Réka 를 만났다. 오늘이 Réka 의 이름의 날이란다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "헝가리 이름의 날(névnap)과 소유 표현(az enyém, a tiéd)",
+ "expressions": [
+  "Hű",
+  "Tényleg?",
+  "Várj",
+  "Komolyan?"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Hű, mi ez a sok virág?",
+   "rd": "휘, 미 에즈 어 쇽 비락?",
+   "ko": "와, 이 꽃 다 뭐야?",
+   "note": "virág = 꽃",
+   "tags": [
+    "expr:Hű"
+   ],
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "virág",
+     "virág",
+     "비라그"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Ma van a névnapom! Minden névnek van egy napja.",
+   "rd": "머 번 어 네브너폼! 민덴 네브넥 번 에지 너프여.",
+   "ko": "오늘 내 이름의 날이야! 이름마다 자기 날이 있어.",
+   "note": "névnap = 이름의 날",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ma",
+     "ma",
+     "머"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "névnapom",
+     "névnapom",
+     ""
+    ],
+    [
+     "névnek",
+     "név",
+     "네브"
+    ],
+    [
+     "napja",
+     "nap",
+     "넙"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Tényleg? És az én nevemnek mikor van?",
+   "rd": "테닐렉? 에시 어즈 엔 네벰넥 미코르 번?",
+   "ko": "진짜? 그럼 내 이름은 언제야?",
+   "note": "mikor = 언제",
+   "tags": [
+    "expr:Tényleg?"
+   ],
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "nevemnek",
+     "nevem",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Várj, megnézem. Sajnos nincs.",
+   "rd": "바르이, 멕네젬. 셔이노시 닌치.",
+   "ko": "잠깐, 찾아볼게. 안타깝지만 없네.",
+   "note": "megnézem = 찾아볼게",
+   "tags": [
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "megnézem",
+     "megnéz",
+     "메그네즈"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Szóval nekem soha nincs névnapom?",
+   "rd": "쏘벌 네켐 쇼허 닌치 네브너폼?",
+   "ko": "그러니까 나는 이름의 날이 영영 없다고?",
+   "note": "soha = 절대, 한 번도",
+   "tags": [],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "soha",
+     "soha",
+     "쇼허"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "névnapom",
+     "névnapom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Hát legyen az enyém a tiéd is. Fele-fele.",
+   "rd": "하트 레젠 어즈 에넴 어 티에드 이시. 펠레-펠레.",
+   "ko": "그럼 내 거를 네 것도 하자. 반반.",
+   "note": "fele-fele = 반반",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "legyen",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "fele",
+     "fel",
+     "펠"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Komolyan? Nekem adod a fél névnapodat?",
+   "rd": "코모연? 네켐 어도드 어 펠 네브너포더트?",
+   "ko": "진짜? 네 이름의 날 절반을 나 주는 거야?",
+   "note": "adod = 네가 그걸 준다",
+   "tags": [
+    "expr:Komolyan?"
+   ],
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "adod",
+     "ad",
+     "어드"
+    ],
+    [
+     "fél",
+     "fél",
+     "펠"
+    ],
+    [
+     "névnapodat",
+     "névnap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Igen. De a virág az enyém!",
+   "rd": "이겐. 데 어 비락 어즈 에넴!",
+   "ko": "응. 근데 꽃은 내 거야!",
+   "note": "az enyém = 내 것",
+   "tags": [],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "virág",
+     "virág",
+     "비라그"
+    ]
+   ]
+  }
+ ]
+}

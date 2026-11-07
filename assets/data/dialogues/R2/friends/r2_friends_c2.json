@@ -1,0 +1,358 @@
+{
+ "id": "r2_friends_c2",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "love"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "내일 8시, 서른 명",
+ "emoji": "💘",
+ "scene": "Réka 가 허락도 없이 내 데이팅 프로필을 만들고 답장까지 해 놨다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "chat",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "채팅에서 따지기(Mit csináltál?)와 helyetted(너 대신)",
+ "expressions": [
+  "Figyelj",
+  "ne haragudj",
+  "Egy pillanat",
+  "Hát",
+  "Nyugi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Figyelj, ne haragudj, de csináltam neked randiprofilt.",
+   "rd": "피젤이, 네 허러구드이, 데 치날텀 네케드 런디프로필트.",
+   "ko": "야, 화내지 마, 네 데이팅 프로필 만들었어.",
+   "note": "ne haragudj = 화내지 마",
+   "tags": [
+    "expr:Figyelj",
+    "expr:ne haragudj"
+   ],
+   "at": "20:02",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "haragudj",
+     "haragudj",
+     ""
+    ],
+    [
+     "csináltam",
+     "csinált",
+     ""
+    ],
+    [
+     "randiprofilt",
+     "randiprofil",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Mit csináltál?! Milyen profilt?",
+   "rd": "미트 치날탈?! 미옌 프로필트?",
+   "ko": "뭘 했다고?! 무슨 프로필?",
+   "note": "Mit csináltál? = 뭘 했어?",
+   "tags": [],
+   "at": "20:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "csináltál",
+     "csinál",
+     "치날"
+    ],
+    [
+     "profilt",
+     "profil",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Már harminc üzeneted van. Szívesen! 😎",
+   "rd": "마르 허르민츠 위제네테드 번. 씨베센! 😎",
+   "ko": "벌써 메시지 30개야. 고맙긴! 😎",
+   "note": "szívesen = 천만에",
+   "tags": [],
+   "at": "20:03",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "harminc",
+     "harminc",
+     ""
+    ],
+    [
+     "üzeneted",
+     "üzeneted",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Töröld! Azonnal töröld!",
+   "rd": "퇴뢸드! 어존널 퇴뢸드!",
+   "ko": "지워! 당장 지워!",
+   "note": "azonnal = 당장",
+   "tags": [],
+   "at": "20:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Töröld",
+     "töröld",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Egy pillanat. Már mindenkinek válaszoltam helyetted.",
+   "rd": "에지 필러너트. 마르 민덴키넥 발러쏠텀 헤예떼드.",
+   "ko": "잠깐만. 네 대신 벌써 다 답장했어.",
+   "note": "helyetted = 너 대신",
+   "tags": [
+    "expr:Egy pillanat"
+   ],
+   "at": "20:04",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "pillanat",
+     "pillanat",
+     "필러넛"
+    ],
+    [
+     "válaszoltam",
+     "válaszolt",
+     ""
+    ],
+    [
+     "helyetted",
+     "helyette",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Mit válaszoltál?!",
+   "rd": "미트 발러쏠탈?!",
+   "ko": "뭐라고 답했어?!",
+   "note": "válaszoltál = 네가 답했다",
+   "tags": [],
+   "at": "20:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "válaszoltál",
+     "válaszol",
+     "발러졸"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Csak annyit: holnap nyolckor, Bence kávézójában.",
+   "rd": "척 어니트: 홀너프 뇰츠코르, 벤체 카베조야번.",
+   "ko": "그냥 이렇게: 내일 8시, 벤체 카페.",
+   "note": "csak annyit = 그것만",
+   "tags": [],
+   "at": "20:05",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "nyolckor",
+     "nyolckor",
+     ""
+    ],
+    [
+     "kávézójában",
+     "kávézik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Várj. Hány embernek?",
+   "rd": "바르이. 하니 엠베르넥?",
+   "ko": "잠깐. 몇 명한테?",
+   "note": "hány = 몇",
+   "tags": [],
+   "at": "20:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "embernek",
+     "ember",
+     "엠베르"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Hát... mindenkinek. 😇",
+   "rd": "하트... 민덴키넥. 😇",
+   "ko": "음… 전부. 😇",
+   "note": "mindenkinek = 모두에게",
+   "tags": [
+    "expr:Hát"
+   ],
+   "at": "20:06",
+   "stamp": "😇",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Harminc ember, holnap?! Úristen!",
+   "rd": "허르민츠 엠베르, 홀너프?! 우리슈텐!",
+   "ko": "서른 명이 내일?! 세상에!",
+   "note": "harminc = 서른",
+   "tags": [],
+   "at": "20:06",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Harminc",
+     "harminc",
+     ""
+    ],
+    [
+     "ember",
+     "ember",
+     "엠베르"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Nyugi. Bence már keres széket.",
+   "rd": "뉴기. 벤체 마르 케레시 쎄케트.",
+   "ko": "진정해. 벤체가 벌써 의자 구하고 있어.",
+   "note": "keres = 찾다",
+   "tags": [
+    "expr:Nyugi"
+   ],
+   "at": "20:08",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "keres",
+     "keres",
+     "케레시"
+    ],
+    [
+     "széket",
+     "szék",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "És viszem a kanapét is. 😄",
+   "rd": "에시 비쎔 어 커너페트 이시. 😄",
+   "ko": "소파도 가져갈게. 😄",
+   "note": "viszem = 내가 그걸 가져간다",
+   "tags": [],
+   "at": "20:08",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "viszem",
+     "visz",
+     "비스"
+    ],
+    [
+     "kanapét",
+     "kanapé",
+     ""
+    ]
+   ]
+  }
+ ]
+}

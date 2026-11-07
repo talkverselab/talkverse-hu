@@ -1,0 +1,217 @@
+{
+ "id": "r1_culture_c3",
+ "region": "R1",
+ "island": "culture",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "나쁜 아이는 뭘 받아?",
+ "emoji": "🎅",
+ "scene": "12월 5일 밤. 장화를 창가에 내놓으라는 Réka 의 메시지가 왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "조건 ha 로 짧게 묻기, 미쿨라시 풍습",
+ "expressions": [
+  "Miért",
+  "Szuper",
+  "Bocsi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Kitetted a csizmádat?",
+   "rd": "키테떼드 어 치즈마더트?",
+   "ko": "장화 내놨어?",
+   "note": "csizma = 장화",
+   "tags": [],
+   "at": "22:10",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kitetted",
+     "kitesz",
+     ""
+    ],
+    [
+     "csizmádat",
+     "csizmádat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Igen. Miért?",
+   "rd": "이겐. 미에르트?",
+   "ko": "응. 왜?",
+   "note": "kitettem = 내놓았다",
+   "tags": [
+    "expr:Miért"
+   ],
+   "at": "22:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Ma éjjel jön a Mikulás! 🎅",
+   "rd": "머 에옐 욘 어 미쿨라시! 🎅",
+   "ko": "오늘 밤 미쿨라시 와! 🎅",
+   "note": "ma éjjel = 오늘 밤",
+   "tags": [],
+   "at": "22:12",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Ma",
+     "ma",
+     "머"
+    ],
+    [
+     "éjjel",
+     "éj",
+     "에이"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Szuper. Mit hoz?",
+   "rd": "쑤페르. 미트 호즈?",
+   "ko": "좋다. 뭐 가져와?",
+   "note": "hoz = 가져오다",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "at": "22:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "hoz",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Ha jó voltál: csokit.",
+   "rd": "허 요 볼탈: 초키트.",
+   "ko": "착했으면 초콜릿.",
+   "note": "ha = 만약",
+   "tags": [],
+   "at": "22:13",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "voltál",
+     "van",
+     "번"
+    ],
+    [
+     "csokit",
+     "csoki",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "És ha nem?",
+   "rd": "에시 허 넴?",
+   "ko": "안 착했으면?",
+   "note": "és ha nem? = 아니면?",
+   "tags": [],
+   "at": "22:14",
+   "ui": "bubble",
+   "lemmas": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Réka??",
+   "rd": "레커??",
+   "ko": "레카??",
+   "note": "답이 없을 때",
+   "tags": [],
+   "at": "23:48",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Bocsi, virgácsért mentem. 😈",
+   "rd": "보치, 비르가체르트 멘템. 😈",
+   "ko": "미안, 회초리 가지러 갔었어. 😈",
+   "note": "virgács = 미쿨라시의 금빛 회초리",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "23:59",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "virgácsért",
+     "virgács",
+     ""
+    ],
+    [
+     "mentem",
+     "ment",
+     "멘트"
+    ]
+   ]
+  }
+ ]
+}

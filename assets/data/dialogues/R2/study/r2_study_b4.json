@@ -1,0 +1,341 @@
+{
+ "id": "r2_study_b4",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "love"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "언너의 공책",
+ "emoji": "📓",
+ "scene": "시험 전날 도서관. 항상 뭔가 쓰고 있던 Anna 의 공책을 빌리려고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "빌려 달라는 말(kölcsönadod?)과 -lak/-alak 어미",
+ "expressions": [
+  "Hát",
+  "Ne már",
+  "Igazából",
+  "Mindegy",
+  "Légyszi",
+  "Jól van",
+  "Tudod"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Anna, kölcsönadod a füzeted? Holnap vizsga.",
+   "rd": "언너, 쾰최너도드 어 퓌제테드? 홀너프 비지거.",
+   "ko": "언너, 공책 빌려줄래? 내일 시험이야.",
+   "note": "kölcsönad = 빌려주다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Anna",
+     "anna",
+     ""
+    ],
+    [
+     "kölcsönadod",
+     "kölcsönad",
+     ""
+    ],
+    [
+     "füzeted",
+     "füzeted",
+     ""
+    ],
+    [
+     "vizsga",
+     "vizsga",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "A füzetem? Hát, nem tudom.",
+   "rd": "어 퓌제템? 하트, 넴 투돔.",
+   "ko": "내 공책? 음, 글쎄.",
+   "note": "füzet = 공책",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "füzetem",
+     "füzetem",
+     ""
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Ne már! Te mindig írsz az órán.",
+   "rd": "네 마르! 테 민딕 이르쓰 어즈 오란.",
+   "ko": "에이! 너 수업 때 맨날 쓰잖아.",
+   "note": "az órán = 수업 시간에",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "írsz",
+     "ír",
+     "이르"
+    ],
+    [
+     "órán",
+     "óra",
+     "오러"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Igazából nem írok. Rajzolok.",
+   "rd": "이거자볼 넴 이록. 러이졸록.",
+   "ko": "사실 쓰는 게 아니라 그려.",
+   "note": "rajzolok = 내가 그린다",
+   "tags": [
+    "expr:Igazából"
+   ],
+   "lemmas": [
+    [
+     "Igazából",
+     "igaz",
+     "이거즈"
+    ],
+    [
+     "írok",
+     "ír",
+     "이르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Mindegy, add ide. Légyszi!",
+   "rd": "민데지, 어드 이데. 레지씨!",
+   "ko": "상관없어, 줘 봐. 제발!",
+   "note": "add ide = 이리 줘",
+   "tags": [
+    "expr:Mindegy",
+    "expr:Légyszi"
+   ],
+   "lemmas": [
+    [
+     "Mindegy",
+     "mindegy",
+     "민데지"
+    ],
+    [
+     "add",
+     "ad",
+     "어드"
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Jól van. De ne nézd sokáig.",
+   "rd": "욜 번. 데 네 네즈드 쇼카익.",
+   "ko": "알았어. 근데 오래 보지 마.",
+   "note": "ne nézd = 보지 마",
+   "tags": [
+    "expr:Jól van"
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "nézd",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Nézzük, ez az első óra. Ki ez?",
+   "rd": "네쥑, 에즈 어즈 엘쇠 오러. 키 에즈?",
+   "ko": "어디 보자, 첫 수업이네. 이거 누구야?",
+   "note": "nézzük = 보자",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nézzük",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Hát... te.",
+   "rd": "하트... 테.",
+   "ko": "음… 너.",
+   "note": "te = 너",
+   "tags": [
+    "expr:Hát"
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Itt is én? Itt alszom!",
+   "rd": "이트 이시 엔? 이트 얼쏨!",
+   "ko": "여기도 나야? 여기선 자고 있네!",
+   "note": "alszom = 내가 잔다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "alszom",
+     "alszik",
+     "얼루시크"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Szépen alszol. Tudod, egész félévben csak téged rajzoltalak.",
+   "rd": "쎄펜 얼쏠. 투도드, 에게쓰 펠레브벤 척 테게드 러이졸털럭.",
+   "ko": "예쁘게 자더라. 있지, 한 학기 내내 너만 그렸어.",
+   "note": "rajzoltalak = 내가 너를 그렸다(-alak)",
+   "tags": [
+    "expr:Tudod"
+   ],
+   "lemmas": [
+    [
+     "Szépen",
+     "szép",
+     "쎕"
+    ],
+    [
+     "alszol",
+     "alszik",
+     "얼루시크"
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "félévben",
+     "félév",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "rajzoltalak",
+     "rajzol",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "És holnap a vizsga?",
+   "rd": "에시 홀너프 어 비지거?",
+   "ko": "그럼 내일 시험은?",
+   "note": "vizsga = 시험",
+   "tags": [],
+   "lemmas": [
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "vizsga",
+     "vizsga",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Megbukom. Megéri.",
+   "rd": "멕부콤. 메게리.",
+   "ko": "떨어지겠지. 그래도 괜찮아.",
+   "note": "megéri = 그럴 만하다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Megbukom",
+     "megbukom",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "id": "r1_friends_b4",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "듣고 있어?",
+ "emoji": "🎧",
+ "scene": "공원 벤치. 큰맘 먹고 진심을 말하는데 Réka 는 이어폰을 끼고 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Réka"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "맞장구(aha, persze)와 hogy 절로 마음 말하기",
+ "expressions": [
+  "figyelj",
+  "Aha",
+  "Persze",
+  "Szóval"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "hu": "Réka, figyelj, fontos dolgot mondok.",
+   "rd": "레커, 피젤이, 폰토시 돌고트 몬독.",
+   "ko": "레카, 들어 봐, 중요한 얘기야.",
+   "note": "fontos = 중요한",
+   "tags": [
+    "expr:figyelj"
+   ],
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "fontos",
+     "fontos",
+     "폰토슈"
+    ],
+    [
+     "dolgot",
+     "dolog",
+     "돌록"
+    ],
+    [
+     "mondok",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Aha. Mondd csak.",
+   "rd": "어허. 몬드 척.",
+   "ko": "응. 말해 봐.",
+   "note": "aha = 응, 그래",
+   "tags": [
+    "expr:Aha"
+   ],
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Te vagy az első barátom itt.",
+   "rd": "테 버지 어즈 엘쇠 버라톰 이트.",
+   "ko": "네가 여기서 내 첫 친구야.",
+   "note": "első = 첫",
+   "tags": [],
+   "lemmas": [
+    [
+     "barátom",
+     "barát",
+     "버랏"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Aha, jó. Persze.",
+   "rd": "어허, 요. 페르쎄.",
+   "ko": "응, 그래. 당연하지.",
+   "note": "persze = 당연하지",
+   "tags": [
+    "expr:Aha",
+    "expr:Persze"
+   ],
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Nagyon örülök, hogy itt vagy.",
+   "rd": "너죤 외륄뢱, 호지 이트 버지.",
+   "ko": "네가 있어서 정말 기뻐.",
+   "note": "örülök = 기뻐",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "örülök",
+     "örül",
+     "외뢰"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Aha. Ja, igen.",
+   "rd": "어허. 여, 이겐.",
+   "ko": "응. 아, 그래.",
+   "note": "ja = 아",
+   "tags": [
+    "expr:Aha"
+   ],
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Szóval a biciklid mostantól az enyém.",
+   "rd": "쏘벌 어 비칙리드 모슈턴톨 어즈 에넴.",
+   "ko": "그러니까 네 자전거는 이제부터 내 거야.",
+   "note": "mostantól = 이제부터",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "biciklid",
+     "biciklid",
+     ""
+    ],
+    [
+     "mostantól",
+     "mostantól",
+     "모슈턴톨"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Na, azt hallottam!",
+   "rd": "너, 어즈트 헐로떰!",
+   "ko": "야, 그건 들었어!",
+   "note": "hallottam = 들었다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "hallottam",
+     "hallott",
+     ""
+    ]
+   ]
+  }
+ ]
+}

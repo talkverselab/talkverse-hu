@@ -1,0 +1,256 @@
+{
+ "id": "r1_love_b2",
+ "region": "R1",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "네 쓰레기가 예뻐",
+ "emoji": "🗑️",
+ "scene": "강변 벤치. A 가 몰래 연습한 칭찬 한 문장을 드디어 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Anna"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "소유 접미사(szemed 네 눈 / szemeted 네 쓰레기)",
+ "expressions": [
+  "Na",
+  "Várj",
+  "Köszi",
+  "Jaj"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Olyan csendes vagy ma. Mire gondolsz?",
+   "rd": "오연 첸데시 버지 머. 미레 곤돌쓰?",
+   "ko": "오늘 왜 이렇게 조용해. 무슨 생각해?",
+   "note": "mire gondolsz? = 무슨 생각해?",
+   "tags": [],
+   "lemmas": [
+    [
+     "csendes",
+     "csendes",
+     ""
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "gondolsz",
+     "gondol",
+     "곤돌"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Semmire. Csak gyakorlok egy mondatot neked.",
+   "rd": "셈미레. 척 져코를록 에지 몬더토트 네케드.",
+   "ko": "아무것도. 그냥 너한테 할 문장을 연습해.",
+   "note": "mondat = 문장",
+   "tags": [],
+   "lemmas": [
+    [
+     "gyakorlok",
+     "gyakor",
+     ""
+    ],
+    [
+     "mondatot",
+     "mondat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Egy mondatot? Na, mondd, nagyon kíváncsi vagyok!",
+   "rd": "에지 몬더토트? 너, 몬드, 너죤 키반치 버죡!",
+   "ko": "문장? 자, 말해 봐, 엄청 궁금해!",
+   "note": "kíváncsi = 궁금한",
+   "tags": [
+    "expr:Na"
+   ],
+   "lemmas": [
+    [
+     "mondatot",
+     "mondat",
+     ""
+    ],
+    [
+     "mondd",
+     "mond",
+     "몬드"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "kíváncsi",
+     "kíváncsi",
+     "키반치"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Várj... Anna, neked nagyon szép szemeted van.",
+   "rd": "바르이... 언너, 네케드 너죤 쎄프 쎄메테드 번.",
+   "ko": "잠깐… 언너, 너 정말 예쁜 쓰레기가 있어.",
+   "note": "szemeted = 네 쓰레기(szemed = 네 눈)",
+   "tags": [
+    "expr:Na",
+    "expr:Várj"
+   ],
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "szemeted",
+     "szemeted",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Szemetem? Köszi, minden kedden viszik el.",
+   "rd": "쎄메템? 쾨씨, 민덴 케덴 비씩 엘.",
+   "ko": "내 쓰레기? 고마워, 매주 화요일에 수거해 가.",
+   "note": "kedden = 화요일에",
+   "tags": [
+    "expr:Köszi"
+   ],
+   "lemmas": [
+    [
+     "Szemetem",
+     "szemetem",
+     ""
+    ],
+    [
+     "kedden",
+     "kedd",
+     ""
+    ],
+    [
+     "viszik",
+     "visz",
+     "비스"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj, nem! A szemed szép, nem a szemeted!",
+   "rd": "여이, 넴! 어 쎄메드 쎄프, 넴 어 쎄메테드!",
+   "ko": "아이고, 아니! 네 눈이 예쁘다고, 쓰레기 말고!",
+   "note": "szem = 눈",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "szemed",
+     "szem",
+     "쎔"
+    ],
+    [
+     "szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "szemeted",
+     "szemeted",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Tudom. Csak még egyszer akartam hallani.",
+   "rd": "투돔. 척 멕 에지쎄르 어커르텀 헐러니.",
+   "ko": "알아. 그냥 한 번 더 듣고 싶었어.",
+   "note": "akartam = 하고 싶었다",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "akartam",
+     "akart",
+     ""
+    ],
+    [
+     "hallani",
+     "hall",
+     "헐"
+    ]
+   ]
+  }
+ ]
+}

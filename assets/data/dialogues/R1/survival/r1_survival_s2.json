@@ -1,0 +1,254 @@
+{
+ "id": "r1_survival_s2",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "그 이가 아니라고요",
+ "emoji": "🦷",
+ "scene": "이가 아파 치과에 왔다. 입을 벌린 채로는 「거기 말고요」를 말할 수가 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Orvos"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "아픈 곳 말하기(fáj a …)와 fog 두 가지 뜻 구별",
+ "expressions": [
+  "Mi a baj?",
+  "fáj a fogam",
+  "Nyissa ki",
+  "Tessék"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "hu": "Jó napot! Mi a baj?",
+   "rd": "요 너포트! 미 어 버이?",
+   "ko": "안녕하세요! 어디가 불편하세요?",
+   "note": "Mi a baj? = 무슨 일이에요?",
+   "tags": [
+    "expr:Mi a baj?"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó napot! Nagyon fáj a fogam.",
+   "rd": "요 너포트! 너죤 파이 어 포검.",
+   "ko": "안녕하세요! 이가 많이 아파요.",
+   "note": "fáj a fogam = 이가 아파요",
+   "tags": [
+    "expr:fáj a fogam"
+   ],
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "fáj",
+     "fáj",
+     "파이"
+    ],
+    [
+     "fogam",
+     "fogam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Melyik fog? Nyissa ki a száját!",
+   "rd": "메익 폭? 니쎠 키 어 싸야트!",
+   "ko": "어느 이요? 입 벌리세요!",
+   "note": "nyissa ki = 여세요(존댓말 명령)",
+   "tags": [
+    "expr:Nyissa ki"
+   ],
+   "lemmas": [
+    [
+     "fog",
+     "fog",
+     "포그"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "száját",
+     "száj",
+     "사이"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Aaa... ott, hátul!",
+   "rd": "어어어... 오트, 하툴!",
+   "ko": "아아… 저기, 뒤쪽이요!",
+   "note": "hátul = 뒤쪽에",
+   "tags": [],
+   "lemmas": [
+    [
+     "Aaa",
+     "aaa",
+     ""
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "hátul",
+     "hátul",
+     "하툴"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Aha, ez az. Nem fog fájni.",
+   "rd": "어허, 에즈 어즈. 넴 폭 파이니.",
+   "ko": "아, 이거네요. 안 아플 거예요.",
+   "note": "fog + 동사 = ~할 것이다(fog 는 「이」라는 뜻도)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Aha",
+     "aha",
+     "어허"
+    ],
+    [
+     "fog",
+     "fog",
+     "포그"
+    ],
+    [
+     "fájni",
+     "fáj",
+     "파이"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Jaj! Mit csinál?",
+   "rd": "여이! 미트 치날?",
+   "ko": "아악! 뭐 하세요?",
+   "note": "Mit csinál? = 뭐 하세요?(존댓말)",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "csinál",
+     "csi",
+     "치"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Kész! Tessék, itt a foga.",
+   "rd": "케쓰! 테쎅, 이트 어 포거.",
+   "ko": "다 됐어요! 여기요, 뽑은 이.",
+   "note": "foga = 당신의 이(존댓말 소유)",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "lemmas": [
+    [
+     "Kész",
+     "kész",
+     "케스"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "foga",
+     "fog",
+     "포그"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "De hát ez a jó fogam volt!",
+   "rd": "데 하트 에즈 어 요 포검 볼트!",
+   "ko": "아니 이건 멀쩡한 이였잖아요!",
+   "note": "de hát = 아니 근데",
+   "tags": [],
+   "lemmas": [
+    [
+     "hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "fogam",
+     "fogam",
+     ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  }
+ ]
+}
