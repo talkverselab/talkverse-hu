@@ -1,0 +1,97 @@
+{
+"ep": "r2_culture_b1",
+"cast": {
+"B": "anna",
+"C": "man_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Ön a művész? Mit jelent ez a rétes?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Hát... igazából ez csak az ebédem."
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Az ebédje, zseniális! A művész és a mindennapi éhség!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Figyelj, mondj valami okosat, mindenki téged néz."
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Szóval... megéheztem, letettem, és elfelejtettem."
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Éhség, elengedés, felejtés! Ezt leírom, ez lesz a címlap!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Várjon, kérem! Komolyan, a rétes már háromnapos!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Zseniális! A vevő már kérdezi: mikor lesz a következő?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"A következő?"
+],
+[
+"worried",
+"Anna, mit csináljak?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Nyugi, már sütöm a másodikat."
+],
+[
+"teasing",
+"A pénz fele az enyém."
+]
+]
+}
+}
+}

@@ -1,0 +1,134 @@
+{
+"ep": "r3_friends_c1",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Réka, ébren vagy?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"annoyed",
+"Most már igen. Mi van?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"flustered",
+"Kizártam magam. Pizsamában vagyok a lépcsőházban."
+]
+]
+},
+"4": {
+"segs": [
+[
+"sad",
+"Csak a szemetet akartam levinni."
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Hol a kulcsod?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Bent. A telefonom is mindjárt meghal."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Nyugi, írtam a ház csoportjába."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Mit írtál?!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"teasing",
+"Hogy valaki bent ragadt, és segítség kell. 😇",
+"Hogy valaki bent ragadt, és segítség kell."
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Réka. Itt állnak a tűzoltók."
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Most törik be az ajtót."
+]
+]
+},
+"12": {
+"segs": [
+[
+"cheerful",
+"Szuper! Akkor be tudsz menni. 😎",
+"Szuper! Akkor be tudsz menni."
+]
+]
+},
+"13": {
+"segs": [
+[
+"tsukkomi",
+"Az nem az én ajtóm."
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Hát akkor kié?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"sad",
+"A nénié."
+],
+[
+"amused",
+"Most kávét főz nekik."
+]
+]
+}
+}
+}

@@ -1,0 +1,108 @@
+{
+"ep": "r2_love_b2",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Ülj le. Hallom, hogy szombaton találkozol Annával."
+]
+]
+},
+"2": {
+"segs": [
+[
+"tsukkomi",
+"Igen, de ez mi? Ez egy interjú?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"stiff",
+"Pontosan. Első kérdés: túrós vagy mákos rétes?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"tsukkomi",
+"Túrós, persze. Ez tényleg ilyen fontos?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Nagyon. Második: melyik a kedvenc múzeumod?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shy",
+"Izé... amelyikben Anna van."
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Jó válasz."
+],
+[
+"stiff",
+"Utolsó: ha késik, hány percet vársz?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Amennyit kell."
+],
+[
+"neutral",
+"De figyelj, kié ez a lista?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Anna írta. Tizenkét oldal, éjjel kettőkor küldte."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Anna írta?"
+],
+[
+"shy",
+"Szóval ő is izgul?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"Izgul? Már négyszer átöltözött, pedig még csak szerda van."
+]
+]
+}
+}
+}

@@ -1,0 +1,97 @@
+{
+"ep": "r1_culture_b3",
+"cast": {
+"B": "anna",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Boldog húsvétot! Hoztál kölnit a locsoláshoz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Kölnit?"
+],
+[
+"neutral",
+"Dávid azt mondta, vizet kell hozni."
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Hát régen vizet hoztak."
+],
+[
+"worried",
+"Mennyi vizet hoztál?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Nem sokat, csak egy vödröt."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Egy vödröt?"
+],
+[
+"flustered",
+"Jaj, jön a nagymamám!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Csókolom!"
+],
+[
+"cheerful",
+"Szabad locsolni?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Szabad, szabad..."
+],
+[
+"shout",
+"Jaj, jaj, jaj!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Jól van, most én jövök."
+],
+[
+"excited",
+"Hol a vödröm?"
+]
+]
+}
+}
+}

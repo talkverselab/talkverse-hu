@@ -1,0 +1,157 @@
+{
+"ep": "r3_culture_b1",
+"cast": {
+"B": "reka",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Figyelj, ezt a csomagot vidd el a szomszédba, a harmadik emeletre."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Persze, kinek szól? Itt az áll, hogy Szabó Istvánné."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Igen, ő a néni."
+],
+[
+"teasing",
+"Előbb a családnév, aztán a keresztnév, ezt már tudod, ugye?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Tudom, tudom. Szóval Szabó a családnév, és István a néni neve."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Hát... nem egészen, de menj csak, majd meglátod!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Csókolom! Szabó István nénit keresem."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Kit?"
+],
+[
+"sad",
+"István, a férjem, már harminc éve nem lakik itt."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Bocsánat, de a csomagon ez áll: Szabó Istvánné. Ez nem Ön?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Dehogynem!"
+],
+[
+"gentle",
+"Az annyit tesz: István felesége, így írtuk régen."
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"És az Ön neve? Az igazi neve?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"shy",
+"Margit."
+],
+[
+"sad",
+"Ezt ötven éve nem kérdezte meg senki."
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Margit néni, akkor ez Önnek szól. A feladó: Kiss Béla."
+]
+]
+},
+"13": {
+"segs": [
+[
+"flustered",
+"Jaj, ne szólj Rékának!"
+],
+[
+"shy",
+"Béla a barátom, nyolcvankét éves."
+]
+]
+},
+"14": {
+"segs": [
+[
+"cheerful",
+"Na, megvan a néni?"
+],
+[
+"surprised",
+"Hogyhogy ilyen sokáig tartott?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"amused",
+"Megvan."
+],
+[
+"teasing",
+"De ha megkérdezed, ki az a Béla, én semmit sem tudok."
+]
+]
+}
+}
+}

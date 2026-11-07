@@ -1,0 +1,72 @@
+{
+"ep": "r1_life_c3",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot! Itt vagyok a kapunál."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Jó napot! Nem látom."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Zöld kapu, nagy kutya."
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Itt nincs kutya."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Akkor rossz ház. Bocsánat."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"És a lángosom?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Sajnos a kutya megette."
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Akkor jó étvágyat neki."
+]
+]
+}
+}
+}

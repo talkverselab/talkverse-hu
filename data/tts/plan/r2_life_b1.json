@@ -1,0 +1,116 @@
+{
+"ep": "r2_life_b1",
+"cast": {
+"B": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot! Lakcímkártyát szeretnék kérni."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Rendben. Kérem a szerződést a lakásról."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Tessék. Az útlevelem is itt van."
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Szép. De hiányzik a tizenkettes papír."
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Hol kapok ilyet?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"A harmadik emeleten, a nyolcas ablaknál."
+]
+]
+},
+"7": {
+"segs": [
+[
+"annoyed",
+"Most jövök onnan! Azt mondták, oda lakcímkártya kell."
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Igen, a tizenkettes papírhoz kell lakcímkártya. Ez így van."
+]
+]
+},
+"9": {
+"segs": [
+[
+"annoyed",
+"De a kártyához kell a papír!"
+],
+[
+"tsukkomi",
+"Ez egy kör!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Hát igen."
+],
+[
+"sad",
+"Nekem sincs kártyám, pedig húsz éve itt dolgozom."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Tényleg? Akkor hol lakik Ön hivatalosan?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"sad",
+"Hivatalosan sehol."
+],
+[
+"worried",
+"Ne mondja el senkinek!"
+]
+]
+}
+}
+}

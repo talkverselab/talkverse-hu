@@ -1,0 +1,76 @@
+{
+"ep": "r1_travel_b2",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó estét! Mit hozhatok?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Egy pincért kérek, nokedlivel és tejföllel."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Egy pincért? Nokedlivel?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Igen! Nagyon finom, ugye?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Hát, ezt még senki nem mondta."
+],
+[
+"polite",
+"Pörköltet kér?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Jaj, igen, pörköltet!"
+],
+[
+"neutral",
+"És mi a pincér?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Én vagyok az."
+],
+[
+"teasing",
+"De tejföl nélkül olcsóbb vagyok."
+]
+]
+}
+}
+}

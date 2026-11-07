@@ -1,0 +1,86 @@
+{
+"ep": "r1_love_b3",
+"cast": {
+"B": "anna",
+"C": "bence",
+"D": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"amused",
+"Hű, de sok virág! Mi van ma?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Ma van Anna névnapja, de nem látom."
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Hát szólj neki hangosan! Kicsi a kávézó."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Boldog névnapot, Anna! Ez a tiéd!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Köszönöm, drágám!"
+],
+[
+"surprised",
+"Honnan tudod a nevem?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Jaj, ma itt mindenki Anna. Már hárman állnak mögötted."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"flustered",
+"De hát nekem csak egy Annám van!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Hallottam."
+],
+[
+"teasing",
+"Szóval van egy Annád?"
+]
+]
+}
+}
+}

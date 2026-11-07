@@ -1,0 +1,72 @@
+{
+"ep": "r1_friends_b4",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Réka, figyelj, fontos dolgot mondok."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Aha. Mondd csak."
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Te vagy az első barátom itt."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Aha, jó. Persze."
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Nagyon örülök, hogy itt vagy."
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Aha. Ja, igen."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Szóval a biciklid mostantól az enyém."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Na, azt hallottam!"
+]
+]
+}
+}
+}

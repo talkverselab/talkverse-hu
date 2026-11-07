@@ -1,0 +1,74 @@
+{
+"ep": "r1_love_c3",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Szia! Tetszik a képed. 😊",
+"Szia! Tetszik a képed."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Köszi! Mit csinálsz?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Kávézom. Te?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Én is."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Szép a kék pulóvered."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Mi van? Honnan tudod?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Nézz hátra. 😄",
+"Nézz hátra."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Ne mozogj! Még rajzollak."
+]
+]
+}
+}
+}

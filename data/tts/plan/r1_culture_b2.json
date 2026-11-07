@@ -1,0 +1,88 @@
+{
+"ep": "r1_culture_b2",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Ez nagyon szép."
+],
+[
+"neutral",
+"Vége van?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Nem tudom. Szerintem még nincs vége."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Csend van."
+],
+[
+"excited",
+"Akkor most tapsolok!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"Ne! Várj, {name}, ne tapsolj!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Jaj. Mindenki engem néz."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Várj... most mindenki tapsol!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"neutral",
+"A karmester is meghajol."
+],
+[
+"surprised",
+"Mi van?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Úristen, hazamegy!"
+],
+[
+"amused",
+"Ennyi volt a koncert."
+]
+]
+}
+}
+}

@@ -1,0 +1,85 @@
+{
+"ep": "r1_love_b4",
+"cast": {
+"B": "reka",
+"C": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Réka, nézd, ezt a padon találtam. Anna rajzfüzete?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Igen, az övé."
+],
+[
+"worried",
+"Ne nyisd ki, komolyan mondom!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Már kinyitottam."
+],
+[
+"surprised",
+"Hű, itt nagyon sok krumpli van."
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Ja, azok? Azok nem krumplik."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Várj. Ennek a krumplinak az én orrom van."
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Mind te vagy. Harminc oldal, csupa te."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Harminc?"
+],
+[
+"shy",
+"Szóval Anna engem..."
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Sziasztok! Nem láttátok a füzetemet?"
+]
+]
+}
+}
+}

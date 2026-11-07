@@ -1,0 +1,131 @@
+{
+"ep": "r3_work_c1",
+"cast": {
+"B": "man_m",
+"C": "man_m",
+"D": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"A konyhában van egy almás rétes. Kié? 😄",
+"A konyhában van egy almás rétes. Kié?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Hé, ez a Mindenki csoport! Ezer ember látja ezt."
+]
+]
+},
+"3": {
+"segs": [
+[
+"flustered",
+"Jaj! Bocsánat, mindenki, rossz helyre írtam."
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Jó napot, itt a bécsi iroda. Miért kaptunk üzenetet egy rétesről?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Figyelj, már harminc válasz van. Mindenki azt írja, hogy ne írjunk ide."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Kérem, ne írjanak ide!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Te is ide írtad."
+]
+]
+},
+"8": {
+"segs": [
+[
+"sad",
+"Bocsi."
+]
+]
+},
+"9": {
+"segs": [
+[
+"tsukkomi",
+"Ezt is."
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Itt az igazgató. Kérem, mindenki hagyja abba."
+]
+]
+},
+"11": {
+"segs": [
+[
+"stiff",
+"A levelezőnk leállt a rétes miatt."
+],
+[
+"annoyed",
+"Ez komoly?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Most ötven ember áll a konyhában. Mind a rétest nézi."
+]
+]
+},
+"13": {
+"segs": [
+[
+"sad",
+"Nem írok többet. Soha."
+]
+]
+},
+"14": {
+"segs": [
+[
+"stiff",
+"Még valami: az a rétes az enyém."
+],
+[
+"shout",
+"Ne nyúljanak hozzá!"
+]
+]
+}
+}
+}

@@ -1,0 +1,78 @@
+{
+"ep": "r1_travel_c4",
+"cast": {
+"B": "woman_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Szia! Tegnap a vonaton melletted ültem. 😊",
+"Szia! Tegnap a vonaton melletted ültem."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Tényleg? Ki vagy?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Zsófi. Aki az ablaknál ült."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Ó, igen!"
+],
+[
+"cheerful",
+"Hogy találtál meg?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"A sálad nálam van."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Jaj, köszi! Hol kapom vissza?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Nem hagytad ott. Én vettem el."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Holnap ráérsz? 😇",
+"Holnap ráérsz?"
+]
+]
+}
+}
+}

@@ -1,0 +1,113 @@
+{
+"ep": "r2_love_b1",
+"cast": {
+"B": "anna",
+"C": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Gyere a meleg vízbe! És add ide a szemüveged."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Jó, de szemüveg nélkül semmit nem látok."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Nem baj, pont ez a terv. Egy pillanat, mindjárt jövök."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shy",
+"Figyelj, Anna, régóta mondani akarok valamit."
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Mondjad csak, hallgatlak."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shy",
+"Nagyon tetszel nekem. Szép vagy, és jó az illatod."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Köszönöm."
+],
+[
+"amused",
+"A feleségem is ezt mondja."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Mi van?!"
+],
+[
+"flustered",
+"Ki maga?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Feri bácsi. A barátaim is hallották, nagyon tetszett nekik."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Mi történt? Miért tapsol mindenki?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Semmi. Add vissza a szemüvegem, légyszi."
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Nem. Előbb mondd el nekem is, amit neki mondtál."
+]
+]
+}
+}
+}

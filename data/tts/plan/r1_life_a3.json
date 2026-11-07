@@ -1,0 +1,68 @@
+{
+"ep": "r1_life_a3",
+"cast": {
+"B": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Csókolom! Egy kenyeret kérek."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Tessék? Hogy mondta?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"flustered",
+"Csókolom. Ez nem jó?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Hány évesnek néz engem?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Hát, nem tudom. Hatvan?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Huszonkét éves vagyok!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Jaj, bocsánat!"
+],
+[
+"shy",
+"Akkor szia?"
+]
+]
+}
+}
+}

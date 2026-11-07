@@ -1,0 +1,144 @@
+{
+"ep": "r3_love_b2",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"sad",
+"Szóval tényleg hazamész? Azt hittem, csak viccelsz."
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Csak két hónapra. A családom már nagyon vár, és a papírokat is intézni kell."
+]
+]
+},
+"3": {
+"segs": [
+[
+"sad",
+"Persze, semmi baj. Két hónap nem olyan sok, ugye?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Nem, egyáltalán nem sok."
+],
+[
+"neutral",
+"Amúgy mi van ebben a nagy dobozban?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shy",
+"Semmi különös. Csak hatvan boríték, hogy legyen mit csinálnod."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Hatvan? Várj, mindegyiken egy dátum van."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Igen, minden napra egy."
+],
+[
+"teasing",
+"De előre nem nyithatod ki, komolyan mondom."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Jó, de csak egyet nézek meg."
+],
+[
+"excited",
+"Hű, ez egy krumpli sállal!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"gentle",
+"Az első napon a krumpli hazaér, és nagyon fázik."
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"És a második napon? Mi történik a krumplival?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"Azt majd holnap tudod meg."
+],
+[
+"gentle",
+"Hatvan napig minden reggel rám kell gondolnod."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Anna, ezt mikor rajzoltad? Csak tegnap mondtam el, hogy megyek."
+]
+]
+},
+"13": {
+"segs": [
+[
+"shy",
+"Igazából a múlt hónap óta tudom, Réka elmondta. Minden este rajzoltam."
+]
+]
+},
+"14": {
+"segs": [
+[
+"gentle",
+"Minden este? És mi van az utolsó borítékban?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"gentle",
+"Az üres. Azt neked kell rajzolnod, amikor visszajössz."
+]
+]
+}
+}
+}

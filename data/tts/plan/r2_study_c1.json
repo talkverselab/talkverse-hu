@@ -1,0 +1,108 @@
+{
+"ep": "r2_study_c1",
+"cast": {
+"B": "reka",
+"C": "anna",
+"D": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Holnap elmarad az óra?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Nem tudom. Szerintem igen."
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Tényleg elmarad? Szuper!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Azt hallottam, hogy egész héten elmarad."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Komolyan? Ki mondta?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Te mondtad."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Úristen, azt írják, hogy bezár az egyetem! 😱",
+"Úristen, azt írják, hogy bezár az egyetem!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Durva. Akkor már veszem is a repülőjegyet."
+]
+]
+},
+"9": {
+"segs": [
+[
+"neutral",
+"Én meg eladtam a tankönyvemet."
+]
+]
+},
+"10": {
+"segs": [
+[
+"polite",
+"Jó estét! Holnap nyolckor dolgozat lesz."
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Tanárnő, Ön is itt van?!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Mindig itt voltam. A repülőjegy visszaváltható? 😇",
+"Mindig itt voltam. A repülőjegy visszaváltható?"
+]
+]
+}
+}
+}

@@ -1,0 +1,76 @@
+{
+"ep": "r1_travel_a1",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot! Jegyeket, bérleteket kérek!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Tessék, itt a jegyem."
+]
+]
+},
+"3": {
+"segs": [
+[
+"stiff",
+"Ez a jegy tegnapi."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Tegnapi?"
+],
+[
+"flustered",
+"Jaj, bocsánat!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Hova megy?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"A Parlamenthez megyek."
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Akkor rossz villamoson ül."
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Hát most hova megyek?"
+]
+]
+}
+}
+}

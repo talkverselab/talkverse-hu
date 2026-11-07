@@ -1,0 +1,80 @@
+{
+"ep": "r1_love_a5",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Mondd még egyszer a neved!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"{name}. Miért?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"{name}..."
+],
+[
+"flustered",
+"Jaj, nem jó."
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"De, jó. Nagyon jól mondod."
+]
+]
+},
+"5": {
+"segs": [
+[
+"shy",
+"Hát, álmomban jobban ment."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Álmodban? Milyen álmodban?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Jaj, semmi! Mennem kell!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Várj!"
+],
+[
+"teasing",
+"Mit csináltam az álmodban?"
+]
+]
+}
+}
+}

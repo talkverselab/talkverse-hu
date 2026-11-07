@@ -1,0 +1,141 @@
+{
+"ep": "r3_love_b4",
+"cast": {
+"B": "anna",
+"C": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Jó napot, üljön le, kérem. Anna sokat mesélt magáról."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Csókolom! Remélem, nem csak rosszat mesélt."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Figyelj, ne izgulj. Anyukám nem harap, csak minden kérdést kétszer tesz fel."
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Szóval maga az a híres krumpli?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shy",
+"Igen, sajnos én vagyok az."
+],
+[
+"polite",
+"Nagyon finom az illat, ez mi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Lángos, a férjem anyjának a receptje. Kóstolja meg, de vigyázzon, forró."
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Hű, ez fantasztikus! Még soha nem ettem ilyen jót."
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Tényleg ízlik? Anna szerint a vendégek inkább a rétest szeretik."
+]
+]
+},
+"9": {
+"segs": [
+[
+"excited",
+"Nem, nem, őszintén mondom: nagyon szeretem a lányát!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"{name}, te most mit mondtál?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Hát, ez gyors volt. Ebéd előtt még senki nem mondta ezt."
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Jaj, nem, a lángosát! A lányát, izé, nem úgy értettem."
+]
+]
+},
+"13": {
+"segs": [
+[
+"teasing",
+"Aha, szóval a lányomat nem szereti? Anna, hallod ezt?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"teasing",
+"Hallom, anya. Kíváncsi vagyok, mit felel."
+]
+]
+},
+"15": {
+"segs": [
+[
+"shy",
+"Hát... a lángost is szeretem."
+]
+]
+},
+"16": {
+"segs": [
+[
+"cheerful",
+"Na jó, tegeződjünk! Éva vagyok, és még van lángos."
+]
+]
+}
+}
+}

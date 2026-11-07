@@ -1,0 +1,72 @@
+{
+"ep": "r1_life_a1",
+"cast": {
+"B": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Szia! Mész a boltba?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Igen, most megyek. Mi kell?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Csak tej."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Mennyi tej?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Mindegy. Sok."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Itt vagyok! Tessék, a tej."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Úristen! Ez húsz liter!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Azt mondtad: sok."
+]
+]
+}
+}
+}

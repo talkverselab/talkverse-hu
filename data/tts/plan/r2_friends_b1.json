@@ -1,0 +1,106 @@
+{
+"ep": "r2_friends_b1",
+"cast": {
+"B": "reka",
+"C": "man_m",
+"D": "bence"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Mi van a táskádban? Miért mozog?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"A madarad. Otthon egész nap sírt, ezért elhoztam."
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Mi?! Ide hoztad, Bence kávézójába?!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Nyugi, alszik. Nézd, egy szót sem mond."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Sziasztok! Mit kértek, friss rétest?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Bence, szeretlek! Bence, szeretlek!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Tessék? Ki mondta ezt?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Nem én! Izé, {name} mondta!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"tsukkomi",
+"Én?! Réka, ne már!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Hű. Figyelj, ez kedves, de én csak kávét tudok adni."
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Kávét! Bence, szeretlek!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"annoyed",
+"Holnap eladom ezt a madarat. Olcsón."
+]
+]
+}
+}
+}

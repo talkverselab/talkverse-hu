@@ -1,0 +1,68 @@
+{
+"ep": "r1_love_b2",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Olyan csendes vagy ma. Mire gondolsz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"shy",
+"Semmire. Csak gyakorlok egy mondatot neked."
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Egy mondatot? Na, mondd, nagyon kíváncsi vagyok!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"shy",
+"Várj... Anna, neked nagyon szép szemeted van."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Szemetem?"
+],
+[
+"teasing",
+"Köszi, minden kedden viszik el."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Jaj, nem! A szemed szép, nem a szemeted!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Tudom. Csak még egyszer akartam hallani."
+]
+]
+}
+}
+}

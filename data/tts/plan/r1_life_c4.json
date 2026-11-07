@@ -1,0 +1,69 @@
+{
+"ep": "r1_life_c4",
+"cast": {
+"B": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot!"
+],
+[
+"worried",
+"Folyik a víz."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"A konyhában."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Most már a szobában is."
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Dávid úszik. 😅",
+"Dávid úszik."
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Kérem, válaszoljon!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Jó napot! Bocsánat, fürdőben voltam."
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Nem baj. Most már itt is fürdő van."
+]
+]
+}
+}
+}

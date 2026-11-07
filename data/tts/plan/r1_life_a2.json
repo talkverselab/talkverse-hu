@@ -1,0 +1,76 @@
+{
+"ep": "r1_life_a2",
+"cast": {
+"B": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Csókolom! Kér tejet?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Tejet?"
+],
+[
+"neutral",
+"Hát, mennyi van?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Húsz liter."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Úristen! Miért?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Hosszú történet. Tessék."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Köszönöm! Egy pillanat, szólok valakinek."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Marika néni, ki ez a sok ember?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Az egész ház. Mindenki tejet kér!"
+]
+]
+}
+}
+}

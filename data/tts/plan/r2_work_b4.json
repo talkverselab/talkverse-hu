@@ -1,0 +1,116 @@
+{
+"ep": "r2_work_b4",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Főnök úr, van egy perce?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Persze. Mi a baj?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Szeretnék több pénzt. Tíz százalékkal többet."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Tízet?"
+],
+[
+"cheerful",
+"Nem, adok harmincat."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Komolyan?"
+],
+[
+"excited",
+"Köszönöm, főnök úr!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"De akkor szombaton is te nyitsz."
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Jól van. Rendben."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"És vasárnap is. És te rendeled a poharakat."
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Hát, oké. Még valami?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Igen, itt a kulcs. Holnaptól te vagy a főnök."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Tessék?!"
+],
+[
+"flustered",
+"És Ön hova megy?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"excited",
+"A Balatonra. Harminc éve várok erre!"
+]
+]
+}
+}
+}

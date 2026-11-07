@@ -1,0 +1,109 @@
+{
+"ep": "r2_life_b2",
+"cast": {
+"B": "david",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Figyelj, ma este jönnek a szüleim. Tudsz koccintani?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Persze! Mit kell mondani?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Azt, hogy „egészségedre”. Lassan mondd!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Egész... seggedre?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Nem, az mást jelent!"
+],
+[
+"worried",
+"Ne mondd apámnak!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Jól van, értem. Egészségedre, egészségedre!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Szia, {name}! Tegeződjünk, és igyunk egyet!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Köszönöm! Egész seggedre!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Tessék?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Úristen. Apa, még tanulja a nyelvet."
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Hát ez remek! Mostantól így mondjuk a családban."
+]
+]
+},
+"12": {
+"segs": [
+[
+"tsukkomi",
+"Ne már! Karácsonykor nagymama is ezt fogja mondani."
+]
+]
+}
+}
+}

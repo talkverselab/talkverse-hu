@@ -1,0 +1,108 @@
+{
+"ep": "r2_travel_c2",
+"cast": {
+"B": "woman_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"annoyed",
+"Zsófi, mikor kapom vissza a sálamat?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Most nem tud beszélni. Éppen utazik. 😄",
+"Most nem tud beszélni. Éppen utazik."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Mi van? A sálam utazik?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Igen, nézd! Ő a Balatonnál. 📷",
+"Igen, nézd! Ő a Balatonnál."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Ez tényleg az én sálam! Miért van egy kutyán?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Egerben is volt. Ott egy kicsit sokat ivott. 🍷",
+"Egerben is volt. Ott egy kicsit sokat ivott."
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Hű. Már többet utazott, mint én."
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Igen. Jövő héten Pécsre megy."
+]
+]
+},
+"9": {
+"segs": [
+[
+"sad",
+"Szóval nem kapom vissza."
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"Csak egy baj van: egyedül fél."
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Komolyan? Fél a sál?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Igen. Jössz vele? 😇",
+"Igen. Jössz vele?"
+]
+]
+}
+}
+}

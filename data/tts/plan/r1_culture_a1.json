@@ -1,0 +1,68 @@
+{
+"ep": "r1_culture_a1",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Nézd! Az utolsó mákos rétes."
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Gyorsan! Egyet kérek!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Hű, mákod van!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Tessék? A fogamon?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Nem, nem! Szerencséd van."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shy",
+"Jaj, értem."
+],
+[
+"cheerful",
+"Na, együnk!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Hát... most már tényleg mákos a fogad."
+]
+]
+}
+}
+}

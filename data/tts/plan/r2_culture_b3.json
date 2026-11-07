@@ -1,0 +1,96 @@
+{
+"ep": "r2_culture_b3",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"shy",
+"Figyelj, találkoztam valakivel. Nagyon aranyos."
+]
+]
+},
+"2": {
+"segs": [
+[
+"stiff",
+"De jó... Fiú vagy lány?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Magyarul csak annyit mondok: ő."
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Nagyszerű. És mit csinál ez az ő?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Nyelvet tanul. Mindig rossz ragot használ, de szépen nevet."
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Aha. És hol találkoztatok?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"A múzeum előtt. Azt mondta, hogy a rajzom krumpli."
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"Szemtelen ember. És mit akarsz tőle?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shy",
+"Hát... azt akarom, hogy végre rájöjjön."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Mire? Várj, hány ember mondta ezt neked?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Egy. És most éppen mellettem ül."
+]
+]
+}
+}
+}

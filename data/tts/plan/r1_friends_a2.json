@@ -1,0 +1,73 @@
+{
+"ep": "r1_friends_a2",
+"cast": {
+"B": "reka",
+"C": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Ki ad ezer forintot?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"shout",
+"Réka! Hé, itt vagyok!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Ezer forint! Ki ad többet?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Jaj, ne integess!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Mi van? Hol vagy?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Kétezer! Szuper, köszönöm!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Mi? Mi az a kétezer?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Gratulálok! A szék a tiéd."
+]
+]
+}
+}
+}

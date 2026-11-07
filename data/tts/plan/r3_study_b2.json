@@ -1,0 +1,137 @@
+{
+"ep": "r3_study_b2",
+"cast": {
+"B": "reka",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Hé, szombaton bolhapiac lesz a folyosón! Van valami eladó cuccod?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Hát, a régi magyar könyveim. De most tanulnom kell."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Semmi baj, eladom helyetted. Mit adhatok el?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Nem tudom, nézd meg a szobámban. Mindegy, ami nem kell."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Szuper, bízz bennem!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Na, hogy megy? Miért van itt ilyen sok ember?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Király, már nyolcvanezer forintot kerestem. Nézd!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Nyolcvanezret? Három könyvért?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Könyvért? Nem, a könyvek nem kellettek senkinek."
+]
+]
+},
+"10": {
+"segs": [
+[
+"worried",
+"Akkor mit adtál el?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"cheerful",
+"A lámpát, a széket, az asztalt."
+],
+[
+"tsukkomi",
+"Azt mondtad, mindegy!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Az asztalomat?"
+],
+[
+"shout",
+"Te jó ég, hol fogok tanulni?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"teasing",
+"Az ágyon. Bár az ágyra már van vevő."
+]
+]
+},
+"14": {
+"segs": [
+[
+"stiff",
+"Elnézést, ki adta el a kollégium bútorait?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"flustered",
+"Hát, ő. Én csak segítettem."
+]
+]
+}
+}
+}

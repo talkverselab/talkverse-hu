@@ -1,0 +1,113 @@
+{
+"ep": "r2_study_b1",
+"cast": {
+"B": "reka",
+"C": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Réka, holnap utolsó óra. Hogy köszönjem meg a tanárnak?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Figyelj, van egy különleges szó. Megtanítom neked."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Tényleg? Hosszú?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Naná. Megszentségteleníthetetlenségeskedéseitekért."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Úristen!"
+],
+[
+"worried",
+"Ez tényleg azt jelenti, hogy köszönöm?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Persze. Nagyon udvarias!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Tanárnő, egy pillanat. Megszentségteleníthetetlenségeskedéseitekért!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Te jó ég! Hogyhogy ezt tudja?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Réka tanította meg."
+],
+[
+"worried",
+"Ez azt jelenti: köszönöm, ugye?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Nem."
+],
+[
+"amused",
+"Ez nem köszönet, ez csak a leghosszabb szavunk."
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"De hibátlanul kimondta."
+],
+[
+"cheerful",
+"Ötös!"
+]
+]
+}
+}
+}

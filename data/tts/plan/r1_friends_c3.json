@@ -1,0 +1,76 @@
+{
+"ep": "r1_friends_c3",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"sad",
+"Réka, beteg vagyok."
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Nagyon fáj a fejem."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Látod? Olvastad?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Hé! Nem válaszolsz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"sad",
+"Jó, akkor meghalok. Szia."
+]
+]
+},
+"6": {
+"segs": [
+[
+"annoyed",
+"Na, nyisd ki az ajtót."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Mi? Hol vagy?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Itt, levessel."
+],
+[
+"tsukkomi",
+"Egy órája csengetek."
+]
+]
+}
+}
+}

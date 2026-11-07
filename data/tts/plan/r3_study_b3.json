@@ -1,0 +1,145 @@
+{
+"ep": "r3_study_b3",
+"cast": {
+"B": "anna",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Anna, segítesz? Öt perc múlva kezdem az előadást, és remeg a kezem."
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Nyugi, jó lesz. A gépen van a fájl, ugye?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Igen, tegnap a te gépedről másoltam át."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Az én gépemről? Várj, melyik mappából?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Tessék, {name}, kezdheti. Mi a téma?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"A téma a modern magyar festészet. Nézzük az első képet!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Jaj, ne! Te jó ég, ez az én krumplim!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Krumpli?"
+],
+[
+"polite",
+"Folytassa, kérem."
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Igen, izé, a krumpli a magyar lélek."
+],
+[
+"stiff",
+"Egyszerű, de mindenhol ott van."
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Érdekes! És a következő képen?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"stiff",
+"Az is krumpli."
+],
+[
+"sad",
+"De nézzék: ez már szomorú krumpli."
+]
+]
+},
+"12": {
+"segs": [
+[
+"excited",
+"Zseniális! Harminc éve tanítok, de ilyet még nem láttam."
+]
+]
+},
+"13": {
+"segs": [
+[
+"cheerful",
+"Szeptemberben Bécsben konferencia lesz. Ezt ott is elő kell adnia."
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Bécsben, krumpliról?"
+],
+[
+"worried",
+"Anna, most mit csináljak?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"teasing",
+"Semmit. Már beírtam a nevem: én vagyok a társszerző."
+]
+]
+}
+}
+}

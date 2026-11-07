@@ -1,0 +1,148 @@
+{
+"ep": "r3_life_b2",
+"cast": {
+"B": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Csókolom, tetszik tudni, hol van Laci bácsi? A lakbér miatt keresem."
+]
+]
+},
+"2": {
+"segs": [
+[
+"annoyed",
+"Hát hol lenne, a fürdőben. Mennyi lakbért fizettek neki?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Minden hónapban százötvenezer forintot. Ő a tulajdonos, nem?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Ő?! Ezt ki mondta?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Ő mondta. Már két éve neki fizetünk."
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Na, idefigyelj. A ház az enyém, a lakás is az enyém."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Micsoda? Akkor ki Laci bácsi?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Laci a férjem. Negyvenhat éve."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"A férje?! De ő a fürdőben lakik!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"annoyed",
+"Tíz éve azt mondta, sós a levesem. Azóta ott van."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Csak ezért?"
+],
+[
+"worried",
+"És azóta nem beszélnek?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"stiff",
+"Nem."
+],
+[
+"gentle",
+"De minden kedden viszek neki levest."
+]
+]
+},
+"13": {
+"segs": [
+[
+"worried",
+"És a mi pénzünk? A lakbér?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"amused",
+"Azt a fürdőre költi. Ezért nem jön haza."
+]
+]
+},
+"15": {
+"segs": [
+[
+"flustered",
+"Akkor most mit csináljak? Kinek fizessek?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"neutral",
+"Továbbra is neki."
+],
+[
+"amused",
+"Ha elfogy a pénze, hazajön, és azt nem bírnám."
+]
+]
+}
+}
+}

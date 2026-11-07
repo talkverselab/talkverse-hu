@@ -1,0 +1,80 @@
+{
+"ep": "r1_life_a4",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot!"
+],
+[
+"sad",
+"Jaj, fáj a hasam."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Mit evett tegnap?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Csak egy lángost."
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Egyet? Biztos?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Hát... egyet reggel."
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"És este?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Este hatot."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Hatot?"
+],
+[
+"excited",
+"Hű, hol vette?"
+]
+]
+}
+}
+}

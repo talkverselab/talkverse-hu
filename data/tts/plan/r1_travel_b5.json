@@ -1,0 +1,76 @@
+{
+"ep": "r1_travel_b5",
+"cast": {
+"B": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Figyelj, hol lehet itt úszni?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Itt, a Balatonban! Gyere, menjünk be!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"De a víz csak a térdemig ér."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Nyugi, menj tovább! Mindjárt mély lesz."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Már húsz perce megyünk. Még mindig a térdem!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Hát, ez a déli part. Menjünk még!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Nézd, egy falu! Ott egy templom!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Szuper, ez a másik part."
+],
+[
+"amused",
+"Átsétáltunk."
+]
+]
+}
+}
+}

@@ -1,0 +1,74 @@
+{
+"ep": "r1_travel_c3",
+"cast": {
+"B": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Mindjárt ott vagyok! 🚆",
+"Mindjárt ott vagyok!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Szuper. Melyik vonat?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Nem tudom. Gyors. 😄",
+"Nem tudom. Gyors."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Na, hol vagy?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Itt minden németül van."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Figyelj, Bécsben vagyok."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Király. Hozz csokit!"
+]
+]
+}
+}
+}

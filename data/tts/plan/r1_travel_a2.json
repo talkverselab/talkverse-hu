@@ -1,0 +1,80 @@
+{
+"ep": "r1_travel_a2",
+"cast": {
+"B": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Dávid, jó a víz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Jó, jó. Nagyon meleg."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Figyelj, éhes vagyok. Van pénzed?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Van. Mennyi kell?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Ezer forint."
+],
+[
+"cheerful",
+"Lángosra."
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Tessék."
+],
+[
+"amused",
+"De ki az a Dávid?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Jaj, elnézést! Hol a szemüvegem?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Nem baj. Nekem is hozz egy lángost!"
+]
+]
+}
+}
+}

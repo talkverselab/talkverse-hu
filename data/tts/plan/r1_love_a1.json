@@ -1,0 +1,76 @@
+{
+"ep": "r1_love_a1",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Elnézést, egy pillanat."
+],
+[
+"cheerful",
+"Ne mozogj!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Tessék? Mi van?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Rajzollak. Jó az arcod."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shy",
+"Az arcom? Köszi..."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Nézd! Kész."
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Ez nem én vagyok. Ez egy krumpli!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Igen. De nagyon szép krumpli."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Na jó. Holnap is itt leszek."
+]
+]
+}
+}
+}

@@ -1,0 +1,107 @@
+{
+"ep": "r2_friends_c2",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Figyelj, ne haragudj, de csináltam neked randiprofilt."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Mit csináltál?! Milyen profilt?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Már harminc üzeneted van. Szívesen! 😎",
+"Már harminc üzeneted van. Szívesen!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"Töröld! Azonnal töröld!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Egy pillanat. Már mindenkinek válaszoltam helyetted."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Mit válaszoltál?!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Csak annyit: holnap nyolckor, Bence kávézójában."
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Várj. Hány embernek?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"teasing",
+"Hát... mindenkinek. 😇",
+"Hát... mindenkinek."
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Harminc ember, holnap?! Úristen!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Nyugi. Bence már keres széket."
+]
+]
+},
+"12": {
+"segs": [
+[
+"cheerful",
+"És viszem a kanapét is. 😄",
+"És viszem a kanapét is."
+]
+]
+}
+}
+}

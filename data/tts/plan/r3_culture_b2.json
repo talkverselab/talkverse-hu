@@ -1,0 +1,142 @@
+{
+"ep": "r3_culture_b2",
+"cast": {
+"B": "anna",
+"C": "reka",
+"D": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Jaj, remegek."
+],
+[
+"excited",
+"Ma este megnyitó, az első saját kiállításom!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Nyugi, minden rendben lesz. Hányan jönnek?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Legalább ötvenen. És az igazgató azt szeretné, ha te mondanál pár szót."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Én, magyarul?"
+],
+[
+"flustered",
+"Ne már, Anna, én még a kenyeret is rosszul kérem!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Semmi baj, három mondat: üdvözlöm Önöket, ez Anna kiállítása, köszönöm."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Kiállítása, kiállítása... Oké, ez nem lehet nehéz."
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Hölgyeim és uraim, kérem, figyeljenek! Most {name} szól néhány szót."
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Üdvözlöm Önöket! Ez Anna első kiáltása!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Úristen, kiáltása! Nem kiállítása!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Milyen bátor! Kérem, mindenki kiáltson Annával együtt!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Várjatok, ne! Miért kiabál ötven ember?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Bocsi, Anna! Csak két betű volt a különbség."
+]
+]
+},
+"13": {
+"segs": [
+[
+"worried",
+"Hé, a rendőrök is itt vannak! A szomszédok hívták őket."
+]
+]
+},
+"14": {
+"segs": [
+[
+"excited",
+"Csodálatos, minden képet eladtunk! Holnap megismételjük?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"surprised",
+"Minden képet?"
+],
+[
+"teasing",
+"{name}, jövőre is te beszélsz, és addig ne tanulj meg magyarul."
+]
+]
+}
+}
+}

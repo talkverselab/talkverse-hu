@@ -1,0 +1,140 @@
+{
+"ep": "r3_study_b4",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Hideg van itt fent. Miért nem maradsz bent?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Utoljára akarom látni a várost. Holnapután már nem leszek itt."
+]
+]
+},
+"3": {
+"segs": [
+[
+"sad",
+"Tudom. Összepakoltál már?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Igen, a szótárt itt hagyom neked. Már tudom a ragokat."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Mindet? Na jó, akkor egy kis vizsga: szeret, én téged."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Várj, ez könnyű."
+],
+[
+"shy",
+"Szeretlek."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Jó. Még egyszer, lassabban."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Anna... ez most tényleg vizsga?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shy",
+"Nem tudom. Te mondd meg."
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Szeretlek. És ez nem nyelvtan."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shy",
+"Ötös."
+]
+]
+},
+"12": {
+"segs": [
+[
+"sad",
+"De holnapután megyek. {country} nagyon messze van."
+]
+]
+},
+"13": {
+"segs": [
+[
+"sad",
+"Tudom."
+],
+[
+"gentle",
+"Nézd, a vázlatfüzetem, neked adom."
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Mi ez a papír a lapok között?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"gentle",
+"Repülőjegy, júniusra."
+],
+[
+"teasing",
+"Ott is vannak múzeumok, ugye?"
+]
+]
+}
+}
+}

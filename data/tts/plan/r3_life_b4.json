@@ -1,0 +1,149 @@
+{
+"ep": "r3_life_b4",
+"cast": {
+"B": "woman_o",
+"C": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Háromszor csengettem. Nem jöttél a levesért, jól vagy?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Csókolom. Jól vagyok, csak fáradt."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Aha. Akkor miért piros a szemed?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"sad",
+"Semmi baj, csak a paprika."
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Ma nem főztél semmit, nem éreztem szagot."
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Hát, ma van a születésnapom, és {country} nagyon messze van."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Tudom, hogy ma van. Ebben a házban mindent tudok."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Honnan...?"
+],
+[
+"flustered",
+"Jaj, nem akartam gondot csinálni."
+]
+]
+},
+"9": {
+"segs": [
+[
+"gentle",
+"Na, idefigyelj. Hány éve lakunk egy házban?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"neutral",
+"Majdnem két éve. Miért?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Akkor elég a csókolomból."
+],
+[
+"cheerful",
+"Marika vagyok, tegeződjünk!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Csak így, Marika? Jaj, ezt nem tudom kimondani."
+]
+]
+},
+"13": {
+"segs": [
+[
+"sad",
+"A fiam Kanadában él, ő sem hív."
+],
+[
+"gentle",
+"Szóval most te eszed a levest."
+]
+]
+},
+"14": {
+"segs": [
+[
+"gentle",
+"Ezért hozott... ezért hoztál mindig levest?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"gentle",
+"Ezért. Na, nyisd ki az ajtót."
+]
+]
+},
+"16": {
+"segs": [
+[
+"excited",
+"Meglepetés, boldog szülinapot! Hoztam húsz liter tejet."
+]
+]
+}
+}
+}

@@ -1,0 +1,50 @@
+r1_culture_a1: excited / excited / cheerful / flustered / amused / shy+cheerful / teasing
+r1_culture_a4: cheerful / neutral / annoyed / flustered / teasing / gentle / surprised+tsukkomi / flustered+shy
+r1_culture_b2: gentle+neutral / worried / neutral+excited / shout / flustered / surprised / neutral+surprised / surprised+amused
+r1_culture_b5: cheerful / excited / tsukkomi / excited / surprised+amused / shy / polite / flustered
+r1_culture_c3: neutral / neutral / excited / cheerful / teasing / worried / worried / teasing
+r1_friends_a2: excited / shout / excited / worried / surprised / excited / flustered / teasing
+r1_friends_a5: teasing / worried / cheerful / neutral+shout / teasing / shout / cheerful+flustered / shout
+r1_friends_b3: worried / neutral / worried / surprised / stiff / worried / shout / tsukkomi
+r1_friends_c1: cheerful / cheerful / neutral / surprised / annoyed / flustered / annoyed / teasing
+r1_friends_c4: cheerful / amused / neutral / worried / neutral / tsukkomi / teasing / surprised+flustered
+r1_life_a3: polite / surprised / flustered / annoyed / flustered / shout / flustered+shy
+r1_life_b1: worried / excited / surprised+shout / flustered / worried / neutral / shout / worried
+r1_life_b4: polite / surprised / worried / polite / surprised+tsukkomi / amused+polite / surprised+worried
+r1_life_c2: worried / worried / annoyed / stiff / flustered / amused / teasing / stiff
+r1_love_a1: polite+cheerful / surprised / cheerful / shy / excited / tsukkomi / gentle / shy
+r1_love_a4: cheerful / shout / shout / shout / shout / amused / flustered / gentle
+r1_love_b2: gentle / shy / excited / shy / surprised+teasing / flustered / gentle
+r1_love_b5: annoyed / neutral / annoyed+shout / cheerful / stiff / amused / teasing / shy
+r1_love_c3: cheerful / cheerful / neutral / neutral / teasing / surprised / teasing / teasing
+r1_survival_s2: polite / polite+worried / polite / worried / gentle / shout / cheerful / shout
+r1_travel_a2: cheerful / gentle / cheerful / amused / neutral+cheerful / gentle+amused / flustered / amused
+r1_travel_a5: polite+flustered / polite / flustered / polite / cheerful+polite / polite+amused / flustered+polite
+r1_travel_b3: excited+teasing / worried / teasing / surprised+shout / polite+cheerful / surprised / tsukkomi / amused
+r1_travel_c1: excited / cheerful / cheerful / neutral / excited / surprised / worried / surprised+teasing
+r1_travel_c4: cheerful / surprised / gentle / surprised+cheerful / gentle / cheerful / shy / teasing
+r2_culture_b3: shy / stiff / amused / annoyed / gentle / stiff / teasing / annoyed / shy / surprised / gentle
+r2_culture_c2: excited / excited / amused / worried / teasing / flustered / flustered / teasing / worried / shy / gentle
+r2_friends_b3: cheerful / neutral / cheerful / polite / polite / polite / cheerful / cheerful+worried / excited / shout / tsukkomi / annoyed+shout
+r2_friends_c2: teasing / surprised / teasing / shout / amused / worried / teasing / worried / teasing / shout / amused / cheerful
+r2_life_b3: excited / surprised / gentle / polite+surprised / polite / teasing / annoyed / tsukkomi / amused / shout / gentle / shy
+r2_life_c2: cheerful / polite / gentle+worried / polite / worried / polite / gentle / surprised / gentle / flustered / gentle / shy
+r2_love_b3: excited / amused / polite / teasing / amused / teasing / stiff+shout / shout / worried / amused / surprised / teasing
+r2_love_c2: shy / excited / neutral / cheerful / teasing / cheerful / surprised / flustered / teasing / flustered / teasing
+r2_study_b3: polite / worried / stiff / worried / amused / flustered / amused+stiff / worried / surprised / amused / surprised
+r2_study_c2: sad / surprised / sad / neutral / neutral / surprised+neutral / surprised+excited / excited / worried / neutral / flustered / tsukkomi
+r2_travel_b3: excited / polite / cheerful / flustered / amused / shout+excited / flustered / excited / worried / cheerful / tsukkomi / amused
+r2_travel_c2: annoyed / teasing / surprised / excited / surprised / amused / tsukkomi / cheerful / sad / shy / amused / shy
+r2_work_b3: cheerful / neutral / neutral / surprised / neutral+excited / cheerful / surprised / tsukkomi / flustered / gentle / teasing
+r2_work_c2: cheerful / cheerful / annoyed / worried / sad / annoyed / stiff / surprised / tsukkomi / flustered / teasing
+r3_culture_b3: worried / cheerful / surprised+worried / stiff / polite / amused / surprised+worried / polite / cheerful / surprised / annoyed / flustered / annoyed / tsukkomi / cheerful / amused+cheerful
+r3_friends_b1: polite / worried / amused / polite / tsukkomi / polite / gentle / flustered / stiff / annoyed / excited / tsukkomi / flustered / annoyed / excited
+r3_friends_b4: annoyed / sad / cheerful / cheerful / worried / surprised / excited / surprised / surprised / gentle / excited / shy / sad / sad / shy / cheerful
+r3_life_b2: polite / annoyed / polite / surprised / worried / stiff / surprised / neutral / surprised / annoyed / surprised+worried / stiff+gentle / worried / amused / flustered / neutral+amused
+r3_life_c1: worried / worried / amused / excited / excited / worried / neutral / flustered / annoyed / cheerful / worried / cheerful / tsukkomi / stiff / cheerful / amused
+r3_love_b3: worried / neutral / shy / tsukkomi / annoyed / gentle / worried / shout+surprised / neutral / surprised / flustered / amused / flustered / neutral / sad / gentle+flustered
+r3_study_b1: worried / teasing / worried / gentle / worried / tsukkomi / polite / teasing / cheerful / teasing / amused / cheerful / neutral / worried / flustered / stiff
+r3_study_b4: gentle / sad / sad / gentle / teasing / amused+shy / gentle / shy / shy / gentle / shy / sad / sad+gentle / surprised / gentle+teasing
+r3_travel_b2: polite / cheerful+worried / polite / cheerful / excited / gentle / polite / surprised+gentle / worried / amused / surprised+flustered / gentle / flustered+polite / gentle / cheerful
+r3_travel_c1: excited / worried / teasing / worried / neutral / surprised+tsukkomi / amused / neutral / cheerful / teasing / amused / surprised / cheerful / surprised / surprised+worried / cheerful
+r3_work_b3: polite+cheerful / surprised+polite / cheerful / shy / amused / cheerful / cheerful / annoyed / stiff / cheerful / stiff / annoyed / annoyed+shout / flustered / stiff

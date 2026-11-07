@@ -1,0 +1,113 @@
+{
+"ep": "r2_friends_b3",
+"cast": {
+"B": "reka",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Vigyázol a dolgaimra tíz percig, légyszi? Mindjárt jövök."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Oké, nyugi. Mi mennyibe kerül?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Minden ezer forint. Ne gondolkodj!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Elnézést, ez a szék is ezer forint?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Igen, kérem. Minden ezer forint."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"És a lámpa? És az a bicikli ott?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Hát, minden ezer. Tessék, vigye!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Na, hogy ment?"
+],
+[
+"worried",
+"Hol a biciklim?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"excited",
+"Jó hírem van: mindent eladtam! Négyezer forint!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Ezer forintért eladtad a biciklimet?!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"tsukkomi",
+"Te mondtad: minden ezer. Ne gondolkodj!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"annoyed",
+"Jól van."
+],
+[
+"shout",
+"Ki kér egy barátot ezer forintért?"
+]
+]
+}
+}
+}

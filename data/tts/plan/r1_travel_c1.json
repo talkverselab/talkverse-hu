@@ -1,0 +1,77 @@
+{
+"ep": "r1_travel_c1",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Nézd, mit vettem! 📷",
+"Nézd, mit vettem!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Hű! Hol vetted?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"A bolhapiacon. Szép, ugye?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Szép. Mennyiért?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Ötezer forint. Olcsó!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Durva."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Miért?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"A régi lámpám!"
+],
+[
+"teasing",
+"Kétezerért adtam el."
+]
+]
+}
+}
+}

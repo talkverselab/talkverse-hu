@@ -1,0 +1,68 @@
+{
+"ep": "r1_friends_a4",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Nézd! Új biciklim van!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Szép! Hol vetted?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"A piacon, csak ötezer. Jó, ugye?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Várj..."
+],
+[
+"shout",
+"ez az én biciklim!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Na ne! Komolyan?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"annoyed",
+"Igen! Tegnap ellopták!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Hát... neked hatezer."
+]
+]
+}
+}
+}

@@ -1,0 +1,101 @@
+{
+"ep": "r2_friends_b2",
+"cast": {
+"B": "reka",
+"C": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Figyelj, anyámnak azt mondod: csókolom. Ez fontos."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Csókolom? De az nem azt jelenti, hogy csók?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"De igen, de így köszönünk a néniknek. Nyugi, ne gondolkodj!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Oké. Csókolom, csókolom, csókolom."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Jaj, de jó, hogy jöttél! Te vagy {name}, ugye?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Igen! Csókollak!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Hű. Hát, köszönöm?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Jaj, ne! Csókolom, nem csókollak!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Mi a különbség? Csak egy betű!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Semmi baj."
+],
+[
+"teasing",
+"De a férjem most jön, neki ezt ne mondd!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Jó, rendben. Csók, izé, jó napot!"
+]
+]
+}
+}
+}

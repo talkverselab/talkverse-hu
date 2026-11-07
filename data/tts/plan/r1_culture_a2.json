@@ -1,0 +1,76 @@
+{
+"ep": "r1_culture_a2",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Miért kapsz virágot?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Ma van a névnapom."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Névnap? Az mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Minden névnek van egy napja."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"És az én nevem?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Várj..."
+],
+[
+"sad",
+"Sajnos nincs a naptárban."
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Hát, mindegy."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Nekem nem mindegy. Beírtam: holnap a te napod."
+]
+]
+}
+}
+}

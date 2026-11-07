@@ -1,0 +1,81 @@
+{
+"ep": "r1_friends_b5",
+"cast": {
+"B": "reka",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Nézd, mit vettem a piacon! Ez a madár beszél!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Komolyan?"
+],
+[
+"cheerful",
+"Szia, madár!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Szia, madár! Szia, madár!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Látod? Mindent mond, amit otthon hall."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Király! Mit tud még?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Bence, szeretlek! Bence, szeretlek!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Várj, melyik Bence? A kávézóból?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"A kávézóból!"
+],
+[
+"gentle",
+"Bence, szeretlek!"
+]
+]
+}
+}
+}

@@ -1,0 +1,148 @@
+{
+"ep": "r3_travel_c1",
+"cast": {
+"B": "reka",
+"C": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Figyelem! A busz elindult! 🚌",
+"Figyelem! A busz elindult!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Komolyan? És a fék működik?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Naná. Legtöbbször."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Várjatok, most miért álltunk meg?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Egy néni integetett a megállóban. Felszállt."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"tsukkomi",
+"De ez nem, izé, menetrendes busz!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Ő nem tudja. És már nyolcan szálltak fel."
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Az egyik bácsi kérdezi, mennyibe kerül a jegy."
+]
+]
+},
+"9": {
+"segs": [
+[
+"cheerful",
+"Hát mondd neki, hogy ingyen van!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Bocsi, már mondtam: háromszáz forint. 😇",
+"Bocsi, már mondtam: háromszáz forint."
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Figyeljetek, most már harmincan vagyunk. Egy néni kolbászt oszt."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Úristen, a következő megállóban is sokan várnak!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"cheerful",
+"Igen, a néni mindenkit felhívott."
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Itt a polgármester. Kezet fog Rékával."
+]
+]
+},
+"15": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"worried",
+"Mit akar?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"cheerful",
+"Semmi. Hétfőtől menetrendünk van. 🚌",
+"Semmi. Hétfőtől menetrendünk van."
+]
+]
+}
+}
+}

@@ -1,0 +1,154 @@
+{
+"ep": "r3_life_b3",
+"cast": {
+"B": "david",
+"C": "man_m",
+"D": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot, mi történt? Hol fáj?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Jó napot! Elcsúsztam a fürdőben, és megütöttem a fejem."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Én hoztam be. Azóta furcsákat mond, doktor úr."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Rendben, ellenőrizzük. Milyen nap van ma?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Hát, izé... hétfő vagy szombat?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Szerda. Hogy hívják a szobatársát?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Őt? Hát, ő az, aki sokat eszik."
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"Jaj, ne már."
+],
+[
+"worried",
+"Doktor úr, ez komoly?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Még egy teszt. Mondjon nekem egy hosszú magyar szót."
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Megszentségteleníthetetlenségeskedéseitekért."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Tessék?!"
+],
+[
+"excited",
+"Ezt még egyszer, lassan!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"worried",
+"Mi történt, doktor úr? Rosszul van a beteg?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"excited",
+"Hallgassa! Ezt húsz éve nem tudom kimondani."
+]
+]
+},
+"14": {
+"segs": [
+[
+"cheerful",
+"Megszentségteleníthetetlenségeskedéseitekért."
+],
+[
+"polite",
+"Mehetek már?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"shout",
+"Úristen!"
+],
+[
+"excited",
+"Hívom a főorvost és az egész osztályt!"
+]
+]
+},
+"16": {
+"segs": [
+[
+"tsukkomi",
+"Figyelj, nem tudod a nevemet, de ezt tudod? Akkor te mosogatsz."
+]
+]
+}
+}
+}

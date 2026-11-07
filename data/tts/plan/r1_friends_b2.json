@@ -1,0 +1,88 @@
+{
+"ep": "r1_friends_b2",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Hű, mi ez a sok virág?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Ma van a névnapom! Minden névnek van egy napja."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Tényleg?"
+],
+[
+"cheerful",
+"És az én nevemnek mikor van?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Várj, megnézem."
+],
+[
+"sad",
+"Sajnos nincs."
+]
+]
+},
+"5": {
+"segs": [
+[
+"sad",
+"Szóval nekem soha nincs névnapom?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Hát legyen az enyém a tiéd is. Fele-fele."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Komolyan?"
+],
+[
+"shy",
+"Nekem adod a fél névnapodat?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Igen."
+],
+[
+"teasing",
+"De a virág az enyém!"
+]
+]
+}
+}
+}

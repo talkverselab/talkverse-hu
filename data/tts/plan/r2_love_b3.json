@@ -1,0 +1,109 @@
+{
+"ep": "r2_love_b3",
+"cast": {
+"B": "anna",
+"C": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Nézd ezt a kis piros paprikát! Szerinted mennyire erős?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Ez? Ilyen kicsi nem lehet erős."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Csak óvatosan, kérem. Egy fazék gulyáshoz is elég egy darab."
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Hallod? Ha megeszed, szombaton én hívlak vacsorázni."
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Naná. Add ide, ez semmi."
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Na, mi van? Miért vagy ilyen piros?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Semmi baj..."
+],
+[
+"shout",
+"jaj, ég a szám!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Vizet ne! Hozzanak tejet, és hívják a férjemet!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"A férjét? Miért, ő orvos?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"Nem, ő fotóz mindenkit, aki megeszi. Nézze a falat!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Úristen, ott harminc piros arc van a falon."
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Szombat, hét óra. A képed meg az enyém lesz."
+]
+]
+}
+}
+}

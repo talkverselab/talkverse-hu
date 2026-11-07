@@ -1,0 +1,142 @@
+{
+"ep": "r3_work_b2",
+"cast": {
+"B": "bence",
+"C": "woman_o",
+"D": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Miért kap ma mindenki virágot? Mi történt?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Ma van Anna névnapja. Itt minden névnek van napja."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Minden névnek? Akkor nekem mikor van?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Várj, megnézem."
+],
+[
+"sad",
+"Sajnos a te neved nincs a naptárban."
+]
+]
+},
+"5": {
+"segs": [
+[
+"sad",
+"Jaj, de kár. Nekem soha nem lesz virágom?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Ne már!"
+],
+[
+"excited",
+"Nézd, felírom a táblára: ma {name} névnapja van."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Bence, ezt nem lehet! Ez nem igaz!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Boldog névnapot, kedves! Hoztam egy rétest."
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Köszönöm, néni, de... igazából nem..."
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Figyelj, már az egész utca tudja. Nézd, mennyi ember!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Elnézést, elfogyott az összes virágom. Ki ez a híres {name}?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Én vagyok."
+],
+[
+"tsukkomi",
+"De ez nem is ünnep!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"teasing",
+"Már igen. A polgármester is ide jön, és beszédet mond."
+]
+]
+},
+"14": {
+"segs": [
+[
+"shout",
+"Bence! Mi lesz holnap?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"amused",
+"Szerintem semmi. A jövő évi naptárba már beírták a neved."
+]
+]
+}
+}
+}

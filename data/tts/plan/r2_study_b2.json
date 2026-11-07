@@ -1,0 +1,117 @@
+{
+"ep": "r2_study_b2",
+"cast": {
+"B": "reka",
+"C": "man_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Éhes vagyok. Mit főzünk ma este?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Paprikás krumplit! Anna adott nekem paprikát."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Szuper. Mennyi paprika kell bele?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Szerintem egy kanál. Vagy egy zacskó?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Mindegy, mindjárt jövök. Csak lerakom a biciklit."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Kész!"
+],
+[
+"surprised",
+"De miért sírok?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Jaj, ne már! Mennyit tettél bele?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Az egészet."
+],
+[
+"worried",
+"Miért, mi ez a hang?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"A riasztó! Az egész emelet köhög a folyosón!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Tűzoltóság!"
+],
+[
+"stiff",
+"Mi ez a szag?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Bocsánat! Ez csak paprikás krumpli."
+]
+]
+},
+"12": {
+"segs": [
+[
+"excited",
+"Hű, ez nagyon jó! Van még hat tányér?"
+]
+]
+}
+}
+}

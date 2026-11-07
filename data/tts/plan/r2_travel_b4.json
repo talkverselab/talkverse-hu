@@ -1,0 +1,92 @@
+{
+"ep": "r2_travel_b4",
+"cast": {
+"B": "man_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Elnézést, tudja, miért állunk már negyven perce?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Nem baj, ráérünk. Kér egy pogácsát?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Köszönöm, szívesen."
+],
+[
+"excited",
+"Hű, ez nagyon finom!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"A feleségem süti. Tegeződjünk, ha már itt ülünk!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Jó, persze, {name} vagyok. Te hova mész?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Tamás. Fonyódra megyek, de előbb megeszem ezt a pogácsát."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Figyelj, szerinted mikor indul a vonat?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Szerintem mindjárt. Még két pogácsa van."
+]
+]
+},
+"9": {
+"segs": [
+[
+"tsukkomi",
+"Mi köze a pogácsának a vonathoz?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Hát, én vezetem a vonatot. Ebédszünet van."
+]
+]
+}
+}
+}

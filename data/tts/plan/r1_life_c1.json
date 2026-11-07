@@ -1,0 +1,77 @@
+{
+"ep": "r1_life_c1",
+"cast": {
+"B": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"annoyed",
+"Ki ette meg a rétesemet?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Nem én! Miért?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Semmi. Csak kérdezem."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Amúgy finom volt."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Aha! 😏",
+"Aha!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Jaj. Izé, bocsi."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Nem baj."
+],
+[
+"teasing",
+"Az szappan volt."
+]
+]
+},
+"8": {
+"segs": [
+[
+"sad",
+"Ja... ezért volt olyan tiszta."
+]
+]
+}
+}
+}

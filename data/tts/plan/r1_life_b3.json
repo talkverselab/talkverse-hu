@@ -1,0 +1,80 @@
+{
+"ep": "r1_life_b3",
+"cast": {
+"B": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Szia, hol a fehér pólóm? Edzésre megyek."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Kimostam mindent. Nézd, tiszta!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Köszi!"
+],
+[
+"surprised",
+"Várj, ez miért rózsaszín?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Hát... a piros kabátod is ott volt."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"És a törölközőm? A zoknim?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Minden rózsaszín. Bocsi."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Na, milyen volt a meccs?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Nyertünk!"
+],
+[
+"teasing",
+"Holnap jön a csapat a ruhákkal."
+]
+]
+}
+}
+}

@@ -1,0 +1,105 @@
+{
+"ep": "r2_travel_b1",
+"cast": {
+"B": "man_o",
+"C": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Figyelj, ezek a bácsik a vízben sakkoznak. Komolyan."
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Durva. Én csak egy kicsit tudok sakkozni."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Na, ülj ide! Harminc éve senki nem győzött le engem."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Jól van, de csak egy partit, rendben?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Mit csinálsz? Ezt a lovat miért oda tetted?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Nem tudom. Szép volt ott."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Várj, egy pillanat, ez matt!"
+],
+[
+"shout",
+"Úristen, harminc év!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Az egész fürdő ide jön! Mindenki téged néz!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"excited",
+"Holnap jön a másik fürdő csapata. Te játszol helyettem!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"flustered",
+"Azt se tudom, hogyan lép a ló!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Naná. Ezért nem látja senki, mit fogsz lépni."
+]
+]
+}
+}
+}

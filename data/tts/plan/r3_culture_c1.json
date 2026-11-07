@@ -1,0 +1,142 @@
+{
+"ep": "r3_culture_c1",
+"cast": {
+"B": "reka",
+"C": "anna",
+"D": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Szombaton Rékánál segítek a bolhapiacon. Eladó vagyok! 😄",
+"Szombaton Rékánál segítek a bolhapiacon. Eladó vagyok!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Úristen, tényleg ezt írtad ki? 😂",
+"Úristen, tényleg ezt írtad ki?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Igen, miért? Mi a baj?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Eladó az, aki árul, de az is, amit el lehet adni."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Mennyibe kerül, kedvesem? Tud krumplit pucolni?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Margit néni! Nem, én nem vagyok eladó!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Ötezer! De biciklit nem tud szerelni."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Hatezer, és adok hozzá bejglit."
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Ne már! Várjatok, törlöm!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Késő, már negyvenen nézik. Béla bácsi hétezret ad."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Béla bácsi?! Mi van itt?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"stiff",
+"Ötvenezer."
+]
+]
+},
+"13": {
+"segs": [
+[
+"surprised",
+"Anna?!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"amused",
+"Mi van? Eladtam egy rétest."
+]
+]
+},
+"15": {
+"segs": [
+[
+"excited",
+"Eladva! Szombaton viheted. 😘",
+"Eladva! Szombaton viheted."
+]
+]
+},
+"16": {
+"segs": [
+[
+"gentle",
+"Csak szépen csomagold be. 🎁",
+"Csak szépen csomagold be."
+]
+]
+}
+}
+}

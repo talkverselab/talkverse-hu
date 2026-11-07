@@ -1,0 +1,75 @@
+{
+"ep": "r1_life_c2",
+"cast": {
+"B": "david",
+"C": "woman_o",
+"D": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Figyelj, jön a néni!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Ne nyisd ki az ajtót!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Megint leves!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Kivel beszélsz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Jaj... ez a ház csoportja?!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Igen. Én is kérek levest!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Szép volt. 👏",
+"Szép volt."
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Holnap mindenkinek. Tíz liter."
+]
+]
+}
+}
+}

@@ -1,0 +1,74 @@
+{
+"ep": "r1_culture_c1",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Szia! Ébren vagy? 😄",
+"Szia! Ébren vagy?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Igen. Miért?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Most lájkoltad a képemet."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Melyiket?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"A régit. Nyolcéves vagyok rajta."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Jaj. Véletlenül."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Aha. Véletlenül."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Nem baj. Van még száz kép. 😏",
+"Nem baj. Van még száz kép."
+]
+]
+}
+}
+}

@@ -1,0 +1,112 @@
+{
+"ep": "r2_love_b4",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"shout",
+"Futás, ott jön az utolsó villamos!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Várj, bekötöm a cipőfűzőmet!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Anna, elment!"
+],
+[
+"worried",
+"Most mi lesz ebben a hidegben?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Hát, akkor gyalogolunk. Csak negyven perc a hídon át."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Negyven perc?"
+],
+[
+"annoyed",
+"Itt mínusz öt fok van!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Nem baj, nézd, milyen szép éjjel a Duna."
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Szép, de már nem érzem a lábam."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Gyere közelebb, mindjárt melegebb lesz."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Várj... a csizmádon nincs is cipőfűző."
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Tényleg? Hát ez furcsa."
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"Anna. Te direkt lekésted a villamost?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Csak még negyven percet akartam veled lenni."
+]
+]
+}
+}
+}

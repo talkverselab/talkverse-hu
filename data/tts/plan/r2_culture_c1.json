@@ -1,0 +1,107 @@
+{
+"ep": "r2_culture_c1",
+"cast": {
+"B": "anna",
+"C": "reka",
+"D": "bence"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Sziasztok! Szombaton buli nálam, ki mit hoz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Én bejglit hozok."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Mi az a bejgli?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Mákos vagy diós sütemény. Mindenki szereti."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Szuper! Akkor én is hozok."
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Én is bejglit hozok."
+]
+]
+},
+"7": {
+"segs": [
+[
+"neutral",
+"Itt vagyok."
+],
+[
+"surprised",
+"Már tizennégy bejgli van az asztalon."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Tizennégy?!"
+],
+[
+"worried",
+"Én még hozok hatot."
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"És ital? Ki hozott italt?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Izé... mindenki azt hitte, hogy valaki hoz."
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Csengetnek. A szomszéd néni kérdezi, kérünk-e bejglit. 😂",
+"Csengetnek. A szomszéd néni kérdezi, kérünk-e bejglit."
+]
+]
+}
+}
+}

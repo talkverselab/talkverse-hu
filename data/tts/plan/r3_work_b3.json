@@ -1,0 +1,140 @@
+{
+"ep": "r3_work_b3",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Már fél éve itt dolgozik, és jól dolgozik."
+],
+[
+"cheerful",
+"Tegeződjünk?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Tényleg?"
+],
+[
+"polite",
+"Ez nagy megtiszteltetés, igazgató úr!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Na, hagyjuk az igazgató urat. Laci vagyok."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shy",
+"Jó, akkor szia, Laci. Furcsa, de jó érzés."
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Látod, nem fáj. És hogy tetszik az új terv?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Mondjam őszintén, Laci?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Persze, most már tegeződünk."
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"Figyelj, ez a terv borzalmas. Ki írta, egy krumpli?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"stiff",
+"Hát... én írtam."
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Nem baj. Amúgy a nyakkendőd is csúnya, ha már tegeződünk."
+]
+]
+},
+"11": {
+"segs": [
+[
+"stiff",
+"A nyakkendőmet a feleségem vette."
+]
+]
+},
+"12": {
+"segs": [
+[
+"annoyed",
+"Tudod, mi még rossz, Laci? A fizetésem."
+]
+]
+},
+"13": {
+"segs": [
+[
+"annoyed",
+"Várj, azt mondtam, tegeződjünk."
+],
+[
+"shout",
+"Nem azt, hogy mondj el mindent!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"flustered",
+"Akkor... visszamagázhatom, igazgató úr?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"stiff",
+"Igen, kérem. Holnaptól Ön lesz az új terv felelőse."
+]
+]
+}
+}
+}

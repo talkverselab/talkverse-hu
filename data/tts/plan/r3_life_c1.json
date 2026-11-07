@@ -1,0 +1,139 @@
+{
+"ep": "r3_life_c1",
+"cast": {
+"B": "david",
+"C": "woman_o",
+"D": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Emberek, eltűnt Cirmi! Reggel óta nem láttam."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Jaj, milyen macska? Segítek keresni."
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Szürke, kövér, mindenkire mérges."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Találtam egy szürke macskát a kapu előtt!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Én is, a kukánál! Ez is szürke."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Várjatok! Hány macskája van Marika néninek?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"neutral",
+"Egy! De hozzátok ide, megnézem."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Már négy macska van nálunk. Az egyik a kanapén alszik."
+]
+]
+},
+"9": {
+"segs": [
+[
+"annoyed",
+"Hat. Az egyik megette a kolbászt."
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Hoztam még kettőt a pincéből. Szívesen!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"worried",
+"Amúgy most jut eszembe: allergiás vagyok a macskára. 🤧",
+"Amúgy most jut eszembe: allergiás vagyok a macskára."
+]
+]
+},
+"12": {
+"segs": [
+[
+"cheerful",
+"Megvan Cirmi! A szekrényben aludt a lépcsőn."
+]
+]
+},
+"13": {
+"segs": [
+[
+"tsukkomi",
+"Szuper. És most kié ez a nyolc macska?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"stiff",
+"Nem az enyém. Jó éjszakát."
+]
+]
+},
+"15": {
+"segs": [
+[
+"cheerful",
+"Nekem csak Cirmi kell. Puszi!"
+]
+]
+},
+"16": {
+"segs": [
+[
+"amused",
+"Eladó egy szekrény. Nyolc macska ingyen jár hozzá."
+]
+]
+}
+}
+}

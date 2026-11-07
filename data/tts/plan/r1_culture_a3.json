@@ -1,0 +1,76 @@
+{
+"ep": "r1_culture_a3",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Hű, ez a színész jól beszél magyarul!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Mi? Ez szinkron."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Szinkron? Tényleg?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Persze. Itt minden film szinkronos."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"De jó hangja van!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Tudom. Minden este hallom."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Minden este? Hogyhogy?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Az apám."
+],
+[
+"amused",
+"Otthon így kéri a sót."
+]
+]
+}
+}
+}

@@ -1,0 +1,101 @@
+{
+"ep": "r2_work_b3",
+"cast": {
+"B": "bence",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Figyelj, a néniknek itt azt mondjuk: csókolom."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Csókolom? Az mit jelent?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Igazából azt, hogy kezét csókolom. De ez csak köszönés."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Durva. És mindig így kell mondani?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Csak az idősebb néniknek."
+],
+[
+"excited",
+"Na, jön egy!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Csókollak, néni! Mit kér?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Tessék? Mit mondott, kedves?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Jaj, ne már! Csókolom, nem csókollak!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Bocsánat, néni! Nem akarom megcsókolni!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Kár. Ezt negyven éve nem mondta nekem senki."
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"Na, ő holnap is itt lesz."
+]
+]
+}
+}
+}

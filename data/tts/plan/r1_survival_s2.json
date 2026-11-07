@@ -1,0 +1,76 @@
+{
+"ep": "r1_survival_s2",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot! Mi a baj?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Jó napot!"
+],
+[
+"worried",
+"Nagyon fáj a fogam."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Melyik fog? Nyissa ki a száját!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Aaa... ott, hátul!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Aha, ez az. Nem fog fájni."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Jaj! Mit csinál?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Kész! Tessék, itt a foga."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"De hát ez a jó fogam volt!"
+]
+]
+}
+}
+}

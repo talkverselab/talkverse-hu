@@ -1,0 +1,73 @@
+{
+"ep": "r1_love_a4",
+"cast": {
+"B": "anna",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Szia! Táncolsz velem?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"shout",
+"Tessék? Nem hallom!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Azt kérdeztem: táncolsz velem?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"Mi van? Hangosabban, légyszi!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"TÁNCOLSZ VELEM?!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Na, táncolsz vele vagy nem?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Jaj, mindenki minket néz."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Nem baj. Én csak téged nézlek."
+]
+]
+}
+}
+}

@@ -1,0 +1,153 @@
+{
+"ep": "r3_travel_b3",
+"cast": {
+"B": "reka",
+"C": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Figyelj, ma te rendelsz. Eleget tanultál, már nem segítek."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Jól van, meg tudom csinálni."
+],
+[
+"worried",
+"Szeretnék, szeretnék..."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Mondd csak: szeretnék egy halászlét. Ez nem nehéz."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Jó estét! Mit hozhatok?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Jó estét, szeretlek!"
+],
+[
+"flustered",
+"Izé, egy halászlét!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Engem szeret, vagy a halászlét?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Jaj, bocsánat! Szeretnék egy halászlét!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Te jó ég, ezt felvettem."
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Semmi baj, ez a nap fénypontja."
+],
+[
+"polite",
+"Kér mellé kenyeret?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"polite",
+"Igen, köszönöm."
+],
+[
+"flustered",
+"Réka, töröld ki azt a videót, légyszi!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"Naná, hogy nem törlöm ki. Már elküldtem Annának."
+]
+]
+},
+"12": {
+"segs": [
+[
+"polite",
+"Tessék, a számla."
+],
+[
+"shy",
+"A halászlét a ház állja."
+]
+]
+},
+"13": {
+"segs": [
+[
+"surprised",
+"Hogyhogy? Mi van a számla hátulján?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Várj, ez egy telefonszám."
+],
+[
+"shy",
+"És alatta: én is szeretlek."
+]
+]
+},
+"15": {
+"segs": [
+[
+"teasing",
+"Na, látod? Mégis jól tanultál magyarul."
+]
+]
+}
+}
+}

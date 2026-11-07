@@ -1,0 +1,80 @@
+{
+"ep": "r1_culture_a4",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Szia! Nézd, mit csináltam!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Mit? A biciklidet?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Nem! A fejemet nézd!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Ja, persze! Rövid!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Na, és? Szép?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Nagyon szép a hájad!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"A mim?"
+],
+[
+"tsukkomi",
+"Haj, rövid a-val!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Bocsi!"
+],
+[
+"shy",
+"A hajad is szép."
+]
+]
+}
+}
+}

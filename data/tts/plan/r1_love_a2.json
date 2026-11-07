@@ -1,0 +1,80 @@
+{
+"ep": "r1_love_a2",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Figyelj, feltettem a krumplit a netre."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Engem? Komolyan?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Már ezer ember szereti."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Ezer? Úristen!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Egy néni meg akar venni."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"worried",
+"És eladsz?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Nem."
+],
+[
+"gentle",
+"Ez a krumpli az enyém."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Jaj. Most piros krumpli vagyok."
+]
+]
+}
+}
+}

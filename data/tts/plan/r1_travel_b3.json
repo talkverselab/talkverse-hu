@@ -1,0 +1,85 @@
+{
+"ep": "r1_travel_b3",
+"cast": {
+"B": "david",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Itt vagyunk Egerben!"
+],
+[
+"teasing",
+"Most bikavért iszunk."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Vért iszunk? Komolyan?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Naná, friss. Reggel még itt volt a bika."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"shout",
+"Én nem iszom vért!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Tessék, két pohár."
+],
+[
+"cheerful",
+"Egészségükre!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Hű, ez bor?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Persze, hogy bor! Csak így hívják."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Jól van. Kérek még egy pohár bikát."
+]
+]
+}
+}
+}

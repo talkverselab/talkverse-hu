@@ -1,0 +1,153 @@
+{
+"ep": "r3_love_b1",
+"cast": {
+"B": "anna",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Figyelj, ismered a leghosszabb magyar szót? Ha kimondod, a következő randit én fizetem."
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Naná. Tegnap éjjel három óráig gyakoroltam, mert tudtam, hogy ezzel jössz."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Komolyan?"
+],
+[
+"teasing",
+"Na, halljuk, de lassan, hogy élvezzem!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Megszentségtelenít... izé, hol tartottam?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Elnézést, jól hallom? Itt valaki a nagy szót próbálja kimondani?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Igen, de ez csak kettőnk között van. Nem kell semmit csinálni."
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Hölgyeim és uraim, figyelem! A kettes asztal most elmondja a leghosszabb magyar szót!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"worried",
+"Anna, miért áll fel mindenki?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"teasing",
+"Ja, tudod, ez itt szokás. Ha sikerül, ingyen vacsorázunk."
+]
+]
+},
+"10": {
+"segs": [
+[
+"worried",
+"És ha nem sikerül?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"stiff",
+"Akkor a vendég mosogat."
+],
+[
+"excited",
+"Tessék, mindenki figyel!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Megszentségteleníthetetlen... jaj, ez már nem magyar."
+]
+]
+},
+"13": {
+"segs": [
+[
+"polite",
+"Sajnálom. A konyha arra van, a kötényt megtalálja a széken."
+]
+]
+},
+"14": {
+"segs": [
+[
+"cheerful",
+"Hé, várjon! Két kötényt kérek."
+]
+]
+},
+"15": {
+"segs": [
+[
+"surprised",
+"Te miért jössz? Te nem hibáztál."
+]
+]
+},
+"16": {
+"segs": [
+[
+"shy",
+"Mert még nem akarok hazamenni."
+],
+[
+"gentle",
+"Te mosol, én törölök."
+]
+]
+}
+}
+}

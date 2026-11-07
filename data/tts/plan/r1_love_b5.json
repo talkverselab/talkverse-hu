@@ -1,0 +1,77 @@
+{
+"ep": "r1_love_b5",
+"cast": {
+"B": "anna",
+"C": "bence"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"annoyed",
+"Ki rajzolt szívet a kávédba?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Bence. Mindenkinek rajzol, ez a munkája."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Nekem soha nem rajzol szívet."
+],
+[
+"shout",
+"Bence!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Tessék, Anna. Mit kérsz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Figyelj: mostantól a kávéjába én rajzolok."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Jól van, tessék, itt a tej."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Anna, ez szív vagy krumpli?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Hát... te melyiket szeretnéd?"
+]
+]
+}
+}
+}

@@ -1,0 +1,138 @@
+{
+"ep": "r3_friends_b3",
+"cast": {
+"B": "reka",
+"C": "man_m",
+"D": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Figyelj, mit rendeltél tegnap? Egy teherautó áll a ház előtt."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Csak paprikát a gulyáshoz. Öt kilót, ha jól emlékszem."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Jó napot! Hová tegyem az ötszáz kilót?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Mennyit?!"
+],
+[
+"flustered",
+"Nem, nem, öt kilót kértem!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Itt az áll, hogy ötszáz. Maga rendelte, maga fizette."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Úristen, {name}!"
+],
+[
+"worried",
+"Ez hova fér el?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"A szobámba nem. Oda még a kanapé sem fért be."
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"Engem ez nem érdekel. A lépcsőre teszem, aztán megyek."
+]
+]
+},
+"9": {
+"segs": [
+[
+"annoyed",
+"Már megint maguk? Mi ez a szag, ez paprika?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Néni, nem kér véletlenül paprikát? Egy kiló csak ezer forint."
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Ezer? Hívom a lányomat, a szomszédokat, az egész utcát!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Várj, miért állnak sorban a lépcsőn? Ki ez a sok ember?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"excited",
+"Az egész utca gulyást főz. Hallod, ez király!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"excited",
+"Réka, mindent eladtunk! Még pénzünk is maradt!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"amused",
+"Tudom. Ezért rendeltem ötszáz kiló hagymát."
+]
+]
+}
+}
+}

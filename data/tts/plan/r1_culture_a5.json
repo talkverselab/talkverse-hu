@@ -1,0 +1,81 @@
+{
+"ep": "r1_culture_a5",
+"cast": {
+"B": "reka",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Na, egészségedre!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Egészségedre! Gyere, koccintsunk!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Ne már! Sörrel nem koccintunk!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Miért nem? Mi van?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Régi szokás."
+],
+[
+"worried",
+"Nézd, mindenki minket néz."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Jaj, bocsánat! Most mit csináljak?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Semmi baj!"
+],
+[
+"teasing",
+"Mindenkinek egy pálinka, és ön fizet."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Mindenkinek? Hány ember van itt?"
+]
+]
+}
+}
+}

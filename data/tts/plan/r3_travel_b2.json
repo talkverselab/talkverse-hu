@@ -1,0 +1,144 @@
+{
+"ep": "r3_travel_b2",
+"cast": {
+"B": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Csókolom, elnézést a késésért! Ez a Rózsa panzió, ugye?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Gyere be, gyere be!"
+],
+[
+"worried",
+"Jaj, de sovány vagy!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Köszönöm. Tudom, hogy késő van, de van még vacsora?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Hát persze! Húsleves, töltött káposzta, és ülj már le!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Hű, ez nagyon finom! A neten nem írták, hogy itt ilyen jó."
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Egyél még! Aztán alhatsz a kisszobában."
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Jó reggelt! Hol lehet fizetni, kártyával vagy készpénzzel?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Fizetni?"
+],
+[
+"gentle",
+"Hát ez nem hotel, egyél még egy kicsit!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Hogyhogy nem hotel? Ez nem a Rózsa panzió?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"Rózsa én vagyok. A panzió a szomszéd faluban van."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Úristen!"
+],
+[
+"flustered",
+"Akkor miért engedett be?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Azt hittem, az unokámhoz jöttél."
+]
+]
+},
+"13": {
+"segs": [
+[
+"flustered",
+"Jaj, nagyon sajnálom!"
+],
+[
+"polite",
+"Akkor én most megyek."
+]
+]
+},
+"14": {
+"segs": [
+[
+"gentle",
+"Hova mész? Az unokám úgyse jön, ebédre meg rakott krumpli lesz."
+]
+]
+},
+"15": {
+"segs": [
+[
+"cheerful",
+"Rózsa néni, és holnap mit főz?"
+]
+]
+}
+}
+}

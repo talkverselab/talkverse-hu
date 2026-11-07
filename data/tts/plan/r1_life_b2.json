@@ -1,0 +1,76 @@
+{
+"ep": "r1_life_b2",
+"cast": {
+"B": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Miért van itt ennyi virág?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Ma van a névnapom! Marika néni hozta."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Névnap? Az meg mi, születésnap?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Nem. Minden névnek van egy napja."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"És az én nevemnek?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Hát... sajnos az nincs a naptárban."
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Jaj. Szóval nekem soha nincs névnapom."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Nézd, beleírtam: holnap van."
+],
+[
+"teasing",
+"Te hozod a tortát!"
+]
+]
+}
+}
+}

@@ -1,0 +1,77 @@
+{
+"ep": "r1_life_b1",
+"cast": {
+"B": "david",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Mi ez a szag? Mit csinálsz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Gulyást főzök! Kóstold meg!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Hű, de piros!"
+],
+[
+"shout",
+"Úristen, víz!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Mi van? A recept szerint csináltam!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Mutasd! Mennyi paprikát tettél bele?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Egy kk. Az egy kiló, nem?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Kávéskanál! A kk kávéskanál!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Gyerekek, miért sír az egész ház?"
+]
+]
+}
+}
+}

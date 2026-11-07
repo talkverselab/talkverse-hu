@@ -1,0 +1,153 @@
+{
+"ep": "r3_friends_b2",
+"cast": {
+"B": "reka",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Réka, nézd, mit találtam a kanapéban! Egy régi levél."
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Pénz van benne? Mert ha igen, a fele az enyém."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Nincs pénz."
+],
+[
+"gentle",
+"„Drága Ilonka, szombaton várlak a hídnál.”"
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Hű, mikori ez? Nézd meg a dátumot!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Ezerkilencszázhatvannyolc. Ez a szó hosszabb, mint a levél."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"És mi lett? Eljött Ilonka a hídhoz, vagy nem?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Honnan tudnám?"
+],
+[
+"neutral",
+"A kanapét te vetted, kitől volt?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"sad",
+"Egy bácsitól a piacon. Már nem tudjuk meg, sajnos."
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Elnézést, ott van még a kanapé? Olyan jól ültem rajta."
+]
+]
+},
+"10": {
+"segs": [
+[
+"polite",
+"Csókolom! Tessék, üljön le, ezt most találtuk benne."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Várjanak... ez Pista írása."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Ismeri Pistát? És ki az az Ilonka?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Én vagyok Ilonka. Pista a férjem."
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Úristen!"
+],
+[
+"excited",
+"És elment a hídhoz?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"sad",
+"Nem kaptam meg. Hatvan éve mondja, hogy írt, és nem hittem neki."
+]
+]
+},
+"16": {
+"segs": [
+[
+"sad",
+"Jaj, most bocsánatot kell kérnem tőle."
+],
+[
+"amused",
+"De csak holnap!"
+]
+]
+}
+}
+}

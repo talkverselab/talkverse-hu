@@ -1,0 +1,113 @@
+{
+"ep": "r2_work_b1",
+"cast": {
+"B": "man_m",
+"C": "bence"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Elnézést, az állás miatt jöttem."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Az állás miatt?"
+],
+[
+"polite",
+"Tessék, üljön le."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Köszönöm. Nagyon szeretem a kávét, és gyorsan tanulok."
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Értem. És mit tud még?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Hétvégén is tudok dolgozni. Reggel hatkor is!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Hatkor? Hű, az durva."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Szóval... megkaptam az állást?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Szia, bocsi a késésért! Te jöttél az állás miatt?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Igen, de már beszéltem a főnökkel."
+],
+[
+"worried",
+"Ő az, ugye?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Én csak egy kávét szeretnék."
+],
+[
+"annoyed",
+"Húsz perce várok."
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Na jó, fel vagy véve."
+],
+[
+"teasing",
+"Vidd neki a kávét!"
+]
+]
+}
+}
+}

@@ -1,0 +1,112 @@
+{
+"ep": "r2_friends_b4",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Mi ez a füzet? Az én nevem van rajta."
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Jaj, add vissza! Az nem a tiéd."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Várj, „Meleg vagyok.” Ezt én mondtam!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Hát igen. Minden hibádat leírom."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Komolyan?"
+],
+[
+"annoyed",
+"Még a fél hetet is?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Persze, az a kedvencem."
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Ez nagyon gonosz, Réka. Csak nevetsz rajtam?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Olvasd el az utolsó oldalt."
+]
+]
+},
+"9": {
+"segs": [
+[
+"gentle",
+"„Ma {name} egy hibát sem csinált. Kicsit hiányzik.”"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"Na jó, elég. Add már vissza!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Réka, te sírsz?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Dehogy!"
+],
+[
+"shy",
+"Csak erős volt a paprika."
+]
+]
+}
+}
+}

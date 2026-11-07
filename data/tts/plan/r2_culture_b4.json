@@ -1,0 +1,109 @@
+{
+"ep": "r2_culture_b4",
+"cast": {
+"B": "anna",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Gyere, nézd a fát! Az a fehér cukorka a szaloncukor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Szép. Ehetek egyet?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Nem! Karácsonyig tilos, ez a szabály."
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Jól van, jól van. Csak megnézem."
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Ne nyúlj hozzá, apa számolja őket!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Várj... ez üres, ez is, ez is!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Az nem lehet! Hadd nézzem!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Mi folyik itt? Ki nyúlt a fához?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Jó estét, nem én! Az összes cukorka üres."
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Hát... tudod, ez egy nagyon régi magyar szokás."
+]
+]
+},
+"11": {
+"segs": [
+[
+"tsukkomi",
+"Apa, mi van a szádban?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Semmi."
+],
+[
+"amused",
+"A papírokat meg szépen visszaakasztottam."
+]
+]
+}
+}
+}

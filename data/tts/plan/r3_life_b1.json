@@ -1,0 +1,162 @@
+{
+"ep": "r3_life_b1",
+"cast": {
+"B": "david",
+"C": "man_y",
+"D": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Marika néni, tetszik jönni este?"
+],
+[
+"excited",
+"Meglepetésbulit csinálok Dávid névnapjára."
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Persze, hozok levest. Hányan lesztek?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Talán tízen. Kiírtam a netre: „Várunk minden Dávidot”, ugye jó?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Minden Dávidot? Nem „Dávid minden barátját”?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Jaj... az nem ugyanaz?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Szia, Dávid vagyok. Itt van a buli?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Szia! Te Dávid barátja vagy?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Nem, én csak egy másik Dávid vagyok. Lent jön még harminc."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Harminc?!"
+],
+[
+"flustered",
+"Marika néni, harminc Dávid jön fel a lépcsőn!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"tsukkomi",
+"Mondtam."
+],
+[
+"gentle",
+"Megyek, főzök még levest."
+]
+]
+},
+"11": {
+"segs": [
+[
+"cheerful",
+"Megjöttem!"
+],
+[
+"surprised",
+"Ki ez a sok ember a lakásomban?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"excited",
+"Boldog névnapot!"
+],
+[
+"flustered",
+"Ők mind Dávidok."
+]
+]
+},
+"13": {
+"segs": [
+[
+"surprised",
+"Mind?!"
+],
+[
+"annoyed",
+"Negyven Dávid van a konyhámban, és egyiket sem ismerem!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"worried",
+"Figyelj, egy rendőr van a lépcsőn. Panasz jött a zaj miatt."
+]
+]
+},
+"15": {
+"segs": [
+[
+"flustered",
+"Úristen! Mit akar?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"amused",
+"Azt mondja, ő is Dávid. És hol a leves?"
+]
+]
+}
+}
+}

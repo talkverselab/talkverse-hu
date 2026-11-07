@@ -1,0 +1,88 @@
+{
+"ep": "r1_life_b5",
+"cast": {
+"B": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Gyere be, éhes vagy? Főztem egy kis levest."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Köszönöm, nem vagyok éhes."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Egy kicsit! Tessék, itt a leves és a hús."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Nagyon finom!"
+],
+[
+"polite",
+"De most már elég."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Elég?"
+],
+[
+"sad",
+"Nem ízlik?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Dehogy! Csak tele vagyok."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Nem eszel?"
+],
+[
+"shout",
+"Hívom az orvost!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Jaj, ne!"
+],
+[
+"sad",
+"Jól van, kérek még."
+]
+]
+}
+}
+}

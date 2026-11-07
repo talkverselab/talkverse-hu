@@ -1,0 +1,76 @@
+{
+"ep": "r1_life_a5",
+"cast": {
+"B": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot!"
+],
+[
+"worried",
+"Nincs meleg víz."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Tényleg? Hát, most tél van."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Igen, és nagyon hideg van!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Jaj. Menjen a fürdőbe!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"A fürdőbe? Ez komoly?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Persze! Ott sok meleg víz van."
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Ön most hol van?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Én? A fürdőben, három hete."
+]
+]
+}
+}
+}

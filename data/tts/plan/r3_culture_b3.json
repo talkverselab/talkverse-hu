@@ -1,0 +1,149 @@
+{
+"ep": "r3_culture_b3",
+"cast": {
+"B": "reka",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Figyelj, apám szigorú. Csak mosolyogj, és ne mondj semmi okosat."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Nyugi, megtanultam tíz magyar közmondást. Imádni fog."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Tíz közmondást?"
+],
+[
+"worried",
+"Jaj, jön, mosolyogj!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Üdvözlöm, foglaljon helyet! Ön magyarul tanul, nehéz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Igen, de sehol sincs kolbászból a kerítés."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Hát, ez igaz. Jó mondás!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Hű, ez működött."
+],
+[
+"worried",
+"Most már elég, jó?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Kóstolja meg a pörköltet. Ezt én főztem, negyven éve ez a receptem."
+]
+]
+},
+"9": {
+"segs": [
+[
+"cheerful",
+"Köszönöm! Kutyából nem lesz szalonna!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Úristen, {name}, ezt most komolyan mondtad?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"annoyed",
+"Kutyából? Azt mondja, hogy kutyát főztem?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Nem, bocsánat! Bagoly mondja verébnek, hogy nagyfejű!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"annoyed",
+"Engem nagyfejűnek nevez?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"tsukkomi",
+"Kérlek, hallgass már! Tessék, egyél krumplit!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"cheerful",
+"Még hét van. Várj, ez jó: aki másnak vermet ás, maga esik bele!"
+]
+]
+},
+"16": {
+"segs": [
+[
+"amused",
+"Réka, hozd a pálinkát, negyven éve nem nevettem így!"
+],
+[
+"cheerful",
+"Tegeződjünk, {name}!"
+]
+]
+}
+}
+}

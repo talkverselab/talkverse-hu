@@ -1,0 +1,74 @@
+{
+"ep": "r1_culture_c3",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Kitetted a csizmádat?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Igen. Miért?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Ma éjjel jön a Mikulás! 🎅",
+"Ma éjjel jön a Mikulás!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Szuper. Mit hoz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Ha jó voltál: csokit."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"És ha nem?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Réka??"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Bocsi, virgácsért mentem. 😈",
+"Bocsi, virgácsért mentem."
+]
+]
+}
+}
+}

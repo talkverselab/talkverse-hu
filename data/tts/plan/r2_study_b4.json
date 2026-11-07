@@ -1,0 +1,112 @@
+{
+"ep": "r2_study_b4",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Anna, kölcsönadod a füzeted? Holnap vizsga."
+]
+]
+},
+"2": {
+"segs": [
+[
+"shy",
+"A füzetem? Hát, nem tudom."
+]
+]
+},
+"3": {
+"segs": [
+[
+"tsukkomi",
+"Ne már! Te mindig írsz az órán."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shy",
+"Igazából nem írok. Rajzolok."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Mindegy, add ide. Légyszi!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shy",
+"Jól van. De ne nézd sokáig."
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Nézzük, ez az első óra."
+],
+[
+"surprised",
+"Ki ez?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Hát... te."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Itt is én? Itt alszom!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Szépen alszol."
+],
+[
+"shy",
+"Tudod, egész félévben csak téged rajzoltalak."
+]
+]
+},
+"11": {
+"segs": [
+[
+"worried",
+"És holnap a vizsga?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Megbukom. Megéri."
+]
+]
+}
+}
+}

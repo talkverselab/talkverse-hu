@@ -1,0 +1,145 @@
+{
+"ep": "r3_love_b3",
+"cast": {
+"B": "david",
+"C": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Figyelj, Anna három napja nem válaszol. Szerinted most mit csináljak?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Mutasd! Hány üzenetet küldtél neki?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Csak tizennégyet. Az utolsó egy krumpli volt, szívvel."
+]
+]
+},
+"4": {
+"segs": [
+[
+"tsukkomi",
+"Te jó ég. Nem akarok semmit mondani, de ez durva."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Ne már! Először ő írt, és ő sütött nekem rétest."
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Oké, nyugodj meg, és legalább ma estig ne írj semmit."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Nem bírom. Már megírtam egy új üzenetet, hosszú és őszinte."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Add ide a telefont!"
+],
+[
+"surprised",
+"Várj, te kinek írsz?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"neutral",
+"Annának. Itt van a neve, nézd."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Figyelj, ez nem a te Annád. Ez a szomszéd Anna néni száma!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Mi van? A szomszédnak küldtem a krumplit is?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Várj, most jött válasz: „Köszönöm a krumplit, de nekem már van férjem.”"
+]
+]
+},
+"13": {
+"segs": [
+[
+"flustered",
+"Úristen! Akkor az igazi Anna mit gondol rólam?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"neutral",
+"Azt nem tudom, de valaki csenget. Kinyitom."
+]
+]
+},
+"15": {
+"segs": [
+[
+"sad",
+"Három napja várom, hogy írj. Azt hittem, már nem tetszem neked."
+]
+]
+},
+"16": {
+"segs": [
+[
+"gentle",
+"Anna, mindjárt mindent elmondok."
+],
+[
+"flustered",
+"Csak előbb bocsánatot kérek egy nénitől."
+]
+]
+}
+}
+}

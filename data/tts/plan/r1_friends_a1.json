@@ -1,0 +1,72 @@
+{
+"ep": "r1_friends_a1",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Bocsi! Jól vagy?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Igen, jól vagyok. Ez a te biciklid?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Réka vagyok. És te?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"{name} vagyok. Magyarul tanulok."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Hű, de jól beszélsz!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Köszi! Te is jól beszélsz magyarul!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Hát... én magyar vagyok."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Jaj. Ja, persze."
+]
+]
+}
+}
+}

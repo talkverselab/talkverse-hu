@@ -1,0 +1,97 @@
+{
+"ep": "r2_work_c2",
+"cast": {
+"B": "bence"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Szia! Ráérsz szombaton?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Szombaton dolgozom, de a fürdőbe szeretnék menni. Cserélünk?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Bence? Látom, hogy olvastad."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Légyszi! Hozok rétest is."
+]
+]
+},
+"5": {
+"segs": [
+[
+"sad",
+"Na jó, két rétest."
+]
+]
+},
+"6": {
+"segs": [
+[
+"annoyed",
+"Komolyan nem válaszolsz? Ez durva."
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Bocsi, eddig nem tudtam írni. A te műszakodat csinálom."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Az enyémet? Hogyhogy?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"tsukkomi",
+"Ma szombat van."
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Úristen. Mindjárt megyek!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"Két rétes. Emlékszel? 😇",
+"Két rétes. Emlékszel?"
+]
+]
+}
+}
+}

@@ -1,0 +1,77 @@
+{
+"ep": "r1_travel_c2",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Hol vagy? Indul a vonat!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Réka?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Elindult a vonat!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Jól vagy? Válaszolj, légyszi!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"sad",
+"Jaj. Egyedül megyek Egerbe."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Bocsi, aludtam. 😴",
+"Bocsi, aludtam."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"annoyed",
+"Hol vagy?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Mögötted ülök. Szép a sapkád."
+]
+]
+}
+}
+}

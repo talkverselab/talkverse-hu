@@ -1,0 +1,70 @@
+{
+"ep": "r1_love_c1",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Szia! Te is szereted a rétest? 😄",
+"Szia! Te is szereted a rétest?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Igen! Nagyon szeretem."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Na, melyik a kedvenced?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"A túrós."
+],
+[
+"shy",
+"Holnap ráérsz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Bocsi, túl gyors vagyok?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Jaj. Felejtsd el."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Bocsi, rétest sütöttem. Holnap hozok neked. 😇",
+"Bocsi, rétest sütöttem. Holnap hozok neked."
+]
+]
+}
+}
+}

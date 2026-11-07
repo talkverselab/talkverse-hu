@@ -1,0 +1,124 @@
+{
+"ep": "r3_travel_b4",
+"cast": {
+"B": "woman_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Na végre, már azt hittem, nem jössz! A hajam megfagyott."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Bocsi, a villamos megint késett."
+],
+[
+"excited",
+"Hű, kint mínusz öt, a víz meg forró!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Ez a tél legjobb része. Csak az arcod fázik, a többi nem."
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Szóval hoztad a sálamat? Balaton, Eger, Pécs: sokat látott már."
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Hoztam. Ott van a táskámban, az öltözőben."
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Akkor vége a kalandnak. Visszakapom, és kész."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Igen. Csak van egy gondom."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Mi az? Megint fél egyedül?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shy",
+"Nem ő. Ha visszaadom, nincs több okod írni nekem."
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Jaj, Zsófi. Tudod, hány sálam van otthon?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"shy",
+"Hány? Mondd!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Négy. És tudtam, hogy elvetted."
+]
+]
+},
+"13": {
+"segs": [
+[
+"surprised",
+"Tudtad? Akkor miért nem szóltál?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"shy",
+"Hát... a kesztyűmet is ott akartam hagyni."
+]
+]
+}
+}
+}

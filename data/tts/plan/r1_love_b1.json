@@ -1,0 +1,77 @@
+{
+"ep": "r1_love_b1",
+"cast": {
+"B": "anna",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Csak egy kis ebéd lesz a nagymamámnál, ne félj."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Szia, drágám! Egyél még egy kis gulyást!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Csókolom! Köszönöm, de már három tányérral ettem."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Az semmi! Anna, hozd a rétest is!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Figyelj, Anna, segíts, légyszi. Nem bírom."
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Na, és mikor lesz az esküvő? Már kész a torta!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"flustered",
+"Anna, mit mondtál neki rólam?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Hát... csak azt, hogy ma egy nagyon fontos embert hozok."
+]
+]
+}
+}
+}

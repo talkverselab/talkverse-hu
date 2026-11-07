@@ -1,0 +1,111 @@
+{
+"ep": "r2_life_c2",
+"cast": {
+"B": "woman_m",
+"C": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Szia, {name}! Dávid anyukája vagyok. 😊",
+"Szia, {name}! Dávid anyukája vagyok."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Csókolom! Honnan van meg a számom?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Dávid telefonjából."
+],
+[
+"worried",
+"Eszik rendesen?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Igen, azt hiszem. Miért?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Nem válaszol. Küldtem neki kolbászt."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"De jó! Mennyit?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Tíz kilót, neked is. Dávid mondta, hogy itt nincs családod."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Tényleg ezt mondta?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"gentle",
+"Igen. Azt mondta, te vagy itt a családja."
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Anya írt neked?! Ne olvasd el!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Már késő. 🥹",
+"Már késő."
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Na jó. De a kolbász az enyém."
+]
+]
+}
+}
+}

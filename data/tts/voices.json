@@ -1,0 +1,144 @@
+{
+ "_meta": "헝가리어 회화 음성 — 목소리·감정·자리 채움(일본어앱 data/tts/voices.json 과 같은 짜임). 참고 음성은 영어(VoxCPM2 가 헝가리어 미지원), 문장은 MOSS-TTS 가 헝가리어로 읽는다.",
+ "base_text": "I have a meeting this afternoon, so I am preparing everything now. Do you want to have dinner together afterwards?",
+ "voices": {
+  "am": {
+   "desc": "A young Hungarian man in his twenties, clear and gentle voice",
+   "kansai": false
+  },
+  "af": {
+   "desc": "A young Hungarian woman in her twenties, clear and soft voice",
+   "kansai": false
+  },
+  "anna": {
+   "desc": "A Hungarian woman in her early twenties, warm, sweet and curious voice",
+   "kansai": false
+  },
+  "reka": {
+   "desc": "A Hungarian woman in her early twenties, direct, playful and quick voice",
+   "kansai": false
+  },
+  "bence": {
+   "desc": "A Hungarian man in his mid twenties, relaxed, easygoing and slightly deep voice",
+   "kansai": false
+  },
+  "david": {
+   "desc": "A Hungarian man in his mid twenties, energetic, frank and strong voice",
+   "kansai": false
+  },
+  "man_y": {
+   "desc": "A Hungarian man around twenty, natural and clear voice",
+   "kansai": false
+  },
+  "man_m": {
+   "desc": "A Hungarian man in his forties, steady and calm voice",
+   "kansai": false
+  },
+  "man_o": {
+   "desc": "An elderly Hungarian man, low and slightly rough voice",
+   "kansai": false
+  },
+  "woman_y": {
+   "desc": "A Hungarian woman around twenty, natural and clear voice",
+   "kansai": false
+  },
+  "woman_m": {
+   "desc": "A Hungarian woman in her forties, steady and warm voice",
+   "kansai": false
+  },
+  "woman_o": {
+   "desc": "An elderly Hungarian woman, soft and slightly shaky voice",
+   "kansai": false
+  }
+ },
+ "emotions": {
+  "neutral": {
+   "instruct": "calm and natural, everyday tone",
+   "ref": "I have a meeting this afternoon, so I am preparing the documents now."
+  },
+  "polite": {
+   "instruct": "polite and professional, like a clerk or station staff",
+   "ref": "Good afternoon. Your order is ready. Please enjoy your meal."
+  },
+  "stiff": {
+   "instruct": "very nervous and stiff, formal and overly polite",
+   "ref": "Thank you very much for your time today. I will do my very best."
+  },
+  "cheerful": {
+   "instruct": "cheerful, bright and friendly",
+   "ref": "Oh, you made it! The weather is great and I feel wonderful today."
+  },
+  "amused": {
+   "instruct": "amused, laughing warmly, relaxed",
+   "ref": "Ha ha, that is so funny. Yes, keep going just like that."
+  },
+  "teasing": {
+   "instruct": "teasing, playful and mischievous",
+   "ref": "Oh, what is that face? Come on, be honest. I will not tell anyone."
+  },
+  "excited": {
+   "instruct": "excited, bursting with energy, bright and loud",
+   "ref": "No way, this is amazing! We really have to go there right now!"
+  },
+  "surprised": {
+   "instruct": "surprised, caught off guard, voice jumps",
+   "ref": "Wait, what? Really? I had no idea at all!"
+  },
+  "shout": {
+   "instruct": "surprised and loud, an exaggerated comic retort",
+   "ref": "Hey! What are you doing? Stop it right now!"
+  },
+  "tsukkomi": {
+   "instruct": "a quick sharp comic retort, exasperated but fond",
+   "ref": "Oh come on, that is not what I said at all!"
+  },
+  "annoyed": {
+   "instruct": "annoyed, irritated, sighing",
+   "ref": "Seriously, again? I told you this three times already."
+  },
+  "sad": {
+   "instruct": "sad, quiet, voice slightly trembling",
+   "ref": "I see. I thought it would be different this time."
+  },
+  "worried": {
+   "instruct": "worried and anxious, hesitant",
+   "ref": "Are you sure it is okay? I really do not know about this."
+  },
+  "flustered": {
+   "instruct": "flustered and embarrassed, stammering, unsure",
+   "ref": "Oh, no, I did not mean that, I just, um, sorry."
+  },
+  "shy": {
+   "instruct": "shy, soft, slightly trailing off",
+   "ref": "Well, if you are free, maybe we could go together."
+  },
+  "gentle": {
+   "instruct": "gentle, warm and tender, quiet",
+   "ref": "It is all right. I am here, so take your time."
+  }
+ },
+ "fill": {
+  "{name}": {
+   "m": {
+    "text": "Alex",
+    "rd": "얼레크쓰",
+    "ko": "알렉스"
+   },
+   "f": {
+    "text": "Emma",
+    "rd": "엠머",
+    "ko": "에마"
+   }
+  },
+  "{country}": {
+   "text": "Kanada",
+   "rd": "커너더",
+   "ko": "캐나다"
+  },
+  "{city}": {
+   "text": "Toronto",
+   "rd": "토론토",
+   "ko": "토론토"
+  }
+ }
+}

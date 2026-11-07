@@ -1,0 +1,101 @@
+{
+"ep": "r2_culture_b2",
+"cast": {
+"B": "reka",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Gyere, ma táncház van. Nem nehéz, csak figyelj a lábamra."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Komolyan? Nekem két bal lábam van."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Balra, jobbra, balra, ugrás! Egyszerű, ugye?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Jaj, bocsi! Ez a te lábad volt?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Igen, de nem baj."
+],
+[
+"annoyed",
+"Csak ne ugorj többet!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Elfelejtettem, melyik a bal. Forgok, és nem tudok megállni!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Várj, mi van? Nézd, a többiek is forognak!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Mi ez a lépés? Melyik faluból hoztad?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Izé... ez a mi falunk tánca."
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Hallottátok? Mától ez a neve: {name} tánca!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"Szóval jövő héten te tanítod. Százan jönnek."
+]
+]
+}
+}
+}

@@ -1,0 +1,109 @@
+{
+"ep": "r2_work_b2",
+"cast": {
+"B": "bence",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Na, első nap! Ma csak egy szabály van."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Jól van. Mi az?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"stiff",
+"A piros gombot ne nyomd meg."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Miért? Mit csinál?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Nem tudom. Nekem is ezt mondták."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Jó napot! Egy teát kérek."
+]
+]
+},
+"7": {
+"segs": [
+[
+"neutral",
+"Bence, egy kérdés."
+],
+[
+"worried",
+"A kávégép miért nem áll le?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Mit nyomtál meg?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shy",
+"A pirosat. Kíváncsi voltam."
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Úristen! Hozz még csészéket, gyorsan!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Már harminc csésze tele van, és a padlón is folyik!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"polite",
+"Elnézést... én teát kértem."
+]
+]
+}
+}
+}

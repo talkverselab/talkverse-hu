@@ -1,0 +1,80 @@
+{
+"ep": "r1_friends_a5",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Kérsz paprikát? Nem erős."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Tényleg nem erős?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Persze! Én is eszem."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Na jó."
+],
+[
+"shout",
+"Jaj, jaj, jaj!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Mi van? Nem erős!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Vizet! Gyorsan, vizet!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Tessék, igyál!"
+],
+[
+"flustered",
+"Ja, várj, ez nem víz."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Hát akkor mi?! Jaj!"
+]
+]
+}
+}
+}

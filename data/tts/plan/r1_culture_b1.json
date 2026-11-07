@@ -1,0 +1,81 @@
+{
+"ep": "r1_culture_b1",
+"cast": {
+"B": "anna",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Gyere, ez a kedvenc termem a múzeumban."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Várj, egy pillanat. Hova teszem a rétesemet?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Mindegy, tedd oda! Mindjárt visszajövünk."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Nézd, mennyi ember áll ott!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Mit néznek? Új mű?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Jaj."
+],
+[
+"shout",
+"Az ott az én rétesem!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Kérem, ne nyúljon hozzá!"
+],
+[
+"polite",
+"Egy úr már megvette."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Szóval gratulálok. Művész vagy."
+]
+]
+}
+}
+}

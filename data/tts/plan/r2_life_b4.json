@@ -1,0 +1,121 @@
+{
+"ep": "r2_life_b4",
+"cast": {
+"B": "david",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Figyelj, vettem egy szekrényt a bolhapiacon. Olcsó volt!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Hű, de nagy!"
+],
+[
+"worried",
+"Biztos, hogy befér?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Persze, gyerünk! Te alulról fogod, én felülről."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"Várj, várj!"
+],
+[
+"flustered",
+"Megállt, nem megy tovább!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Hogyhogy nem megy? Told még egy kicsit!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"annoyed",
+"Tolom!"
+],
+[
+"worried",
+"De most már visszafelé sem megy."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Gyerekek, én hogy megyek le a boltba?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Jaj, Marika néni! Mindjárt megoldjuk!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Dávid, az egész ház itt áll. Feri bácsi hívta a tűzoltókat."
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Tűzoltókat?!"
+],
+[
+"tsukkomi",
+"Ne már, ez csak egy szekrény!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Semmi baj, gyerekek. Tessék, átadom a levest a szekrény fölött."
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Dávid... a tűzoltók is levest kérnek."
+]
+]
+}
+}
+}

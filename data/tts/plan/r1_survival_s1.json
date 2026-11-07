@@ -1,0 +1,72 @@
+{
+"ep": "r1_survival_s1",
+"cast": {
+"B": "bence"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot! Mit kér?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Jó napot! Egy kávét kérek."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Tejjel és cukorral?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Igen, köszönöm."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Süteményt is kér?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Igen, igen."
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Akkor egy kávé, három sütemény és egy rétes!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Jaj, várjon! Csak egy kávét kérek!"
+]
+]
+}
+}
+}

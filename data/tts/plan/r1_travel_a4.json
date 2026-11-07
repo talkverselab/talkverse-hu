@@ -1,0 +1,72 @@
+{
+"ep": "r1_travel_a4",
+"cast": {
+"B": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó estét! Tessék, a szoba kulcsa."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Köszönöm. Van kilátás a Dunára?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Persze. Szép kilátás, nézze meg!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Elnézést, az ablakból csak egy falat látok."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"És a falon mi van?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Egy kép... a Dunáról."
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Na, látja? Kilátás a Dunára."
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Komolyan? Ezért fizettem?"
+]
+]
+}
+}
+}

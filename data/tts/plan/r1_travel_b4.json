@@ -1,0 +1,73 @@
+{
+"ep": "r1_travel_b4",
+"cast": {
+"B": "woman_o",
+"C": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Tessék, néni, üljön le!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"annoyed",
+"Néni? Hány évesnek néz engem?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"flustered",
+"Elnézést, én csak kedves akartam lenni."
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Ha ő nem akar, leülök én."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Maga csak álljon ott!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Mi van? Ki maga, hogy ezt mondja?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Elnézést... én itt inkább leszállok."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Nem baj, ő a férjem. Mindig ilyen."
+]
+]
+}
+}
+}

@@ -1,0 +1,115 @@
+{
+"ep": "r2_travel_c1",
+"cast": {
+"B": "reka",
+"C": "david"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Hétvégén Eger? Hárman, Dávid kocsijával?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Oké! Jön az öcsém is, ha nem baj."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Jó, akkor én hozom Annát meg Bencét."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Várjatok, az már hat ember! Öt hely van!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Nem baj. Szóltam a focicsapatnak is. ⚽",
+"Nem baj. Szóltam a focicsapatnak is."
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Hányan vannak?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Tizenegyen. Plusz az edző."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Mi van, tizennyolc ember?"
+],
+[
+"worried",
+"Mivel megyünk?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"gentle",
+"Nyugi, megoldom."
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Szuper hír! Vettem egy buszt a bolhapiacon. 🚌",
+"Szuper hír! Vettem egy buszt a bolhapiacon."
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Király!"
+],
+[
+"neutral",
+"Jár is?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Nem tudom. Szép."
+]
+]
+}
+}
+}

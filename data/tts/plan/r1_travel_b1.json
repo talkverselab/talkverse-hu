@@ -1,0 +1,88 @@
+{
+"ep": "r1_travel_b1",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Figyelj, leszállok egy lángosért. Két perc!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"shout",
+"Várj!"
+],
+[
+"worried",
+"A vonat mindjárt indul!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Nyugi! Fogd a biciklimet és a táskámat."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Réka, hol vagy?"
+],
+[
+"shout",
+"Már megy a vonat!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Szia, ez egy néni telefonja."
+],
+[
+"flustered",
+"Itt maradtam!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Mi van?"
+],
+[
+"worried",
+"Nálam van a táskád és a biciklid!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Réka? Te hogyhogy már itt vagy?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"A néni elhozott kocsival. A lángosod már hideg."
+]
+]
+}
+}
+}

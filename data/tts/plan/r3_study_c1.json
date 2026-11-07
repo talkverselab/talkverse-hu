@@ -1,0 +1,148 @@
+{
+"ep": "r3_study_c1",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Tisztelt Professzor Úr! Mikor lesz a vizsga?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Elnézést, újra én vagyok. Megkapta az üzenetemet?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"A dátum sajnos nagyon fontos lenne nekem."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Tudom, hogy sok a dolga, de egy szó is elég lenne."
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Ha nem írhat, kérem, küldjön egy pontot."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shy",
+"A dolgozatom is kész, ha ez érdekli."
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Szerintem látta az üzeneteimet, mert a rendszer azt mutatja: olvasva."
+]
+]
+},
+"8": {
+"segs": [
+[
+"sad",
+"Ha egy szót sem ír, azt fogom gondolni, hogy rosszul írtam valamit."
+]
+]
+},
+"9": {
+"segs": [
+[
+"annoyed",
+"Professzor Úr, él még?"
+],
+[
+"flustered",
+"Bocsánat, ezt nem akartam elküldeni."
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Ha a múltkori puszi miatt haragszik, azt Réka írta."
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Úristen."
+],
+[
+"polite",
+"Mindegy, jó éjszakát, holnap is írok."
+]
+]
+},
+"12": {
+"segs": [
+[
+"stiff",
+"Kedves {name}! Mind a tizenegyet elolvastam."
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Szándékosan nem válaszoltam: egyre jobban írt magyarul."
+]
+]
+},
+"14": {
+"segs": [
+[
+"gentle",
+"A feltételes mód már szinte tökéletes."
+]
+]
+},
+"15": {
+"segs": [
+[
+"worried",
+"És a vizsga mikor lesz?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"amused",
+"Ez volt a vizsga, ötös."
+],
+[
+"teasing",
+"Puszi, Kovács"
+]
+]
+}
+}
+}

@@ -1,0 +1,76 @@
+{
+"ep": "r1_life_b4",
+"cast": {
+"B": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot! Fél nyolcra jöttem az orvoshoz."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Fél nyolcra? Most fél kilenc van!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Igen, fél nyolc. Nyolc és fél, nem?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Nem. A fél nyolc az hét harminc."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Hét harminc?"
+],
+[
+"tsukkomi",
+"De ott van a nyolc!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Hát igen, ez magyar idő."
+],
+[
+"polite",
+"Jöjjön holnap háromnegyed nyolcra!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Háromnegyed?!"
+],
+[
+"worried",
+"Kérem, mondja számmal!"
+]
+]
+}
+}
+}

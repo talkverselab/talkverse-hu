@@ -1,0 +1,110 @@
+{
+"ep": "r2_friends_c1",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Figyelj, a buli titok! Réka nem tudhatja!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Szombaton nyolckor, Bencénél. Ne szólj neki!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Aha. Milyen buli?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"tsukkomi",
+"Hát Réka szülinapja! Elfelejtetted?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Ja, persze. És mit veszünk neki?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Új sisakot. A régi nagyon ronda."
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Ronda?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Mint egy fazék a fején!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"teasing",
+"{name}. Nézd meg, kinek írsz. 😇",
+"{name}. Nézd meg, kinek írsz."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Úristen."
+],
+[
+"flustered",
+"Réka, ne már!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"Szombaton ott leszek. Nagyon meglepődöm."
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Ja, és a fazék marad. 😄",
+"Ja, és a fazék marad."
+]
+]
+}
+}
+}

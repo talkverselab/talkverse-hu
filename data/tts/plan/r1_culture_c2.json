@@ -1,0 +1,76 @@
+{
+"ep": "r1_culture_c2",
+"cast": {
+"B": "anna",
+"C": "reka",
+"D": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Új rajzom! 🎨",
+"Új rajzom!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Hű! Szép krumpli! 😄",
+"Hű! Szép krumpli!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Krumpli?!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Jaj. {name}, ez Réka."
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Bocsi! Szép Réka!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Réka, mi van az arcoddal?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Anyu! Ne írj ide!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Szerintem szép krumpli vagy, kicsim."
+]
+]
+}
+}
+}

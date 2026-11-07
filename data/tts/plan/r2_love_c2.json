@@ -1,0 +1,100 @@
+{
+"ep": "r2_love_c2",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"shy",
+"Szia! Pénteken kiállításom lesz, nem nagy. 😊",
+"Szia! Pénteken kiállításom lesz, nem nagy."
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Hű, de jó! Hol?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Az egyetemen. De csak húsz jegy van."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Akkor nekem is jut?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Csak egy maradt. Kinek adjam?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Csók nekem! 😄",
+"Csók nekem!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Tessék? 😳",
+"Tessék?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Jaj, bocsi! Csak nekem, nem csók!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"teasing",
+"Aha. Szóval csók nincs."
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Izé... nem így értettem!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"A jegy a tiéd. A másikról pénteken beszélünk. 😇",
+"A jegy a tiéd. A másikról pénteken beszélünk."
+]
+]
+}
+}
+}

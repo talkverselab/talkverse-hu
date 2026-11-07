@@ -1,0 +1,138 @@
+{
+"ep": "r3_friends_b4",
+"cast": {
+"B": "reka",
+"C": "bence",
+"D": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"annoyed",
+"Réka, két hete kerülöd a kávézót. Miattad otthon iszom rossz kávét."
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Nem megyek oda többet. Az a madár mindent elrontott."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Na, gyere már! Hozd a madarat is, és essünk túl rajta."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Hű, Réka, de rég láttalak! Add ide egy pillanatra azt a madarat."
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Miért? Mit akarsz vele?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Várj, ezt a foltot ismerem. Pityu, te vagy az?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Bence, szeretlek! Bence, szeretlek!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Úristen, ez tényleg ő! A nagymamám madara, tíz éve elveszett."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Mi van? Akkor ki tanította neki ezt a mondatot?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"A nagymamám. Minden reggel ezt mondta nekem, a madár meg hallotta."
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Réka, hallod? Szóval nem tőled tanulta!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Ja, azt hittem, te tanítottad neki. Kár, már örültem."
+]
+]
+},
+"13": {
+"segs": [
+[
+"sad",
+"Nem, nem én tanítottam."
+]
+]
+},
+"14": {
+"segs": [
+[
+"sad",
+"Értem. Hát, jó."
+]
+]
+},
+"15": {
+"segs": [
+[
+"shy",
+"De attól még igaz."
+]
+]
+},
+"16": {
+"segs": [
+[
+"cheerful",
+"Bence, szeretlek!"
+]
+]
+}
+}
+}

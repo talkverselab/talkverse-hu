@@ -1,0 +1,115 @@
+{
+"ep": "r2_love_c1",
+"cast": {
+"B": "reka",
+"C": "anna",
+"D": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Csináltam egy csoportot. Sziasztok! 😎",
+"Csináltam egy csoportot. Sziasztok!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"tsukkomi",
+"Réka, ez mi? Miért vagyunk csak hárman?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Szia! Réka azt mondta, te akarsz kérdezni valamit. 😳",
+"Szia! Réka azt mondta, te akarsz kérdezni valamit."
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Én? Nekem azt mondta, hogy te akarsz."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Jaj, de lassúak vagytok."
+],
+[
+"teasing",
+"Anna tetszik neked, te tetszel neki."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"RÉKA!!!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Várj, ez igaz?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Bocsi, Anna anyukáját is hozzáadtam. Véletlenül. 😇",
+"Bocsi, Anna anyukáját is hozzáadtam. Véletlenül."
+]
+]
+},
+"9": {
+"segs": [
+[
+"cheerful",
+"Szervusztok! Ki ez a {name}, aki tetszik?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"ANYA, NE! 😱",
+"ANYA, NE!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"cheerful",
+"Akkor vasárnap ebéd nálunk. Hoztok rétest?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Gyere, légyszi. Melléd ülök. 🙈",
+"Gyere, légyszi. Melléd ülök."
+]
+]
+}
+}
+}

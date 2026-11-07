@@ -1,0 +1,113 @@
+{
+"ep": "r2_study_c2",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"sad",
+"Megjött az eredmény. Sajnos ötös lett. 😢",
+"Megjött az eredmény. Sajnos ötös lett."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Sajnos? Mi van?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"sad",
+"Nagyon sokat tanultam, és csak ötös."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Várj. Szerinted melyik a legjobb jegy?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Az egyes, nem? Egyes, első, legjobb."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Úristen, nálunk az ötös a legjobb!"
+],
+[
+"neutral",
+"Az egyes azt jelenti: megbuktál."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Komolyan?"
+],
+[
+"excited",
+"Akkor szuper vagyok!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Naná! Gratulálok!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Várj. Jaj."
+]
+]
+},
+"10": {
+"segs": [
+[
+"neutral",
+"Mi az?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Anna tegnap egyest kapott. Tortát vettem neki."
+]
+]
+},
+"12": {
+"segs": [
+[
+"tsukkomi",
+"Szóval ezért sírt, amikor énekeltél?"
+]
+]
+}
+}
+}

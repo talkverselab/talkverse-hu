@@ -1,0 +1,85 @@
+{
+"ep": "r1_culture_b4",
+"cast": {
+"B": "anna",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Figyelj! A nagyinál ne mondd, hogy finom."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Hogyhogy? És ha tényleg finom?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Egyél, kedvesem! Itt a húsleves."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Köszönöm!"
+],
+[
+"excited",
+"Hű, ez nagyon finom!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Jaj, {name}..."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Finom?"
+],
+[
+"excited",
+"Akkor még egy tányérral!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Köszönöm, de már nem tudok enni."
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Nem ízlik?!"
+],
+[
+"excited",
+"Akkor főzök valami mást!"
+]
+]
+}
+}
+}

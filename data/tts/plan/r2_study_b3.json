@@ -1,0 +1,101 @@
+{
+"ep": "r2_study_b3",
+"cast": {
+"B": "man_m",
+"C": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot! Húzzon egy tételt."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Jó napot. Hát, a tizenhármas."
+]
+]
+},
+"3": {
+"segs": [
+[
+"stiff",
+"Szóval, a szív. Mit tud a szívről?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"A szívről? Hát, ha szeretünk, gyorsabban ver."
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Érdekes. És most hogy ver az Öné?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Nagyon gyorsan. Igazából ezt nem tanultam."
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Őszinte válasz."
+],
+[
+"stiff",
+"Négyes, a következő!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Hol voltál? A te vizsgád a földszinten van, már elkezdődött!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Mi van? Akkor ez milyen vizsga volt?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"Ez? Orvosi, harmadéveseknek."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Négyest kaptam."
+]
+]
+}
+}
+}

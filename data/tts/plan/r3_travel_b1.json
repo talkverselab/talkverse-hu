@@ -1,0 +1,142 @@
+{
+"ep": "r3_travel_b1",
+"cast": {
+"B": "david",
+"C": "woman_o",
+"D": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Dávid, baj van. Az öltözőben valaki elvitte a ruhámat."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Hogyhogy elvitte? Mi maradt a szekrényben?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Csak ez a sötétkék kabát, egy sapka meg egy kis gép."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Várj, ez egy ellenőr egyenruhája!"
+],
+[
+"amused",
+"Legalább meleg."
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Viccelsz? Ebben menjek haza a villamossal?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Nincs más, kint mínusz tíz fok van. Gyere!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Jó napot! Tessék, itt a bérletem, érvényes!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Izé... köszönöm, jó."
+]
+]
+},
+"9": {
+"segs": [
+[
+"excited",
+"Nézd! Mindenki előveszi a jegyét, és neked adja."
+]
+]
+},
+"10": {
+"segs": [
+[
+"annoyed",
+"Az a bácsi ott nem mutatta meg a jegyét! Büntesse meg!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"stiff",
+"Hát... elnézést, van jegye?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Várj, ott jön valaki. Az a te pulcsid!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"polite",
+"Jó napot! Jegyeket, bérleteket kérek!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"polite",
+"Jó napot, kolléga!"
+],
+[
+"stiff",
+"Az a pulcsi az enyém."
+]
+]
+},
+"15": {
+"segs": [
+[
+"neutral",
+"És az a kabát az enyém."
+],
+[
+"amused",
+"De tartsa meg estig, én visszamegyek a fürdőbe."
+]
+]
+}
+}
+}

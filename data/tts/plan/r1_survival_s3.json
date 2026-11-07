@@ -1,0 +1,84 @@
+{
+"ep": "r1_survival_s3",
+"cast": {
+"B": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Elnézést! Hol van a kórház?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"A kórház? Menjen egyenesen, aztán balra!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Köszönöm!"
+],
+[
+"sad",
+"Nagyon fáj a lábam."
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Nincs messze, csak öt perc."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Elnézést, hol van a..."
+],
+[
+"surprised",
+"Jaj, megint maga?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Már harmadszor jön erre!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Igen, sajnos. Most már nagyon fáj a lábam."
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Hát nézze!"
+],
+[
+"amused",
+"A kórház ott van, maga mögött."
+]
+]
+}
+}
+}

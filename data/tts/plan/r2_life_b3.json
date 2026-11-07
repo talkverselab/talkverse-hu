@@ -1,0 +1,109 @@
+{
+"ep": "r2_life_b3",
+"cast": {
+"B": "david",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Gyere, megmutatom, hogy kell gyorsan úszni. Nézd!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Hű, te tényleg gyors vagy!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Bocsánat, kisfiam, mehetek?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Persze, tessék."
+],
+[
+"surprised",
+"Várj, ez Marika néni?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Csókolom! Hogy tetszik lenni?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Jól, csak ez a fiú lassú. Nem baj, még fiatal."
+]
+]
+},
+"7": {
+"segs": [
+[
+"annoyed",
+"Lassú?! Na, jöjjön, két hossz!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Dávid, ne már! Nyolcvan éves!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Nyolcvankettő. Mehetünk?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Ez nem lehet! Hogy csinálta?!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Régen az olimpián úsztam, kisfiam. Ne siess, még fiatal vagy."
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Marika néni... nem edzene engem?"
+]
+]
+}
+}
+}

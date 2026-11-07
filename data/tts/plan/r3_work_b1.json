@@ -1,0 +1,144 @@
+{
+"ep": "r3_work_b1",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot, foglaljon helyet! Sajnos ma nem működik a légkondi."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Semmi baj. Köszönöm, hogy behívott."
+]
+]
+},
+"3": {
+"segs": [
+[
+"stiff",
+"Szóval, miért szeretne nálunk dolgozni?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Mert szeretek emberekkel beszélni, és tavaly óta magyarul is tudok."
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Nagyszerű. Mi a legnagyobb gyengesége?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shy",
+"Hát, igazából a ragok. Néha rosszul mondom őket."
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Így is jól beszél."
+],
+[
+"worried",
+"De piros az arca, minden rendben?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Elnézést, nagyon meleg vagyok."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Ó, köszönöm, hogy elmondta."
+],
+[
+"polite",
+"Nálunk ez nem probléma."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Tényleg?"
+],
+[
+"neutral",
+"Pedig reggel óta nagyon meleg vagyok, nyáron mindig."
+]
+]
+},
+"11": {
+"segs": [
+[
+"stiff",
+"Nyáron? És télen nem?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"neutral",
+"Télen nem. Télen nagyon hideg vagyok."
+]
+]
+},
+"13": {
+"segs": [
+[
+"surprised",
+"Várjon... Ön azt akarja mondani, hogy melege van?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"cheerful",
+"Igen, melegem van!"
+],
+[
+"worried",
+"Miért, mit mondtam?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"amused",
+"Semmit. Holnap kezdhet, a gyengeségét már ismerjük."
+]
+]
+}
+}
+}

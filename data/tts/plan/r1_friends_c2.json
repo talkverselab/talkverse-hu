@@ -1,0 +1,77 @@
+{
+"ep": "r1_friends_c2",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"annoyed",
+"Figyelj, miért hívnak engem?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Kik? Nem tudom."
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Már tíz ember!"
+],
+[
+"annoyed",
+"Kérik a biciklimet."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Jaj. Az a hirdetés..."
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Milyen hirdetés?! Mit írtál?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Olcsó bicikli: ingyen. Ez olcsó, nem?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Nem! Az nulla!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"Most száz ember áll a háznál. 😱",
+"Most száz ember áll a háznál."
+]
+]
+}
+}
+}

@@ -1,0 +1,144 @@
+{
+"ep": "r3_culture_b4",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Gyere velem ma este. Mindenszentek van, kimegyünk a temetőbe."
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"A temetőbe, este? Hát, nem ez a legjobb randi."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Ki mondta, hogy randi? Várj, amíg meglátod."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Te jó ég, ez gyönyörű."
+],
+[
+"gentle",
+"Hány gyertya ég itt?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Több ezer. Ilyenkor az egész ország kijön, tudod."
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Azt hittem, ez szomorú lesz. De mindenki halkan beszélget."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Nem sírunk, csak eljövünk hozzájuk."
+],
+[
+"sad",
+"Itt van a nagypapám."
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Jó estét..."
+],
+[
+"flustered",
+"izé, nem tudom, mit kell itt mondani."
+]
+]
+},
+"9": {
+"segs": [
+[
+"gentle",
+"Semmit, ő szerette a csendet. Majd én beszélek."
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Szia, nagypapa, hoztam valakit!"
+],
+[
+"shy",
+"Igen, ő az, akiről meséltem."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Rólam meséltél neki? Mikor?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Tavasszal. Hoztam neki virágot, és mindent elmondtam."
+]
+]
+},
+"13": {
+"segs": [
+[
+"surprised",
+"Mindent?"
+],
+[
+"shy",
+"Mi az a minden?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"gentle",
+"Hogy van valaki, aki krumplinak hívta a rajzomat."
+],
+[
+"shy",
+"És hogy azóta nem tudok mást rajzolni."
+]
+]
+}
+}
+}

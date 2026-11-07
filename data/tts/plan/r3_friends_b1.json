@@ -1,0 +1,130 @@
+{
+"ep": "r3_friends_b1",
+"cast": {
+"B": "reka",
+"C": "man_m",
+"D": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot kívánok! Jegyeket, bérleteket kérem!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Réka, mit akar? Nekem nincs jegyem, otthon maradt a táskámban."
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Nyugi, mondd neki, hogy új vagy itt. Néha működik."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Elnézést, új vagyok. Csak két hete lakom Budapestben."
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Budapestben? Jaj, ne már, Budapesten!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Bocsánat. És akkor Szegedben?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Szegeden, drágám! De Győrben, ezt mindenki tudja."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Miért nem Győrön? Mi itt a szabály?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"stiff",
+"Szabály? Ez Magyarország, itt csak hallani kell."
+]
+]
+},
+"10": {
+"segs": [
+[
+"annoyed",
+"Hát nem, szabály igenis van! Gyere el hozzám, megtanítalak!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Emberek, szavazzunk! Ki mondja, hogy Pécsen, és ki, hogy Pécsben?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"tsukkomi",
+"{name}, az egész villamos szavaz. Mit csináltál?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"flustered",
+"Semmit! Csak nincs jegyem, szóljak neki még egyszer?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"annoyed",
+"Ne szólj! Már a végállomáson állunk, mindenki vitatkozik."
+]
+]
+},
+"15": {
+"segs": [
+[
+"excited",
+"Hagyja a jegyet! Holnap ugyanitt, kilenckor: Miskolc!"
+]
+]
+}
+}
+}

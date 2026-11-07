@@ -1,0 +1,78 @@
+{
+"ep": "r1_love_c4",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Szia! Alszol?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"shy",
+"Csak egy kérdés."
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Holnap múzeum? Velem?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Jaj. Túl sokat írok?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"sad",
+"Mindegy. Felejtsd el. 😅",
+"Mindegy. Felejtsd el."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Bocsi, elaludtam!"
+],
+[
+"excited",
+"Igen, múzeum!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Nem én írtam. A macskám volt. 😳",
+"Nem én írtam. A macskám volt."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"A macskád cuki. Ő is jön?"
+]
+]
+}
+}
+}

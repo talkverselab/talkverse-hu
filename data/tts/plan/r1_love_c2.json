@@ -1,0 +1,77 @@
+{
+"ep": "r1_love_c2",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Réka, Anna nagyon cuki!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"shy",
+"Mit írjak neki?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Szia. Anna vagyok. 😄",
+"Szia. Anna vagyok."
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Úristen. Rossz chat!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Réka, segíts! Mit mondjak?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Még mindig én vagyok."
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Jó. Elköltözöm."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Ne már!"
+],
+[
+"gentle",
+"Holnap is cuki leszek."
+]
+]
+}
+}
+}

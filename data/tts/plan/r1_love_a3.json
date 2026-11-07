@@ -1,0 +1,72 @@
+{
+"ep": "r1_love_a3",
+"cast": {
+"B": "anna"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Kóstold meg! Én sütöttem."
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Hű, de finom!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Tényleg? Szereted?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Igen! Nagyon szeretlek!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Tessék? Mit mondtál?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Jaj, nem! A rétest szeretem!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Aha. Csak a rétest?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Hát... a rétest is."
+]
+]
+}
+}
+}

@@ -1,0 +1,77 @@
+{
+"ep": "r1_friends_c4",
+"cast": {
+"B": "reka"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Piacon vagyok. Mit hozzak?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Haha, egy lovat!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Oké."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Réka? Ez vicc volt."
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Fehér vagy fekete?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Ne már! Nem kell ló!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Késő. A kapud előtt áll. 😄",
+"Késő. A kapud előtt áll."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Úristen."
+],
+[
+"flustered",
+"Mit eszik?!"
+]
+]
+}
+}
+}

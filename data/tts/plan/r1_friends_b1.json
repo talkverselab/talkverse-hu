@@ -1,0 +1,81 @@
+{
+"ep": "r1_friends_b1",
+"cast": {
+"B": "reka",
+"C": "woman_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Figyelj! Vettem neked egy kanapét a piacon!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Mi? De hát kicsi a szobám!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Nem baj. Már a lépcsőn van, gyere segíteni!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Jaj, ne már! Nem megy tovább!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Elnézést!"
+],
+[
+"worried",
+"Én hogy megyek most le?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Néni, tessék, üljön le a kanapéra!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Jó, köszönöm."
+],
+[
+"amused",
+"És egy kávét is kérek."
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Szóval most a néni itt lakik a lépcsőn?"
+]
+]
+}
+}
+}

@@ -1,0 +1,110 @@
+{
+"ep": "r2_work_c1",
+"cast": {
+"B": "bence"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Jó reggelt, főnök! 😎",
+"Jó reggelt, főnök!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"annoyed",
+"Ne már. Ez nem vicces."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Figyelj, elfogytak a poharak. Te rendeled, emlékszel?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Jaj, tényleg. Mennyi kell?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Nem tudom. Rendelj sokat."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Kész! Száz dobozt rendeltem."
+]
+]
+},
+"7": {
+"segs": [
+[
+"neutral",
+"Szuper. Hány pohár van egy dobozban?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Egy pillanat... ezer."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Ezer?"
+],
+[
+"shout",
+"Az százezer pohár!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"Itt a teherautó. Nem férünk ki az ajtón. 😂",
+"Itt a teherautó. Nem férünk ki az ajtón."
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Mondd a vendégeknek, hogy ez modern művészet."
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Anna már rajzolja."
+]
+]
+}
+}
+}

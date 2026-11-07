@@ -1,0 +1,78 @@
+{
+"ep": "r1_travel_a3",
+"cast": {
+"B": "woman_m",
+"C": "woman_o",
+"D": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Jó napot! Kóstolja meg a kolbászt!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Köszönöm."
+],
+[
+"excited",
+"Hű, de finom!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Várjon! Az enyémet is kóstolja meg!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Hm, ez is nagyon finom."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Itt a szalámi! Tessék, tessék!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Jaj, köszönöm, de már jóllaktam."
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Na, és mit vesz?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Hát... egy vizet kérek."
+]
+]
+}
+}
+}

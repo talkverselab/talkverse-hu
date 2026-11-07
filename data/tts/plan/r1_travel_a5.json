@@ -1,0 +1,80 @@
+{
+"ep": "r1_travel_a5",
+"cast": {
+"B": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Jó napot!"
+],
+[
+"flustered",
+"Egy jegyet kérek Széke, Székes..."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Szegedre megy?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"flustered",
+"Nem, nem. Székes, izé, fehér..."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Ja, Székesfehérvárra kéri?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Igen, oda!"
+],
+[
+"polite",
+"Mikor indul a vonat?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Sajnos most ment el."
+],
+[
+"amused",
+"Amíg mondta."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Jaj!"
+],
+[
+"polite",
+"Akkor egy jegyet kérek Győrbe."
+]
+]
+}
+}
+}
