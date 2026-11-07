@@ -38,6 +38,7 @@
    "ko": "안녕하세요, 앉으세요! 아쉽게도 오늘 에어컨이 안 돼요.",
    "note": "foglaljon helyet = 앉으세요(격식)",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -86,6 +87,7 @@
    "tags": [
     "expr:Semmi baj"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "baj",
@@ -109,6 +111,7 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Szóval",
@@ -140,6 +143,7 @@
    "ko": "사람들과 이야기하는 걸 좋아하고, 작년부터 헝가리어도 할 줄 알아서요.",
    "note": "tavaly óta = 작년부터",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "szeretek",
@@ -181,6 +185,7 @@
    "ko": "훌륭하네요. 가장 큰 약점이 뭔가요?",
    "note": "gyengeség = 약점",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Nagyszerű",
@@ -209,6 +214,7 @@
    "tags": [
     "expr:Igazából"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Hát",
@@ -245,6 +251,17 @@
    "ko": "그래도 잘하시는데요. 근데 얼굴이 빨개요, 괜찮으세요?",
    "note": "minden rendben? = 다 괜찮아요?",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Így is jól beszél."
+    ],
+    [
+     "worried",
+     "De piros az arca, minden rendben?"
+    ]
+   ],
    "lemmas": [
     [
      "Így",
@@ -286,6 +303,7 @@
    "ko": "죄송합니다, 저는 아주 게이입니다.(「덥다」고 말하려던 것)",
    "note": "meleg vagyok = 나는 게이다(덥다는 melegem van)",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -317,6 +335,17 @@
    "ko": "아, 말씀해 주셔서 감사합니다. 저희는 전혀 문제없습니다.",
    "note": "elmondta = 말해 주었다",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Ó, köszönöm, hogy elmondta."
+    ],
+    [
+     "polite",
+     "Nálunk ez nem probléma."
+    ]
+   ],
    "lemmas": [
     [
      "köszönöm",
@@ -344,6 +373,17 @@
    "note": "pedig = 그런데, 하지만",
    "tags": [
     "expr:Tényleg"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tényleg?"
+    ],
+    [
+     "neutral",
+     "Pedig reggel óta nagyon meleg vagyok, nyáron mindig."
+    ]
    ],
    "lemmas": [
     [
@@ -391,6 +431,7 @@
    "ko": "여름에요? 겨울엔 아니고요?",
    "note": "télen = 겨울에",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Nyáron",
@@ -412,6 +453,7 @@
    "ko": "겨울엔 아니에요. 겨울엔 아주 차가운 사람이에요.",
    "note": "hideg vagyok = 나는 차갑다(춥다는 fázom)",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Télen",
@@ -445,6 +487,7 @@
    "tags": [
     "expr:Várjon"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várjon",
@@ -481,6 +524,17 @@
    "ko": "네, 더워요! 왜요, 제가 뭐라고 했나요?",
    "note": "melegem van = 나는 덥다",
    "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Igen, melegem van!"
+    ],
+    [
+     "worried",
+     "Miért, mit mondtam?"
+    ]
+   ],
    "lemmas": [
     [
      "Igen",
@@ -512,6 +566,7 @@
    "ko": "아무 말도요. 내일부터 나오세요, 약점은 이제 잘 알겠네요.",
    "note": "kezdhet = 시작해도 된다",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "kezdhet",

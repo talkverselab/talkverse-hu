@@ -41,6 +41,7 @@
    "note": "kiállítás = 전시",
    "tags": [],
    "at": "19:20",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -76,6 +77,7 @@
     "expr:Hű"
    ],
    "at": "19:21",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -99,6 +101,7 @@
    "note": "jegy = 표",
    "tags": [],
    "at": "19:21",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -137,6 +140,7 @@
    "note": "jut = 돌아온다",
    "tags": [],
    "at": "19:22",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -160,6 +164,7 @@
    "note": "kinek adjam? = 누구에게 줄까?",
    "tags": [],
    "at": "19:22",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -188,6 +193,7 @@
    "note": "csók = 키스(csak = ~만)",
    "tags": [],
    "at": "19:23",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -208,6 +214,7 @@
     "expr:Tessék?"
    ],
    "at": "19:23",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -228,6 +235,7 @@
     "expr:Bocsi"
    ],
    "at": "19:24",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -258,6 +266,7 @@
     "expr:Aha"
    ],
    "at": "19:25",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -288,6 +297,7 @@
     "expr:Izé"
    ],
    "at": "19:25",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -316,6 +326,7 @@
    "note": "a másikról = 다른 것에 대해",
    "tags": [],
    "at": "19:27",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

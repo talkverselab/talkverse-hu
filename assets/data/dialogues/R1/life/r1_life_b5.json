@@ -39,6 +39,7 @@
    "tags": [
     "expr:Gyere be"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Gyere",
@@ -75,6 +76,7 @@
    "ko": "고맙습니다, 배 안 고파요.",
    "note": "éhes = 배고픈",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Köszönöm",
@@ -103,6 +105,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "kicsit",
@@ -134,6 +137,17 @@
    "ko": "정말 맛있어요! 그런데 이제 됐어요.",
    "note": "elég = 충분해",
    "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Nagyon finom!"
+    ],
+    [
+     "polite",
+     "De most már elég."
+    ]
+   ],
    "lemmas": [
     [
      "Nagyon",
@@ -172,6 +186,17 @@
    "tags": [
     "expr:Nem ízlik?"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Elég?"
+    ],
+    [
+     "sad",
+     "Nem ízlik?"
+    ]
+   ],
    "lemmas": [
     [
      "Elég",
@@ -195,6 +220,7 @@
    "tags": [
     "expr:Dehogy"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Dehogy",
@@ -221,6 +247,17 @@
    "ko": "안 먹어? 의사 부른다!",
    "note": "hívom = 내가 그를 부른다",
    "tags": [],
+   "emotion": "worried",
+   "segs": [
+    [
+     "worried",
+     "Nem eszel?"
+    ],
+    [
+     "shout",
+     "Hívom az orvost!"
+    ]
+   ],
    "lemmas": [
     [
      "eszel",
@@ -242,6 +279,17 @@
    "ko": "아이고, 안 돼요! 알겠어요, 더 주세요.",
    "note": "jól van = 알겠어",
    "tags": [],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj, ne!"
+    ],
+    [
+     "sad",
+     "Jól van, kérek még."
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",

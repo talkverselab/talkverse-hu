@@ -41,6 +41,7 @@
    "ko": "레카, 내일 마지막 수업이야. 선생님께 어떻게 감사 인사하지?",
    "note": "megköszön = 감사를 표하다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Réka",
@@ -79,6 +80,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Figyelj",
@@ -112,6 +114,7 @@
    "tags": [
     "expr:Tényleg"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Tényleg",
@@ -130,6 +133,7 @@
    "tags": [
     "expr:Naná"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Naná",
@@ -148,6 +152,17 @@
    "tags": [
     "expr:Tényleg",
     "expr:Úristen"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Úristen!"
+    ],
+    [
+     "worried",
+     "Ez tényleg azt jelenti, hogy köszönöm?"
+    ]
    ],
    "lemmas": [
     [
@@ -182,6 +197,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Persze",
@@ -203,6 +219,7 @@
    "ko": "선생님, 잠깐만요. (그 긴 단어)!",
    "note": "egy pillanat = 잠깐만",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Tanárnő",
@@ -227,6 +244,7 @@
     "expr:Te jó ég",
     "expr:Hogyhogy"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "jó",
@@ -253,6 +271,17 @@
    "ko": "레카가 가르쳐 줬어요. 「감사합니다」라는 뜻 맞죠?",
    "note": "ugye? = 그렇죠?",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Réka tanította meg."
+    ],
+    [
+     "worried",
+     "Ez azt jelenti: köszönöm, ugye?"
+    ]
+   ],
    "lemmas": [
     [
      "Réka",
@@ -284,6 +313,17 @@
    "ko": "아뇨. 감사 인사가 아니라, 그냥 우리말에서 제일 긴 단어예요.",
    "note": "leghosszabb = 가장 긴",
    "tags": [],
+   "emotion": "stiff",
+   "segs": [
+    [
+     "stiff",
+     "Nem."
+    ],
+    [
+     "amused",
+     "Ez nem köszönet, ez csak a leghosszabb szavunk."
+    ]
+   ],
    "lemmas": [
     [
      "köszönet",
@@ -315,6 +355,17 @@
    "ko": "그래도 틀리지 않고 말했네요. 5점!",
    "note": "ötös = 5점(최고 점수)",
    "tags": [],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "De hibátlanul kimondta."
+    ],
+    [
+     "cheerful",
+     "Ötös!"
+    ]
+   ],
    "lemmas": [
     [
      "hibátlanul",

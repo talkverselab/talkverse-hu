@@ -39,6 +39,7 @@
    "note": "anyuka = 엄마",
    "tags": [],
    "at": "16:20",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -69,6 +70,7 @@
     "expr:Csókolom"
    ],
    "at": "16:21",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -97,6 +99,17 @@
    "note": "rendesen = 제대로",
    "tags": [],
    "at": "16:21",
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Dávid telefonjából."
+    ],
+    [
+     "worried",
+     "Eszik rendesen?"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -125,6 +138,7 @@
    "note": "azt hiszem = 그런 것 같아",
    "tags": [],
    "at": "16:22",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -148,6 +162,7 @@
    "note": "kolbász = 소시지",
    "tags": [],
    "at": "16:22",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -173,6 +188,7 @@
     "expr:De jó"
    ],
    "at": "16:23",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -191,6 +207,7 @@
    "note": "neked is = 너한테도",
    "tags": [],
    "at": "16:24",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -231,6 +248,7 @@
     "expr:Tényleg"
    ],
    "at": "16:26",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -254,6 +272,7 @@
    "note": "azt mondta = 그렇게 말했다",
    "tags": [],
    "at": "16:26",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -287,6 +306,7 @@
    "note": "ne olvasd el = 읽지 마",
    "tags": [],
    "at": "16:40",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -320,6 +340,7 @@
    "note": "már késő = 이미 늦었다",
    "tags": [],
    "at": "16:41",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -345,6 +366,7 @@
     "expr:Na jó"
    ],
    "at": "16:41",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [

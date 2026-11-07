@@ -42,6 +42,7 @@
    "ko": "어서 와요, 앉으세요. 언너가 당신 얘기를 많이 했어요.",
    "note": "üljön le = 앉으세요",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Jó",
@@ -83,6 +84,7 @@
    "ko": "안녕하세요! 나쁜 얘기만 한 건 아니면 좋겠네요.",
    "note": "remélem = 바란다",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Csókolom",
@@ -116,6 +118,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Figyelj",
@@ -167,6 +170,7 @@
    "ko": "그러니까 당신이 그 유명한 감자군요?",
    "note": "híres = 유명한",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Szóval",
@@ -193,6 +197,17 @@
    "ko": "네, 안타깝게도 저예요. 냄새가 정말 좋네요, 이게 뭐예요?",
    "note": "sajnos = 안타깝게도",
    "tags": [],
+   "emotion": "shy",
+   "segs": [
+    [
+     "shy",
+     "Igen, sajnos én vagyok az."
+    ],
+    [
+     "polite",
+     "Nagyon finom az illat, ez mi?"
+    ]
+   ],
    "lemmas": [
     [
      "Igen",
@@ -229,6 +244,7 @@
    "ko": "랑고시예요, 시어머니 레시피죠. 드셔 보세요, 근데 조심해요, 뜨거워요.",
    "note": "kóstolja meg = 맛보세요",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Lángos",
@@ -272,6 +288,7 @@
    "tags": [
     "expr:Hű"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hű",
@@ -308,6 +325,7 @@
    "ko": "정말 입에 맞아요? 언너 말로는 손님들은 레테시를 더 좋아한다던데요.",
    "note": "ízlik = 입에 맞다",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Tényleg",
@@ -349,6 +367,7 @@
    "ko": "아니요, 아니요, 솔직히 말씀드리면, 따님을 정말 사랑해요!",
    "note": "a lányát = 따님을(a lángosát = 랑고시를)",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "őszintén",
@@ -385,6 +404,7 @@
    "ko": "{name}, 너 방금 뭐라고 했어?",
    "note": "most = 방금",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "most",
@@ -406,6 +426,7 @@
    "ko": "음, 빠르네요. 점심 전에 그런 말을 한 사람은 없었어요.",
    "note": "ebéd előtt = 점심 전에",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Hát",
@@ -444,6 +465,7 @@
    "tags": [
     "expr:Izé"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -487,6 +509,7 @@
    "tags": [
     "expr:Aha"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Aha",
@@ -523,6 +546,7 @@
    "ko": "들었어, 엄마. 뭐라고 대답할지 궁금하네.",
    "note": "felel = 대답한다",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Hallom",
@@ -554,6 +578,7 @@
    "ko": "음… 랑고시'도' 사랑해요.",
    "note": "is = ~도",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Hát",
@@ -580,6 +605,7 @@
    "ko": "좋아요, 우리 말 놓자! 나는 에바야, 랑고시 더 있어.",
    "note": "tegeződjünk = 서로 말 놓자",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Na",

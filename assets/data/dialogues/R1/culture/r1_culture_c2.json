@@ -40,6 +40,7 @@
    "note": "rajz = 그림",
    "tags": [],
    "at": "19:02",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -65,6 +66,7 @@
     "expr:Hű"
    ],
    "at": "19:05",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -88,6 +90,7 @@
    "note": "?! = 황당할 때",
    "tags": [],
    "at": "19:05",
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
@@ -106,6 +109,7 @@
    "note": "ez = 이것, 이 사람",
    "tags": [],
    "at": "19:06",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -126,6 +130,7 @@
     "expr:Bocsi"
    ],
    "at": "19:06",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -146,6 +151,7 @@
     "expr:Mi van"
    ],
    "at": "19:20",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -174,6 +180,7 @@
    "note": "ne írj = 쓰지 마",
    "tags": [],
    "at": "19:20",
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
@@ -202,6 +209,7 @@
    "note": "kicsim = 우리 아가",
    "tags": [],
    "at": "19:21",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [

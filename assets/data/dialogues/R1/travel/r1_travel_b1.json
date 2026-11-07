@@ -41,6 +41,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Figyelj",
@@ -75,6 +76,17 @@
     "expr:Várj",
     "expr:mindjárt"
    ],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Várj!"
+    ],
+    [
+     "worried",
+     "A vonat mindjárt indul!"
+    ]
+   ],
    "lemmas": [
     [
      "Várj",
@@ -106,6 +118,7 @@
    "ko": "진정해! 내 자전거랑 가방 잡고 있어.",
    "note": "fogd = 잡아(정활용 명령)",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Nyugi",
@@ -132,6 +145,17 @@
    "ko": "레카, 어디야? 기차 벌써 가!",
    "note": "már = 벌써",
    "tags": [],
+   "emotion": "worried",
+   "segs": [
+    [
+     "worried",
+     "Réka, hol vagy?"
+    ],
+    [
+     "shout",
+     "Már megy a vonat!"
+    ]
+   ],
    "lemmas": [
     [
      "Réka",
@@ -163,6 +187,17 @@
    "ko": "안녕, 이거 어떤 할머니 전화야. 나 여기 남았어!",
    "note": "maradtam = 나는 남았다",
    "tags": [],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Szia, ez egy néni telefonja."
+    ],
+    [
+     "flustered",
+     "Itt maradtam!"
+    ]
+   ],
    "lemmas": [
     [
      "Szia",
@@ -196,6 +231,17 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van?"
+    ],
+    [
+     "worried",
+     "Nálam van a táskád és a biciklid!"
+    ]
+   ],
    "lemmas": [
     [
      "van",
@@ -224,6 +270,7 @@
    "tags": [
     "expr:Hogyhogy"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Réka",
@@ -255,6 +302,7 @@
    "ko": "그 할머니가 차로 데려다줬어. 네 랑고시 벌써 식었어.",
    "note": "elhozott = 데려다줬다",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "néni",

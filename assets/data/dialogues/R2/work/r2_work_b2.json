@@ -41,6 +41,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Na",
@@ -79,6 +80,7 @@
    "tags": [
     "expr:Jól van"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Jól",
@@ -100,6 +102,7 @@
    "ko": "빨간 버튼은 누르지 마.",
    "note": "ne nyomd meg = 누르지 마(정활용 명령)",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "piros",
@@ -126,6 +129,7 @@
    "ko": "왜? 그거 뭐 하는 건데?",
    "note": "mit csinál? = 뭘 하는데?",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Miért",
@@ -149,6 +153,7 @@
    "tags": [
     "expr:Nem tudom"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "tudom",
@@ -172,6 +177,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -203,6 +209,17 @@
    "ko": "벤체, 질문 하나. 커피 머신이 왜 안 멈춰?",
    "note": "nem áll le = 안 멈춘다",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Bence, egy kérdés."
+    ],
+    [
+     "worried",
+     "A kávégép miért nem áll le?"
+    ]
+   ],
    "lemmas": [
     [
      "Bence",
@@ -244,6 +261,7 @@
    "ko": "뭐 눌렀어?",
    "note": "nyomtál = 네가 눌렀다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "nyomtál",
@@ -260,6 +278,7 @@
    "ko": "빨간 거. 궁금했어.",
    "note": "kíváncsi = 궁금한",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "pirosat",
@@ -283,6 +302,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "Úristen",
@@ -314,6 +334,7 @@
    "ko": "벌써 서른 잔이 찼고, 바닥에도 흘러!",
    "note": "folyik = 흐른다",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Már",
@@ -362,6 +383,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",

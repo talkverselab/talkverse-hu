@@ -44,6 +44,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -80,6 +81,7 @@
    "ko": "보여 줘! 몇 통 보냈어?",
    "note": "üzenet = 메시지",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Mutasd",
@@ -106,6 +108,7 @@
    "ko": "겨우 열네 통. 마지막은 하트 붙인 감자였어.",
    "note": "szívvel = 하트와 함께",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Csak",
@@ -149,6 +152,7 @@
    "tags": [
     "expr:Te jó ég"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "jó",
@@ -187,6 +191,7 @@
    "tags": [
     "expr:Ne már"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "már",
@@ -220,6 +225,7 @@
    "tags": [
     "expr:Oké"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Oké",
@@ -261,6 +267,7 @@
    "ko": "못 참겠어. 벌써 새 메시지 썼어, 길고 솔직하게.",
    "note": "őszinte = 솔직한",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "bírom",
@@ -302,6 +309,17 @@
    "ko": "전화기 이리 줘! 잠깐, 너 누구한테 쓰는 거야?",
    "note": "kinek = 누구에게",
    "tags": [],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Add ide a telefont!"
+    ],
+    [
+     "surprised",
+     "Várj, te kinek írsz?"
+    ]
+   ],
    "lemmas": [
     [
      "Add",
@@ -338,6 +356,7 @@
    "ko": "언너한테. 여기 이름 있잖아, 봐.",
    "note": "itt van = 여기 있다",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Annának",
@@ -371,6 +390,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Figyelj",
@@ -402,6 +422,7 @@
    "ko": "뭐? 옆집에 감자까지 보냈다고?",
    "note": "a szomszédnak = 이웃에게",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "van",
@@ -433,6 +454,7 @@
    "ko": "잠깐, 지금 답 왔어. \"감자 고마워요, 그런데 나는 남편이 있어요.\"",
    "note": "férj = 남편",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Várj",
@@ -486,6 +508,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Úristen",
@@ -512,6 +535,7 @@
    "ko": "그건 모르겠고, 누가 벨을 눌렀어. 내가 열게.",
    "note": "csenget = 벨을 누른다",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "tudom",
@@ -533,6 +557,7 @@
    "ko": "사흘째 네 메시지만 기다렸어. 내가 이제 마음에 안 드는 줄 알았어.",
    "note": "várom, hogy írj = 네가 쓰길 기다린다",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "napja",
@@ -574,6 +599,17 @@
    "ko": "언너, 금방 다 말해 줄게. 먼저 어떤 아주머니께 사과부터 하고.",
    "note": "bocsánatot kérek = 사과한다",
    "tags": [],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Anna, mindjárt mindent elmondok."
+    ],
+    [
+     "flustered",
+     "Csak előbb bocsánatot kérek egy nénitől."
+    ]
+   ],
    "lemmas": [
     [
      "Anna",

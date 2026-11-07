@@ -40,6 +40,7 @@
    "tags": [
     "expr:Nézd"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Nézd",
@@ -78,6 +79,17 @@
    "tags": [
     "expr:Komolyan?"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Komolyan?"
+    ],
+    [
+     "cheerful",
+     "Szia, madár!"
+    ]
+   ],
    "lemmas": [
     [
      "Komolyan",
@@ -99,6 +111,7 @@
    "ko": "안녕, 새야! 안녕, 새야!",
    "note": "szia = 안녕",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szia",
@@ -122,6 +135,7 @@
    "tags": [
     "expr:Látod"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Látod",
@@ -155,6 +169,7 @@
    "tags": [
     "expr:Király"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Király",
@@ -181,6 +196,7 @@
    "ko": "벤체, 사랑해! 벤체, 사랑해!",
    "note": "szeretlek = 널 사랑해",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Bence",
@@ -202,6 +218,7 @@
    "ko": "잠깐… 어느 벤체? 카페 그 벤체?",
    "note": "kávézó = 카페",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várj",
@@ -223,6 +240,17 @@
    "ko": "카페 그 벤체! 벤체, 사랑해!",
    "note": "-ból/-ből = ~에서",
    "tags": [],
+   "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "A kávézóból!"
+    ],
+    [
+     "gentle",
+     "Bence, szeretlek!"
+    ]
+   ],
    "lemmas": [
     [
      "kávézóból",

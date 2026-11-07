@@ -39,6 +39,7 @@
     "expr:Jó napot"
    ],
    "at": "12:30",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -74,6 +75,7 @@
     "expr:Jó napot"
    ],
    "at": "12:31",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -102,6 +104,7 @@
    "note": "zöld = 초록색",
    "tags": [],
    "at": "12:31",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -135,6 +138,7 @@
    "note": "nincs = 없다",
    "tags": [],
    "at": "12:32",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
@@ -165,6 +169,7 @@
     "expr:Bocsánat"
    ],
    "at": "12:34",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -193,6 +198,7 @@
    "note": "lángosom = 내 랑고시",
    "tags": [],
    "at": "12:34",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -213,6 +219,7 @@
     "expr:Sajnos"
    ],
    "at": "12:36",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -241,6 +248,7 @@
    "note": "jó étvágyat = 맛있게 드세요",
    "tags": [],
    "at": "12:37",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [

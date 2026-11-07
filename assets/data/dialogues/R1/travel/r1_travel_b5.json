@@ -42,6 +42,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Figyelj",
@@ -81,6 +82,7 @@
     "expr:Gyere",
     "expr:menjünk"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Itt",
@@ -107,6 +109,7 @@
    "ko": "근데 물이 무릎까지밖에 안 와.",
    "note": "-ig = ~까지",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "víz",
@@ -140,6 +143,7 @@
    "tags": [
     "expr:Nyugi"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Nyugi",
@@ -176,6 +180,7 @@
    "ko": "벌써 20분째 걷고 있어. 아직도 무릎이야!",
    "note": "húsz perce = 20분째",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Már",
@@ -219,6 +224,7 @@
    "tags": [
     "expr:menjünk"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Hát",
@@ -252,6 +258,7 @@
    "tags": [
     "expr:Nézd"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Nézd",
@@ -279,6 +286,17 @@
    "note": "átsétáltunk = 걸어서 건넜다",
    "tags": [
     "expr:Szuper"
+   ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Szuper, ez a másik part."
+    ],
+    [
+     "amused",
+     "Átsétáltunk."
+    ]
    ],
    "lemmas": [
     [

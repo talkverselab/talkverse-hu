@@ -44,6 +44,7 @@
    "tags": [
     "expr:Hé"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hé",
@@ -92,6 +93,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Hát",
@@ -140,6 +142,7 @@
    "tags": [
     "expr:Semmi baj"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "baj",
@@ -179,6 +182,7 @@
     "expr:Nem tudom",
     "expr:Mindegy"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "tudom",
@@ -212,6 +216,7 @@
    "tags": [
     "expr:Szuper"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Szuper",
@@ -233,6 +238,7 @@
    "ko": "자, 어때? 왜 이렇게 사람이 많아?",
    "note": "hogy megy? = 어떻게 돼 가?",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Na",
@@ -271,6 +277,7 @@
    "tags": [
     "expr:Király"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Király",
@@ -307,6 +314,7 @@
    "ko": "8만? 책 세 권으로?",
    "note": "-ért = ~의 값으로",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Nyolcvanezret",
@@ -328,6 +336,7 @@
    "ko": "책? 아니, 책은 아무도 안 사더라.",
    "note": "nem kellettek = 필요 없었다",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Könyvért",
@@ -354,6 +363,7 @@
    "ko": "그럼 뭘 판 거야?",
    "note": "adtál el = 네가 팔았다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Akkor",
@@ -381,6 +391,17 @@
    "note": "szék = 의자",
    "tags": [
     "expr:Mindegy"
+   ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "A lámpát, a széket, az asztalt."
+    ],
+    [
+     "tsukkomi",
+     "Azt mondtad, mindegy!"
+    ]
    ],
    "lemmas": [
     [
@@ -419,6 +440,17 @@
    "note": "fogok tanulni = 공부할 것이다",
    "tags": [
     "expr:Te jó ég"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Az asztalomat?"
+    ],
+    [
+     "shout",
+     "Te jó ég, hol fogok tanulni?"
+    ]
    ],
    "lemmas": [
     [
@@ -461,6 +493,7 @@
    "ko": "침대에서. 근데 침대는 벌써 살 사람이 있어.",
    "note": "vevő = 사는 사람",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "ágyon",
@@ -492,6 +525,7 @@
    "ko": "실례합니다, 기숙사 가구를 판 사람이 누구죠?",
    "note": "bútor = 가구",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Elnézést",
@@ -535,6 +569,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Hát",

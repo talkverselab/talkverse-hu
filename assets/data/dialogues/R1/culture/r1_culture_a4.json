@@ -39,6 +39,7 @@
    "tags": [
     "expr:Nézd"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szia",
@@ -60,6 +61,7 @@
    "ko": "뭘? 자전거?",
    "note": "biciklidet = 네 자전거를",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "biciklidet",
@@ -78,6 +80,7 @@
    "tags": [
     "expr:Nézd"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "fejemet",
@@ -101,6 +104,7 @@
    "tags": [
     "expr:Ja, persze"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Ja",
@@ -122,6 +126,7 @@
    "ko": "그래서? 예뻐?",
    "note": "na, és? = 그래서?",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Na",
@@ -138,6 +143,7 @@
    "ko": "네 비계 참 예쁘다!",
    "note": "háj = 비계(haj = 머리카락)",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Nagyon",
@@ -164,6 +170,17 @@
    "ko": "내 뭐? 「허이」, 짧은 a 로!",
    "note": "a mim? = 내 뭐?",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "A mim?"
+    ],
+    [
+     "tsukkomi",
+     "Haj, rövid a-val!"
+    ]
+   ],
    "lemmas": [
     [
      "mim",
@@ -191,6 +208,17 @@
    "note": "is = ~도(그럼 앞의 말은…)",
    "tags": [
     "expr:Bocsi"
+   ],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Bocsi!"
+    ],
+    [
+     "shy",
+     "A hajad is szép."
+    ]
    ],
    "lemmas": [
     [

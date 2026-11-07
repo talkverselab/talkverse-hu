@@ -42,6 +42,7 @@
    "note": "elmarad = 취소된다",
    "tags": [],
    "at": "18:02",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -68,6 +69,7 @@
     "expr:Szerintem"
    ],
    "at": "18:03",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -94,6 +96,7 @@
     "expr:Szuper"
    ],
    "at": "18:05",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -117,6 +120,7 @@
    "note": "azt hallottam = 그렇게 들었다",
    "tags": [],
    "at": "18:11",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -152,6 +156,7 @@
     "expr:Komolyan"
    ],
    "at": "18:12",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -175,6 +180,7 @@
    "note": "te mondtad = 네가 말했다",
    "tags": [],
    "at": "18:12",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -193,6 +199,7 @@
    "note": "bezár = 문을 닫다",
    "tags": [],
    "at": "18:20",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -228,6 +235,7 @@
     "expr:Durva"
    ],
    "at": "18:31",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -261,6 +269,7 @@
    "note": "eladtam = 내가 팔았다",
    "tags": [],
    "at": "18:33",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -284,6 +293,7 @@
    "note": "dolgozat = 쪽지시험, 보고서",
    "tags": [],
    "at": "18:40",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -322,6 +332,7 @@
    "note": "Ön is = 당신도(존댓말)",
    "tags": [],
    "at": "18:41",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -351,6 +362,7 @@
    "tags": [],
    "at": "18:42",
    "stamp": "😇",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

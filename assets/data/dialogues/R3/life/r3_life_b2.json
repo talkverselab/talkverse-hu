@@ -39,6 +39,7 @@
    "tags": [
     "expr:Csókolom"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Csókolom",
@@ -92,6 +93,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Hát",
@@ -135,6 +137,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "hónapban",
@@ -166,6 +169,7 @@
    "ko": "그 사람이?! 누가 그래?",
    "note": "ezt ki mondta? = 누가 그랬어?",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "ki",
@@ -187,6 +191,7 @@
    "ko": "그분이요. 벌써 2년째 그분께 내고 있어요.",
    "note": "két éve = 2년째",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "mondta",
@@ -215,6 +220,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Na",
@@ -248,6 +254,7 @@
    "tags": [
     "expr:Micsoda"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "ki",
@@ -269,6 +276,7 @@
    "ko": "라치는 내 남편이야. 46년째.",
    "note": "férj = 남편",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Laci",
@@ -295,6 +303,7 @@
    "ko": "남편이요?! 그런데 온천에 사시잖아요!",
    "note": "a férje = 남편분(Ön 에게 '당신의 남편')",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "férje",
@@ -321,6 +330,7 @@
    "ko": "10년 전에 내 국이 짜다고 했거든. 그 뒤로 거기 있어.",
    "note": "sós = 짠",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "éve",
@@ -362,6 +372,17 @@
    "ko": "그것 때문에요? 그 뒤로 말씀 안 하세요?",
    "note": "azóta = 그때부터",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Csak ezért?"
+    ],
+    [
+     "worried",
+     "És azóta nem beszélnek?"
+    ]
+   ],
    "lemmas": [
     [
      "Csak",
@@ -388,6 +409,17 @@
    "ko": "안 해. 그래도 화요일마다 국은 갖다줘.",
    "note": "visz = 가져간다",
    "tags": [],
+   "emotion": "stiff",
+   "segs": [
+    [
+     "stiff",
+     "Nem."
+    ],
+    [
+     "gentle",
+     "De minden kedden viszek neki levest."
+    ]
+   ],
    "lemmas": [
     [
      "kedden",
@@ -414,6 +446,7 @@
    "ko": "그럼 저희 돈은요? 월세는요?",
    "note": "pénzünk = 우리 돈",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "pénzünk",
@@ -435,6 +468,7 @@
    "ko": "그걸 온천에 쓰는 거지. 그래서 집에 안 오는 거고.",
    "note": "költ = 돈을 쓴다",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "fürdőre",
@@ -466,6 +500,7 @@
    "ko": "그럼 저는 어떡해요? 누구한테 내야 돼요?",
    "note": "fizessek = 내가 내야 할까",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Akkor",
@@ -497,6 +532,17 @@
    "ko": "계속 그 사람한테 내. 돈 떨어지면 집에 오잖아, 그건 내가 못 견뎌.",
    "note": "nem bírnám = 못 견딜 거야(조건법)",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Továbbra is neki."
+    ],
+    [
+     "amused",
+     "Ha elfogy a pénze, hazajön, és azt nem bírnám."
+    ]
+   ],
    "lemmas": [
     [
      "Továbbra",

@@ -37,6 +37,7 @@
    "ko": "파프리카 먹을래? 안 매워.",
    "note": "erős = 매운(강한)",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Kérsz",
@@ -65,6 +66,7 @@
    "tags": [
     "expr:Tényleg"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Tényleg",
@@ -88,6 +90,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Persze",
@@ -109,6 +112,17 @@
    "ko": "그래 좋아. 으, 으, 으악!",
    "note": "na jó = 그래 좋아",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Na jó."
+    ],
+    [
+     "shout",
+     "Jaj, jaj, jaj!"
+    ]
+   ],
    "lemmas": [
     [
      "Na",
@@ -137,6 +151,7 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "van",
@@ -158,6 +173,7 @@
    "ko": "물! 빨리, 물!",
    "note": "vizet = 물을(víz 의 목적격)",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Vizet",
@@ -175,6 +191,17 @@
    "note": "igyál = 마셔",
    "tags": [
     "expr:Tessék"
+   ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Tessék, igyál!"
+    ],
+    [
+     "flustered",
+     "Ja, várj, ez nem víz."
+    ]
    ],
    "lemmas": [
     [
@@ -207,6 +234,7 @@
    "ko": "그럼 뭔데?! 으악!",
    "note": "hát akkor = 그럼",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Hát",

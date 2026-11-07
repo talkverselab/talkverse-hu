@@ -40,6 +40,7 @@
     "expr:Csókolom",
     "expr:Kér tejet?"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Csókolom",
@@ -61,6 +62,17 @@
    "ko": "우유? 글쎄… 얼마나 있는데?",
    "note": "mennyi van? = 얼마나 있어?",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tejet?"
+    ],
+    [
+     "neutral",
+     "Hát, mennyi van?"
+    ]
+   ],
    "lemmas": [
     [
      "Tejet",
@@ -82,6 +94,7 @@
    "ko": "20리터요.",
    "note": "húsz = 스물",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Húsz",
@@ -105,6 +118,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Úristen",
@@ -121,6 +135,7 @@
    "ko": "얘기가 길어요. 여기요.",
    "note": "hosszú = 긴",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Hosszú",
@@ -144,6 +159,7 @@
    "tags": [
     "expr:Egy pillanat"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Köszönöm",
@@ -170,6 +186,7 @@
    "ko": "아주머니, 이 많은 사람들은 누구예요?",
    "note": "ez a sok ember = 이 많은 사람들",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Marika",
@@ -201,6 +218,7 @@
    "ko": "건물 전체야. 다들 우유 달라네!",
    "note": "az egész ház = 건물 전체",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "egész",

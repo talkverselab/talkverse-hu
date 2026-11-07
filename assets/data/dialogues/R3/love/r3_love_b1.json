@@ -43,6 +43,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Figyelj",
@@ -101,6 +102,7 @@
    "tags": [
     "expr:Naná"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Naná",
@@ -144,6 +146,17 @@
    "tags": [
     "expr:Komolyan?"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Komolyan?"
+    ],
+    [
+     "teasing",
+     "Na, halljuk, de lassan, hogy élvezzem!"
+    ]
+   ],
    "lemmas": [
     [
      "Komolyan",
@@ -175,6 +188,7 @@
    "ko": "메그센트셰그텔레니트… 어, 어디까지 했지?",
    "note": "hol tartottam? = 어디까지 했지?",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Megszentségtelenít",
@@ -206,6 +220,7 @@
    "ko": "실례합니다, 제가 제대로 들었나요? 여기 누가 그 큰 단어를 시도하시나요?",
    "note": "próbál = 시도한다",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -252,6 +267,7 @@
    "ko": "네, 근데 이건 저희 둘 사이 일이에요. 아무것도 안 하셔도 돼요.",
    "note": "kettőnk között = 우리 둘 사이",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Igen",
@@ -288,6 +304,7 @@
    "ko": "신사 숙녀 여러분, 주목! 2번 테이블이 지금 가장 긴 헝가리어 단어를 말합니다!",
    "note": "figyelem = 주목",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hölgyeim",
@@ -351,6 +368,17 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van?"
+    ],
+    [
+     "worried",
+     "Anna, miért áll fel mindenki?"
+    ]
+   ],
    "lemmas": [
     [
      "van",
@@ -384,6 +412,7 @@
    "tags": [
     "expr:Tudod"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Ja",
@@ -430,6 +459,7 @@
    "ko": "실패하면?",
    "note": "sikerül = 성공한다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "sikerül",
@@ -446,6 +476,17 @@
    "ko": "그럼 손님이 설거지합니다. 자, 다들 듣고 있습니다!",
    "note": "mosogat = 설거지한다",
    "tags": [],
+   "emotion": "stiff",
+   "segs": [
+    [
+     "stiff",
+     "Akkor a vendég mosogat."
+    ],
+    [
+     "excited",
+     "Tessék, mindenki figyel!"
+    ]
+   ],
    "lemmas": [
     [
      "Akkor",
@@ -477,6 +518,7 @@
    "ko": "메그센트셰그텔레니트헤테틀렌… 아이고, 이건 이제 헝가리어가 아니야.",
    "note": "már nem = 더는 아닌",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Megszentségteleníthetetlen",
@@ -508,6 +550,7 @@
    "ko": "유감입니다. 주방은 저쪽이고, 앞치마는 의자에 있습니다.",
    "note": "kötény = 앞치마",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Sajnálom",
@@ -549,6 +592,7 @@
    "ko": "저기요, 잠깐만요! 앞치마 두 개 주세요.",
    "note": "várjon = 기다리세요",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Hé",
@@ -580,6 +624,7 @@
    "ko": "넌 왜 와? 넌 틀리지 않았잖아.",
    "note": "hibázik = 실수한다",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "miért",
@@ -606,6 +651,17 @@
    "ko": "아직 집에 가기 싫으니까. 네가 씻어, 내가 닦을게.",
    "note": "hazamenni = 집에 가다",
    "tags": [],
+   "emotion": "shy",
+   "segs": [
+    [
+     "shy",
+     "Mert még nem akarok hazamenni."
+    ],
+    [
+     "gentle",
+     "Te mosol, én törölök."
+    ]
+   ],
    "lemmas": [
     [
      "még",

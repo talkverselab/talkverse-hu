@@ -41,6 +41,7 @@
    "note": "mit szóltok? = 너희 생각은?",
    "tags": [],
    "at": "20:10",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -74,6 +75,7 @@
    "note": "tetszel = 네가 마음에 든다",
    "tags": [],
    "at": "20:12",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -104,6 +106,7 @@
     "expr:Úristen"
    ],
    "at": "20:12",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -129,6 +132,7 @@
     "expr:Mi van"
    ],
    "at": "20:13",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -152,6 +156,7 @@
    "note": "olvasd el = 읽어 봐",
    "tags": [],
    "at": "20:13",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -180,6 +185,7 @@
    "note": "tetszik = 그것이 마음에 든다",
    "tags": [],
    "at": "20:14",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -210,6 +216,7 @@
     "expr:Bocsi"
    ],
    "at": "20:14",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -248,6 +255,7 @@
    "note": "sok sikert = 행운을 빌어",
    "tags": [],
    "at": "20:15",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -276,6 +284,7 @@
    "note": "ott vagy? = 거기 있어?",
    "tags": [],
    "at": "21:30",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -294,6 +303,7 @@
    "note": "sokszor = 여러 번",
    "tags": [],
    "at": "21:52",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -322,6 +332,7 @@
    "note": "kár = 아쉽다",
    "tags": [],
    "at": "21:53",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [

@@ -39,6 +39,7 @@
    "tags": [
     "expr:Mi a baj?"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -66,6 +67,17 @@
    "note": "fáj a fogam = 이가 아파요",
    "tags": [
     "expr:fáj a fogam"
+   ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Jó napot!"
+    ],
+    [
+     "worried",
+     "Nagyon fáj a fogam."
+    ]
    ],
    "lemmas": [
     [
@@ -100,6 +112,7 @@
    "tags": [
     "expr:Nyissa ki"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "fog",
@@ -126,6 +139,7 @@
    "ko": "아아… 저기, 뒤쪽이요!",
    "note": "hátul = 뒤쪽에",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Aaa",
@@ -152,6 +166,7 @@
    "ko": "아, 이거네요. 안 아플 거예요.",
    "note": "fog + 동사 = ~할 것이다(fog 는 「이」라는 뜻도)",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Aha",
@@ -178,6 +193,7 @@
    "ko": "아악! 뭐 하세요?",
    "note": "Mit csinál? = 뭐 하세요?(존댓말)",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Jaj",
@@ -201,6 +217,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Kész",
@@ -227,6 +244,7 @@
    "ko": "아니 이건 멀쩡한 이였잖아요!",
    "note": "de hát = 아니 근데",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "hát",

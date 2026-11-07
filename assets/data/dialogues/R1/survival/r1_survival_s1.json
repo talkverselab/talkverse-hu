@@ -38,6 +38,7 @@
    "tags": [
     "expr:Jó napot"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -67,6 +68,7 @@
     "expr:Jó napot",
     "expr:kérek"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -98,6 +100,7 @@
    "ko": "우유랑 설탕 넣어 드려요?",
    "note": "-val/-vel = ~와 함께",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Tejjel",
@@ -119,6 +122,7 @@
    "ko": "네, 감사합니다.",
    "note": "köszönöm = 감사합니다",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Igen",
@@ -140,6 +144,7 @@
    "ko": "케이크도 드릴까요?",
    "note": "is = ~도",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Süteményt",
@@ -161,6 +166,7 @@
    "ko": "네, 네.",
    "note": "못 알아들어도 일단 igen",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Igen",
@@ -177,6 +183,7 @@
    "ko": "그럼 커피 하나, 케이크 셋, 레테시 하나요!",
    "note": "három = 셋",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Akkor",
@@ -211,6 +218,7 @@
     "expr:kérek",
     "expr:várjon"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",

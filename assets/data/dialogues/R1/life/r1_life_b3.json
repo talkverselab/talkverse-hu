@@ -37,6 +37,7 @@
    "ko": "야! 내 흰 티 어디 있어? 훈련 가.",
    "note": "pólóm = 내 티셔츠",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Szia",
@@ -75,6 +76,7 @@
    "tags": [
     "expr:Nézd"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Kimostam",
@@ -98,6 +100,17 @@
    "tags": [
     "expr:Köszi",
     "expr:Várj"
+   ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Köszi!"
+    ],
+    [
+     "surprised",
+     "Várj, ez miért rózsaszín?"
+    ]
    ],
    "lemmas": [
     [
@@ -125,6 +138,7 @@
    "ko": "음… 네 빨간 재킷도 거기 있었거든.",
    "note": "kabátod = 네 재킷",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Hát",
@@ -161,6 +175,7 @@
    "ko": "내 수건은? 양말은?",
    "note": "törölköző = 수건",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "törölközőm",
@@ -184,6 +199,7 @@
    "tags": [
     "expr:Bocsi"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "rózsaszín",
@@ -200,6 +216,7 @@
    "ko": "(경기 뒤) 그래서 경기는 어땠어?",
    "note": "meccs = 경기",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Na",
@@ -226,6 +243,17 @@
    "ko": "이겼어! 내일 팀 전체가 옷 들고 온대.",
    "note": "ruhákkal = 옷들을 가지고",
    "tags": [],
+   "emotion": "excited",
+   "segs": [
+    [
+     "excited",
+     "Nyertünk!"
+    ],
+    [
+     "teasing",
+     "Holnap jön a csapat a ruhákkal."
+    ]
+   ],
    "lemmas": [
     [
      "Nyertünk",

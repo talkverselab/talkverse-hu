@@ -39,6 +39,7 @@
    "ko": "사장님, 잠깐 시간 있으세요?",
    "note": "van egy perce? = 1분 있으세요?",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Főnök",
@@ -72,6 +73,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Persze",
@@ -93,6 +95,7 @@
    "ko": "돈을 더 받고 싶어요. 10퍼센트 더요.",
    "note": "-kal/-kel = ~만큼",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Szeretnék",
@@ -124,6 +127,17 @@
    "ko": "10? 아니, 30 줄게.",
    "note": "adok = 내가 준다",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tízet?"
+    ],
+    [
+     "cheerful",
+     "Nem, adok harmincat."
+    ]
+   ],
    "lemmas": [
     [
      "adok",
@@ -146,6 +160,17 @@
    "note": "komolyan? = 진심이에요?",
    "tags": [
     "expr:Komolyan"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Komolyan?"
+    ],
+    [
+     "excited",
+     "Köszönöm, főnök úr!"
+    ]
    ],
    "lemmas": [
     [
@@ -173,6 +198,7 @@
    "ko": "대신 토요일에도 네가 문 열어.",
    "note": "nyitsz = 네가 연다",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "akkor",
@@ -202,6 +228,7 @@
     "expr:Jól van",
     "expr:Rendben"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jól",
@@ -223,6 +250,7 @@
    "ko": "일요일도. 컵 주문도 네가 해.",
    "note": "rendeled = 네가 그것을 주문한다(정활용)",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "vasárnap",
@@ -251,6 +279,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Hát",
@@ -272,6 +301,7 @@
    "ko": "응, 여기 열쇠. 내일부터 네가 사장이야.",
    "note": "holnaptól = 내일부터",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Igen",
@@ -305,6 +335,17 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Tessék?!"
+    ],
+    [
+     "flustered",
+     "És Ön hova megy?"
+    ]
+   ],
    "lemmas": [
     [
      "Tessék",
@@ -331,6 +372,7 @@
    "ko": "벌러톤에. 30년을 기다렸어!",
    "note": "erre = 이것을(vár + -ra)",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "éve",

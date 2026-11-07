@@ -43,6 +43,17 @@
    "ko": "에게르 도착! 이제 비커베르 마시자.",
    "note": "bikavér = 에게르 붉은 포도주(글자 뜻: 황소 피)",
    "tags": [],
+   "emotion": "excited",
+   "segs": [
+    [
+     "excited",
+     "Itt vagyunk Egerben!"
+    ],
+    [
+     "teasing",
+     "Most bikavért iszunk."
+    ]
+   ],
    "lemmas": [
     [
      "Itt",
@@ -76,6 +87,7 @@
    "tags": [
     "expr:Komolyan?"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Vért",
@@ -99,6 +111,7 @@
    "tags": [
     "expr:Naná"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Naná",
@@ -142,6 +155,17 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van?"
+    ],
+    [
+     "shout",
+     "Én nem iszom vért!"
+    ]
+   ],
    "lemmas": [
     [
      "van",
@@ -170,6 +194,17 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Tessék, két pohár."
+    ],
+    [
+     "cheerful",
+     "Egészségükre!"
+    ]
+   ],
    "lemmas": [
     [
      "Tessék",
@@ -191,6 +226,7 @@
    "ko": "어라, 이거 와인이야?",
    "note": "bor = 포도주",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Hű",
@@ -214,6 +250,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Persze",
@@ -247,6 +284,7 @@
    "tags": [
     "expr:Jól van"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Jól",

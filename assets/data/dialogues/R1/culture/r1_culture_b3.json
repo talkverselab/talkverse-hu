@@ -38,6 +38,7 @@
    "ko": "부활절 잘 보내! 물 뿌리기용 향수 가져왔어?",
    "note": "locsolás = 부활절에 물·향수 뿌리는 풍습",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Boldog",
@@ -69,6 +70,17 @@
    "ko": "향수? Dávid 가 물 가져오라던데.",
    "note": "víz → vizet = 물을",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Kölnit?"
+    ],
+    [
+     "neutral",
+     "Dávid azt mondta, vizet kell hozni."
+    ]
+   ],
    "lemmas": [
     [
      "Kölnit",
@@ -107,6 +119,17 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Hát régen vizet hoztak."
+    ],
+    [
+     "worried",
+     "Mennyi vizet hoztál?"
+    ]
+   ],
    "lemmas": [
     [
      "Hát",
@@ -138,6 +161,7 @@
    "ko": "많이는 아니고, 양동이 하나.",
    "note": "vödör → vödröt = 양동이를",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "csak",
@@ -160,6 +184,17 @@
    "note": "jön = 온다",
    "tags": [
     "expr:Jaj"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Egy vödröt?"
+    ],
+    [
+     "flustered",
+     "Jaj, jön a nagymamám!"
+    ]
    ],
    "lemmas": [
     [
@@ -189,6 +224,17 @@
    "tags": [
     "expr:Csókolom"
    ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Csókolom!"
+    ],
+    [
+     "cheerful",
+     "Szabad locsolni?"
+    ]
+   ],
    "lemmas": [
     [
      "Csókolom",
@@ -212,6 +258,17 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Szabad, szabad..."
+    ],
+    [
+     "shout",
+     "Jaj, jaj, jaj!"
+    ]
+   ],
    "lemmas": [
     [
      "Szabad",
@@ -234,6 +291,17 @@
    "note": "most én jövök = 이제 내 차례",
    "tags": [
     "expr:Jól van"
+   ],
+   "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "Jól van, most én jövök."
+    ],
+    [
+     "excited",
+     "Hol a vödröm?"
+    ]
    ],
    "lemmas": [
     [

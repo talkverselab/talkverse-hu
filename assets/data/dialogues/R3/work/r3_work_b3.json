@@ -39,6 +39,17 @@
    "ko": "여기서 일한 지 벌써 반년이고, 일도 잘하세요. 말 놓을까요?",
    "note": "tegeződjünk = 서로 말 놓자",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Már fél éve itt dolgozik, és jól dolgozik."
+    ],
+    [
+     "cheerful",
+     "Tegeződjünk?"
+    ]
+   ],
    "lemmas": [
     [
      "Már",
@@ -82,6 +93,17 @@
    "tags": [
     "expr:Tényleg"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tényleg?"
+    ],
+    [
+     "polite",
+     "Ez nagy megtiszteltetés, igazgató úr!"
+    ]
+   ],
    "lemmas": [
     [
      "Tényleg",
@@ -118,6 +140,7 @@
    "ko": "자, 「이사님」은 그만. 나는 러치야.",
    "note": "hagyjuk = 그만두자",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Na",
@@ -154,6 +177,7 @@
    "ko": "좋아, 그럼 안녕, 러치. 이상한데 기분 좋다.",
    "note": "furcsa = 이상한",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Jó",
@@ -187,6 +211,7 @@
    "tags": [
     "expr:Látod"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Látod",
@@ -223,6 +248,7 @@
    "ko": "솔직히 말해 줄까, 러치?",
    "note": "őszintén = 솔직하게",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Mondjam",
@@ -246,6 +272,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Persze",
@@ -279,6 +306,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Figyelj",
@@ -315,6 +343,7 @@
    "ko": "음… 내가 썼어.",
    "note": "én írtam = 내가 썼다(주어 강조)",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Hát",
@@ -338,6 +367,7 @@
    "tags": [
     "expr:Amúgy"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "baj",
@@ -374,6 +404,7 @@
    "ko": "그 넥타이는 아내가 사 줬어.",
    "note": "vette = 그것을 샀다",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "nyakkendőmet",
@@ -400,6 +431,7 @@
    "ko": "또 뭐가 별로인 줄 알아, 러치? 내 월급.",
    "note": "fizetés = 월급",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Tudod",
@@ -433,6 +465,17 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "annoyed",
+   "segs": [
+    [
+     "annoyed",
+     "Várj, azt mondtam, tegeződjünk."
+    ],
+    [
+     "shout",
+     "Nem azt, hogy mondj el mindent!"
+    ]
+   ],
    "lemmas": [
     [
      "Várj",
@@ -464,6 +507,7 @@
    "ko": "그럼… 다시 존댓말 써도 될까요, 이사님?",
    "note": "magáz = 존댓말을 쓰다",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Akkor",
@@ -495,6 +539,7 @@
    "ko": "네, 그러시죠. 내일부터 새 계획 담당은 그쪽입니다.",
    "note": "felelős = 담당자",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Igen",

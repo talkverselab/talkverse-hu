@@ -44,6 +44,7 @@
    "ko": "레카, 너 2주째 카페 피하잖아. 너 때문에 집에서 맛없는 커피 마셔.",
    "note": "kerül = 피하다",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Réka",
@@ -95,6 +96,7 @@
    "ko": "거기 다신 안 가. 그 새가 다 망쳤어.",
    "note": "elront = 망치다",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "megyek",
@@ -133,6 +135,7 @@
    "tags": [
     "expr:Na, gyere"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Na",
@@ -174,6 +177,7 @@
    "ko": "와, 레카, 진짜 오랜만이다! 그 새 잠깐 줘 봐.",
    "note": "láttalak = 내가 널 봤다",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Hű",
@@ -215,6 +219,7 @@
    "ko": "왜? 뭐 하려고?",
    "note": "vele = 그것으로",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Miért",
@@ -238,6 +243,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várj",
@@ -264,6 +270,7 @@
    "ko": "벤체, 사랑해! 벤체, 사랑해!",
    "note": "szeretlek = 널 사랑해",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Bence",
@@ -287,6 +294,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Úristen",
@@ -330,6 +338,7 @@
    "tags": [
     "expr:Mi van"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "van",
@@ -361,6 +370,7 @@
    "ko": "우리 할머니. 매일 아침 나한테 그렇게 말하셨거든, 새가 들은 거지.",
    "note": "meg = 그리고(한편)",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "nagymamám",
@@ -400,6 +410,7 @@
     "expr:hallod",
     "expr:Szóval"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Réka",
@@ -426,6 +437,7 @@
    "ko": "아, 네가 가르친 줄 알았어. 아깝네, 벌써 좋아했는데.",
    "note": "kár = 아깝다",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Ja",
@@ -462,6 +474,7 @@
    "ko": "아니, 내가 가르친 건 아니야.",
    "note": "nem én = 내가 아니라",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "tanítottam",
@@ -478,6 +491,7 @@
    "ko": "그렇구나. 음, 그래.",
    "note": "értem = 알겠어",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "Értem",
@@ -499,6 +513,7 @@
    "ko": "그래도 그 말이 틀린 건 아니야.",
    "note": "attól még = 그렇다고 해도",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "még",
@@ -520,6 +535,7 @@
    "ko": "벤체, 사랑해!",
    "note": "szeretlek = 널 사랑해",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Bence",

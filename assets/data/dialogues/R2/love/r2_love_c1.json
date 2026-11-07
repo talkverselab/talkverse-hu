@@ -42,6 +42,7 @@
    "note": "csoport = 그룹",
    "tags": [],
    "at": "19:00",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -65,6 +66,7 @@
    "note": "hárman = 셋이서",
    "tags": [],
    "at": "19:01",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -98,6 +100,7 @@
    "note": "valamit = 뭔가를",
    "tags": [],
    "at": "19:02",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -131,6 +134,7 @@
    "note": "azt mondta = 그렇게 말했다",
    "tags": [],
    "at": "19:02",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -156,6 +160,17 @@
     "expr:Jaj"
    ],
    "at": "19:03",
+   "emotion": "annoyed",
+   "segs": [
+    [
+     "annoyed",
+     "Jaj, de lassúak vagytok."
+    ],
+    [
+     "teasing",
+     "Anna tetszik neked, te tetszel neki."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -189,6 +204,7 @@
    "note": "큰 글자 = 소리치기",
    "tags": [],
    "at": "19:03",
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
@@ -209,6 +225,7 @@
     "expr:Várj"
    ],
    "at": "19:04",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -234,6 +251,7 @@
     "expr:Bocsi"
    ],
    "at": "19:05",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -262,6 +280,7 @@
    "note": "szervusztok = 안녕(여럿에게)",
    "tags": [],
    "at": "19:06",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -285,6 +304,7 @@
    "note": "ne = 안 돼, 하지 마",
    "tags": [],
    "at": "19:06",
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
@@ -303,6 +323,7 @@
    "note": "nálunk = 우리 집에서",
    "tags": [],
    "at": "19:07",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -338,6 +359,7 @@
     "expr:Légyszi"
    ],
    "at": "19:08",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [

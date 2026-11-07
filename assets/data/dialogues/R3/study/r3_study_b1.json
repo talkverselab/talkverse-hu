@@ -43,6 +43,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -84,6 +85,7 @@
    "ko": "왜? 뭐 했는데?",
    "note": "csináltál = 네가 했다",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Miért",
@@ -105,6 +107,7 @@
    "ko": "아무것도. 그게 문제야. 보고서가 금요일까지인데 아직 안 끝났어.",
    "note": "péntekre = 금요일까지",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "baj",
@@ -153,6 +156,7 @@
    "tags": [
     "expr:Nem baj"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "baj",
@@ -179,6 +183,7 @@
    "ko": "근데 어떻게 시작하지? 야, 교수님?",
    "note": "hogy kezdjem? = 어떻게 시작할까?",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "kezdjem",
@@ -207,6 +212,7 @@
    "tags": [
     "expr:Tisztelt"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Jaj",
@@ -231,6 +237,7 @@
     "expr:Tisztelt",
     "expr:Kérem szépen"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Tisztelt",
@@ -269,6 +276,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Várj",
@@ -305,6 +313,7 @@
    "ko": "뭐 썼어? 보여 줘!",
    "note": "mutasd = 보여 줘",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "írtál",
@@ -323,6 +332,7 @@
    "tags": [
     "expr:Puszi"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Szia",
@@ -361,6 +371,7 @@
    "tags": [
     "expr:Durva"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Haha",
@@ -397,6 +408,7 @@
    "ko": "그래, 여기. 보내!",
    "note": "küldd el = 보내 버려",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Jó",
@@ -423,6 +435,7 @@
    "ko": "보냈어.",
    "note": "elküldtem = 내가 보냈다",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Elküldtem",
@@ -441,6 +454,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Várj",
@@ -467,6 +481,7 @@
    "ko": "세상에. 네 거.",
    "note": "a tiédet = 네 것을",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Úristen",
@@ -490,6 +505,7 @@
    "tags": [
     "expr:Puszi"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Szia",

@@ -41,6 +41,7 @@
    "note": "eltűnt = 사라졌다",
    "tags": [],
    "at": "18:05",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -71,6 +72,7 @@
     "expr:Jaj"
    ],
    "at": "18:06",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -99,6 +101,7 @@
    "note": "mérges = 화난",
    "tags": [],
    "at": "18:07",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -127,6 +130,7 @@
    "note": "találtam = 찾았다",
    "tags": [],
    "at": "18:15",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -160,6 +164,7 @@
    "note": "kuka = 쓰레기통",
    "tags": [],
    "at": "18:17",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -183,6 +188,7 @@
    "note": "várjatok = 기다려(여럿에게)",
    "tags": [],
    "at": "18:20",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -216,6 +222,7 @@
    "note": "hozzátok = 그걸 가져와(여럿에게)",
    "tags": [],
    "at": "18:21",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -244,6 +251,7 @@
    "note": "nálunk = 우리 집에",
    "tags": [],
    "at": "18:40",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -282,6 +290,7 @@
    "note": "megette = 먹어 치웠다",
    "tags": [],
    "at": "18:52",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -307,6 +316,7 @@
     "expr:Szívesen"
    ],
    "at": "19:03",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -337,6 +347,7 @@
     "expr:Amúgy"
    ],
    "at": "19:04",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -385,6 +396,7 @@
    "note": "megvan = 찾았다",
    "tags": [],
    "at": "19:20",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -420,6 +432,7 @@
     "expr:Szuper"
    ],
    "at": "19:21",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -453,6 +466,7 @@
    "note": "jó éjszakát = 잘 자요",
    "tags": [],
    "at": "19:22",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
@@ -473,6 +487,7 @@
     "expr:Puszi"
    ],
    "at": "19:22",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -496,6 +511,7 @@
    "note": "ingyen = 공짜로",
    "tags": [],
    "at": "19:25",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [

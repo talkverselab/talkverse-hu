@@ -39,6 +39,7 @@
    "note": "szereted = 네가 그걸 좋아한다",
    "tags": [],
    "at": "21:03",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -69,6 +70,7 @@
     "expr:Na"
    ],
    "at": "21:04",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -94,6 +96,7 @@
     "expr:Na"
    ],
    "at": "21:05",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -120,6 +123,17 @@
     "expr:Na"
    ],
    "at": "21:06",
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "A túrós."
+    ],
+    [
+     "shy",
+     "Holnap ráérsz?"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -145,6 +159,7 @@
     "expr:Bocsi"
    ],
    "at": "21:40",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -178,6 +193,7 @@
    "note": "felejtsd el = 잊어 줘",
    "tags": [],
    "at": "23:12",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -205,6 +221,7 @@
    ],
    "at": "23:40",
    "stamp": "😇",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [

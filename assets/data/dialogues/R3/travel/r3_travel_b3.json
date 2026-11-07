@@ -46,6 +46,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Figyelj",
@@ -89,6 +90,17 @@
    "tags": [
     "expr:Jól van"
    ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Jól van, meg tudom csinálni."
+    ],
+    [
+     "worried",
+     "Szeretnék, szeretnék..."
+    ]
+   ],
    "lemmas": [
     [
      "Jól",
@@ -125,6 +137,7 @@
    "ko": "그냥 말해: 세레트네크 할라슬레. 어렵지 않아.",
    "note": "halászlé = 매운 생선 수프",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Mondd",
@@ -161,6 +174,7 @@
    "ko": "안녕하세요! 뭘 가져다 드릴까요?",
    "note": "mit hozhatok? = 뭘 드릴까요?",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -187,6 +201,17 @@
    "ko": "안녕하세요, 사랑해요! 저, 할라슬레요!",
    "note": "szeretlek = 사랑해",
    "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Jó estét, szeretlek!"
+    ],
+    [
+     "flustered",
+     "Izé, egy halászlét!"
+    ]
+   ],
    "lemmas": [
     [
      "Jó",
@@ -218,6 +243,7 @@
    "ko": "저를 사랑하세요, 할라슬레를 사랑하세요?",
    "note": "engem = 나를",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "szeret",
@@ -239,6 +265,7 @@
    "ko": "아이고, 죄송해요! 할라슬레 먹고 싶어요!",
    "note": "-nék = ~하고 싶다(조건형)",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -267,6 +294,7 @@
    "tags": [
     "expr:Te jó ég"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "jó",
@@ -294,6 +322,17 @@
    "note": "mellé = 곁에",
    "tags": [
     "expr:Semmi baj"
+   ],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Semmi baj, ez a nap fénypontja."
+    ],
+    [
+     "polite",
+     "Kér mellé kenyeret?"
+    ]
    ],
    "lemmas": [
     [
@@ -332,6 +371,17 @@
    "note": "töröld ki = 지워",
    "tags": [
     "expr:légyszi"
+   ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Igen, köszönöm."
+    ],
+    [
+     "flustered",
+     "Réka, töröld ki azt a videót, légyszi!"
+    ]
    ],
    "lemmas": [
     [
@@ -376,6 +426,7 @@
    "tags": [
     "expr:Naná"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Naná",
@@ -407,6 +458,17 @@
    "ko": "여기 계산서요. 할라슬레는 저희가 살게요.",
    "note": "a ház állja = 가게가 낸다",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Tessék, a számla."
+    ],
+    [
+     "shy",
+     "A halászlét a ház állja."
+    ]
+   ],
    "lemmas": [
     [
      "Tessék",
@@ -443,6 +505,7 @@
    "ko": "어째서요? 계산서 뒤에 뭐가 있죠?",
    "note": "hátul = 뒤쪽",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Hogyhogy",
@@ -474,6 +537,17 @@
    "ko": "잠깐, 이거 전화번호야. 그 아래엔: 저도 사랑해요.",
    "note": "alatta = 그 아래",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Várj, ez egy telefonszám."
+    ],
+    [
+     "shy",
+     "És alatta: én is szeretlek."
+    ]
+   ],
    "lemmas": [
     [
      "Várj",
@@ -502,6 +576,7 @@
    "tags": [
     "expr:Na, látod?"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Na",

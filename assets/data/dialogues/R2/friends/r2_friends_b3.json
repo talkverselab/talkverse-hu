@@ -42,6 +42,7 @@
     "expr:légyszi",
     "expr:Mindjárt"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Vigyázol",
@@ -81,6 +82,7 @@
     "expr:Oké",
     "expr:nyugi"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Oké",
@@ -107,6 +109,7 @@
    "ko": "전부 천 포린트. 생각하지 마!",
    "note": "minden = 전부",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "forint",
@@ -128,6 +131,7 @@
    "ko": "실례합니다, 이 의자도 천 포린트예요?",
    "note": "szék = 의자",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -154,6 +158,7 @@
    "ko": "네. 전부 천 포린트예요.",
    "note": "kérem = 네(정중히)",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Igen",
@@ -180,6 +185,7 @@
    "ko": "그럼 램프는요? 저기 저 자전거는요?",
    "note": "az a bicikli ott = 저기 저 자전거",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "lámpa",
@@ -208,6 +214,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Hát",
@@ -229,6 +236,17 @@
    "ko": "자, 어땠어? 내 자전거 어디 있어?",
    "note": "hogy ment? = 어땠어?",
    "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Na, hogy ment?"
+    ],
+    [
+     "worried",
+     "Hol a biciklim?"
+    ]
+   ],
    "lemmas": [
     [
      "Na",
@@ -255,6 +273,7 @@
    "ko": "좋은 소식이야: 다 팔았어! 4천 포린트!",
    "note": "eladtam = 팔았다",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Jó",
@@ -291,6 +310,7 @@
    "ko": "내 자전거를 천 포린트에 팔았다고?!",
    "note": "-ért = ~에(값)",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "forintért",
@@ -317,6 +337,7 @@
    "ko": "네가 그랬잖아: 전부 천. 생각하지 마!",
    "note": "te mondtad = 네가 말했다",
    "tags": [],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "mondtad",
@@ -338,6 +359,17 @@
    "ko": "좋아. 친구 하나 천 포린트에 사실 분?",
    "note": "jól van = 좋아, 알았어",
    "tags": [],
+   "emotion": "annoyed",
+   "segs": [
+    [
+     "annoyed",
+     "Jól van."
+    ],
+    [
+     "shout",
+     "Ki kér egy barátot ezer forintért?"
+    ]
+   ],
    "lemmas": [
     [
      "Jól",

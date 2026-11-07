@@ -39,6 +39,7 @@
    "note": "tetszik = 마음에 든다",
    "tags": [],
    "at": "16:02",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -64,6 +65,7 @@
     "expr:Köszi"
    ],
    "at": "16:03",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -87,6 +89,7 @@
    "note": "kávézom = 커피 마신다",
    "tags": [],
    "at": "16:03",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -105,6 +108,7 @@
    "note": "én is = 나도",
    "tags": [],
    "at": "16:04",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": []
   },
@@ -117,6 +121,7 @@
    "note": "pulóver = 스웨터",
    "tags": [],
    "at": "16:04",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -148,6 +153,7 @@
     "expr:Honnan tudod?"
    ],
    "at": "16:05",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -171,6 +177,7 @@
    "note": "nézz hátra = 뒤돌아봐",
    "tags": [],
    "at": "16:05",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -194,6 +201,7 @@
    "note": "még = 아직",
    "tags": [],
    "at": "16:05",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

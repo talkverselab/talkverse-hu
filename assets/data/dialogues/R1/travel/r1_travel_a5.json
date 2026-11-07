@@ -39,6 +39,17 @@
    "tags": [
     "expr:Jó napot"
    ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Jó napot!"
+    ],
+    [
+     "flustered",
+     "Egy jegyet kérek Széke, Székes..."
+    ]
+   ],
    "lemmas": [
     [
      "Jó",
@@ -70,6 +81,7 @@
    "ko": "세게드 가세요?",
    "note": "-re = ~로(도시)",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Szegedre",
@@ -93,6 +105,7 @@
    "tags": [
     "expr:izé"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "izé",
@@ -116,6 +129,7 @@
    "tags": [
     "expr:Ja"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Ja",
@@ -137,6 +151,17 @@
    "ko": "네, 거기요! 기차 언제 출발해요?",
    "note": "indul = 출발하다",
    "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Igen, oda!"
+    ],
+    [
+     "polite",
+     "Mikor indul a vonat?"
+    ]
+   ],
    "lemmas": [
     [
      "Igen",
@@ -169,6 +194,17 @@
    "note": "amíg = ~하는 동안",
    "tags": [
     "expr:Sajnos"
+   ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Sajnos most ment el."
+    ],
+    [
+     "amused",
+     "Amíg mondta."
+    ]
    ],
    "lemmas": [
     [
@@ -207,6 +243,17 @@
    "note": "Győrbe = 죄르로",
    "tags": [
     "expr:Ja"
+   ],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj!"
+    ],
+    [
+     "polite",
+     "Akkor egy jegyet kérek Győrbe."
+    ]
    ],
    "lemmas": [
     [

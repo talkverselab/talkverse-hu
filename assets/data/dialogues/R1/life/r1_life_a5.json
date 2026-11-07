@@ -37,6 +37,17 @@
    "ko": "안녕하세요! 온수가 안 나와요.",
    "note": "meleg víz = 더운물",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Jó napot!"
+    ],
+    [
+     "worried",
+     "Nincs meleg víz."
+    ]
+   ],
    "lemmas": [
     [
      "Jó",
@@ -71,6 +82,7 @@
     "expr:Tényleg?",
     "expr:Hát"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Tényleg",
@@ -102,6 +114,7 @@
    "ko": "네, 그래서 엄청 추워요!",
    "note": "hideg van = 춥다",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Igen",
@@ -135,6 +148,7 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Jaj",
@@ -156,6 +170,7 @@
    "ko": "온천요? 진심이세요?",
    "note": "komoly = 진지한",
    "tags": [],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "fürdőbe",
@@ -179,6 +194,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Persze",
@@ -210,6 +226,7 @@
    "ko": "지금 어디 계세요?",
    "note": "Ön = 당신(존댓말)",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "most",
@@ -236,6 +253,7 @@
    "ko": "저요? 온천이요, 3주째요.",
    "note": "három hete = 3주 전부터 쭉",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "fürdőben",

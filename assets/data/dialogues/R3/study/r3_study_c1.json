@@ -43,6 +43,7 @@
     "expr:Tisztelt"
    ],
    "at": "09:00",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -73,6 +74,7 @@
     "expr:Elnézést"
    ],
    "at": "12:30",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -108,6 +110,7 @@
     "expr:Sajnos"
    ],
    "at": "15:10",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -148,6 +151,7 @@
     "expr:Tudom"
    ],
    "at": "18:45",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -186,6 +190,7 @@
    "note": "pont = 점, 마침표",
    "tags": [],
    "at": "20:20",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -219,6 +224,7 @@
    "note": "érdekli = 관심 있으시다",
    "tags": [],
    "at": "21:05",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -249,6 +255,7 @@
     "expr:Szerintem"
    ],
    "at": "21:40",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
@@ -287,6 +294,7 @@
    "note": "azt fogom gondolni = 그렇게 생각할 것이다",
    "tags": [],
    "at": "22:15",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -330,6 +338,17 @@
    "note": "él = 살아 있다",
    "tags": [],
    "at": "23:02",
+   "emotion": "annoyed",
+   "segs": [
+    [
+     "annoyed",
+     "Professzor Úr, él még?"
+    ],
+    [
+     "flustered",
+     "Bocsánat, ezt nem akartam elküldeni."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -368,6 +387,7 @@
    "note": "haragszik = 화나 있다",
    "tags": [],
    "at": "23:30",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -404,6 +424,17 @@
     "expr:Úristen"
    ],
    "at": "23:58",
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Úristen."
+    ],
+    [
+     "polite",
+     "Mindegy, jó éjszakát, holnap is írok."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -442,6 +473,7 @@
    "note": "mind a tizenegyet = 열한 개 전부를",
    "tags": [],
    "at": "00:10",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
@@ -470,6 +502,7 @@
    "note": "szándékosan = 일부러",
    "tags": [],
    "at": "00:10",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -513,6 +546,7 @@
    "note": "feltételes mód = 조건법",
    "tags": [],
    "at": "00:11",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -551,6 +585,7 @@
    "note": "vizsga = 시험",
    "tags": [],
    "at": "00:11",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -575,6 +610,17 @@
    "tags": [],
    "at": "00:12",
    "stamp": "😇",
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Ez volt a vizsga, ötös."
+    ],
+    [
+     "teasing",
+     "Puszi, Kovács"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [

@@ -38,6 +38,7 @@
    "note": "boldog új évet = 새해 복 많이",
    "tags": [],
    "at": "00:03",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -66,6 +67,7 @@
    "note": "neked is = 너도",
    "tags": [],
    "at": "00:04",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -84,6 +86,7 @@
    "note": "hal = 생선",
    "tags": [],
    "at": "00:04",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -104,6 +107,17 @@
     "expr:Ne már"
    ],
    "at": "00:04",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Halat?!"
+    ],
+    [
+     "shout",
+     "Ne már!"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -129,6 +143,7 @@
     "expr:Mi van"
    ],
    "at": "00:05",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -147,6 +162,7 @@
    "note": "elúszik = 헤엄쳐 가 버리다",
    "tags": [],
    "at": "00:05",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -177,6 +193,7 @@
     "expr:Jaj"
    ],
    "at": "00:06",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -205,6 +222,7 @@
    "note": "mellém = 내 옆으로",
    "tags": [],
    "at": "00:06",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

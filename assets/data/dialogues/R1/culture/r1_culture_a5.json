@@ -43,6 +43,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Na",
@@ -64,6 +65,7 @@
    "ko": "건배! 자, 잔 부딪치자!",
    "note": "koccintsunk = 잔을 부딪치자",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Egészségedre",
@@ -87,6 +89,7 @@
    "tags": [
     "expr:Ne már"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "már",
@@ -108,6 +111,7 @@
    "ko": "왜 안 돼? 뭐야?",
    "note": "miért = 왜",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Miért",
@@ -130,6 +134,17 @@
    "note": "szokás = 풍습",
    "tags": [
     "expr:Nézd"
+   ],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Régi szokás."
+    ],
+    [
+     "worried",
+     "Nézd, mindenki minket néz."
+    ]
    ],
    "lemmas": [
     [
@@ -159,6 +174,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -187,6 +203,17 @@
    "tags": [
     "expr:Semmi baj"
    ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Semmi baj!"
+    ],
+    [
+     "teasing",
+     "Mindenkinek egy pálinka, és ön fizet."
+    ]
+   ],
    "lemmas": [
     [
      "baj",
@@ -213,6 +240,7 @@
    "ko": "모두요? 여기 몇 명이나 있는데요?",
    "note": "hány = 몇",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "ember",

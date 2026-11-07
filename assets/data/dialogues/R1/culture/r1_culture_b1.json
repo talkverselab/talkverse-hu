@@ -40,6 +40,7 @@
    "tags": [
     "expr:Gyere"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Gyere",
@@ -73,6 +74,7 @@
    "tags": [
     "expr:egy pillanat"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Várj",
@@ -107,6 +109,7 @@
     "expr:Mindegy",
     "expr:Mindjárt"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Mindegy",
@@ -138,6 +141,7 @@
    "ko": "봐, 저기 사람 엄청 많이 서 있어!",
    "note": "mennyi + 단수 = 얼마나 많은",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Nézd",
@@ -169,6 +173,7 @@
    "ko": "뭘 보는 거지? 새 작품인가?",
    "note": "mű = 작품",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "néznek",
@@ -190,6 +195,17 @@
    "ko": "아이고. 저거 내 레테시야!",
    "note": "az ott = 저기 저것",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Jaj."
+    ],
+    [
+     "shout",
+     "Az ott az én rétesem!"
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",
@@ -216,6 +232,17 @@
    "ko": "손대지 마세요! 어떤 분이 벌써 사 가셨습니다.",
    "note": "ne nyúljon hozzá = 손대지 마세요",
    "tags": [],
+   "emotion": "stiff",
+   "segs": [
+    [
+     "stiff",
+     "Kérem, ne nyúljon hozzá!"
+    ],
+    [
+     "polite",
+     "Egy úr már megvette."
+    ]
+   ],
    "lemmas": [
     [
      "Kérem",
@@ -252,6 +279,7 @@
    "ko": "그러니까… 축하해. 너 예술가야.",
    "note": "gratulálok = 축하해",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Szóval",

@@ -40,6 +40,7 @@
    "note": "ébren = 깨어 있는",
    "tags": [],
    "at": "02:41",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -58,6 +59,7 @@
    "note": "miért? = 왜?",
    "tags": [],
    "at": "02:42",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -76,6 +78,7 @@
    "note": "lájkol = 좋아요를 누르다",
    "tags": [],
    "at": "02:42",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -104,6 +107,7 @@
    "note": "melyiket? = 어느 것을?",
    "tags": [],
    "at": "02:43",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": []
   },
@@ -116,6 +120,7 @@
    "note": "rajta = 그 위에(사진 속에)",
    "tags": [],
    "at": "02:43",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -141,6 +146,7 @@
     "expr:Jaj"
    ],
    "at": "02:45",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -161,6 +167,7 @@
     "expr:Aha"
    ],
    "at": "02:45",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -181,6 +188,7 @@
     "expr:Nem baj"
    ],
    "at": "02:46",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

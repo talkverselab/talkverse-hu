@@ -40,6 +40,17 @@
    "ko": "아주머니, 오늘 저녁에 오실래요? 다비드 이름의 날에 깜짝 파티 해요.",
    "note": "tetszik jönni? = 오시겠어요?(어르신께)",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Marika néni, tetszik jönni este?"
+    ],
+    [
+     "excited",
+     "Meglepetésbulit csinálok Dávid névnapjára."
+    ]
+   ],
    "lemmas": [
     [
      "Marika",
@@ -88,6 +99,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Persze",
@@ -121,6 +133,7 @@
    "tags": [
     "expr:ugye"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Talán",
@@ -147,6 +160,7 @@
    "ko": "모든 다비드를? 「다비드의 모든 친구를」이 아니고?",
    "note": "barátját = 그의 친구를",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "barátját",
@@ -165,6 +179,7 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -181,6 +196,7 @@
    "ko": "안녕, 나 다비드야. 파티 여기야?",
    "note": "buli = 파티",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szia",
@@ -207,6 +223,7 @@
    "ko": "안녕! 너 다비드 친구야?",
    "note": "barátja = 그의 친구",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szia",
@@ -228,6 +245,7 @@
    "ko": "아니, 난 그냥 다른 다비드야. 아래에 서른 명 더 와.",
    "note": "másik = 다른",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "csak",
@@ -264,6 +282,17 @@
    "ko": "서른?! 아주머니, 다비드 서른 명이 계단으로 올라와요!",
    "note": "jön fel = 올라온다",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Harminc?!"
+    ],
+    [
+     "flustered",
+     "Marika néni, harminc Dávid jön fel a lépcsőn!"
+    ]
+   ],
    "lemmas": [
     [
      "Harminc",
@@ -300,6 +329,17 @@
    "ko": "내가 말했지. 가서 국 더 끓일게.",
    "note": "mondtam = 내가 말했다",
    "tags": [],
+   "emotion": "tsukkomi",
+   "segs": [
+    [
+     "tsukkomi",
+     "Mondtam."
+    ],
+    [
+     "gentle",
+     "Megyek, főzök még levest."
+    ]
+   ],
    "lemmas": [
     [
      "Mondtam",
@@ -331,6 +371,17 @@
    "ko": "나 왔어! 내 집에 이 많은 사람들 누구야?",
    "note": "lakásomban = 내 집 안에",
    "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Megjöttem!"
+    ],
+    [
+     "surprised",
+     "Ki ez a sok ember a lakásomban?"
+    ]
+   ],
    "lemmas": [
     [
      "Megjöttem",
@@ -357,6 +408,17 @@
    "ko": "이름의 날 축하해! 이 사람들 다 다비드야.",
    "note": "ők mind = 그들 모두",
    "tags": [],
+   "emotion": "excited",
+   "segs": [
+    [
+     "excited",
+     "Boldog névnapot!"
+    ],
+    [
+     "flustered",
+     "Ők mind Dávidok."
+    ]
+   ],
    "lemmas": [
     [
      "Boldog",
@@ -378,6 +440,17 @@
    "ko": "다?! 우리 부엌에 다비드가 마흔 명인데 한 명도 몰라!",
    "note": "egyiket sem = 하나도 ~않다",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mind?!"
+    ],
+    [
+     "annoyed",
+     "Negyven Dávid van a konyhámban, és egyiket sem ismerem!"
+    ]
+   ],
    "lemmas": [
     [
      "van",
@@ -411,6 +484,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -454,6 +528,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Úristen",
@@ -475,6 +550,7 @@
    "ko": "자기도 다비드래. 그리고 국 어디 있냐는데?",
    "note": "azt mondja = 그렇게 말한다",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "mondja",

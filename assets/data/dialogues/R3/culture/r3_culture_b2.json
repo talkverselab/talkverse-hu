@@ -41,6 +41,17 @@
    "ko": "아, 떨려. 오늘 밤 개막이야, 내 첫 개인전!",
    "note": "kiállítás = 전시회",
    "tags": [],
+   "emotion": "worried",
+   "segs": [
+    [
+     "worried",
+     "Jaj, remegek."
+    ],
+    [
+     "excited",
+     "Ma este megnyitó, az első saját kiállításom!"
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",
@@ -84,6 +95,7 @@
    "tags": [
     "expr:Nyugi"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Nyugi",
@@ -115,6 +127,7 @@
    "ko": "적어도 쉰 명. 그리고 관장님이 네가 몇 마디 해 줬으면 하셔.",
    "note": "azt szeretné, ha = ~하면 좋겠다고 한다",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Legalább",
@@ -157,6 +170,17 @@
    "note": "még … is = ~조차",
    "tags": [
     "expr:Ne már"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Én, magyarul?"
+    ],
+    [
+     "flustered",
+     "Ne már, Anna, én még a kenyeret is rosszul kérem!"
+    ]
    ],
    "lemmas": [
     [
@@ -201,6 +225,7 @@
    "tags": [
     "expr:Semmi baj"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "baj",
@@ -237,6 +262,7 @@
    "ko": "전시, 전시… 좋아, 이게 어려울 리 없지.",
    "note": "nem lehet = ~일 리 없다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Kiállítása",
@@ -263,6 +289,7 @@
    "ko": "신사 숙녀 여러분, 주목해 주십시오! 이제 {name} 님이 몇 마디 하겠습니다.",
    "note": "hölgyeim és uraim = 신사 숙녀 여러분",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Hölgyeim",
@@ -304,6 +331,7 @@
    "ko": "여러분을 환영합니다! 이것은 안나의 첫 비명입니다!",
    "note": "kiáltás = 비명, 외침",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Üdvözlöm",
@@ -327,6 +355,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "Úristen",
@@ -353,6 +382,7 @@
    "ko": "참 대담하군요! 여러분, 다 같이 안나와 함께 외칩시다!",
    "note": "kiáltson = 외치십시오",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "bátor",
@@ -379,6 +409,7 @@
    "ko": "잠깐, 안 돼! 왜 쉰 명이 소리를 질러?",
    "note": "kiabál = 소리 지르다",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Várjatok",
@@ -412,6 +443,7 @@
    "tags": [
     "expr:Bocsi"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Bocsi",
@@ -443,6 +475,7 @@
    "ko": "야, 경찰도 왔어! 이웃들이 불렀대.",
    "note": "rendőr = 경찰",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Hé",
@@ -484,6 +517,7 @@
    "ko": "훌륭합니다! 그림이 다 팔렸어요. 내일 또 할까요?",
    "note": "megismétel = 되풀이하다",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Csodálatos",
@@ -515,6 +549,17 @@
    "ko": "그림을 다? {name}, 내년에도 네가 말해, 그때까지 헝가리어 배우지 마.",
    "note": "addig = 그때까지",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Minden képet?"
+    ],
+    [
+     "teasing",
+     "{name}, jövőre is te beszélsz, és addig ne tanulj meg magyarul."
+    ]
+   ],
    "lemmas": [
     [
      "képet",

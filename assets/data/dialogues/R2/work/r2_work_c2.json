@@ -42,6 +42,7 @@
     "expr:Ráérsz"
    ],
    "at": "09:02",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -65,6 +66,7 @@
    "note": "cserélünk? = 우리 바꿀까?",
    "tags": [],
    "at": "09:03",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -103,6 +105,7 @@
    "note": "olvastad = 네가 그것을 읽었다",
    "tags": [],
    "at": "10:15",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -128,6 +131,7 @@
     "expr:Légyszi"
    ],
    "at": "10:40",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -153,6 +157,7 @@
     "expr:Na jó"
    ],
    "at": "11:30",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -183,6 +188,7 @@
     "expr:Komolyan"
    ],
    "at": "12:10",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -213,6 +219,7 @@
     "expr:Bocsi"
    ],
    "at": "14:20",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
@@ -258,6 +265,7 @@
     "expr:Hogyhogy"
    ],
    "at": "14:21",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": []
   },
@@ -270,6 +278,7 @@
    "note": "szombat = 토요일",
    "tags": [],
    "at": "14:21",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -298,6 +307,7 @@
    "note": "mindjárt = 금방",
    "tags": [],
    "at": "14:22",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -322,6 +332,7 @@
    "tags": [],
    "at": "14:22",
    "stamp": "😇",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

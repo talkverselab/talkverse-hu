@@ -39,6 +39,17 @@
     "expr:Fáj a hasam",
     "expr:Jaj"
    ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Jó napot!"
+    ],
+    [
+     "sad",
+     "Jaj, fáj a hasam."
+    ]
+   ],
    "lemmas": [
     [
      "Jó",
@@ -70,6 +81,7 @@
    "ko": "어제 뭘 드셨어요?",
    "note": "evett = 드셨다(eszik 의 과거)",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "evett",
@@ -91,6 +103,7 @@
    "ko": "랑고시 하나만요.",
    "note": "lángos = 튀긴 빵, 랑고시",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Csak",
@@ -112,6 +125,7 @@
    "ko": "하나요? 확실해요?",
    "note": "biztos = 확실한",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": []
   },
   {
@@ -124,6 +138,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Hát",
@@ -145,6 +160,7 @@
    "ko": "저녁에는요?",
    "note": "este = 저녁에",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "este",
@@ -161,6 +177,7 @@
    "ko": "저녁엔 여섯 개요.",
    "note": "hatot = 여섯 개를(hat 의 목적격)",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Este",
@@ -177,6 +194,17 @@
    "ko": "여섯 개요? 와, 어디서 사셨어요?",
    "note": "hol vette? = 어디서 사셨어요?",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Hatot?"
+    ],
+    [
+     "excited",
+     "Hű, hol vette?"
+    ]
+   ],
    "lemmas": [
     [
      "hol",

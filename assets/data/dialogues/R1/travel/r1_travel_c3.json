@@ -42,6 +42,7 @@
     "expr:Mindjárt"
    ],
    "at": "10:02",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -70,6 +71,7 @@
    "note": "melyik = 어느",
    "tags": [],
    "at": "10:03",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -95,6 +97,7 @@
     "expr:Nem tudom"
    ],
    "at": "10:03",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -113,6 +116,7 @@
    "note": "na = 그래서, 자",
    "tags": [],
    "at": "11:15",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -136,6 +140,7 @@
    "note": "németül = 독일어로",
    "tags": [],
    "at": "12:38",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -166,6 +171,7 @@
     "expr:Mi van?"
    ],
    "at": "12:38",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -186,6 +192,7 @@
     "expr:Figyelj"
    ],
    "at": "12:41",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -211,6 +218,7 @@
     "expr:Király"
    ],
    "at": "12:42",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [

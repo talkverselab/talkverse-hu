@@ -39,6 +39,7 @@
     "expr:Figyelj"
    ],
    "at": "10:12",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -69,6 +70,7 @@
     "expr:Nem tudom"
    ],
    "at": "10:13",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -92,6 +94,17 @@
    "note": "kérik = 그들이 그걸 달라고 한다",
    "tags": [],
    "at": "10:13",
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Már tíz ember!"
+    ],
+    [
+     "annoyed",
+     "Kérik a biciklimet."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -122,6 +135,7 @@
     "expr:Jaj"
    ],
    "at": "10:14",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -145,6 +159,7 @@
    "note": "milyen = 어떤",
    "tags": [],
    "at": "10:14",
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
@@ -168,6 +183,7 @@
    "note": "ingyen = 공짜로",
    "tags": [],
    "at": "10:15",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -196,6 +212,7 @@
    "note": "nulla = 0",
    "tags": [],
    "at": "10:15",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -215,6 +232,7 @@
    "tags": [],
    "at": "10:31",
    "stamp": "😱",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [

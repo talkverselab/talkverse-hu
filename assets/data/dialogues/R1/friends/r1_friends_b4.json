@@ -39,6 +39,7 @@
    "tags": [
     "expr:figyelj"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Réka",
@@ -77,6 +78,7 @@
    "tags": [
     "expr:Aha"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Aha",
@@ -98,6 +100,7 @@
    "ko": "네가 여기서 내 첫 친구야.",
    "note": "első = 첫",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "barátom",
@@ -122,6 +125,7 @@
     "expr:Aha",
     "expr:Persze"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Aha",
@@ -143,6 +147,7 @@
    "ko": "네가 있어서 정말 기뻐.",
    "note": "örülök = 기뻐",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Nagyon",
@@ -171,6 +176,7 @@
    "tags": [
     "expr:Aha"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Aha",
@@ -194,6 +200,7 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Szóval",
@@ -220,6 +227,7 @@
    "ko": "야, 그건 들었어!",
    "note": "hallottam = 들었다",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Na",

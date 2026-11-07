@@ -38,6 +38,7 @@
    "tags": [
     "expr:Jó napot"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -69,6 +70,7 @@
    "ko": "「반 여덟 시」요? 지금 「반 아홉 시」예요!",
    "note": "fél kilenc = 8시 반",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Fél",
@@ -95,6 +97,7 @@
    "ko": "네, 「반 여덟」이요. 8시 반 아니에요?",
    "note": "..., nem? = ~지요?",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Igen",
@@ -116,6 +119,7 @@
    "ko": "아니요. 「반 여덟」은 7시 30분이에요.",
    "note": "hét harminc = 7시 30분",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "fél",
@@ -142,6 +146,17 @@
    "ko": "7시 30분요? 그런데 8이 들어 있잖아요!",
    "note": "de = 하지만",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Hét harminc?"
+    ],
+    [
+     "tsukkomi",
+     "De ott van a nyolc!"
+    ]
+   ],
    "lemmas": [
     [
      "Hét",
@@ -174,6 +189,17 @@
    "note": "háromnegyed nyolc = 7시 45분",
    "tags": [
     "expr:Hát"
+   ],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Hát igen, ez magyar idő."
+    ],
+    [
+     "polite",
+     "Jöjjön holnap háromnegyed nyolcra!"
+    ]
    ],
    "lemmas": [
     [
@@ -217,6 +243,17 @@
    "note": "számmal = 숫자로",
    "tags": [
     "expr:Kérem"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Háromnegyed?!"
+    ],
+    [
+     "worried",
+     "Kérem, mondja számmal!"
+    ]
    ],
    "lemmas": [
     [

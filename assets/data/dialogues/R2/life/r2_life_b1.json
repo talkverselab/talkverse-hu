@@ -40,6 +40,7 @@
    "tags": [
     "expr:Jó napot"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -73,6 +74,7 @@
    "tags": [
     "expr:Rendben"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Rendben",
@@ -101,6 +103,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Tessék",
@@ -132,6 +135,7 @@
    "ko": "좋아요. 그런데 12번 서류가 없네요.",
    "note": "hiányzik = 빠져 있다",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Szép",
@@ -163,6 +167,7 @@
    "ko": "그런 건 어디서 받아요?",
    "note": "ilyet = 이런 것을",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Hol",
@@ -184,6 +189,7 @@
    "ko": "3층 8번 창구에서요.",
    "note": "emelet = 층",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "emeleten",
@@ -210,6 +216,7 @@
    "ko": "방금 거기서 왔어요! 거기엔 주소 카드가 필요하대요.",
    "note": "onnan = 거기서부터",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Most",
@@ -256,6 +263,7 @@
    "ko": "네, 12번 서류에는 주소 카드가 필요해요. 원래 그래요.",
    "note": "-hoz = ~에(필요한 대상)",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Igen",
@@ -302,6 +310,17 @@
    "ko": "그런데 카드에 서류가 필요하잖아요! 이건 뺑뺑이예요!",
    "note": "kör = 원",
    "tags": [],
+   "emotion": "annoyed",
+   "segs": [
+    [
+     "annoyed",
+     "De a kártyához kell a papír!"
+    ],
+    [
+     "tsukkomi",
+     "Ez egy kör!"
+    ]
+   ],
    "lemmas": [
     [
      "kártyához",
@@ -334,6 +353,17 @@
    "note": "nekem sincs = 나도 없다",
    "tags": [
     "expr:Hát igen"
+   ],
+   "emotion": "stiff",
+   "segs": [
+    [
+     "stiff",
+     "Hát igen."
+    ],
+    [
+     "sad",
+     "Nekem sincs kártyám, pedig húsz éve itt dolgozom."
+    ]
    ],
    "lemmas": [
     [
@@ -388,6 +418,7 @@
    "tags": [
     "expr:Tényleg?"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Tényleg",
@@ -419,6 +450,17 @@
    "ko": "공식적으로는 아무 데도요. 아무한테도 말하지 마세요!",
    "note": "sehol = 아무 데도",
    "tags": [],
+   "emotion": "sad",
+   "segs": [
+    [
+     "sad",
+     "Hivatalosan sehol."
+    ],
+    [
+     "worried",
+     "Ne mondja el senkinek!"
+    ]
+   ],
    "lemmas": [
     [
      "Hivatalosan",

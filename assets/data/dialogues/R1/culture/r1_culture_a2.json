@@ -39,6 +39,7 @@
    "ko": "왜 꽃 받아?",
    "note": "kapsz = 네가 받는다",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Miért",
@@ -65,6 +66,7 @@
    "ko": "오늘 내 이름의 날이야.",
    "note": "névnap = 이름의 날",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Ma",
@@ -91,6 +93,7 @@
    "ko": "이름의 날? 그게 뭐야?",
    "note": "az mi? = 그게 뭐야?",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Névnap",
@@ -107,6 +110,7 @@
    "ko": "이름마다 날이 하나 있어.",
    "note": "-nak/-nek van = ~에게 있다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "névnek",
@@ -133,6 +137,7 @@
    "ko": "그럼 내 이름은?",
    "note": "név → nevem = 내 이름",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "nevem",
@@ -151,6 +156,17 @@
    "tags": [
     "expr:Várj",
     "expr:Sajnos"
+   ],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Várj..."
+    ],
+    [
+     "sad",
+     "Sajnos nincs a naptárban."
+    ]
    ],
    "lemmas": [
     [
@@ -180,6 +196,7 @@
    "tags": [
     "expr:Mindegy"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "Hát",
@@ -203,6 +220,7 @@
    "tags": [
     "expr:Mindegy"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "mindegy",

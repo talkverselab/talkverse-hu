@@ -41,6 +41,7 @@
    "ko": "누가 네 커피에 하트 그렸어?",
    "note": "szív = 하트, 심장",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Ki",
@@ -72,6 +73,7 @@
    "ko": "벤체. 다들 그려 줘, 그게 일이잖아.",
    "note": "mindenkinek = 모두에게",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Bence",
@@ -98,6 +100,17 @@
    "ko": "나한텐 하트 그려 준 적 없어. 벤체!",
    "note": "soha nem = 절대 안",
    "tags": [],
+   "emotion": "annoyed",
+   "segs": [
+    [
+     "annoyed",
+     "Nekem soha nem rajzol szívet."
+    ],
+    [
+     "shout",
+     "Bence!"
+    ]
+   ],
    "lemmas": [
     [
      "soha",
@@ -126,6 +139,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Tessék",
@@ -149,6 +163,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Figyelj",
@@ -183,6 +198,7 @@
     "expr:Tessék",
     "expr:Jól van"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Jól",
@@ -219,6 +235,7 @@
    "ko": "언너, 이거 하트야 감자야?",
    "note": "vagy = 또는",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Anna",
@@ -247,6 +264,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Hát",

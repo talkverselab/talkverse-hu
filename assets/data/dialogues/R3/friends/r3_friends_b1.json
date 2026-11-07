@@ -42,6 +42,7 @@
    "ko": "안녕하세요! 표, 정기권 보여 주세요!",
    "note": "jegy = 표, bérlet = 정기권",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -78,6 +79,7 @@
    "ko": "레카, 뭐래? 나 표 없어, 집 가방에 두고 왔어.",
    "note": "otthon maradt = 집에 남았다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Réka",
@@ -126,6 +128,7 @@
    "tags": [
     "expr:Nyugi"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Nyugi",
@@ -164,6 +167,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -202,6 +206,7 @@
    "tags": [
     "expr:Jaj, ne már"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Budapestben",
@@ -225,6 +230,7 @@
    "tags": [
     "expr:Bocsánat"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Bocsánat",
@@ -246,6 +252,7 @@
    "ko": "세게드 「위에」지, 얘야! 근데 죄르는 「안에」, 다들 아는 거야.",
    "note": "drágám = 얘야, 자기야",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Szegeden",
@@ -272,6 +279,7 @@
    "ko": "왜 죄르는 「위에」가 아니에요? 규칙이 뭐예요?",
    "note": "szabály = 규칙",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Miért",
@@ -298,6 +306,7 @@
    "ko": "규칙이요? 여긴 헝가리예요, 그냥 귀로 듣는 겁니다.",
    "note": "hallani kell = 들어야 한다",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Szabály",
@@ -336,6 +345,7 @@
    "tags": [
     "expr:Hát nem"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Hát",
@@ -377,6 +387,7 @@
    "ko": "여러분, 투표합시다! 페치 「위에」 누구, 「안에」 누구?",
    "note": "szavazzunk = 투표합시다",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Emberek",
@@ -408,6 +419,7 @@
    "ko": "{name}, 트램 전체가 투표하고 있어. 너 뭘 한 거야?",
    "note": "villamos = 트램",
    "tags": [],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "egész",
@@ -441,6 +453,7 @@
    "tags": [
     "expr:szóljak"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "nincs",
@@ -472,6 +485,7 @@
    "ko": "말하지 마! 벌써 종점이야, 다들 싸우고 있어.",
    "note": "végállomás = 종점",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "szólj",
@@ -503,6 +517,7 @@
    "ko": "표는 됐어요! 내일 같은 곳, 9시: 미슈콜츠!",
    "note": "ugyanitt = 같은 곳에서",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hagyja",

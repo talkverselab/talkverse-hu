@@ -37,6 +37,7 @@
    "note": "beteg = 아픈",
    "tags": [],
    "at": "10:02",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -67,6 +68,7 @@
     "expr:Na"
    ],
    "at": "10:03",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -95,6 +97,7 @@
    "note": "olvastad = 네가 그걸 읽었다",
    "tags": [],
    "at": "10:40",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -115,6 +118,7 @@
     "expr:Hé"
    ],
    "at": "11:15",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -138,6 +142,7 @@
    "note": "meghalok = 나 죽는다",
    "tags": [],
    "at": "12:30",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -169,6 +174,7 @@
     "expr:nyisd ki"
    ],
    "at": "12:41",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -202,6 +208,7 @@
    "note": "hol vagy? = 어디야?",
    "tags": [],
    "at": "12:41",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": []
   },
@@ -214,6 +221,17 @@
    "note": "egy órája = 한 시간째",
    "tags": [],
    "at": "12:42",
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Itt, levessel."
+    ],
+    [
+     "tsukkomi",
+     "Egy órája csengetek."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [

@@ -41,6 +41,7 @@
    "ko": "편지 읽었어? 건물주가 임대료를 세 배로 달래.",
    "note": "tulajdonos = 주인",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Olvastad",
@@ -79,6 +80,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "tudjuk",
@@ -103,6 +105,7 @@
     "expr:Sajnos",
     "expr:Szerintem"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "Sajnos",
@@ -129,6 +132,7 @@
    "ko": "건물주가 누군데? 한 번도 못 봤잖아.",
    "note": "még sosem = 아직 한 번도 안",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Ki",
@@ -160,6 +164,7 @@
    "ko": "아무도 몰라. 편지만 와.",
    "note": "levelei = 그의 편지들",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "tudja",
@@ -187,6 +192,17 @@
    "note": "legalább = 적어도",
    "tags": [
     "expr:Mindegy"
+   ],
+   "emotion": "sad",
+   "segs": [
+    [
+     "sad",
+     "Mindegy."
+    ],
+    [
+     "worried",
+     "Jön a néni, legalább ő ne tudja meg."
+    ]
    ],
    "lemmas": [
     [
@@ -219,6 +235,17 @@
    "ko": "뽀뽀할게요! 무슨 일이에요, 왜 이렇게 시무룩해요?",
    "note": "csókollak = 그때 그 실수를 놀리는 말",
    "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Csókollak, kedves!"
+    ],
+    [
+     "worried",
+     "Mi van, miért ilyen szomorú?"
+    ]
+   ],
    "lemmas": [
     [
      "Csókollak",
@@ -257,6 +284,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "néni",
@@ -295,6 +323,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Figyelj",
@@ -343,6 +372,7 @@
    "tags": [
     "expr:Ne már"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "nyugdíjas",
@@ -379,6 +409,7 @@
    "ko": "무슨 편지요? 어디 봐요!",
    "note": "mutassa = 보여 주세요(존댓말)",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "levél",
@@ -400,6 +431,7 @@
    "ko": "아이고, 이건 내 손주가 썼네. 더 쓰지 말라고 일러야겠어요.",
    "note": "unoka = 손주",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Jaj",
@@ -431,6 +463,7 @@
    "ko": "손주분이요? 그게 무슨 말씀이세요, 할머니?",
    "note": "hogy érti? = 무슨 뜻이에요?",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "unokája",
@@ -457,6 +490,7 @@
    "ko": "이 건물 내 거예요. 이 거리 전체도요.",
    "note": "az enyém = 내 것",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "ház",
@@ -488,6 +522,7 @@
    "ko": "그럼 저는 1년째 공짜 커피를 드린 거예요?",
    "note": "Önnek = 당신께(존댓말)",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "éve",
@@ -519,6 +554,17 @@
    "ko": "그래요. 내일도 올게요, 뽀뽀!",
    "note": "-lak = 내가 너를 ~한다",
    "tags": [],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Igen."
+    ],
+    [
+     "cheerful",
+     "Holnap is jövök, csókollak!"
+    ]
+   ],
    "lemmas": [
     [
      "Igen",

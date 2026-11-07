@@ -39,6 +39,7 @@
    "note": "alszol = 너 잔다",
    "tags": [],
    "at": "23:01",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -57,6 +58,7 @@
    "note": "kérdés = 질문",
    "tags": [],
    "at": "23:02",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -80,6 +82,7 @@
    "note": "múzeum = 박물관·미술관",
    "tags": [],
    "at": "23:04",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -105,6 +108,7 @@
     "expr:Jaj"
    ],
    "at": "23:20",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -130,6 +134,7 @@
     "expr:Mindegy"
    ],
    "at": "23:48",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -155,6 +160,17 @@
     "expr:Bocsi"
    ],
    "at": "07:15",
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Bocsi, elaludtam!"
+    ],
+    [
+     "excited",
+     "Igen, múzeum!"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -183,6 +199,7 @@
    "note": "macska = 고양이",
    "tags": [],
    "at": "07:16",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -211,6 +228,7 @@
    "note": "ő = 그 사람, 그것",
    "tags": [],
    "at": "07:17",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

@@ -41,6 +41,7 @@
    "tags": [
     "expr:Gyere"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Gyere",
@@ -77,6 +78,7 @@
    "ko": "와, 너 진짜 빠르다!",
    "note": "gyors = 빠른",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Hű",
@@ -103,6 +105,7 @@
    "ko": "미안하다 얘야, 지나가도 되니?",
    "note": "kisfiam = 얘야(어린 남자에게)",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Bocsánat",
@@ -130,6 +133,17 @@
    "note": "várj = 잠깐",
    "tags": [
     "expr:Persze"
+   ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Persze, tessék."
+    ],
+    [
+     "surprised",
+     "Várj, ez Marika néni?"
+    ]
    ],
    "lemmas": [
     [
@@ -160,6 +174,7 @@
     "expr:Csókolom",
     "expr:Hogy tetszik lenni?"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Csókolom",
@@ -186,6 +201,7 @@
    "ko": "잘 지내지, 이 청년이 느릴 뿐. 괜찮아, 아직 젊으니까.",
    "note": "lassú = 느린",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Jól",
@@ -232,6 +248,7 @@
    "ko": "느리다고요?! 자, 오세요, 두 바퀴요!",
    "note": "jöjjön = 오세요(존댓말)",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Lassú",
@@ -260,6 +277,7 @@
    "tags": [
     "expr:Ne már"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Dávid",
@@ -286,6 +304,7 @@
    "ko": "여든둘이다. 갈까?",
    "note": "mehetünk = 우리 가도 된다",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Nyolcvankettő",
@@ -302,6 +321,7 @@
    "ko": "말도 안 돼! 어떻게 하신 거예요?!",
    "note": "nem lehet = 그럴 리 없어",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "lehet",
@@ -323,6 +343,7 @@
    "ko": "옛날에 올림픽에서 수영했단다, 얘야. 서두르지 마, 아직 젊잖니.",
    "note": "régen = 옛날에",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Régen",
@@ -369,6 +390,7 @@
    "ko": "아주머니… 저 좀 훈련시켜 주시면 안 될까요?",
    "note": "edzene = 훈련시켜 주실 텐데(조건법)",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Marika",

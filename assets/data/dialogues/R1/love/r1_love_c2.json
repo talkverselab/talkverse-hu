@@ -39,6 +39,7 @@
    "note": "cuki = 귀여운",
    "tags": [],
    "at": "20:10",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -67,6 +68,7 @@
    "note": "írjak = 내가 쓸까",
    "tags": [],
    "at": "20:10",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -85,6 +87,7 @@
    "note": "… vagyok = 나는 …야",
    "tags": [],
    "at": "20:12",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -110,6 +113,7 @@
     "expr:Úristen"
    ],
    "at": "20:12",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -135,6 +139,7 @@
     "expr:Segíts"
    ],
    "at": "20:13",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -163,6 +168,7 @@
    "note": "még mindig = 아직도",
    "tags": [],
    "at": "20:13",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -191,6 +197,7 @@
    "note": "elköltözöm = 이사 간다",
    "tags": [],
    "at": "20:14",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -212,6 +219,17 @@
    ],
    "at": "20:15",
    "stamp": "😇",
+   "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "Ne már!"
+    ],
+    [
+     "gentle",
+     "Holnap is cuki leszek."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [

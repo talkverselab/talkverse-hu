@@ -40,6 +40,7 @@
     "expr:Nézd"
    ],
    "at": "11:20",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -63,6 +64,7 @@
    "note": "hol = 어디서",
    "tags": [],
    "at": "11:21",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -88,6 +90,7 @@
     "expr:ugye"
    ],
    "at": "11:21",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -106,6 +109,7 @@
    "note": "mennyiért = 얼마에",
    "tags": [],
    "at": "11:22",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -124,6 +128,7 @@
    "note": "olcsó = 싼",
    "tags": [],
    "at": "11:22",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -149,6 +154,7 @@
     "expr:Durva"
    ],
    "at": "11:23",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -167,6 +173,7 @@
    "note": "miért = 왜",
    "tags": [],
    "at": "11:23",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -186,6 +193,17 @@
    "tags": [],
    "at": "11:24",
    "stamp": "😂",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "A régi lámpám!"
+    ],
+    [
+     "teasing",
+     "Kétezerért adtam el."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [

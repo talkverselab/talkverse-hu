@@ -40,6 +40,7 @@
    "ko": "레카, 봐, 이거 벤치에서 찾았어. 언너 스케치북이야?",
    "note": "pad = 벤치",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Réka",
@@ -77,6 +78,17 @@
    "note": "ne nyisd ki = 열지 마",
    "tags": [
     "expr:Komolyan"
+   ],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Igen, az övé."
+    ],
+    [
+     "worried",
+     "Ne nyisd ki, komolyan mondom!"
+    ]
    ],
    "lemmas": [
     [
@@ -121,6 +133,17 @@
    "tags": [
     "expr:Hű"
    ],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Már kinyitottam."
+    ],
+    [
+     "surprised",
+     "Hű, itt nagyon sok krumpli van."
+    ]
+   ],
    "lemmas": [
     [
      "Már",
@@ -162,6 +185,7 @@
    "ko": "아, 그거? 그거 감자 아니야.",
    "note": "ja = 아",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Ja",
@@ -185,6 +209,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várj",
@@ -216,6 +241,7 @@
    "ko": "전부 너야. 서른 쪽이 다 너.",
    "note": "csupa = 온통",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "oldal",
@@ -239,6 +265,17 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Harminc?"
+    ],
+    [
+     "shy",
+     "Szóval Anna engem..."
+    ]
+   ],
    "lemmas": [
     [
      "Harminc",
@@ -255,6 +292,7 @@
    "ko": "얘들아 안녕! 내 공책 못 봤어?",
    "note": "láttátok = 너희가 그걸 봤다",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Sziasztok",

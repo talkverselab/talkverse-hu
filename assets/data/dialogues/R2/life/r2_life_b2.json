@@ -44,6 +44,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Figyelj",
@@ -87,6 +88,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Persze",
@@ -113,6 +115,7 @@
    "ko": "「에게세게드레」라고 해. 천천히 말해 봐!",
    "note": "egészségedre = 건배(네 건강을 위해)",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "egészségedre",
@@ -134,6 +137,7 @@
    "ko": "전체… 네 엉덩이에?",
    "note": "띄어 말하면 뜻이 달라진다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Egész",
@@ -155,6 +159,17 @@
    "ko": "아니, 그건 뜻이 달라! 우리 아빠한테 하지 마!",
    "note": "segg = 엉덩이(거친 말)",
    "tags": [],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Nem, az mást jelent!"
+    ],
+    [
+     "worried",
+     "Ne mondd apámnak!"
+    ]
+   ],
    "lemmas": [
     [
      "mást",
@@ -188,6 +203,7 @@
    "tags": [
     "expr:Jól van"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Jól",
@@ -219,6 +235,7 @@
    "ko": "안녕, {name}! 말 놓고 한잔하자!",
    "note": "tegeződjünk = 말 놓자",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szia",
@@ -240,6 +257,7 @@
    "ko": "고맙습니다! 당신 엉덩이 전체를 위해!",
    "note": "egész seggedre = 네 엉덩이 전체에",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Köszönöm",
@@ -263,6 +281,7 @@
    "tags": [
     "expr:Tessék?"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Tessék",
@@ -279,6 +298,7 @@
    "ko": "세상에. 아빠, 아직 말 배우는 중이야.",
    "note": "tanulja = 그걸 배운다",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Úristen",
@@ -310,6 +330,7 @@
    "ko": "이거 최고다! 앞으로 우리 집은 이렇게 말한다.",
    "note": "mostantól = 이제부터",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hát",
@@ -348,6 +369,7 @@
    "tags": [
     "expr:Ne már"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "már",

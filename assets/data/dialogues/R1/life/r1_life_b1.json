@@ -38,6 +38,7 @@
    "ko": "이 냄새 뭐야? 뭐 해?",
    "note": "szag = 냄새",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "szag",
@@ -61,6 +62,7 @@
    "tags": [
     "expr:Kóstold meg"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Gulyást",
@@ -83,6 +85,17 @@
    "note": "de + 형용사 = 정말 ~하다",
    "tags": [
     "expr:Úristen"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Hű, de piros!"
+    ],
+    [
+     "shout",
+     "Úristen, víz!"
+    ]
    ],
    "lemmas": [
     [
@@ -112,6 +125,7 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "van",
@@ -140,6 +154,7 @@
    "tags": [
     "expr:Mutasd"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Mutasd",
@@ -171,6 +186,7 @@
    "ko": "1 kk. 그거 1킬로잖아, 아니야?",
    "note": "..., nem? = ~지, 아니야?",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "kk",
@@ -192,6 +208,7 @@
    "ko": "찻숟갈! kk 는 찻숟갈이라고!",
    "note": "kávéskanál = 찻숟갈(요리책의 kk)",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Kávéskanál",
@@ -213,6 +230,7 @@
    "ko": "얘들아, 왜 온 건물이 울고 있니?",
    "note": "sír = 운다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Gyerekek",

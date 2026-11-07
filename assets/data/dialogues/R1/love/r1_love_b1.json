@@ -40,6 +40,7 @@
    "ko": "할머니 댁에서 점심 조금만 먹는 거야, 겁내지 마.",
    "note": "nagymamámnál = 우리 할머니 댁에서",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Csak",
@@ -81,6 +82,7 @@
    "ko": "어서 와, 얘야! 굴라시 좀 더 먹어!",
    "note": "egyél = 먹어",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szia",
@@ -117,6 +119,7 @@
    "ko": "안녕하세요! 고맙습니다만 벌써 세 그릇 먹었어요.",
    "note": "csókolom = 어른께 하는 인사",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Csókolom",
@@ -148,6 +151,7 @@
    "ko": "그건 아무것도 아니야! 언너, 레테시도 가져와!",
    "note": "hozd = 가져와",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "hozd",
@@ -172,6 +176,7 @@
     "expr:Figyelj",
     "expr:Légyszi"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -203,6 +208,7 @@
    "ko": "자, 결혼식은 언제니? 케이크는 벌써 다 됐어!",
    "note": "esküvő = 결혼식",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Na",
@@ -241,6 +247,17 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van?"
+    ],
+    [
+     "flustered",
+     "Anna, mit mondtál neki rólam?"
+    ]
+   ],
    "lemmas": [
     [
      "van",
@@ -264,6 +281,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Hát",

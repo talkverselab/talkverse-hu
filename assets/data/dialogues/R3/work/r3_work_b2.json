@@ -43,6 +43,7 @@
    "ko": "오늘 왜 다들 꽃을 받아? 무슨 일 있어?",
    "note": "kap = 받는다",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Miért",
@@ -79,6 +80,7 @@
    "ko": "오늘이 언너의 이름의 날이야. 여기선 이름마다 날이 있어.",
    "note": "névnap = 이름의 날",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Ma",
@@ -115,6 +117,7 @@
    "ko": "이름마다? 그럼 내 건 언제야?",
    "note": "mikor = 언제",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "névnek",
@@ -138,6 +141,17 @@
    "tags": [
     "expr:Várj",
     "expr:Sajnos"
+   ],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Várj, megnézem."
+    ],
+    [
+     "sad",
+     "Sajnos a te neved nincs a naptárban."
+    ]
    ],
    "lemmas": [
     [
@@ -175,6 +189,7 @@
    "ko": "아, 아쉽다. 나는 평생 꽃을 못 받는 거야?",
    "note": "soha nem = 절대 안",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "Jaj",
@@ -213,6 +228,17 @@
    "tags": [
     "expr:Ne már",
     "expr:Nézd"
+   ],
+   "emotion": "tsukkomi",
+   "segs": [
+    [
+     "tsukkomi",
+     "Ne már!"
+    ],
+    [
+     "excited",
+     "Nézd, felírom a táblára: ma {name} névnapja van."
+    ]
    ],
    "lemmas": [
     [
@@ -255,6 +281,7 @@
    "ko": "벤체, 이러면 안 돼! 이거 거짓말이잖아!",
    "note": "nem lehet = 안 된다",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Bence",
@@ -281,6 +308,7 @@
    "ko": "이름의 날 축하해요! 레테시 가져왔어요.",
    "note": "boldog névnapot = 이름의 날 축하합니다",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Boldog",
@@ -314,6 +342,7 @@
    "tags": [
     "expr:Igazából"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Köszönöm",
@@ -343,6 +372,7 @@
     "expr:Nézd",
     "expr:Figyelj"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Figyelj",
@@ -384,6 +414,7 @@
    "ko": "실례합니다, 제 꽃이 다 팔렸어요. 이 유명한 {name} 씨가 누구예요?",
    "note": "elfogyott = 다 떨어졌다",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -415,6 +446,17 @@
    "ko": "저예요. 근데 이거 기념일도 아니에요!",
    "note": "ünnep = 기념일, 명절",
    "tags": [],
+   "emotion": "shy",
+   "segs": [
+    [
+     "shy",
+     "Én vagyok."
+    ],
+    [
+     "tsukkomi",
+     "De ez nem is ünnep!"
+    ]
+   ],
    "lemmas": [
     [
      "vagyok",
@@ -436,6 +478,7 @@
    "ko": "이제는 맞아. 구청장님도 오셔서 연설하신대.",
    "note": "beszédet mond = 연설한다",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Már",
@@ -482,6 +525,7 @@
    "ko": "벤체! 내일은 어쩌려고?",
    "note": "mi lesz? = 어떻게 될까?",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Bence",
@@ -510,6 +554,7 @@
    "tags": [
     "expr:Szerintem"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "jövő",

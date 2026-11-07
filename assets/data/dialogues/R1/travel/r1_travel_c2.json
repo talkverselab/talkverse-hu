@@ -40,6 +40,7 @@
    "tags": [],
    "at": "08:10",
    "read": false,
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -64,6 +65,7 @@
    "tags": [],
    "at": "08:12",
    "read": false,
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -83,6 +85,7 @@
    "tags": [],
    "at": "08:15",
    "read": false,
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
@@ -109,6 +112,7 @@
    ],
    "at": "08:40",
    "read": false,
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -135,6 +139,7 @@
    ],
    "at": "09:05",
    "read": false,
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -160,6 +165,7 @@
     "expr:Bocsi"
    ],
    "at": "09:31",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -185,6 +191,17 @@
     "expr:Mi van?"
    ],
    "at": "09:31",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van?"
+    ],
+    [
+     "annoyed",
+     "Hol vagy?"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -203,6 +220,7 @@
    "note": "mögötted = 네 뒤에",
    "tags": [],
    "at": "09:32",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

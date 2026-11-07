@@ -39,6 +39,7 @@
    "tags": [
     "expr:Mit hozhatok?"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -65,6 +66,7 @@
    "ko": "웨이터 하나 주세요, 노케들리랑 사워크림 곁들여서요.",
    "note": "tejföl = 사워크림",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "pincért",
@@ -96,6 +98,7 @@
    "ko": "웨이터요? 노케들리랑요?",
    "note": "pincér = 웨이터",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "pincért",
@@ -114,6 +117,7 @@
    "tags": [
     "expr:ugye"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Igen",
@@ -136,6 +140,17 @@
    "note": "pörkölt = 파프리카 고기 스튜",
    "tags": [
     "expr:Hát"
+   ],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Hát, ezt még senki nem mondta."
+    ],
+    [
+     "polite",
+     "Pörköltet kér?"
+    ]
    ],
    "lemmas": [
     [
@@ -170,6 +185,17 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj, igen, pörköltet!"
+    ],
+    [
+     "neutral",
+     "És mi a pincér?"
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",
@@ -201,6 +227,17 @@
    "ko": "저예요. 그래도 사워크림 없으면 더 쌉니다.",
    "note": "olcsóbb = 더 싼",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Én vagyok az."
+    ],
+    [
+     "teasing",
+     "De tejföl nélkül olcsóbb vagyok."
+    ]
+   ],
    "lemmas": [
     [
      "vagyok",

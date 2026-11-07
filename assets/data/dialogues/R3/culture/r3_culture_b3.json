@@ -44,6 +44,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -87,6 +88,7 @@
    "tags": [
     "expr:Nyugi"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Nyugi",
@@ -123,6 +125,17 @@
    "ko": "속담 열 개? 아이고, 오신다, 웃어!",
    "note": "mosolyogj = 웃어",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tíz közmondást?"
+    ],
+    [
+     "worried",
+     "Jaj, jön, mosolyogj!"
+    ]
+   ],
    "lemmas": [
     [
      "közmondást",
@@ -149,6 +162,7 @@
    "ko": "어서 오세요, 앉으시죠! 헝가리어를 배우신다고요, 어렵습니까?",
    "note": "foglaljon helyet = 앉으세요",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Üdvözlöm",
@@ -190,6 +204,7 @@
    "ko": "네, 하지만 어디든 울타리가 소시지로 되어 있진 않죠.",
    "note": "속담: 어디나 사는 건 쉽지 않다",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Igen",
@@ -226,6 +241,7 @@
    "ko": "음, 맞는 말입니다. 좋은 속담이에요!",
    "note": "mondás = 말, 속담",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Hát",
@@ -252,6 +268,17 @@
    "ko": "오, 먹혔다. 이제 그만해, 알았지?",
    "note": "működik = 작동하다",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Hű, ez működött."
+    ],
+    [
+     "worried",
+     "Most már elég, jó?"
+    ]
+   ],
    "lemmas": [
     [
      "Hű",
@@ -288,6 +315,7 @@
    "ko": "포르쾰트 드셔 보세요. 제가 만들었어요, 40년 된 레시피입니다.",
    "note": "kóstolja meg = 맛보세요",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Kóstolja",
@@ -329,6 +357,7 @@
    "ko": "감사합니다! 개로는 베이컨을 못 만들죠!",
    "note": "속담: 나쁜 건 안 변한다",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Köszönöm",
@@ -357,6 +386,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Úristen",
@@ -388,6 +418,7 @@
    "ko": "개요? 내가 개를 끓였다는 말입니까?",
    "note": "azt mondja = 그렇게 말한다",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Kutyából",
@@ -416,6 +447,7 @@
    "tags": [
     "expr:Bocsánat"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "bocsánat",
@@ -447,6 +479,7 @@
    "ko": "나더러 머리가 크다는 겁니까?",
    "note": "nevez = 부르다",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "nagyfejűnek",
@@ -470,6 +503,7 @@
    "tags": [
     "expr:Kérlek"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Kérlek",
@@ -506,6 +540,7 @@
    "ko": "아직 일곱 개 남았어. 잠깐, 이거 좋다. 남의 구덩이 파는 자, 제가 빠진다!",
    "note": "verem → vermet = 구덩이를",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Még",
@@ -562,6 +597,17 @@
    "ko": "레카, 팔린카 가져와, 40년 만에 이렇게 웃네! 말 놓자, {name}!",
    "note": "tegeződjünk = 서로 말 놓자",
    "tags": [],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Réka, hozd a pálinkát, negyven éve nem nevettem így!"
+    ],
+    [
+     "cheerful",
+     "Tegeződjünk, {name}!"
+    ]
+   ],
    "lemmas": [
     [
      "Réka",

@@ -44,6 +44,7 @@
    "note": "eladó = 판매원 / 팔려고 내놓은",
    "tags": [],
    "at": "19:00",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -79,6 +80,7 @@
     "expr:Úristen"
    ],
    "at": "19:01",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -114,6 +116,7 @@
     "expr:Mi a baj"
    ],
    "at": "19:01",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -142,6 +145,7 @@
    "note": "el lehet adni = 팔 수 있다",
    "tags": [],
    "at": "19:02",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -180,6 +184,7 @@
    "note": "mennyibe kerül? = 얼마예요?",
    "tags": [],
    "at": "19:04",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -213,6 +218,7 @@
    "note": "nem vagyok eladó = 안 판다",
    "tags": [],
    "at": "19:04",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -246,6 +252,7 @@
    "note": "szerel = 고치다",
    "tags": [],
    "at": "19:05",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -279,6 +286,7 @@
    "note": "hozzá = 거기에 더해",
    "tags": [],
    "at": "19:06",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -310,6 +318,7 @@
     "expr:Várjatok"
    ],
    "at": "19:07",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -333,6 +342,7 @@
    "note": "késő = 늦은",
    "tags": [],
    "at": "19:08",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -383,6 +393,7 @@
     "expr:Mi van"
    ],
    "at": "19:08",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -416,6 +427,7 @@
    "note": "ötvenezer = 5만",
    "tags": [],
    "at": "23:11",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
@@ -434,6 +446,7 @@
    "note": "?! = 깜짝 놀랄 때",
    "tags": [],
    "at": "23:12",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -454,6 +467,7 @@
     "expr:Mi van"
    ],
    "at": "23:12",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -477,6 +491,7 @@
    "note": "eladva = 팔렸음",
    "tags": [],
    "at": "23:13",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -500,6 +515,7 @@
    "note": "csomagold be = 포장해 줘",
    "tags": [],
    "at": "23:14",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [

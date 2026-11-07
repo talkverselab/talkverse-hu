@@ -42,6 +42,7 @@
     "expr:Sziasztok"
    ],
    "at": "18:00",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -75,6 +76,7 @@
    "note": "bejgli = 크리스마스 양귀비씨·호두 말이빵",
    "tags": [],
    "at": "18:03",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -98,6 +100,7 @@
    "note": "mi az a …? = ~가 뭐야?",
    "tags": [],
    "at": "18:05",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -116,6 +119,7 @@
    "note": "diós = 호두가 든",
    "tags": [],
    "at": "18:05",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -151,6 +155,7 @@
     "expr:Szuper"
    ],
    "at": "18:06",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -174,6 +179,7 @@
    "note": "én is = 나도",
    "tags": [],
    "at": "18:20",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -197,6 +203,17 @@
    "note": "asztal = 탁자",
    "tags": [],
    "at": "19:30",
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Itt vagyok."
+    ],
+    [
+     "surprised",
+     "Már tizennégy bejgli van az asztalon."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -235,6 +252,17 @@
    "note": "hatot = 여섯을",
    "tags": [],
    "at": "19:31",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tizennégy?!"
+    ],
+    [
+     "worried",
+     "Én még hozok hatot."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -263,6 +291,7 @@
    "note": "ital = 음료",
    "tags": [],
    "at": "19:33",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -288,6 +317,7 @@
     "expr:Izé"
    ],
    "at": "19:34",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -317,6 +347,7 @@
    "tags": [],
    "at": "19:40",
    "stamp": "😂",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [

@@ -41,6 +41,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -69,6 +70,17 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Az állás miatt?"
+    ],
+    [
+     "polite",
+     "Tessék, üljön le."
+    ]
+   ],
    "lemmas": [
     [
      "állás",
@@ -95,6 +107,7 @@
    "ko": "감사합니다. 커피를 정말 좋아하고, 빨리 배워요.",
    "note": "gyorsan = 빨리",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Köszönöm",
@@ -131,6 +144,7 @@
    "ko": "그렇군요. 또 뭘 할 수 있어요?",
    "note": "mit tud? = 뭘 할 수 있어요?(존댓말)",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Értem",
@@ -157,6 +171,7 @@
    "ko": "주말에도 일할 수 있어요. 아침 여섯 시에도요!",
    "note": "-kor = ~시에",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hétvégén",
@@ -183,6 +198,7 @@
    "ko": "여섯 시에요? 와, 그건 세네요.",
    "note": "durva = 심하다, 장난 아니다",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "durva",
@@ -201,6 +217,7 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Szóval",
@@ -229,6 +246,7 @@
    "tags": [
     "expr:bocsi"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szia",
@@ -265,6 +283,17 @@
    "ko": "네, 근데 사장님이랑 벌써 얘기했어요. 이분 맞죠?",
    "note": "ő az = 저분이 그 사람이다",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Igen, de már beszéltem a főnökkel."
+    ],
+    [
+     "worried",
+     "Ő az, ugye?"
+    ]
+   ],
    "lemmas": [
     [
      "Igen",
@@ -296,6 +325,17 @@
    "ko": "저는 그냥 커피 한 잔 마시고 싶은데요. 20분째 기다리고 있어요.",
    "note": "húsz perce = 20분째",
    "tags": [],
+   "emotion": "stiff",
+   "segs": [
+    [
+     "stiff",
+     "Én csak egy kávét szeretnék."
+    ],
+    [
+     "annoyed",
+     "Húsz perce várok."
+    ]
+   ],
    "lemmas": [
     [
      "csak",
@@ -333,6 +373,17 @@
    "note": "fel vagy véve = 너 채용됐어",
    "tags": [
     "expr:Na jó"
+   ],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Na jó, fel vagy véve."
+    ],
+    [
+     "teasing",
+     "Vidd neki a kávét!"
+    ]
    ],
    "lemmas": [
     [

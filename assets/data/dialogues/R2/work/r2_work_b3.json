@@ -41,6 +41,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Figyelj",
@@ -77,6 +78,7 @@
    "ko": "초콜롬? 그게 무슨 뜻이야?",
    "note": "jelent = 뜻하다",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Csókolom",
@@ -100,6 +102,7 @@
    "tags": [
     "expr:Igazából"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Igazából",
@@ -138,6 +141,7 @@
    "tags": [
     "expr:Durva"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Durva",
@@ -174,6 +178,17 @@
    "ko": "나이 드신 할머니들한테만. 자, 한 분 오신다!",
    "note": "idősebb = 나이가 더 많은",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Csak az idősebb néniknek."
+    ],
+    [
+     "excited",
+     "Na, jön egy!"
+    ]
+   ],
    "lemmas": [
     [
      "Csak",
@@ -205,6 +220,7 @@
    "ko": "너한테 뽀뽀할게요, 할머니! 뭐 드릴까요?",
    "note": "csókollak = 내가 너에게 입 맞춘다(-lak)",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Csókollak",
@@ -233,6 +249,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Tessék",
@@ -261,6 +278,7 @@
    "tags": [
     "expr:Ne már"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Jaj",
@@ -287,6 +305,7 @@
    "ko": "죄송해요, 할머니! 입 맞출 생각 없어요!",
    "note": "nem akarom = 원하지 않는다",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Bocsánat",
@@ -318,6 +337,7 @@
    "ko": "아쉽네. 그 말을 40년째 아무도 안 해 줬는데.",
    "note": "kár = 아쉽다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Kár",
@@ -349,6 +369,7 @@
    "ko": "자, 저분 내일도 오시겠다.",
    "note": "lesz = ~일 것이다",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Na",

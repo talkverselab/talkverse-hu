@@ -37,6 +37,7 @@
    "ko": "다비드, 물 좋아?",
    "note": "víz = 물",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Dávid",
@@ -63,6 +64,7 @@
    "ko": "좋아, 좋아. 아주 따뜻해.",
    "note": "meleg = 따뜻한",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Jó",
@@ -86,6 +88,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Figyelj",
@@ -119,6 +122,7 @@
    "tags": [
     "expr:Mennyi kell?"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Van",
@@ -140,6 +144,17 @@
    "ko": "천 포린트. 랑고시 사 먹게.",
    "note": "-ra = ~에(쓸 곳)",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Ezer forint."
+    ],
+    [
+     "cheerful",
+     "Lángosra."
+    ]
+   ],
    "lemmas": [
     [
      "forint",
@@ -157,6 +172,17 @@
    "note": "ki = 누구",
    "tags": [
     "expr:Tessék"
+   ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Tessék."
+    ],
+    [
+     "amused",
+     "De ki az a Dávid?"
+    ]
    ],
    "lemmas": [
     [
@@ -179,6 +205,7 @@
    "ko": "아이고, 죄송합니다! 제 안경 어디 있지?",
    "note": "szemüveg = 안경",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -207,6 +234,7 @@
    "tags": [
     "expr:Nem baj"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "baj",

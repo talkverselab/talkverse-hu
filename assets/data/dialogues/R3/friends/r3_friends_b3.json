@@ -42,6 +42,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -83,6 +84,7 @@
    "ko": "굴라시에 넣을 파프리카만. 내 기억에 5킬로.",
    "note": "ha jól emlékszem = 내 기억이 맞다면",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Csak",
@@ -124,6 +126,7 @@
    "ko": "안녕하세요! 500킬로 어디 둘까요?",
    "note": "hová tegyem = 어디에 둘까요",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -160,6 +163,17 @@
    "ko": "얼마요?! 아니, 아니, 5킬로 주문했어요!",
    "note": "mennyit = 얼마를",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mennyit?!"
+    ],
+    [
+     "flustered",
+     "Nem, nem, öt kilót kértem!"
+    ]
+   ],
    "lemmas": [
     [
      "kilót",
@@ -181,6 +195,7 @@
    "ko": "여기 500이라고 돼 있어요. 주문도 결제도 손님이 하셨어요.",
    "note": "maga = 당신(존댓말)",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Itt",
@@ -219,6 +234,17 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Úristen, {name}!"
+    ],
+    [
+     "worried",
+     "Ez hova fér el?"
+    ]
+   ],
    "lemmas": [
     [
      "Úristen",
@@ -250,6 +276,7 @@
    "ko": "내 방은 안 돼. 거긴 소파도 안 들어갔어.",
    "note": "még … sem = ~조차 안",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "szobámba",
@@ -286,6 +313,7 @@
    "ko": "저는 상관없어요. 계단에 놓고 갑니다.",
    "note": "nem érdekel = 상관없다",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "érdekel",
@@ -322,6 +350,7 @@
    "ko": "또 자네들이야? 이 냄새 뭐야, 파프리카야?",
    "note": "szag = 냄새",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Már",
@@ -353,6 +382,7 @@
    "ko": "할머니, 혹시 파프리카 안 사세요? 1킬로에 천 포린트예요.",
    "note": "véletlenül = 혹시",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Néni",
@@ -399,6 +429,7 @@
    "ko": "천? 딸이랑 이웃이랑 온 동네를 부를게!",
    "note": "szomszéd = 이웃",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "lányomat",
@@ -432,6 +463,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várj",
@@ -476,6 +508,7 @@
     "expr:Hallod",
     "expr:király"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "egész",
@@ -512,6 +545,7 @@
    "ko": "레카, 다 팔았어! 돈도 남았어!",
    "note": "maradt = 남았다",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Réka",
@@ -543,6 +577,7 @@
    "ko": "알아. 그래서 양파 500킬로 주문했어.",
    "note": "hagyma = 양파",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Tudom",

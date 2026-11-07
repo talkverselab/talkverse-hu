@@ -39,6 +39,7 @@
    "tags": [
     "expr:Nézd"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Nézd",
@@ -70,6 +71,7 @@
    "ko": "빨리! 하나 주세요!",
    "note": "egyet kérek = 하나 주세요",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Gyorsan",
@@ -91,6 +93,7 @@
    "ko": "와, 너 운 좋다!",
    "note": "mákod van = 운이 좋다(직역: 네게 양귀비씨가 있다)",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Hű",
@@ -119,6 +122,7 @@
    "tags": [
     "expr:Tessék?"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Tessék",
@@ -140,6 +144,7 @@
    "ko": "아니, 아니! 운이 좋다고.",
    "note": "szerencse = 운",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "van",
@@ -156,6 +161,17 @@
    "ko": "아, 알겠어. 자, 먹자!",
    "note": "együnk = 먹자",
    "tags": [],
+   "emotion": "shy",
+   "segs": [
+    [
+     "shy",
+     "Jaj, értem."
+    ],
+    [
+     "cheerful",
+     "Na, együnk!"
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",
@@ -184,6 +200,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Hát",

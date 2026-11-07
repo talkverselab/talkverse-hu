@@ -42,6 +42,7 @@
     "expr:Csókolom",
     "expr:ugye"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Csókolom",
@@ -75,6 +76,17 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Gyere be, gyere be!"
+    ],
+    [
+     "worried",
+     "Jaj, de sovány vagy!"
+    ]
+   ],
    "lemmas": [
     [
      "Gyere",
@@ -101,6 +113,7 @@
    "ko": "고맙습니다. 늦은 거 아는데, 저녁 아직 있나요?",
    "note": "késő = 늦은",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Köszönöm",
@@ -139,6 +152,7 @@
    "tags": [
     "expr:Hát persze"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Hát",
@@ -185,6 +199,7 @@
    "ko": "와, 아주 맛있어요! 인터넷에 이렇게 좋다고는 안 쓰여 있었는데.",
    "note": "a neten = 인터넷에",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hű",
@@ -231,6 +246,7 @@
    "ko": "더 먹어! 그다음엔 작은방에서 자면 돼.",
    "note": "egyél = 먹어",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Egyél",
@@ -262,6 +278,7 @@
    "ko": "(다음 날 아침) 안녕하세요! 어디서 계산해요, 카드요 현금이요?",
    "note": "készpénz = 현금",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -303,6 +320,17 @@
    "ko": "돈을? 여기 호텔 아니야, 조금 더 먹어!",
    "note": "fizetni = 돈 내기",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Fizetni?"
+    ],
+    [
+     "gentle",
+     "Hát ez nem hotel, egyél még egy kicsit!"
+    ]
+   ],
    "lemmas": [
     [
      "Fizetni",
@@ -341,6 +369,7 @@
    "tags": [
     "expr:Hogyhogy"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Hogyhogy",
@@ -367,6 +396,7 @@
    "ko": "로자는 나야. 민박은 옆 마을에 있어.",
    "note": "szomszéd = 이웃",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Rózsa",
@@ -405,6 +435,17 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Úristen!"
+    ],
+    [
+     "flustered",
+     "Akkor miért engedett be?"
+    ]
+   ],
    "lemmas": [
     [
      "Úristen",
@@ -436,6 +477,7 @@
    "ko": "우리 손주 보러 온 줄 알았지.",
    "note": "unoka = 손주",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "hittem",
@@ -463,6 +505,17 @@
    "note": "sajnálom = 죄송해요",
    "tags": [
     "expr:Jaj"
+   ],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj, nagyon sajnálom!"
+    ],
+    [
+     "polite",
+     "Akkor én most megyek."
+    ]
    ],
    "lemmas": [
     [
@@ -500,6 +553,7 @@
    "ko": "어딜 가? 손주는 어차피 안 와, 점심은 감자 그라탱이야.",
    "note": "úgyse = 어차피 ~ 않다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Hova",
@@ -556,6 +610,7 @@
    "ko": "로자 할머니, 내일은 뭐 만드세요?",
    "note": "főz = 요리하다",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Rózsa",

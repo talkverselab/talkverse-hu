@@ -41,6 +41,7 @@
    "ko": "따뜻한 물로 와! 안경은 이리 줘.",
    "note": "add ide = 이리 줘",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Gyere",
@@ -82,6 +83,7 @@
    "ko": "그래, 근데 안경 없으면 아무것도 안 보여.",
    "note": "nélkül = ~ 없이",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Jó",
@@ -112,6 +114,7 @@
     "expr:Egy pillanat",
     "expr:Mindjárt"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "baj",
@@ -155,6 +158,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Figyelj",
@@ -186,6 +190,7 @@
    "ko": "말해 봐, 듣고 있어.",
    "note": "hallgatlak = 내가 네 말을 듣고 있다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Mondjad",
@@ -212,6 +217,7 @@
    "ko": "네가 정말 좋아. 예쁘고 향기도 좋아.",
    "note": "tetszel nekem = 네가 내 마음에 들어",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Nagyon",
@@ -243,6 +249,17 @@
    "ko": "고맙네. 내 아내도 그렇게 말하지.",
    "note": "feleség = 아내",
    "tags": [],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Köszönöm."
+    ],
+    [
+     "amused",
+     "A feleségem is ezt mondja."
+    ]
+   ],
    "lemmas": [
     [
      "Köszönöm",
@@ -269,6 +286,17 @@
    "ko": "뭐야?! 누구세요?",
    "note": "ki maga? = 누구세요?(존대)",
    "tags": [],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Mi van?!"
+    ],
+    [
+     "flustered",
+     "Ki maga?"
+    ]
+   ],
    "lemmas": [
     [
      "van",
@@ -285,6 +313,7 @@
    "ko": "페리 아저씨야. 내 친구들도 들었는데, 아주 좋아하더군.",
    "note": "hallották = 그들이 그걸 들었다",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Feri",
@@ -326,6 +355,7 @@
    "ko": "무슨 일이야? 왜 다들 박수 쳐?",
    "note": "tapsol = 박수 친다",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "történt",
@@ -349,6 +379,7 @@
    "tags": [
     "expr:Légyszi"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "vissza",
@@ -375,6 +406,7 @@
    "ko": "싫어. 먼저 저분한테 한 말, 나한테도 해 줘.",
    "note": "előbb = 먼저",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "mondd",

@@ -39,6 +39,7 @@
    "note": "ébren = 깨어 있는",
    "tags": [],
    "at": "23:41",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -64,6 +65,7 @@
     "expr:Mi van"
    ],
    "at": "23:43",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -97,6 +99,7 @@
    "note": "kizártam magam = 문이 잠겨 못 들어간다",
    "tags": [],
    "at": "23:43",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -125,6 +128,7 @@
    "note": "szemét = 쓰레기",
    "tags": [],
    "at": "23:44",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -158,6 +162,7 @@
    "note": "kulcsod = 네 열쇠",
    "tags": [],
    "at": "23:44",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -183,6 +188,7 @@
     "expr:mindjárt"
    ],
    "at": "23:45",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -218,6 +224,7 @@
     "expr:Nyugi"
    ],
    "at": "23:49",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -251,6 +258,7 @@
    "note": "írtál = 네가 썼다",
    "tags": [],
    "at": "23:49",
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
@@ -269,6 +277,7 @@
    "note": "bent ragadt = 안에 갇혔다",
    "tags": [],
    "at": "23:50",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -302,6 +311,7 @@
    "note": "tűzoltó = 소방관",
    "tags": [],
    "at": "23:58",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -330,6 +340,7 @@
    "note": "betör = 부수다",
    "tags": [],
    "at": "23:59",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -365,6 +376,7 @@
     "expr:Szuper"
    ],
    "at": "23:59",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -398,6 +410,7 @@
    "note": "az én ajtóm = 내 문",
    "tags": [],
    "at": "00:01",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -418,6 +431,7 @@
     "expr:Hát"
    ],
    "at": "00:01",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -446,6 +460,17 @@
    "note": "a nénié = 할머니의 것",
    "tags": [],
    "at": "00:03",
+   "emotion": "sad",
+   "segs": [
+    [
+     "sad",
+     "A nénié."
+    ],
+    [
+     "amused",
+     "Most kávét főz nekik."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [

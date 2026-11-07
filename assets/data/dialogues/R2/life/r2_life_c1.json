@@ -42,6 +42,7 @@
     "expr:Jó napot"
    ],
    "at": "20:14",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -77,6 +78,7 @@
     "expr:Jó napot"
    ],
    "at": "20:15",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -112,6 +114,7 @@
     "expr:Mennyibe kerül"
    ],
    "at": "20:15",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
@@ -140,6 +143,7 @@
    "note": "állapot = 상태",
    "tags": [],
    "at": "20:16",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -180,6 +184,7 @@
     "expr:Szuper"
    ],
    "at": "20:16",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -210,6 +215,7 @@
     "expr:Hát"
    ],
    "at": "20:18",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -235,6 +241,7 @@
     "expr:Hogyhogy"
    ],
    "at": "20:18",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -255,6 +262,7 @@
     "expr:Igazából"
    ],
    "at": "20:19",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -293,6 +301,7 @@
    "note": "várjon = 기다리세요",
    "tags": [],
    "at": "20:20",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
@@ -321,6 +330,7 @@
    "note": "honnan = 어디서부터",
    "tags": [],
    "at": "20:20",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -344,6 +354,7 @@
    "note": "adtam el = 내가 팔았다",
    "tags": [],
    "at": "20:21",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -377,6 +388,7 @@
    "note": "lépcsőmön = 내 계단에서",
    "tags": [],
    "at": "20:21",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [

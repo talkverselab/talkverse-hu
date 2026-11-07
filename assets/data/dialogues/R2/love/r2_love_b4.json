@@ -39,6 +39,7 @@
    "ko": "뛰어, 저기 마지막 트램 온다!",
    "note": "futás = 뛰어(구호)",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Futás",
@@ -77,6 +78,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Várj",
@@ -103,6 +105,17 @@
    "ko": "언너, 가 버렸어! 이 추위에 이제 어떡해?",
    "note": "mi lesz? = 어떻게 돼?",
    "tags": [],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Anna, elment!"
+    ],
+    [
+     "worried",
+     "Most mi lesz ebben a hidegben?"
+    ]
+   ],
    "lemmas": [
     [
      "Anna",
@@ -134,6 +147,7 @@
    "ko": "음, 그럼 걷지 뭐. 다리 건너서 사십 분밖에 안 돼.",
    "note": "a hídon át = 다리를 건너",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Hát",
@@ -180,6 +194,17 @@
    "ko": "사십 분? 여기 영하 5도야!",
    "note": "mínusz öt fok = 영하 5도",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Negyven perc?"
+    ],
+    [
+     "annoyed",
+     "Itt mínusz öt fok van!"
+    ]
+   ],
    "lemmas": [
     [
      "Negyven",
@@ -219,6 +244,7 @@
     "expr:Nem baj",
     "expr:Nézd"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "baj",
@@ -250,6 +276,7 @@
    "ko": "예뻐, 근데 벌써 발에 감각이 없어.",
    "note": "nem érzem = 못 느낀다",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "Szép",
@@ -281,6 +308,7 @@
    "ko": "더 가까이 와, 금방 따뜻해져.",
    "note": "közelebb = 더 가까이",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Gyere",
@@ -319,6 +347,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várj",
@@ -352,6 +381,7 @@
    "tags": [
     "expr:Tényleg?"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Tényleg",
@@ -373,6 +403,7 @@
    "ko": "언너. 너 일부러 트램 놓친 거야?",
    "note": "direkt = 일부러",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Anna",
@@ -404,6 +435,7 @@
    "ko": "그냥 너랑 사십 분만 더 있고 싶었어.",
    "note": "akartam = 하고 싶었다",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Csak",

@@ -40,6 +40,7 @@
    "ko": "앉아. 토요일에 언너 만난다며.",
    "note": "hallom, hogy = ~라고 들었어",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Ülj",
@@ -71,6 +72,7 @@
    "ko": "응, 근데 이게 뭐야? 면접이야?",
    "note": "interjú = 면접",
    "tags": [],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Igen",
@@ -92,6 +94,7 @@
    "ko": "맞아. 첫 질문, 코티지치즈야 양귀비씨야?",
    "note": "mákos = 양귀비씨를 넣은",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Pontosan",
@@ -130,6 +133,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Túrós",
@@ -161,6 +165,7 @@
    "ko": "아주. 둘째, 제일 좋아하는 미술관은?",
    "note": "második = 둘째",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Nagyon",
@@ -189,6 +194,7 @@
    "tags": [
     "expr:Izé"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Izé",
@@ -215,6 +221,17 @@
    "ko": "좋은 답이야. 마지막, 걔가 늦으면 몇 분 기다려?",
    "note": "hány = 몇",
    "tags": [],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Jó válasz."
+    ],
+    [
+     "stiff",
+     "Utolsó: ha késik, hány percet vársz?"
+    ]
+   ],
    "lemmas": [
     [
      "Jó",
@@ -253,6 +270,17 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Amennyit kell."
+    ],
+    [
+     "neutral",
+     "De figyelj, kié ez a lista?"
+    ]
+   ],
    "lemmas": [
     [
      "kell",
@@ -284,6 +312,7 @@
    "ko": "언너가 썼어. 열두 쪽, 새벽 두 시에 보냈더라.",
    "note": "küldte = 그걸 보냈다",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Anna",
@@ -327,6 +356,17 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Anna írta?"
+    ],
+    [
+     "shy",
+     "Szóval ő is izgul?"
+    ]
+   ],
    "lemmas": [
     [
      "Anna",
@@ -353,6 +393,7 @@
    "ko": "떨리냐고? 벌써 옷을 네 번 갈아입었어, 아직 수요일인데.",
    "note": "átöltözött = 옷을 갈아입었다",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Izgul",

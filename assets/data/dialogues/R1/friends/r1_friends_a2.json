@@ -38,6 +38,7 @@
    "ko": "천 포린트 내실 분?",
    "note": "ezer = 천",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Ki",
@@ -66,6 +67,7 @@
    "tags": [
     "expr:Hé"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "Réka",
@@ -92,6 +94,7 @@
    "ko": "천 포린트! 더 내실 분?",
    "note": "többet = 더 많이",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "forint",
@@ -120,6 +123,7 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Jaj",
@@ -143,6 +147,7 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "van",
@@ -161,6 +166,7 @@
    "tags": [
     "expr:Szuper"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Kétezer",
@@ -182,6 +188,7 @@
    "ko": "뭐? 이천이 뭔데?",
    "note": "mi az = 그게 뭐야",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "kétezer",
@@ -198,6 +205,7 @@
    "ko": "축하해! 의자는 네 거야.",
    "note": "a tiéd = 네 것",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Gratulálok",

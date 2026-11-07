@@ -39,6 +39,7 @@
    "ko": "작가님이세요? 이 레테시는 무슨 뜻인가요?",
    "note": "Ön = 당신(동사는 3인칭)",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "művész",
@@ -68,6 +69,7 @@
     "expr:Hát",
     "expr:igazából"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Hát",
@@ -99,6 +101,7 @@
    "ko": "점심! 천재적이네요! 예술가와 일상의 허기!",
    "note": "zseniális = 천재적인",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "ebédje",
@@ -137,6 +140,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -170,6 +174,7 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Szóval",
@@ -201,6 +206,7 @@
    "ko": "허기, 놓아줌, 망각! 받아 적겠습니다, 이게 1면이에요!",
    "note": "címlap = 1면, 표지",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Éhség",
@@ -242,6 +248,7 @@
    "ko": "잠깐만요! 진짜로, 그 레테시 벌써 사흘 됐어요!",
    "note": "háromnapos = 사흘 된",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Várjon",
@@ -278,6 +285,7 @@
    "ko": "천재적이에요! 구매자가 벌써 묻네요, 다음 작품은 언제냐고요!",
    "note": "vevő = 구매자",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Zseniális",
@@ -319,6 +327,17 @@
    "ko": "다음 작품? 안나, 나 어떡해?",
    "note": "mit csináljak? = 어떡하지?",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "A következő?"
+    ],
+    [
+     "worried",
+     "Anna, mit csináljak?"
+    ]
+   ],
    "lemmas": [
     [
      "következő",
@@ -341,6 +360,17 @@
    "note": "nyugi = 진정해",
    "tags": [
     "expr:Nyugi"
+   ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Nyugi, már sütöm a másodikat."
+    ],
+    [
+     "teasing",
+     "A pénz fele az enyém."
+    ]
    ],
    "lemmas": [
     [

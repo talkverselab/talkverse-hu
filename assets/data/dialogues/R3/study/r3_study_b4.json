@@ -42,6 +42,7 @@
    "ko": "위는 춥다. 왜 안에 안 있어?",
    "note": "fent = 위에, bent = 안에",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Hideg",
@@ -83,6 +84,7 @@
    "ko": "마지막으로 도시를 보고 싶어서. 모레면 난 여기 없잖아.",
    "note": "holnapután = 모레",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "Utoljára",
@@ -131,6 +133,7 @@
    "tags": [
     "expr:Tudom"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "Tudom",
@@ -154,6 +157,7 @@
    "tags": [
     "expr:Tudom"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Igen",
@@ -197,6 +201,7 @@
    "tags": [
     "expr:Na jó"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "jó",
@@ -235,6 +240,17 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Várj, ez könnyű."
+    ],
+    [
+     "shy",
+     "Szeretlek."
+    ]
+   ],
    "lemmas": [
     [
      "Várj",
@@ -256,6 +272,7 @@
    "ko": "좋아. 한 번 더, 천천히.",
    "note": "lassabban = 더 천천히",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Jó",
@@ -279,6 +296,7 @@
    "tags": [
     "expr:Tényleg"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Anna",
@@ -312,6 +330,7 @@
    "tags": [
     "expr:Tudom"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "tudom",
@@ -333,6 +352,7 @@
    "ko": "사랑해. 이건 문법 아니야.",
    "note": "nyelvtan = 문법",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Szeretlek",
@@ -354,6 +374,7 @@
    "ko": "5점.",
    "note": "ötös = 5점(최고 점수)",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Ötös",
@@ -370,6 +391,7 @@
    "ko": "근데 나 모레 가. {country}, 너무 멀어.",
    "note": "messze = 멀리",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "holnapután",
@@ -409,6 +431,17 @@
     "expr:Tudom",
     "expr:Nézd"
    ],
+   "emotion": "sad",
+   "segs": [
+    [
+     "sad",
+     "Tudom."
+    ],
+    [
+     "gentle",
+     "Nézd, a vázlatfüzetem, neked adom."
+    ]
+   ],
    "lemmas": [
     [
      "Tudom",
@@ -435,6 +468,7 @@
    "ko": "페이지 사이에 이 종이는 뭐야?",
    "note": "között = 사이에",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "papír",
@@ -457,6 +491,17 @@
    "note": "júniusra = 6월로",
    "tags": [
     "expr:ugye"
+   ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Repülőjegy, júniusra."
+    ],
+    [
+     "teasing",
+     "Ott is vannak múzeumok, ugye?"
+    ]
    ],
    "lemmas": [
     [

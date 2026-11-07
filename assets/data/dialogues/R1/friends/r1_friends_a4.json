@@ -39,6 +39,7 @@
    "tags": [
     "expr:Nézd"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Nézd",
@@ -65,6 +66,7 @@
    "ko": "예쁘다! 어디서 샀어?",
    "note": "vetted = 네가 그걸 샀다",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szép",
@@ -88,6 +90,7 @@
    "tags": [
     "expr:ugye"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "piacon",
@@ -116,6 +119,17 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Várj..."
+    ],
+    [
+     "shout",
+     "ez az én biciklim!"
+    ]
+   ],
    "lemmas": [
     [
      "Várj",
@@ -139,6 +153,7 @@
    "tags": [
     "expr:Komolyan?"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Na",
@@ -155,6 +170,7 @@
    "ko": "응! 어제 도둑맞았어!",
    "note": "ellopták = 훔쳐 갔다",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Igen",
@@ -176,6 +192,7 @@
    "ko": "음… 너한텐 6천.",
    "note": "neked = 너에게",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Hát",

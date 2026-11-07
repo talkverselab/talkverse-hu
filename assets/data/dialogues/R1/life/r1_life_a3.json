@@ -40,6 +40,7 @@
     "expr:Csókolom",
     "expr:kérek"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Csókolom",
@@ -68,6 +69,7 @@
    "tags": [
     "expr:Tessék?"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Tessék",
@@ -91,6 +93,7 @@
    "tags": [
     "expr:Csókolom"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Csókolom",
@@ -112,6 +115,7 @@
    "ko": "저를 몇 살로 보세요?",
    "note": "hány éves = 몇 살",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "évesnek",
@@ -133,6 +137,7 @@
    "ko": "음… 모르겠어요. 예순?",
    "note": "hatvan = 60",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Hát",
@@ -154,6 +159,7 @@
    "ko": "저 스물두 살이에요!",
    "note": "huszonkét = 22",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Huszonkét",
@@ -181,6 +187,17 @@
    "note": "szia = 안녕(친구끼리)",
    "tags": [
     "expr:Bocsánat"
+   ],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj, bocsánat!"
+    ],
+    [
+     "shy",
+     "Akkor szia?"
+    ]
    ],
    "lemmas": [
     [

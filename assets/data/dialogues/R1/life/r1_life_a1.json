@@ -37,6 +37,7 @@
    "ko": "야! 가게 가?",
    "note": "a boltba = 가게로(-ba 안으로)",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szia",
@@ -60,6 +61,7 @@
    "tags": [
     "expr:Mi kell?"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Igen",
@@ -91,6 +93,7 @@
    "ko": "우유만.",
    "note": "csak = ~만",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Csak",
@@ -112,6 +115,7 @@
    "ko": "우유 얼마나?",
    "note": "mennyi = 얼마나",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "tej",
@@ -130,6 +134,7 @@
    "tags": [
     "expr:Mindegy"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Mindegy",
@@ -148,6 +153,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Itt",
@@ -176,6 +182,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "Úristen",
@@ -202,6 +209,7 @@
    "ko": "네가 많이라고 했잖아.",
    "note": "azt mondtad = 네가 그렇게 말했다",
    "tags": [],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "mondtad",

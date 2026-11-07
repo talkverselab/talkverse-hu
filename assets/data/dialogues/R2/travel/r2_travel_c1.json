@@ -42,6 +42,7 @@
    "note": "hárman = 셋이서",
    "tags": [],
    "at": "09:02",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -68,6 +69,7 @@
     "expr:nem baj"
    ],
    "at": "09:03",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -96,6 +98,7 @@
    "note": "meg = ~랑",
    "tags": [],
    "at": "09:05",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -126,6 +129,7 @@
     "expr:Várjatok"
    ],
    "at": "09:06",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -166,6 +170,7 @@
     "expr:nem baj"
    ],
    "at": "09:20",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -189,6 +194,7 @@
    "note": "hányan = 몇 명이서",
    "tags": [],
    "at": "09:21",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -212,6 +218,7 @@
    "note": "edző = 코치",
    "tags": [],
    "at": "09:21",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -235,6 +242,17 @@
    "note": "mivel = 무엇으로",
    "tags": [],
    "at": "09:22",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van, tizennyolc ember?"
+    ],
+    [
+     "worried",
+     "Mivel megyünk?"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -268,6 +286,7 @@
    "note": "megoldom = 내가 해결한다",
    "tags": [],
    "at": "09:30",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -293,6 +312,7 @@
     "expr:Szuper"
    ],
    "at": "15:10",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -328,6 +348,17 @@
     "expr:Király"
    ],
    "at": "15:11",
+   "emotion": "excited",
+   "segs": [
+    [
+     "excited",
+     "Király!"
+    ],
+    [
+     "neutral",
+     "Jár is?"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -346,6 +377,7 @@
    "note": "짧을수록 웃긴 답",
    "tags": [],
    "at": "15:11",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [

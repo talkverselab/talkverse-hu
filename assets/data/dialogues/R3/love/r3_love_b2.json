@@ -40,6 +40,7 @@
    "ko": "그러니까 진짜 집에 가? 농담인 줄 알았어.",
    "note": "viccelsz = 농담한다",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "Szóval",
@@ -81,6 +82,7 @@
    "ko": "두 달만이야. 가족이 많이 기다리고, 서류도 처리해야 해.",
    "note": "két hónapra = 두 달 동안(예정 기간)",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Csak",
@@ -141,6 +143,7 @@
     "expr:Semmi baj",
     "expr:Ugye"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "Persze",
@@ -168,6 +171,17 @@
    "note": "amúgy = 그건 그렇고",
    "tags": [
     "expr:Amúgy"
+   ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Nem, egyáltalán nem sok."
+    ],
+    [
+     "neutral",
+     "Amúgy mi van ebben a nagy dobozban?"
+    ]
    ],
    "lemmas": [
     [
@@ -200,6 +214,7 @@
    "ko": "별거 아니야. 그냥 봉투 예순 개, 네가 할 일이 있으라고.",
    "note": "boríték = 봉투",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "különös",
@@ -236,6 +251,7 @@
    "ko": "예순 개? 잠깐, 봉투마다 날짜가 있네.",
    "note": "mindegyiken = 각각에",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Hatvan",
@@ -267,6 +283,17 @@
    "ko": "응, 하루에 하나씩. 근데 미리 열면 안 돼, 진심이야.",
    "note": "nem nyithatod ki = 열 수 없다",
    "tags": [],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Igen, minden napra egy."
+    ],
+    [
+     "teasing",
+     "De előre nem nyithatod ki, komolyan mondom."
+    ]
+   ],
    "lemmas": [
     [
      "Igen",
@@ -313,6 +340,17 @@
    "ko": "알았어, 근데 하나만 볼게. 와, 목도리 두른 감자네!",
    "note": "sállal = 목도리로, 목도리를 두른",
    "tags": [],
+   "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "Jó, de csak egyet nézek meg."
+    ],
+    [
+     "excited",
+     "Hű, ez egy krumpli sállal!"
+    ]
+   ],
    "lemmas": [
     [
      "Jó",
@@ -349,6 +387,7 @@
    "ko": "첫날에 감자가 집에 도착하는데, 많이 추워해.",
    "note": "hazaér = 집에 도착한다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "napon",
@@ -385,6 +424,7 @@
    "ko": "둘째 날엔? 감자한테 무슨 일이 생겨?",
    "note": "történik = 일어난다",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "napon",
@@ -411,6 +451,17 @@
    "ko": "그건 내일 알게 돼. 육십 일 동안 매일 아침 내 생각을 해야 해.",
    "note": "rám kell gondolnod = 너는 내 생각을 해야 한다",
    "tags": [],
+   "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "Azt majd holnap tudod meg."
+    ],
+    [
+     "gentle",
+     "Hatvan napig minden reggel rám kell gondolnod."
+    ]
+   ],
    "lemmas": [
     [
      "majd",
@@ -457,6 +508,7 @@
    "ko": "언너, 이걸 언제 그렸어? 간다고 어제 말했잖아.",
    "note": "csak tegnap = 겨우 어제",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Anna",
@@ -500,6 +552,7 @@
    "tags": [
     "expr:Igazából"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Igazából",
@@ -546,6 +599,7 @@
    "ko": "매일 밤? 그럼 마지막 봉투엔 뭐가 있어?",
    "note": "utolsó = 마지막",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "este",
@@ -577,6 +631,7 @@
    "ko": "그건 비어 있어. 네가 돌아오면 네가 그려야 해.",
    "note": "amikor visszajössz = 네가 돌아올 때",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "üres",

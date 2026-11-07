@@ -42,6 +42,7 @@
     "expr:Sajnos"
    ],
    "at": "16:10",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -78,6 +79,7 @@
     "expr:Mi van"
    ],
    "at": "16:11",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -101,6 +103,7 @@
    "note": "sokat = 많이",
    "tags": [],
    "at": "16:11",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -136,6 +139,7 @@
     "expr:Várj"
    ],
    "at": "16:12",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -164,6 +168,7 @@
    "note": "egyes = 1점",
    "tags": [],
    "at": "16:13",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -184,6 +189,17 @@
     "expr:Úristen"
    ],
    "at": "16:13",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Úristen, nálunk az ötös a legjobb!"
+    ],
+    [
+     "neutral",
+     "Az egyes azt jelenti: megbuktál."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -222,6 +238,17 @@
    "note": "szuper = 끝내주는",
    "tags": [],
    "at": "16:14",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Komolyan?"
+    ],
+    [
+     "excited",
+     "Akkor szuper vagyok!"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -253,6 +280,7 @@
    ],
    "at": "16:14",
    "stamp": "🎉",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -273,6 +301,7 @@
     "expr:Várj"
    ],
    "at": "16:15",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -291,6 +320,7 @@
    "note": "mi az? = 뭔데?",
    "tags": [],
    "at": "16:15",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": []
   },
@@ -303,6 +333,7 @@
    "note": "torta = 케이크",
    "tags": [],
    "at": "16:16",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -339,6 +370,7 @@
    ],
    "at": "16:17",
    "stamp": "😂",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [

@@ -43,6 +43,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Figyelj",
@@ -79,6 +80,7 @@
    "ko": "왜? 그럼 뭐라고 해?",
    "note": "mondjak = 내가 말할까",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Miért",
@@ -100,6 +102,7 @@
    "ko": "못생겼다고 해, 그럼 싸져. 자, 가!",
    "note": "csúnya = 못생긴",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Mondd",
@@ -143,6 +146,7 @@
    "tags": [
     "expr:Mennyibe kerül"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -174,6 +178,7 @@
    "ko": "1만 5천이요. 아주 좋은 물건이에요.",
    "note": "darab = 한 점, 개",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Tizenötezer",
@@ -202,6 +207,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Hát",
@@ -230,6 +236,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "Úristen",
@@ -253,6 +260,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "Hát",
@@ -289,6 +297,7 @@
    "ko": "아이고, 죄송해요! 저는 그냥 시계를…",
    "note": "bocsánat = 죄송합니다",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -322,6 +331,7 @@
    "tags": [
     "expr:Nem baj"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "baj",
@@ -355,6 +365,7 @@
    "tags": [
     "expr:Na, látod?"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Na",

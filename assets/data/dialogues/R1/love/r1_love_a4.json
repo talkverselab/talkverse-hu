@@ -40,6 +40,7 @@
    "ko": "안녕! 나랑 춤출래?",
    "note": "velem = 나랑",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szia",
@@ -58,6 +59,7 @@
    "tags": [
     "expr:Tessék?"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "Tessék",
@@ -79,6 +81,7 @@
    "ko": "물었잖아, 나랑 춤출래?",
    "note": "azt kérdeztem = 내가 물은 건",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "kérdeztem",
@@ -103,6 +106,7 @@
     "expr:Mi van?",
     "expr:Légyszi"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "van",
@@ -124,6 +128,7 @@
    "ko": "나랑 춤출 거냐고?!",
    "note": "táncolsz = 네가 춤춘다",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "TÁNCOLSZ",
@@ -140,6 +145,7 @@
    "ko": "자, 저분이랑 출 거야 말 거야?",
    "note": "vele = 그 사람이랑",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Na",
@@ -161,6 +167,7 @@
    "ko": "아이고, 다들 우리를 봐.",
    "note": "minket = 우리를",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -184,6 +191,7 @@
    "tags": [
     "expr:Nem baj"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "baj",

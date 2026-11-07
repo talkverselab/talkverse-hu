@@ -72,12 +72,19 @@ def to_json(e, lemmatize=None):
     d = {'id': e['id'], 'region': region, 'island': island, 'kind': e.get('kind', 'short'), 'draft': True, 'purpose': e.get('purpose', '').split(), 'domain': [island],
          'title': e.get('title', ''), 'emoji': e.get('emoji', '💬'), 'scene': e.get('scene', ''), 'speakers': speakers, 'register': e.get('register', 'mixed'),
          'twist': int(tw[0]), 'twist_type': tw[1] if len(tw) > 1 else '', 'flags': e.get('flags', '').split(), 'goal': e.get('goal', ''), 'expressions': exprs, 'turns': []}
+    pf = os.path.join(ROOT, 'data/tts/plan', e['id'] + '.json')
+    plan = json.load(open(pf, encoding='utf-8'))['turns'] if os.path.exists(pf) else {}
     for i, t in enumerate(e['turns'], 1):
         o = {'num': i, 'speaker': t['speaker'], 'hu': t['hu'], 'rd': rd(t['hu']), 'ko': t['ko'], 'note': t['note'],
              'tags': [f'expr:{x}' for x in exprs if x.lower() in t['hu'].lower()]}
         for k in ('at', 'stamp', 'read'):
             if k in t:
                 o[k] = t[k]
+        segs = plan.get(str(i), {}).get('segs', [])
+        if segs:  # 음성을 고려한 감정 열(2026-11-07) — 턴 안에서 바뀌면 segs
+            o['emotion'] = segs[0][0]
+            if len(segs) > 1:
+                o['segs'] = [x[:2] for x in segs]
         if d['kind'] == 'chat':
             o['ui'] = 'bubble'
         if lemmatize:

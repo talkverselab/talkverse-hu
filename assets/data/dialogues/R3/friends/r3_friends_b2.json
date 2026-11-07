@@ -43,6 +43,7 @@
    "tags": [
     "expr:nézd"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Réka",
@@ -84,6 +85,7 @@
    "ko": "안에 돈 있어? 있으면 반은 내 거야.",
    "note": "a fele = 그 절반",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Pénz",
@@ -115,6 +117,17 @@
    "ko": "돈은 없어. 「사랑하는 일론커, 토요일에 다리에서 기다릴게.」",
    "note": "várlak = 내가 널 기다린다",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Nincs pénz."
+    ],
+    [
+     "gentle",
+     "„Drága Ilonka, szombaton várlak a hídnál.”"
+    ]
+   ],
    "lemmas": [
     [
      "Nincs",
@@ -154,6 +167,7 @@
     "expr:nézd",
     "expr:Hű"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hű",
@@ -180,6 +194,7 @@
    "ko": "천구백육십팔. 이 낱말이 편지보다 길어.",
    "note": "hosszabb = 더 긴",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Ezerkilencszázhatvannyolc",
@@ -211,6 +226,7 @@
    "ko": "그래서 어떻게 됐어? 일론커가 다리에 왔어, 안 왔어?",
    "note": "mi lett? = 어떻게 됐어?",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "lett",
@@ -232,6 +248,17 @@
    "ko": "내가 어떻게 알아? 소파는 네가 샀잖아, 누구 거였어?",
    "note": "honnan tudnám = 내가 어떻게 알겠어",
    "tags": [],
+   "emotion": "tsukkomi",
+   "segs": [
+    [
+     "tsukkomi",
+     "Honnan tudnám?"
+    ],
+    [
+     "neutral",
+     "A kanapét te vetted, kitől volt?"
+    ]
+   ],
    "lemmas": [
     [
      "Honnan",
@@ -275,6 +302,7 @@
    "tags": [
     "expr:Sajnos"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "bácsitól",
@@ -308,6 +336,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -357,6 +386,7 @@
     "expr:Csókolom",
     "expr:Tessék"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Csókolom",
@@ -393,6 +423,7 @@
    "ko": "잠깐만요… 이건 피슈터 글씨인데.",
    "note": "írás = 글씨",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várjanak",
@@ -414,6 +445,7 @@
    "ko": "피슈터를 아세요? 그럼 일론커는 누구예요?",
    "note": "ismeri = 아세요(존댓말)",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Ismeri",
@@ -435,6 +467,7 @@
    "ko": "내가 일론커예요. 피슈터는 내 남편이고.",
    "note": "férj = 남편",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "vagyok",
@@ -456,6 +489,17 @@
    "ko": "세상에! 그래서 다리에 가셨어요?",
    "note": "elment = 갔다",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Úristen!"
+    ],
+    [
+     "excited",
+     "És elment a hídhoz?"
+    ]
+   ],
    "lemmas": [
     [
      "Úristen",
@@ -482,6 +526,7 @@
    "ko": "못 받았어요. 60년째 썼다고 하는데, 안 믿었어요.",
    "note": "hatvan éve = 60년째",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "kaptam",
@@ -518,6 +563,17 @@
    "ko": "아이고, 이제 사과해야겠네. 근데 내일 할래요!",
    "note": "bocsánatot kér = 사과하다",
    "tags": [],
+   "emotion": "sad",
+   "segs": [
+    [
+     "sad",
+     "Jaj, most bocsánatot kell kérnem tőle."
+    ],
+    [
+     "amused",
+     "De csak holnap!"
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",

@@ -40,6 +40,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Figyelj",
@@ -66,6 +67,7 @@
    "ko": "뭐? 근데 내 방 좁잖아!",
    "note": "kicsi = 작은",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "hát",
@@ -94,6 +96,7 @@
    "tags": [
     "expr:Nem baj"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "baj",
@@ -132,6 +135,7 @@
    "tags": [
     "expr:Jaj, ne már"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -163,6 +167,17 @@
    "ko": "실례해요! 나는 이제 어떻게 내려가지?",
    "note": "le = 아래로",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Elnézést!"
+    ],
+    [
+     "worried",
+     "Én hogy megyek most le?"
+    ]
+   ],
    "lemmas": [
     [
      "Elnézést",
@@ -194,6 +209,7 @@
    "ko": "할머니, 여기, 소파에 앉으세요!",
    "note": "üljön le = 앉으세요",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Néni",
@@ -230,6 +246,17 @@
    "ko": "그래, 고마워요. 커피도 한 잔 줘요.",
    "note": "kávét is kérek = 커피도 주세요",
    "tags": [],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Jó, köszönöm."
+    ],
+    [
+     "amused",
+     "És egy kávét is kérek."
+    ]
+   ],
    "lemmas": [
     [
      "Jó",
@@ -263,6 +290,7 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Szóval",

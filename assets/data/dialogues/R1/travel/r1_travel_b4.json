@@ -40,6 +40,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Tessék",
@@ -71,6 +72,7 @@
    "ko": "할머니요? 내가 몇 살로 보여요?",
    "note": "hány évesnek = 몇 살로",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Néni",
@@ -99,6 +101,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Elnézést",
@@ -135,6 +138,7 @@
    "ko": "저분이 싫으면 내가 앉지요.",
    "note": "ha = 만약",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "akar",
@@ -156,6 +160,7 @@
    "ko": "당신은 거기 그냥 서 있어요!",
    "note": "maga = 당신, álljon = 서 계세요",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "csak",
@@ -184,6 +189,7 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "van",
@@ -207,6 +213,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Elnézést",
@@ -240,6 +247,7 @@
    "tags": [
     "expr:Nem baj"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "baj",

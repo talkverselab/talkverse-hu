@@ -37,6 +37,7 @@
    "ko": "왜 여기 꽃이 이렇게 많아?",
    "note": "ennyi = 이만큼",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Miért",
@@ -73,6 +74,7 @@
    "ko": "오늘 내 이름의 날이야! 마리카 아주머니가 갖다주셨어.",
    "note": "névnap = 이름의 날",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Ma",
@@ -109,6 +111,7 @@
    "ko": "이름의 날? 그건 또 뭐야? 생일이야?",
    "note": "az meg mi? = 그건 또 뭐야?",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Névnap",
@@ -130,6 +133,7 @@
    "ko": "아니. 이름마다 자기 날이 있어.",
    "note": "névnek ... napja = 이름의 날",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "névnek",
@@ -156,6 +160,7 @@
    "ko": "내 이름은?",
    "note": "nevemnek = 내 이름에게",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "nevemnek",
@@ -175,6 +180,7 @@
     "expr:Hát",
     "expr:Sajnos"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "Hát",
@@ -206,6 +212,7 @@
    "ko": "아이고. 그럼 나는 이름의 날이 영영 없네.",
    "note": "soha nincs = 절대 없다",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "Jaj",
@@ -238,6 +245,17 @@
    "note": "beleírtam = 안에 적어 넣었다",
    "tags": [
     "expr:Nézd"
+   ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Nézd, beleírtam: holnap van."
+    ],
+    [
+     "teasing",
+     "Te hozod a tortát!"
+    ]
    ],
    "lemmas": [
     [

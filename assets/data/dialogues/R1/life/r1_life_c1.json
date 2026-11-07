@@ -38,6 +38,7 @@
    "note": "ki ette meg? = 누가 먹어 치웠어?",
    "tags": [],
    "at": "18:02",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -66,6 +67,7 @@
    "note": "nem én = 나 아니야",
    "tags": [],
    "at": "18:03",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": []
   },
@@ -78,6 +80,7 @@
    "note": "kérdezem = 내가 그걸 묻는다",
    "tags": [],
    "at": "18:03",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -98,6 +101,7 @@
     "expr:Amúgy"
    ],
    "at": "18:04",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -128,6 +132,7 @@
     "expr:Aha"
    ],
    "at": "18:04",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -148,6 +153,7 @@
     "expr:Izé"
    ],
    "at": "18:05",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -173,6 +179,17 @@
     "expr:Nem baj"
    ],
    "at": "18:05",
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Nem baj."
+    ],
+    [
+     "teasing",
+     "Az szappan volt."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -201,6 +218,7 @@
    "note": "ezért = 그래서",
    "tags": [],
    "at": "18:07",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [

@@ -42,6 +42,7 @@
    "tags": [
     "expr:Gyere"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Gyere",
@@ -95,6 +96,7 @@
    "tags": [
     "expr:Komolyan?"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Komolyan",
@@ -126,6 +128,7 @@
    "ko": "왼쪽, 오른쪽, 왼쪽, 점프! 쉽지?",
    "note": "balra = 왼쪽으로, jobbra = 오른쪽으로",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Balra",
@@ -154,6 +157,7 @@
    "tags": [
     "expr:bocsi"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -187,6 +191,17 @@
    "tags": [
     "expr:nem baj"
    ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Igen, de nem baj."
+    ],
+    [
+     "annoyed",
+     "Csak ne ugorj többet!"
+    ]
+   ],
    "lemmas": [
     [
      "Igen",
@@ -218,6 +233,7 @@
    "ko": "어느 쪽이 왼쪽인지 까먹었어. 돌고 있는데 못 멈추겠어!",
    "note": "forog = 돌다",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Elfelejtettem",
@@ -249,6 +265,7 @@
    "ko": "잠깐, 뭐야? 봐, 다른 사람들도 돌아!",
    "note": "a többiek = 나머지 사람들",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várj",
@@ -280,6 +297,7 @@
    "ko": "이 스텝 뭐야? 어느 마을에서 가져왔어?",
    "note": "lépés = 스텝, 걸음",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "lépés",
@@ -306,6 +324,7 @@
    "ko": "어… 저희 마을 춤이에요.",
    "note": "izé = 어…(말 막힐 때)",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Izé",
@@ -332,6 +351,7 @@
    "ko": "들었지? 오늘부터 이름은 {name} 춤이다!",
    "note": "mától = 오늘부터",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hallottátok",
@@ -360,6 +380,7 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Szóval",

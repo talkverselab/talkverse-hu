@@ -39,6 +39,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -72,6 +73,7 @@
    "tags": [
     "expr:Hogyhogy?"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Hogyhogy",
@@ -98,6 +100,7 @@
    "ko": "먹으렴, 얘야! 고깃국이다.",
    "note": "egyél = 먹어",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Egyél",
@@ -126,6 +129,17 @@
    "tags": [
     "expr:Köszönöm"
    ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Köszönöm!"
+    ],
+    [
+     "excited",
+     "Hű, ez nagyon finom!"
+    ]
+   ],
    "lemmas": [
     [
      "Köszönöm",
@@ -152,6 +166,7 @@
    "ko": "아이고, {name}…",
    "note": "jaj = 아이고",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Jaj",
@@ -168,6 +183,17 @@
    "ko": "맛있어? 그럼 한 그릇 더!",
    "note": "tányér = 접시, 그릇",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Finom?"
+    ],
+    [
+     "excited",
+     "Akkor még egy tányérral!"
+    ]
+   ],
    "lemmas": [
     [
      "Finom",
@@ -196,6 +222,7 @@
    "tags": [
     "expr:Köszönöm"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Köszönöm",
@@ -227,6 +254,17 @@
    "ko": "입에 안 맞아?! 그럼 다른 거 해 주마!",
    "note": "ízlik = 입에 맞다",
    "tags": [],
+   "emotion": "worried",
+   "segs": [
+    [
+     "worried",
+     "Nem ízlik?!"
+    ],
+    [
+     "excited",
+     "Akkor főzök valami mást!"
+    ]
+   ],
    "lemmas": [
     [
      "ízlik",

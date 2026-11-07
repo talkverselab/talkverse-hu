@@ -40,6 +40,7 @@
    "ko": "벨을 세 번 눌렀어. 국 받으러 안 왔던데, 괜찮니?",
    "note": "csengettem = 벨을 눌렀다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "csengettem",
@@ -73,6 +74,7 @@
    "tags": [
     "expr:Csókolom"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "Csókolom",
@@ -106,6 +108,7 @@
    "tags": [
     "expr:Aha"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Aha",
@@ -139,6 +142,7 @@
    "tags": [
     "expr:Semmi baj"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "baj",
@@ -165,6 +169,7 @@
    "ko": "오늘 아무것도 안 끓였잖아, 냄새가 안 났어.",
    "note": "éreztem = 느꼈다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Ma",
@@ -199,6 +204,7 @@
     "expr:Hát",
     "expr:Na"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "Hát",
@@ -240,6 +246,7 @@
    "ko": "오늘인 거 안다. 이 건물 일은 내가 다 알아.",
    "note": "ebben a házban = 이 건물에서",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Tudom",
@@ -272,6 +279,17 @@
    "note": "gond = 걱정거리",
    "tags": [
     "expr:Na"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Honnan...?"
+    ],
+    [
+     "flustered",
+     "Jaj, nem akartam gondot csinálni."
+    ]
    ],
    "lemmas": [
     [
@@ -306,6 +324,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Na",
@@ -342,6 +361,7 @@
    "ko": "거의 2년이요. 왜요?",
    "note": "majdnem = 거의",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Majdnem",
@@ -364,6 +384,17 @@
    "note": "tegeződjünk = 말 놓자",
    "tags": [
     "expr:Csókolom"
+   ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Akkor elég a csókolomból."
+    ],
+    [
+     "cheerful",
+     "Marika vagyok, tegeződjünk!"
+    ]
    ],
    "lemmas": [
     [
@@ -401,6 +432,7 @@
    "ko": "이렇게 그냥, 마리카? 아이고, 이 말 못 하겠어요.",
    "note": "csak így = 이렇게 그냥",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Csak",
@@ -434,6 +466,17 @@
    "tags": [
     "expr:Na",
     "expr:Szóval"
+   ],
+   "emotion": "sad",
+   "segs": [
+    [
+     "sad",
+     "A fiam Kanadában él, ő sem hív."
+    ],
+    [
+     "gentle",
+     "Szóval most te eszed a levest."
+    ]
    ],
    "lemmas": [
     [
@@ -476,6 +519,7 @@
    "ko": "그래서 가져오셨… 그래서 늘 국을 가져왔구나?",
    "note": "hozott → hoztál = 존댓말에서 반말로",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "hozott",
@@ -504,6 +548,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "nyisd",
@@ -532,6 +577,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Meglepetés",

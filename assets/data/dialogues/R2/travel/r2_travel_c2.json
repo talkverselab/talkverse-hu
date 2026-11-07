@@ -43,6 +43,7 @@
    "note": "sálamat = 내 목도리를",
    "tags": [],
    "at": "20:14",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -76,6 +77,7 @@
    "note": "éppen = 지금 막",
    "tags": [],
    "at": "20:15",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -111,6 +113,7 @@
     "expr:Mi van?"
    ],
    "at": "20:15",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -141,6 +144,7 @@
     "expr:nézd"
    ],
    "at": "20:16",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -166,6 +170,7 @@
     "expr:tényleg"
    ],
    "at": "20:17",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -199,6 +204,7 @@
    "note": "ivott = 마셨다",
    "tags": [],
    "at": "20:18",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -232,6 +238,7 @@
    "note": "mint = ~보다",
    "tags": [],
    "at": "20:18",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -260,6 +267,7 @@
    "note": "jövő héten = 다음 주에",
    "tags": [],
    "at": "20:19",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -290,6 +298,7 @@
     "expr:Szóval"
    ],
    "at": "20:20",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
@@ -318,6 +327,7 @@
    "note": "fél = 무서워하다",
    "tags": [],
    "at": "20:24",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -358,6 +368,7 @@
     "expr:Komolyan"
    ],
    "at": "20:24",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -381,6 +392,7 @@
    "note": "vele = 그것과 함께",
    "tags": [],
    "at": "20:25",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [

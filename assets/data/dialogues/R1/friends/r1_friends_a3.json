@@ -39,6 +39,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Na",
@@ -62,6 +63,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Jaj",
@@ -96,6 +98,17 @@
     "expr:Tényleg?",
     "expr:semmi baj"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tényleg?"
+    ],
+    [
+     "gentle",
+     "Jó, semmi baj."
+    ]
+   ],
    "lemmas": [
     [
      "Tényleg",
@@ -119,6 +132,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Igen",
@@ -140,6 +154,7 @@
    "ko": "나? 음, 난 아니야.",
    "note": "hát = 음, 글쎄",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": []
   },
   {
@@ -153,6 +168,7 @@
     "expr:Na",
     "expr:Na ne"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Na",
@@ -174,6 +190,7 @@
    "ko": "어휴. 「더워」라고 하려던 거지?",
    "note": "melegem van = 나 더워",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Hű",
@@ -207,6 +224,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",

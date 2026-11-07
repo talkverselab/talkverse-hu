@@ -39,6 +39,7 @@
    "ko": "오늘 왜 이렇게 조용해. 무슨 생각해?",
    "note": "mire gondolsz? = 무슨 생각해?",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "csendes",
@@ -65,6 +66,7 @@
    "ko": "아무것도. 그냥 너한테 할 문장을 연습해.",
    "note": "mondat = 문장",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "gyakorlok",
@@ -88,6 +90,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "mondatot",
@@ -127,6 +130,7 @@
     "expr:Na",
     "expr:Várj"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Várj",
@@ -165,6 +169,17 @@
    "tags": [
     "expr:Köszi"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Szemetem?"
+    ],
+    [
+     "teasing",
+     "Köszi, minden kedden viszik el."
+    ]
+   ],
    "lemmas": [
     [
      "Szemetem",
@@ -198,6 +213,7 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -229,6 +245,7 @@
    "ko": "알아. 그냥 한 번 더 듣고 싶었어.",
    "note": "akartam = 하고 싶었다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Tudom",

@@ -41,6 +41,7 @@
    "note": "melletted = 네 옆에",
    "tags": [],
    "at": "22:10",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -76,6 +77,7 @@
     "expr:Tényleg"
    ],
    "at": "22:12",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -94,6 +96,7 @@
    "note": "ablak = 창문",
    "tags": [],
    "at": "22:12",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -122,6 +125,17 @@
    "note": "hogy = 어떻게",
    "tags": [],
    "at": "22:13",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Ó, igen!"
+    ],
+    [
+     "cheerful",
+     "Hogy találtál meg?"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -145,6 +159,7 @@
    "note": "sál = 목도리",
    "tags": [],
    "at": "22:14",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
@@ -171,6 +186,7 @@
     "expr:köszi"
    ],
    "at": "22:14",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -204,6 +220,7 @@
    "note": "én vettem el = 내가 가져왔다(én 이 초점)",
    "tags": [],
    "at": "22:20",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -239,6 +256,7 @@
     "expr:ráérsz"
    ],
    "at": "22:20",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

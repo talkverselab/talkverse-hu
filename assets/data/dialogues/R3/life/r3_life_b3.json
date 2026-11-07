@@ -40,6 +40,7 @@
    "ko": "안녕하세요! 무슨 일이에요? 어디가 아파요?",
    "note": "mi történt? = 무슨 일이에요?",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -71,6 +72,7 @@
    "ko": "안녕하세요! 온천에서 미끄러져서 머리를 부딪쳤어요.",
    "note": "elcsúsztam = 미끄러졌다",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -107,6 +109,7 @@
    "ko": "제가 데려왔어요. 그 뒤로 이상한 말을 해요, 의사 선생님.",
    "note": "furcsa = 이상한",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "hoztam",
@@ -150,6 +153,7 @@
    "tags": [
     "expr:Rendben"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Rendben",
@@ -189,6 +193,7 @@
     "expr:Hát",
     "expr:Izé"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Hát",
@@ -220,6 +225,7 @@
    "ko": "수요일이에요. 룸메이트 이름이 뭐죠?",
    "note": "hogy hívják? = 이름이 뭐예요?",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Szerda",
@@ -248,6 +254,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "eszik",
@@ -264,6 +271,17 @@
    "ko": "아 좀. 의사 선생님, 심각한 거예요?",
    "note": "komoly = 심각한",
    "tags": [],
+   "emotion": "annoyed",
+   "segs": [
+    [
+     "annoyed",
+     "Jaj, ne már."
+    ],
+    [
+     "worried",
+     "Doktor úr, ez komoly?"
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",
@@ -295,6 +313,7 @@
    "ko": "검사 하나 더요. 긴 헝가리어 단어 하나 말해 보세요.",
    "note": "mondjon = 말하세요(존댓말)",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Még",
@@ -331,6 +350,7 @@
    "ko": "(헝가리어에서 가장 길다는 그 단어.)",
    "note": "뜻은 몰라도 된다: 농담으로 쓰는 긴 단어",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Megszentségteleníthetetlenségeskedéseitekért",
@@ -347,6 +367,17 @@
    "ko": "네?! 다시 한번, 천천히요!",
    "note": "még egyszer = 한 번 더",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tessék?!"
+    ],
+    [
+     "excited",
+     "Ezt még egyszer, lassan!"
+    ]
+   ],
    "lemmas": [
     [
      "Tessék",
@@ -373,6 +404,7 @@
    "ko": "무슨 일이에요, 선생님? 환자가 안 좋아요?",
    "note": "rosszul van = 몸이 안 좋다",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "történt",
@@ -409,6 +441,7 @@
    "ko": "들어 보세요! 나는 이걸 20년째 못 말해요.",
    "note": "kimondani = 말로 내뱉다",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hallgassa",
@@ -445,6 +478,17 @@
    "ko": "(또 그 단어.) 이제 가도 돼요?",
    "note": "mehetek = 가도 돼요?",
    "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Megszentségteleníthetetlenségeskedéseitekért."
+    ],
+    [
+     "polite",
+     "Mehetek már?"
+    ]
+   ],
    "lemmas": [
     [
      "Megszentségteleníthetetlenségeskedéseitekért",
@@ -467,6 +511,17 @@
    "note": "főorvos = 과장 의사",
    "tags": [
     "expr:Úristen"
+   ],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Úristen!"
+    ],
+    [
+     "excited",
+     "Hívom a főorvost és az egész osztályt!"
+    ]
    ],
    "lemmas": [
     [
@@ -501,6 +556,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Figyelj",

@@ -38,6 +38,7 @@
    "ko": "네 이름 한 번 더 말해 봐!",
    "note": "még egyszer = 한 번 더",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Mondd",
@@ -66,6 +67,7 @@
    "tags": [
     "expr:Miért?"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Miért",
@@ -83,6 +85,17 @@
    "note": "nem jó = 안 좋아",
    "tags": [
     "expr:Jaj"
+   ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "{name}..."
+    ],
+    [
+     "flustered",
+     "Jaj, nem jó."
+    ]
    ],
    "lemmas": [
     [
@@ -105,6 +118,7 @@
    "ko": "아니야, 좋아. 아주 잘 말해.",
    "note": "de = 아니야(부정에 반박)",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "jó",
@@ -131,6 +145,7 @@
    "ko": "음, 꿈에서는 더 잘됐는데.",
    "note": "álmomban = 내 꿈에서",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Hát",
@@ -162,6 +177,7 @@
    "ko": "네 꿈에서? 무슨 꿈?",
    "note": "milyen = 어떤",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Álmodban",
@@ -180,6 +196,7 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -202,6 +219,17 @@
    "note": "csináltam = 내가 했다",
    "tags": [
     "expr:Várj"
+   ],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Várj!"
+    ],
+    [
+     "teasing",
+     "Mit csináltam az álmodban?"
+    ]
    ],
    "lemmas": [
     [

@@ -41,6 +41,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Figyelj",
@@ -84,6 +85,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Persze",
@@ -115,6 +117,17 @@
    "ko": "응, 그 할머니야. 먼저 성, 그다음 이름, 이건 알지?",
    "note": "családnév = 성",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Igen, ő a néni."
+    ],
+    [
+     "teasing",
+     "Előbb a családnév, aztán a keresztnév, ezt már tudod, ugye?"
+    ]
+   ],
    "lemmas": [
     [
      "Igen",
@@ -161,6 +174,7 @@
    "ko": "알아, 알아. 그러니까 Szabó 가 성이고, István 이 할머니 이름이네.",
    "note": "keresztnév = 이름",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Tudom",
@@ -194,6 +208,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Hát",
@@ -237,6 +252,7 @@
    "tags": [
     "expr:Csókolom"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Csókolom",
@@ -263,6 +279,17 @@
    "ko": "누구? 내 남편 István 은 30년 전부터 여기 안 살아.",
    "note": "harminc éve = 30년 전부터",
    "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Kit?"
+    ],
+    [
+     "sad",
+     "István, a férjem, már harminc éve nem lakik itt."
+    ]
+   ],
    "lemmas": [
     [
      "Kit",
@@ -309,6 +336,7 @@
    "ko": "죄송한데 소포에 이렇게 써 있어요. Szabó Istvánné. 할머니 아니세요?",
    "note": "a csomagon = 소포 위에",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Bocsánat",
@@ -335,6 +363,17 @@
    "ko": "맞고말고! 그건 István 의 아내라는 뜻이야. 옛날엔 그렇게 썼지.",
    "note": "-né = ~의 아내",
    "tags": [],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Dehogynem!"
+    ],
+    [
+     "gentle",
+     "Az annyit tesz: István felesége, így írtuk régen."
+    ]
+   ],
    "lemmas": [
     [
      "Dehogynem",
@@ -376,6 +415,7 @@
    "ko": "그럼 할머니 성함은요? 진짜 이름이요.",
    "note": "igazi = 진짜의",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "neve",
@@ -397,6 +437,17 @@
    "ko": "머르기트. 그걸 50년 동안 아무도 안 물어봤어.",
    "note": "senki + nem = 아무도 ~않다",
    "tags": [],
+   "emotion": "shy",
+   "segs": [
+    [
+     "shy",
+     "Margit."
+    ],
+    [
+     "sad",
+     "Ezt ötven éve nem kérdezte meg senki."
+    ]
+   ],
    "lemmas": [
     [
      "Margit",
@@ -428,6 +479,7 @@
    "ko": "머르기트 할머니, 그럼 이거 할머니 거예요. 보낸 분은 Kiss Béla 네요.",
    "note": "feladó = 보낸 사람",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Margit",
@@ -464,6 +516,17 @@
    "ko": "어머, 레카한테 말하지 마! 벨러는 내 남자친구야, 여든두 살이고.",
    "note": "ne szólj = 말하지 마",
    "tags": [],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj, ne szólj Rékának!"
+    ],
+    [
+     "shy",
+     "Béla a barátom, nyolcvankét éves."
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",
@@ -502,6 +565,17 @@
    "tags": [
     "expr:Hogyhogy"
    ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Na, megvan a néni?"
+    ],
+    [
+     "surprised",
+     "Hogyhogy ilyen sokáig tartott?"
+    ]
+   ],
    "lemmas": [
     [
      "Na",
@@ -533,6 +607,17 @@
    "ko": "찾았어. 근데 Béla 가 누구냐고 물어보면, 난 아무것도 몰라.",
    "note": "semmit sem = 아무것도 ~않다",
    "tags": [],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Megvan."
+    ],
+    [
+     "teasing",
+     "De ha megkérdezed, ki az a Béla, én semmit sem tudok."
+    ]
+   ],
    "lemmas": [
     [
      "Megvan",

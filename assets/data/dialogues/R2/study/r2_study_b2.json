@@ -40,6 +40,7 @@
    "ko": "배고파. 오늘 저녁 뭐 해 먹지?",
    "note": "főzünk = 우리가 요리한다",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Éhes",
@@ -76,6 +77,7 @@
    "ko": "파프리카 감자! 언너가 파프리카 줬어.",
    "note": "paprikás krumpli = 파프리카 감자 스튜",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Paprikás",
@@ -109,6 +111,7 @@
    "tags": [
     "expr:Szuper"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Szuper",
@@ -142,6 +145,7 @@
    "tags": [
     "expr:Szerintem"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "kanál",
@@ -166,6 +170,7 @@
     "expr:Mindegy",
     "expr:Mindjárt"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Mindegy",
@@ -202,6 +207,17 @@
    "ko": "됐다! 근데 왜 눈물이 나지?",
    "note": "sírok = 내가 운다",
    "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Kész!"
+    ],
+    [
+     "surprised",
+     "De miért sírok?"
+    ]
+   ],
    "lemmas": [
     [
      "Kész",
@@ -230,6 +246,7 @@
    "tags": [
     "expr:Ne már"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "Jaj",
@@ -261,6 +278,17 @@
    "ko": "전부. 왜, 이 소리 뭐야?",
    "note": "az egészet = 전부를",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Az egészet."
+    ],
+    [
+     "worried",
+     "Miért, mi ez a hang?"
+    ]
+   ],
    "lemmas": [
     [
      "egészet",
@@ -282,6 +310,7 @@
    "ko": "경보기야! 층 전체가 복도에서 기침해!",
    "note": "köhög = 기침한다",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "riasztó",
@@ -318,6 +347,17 @@
    "ko": "소방대입니다! 이 냄새 뭐죠?",
    "note": "szag = 냄새",
    "tags": [],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Tűzoltóság!"
+    ],
+    [
+     "stiff",
+     "Mi ez a szag?"
+    ]
+   ],
    "lemmas": [
     [
      "Tűzoltóság",
@@ -341,6 +381,7 @@
    "tags": [
     "expr:Bocsánat"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Bocsánat",
@@ -372,6 +413,7 @@
    "ko": "오, 이거 맛있네요! 여섯 그릇 더 있어요?",
    "note": "tányér = 접시",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hű",

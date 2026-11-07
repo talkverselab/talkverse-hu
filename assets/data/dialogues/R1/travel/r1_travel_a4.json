@@ -37,6 +37,7 @@
    "ko": "안녕하세요! 여기 방 열쇠입니다.",
    "note": "kulcs = 열쇠",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -68,6 +69,7 @@
    "ko": "고맙습니다. 도나우강 전망 있나요?",
    "note": "kilátás = 전망",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Köszönöm",
@@ -91,6 +93,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Persze",
@@ -119,6 +122,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Elnézést",
@@ -155,6 +159,7 @@
    "ko": "그럼 벽에는 뭐가 있죠?",
    "note": "a falon = 벽에",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "falon",
@@ -176,6 +181,7 @@
    "ko": "그림이요… 도나우강 그림.",
    "note": "-ról = ~에 관한",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "kép",
@@ -194,6 +200,7 @@
    "tags": [
     "expr:Na"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Na",
@@ -217,6 +224,7 @@
    "tags": [
     "expr:Komolyan"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Komolyan",

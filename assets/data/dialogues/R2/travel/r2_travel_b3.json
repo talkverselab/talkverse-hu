@@ -44,6 +44,7 @@
    "tags": [
     "expr:Na végre"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Na",
@@ -82,6 +83,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -125,6 +127,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Persze",
@@ -156,6 +159,7 @@
    "ko": "그런데 저 신부를 몰라요!",
    "note": "menyasszony = 신부",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "ismerem",
@@ -177,6 +181,7 @@
    "ko": "나도 몰라! 나는 신랑 삼촌이야.",
    "note": "vőlegény = 신랑",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "vőlegény",
@@ -203,6 +208,17 @@
    "ko": "조용히 해 주세요! 이제 우리 손님이 한 말씀 하십니다!",
    "note": "pár szó = 몇 마디",
    "tags": [],
+   "emotion": "shout",
+   "segs": [
+    [
+     "shout",
+     "Csendet kérek!"
+    ],
+    [
+     "excited",
+     "Most a vendégünk mond pár szót!"
+    ]
+   ],
    "lemmas": [
     [
      "Csendet",
@@ -241,6 +257,7 @@
    "tags": [
     "expr:izé"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Izé",
@@ -277,6 +294,7 @@
    "ko": "와, 정말 멋졌어! 이제 신부 춤이야!",
    "note": "tánc = 춤",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hű",
@@ -313,6 +331,7 @@
    "ko": "그게 뭐예요?",
    "note": "mi az a …? = …가 뭐야?",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "menyasszonytánc",
@@ -329,6 +348,7 @@
    "ko": "돈 내고 신부랑 춤추는 거야. 5천 포린트.",
    "note": "menyasszonnyal = 신부와",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Fizetsz",
@@ -362,6 +382,7 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "van",
@@ -390,6 +411,7 @@
    "tags": [
     "expr:Nyugi"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Nyugi",

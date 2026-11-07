@@ -40,6 +40,7 @@
     "expr:Szia"
    ],
    "at": "16:02",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -75,6 +76,7 @@
     "expr:Oké"
    ],
    "at": "16:05",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -100,6 +102,7 @@
     "expr:Hol vagy?"
    ],
    "at": "18:40",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -123,6 +126,7 @@
    "note": "korán = 일찍",
    "tags": [],
    "at": "18:41",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -146,6 +150,7 @@
    "note": "elmúlt = 지났다",
    "tags": [],
    "at": "18:41",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -179,6 +184,7 @@
    "note": "hét és fél = 일곱과 반",
    "tags": [],
    "at": "18:42",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -202,6 +208,7 @@
    "note": "hat harminc = 6시 30분",
    "tags": [],
    "at": "18:42",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -223,6 +230,7 @@
    ],
    "at": "19:05",
    "stamp": "😇",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

@@ -39,6 +39,7 @@
    "ko": "이 공책 뭐야? 내 이름이 써 있네.",
    "note": "füzet = 공책",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "füzet",
@@ -67,6 +68,7 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -95,6 +97,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várj",
@@ -123,6 +126,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Hát",
@@ -156,6 +160,17 @@
    "tags": [
     "expr:Komolyan"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Komolyan?"
+    ],
+    [
+     "annoyed",
+     "Még a fél hetet is?"
+    ]
+   ],
    "lemmas": [
     [
      "Komolyan",
@@ -184,6 +199,7 @@
    "tags": [
     "expr:Persze"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Persze",
@@ -205,6 +221,7 @@
    "ko": "이건 너무 못됐어, 레카. 나 비웃기만 하는 거야?",
    "note": "nevet = 웃다",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "nagyon",
@@ -231,6 +248,7 @@
    "ko": "마지막 쪽 읽어 봐.",
    "note": "olvasd el = 읽어 봐",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Olvasd",
@@ -262,6 +280,7 @@
    "ko": "「오늘 {name} 실수 0개. 조금 허전하다.」",
    "note": "hiányzik = 그립다, 허전하다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Ma",
@@ -295,6 +314,7 @@
    "tags": [
     "expr:Na jó"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Na",
@@ -331,6 +351,7 @@
    "ko": "레카, 너 울어?",
    "note": "sírsz = 너 운다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Réka",
@@ -352,6 +373,17 @@
    "ko": "아니거든! 파프리카가 매웠을 뿐이야.",
    "note": "dehogy = 천만에",
    "tags": [],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Dehogy!"
+    ],
+    [
+     "shy",
+     "Csak erős volt a paprika."
+    ]
+   ],
    "lemmas": [
     [
      "Dehogy",

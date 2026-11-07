@@ -38,6 +38,7 @@
    "ko": "안녕하세요! 문제 카드를 뽑으세요.",
    "note": "tétel = 구술시험 문제",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -66,6 +67,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Jó",
@@ -94,6 +96,7 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Szóval",
@@ -122,6 +125,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "szívről",
@@ -153,6 +157,7 @@
    "ko": "흥미롭군요. 지금 당신 심장은 어때요?",
    "note": "az Öné = 당신의 것",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Érdekes",
@@ -181,6 +186,7 @@
    "tags": [
     "expr:Igazából"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Nagyon",
@@ -207,6 +213,17 @@
    "ko": "솔직한 답이군요. 4점, 다음 분!",
    "note": "négyes = 4점",
    "tags": [],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Őszinte válasz."
+    ],
+    [
+     "stiff",
+     "Négyes, a következő!"
+    ]
+   ],
    "lemmas": [
     [
      "Őszinte",
@@ -233,6 +250,7 @@
    "ko": "어디 있었어? 네 시험 1층에서 벌써 시작했어!",
    "note": "földszint = 1층(지상층)",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Hol",
@@ -276,6 +294,7 @@
    "tags": [
     "expr:Mi van"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "van",
@@ -297,6 +316,7 @@
    "ko": "이거? 의대 3학년 시험이야.",
    "note": "orvosi = 의학의",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "harmadéveseknek",
@@ -313,6 +333,7 @@
    "ko": "나 4점 받았어.",
    "note": "kaptam = 내가 받았다",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Négyest",

@@ -38,6 +38,7 @@
    "tags": [
     "expr:Jó napot"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -71,6 +72,7 @@
    "tags": [
     "expr:Tessék"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Tessék",
@@ -97,6 +99,7 @@
    "ko": "이 표는 어제 거예요.",
    "note": "tegnapi = 어제의",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "jegy",
@@ -120,6 +123,17 @@
    "tags": [
     "expr:bocsánat"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tegnapi?"
+    ],
+    [
+     "flustered",
+     "Jaj, bocsánat!"
+    ]
+   ],
    "lemmas": [
     [
      "Tegnapi",
@@ -141,6 +155,7 @@
    "ko": "어디 가세요?",
    "note": "hova = 어디로",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Hova",
@@ -162,6 +177,7 @@
    "ko": "국회의사당에 가요.",
    "note": "-hoz/-hez/-höz = ~쪽으로",
    "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "megyek",
@@ -178,6 +194,7 @@
    "ko": "그럼 트램 잘못 타셨어요.",
    "note": "rossz = 나쁜, 틀린",
    "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Akkor",
@@ -209,6 +226,7 @@
    "ko": "그럼 저 이제 어디로 가죠?",
    "note": "hát = 그럼, 음",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Hát",

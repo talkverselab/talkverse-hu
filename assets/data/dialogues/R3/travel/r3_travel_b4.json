@@ -44,6 +44,7 @@
    "tags": [
     "expr:Na végre"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Na",
@@ -91,6 +92,17 @@
    "note": "forró = 뜨거운",
    "tags": [
     "expr:Bocsi"
+   ],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Bocsi, a villamos megint késett."
+    ],
+    [
+     "excited",
+     "Hű, kint mínusz öt, a víz meg forró!"
+    ]
    ],
    "lemmas": [
     [
@@ -143,6 +155,7 @@
    "ko": "이게 겨울의 제일 좋은 점이야. 얼굴만 춥고, 나머지는 안 추워.",
    "note": "fázik = 춥다(사람이)",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "tél",
@@ -186,6 +199,7 @@
    "tags": [
     "expr:Szóval"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Szóval",
@@ -222,6 +236,7 @@
    "ko": "가져왔어. 탈의실 내 가방에 있어.",
    "note": "hoztam = 내가 가져왔다",
    "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Hoztam",
@@ -253,6 +268,7 @@
    "ko": "그럼 모험도 끝이네. 돌려받으면 끝이지.",
    "note": "kaland = 모험",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "Akkor",
@@ -284,6 +300,7 @@
    "ko": "응. 그런데 문제가 하나 있어.",
    "note": "gond = 걱정, 문제",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Igen",
@@ -310,6 +327,7 @@
    "ko": "뭔데? 또 혼자 무서워해?",
    "note": "megint = 또",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "fél",
@@ -331,6 +349,7 @@
    "ko": "목도리 말고. 돌려주면 너 나한테 연락할 이유가 없잖아.",
    "note": "ok = 이유",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "visszaadom",
@@ -370,6 +389,7 @@
     "expr:Jaj",
     "expr:Tudod"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Jaj",
@@ -401,6 +421,7 @@
    "ko": "몇 개? 말해 봐!",
    "note": "hány = 몇",
    "tags": [],
+   "emotion": "shy",
    "lemmas": []
   },
   {
@@ -411,6 +432,7 @@
    "ko": "네 개. 그리고 네가 가져간 거 알고 있었어.",
    "note": "tudtam = 알고 있었다",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "tudtam",
@@ -432,6 +454,7 @@
    "ko": "알았어? 그럼 왜 말 안 했어?",
    "note": "szóltál = 네가 말했다",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Tudtad",
@@ -460,6 +483,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Hát",

@@ -42,6 +42,7 @@
     "expr:Ja"
    ],
    "at": "17:10",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -75,6 +76,7 @@
    "note": "ne szólj = 말하지 마",
    "tags": [],
    "at": "17:10",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -105,6 +107,7 @@
     "expr:Aha"
    ],
    "at": "17:12",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -130,6 +133,7 @@
     "expr:Ja"
    ],
    "at": "17:12",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -155,6 +159,7 @@
     "expr:Ja"
    ],
    "at": "17:13",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -183,6 +188,7 @@
    "note": "ronda = 못생긴",
    "tags": [],
    "at": "17:13",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -221,6 +227,7 @@
    "note": "ronda = 못생긴",
    "tags": [],
    "at": "17:14",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
@@ -240,6 +247,7 @@
    "tags": [],
    "at": "17:14",
    "stamp": "😂",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -263,6 +271,7 @@
    "note": "kinek = 누구에게",
    "tags": [],
    "at": "17:15",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -294,6 +303,17 @@
     "expr:ne már"
    ],
    "at": "17:15",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Úristen."
+    ],
+    [
+     "flustered",
+     "Réka, ne már!"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -317,6 +337,7 @@
    "note": "meglepődöm = 내가 놀란다",
    "tags": [],
    "at": "17:16",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -352,6 +373,7 @@
     "expr:Ja"
    ],
    "at": "17:16",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [

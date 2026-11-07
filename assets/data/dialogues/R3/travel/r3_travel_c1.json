@@ -43,6 +43,7 @@
    "note": "figyelem = 주목",
    "tags": [],
    "at": "08:03",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -73,6 +74,7 @@
     "expr:Komolyan"
    ],
    "at": "08:04",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -103,6 +105,7 @@
     "expr:Naná"
    ],
    "at": "08:04",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -121,6 +124,7 @@
    "note": "álltunk meg = 우리가 멈췄다",
    "tags": [],
    "at": "09:10",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -154,6 +158,7 @@
    "note": "integet = 손을 흔들다",
    "tags": [],
    "at": "09:11",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -185,6 +190,17 @@
     "expr:izé"
    ],
    "at": "09:11",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van?"
+    ],
+    [
+     "tsukkomi",
+     "De ez nem, izé, menetrendes busz!"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -218,6 +234,7 @@
    "note": "nyolcan = 여덟 명이서",
    "tags": [],
    "at": "09:30",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -256,6 +273,7 @@
    "note": "kérdezi = 물어본다(정활용)",
    "tags": [],
    "at": "09:31",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -289,6 +307,7 @@
    "note": "ingyen = 공짜로",
    "tags": [],
    "at": "09:31",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -324,6 +343,7 @@
     "expr:Bocsi"
    ],
    "at": "09:32",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -364,6 +384,7 @@
     "expr:Figyeljetek"
    ],
    "at": "10:05",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -419,6 +440,7 @@
     "expr:Úristen"
    ],
    "at": "10:12",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -452,6 +474,7 @@
    "note": "felhív = 전화하다",
    "tags": [],
    "at": "10:12",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -480,6 +503,7 @@
    "note": "kezet fog = 악수하다",
    "tags": [],
    "at": "10:40",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -510,6 +534,17 @@
     "expr:Mi van?"
    ],
    "at": "10:41",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van?"
+    ],
+    [
+     "worried",
+     "Mit akar?"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -533,6 +568,7 @@
    "note": "hétfőtől = 월요일부터",
    "tags": [],
    "at": "10:48",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [

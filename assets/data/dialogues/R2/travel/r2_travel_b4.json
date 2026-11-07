@@ -41,6 +41,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -87,6 +88,7 @@
    "ko": "괜찮아요, 시간 많아요. 포가차 하나 드실래요?",
    "note": "pogácsa = 짭짤한 작은 빵",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "baj",
@@ -114,6 +116,17 @@
    "note": "szívesen = 기꺼이",
    "tags": [
     "expr:szívesen"
+   ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Köszönöm, szívesen."
+    ],
+    [
+     "excited",
+     "Hű, ez nagyon finom!"
+    ]
    ],
    "lemmas": [
     [
@@ -148,6 +161,7 @@
    "tags": [
     "expr:Tegeződjünk"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "feleségem",
@@ -184,6 +198,7 @@
    "ko": "좋아, 그래, 나는 {name}. 넌 어디 가?",
    "note": "te = 너(이제 반말)",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Jó",
@@ -220,6 +235,7 @@
    "ko": "타마시. 폰요드 가는데, 먼저 이 포가차부터 먹고.",
    "note": "megeszem = 다 먹는다(정활용)",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Tamás",
@@ -258,6 +274,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -286,6 +303,7 @@
    "tags": [
     "expr:Szerintem"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "mindjárt",
@@ -312,6 +330,7 @@
    "ko": "포가차가 기차랑 무슨 상관이야?",
    "note": "mi köze? = 무슨 상관이야?",
    "tags": [],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "köze",
@@ -338,6 +357,7 @@
    "ko": "음, 내가 이 기차 기관사야. 점심시간이거든.",
    "note": "vezetem = 내가 운전한다(정활용)",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Hát",

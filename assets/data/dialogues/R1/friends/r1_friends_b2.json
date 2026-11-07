@@ -40,6 +40,7 @@
    "tags": [
     "expr:Hű"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Hű",
@@ -61,6 +62,7 @@
    "ko": "오늘 내 이름의 날이야! 이름마다 자기 날이 있어.",
    "note": "névnap = 이름의 날",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Ma",
@@ -99,6 +101,17 @@
    "tags": [
     "expr:Tényleg?"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tényleg?"
+    ],
+    [
+     "cheerful",
+     "És az én nevemnek mikor van?"
+    ]
+   ],
    "lemmas": [
     [
      "Tényleg",
@@ -127,6 +140,17 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Várj, megnézem."
+    ],
+    [
+     "sad",
+     "Sajnos nincs."
+    ]
+   ],
    "lemmas": [
     [
      "Várj",
@@ -153,6 +177,7 @@
    "ko": "그러니까 나는 이름의 날이 영영 없다고?",
    "note": "soha = 절대, 한 번도",
    "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
      "Szóval",
@@ -184,6 +209,7 @@
    "ko": "그럼 내 거를 네 것도 하자. 반반.",
    "note": "fele-fele = 반반",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Hát",
@@ -211,6 +237,17 @@
    "note": "adod = 네가 그걸 준다",
    "tags": [
     "expr:Komolyan?"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Komolyan?"
+    ],
+    [
+     "shy",
+     "Nekem adod a fél névnapodat?"
+    ]
    ],
    "lemmas": [
     [
@@ -243,6 +280,17 @@
    "ko": "응. 근데 꽃은 내 거야!",
    "note": "az enyém = 내 것",
    "tags": [],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Igen."
+    ],
+    [
+     "teasing",
+     "De a virág az enyém!"
+    ]
+   ],
    "lemmas": [
     [
      "Igen",

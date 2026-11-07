@@ -44,6 +44,7 @@
    "tags": [
     "expr:Hű"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Hű",
@@ -75,6 +76,7 @@
    "ko": "오늘 언너 이름의 날인데, 안 보여.",
    "note": "névnap = 이름의 날",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Ma",
@@ -106,6 +108,7 @@
    "ko": "그럼 크게 불러! 카페 작잖아.",
    "note": "szólj = 불러",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Hát",
@@ -137,6 +140,7 @@
    "ko": "이름의 날 축하해, 언너! 이거 네 거야!",
    "note": "a tiéd = 네 것",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Boldog",
@@ -158,6 +162,17 @@
    "ko": "고맙구나, 얘야! 내 이름은 어떻게 알았니?",
    "note": "honnan = 어디서",
    "tags": [],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Köszönöm, drágám!"
+    ],
+    [
+     "surprised",
+     "Honnan tudod a nevem?"
+    ]
+   ],
    "lemmas": [
     [
      "Köszönöm",
@@ -189,6 +204,7 @@
    "ko": "아이고, 오늘 여기 다 언너야. 벌써 세 명이 네 뒤에 서 있어.",
    "note": "mögötted = 네 뒤에",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Jaj",
@@ -228,6 +244,17 @@
     "expr:Mi van?",
     "expr:De hát"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van?"
+    ],
+    [
+     "flustered",
+     "De hát nekem csak egy Annám van!"
+    ]
+   ],
    "lemmas": [
     [
      "van",
@@ -255,6 +282,17 @@
    "note": "Annád = 너의 언너",
    "tags": [
     "expr:Szóval"
+   ],
+   "emotion": "shy",
+   "segs": [
+    [
+     "shy",
+     "Hallottam."
+    ],
+    [
+     "teasing",
+     "Szóval van egy Annád?"
+    ]
    ],
    "lemmas": [
     [

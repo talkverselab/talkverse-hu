@@ -42,6 +42,7 @@
    "tags": [
     "expr:figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Jaj",
@@ -75,6 +76,7 @@
    "tags": [
     "expr:Nem tudom"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "tudom",
@@ -96,6 +98,7 @@
    "ko": "아니, 나한테 없어! 분명 물속에 있어.",
    "note": "biztos = 분명",
    "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "nincs",
@@ -124,6 +127,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Úristen",
@@ -147,6 +151,7 @@
    "tags": [
     "expr:Elnézést"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Elnézést",
@@ -175,6 +180,7 @@
    "tags": [
     "expr:légyszi"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "kulcsot",
@@ -201,6 +207,7 @@
    "ko": "여러분, 다들 열쇠 찾아요!",
    "note": "mindenki = 모두",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Emberek",
@@ -227,6 +234,7 @@
    "ko": "레카… 네 손에 그거 열쇠 아니야?",
    "note": "kezeden = 네 손에",
    "tags": [],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Réka",

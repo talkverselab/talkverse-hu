@@ -43,6 +43,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Figyelj",
@@ -79,6 +80,7 @@
    "ko": "초콜롬? 근데 그거 「키스」라는 뜻 아니야?",
    "note": "csók = 키스",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Csókolom",
@@ -107,6 +109,7 @@
    "tags": [
     "expr:Nyugi"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "igen",
@@ -145,6 +148,7 @@
    "tags": [
     "expr:Oké"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Oké",
@@ -168,6 +172,7 @@
    "tags": [
     "expr:ugye"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Jaj",
@@ -194,6 +199,7 @@
    "ko": "네! 키스할게!",
    "note": "csókollak = 내가 너에게 키스한다",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Igen",
@@ -210,6 +216,7 @@
    "ko": "어머. 음, 고마워?",
    "note": "hát = 음",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Hű",
@@ -231,6 +238,7 @@
    "ko": "아이고, 안 돼! 초콜롬이지, 초콜라크가 아니고!",
    "note": "-lak = 내가 너를",
    "tags": [],
+   "emotion": "shout",
    "lemmas": [
     [
      "Jaj",
@@ -252,6 +260,7 @@
    "ko": "뭐가 달라? 글자 하나인데!",
    "note": "betű = 글자",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "különbség",
@@ -274,6 +283,17 @@
    "note": "férj = 남편",
    "tags": [
     "expr:Semmi baj"
+   ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Semmi baj."
+    ],
+    [
+     "teasing",
+     "De a férjem most jön, neki ezt ne mondd!"
+    ]
    ],
    "lemmas": [
     [
@@ -313,6 +333,7 @@
    "tags": [
     "expr:izé"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jó",

@@ -41,6 +41,7 @@
     "expr:Figyelj"
    ],
    "at": "19:10",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -69,6 +70,7 @@
    "note": "ne nyisd ki = 열지 마",
    "tags": [],
    "at": "19:10",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -97,6 +99,7 @@
    "note": "megint = 또",
    "tags": [],
    "at": "19:11",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -120,6 +123,7 @@
    "note": "kivel = 누구와",
    "tags": [],
    "at": "19:12",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
@@ -145,6 +149,7 @@
     "expr:Jaj"
    ],
    "at": "19:12",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -173,6 +178,7 @@
    "note": "én is = 나도",
    "tags": [],
    "at": "19:13",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -203,6 +209,7 @@
     "expr:Szép volt"
    ],
    "at": "19:13",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -226,6 +233,7 @@
    "note": "mindenkinek = 모두에게",
    "tags": [],
    "at": "19:15",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [

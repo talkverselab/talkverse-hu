@@ -40,6 +40,7 @@
     "expr:Elnézést",
     "expr:Hol van"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Elnézést",
@@ -68,6 +69,7 @@
    "tags": [
     "expr:Menjen"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "kórház",
@@ -99,6 +101,17 @@
    "ko": "감사합니다! 다리가 너무 아파서요.",
    "note": "láb = 다리, 발",
    "tags": [],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Köszönöm!"
+    ],
+    [
+     "sad",
+     "Nagyon fáj a lábam."
+    ]
+   ],
    "lemmas": [
     [
      "Köszönöm",
@@ -125,6 +138,7 @@
    "ko": "안 멀어요, 5분밖에 안 걸려요.",
    "note": "messze = 멀리",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Nincs",
@@ -159,6 +173,17 @@
     "expr:Elnézést",
     "expr:Hol van"
    ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Elnézést, hol van a..."
+    ],
+    [
+     "surprised",
+     "Jaj, megint maga?"
+    ]
+   ],
    "lemmas": [
     [
      "Elnézést",
@@ -190,6 +215,7 @@
    "ko": "벌써 세 번째 이쪽으로 오시네요!",
    "note": "harmadszor = 세 번째로",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Már",
@@ -218,6 +244,7 @@
    "tags": [
     "expr:sajnos"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "Igen",
@@ -259,6 +286,17 @@
    "ko": "아이고 보세요! 병원은 저기, 바로 뒤에 있어요.",
    "note": "maga mögött = 당신 뒤에",
    "tags": [],
+   "emotion": "tsukkomi",
+   "segs": [
+    [
+     "tsukkomi",
+     "Hát nézze!"
+    ],
+    [
+     "amused",
+     "A kórház ott van, maga mögött."
+    ]
+   ],
    "lemmas": [
     [
      "Hát",

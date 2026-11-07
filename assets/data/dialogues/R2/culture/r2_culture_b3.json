@@ -43,6 +43,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Figyelj",
@@ -71,6 +72,7 @@
    "tags": [
     "expr:De jó"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "jó",
@@ -92,6 +94,7 @@
    "ko": "헝가리어로는 그냥 「ő」라고만 해.",
    "note": "ő = 그, 그녀(성 구별 없음)",
    "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "Magyarul",
@@ -118,6 +121,7 @@
    "ko": "잘됐네. 그 「ő」는 뭐 하는 사람인데?",
    "note": "nagyszerű = 훌륭한",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Nagyszerű",
@@ -139,6 +143,7 @@
    "ko": "언어를 배워. 어미를 맨날 틀리는데, 웃는 게 예뻐.",
    "note": "rag = 어미, 접미사",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Nyelvet",
@@ -187,6 +192,7 @@
    "tags": [
     "expr:Aha"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Aha",
@@ -213,6 +219,7 @@
    "ko": "미술관 앞에서. 내 그림이 감자래.",
    "note": "előtt = ~앞에서",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "múzeum",
@@ -244,6 +251,7 @@
    "ko": "건방진 사람이네. 그래서 뭘 바라는데?",
    "note": "szemtelen = 건방진",
    "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Szemtelen",
@@ -272,6 +280,7 @@
    "tags": [
     "expr:Hát"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Hát",
@@ -303,6 +312,7 @@
    "ko": "뭘? 잠깐, 너한테 그 말 한 사람이 몇 명이야?",
    "note": "hány ember = 몇 사람",
    "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "ember",
@@ -324,6 +334,7 @@
    "ko": "한 명. 지금 내 옆에 앉아 있어.",
    "note": "éppen = 바로 지금",
    "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "most",

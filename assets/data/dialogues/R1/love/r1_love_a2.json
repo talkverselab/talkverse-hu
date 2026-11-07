@@ -41,6 +41,7 @@
    "tags": [
     "expr:Figyelj"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
      "Figyelj",
@@ -74,6 +75,7 @@
    "tags": [
     "expr:Komolyan?"
    ],
+   "emotion": "surprised",
    "lemmas": []
   },
   {
@@ -84,6 +86,7 @@
    "ko": "벌써 천 명이 좋아해.",
    "note": "ezer = 천, 수사 뒤 명사는 단수",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Már",
@@ -112,6 +115,7 @@
    "tags": [
     "expr:Úristen"
    ],
+   "emotion": "surprised",
    "lemmas": []
   },
   {
@@ -122,6 +126,7 @@
    "ko": "어떤 할머니가 널 사고 싶대.",
    "note": "megvesz = 사다",
    "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "néni",
@@ -150,6 +155,17 @@
    "tags": [
     "expr:Mi van?"
    ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi van?"
+    ],
+    [
+     "worried",
+     "És eladsz?"
+    ]
+   ],
    "lemmas": [
     [
      "van",
@@ -171,6 +187,17 @@
    "ko": "아니. 이 감자는 내 거야.",
    "note": "az enyém = 내 것",
    "tags": [],
+   "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "Nem."
+    ],
+    [
+     "gentle",
+     "Ez a krumpli az enyém."
+    ]
+   ],
    "lemmas": [
     [
      "krumpli",
@@ -187,6 +214,7 @@
    "ko": "아이고. 나 지금 빨간 감자야.",
    "note": "piros = 빨간",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Jaj",

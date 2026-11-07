@@ -36,6 +36,17 @@
    "ko": "이거 너무 좋다. 끝났어?",
    "note": "vége van = 끝났다",
    "tags": [],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Ez nagyon szép."
+    ],
+    [
+     "neutral",
+     "Vége van?"
+    ]
+   ],
    "lemmas": [
     [
      "nagyon",
@@ -64,6 +75,7 @@
    "tags": [
     "expr:Szerintem"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
      "tudom",
@@ -95,6 +107,17 @@
    "ko": "조용하네. 그럼 이제 박수 친다!",
    "note": "taps = 박수, tapsolok = 박수 친다",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Csend van."
+    ],
+    [
+     "excited",
+     "Akkor most tapsolok!"
+    ]
+   ],
    "lemmas": [
     [
      "Csend",
@@ -128,6 +151,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "tapsolj",
@@ -144,6 +168,7 @@
    "ko": "아이고. 다들 나만 봐.",
    "note": "engem = 나를",
    "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -167,6 +192,7 @@
    "tags": [
     "expr:Várj"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Várj",
@@ -193,6 +219,17 @@
    "ko": "지휘자도 인사하네. 뭐야?",
    "note": "karmester = 지휘자",
    "tags": [],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "A karmester is meghajol."
+    ],
+    [
+     "surprised",
+     "Mi van?"
+    ]
+   ],
    "lemmas": [
     [
      "karmester",
@@ -220,6 +257,17 @@
    "note": "ennyi volt = 이게 다였다",
    "tags": [
     "expr:Úristen"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Úristen, hazamegy!"
+    ],
+    [
+     "amused",
+     "Ennyi volt a koncert."
+    ]
    ],
    "lemmas": [
     [

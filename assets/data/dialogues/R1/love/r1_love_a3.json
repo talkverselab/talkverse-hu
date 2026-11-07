@@ -39,6 +39,7 @@
    "ko": "먹어 봐! 내가 구웠어.",
    "note": "kóstold meg = 맛봐",
    "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Kóstold",
@@ -60,6 +61,7 @@
    "ko": "와, 진짜 맛있다!",
    "note": "finom = 맛있는",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Hű",
@@ -83,6 +85,7 @@
    "tags": [
     "expr:Tényleg?"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Tényleg",
@@ -99,6 +102,7 @@
    "ko": "응! 널 정말 사랑해!",
    "note": "szeretlek = 너를 사랑해(szeretem = 그걸 좋아해)",
    "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
      "Igen",
@@ -122,6 +126,7 @@
    "tags": [
     "expr:Tessék?"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Tessék",
@@ -145,6 +150,7 @@
    "tags": [
     "expr:Jaj"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Jaj",
@@ -173,6 +179,7 @@
    "tags": [
     "expr:Aha"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Aha",
@@ -194,6 +201,7 @@
    "ko": "음… 레테시'도'.",
    "note": "is = ~도",
    "tags": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "Hát",

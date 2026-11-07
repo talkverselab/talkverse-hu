@@ -39,6 +39,7 @@
    "note": "főnök = 사장, 상사",
    "tags": [],
    "at": "08:02",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
@@ -69,6 +70,7 @@
     "expr:Ne már"
    ],
    "at": "08:03",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
@@ -94,6 +96,7 @@
     "expr:Figyelj"
    ],
    "at": "08:05",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -134,6 +137,7 @@
     "expr:Tényleg"
    ],
    "at": "08:06",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -162,6 +166,7 @@
    "note": "rendelj = 주문해",
    "tags": [],
    "at": "08:06",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -180,6 +185,7 @@
    "note": "doboz = 상자",
    "tags": [],
    "at": "08:11",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
@@ -210,6 +216,7 @@
     "expr:Szuper"
    ],
    "at": "08:12",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
@@ -245,6 +252,7 @@
     "expr:Egy pillanat"
    ],
    "at": "08:14",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -263,6 +271,17 @@
    "note": "százezer = 십만",
    "tags": [],
    "at": "08:14",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Ezer?"
+    ],
+    [
+     "shout",
+     "Az százezer pohár!"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
@@ -286,6 +305,7 @@
    "note": "teherautó = 트럭",
    "tags": [],
    "at": "11:30",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -324,6 +344,7 @@
    "note": "művészet = 예술",
    "tags": [],
    "at": "11:32",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -358,6 +379,7 @@
    "tags": [],
    "at": "11:33",
    "stamp": "😂",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
