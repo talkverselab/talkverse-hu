@@ -16,12 +16,14 @@
   purpose: making_friends
   goal: 학습 목표 한 줄
   expressions: Na; Mi újság?
-  A | 헝가리어 | 한국어 | note | at=21:03 stamp=😂 read=false
+  A | 헝가리어 | 한국어 | note | emotion=shy+gentle at=21:03 stamp=😂 read=false
 """
 import collections, glob, json, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from rd_hu import rd
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tts'))
+from plan_build import segs_of, sents
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'data/dialogue_src')
@@ -81,6 +83,10 @@ def to_json(e, lemmatize=None):
             if k in t:
                 o[k] = t[k]
         segs = plan.get(str(i), {}).get('segs', [])
+        if t.get('emotion'):  # 원고 턴 줄의 emotion=shy+gentle (문장별, 하나면 턴 전체) 가 먼저
+            ss = sents(t['hu'])
+            em = t['emotion'].split('+')
+            segs = segs_of(ss, em * len(ss) if len(em) == 1 else em)
         if segs:  # 음성을 고려한 감정 열(2026-11-07) — 턴 안에서 바뀌면 segs
             o['emotion'] = segs[0][0]
             if len(segs) > 1:

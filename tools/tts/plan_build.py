@@ -2,6 +2,7 @@
 """감정 원고(data/tts/emotions/*.txt) → data/tts/plan/<편id>.json.
 원고 한 줄 = 한 편:  r1_love_a1: cheerful / surprised+gentle / shy
 턴은 ` / ` 로, 한 턴 안의 문장별 감정은 `+` 로 나눈다(하나만 쓰면 턴 전체). 같은 감정이 이어지면 한 조각으로 합치고, 세 글자 미만 조각은 다음 조각에 붙인다.
+`--from-json` = 회화 파일의 emotion·segs 에서 바로 계획을 만든다(기본 경로 — 새 회화는 원고 턴 줄에 emotion= 을 적는다).
 인물 목소리는 이름으로 정한다(CAST). 읽을 글에서 이모지·괄호 지문은 뺀다."""
 import glob, json, os, re, sys
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -33,7 +34,46 @@ def sents(s):
     return [x for x in re.findall(r'.+?(?:[.!?…]+["”]?(?=\s|$)|$)', s) if x.strip()]
 
 
+def segs_of(ss, em):
+    """문장 목록 + 문장별 감정 → [[감정, 본문(, 읽을 글)]]. 같은 감정은 합치고 아주 짧은 조각은 다음에 붙인다."""
+    segs = []
+    for x, s in zip(em, ss):
+        if segs and segs[-1][0] == x:
+            segs[-1][1] += ' ' + s.strip()
+        else:
+            segs.append([x, s.strip()])
+    i = 0
+    while i < len(segs) - 1:
+        if len(re.sub(r'[^A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]', '', segs[i][1])) < 3:
+            segs[i + 1][1] = segs[i][1] + ' ' + segs[i + 1][1]
+            del segs[i]
+        else:
+            i += 1
+    return [[x, s, clean(s)] if clean(s) != s else [x, s] for x, s in segs]
+
+
+def from_json():
+    """회화 파일의 emotion·segs → 감정 계획(사용자 지시 2026-11-07, 감정을 다시 손으로 적지 않는다). 감정이 빠진 턴이 있는 편은 건너뛰고 알린다."""
+    n = 0
+    for ep, f in sorted(EP.items()):
+        d = json.load(open(f, encoding='utf-8'))
+        P = {'ep': ep, 'cast': {k: voice(v) for k, v in d['speakers'].items() if k != 'A'}, 'turns': {}}
+        miss = [t['num'] for t in d['turns'] if not t.get('emotion') and not t.get('segs')]
+        if miss:
+            print(ep, '감정 없는 턴', miss)
+            continue
+        for t in d['turns']:
+            raw = t.get('segs') or [[t['emotion'], t['hu']]]
+            P['turns'][str(t['num'])] = {'segs': [[x, s, clean(s)] if clean(s) != s else [x, s] for x, s in raw]}
+        os.makedirs(f'{R}/data/tts/plan', exist_ok=True)
+        json.dump(P, open(f'{R}/data/tts/plan/{ep}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+        n += 1
+    print(f'회화 파일에서 계획 {n}편 / 전체 {len(EP)}편')
+
+
 def main():
+    if '--from-json' in sys.argv:
+        return from_json()
     bad = 0
     seen = set()
     for f in sorted(glob.glob(f'{R}/data/tts/emotions/*.txt')):
@@ -61,23 +101,7 @@ def main():
                 for x in em:
                     if x not in V['emotions']:
                         print(ep, '감정?', x); bad += 1
-                segs = []
-                for x, s in zip(em, ss):
-                    if segs and segs[-1][0] == x:
-                        segs[-1][1] += ' ' + s.strip()
-                    else:
-                        segs.append([x, s.strip()])
-                i = 0
-                while i < len(segs) - 1:  # 아주 짧은 조각은 다음에 붙인다
-                    if len(re.sub(r'[^A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]', '', segs[i][1])) < 3:
-                        segs[i + 1][1] = segs[i][1] + ' ' + segs[i + 1][1]
-                        del segs[i]
-                    else:
-                        i += 1
-                out = []
-                for x, s in segs:
-                    c = clean(s)
-                    out.append([x, s, c] if c != s else [x, s])
+                out = segs_of(ss, em)
                 P['turns'][str(t['num'])] = {'segs': out}
             os.makedirs(f'{R}/data/tts/plan', exist_ok=True)
             json.dump(P, open(f'{R}/data/tts/plan/{ep}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)

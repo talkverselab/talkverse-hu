@@ -33,7 +33,7 @@
 `tools/hu_dialogue.py` 머리말 그대로. 턴 줄 = `A | 헝가리어 | 한국어 | note`, 채팅 편은 다섯째 칸 `at=21:03`(필요하면 `stamp=😂`). rd 는 쓰지 않는다(도구가 만든다). note = 그 턴의 핵심 하나 "X = 뜻". `|` 를 대사에 쓰지 말 것. 괄호 지문 최소.
 
 ## 감정 열(2026-11-07 사용자 지시 — 앞으로 쓰는 회화부터)
-회화를 쓸 때 턴마다 감정도 같이 정한다. 값 16개: neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle. neutral 만 쓰지 말 것. 원고는 `data/tts/emotions/*.txt` 에 편마다 한 줄(`id: 감정 / 감정+감정 / …`), `tools/tts/plan_build.py` 로 계획을 만든 뒤 `tools/hu_dialogue.py build` 가 턴에 `emotion`, 턴 안에서 바뀌면 `segs` 를 넣는다.
+회화를 쓸 때 턴마다 감정도 같이 정한다. 값 16개: neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle. neutral 만 쓰지 말 것. 원고 턴 줄 다섯째 칸에 `emotion=shy`(턴 안에서 바뀌면 문장별로 `emotion=surprised+gentle`). `tools/hu_dialogue.py build` 가 턴에 `emotion`·`segs` 를 넣고, `tools/tts/plan_build.py --from-json` 이 거기서 음성 감정 계획을 만든다. `tools/tts/make_jobs.py` 가 그 감정의 참고 음성으로 생성한다.
 
 ## 금지
 출처·작품명·원문 인용 금지(전부 자체 작문). 저작권 있는 대사 흉내 금지.
