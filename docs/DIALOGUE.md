@@ -45,4 +45,4 @@
 
 - `assets/data/dialogues/L1.json` = 옛 L1 체계, 5편 × 8턴(R1 범위 안), 반전 없음, 반말뿐.
 - 원본은 `_update_kit/content/hu.py` → `_update_kit/build_content.py`. R 체계로 다시 만들 때 위 표와 공통 원칙을 따른다.
-- 절벽 단어표는 그림용으로 talkversehanja `talkverse_art/words/hu.csv`(1,500단어, R1~R3)에 있다. 앱의 `assets/data/freq/lang_es_top.csv` 는 아직 머리줄만 있음.
+- 절벽 단어표는 그림용으로 talkversehanja `talkverse_art/words/hu.csv`(1,500단어, R1~R3)에 있다. 앱의 절벽 단어 화면은 `tools/build_freq_words.py` 로 만든 `assets/data/freq/cliff_words_hu.json` 을 읽는다.

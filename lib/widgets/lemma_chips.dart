@@ -4,6 +4,7 @@ import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
 import '../services/dialogue_service.dart';
+import '../services/ko_reading.dart';
 import '../services/lexicon_service.dart';
 import '../services/tts_service.dart';
 
@@ -73,8 +74,8 @@ class _Chip extends StatelessWidget {
   }
 }
 
-/// 단어 시트 — 기본형·독음·뜻·품사·절벽 구간, 🔊.
-Future<void> showLexSheet(BuildContext context, LexEntry e) => showModalBottomSheet(
+/// 단어 시트 — 기본형·독음·뜻·품사·절벽 구간, 🔊. [suffix]·[onSuffix] 가 있으면 그 낱말의 접미사 시트로 가는 버튼.
+Future<void> showLexSheet(BuildContext context, LexEntry e, {String? suffix, VoidCallback? onSuffix}) => showModalBottomSheet(
       context: context,
       showDragHandle: true,
       backgroundColor: AppColors.washi,
@@ -87,12 +88,26 @@ Future<void> showLexSheet(BuildContext context, LexEntry e) => showModalBottomSh
               Expanded(child: Text(e.word, style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w800, color: AppColors.sumi))),
               IconButton(onPressed: () => TtsService.instance.speak(e.word), icon: const Icon(Icons.volume_up, color: AppColors.beni)),
             ]),
-            if (e.rd.isNotEmpty) Text(e.rd, style: const TextStyle(fontSize: 14, color: AppColors.muted)),
+            if (e.rd.isNotEmpty) KoReadingText(e.rd, style: const TextStyle(fontSize: 14, color: AppColors.muted)),
             const SizedBox(height: 10),
             Text(e.ko, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: AppColors.sumi, height: 1.4)),
             const SizedBox(height: 8),
             Text([if (e.pos.isNotEmpty) e.pos, if (e.level.isNotEmpty) trf('절벽 {0} · {1}위', [e.level, e.rank])].join(' · '),
                 style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+            if (onSuffix != null) ...[
+              const SizedBox(height: 8),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: TextButton.icon(
+                  onPressed: () {
+                    Navigator.pop(c);
+                    onSuffix();
+                  },
+                  icon: const Icon(Icons.link, size: 18, color: AppColors.beni),
+                  label: Text(trf('접미사 {0}', [suffix ?? '']), style: const TextStyle(color: AppColors.beni, fontWeight: FontWeight.w700)),
+                ),
+              ),
+            ],
           ]),
         ),
       ),

@@ -45,7 +45,7 @@ void main() {
     await wait(t, 1500);
     await shot(t, '01_home_wide');
 
-    await t.tap(find.text('회화').first); // 홈 메뉴 → 오른쪽 칸에 회화 홈
+    await t.tap(find.text('회화').at(1)); // 묶음 제목 다음이 홈 메뉴 타일 — → 오른쪽 칸에 회화 홈
     await wait(t, 2500);
     await shot(t, '02_dialogue_home_right');
 

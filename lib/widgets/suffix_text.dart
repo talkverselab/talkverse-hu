@@ -1,39 +1,56 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
+import '../services/dialogue_service.dart';
 import '../services/hu_suffix.dart';
+import '../services/lexicon_service.dart';
+import 'lemma_chips.dart';
 
-/// 헝가리어 문장 — 낱말 끝 격 접미사를 자두색으로 칠하고, 그 낱말을 누르면 접미사 시트(UX 시안 01, 2026-11-03).
-/// [color] false 면 보통 글자(자막 「접미사」 칩을 끈 상태). [others] = 시트의 「같은 접미사가 나온 문장」 후보.
+/// 헝가리어 문장 — 낱말 끝 격 접미사를 자두색으로 칠한다(UX 시안 01, 2026-11-03).
+/// [lemmas] 를 주면 낱말을 레마 단위로: **탭 = 단어창**(단어장에 있는 말, 밑줄), **길게 = 접미사 시트**(일본어앱 레마 탭·길게 누르면 한자 시트 자리, 2026-11-07).
+/// 단어장에 없는 낱말은 탭도 접미사 시트. [color] false 면 보통 글자(자막 「접미사」 칩을 끈 상태). [others] = 시트의 「같은 접미사가 나온 문장」 후보.
 class SuffixText extends StatefulWidget {
   final String text;
   final TextStyle style;
   final bool color;
   final List<String> others;
-  const SuffixText(this.text, {super.key, required this.style, this.color = true, this.others = const []});
+  final List<Lemma> lemmas;
+  const SuffixText(this.text, {super.key, required this.style, this.color = true, this.others = const [], this.lemmas = const []});
 
   @override
   State<SuffixText> createState() => _SuffixTextState();
 }
 
 class _SuffixTextState extends State<SuffixText> {
-  final _taps = <TapGestureRecognizer>[];
   static final _word = RegExp(r"[A-Za-zÀ-ÿŐőŰű]+");
+  Map<String, LexEntry> _lex = const {}; // 표면형(소문자) → 단어장 항목
 
-  void _clear() {
-    for (final t in _taps) {
-      t.dispose();
-    }
-    _taps.clear();
+  @override
+  void initState() {
+    super.initState();
+    _loadLex();
   }
 
   @override
-  void dispose() {
-    _clear();
-    super.dispose();
+  void didUpdateWidget(SuffixText old) {
+    super.didUpdateWidget(old);
+    if (!identical(old.lemmas, widget.lemmas)) _loadLex();
+  }
+
+  Future<void> _loadLex() async {
+    final lemmas = widget.lemmas;
+    if (lemmas.isEmpty) {
+      _lex = const {};
+      return;
+    }
+    final found = await LexiconService.instance.byLemmas(lemmas.map((l) => l.base));
+    if (!mounted || !identical(lemmas, widget.lemmas)) return;
+    setState(() => _lex = {
+          for (final l in lemmas)
+            if (found[l.base] != null) l.surface.toLowerCase(): found[l.base]!,
+        });
   }
 
   @override
@@ -43,26 +60,48 @@ class _SuffixTextState extends State<SuffixText> {
       );
 
   Widget _build(BuildContext context, bool on) {
-    if (!on) return Text(widget.text, style: widget.style);
-    _clear();
+    if (!on && _lex.isEmpty) return Text(widget.text, style: widget.style);
     final spans = <InlineSpan>[];
     var at = 0;
     for (final m in _word.allMatches(widget.text)) {
       if (m.start > at) spans.add(TextSpan(text: widget.text.substring(at, m.start)));
       final w = m.group(0)!;
-      final hit = HuSuffixes.split(w);
-      if (hit == null) {
+      final hit = on ? HuSuffixes.split(w) : null;
+      final entry = _lex[w.toLowerCase()];
+      if (hit == null && entry == null) {
         spans.add(TextSpan(text: w));
       } else {
-        final tap = TapGestureRecognizer()..onTap = () => showSuffixSheet(context, hit.$1, hit.$2, others: widget.others);
-        _taps.add(tap);
-        spans.add(TextSpan(text: hit.$1, recognizer: tap));
-        spans.add(TextSpan(text: w.substring(hit.$1.length), recognizer: tap, style: const TextStyle(color: AppColors.beni)));
+        spans.add(_tappable(context, w, hit, entry));
       }
       at = m.end;
     }
     if (at < widget.text.length) spans.add(TextSpan(text: widget.text.substring(at)));
     return Text.rich(TextSpan(style: widget.style, children: spans));
+  }
+
+  /// 탭과 길게 누르기를 함께 받으려고 낱말을 위젯으로 넣는다(TextSpan 은 인식기를 하나만 받는다).
+  InlineSpan _tappable(BuildContext context, String w, (String, HuSuffix)? hit, LexEntry? entry) {
+    void suffix() => showSuffixSheet(context, hit!.$1, hit.$2, others: widget.others);
+    final style = entry == null
+        ? widget.style
+        : widget.style.copyWith(decoration: TextDecoration.underline, decorationColor: AppColors.magyar.withValues(alpha: 0.6), decorationThickness: 1.5);
+    return WidgetSpan(
+      alignment: PlaceholderAlignment.baseline,
+      baseline: TextBaseline.alphabetic,
+      child: GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTap: entry == null ? suffix : () => showLexSheet(context, entry, suffix: hit == null ? null : '-${hit.$2.form}', onSuffix: hit == null ? null : suffix),
+        onLongPress: hit == null ? null : suffix,
+        child: Text.rich(TextSpan(style: style, children: [
+          if (hit == null)
+            TextSpan(text: w)
+          else ...[
+            TextSpan(text: hit.$1),
+            TextSpan(text: w.substring(hit.$1.length), style: const TextStyle(color: AppColors.beni)),
+          ],
+        ])),
+      ),
+    );
   }
 }
 

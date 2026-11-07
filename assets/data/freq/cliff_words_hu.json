@@ -1,0 +1,10505 @@
+{
+"_meta": "절벽 단어 1~1,500위 — 기본형 + 접미사·어미 토큰 · tools/build_freq_words.py",
+"words": [
+{
+"rank": 1,
+"word": "a",
+"ko": "그(정관사)",
+"rd": "어",
+"pos": "det"
+},
+{
+"rank": 2,
+"word": "-t",
+"ko": "목적격",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 3,
+"word": "az",
+"ko": "그(정관사, 모음 앞)",
+"rd": "어즈",
+"pos": "det"
+},
+{
+"rank": 4,
+"word": "nem",
+"ko": "아니다, ~않다(부정)",
+"rd": "넴",
+"pos": "particle"
+},
+{
+"rank": 5,
+"word": "van",
+"ko": "있다, ~이다",
+"rd": "번",
+"pos": "verb"
+},
+{
+"rank": 6,
+"word": "-k",
+"ko": "복수",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 7,
+"word": "hogy",
+"ko": "~라는 것(접속사)",
+"rd": "호지",
+"pos": "conj"
+},
+{
+"rank": 8,
+"word": "ez",
+"ko": "이것",
+"rd": "에즈",
+"pos": "pron"
+},
+{
+"rank": 9,
+"word": "és",
+"ko": "그리고",
+"rd": "에시",
+"pos": "conj"
+},
+{
+"rank": 10,
+"word": "egy",
+"ko": "하나, 한(부정관사)",
+"rd": "에지",
+"pos": "det"
+},
+{
+"rank": 11,
+"word": "mi",
+"ko": "무엇, 우리",
+"rd": "미",
+"pos": "pron"
+},
+{
+"rank": 12,
+"word": "-m",
+"ko": "소유 접사(1인칭 단수)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 13,
+"word": "-ban/-ben",
+"ko": "~안에서(내격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 14,
+"word": "tud",
+"ko": "알다",
+"rd": "투드",
+"pos": "verb"
+},
+{
+"rank": 15,
+"word": "-ni",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 16,
+"word": "én",
+"ko": "나",
+"rd": "엔",
+"pos": "pron"
+},
+{
+"rank": 17,
+"word": "-om",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 18,
+"word": "-(j)a/-(j)e",
+"ko": "소유 접사(3인칭 단수)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 19,
+"word": "-ra/-re",
+"ko": "~위로(하격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 20,
+"word": "-val/-vel",
+"ko": "~와 함께·~로(도구격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 21,
+"word": "is",
+"ko": "~도(또한)",
+"rd": "이시",
+"pos": "particle"
+},
+{
+"rank": 22,
+"word": "de",
+"ko": "그러나",
+"rd": "데",
+"pos": "conj"
+},
+{
+"rank": 23,
+"word": "meg",
+"ko": "(동사 접두사) 그리고",
+"rd": "메그",
+"pos": "particle"
+},
+{
+"rank": 24,
+"word": "-tam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 25,
+"word": "-on/-en/-ön",
+"ko": "~위에(상격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 26,
+"word": "ő",
+"ko": "그, 그녀",
+"rd": "외",
+"pos": "pron"
+},
+{
+"rank": 27,
+"word": "te",
+"ko": "너",
+"rd": "테",
+"pos": "pron"
+},
+{
+"rank": 28,
+"word": "-nak/-nek",
+"ko": "~에게·~의(여격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 29,
+"word": "csak",
+"ko": "단지",
+"rd": "촉",
+"pos": "adv"
+},
+{
+"rank": 30,
+"word": "kell",
+"ko": "~해야 한다",
+"rd": "켈",
+"pos": "verb"
+},
+{
+"rank": 31,
+"word": "ha",
+"ko": "만약 ~라면",
+"rd": "허",
+"pos": "conj"
+},
+{
+"rank": 32,
+"word": "lesz",
+"ko": "~이 될 것이다",
+"rd": "레쓰",
+"pos": "verb"
+},
+{
+"rank": 33,
+"word": "-d",
+"ko": "소유 접사(2인칭 단수)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 34,
+"word": "-t",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 35,
+"word": "mond",
+"ko": "말한다",
+"rd": "몬드",
+"pos": "verb"
+},
+{
+"rank": 36,
+"word": "jó",
+"ko": "좋은",
+"rd": "요",
+"pos": "adj"
+},
+{
+"rank": 37,
+"word": "-olt",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 38,
+"word": "vagy",
+"ko": "또는",
+"rd": "버지",
+"pos": "conj"
+},
+{
+"rank": 39,
+"word": "igen",
+"ko": "네(긍정 대답)",
+"rd": "이겐",
+"pos": "interj"
+},
+{
+"rank": 40,
+"word": "akar",
+"ko": "원하다",
+"rd": "어커르",
+"pos": "verb"
+},
+{
+"rank": 41,
+"word": "maga",
+"ko": "당신, 자신",
+"rd": "머거",
+"pos": "pron"
+},
+{
+"rank": 42,
+"word": "el",
+"ko": "멀리(방향 접두사)",
+"rd": "엘",
+"pos": "adv"
+},
+{
+"rank": 43,
+"word": "itt",
+"ko": "여기",
+"rd": "이트",
+"pos": "adv"
+},
+{
+"rank": 44,
+"word": "-ja",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 45,
+"word": "ki",
+"ko": "밖으로",
+"rd": "키",
+"pos": "adv"
+},
+{
+"rank": 46,
+"word": "már",
+"ko": "이미",
+"rd": "마르",
+"pos": "adv"
+},
+{
+"rank": 47,
+"word": "-nk",
+"ko": "소유 접사(1인칭 복수)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 48,
+"word": "még",
+"ko": "아직, 더",
+"rd": "메그",
+"pos": "adv"
+},
+{
+"rank": 49,
+"word": "-ba/-be",
+"ko": "~안으로(입격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 50,
+"word": "ne",
+"ko": "~하지 마(부정 명령)",
+"rd": "네",
+"pos": "particle"
+},
+{
+"rank": 51,
+"word": "-ta",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 52,
+"word": "ami",
+"ko": "~하는 것(관계대명사)",
+"rd": "어미",
+"pos": "pron"
+},
+{
+"rank": 53,
+"word": "-ott",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 54,
+"word": "fog",
+"ko": "~할 것이다",
+"rd": "포그",
+"pos": "verb"
+},
+{
+"rank": 55,
+"word": "-sz",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 56,
+"word": "-nak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 57,
+"word": "-gyok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 58,
+"word": "-ok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 59,
+"word": "most",
+"ko": "지금",
+"rd": "모슈트",
+"pos": "adv"
+},
+{
+"rank": 60,
+"word": "-od",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 61,
+"word": "megy",
+"ko": "가다",
+"rd": "메지",
+"pos": "verb"
+},
+{
+"rank": 62,
+"word": "-am",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 63,
+"word": "-i",
+"ko": "소유 복수",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 64,
+"word": "jön",
+"ko": "오다",
+"rd": "왼",
+"pos": "verb"
+},
+{
+"rank": 65,
+"word": "-j",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 66,
+"word": "-ó",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 67,
+"word": "minden",
+"ko": "모든",
+"rd": "민덴",
+"pos": "det"
+},
+{
+"rank": 68,
+"word": "-d",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 69,
+"word": "lát",
+"ko": "보다",
+"rd": "라트",
+"pos": "verb"
+},
+{
+"rank": 70,
+"word": "úgy",
+"ko": "그렇게",
+"rd": "우지",
+"pos": "adv"
+},
+{
+"rank": 71,
+"word": "miért",
+"ko": "왜",
+"rd": "미에르트",
+"pos": "adv"
+},
+{
+"rank": 72,
+"word": "valami",
+"ko": "무언가",
+"rd": "벌러미",
+"pos": "pron"
+},
+{
+"rank": 73,
+"word": "akkor",
+"ko": "그때, 그러면",
+"rd": "어꼬르",
+"pos": "adv"
+},
+{
+"rank": 74,
+"word": "mint",
+"ko": "~처럼, ~보다",
+"rd": "민트",
+"pos": "conj"
+},
+{
+"rank": 75,
+"word": "-ani",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 76,
+"word": "sem",
+"ko": "~도 아니다",
+"rd": "셈",
+"pos": "particle"
+},
+{
+"rank": 77,
+"word": "-an",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 78,
+"word": "-unk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 79,
+"word": "-ról/-ről",
+"ko": "~위에서부터·~에 대해(탈격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 80,
+"word": "-juk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 81,
+"word": "szeret",
+"ko": "좋아한다",
+"rd": "쎄레트",
+"pos": "verb"
+},
+{
+"rank": 82,
+"word": "aki",
+"ko": "~하는 사람(관계대명사)",
+"rd": "어키",
+"pos": "pron"
+},
+{
+"rank": 83,
+"word": "ember",
+"ko": "사람",
+"rd": "엠베르",
+"pos": "noun"
+},
+{
+"rank": 84,
+"word": "néz",
+"ko": "본다",
+"rd": "네즈",
+"pos": "verb"
+},
+{
+"rank": 85,
+"word": "tesz",
+"ko": "한다, 놓는다",
+"rd": "테스",
+"pos": "verb"
+},
+{
+"rank": 86,
+"word": "nincs",
+"ko": "없다",
+"rd": "닌치",
+"pos": "verb"
+},
+{
+"rank": 87,
+"word": "jól",
+"ko": "잘",
+"rd": "욜",
+"pos": "adv"
+},
+{
+"rank": 88,
+"word": "csinál",
+"ko": "하다, 만들다",
+"rd": "치날",
+"pos": "verb"
+},
+{
+"rank": 89,
+"word": "igaz",
+"ko": "사실인",
+"rd": "이거즈",
+"pos": "adj"
+},
+{
+"rank": 90,
+"word": "semmi",
+"ko": "아무것도",
+"rd": "셈미",
+"pos": "pron"
+},
+{
+"rank": 91,
+"word": "ők",
+"ko": "그들",
+"rd": "왹",
+"pos": "pron"
+},
+{
+"rank": 92,
+"word": "nagyon",
+"ko": "매우",
+"rd": "너존",
+"pos": "adv"
+},
+{
+"rank": 93,
+"word": "beszél",
+"ko": "말한다",
+"rd": "베쎌",
+"pos": "verb"
+},
+{
+"rank": 94,
+"word": "-án",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 95,
+"word": "-att",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 96,
+"word": "hisz",
+"ko": "믿는다",
+"rd": "히쓰",
+"pos": "verb"
+},
+{
+"rank": 97,
+"word": "mert",
+"ko": "왜냐하면",
+"rd": "메르트",
+"pos": "conj"
+},
+{
+"rank": 98,
+"word": "lehet",
+"ko": "~일 수 있다",
+"rd": "레헤트",
+"pos": "verb"
+},
+{
+"rank": 99,
+"word": "-ért",
+"ko": "~를 위해(원인격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 100,
+"word": "szó",
+"ko": "단어",
+"rd": "쏘",
+"pos": "noun"
+},
+{
+"rank": 101,
+"word": "-ból/-ből",
+"ko": "~안에서부터(출격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 102,
+"word": "rend",
+"ko": "질서, 순서",
+"rd": "렌드",
+"pos": "noun"
+},
+{
+"rank": 103,
+"word": "olyan",
+"ko": "그런",
+"rd": "오이언",
+"pos": "det"
+},
+{
+"rank": 104,
+"word": "gondol",
+"ko": "생각하다",
+"rd": "곤돌",
+"pos": "verb"
+},
+{
+"rank": 105,
+"word": "be",
+"ko": "안으로",
+"rd": "베",
+"pos": "adv"
+},
+{
+"rank": 106,
+"word": "-(j)uk/-(j)ük",
+"ko": "소유 접사(3인칭 복수)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 107,
+"word": "-ta",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 108,
+"word": "-n",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 109,
+"word": "így",
+"ko": "이렇게",
+"rd": "이지",
+"pos": "adv"
+},
+{
+"rank": 110,
+"word": "sok",
+"ko": "많은",
+"rd": "쇼크",
+"pos": "det"
+},
+{
+"rank": 111,
+"word": "-ak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 112,
+"word": "-i",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 113,
+"word": "fel",
+"ko": "위로",
+"rd": "펠",
+"pos": "adv"
+},
+{
+"rank": 114,
+"word": "-tál",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 115,
+"word": "ért",
+"ko": "이해했다, 도달했다",
+"rd": "에르트",
+"pos": "verb"
+},
+{
+"rank": 116,
+"word": "-olna",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 117,
+"word": "le",
+"ko": "아래로",
+"rd": "레",
+"pos": "adv"
+},
+{
+"rank": 118,
+"word": "vár",
+"ko": "기다린다",
+"rd": "바르",
+"pos": "verb"
+},
+{
+"rank": 119,
+"word": "-ul",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 120,
+"word": "-tak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 121,
+"word": "nekem",
+"ko": "나에게",
+"rd": "네켐",
+"pos": "pron"
+},
+{
+"rank": 122,
+"word": "ott",
+"ko": "거기",
+"rd": "오트",
+"pos": "adv"
+},
+{
+"rank": 123,
+"word": "oké",
+"ko": "좋아",
+"rd": "오케",
+"pos": "interj"
+},
+{
+"rank": 124,
+"word": "vele",
+"ko": "그와 함께",
+"rd": "벨레",
+"pos": "pron"
+},
+{
+"rank": 125,
+"word": "ad",
+"ko": "준다",
+"rd": "어드",
+"pos": "verb"
+},
+{
+"rank": 126,
+"word": "-hoz/-hez/-höz",
+"ko": "~쪽으로(향격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 127,
+"word": "úr",
+"ko": "씨, 신사",
+"rd": "우르",
+"pos": "noun"
+},
+{
+"rank": 128,
+"word": "dolog",
+"ko": "일, 것",
+"rd": "돌록",
+"pos": "noun"
+},
+{
+"rank": 129,
+"word": "-tad",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 130,
+"word": "köszön",
+"ko": "감사하다",
+"rd": "쾨쇠니",
+"pos": "verb"
+},
+{
+"rank": 131,
+"word": "kér",
+"ko": "요청하다",
+"rd": "께르",
+"pos": "verb"
+},
+{
+"rank": 132,
+"word": "hagy",
+"ko": "두다, 내버려 두다",
+"rd": "허지",
+"pos": "verb"
+},
+{
+"rank": 133,
+"word": "szerint",
+"ko": "~에 따르면",
+"rd": "쎄린트",
+"pos": "postp"
+},
+{
+"rank": 134,
+"word": "hát",
+"ko": "글쎄, 그러니까(감탄)",
+"rd": "핫",
+"pos": "interj"
+},
+{
+"rank": 135,
+"word": "mindig",
+"ko": "항상",
+"rd": "민딕",
+"pos": "adv"
+},
+{
+"rank": 136,
+"word": "-ják",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 137,
+"word": "idő",
+"ko": "시간, 날씨",
+"rd": "이뢰",
+"pos": "noun"
+},
+{
+"rank": 138,
+"word": "nagy",
+"ko": "큰",
+"rd": "너지",
+"pos": "adj"
+},
+{
+"rank": 139,
+"word": "majd",
+"ko": "나중에, ~할 것이다",
+"rd": "머이드",
+"pos": "adv"
+},
+{
+"rank": 140,
+"word": "talán",
+"ko": "아마도",
+"rd": "털란",
+"pos": "adv"
+},
+{
+"rank": 141,
+"word": "-va",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 142,
+"word": "-t",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 143,
+"word": "több",
+"ko": "더 많은",
+"rd": "퇴그",
+"pos": "adj"
+},
+{
+"rank": 144,
+"word": "biztos",
+"ko": "확실한",
+"rd": "비즈토슈",
+"pos": "adj"
+},
+{
+"rank": 145,
+"word": "-kor",
+"ko": "~시에(시간격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 146,
+"word": "hol",
+"ko": "어디에",
+"rd": "홀",
+"pos": "adv"
+},
+{
+"rank": 147,
+"word": "vég",
+"ko": "끝",
+"rd": "베그",
+"pos": "noun"
+},
+{
+"rank": 148,
+"word": "nap",
+"ko": "날, 태양",
+"rd": "넙",
+"pos": "noun"
+},
+{
+"rank": 149,
+"word": "történik",
+"ko": "일어난다",
+"rd": "퇴르텐닉",
+"pos": "verb"
+},
+{
+"rank": 150,
+"word": "-lak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 151,
+"word": "kis",
+"ko": "작은",
+"rd": "키시",
+"pos": "adj"
+},
+{
+"rank": 152,
+"word": "-ták",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 153,
+"word": "más",
+"ko": "다른",
+"rd": "마시",
+"pos": "adj"
+},
+{
+"rank": 154,
+"word": "valaki",
+"ko": "누군가",
+"rd": "벌러키",
+"pos": "pron"
+},
+{
+"rank": 155,
+"word": "áll",
+"ko": "서 있다",
+"rd": "알",
+"pos": "verb"
+},
+{
+"rank": 156,
+"word": "-tól/-től",
+"ko": "~에게서(탈격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 157,
+"word": "hall",
+"ko": "듣다",
+"rd": "헐",
+"pos": "verb"
+},
+{
+"rank": 158,
+"word": "-jon",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 159,
+"word": "talál",
+"ko": "찾다",
+"rd": "털랄",
+"pos": "verb"
+},
+{
+"rank": 160,
+"word": "ó",
+"ko": "아, 오(감탄)",
+"rd": "오",
+"pos": "interj"
+},
+{
+"rank": 161,
+"word": "amikor",
+"ko": "~할 때",
+"rd": "어미꼬르",
+"pos": "conj"
+},
+{
+"rank": 162,
+"word": "vissza",
+"ko": "뒤로",
+"rd": "비써",
+"pos": "adv"
+},
+{
+"rank": 163,
+"word": "éle",
+"ko": "삶 (사전형: élet)",
+"rd": "에레",
+"pos": "noun"
+},
+{
+"rank": 164,
+"word": "segít",
+"ko": "돕는다",
+"rd": "셰기트",
+"pos": "verb"
+},
+{
+"rank": 165,
+"word": "elég",
+"ko": "충분한",
+"rd": "엘렉",
+"pos": "adv"
+},
+{
+"rank": 166,
+"word": "-tunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 167,
+"word": "-ad",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 168,
+"word": "ilyen",
+"ko": "이런",
+"rd": "이옌",
+"pos": "det"
+},
+{
+"rank": 169,
+"word": "hé",
+"ko": "어이, 이봐",
+"rd": "헤",
+"pos": "interj"
+},
+{
+"rank": 170,
+"word": "kicsi",
+"ko": "작은",
+"rd": "키치",
+"pos": "adj"
+},
+{
+"rank": 171,
+"word": "hív",
+"ko": "부르다",
+"rd": "히브",
+"pos": "verb"
+},
+{
+"rank": 172,
+"word": "ide",
+"ko": "여기로",
+"rd": "이데",
+"pos": "adv"
+},
+{
+"rank": 173,
+"word": "-nál/-nél",
+"ko": "~곁에서(접격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 174,
+"word": "-ig",
+"ko": "~까지(종격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 175,
+"word": "ma",
+"ko": "오늘",
+"rd": "머",
+"pos": "adv"
+},
+{
+"rank": 176,
+"word": "tényleg",
+"ko": "정말",
+"rd": "테니렉",
+"pos": "adv"
+},
+{
+"rank": 177,
+"word": "milyen",
+"ko": "어떤",
+"rd": "미옌",
+"pos": "det"
+},
+{
+"rank": 178,
+"word": "marad",
+"ko": "머문다",
+"rd": "머러드",
+"pos": "verb"
+},
+{
+"rank": 179,
+"word": "sajnál",
+"ko": "안타까워하다",
+"rd": "셔이날",
+"pos": "verb"
+},
+{
+"rank": 180,
+"word": "hoz",
+"ko": "가져온다",
+"rd": "호즈",
+"pos": "verb"
+},
+{
+"rank": 181,
+"word": "egész",
+"ko": "전체의",
+"rd": "에게쓰",
+"pos": "adj"
+},
+{
+"rank": 182,
+"word": "rossz",
+"ko": "나쁜",
+"rd": "로쓰",
+"pos": "adj"
+},
+{
+"rank": 183,
+"word": "-abb",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 184,
+"word": "kap",
+"ko": "받는다",
+"rd": "커프",
+"pos": "verb"
+},
+{
+"rank": 185,
+"word": "gyerünk",
+"ko": "어서, 자",
+"rd": "계루네시",
+"pos": "interj"
+},
+{
+"rank": 186,
+"word": "-gyunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 187,
+"word": "figyel",
+"ko": "주의하다",
+"rd": "피겔",
+"pos": "verb"
+},
+{
+"rank": 188,
+"word": "év",
+"ko": "해, 년",
+"rd": "에브",
+"pos": "noun"
+},
+{
+"rank": 189,
+"word": "lány",
+"ko": "소녀",
+"rd": "라니",
+"pos": "noun"
+},
+{
+"rank": 190,
+"word": "-tok/-tek/-tök",
+"ko": "소유 접사(2인칭 복수)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 191,
+"word": "érez",
+"ko": "느끼다",
+"rd": "에레즈",
+"pos": "verb"
+},
+{
+"rank": 192,
+"word": "ön",
+"ko": "당신(공손)",
+"rd": "왼",
+"pos": "pron"
+},
+{
+"rank": 193,
+"word": "apa",
+"ko": "아빠",
+"rd": "어퍼",
+"pos": "noun"
+},
+{
+"rank": 194,
+"word": "tart",
+"ko": "유지한다, 지속된다",
+"rd": "터르트",
+"pos": "verb"
+},
+{
+"rank": 195,
+"word": "mindenki",
+"ko": "모두",
+"rd": "민덴키",
+"pos": "pron"
+},
+{
+"rank": 196,
+"word": "-na",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 197,
+"word": "baj",
+"ko": "문제",
+"rd": "버이",
+"pos": "noun"
+},
+{
+"rank": 198,
+"word": "volt",
+"ko": "~였다(van 의 과거)",
+"rd": "볼트",
+"pos": "verb"
+},
+{
+"rank": 199,
+"word": "új",
+"ko": "새로운",
+"rd": "우이",
+"pos": "adj"
+},
+{
+"rank": 200,
+"word": "túl",
+"ko": "너머, 너무",
+"rd": "툴",
+"pos": "adv"
+},
+{
+"rank": 201,
+"word": "tűnik",
+"ko": "~처럼 보인다",
+"rd": "튀닉",
+"pos": "verb"
+},
+{
+"rank": 202,
+"word": "nos",
+"ko": "자, 그런데",
+"rd": "노시",
+"pos": "interj"
+},
+{
+"rank": 203,
+"word": "-sz",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 204,
+"word": "persze",
+"ko": "물론",
+"rd": "페르쎄",
+"pos": "adv"
+},
+{
+"rank": 205,
+"word": "hely",
+"ko": "장소",
+"rd": "헤이",
+"pos": "noun"
+},
+{
+"rank": 206,
+"word": "t",
+"ko": "알파벳 t",
+"rd": "테",
+"pos": "other"
+},
+{
+"rank": 207,
+"word": "keres",
+"ko": "찾는다",
+"rd": "케레시",
+"pos": "verb"
+},
+{
+"rank": 208,
+"word": "-gyara",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 209,
+"word": "két",
+"ko": "둘",
+"rd": "케트",
+"pos": "num"
+},
+{
+"rank": 210,
+"word": "senki",
+"ko": "아무도",
+"rd": "셴키",
+"pos": "pron"
+},
+{
+"rank": 211,
+"word": "anya",
+"ko": "어머니",
+"rd": "어니어",
+"pos": "noun"
+},
+{
+"rank": 212,
+"word": "miatt",
+"ko": "~때문에",
+"rd": "미어트",
+"pos": "postp"
+},
+{
+"rank": 213,
+"word": "nő",
+"ko": "여자",
+"rd": "뇌",
+"pos": "noun"
+},
+{
+"rank": 214,
+"word": "barát",
+"ko": "친구",
+"rd": "버랏",
+"pos": "noun"
+},
+{
+"rank": 215,
+"word": "után",
+"ko": "~후에",
+"rd": "우탄",
+"pos": "postp"
+},
+{
+"rank": 216,
+"word": "dolgoz",
+"ko": "일하다 (사전형: dolgozik)",
+"rd": "돌고즈",
+"pos": "verb"
+},
+{
+"rank": 217,
+"word": "pedig",
+"ko": "그런데",
+"rd": "페디그",
+"pos": "conj"
+},
+{
+"rank": 218,
+"word": "ahogy",
+"ko": "~하는 대로",
+"rd": "어호지",
+"pos": "conj"
+},
+{
+"rank": 219,
+"word": "szép",
+"ko": "아름다운",
+"rd": "쎕",
+"pos": "adj"
+},
+{
+"rank": 220,
+"word": "annyi",
+"ko": "그만큼",
+"rd": "언니",
+"pos": "pron"
+},
+{
+"rank": 221,
+"word": "vesz",
+"ko": "산다",
+"rd": "베쓰",
+"pos": "verb"
+},
+{
+"rank": 222,
+"word": "szól",
+"ko": "말한다, 울린다",
+"rd": "쏠",
+"pos": "verb"
+},
+{
+"rank": 223,
+"word": "szia",
+"ko": "안녕",
+"rd": "씨어",
+"pos": "interj"
+},
+{
+"rank": 224,
+"word": "ismer",
+"ko": "알다, 아는 사이다",
+"rd": "이슈메르",
+"pos": "verb"
+},
+{
+"rank": 225,
+"word": "aztán",
+"ko": "그 다음에",
+"rd": "어스탄",
+"pos": "adv"
+},
+{
+"rank": 226,
+"word": "hal",
+"ko": "물고기",
+"rd": "헐",
+"pos": "noun"
+},
+{
+"rank": 227,
+"word": "sohasem",
+"ko": "결코 ~않다",
+"rd": "쇼허셈",
+"pos": "adv"
+},
+{
+"rank": 228,
+"word": "-nunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 229,
+"word": "ti",
+"ko": "너희",
+"rd": "티",
+"pos": "pron"
+},
+{
+"rank": 230,
+"word": "gyerek",
+"ko": "아이",
+"rd": "제레크",
+"pos": "noun"
+},
+{
+"rank": 231,
+"word": "-ottam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 232,
+"word": "ezért",
+"ko": "이 때문에",
+"rd": "에제르트",
+"pos": "conj"
+},
+{
+"rank": 233,
+"word": "na",
+"ko": "자, 글쎄(감탄)",
+"rd": "너",
+"pos": "interj"
+},
+{
+"rank": 234,
+"word": "ugye",
+"ko": "그렇지?(확인)",
+"rd": "우제",
+"pos": "particle"
+},
+{
+"rank": 235,
+"word": "próbál",
+"ko": "시도하다",
+"rd": "프로발",
+"pos": "verb"
+},
+{
+"rank": 236,
+"word": "-nák",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 237,
+"word": "találkozik",
+"ko": "만나다",
+"rd": "털랄코지크",
+"pos": "verb"
+},
+{
+"rank": 238,
+"word": "kezd",
+"ko": "시작한다",
+"rd": "케즈드",
+"pos": "verb"
+},
+{
+"rank": 239,
+"word": "él",
+"ko": "산다",
+"rd": "엘",
+"pos": "verb"
+},
+{
+"rank": 240,
+"word": "este",
+"ko": "저녁",
+"rd": "에슈테",
+"pos": "noun"
+},
+{
+"rank": 241,
+"word": "név",
+"ko": "이름",
+"rd": "네브",
+"pos": "noun"
+},
+{
+"rank": 242,
+"word": "-nám",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 243,
+"word": "jár",
+"ko": "다닌다",
+"rd": "야르",
+"pos": "verb"
+},
+{
+"rank": 244,
+"word": "munka",
+"ko": "일, 노동",
+"rd": "문커",
+"pos": "noun"
+},
+{
+"rank": 245,
+"word": "pénz",
+"ko": "돈",
+"rd": "펜즈",
+"pos": "noun"
+},
+{
+"rank": 246,
+"word": "-tuk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 247,
+"word": "e",
+"ko": "이(지시사)",
+"rd": "에",
+"pos": "det"
+},
+{
+"rank": 248,
+"word": "perc",
+"ko": "분(시간)",
+"rd": "페르츠",
+"pos": "noun"
+},
+{
+"rank": 249,
+"word": "-ik",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 250,
+"word": "kérem",
+"ko": "부탁합니다",
+"rd": "케렘",
+"pos": "interj"
+},
+{
+"rank": 251,
+"word": "fél",
+"ko": "반, 두려워하다",
+"rd": "펠",
+"pos": "noun"
+},
+{
+"rank": 252,
+"word": "meghal",
+"ko": "죽다",
+"rd": "메그헐",
+"pos": "verb"
+},
+{
+"rank": 253,
+"word": "teljes",
+"ko": "전체의",
+"rd": "텔예슈",
+"pos": "adj"
+},
+{
+"rank": 254,
+"word": "megöl",
+"ko": "죽이다",
+"rd": "메그욀",
+"pos": "verb"
+},
+{
+"rank": 255,
+"word": "egyik",
+"ko": "하나, 한쪽",
+"rd": "에지크",
+"pos": "pron"
+},
+{
+"rank": 256,
+"word": "szem",
+"ko": "눈",
+"rd": "쎔",
+"pos": "noun"
+},
+{
+"rank": 257,
+"word": "-junk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 258,
+"word": "-vá/-vé",
+"ko": "~으로 변해(변화격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 259,
+"word": "éppen",
+"ko": "바로",
+"rd": "에펜",
+"pos": "adv"
+},
+{
+"rank": 260,
+"word": "-ana",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 261,
+"word": "-ána",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 262,
+"word": "pár",
+"ko": "몇 개, 한 쌍",
+"rd": "파르",
+"pos": "det"
+},
+{
+"rank": 263,
+"word": "első",
+"ko": "첫째의",
+"rd": "엘쇠",
+"pos": "num"
+},
+{
+"rank": 264,
+"word": "át",
+"ko": "가로질러",
+"rd": "아트",
+"pos": "adv"
+},
+{
+"rank": 265,
+"word": "ér",
+"ko": "가치가 있다, 도달한다",
+"rd": "에르",
+"pos": "verb"
+},
+{
+"rank": 266,
+"word": "visz",
+"ko": "가져가다, 나르다",
+"rd": "비스",
+"pos": "verb"
+},
+{
+"rank": 267,
+"word": "-nom",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 268,
+"word": "-tt",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 269,
+"word": "hit",
+"ko": "믿음",
+"rd": "히트",
+"pos": "noun"
+},
+{
+"rank": 270,
+"word": "való",
+"ko": "~인, ~에 대한",
+"rd": "벌로",
+"pos": "adj"
+},
+{
+"rank": 271,
+"word": "szükség",
+"ko": "필요",
+"rd": "쒸크세그",
+"pos": "noun"
+},
+{
+"rank": 272,
+"word": "elmegy",
+"ko": "떠나가다",
+"rd": "엘메지",
+"pos": "verb"
+},
+{
+"rank": 273,
+"word": "együtt",
+"ko": "함께",
+"rd": "에듀트",
+"pos": "adv"
+},
+{
+"rank": 274,
+"word": "ennyi",
+"ko": "이만큼",
+"rd": "엔니",
+"pos": "adv"
+},
+{
+"rank": 275,
+"word": "másik",
+"ko": "다른 하나",
+"rd": "마시크",
+"pos": "det"
+},
+{
+"rank": 276,
+"word": "soha",
+"ko": "결코",
+"rd": "쇼허",
+"pos": "adv"
+},
+{
+"rank": 277,
+"word": "komoly",
+"ko": "진지한",
+"rd": "코모이",
+"pos": "adj"
+},
+{
+"rank": 278,
+"word": "világ",
+"ko": "세계",
+"rd": "빌라그",
+"pos": "noun"
+},
+{
+"rank": 279,
+"word": "ír",
+"ko": "쓰다",
+"rd": "이르",
+"pos": "verb"
+},
+{
+"rank": 280,
+"word": "rész",
+"ko": "부분",
+"rd": "레스",
+"pos": "noun"
+},
+{
+"rank": 281,
+"word": "mintha",
+"ko": "마치 ~인 듯",
+"rd": "민터",
+"pos": "conj"
+},
+{
+"rank": 282,
+"word": "-za",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 283,
+"word": "elmond",
+"ko": "말해 주다",
+"rd": "엘몬드",
+"pos": "verb"
+},
+{
+"rank": 284,
+"word": "bármi",
+"ko": "무엇이든",
+"rd": "바르미",
+"pos": "pron"
+},
+{
+"rank": 285,
+"word": "-jam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 286,
+"word": "hogyan",
+"ko": "어떻게",
+"rd": "호전",
+"pos": "adv"
+},
+{
+"rank": 287,
+"word": "fej",
+"ko": "머리",
+"rd": "페이",
+"pos": "noun"
+},
+{
+"rank": 288,
+"word": "út",
+"ko": "길",
+"rd": "우트",
+"pos": "noun"
+},
+{
+"rank": 289,
+"word": "-szar",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 290,
+"word": "család",
+"ko": "가족",
+"rd": "처라드",
+"pos": "noun"
+},
+{
+"rank": 291,
+"word": "ház",
+"ko": "집",
+"rd": "하즈",
+"pos": "noun"
+},
+{
+"rank": 292,
+"word": "újra",
+"ko": "다시",
+"rd": "우이러",
+"pos": "adv"
+},
+{
+"rank": 293,
+"word": "fi",
+"ko": "영어 fi(의미 없음)",
+"rd": "피",
+"pos": "other"
+},
+{
+"rank": 294,
+"word": "mennyi",
+"ko": "얼마",
+"rd": "멘니",
+"pos": "pron"
+},
+{
+"rank": 295,
+"word": "-nia",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 296,
+"word": "gyors",
+"ko": "빠른",
+"rd": "죠르시",
+"pos": "adj"
+},
+{
+"rank": 297,
+"word": "három",
+"ko": "셋",
+"rd": "하롬",
+"pos": "num"
+},
+{
+"rank": 298,
+"word": "enged",
+"ko": "허락하다",
+"rd": "엔게드",
+"pos": "verb"
+},
+{
+"rank": 299,
+"word": "férfi",
+"ko": "남자",
+"rd": "페르피",
+"pos": "noun"
+},
+{
+"rank": 300,
+"word": "emlékszik",
+"ko": "기억하다",
+"rd": "에믈레크시크",
+"pos": "verb"
+},
+{
+"rank": 301,
+"word": "oda",
+"ko": "저리로",
+"rd": "오더",
+"pos": "adv"
+},
+{
+"rank": 302,
+"word": "kész",
+"ko": "준비된",
+"rd": "케스",
+"pos": "adj"
+},
+{
+"rank": 303,
+"word": "fiú",
+"ko": "소년",
+"rd": "피우",
+"pos": "noun"
+},
+{
+"rank": 304,
+"word": "előtt",
+"ko": "~앞에",
+"rd": "엘뢰트",
+"pos": "postp"
+},
+{
+"rank": 305,
+"word": "innen",
+"ko": "여기서부터",
+"rd": "인넨",
+"pos": "adv"
+},
+{
+"rank": 306,
+"word": "srác",
+"ko": "녀석, 사내아이",
+"rd": "슈라츠",
+"pos": "noun"
+},
+{
+"rank": 307,
+"word": "megvan",
+"ko": "있다/찾았다",
+"rd": "메그번",
+"pos": "verb"
+},
+{
+"rank": 308,
+"word": "-zam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 309,
+"word": "kor",
+"ko": "나이, 시대",
+"rd": "코르",
+"pos": "noun"
+},
+{
+"rank": 310,
+"word": "ja",
+"ko": "아(감탄)",
+"rd": "여",
+"pos": "interj"
+},
+{
+"rank": 311,
+"word": "megye",
+"ko": "도, 군",
+"rd": "메예",
+"pos": "noun"
+},
+{
+"rank": 312,
+"word": "kerül",
+"ko": "~하게 된다, 비용이 든다",
+"rd": "케륄",
+"pos": "verb"
+},
+{
+"rank": 313,
+"word": "nélkül",
+"ko": "~없이",
+"rd": "넬퀼",
+"pos": "postp"
+},
+{
+"rank": 314,
+"word": "néhány",
+"ko": "몇몇",
+"rd": "네하니",
+"pos": "det"
+},
+{
+"rank": 315,
+"word": "közel",
+"ko": "가까운",
+"rd": "쾨젤",
+"pos": "adj"
+},
+{
+"rank": 316,
+"word": "ügy",
+"ko": "사건, 일",
+"rd": "위지",
+"pos": "noun"
+},
+{
+"rank": 317,
+"word": "-z",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 318,
+"word": "használ",
+"ko": "사용하다",
+"rd": "하스날",
+"pos": "verb"
+},
+{
+"rank": 319,
+"word": "amíg",
+"ko": "~하는 동안, ~할 때까지",
+"rd": "어미그",
+"pos": "conj"
+},
+{
+"rank": 320,
+"word": "aggódik",
+"ko": "걱정하다",
+"rd": "어거도지크",
+"pos": "verb"
+},
+{
+"rank": 321,
+"word": "szív",
+"ko": "심장; 마음",
+"rd": "씨브",
+"pos": "noun"
+},
+{
+"rank": 322,
+"word": "mind",
+"ko": "모두",
+"rd": "민드",
+"pos": "det"
+},
+{
+"rank": 323,
+"word": "hova",
+"ko": "어디로",
+"rd": "호버",
+"pos": "adv"
+},
+{
+"rank": 324,
+"word": "öl",
+"ko": "죽이다",
+"rd": "욀",
+"pos": "verb"
+},
+{
+"rank": 325,
+"word": "-jak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 326,
+"word": "rajta",
+"ko": "그 위에",
+"rd": "러이터",
+"pos": "pron"
+},
+{
+"rank": 327,
+"word": "megtalál",
+"ko": "찾아내다",
+"rd": "메그털랄",
+"pos": "verb"
+},
+{
+"rank": 328,
+"word": "saját",
+"ko": "자신의",
+"rd": "셔야트",
+"pos": "adj"
+},
+{
+"rank": 329,
+"word": "inkább",
+"ko": "차라리",
+"rd": "인깝",
+"pos": "adv"
+},
+{
+"rank": 330,
+"word": "tessék",
+"ko": "자, 여기 있습니다",
+"rd": "테셰크",
+"pos": "interj"
+},
+{
+"rank": 331,
+"word": "hét",
+"ko": "일주일",
+"rd": "헤트",
+"pos": "noun"
+},
+{
+"rank": 332,
+"word": "köz",
+"ko": "공공, 사이",
+"rd": "쾨즈",
+"pos": "noun"
+},
+{
+"rank": 333,
+"word": "érdekel",
+"ko": "관심이 있다",
+"rd": "에르데켈",
+"pos": "verb"
+},
+{
+"rank": 334,
+"word": "-attam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 335,
+"word": "-nod",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 336,
+"word": "alatt",
+"ko": "~아래에",
+"rd": "어러트",
+"pos": "postp"
+},
+{
+"rank": 337,
+"word": "-nál",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 338,
+"word": "kapcsolat",
+"ko": "관계, 연결",
+"rd": "껍촐러트",
+"pos": "noun"
+},
+{
+"rank": 339,
+"word": "-jan",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 340,
+"word": "egyetlen",
+"ko": "단 하나의",
+"rd": "에제틀렌",
+"pos": "adj"
+},
+{
+"rank": 341,
+"word": "örül",
+"ko": "기뻐하다",
+"rd": "외뢰",
+"pos": "verb"
+},
+{
+"rank": 342,
+"word": "-janak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 343,
+"word": "helyzet",
+"ko": "상황",
+"rd": "헤이젯",
+"pos": "noun"
+},
+{
+"rank": 344,
+"word": "nehéz",
+"ko": "어려운",
+"rd": "네헤즈",
+"pos": "adj"
+},
+{
+"rank": 345,
+"word": "remél",
+"ko": "바라다, 희망하다",
+"rd": "레메니",
+"pos": "verb"
+},
+{
+"rank": 346,
+"word": "-asz",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 347,
+"word": "megtesz",
+"ko": "해내다",
+"rd": "메그테시",
+"pos": "verb"
+},
+{
+"rank": 348,
+"word": "-játok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 349,
+"word": "elnézés",
+"ko": "실례, 죄송합니다",
+"rd": "엘네제시",
+"pos": "interj"
+},
+{
+"rank": 350,
+"word": "kéz",
+"ko": "손",
+"rd": "케즈",
+"pos": "noun"
+},
+{
+"rank": 351,
+"word": "óra",
+"ko": "시간, 시계",
+"rd": "오러",
+"pos": "noun"
+},
+{
+"rank": 352,
+"word": "-al",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 353,
+"word": "pont",
+"ko": "정확히, 점",
+"rd": "폰트",
+"pos": "adv"
+},
+{
+"rank": 354,
+"word": "reggel",
+"ko": "아침",
+"rd": "렉겔",
+"pos": "noun"
+},
+{
+"rank": 355,
+"word": "-sd",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 356,
+"word": "-ként",
+"ko": "~로서(양태격)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 357,
+"word": "ok",
+"ko": "확인, 이유",
+"rd": "오크",
+"pos": "interj"
+},
+{
+"rank": 358,
+"word": "tehet",
+"ko": "할 수 있다, 하다",
+"rd": "테헤트",
+"pos": "verb"
+},
+{
+"rank": 359,
+"word": "küld",
+"ko": "보내다",
+"rd": "퀼드",
+"pos": "verb"
+},
+{
+"rank": 360,
+"word": "halál",
+"ko": "죽음",
+"rd": "헐랄",
+"pos": "noun"
+},
+{
+"rank": 361,
+"word": "fegyver",
+"ko": "무기",
+"rd": "페그버르",
+"pos": "noun"
+},
+{
+"rank": 362,
+"word": "egyed",
+"ko": "개체, 개인",
+"rd": "에제드",
+"pos": "noun"
+},
+{
+"rank": 363,
+"word": "fene",
+"ko": "젠장, 빌어먹을",
+"rd": "페네",
+"pos": "interj"
+},
+{
+"rank": 364,
+"word": "feleség",
+"ko": "아내",
+"rd": "펠레시그",
+"pos": "noun"
+},
+{
+"rank": 365,
+"word": "fontos",
+"ko": "중요한",
+"rd": "폰토슈",
+"pos": "adj"
+},
+{
+"rank": 366,
+"word": "mielőtt",
+"ko": "~하기 전에",
+"rd": "미에푀트",
+"pos": "conj"
+},
+{
+"rank": 367,
+"word": "kérdez",
+"ko": "묻다",
+"rd": "케르데즈",
+"pos": "verb"
+},
+{
+"rank": 368,
+"word": "segítség",
+"ko": "도움",
+"rd": "셰그치그",
+"pos": "noun"
+},
+{
+"rank": 369,
+"word": "egymás",
+"ko": "서로",
+"rd": "에지마시",
+"pos": "pron"
+},
+{
+"rank": 370,
+"word": "város",
+"ko": "도시",
+"rd": "버로슈",
+"pos": "noun"
+},
+{
+"rank": 371,
+"word": "számít",
+"ko": "중요하다, 계산한다",
+"rd": "싸미트",
+"pos": "verb"
+},
+{
+"rank": 372,
+"word": "-ná",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 373,
+"word": "tovább",
+"ko": "더 멀리",
+"rd": "토밥",
+"pos": "adv"
+},
+{
+"rank": 374,
+"word": "-bb",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 375,
+"word": "pontos",
+"ko": "정확한",
+"rd": "폰토시",
+"pos": "adj"
+},
+{
+"rank": 376,
+"word": "haver",
+"ko": "친구, 녀석",
+"rd": "허베르",
+"pos": "noun"
+},
+{
+"rank": 377,
+"word": "jut",
+"ko": "이르다, 도달하다",
+"rd": "유트",
+"pos": "verb"
+},
+{
+"rank": 378,
+"word": "honnan",
+"ko": "어디에서",
+"rd": "혼넌",
+"pos": "adv"
+},
+{
+"rank": 379,
+"word": "remek",
+"ko": "훌륭한",
+"rd": "레멕",
+"pos": "adj"
+},
+{
+"rank": 380,
+"word": "micsoda",
+"ko": "무슨, 얼마나",
+"rd": "미초더",
+"pos": "pron"
+},
+{
+"rank": 381,
+"word": "tetszik",
+"ko": "마음에 들다",
+"rd": "테트씨크",
+"pos": "verb"
+},
+{
+"rank": 382,
+"word": "franc",
+"ko": "젠장",
+"rd": "프런츠",
+"pos": "interj"
+},
+{
+"rank": 383,
+"word": "mr",
+"ko": "~씨(Mr)",
+"rd": "미스터",
+"pos": "other"
+},
+{
+"rank": 384,
+"word": "kérdés",
+"ko": "질문",
+"rd": "케르데시",
+"pos": "noun"
+},
+{
+"rank": 385,
+"word": "-oltál",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 386,
+"word": "holnap",
+"ko": "내일",
+"rd": "홀넙",
+"pos": "adv"
+},
+{
+"rank": 387,
+"word": "gond",
+"ko": "문제",
+"rd": "곤드",
+"pos": "noun"
+},
+{
+"rank": 388,
+"word": "-otta",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 389,
+"word": "fickó",
+"ko": "녀석, 사내",
+"rd": "피츠꼬",
+"pos": "noun"
+},
+{
+"rank": 390,
+"word": "ment",
+"ko": "갔다(megy 의 과거)",
+"rd": "멘트",
+"pos": "verb"
+},
+{
+"rank": 391,
+"word": "képes",
+"ko": "할 수 있는",
+"rd": "케페슈",
+"pos": "adj"
+},
+{
+"rank": 392,
+"word": "össze",
+"ko": "함께 모아(방향)",
+"rd": "외쎄",
+"pos": "adv"
+},
+{
+"rank": 393,
+"word": "apám",
+"ko": "우리 아버지",
+"rd": "어팜",
+"pos": "noun"
+},
+{
+"rank": 394,
+"word": "hadd",
+"ko": "~하게 하라, 하자",
+"rd": "허드",
+"pos": "particle"
+},
+{
+"rank": 395,
+"word": "végez",
+"ko": "끝내다, 처리하다",
+"rd": "베게즈",
+"pos": "verb"
+},
+{
+"rank": 396,
+"word": "-oltak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 397,
+"word": "száj",
+"ko": "입",
+"rd": "사이",
+"pos": "noun"
+},
+{
+"rank": 398,
+"word": "istenem",
+"ko": "맙소사",
+"rd": "이스텐임",
+"pos": "interj"
+},
+{
+"rank": 399,
+"word": "mégis",
+"ko": "그래도",
+"rd": "메기슈",
+"pos": "adv"
+},
+{
+"rank": 400,
+"word": "-ttam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 401,
+"word": "szabad",
+"ko": "자유로운, 한가한",
+"rd": "써버드",
+"pos": "adj"
+},
+{
+"rank": 402,
+"word": "haza",
+"ko": "집으로, 고향",
+"rd": "허저",
+"pos": "adv"
+},
+{
+"rank": 403,
+"word": "egyszerű",
+"ko": "간단한",
+"rd": "에지세루",
+"pos": "adj"
+},
+{
+"rank": 404,
+"word": "oh",
+"ko": "오(감탄)",
+"rd": "오",
+"pos": "interj"
+},
+{
+"rank": 405,
+"word": "eszik",
+"ko": "먹다",
+"rd": "에식",
+"pos": "verb"
+},
+{
+"rank": 406,
+"word": "-anak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 407,
+"word": "tehát",
+"ko": "따라서",
+"rd": "테핫",
+"pos": "conj"
+},
+{
+"rank": 408,
+"word": "jelent",
+"ko": "의미하다",
+"rd": "옐렌트",
+"pos": "verb"
+},
+{
+"rank": 409,
+"word": "pillanat",
+"ko": "순간",
+"rd": "필러넛",
+"pos": "noun"
+},
+{
+"rank": 410,
+"word": "ellen",
+"ko": "~에 대항해",
+"rd": "엘렌",
+"pos": "postp"
+},
+{
+"rank": 411,
+"word": "-zuk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 412,
+"word": "vigyáz",
+"ko": "조심하다",
+"rd": "비거즈",
+"pos": "verb"
+},
+{
+"rank": 413,
+"word": "boldog",
+"ko": "행복한",
+"rd": "볼도그",
+"pos": "adj"
+},
+{
+"rank": 414,
+"word": "fér",
+"ko": "들어가다, 맞다",
+"rd": "페르",
+"pos": "verb"
+},
+{
+"rank": 415,
+"word": "-hatsz",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 416,
+"word": "ahol",
+"ko": "~하는 곳",
+"rd": "어홀",
+"pos": "conj"
+},
+{
+"rank": 417,
+"word": "-ra",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 418,
+"word": "igazi",
+"ko": "진짜의",
+"rd": "이거지",
+"pos": "adj"
+},
+{
+"rank": 419,
+"word": "ül",
+"ko": "앉다",
+"rd": "위일",
+"pos": "verb"
+},
+{
+"rank": 420,
+"word": "többi",
+"ko": "나머지",
+"rd": "퇴비",
+"pos": "noun"
+},
+{
+"rank": 421,
+"word": "követ",
+"ko": "따르다; 돌을",
+"rd": "쾨베트",
+"pos": "verb"
+},
+{
+"rank": 422,
+"word": "nyit",
+"ko": "열다",
+"rd": "니트",
+"pos": "verb"
+},
+{
+"rank": 423,
+"word": "megint",
+"ko": "또, 다시",
+"rd": "메긴트",
+"pos": "adv"
+},
+{
+"rank": 424,
+"word": "-ás",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 425,
+"word": "megpróbál",
+"ko": "시도해 보다",
+"rd": "메그프로발",
+"pos": "verb"
+},
+{
+"rank": 426,
+"word": "alszik",
+"ko": "자다",
+"rd": "얼루시크",
+"pos": "verb"
+},
+{
+"rank": 427,
+"word": "bél",
+"ko": "창자, 내장",
+"rd": "벨",
+"pos": "noun"
+},
+{
+"rank": 428,
+"word": "késő",
+"ko": "늦은",
+"rd": "께쇠",
+"pos": "adj"
+},
+{
+"rank": 429,
+"word": "-ol",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 430,
+"word": "-nád",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 431,
+"word": "először",
+"ko": "처음으로",
+"rd": "엘쇠쐬르",
+"pos": "adv"
+},
+{
+"rank": 432,
+"word": "bír",
+"ko": "견디다, 할 수 있다",
+"rd": "비르",
+"pos": "verb"
+},
+{
+"rank": 433,
+"word": "hanem",
+"ko": "오히려",
+"rd": "허넴",
+"pos": "conj"
+},
+{
+"rank": 434,
+"word": "megért",
+"ko": "이해하다",
+"rd": "메그에르트",
+"pos": "verb"
+},
+{
+"rank": 435,
+"word": "azonnal",
+"ko": "즉시",
+"rd": "어존널",
+"pos": "adv"
+},
+{
+"rank": 436,
+"word": "-atta",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 437,
+"word": "ajtó",
+"ko": "문",
+"rd": "어이토",
+"pos": "noun"
+},
+{
+"rank": 438,
+"word": "utolsó",
+"ko": "마지막의",
+"rd": "우톨쇼",
+"pos": "adj"
+},
+{
+"rank": 439,
+"word": "játszik",
+"ko": "놀다, 연주하다",
+"rd": "야찍",
+"pos": "verb"
+},
+{
+"rank": 440,
+"word": "kedves",
+"ko": "친절한, 사랑하는",
+"rd": "케드베슈",
+"pos": "adj"
+},
+{
+"rank": 441,
+"word": "-nam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 442,
+"word": "fizet",
+"ko": "지불하다",
+"rd": "피제트",
+"pos": "verb"
+},
+{
+"rank": 443,
+"word": "éves",
+"ko": "~살의",
+"rd": "에베슈",
+"pos": "adj"
+},
+{
+"rank": 444,
+"word": "hónap",
+"ko": "달(월)",
+"rd": "호넙",
+"pos": "noun"
+},
+{
+"rank": 445,
+"word": "-sa",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 446,
+"word": "mivel",
+"ko": "~이므로",
+"rd": "미벨",
+"pos": "conj"
+},
+{
+"rank": 447,
+"word": "ég",
+"ko": "하늘",
+"rd": "에그",
+"pos": "noun"
+},
+{
+"rank": 448,
+"word": "vezet",
+"ko": "운전한다, 이끈다",
+"rd": "베제트",
+"pos": "verb"
+},
+{
+"rank": 449,
+"word": "állít",
+"ko": "주장하다, 세우다",
+"rd": "알리트",
+"pos": "verb"
+},
+{
+"rank": 450,
+"word": "drága",
+"ko": "비싼",
+"rd": "드라가",
+"pos": "adj"
+},
+{
+"rank": 451,
+"word": "sincs",
+"ko": "~이 없다",
+"rd": "신치",
+"pos": "verb"
+},
+{
+"rank": 452,
+"word": "szerez",
+"ko": "얻다",
+"rd": "세레즈",
+"pos": "verb"
+},
+{
+"rank": 453,
+"word": "éj",
+"ko": "밤",
+"rd": "에이",
+"pos": "noun"
+},
+{
+"rank": 454,
+"word": "-tok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 455,
+"word": "-al",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 456,
+"word": "veszik",
+"ko": "사다, 취하다 (사전형: vesz)",
+"rd": "베세크",
+"pos": "verb"
+},
+{
+"rank": 457,
+"word": "isten",
+"ko": "신",
+"rd": "이슈텐",
+"pos": "noun"
+},
+{
+"rank": 458,
+"word": "hazudik",
+"ko": "거짓말하다 (사전형: hazudik)",
+"rd": "허주도크",
+"pos": "verb"
+},
+{
+"rank": 459,
+"word": "összes",
+"ko": "전체의",
+"rd": "외쎄슈",
+"pos": "det"
+},
+{
+"rank": 460,
+"word": "kocsi",
+"ko": "차, 마차",
+"rd": "코치",
+"pos": "noun"
+},
+{
+"rank": 461,
+"word": "kösz",
+"ko": "고마워, 안녕",
+"rd": "쾨시",
+"pos": "interj"
+},
+{
+"rank": 462,
+"word": "helló",
+"ko": "안녕",
+"rd": "헬로",
+"pos": "interj"
+},
+{
+"rank": 463,
+"word": "tiszta",
+"ko": "깨끗한",
+"rd": "티스터",
+"pos": "adj"
+},
+{
+"rank": 464,
+"word": "-ot",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 465,
+"word": "távol",
+"ko": "멀리",
+"rd": "타볼",
+"pos": "adv"
+},
+{
+"rank": 466,
+"word": "eset",
+"ko": "경우, 사건",
+"rd": "에셰트",
+"pos": "noun"
+},
+{
+"rank": 467,
+"word": "fő",
+"ko": "주요한, 머리",
+"rd": "푀",
+"pos": "adj"
+},
+{
+"rank": 468,
+"word": "legalább",
+"ko": "적어도",
+"rd": "레걸랍",
+"pos": "adv"
+},
+{
+"rank": 469,
+"word": "belől",
+"ko": "안으로부터 (사전형: belül)",
+"rd": "벨뢸",
+"pos": "postp"
+},
+{
+"rank": 470,
+"word": "mutat",
+"ko": "보여 주다",
+"rd": "무타트",
+"pos": "verb"
+},
+{
+"rank": 471,
+"word": "szoba",
+"ko": "방",
+"rd": "서버",
+"pos": "noun"
+},
+{
+"rank": 472,
+"word": "éjszak",
+"ko": "밤 (사전형: éjszaka)",
+"rd": "에이써크",
+"pos": "noun"
+},
+{
+"rank": 473,
+"word": "kör",
+"ko": "원",
+"rd": "쾨르",
+"pos": "noun"
+},
+{
+"rank": 474,
+"word": "következik",
+"ko": "뒤따르다, 다음이다",
+"rd": "쾨베트케지크",
+"pos": "verb"
+},
+{
+"rank": 475,
+"word": "indul",
+"ko": "출발한다",
+"rd": "인둘",
+"pos": "verb"
+},
+{
+"rank": 476,
+"word": "ész",
+"ko": "이성, 머리",
+"rd": "에스",
+"pos": "noun"
+},
+{
+"rank": 477,
+"word": "hallgat",
+"ko": "귀 기울이다",
+"rd": "헐르거트",
+"pos": "verb"
+},
+{
+"rank": 478,
+"word": "s",
+"ko": "그리고(és 의 축약)",
+"rd": "시",
+"pos": "conj"
+},
+{
+"rank": 479,
+"word": "lő",
+"ko": "쏘다",
+"rd": "뢰",
+"pos": "verb"
+},
+{
+"rank": 480,
+"word": "föld",
+"ko": "땅, 지구",
+"rd": "푈드",
+"pos": "noun"
+},
+{
+"rank": 481,
+"word": "folyik",
+"ko": "흐르다",
+"rd": "폴리크",
+"pos": "verb"
+},
+{
+"rank": 482,
+"word": "dönt",
+"ko": "결정하다",
+"rd": "된트",
+"pos": "verb"
+},
+{
+"rank": 483,
+"word": "tegnap",
+"ko": "어제",
+"rd": "테그너프",
+"pos": "adv"
+},
+{
+"rank": 484,
+"word": "hajó",
+"ko": "배",
+"rd": "허요",
+"pos": "noun"
+},
+{
+"rank": 485,
+"word": "iszik",
+"ko": "마시다",
+"rd": "이식",
+"pos": "verb"
+},
+{
+"rank": 486,
+"word": "csapat",
+"ko": "팀",
+"rd": "처펏",
+"pos": "noun"
+},
+{
+"rank": 487,
+"word": "hülye",
+"ko": "바보 같은",
+"rd": "휘예",
+"pos": "adj"
+},
+{
+"rank": 488,
+"word": "nagyszerű",
+"ko": "훌륭한",
+"rd": "너지세뤼",
+"pos": "adj"
+},
+{
+"rank": 489,
+"word": "-nánk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 490,
+"word": "király",
+"ko": "왕",
+"rd": "키라이",
+"pos": "noun"
+},
+{
+"rank": 491,
+"word": "öt",
+"ko": "다섯",
+"rd": "외트",
+"pos": "num"
+},
+{
+"rank": 492,
+"word": "lép",
+"ko": "걸음을 내딛다",
+"rd": "렙",
+"pos": "verb"
+},
+{
+"rank": 493,
+"word": "tett",
+"ko": "했다(tesz 의 과거)",
+"rd": "테트",
+"pos": "verb"
+},
+{
+"rank": 494,
+"word": "szar",
+"ko": "똥, 형편없는(비속어)",
+"rd": "써르",
+"pos": "noun"
+},
+{
+"rank": 495,
+"word": "erős",
+"ko": "강한",
+"rd": "에뢰시",
+"pos": "adj"
+},
+{
+"rank": 496,
+"word": "ugyan",
+"ko": "비록, 설마",
+"rd": "우전",
+"pos": "particle"
+},
+{
+"rank": 497,
+"word": "kép",
+"ko": "그림, 사진",
+"rd": "켑",
+"pos": "noun"
+},
+{
+"rank": 498,
+"word": "probléma",
+"ko": "문제",
+"rd": "프로블레머",
+"pos": "noun"
+},
+{
+"rank": 499,
+"word": "működik",
+"ko": "작동한다",
+"rd": "뮈쾨딕",
+"pos": "verb"
+},
+{
+"rank": 500,
+"word": "választ",
+"ko": "선택한다",
+"rd": "발라쓰트",
+"pos": "verb"
+},
+{
+"rank": 501,
+"word": "néha",
+"ko": "가끔",
+"rd": "네허",
+"pos": "adv"
+},
+{
+"rank": 502,
+"word": "-s",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 503,
+"word": "kurva",
+"ko": "(욕설)",
+"rd": "쿠르버",
+"pos": "noun"
+},
+{
+"rank": 504,
+"word": "megnéz",
+"ko": "살펴보다",
+"rd": "메그네즈",
+"pos": "verb"
+},
+{
+"rank": 505,
+"word": "ugyanaz",
+"ko": "똑같은 것",
+"rd": "우저너즈",
+"pos": "pron"
+},
+{
+"rank": 506,
+"word": "-jatok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 507,
+"word": "-hatunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 508,
+"word": "mellett",
+"ko": "~옆에",
+"rd": "멜레트",
+"pos": "postp"
+},
+{
+"rank": 509,
+"word": "szükségem",
+"ko": "나는 필요하다 (사전형: szükség)",
+"rd": "시크셰겜",
+"pos": "noun"
+},
+{
+"rank": 510,
+"word": "tölt",
+"ko": "채우다, 보내다",
+"rd": "퇼트",
+"pos": "verb"
+},
+{
+"rank": 511,
+"word": "bár",
+"ko": "비록 ~지만",
+"rd": "바르",
+"pos": "conj"
+},
+{
+"rank": 512,
+"word": "között",
+"ko": "~사이에",
+"rd": "쾨죄트",
+"pos": "postp"
+},
+{
+"rank": 513,
+"word": "válik",
+"ko": "~이 되다",
+"rd": "발릭",
+"pos": "verb"
+},
+{
+"rank": 514,
+"word": "otthon",
+"ko": "집에, 집",
+"rd": "오트혼",
+"pos": "adv"
+},
+{
+"rank": 515,
+"word": "egyáltalán",
+"ko": "전혀",
+"rd": "에자알탈란",
+"pos": "adv"
+},
+{
+"rank": 516,
+"word": "telefon",
+"ko": "전화",
+"rd": "텔레폰",
+"pos": "noun"
+},
+{
+"rank": 517,
+"word": "régi",
+"ko": "오래된",
+"rd": "레기",
+"pos": "adj"
+},
+{
+"rank": 518,
+"word": "arc",
+"ko": "얼굴",
+"rd": "어르츠",
+"pos": "noun"
+},
+{
+"rank": 519,
+"word": "száll",
+"ko": "날다, 내려앉다",
+"rd": "쌀",
+"pos": "verb"
+},
+{
+"rank": 520,
+"word": "-an",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 521,
+"word": "ötlet",
+"ko": "아이디어",
+"rd": "외틀레트",
+"pos": "noun"
+},
+{
+"rank": 522,
+"word": "fogad",
+"ko": "맞이하다, 받아들이다",
+"rd": "퍼가드",
+"pos": "verb"
+},
+{
+"rank": 523,
+"word": "természetes",
+"ko": "자연스러운",
+"rd": "테르메쎄테시",
+"pos": "adj"
+},
+{
+"rank": 524,
+"word": "hír",
+"ko": "뉴스",
+"rd": "히르",
+"pos": "noun"
+},
+{
+"rank": 525,
+"word": "rendőrség",
+"ko": "경찰",
+"rd": "렌드외르셰그",
+"pos": "noun"
+},
+{
+"rank": 526,
+"word": "olvas",
+"ko": "읽다",
+"rd": "올버스",
+"pos": "verb"
+},
+{
+"rank": 527,
+"word": "láb",
+"ko": "다리, 발",
+"rd": "라브",
+"pos": "noun"
+},
+{
+"rank": 528,
+"word": "nyom",
+"ko": "누르다, 자국",
+"rd": "너음",
+"pos": "verb"
+},
+{
+"rank": 529,
+"word": "megmond",
+"ko": "말해 주다",
+"rd": "메그몬드",
+"pos": "verb"
+},
+{
+"rank": 530,
+"word": "felejt",
+"ko": "잊다",
+"rd": "펠레이트",
+"pos": "verb"
+},
+{
+"rank": 531,
+"word": "jele",
+"ko": "표시, 신호 (사전형: jel)",
+"rd": "옐레",
+"pos": "noun"
+},
+{
+"rank": 532,
+"word": "vér",
+"ko": "피",
+"rd": "베르",
+"pos": "noun"
+},
+{
+"rank": 533,
+"word": "szerel",
+"ko": "조립하다, 수리하다",
+"rd": "세렐",
+"pos": "verb"
+},
+{
+"rank": 534,
+"word": "ben",
+"ko": "~안에(접미사)",
+"rd": "벤",
+"pos": "suffix"
+},
+{
+"rank": 535,
+"word": "tökéletes",
+"ko": "완벽한",
+"rd": "퇴켈레시",
+"pos": "adj"
+},
+{
+"rank": 536,
+"word": "sikerül",
+"ko": "성공하다, 해내다",
+"rd": "시께륄",
+"pos": "verb"
+},
+{
+"rank": 537,
+"word": "kettő",
+"ko": "둘",
+"rd": "케퇴",
+"pos": "num"
+},
+{
+"rank": 538,
+"word": "erő",
+"ko": "힘",
+"rd": "에뢰",
+"pos": "noun"
+},
+{
+"rank": 539,
+"word": "test",
+"ko": "몸",
+"rd": "테슈트",
+"pos": "noun"
+},
+{
+"rank": 540,
+"word": "ügynök",
+"ko": "요원",
+"rd": "위게녜크",
+"pos": "noun"
+},
+{
+"rank": 541,
+"word": "rég",
+"ko": "오래전",
+"rd": "레그",
+"pos": "adv"
+},
+{
+"rank": 542,
+"word": "es",
+"ko": "~번째(접미사)",
+"rd": "에시",
+"pos": "suffix"
+},
+{
+"rank": 543,
+"word": "négy",
+"ko": "넷",
+"rd": "네지",
+"pos": "num"
+},
+{
+"rank": 544,
+"word": "óta",
+"ko": "~이래로",
+"rd": "오터",
+"pos": "postp"
+},
+{
+"rank": 545,
+"word": "kapitány",
+"ko": "선장, 대위",
+"rd": "커피탄",
+"pos": "noun"
+},
+{
+"rank": 546,
+"word": "eltűnik",
+"ko": "사라지다",
+"rd": "엘튀니크",
+"pos": "verb"
+},
+{
+"rank": 547,
+"word": "-gytok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 548,
+"word": "-jjon",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 549,
+"word": "bocsánat",
+"ko": "죄송합니다, 용서",
+"rd": "버치너트",
+"pos": "noun"
+},
+{
+"rank": 550,
+"word": "áldozat",
+"ko": "희생자",
+"rd": "알도저트",
+"pos": "noun"
+},
+{
+"rank": 551,
+"word": "húz",
+"ko": "끌다",
+"rd": "후즈",
+"pos": "verb"
+},
+{
+"rank": 552,
+"word": "valaha",
+"ko": "언젠가, 일찍이",
+"rd": "버러허",
+"pos": "adv"
+},
+{
+"rank": 553,
+"word": "érik",
+"ko": "익다, 성숙하다",
+"rd": "에릭",
+"pos": "verb"
+},
+{
+"rank": 554,
+"word": "nak",
+"ko": "~에게/~의(여격·소유 접미사)",
+"rd": "너크",
+"pos": "suffix"
+},
+{
+"rank": 555,
+"word": "meglát",
+"ko": "발견하다, 힐끗 보다",
+"rd": "메글라트",
+"pos": "verb"
+},
+{
+"rank": 556,
+"word": "míg",
+"ko": "~하는 동안",
+"rd": "미그",
+"pos": "conj"
+},
+{
+"rank": 557,
+"word": "anyám",
+"ko": "내 어머니",
+"rd": "언얌",
+"pos": "noun"
+},
+{
+"rank": 558,
+"word": "szerencse",
+"ko": "행운",
+"rd": "세렌체",
+"pos": "noun"
+},
+{
+"rank": 559,
+"word": "készül",
+"ko": "준비된다",
+"rd": "케쓸",
+"pos": "verb"
+},
+{
+"rank": 560,
+"word": "élet",
+"ko": "삶",
+"rd": "엘레트",
+"pos": "noun"
+},
+{
+"rank": 561,
+"word": "hiba",
+"ko": "실수, 오류",
+"rd": "히버",
+"pos": "noun"
+},
+{
+"rank": 562,
+"word": "öreg",
+"ko": "늙은",
+"rd": "외레그",
+"pos": "adj"
+},
+{
+"rank": 563,
+"word": "majdnem",
+"ko": "거의",
+"rd": "머이드넴",
+"pos": "adv"
+},
+{
+"rank": 564,
+"word": "előbb",
+"ko": "더 먼저",
+"rd": "엘뢰브",
+"pos": "adv"
+},
+{
+"rank": 565,
+"word": "aha",
+"ko": "아하",
+"rd": "어허",
+"pos": "interj"
+},
+{
+"rank": 566,
+"word": "asszony",
+"ko": "부인, 여자",
+"rd": "어쏜",
+"pos": "noun"
+},
+{
+"rank": 567,
+"word": "i",
+"ko": "알파벳 i",
+"rd": "이",
+"pos": "other"
+},
+{
+"rank": 568,
+"word": "igazság",
+"ko": "진실",
+"rd": "이거샤그",
+"pos": "noun"
+},
+{
+"rank": 569,
+"word": "-no",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 570,
+"word": "mód",
+"ko": "방법",
+"rd": "모드",
+"pos": "noun"
+},
+{
+"rank": 571,
+"word": "-hatjuk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 572,
+"word": "egésze",
+"ko": "전체 (사전형: egész)",
+"rd": "에게세",
+"pos": "noun"
+},
+{
+"rank": 573,
+"word": "-hat",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 574,
+"word": "-ót",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 575,
+"word": "lehetőség",
+"ko": "가능성",
+"rd": "레헤퇴셰그",
+"pos": "noun"
+},
+{
+"rank": 576,
+"word": "szíves",
+"ko": "친절한",
+"rd": "시베시",
+"pos": "adj"
+},
+{
+"rank": 577,
+"word": "-ab",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 578,
+"word": "elnök",
+"ko": "회장, 대통령",
+"rd": "엘뇌크",
+"pos": "noun"
+},
+{
+"rank": 579,
+"word": "rájön",
+"ko": "알아채다",
+"rd": "라이욘",
+"pos": "verb"
+},
+{
+"rank": 580,
+"word": "dollár",
+"ko": "달러",
+"rd": "돌라르",
+"pos": "noun"
+},
+{
+"rank": 581,
+"word": "esik",
+"ko": "떨어진다, 비가 온다",
+"rd": "에시크",
+"pos": "verb"
+},
+{
+"rank": 582,
+"word": "mész",
+"ko": "너는 간다",
+"rd": "메쓰",
+"pos": "verb"
+},
+{
+"rank": 583,
+"word": "megment",
+"ko": "구하다",
+"rd": "메그멘트",
+"pos": "verb"
+},
+{
+"rank": 584,
+"word": "vett",
+"ko": "샀다",
+"rd": "벳트",
+"pos": "verb"
+},
+{
+"rank": 585,
+"word": "beteg",
+"ko": "아픈",
+"rd": "베테그",
+"pos": "adj"
+},
+{
+"rank": 586,
+"word": "gyönyörű",
+"ko": "아름다운",
+"rd": "죠뇌루",
+"pos": "adj"
+},
+{
+"rank": 587,
+"word": "terv",
+"ko": "계획",
+"rd": "테르브",
+"pos": "noun"
+},
+{
+"rank": 588,
+"word": "-ottak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 589,
+"word": "helyes",
+"ko": "올바른",
+"rd": "헤예시",
+"pos": "adj"
+},
+{
+"rank": 590,
+"word": "múlt",
+"ko": "과거, 지난",
+"rd": "물트",
+"pos": "noun"
+},
+{
+"rank": 591,
+"word": "zár",
+"ko": "잠그다",
+"rd": "자르",
+"pos": "verb"
+},
+{
+"rank": 592,
+"word": "jel",
+"ko": "신호, 표지",
+"rd": "이엘",
+"pos": "noun"
+},
+{
+"rank": 593,
+"word": "gyilkos",
+"ko": "살인자",
+"rd": "질꼬시",
+"pos": "noun"
+},
+{
+"rank": 594,
+"word": "múlva",
+"ko": "~후에",
+"rd": "물버",
+"pos": "postp"
+},
+{
+"rank": 595,
+"word": "könyv",
+"ko": "책",
+"rd": "쾨니브",
+"pos": "noun"
+},
+{
+"rank": 596,
+"word": "nek",
+"ko": "~에게/~의(접미사)",
+"rd": "넥",
+"pos": "suffix"
+},
+{
+"rank": 597,
+"word": "nyer",
+"ko": "이기다",
+"rd": "네르",
+"pos": "verb"
+},
+{
+"rank": 598,
+"word": "bárki",
+"ko": "누구든",
+"rd": "바르키",
+"pos": "pron"
+},
+{
+"rank": 599,
+"word": "megkap",
+"ko": "받다",
+"rd": "메그커프",
+"pos": "verb"
+},
+{
+"rank": 600,
+"word": "tanul",
+"ko": "배우다",
+"rd": "타눌",
+"pos": "verb"
+},
+{
+"rank": 601,
+"word": "úgyhogy",
+"ko": "그래서",
+"rd": "우지호지",
+"pos": "conj"
+},
+{
+"rank": 602,
+"word": "történet",
+"ko": "이야기",
+"rd": "퇴르테네트",
+"pos": "noun"
+},
+{
+"rank": 603,
+"word": "kemény",
+"ko": "단단한, 힘든",
+"rd": "케메니",
+"pos": "adj"
+},
+{
+"rank": 604,
+"word": "enyém",
+"ko": "내 것",
+"rd": "에녜임",
+"pos": "pron"
+},
+{
+"rank": 605,
+"word": "-lágy",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 606,
+"word": "-tu",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 607,
+"word": "tartozik",
+"ko": "속한다",
+"rd": "터르토직",
+"pos": "verb"
+},
+{
+"rank": 608,
+"word": "oldal",
+"ko": "쪽, 페이지",
+"rd": "올덜",
+"pos": "noun"
+},
+{
+"rank": 609,
+"word": "amint",
+"ko": "~하자마자",
+"rd": "어민트",
+"pos": "conj"
+},
+{
+"rank": 610,
+"word": "-hatak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 611,
+"word": "ban",
+"ko": "~안에(접미사)",
+"rd": "번",
+"pos": "suffix"
+},
+{
+"rank": 612,
+"word": "-ná",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 613,
+"word": "képzel",
+"ko": "상상하다",
+"rd": "케펠",
+"pos": "verb"
+},
+{
+"rank": 614,
+"word": "valószínűleg",
+"ko": "아마도",
+"rd": "버로씨뉘레그",
+"pos": "adv"
+},
+{
+"rank": 615,
+"word": "mehet",
+"ko": "가도 된다",
+"rd": "메헤트",
+"pos": "verb"
+},
+{
+"rank": 616,
+"word": "könnyű",
+"ko": "쉬운, 가벼운",
+"rd": "쾬뉘",
+"pos": "adj"
+},
+{
+"rank": 617,
+"word": "ily",
+"ko": "이런",
+"rd": "일",
+"pos": "det"
+},
+{
+"rank": 618,
+"word": "fiatal",
+"ko": "젊은",
+"rd": "피어털",
+"pos": "adj"
+},
+{
+"rank": 619,
+"word": "-hatnánk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 620,
+"word": "áll.",
+"ko": "~주, 국가의 (약어: áll.)",
+"rd": "얼러모쉬",
+"pos": "other"
+},
+{
+"rank": 621,
+"word": "felhív",
+"ko": "전화하다",
+"rd": "펠히브",
+"pos": "verb"
+},
+{
+"rank": 622,
+"word": "iskola",
+"ko": "학교",
+"rd": "이슈콜러",
+"pos": "noun"
+},
+{
+"rank": 623,
+"word": "dr.",
+"ko": "박사 (약어: dr.)",
+"rd": "도크토르",
+"pos": "other"
+},
+{
+"rank": 624,
+"word": "akár",
+"ko": "~라도",
+"rd": "어카르",
+"pos": "conj"
+},
+{
+"rank": 625,
+"word": "zavar",
+"ko": "방해하다, 혼란",
+"rd": "저버르",
+"pos": "verb"
+},
+{
+"rank": 626,
+"word": "nyomoz",
+"ko": "수사하다",
+"rd": "노모조",
+"pos": "verb"
+},
+{
+"rank": 627,
+"word": "köszi",
+"ko": "고마워",
+"rd": "쾨씨",
+"pos": "interj"
+},
+{
+"rank": 628,
+"word": "-ján",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 629,
+"word": "miután",
+"ko": "~한 후에",
+"rd": "미우탄",
+"pos": "conj"
+},
+{
+"rank": 630,
+"word": "bíz",
+"ko": "맡기다",
+"rd": "비즈",
+"pos": "verb"
+},
+{
+"rank": 631,
+"word": "hiányzik",
+"ko": "없어서 아쉽다, 그립다",
+"rd": "히아니직",
+"pos": "verb"
+},
+{
+"rank": 632,
+"word": "hangzik",
+"ko": "~처럼 들리다",
+"rd": "항조크",
+"pos": "verb"
+},
+{
+"rank": 633,
+"word": "testvér",
+"ko": "형제, 자매",
+"rd": "테슈테르",
+"pos": "noun"
+},
+{
+"rank": 634,
+"word": "játék",
+"ko": "놀이, 게임",
+"rd": "야테크",
+"pos": "noun"
+},
+{
+"rank": 635,
+"word": "hosszú",
+"ko": "긴",
+"rd": "호쑤",
+"pos": "adj"
+},
+{
+"rank": 636,
+"word": "megtud",
+"ko": "알게 되다",
+"rd": "메그투드",
+"pos": "verb"
+},
+{
+"rank": 637,
+"word": "hat",
+"ko": "여섯",
+"rd": "허트",
+"pos": "num"
+},
+{
+"rank": 638,
+"word": "késik",
+"ko": "늦다",
+"rd": "케시크",
+"pos": "verb"
+},
+{
+"rank": 639,
+"word": "vicces",
+"ko": "웃기는",
+"rd": "비체시",
+"pos": "adj"
+},
+{
+"rank": 640,
+"word": "mindjárt",
+"ko": "곧바로",
+"rd": "민드야르트",
+"pos": "adv"
+},
+{
+"rank": 641,
+"word": "utál",
+"ko": "몹시 싫어하다",
+"rd": "우탈",
+"pos": "verb"
+},
+{
+"rank": 642,
+"word": "okoz",
+"ko": "일으키다",
+"rd": "오꼬즈",
+"pos": "verb"
+},
+{
+"rank": 643,
+"word": "csi",
+"ko": "(불명확한 조각, 작은 소리) (사전형: 불명)",
+"rd": "치",
+"pos": "other"
+},
+{
+"rank": 644,
+"word": "melyik",
+"ko": "어느 것",
+"rd": "메이익",
+"pos": "pron"
+},
+{
+"rank": 645,
+"word": "szokik",
+"ko": "익숙하다",
+"rd": "서키크",
+"pos": "verb"
+},
+{
+"rank": 646,
+"word": "fut",
+"ko": "달리다",
+"rd": "푸트",
+"pos": "verb"
+},
+{
+"rank": 647,
+"word": "furcsa",
+"ko": "이상한",
+"rd": "푸르처",
+"pos": "adj"
+},
+{
+"rank": 648,
+"word": "imád",
+"ko": "숭배하다, 매우 좋아하다",
+"rd": "이마드",
+"pos": "verb"
+},
+{
+"rank": 649,
+"word": "kereszt",
+"ko": "십자가",
+"rd": "케레스트",
+"pos": "noun"
+},
+{
+"rank": 650,
+"word": "tűz",
+"ko": "불",
+"rd": "튀즈",
+"pos": "noun"
+},
+{
+"rank": 651,
+"word": "béke",
+"ko": "평화",
+"rd": "베케",
+"pos": "noun"
+},
+{
+"rank": 652,
+"word": "orvos",
+"ko": "의사",
+"rd": "오르보시",
+"pos": "noun"
+},
+{
+"rank": 653,
+"word": "-anom",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 654,
+"word": "kölyök",
+"ko": "아이, 새끼",
+"rd": "쾰뢰크",
+"pos": "noun"
+},
+{
+"rank": 655,
+"word": "esély",
+"ko": "기회",
+"rd": "에세이",
+"pos": "noun"
+},
+{
+"rank": 656,
+"word": "gép",
+"ko": "기계",
+"rd": "게프",
+"pos": "noun"
+},
+{
+"rank": 657,
+"word": "visszatér",
+"ko": "돌아오다",
+"rd": "비써테르",
+"pos": "verb"
+},
+{
+"rank": 658,
+"word": "ruha",
+"ko": "옷",
+"rd": "루하",
+"pos": "noun"
+},
+{
+"rank": 659,
+"word": "eljön",
+"ko": "오다, 떠나오다",
+"rd": "엘죄",
+"pos": "verb"
+},
+{
+"rank": 660,
+"word": "-suk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 661,
+"word": "-ssa",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 662,
+"word": "eddig",
+"ko": "지금까지",
+"rd": "에딕",
+"pos": "adv"
+},
+{
+"rank": 663,
+"word": "háború",
+"ko": "전쟁",
+"rd": "하보루",
+"pos": "noun"
+},
+{
+"rank": 664,
+"word": "-vok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 665,
+"word": "ilyesmi",
+"ko": "이런 것",
+"rd": "이예시미",
+"pos": "pron"
+},
+{
+"rank": 666,
+"word": "víz",
+"ko": "물",
+"rd": "비즈",
+"pos": "noun"
+},
+{
+"rank": 667,
+"word": "-tá",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 668,
+"word": "jövő",
+"ko": "미래",
+"rd": "요뵈",
+"pos": "noun"
+},
+{
+"rank": 669,
+"word": "siet",
+"ko": "서두르다",
+"rd": "시에트",
+"pos": "verb"
+},
+{
+"rank": 670,
+"word": "-zunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 671,
+"word": "örök",
+"ko": "영원한",
+"rd": "외뢰크",
+"pos": "adj"
+},
+{
+"rank": 672,
+"word": "sor",
+"ko": "줄, 열",
+"rd": "쇼르",
+"pos": "noun"
+},
+{
+"rank": 673,
+"word": "elfelejt",
+"ko": "잊어버리다",
+"rd": "엘펠레이트",
+"pos": "verb"
+},
+{
+"rank": 674,
+"word": "őrül",
+"ko": "미치다 (사전형: őrül, 미친)",
+"rd": "외륄",
+"pos": "adj"
+},
+{
+"rank": 675,
+"word": "kibaszott",
+"ko": "빌어먹을(욕설)",
+"rd": "키버솟트",
+"pos": "adj"
+},
+{
+"rank": 676,
+"word": "autó",
+"ko": "자동차",
+"rd": "어우토",
+"pos": "noun"
+},
+{
+"rank": 677,
+"word": "felé",
+"ko": "~쪽으로",
+"rd": "펠레",
+"pos": "postp"
+},
+{
+"rank": 678,
+"word": "üzlet",
+"ko": "가게, 사업",
+"rd": "위즐레트",
+"pos": "noun"
+},
+{
+"rank": 679,
+"word": "szül",
+"ko": "낳다",
+"rd": "술",
+"pos": "verb"
+},
+{
+"rank": 680,
+"word": "börtön",
+"ko": "감옥",
+"rd": "뵈르퇸",
+"pos": "noun"
+},
+{
+"rank": 681,
+"word": "viszlát",
+"ko": "안녕히 가세요",
+"rd": "비슬라트",
+"pos": "interj"
+},
+{
+"rank": 682,
+"word": "-zak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 683,
+"word": "film",
+"ko": "영화",
+"rd": "필름",
+"pos": "noun"
+},
+{
+"rank": 684,
+"word": "vedd",
+"ko": "가져라, 사라",
+"rd": "베드",
+"pos": "verb"
+},
+{
+"rank": 685,
+"word": "válaszol",
+"ko": "대답하다",
+"rd": "발러졸",
+"pos": "verb"
+},
+{
+"rank": 686,
+"word": "bizonyíték",
+"ko": "증거",
+"rd": "비조니테크",
+"pos": "noun"
+},
+{
+"rank": 687,
+"word": "bizony",
+"ko": "정말로",
+"rd": "비조니",
+"pos": "adv"
+},
+{
+"rank": 688,
+"word": "rendőr",
+"ko": "경찰",
+"rd": "렌되르",
+"pos": "noun"
+},
+{
+"rank": 689,
+"word": "elkezd",
+"ko": "시작하다",
+"rd": "엘케즈드",
+"pos": "verb"
+},
+{
+"rank": 690,
+"word": "-kápp",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 691,
+"word": "ezelőtt",
+"ko": "이전에",
+"rd": "에젤뢰트",
+"pos": "adv"
+},
+{
+"rank": 692,
+"word": "válasz",
+"ko": "대답",
+"rd": "바라스",
+"pos": "noun"
+},
+{
+"rank": 693,
+"word": "elveszt",
+"ko": "잃다",
+"rd": "엘베스트",
+"pos": "verb"
+},
+{
+"rank": 694,
+"word": "készít",
+"ko": "만들다",
+"rd": "케시트",
+"pos": "verb"
+},
+{
+"rank": 695,
+"word": "bocs",
+"ko": "미안",
+"rd": "버치",
+"pos": "interj"
+},
+{
+"rank": 696,
+"word": "tér",
+"ko": "광장",
+"rd": "테르",
+"pos": "noun"
+},
+{
+"rank": 697,
+"word": "fordul",
+"ko": "돌다, 향하다",
+"rd": "포르둘",
+"pos": "verb"
+},
+{
+"rank": 698,
+"word": "dehogy",
+"ko": "천만에, 그럴 리가",
+"rd": "데허고",
+"pos": "interj"
+},
+{
+"rank": 699,
+"word": "fekete",
+"ko": "검은",
+"rd": "페케테",
+"pos": "adj"
+},
+{
+"rank": 700,
+"word": "fáj",
+"ko": "아프다",
+"rd": "파이",
+"pos": "verb"
+},
+{
+"rank": 701,
+"word": "bánt",
+"ko": "해치다, 아프게 하다",
+"rd": "반트",
+"pos": "verb"
+},
+{
+"rank": 702,
+"word": "harcol",
+"ko": "싸우다",
+"rd": "허르콜",
+"pos": "verb"
+},
+{
+"rank": 703,
+"word": "-nad",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 704,
+"word": "tar",
+"ko": "(불명확한 조각) (사전형: 불명)",
+"rd": "터르",
+"pos": "other"
+},
+{
+"rank": 705,
+"word": "szed",
+"ko": "따다, 모으다",
+"rd": "세드",
+"pos": "verb"
+},
+{
+"rank": 706,
+"word": "megcsinál",
+"ko": "해내다, 만들다",
+"rd": "메그치날",
+"pos": "verb"
+},
+{
+"rank": 707,
+"word": "kutya",
+"ko": "개",
+"rd": "쿠티어",
+"pos": "noun"
+},
+{
+"rank": 708,
+"word": "-ttál",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 709,
+"word": "kevés",
+"ko": "적은",
+"rd": "케베시",
+"pos": "adj"
+},
+{
+"rank": 710,
+"word": "biztonság",
+"ko": "안전",
+"rd": "비즈턴샤그",
+"pos": "noun"
+},
+{
+"rank": 711,
+"word": "őszinte",
+"ko": "솔직한",
+"rd": "외세인테",
+"pos": "adj"
+},
+{
+"rank": 712,
+"word": "zsaru",
+"ko": "경찰",
+"rd": "저루",
+"pos": "noun"
+},
+{
+"rank": 713,
+"word": "hány",
+"ko": "몇",
+"rd": "하니",
+"pos": "pron"
+},
+{
+"rank": 714,
+"word": "elhagy",
+"ko": "떠나다, 버리다",
+"rd": "엘허기",
+"pos": "verb"
+},
+{
+"rank": 715,
+"word": "vág",
+"ko": "자르다",
+"rd": "바그",
+"pos": "verb"
+},
+{
+"rank": 716,
+"word": "kórház",
+"ko": "병원",
+"rd": "코르하즈",
+"pos": "noun"
+},
+{
+"rank": 717,
+"word": "nyugi",
+"ko": "진정해",
+"rd": "니우기",
+"pos": "interj"
+},
+{
+"rank": 718,
+"word": "-zák",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 719,
+"word": "lakik",
+"ko": "살다",
+"rd": "러키크",
+"pos": "verb"
+},
+{
+"rank": 720,
+"word": "érzés",
+"ko": "느낌",
+"rd": "에르제시",
+"pos": "noun"
+},
+{
+"rank": 721,
+"word": "-ssuk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 722,
+"word": "üdv",
+"ko": "안녕, 환영",
+"rd": "위드브",
+"pos": "interj"
+},
+{
+"rank": 723,
+"word": "ország",
+"ko": "나라",
+"rd": "오르싸그",
+"pos": "noun"
+},
+{
+"rank": 724,
+"word": "veszélyes",
+"ko": "위험한",
+"rd": "베세예시",
+"pos": "adj"
+},
+{
+"rank": 725,
+"word": "mióta",
+"ko": "언제부터",
+"rd": "미오터",
+"pos": "conj"
+},
+{
+"rank": 726,
+"word": "hamarosan",
+"ko": "곧",
+"rd": "허머로셔느",
+"pos": "adv"
+},
+{
+"rank": 727,
+"word": "-san",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 728,
+"word": "-ók",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 729,
+"word": "-ssz",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 730,
+"word": "másod",
+"ko": "두 번째",
+"rd": "머셔드",
+"pos": "num"
+},
+{
+"rank": 731,
+"word": "jaj",
+"ko": "아이고",
+"rd": "야이",
+"pos": "interj"
+},
+{
+"rank": 732,
+"word": "kislány",
+"ko": "작은 소녀",
+"rd": "키시라니",
+"pos": "noun"
+},
+{
+"rank": 733,
+"word": "érdekes",
+"ko": "흥미로운",
+"rd": "에르데케시",
+"pos": "adj"
+},
+{
+"rank": 734,
+"word": "len",
+"ko": "(불명확한 조각) (사전형: 불명)",
+"rd": "렌",
+"pos": "other"
+},
+{
+"rank": 735,
+"word": "viccel",
+"ko": "농담하다",
+"rd": "비츠첼",
+"pos": "verb"
+},
+{
+"rank": 736,
+"word": "-ottad",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 737,
+"word": "magas",
+"ko": "높은, 키 큰",
+"rd": "머거시",
+"pos": "adj"
+},
+{
+"rank": 738,
+"word": "előre",
+"ko": "앞으로",
+"rd": "엘뢰레",
+"pos": "adv"
+},
+{
+"rank": 739,
+"word": "elő",
+"ko": "앞으로",
+"rd": "엘뢰",
+"pos": "adv"
+},
+{
+"rank": 740,
+"word": "-zon",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 741,
+"word": "iroda",
+"ko": "사무실",
+"rd": "이로더",
+"pos": "noun"
+},
+{
+"rank": 742,
+"word": "gyermek",
+"ko": "아이",
+"rd": "제르메크",
+"pos": "noun"
+},
+{
+"rank": 743,
+"word": "hang",
+"ko": "소리",
+"rd": "헝",
+"pos": "noun"
+},
+{
+"rank": 744,
+"word": "-áb",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 745,
+"word": "fehér",
+"ko": "흰",
+"rd": "페헤르",
+"pos": "adj"
+},
+{
+"rank": 746,
+"word": "viszont",
+"ko": "반면에",
+"rd": "비쏜트",
+"pos": "conj"
+},
+{
+"rank": 747,
+"word": "-jatak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 748,
+"word": "-hatok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 749,
+"word": "megmutat",
+"ko": "보여 주다",
+"rd": "메그무타트",
+"pos": "verb"
+},
+{
+"rank": 750,
+"word": "vagyis",
+"ko": "즉",
+"rd": "버지시",
+"pos": "conj"
+},
+{
+"rank": 751,
+"word": "et",
+"ko": "라틴어 and",
+"rd": "에트",
+"pos": "other"
+},
+{
+"rank": 752,
+"word": "-ottál",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 753,
+"word": "mely",
+"ko": "~하는(관계대명사)",
+"rd": "메이",
+"pos": "pron"
+},
+{
+"rank": 754,
+"word": "okos",
+"ko": "똑똑한",
+"rd": "오코시",
+"pos": "adj"
+},
+{
+"rank": 755,
+"word": "véd",
+"ko": "지키다, 보호하다",
+"rd": "베드",
+"pos": "verb"
+},
+{
+"rank": 756,
+"word": "mondhat",
+"ko": "말할 수 있다",
+"rd": "몬드허트",
+"pos": "verb"
+},
+{
+"rank": 757,
+"word": "kedv",
+"ko": "기분, 흥",
+"rd": "케드브",
+"pos": "noun"
+},
+{
+"rank": 758,
+"word": "különleges",
+"ko": "특별한",
+"rd": "퀼뢴레게시",
+"pos": "adj"
+},
+{
+"rank": 759,
+"word": "légy",
+"ko": "파리(곤충)",
+"rd": "레지",
+"pos": "noun"
+},
+{
+"rank": 760,
+"word": "amerikai",
+"ko": "미국의",
+"rd": "어메리커이",
+"pos": "adj"
+},
+{
+"rank": 761,
+"word": "értelem",
+"ko": "의미",
+"rd": "에르텔름",
+"pos": "noun"
+},
+{
+"rank": 762,
+"word": "kedvel",
+"ko": "좋아하다",
+"rd": "케드벨",
+"pos": "verb"
+},
+{
+"rank": 763,
+"word": "parancs",
+"ko": "명령",
+"rd": "퍼런츠",
+"pos": "noun"
+},
+{
+"rank": 764,
+"word": "belül",
+"ko": "안쪽에",
+"rd": "벨륄",
+"pos": "adv"
+},
+{
+"rank": 765,
+"word": "repül",
+"ko": "날다",
+"rd": "레푸르",
+"pos": "verb"
+},
+{
+"rank": 766,
+"word": "utca",
+"ko": "거리, 길",
+"rd": "우트처",
+"pos": "noun"
+},
+{
+"rank": 767,
+"word": "gyilkosság",
+"ko": "살인",
+"rd": "질코샤그",
+"pos": "noun"
+},
+{
+"rank": 768,
+"word": "muszáj",
+"ko": "~해야만 한다",
+"rd": "무사이",
+"pos": "adv"
+},
+{
+"rank": 769,
+"word": "alá",
+"ko": "~아래로",
+"rd": "얼라",
+"pos": "postp"
+},
+{
+"rank": 770,
+"word": "óvatos",
+"ko": "조심스러운",
+"rd": "오버토쉬",
+"pos": "adj"
+},
+{
+"rank": 771,
+"word": "alig",
+"ko": "거의 ~않다",
+"rd": "얼리그",
+"pos": "adv"
+},
+{
+"rank": 772,
+"word": "köt",
+"ko": "묶다",
+"rd": "쾨트",
+"pos": "verb"
+},
+{
+"rank": 773,
+"word": "visszajön",
+"ko": "돌아오다",
+"rd": "비슈서요",
+"pos": "verb"
+},
+{
+"rank": 774,
+"word": "kívül",
+"ko": "밖에",
+"rd": "키퀼",
+"pos": "adv"
+},
+{
+"rank": 775,
+"word": "sír",
+"ko": "울다",
+"rd": "시르",
+"pos": "verb"
+},
+{
+"rank": 776,
+"word": "ezer",
+"ko": "천",
+"rd": "에제르",
+"pos": "num"
+},
+{
+"rank": 777,
+"word": "-obb",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 778,
+"word": "édes",
+"ko": "달콤한",
+"rd": "에데시",
+"pos": "adj"
+},
+{
+"rank": 779,
+"word": "ár",
+"ko": "가격",
+"rd": "아르",
+"pos": "noun"
+},
+{
+"rank": 780,
+"word": "ügyvéd",
+"ko": "변호사",
+"rd": "위규베드",
+"pos": "noun"
+},
+{
+"rank": 781,
+"word": "látszik",
+"ko": "보인다",
+"rd": "랏직",
+"pos": "verb"
+},
+{
+"rank": 782,
+"word": "lényeg",
+"ko": "핵심",
+"rd": "레녜그",
+"pos": "noun"
+},
+{
+"rank": 783,
+"word": "-ották",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 784,
+"word": "alap",
+"ko": "기초",
+"rd": "얼러프",
+"pos": "noun"
+},
+{
+"rank": 785,
+"word": "tél",
+"ko": "겨울",
+"rd": "텔",
+"pos": "noun"
+},
+{
+"rank": 786,
+"word": "mesél",
+"ko": "이야기하다",
+"rd": "메셸",
+"pos": "verb"
+},
+{
+"rank": 787,
+"word": "-hatom",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 788,
+"word": "elér",
+"ko": "도달하다",
+"rd": "엘레르",
+"pos": "verb"
+},
+{
+"rank": 789,
+"word": "nevez",
+"ko": "이름 짓다, 부르다",
+"rd": "네베즈",
+"pos": "verb"
+},
+{
+"rank": 790,
+"word": "mozgás",
+"ko": "움직임",
+"rd": "모즈거시",
+"pos": "noun"
+},
+{
+"rank": 791,
+"word": "közül",
+"ko": "~중에서",
+"rd": "쾨쥘",
+"pos": "postp"
+},
+{
+"rank": 792,
+"word": "beszélget",
+"ko": "대화하다",
+"rd": "베세엘게트",
+"pos": "verb"
+},
+{
+"rank": 793,
+"word": "alkalom",
+"ko": "기회, 경우",
+"rd": "얼컬롬",
+"pos": "noun"
+},
+{
+"rank": 794,
+"word": "-attad",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 795,
+"word": "elintéz",
+"ko": "처리하다",
+"rd": "엘인테즈",
+"pos": "verb"
+},
+{
+"rank": 796,
+"word": "ágy",
+"ko": "침대",
+"rd": "아지",
+"pos": "noun"
+},
+{
+"rank": 797,
+"word": "millió",
+"ko": "백만",
+"rd": "밀리오",
+"pos": "num"
+},
+{
+"rank": 798,
+"word": "döntés",
+"ko": "결정",
+"rd": "된테시",
+"pos": "noun"
+},
+{
+"rank": 799,
+"word": "lakás",
+"ko": "아파트, 집",
+"rd": "러카시",
+"pos": "noun"
+},
+{
+"rank": 800,
+"word": "mindez",
+"ko": "이 모든 것",
+"rd": "민데즈",
+"pos": "pron"
+},
+{
+"rank": 801,
+"word": "cél",
+"ko": "목표",
+"rd": "쳴",
+"pos": "noun"
+},
+{
+"rank": 802,
+"word": "irányít",
+"ko": "지휘하다, 운전하다",
+"rd": "이라니트",
+"pos": "verb"
+},
+{
+"rank": 803,
+"word": "üt",
+"ko": "치다",
+"rd": "위트",
+"pos": "verb"
+},
+{
+"rank": 804,
+"word": "álom",
+"ko": "꿈",
+"rd": "알롬",
+"pos": "noun"
+},
+{
+"rank": 805,
+"word": "választás",
+"ko": "선택, 선거",
+"rd": "버라스테시",
+"pos": "noun"
+},
+{
+"rank": 806,
+"word": "amely",
+"ko": "~하는(관계대명사)",
+"rd": "어메이",
+"pos": "pron"
+},
+{
+"rank": 807,
+"word": "hatalmas",
+"ko": "거대한",
+"rd": "허털머시",
+"pos": "adj"
+},
+{
+"rank": 808,
+"word": "csodálatos",
+"ko": "놀라운",
+"rd": "초달러토시",
+"pos": "adj"
+},
+{
+"rank": 809,
+"word": "szabály",
+"ko": "규칙",
+"rd": "사발리",
+"pos": "noun"
+},
+{
+"rank": 810,
+"word": "téved",
+"ko": "틀리다",
+"rd": "테베드",
+"pos": "verb"
+},
+{
+"rank": 811,
+"word": "szörnyű",
+"ko": "끔찍한",
+"rd": "쇠르뉘",
+"pos": "adj"
+},
+{
+"rank": 812,
+"word": "valahol",
+"ko": "어딘가에",
+"rd": "벌러홀",
+"pos": "adv"
+},
+{
+"rank": 813,
+"word": "felvesz",
+"ko": "집어 들다, 입다",
+"rd": "펠베스",
+"pos": "verb"
+},
+{
+"rank": 814,
+"word": "-v",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 815,
+"word": "tíz",
+"ko": "열",
+"rd": "티즈",
+"pos": "num"
+},
+{
+"rank": 816,
+"word": "hello",
+"ko": "안녕",
+"rd": "헬로",
+"pos": "interj"
+},
+{
+"rank": 817,
+"word": "buli",
+"ko": "파티",
+"rd": "불리",
+"pos": "noun"
+},
+{
+"rank": 818,
+"word": "rendszer",
+"ko": "시스템",
+"rd": "렌드세르",
+"pos": "noun"
+},
+{
+"rank": 819,
+"word": "hölgy",
+"ko": "부인, 숙녀",
+"rd": "획지",
+"pos": "noun"
+},
+{
+"rank": 820,
+"word": "fasz",
+"ko": "(비속어)",
+"rd": "퍼스",
+"pos": "noun"
+},
+{
+"rank": 821,
+"word": "-ss",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 822,
+"word": "különb",
+"ko": "더 나은, 별개의 (사전형: különb)",
+"rd": "퀼룀브",
+"pos": "adj"
+},
+{
+"rank": 823,
+"word": "-hatod",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 824,
+"word": "ígér",
+"ko": "약속하다",
+"rd": "이게르",
+"pos": "verb"
+},
+{
+"rank": 825,
+"word": "-at",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 826,
+"word": "-szor",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 827,
+"word": "baszik",
+"ko": "성관계하다 (비속어)",
+"rd": "버스시크",
+"pos": "verb"
+},
+{
+"rank": 828,
+"word": "ellenség",
+"ko": "적",
+"rd": "엘렌세그",
+"pos": "noun"
+},
+{
+"rank": 829,
+"word": "dob",
+"ko": "던지다",
+"rd": "도브",
+"pos": "verb"
+},
+{
+"rank": 830,
+"word": "személyes",
+"ko": "개인적인",
+"rd": "쎄메예시",
+"pos": "adj"
+},
+{
+"rank": 831,
+"word": "mindegy",
+"ko": "상관없다",
+"rd": "민데지",
+"pos": "adj"
+},
+{
+"rank": 832,
+"word": "-talak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 833,
+"word": "ketten",
+"ko": "둘이서",
+"rd": "케텐",
+"pos": "num"
+},
+{
+"rank": 834,
+"word": "elhisz",
+"ko": "믿다",
+"rd": "엘히시",
+"pos": "verb"
+},
+{
+"rank": 835,
+"word": "vacsora",
+"ko": "저녁 식사",
+"rd": "버초라",
+"pos": "noun"
+},
+{
+"rank": 836,
+"word": "meleg",
+"ko": "따뜻한, 더운",
+"rd": "멜레그",
+"pos": "adj"
+},
+{
+"rank": 837,
+"word": "csaj",
+"ko": "여자애 (속어)",
+"rd": "처이",
+"pos": "noun"
+},
+{
+"rank": 838,
+"word": "-ttak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 839,
+"word": "érkezik",
+"ko": "도착하다",
+"rd": "에르께직",
+"pos": "verb"
+},
+{
+"rank": 840,
+"word": "tervez",
+"ko": "계획하다",
+"rd": "테르베즈",
+"pos": "verb"
+},
+{
+"rank": 841,
+"word": "-zi",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 842,
+"word": "lehetséges",
+"ko": "가능한",
+"rd": "레헤트세게시",
+"pos": "adj"
+},
+{
+"rank": 843,
+"word": "elfogad",
+"ko": "받아들이다",
+"rd": "엘퍼가드",
+"pos": "verb"
+},
+{
+"rank": 844,
+"word": "árul",
+"ko": "팔다",
+"rd": "아룰",
+"pos": "verb"
+},
+{
+"rank": 845,
+"word": "biztonsági",
+"ko": "안전의",
+"rd": "비즈톤샤기",
+"pos": "adj"
+},
+{
+"rank": 846,
+"word": "lett",
+"ko": "~이 되었다",
+"rd": "레트",
+"pos": "verb"
+},
+{
+"rank": 847,
+"word": "elvisz",
+"ko": "데려가다",
+"rd": "엘비스",
+"pos": "verb"
+},
+{
+"rank": 848,
+"word": "viselkedik",
+"ko": "처신하다",
+"rd": "비셀레드크",
+"pos": "verb"
+},
+{
+"rank": 849,
+"word": "foglalkozik",
+"ko": "~에 종사하다, 다루다",
+"rd": "포글러꼬직",
+"pos": "verb"
+},
+{
+"rank": 850,
+"word": "-tál",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 851,
+"word": "mindketten",
+"ko": "둘 다",
+"rd": "민드케텐",
+"pos": "num"
+},
+{
+"rank": 852,
+"word": "katona",
+"ko": "군인",
+"rd": "커토너",
+"pos": "noun"
+},
+{
+"rank": 853,
+"word": "titok",
+"ko": "비밀",
+"rd": "티트코",
+"pos": "noun"
+},
+{
+"rank": 854,
+"word": "-anunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 855,
+"word": "fal",
+"ko": "벽",
+"rd": "펄",
+"pos": "noun"
+},
+{
+"rank": 856,
+"word": "öröm",
+"ko": "기쁨",
+"rd": "외뢰므",
+"pos": "noun"
+},
+{
+"rank": 857,
+"word": "baba",
+"ko": "아기, 인형",
+"rd": "버버",
+"pos": "noun"
+},
+{
+"rank": 858,
+"word": "különös",
+"ko": "특이한",
+"rd": "퀼뢰뫼시",
+"pos": "adj"
+},
+{
+"rank": 859,
+"word": "támad",
+"ko": "공격하다",
+"rd": "터마드",
+"pos": "verb"
+},
+{
+"rank": 860,
+"word": "megkérdez",
+"ko": "물어보다",
+"rd": "메그케르데즈",
+"pos": "verb"
+},
+{
+"rank": 861,
+"word": "vezető",
+"ko": "지도자, 이끄는",
+"rd": "베제퇴",
+"pos": "noun"
+},
+{
+"rank": 862,
+"word": "idióta",
+"ko": "바보",
+"rd": "이디오터",
+"pos": "noun"
+},
+{
+"rank": 863,
+"word": "jézusom",
+"ko": "맙소사",
+"rd": "예조슴",
+"pos": "interj"
+},
+{
+"rank": 864,
+"word": "tag",
+"ko": "구성원, 회원",
+"rd": "터그",
+"pos": "noun"
+},
+{
+"rank": 865,
+"word": "visel",
+"ko": "입다, 착용하다",
+"rd": "비셀",
+"pos": "verb"
+},
+{
+"rank": 866,
+"word": "megígér",
+"ko": "약속하다",
+"rd": "메그이게르",
+"pos": "verb"
+},
+{
+"rank": 867,
+"word": "mármint",
+"ko": "즉, 말하자면",
+"rd": "마르민트",
+"pos": "adv"
+},
+{
+"rank": 868,
+"word": "bal",
+"ko": "왼쪽의",
+"rd": "벌",
+"pos": "adj"
+},
+{
+"rank": 869,
+"word": "fény",
+"ko": "빛",
+"rd": "페니",
+"pos": "noun"
+},
+{
+"rank": 870,
+"word": "egyes",
+"ko": "일부의",
+"rd": "에제슈",
+"pos": "det"
+},
+{
+"rank": 871,
+"word": "rengeteg",
+"ko": "엄청나게 많은",
+"rd": "렌게테그",
+"pos": "adj"
+},
+{
+"rank": 872,
+"word": "-sson",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 873,
+"word": "doktor",
+"ko": "의사",
+"rd": "독토르",
+"pos": "noun"
+},
+{
+"rank": 874,
+"word": "hihetetlen",
+"ko": "믿기 힘든",
+"rd": "히헤틀렌",
+"pos": "adj"
+},
+{
+"rank": 875,
+"word": "-ottunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 876,
+"word": "darab",
+"ko": "조각, 개",
+"rd": "더럽",
+"pos": "noun"
+},
+{
+"rank": 877,
+"word": "nyugodt",
+"ko": "차분한",
+"rd": "뉴고트",
+"pos": "adj"
+},
+{
+"rank": 878,
+"word": "kíván",
+"ko": "바라다, 원하다",
+"rd": "키반",
+"pos": "verb"
+},
+{
+"rank": 879,
+"word": "oly",
+"ko": "그토록",
+"rd": "올리",
+"pos": "adv"
+},
+{
+"rank": 880,
+"word": "vaj",
+"ko": "버터",
+"rd": "버이",
+"pos": "noun"
+},
+{
+"rank": 881,
+"word": "kezdődik",
+"ko": "시작된다",
+"rd": "케즈되디크",
+"pos": "verb"
+},
+{
+"rank": 882,
+"word": "gondolkodik",
+"ko": "생각하다",
+"rd": "곤돌코지크",
+"pos": "verb"
+},
+{
+"rank": 883,
+"word": "élvez",
+"ko": "즐기다",
+"rd": "엘베즈",
+"pos": "verb"
+},
+{
+"rank": 884,
+"word": "máris",
+"ko": "벌써",
+"rd": "마리시",
+"pos": "adv"
+},
+{
+"rank": 885,
+"word": "megvéd",
+"ko": "지켜 내다",
+"rd": "메그베드",
+"pos": "verb"
+},
+{
+"rank": 886,
+"word": "kezdet",
+"ko": "시작",
+"rd": "케즈데트",
+"pos": "noun"
+},
+{
+"rank": 887,
+"word": "folyt",
+"ko": "계속 (사전형: folytat)",
+"rd": "폴트",
+"pos": "other"
+},
+{
+"rank": 888,
+"word": "levegő",
+"ko": "공기",
+"rd": "레베괴",
+"pos": "noun"
+},
+{
+"rank": 889,
+"word": "rohadt",
+"ko": "썩은, 망할",
+"rd": "로허트",
+"pos": "adj"
+},
+{
+"rank": 890,
+"word": "anyu",
+"ko": "엄마",
+"rd": "어뉴",
+"pos": "noun"
+},
+{
+"rank": 891,
+"word": "sötét",
+"ko": "어두운",
+"rd": "쇠테트",
+"pos": "adj"
+},
+{
+"rank": 892,
+"word": "például",
+"ko": "예를 들어",
+"rd": "펠다울",
+"pos": "adv"
+},
+{
+"rank": 893,
+"word": "esetleg",
+"ko": "혹시, 아마",
+"rd": "에셰틀렉",
+"pos": "adv"
+},
+{
+"rank": 894,
+"word": "információ",
+"ko": "정보",
+"rd": "인포르머치오",
+"pos": "noun"
+},
+{
+"rank": 895,
+"word": "pokol",
+"ko": "지옥",
+"rd": "버클",
+"pos": "noun"
+},
+{
+"rank": 896,
+"word": "asztal",
+"ko": "탁자",
+"rd": "어슬러",
+"pos": "noun"
+},
+{
+"rank": 897,
+"word": "egyre",
+"ko": "점점",
+"rd": "에지레",
+"pos": "adv"
+},
+{
+"rank": 898,
+"word": "fogalom",
+"ko": "개념",
+"rd": "포걸롬",
+"pos": "noun"
+},
+{
+"rank": 899,
+"word": "rendes",
+"ko": "정상적인, 착한",
+"rd": "렌데시",
+"pos": "adj"
+},
+{
+"rank": 900,
+"word": "megkér",
+"ko": "부탁하다",
+"rd": "메그케르",
+"pos": "verb"
+},
+{
+"rank": 901,
+"word": "bízik",
+"ko": "믿다",
+"rd": "비즈크",
+"pos": "verb"
+},
+{
+"rank": 902,
+"word": "folytat",
+"ko": "계속하다",
+"rd": "폴리타트",
+"pos": "verb"
+},
+{
+"rank": 903,
+"word": "számára",
+"ko": "~를 위해",
+"rd": "싸마러",
+"pos": "postp"
+},
+{
+"rank": 904,
+"word": "elvesz",
+"ko": "빼앗다, 가져가다",
+"rd": "엘베스",
+"pos": "verb"
+},
+{
+"rank": 905,
+"word": "könny",
+"ko": "눈물",
+"rd": "쾨니",
+"pos": "noun"
+},
+{
+"rank": 906,
+"word": "bán",
+"ko": "후회하다, 해치다 (사전형: bán)",
+"rd": "반",
+"pos": "verb"
+},
+{
+"rank": 907,
+"word": "befejez",
+"ko": "끝마치다",
+"rd": "베페제즈",
+"pos": "verb"
+},
+{
+"rank": 908,
+"word": "siker",
+"ko": "성공",
+"rd": "시케르",
+"pos": "noun"
+},
+{
+"rank": 909,
+"word": "-zad",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 910,
+"word": "ajándék",
+"ko": "선물",
+"rd": "어얀데크",
+"pos": "noun"
+},
+{
+"rank": 911,
+"word": "születik",
+"ko": "태어나다",
+"rd": "세레텟트",
+"pos": "verb"
+},
+{
+"rank": 912,
+"word": "cég",
+"ko": "회사",
+"rd": "체그",
+"pos": "noun"
+},
+{
+"rank": 913,
+"word": "törődik",
+"ko": "신경 쓰다",
+"rd": "퇴뢰크",
+"pos": "verb"
+},
+{
+"rank": 914,
+"word": "-zátak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 915,
+"word": "törvény",
+"ko": "법",
+"rd": "퇴르베니",
+"pos": "noun"
+},
+{
+"rank": 916,
+"word": "-hatnák",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 917,
+"word": "illet",
+"ko": "해당하다, 어울리다",
+"rd": "일레트",
+"pos": "verb"
+},
+{
+"rank": 918,
+"word": "megtörténik",
+"ko": "일어나다",
+"rd": "메그퇴르테니크",
+"pos": "verb"
+},
+{
+"rank": 919,
+"word": "baleset",
+"ko": "사고",
+"rd": "버레셰트",
+"pos": "noun"
+},
+{
+"rank": 920,
+"word": "apu",
+"ko": "아빠",
+"rd": "어푸",
+"pos": "noun"
+},
+{
+"rank": 921,
+"word": "re",
+"ko": "~에(접미사)",
+"rd": "레",
+"pos": "suffix"
+},
+{
+"rank": 922,
+"word": "-ság",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 923,
+"word": "-at",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 924,
+"word": "véletlen",
+"ko": "우연",
+"rd": "벨레틀렌",
+"pos": "noun"
+},
+{
+"rank": 925,
+"word": "mai",
+"ko": "오늘의",
+"rd": "머이",
+"pos": "adj"
+},
+{
+"rank": 926,
+"word": "-hatnak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 927,
+"word": "kávé",
+"ko": "커피",
+"rd": "카베",
+"pos": "noun"
+},
+{
+"rank": 928,
+"word": "helyett",
+"ko": "~대신에",
+"rd": "헤옛",
+"pos": "postp"
+},
+{
+"rank": 929,
+"word": "emberi",
+"ko": "인간의",
+"rd": "엠베리",
+"pos": "adj"
+},
+{
+"rank": 930,
+"word": "fekszik",
+"ko": "눕다",
+"rd": "페크스지크",
+"pos": "verb"
+},
+{
+"rank": 931,
+"word": "terület",
+"ko": "지역",
+"rd": "테룰레트",
+"pos": "noun"
+},
+{
+"rank": 932,
+"word": "szuper",
+"ko": "훌륭한",
+"rd": "쑤페르",
+"pos": "adj"
+},
+{
+"rank": 933,
+"word": "megfelelő",
+"ko": "적절한",
+"rd": "메그펠렐뢰",
+"pos": "adj"
+},
+{
+"rank": 934,
+"word": "változik",
+"ko": "변하다",
+"rd": "발토지크",
+"pos": "verb"
+},
+{
+"rank": 935,
+"word": "hasonló",
+"ko": "비슷한",
+"rd": "허숀로",
+"pos": "adj"
+},
+{
+"rank": 936,
+"word": "-sam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 937,
+"word": "-sák",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 938,
+"word": "veszély",
+"ko": "위험",
+"rd": "베사이",
+"pos": "noun"
+},
+{
+"rank": 939,
+"word": "mögött",
+"ko": "~뒤에",
+"rd": "뫼괴트",
+"pos": "postp"
+},
+{
+"rank": 940,
+"word": "vet",
+"ko": "던지다, 뿌리다",
+"rd": "베트",
+"pos": "verb"
+},
+{
+"rank": 941,
+"word": "parancsnok",
+"ko": "지휘관",
+"rd": "퍼런츠녹",
+"pos": "noun"
+},
+{
+"rank": 942,
+"word": "lelő",
+"ko": "쏴 죽이다",
+"rd": "렐뢰",
+"pos": "verb"
+},
+{
+"rank": 943,
+"word": "kitalál",
+"ko": "생각해 내다",
+"rd": "키털랄",
+"pos": "verb"
+},
+{
+"rank": 944,
+"word": "-nának",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 945,
+"word": "lehetetlen",
+"ko": "불가능한",
+"rd": "레헤트렌",
+"pos": "adj"
+},
+{
+"rank": 946,
+"word": "ellop",
+"ko": "훔치다",
+"rd": "엘롭",
+"pos": "verb"
+},
+{
+"rank": 947,
+"word": "kár",
+"ko": "아쉬움, 손해",
+"rd": "카르",
+"pos": "noun"
+},
+{
+"rank": 948,
+"word": "világos",
+"ko": "밝은, 분명한",
+"rd": "빌라고쉬",
+"pos": "adj"
+},
+{
+"rank": 949,
+"word": "mindannyi",
+"ko": "모두 (사전형: mindannyian)",
+"rd": "민단니",
+"pos": "pron"
+},
+{
+"rank": 950,
+"word": "irány",
+"ko": "방향",
+"rd": "이라니",
+"pos": "noun"
+},
+{
+"rank": 951,
+"word": "büszke",
+"ko": "자랑스러운",
+"rd": "뷔스케",
+"pos": "adj"
+},
+{
+"rank": 952,
+"word": "-ás",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 953,
+"word": "ideg",
+"ko": "신경",
+"rd": "이데그",
+"pos": "noun"
+},
+{
+"rank": 954,
+"word": "szolgál",
+"ko": "섬기다, 봉사하다",
+"rd": "솔갈",
+"pos": "verb"
+},
+{
+"rank": 955,
+"word": "felvétel",
+"ko": "녹음, 촬영",
+"rd": "펠베텔",
+"pos": "noun"
+},
+{
+"rank": 956,
+"word": "m",
+"ko": "알파벳 m",
+"rd": "",
+"pos": "other"
+},
+{
+"rank": 957,
+"word": "fájdalom",
+"ko": "고통",
+"rd": "파이달롬",
+"pos": "noun"
+},
+{
+"rank": 958,
+"word": "gyertek",
+"ko": "오세요(너희)",
+"rd": "제르텍",
+"pos": "verb"
+},
+{
+"rank": 959,
+"word": "bolond",
+"ko": "바보, 미친",
+"rd": "볼론드",
+"pos": "noun"
+},
+{
+"rank": 960,
+"word": "-as",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 961,
+"word": "-ssam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 962,
+"word": "-zanak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 963,
+"word": "táncol",
+"ko": "춤추다",
+"rd": "탄촐",
+"pos": "verb"
+},
+{
+"rank": 964,
+"word": "esküszik",
+"ko": "맹세하다",
+"rd": "에슈쉬시크",
+"pos": "verb"
+},
+{
+"rank": 965,
+"word": "kiderül",
+"ko": "밝혀지다",
+"rd": "끼데륄",
+"pos": "verb"
+},
+{
+"rank": 966,
+"word": "nyomás",
+"ko": "압력",
+"rd": "뉴머스",
+"pos": "noun"
+},
+{
+"rank": 967,
+"word": "jelentés",
+"ko": "보고, 의미",
+"rd": "옐렌테스",
+"pos": "noun"
+},
+{
+"rank": 968,
+"word": "hirtelen",
+"ko": "갑자기",
+"rd": "히르텔렌",
+"pos": "adv"
+},
+{
+"rank": 969,
+"word": "valahogy",
+"ko": "어떻게든",
+"rd": "버러호지",
+"pos": "adv"
+},
+{
+"rank": 970,
+"word": "-ania",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 971,
+"word": "ver",
+"ko": "때리다",
+"rd": "베르",
+"pos": "verb"
+},
+{
+"rank": 972,
+"word": "lépés",
+"ko": "걸음",
+"rd": "레페스",
+"pos": "noun"
+},
+{
+"rank": 973,
+"word": "val",
+"ko": "~와(도구 접미사 -val)",
+"rd": "벌",
+"pos": "suffix"
+},
+{
+"rank": 974,
+"word": "intéz",
+"ko": "처리하다",
+"rd": "인테즈",
+"pos": "verb"
+},
+{
+"rank": 975,
+"word": "támadás",
+"ko": "공격",
+"rd": "터마다시",
+"pos": "noun"
+},
+{
+"rank": 976,
+"word": "változtat",
+"ko": "바꾸다",
+"rd": "발토즈타트",
+"pos": "verb"
+},
+{
+"rank": 977,
+"word": "bocsát",
+"ko": "용서하다, 풀어 주다",
+"rd": "버차트",
+"pos": "verb"
+},
+{
+"rank": 978,
+"word": "bemutat",
+"ko": "소개하다",
+"rd": "벰우타트",
+"pos": "verb"
+},
+{
+"rank": 979,
+"word": "csatlakoz",
+"ko": "합류하다",
+"rd": "처트러코즈",
+"pos": "verb"
+},
+{
+"rank": 980,
+"word": "szegény",
+"ko": "가난한",
+"rd": "쎄게니",
+"pos": "adj"
+},
+{
+"rank": 981,
+"word": "cím",
+"ko": "주소, 제목",
+"rd": "침",
+"pos": "noun"
+},
+{
+"rank": 982,
+"word": "bent",
+"ko": "안에",
+"rd": "벤트",
+"pos": "adv"
+},
+{
+"rank": 983,
+"word": "haj",
+"ko": "머리카락",
+"rd": "허이",
+"pos": "noun"
+},
+{
+"rank": 984,
+"word": "sajnos",
+"ko": "유감스럽게도",
+"rd": "셔이노시",
+"pos": "adv"
+},
+{
+"rank": 985,
+"word": "picsa",
+"ko": "(비속어)",
+"rd": "피치어",
+"pos": "noun"
+},
+{
+"rank": 986,
+"word": "-nyal",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 987,
+"word": "számom",
+"ko": "나에게는 (사전형: számomra)",
+"rd": "서몸",
+"pos": "adv"
+},
+{
+"rank": 988,
+"word": "másodperc",
+"ko": "초",
+"rd": "머셔드페르츠",
+"pos": "noun"
+},
+{
+"rank": 989,
+"word": "tisztelet",
+"ko": "존경",
+"rd": "티스텔레트",
+"pos": "noun"
+},
+{
+"rank": 990,
+"word": "onnan",
+"ko": "거기서부터",
+"rd": "온넌",
+"pos": "adv"
+},
+{
+"rank": 991,
+"word": "kifelé",
+"ko": "바깥쪽으로",
+"rd": "키펠레",
+"pos": "adv"
+},
+{
+"rank": 992,
+"word": "szent",
+"ko": "성스러운",
+"rd": "쎈트",
+"pos": "adj"
+},
+{
+"rank": 993,
+"word": "-hatam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 994,
+"word": "kint",
+"ko": "밖에",
+"rd": "킨트",
+"pos": "adv"
+},
+{
+"rank": 995,
+"word": "személy",
+"ko": "사람",
+"rd": "쎄메이",
+"pos": "noun"
+},
+{
+"rank": 996,
+"word": "ülj",
+"ko": "앉아라",
+"rd": "위이",
+"pos": "verb"
+},
+{
+"rank": 997,
+"word": "üzenete",
+"ko": "그의 메시지 (사전형: üzenet)",
+"rd": "위제네테",
+"pos": "noun"
+},
+{
+"rank": 998,
+"word": "ot",
+"ko": "",
+"rd": "",
+"pos": "other"
+},
+{
+"rank": 999,
+"word": "-os",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1000,
+"word": "visszamegy",
+"ko": "돌아가다",
+"rd": "비슈서메그",
+"pos": "verb"
+},
+{
+"rank": 1001,
+"word": "messze",
+"ko": "멀리",
+"rd": "메쎄",
+"pos": "adv"
+},
+{
+"rank": 1002,
+"word": "kel",
+"ko": "일어나다, 뜨다",
+"rd": "켈",
+"pos": "verb"
+},
+{
+"rank": 1003,
+"word": "-niuk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1004,
+"word": "amennyi",
+"ko": "~만큼 (사전형: amennyi)",
+"rd": "어멘니",
+"pos": "pron"
+},
+{
+"rank": 1005,
+"word": "-gá",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1006,
+"word": "szeretet",
+"ko": "사랑",
+"rd": "쎄레텟",
+"pos": "noun"
+},
+{
+"rank": 1007,
+"word": "normális",
+"ko": "정상적인",
+"rd": "노르말리시",
+"pos": "adj"
+},
+{
+"rank": 1008,
+"word": "megold",
+"ko": "해결하다",
+"rd": "메그올드",
+"pos": "verb"
+},
+{
+"rank": 1009,
+"word": "megbeszél",
+"ko": "상의하다",
+"rd": "메그베셀",
+"pos": "verb"
+},
+{
+"rank": 1010,
+"word": "ismert",
+"ko": "유명한, 알려진",
+"rd": "이슈메르트",
+"pos": "adj"
+},
+{
+"rank": 1011,
+"word": "agy",
+"ko": "뇌",
+"rd": "어지",
+"pos": "noun"
+},
+{
+"rank": 1012,
+"word": "feladat",
+"ko": "과제, 임무",
+"rd": "펠러더트",
+"pos": "noun"
+},
+{
+"rank": 1013,
+"word": "-hatja",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1014,
+"word": "hamar",
+"ko": "곧, 빨리",
+"rd": "허머르",
+"pos": "adv"
+},
+{
+"rank": 1015,
+"word": "ablak",
+"ko": "창문",
+"rd": "어블러크",
+"pos": "noun"
+},
+{
+"rank": 1016,
+"word": "menekül",
+"ko": "도망치다",
+"rd": "메네퀼",
+"pos": "verb"
+},
+{
+"rank": 1017,
+"word": "mrs",
+"ko": "~부인 (약어: Mrs)",
+"rd": "미시스",
+"pos": "other"
+},
+{
+"rank": 1018,
+"word": "harc",
+"ko": "전투",
+"rd": "허르츠",
+"pos": "noun"
+},
+{
+"rank": 1019,
+"word": "hála",
+"ko": "감사",
+"rd": "할러",
+"pos": "noun"
+},
+{
+"rank": 1020,
+"word": "kamera",
+"ko": "카메라",
+"rd": "커메러",
+"pos": "noun"
+},
+{
+"rank": 1021,
+"word": "elad",
+"ko": "팔다",
+"rd": "엘러드",
+"pos": "verb"
+},
+{
+"rank": 1022,
+"word": "megbocsát",
+"ko": "용서하다",
+"rd": "메그보차트",
+"pos": "verb"
+},
+{
+"rank": 1023,
+"word": "bejön",
+"ko": "들어오다",
+"rd": "베이왼",
+"pos": "verb"
+},
+{
+"rank": 1024,
+"word": "édesem",
+"ko": "내 사랑, 자기야",
+"rd": "에데쉠",
+"pos": "noun"
+},
+{
+"rank": 1025,
+"word": "újság",
+"ko": "신문",
+"rd": "우이샤그",
+"pos": "noun"
+},
+{
+"rank": 1026,
+"word": "lassan",
+"ko": "천천히",
+"rd": "러셔느",
+"pos": "adv"
+},
+{
+"rank": 1027,
+"word": "bemegy",
+"ko": "들어가다",
+"rd": "베메지",
+"pos": "verb"
+},
+{
+"rank": 1028,
+"word": "-zan",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1029,
+"word": "bocsi",
+"ko": "미안",
+"rd": "보치",
+"pos": "interj"
+},
+{
+"rank": 1030,
+"word": "seggfej",
+"ko": "멍청이(욕)",
+"rd": "셰그페이",
+"pos": "noun"
+},
+{
+"rank": 1031,
+"word": "ajánl",
+"ko": "추천하다",
+"rd": "어야안",
+"pos": "verb"
+},
+{
+"rank": 1032,
+"word": "merre",
+"ko": "어느 쪽으로",
+"rd": "메레",
+"pos": "adv"
+},
+{
+"rank": 1033,
+"word": "elől",
+"ko": "~의 앞에서",
+"rd": "엘룔",
+"pos": "postp"
+},
+{
+"rank": 1034,
+"word": "-ava",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1035,
+"word": "zene",
+"ko": "음악",
+"rd": "제네",
+"pos": "noun"
+},
+{
+"rank": 1036,
+"word": "művel",
+"ko": "하다, 행하다",
+"rd": "뮈벨",
+"pos": "verb"
+},
+{
+"rank": 1037,
+"word": "üdvözöl",
+"ko": "인사하다",
+"rd": "위드뵈죌",
+"pos": "verb"
+},
+{
+"rank": 1038,
+"word": "finom",
+"ko": "맛있는",
+"rd": "피놈",
+"pos": "adj"
+},
+{
+"rank": 1039,
+"word": "-aná",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1040,
+"word": "rögtön",
+"ko": "곧바로",
+"rd": "뢰그퇸",
+"pos": "adv"
+},
+{
+"rank": 1041,
+"word": "-ttunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1042,
+"word": "tanít",
+"ko": "가르치다",
+"rd": "터니트",
+"pos": "verb"
+},
+{
+"rank": 1043,
+"word": "-s",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1044,
+"word": "szét",
+"ko": "흩어져, 따로",
+"rd": "쎄트",
+"pos": "adv"
+},
+{
+"rank": 1045,
+"word": "gratulál",
+"ko": "축하하다",
+"rd": "그러툴랄",
+"pos": "verb"
+},
+{
+"rank": 1046,
+"word": "-sza",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1047,
+"word": "gyógyszer",
+"ko": "약",
+"rd": "죠지쎄르",
+"pos": "noun"
+},
+{
+"rank": 1048,
+"word": "-anám",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1049,
+"word": "egyébként",
+"ko": "그건 그렇고",
+"rd": "에제브켄트",
+"pos": "adv"
+},
+{
+"rank": 1050,
+"word": "tábornok",
+"ko": "장군",
+"rd": "타보르녹",
+"pos": "noun"
+},
+{
+"rank": 1051,
+"word": "nyugalom",
+"ko": "평온",
+"rd": "뉴걸롬",
+"pos": "noun"
+},
+{
+"rank": 1052,
+"word": "fura",
+"ko": "이상한",
+"rd": "푸러",
+"pos": "adj"
+},
+{
+"rank": 1053,
+"word": "küldetés",
+"ko": "임무",
+"rd": "퀼데테시",
+"pos": "noun"
+},
+{
+"rank": 1054,
+"word": "vendég",
+"ko": "손님",
+"rd": "벤데그",
+"pos": "noun"
+},
+{
+"rank": 1055,
+"word": "bizonyít",
+"ko": "증명하다",
+"rd": "비조니트",
+"pos": "verb"
+},
+{
+"rank": 1056,
+"word": "éhes",
+"ko": "배고픈",
+"rd": "에헤시",
+"pos": "adj"
+},
+{
+"rank": 1057,
+"word": "mély",
+"ko": "깊은",
+"rd": "메이",
+"pos": "adj"
+},
+{
+"rank": 1058,
+"word": "rak",
+"ko": "놓다, 쌓다",
+"rd": "러크",
+"pos": "verb"
+},
+{
+"rank": 1059,
+"word": "kormány",
+"ko": "정부",
+"rd": "코르마니",
+"pos": "noun"
+},
+{
+"rank": 1060,
+"word": "gonosz",
+"ko": "사악한",
+"rd": "고노스",
+"pos": "adj"
+},
+{
+"rank": 1061,
+"word": "jog",
+"ko": "권리, 법",
+"rd": "요그",
+"pos": "noun"
+},
+{
+"rank": 1062,
+"word": "csen",
+"ko": "훔치다",
+"rd": "첸",
+"pos": "verb"
+},
+{
+"rank": 1063,
+"word": "győz",
+"ko": "이기다",
+"rd": "죄즈",
+"pos": "verb"
+},
+{
+"rank": 1064,
+"word": "épület",
+"ko": "건물",
+"rd": "에퓔레트",
+"pos": "noun"
+},
+{
+"rank": 1065,
+"word": "nővér",
+"ko": "누나·언니, 간호사",
+"rd": "뇌베르",
+"pos": "noun"
+},
+{
+"rank": 1066,
+"word": "pasi",
+"ko": "녀석, 남자",
+"rd": "퍼시",
+"pos": "noun"
+},
+{
+"rank": 1067,
+"word": "elmúlt",
+"ko": "지나간",
+"rd": "엘물트",
+"pos": "adj"
+},
+{
+"rank": 1068,
+"word": "the",
+"ko": "영어 the",
+"rd": "테",
+"pos": "other"
+},
+{
+"rank": 1069,
+"word": "tartsd",
+"ko": "잡아라(명령형)",
+"rd": "터르취드",
+"pos": "verb"
+},
+{
+"rank": 1070,
+"word": "amúgy",
+"ko": "그건 그렇고",
+"rd": "어무지",
+"pos": "adv"
+},
+{
+"rank": 1071,
+"word": "kapcsol",
+"ko": "연결하다, 켜다",
+"rd": "컵촐",
+"pos": "verb"
+},
+{
+"rank": 1072,
+"word": "túlél",
+"ko": "살아남다",
+"rd": "툴엘",
+"pos": "verb"
+},
+{
+"rank": 1073,
+"word": "-anod",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1074,
+"word": "felnő",
+"ko": "자라다, 성인이 되다",
+"rd": "펠뇌",
+"pos": "verb"
+},
+{
+"rank": 1075,
+"word": "á",
+"ko": "아(감탄사)",
+"rd": "아",
+"pos": "interj"
+},
+{
+"rank": 1076,
+"word": "ra",
+"ko": "~위로/~로(접미사)",
+"rd": "러",
+"pos": "suffix"
+},
+{
+"rank": 1077,
+"word": "hideg",
+"ko": "차가운",
+"rd": "히데그",
+"pos": "adj"
+},
+{
+"rank": 1078,
+"word": "fa",
+"ko": "나무",
+"rd": "퍼",
+"pos": "noun"
+},
+{
+"rank": 1079,
+"word": "titkos",
+"ko": "비밀의",
+"rd": "티트꼬시",
+"pos": "adj"
+},
+{
+"rank": 1080,
+"word": "süt",
+"ko": "굽다",
+"rd": "슈트",
+"pos": "verb"
+},
+{
+"rank": 1081,
+"word": "fejez",
+"ko": "끝내다, 완성하다",
+"rd": "페예즈",
+"pos": "verb"
+},
+{
+"rank": 1082,
+"word": "bátya",
+"ko": "형, 오빠",
+"rd": "바티어",
+"pos": "noun"
+},
+{
+"rank": 1083,
+"word": "miközben",
+"ko": "~하는 동안",
+"rd": "미쾨젬벤",
+"pos": "conj"
+},
+{
+"rank": 1084,
+"word": "lop",
+"ko": "훔치다",
+"rd": "롭",
+"pos": "verb"
+},
+{
+"rank": 1085,
+"word": "-lom",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1086,
+"word": "egyenes",
+"ko": "곧은, 정직한",
+"rd": "에제녜시",
+"pos": "adj"
+},
+{
+"rank": 1087,
+"word": "átkoz",
+"ko": "저주하다",
+"rd": "아트코즈",
+"pos": "verb"
+},
+{
+"rank": 1088,
+"word": "házasság",
+"ko": "결혼",
+"rd": "하저샤그",
+"pos": "noun"
+},
+{
+"rank": 1089,
+"word": "pihen",
+"ko": "쉬다",
+"rd": "피헨",
+"pos": "verb"
+},
+{
+"rank": 1090,
+"word": "kivéve",
+"ko": "~을 제외하고",
+"rd": "끼베베",
+"pos": "postp"
+},
+{
+"rank": 1091,
+"word": "állandó",
+"ko": "일정한",
+"rd": "알란도",
+"pos": "adj"
+},
+{
+"rank": 1092,
+"word": "bizonyos",
+"ko": "어떤, 확실한",
+"rd": "비죠뇨시",
+"pos": "adj"
+},
+{
+"rank": 1093,
+"word": "gyenge",
+"ko": "약한",
+"rd": "젠게",
+"pos": "adj"
+},
+{
+"rank": 1094,
+"word": "-z",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1095,
+"word": "elveszít",
+"ko": "잃어버리다",
+"rd": "엘베시트",
+"pos": "verb"
+},
+{
+"rank": 1096,
+"word": "kapu",
+"ko": "문, 대문",
+"rd": "커푸",
+"pos": "noun"
+},
+{
+"rank": 1097,
+"word": "lgen",
+"ko": "네(오타: igen)",
+"rd": "이겐",
+"pos": "interj"
+},
+{
+"rank": 1098,
+"word": "épít",
+"ko": "짓다, 건설하다",
+"rd": "에피트",
+"pos": "verb"
+},
+{
+"rank": 1099,
+"word": "hadnagy",
+"ko": "중위",
+"rd": "허드너지",
+"pos": "noun"
+},
+{
+"rank": 1100,
+"word": "kar",
+"ko": "팔",
+"rd": "커르",
+"pos": "noun"
+},
+{
+"rank": 1101,
+"word": "állap",
+"ko": "상태 (사전형: állapot)",
+"rd": "알라포트",
+"pos": "noun"
+},
+{
+"rank": 1102,
+"word": "közös",
+"ko": "공동의",
+"rd": "쾨죄시",
+"pos": "adj"
+},
+{
+"rank": 1103,
+"word": "kezel",
+"ko": "다루다, 치료하다",
+"rd": "케젤",
+"pos": "verb"
+},
+{
+"rank": 1104,
+"word": "ital",
+"ko": "음료",
+"rd": "이털",
+"pos": "noun"
+},
+{
+"rank": 1105,
+"word": "szomszéd",
+"ko": "이웃",
+"rd": "쏨세드",
+"pos": "noun"
+},
+{
+"rank": 1106,
+"word": "ellenőriz",
+"ko": "확인하다",
+"rd": "엘렌외리즈",
+"pos": "verb"
+},
+{
+"rank": 1107,
+"word": "parti",
+"ko": "파티",
+"rd": "퍼르티",
+"pos": "noun"
+},
+{
+"rank": 1108,
+"word": "szinte",
+"ko": "거의",
+"rd": "씨테",
+"pos": "adv"
+},
+{
+"rank": 1109,
+"word": "biztosít",
+"ko": "보장하다",
+"rd": "비즈토시트",
+"pos": "verb"
+},
+{
+"rank": 1110,
+"word": "-játak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1111,
+"word": "as",
+"ko": "~의(접미사)",
+"rd": "어슈",
+"pos": "suffix"
+},
+{
+"rank": 1112,
+"word": "ah",
+"ko": "아(감탄사)",
+"rd": "아",
+"pos": "interj"
+},
+{
+"rank": 1113,
+"word": "l",
+"ko": "알파벳 l",
+"rd": "엘",
+"pos": "other"
+},
+{
+"rank": 1114,
+"word": "-la",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1115,
+"word": "nyilvánvaló",
+"ko": "분명한",
+"rd": "니일반바로",
+"pos": "adj"
+},
+{
+"rank": 1116,
+"word": "esküvő",
+"ko": "결혼식",
+"rd": "에슈퀴뵈",
+"pos": "noun"
+},
+{
+"rank": 1117,
+"word": "megőrül",
+"ko": "미치다",
+"rd": "메그외륄",
+"pos": "verb"
+},
+{
+"rank": 1118,
+"word": "száz",
+"ko": "백(100)",
+"rd": "싸즈",
+"pos": "num"
+},
+{
+"rank": 1119,
+"word": "biztonságos",
+"ko": "안전한",
+"rd": "비즈톤샤고시",
+"pos": "adj"
+},
+{
+"rank": 1120,
+"word": "odakint",
+"ko": "저 밖에",
+"rd": "오더킨트",
+"pos": "adv"
+},
+{
+"rank": 1121,
+"word": "engedély",
+"ko": "허가",
+"rd": "엔게데이",
+"pos": "noun"
+},
+{
+"rank": 1122,
+"word": "megad",
+"ko": "주다, 제공하다",
+"rd": "메거드",
+"pos": "verb"
+},
+{
+"rank": 1123,
+"word": "kulcs",
+"ko": "열쇠",
+"rd": "쿨치",
+"pos": "noun"
+},
+{
+"rank": 1124,
+"word": "megérkezik",
+"ko": "도착하다",
+"rd": "메게르케직",
+"pos": "verb"
+},
+{
+"rank": 1125,
+"word": "-sak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1126,
+"word": "megállít",
+"ko": "멈추게 하다",
+"rd": "메갈리트",
+"pos": "verb"
+},
+{
+"rank": 1127,
+"word": "eredmény",
+"ko": "결과",
+"rd": "에레드메니",
+"pos": "noun"
+},
+{
+"rank": 1128,
+"word": "szomorú",
+"ko": "슬픈",
+"rd": "쏘모루",
+"pos": "adj"
+},
+{
+"rank": 1129,
+"word": "cucc",
+"ko": "물건, 것(속어)",
+"rd": "쿠취",
+"pos": "noun"
+},
+{
+"rank": 1130,
+"word": "papír",
+"ko": "종이",
+"rd": "퍼피르",
+"pos": "noun"
+},
+{
+"rank": 1131,
+"word": "szenved",
+"ko": "고통받다",
+"rd": "쎈베드",
+"pos": "verb"
+},
+{
+"rank": 1132,
+"word": "említ",
+"ko": "언급하다",
+"rd": "에믈리트",
+"pos": "verb"
+},
+{
+"rank": 1133,
+"word": "tanács",
+"ko": "조언, 위원회",
+"rd": "터나치",
+"pos": "noun"
+},
+{
+"rank": 1134,
+"word": "lévő",
+"ko": "~에 있는",
+"rd": "레뵈",
+"pos": "adj"
+},
+{
+"rank": 1135,
+"word": "sétál",
+"ko": "걷다, 산책하다",
+"rd": "셰탈",
+"pos": "verb"
+},
+{
+"rank": 1136,
+"word": "veszít",
+"ko": "잃다",
+"rd": "베시트",
+"pos": "verb"
+},
+{
+"rank": 1137,
+"word": "elment",
+"ko": "떠나가다 (사전형: elmegy)",
+"rd": "엘멘트",
+"pos": "verb"
+},
+{
+"rank": 1138,
+"word": "doboz",
+"ko": "상자",
+"rd": "도보즈",
+"pos": "noun"
+},
+{
+"rank": 1139,
+"word": "érdek",
+"ko": "관심, 이익",
+"rd": "에르덱",
+"pos": "noun"
+},
+{
+"rank": 1140,
+"word": "veszt",
+"ko": "잃다",
+"rd": "베스트",
+"pos": "verb"
+},
+{
+"rank": 1141,
+"word": "mér",
+"ko": "재다",
+"rd": "메르",
+"pos": "verb"
+},
+{
+"rank": 1142,
+"word": "egység",
+"ko": "단위",
+"rd": "에게그",
+"pos": "noun"
+},
+{
+"rank": 1143,
+"word": "-hattam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1144,
+"word": "eb",
+"ko": "개(옛말·욕)",
+"rd": "에브",
+"pos": "noun"
+},
+{
+"rank": 1145,
+"word": "utazik",
+"ko": "여행하다",
+"rd": "우터직",
+"pos": "verb"
+},
+{
+"rank": 1146,
+"word": "valódi",
+"ko": "진짜의",
+"rd": "벌로디",
+"pos": "adj"
+},
+{
+"rank": 1147,
+"word": "fárad",
+"ko": "피곤해하다",
+"rd": "파러드",
+"pos": "verb"
+},
+{
+"rank": 1148,
+"word": "jack",
+"ko": "잭(이름)",
+"rd": "잭",
+"pos": "propn"
+},
+{
+"rank": 1149,
+"word": "képesség",
+"ko": "능력",
+"rd": "케페셰그",
+"pos": "noun"
+},
+{
+"rank": 1150,
+"word": "egyetért",
+"ko": "동의하다",
+"rd": "에제테르트",
+"pos": "verb"
+},
+{
+"rank": 1151,
+"word": "ch",
+"ko": "츠(감탄사)",
+"rd": "츠",
+"pos": "interj"
+},
+{
+"rank": 1152,
+"word": "dühös",
+"ko": "화난",
+"rd": "뒤회시",
+"pos": "adj"
+},
+{
+"rank": 1153,
+"word": "szerelmes",
+"ko": "사랑에 빠진",
+"rd": "쎄렐메시",
+"pos": "adj"
+},
+{
+"rank": 1154,
+"word": "uh",
+"ko": "으(감탄사)",
+"rd": "우",
+"pos": "interj"
+},
+{
+"rank": 1155,
+"word": "rendel",
+"ko": "주문하다",
+"rd": "렌델",
+"pos": "verb"
+},
+{
+"rank": 1156,
+"word": "miféle",
+"ko": "어떤 종류의",
+"rd": "미페레",
+"pos": "det"
+},
+{
+"rank": 1157,
+"word": "azóta",
+"ko": "그때부터",
+"rd": "어조터",
+"pos": "adv"
+},
+{
+"rank": 1158,
+"word": "hölgyem",
+"ko": "부인, 아가씨",
+"rd": "회지엠",
+"pos": "noun"
+},
+{
+"rank": 1159,
+"word": "kék",
+"ko": "파란",
+"rd": "케크",
+"pos": "adj"
+},
+{
+"rank": 1160,
+"word": "vel",
+"ko": "~와 함께(도구·동반 접미사)",
+"rd": "벨",
+"pos": "postp"
+},
+{
+"rank": 1161,
+"word": "csomó",
+"ko": "많음, 매듭",
+"rd": "초모",
+"pos": "noun"
+},
+{
+"rank": 1162,
+"word": "énekel",
+"ko": "노래하다",
+"rd": "에네켈",
+"pos": "verb"
+},
+{
+"rank": 1163,
+"word": "bezár",
+"ko": "닫다, 잠그다",
+"rd": "베자르",
+"pos": "verb"
+},
+{
+"rank": 1164,
+"word": "drog",
+"ko": "마약",
+"rd": "드록",
+"pos": "noun"
+},
+{
+"rank": 1165,
+"word": "hívás",
+"ko": "전화, 호출",
+"rd": "히바시",
+"pos": "noun"
+},
+{
+"rank": 1166,
+"word": "vélemény",
+"ko": "의견",
+"rd": "벨레메니",
+"pos": "noun"
+},
+{
+"rank": 1167,
+"word": "küzd",
+"ko": "분투하다",
+"rd": "퀴즈드",
+"pos": "verb"
+},
+{
+"rank": 1168,
+"word": "amily",
+"ko": "어떤 ~든 (사전형: amilyen)",
+"rd": "어미이",
+"pos": "det"
+},
+{
+"rank": 1169,
+"word": "megszerez",
+"ko": "얻다",
+"rd": "메그세레즈",
+"pos": "verb"
+},
+{
+"rank": 1170,
+"word": "harmadik",
+"ko": "세 번째의",
+"rd": "허르머딕",
+"pos": "num"
+},
+{
+"rank": 1171,
+"word": "elé",
+"ko": "~앞으로",
+"rd": "엘레",
+"pos": "postp"
+},
+{
+"rank": 1172,
+"word": "megismer",
+"ko": "알게 되다",
+"rd": "메그이시메르",
+"pos": "verb"
+},
+{
+"rank": 1173,
+"word": "bíróság",
+"ko": "법원",
+"rd": "비로샤그",
+"pos": "noun"
+},
+{
+"rank": 1174,
+"word": "ideges",
+"ko": "긴장한",
+"rd": "이데게시",
+"pos": "adj"
+},
+{
+"rank": 1175,
+"word": "elárul",
+"ko": "배신하다, 누설하다",
+"rd": "엘아룰",
+"pos": "verb"
+},
+{
+"rank": 1176,
+"word": "-son",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1177,
+"word": "mostanában",
+"ko": "요즘",
+"rd": "모슈터나반",
+"pos": "adv"
+},
+{
+"rank": 1178,
+"word": "szórakozik",
+"ko": "즐기다",
+"rd": "쏘러코직",
+"pos": "verb"
+},
+{
+"rank": 1179,
+"word": "-ója",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1180,
+"word": "állás",
+"ko": "일자리, 직위",
+"rd": "알라시",
+"pos": "noun"
+},
+{
+"rank": 1181,
+"word": "lista",
+"ko": "목록",
+"rd": "리슈터",
+"pos": "noun"
+},
+{
+"rank": 1182,
+"word": "bomba",
+"ko": "폭탄",
+"rd": "봄버",
+"pos": "noun"
+},
+{
+"rank": 1183,
+"word": "-tatok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1184,
+"word": "megkeres",
+"ko": "찾다, 벌다",
+"rd": "메그케레시",
+"pos": "verb"
+},
+{
+"rank": 1185,
+"word": "-óan",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1186,
+"word": "szerencsés",
+"ko": "운이 좋은",
+"rd": "세렌체시",
+"pos": "adj"
+},
+{
+"rank": 1187,
+"word": "csoda",
+"ko": "기적",
+"rd": "초더",
+"pos": "noun"
+},
+{
+"rank": 1188,
+"word": "elkap",
+"ko": "붙잡다",
+"rd": "엘커프",
+"pos": "verb"
+},
+{
+"rank": 1189,
+"word": "itthon",
+"ko": "집에서",
+"rd": "이트혼",
+"pos": "adv"
+},
+{
+"rank": 1190,
+"word": "utolja",
+"ko": "마지막 (사전형: utolsó)",
+"rd": "우톨여",
+"pos": "adj"
+},
+{
+"rank": 1191,
+"word": "-itak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1192,
+"word": "üres",
+"ko": "빈",
+"rd": "위레시",
+"pos": "adj"
+},
+{
+"rank": 1193,
+"word": "emlék",
+"ko": "기억, 추억",
+"rd": "엠레크",
+"pos": "noun"
+},
+{
+"rank": 1194,
+"word": "kedvenc",
+"ko": "좋아하는, 즐겨 찾는",
+"rd": "케드벤츠",
+"pos": "adj"
+},
+{
+"rank": 1195,
+"word": "hazamegy",
+"ko": "집에 가다",
+"rd": "허저메지",
+"pos": "verb"
+},
+{
+"rank": 1196,
+"word": "kíváncsi",
+"ko": "궁금한",
+"rd": "키반치",
+"pos": "adj"
+},
+{
+"rank": 1197,
+"word": "barátod",
+"ko": "네 친구",
+"rd": "버라토드",
+"pos": "noun"
+},
+{
+"rank": 1198,
+"word": "megváltozik",
+"ko": "변하다",
+"rd": "메그발토조크",
+"pos": "verb"
+},
+{
+"rank": 1199,
+"word": "étel",
+"ko": "음식",
+"rd": "에텔",
+"pos": "noun"
+},
+{
+"rank": 1200,
+"word": "meglepetés",
+"ko": "놀라운 일",
+"rd": "메글레페테시",
+"pos": "noun"
+},
+{
+"rank": 1201,
+"word": "-attál",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1202,
+"word": "szex",
+"ko": "성(性)",
+"rd": "쎅스",
+"pos": "noun"
+},
+{
+"rank": 1203,
+"word": "szakít",
+"ko": "헤어지다, 끊다",
+"rd": "써키트",
+"pos": "verb"
+},
+{
+"rank": 1204,
+"word": "hiszen",
+"ko": "왜냐하면 ~이니까",
+"rd": "히쎈",
+"pos": "conj"
+},
+{
+"rank": 1205,
+"word": "hallgass",
+"ko": "들어라, 조용히 해라(명령형)",
+"rd": "헐그어시",
+"pos": "verb"
+},
+{
+"rank": 1206,
+"word": "felett",
+"ko": "~위에",
+"rd": "펠레트",
+"pos": "postp"
+},
+{
+"rank": 1207,
+"word": "csoport",
+"ko": "그룹",
+"rd": "초포르트",
+"pos": "noun"
+},
+{
+"rank": 1208,
+"word": "tök",
+"ko": "호박",
+"rd": "퇴크",
+"pos": "noun"
+},
+{
+"rank": 1209,
+"word": "ám",
+"ko": "그러나, 정말(강조)",
+"rd": "암",
+"pos": "particle"
+},
+{
+"rank": 1210,
+"word": "igazgat",
+"ko": "관리하다",
+"rd": "이거즈거트",
+"pos": "verb"
+},
+{
+"rank": 1211,
+"word": "-li",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1212,
+"word": "-hatnám",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1213,
+"word": "ártatlan",
+"ko": "무고한",
+"rd": "아르터틀런",
+"pos": "adj"
+},
+{
+"rank": 1214,
+"word": "igenis",
+"ko": "네, 알겠습니다",
+"rd": "이게니시",
+"pos": "interj"
+},
+{
+"rank": 1215,
+"word": "ugrik",
+"ko": "뛰다, 점프하다",
+"rd": "우그릭",
+"pos": "verb"
+},
+{
+"rank": 1216,
+"word": "dug",
+"ko": "꽂다, 찔러넣다",
+"rd": "둑",
+"pos": "verb"
+},
+{
+"rank": 1217,
+"word": "szél",
+"ko": "바람",
+"rd": "쎌",
+"pos": "noun"
+},
+{
+"rank": 1218,
+"word": "gyakran",
+"ko": "자주",
+"rd": "저크런",
+"pos": "adv"
+},
+{
+"rank": 1219,
+"word": "bárcsak",
+"ko": "~하면 좋을 텐데",
+"rd": "바르촉",
+"pos": "particle"
+},
+{
+"rank": 1220,
+"word": "meglep",
+"ko": "놀라게 하다",
+"rd": "메글렙",
+"pos": "verb"
+},
+{
+"rank": 1221,
+"word": "felad",
+"ko": "포기하다, 부치다",
+"rd": "펠러드",
+"pos": "verb"
+},
+{
+"rank": 1222,
+"word": "alak",
+"ko": "모습, 형상",
+"rd": "얼러크",
+"pos": "noun"
+},
+{
+"rank": 1223,
+"word": "dal",
+"ko": "노래",
+"rd": "덜",
+"pos": "noun"
+},
+{
+"rank": 1224,
+"word": "csodás",
+"ko": "멋진",
+"rd": "초다시",
+"pos": "adj"
+},
+{
+"rank": 1225,
+"word": "suli",
+"ko": "학교(줄임말)",
+"rd": "슐리",
+"pos": "noun"
+},
+{
+"rank": 1226,
+"word": "nyolc",
+"ko": "여덟",
+"rd": "뇰츠",
+"pos": "num"
+},
+{
+"rank": 1227,
+"word": "vicc",
+"ko": "농담",
+"rd": "비츠",
+"pos": "noun"
+},
+{
+"rank": 1228,
+"word": "rövid",
+"ko": "짧은",
+"rd": "뢰비드",
+"pos": "adj"
+},
+{
+"rank": 1229,
+"word": "hülyeség",
+"ko": "바보 같은 짓",
+"rd": "휼예셰그",
+"pos": "noun"
+},
+{
+"rank": 1230,
+"word": "kizár",
+"ko": "배제하다",
+"rd": "키자르",
+"pos": "verb"
+},
+{
+"rank": 1231,
+"word": "támogat",
+"ko": "지원하다",
+"rd": "타모거트",
+"pos": "verb"
+},
+{
+"rank": 1232,
+"word": "bolygó",
+"ko": "행성",
+"rd": "볼요고",
+"pos": "noun"
+},
+{
+"rank": 1233,
+"word": "hulla",
+"ko": "시체",
+"rd": "훌러",
+"pos": "noun"
+},
+{
+"rank": 1234,
+"word": "elküld",
+"ko": "보내다",
+"rd": "엘퀼드",
+"pos": "verb"
+},
+{
+"rank": 1235,
+"word": "barátnő",
+"ko": "여자친구",
+"rd": "버라트뇌",
+"pos": "noun"
+},
+{
+"rank": 1236,
+"word": "előz",
+"ko": "앞지르다",
+"rd": "엘뢰즈",
+"pos": "verb"
+},
+{
+"rank": 1237,
+"word": "jelentkezik",
+"ko": "지원하다, 신고하다",
+"rd": "예렌트케직",
+"pos": "verb"
+},
+{
+"rank": 1238,
+"word": "lélek",
+"ko": "영혼",
+"rd": "레렉",
+"pos": "noun"
+},
+{
+"rank": 1239,
+"word": "-ban",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1240,
+"word": "gazdag",
+"ko": "부유한",
+"rd": "거즈더그",
+"pos": "adj"
+},
+{
+"rank": 1241,
+"word": "mozdul",
+"ko": "움직이다",
+"rd": "모즈둘",
+"pos": "verb"
+},
+{
+"rank": 1242,
+"word": "foglal",
+"ko": "예약하다, 차지하다",
+"rd": "포글럴",
+"pos": "verb"
+},
+{
+"rank": 1243,
+"word": "célpont",
+"ko": "표적",
+"rd": "쩰폰트",
+"pos": "noun"
+},
+{
+"rank": 1244,
+"word": "hölgyeim",
+"ko": "숙녀 여러분",
+"rd": "회지에임",
+"pos": "noun"
+},
+{
+"rank": 1245,
+"word": "mell",
+"ko": "가슴",
+"rd": "멜",
+"pos": "noun"
+},
+{
+"rank": 1246,
+"word": "ezredes",
+"ko": "대령",
+"rd": "에즈레데시",
+"pos": "noun"
+},
+{
+"rank": 1247,
+"word": "hallik",
+"ko": "들리다",
+"rd": "헐릭",
+"pos": "verb"
+},
+{
+"rank": 1248,
+"word": "rúg",
+"ko": "차다",
+"rd": "루그",
+"pos": "verb"
+},
+{
+"rank": 1249,
+"word": "sör",
+"ko": "맥주",
+"rd": "쇠르",
+"pos": "noun"
+},
+{
+"rank": 1250,
+"word": "hogyne",
+"ko": "물론이죠",
+"rd": "호지네",
+"pos": "interj"
+},
+{
+"rank": 1251,
+"word": "határ",
+"ko": "국경, 경계",
+"rd": "하타르",
+"pos": "noun"
+},
+{
+"rank": 1252,
+"word": "mégsem",
+"ko": "그래도 ~않다",
+"rd": "메그셈",
+"pos": "adv"
+},
+{
+"rank": 1253,
+"word": "-óban",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1254,
+"word": "kinyit",
+"ko": "열다",
+"rd": "키니트",
+"pos": "verb"
+},
+{
+"rank": 1255,
+"word": "által",
+"ko": "~에 의해",
+"rd": "알탈",
+"pos": "postp"
+},
+{
+"rank": 1256,
+"word": "ördög",
+"ko": "악마",
+"rd": "외르뢰그",
+"pos": "noun"
+},
+{
+"rank": 1257,
+"word": "h",
+"ko": "알파벳 h",
+"rd": "",
+"pos": "other"
+},
+{
+"rank": 1258,
+"word": "-hati",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1259,
+"word": "john",
+"ko": "존(이름)",
+"rd": "존",
+"pos": "propn"
+},
+{
+"rank": 1260,
+"word": "megoldás",
+"ko": "해결책",
+"rd": "메골다시",
+"pos": "noun"
+},
+{
+"rank": 1261,
+"word": "általában",
+"ko": "보통, 일반적으로",
+"rd": "알탈러번",
+"pos": "adv"
+},
+{
+"rank": 1262,
+"word": "kicsoda",
+"ko": "누구(강조)",
+"rd": "키초더",
+"pos": "pron"
+},
+{
+"rank": 1263,
+"word": "láthat",
+"ko": "볼 수 있다, 방문하다",
+"rd": "라트헛",
+"pos": "verb"
+},
+{
+"rank": 1264,
+"word": "hivatalos",
+"ko": "공식적인",
+"rd": "히버털로슈",
+"pos": "adj"
+},
+{
+"rank": 1265,
+"word": "magyaráz",
+"ko": "설명하다",
+"rd": "머저라즈",
+"pos": "verb"
+},
+{
+"rank": 1266,
+"word": "bébi",
+"ko": "아기",
+"rd": "베비",
+"pos": "noun"
+},
+{
+"rank": 1267,
+"word": "szükséges",
+"ko": "필요한",
+"rd": "쒸크세게시",
+"pos": "adj"
+},
+{
+"rank": 1268,
+"word": "csal",
+"ko": "속이다",
+"rd": "철",
+"pos": "verb"
+},
+{
+"rank": 1269,
+"word": "-ba",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1270,
+"word": "erdő",
+"ko": "숲",
+"rd": "에르되",
+"pos": "noun"
+},
+{
+"rank": 1271,
+"word": "ló",
+"ko": "말",
+"rd": "로",
+"pos": "noun"
+},
+{
+"rank": 1272,
+"word": "kezed",
+"ko": "네 손",
+"rd": "케제드",
+"pos": "noun"
+},
+{
+"rank": 1273,
+"word": "telik",
+"ko": "지나다, 차다",
+"rd": "테릭",
+"pos": "verb"
+},
+{
+"rank": 1274,
+"word": "rohadék",
+"ko": "개자식(욕)",
+"rd": "로허데크",
+"pos": "noun"
+},
+{
+"rank": 1275,
+"word": "anyag",
+"ko": "재료, 물질",
+"rd": "언여그",
+"pos": "noun"
+},
+{
+"rank": 1276,
+"word": "hős",
+"ko": "영웅",
+"rd": "회시",
+"pos": "noun"
+},
+{
+"rank": 1277,
+"word": "bolt",
+"ko": "가게",
+"rd": "볼트",
+"pos": "noun"
+},
+{
+"rank": 1278,
+"word": "szint",
+"ko": "수준, 층",
+"rd": "씬트",
+"pos": "noun"
+},
+{
+"rank": 1279,
+"word": "öv",
+"ko": "벨트, 허리띠",
+"rd": "외브",
+"pos": "noun"
+},
+{
+"rank": 1280,
+"word": "hatalom",
+"ko": "권력",
+"rd": "허털롬",
+"pos": "noun"
+},
+{
+"rank": 1281,
+"word": "azután",
+"ko": "그 후에",
+"rd": "어주탄",
+"pos": "adv"
+},
+{
+"rank": 1282,
+"word": "kaja",
+"ko": "음식(속어)",
+"rd": "커여",
+"pos": "noun"
+},
+{
+"rank": 1283,
+"word": "lenyűgöz",
+"ko": "감탄시키다",
+"rd": "레뉘괴즈",
+"pos": "verb"
+},
+{
+"rank": 1284,
+"word": "hatás",
+"ko": "영향, 효과",
+"rd": "허타시",
+"pos": "noun"
+},
+{
+"rank": 1285,
+"word": "rendez",
+"ko": "정리하다, 개최하다",
+"rd": "렌데즈",
+"pos": "verb"
+},
+{
+"rank": 1286,
+"word": "műsor",
+"ko": "프로그램, 쇼",
+"rd": "뮈쇼르",
+"pos": "noun"
+},
+{
+"rank": 1287,
+"word": "remény",
+"ko": "희망",
+"rd": "레메니",
+"pos": "noun"
+},
+{
+"rank": 1288,
+"word": "könyörög",
+"ko": "애원하다",
+"rd": "쾨녀뢰그",
+"pos": "verb"
+},
+{
+"rank": 1289,
+"word": "verseny",
+"ko": "경주, 대회",
+"rd": "베르셰니",
+"pos": "noun"
+},
+{
+"rank": 1290,
+"word": "templom",
+"ko": "교회, 사원",
+"rd": "템플롬",
+"pos": "noun"
+},
+{
+"rank": 1291,
+"word": "ajánlat",
+"ko": "제안",
+"rd": "어야들러트",
+"pos": "noun"
+},
+{
+"rank": 1292,
+"word": "-k",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1293,
+"word": "-sunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1294,
+"word": "orr",
+"ko": "코",
+"rd": "오르",
+"pos": "noun"
+},
+{
+"rank": 1295,
+"word": "telefonál",
+"ko": "전화하다",
+"rd": "텔레포날",
+"pos": "verb"
+},
+{
+"rank": 1296,
+"word": "you",
+"ko": "",
+"rd": "",
+"pos": "other"
+},
+{
+"rank": 1297,
+"word": "golyó",
+"ko": "총알",
+"rd": "골료",
+"pos": "noun"
+},
+{
+"rank": 1298,
+"word": "bajod",
+"ko": "네 문제",
+"rd": "버요드",
+"pos": "noun"
+},
+{
+"rank": 1299,
+"word": "megváltoztat",
+"ko": "바꾸다",
+"rd": "메그발토즈터트",
+"pos": "verb"
+},
+{
+"rank": 1300,
+"word": "időnk",
+"ko": "우리의 시간",
+"rd": "이되크",
+"pos": "noun"
+},
+{
+"rank": 1301,
+"word": "ba",
+"ko": "~안으로(접미사 -ba)",
+"rd": "버",
+"pos": "suffix"
+},
+{
+"rank": 1302,
+"word": "hasonlít",
+"ko": "닮다",
+"rd": "허숀리트",
+"pos": "verb"
+},
+{
+"rank": 1303,
+"word": "függ",
+"ko": "의존하다",
+"rd": "퓌그",
+"pos": "verb"
+},
+{
+"rank": 1304,
+"word": "vád",
+"ko": "비난, 기소",
+"rd": "바드",
+"pos": "noun"
+},
+{
+"rank": 1305,
+"word": "idős",
+"ko": "나이 든",
+"rd": "이되시",
+"pos": "adj"
+},
+{
+"rank": 1306,
+"word": "fedez",
+"ko": "덮다, 보호하다",
+"rd": "페데즈",
+"pos": "verb"
+},
+{
+"rank": 1307,
+"word": "letartóztat",
+"ko": "체포하다",
+"rd": "레터르토즈터트",
+"pos": "verb"
+},
+{
+"rank": 1308,
+"word": "vall",
+"ko": "고백하다",
+"rd": "벌",
+"pos": "verb"
+},
+{
+"rank": 1309,
+"word": "bank",
+"ko": "은행",
+"rd": "번크",
+"pos": "noun"
+},
+{
+"rank": 1310,
+"word": "házas",
+"ko": "결혼한",
+"rd": "하저시",
+"pos": "adj"
+},
+{
+"rank": 1311,
+"word": "-a",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1312,
+"word": "n",
+"ko": "알파벳 n",
+"rd": "",
+"pos": "other"
+},
+{
+"rank": 1313,
+"word": "létez",
+"ko": "존재하다",
+"rd": "레테즈",
+"pos": "verb"
+},
+{
+"rank": 1314,
+"word": "elfoglal",
+"ko": "차지하다",
+"rd": "엘포글럴",
+"pos": "verb"
+},
+{
+"rank": 1315,
+"word": "őrmester",
+"ko": "상사(군)",
+"rd": "외르메슈테르",
+"pos": "noun"
+},
+{
+"rank": 1316,
+"word": "nevetséges",
+"ko": "우스꽝스러운",
+"rd": "네벳셰게시",
+"pos": "adj"
+},
+{
+"rank": 1317,
+"word": "angol",
+"ko": "영국의, 영어",
+"rd": "언골",
+"pos": "adj"
+},
+{
+"rank": 1318,
+"word": "szemben",
+"ko": "~맞은편에",
+"rd": "쎔벤",
+"pos": "postp"
+},
+{
+"rank": 1319,
+"word": "nevű",
+"ko": "~라는 이름의",
+"rd": "네뷔",
+"pos": "adj"
+},
+{
+"rank": 1320,
+"word": "közepe",
+"ko": "한가운데",
+"rd": "쾨제페",
+"pos": "noun"
+},
+{
+"rank": 1321,
+"word": "miss",
+"ko": "미스(호칭)",
+"rd": "미시",
+"pos": "noun"
+},
+{
+"rank": 1322,
+"word": "-attak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1323,
+"word": "gyűlöl",
+"ko": "미워하다",
+"rd": "쥐뢸",
+"pos": "verb"
+},
+{
+"rank": 1324,
+"word": "délután",
+"ko": "오후",
+"rd": "델우탄",
+"pos": "noun"
+},
+{
+"rank": 1325,
+"word": "úgyis",
+"ko": "어차피",
+"rd": "우지시",
+"pos": "adv"
+},
+{
+"rank": 1326,
+"word": "gondoskodik",
+"ko": "돌보다",
+"rd": "곤도슈코딕",
+"pos": "verb"
+},
+{
+"rank": 1327,
+"word": "költözik",
+"ko": "이사하다",
+"rd": "쾰퇴직",
+"pos": "verb"
+},
+{
+"rank": 1328,
+"word": "pasas",
+"ko": "녀석, 남자",
+"rd": "퍼셔시",
+"pos": "noun"
+},
+{
+"rank": 1329,
+"word": "holttest",
+"ko": "시신",
+"rd": "홀테슈트",
+"pos": "noun"
+},
+{
+"rank": 1330,
+"word": "javasol",
+"ko": "제안하다",
+"rd": "여버쇨",
+"pos": "verb"
+},
+{
+"rank": 1331,
+"word": "-na",
+"ko": "명사·형용사 접미사",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1332,
+"word": "ostoba",
+"ko": "어리석은",
+"rd": "오슈토버",
+"pos": "adj"
+},
+{
+"rank": 1333,
+"word": "kijön",
+"ko": "나오다",
+"rd": "키왼",
+"pos": "verb"
+},
+{
+"rank": 1334,
+"word": "csillag",
+"ko": "별",
+"rd": "칠러그",
+"pos": "noun"
+},
+{
+"rank": 1335,
+"word": "mutasd",
+"ko": "보여 줘(명령형)",
+"rd": "무터슈트",
+"pos": "verb"
+},
+{
+"rank": 1336,
+"word": "hmm",
+"ko": "흠(감탄사)",
+"rd": "흠",
+"pos": "interj"
+},
+{
+"rank": 1337,
+"word": "törik",
+"ko": "부서지다",
+"rd": "퇴릭",
+"pos": "verb"
+},
+{
+"rank": 1338,
+"word": "beszéd",
+"ko": "말, 연설",
+"rd": "베쎄드",
+"pos": "noun"
+},
+{
+"rank": 1339,
+"word": "megáll",
+"ko": "멈추다",
+"rd": "메갈",
+"pos": "verb"
+},
+{
+"rank": 1340,
+"word": "szerelme",
+"ko": "그의 사랑",
+"rd": "쎄렐메",
+"pos": "noun"
+},
+{
+"rank": 1341,
+"word": "csupán",
+"ko": "단지",
+"rd": "추판",
+"pos": "adv"
+},
+{
+"rank": 1342,
+"word": "bocsáss",
+"ko": "용서해라(명령형)",
+"rd": "보차시",
+"pos": "verb"
+},
+{
+"rank": 1343,
+"word": "ébred",
+"ko": "잠에서 깨다",
+"rd": "에브레드",
+"pos": "verb"
+},
+{
+"rank": 1344,
+"word": "főleg",
+"ko": "특히",
+"rd": "푀레그",
+"pos": "adv"
+},
+{
+"rank": 1345,
+"word": "bármily",
+"ko": "어떤 ~든 (사전형: bármilyen)",
+"rd": "바르미이",
+"pos": "det"
+},
+{
+"rank": 1346,
+"word": "élő",
+"ko": "살아있는",
+"rd": "엘뢰",
+"pos": "adj"
+},
+{
+"rank": 1347,
+"word": "szívesség",
+"ko": "호의, 부탁",
+"rd": "씨베셰그",
+"pos": "noun"
+},
+{
+"rank": 1348,
+"word": "-ssák",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1349,
+"word": "ismét",
+"ko": "다시",
+"rd": "이슈메트",
+"pos": "adv"
+},
+{
+"rank": 1350,
+"word": "szolgálat",
+"ko": "서비스, 근무",
+"rd": "솔갈러트",
+"pos": "noun"
+},
+{
+"rank": 1351,
+"word": "teszt",
+"ko": "시험",
+"rd": "테스트",
+"pos": "noun"
+},
+{
+"rank": 1352,
+"word": "-hatad",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1353,
+"word": "-attuk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1354,
+"word": "ijeszt",
+"ko": "겁주다",
+"rd": "이예스트",
+"pos": "verb"
+},
+{
+"rank": 1355,
+"word": "tető",
+"ko": "지붕",
+"rd": "테퇴",
+"pos": "noun"
+},
+{
+"rank": 1356,
+"word": "-anad",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1357,
+"word": "tény",
+"ko": "사실",
+"rd": "테니",
+"pos": "noun"
+},
+{
+"rank": 1358,
+"word": "tudhat",
+"ko": "알 수 있다",
+"rd": "투트헛",
+"pos": "verb"
+},
+{
+"rank": 1359,
+"word": "aranyos",
+"ko": "귀여운",
+"rd": "어러뇨시",
+"pos": "adj"
+},
+{
+"rank": 1360,
+"word": "létezik",
+"ko": "존재한다",
+"rd": "레테지크",
+"pos": "verb"
+},
+{
+"rank": 1361,
+"word": "fantasztikus",
+"ko": "환상적인",
+"rd": "펀터스티쿠시",
+"pos": "adj"
+},
+{
+"rank": 1362,
+"word": "emiatt",
+"ko": "그 때문에",
+"rd": "에미어트",
+"pos": "adv"
+},
+{
+"rank": 1363,
+"word": "lóg",
+"ko": "매달리다, 어슬렁거리다",
+"rd": "로그",
+"pos": "verb"
+},
+{
+"rank": 1364,
+"word": "üveg",
+"ko": "유리, 병",
+"rd": "위베그",
+"pos": "noun"
+},
+{
+"rank": 1365,
+"word": "lény",
+"ko": "존재, 생물",
+"rd": "레니",
+"pos": "noun"
+},
+{
+"rank": 1366,
+"word": "tuti",
+"ko": "확실한",
+"rd": "투티",
+"pos": "adj"
+},
+{
+"rank": 1367,
+"word": "felség",
+"ko": "폐하",
+"rd": "펠셰그",
+"pos": "noun"
+},
+{
+"rank": 1368,
+"word": "hátul",
+"ko": "뒤쪽에",
+"rd": "하툴",
+"pos": "adv"
+},
+{
+"rank": 1369,
+"word": "neve",
+"ko": "그의 이름",
+"rd": "네베",
+"pos": "noun"
+},
+{
+"rank": 1370,
+"word": "vize",
+"ko": "그의 물 (사전형: víz)",
+"rd": "비제",
+"pos": "noun"
+},
+{
+"rank": 1371,
+"word": "érdemel",
+"ko": "누릴 자격이 있다",
+"rd": "에르데멜",
+"pos": "verb"
+},
+{
+"rank": 1372,
+"word": "részeg",
+"ko": "취한",
+"rd": "레쎄그",
+"pos": "adj"
+},
+{
+"rank": 1373,
+"word": "levél",
+"ko": "편지; 잎",
+"rd": "레벨",
+"pos": "noun"
+},
+{
+"rank": 1374,
+"word": "legyőz",
+"ko": "물리치다",
+"rd": "레죄즈",
+"pos": "verb"
+},
+{
+"rank": 1375,
+"word": "mozog",
+"ko": "움직이다",
+"rd": "모조그",
+"pos": "verb"
+},
+{
+"rank": 1376,
+"word": "értékel",
+"ko": "높이 평가하다",
+"rd": "에르테켈",
+"pos": "verb"
+},
+{
+"rank": 1377,
+"word": "feled",
+"ko": "잊다",
+"rd": "펠레드",
+"pos": "verb"
+},
+{
+"rank": 1378,
+"word": "klub",
+"ko": "클럽",
+"rd": "클루브",
+"pos": "noun"
+},
+{
+"rank": 1379,
+"word": "pálya",
+"ko": "경기장, 궤도",
+"rd": "파여",
+"pos": "noun"
+},
+{
+"rank": 1380,
+"word": "gyanúsít",
+"ko": "의심하다",
+"rd": "저누쉬트",
+"pos": "verb"
+},
+{
+"rank": 1381,
+"word": "bűnös",
+"ko": "유죄의",
+"rd": "뷔뇌시",
+"pos": "adj"
+},
+{
+"rank": 1382,
+"word": "program",
+"ko": "프로그램",
+"rd": "프로그럼",
+"pos": "noun"
+},
+{
+"rank": 1383,
+"word": "megtart",
+"ko": "지키다, 유지하다",
+"rd": "메그터르트",
+"pos": "verb"
+},
+{
+"rank": 1384,
+"word": "indulás",
+"ko": "출발",
+"rd": "인둘라시",
+"pos": "noun"
+},
+{
+"rank": 1385,
+"word": "csinos",
+"ko": "예쁜",
+"rd": "치노시",
+"pos": "adj"
+},
+{
+"rank": 1386,
+"word": "jelenleg",
+"ko": "현재",
+"rd": "옐렌레그",
+"pos": "adv"
+},
+{
+"rank": 1387,
+"word": "gáz",
+"ko": "가스",
+"rd": "가즈",
+"pos": "noun"
+},
+{
+"rank": 1388,
+"word": "-anam",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1389,
+"word": "part",
+"ko": "해안, 기슭",
+"rd": "퍼르트",
+"pos": "noun"
+},
+{
+"rank": 1390,
+"word": "szabadság",
+"ko": "자유",
+"rd": "써버드샤그",
+"pos": "noun"
+},
+{
+"rank": 1391,
+"word": "sehova",
+"ko": "아무 데도",
+"rd": "셰호버",
+"pos": "adv"
+},
+{
+"rank": 1392,
+"word": "san",
+"ko": "산(외래어 san)",
+"rd": "션",
+"pos": "other"
+},
+{
+"rank": 1393,
+"word": "vonal",
+"ko": "선",
+"rd": "보널",
+"pos": "noun"
+},
+{
+"rank": 1394,
+"word": "tanár",
+"ko": "선생님",
+"rd": "터나르",
+"pos": "noun"
+},
+{
+"rank": 1395,
+"word": "hétvége",
+"ko": "주말",
+"rd": "헤트베게",
+"pos": "noun"
+},
+{
+"rank": 1396,
+"word": "múlik",
+"ko": "지나가다, ~에 달려 있다",
+"rd": "물릭",
+"pos": "verb"
+},
+{
+"rank": 1397,
+"word": "osztály",
+"ko": "학급, 부서",
+"rd": "오스타이",
+"pos": "noun"
+},
+{
+"rank": 1398,
+"word": "úristen",
+"ko": "세상에, 맙소사",
+"rd": "우리슈텐",
+"pos": "interj"
+},
+{
+"rank": 1399,
+"word": "vörös",
+"ko": "붉은",
+"rd": "뵈뢰시",
+"pos": "adj"
+},
+{
+"rank": 1400,
+"word": "megvesz",
+"ko": "사다",
+"rd": "메그베스",
+"pos": "verb"
+},
+{
+"rank": 1401,
+"word": "-ssan",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1402,
+"word": "hálás",
+"ko": "고마워하는",
+"rd": "할라시",
+"pos": "adj"
+},
+{
+"rank": 1403,
+"word": "-tátok",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1404,
+"word": "lefekszik",
+"ko": "눕다",
+"rd": "레펙직",
+"pos": "verb"
+},
+{
+"rank": 1405,
+"word": "-anák",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1406,
+"word": "meddig",
+"ko": "언제까지",
+"rd": "메디그",
+"pos": "adv"
+},
+{
+"rank": 1407,
+"word": "reggeli",
+"ko": "아침 식사",
+"rd": "렉겔리",
+"pos": "noun"
+},
+{
+"rank": 1408,
+"word": "nézet",
+"ko": "견해",
+"rd": "네제트",
+"pos": "noun"
+},
+{
+"rank": 1409,
+"word": "hazugság",
+"ko": "거짓말",
+"rd": "허주그샤그",
+"pos": "noun"
+},
+{
+"rank": 1410,
+"word": "ügyes",
+"ko": "솜씨 좋은",
+"rd": "위계시",
+"pos": "adj"
+},
+{
+"rank": 1411,
+"word": "beszélgetés",
+"ko": "대화",
+"rd": "베쎌게테시",
+"pos": "noun"
+},
+{
+"rank": 1412,
+"word": "feltesz",
+"ko": "올려놓다, 가정하다",
+"rd": "펠테스",
+"pos": "verb"
+},
+{
+"rank": 1413,
+"word": "pofa",
+"ko": "얼굴(비속어)",
+"rd": "포퍼",
+"pos": "noun"
+},
+{
+"rank": 1414,
+"word": "kimegy",
+"ko": "나가다",
+"rd": "키메지",
+"pos": "verb"
+},
+{
+"rank": 1415,
+"word": "kétszer",
+"ko": "두 번",
+"rd": "케트쎄르",
+"pos": "adv"
+},
+{
+"rank": 1416,
+"word": "hord",
+"ko": "나르다, 입다",
+"rd": "호르드",
+"pos": "verb"
+},
+{
+"rank": 1417,
+"word": "tetted",
+"ko": "네 행동",
+"rd": "테테드",
+"pos": "noun"
+},
+{
+"rank": 1418,
+"word": "virág",
+"ko": "꽃",
+"rd": "비라그",
+"pos": "noun"
+},
+{
+"rank": 1419,
+"word": "sam",
+"ko": "샘(이름)",
+"rd": "셤",
+"pos": "propn"
+},
+{
+"rank": 1420,
+"word": "mostantól",
+"ko": "이제부터",
+"rd": "모슈턴톨",
+"pos": "adv"
+},
+{
+"rank": 1421,
+"word": "kisasszony",
+"ko": "아가씨",
+"rd": "키셔쏜",
+"pos": "noun"
+},
+{
+"rank": 1422,
+"word": "dél",
+"ko": "남쪽, 정오",
+"rd": "델",
+"pos": "noun"
+},
+{
+"rank": 1423,
+"word": "hajt",
+"ko": "몰다, 밀어붙이다",
+"rd": "허이트",
+"pos": "verb"
+},
+{
+"rank": 1424,
+"word": "felelős",
+"ko": "책임 있는",
+"rd": "펠레뢰시",
+"pos": "adj"
+},
+{
+"rank": 1425,
+"word": "társaság",
+"ko": "회사, 모임",
+"rd": "타르셔샤그",
+"pos": "noun"
+},
+{
+"rank": 1426,
+"word": "hotel",
+"ko": "호텔",
+"rd": "호텔",
+"pos": "noun"
+},
+{
+"rank": 1427,
+"word": "mama",
+"ko": "엄마, 할머니",
+"rd": "머머",
+"pos": "noun"
+},
+{
+"rank": 1428,
+"word": "bátor",
+"ko": "용감한",
+"rd": "바토르",
+"pos": "adj"
+},
+{
+"rank": 1429,
+"word": "különbözik",
+"ko": "다르다",
+"rd": "퀼룀뵈직",
+"pos": "verb"
+},
+{
+"rank": 1430,
+"word": "elveszik",
+"ko": "없어지다, 길을 잃다",
+"rd": "엘베직",
+"pos": "verb"
+},
+{
+"rank": 1431,
+"word": "helyi",
+"ko": "지역의",
+"rd": "헤이이",
+"pos": "adj"
+},
+{
+"rank": 1432,
+"word": "-ssunk",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1433,
+"word": "sziasztok",
+"ko": "안녕하세요(여러분)",
+"rd": "씨어스톡",
+"pos": "interj"
+},
+{
+"rank": 1434,
+"word": "figyelmeztet",
+"ko": "경고하다",
+"rd": "피젤메즈테트",
+"pos": "verb"
+},
+{
+"rank": 1435,
+"word": "üzenet",
+"ko": "메시지",
+"rd": "위제네트",
+"pos": "noun"
+},
+{
+"rank": 1436,
+"word": "durva",
+"ko": "거친, 무례한",
+"rd": "두르버",
+"pos": "adj"
+},
+{
+"rank": 1437,
+"word": "tenger",
+"ko": "바다",
+"rd": "텐게르",
+"pos": "noun"
+},
+{
+"rank": 1438,
+"word": "meghív",
+"ko": "초대하다",
+"rd": "메그히브",
+"pos": "verb"
+},
+{
+"rank": 1439,
+"word": "anélkül",
+"ko": "~없이",
+"rd": "어넬퀼",
+"pos": "conj"
+},
+{
+"rank": 1440,
+"word": "odaad",
+"ko": "건네주다",
+"rd": "오더어드",
+"pos": "verb"
+},
+{
+"rank": 1441,
+"word": "csapda",
+"ko": "덫",
+"rd": "첩더",
+"pos": "noun"
+},
+{
+"rank": 1442,
+"word": "ellenére",
+"ko": "~에도 불구하고",
+"rd": "엘레네레",
+"pos": "postp"
+},
+{
+"rank": 1443,
+"word": "randizik",
+"ko": "데이트하다",
+"rd": "렌디직",
+"pos": "verb"
+},
+{
+"rank": 1444,
+"word": "felügyel",
+"ko": "감독하다",
+"rd": "펠뤼젤",
+"pos": "verb"
+},
+{
+"rank": 1445,
+"word": "friss",
+"ko": "신선한",
+"rd": "프리시",
+"pos": "adj"
+},
+{
+"rank": 1446,
+"word": "kés",
+"ko": "칼",
+"rd": "케시",
+"pos": "noun"
+},
+{
+"rank": 1447,
+"word": "vállal",
+"ko": "떠맡다",
+"rd": "발랄",
+"pos": "verb"
+},
+{
+"rank": 1448,
+"word": "hacsak",
+"ko": "~이 아니라면",
+"rd": "허촉",
+"pos": "conj"
+},
+{
+"rank": 1449,
+"word": "randi",
+"ko": "데이트",
+"rd": "런디",
+"pos": "noun"
+},
+{
+"rank": 1450,
+"word": "on",
+"ko": "영어 on",
+"rd": "온",
+"pos": "other"
+},
+{
+"rank": 1451,
+"word": "nyugodj",
+"ko": "진정해라(명령형)",
+"rd": "뉴고지",
+"pos": "verb"
+},
+{
+"rank": 1452,
+"word": "ribanc",
+"ko": "걸레(욕)",
+"rd": "리번츠",
+"pos": "noun"
+},
+{
+"rank": 1453,
+"word": "édesanya",
+"ko": "어머니",
+"rd": "에데셔녀",
+"pos": "noun"
+},
+{
+"rank": 1454,
+"word": "megsérül",
+"ko": "다치다",
+"rd": "메그셰륄",
+"pos": "verb"
+},
+{
+"rank": 1455,
+"word": "régóta",
+"ko": "오래전부터",
+"rd": "레고터",
+"pos": "adv"
+},
+{
+"rank": 1456,
+"word": "hajlandó",
+"ko": "기꺼이 ~하는",
+"rd": "허일런도",
+"pos": "adj"
+},
+{
+"rank": 1457,
+"word": "álmodik",
+"ko": "꿈꾸다",
+"rd": "알모딕",
+"pos": "verb"
+},
+{
+"rank": 1458,
+"word": "sors",
+"ko": "운명",
+"rd": "쇼르시",
+"pos": "noun"
+},
+{
+"rank": 1459,
+"word": "vizsgálat",
+"ko": "조사, 검사",
+"rd": "비지갈러트",
+"pos": "noun"
+},
+{
+"rank": 1460,
+"word": "-ható",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1461,
+"word": "fordít",
+"ko": "번역하다",
+"rd": "포르디트",
+"pos": "verb"
+},
+{
+"rank": 1462,
+"word": "vél",
+"ko": "여기다, 믿다",
+"rd": "벨",
+"pos": "verb"
+},
+{
+"rank": 1463,
+"word": "aznap",
+"ko": "그날",
+"rd": "어즈넙",
+"pos": "adv"
+},
+{
+"rank": 1464,
+"word": "félt",
+"ko": "걱정하다, 두려워하다 (사전형: fél)",
+"rd": "펠트",
+"pos": "verb"
+},
+{
+"rank": 1465,
+"word": "szerződés",
+"ko": "계약",
+"rd": "세르죄데시",
+"pos": "noun"
+},
+{
+"rank": 1466,
+"word": "apró",
+"ko": "아주 작은",
+"rd": "어프로",
+"pos": "adj"
+},
+{
+"rank": 1467,
+"word": "vágyik",
+"ko": "갈망하다",
+"rd": "바지크",
+"pos": "verb"
+},
+{
+"rank": 1468,
+"word": "fest",
+"ko": "칠하다",
+"rd": "페스트",
+"pos": "verb"
+},
+{
+"rank": 1469,
+"word": "francia",
+"ko": "프랑스의, 프랑스인",
+"rd": "프런치어",
+"pos": "adj"
+},
+{
+"rank": 1470,
+"word": "megesz",
+"ko": "먹어 치우다",
+"rd": "메게스",
+"pos": "verb"
+},
+{
+"rank": 1471,
+"word": "szülinap",
+"ko": "생일",
+"rd": "쓸리넙",
+"pos": "noun"
+},
+{
+"rank": 1472,
+"word": "súlyos",
+"ko": "심각한, 무거운",
+"rd": "슈이오시",
+"pos": "adj"
+},
+{
+"rank": 1473,
+"word": "mérges",
+"ko": "화난",
+"rd": "메르게시",
+"pos": "adj"
+},
+{
+"rank": 1474,
+"word": "d",
+"ko": "알파벳 d",
+"rd": "",
+"pos": "other"
+},
+{
+"rank": 1475,
+"word": "olyasmi",
+"ko": "그런 것",
+"rd": "오여슈미",
+"pos": "pron"
+},
+{
+"rank": 1476,
+"word": "-alak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1477,
+"word": "bosszú",
+"ko": "복수",
+"rd": "보쑤",
+"pos": "noun"
+},
+{
+"rank": 1478,
+"word": "azonosít",
+"ko": "확인하다, 식별하다",
+"rd": "어조노시트",
+"pos": "verb"
+},
+{
+"rank": 1479,
+"word": "hátha",
+"ko": "혹시나",
+"rd": "하터허",
+"pos": "adv"
+},
+{
+"rank": 1480,
+"word": "izgat",
+"ko": "흥분시키다",
+"rd": "이즈거트",
+"pos": "verb"
+},
+{
+"rank": 1481,
+"word": "alkalmaz",
+"ko": "적용하다, 고용하다",
+"rd": "얼컬머즈",
+"pos": "verb"
+},
+{
+"rank": 1482,
+"word": "ejt",
+"ko": "떨어뜨리다",
+"rd": "에이트",
+"pos": "verb"
+},
+{
+"rank": 1483,
+"word": "-sanak",
+"ko": "동사 어미(활용 묶음)",
+"rd": "",
+"pos": "suffix"
+},
+{
+"rank": 1484,
+"word": "halad",
+"ko": "나아가다",
+"rd": "허러드",
+"pos": "verb"
+},
+{
+"rank": 1485,
+"word": "ugyanez",
+"ko": "이것과 같은 것",
+"rd": "우저네즈",
+"pos": "pron"
+},
+{
+"rank": 1486,
+"word": "utóbb",
+"ko": "나중에",
+"rd": "우토브",
+"pos": "adv"
+},
+{
+"rank": 1487,
+"word": "semmily",
+"ko": "아무 ~도 아닌 (사전형: semmilyen)",
+"rd": "셈미이",
+"pos": "det"
+},
+{
+"rank": 1488,
+"word": "bor",
+"ko": "와인",
+"rd": "보르",
+"pos": "noun"
+},
+{
+"rank": 1489,
+"word": "bű",
+"ko": "죄 (사전형: bűn)",
+"rd": "뷔",
+"pos": "noun"
+},
+{
+"rank": 1490,
+"word": "kód",
+"ko": "코드",
+"rd": "코드",
+"pos": "noun"
+},
+{
+"rank": 1491,
+"word": "emel",
+"ko": "들어 올리다",
+"rd": "에멜",
+"pos": "verb"
+},
+{
+"rank": 1492,
+"word": "iránt",
+"ko": "~에 대해",
+"rd": "이란트",
+"pos": "postp"
+},
+{
+"rank": 1493,
+"word": "mer",
+"ko": "감히 ~하다",
+"rd": "메르",
+"pos": "verb"
+},
+{
+"rank": 1494,
+"word": "óriási",
+"ko": "거대한",
+"rd": "오리아시",
+"pos": "adj"
+},
+{
+"rank": 1495,
+"word": "zöld",
+"ko": "초록색",
+"rd": "죄르드",
+"pos": "adj"
+},
+{
+"rank": 1496,
+"word": "monda",
+"ko": "전설, 이야기",
+"rd": "몬더",
+"pos": "noun"
+},
+{
+"rank": 1497,
+"word": "tulajdon",
+"ko": "재산, 소유",
+"rd": "툴러이돈",
+"pos": "noun"
+},
+{
+"rank": 1498,
+"word": "neved",
+"ko": "네 이름",
+"rd": "네베드",
+"pos": "noun"
+},
+{
+"rank": 1499,
+"word": "sztori",
+"ko": "이야기",
+"rd": "스토리",
+"pos": "noun"
+},
+{
+"rank": 1500,
+"word": "kirúg",
+"ko": "내쫓다, 해고하다",
+"rd": "키루그",
+"pos": "verb"
+}
+]
+}
