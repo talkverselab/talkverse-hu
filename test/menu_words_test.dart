@@ -3,6 +3,8 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hungarian_universe/core/cliff.dart';
 import 'package:hungarian_universe/screens/about_screen.dart';
+import 'package:hungarian_universe/screens/alphabet_screen.dart';
+import 'package:hungarian_universe/services/hu_alphabet.dart';
 import 'package:hungarian_universe/screens/word_freq_screen.dart';
 import 'package:hungarian_universe/services/dialogue_service.dart';
 import 'package:hungarian_universe/widgets/suffix_text.dart';
@@ -60,4 +62,22 @@ void main() {
     expect(find.text('역'), findsOneWidget); // 단어장 뜻
     expect(find.textContaining('접미사 -'), findsOneWidget); // 접미사 시트로 가는 버튼
   });
+
+  test('알파벳 44자', () => expect(huLetters.length, 44));
+
+  for (final size in const [Size(360, 740), Size(820, 1180)]) {
+    testWidgets('알파벳과 발음 $size', (t) async {
+      t.view.physicalSize = size;
+      t.view.devicePixelRatio = 1;
+      addTearDown(t.view.reset);
+      await t.pumpWidget(const MaterialApp(home: AlphabetScreen()));
+      await t.pump();
+      expect(find.text('gy'), findsOneWidget);
+      await t.tap(find.text('gy'));
+      await t.pump(const Duration(milliseconds: 500));
+      await t.pump(const Duration(milliseconds: 500));
+      expect(find.textContaining('gyerek'), findsOneWidget);
+      await t.pump(const Duration(seconds: 2));
+    });
+  }
 }

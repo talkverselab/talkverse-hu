@@ -6,6 +6,7 @@ import '../core/theme.dart';
 import '../main.dart';
 import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
+import 'alphabet_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
@@ -389,8 +390,12 @@ class _TodayMissionState extends State<_TodayMission> {
 class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // 묶음 순서 = 일본어앱 배우기(2026-11-07): 문법 → 회화 → 단어 → 참고. 에피소드는 「학습」 탭.
+    // 묶음 순서 = 일본어앱 배우기(2026-11-07): 기초 → 문법 → 회화 → 단어 → 참고. 에피소드는 「학습」 탭.
     final sections = <(String, List<_MenuItem>)>[
+      (tr('기초'), [
+        _MenuItem(label: tr('알파벳과 발음'), sub: 'Ábécé', badge: 'gy', color: AppColors.magyar, // 일본어앱 「50음도와 발음」 자리(2026-11-08)
+          builder: (_) => const AlphabetScreen()),
+      ]),
       (tr('문법'), [
         _MenuItem(label: tr('문법'), sub: 'Nyelvtan', badge: 'G', color: AppColors.rojoDeep,
           builder: (_) => const GrammarHubScreen()),
@@ -422,8 +427,6 @@ class _MenuGrid extends StatelessWidget {
       (tr('참고'), [
         _MenuItem(label: tr('청크 검색'), sub: 'Keresés', badge: '🔍', color: AppColors.gualdaDeep,
           builder: (_) => const ChunkSearchScreen()),
-        _MenuItem(label: tr('발음'), sub: 'Kiejtés', badge: 'gy', color: AppColors.er,
-          builder: (_) => _ComingSoon(title: tr('발음 (gy · sz · 장모음)'))),
         _MenuItem(label: tr('성·수'), sub: 'Nem', badge: 'a/az', color: AppColors.mar,
           builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
       ]),
