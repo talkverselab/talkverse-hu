@@ -8,72 +8,65 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Na, egészségedre!"
+"polite",
+"Jó estét! Mit hozhatok?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"excited",
-"Egészségedre! Gyere, koccintsunk!"
+"polite",
+"Mit ajánl? Először vagyok itt."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shout",
-"Ne már! Sörrel nem koccintunk!"
+"cheerful",
+"A halászlé nagyon finom."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Miért nem? Mi van?"
+"worried",
+"Igen, de csípős. Vigyázz!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Régi szokás."
-],
-[
-"worried",
-"Nézd, mindenki minket néz."
+"cheerful",
+"Nem baj, szeretem a csípőset."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Jaj, bocsánat! Most mit csináljak?"
+"polite",
+"Tessék, a halászlé. Jó étvágyat!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Semmi baj!"
-],
-[
-"teasing",
-"Mindenkinek egy pálinka, és ön fizet."
+"shout",
+"Hű... Egy pohár vizet kérek!",
+"Hű, Egy pohár vizet kérek!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Mindenkinek? Hány ember van itt?"
+"teasing",
+"Na, szereted a csípőset?"
 ]
 ]
 }

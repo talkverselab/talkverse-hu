@@ -8,15 +8,15 @@
 "segs": [
 [
 "cheerful",
-"Szia! Mész a boltba?"
+"Megyek a boltba. Kell valami?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Igen, most megyek. Mi kell?"
+"polite",
+"Igen, tej. Hozol egyet?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "neutral",
-"Csak tej."
+"Persze. Zsíros vagy light?"
 ]
 ]
 },
@@ -32,15 +32,15 @@
 "segs": [
 [
 "neutral",
-"Mennyi tej?"
+"Mindegy. És kenyér is kell."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Mindegy. Sok."
+"gentle",
+"Oké. Fehér kenyér?"
 ]
 ]
 },
@@ -48,23 +48,23 @@
 "segs": [
 [
 "cheerful",
-"Itt vagyok! Tessék, a tej."
+"Igen. Köszi! Mennyi lesz?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"shout",
-"Úristen! Ez húsz liter!"
+"teasing",
+"Hagyd, majd te fizetsz holnap."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"tsukkomi",
-"Azt mondtad: sok."
+"amused",
+"Holnap? Holnap te főzöl!"
 ]
 ]
 }

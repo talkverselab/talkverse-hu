@@ -8,69 +8,72 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Mit tanulsz? Mi ez a hosszú szó?"
+"excited",
+"Itt a legjobb lángos a piacon."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"excited",
-"A leghosszabb magyar szó. Figyelj, mondom!"
+"cheerful",
+"Mit ajánlasz? Először eszem lángost."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"tsukkomi",
-"Ne már! Itt, a pékségben?"
+"gentle",
+"Sajtos-tejfölöset. Az a klasszikus."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"excited",
-"Igen! Megszentségteleníthetetlenségeskedéseitekért!"
+"polite",
+"Jó napot! Mit kér?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Úristen!"
-],
-[
-"amused",
-"És mit jelent?"
+"polite",
+"Egy lángost kérek, sajttal és tejjel."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shy",
-"Nem tudom. Egy hétig tanultam."
+"surprised",
+"Tejjel? A lángosra?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
+"amused",
+"Tejföllel!"
+],
+[
 "polite",
-"Tessék. Hány darabot kér?"
+"Bocsánat, még tanul."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Hát... kettőt.",
-"Hát, kettőt."
+"surprised",
+"Szóval a tejföl nem tej?"
+],
+[
+"cheerful",
+"Mindegy, finom!"
 ]
 ]
 }

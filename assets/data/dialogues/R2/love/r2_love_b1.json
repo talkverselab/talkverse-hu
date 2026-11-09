@@ -10,67 +10,70 @@
  "domain": [
   "love"
  ],
- "title": "안개 속 고백",
+ "title": "수영복을 깜빡했다",
  "emoji": "♨️",
- "scene": "온천 첫 데이트. Anna 가 A 의 안경을 받아 들고 잠깐 자리를 비운다. 김이 자욱해서 앞이 안 보인다",
+ "scene": "겨울 토요일, Anna 가 먼저 제안한 온천 데이트. 매표소 앞에서 A 가 가방을 연다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
-  "C": "Feri bácsi"
+  "C": "Pénztáros"
  },
- "register": "casual",
- "twist": 7,
+ "register": "mixed",
+ "twist": 9,
  "twist_type": "chaos",
  "flags": [
   "romance"
  ],
- "goal": "마음 말하기(Tetszel nekem)와 '~ 없이'(nélkül)",
+ "goal": "깜빡한 것 말하기(otthon hagytam)와 빌릴 수 있는지 묻기(Lehet … bérelni?)",
  "expressions": [
-  "Nem baj",
-  "Egy pillanat",
-  "Mindjárt",
-  "Figyelj",
-  "Légyszi"
+  "Komolyan?",
+  "Semmi baj",
+  "Naná"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Gyere a meleg vízbe! És add ide a szemüveged.",
-   "rd": "제레 어 멜렉 비즈베! 에시 어드 이데 어 쎄뮈베게드.",
-   "ko": "따뜻한 물로 와! 안경은 이리 줘.",
-   "note": "add ide = 이리 줘",
+   "hu": "Na, készen vagy? Kint mínusz két fok van, a víz meg harmincnyolc.",
+   "rd": "너, 케쎈 버지? 킨트 미누쓰 케트 폭 번, 어 비즈 멕 허르민츠뇰츠.",
+   "ko": "자, 준비됐어? 밖은 영하 2도, 물은 38도야.",
+   "note": "fok = 도",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Gyere",
-     "jön",
-     "왼"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "meleg",
-     "meleg",
-     "멜레그"
+     "készen",
+     "kész",
+     "케스"
     ],
     [
-     "vízbe",
+     "mínusz",
+     "mínusz",
+     ""
+    ],
+    [
+     "fok",
+     "fok",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "víz",
      "víz",
      "비즈"
     ],
     [
-     "add",
-     "ad",
-     "어드"
-    ],
-    [
-     "ide",
-     "ide",
-     "이데"
-    ],
-    [
-     "szemüveged",
-     "szemüveg",
+     "harmincnyolc",
+     "harmincnyolc",
      ""
     ]
    ]
@@ -78,124 +81,93 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó, de szemüveg nélkül semmit nem látok.",
-   "rd": "요, 데 쎄뮈벡 넬퀼 셈미트 넴 라톡.",
-   "ko": "그래, 근데 안경 없으면 아무것도 안 보여.",
-   "note": "nélkül = ~ 없이",
+   "hu": "Igen, nagyon várom. Várj, hol a fürdőruhám?",
+   "rd": "이겐, 너죤 바롬. 바르이, 홀 어 퓌르되루함?",
+   "ko": "응, 엄청 기대돼. 잠깐, 내 수영복 어디 갔지?",
+   "note": "fürdőruha = 수영복",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "excited",
+   "segs": [
+    [
+     "excited",
+     "Igen, nagyon várom."
+    ],
+    [
+     "worried",
+     "Várj, hol a fürdőruhám?"
+    ]
+   ],
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
-     "szemüveg",
-     "szemüveg",
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "várom",
+     "vár",
+     "바르"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "fürdőruhám",
+     "fürdő",
      ""
-    ],
-    [
-     "látok",
-     "lát",
-     "라트"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Nem baj, pont ez a terv. Egy pillanat, mindjárt jövök.",
-   "rd": "넴 버이, 폰트 에즈 어 테르브. 에지 필러너트, 민드야르트 요뵉.",
-   "ko": "괜찮아, 바로 그게 계획이야. 잠깐만, 금방 올게.",
-   "note": "mindjárt = 금방",
+   "hu": "Komolyan? Otthon hagytad?",
+   "rd": "코모연? 오트혼 허지터드?",
+   "ko": "진짜? 집에 두고 왔어?",
+   "note": "otthon hagytad = 집에 두고 왔다",
    "tags": [
-    "expr:Nem baj",
-    "expr:Egy pillanat",
-    "expr:Mindjárt"
+    "expr:Komolyan?"
    ],
-   "emotion": "teasing",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
-     "pont",
-     "pont",
-     "폰트"
-    ],
-    [
-     "terv",
-     "terv",
-     "테르브"
-    ],
-    [
-     "pillanat",
-     "pillanat",
-     "필러넛"
-    ],
-    [
-     "mindjárt",
-     "mindjárt",
-     "민드야르트"
-    ],
-    [
-     "jövök",
-     "jön",
-     "왼"
+     "hagytad",
+     "hagy",
+     "허지"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Figyelj, Anna, régóta mondani akarok valamit.",
-   "rd": "피젤이, 언너, 레고터 몬더니 어커록 벌러미트.",
-   "ko": "있잖아 언너, 오래전부터 하고 싶은 말이 있어.",
-   "note": "régóta = 오래전부터",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "Figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "régóta",
-     "régóta",
-     "레고터"
-    ],
-    [
-     "mondani",
-     "mond",
-     "몬드"
-    ],
-    [
-     "akarok",
-     "akar",
-     "어커르"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "C",
-   "hu": "Mondjad csak, hallgatlak.",
-   "rd": "몬드여드 척, 헐거틀럭.",
-   "ko": "말해 봐, 듣고 있어.",
-   "note": "hallgatlak = 내가 네 말을 듣고 있다",
+   "hu": "Úgy tűnik. Reggel csak a törölközőre figyeltem.",
+   "rd": "우지 튀닉. 렉겔 척 어 퇴뢸쾨죄레 피젤템.",
+   "ko": "그런가 봐. 아침에 수건만 챙겼어.",
+   "note": "figyel = 신경 쓰다",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Mondjad",
-     "mond",
-     "몬드"
+     "Úgy",
+     "úgy",
+     "우지"
+    ],
+    [
+     "tűnik",
+     "tűnik",
+     "튀닉"
     ],
     [
      "csak",
@@ -203,40 +175,74 @@
      "촉"
     ],
     [
-     "hallgatlak",
-     "hallgat",
-     "헐르거트"
+     "törölközőre",
+     "törölközőre",
+     ""
+    ],
+    [
+     "figyeltem",
+     "figyelt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Semmi baj. Kérdezzük meg a pénztárnál.",
+   "rd": "셈미 버이. 케르데쥑 멕 어 펜즈타르날.",
+   "ko": "괜찮아. 매표소에 물어보자.",
+   "note": "kérdezzük meg = 물어보자",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "pénztárnál",
+     "pénztár",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Nagyon tetszel nekem. Szép vagy, és jó az illatod.",
-   "rd": "너죤 테트쎌 네켐. 쎄프 버지, 에시 요 어즈 일러토드.",
-   "ko": "네가 정말 좋아. 예쁘고 향기도 좋아.",
-   "note": "tetszel nekem = 네가 내 마음에 들어",
+   "hu": "Elnézést, lehet itt fürdőruhát bérelni?",
+   "rd": "엘네제슈트, 레헤트 이트 퓌르되루하트 베렐니?",
+   "ko": "실례합니다, 여기서 수영복 빌릴 수 있나요?",
+   "note": "bérel = 빌리다",
    "tags": [],
-   "emotion": "shy",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Nagyon",
-     "nagyon",
-     "너존"
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
     ],
     [
-     "tetszel",
-     "tetszik",
-     "테트씨크"
+     "lehet",
+     "lehet",
+     "레헤트"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "itt",
+     "itt",
+     "이트"
     ],
     [
-     "illatod",
-     "illatod",
+     "fürdőruhát",
+     "fürdőruha",
+     ""
+    ],
+    [
+     "bérelni",
+     "bérel",
      ""
     ]
    ]
@@ -244,22 +250,49 @@
   {
    "num": 7,
    "speaker": "C",
-   "hu": "Köszönöm. A feleségem is ezt mondja.",
-   "rd": "쾨쐬뇜. 어 펠레세겜 이시 에즈트 몬드여.",
-   "ko": "고맙네. 내 아내도 그렇게 말하지.",
-   "note": "feleség = 아내",
+   "hu": "Bérelni nem, de venni lehet. Ott vannak a polcon.",
+   "rd": "베렐니 넴, 데 벤니 레헤트. 오트 번넉 어 폴촌.",
+   "ko": "대여는 안 되고 구매는 돼요. 저기 선반에 있어요.",
+   "note": "polc = 선반",
    "tags": [],
-   "emotion": "gentle",
-   "segs": [
+   "emotion": "polite",
+   "lemmas": [
     [
-     "gentle",
-     "Köszönöm."
+     "Bérelni",
+     "bérel",
+     ""
     ],
     [
-     "amused",
-     "A feleségem is ezt mondja."
+     "venni",
+     "vesz",
+     "베쓰"
+    ],
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "vannak",
+     "van",
+     "번"
+    ],
+    [
+     "polcon",
+     "polc",
+     ""
     ]
-   ],
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Köszönöm. Anna, segítesz választani?",
+   "rd": "쾨쐬뇜. 언너, 세기테쓰 발러쓰터니?",
+   "ko": "감사합니다. 언너, 고르는 거 도와줄래?",
+   "note": "választani = 고르다",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Köszönöm",
@@ -267,156 +300,164 @@
      "쾨쇠니"
     ],
     [
-     "feleségem",
-     "feleség",
-     "펠레시그"
+     "segítesz",
+     "segít",
+     "셰기트"
     ],
     [
-     "mondja",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "hu": "Mi van?! Ki maga?",
-   "rd": "미 번?! 키 머거?",
-   "ko": "뭐야?! 누구세요?",
-   "note": "ki maga? = 누구세요?(존대)",
-   "tags": [],
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Mi van?!"
-    ],
-    [
-     "flustered",
-     "Ki maga?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
+     "választani",
+     "választ",
+     "발라쓰트"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "C",
-   "hu": "Feri bácsi. A barátaim is hallották, nagyon tetszett nekik.",
-   "rd": "페리 바치. 어 버라터임 이시 헐로딱, 너죤 테트쎄트 네킥.",
-   "ko": "페리 아저씨야. 내 친구들도 들었는데, 아주 좋아하더군.",
-   "note": "hallották = 그들이 그걸 들었다",
-   "tags": [],
-   "emotion": "amused",
+   "speaker": "B",
+   "hu": "Naná. Ez a sárga, kis kacsákkal, tökéletes.",
+   "rd": "너나. 에즈 어 샤르거, 키시 커차껄, 퇴켈레테시.",
+   "ko": "당연하지. 이 노란 거, 작은 오리 그려진 거, 완벽해.",
+   "note": "naná = 당연하지",
+   "tags": [
+    "expr:Naná"
+   ],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Feri",
-     "feri",
+     "Naná",
+     "naná",
      ""
     ],
     [
-     "bácsi",
-     "bácsi",
+     "sárga",
+     "sárga",
      ""
     ],
     [
-     "barátaim",
-     "barát",
-     "버랏"
+     "kis",
+     "kis",
+     "키시"
     ],
     [
-     "hallották",
-     "hallik",
-     "헐릭"
+     "kacsákkal",
+     "kacsa",
+     ""
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "tetszett",
-     "tetszik",
-     "테트씨크"
+     "tökéletes",
+     "tökéletes",
+     "퇴켈레시"
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "B",
-   "hu": "Mi történt? Miért tapsol mindenki?",
-   "rd": "미 퇴르텐트? 미에르트 터프숄 민덴키?",
-   "ko": "무슨 일이야? 왜 다들 박수 쳐?",
-   "note": "tapsol = 박수 친다",
+   "speaker": "A",
+   "hu": "Kacsákkal? Ezt nem veszem fel, mindenki nevetni fog.",
+   "rd": "커차껄? 에즈트 넴 베쎔 펠, 민덴키 네베트니 폭.",
+   "ko": "오리? 이건 안 입어, 다들 웃을 거야.",
+   "note": "nevetni fog = 웃을 것이다",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "történt",
-     "történik",
-     "퇴르텐닉"
+     "Kacsákkal",
+     "kacsa",
+     ""
     ],
     [
-     "tapsol",
-     "tapsol",
+     "veszem",
+     "veszik",
+     "베세크"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ],
+    [
+     "nevetni",
+     "nevet",
      ""
+    ],
+    [
+     "fog",
+     "fog",
+     "포그"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "Semmi. Add vissza a szemüvegem, légyszi.",
-   "rd": "셈미. 어드 비써 어 쎄뮈베겜, 레지씨.",
-   "ko": "아무것도 아니야. 안경 돌려줘, 제발.",
-   "note": "add vissza = 돌려줘",
-   "tags": [
-    "expr:Légyszi"
-   ],
-   "emotion": "flustered",
+   "speaker": "B",
+   "hu": "Jó, akkor én is ilyet veszek. Ha ketten vagyunk, már nem vicces.",
+   "rd": "요, 어꼬르 엔 이시 이예트 베쎅. 허 케뗀 버쥰크, 마르 넴 비쩨시.",
+   "ko": "좋아, 그럼 나도 이거 살게. 둘이면 이제 안 웃기지.",
+   "note": "ilyet = 이런 것을",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "vissza",
-     "vissza",
-     "비써"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "szemüvegem",
-     "szemüveg",
-     ""
+     "akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "légyszi",
-     "légyszi",
-     ""
+     "veszek",
+     "veszik",
+     "베세크"
+    ],
+    [
+     "vagyunk",
+     "van",
+     "번"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "vicces",
+     "vicces",
+     "비체시"
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "B",
-   "hu": "Nem. Előbb mondd el nekem is, amit neki mondtál.",
-   "rd": "넴. 엘뢰브 몬드 엘 네켐 이시, 어미트 네키 몬드탈.",
-   "ko": "싫어. 먼저 저분한테 한 말, 나한테도 해 줘.",
-   "note": "előbb = 먼저",
+   "speaker": "A",
+   "hu": "Tényleg? Akkor két kacsás fürdőruhát kérünk.",
+   "rd": "테닐렉? 어꼬르 케트 커차시 퓌르되루하트 케륀크.",
+   "ko": "진짜? 그럼 오리 수영복 두 벌 주세요.",
+   "note": "kérünk = 우리가 청한다",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "amused",
    "lemmas": [
     [
-     "mondd",
-     "mond",
-     "몬드"
+     "Tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "el",
-     "el",
-     "엘"
+     "kacsás",
+     "kacsás",
+     ""
+    ],
+    [
+     "fürdőruhát",
+     "fürdőruha",
+     ""
+    ],
+    [
+     "kérünk",
+     "kér",
+     "께르"
     ]
    ]
   }

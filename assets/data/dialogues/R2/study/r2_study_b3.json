@@ -10,64 +10,68 @@
  "domain": [
   "study"
  ],
- "title": "잘 본 구술시험",
+ "title": "시험 보러 왔는데",
  "emoji": "📝",
- "scene": "구술시험 날. 떨면서 들어간 강의실에서 카드를 뽑았는데 공부한 적 없는 문제다",
+ "scene": "밤새 공부하고 헐레벌떡 강의실에 들어왔다. 선생님 표정이 이상하다",
  "speakers": {
   "A": "{name}",
   "B": "Tanár",
   "C": "Réka"
  },
  "register": "mixed",
- "twist": 10,
+ "twist": 7,
  "twist_type": "reveal",
  "flags": [],
- "goal": "구술시험 말(Húzzon egy tételt)과 Mit tud …-ról/-ről?",
+ "goal": "늦은 사과와 시험 날짜 확인하기(Elnézést a késésért · jövő kedden)",
  "expressions": [
-  "Hát",
-  "Szóval",
-  "Igazából",
-  "Mi van"
+  "Elnézést",
+  "Jaj",
+  "Szuper"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Jó napot! Húzzon egy tételt.",
-   "rd": "요 너포트! 후존 에지 테텔트.",
-   "ko": "안녕하세요! 문제 카드를 뽑으세요.",
-   "note": "tétel = 구술시험 문제",
-   "tags": [],
-   "emotion": "polite",
+   "speaker": "A",
+   "hu": "Elnézést a késésért! Elkezdődött már a vizsga?",
+   "rd": "엘네제슈트 어 케세세르트! 엘케즈되되트 마르 어 비지거?",
+   "ko": "늦어서 죄송합니다! 시험 벌써 시작했나요?",
+   "note": "késés = 늦음",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
     ],
     [
-     "napot",
-     "nap",
-     "넙"
+     "késésért",
+     "késés",
+     ""
     ],
     [
-     "tételt",
-     "tétel",
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "vizsga",
+     "vizsga",
      ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Jó napot. Hát, a tizenhármas.",
-   "rd": "요 너포트. 하트, 어 티젠하르머시.",
-   "ko": "안녕하세요. 음, 13번이요.",
-   "note": "tizenhármas = 13번",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "worried",
+   "speaker": "B",
+   "hu": "Jó reggelt. Milyen vizsga?",
+   "rd": "요 렉겔트. 미옌 비지거?",
+   "ko": "좋은 아침이에요. 무슨 시험이요?",
+   "note": "milyen = 어떤",
+   "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Jó",
@@ -75,128 +79,36 @@
      "요"
     ],
     [
-     "napot",
-     "nap",
-     "넙"
+     "reggelt",
+     "reggel",
+     "렉겔"
     ],
     [
-     "tizenhármas",
-     "tizenhármas",
+     "vizsga",
+     "vizsga",
      ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Szóval, a szív. Mit tud a szívről?",
-   "rd": "쏘벌, 어 씨브. 미트 투드 어 씨브뢸?",
-   "ko": "자, 심장. 심장에 대해 뭘 아시죠?",
-   "note": "-ról/-ről = ~에 대해",
-   "tags": [
-    "expr:Szóval"
-   ],
-   "emotion": "stiff",
-   "lemmas": [
-    [
-     "Szóval",
-     "szó",
-     "쏘"
-    ],
-    [
-     "szív",
-     "szív",
-     "씨브"
-    ],
-    [
-     "tud",
-     "tud",
-     "투드"
-    ]
-   ]
-  },
-  {
-   "num": 4,
    "speaker": "A",
-   "hu": "A szívről? Hát, ha szeretünk, gyorsabban ver.",
-   "rd": "어 씨브뢸? 하트, 허 쎄레튄크, 죠르셔번 베르.",
-   "ko": "심장이요? 음, 사랑하면 더 빨리 뜁니다.",
-   "note": "ver = (심장이) 뛴다",
-   "tags": [
-    "expr:Hát"
-   ],
+   "hu": "A nyelvtanvizsga. Egész éjjel tanultam!",
+   "rd": "어 넬브턴비지거. 에게쓰 에옐 터눌텀!",
+   "ko": "문법 시험이요. 밤새 공부했어요!",
+   "note": "egész éjjel = 밤새",
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "szívről",
-     "szív",
-     "씨브"
-    ],
-    [
-     "szeretünk",
-     "szeret",
-     "쎄레트"
-    ],
-    [
-     "gyorsabban",
-     "gyorsan",
+     "nyelvtanvizsga",
+     "nyelvtanvizsga",
      ""
     ],
     [
-     "ver",
-     "ver",
-     "베르"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Érdekes. És most hogy ver az Öné?",
-   "rd": "에르데케시. 에시 모슈트 호지 베르 어즈 외네?",
-   "ko": "흥미롭군요. 지금 당신 심장은 어때요?",
-   "note": "az Öné = 당신의 것",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Érdekes",
-     "érdekes",
-     "에르데케시"
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "ver",
-     "ver",
-     "베르"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Nagyon gyorsan. Igazából ezt nem tanultam.",
-   "rd": "너죤 죠르션. 이거자볼 에즈트 넴 터눌텀.",
-   "ko": "아주 빨라요. 사실 이건 공부 안 했어요.",
-   "note": "igazából = 사실은",
-   "tags": [
-    "expr:Igazából"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "gyorsan",
-     "gyors",
-     "죠르시"
+     "éjjel",
+     "éj",
+     "에이"
     ],
     [
      "tanultam",
@@ -206,71 +118,228 @@
    ]
   },
   {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Őszinte válasz. Négyes, a következő!",
-   "rd": "외씬테 발러쓰. 네제시, 어 쾨베트케죄!",
-   "ko": "솔직한 답이군요. 4점, 다음 분!",
-   "note": "négyes = 4점",
+   "num": 4,
+   "speaker": "C",
+   "hu": "Szia! Miért vagy ilyen sápadt?",
+   "rd": "씨어! 미에르트 버지 이옌 샤퍼드트?",
+   "ko": "안녕! 왜 이렇게 창백해?",
+   "note": "sápadt = 창백한",
    "tags": [],
-   "emotion": "amused",
-   "segs": [
-    [
-     "amused",
-     "Őszinte válasz."
-    ],
-    [
-     "stiff",
-     "Négyes, a következő!"
-    ]
-   ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Őszinte",
-     "őszinte",
-     "외세인테"
+     "Szia",
+     "szia",
+     "씨어"
     ],
     [
-     "válasz",
-     "válasz",
-     "바라스"
+     "sápadt",
+     "sápad",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Három órát aludtam. Te nem izgulsz?",
+   "rd": "하롬 오라트 얼루드텀. 테 넴 이즈굴쓰?",
+   "ko": "세 시간 잤어. 넌 안 떨려?",
+   "note": "izgulsz = 떨린다",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "órát",
+     "óra",
+     "오러"
     ],
     [
-     "következő",
-     "következik",
-     "쾨베트케지크"
+     "aludtam",
+     "aludt",
+     ""
+    ],
+    [
+     "izgulsz",
+     "izgul",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Miért izgulnék? Ma csak olvasás lesz.",
+   "rd": "미에르트 이즈굴넥? 머 척 올버샤시 레쓰.",
+   "ko": "내가 왜 떨려? 오늘은 그냥 읽기 수업인데.",
+   "note": "izgulnék = 떨릴까(조건법)",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "izgulnék",
+     "izgul",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "olvasás",
+     "olvasás",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "A nyelvtanvizsga jövő kedden lesz, {name}.",
+   "rd": "어 넬브턴비지거 요뵈 케덴 레쓰, {name}.",
+   "ko": "문법 시험은 다음 주 화요일이에요, {name} 씨.",
+   "note": "jövő kedd = 다음 주 화요일",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "nyelvtanvizsga",
+     "nyelvtanvizsga",
+     ""
+    ],
+    [
+     "jövő",
+     "jövő",
+     "요뵈"
+    ],
+    [
+     "kedden",
+     "kedd",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "C",
-   "hu": "Hol voltál? A te vizsgád a földszinten van, már elkezdődött!",
-   "rd": "홀 볼탈? 어 테 비지가드 어 푈드씬텐 번, 마르 엘케즈되되트!",
-   "ko": "어디 있었어? 네 시험 1층에서 벌써 시작했어!",
-   "note": "földszint = 1층(지상층)",
+   "speaker": "A",
+   "hu": "Jövő kedden? De a naptáramban ma van!",
+   "rd": "요뵈 케덴? 데 어 너프타럼번 머 번!",
+   "ko": "다음 주 화요일이요? 근데 제 달력엔 오늘인데요!",
+   "note": "naptár = 달력",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Hol",
-     "hol",
-     "홀"
+     "Jövő",
+     "jövő",
+     "요뵈"
     ],
     [
-     "voltál",
+     "kedden",
+     "kedd",
+     ""
+    ],
+    [
+     "naptáramban",
+     "naptár",
+     ""
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "van",
      "van",
      "번"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Mutasd. Ez a jövő heti oldal, nem a mostani!",
+   "rd": "무터슈드. 에즈 어 요뵈 헤티 올덜, 넴 어 모슈터니!",
+   "ko": "보여 줘. 이거 다음 주 페이지야, 이번 주가 아니라!",
+   "note": "jövő heti = 다음 주의",
+   "tags": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Mutasd",
+     "mutasd",
+     "무터슈트"
     ],
     [
-     "vizsgád",
-     "vizsgád",
+     "jövő",
+     "jövő",
+     "요뵈"
+    ],
+    [
+     "heti",
+     "heti",
      ""
     ],
     [
-     "földszinten",
-     "földszint",
+     "oldal",
+     "oldal",
+     "올덜"
+    ],
+    [
+     "mostani",
+     "mostani",
      ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Jaj. Akkor legalább már tudom az anyagot.",
+   "rd": "여이. 어꼬르 레걸라브 마르 투돔 어즈 어녀고트.",
+   "ko": "아이고. 그럼 적어도 공부는 다 해 놓은 거네.",
+   "note": "legalább = 적어도",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj."
+    ],
+    [
+     "amused",
+     "Akkor legalább már tudom az anyagot."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "legalább",
+     "legalább",
+     "레걸랍"
     ],
     [
      "már",
@@ -278,72 +347,48 @@
      "마르"
     ],
     [
-     "elkezdődött",
-     "elkezdődik",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Mi van? Akkor ez milyen vizsga volt?",
-   "rd": "미 번? 어꼬르 에즈 미옌 비지거 볼트?",
-   "ko": "뭐? 그럼 이건 무슨 시험이었어?",
-   "note": "milyen = 어떤",
-   "tags": [
-    "expr:Mi van"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
+     "tudom",
+     "tud",
+     "투드"
     ],
     [
-     "vizsga",
-     "vizsga",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "C",
-   "hu": "Ez? Orvosi, harmadéveseknek.",
-   "rd": "에즈? 오르보시, 허르머데베섹넥.",
-   "ko": "이거? 의대 3학년 시험이야.",
-   "note": "orvosi = 의학의",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "harmadéveseknek",
-     "harmadéves",
-     ""
+     "anyagot",
+     "anyag",
+     "언여그"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "Négyest kaptam.",
-   "rd": "네제슈트 커프텀.",
-   "ko": "나 4점 받았어.",
-   "note": "kaptam = 내가 받았다",
-   "tags": [],
-   "emotion": "surprised",
+   "speaker": "B",
+   "hu": "Szuper. Akkor ma Ön olvas fel elsőként.",
+   "rd": "쑤페르. 어꼬르 머 왼 올버시 펠 엘쇠켄트.",
+   "ko": "좋아요. 그럼 오늘은 {name} 씨가 제일 먼저 낭독해요.",
+   "note": "felolvas = 소리 내어 읽다",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Négyest",
-     "négyes",
-     ""
+     "Szuper",
+     "szuper",
+     "쑤페르"
     ],
     [
-     "kaptam",
-     "kap",
-     "커프"
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "olvas",
+     "olvas",
+     "올버스"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
     ]
    ]
   }

@@ -10,37 +10,35 @@
  "domain": [
   "travel"
  ],
- "title": "시식만 했을 뿐인데",
- "emoji": "🧀",
- "scene": "시장 통로. 소시지 한 점을 맛봤더니 옆 가게들이 줄줄이 달려든다",
+ "title": "현금만 받아요",
+ "emoji": "🧲",
+ "scene": "바치 거리 기념품 가게. 냉장고 자석과 파프리카 가루를 고른다",
  "speakers": {
   "A": "{name}",
-  "B": "Eladó",
-  "C": "Néni",
-  "D": "Bácsi"
+  "B": "Eladó"
  },
  "register": "polite",
- "twist": 5,
- "twist_type": "chaos",
+ "twist": 6,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "맛보기 권유에 답하기와 배부르다고 말하기",
+ "goal": "값 묻고 사기(Mennyibe kerül? · kérek)",
  "expressions": [
-  "Hű",
-  "de finom",
-  "Várjon",
-  "Tessék",
-  "Hát"
+  "Mennyibe kerül",
+  "Sajnos",
+  "kérek"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Jó napot! Kóstolja meg a kolbászt!",
-   "rd": "요 너포트! 코슈톨여 멕 어 콜바쓰트!",
-   "ko": "안녕하세요! 소시지 맛보세요!",
-   "note": "kóstolja meg = 맛보세요(존댓말)",
-   "tags": [],
-   "emotion": "cheerful",
+   "speaker": "A",
+   "hu": "Jó napot! Mennyibe kerül ez?",
+   "rd": "요 너포트! 메니베 케륄 에즈?",
+   "ko": "안녕하세요! 이거 얼마예요?",
+   "note": "mennyibe kerül? = 얼마예요?",
+   "tags": [
+    "expr:Mennyibe kerül"
+   ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -53,90 +51,65 @@
      "넙"
     ],
     [
-     "kolbászt",
-     "kolbász",
-     ""
+     "kerül",
+     "kerül",
+     "케륄"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Köszönöm. Hű, de finom!",
-   "rd": "쾨쐬뇜. 휘, 데 피놈!",
-   "ko": "고맙습니다. 와, 정말 맛있네요!",
-   "note": "de finom = 정말 맛있다",
-   "tags": [
-    "expr:Hű",
-    "expr:de finom"
-   ],
+   "speaker": "B",
+   "hu": "A mágnes? Ezerkétszáz forint.",
+   "rd": "어 막네시? 에제르케트싸즈 포린트.",
+   "ko": "자석요? 1200포린트예요.",
+   "note": "mágnes = 자석",
+   "tags": [],
    "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Köszönöm."
-    ],
-    [
-     "excited",
-     "Hű, de finom!"
-    ]
-   ],
    "lemmas": [
     [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "mágnes",
+     "mágnes",
+     ""
     ],
     [
-     "finom",
-     "finom",
-     "피놈"
+     "forint",
+     "forint",
+     ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "C",
-   "hu": "Várjon! Az enyémet is kóstolja meg!",
-   "rd": "바르욘! 어즈 에네메트 이시 코슈톨여 멕!",
-   "ko": "잠깐만요! 내 것도 맛보세요!",
-   "note": "az enyém = 내 것",
-   "tags": [
-    "expr:Várjon"
-   ],
-   "emotion": "excited",
+   "speaker": "A",
+   "hu": "És a paprika?",
+   "rd": "에시 어 퍼프리커?",
+   "ko": "그리고 파프리카 가루는요?",
+   "note": "paprika = 파프리카 가루",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Várjon",
-     "vár",
-     "바르"
-    ],
-    [
-     "kóstolja",
-     "kóstol",
+     "paprika",
+     "paprika",
      ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "A",
-   "hu": "Hm, ez is nagyon finom.",
-   "rd": "흠, 에즈 이시 너죤 피놈.",
-   "ko": "음, 이것도 아주 맛있네요.",
-   "note": "ez is = 이것도",
+   "speaker": "B",
+   "hu": "Kétezer. Nagyon finom.",
+   "rd": "케테제르. 너죤 피놈.",
+   "ko": "2천이요. 아주 맛있어요.",
+   "note": "finom = 맛있는",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Hm",
-     "hm",
+     "Kétezer",
+     "kétezer",
      ""
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
     ],
     [
      "finom",
@@ -147,40 +120,74 @@
   },
   {
    "num": 5,
-   "speaker": "D",
-   "hu": "Itt a szalámi! Tessék, tessék!",
-   "rd": "이트 어 썰라미! 테쎅, 테쎅!",
-   "ko": "여기 살라미요! 자, 자!",
-   "note": "tessék = 자, 드세요",
+   "speaker": "A",
+   "hu": "Akkor kettőt kérek, kártyával.",
+   "rd": "어꼬르 케뙤트 케렉, 카르탸벌.",
+   "ko": "그럼 두 개씩 주세요, 카드로요.",
+   "note": "kettőt = 두 개를",
    "tags": [
-    "expr:Tessék"
+    "expr:kérek"
    ],
-   "emotion": "excited",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Itt",
-     "itt",
-     "이트"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "szalámi",
-     "szalámi",
-     ""
+     "kérek",
+     "kér",
+     "께르"
     ],
     [
-     "tessék",
-     "tessék",
-     "테셰크"
+     "kártyával",
+     "kár",
+     "카르"
     ]
    ]
   },
   {
    "num": 6,
+   "speaker": "B",
+   "hu": "Sajnos csak készpénzt fogadunk.",
+   "rd": "셔이노시 척 케쓰펜즈트 포거둔크.",
+   "ko": "죄송하지만 현금만 받아요.",
+   "note": "készpénz = 현금",
+   "tags": [
+    "expr:Sajnos"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Sajnos",
+     "sajnos",
+     "셔이노시"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "készpénzt",
+     "készpénz",
+     ""
+    ],
+    [
+     "fogadunk",
+     "fogad",
+     "퍼가드"
+    ]
+   ]
+  },
+  {
+   "num": 7,
    "speaker": "A",
-   "hu": "Jaj, köszönöm, de már jóllaktam.",
-   "rd": "여이, 쾨쐬뇜, 데 마르 욜럭텀.",
-   "ko": "아이고, 고맙습니다만 이제 배불러요.",
-   "note": "jóllaktam = 배불러요",
+   "hu": "Jaj! Van itt bankautomata?",
+   "rd": "여이! 번 이트 번커우토머터?",
+   "ko": "아이고! 이 근처에 ATM 있어요?",
+   "note": "bankautomata = 현금인출기",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
@@ -190,70 +197,41 @@
      "야이"
     ],
     [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "itt",
+     "itt",
+     "이트"
     ],
     [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "jóllaktam",
-     "jóllakik",
+     "bankautomata",
+     "bankautomata",
      ""
     ]
    ]
   },
   {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Na, és mit vesz?",
-   "rd": "너, 에시 미트 베쓰?",
-   "ko": "그래서, 뭘 사시겠어요?",
-   "note": "vesz = 사다",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Na",
-     "na",
-     "너"
-    ],
-    [
-     "vesz",
-     "vesz",
-     "베쓰"
-    ]
-   ]
-  },
-  {
    "num": 8,
-   "speaker": "A",
-   "hu": "Hát... egy vizet kérek.",
-   "rd": "하트... 에지 비제트 케렉.",
-   "ko": "그게… 물 한 병 주세요.",
-   "note": "hát = 그게, 음",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "shy",
+   "speaker": "B",
+   "hu": "Van, a sarkon. Addig félreteszem.",
+   "rd": "번, 어 셔르콘. 어딕 펠레테쎔.",
+   "ko": "있어요, 모퉁이에. 그동안 따로 빼 둘게요.",
+   "note": "félretesz = 따로 챙겨 두다",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "Van",
+     "van",
+     "번"
     ],
     [
-     "vizet",
-     "vize",
-     "비제"
+     "sarkon",
+     "sark",
+     ""
     ],
     [
-     "kérek",
-     "kér",
-     "께르"
+     "félreteszem",
+     "félretesz",
+     ""
     ]
    ]
   }

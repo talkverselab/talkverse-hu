@@ -1,47 +1,47 @@
 {
 "ep": "r1_love_a4",
 "cast": {
-"B": "anna",
-"C": "man_m"
+"B": "anna"
 },
 "turns": {
 "1": {
 "segs": [
 [
 "cheerful",
-"Szia! Táncolsz velem?"
+"Melyiket nézzük? Egy vígjátékot?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"shout",
-"Tessék? Nem hallom!"
+"excited",
+"Szerintem ezt a horrort. Jó?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shout",
-"Azt kérdeztem: táncolsz velem?"
+"stiff",
+"Horror? Hát... persze, jó.",
+"Horror? Hát, persze, jó."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"shout",
-"Mi van? Hangosabban, légyszi!"
+"worried",
+"Biztos? Nem félsz?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"shout",
-"TÁNCOLSZ VELEM?!"
+"stiff",
+"Én? Soha nem félek."
 ]
 ]
 },
@@ -49,23 +49,19 @@
 "segs": [
 [
 "amused",
-"Na, táncolsz vele vagy nem?"
+"Még el sem kezdődött."
+],
+[
+"teasing",
+"Miért fogod a kezem?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Jaj, mindenki minket néz."
-]
-]
-},
-"8": {
-"segs": [
-[
-"gentle",
-"Nem baj. Én csak téged nézlek."
+"shy",
+"Csak hátha te félsz."
 ]
 ]
 }

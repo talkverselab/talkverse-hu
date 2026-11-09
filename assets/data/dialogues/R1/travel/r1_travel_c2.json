@@ -11,59 +11,82 @@
  "domain": [
   "travel"
  ],
- "title": "어디야, 레카",
- "emoji": "😴",
- "scene": "에게르행 기차. 같이 가기로 한 Réka 가 답이 없다",
+ "title": "시계 밑에서",
+ "emoji": "🕰️",
+ "scene": "동역에서 Réka 와 만나기로 했다. 기차 시간이 다가오는데 답이 없다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "chat",
- "twist": 8,
- "twist_type": "ignore",
+ "twist": 7,
+ "twist_type": "chaos",
  "flags": [],
- "goal": "채팅으로 어디 있는지 묻기와 재촉하기",
+ "goal": "채팅으로 위치 알리기와 재촉하기(Hol vagy? · alatt)",
  "expressions": [
-  "légyszi",
-  "Jaj",
   "Bocsi",
-  "Mi van?"
+  "Ne már"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Hol vagy? Indul a vonat!",
-   "rd": "홀 버지? 인둘 어 보너트!",
-   "ko": "어디야? 기차 출발해!",
-   "note": "hol vagy? = 어디야?",
+   "hu": "Megérkeztem a Keletibe. Te hol vagy?",
+   "rd": "메게르케즈템 어 켈레티베. 테 홀 버지?",
+   "ko": "동역 도착했어. 너 어디야?",
+   "note": "Keleti = 동역(켈레티)",
    "tags": [],
-   "at": "08:10",
+   "at": "09:40",
    "read": false,
-   "emotion": "worried",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Hol",
-     "hol",
-     "홀"
+     "Megérkeztem",
+     "megérkezik",
+     "메게르케직"
     ],
     [
-     "vonat",
-     "vonat",
-     ""
+     "hol",
+     "hol",
+     "홀"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Réka?",
-   "rd": "레커?",
-   "ko": "레카?",
-   "note": "부를 때는 이름만",
+   "hu": "A nagy óra alatt várok.",
+   "rd": "어 너지 오러 얼러트 바록.",
+   "ko": "큰 시계 밑에서 기다릴게.",
+   "note": "alatt = ~ 아래",
    "tags": [],
-   "at": "08:12",
+   "at": "09:41",
+   "read": false,
+   "emotion": "neutral",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "várok",
+     "vár",
+     "바르"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Réka? Tíz perc múlva indul a vonat!",
+   "rd": "레커? 티즈 페르츠 물버 인둘 어 보너트!",
+   "ko": "레카? 10분 뒤에 기차 출발해!",
+   "note": "múlva = ~ 후에",
+   "tags": [],
+   "at": "09:50",
    "read": false,
    "emotion": "worried",
    "ui": "bubble",
@@ -72,26 +95,16 @@
      "Réka",
      "réka",
      ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "hu": "Elindult a vonat!",
-   "rd": "엘린둘트 어 보너트!",
-   "ko": "기차 떠났어!",
-   "note": "elindult = 출발했다",
-   "tags": [],
-   "at": "08:15",
-   "read": false,
-   "emotion": "shout",
-   "ui": "bubble",
-   "lemmas": [
+    ],
     [
-     "Elindult",
-     "elindul",
-     ""
+     "perc",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "indul",
+     "indul",
+     "인둘"
     ],
     [
      "vonat",
@@ -103,69 +116,35 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Jól vagy? Válaszolj, légyszi!",
-   "rd": "욜 버지? 발러쏠이, 레지씨!",
-   "ko": "괜찮아? 답 좀 해 줘!",
-   "note": "válaszolj = 답해",
-   "tags": [
-    "expr:légyszi"
-   ],
-   "at": "08:40",
+   "hu": "Hívlak! 📞",
+   "rd": "히블럭! 📞",
+   "ko": "전화할게! 📞",
+   "note": "hívlak = 너한테 전화할게",
+   "tags": [],
+   "at": "09:52",
    "read": false,
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "légyszi",
-     "légyszi",
+     "Hívlak",
+     "hívlak",
      ""
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "Jaj. Egyedül megyek Egerbe.",
-   "rd": "여이. 에제뒬 메젝 에게르베.",
-   "ko": "아이고. 혼자 에게르 가네.",
-   "note": "egyedül = 혼자",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "at": "09:05",
-   "read": false,
-   "emotion": "sad",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "megyek",
-     "megye",
-     "메예"
-    ]
-   ]
-  },
-  {
-   "num": 6,
    "speaker": "B",
-   "hu": "Bocsi, aludtam. 😴",
-   "rd": "보치, 얼루드텀. 😴",
-   "ko": "미안, 자고 있었어. 😴",
-   "note": "aludtam = 나는 잤다",
+   "hu": "Bocsi! A metróban nincs térerő.",
+   "rd": "보치! 어 메트로번 닌치 테레뢰.",
+   "ko": "미안! 지하철에선 신호가 안 터져.",
+   "note": "térerő = (휴대폰) 신호",
    "tags": [
     "expr:Bocsi"
    ],
-   "at": "09:31",
-   "emotion": "amused",
+   "at": "09:56",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -174,64 +153,92 @@
      "보치"
     ],
     [
-     "aludtam",
-     "aludt",
+     "metróban",
+     "metró",
      ""
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "térerő",
+     "térerő",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Hol vagy most?",
+   "rd": "홀 버지 모슈트?",
+   "ko": "지금 어디야?",
+   "note": "most = 지금",
+   "tags": [],
+   "at": "09:56",
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Mi van? Hol vagy?",
-   "rd": "미 번? 홀 버지?",
-   "ko": "뭐야? 어디야?",
-   "note": "mi van? = 뭐야?",
-   "tags": [
-    "expr:Mi van?"
-   ],
-   "at": "09:31",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Mi van?"
-    ],
-    [
-     "annoyed",
-     "Hol vagy?"
-    ]
-   ],
+   "speaker": "B",
+   "hu": "A Nyugatiban, az óra alatt. 😅",
+   "rd": "어 뉴거티번, 어즈 오러 얼러트. 😅",
+   "ko": "서역에, 시계 밑에. 😅",
+   "note": "Nyugati = 서역(뉘거티)",
+   "tags": [],
+   "at": "09:57",
+   "emotion": "flustered",
    "ui": "bubble",
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
+   "lemmas": []
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Mögötted ülök. Szép a sapkád.",
-   "rd": "뫼괴떼드 윌뢱. 쎄프 어 셔프카드.",
-   "ko": "네 뒤에 앉아 있어. 모자 예쁘다.",
-   "note": "mögötted = 네 뒤에",
-   "tags": [],
-   "at": "09:32",
-   "emotion": "teasing",
+   "speaker": "A",
+   "hu": "Ne már! A vonat innen megy!",
+   "rd": "네 마르! 어 보너트 인넨 메지!",
+   "ko": "아이 참! 기차는 여기서 출발한다고!",
+   "note": "innen = 여기서부터",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "at": "09:57",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
-     "ülök",
-     "ül",
-     "위일"
+     "már",
+     "már",
+     "마르"
     ],
     [
-     "sapkád",
-     "sapkád",
+     "vonat",
+     "vonat",
      ""
+    ],
+    [
+     "innen",
+     "innen",
+     "인넨"
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
     ]
    ]
   }

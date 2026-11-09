@@ -11,9 +11,9 @@
  "domain": [
   "travel"
  ],
- "title": "월요일부터 시간표",
- "emoji": "🚌",
- "scene": "Réka 가 벼룩시장에서 산 버스가 드디어 출발했다. 단체 채팅방은 시골길 위에서 이어진다",
+ "title": "파란 염소는 두 곳",
+ "emoji": "🍽️",
+ "scene": "Dávid 가 저녁 식당을 예약했다. 셋이 단톡방에서 각자 찾아가기로 한다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
@@ -23,128 +23,117 @@
  "twist": 11,
  "twist_type": "chaos",
  "flags": [],
- "goal": "채팅으로 상황 전하기와 놀라는 말",
+ "goal": "채팅으로 만날 곳 확인하기(Hol ültök? · Nem látlak)",
  "expressions": [
-  "Komolyan",
-  "Naná",
-  "Mi van?",
-  "izé",
-  "Bocsi",
-  "Figyeljetek",
-  "Úristen"
+  "ugye",
+  "Hogyhogy",
+  "Ne már"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Figyelem! A busz elindult! 🚌",
-   "rd": "피젤렘! 어 부쓰 엘린둘트! 🚌",
-   "ko": "알립니다! 버스 출발했어! 🚌",
-   "note": "figyelem = 주목",
+   "speaker": "C",
+   "hu": "Foglaltam asztalt hétre a Kék Kecskében. 🍽️",
+   "rd": "폭럴텀 어쓰털트 헤트레 어 켁 케치케벤. 🍽️",
+   "ko": "7시에 「파란 염소」에 테이블 예약했어. 🍽️",
+   "note": "asztalt foglal = 테이블을 예약하다",
    "tags": [],
-   "at": "08:03",
-   "emotion": "excited",
+   "at": "17:30",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Figyelem",
-     "figyel",
-     "피겔"
+     "Foglaltam",
+     "foglal",
+     "포글럴"
     ],
     [
-     "busz",
-     "busz",
-     ""
+     "asztalt",
+     "asztal",
+     "어슬러"
     ],
     [
-     "elindult",
-     "elindul",
-     ""
+     "hétre",
+     "hét",
+     "헤트"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Komolyan? És a fék működik?",
-   "rd": "코모연? 에시 어 펙 뮈쾨딕?",
-   "ko": "진짜? 브레이크는 돼?",
-   "note": "fék = 브레이크",
-   "tags": [
-    "expr:Komolyan"
-   ],
-   "at": "08:04",
-   "emotion": "worried",
+   "speaker": "B",
+   "hu": "Szuper! Hol van?",
+   "rd": "쑤페르! 홀 번?",
+   "ko": "좋아! 어디야?",
+   "note": "hol van? = 어디 있어?",
+   "tags": [],
+   "at": "17:31",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Komolyan",
-     "komoly",
-     "코모이"
+     "Szuper",
+     "szuper",
+     "쑤페르"
     ],
     [
-     "fék",
-     "fék",
-     ""
-    ],
-    [
-     "működik",
-     "működik",
-     "뮈쾨딕"
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Naná. Legtöbbször.",
-   "rd": "너나. 렉퇴브쐬르.",
-   "ko": "당연하지. 대부분은.",
-   "note": "legtöbbször = 대부분",
+   "speaker": "C",
+   "hu": "A Király utcában. Megtaláljátok, ugye? 😄",
+   "rd": "어 키라이 우트차번. 멕털랄야톡, 우제? 😄",
+   "ko": "키라이 거리. 찾을 수 있지? 😄",
+   "note": "megtaláljátok = 너희가 찾는다",
    "tags": [
-    "expr:Naná"
+    "expr:ugye"
    ],
-   "at": "08:04",
+   "at": "17:31",
    "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "Naná",
-     "naná",
-     ""
+     "utcában",
+     "utca",
+     "우트처"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "C",
-   "hu": "Várjatok, most miért álltunk meg?",
-   "rd": "바르여톡, 모슈트 미에르트 알툰크 멕?",
-   "ko": "잠깐, 지금 왜 섰어?",
-   "note": "álltunk meg = 우리가 멈췄다",
+   "speaker": "A",
+   "hu": "Persze. Én a múzeumból megyek, villamossal.",
+   "rd": "페르쎄. 엔 어 무제움볼 메젝, 빌러모쎨.",
+   "ko": "그럼. 나는 박물관에서 트램 타고 갈게.",
+   "note": "villamossal = 트램으로",
    "tags": [],
-   "at": "09:10",
-   "emotion": "worried",
+   "at": "17:40",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Várjatok",
-     "vár",
-     "바르"
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
+     "múzeumból",
+     "múzeum",
+     "무제움"
     ],
     [
-     "miért",
-     "miért",
-     "미에르트"
+     "megyek",
+     "megye",
+     "메예"
     ],
     [
-     "álltunk",
-     "állt",
+     "villamossal",
+     "villamos",
      ""
     ]
    ]
@@ -152,358 +141,143 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Egy néni integetett a megállóban. Felszállt.",
-   "rd": "에지 네니 인테게테트 어 메갈로번. 펠쌀트.",
-   "ko": "정류장에서 할머니가 손을 흔들었어. 탔어.",
-   "note": "integet = 손을 흔들다",
+   "hu": "Én meg biciklivel. Ott találkozunk!",
+   "rd": "엔 멕 비칙리벨. 오트 털랄코준크!",
+   "ko": "나는 자전거로. 거기서 만나!",
+   "note": "meg = 그리고(대조)",
    "tags": [],
-   "at": "09:11",
-   "emotion": "neutral",
+   "at": "17:41",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "néni",
-     "néni",
+     "biciklivel",
+     "bicikli",
      ""
     ],
     [
-     "integetett",
-     "integet",
-     ""
-    ],
-    [
-     "megállóban",
-     "megálló",
-     ""
+     "találkozunk",
+     "találkozik",
+     "털랄코지크"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Mi van? De ez nem, izé, menetrendes busz!",
-   "rd": "미 번? 데 에즈 넴, 이제, 메네트렌데시 부쓰!",
-   "ko": "뭐? 근데 이건, 그, 노선버스가 아니잖아!",
-   "note": "menetrend = 시간표",
-   "tags": [
-    "expr:Mi van?",
-    "expr:izé"
-   ],
-   "at": "09:11",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Mi van?"
-    ],
-    [
-     "tsukkomi",
-     "De ez nem, izé, menetrendes busz!"
-    ]
-   ],
+   "hu": "Megérkeztem, szép hely! Hol ültök?",
+   "rd": "메게르케즈템, 쎄프 헤이! 홀 윌퇵?",
+   "ko": "도착, 예쁜 곳이다! 너희 어디 앉았어?",
+   "note": "ültök = 너희가 앉아 있다",
+   "tags": [],
+   "at": "18:58",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "Megérkeztem",
+     "megérkezik",
+     "메게르케직"
     ],
     [
-     "izé",
-     "izé",
-     ""
+     "szép",
+     "szép",
+     "쎕"
     ],
     [
-     "menetrendes",
-     "menetrend",
-     ""
+     "hely",
+     "hely",
+     "헤이"
     ],
     [
-     "busz",
-     "busz",
-     ""
+     "ültök",
+     "ül",
+     "위일"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Ő nem tudja. És már nyolcan szálltak fel.",
-   "rd": "외 넴 투드여. 에시 마르 뇰천 쌀턱 펠.",
-   "ko": "할머니는 모르지. 그리고 벌써 여덟 명이 탔어.",
-   "note": "nyolcan = 여덟 명이서",
+   "hu": "A terasz mellett. Te?",
+   "rd": "어 테러쓰 멜레트. 테?",
+   "ko": "테라스 옆. 너는?",
+   "note": "mellett = ~ 옆에",
    "tags": [],
-   "at": "09:30",
-   "emotion": "amused",
+   "at": "18:59",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
-     "tudja",
-     "tud",
-     "투드"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "nyolcan",
-     "nyolcan",
+     "terasz",
+     "terasz",
      ""
-    ],
-    [
-     "szálltak",
-     "szállt",
-     ""
-    ],
-    [
-     "fel",
-     "fel",
-     "펠"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "C",
-   "hu": "Az egyik bácsi kérdezi, mennyibe kerül a jegy.",
-   "rd": "어즈 에직 바치 케르데지, 메니베 케륄 어 예지.",
-   "ko": "어떤 할아버지가 표 얼마냐고 물어봐.",
-   "note": "kérdezi = 물어본다(정활용)",
+   "speaker": "A",
+   "hu": "Én is a terasznál vagyok. Nem látlak.",
+   "rd": "엔 이시 어 테러쓰날 버죡. 넴 라틀럭.",
+   "ko": "나도 테라스야. 너 안 보이는데.",
+   "note": "látlak = 내가 너를 본다",
    "tags": [],
-   "at": "09:31",
-   "emotion": "neutral",
+   "at": "18:59",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "bácsi",
-     "bácsi",
+     "terasznál",
+     "terasz",
      ""
     ],
     [
-     "kérdezi",
-     "kérdez",
-     "케르데즈"
+     "vagyok",
+     "van",
+     "번"
     ],
     [
-     "kerül",
-     "kerül",
-     "케륄"
-    ],
-    [
-     "jegy",
-     "jegy",
+     "látlak",
+     "látlak",
      ""
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "A",
-   "hu": "Hát mondd neki, hogy ingyen van!",
-   "rd": "하트 몬드 네키, 호지 인젠 번!",
-   "ko": "그럼 공짜라고 말해!",
-   "note": "ingyen = 공짜로",
+   "speaker": "C",
+   "hu": "Integetek! 👋 Piros pulcsi.",
+   "rd": "인테게텍! 👋 피로시 풀치.",
+   "ko": "손 흔들고 있어! 👋 빨간 스웨터.",
+   "note": "integet = 손을 흔들다",
    "tags": [],
-   "at": "09:31",
+   "at": "19:00",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "mondd",
-     "mond",
-     "몬드"
-    ],
-    [
-     "ingyen",
-     "ingyen",
+     "Integetek",
+     "integet",
      ""
     ],
     [
-     "van",
-     "van",
-     "번"
+     "pulcsi",
+     "pulcsi",
+     ""
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "B",
-   "hu": "Bocsi, már mondtam: háromszáz forint. 😇",
-   "rd": "보치, 마르 몬드텀: 하롬싸즈 포린트. 😇",
-   "ko": "미안, 이미 말했어. 300포린트. 😇",
-   "note": "háromszáz = 300",
-   "tags": [
-    "expr:Bocsi"
-   ],
-   "at": "09:32",
-   "emotion": "teasing",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Bocsi",
-     "bocsi",
-     "보치"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "mondtam",
-     "mond",
-     "몬드"
-    ],
-    [
-     "háromszáz",
-     "háromszáz",
-     ""
-    ],
-    [
-     "forint",
-     "forint",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "C",
-   "hu": "Figyeljetek, most már harmincan vagyunk. Egy néni kolbászt oszt.",
-   "rd": "피젤예텍, 모슈트 마르 허르민천 버쥰크. 에지 네니 콜바쓰트 오쓰트.",
-   "ko": "얘들아, 이제 서른 명이야. 어떤 할머니가 소시지 나눠 줘.",
-   "note": "harmincan = 서른 명이서",
-   "tags": [
-    "expr:Figyeljetek"
-   ],
-   "at": "10:05",
-   "emotion": "amused",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Figyeljetek",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "harmincan",
-     "harminc",
-     ""
-    ],
-    [
-     "vagyunk",
-     "van",
-     "번"
-    ],
-    [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "kolbászt",
-     "kolbász",
-     ""
-    ],
-    [
-     "oszt",
-     "oszt",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 12,
    "speaker": "A",
-   "hu": "Úristen, a következő megállóban is sokan várnak!",
-   "rd": "우리슈텐, 어 쾨베트케죄 메갈로번 이시 쇼컨 바르넉!",
-   "ko": "세상에, 다음 정류장에도 사람이 많아!",
-   "note": "következő = 다음",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "at": "10:12",
-   "emotion": "surprised",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
-    ],
-    [
-     "következő",
-     "következik",
-     "쾨베트케지크"
-    ],
-    [
-     "megállóban",
-     "megálló",
-     ""
-    ],
-    [
-     "várnak",
-     "vár",
-     "바르"
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "B",
-   "hu": "Igen, a néni mindenkit felhívott.",
-   "rd": "이겐, 어 네니 민덴키트 펠히보트.",
-   "ko": "응, 할머니가 다들 불렀거든.",
-   "note": "felhív = 전화하다",
+   "hu": "Itt csak egy bácsi integet, piros pulcsiban. 😅",
+   "rd": "이트 척 에지 바치 인테게트, 피로시 풀치번. 😅",
+   "ko": "여기 빨간 스웨터 입은 할아버지 한 분만 손 흔드는데. 😅",
+   "note": "pulcsiban = 스웨터를 입고",
    "tags": [],
-   "at": "10:12",
-   "emotion": "cheerful",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "felhívott",
-     "felhív",
-     "펠히브"
-    ]
-   ]
-  },
-  {
-   "num": 14,
-   "speaker": "C",
-   "hu": "Itt a polgármester. Kezet fog Rékával.",
-   "rd": "이트 어 폴가르메슈테르. 케제트 폭 레카벌.",
-   "ko": "시장님 왔어. 레카랑 악수해.",
-   "note": "kezet fog = 악수하다",
-   "tags": [],
-   "at": "10:40",
-   "emotion": "surprised",
+   "at": "19:00",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -512,72 +286,230 @@
      "이트"
     ],
     [
-     "polgármester",
-     "polgármester",
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "bácsi",
+     "bácsi",
      ""
     ],
     [
-     "fog",
-     "fog",
-     "포그"
+     "integet",
+     "integet",
+     ""
+    ],
+    [
+     "piros",
+     "piros",
+     ""
+    ],
+    [
+     "pulcsiban",
+     "pulcsi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Várj, te melyik Kék Kecskében vagy?",
+   "rd": "바르이, 테 메익 켁 케치케벤 버지?",
+   "ko": "잠깐, 너 어느 「파란 염소」에 있어?",
+   "note": "melyik = 어느",
+   "tags": [],
+   "at": "19:01",
+   "emotion": "surprised",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Hogyhogy melyik? Kettő van?",
+   "rd": "호지호지 메익? 케뙤 번?",
+   "ko": "어느 거라니? 두 군데야?",
+   "note": "hogyhogy = 어째서",
+   "tags": [
+    "expr:Hogyhogy"
+   ],
+   "at": "19:01",
+   "emotion": "surprised",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hogyhogy",
+     "hogyhogy",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "hu": "Igen, a budai és a pesti. Mi Pesten vagyunk.",
+   "rd": "이겐, 어 부더이 에시 어 페슈티. 미 페슈텐 버쥰크.",
+   "ko": "응, 부다 쪽이랑 페스트 쪽. 우리는 페스트에 있어.",
+   "note": "Pesten = 페스트에",
+   "tags": [],
+   "at": "19:02",
+   "emotion": "flustered",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "budai",
+     "budai",
+     ""
+    ],
+    [
+     "pesti",
+     "pesti",
+     ""
+    ],
+    [
+     "vagyunk",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Én meg Budán. A bácsi viszont hív, hogy üljek le. 😂",
+   "rd": "엔 멕 부단. 어 바치 비쏜트 히브, 호지 윌옉 레. 😂",
+   "ko": "나는 부다야. 근데 그 할아버지가 앉으라고 부르셔. 😂",
+   "note": "viszont = 그런데",
+   "tags": [],
+   "at": "19:03",
+   "emotion": "amused",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "bácsi",
+     "bácsi",
+     ""
+    ],
+    [
+     "hív",
+     "hív",
+     "히브"
+    ],
+    [
+     "üljek",
+     "ül",
+     "위일"
+    ],
+    [
+     "le",
+     "le",
+     "레"
     ]
    ]
   },
   {
    "num": 15,
-   "speaker": "A",
-   "hu": "Mi van? Mit akar?",
-   "rd": "미 번? 미트 어커르?",
-   "ko": "뭐? 뭘 원한대?",
-   "note": "akar = 원하다",
-   "tags": [
-    "expr:Mi van?"
-   ],
-   "at": "10:41",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Mi van?"
-    ],
-    [
-     "worried",
-     "Mit akar?"
-    ]
-   ],
+   "speaker": "B",
+   "hu": "Na, akkor jó étvágyat a bácsival! 😂",
+   "rd": "너, 어꼬르 요 에트바져트 어 바치벌! 😂",
+   "ko": "자, 그럼 할아버지랑 맛있게 먹어! 😂",
+   "note": "jó étvágyat = 맛있게 드세요",
+   "tags": [],
+   "at": "19:03",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "akar",
-     "akar",
-     "어커르"
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "étvágyat",
+     "étvágy",
+     ""
+    ],
+    [
+     "bácsival",
+     "bácsi",
+     ""
     ]
    ]
   },
   {
    "num": 16,
-   "speaker": "B",
-   "hu": "Semmi. Hétfőtől menetrendünk van. 🚌",
-   "rd": "셈미. 헤트푀퇼 메네트렌뒨크 번. 🚌",
-   "ko": "별거 아니야. 월요일부터 시간표가 있대. 🚌",
-   "note": "hétfőtől = 월요일부터",
-   "tags": [],
-   "at": "10:48",
-   "emotion": "cheerful",
+   "speaker": "C",
+   "hu": "Ne már! Várj, taxival tíz perc, és ott vagyunk.",
+   "rd": "네 마르! 바르이, 턱씨벌 티즈 페르츠, 에시 오트 버쥰크.",
+   "ko": "아이 참! 기다려, 택시로 10분이면 거기 가.",
+   "note": "taxival = 택시로",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "at": "19:04",
+   "emotion": "tsukkomi",
+   "segs": [
+    [
+     "tsukkomi",
+     "Ne már!"
+    ],
+    [
+     "gentle",
+     "Várj, taxival tíz perc, és ott vagyunk."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
-     "menetrendünk",
-     "menetrend",
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "taxival",
+     "taxi",
      ""
     ],
     [
-     "van",
+     "perc",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "vagyunk",
      "van",
      "번"
     ]

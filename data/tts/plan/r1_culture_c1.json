@@ -7,66 +7,77 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Szia! Ébren vagy? 😄",
-"Szia! Ébren vagy?"
+"excited",
+"Láttad már az új filmet? 🎬",
+"Láttad már az új filmet?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Igen. Miért?"
+"gentle",
+"Még nem. Jó?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"teasing",
-"Most lájkoltad a képemet."
+"excited",
+"Nagyon! A végén a főszereplő...",
+"Nagyon! A végén a főszereplő"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Melyiket?"
+"shout",
+"Ne! Ne mondd el! 🙉",
+"Ne! Ne mondd el!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"teasing",
-"A régit. Nyolcéves vagyok rajta."
+"flustered",
+"Jó, jó. Bocsi! 😅",
+"Jó, jó. Bocsi!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Jaj. Véletlenül."
+"cheerful",
+"Mikor megy a moziban?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
+"neutral",
+"Szombaton este."
+],
+[
 "teasing",
-"Aha. Véletlenül."
+"De én már láttam."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Nem baj. Van még száz kép. 😏",
-"Nem baj. Van még száz kép."
+"gentle",
+"De szívesen megnézem még egyszer."
+],
+[
+"shy",
+"Veled. 😊",
+"Veled."
 ]
 ]
 }

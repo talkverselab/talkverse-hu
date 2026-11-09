@@ -1,26 +1,25 @@
 === r2_love_c1
 kind: chat
-title: 단톡방의 어머니
-emoji: 👩‍👧
-scene: Réka 가 Anna 와 A 를 이어 주겠다며 단톡방을 만들었다. 그리고 한 명을 더 초대했다
+title: 이 방이 아니야
+emoji: 🧺
+scene: Réka 가 셋이서 피크닉 가자고 단톡방을 만들었다. 날짜가 잡히고 나서
 b: Réka
 c: Anna
-d: Anna anyukája
 register: chat
 twist: 8 chaos
 flags: romance
 purpose: love
-goal: 단톡방 말투, '~가 ~에게 마음에 든다'(tetszik neked)
-expressions: Jaj; Bocsi; Várj; Légyszi
-B | Csináltam egy csoportot. Sziasztok! 😎 | 방 하나 만들었어. 얘들아 안녕! 😎 | csoport = 그룹 | emotion=cheerful at=19:00
-A | Réka, ez mi? Miért vagyunk csak hárman? | 레카, 이게 뭐야? 왜 우리 셋뿐이야? | hárman = 셋이서 | emotion=tsukkomi at=19:01
-C | Szia! Réka azt mondta, te akarsz kérdezni valamit. 😳 | 안녕! 레카가 네가 뭐 물어볼 거라던데. 😳 | valamit = 뭔가를 | emotion=shy at=19:02
-A | Én? Nekem azt mondta, hogy te akarsz. | 내가? 나한테는 네가 그런다고 했는데. | azt mondta = 그렇게 말했다 | emotion=flustered at=19:02
-B | Jaj, de lassúak vagytok. Anna tetszik neked, te tetszel neki. | 아이고, 둘 다 진짜 느려. 넌 언너가 좋고, 언너는 네가 좋아. | lassú = 느린 | emotion=annoyed+teasing at=19:03
-C | RÉKA!!! | 레카!!! | 큰 글자 = 소리치기 | emotion=shout at=19:03
-A | Várj, ez igaz? | 잠깐, 그거 진짜야? | igaz = 사실인 | emotion=surprised at=19:04
-B | Bocsi, Anna anyukáját is hozzáadtam. Véletlenül. 😇 | 미안, 언너 엄마도 넣어 버렸어. 실수로. 😇 | hozzáadtam = 추가했다 | emotion=teasing at=19:05
-D | Szervusztok! Ki ez a {name}, aki tetszik? | 안녕들! 마음에 든다는 그 {name}은 누구니? | szervusztok = 안녕(여럿에게) | emotion=cheerful at=19:06
-C | ANYA, NE! 😱 | 엄마, 안 돼! 😱 | ne = 안 돼, 하지 마 | emotion=shout at=19:06
-D | Akkor vasárnap ebéd nálunk. Hoztok rétest? | 그럼 일요일 점심은 우리 집에서. 레테시 가져올래? | nálunk = 우리 집에서 | emotion=cheerful at=19:07
-C | Gyere, légyszi. Melléd ülök. 🙈 | 와 줘, 제발. 네 옆에 앉을게. 🙈 | melléd = 네 옆으로 | emotion=shy at=19:08
+goal: 단톡방에서 약속 잡기(…-kor a …-nál?)와 미루기(halasszuk el)
+expressions: Bocsi; Komolyan?; Ne már; Szóval
+B | Sziasztok! Szombaton piknik a Margitszigeten? 🧺 | 얘들아! 토요일에 머르기트섬에서 피크닉 어때? 🧺 | piknik = 피크닉 | emotion=excited at=19:00
+C | Igen! Én viszek pogácsát. 😋 | 좋아! 나 포가차 가져갈게. 😋 | pogácsa = 포가차(짭짤한 작은 빵) | emotion=cheerful at=19:02
+A | Szuper! Én hozok gyümölcsöt meg pokrócot. | 좋아! 나는 과일이랑 담요 가져갈게. | pokróc = 담요 | emotion=cheerful at=19:03
+B | Tökéletes. Tizenegykor a hídnál? | 완벽해. 11시에 다리 앞? | a hídnál = 다리 옆에서 | emotion=cheerful at=19:04
+B | Jaj, bocsi... most jut eszembe, szombaton dolgozom. 😬 | 아이고, 미안… 이제 생각났는데, 토요일에 일해. 😬 | eszembe jut = 생각나다 | emotion=flustered at=21:30
+A | Komolyan? Akkor halasszuk el? | 진짜? 그럼 미룰까? | elhalaszt = 미루다 | emotion=worried at=21:31
+B | Ne már, menjetek ketten! A pogácsa nem várhat. 😇 | 에이, 둘이 가! 포가차는 못 기다려. 😇 | menjetek = 너희가 가라 | emotion=teasing at=21:31
+B | Dávid, működik a terv! Hagyjuk őket kettesben. 😏 | 다비드, 계획 성공! 둘만 있게 두자. 😏 | kettesben = 둘이서만 | emotion=teasing at=21:32
+B | JAJ. Ez nem ide ment!!! 😱 | 으악. 이거 여기 보낼 게 아니었어!!! 😱 | ide = 여기로 | emotion=shout at=21:32
+C | Réka... milyen terv? 🙄 | 레카… 무슨 계획? 🙄 | milyen = 어떤 | emotion=annoyed at=21:33
+A | Szóval szombaton csak mi ketten? | 그러니까 토요일엔 우리 둘만? | mi ketten = 우리 둘 | emotion=shy at=21:35
+C | Úgy tűnik. Hozok több pogácsát. 😊 | 그런가 봐. 포가차 더 가져갈게. 😊 | több = 더 많은 | emotion=shy at=21:36

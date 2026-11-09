@@ -1,19 +1,19 @@
 === r1_friends_c3
 kind: chat
-title: 읽고 안 읽씹
-emoji: 🍲
-scene: 몸살이 났다. Réka 에게 보낸 메시지가 읽혔는데 답이 없다
+title: 오늘 결석
+emoji: 🤒
+scene: 감기로 수업에 못 간 날, Réka 에게서 메시지가 온다
 b: Réka
 register: chat
-twist: 6 ignore
+twist: 7 emotion
 purpose: making_friends
-goal: 아프다고 말하기와 채팅 혼잣말
-expressions: Hé; Na; nyisd ki
-A | Réka, beteg vagyok. | 레카, 나 아파. | beteg = 아픈 | emotion=sad at=10:02
-A | Nagyon fáj a fejem. | 머리 너무 아파. | fej = 머리 | emotion=sad at=10:03
-A | Látod? Olvastad? | 봤어? 읽었어? | olvastad = 네가 그걸 읽었다 | emotion=worried at=10:40
-A | Hé! Nem válaszolsz? | 야! 답 안 해? | válaszolsz = 네가 답한다 | emotion=annoyed at=11:15
-A | Jó, akkor meghalok. Szia. | 그래, 그럼 나 죽는다. 안녕. | meghalok = 나 죽는다 | emotion=sad at=12:30
-B | Na, nyisd ki az ajtót. | 야, 문 열어. | nyisd ki = 열어 | emotion=annoyed at=12:41
-A | Mi? Hol vagy? | 뭐? 어디야? | hol vagy? = 어디야? | emotion=surprised at=12:41
-B | Itt, levessel. Egy órája csengetek. | 여기, 수프 들고. 한 시간째 초인종 눌러. | egy órája = 한 시간째 | emotion=gentle+tsukkomi at=12:42
+goal: 아프다 말하기(Beteg vagyok · Fáj a torkom)
+expressions: Mi van veled; Beteg vagyok; Jobbulást
+B | Mi van veled? Nem vagy órán. | 무슨 일이야? 수업에 없네. | órán = 수업에 | emotion=worried at=09:15
+A | Beteg vagyok. Fáj a torkom. 🤒 | 아파. 목이 아파. 🤒 | fáj a torkom = 목이 아프다 | emotion=sad at=09:31
+B | Jaj, szegény! Lázas vagy? | 아이고, 어떡해! 열 있어? | lázas = 열이 있는 | emotion=worried at=09:32
+A | Egy kicsit. Egész nap alszom. | 조금. 하루 종일 자. | alszom = 잔다 | emotion=sad at=09:33
+B | Van otthon tea? Méz? | 집에 차 있어? 꿀은? | méz = 꿀 | emotion=gentle at=09:33
+A | Nincs semmi. Csak víz. 😅 | 아무것도 없어. 물만. 😅 | semmi = 아무것도 | emotion=amused at=09:34
+B | Óra után viszek levest. Jobbulást! | 수업 끝나고 수프 갖다줄게. 빨리 나아! | jobbulást = 빨리 나아 | emotion=gentle at=09:35
+A | Komolyan? Te vagy a legjobb. 🥹 | 진짜? 너 최고야. 🥹 | a legjobb = 최고 | emotion=shy at=09:36

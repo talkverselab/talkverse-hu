@@ -8,72 +8,64 @@
 "1": {
 "segs": [
 [
-"worried",
-"Figyelj, apám szigorú. Csak mosolyogj, és ne mondj semmi okosat."
+"cheerful",
+"Ma van apukám névnapja. Este nálunk vacsorázunk."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Nyugi, megtanultam tíz magyar közmondást. Imádni fog."
+"gentle",
+"Vigyek valamit? Virágot vagy bort?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Tíz közmondást?"
-],
-[
-"worried",
-"Jaj, jön, mosolyogj!"
+"cheerful",
+"Egy üveg bor jó lesz. Apa a vöröset szereti."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"stiff",
-"Üdvözlöm, foglaljon helyet! Ön magyarul tanul, nehéz?"
+"worried",
+"És mit kell mondani? Boldog névnapot?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"polite",
-"Igen, de sehol sincs kolbászból a kerítés."
+"gentle",
+"Az is jó, vagy „Isten éltesse”, magázva."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Hát, ez igaz. Jó mondás!"
+"cheerful",
+"Isten éltesse. Oké, megjegyeztem."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Hű, ez működött."
-],
-[
-"worried",
-"Most már elég, jó?"
+"cheerful",
+"Sziasztok, gyertek be! Hideg van kint."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"polite",
-"Kóstolja meg a pörköltet. Ezt én főztem, negyven éve ez a receptem."
+"gentle",
+"Ó, vörösbor! Köszönöm, nagyon kedves."
 ]
 ]
 },
@@ -81,55 +73,58 @@
 "segs": [
 [
 "cheerful",
-"Köszönöm! Kutyából nem lesz szalonna!"
+"Szívesen. És... Isten éltessen!",
+"Szívesen. És, Isten éltessen!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"surprised",
-"Úristen, {name}, ezt most komolyan mondtad?"
+"amused",
+"Hű, már tegeződünk? Jól van, László vagyok! 😄",
+"Hű, már tegeződünk? Jól van, László vagyok!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"annoyed",
-"Kutyából? Azt mondja, hogy kutyát főztem?"
+"flustered",
+"Jaj, bocsánat! „Éltesse”, azt akartam mondani."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"flustered",
-"Nem, bocsánat! Bagoly mondja verébnek, hogy nagyfejű!"
+"teasing",
+"Túl késő. Apa már nagyon örül neki. 😂",
+"Túl késő. Apa már nagyon örül neki."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"annoyed",
-"Engem nagyfejűnek nevez?"
+"gentle",
+"Komolyan, nyugodtan tegezz. Kérsz egy kis pálinkát?"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"tsukkomi",
-"Kérlek, hallgass már! Tessék, egyél krumplit!"
+"polite",
+"Csak egy kicsit. Egészségére!"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"cheerful",
-"Még hét van. Várj, ez jó: aki másnak vermet ás, maga esik bele!"
+"tsukkomi",
+"Egészségedre! Ugye mondtam: tegezz!"
 ]
 ]
 },
@@ -137,11 +132,7 @@
 "segs": [
 [
 "amused",
-"Réka, hozd a pálinkát, negyven éve nem nevettem így!"
-],
-[
-"cheerful",
-"Tegeződjünk, {name}!"
+"Ma már kétszer. Holnapra megtanulja, apa."
 ]
 ]
 }

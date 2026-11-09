@@ -1,19 +1,19 @@
 === r1_culture_c4
 kind: chat
-title: 새해 첫 생선
-emoji: 🐟
-scene: 12월 31일 자정이 막 지났다. A 는 맛있게 먹는 중이다
+title: 매진된 표
+emoji: 🎫
+scene: Réka 가 좋아하는 밴드의 콘서트 표가 매진됐다며 메시지를 보낸다
 b: Réka
 register: chat
 twist: 6 reveal
 purpose: media making_friends
-goal: 새해 인사와 음식 미신
-expressions: Ne már; Mi van; Jaj
-A | Boldog új évet! 🎆 | 새해 복 많이! 🎆 | boldog új évet = 새해 복 많이 | emotion=excited at=00:03
-B | Neked is! Mit eszel? | 너도! 뭐 먹어? | neked is = 너도 | emotion=cheerful at=00:04
-A | Halat. Finom! | 생선. 맛있어! | hal = 생선 | emotion=cheerful at=00:04
-B | Halat?! Ne már! | 생선?! 아 안 돼! | ne már! = 아 좀! | emotion=surprised+shout at=00:04
-A | Mi van? | 왜? | mi van? = 왜? | emotion=surprised at=00:05
-B | A hal elúszik a szerencsével! | 생선이 운을 달고 헤엄쳐 가잖아! | elúszik = 헤엄쳐 가 버리다 | emotion=worried at=00:05
-A | Jaj. Három halat ettem. | 아이고. 세 마리 먹었어. | ettem = 먹었다 | emotion=flustered at=00:06
-B | Akkor idén ne ülj mellém. 😅 | 그럼 올해 내 옆에 앉지 마. 😅 | mellém = 내 옆으로 | emotion=teasing at=00:06
+goal: 위로하는 짧은 말(Sajnálom · Durva)과 깜짝 소식
+expressions: Durva; Mindegy; Mi van
+B | Elfogytak a jegyek a koncertre! 😭 | 콘서트 표 매진됐어! 😭 | elfogytak = 다 떨어졌다 | emotion=sad at=10:02
+A | Jaj, ne! Mind? | 아, 안 돼! 전부? | mind = 전부 | emotion=surprised at=10:03
+B | Mind. Két perc alatt. | 전부. 2분 만에. | alatt = ~만에 | emotion=sad at=10:03
+A | Durva. Sajnálom. | 심하다. 안됐다. | durva = 심하다, 대박 | emotion=gentle at=10:04
+B | Mindegy, majd jövőre. 😔 | 됐어, 내년에 가지 뭐. 😔 | jövőre = 내년에 | emotion=sad at=10:05
+A | Várj... nekem van kettő. 🎫 | 잠깐… 나 두 장 있어. 🎫 | nekem van = 나에게 있다 | emotion=amused at=10:06
+B | MI VAN?! Komolyan? | 뭐?! 진짜? | mi van? = 뭐야? | emotion=shout+surprised at=10:06
+A | Meglepetés lett volna. Boldog szülinapot előre! 🎂 | 서프라이즈였는데. 미리 생일 축하해! 🎂 | lett volna = ~였을 텐데 | emotion=cheerful at=10:07

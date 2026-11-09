@@ -1,19 +1,20 @@
 === r1_survival_s3
 kind: survival
-title: 세 번째 뵙네요
-emoji: 🏥
-scene: 다리를 절며 병원을 찾는 길. 할머니가 알려 준 대로 걷고 또 걷는다
+title: 약국은 어느 쪽?
+emoji: 💊
+scene: 목이 아파 약국을 찾는다. 길에서 할머니에게 물었는데 지나가던 할아버지가 끼어든다
 b: Néni
+c: Bácsi
 register: polite
-twist: 8 reveal
+twist: 7 chaos
 purpose: travel
-goal: 길 묻기(Hol van …?)와 길 안내(menjen, balra) 알아듣기
+goal: 길 묻기(Hol van …?)와 길 안내(menjen, balra, jobbra) 알아듣기
 expressions: Elnézést; Hol van; Menjen; sajnos
-A | Elnézést! Hol van a kórház? | 실례합니다! 병원이 어디예요? | kórház = 병원 | emotion=polite
-B | A kórház? Menjen egyenesen, aztán balra! | 병원이요? 쭉 가서 왼쪽이요! | menjen = 가세요(존댓말), balra = 왼쪽으로 | emotion=polite
-A | Köszönöm! Nagyon fáj a lábam. | 감사합니다! 다리가 너무 아파서요. | láb = 다리, 발 | emotion=polite+sad
-B | Nincs messze, csak öt perc. | 안 멀어요, 5분밖에 안 걸려요. | messze = 멀리 | emotion=gentle
-A | Elnézést, hol van a... Jaj, megint maga? | 실례합니다! 병원이 어… 어머, 또 뵙네요? | megint = 또 | emotion=polite+surprised
-B | Már harmadszor jön erre! | 벌써 세 번째 이쪽으로 오시네요! | harmadszor = 세 번째로 | emotion=surprised
-A | Igen, sajnos. Most már nagyon fáj a lábam. | 네, 안타깝게도요. 이제 다리가 정말 아파요. | sajnos = 안타깝게도 | emotion=sad
-B | Hát nézze! A kórház ott van, maga mögött. | 아이고 보세요! 병원은 저기, 바로 뒤에 있어요. | maga mögött = 당신 뒤에 | emotion=tsukkomi+amused
+A | Elnézést! Hol van a gyógyszertár? | 실례합니다! 약국이 어디예요? | gyógyszertár = 약국 | emotion=polite
+B | A patika? Menjen egyenesen, aztán balra. | 약국이요? 쭉 가다가 왼쪽이요. | menjen = 가세요(존댓말), patika = 약국(구어) | emotion=gentle
+C | Dehogy balra! Jobbra van, a posta mellett. | 무슨 왼쪽이야! 오른쪽이지, 우체국 옆. | dehogy = 천만에, 아니지 | emotion=annoyed
+B | Ugyan, Feri! Az a régi patika volt. | 아이고, 페리! 그건 옛날 약국이고. | ugyan = 아이고, 무슨 소리 | emotion=tsukkomi
+C | Milyen régi? Tegnap is ott voltam! | 옛날은 무슨? 어제도 거기 갔었어! | tegnap is = 어제도 | emotion=annoyed
+A | Sajnos nem értem. Balra vagy jobbra? | 죄송한데 잘 모르겠어요. 왼쪽이에요, 오른쪽이에요? | sajnos = 안타깝게도 | emotion=worried
+B | Jöjjön velünk, mi is oda megyünk. | 우리랑 같이 가요, 우리도 거기 가요. | jöjjön = 오세요(존댓말) | emotion=cheerful
+C | Igen. És majd meglátjuk, ki tudja jobban! | 그래요. 누가 더 잘 아는지 보자고! | meglátjuk = 두고 보자 | emotion=teasing

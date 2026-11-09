@@ -7,100 +7,100 @@
 "1": {
 "segs": [
 [
-"annoyed",
-"Zsófi, mikor kapom vissza a sálamat?"
+"cheerful",
+"Leszállt a géped? ✈️",
+"Leszállt a géped?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"teasing",
-"Most nem tud beszélni. Éppen utazik. 😄",
-"Most nem tud beszélni. Éppen utazik."
+"cheerful",
+"Igen! Most várom a bőröndöt."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Mi van? A sálam utazik?"
+"gentle",
+"A városba a 100E busszal gyere, az a leggyorsabb."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"excited",
-"Igen, nézd! Ő a Balatonnál. 📷",
-"Igen, nézd! Ő a Balatonnál."
+"neutral",
+"Hol veszek rá jegyet?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Ez tényleg az én sálam! Miért van egy kutyán?"
+"gentle",
+"Az automatánál, a megállóban. Kártyával is lehet."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Egerben is volt. Ott egy kicsit sokat ivott. 🍷",
-"Egerben is volt. Ott egy kicsit sokat ivott."
+"excited",
+"Megvan a bőrönd!"
+],
+[
+"flustered",
+"Hol a kijárat? 😅",
+"Hol a kijárat?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"tsukkomi",
-"Hű. Már többet utazott, mint én."
+"gentle",
+"Egyenesen, aztán jobbra. Ne siess."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"cheerful",
-"Igen. Jövő héten Pécsre megy."
+"worried",
+"Miért? Lekésem a buszt!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"sad",
-"Szóval nem kapom vissza."
+"shy",
+"Nem baj. Nézz balra. 🌷",
+"Nem baj. Nézz balra."
 ]
 ]
 },
 "10": {
 "segs": [
 [
+"surprised",
+"Zsófi?!"
+],
+[
 "shy",
-"Csak egy baj van: egyedül fél."
+"Te kijöttél értem?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"amused",
-"Komolyan? Fél a sál?"
-]
-]
-},
-"12": {
-"segs": [
-[
 "shy",
-"Igen. Jössz vele? 😇",
-"Igen. Jössz vele?"
+"Hát... véletlenül erre jártam. 😊",
+"Hát, véletlenül erre jártam."
 ]
 ]
 }

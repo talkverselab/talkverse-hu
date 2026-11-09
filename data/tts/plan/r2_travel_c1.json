@@ -8,8 +8,9 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Hétvégén Eger? Hárman, Dávid kocsijával?"
+"excited",
+"Holnap Szentendre? Ki jön? ☀️",
+"Holnap Szentendre? Ki jön?"
 ]
 ]
 },
@@ -17,7 +18,7 @@
 "segs": [
 [
 "cheerful",
-"Oké! Jön az öcsém is, ha nem baj."
+"Én! Mikor indulunk?"
 ]
 ]
 },
@@ -25,32 +26,32 @@
 "segs": [
 [
 "cheerful",
-"Jó, akkor én hozom Annát meg Bencét."
+"Kilenckor? A HÉV a Batthyány térről megy."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Várjatok, az már hat ember! Öt hely van!"
+"cheerful",
+"Oké, találkozunk ott negyed kilenckor."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"Nem baj. Szóltam a focicsapatnak is. ⚽",
-"Nem baj. Szóltam a focicsapatnak is."
+"worried",
+"Negyed kilenc? Az nyolc óra tizenöt, ugye?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"neutral",
-"Hányan vannak?"
+"amused",
+"Igen, Dávid. 😅",
+"Igen, Dávid."
 ]
 ]
 },
@@ -58,56 +59,42 @@
 "segs": [
 [
 "cheerful",
-"Tizenegyen. Plusz az edző."
+"A jegyeket én veszem meg az appban."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Mi van, tizennyolc ember?"
-],
-[
-"worried",
-"Mivel megyünk?"
+"excited",
+"Kész! Három napijegy. 🎫",
+"Kész! Három napijegy."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"gentle",
-"Nyugi, megoldom."
+"cheerful",
+"Király! Melyik napra?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"excited",
-"Szuper hír! Vettem egy buszt a bolhapiacon. 🚌",
-"Szuper hír! Vettem egy buszt a bolhapiacon."
+"flustered",
+"Ma... Jaj, mára vettem!",
+"Ma, Jaj, mára vettem!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"excited",
-"Király!"
-],
-[
-"neutral",
-"Jár is?"
-]
-]
-},
-"12": {
-"segs": [
-[
-"amused",
-"Nem tudom. Szép."
+"teasing",
+"Hát, akkor menjünk most! 😂",
+"Hát, akkor menjünk most!"
 ]
 ]
 }

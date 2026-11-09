@@ -8,101 +8,100 @@
 "1": {
 "segs": [
 [
-"excited",
-"Gyere, megmutatom, hogy kell gyorsan úszni. Nézd!"
+"cheerful",
+"Szia!"
+],
+[
+"surprised",
+"Hű, mi történt a hajaddal?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Hű, te tényleg gyors vagy!"
+"neutral",
+"Fodrásznál voltam."
+],
+[
+"shy",
+"Ne nézz így!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"gentle",
-"Bocsánat, kisfiam, mehetek?"
+"teasing",
+"Mit mondtál neki?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Persze, tessék."
-],
-[
-"surprised",
-"Várj, ez Marika néni?"
+"neutral",
+"Azt, hogy csak egy kicsit. Két centit."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"polite",
-"Csókolom! Hogy tetszik lenni?"
+"teasing",
+"És pontosan hogy mondtad?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"teasing",
-"Jól, csak ez a fiú lassú. Nem baj, még fiatal."
+"neutral",
+"Azt mondtam: két centi legyen."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"annoyed",
-"Lassú?! Na, jöjjön, két hossz!"
+"amused",
+"Hát ez az: két centi lett, nem két centit vágott le."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"tsukkomi",
-"Dávid, ne már! Nyolcvan éves!"
+"sad",
+"Jaj. Azt kellett volna mondanom: két centit vágjon le."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"amused",
-"Nyolcvankettő. Mehetünk?"
+"cheerful",
+"Jó estét! Jaj, de jól áll ez a rövid haj!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shout",
-"Ez nem lehet! Hogy csinálta?!"
+"shy",
+"Tényleg? Köszönöm, Marika néni!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"gentle",
-"Régen az olimpián úsztam, kisfiam. Ne siess, még fiatal vagy."
-]
-]
-},
-"12": {
-"segs": [
+"teasing",
+"Na látod."
+],
 [
-"shy",
-"Marika néni... nem edzene engem?",
-"Marika néni, nem edzene engem?"
+"gentle",
+"Amúgy tényleg jól áll."
 ]
 ]
 }

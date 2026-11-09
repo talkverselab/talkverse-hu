@@ -8,24 +8,24 @@
 "segs": [
 [
 "sad",
-"Megjött az eredmény. Sajnos ötös lett. 😢",
-"Megjött az eredmény. Sajnos ötös lett."
+"Szia! Ma beteg voltam, nem mentem órára. 🤒",
+"Szia! Ma beteg voltam, nem mentem órára."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Sajnos? Mi van?"
+"worried",
+"Jaj, szegény! Jobban vagy?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"sad",
-"Nagyon sokat tanultam, és csak ötös."
+"gentle",
+"Már jobban. Mi a házi feladat?"
 ]
 ]
 },
@@ -33,79 +33,75 @@
 "segs": [
 [
 "neutral",
-"Várj. Szerinted melyik a legjobb jegy?"
+"A harmincnegyedik oldal, az összes gyakorlat."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Az egyes, nem? Egyes, első, legjobb."
+"surprised",
+"Az összes? Az tíz gyakorlat!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Úristen, nálunk az ötös a legjobb!"
-],
-[
-"neutral",
-"Az egyes azt jelenti: megbuktál."
+"teasing",
+"Tudom. Sok sikert! 💪",
+"Tudom. Sok sikert!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Komolyan?"
-],
-[
 "excited",
-"Akkor szuper vagyok!"
+"Kész! Három órán át írtam. 😵",
+"Kész! Három órán át írtam."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"excited",
-"Naná! Gratulálok!"
+"cheerful",
+"Ügyes vagy! Melyik oldalt csináltad?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"worried",
-"Várj. Jaj."
+"surprised",
+"Hát a harmincnegyediket. Te mondtad."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"neutral",
-"Mi az?"
+"flustered",
+"Úristen, bocsi! A negyvenharmadik volt. 🙈",
+"Úristen, bocsi! A negyvenharmadik volt."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"flustered",
-"Anna tegnap egyest kapott. Tortát vettem neki."
+"annoyed",
+"Ne már. És ott hány gyakorlat van?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"tsukkomi",
-"Szóval ezért sírt, amikor énekeltél?"
+"amused",
+"Csak egy fogalmazás, öt mondat. A harmincnegyediket holnap kérdezi. 😅",
+"Csak egy fogalmazás, öt mondat. A harmincnegyediket holnap kérdezi."
 ]
 ]
 }

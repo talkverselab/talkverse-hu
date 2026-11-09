@@ -10,9 +10,9 @@
  "domain": [
   "love"
  ],
- "title": "끈 없는 부츠",
- "emoji": "🌉",
- "scene": "영하의 밤, 마지막 트램을 향해 뛰는데 Anna 가 신발끈을 묶겠다며 멈춘다",
+ "title": "우산 하나",
+ "emoji": "☔",
+ "scene": "영화 끝나고 나왔더니 비가 쏟아진다. 우산은 A 에게만 있다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
@@ -23,47 +23,41 @@
  "flags": [
   "romance"
  ],
- "goal": "재촉하기와 '일부러'(direkt), 날씨 말하기",
+ "goal": "날씨 말하기(esik)와 바래다주기(Hazakísérlek)",
  "expressions": [
-  "Várj",
-  "Nem baj",
-  "Nézd",
-  "Tényleg?"
+  "Semmi baj",
+  "Tényleg?",
+  "Na jó"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Futás, ott jön az utolsó villamos!",
-   "rd": "푸타시, 오트 욘 어즈 우톨쇼 빌러모시!",
-   "ko": "뛰어, 저기 마지막 트램 온다!",
-   "note": "futás = 뛰어(구호)",
+   "hu": "Hű, de esik! Szerencsére van esernyőm.",
+   "rd": "휘, 데 에식! 쎄렌체레 번 에세르뇜.",
+   "ko": "와, 비 엄청 온다! 다행히 우산 있어.",
+   "note": "esernyő = 우산",
    "tags": [],
-   "emotion": "shout",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Futás",
-     "futás",
+     "Hű",
+     "hű",
      ""
     ],
     [
-     "ott",
-     "ott",
-     "오트"
+     "esik",
+     "esik",
+     "에시크"
     ],
     [
-     "jön",
-     "jön",
-     "왼"
+     "van",
+     "van",
+     "번"
     ],
     [
-     "utolsó",
-     "utolsó",
-     "우톨쇼"
-    ],
-    [
-     "villamos",
-     "villamos",
+     "esernyőm",
+     "esernyőm",
      ""
     ]
    ]
@@ -71,178 +65,44 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Várj, bekötöm a cipőfűzőmet!",
-   "rd": "바르이, 베쾨툄 어 치푀퓌죄메트!",
-   "ko": "잠깐, 신발끈 좀 묶을게!",
-   "note": "cipőfűző = 신발끈",
-   "tags": [
-    "expr:Várj"
-   ],
-   "emotion": "flustered",
+   "hu": "Nekem nincs. Reggel még sütött a nap.",
+   "rd": "네켐 닌치. 렉겔 멕 쉬퇴트 어 너프.",
+   "ko": "난 없어. 아침엔 해가 났었는데.",
+   "note": "sütött a nap = 해가 났다",
+   "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "nincs",
+     "nincs",
+     "닌치"
     ],
     [
-     "bekötöm",
-     "bekötöm",
-     ""
+     "még",
+     "még",
+     "메그"
     ],
     [
-     "cipőfűzőmet",
-     "cipőfűző",
-     ""
+     "sütött",
+     "süt",
+     "슈트"
+    ],
+    [
+     "nap",
+     "nap",
+     "넙"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Anna, elment! Most mi lesz ebben a hidegben?",
-   "rd": "언너, 엘멘트! 모슈트 미 레쓰 에벤 어 히덱벤?",
-   "ko": "언너, 가 버렸어! 이 추위에 이제 어떡해?",
-   "note": "mi lesz? = 어떻게 돼?",
-   "tags": [],
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Anna, elment!"
-    ],
-    [
-     "worried",
-     "Most mi lesz ebben a hidegben?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Anna",
-     "anna",
-     ""
-    ],
-    [
-     "elment",
-     "elmegy",
-     "엘메지"
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "hidegben",
-     "hideg",
-     "히데그"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Hát, akkor gyalogolunk. Csak negyven perc a hídon át.",
-   "rd": "하트, 어꼬르 졀로골룬크. 척 네지벤 페르츠 어 히돈 아트.",
-   "ko": "음, 그럼 걷지 뭐. 다리 건너서 사십 분밖에 안 돼.",
-   "note": "a hídon át = 다리를 건너",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "akkor",
-     "akkor",
-     "어꼬르"
-    ],
-    [
-     "gyalogolunk",
-     "gyalogol",
-     ""
-    ],
-    [
-     "negyven",
-     "negyven",
-     ""
-    ],
-    [
-     "perc",
-     "perc",
-     "페르츠"
-    ],
-    [
-     "hídon",
-     "híd",
-     ""
-    ],
-    [
-     "át",
-     "át",
-     "아트"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Negyven perc? Itt mínusz öt fok van!",
-   "rd": "네지벤 페르츠? 이트 미누쓰 외트 폭 번!",
-   "ko": "사십 분? 여기 영하 5도야!",
-   "note": "mínusz öt fok = 영하 5도",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Negyven perc?"
-    ],
-    [
-     "annoyed",
-     "Itt mínusz öt fok van!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Negyven",
-     "negyven",
-     ""
-    ],
-    [
-     "perc",
-     "perc",
-     "페르츠"
-    ],
-    [
-     "mínusz",
-     "mínusz",
-     ""
-    ],
-    [
-     "fok",
-     "fok",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Nem baj, nézd, milyen szép éjjel a Duna.",
-   "rd": "넴 버이, 네즈드, 미옌 쎄프 에옐 어 두너.",
-   "ko": "괜찮아, 봐, 밤의 두너강 얼마나 예뻐.",
-   "note": "milyen szép = 얼마나 예쁜지",
+   "hu": "Semmi baj, gyere alá. Hazakísérlek.",
+   "rd": "셈미 버이, 제레 얼라. 허저키세를렉.",
+   "ko": "괜찮아, 이 밑으로 와. 집까지 바래다줄게.",
+   "note": "hazakísérlek = 너를 집에 바래다줄게",
    "tags": [
-    "expr:Nem baj",
-    "expr:Nézd"
+    "expr:Semmi baj"
    ],
    "emotion": "gentle",
    "lemmas": [
@@ -252,101 +112,152 @@
      "버이"
     ],
     [
-     "nézd",
-     "néz",
-     "네즈"
+     "gyere",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Tényleg? De te a másik irányba laksz.",
+   "rd": "테닐렉? 데 테 어 마식 이라니버 럭쓰.",
+   "ko": "진짜? 근데 너 반대 방향에 살잖아.",
+   "note": "irány = 방향",
+   "tags": [
+    "expr:Tényleg?"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "szép",
-     "szép",
-     "쎕"
+     "irányba",
+     "irány",
+     "이라니"
     ],
     [
-     "éjjel",
-     "éj",
-     "에이"
+     "laksz",
+     "laksz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Nem baj, nem sietek.",
+   "rd": "넴 버이, 넴 시에텍.",
+   "ko": "괜찮아, 안 바빠.",
+   "note": "nem sietek = 안 서두른다",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "sietek",
+     "siet",
+     "시에트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Közelebb jössz egy kicsit? Elázik a vállam.",
+   "rd": "쾨젤레브 요쓰 에지 키치트? 엘라직 어 발럼.",
+   "ko": "조금만 더 가까이 올래? 어깨 젖어.",
+   "note": "elázik = 젖는다",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Közelebb",
+     "közel",
+     "쾨젤"
+    ],
+    [
+     "jössz",
+     "jön",
+     "왼"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "vállam",
+     "vállam",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Szép, de már nem érzem a lábam.",
-   "rd": "쎄프, 데 마르 넴 에르젬 어 라범.",
-   "ko": "예뻐, 근데 벌써 발에 감각이 없어.",
-   "note": "nem érzem = 못 느낀다",
+   "hu": "Bocsi. Így jó?",
+   "rd": "보치. 이지 요?",
+   "ko": "미안. 이러면 돼?",
+   "note": "így = 이렇게",
    "tags": [],
-   "emotion": "sad",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Szép",
-     "szép",
-     "쎕"
+     "Bocsi",
+     "bocsi",
+     "보치"
     ],
     [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "érzem",
-     "érez",
-     "에레즈"
-    ],
-    [
-     "lábam",
-     "láb",
-     "라브"
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Gyere közelebb, mindjárt melegebb lesz.",
-   "rd": "제레 쾨젤레브, 민드야르트 멜레게브 레쓰.",
-   "ko": "더 가까이 와, 금방 따뜻해져.",
-   "note": "közelebb = 더 가까이",
+   "hu": "Így pont jó.",
+   "rd": "이지 폰트 요.",
+   "ko": "이러면 딱 좋아.",
+   "note": "pont = 딱",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "shy",
    "lemmas": [
     [
-     "Gyere",
-     "jön",
-     "왼"
+     "Így",
+     "így",
+     "이지"
     ],
     [
-     "közelebb",
-     "közel",
-     "쾨젤"
+     "pont",
+     "pont",
+     "폰트"
     ],
     [
-     "mindjárt",
-     "mindjárt",
-     "민드야르트"
-    ],
-    [
-     "melegebb",
-     "meleg",
-     "멜레그"
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Várj... a csizmádon nincs is cipőfűző.",
-   "rd": "바르이... 어 치즈마돈 닌치 이시 치푀퓌죄.",
-   "ko": "잠깐… 네 부츠엔 끈이 없잖아.",
-   "note": "nincs is = 아예 없다",
-   "tags": [
-    "expr:Várj"
-   ],
+   "hu": "Várj, mi lóg ki a táskádból?",
+   "rd": "바르이, 미 록 키 어 타슈카드볼?",
+   "ko": "잠깐, 네 가방에서 뭐가 삐져나와 있어?",
+   "note": "kilóg = 삐져나오다",
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -355,18 +266,18 @@
      "바르"
     ],
     [
-     "csizmádon",
-     "csizmádon",
-     ""
+     "lóg",
+     "lóg",
+     "로그"
     ],
     [
-     "nincs",
-     "nincs",
-     "닌치"
+     "ki",
+     "ki",
+     "키"
     ],
     [
-     "cipőfűző",
-     "cipőfűző",
+     "táskádból",
+     "táskádból",
      ""
     ]
    ]
@@ -374,14 +285,41 @@
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Tényleg? Hát ez furcsa.",
-   "rd": "테닐렉? 하트 에즈 푸르처.",
-   "ko": "진짜? 거참 이상하네.",
-   "note": "furcsa = 이상한",
+   "hu": "Semmi! Az egy régi, rossz esernyő.",
+   "rd": "셈미! 어즈 에지 레기, 로쓰 에세르뇌.",
+   "ko": "아무것도! 그거 오래된 고장 난 우산이야.",
+   "note": "rossz = 고장 난",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "régi",
+     "régi",
+     "레기"
+    ],
+    [
+     "rossz",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "esernyő",
+     "esernyő",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Tényleg? Nekem elég újnak tűnik.",
+   "rd": "테닐렉? 네켐 엘렉 우이넉 튀닉.",
+   "ko": "진짜? 꽤 새것 같은데.",
+   "note": "újnak tűnik = 새것처럼 보인다",
    "tags": [
     "expr:Tényleg?"
    ],
-   "emotion": "flustered",
+   "emotion": "teasing",
    "lemmas": [
     [
      "Tényleg",
@@ -389,83 +327,68 @@
      "테니렉"
     ],
     [
-     "furcsa",
-     "furcsa",
-     "푸르처"
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "A",
-   "hu": "Anna. Te direkt lekésted a villamost?",
-   "rd": "언너. 테 디렉트 레케슈테드 어 빌러모슈트?",
-   "ko": "언너. 너 일부러 트램 놓친 거야?",
-   "note": "direkt = 일부러",
-   "tags": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Anna",
-     "anna",
-     ""
+     "elég",
+     "elég",
+     "엘렉"
     ],
     [
-     "direkt",
-     "direkt",
-     ""
+     "újnak",
+     "új",
+     "우이"
     ],
     [
-     "lekésted",
-     "lekésik",
-     ""
-    ],
-    [
-     "villamost",
-     "villamos",
-     ""
+     "tűnik",
+     "tűnik",
+     "튀닉"
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "hu": "Csak még negyven percet akartam veled lenni.",
-   "rd": "척 멕 네지벤 페르체트 어커르텀 벨레드 렌니.",
-   "ko": "그냥 너랑 사십 분만 더 있고 싶었어.",
-   "note": "akartam = 하고 싶었다",
-   "tags": [],
-   "emotion": "shy",
+   "hu": "Na jó, lebuktam. Remélem, holnap is esik.",
+   "rd": "너 요, 레북텀. 레멜렘, 홀너프 이시 에식.",
+   "ko": "알았어, 들켰네. 내일도 비 오면 좋겠다.",
+   "note": "lebuktam = 들켰다",
+   "tags": [
+    "expr:Na jó"
+   ],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Na jó, lebuktam."
+    ],
+    [
+     "shy",
+     "Remélem, holnap is esik."
+    ]
+   ],
    "lemmas": [
     [
-     "Csak",
-     "csak",
-     "촉"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "még",
-     "még",
-     "메그"
+     "jó",
+     "jó",
+     "요"
     ],
     [
-     "negyven",
-     "negyven",
+     "lebuktam",
+     "lebukik",
      ""
     ],
     [
-     "percet",
-     "perce",
-     ""
+     "holnap",
+     "holnap",
+     "홀넙"
     ],
     [
-     "akartam",
-     "akart",
-     ""
-    ],
-    [
-     "lenni",
-     "lesz",
-     "레쓰"
+     "esik",
+     "esik",
+     "에시크"
     ]
    ]
   }

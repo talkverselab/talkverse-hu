@@ -1,28 +1,28 @@
 === r3_study_b1
 kind: long
-title: 보내기 버튼
+title: 교수님께 메일 쓰기
 emoji: 📧
-scene: 기숙사 방. 코바치 교수에게 마감을 늘려 달라는 메일을 쓴다. Réka 가 옆에서 거든다
+scene: 아파서 보고서를 못 냈다. Réka 와 함께 코바치 교수님께 기한 연장을 부탁하는 메일을 쓴다
 b: Réka
 c: Kovács
-register: casual
-twist: 15 slip
+register: mixed
+twist: 15 chaos
 purpose: study_abroad
-goal: 교수에게 쓰는 격식 표현(Tisztelt…, Kérem szépen)과 반말 표현의 차이
-expressions: Figyelj; Nem baj; Tisztelt; Kérem szépen; Várj; Puszi; Durva
-A | Figyelj, segíts. Kovács professzornak kell írnom egy e-mailt. | 야, 좀 도와줘. 코바치 교수님께 메일 써야 해. | kell írnom = 내가 써야 한다 | emotion=worried
-B | Miért? Mit csináltál? | 왜? 뭐 했는데? | csináltál = 네가 했다 | emotion=teasing
-A | Semmit, és ez a baj. A dolgozat péntekre kell, és még nincs kész. | 아무것도. 그게 문제야. 보고서가 금요일까지인데 아직 안 끝났어. | péntekre = 금요일까지 | emotion=worried
-B | Nem baj. Kérj még egy hetet. | 괜찮아. 일주일 더 달라고 해. | kérj = 부탁해 | emotion=gentle
-A | De hogy kezdjem? Szia, tanár úr? | 근데 어떻게 시작하지? 야, 교수님? | hogy kezdjem? = 어떻게 시작할까? | emotion=worried
-B | Jaj, ne! Úgy kell: Tisztelt Professzor Úr! | 아이고, 안 돼! 이렇게 해야지: 존경하는 교수님께! | tisztelt = 존경하는(편지 첫머리) | emotion=tsukkomi
-A | Tisztelt Professzor Úr! Kérem szépen, adjon még egy hetet. | 존경하는 교수님께! 부디 일주일만 더 주세요. | kérem szépen = 부디 | emotion=polite
-B | Várj, add ide, én is írok egyet. Csak viccből. | 잠깐, 줘 봐, 나도 하나 써 볼게. 장난으로. | viccből = 장난으로 | emotion=teasing
-A | Mit írtál? Mutasd! | 뭐 썼어? 보여 줘! | mutasd = 보여 줘 | emotion=cheerful
-B | Szia Kovács, ne már, adj még egy hetet! Puszi! | 안녕 코바치, 아 좀, 일주일만 더 줘! 쪽! | puszi = 쪽(친구끼리 끝인사) | emotion=teasing
-A | Haha, durva! Na, add vissza, küldöm az enyémet. | 하하, 대박! 자, 돌려줘, 내 거 보낼게. | add vissza = 돌려줘 | emotion=amused
-B | Jó, tessék. Küldd el! | 그래, 여기. 보내! | küldd el = 보내 버려 | emotion=cheerful
-A | Elküldtem. | 보냈어. | elküldtem = 내가 보냈다 | emotion=neutral
-B | Várj. Melyiket küldted el? | 잠깐. 어느 걸 보냈어? | melyiket = 어느 것을 | emotion=worried
-A | Úristen. A tiédet. | 세상에. 네 거. | a tiédet = 네 것을 | emotion=flustered
-C | Szia, nem adok. Puszi, Kovács | 안녕, 안 줍니다. 쪽, 코바치 | nem adok = 안 준다 | emotion=stiff
+goal: 격식 있는 메일 쓰기(Tisztelt … Úr! · kaphatnék-e · Tisztelettel)
+expressions: Persze; Ne már; Naná; Úristen
+A | Réka, segítesz? Levelet kell írnom Kovács professzornak. | 레카, 도와줄래? 코바치 교수님께 메일 써야 해. | levél = 편지, 메일 | emotion=worried
+B | Persze. Mit akarsz kérni tőle? | 물론. 뭘 부탁하려고? | tőle = 그에게서 | emotion=gentle
+A | Egy hét haladékot a dolgozatra. Beteg voltam. | 보고서 일주일 연장. 아팠거든. | haladék = 유예, 연장 | emotion=sad
+B | Oké. Hogyan kezdted? | 오케이. 어떻게 시작했어? | hogyan = 어떻게 | emotion=cheerful
+A | Szia, Tanár Úr! | 안녕, 교수님! | szia = 안녕(친구끼리) | emotion=cheerful
+B | Szia? Ne már, írd azt: Tisztelt Kovács Professzor Úr! | 「안녕」? 아 좀, 이렇게 써: 존경하는 코바치 교수님께! | tisztelt = 존경하는 | emotion=tsukkomi
+A | Jó. Aztán: Kérem, adjon egy hetet. | 알았어. 그다음: 일주일 주세요. | adjon = 주세요(격식) | emotion=neutral
+B | Túl rövid. Inkább: Szeretném megkérdezni, kaphatnék-e egy hét haladékot. | 너무 짧아. 차라리: 일주일 연장을 받을 수 있을지 여쭙고 싶습니다. | kaphatnék-e = 받을 수 있을까요 | emotion=gentle
+A | Hű, ez nagyon udvarias. És a végén? | 와, 엄청 정중하다. 그리고 끝에는? | udvarias = 정중한 | emotion=surprised
+B | Tisztelettel, és a neved. Puszit ne írj! | 「경의를 표하며」, 그리고 네 이름. 「쪽」은 쓰지 마! | tisztelettel = 경의를 담아 | emotion=teasing
+A | Naná. Na, elküldtem! | 당연하지. 자, 보냈다! | elküldtem = 보냈다 | emotion=excited
+B | Csatoltad az orvosi igazolást is? | 진단서도 첨부했어? | orvosi igazolás = 진단서 | emotion=neutral
+A | Persze, a levél alján van. | 물론, 메일 맨 밑에 있어. | alján = 바닥에, 밑에 | emotion=cheerful
+B | Mutasd. Ez nem igazolás, ez egy lista. | 보여 줘. 이거 진단서가 아니라 목록인데. | lista = 목록 | emotion=worried
+A | Úristen. Ez a bevásárlólistám: tojás, tej, paprika. | 세상에. 내 장보기 목록이야. 달걀, 우유, 파프리카. | bevásárlólista = 장보기 목록 | emotion=flustered
+C | Kedves {name}, megkapja a haladékot. És ne felejtse el a tojást! | {name} 씨, 연장해 드리겠습니다. 그리고 달걀 잊지 마세요! | ne felejtse el = 잊지 마세요(격식) | emotion=gentle+teasing

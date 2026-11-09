@@ -8,59 +8,67 @@
 "segs": [
 [
 "polite",
-"Csókolom! Egy kenyeret kérek."
+"Jó napot! Tessék, mit kér?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Tessék? Hogy mondta?"
+"polite",
+"Jó napot! Ebből a sajtból kérek."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"flustered",
-"Csókolom. Ez nem jó?"
+"neutral",
+"Rendben. Mennyit kér?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"annoyed",
-"Hány évesnek néz engem?"
+"polite",
+"Tíz kilót, legyen szíves."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"flustered",
-"Hát, nem tudom. Hatvan?"
+"surprised",
+"Tíz kilót? Az egy egész sajt!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shout",
-"Huszonkét éves vagyok!"
+"flustered",
+"Jaj, bocsánat! Tíz dekát!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
+"teasing",
+"Jó, tíz deka. És kenyeret hány kilót kér?"
+]
+]
+},
+"8": {
+"segs": [
+[
 "flustered",
-"Jaj, bocsánat!"
+"Egyet!"
 ],
 [
 "shy",
-"Akkor szia?"
+"Egy darabot!"
 ]
 ]
 }

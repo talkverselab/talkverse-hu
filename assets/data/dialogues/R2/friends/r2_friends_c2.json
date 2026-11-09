@@ -5,15 +5,14 @@
  "kind": "chat",
  "draft": true,
  "purpose": [
-  "making_friends",
-  "love"
+  "making_friends"
  ],
  "domain": [
   "friends"
  ],
- "title": "내일 8시, 서른 명",
- "emoji": "💘",
- "scene": "Réka 가 허락도 없이 내 데이팅 프로필을 만들고 답장까지 해 놨다",
+ "title": "5분만",
+ "emoji": "⏰",
+ "scene": "영화 시작 15분 전, 극장 앞. Réka 는 계속 「5분!」이라고 한다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
@@ -21,89 +20,175 @@
  "register": "chat",
  "twist": 9,
  "twist_type": "chaos",
- "flags": [
-  "romance"
- ],
- "goal": "채팅에서 따지기(Mit csináltál?)와 helyetted(너 대신)",
+ "flags": [],
+ "goal": "늦음 알리기·재촉하기(Hol tartasz? · Siess)",
  "expressions": [
-  "Figyelj",
-  "ne haragudj",
-  "Egy pillanat",
-  "Hát",
-  "Nyugi"
+  "Hol tartasz",
+  "Mindjárt",
+  "Siess"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Figyelj, ne haragudj, de csináltam neked randiprofilt.",
-   "rd": "피젤이, 네 허러구드이, 데 치날텀 네케드 런디프로필트.",
-   "ko": "야, 화내지 마, 네 데이팅 프로필 만들었어.",
-   "note": "ne haragudj = 화내지 마",
+   "speaker": "A",
+   "hu": "Itt vagyok a mozinál. Hol tartasz?",
+   "rd": "이트 버죡 어 모지날. 홀 터르터쓰?",
+   "ko": "나 영화관 앞이야. 어디쯤이야?",
+   "note": "Hol tartasz? = 어디쯤이야?",
    "tags": [
-    "expr:Figyelj",
-    "expr:ne haragudj"
+    "expr:Hol tartasz"
    ],
-   "at": "20:02",
-   "emotion": "teasing",
+   "at": "19:45",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Itt",
+     "itt",
+     "이트"
     ],
     [
-     "haragudj",
-     "haragudj",
-     ""
+     "vagyok",
+     "van",
+     "번"
     ],
     [
-     "csináltam",
-     "csinált",
-     ""
+     "mozinál",
+     "mozi",
+     "모지"
     ],
     [
-     "randiprofilt",
-     "randiprofil",
-     ""
+     "tartasz",
+     "tart",
+     "터르트"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Mit csináltál?! Milyen profilt?",
-   "rd": "미트 치날탈?! 미옌 프로필트?",
-   "ko": "뭘 했다고?! 무슨 프로필?",
-   "note": "Mit csináltál? = 뭘 했어?",
-   "tags": [],
-   "at": "20:03",
-   "emotion": "surprised",
+   "speaker": "B",
+   "hu": "Mindjárt ott vagyok! Öt perc!",
+   "rd": "민드야르트 오트 버죡! 외트 페르츠!",
+   "ko": "금방 도착해! 5분!",
+   "note": "mindjárt = 곧",
+   "tags": [
+    "expr:Mindjárt"
+   ],
+   "at": "19:46",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "csináltál",
-     "csinál",
-     "치날"
+     "Mindjárt",
+     "mindjárt",
+     "민드야르트"
     ],
     [
-     "profilt",
-     "profil",
-     ""
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "perc",
+     "perc",
+     "페르츠"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Már harminc üzeneted van. Szívesen! 😎",
-   "rd": "마르 허르민츠 위제네테드 번. 씨베센! 😎",
-   "ko": "벌써 메시지 30개야. 고맙긴! 😎",
-   "note": "szívesen = 천만에",
+   "speaker": "A",
+   "hu": "Oké, megveszem a jegyeket.",
+   "rd": "오케, 멕베쎔 어 예제케트.",
+   "ko": "오케이, 표 살게.",
+   "note": "jegy = 표",
    "tags": [],
-   "at": "20:03",
-   "emotion": "teasing",
+   "at": "19:47",
+   "emotion": "neutral",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Oké",
+     "oké",
+     "오케"
+    ],
+    [
+     "megveszem",
+     "megvesz",
+     "메그베스"
+    ],
+    [
+     "jegyeket",
+     "jegy",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Megvannak a jegyek. Hol vagy? 🎟️",
+   "rd": "멕번넉 어 예젝. 홀 버지? 🎟️",
+   "ko": "표 샀어. 어디야? 🎟️",
+   "note": "megvannak = 확보됐다",
+   "tags": [],
+   "at": "19:55",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Megvannak",
+     "megvan",
+     "메그번"
+    ],
+    [
+     "jegyek",
+     "jegye",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Öt perc, ígérem!",
+   "rd": "외트 페르츠, 이게렘!",
+   "ko": "5분, 약속해!",
+   "note": "ígérem = 약속해",
+   "tags": [],
+   "at": "19:56",
+   "emotion": "flustered",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "perc",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "ígérem",
+     "ígér",
+     "이게르"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Már megy a reklám. Siess!",
+   "rd": "마르 메지 어 렉람. 시에시!",
+   "ko": "벌써 광고 나와. 서둘러!",
+   "note": "siess = 서둘러",
+   "tags": [
+    "expr:Siess"
+   ],
+   "at": "20:02",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -112,218 +197,164 @@
      "마르"
     ],
     [
-     "harminc",
-     "harminc",
-     ""
+     "megy",
+     "megy",
+     "메지"
     ],
     [
-     "üzeneted",
-     "üzeneted",
+     "reklám",
+     "reklám",
      ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Töröld! Azonnal töröld!",
-   "rd": "퇴뢸드! 어존널 퇴뢸드!",
-   "ko": "지워! 당장 지워!",
-   "note": "azonnal = 당장",
-   "tags": [],
-   "at": "20:04",
-   "emotion": "shout",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Töröld",
-     "töröld",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Egy pillanat. Már mindenkinek válaszoltam helyetted.",
-   "rd": "에지 필러너트. 마르 민덴키넥 발러쏠텀 헤예떼드.",
-   "ko": "잠깐만. 네 대신 벌써 다 답장했어.",
-   "note": "helyetted = 너 대신",
-   "tags": [
-    "expr:Egy pillanat"
-   ],
-   "at": "20:04",
-   "emotion": "amused",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "pillanat",
-     "pillanat",
-     "필러넛"
-    ],
-    [
-     "válaszoltam",
-     "válaszolt",
-     ""
-    ],
-    [
-     "helyetted",
-     "helyette",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Mit válaszoltál?!",
-   "rd": "미트 발러쏠탈?!",
-   "ko": "뭐라고 답했어?!",
-   "note": "válaszoltál = 네가 답했다",
-   "tags": [],
-   "at": "20:05",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "válaszoltál",
-     "válaszol",
-     "발러졸"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Csak annyit: holnap nyolckor, Bence kávézójában.",
-   "rd": "척 어니트: 홀너프 뇰츠코르, 벤체 카베조야번.",
-   "ko": "그냥 이렇게: 내일 8시, 벤체 카페.",
-   "note": "csak annyit = 그것만",
+   "hu": "Futok! A villamoson vagyok.",
+   "rd": "푸톡! 어 빌러모숀 버죡.",
+   "ko": "뛰는 중! 트램 탔어.",
+   "note": "villamos = 트램",
    "tags": [],
-   "at": "20:05",
-   "emotion": "teasing",
+   "at": "20:03",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Csak",
-     "csak",
-     "촉"
+     "Futok",
+     "fut",
+     "푸트"
     ],
     [
-     "holnap",
-     "holnap",
-     "홀넙"
-    ],
-    [
-     "nyolckor",
-     "nyolckor",
+     "villamoson",
+     "villamos",
      ""
     ],
     [
-     "kávézójában",
-     "kávézik",
-     ""
+     "vagyok",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Várj. Hány embernek?",
-   "rd": "바르이. 하니 엠베르넥?",
-   "ko": "잠깐. 몇 명한테?",
-   "note": "hány = 몇",
+   "hu": "Melyik megállónál?",
+   "rd": "메익 메갈로날?",
+   "ko": "어느 정류장?",
+   "note": "megálló = 정류장",
    "tags": [],
-   "at": "20:06",
-   "emotion": "worried",
+   "at": "20:05",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "embernek",
-     "ember",
-     "엠베르"
+     "megállónál",
+     "megálló",
+     ""
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Hát... mindenkinek. 😇",
-   "rd": "하트... 민덴키넥. 😇",
-   "ko": "음… 전부. 😇",
-   "note": "mindenkinek = 모두에게",
-   "tags": [
-    "expr:Hát"
-   ],
+   "hu": "Hát, igazából még csak most indulok.",
+   "rd": "하트, 이거자볼 멕 척 모슈트 인둘록.",
+   "ko": "음, 사실 이제 막 출발해.",
+   "note": "igazából = 사실은",
+   "tags": [],
    "at": "20:06",
-   "stamp": "😇",
-   "emotion": "teasing",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
      "Hát",
      "hát",
      "핫"
+    ],
+    [
+     "igazából",
+     "igaz",
+     "이거즈"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "indulok",
+     "indul",
+     "인둘"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Harminc ember, holnap?! Úristen!",
-   "rd": "허르민츠 엠베르, 홀너프?! 우리슈텐!",
-   "ko": "서른 명이 내일?! 세상에!",
-   "note": "harminc = 서른",
+   "hu": "Most indulsz?! És a villamos?",
+   "rd": "모슈트 인둘쓰?! 에시 어 빌러모시?",
+   "ko": "지금 출발한다고?! 트램은?",
+   "note": "indulsz = 출발한다",
    "tags": [],
    "at": "20:06",
    "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
-     "Harminc",
-     "harminc",
+     "Most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "indulsz",
+     "indul",
+     "인둘"
+    ],
+    [
+     "villamos",
+     "villamos",
      ""
-    ],
-    [
-     "ember",
-     "ember",
-     "엠베르"
-    ],
-    [
-     "holnap",
-     "holnap",
-     "홀넙"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Nyugi. Bence már keres széket.",
-   "rd": "뉴기. 벤체 마르 케레시 쎄케트.",
-   "ko": "진정해. 벤체가 벌써 의자 구하고 있어.",
-   "note": "keres = 찾다",
-   "tags": [
-    "expr:Nyugi"
-   ],
-   "at": "20:08",
+   "hu": "Bocsi! A megállóban vagyok, az már majdnem villamos. 😅",
+   "rd": "보치! 어 메갈로번 버죡, 어즈 마르 머이드넴 빌러모시. 😅",
+   "ko": "미안! 정류장에 있으니까 거의 트램이지. 😅",
+   "note": "majdnem = 거의",
+   "tags": [],
+   "at": "20:07",
    "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "Nyugi",
-     "nyugi",
-     "니우기"
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "megállóban",
+     "megálló",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
     ],
     [
      "már",
@@ -331,37 +362,42 @@
      "마르"
     ],
     [
-     "keres",
-     "keres",
-     "케레시"
+     "majdnem",
+     "majdnem",
+     "머이드넴"
     ],
     [
-     "széket",
-     "szék",
+     "villamos",
+     "villamos",
      ""
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "B",
-   "hu": "És viszem a kanapét is. 😄",
-   "rd": "에시 비쎔 어 커너페트 이시. 😄",
-   "ko": "소파도 가져갈게. 😄",
-   "note": "viszem = 내가 그걸 가져간다",
+   "speaker": "A",
+   "hu": "Na jó. A popcornod az enyém. 🍿",
+   "rd": "너 요. 어 포프초르노드 어즈 에넴. 🍿",
+   "ko": "알았어. 네 팝콘은 내 거야. 🍿",
+   "note": "az enyém = 내 것",
    "tags": [],
    "at": "20:08",
-   "emotion": "cheerful",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "viszem",
-     "visz",
-     "비스"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "kanapét",
-     "kanapé",
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "popcornod",
+     "popcornod",
      ""
     ]
    ]

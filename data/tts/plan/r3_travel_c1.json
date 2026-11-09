@@ -8,17 +8,17 @@
 "1": {
 "segs": [
 [
-"excited",
-"Figyelem! A busz elindult! 🚌",
-"Figyelem! A busz elindult!"
+"cheerful",
+"Foglaltam asztalt hétre a Kék Kecskében. 🍽️",
+"Foglaltam asztalt hétre a Kék Kecskében."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Komolyan? És a fék működik?"
+"excited",
+"Szuper! Hol van?"
 ]
 ]
 },
@@ -26,51 +26,48 @@
 "segs": [
 [
 "teasing",
-"Naná. Legtöbbször."
+"A Király utcában. Megtaláljátok, ugye? 😄",
+"A Király utcában. Megtaláljátok, ugye?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Várjatok, most miért álltunk meg?"
+"cheerful",
+"Persze. Én a múzeumból megyek, villamossal."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Egy néni integetett a megállóban. Felszállt."
+"cheerful",
+"Én meg biciklivel. Ott találkozunk!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Mi van?"
-],
-[
-"tsukkomi",
-"De ez nem, izé, menetrendes busz!"
+"excited",
+"Megérkeztem, szép hely! Hol ültök?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"amused",
-"Ő nem tudja. És már nyolcan szálltak fel."
+"neutral",
+"A terasz mellett. Te?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"neutral",
-"Az egyik bácsi kérdezi, mennyibe kerül a jegy."
+"worried",
+"Én is a terasznál vagyok. Nem látlak."
 ]
 ]
 },
@@ -78,24 +75,25 @@
 "segs": [
 [
 "cheerful",
-"Hát mondd neki, hogy ingyen van!"
+"Integetek! 👋 Piros pulcsi.",
+"Integetek! Piros pulcsi."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"teasing",
-"Bocsi, már mondtam: háromszáz forint. 😇",
-"Bocsi, már mondtam: háromszáz forint."
+"amused",
+"Itt csak egy bácsi integet, piros pulcsiban. 😅",
+"Itt csak egy bácsi integet, piros pulcsiban."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"amused",
-"Figyeljetek, most már harmincan vagyunk. Egy néni kolbászt oszt."
+"surprised",
+"Várj, te melyik Kék Kecskében vagy?"
 ]
 ]
 },
@@ -103,44 +101,45 @@
 "segs": [
 [
 "surprised",
-"Úristen, a következő megállóban is sokan várnak!"
+"Hogyhogy melyik? Kettő van?"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"cheerful",
-"Igen, a néni mindenkit felhívott."
+"flustered",
+"Igen, a budai és a pesti. Mi Pesten vagyunk."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"surprised",
-"Itt a polgármester. Kezet fog Rékával."
+"amused",
+"Én meg Budán. A bácsi viszont hív, hogy üljek le. 😂",
+"Én meg Budán. A bácsi viszont hív, hogy üljek le."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"surprised",
-"Mi van?"
-],
-[
-"worried",
-"Mit akar?"
+"teasing",
+"Na, akkor jó étvágyat a bácsival! 😂",
+"Na, akkor jó étvágyat a bácsival!"
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"cheerful",
-"Semmi. Hétfőtől menetrendünk van. 🚌",
-"Semmi. Hétfőtől menetrendünk van."
+"tsukkomi",
+"Ne már!"
+],
+[
+"gentle",
+"Várj, taxival tíz perc, és ott vagyunk."
 ]
 ]
 }

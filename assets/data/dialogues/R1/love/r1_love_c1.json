@@ -10,9 +10,9 @@
  "domain": [
   "love"
  ],
- "title": "레테시 때문에 읽씹",
+ "title": "충전기 먹은 강아지",
  "emoji": "📱",
- "scene": "데이팅앱에서 매칭된 Anna 와 첫 채팅. 약속을 물었더니 답이 없다",
+ "scene": "데이팅앱에서 매칭된 Anna 가 먼저 말을 건다. 산책을 제안했더니 답이 없다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
@@ -23,20 +23,19 @@
  "flags": [
   "romance"
  ],
- "goal": "채팅에서 쓰는 짧은 답과 약속 묻기",
+ "goal": "채팅에서 약속 묻기(Ráérsz?)와 사과하기(Bocsi)",
  "expressions": [
   "Bocsi",
-  "ráérsz",
-  "Na"
+  "ráérsz"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Te is szereted a rétest? 😄",
-   "rd": "씨어! 테 이시 쎄레테드 어 레테슈트? 😄",
-   "ko": "안녕! 너도 레테시 좋아해? 😄",
-   "note": "szereted = 네가 그걸 좋아한다",
+   "hu": "Szia! Láttam, hogy te is szereted a kutyákat. 🐶",
+   "rd": "씨어! 라떰, 호지 테 이시 쎄레테드 어 쿠탸커트. 🐶",
+   "ko": "안녕! 너도 강아지 좋아하더라. 🐶",
+   "note": "láttam = 봤다",
    "tags": [],
    "at": "21:03",
    "emotion": "cheerful",
@@ -53,24 +52,22 @@
      "쎄레트"
     ],
     [
-     "rétest",
-     "rétes",
-     "레테시"
+     "kutyákat",
+     "kutya",
+     "쿠티어"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen! Nagyon szeretem.",
-   "rd": "이겐! 너죤 쎄레템.",
-   "ko": "응! 엄청 좋아해.",
-   "note": "nagyon = 아주",
-   "tags": [
-    "expr:Na"
-   ],
-   "at": "21:04",
-   "emotion": "cheerful",
+   "hu": "Igen! Neked van kutyád?",
+   "rd": "이겐! 네케드 번 쿠탸드?",
+   "ko": "응! 너 강아지 있어?",
+   "note": "neked van = 너에게 있다",
+   "tags": [],
+   "at": "21:05",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -79,67 +76,64 @@
      "이겐"
     ],
     [
-     "szeretem",
-     "szeret",
-     "쎄레트"
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kutyád",
+     "kutyád",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Na, melyik a kedvenced?",
-   "rd": "너, 메익 어 케드벤체드?",
-   "ko": "그래서 제일 좋아하는 건?",
-   "note": "kedvenc = 좋아하는 것",
-   "tags": [
-    "expr:Na"
-   ],
-   "at": "21:05",
-   "emotion": "teasing",
+   "hu": "Van, Bodri. Kicsit buta, de cuki.",
+   "rd": "번, 보드리. 키치트 부터, 데 추키.",
+   "ko": "있어, 보드리. 좀 바보인데 귀여워.",
+   "note": "buta = 바보 같은",
+   "tags": [],
+   "at": "21:06",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "Van",
+     "van",
+     "번"
     ],
     [
-     "kedvenced",
-     "kedvenc",
-     "케드벤츠"
+     "buta",
+     "buta",
+     ""
+    ],
+    [
+     "cuki",
+     "cuki",
+     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "A túrós. Holnap ráérsz?",
-   "rd": "어 투로시. 홀너프 라에르쓰?",
-   "ko": "코티지치즈 맛. 내일 시간 돼?",
-   "note": "ráérsz = 너 시간 있어?",
+   "hu": "Hétvégén ráérsz? Sétálhatunk vele.",
+   "rd": "헤트베겐 라에르쓰? 세탈허툰크 벨레.",
+   "ko": "주말에 시간 돼? 같이 산책해도 좋고.",
+   "note": "ráérsz? = 시간 돼?",
    "tags": [
-    "expr:ráérsz",
-    "expr:Na"
+    "expr:ráérsz"
    ],
-   "at": "21:06",
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "A túrós."
-    ],
-    [
-     "shy",
-     "Holnap ráérsz?"
-    ]
-   ],
+   "at": "21:08",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
-     "túrós",
-     "túrós",
-     ""
+     "Hétvégén",
+     "hétvége",
+     "헤트베게"
     ],
     [
      "ráérsz",
@@ -151,19 +145,24 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Bocsi, túl gyors vagyok?",
-   "rd": "보치, 툴 죠르시 버죡?",
-   "ko": "미안, 내가 너무 빨랐나?",
+   "hu": "Jaj, bocsi, túl gyors vagyok? 😅",
+   "rd": "여이, 보치, 툴 죠르시 버죡? 😅",
+   "ko": "아이고, 미안, 내가 너무 빨랐나? 😅",
    "note": "túl = 너무",
    "tags": [
     "expr:Bocsi"
    ],
-   "at": "21:40",
+   "at": "22:30",
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Bocsi",
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "bocsi",
      "bocsi",
      "보치"
     ],
@@ -186,42 +185,16 @@
   },
   {
    "num": 6,
-   "speaker": "A",
-   "hu": "Jaj. Felejtsd el.",
-   "rd": "여이. 펠레이트슈드 엘.",
-   "ko": "아이고. 잊어 줘.",
-   "note": "felejtsd el = 잊어 줘",
-   "tags": [],
-   "at": "23:12",
-   "emotion": "sad",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ]
-   ]
-  },
-  {
-   "num": 7,
    "speaker": "B",
-   "hu": "Bocsi, rétest sütöttem. Holnap hozok neked. 😇",
-   "rd": "보치, 레테슈트 쉬퇴뗌. 홀너프 호족 네케드. 😇",
-   "ko": "미안, 레테시 굽고 있었어. 내일 갖다 줄게. 😇",
-   "note": "neked = 너에게",
+   "hu": "Bocsi, csak most láttam! Bodri szétrágta a töltőmet.",
+   "rd": "보치, 척 모슈트 라떰! 보드리 쎄트락터 어 퇼퇴메트.",
+   "ko": "미안, 이제 봤어! 보드리가 충전기를 다 씹어 놨어.",
+   "note": "töltő = 충전기",
    "tags": [
-    "expr:Bocsi",
-    "expr:Na"
+    "expr:Bocsi"
    ],
-   "at": "23:40",
-   "stamp": "😇",
-   "emotion": "gentle",
+   "at": "23:15",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -230,19 +203,54 @@
      "보치"
     ],
     [
-     "rétest",
-     "rétes",
-     "레테시"
+     "csak",
+     "csak",
+     "촉"
     ],
     [
-     "sütöttem",
-     "süt",
-     "슈트"
+     "most",
+     "most",
+     "모슈트"
     ],
     [
-     "hozok",
-     "hoz",
-     "호즈"
+     "láttam",
+     "lát",
+     "라트"
+    ],
+    [
+     "szétrágta",
+     "szét",
+     "쎄트"
+    ],
+    [
+     "töltőmet",
+     "töltőmet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Szombaton? Bodri is jön. 🐾",
+   "rd": "쏨버톤? 보드리 이시 욘. 🐾",
+   "ko": "토요일 어때? 보드리도 같이. 🐾",
+   "note": "szombaton = 토요일에",
+   "tags": [],
+   "at": "23:16",
+   "stamp": "🐾",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Szombaton",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
     ]
    ]
   }

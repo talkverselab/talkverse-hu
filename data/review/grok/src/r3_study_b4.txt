@@ -1,27 +1,27 @@
 === r3_study_b4
 kind: long
-title: 옥상의 시험 한 문제
+title: 시험 전날 밤 공부방
 emoji: 🌙
-scene: 어학 과정 마지막 날 밤, 기숙사 옥상. A 는 모레 {country} 로 돌아간다. Anna 가 스케치북을 들고 올라왔다
+scene: 시험 전날 자정, 기숙사 공부방. Anna 가 차를 들고 와서 서로 문제를 내 준다
 b: Anna
 register: casual
 twist: 15 emotion
 flags: romance
 purpose: study_abroad love
-goal: 동사 활용 -lek 과 헤어짐 앞에서 하는 말
-expressions: Tudom; Na jó; Várj; Tényleg; Nézd; ugye
-B | Hideg van itt fent. Miért nem maradsz bent? | 위는 춥다. 왜 안에 안 있어? | fent = 위에, bent = 안에 | emotion=gentle
-A | Utoljára akarom látni a várost. Holnapután már nem leszek itt. | 마지막으로 도시를 보고 싶어서. 모레면 난 여기 없잖아. | holnapután = 모레 | emotion=sad
-B | Tudom. Összepakoltál már? | 알아. 짐은 다 쌌어? | összepakol = 짐을 싸다 | emotion=sad
-A | Igen, a szótárt itt hagyom neked. Már tudom a ragokat. | 응, 사전은 너한테 두고 갈게. 이제 격 어미 다 알아. | szótár = 사전 | emotion=gentle
-B | Mindet? Na jó, akkor egy kis vizsga: szeret, én téged. | 전부? 그래, 그럼 시험 한 문제. 「사랑하다」, 내가 너를. | téged = 너를 | emotion=teasing
-A | Várj, ez könnyű. Szeretlek. | 잠깐, 이건 쉽지. 사랑해. | szeretlek = 내가 너를 사랑한다(-lek) | emotion=amused+shy
-B | Jó. Még egyszer, lassabban. | 좋아. 한 번 더, 천천히. | lassabban = 더 천천히 | emotion=gentle
-A | Anna... ez most tényleg vizsga? | 언너… 이거 진짜 시험이야? | tényleg = 정말 | emotion=shy
-B | Nem tudom. Te mondd meg. | 몰라. 네가 말해 봐. | mondd meg = 말해 줘 | emotion=shy
-A | Szeretlek. És ez nem nyelvtan. | 사랑해. 이건 문법 아니야. | nyelvtan = 문법 | emotion=gentle
-B | Ötös. | 5점. | ötös = 5점(최고 점수) | emotion=shy
-A | De holnapután megyek. {country} nagyon messze van. | 근데 나 모레 가. {country}, 너무 멀어. | messze = 멀리 | emotion=sad
-B | Tudom. Nézd, a vázlatfüzetem, neked adom. | 알아. 봐, 내 스케치북, 너 줄게. | vázlatfüzet = 스케치북 | emotion=sad+gentle
-A | Mi ez a papír a lapok között? | 페이지 사이에 이 종이는 뭐야? | között = 사이에 | emotion=surprised
-B | Repülőjegy, júniusra. Ott is vannak múzeumok, ugye? | 비행기표, 6월 거. 거기도 미술관 있지? | júniusra = 6월로 | emotion=gentle+teasing
+goal: 밤샘 공부하며 문제 내 주기(Kikérdezel? · Hánykor van a vizsgád?)
+expressions: Na; Jaj; Szerintem; Rendben
+B | Még fent vagy? Már éjfél van. | 아직 안 자? 벌써 자정이야. | fent vagy = 깨어 있다 | emotion=surprised
+A | Holnap vizsgázom. Még két fejezet van hátra. | 내일 시험이야. 아직 두 장 남았어. | hátra van = 남아 있다 | emotion=worried
+B | Én is. Hoztam teát, kérsz? | 나도. 차 가져왔는데, 마실래? | kérsz? = 마실래? | emotion=gentle
+A | Köszi, jólesik. Milyen tea ez? | 고마워, 딱 좋다. 이거 무슨 차야? | jólesik = 반갑다, 기분 좋다 | emotion=cheerful
+B | Kamilla. Állítólag nyugtat, de nem altat. | 캐모마일. 마음은 진정되는데 잠은 안 온대. | állítólag = ~라고들 한다 | emotion=amused
+A | Kikérdezel? Itt vannak a kérdések. | 문제 좀 내 줄래? 여기 질문들이야. | kikérdez = 물어보며 점검하다 | emotion=cheerful
+B | Na, lássuk. Mikor egyesült Budapest? | 자, 보자. 부다페스트는 언제 합쳐졌어? | egyesült = 하나로 합쳐졌다 | emotion=teasing
+A | Ezernyolcszázhetvenháromban. Buda, Pest és Óbuda. | 1873년에. 부다, 페스트, 오부다. | -ban = ~년에 | emotion=excited
+B | Ügyes! Jaj, bocsi, ásítok. | 잘했어! 아, 미안, 하품 나와. | ásítok = 하품한다 | emotion=cheerful+shy
+A | Szerintem a kamilla mégis altat. | 아무래도 캐모마일이 잠 오게 하나 봐. | mégis = 그래도 결국 | emotion=teasing
+B | Lehet. Még tíz kérdés, aztán alszunk. | 그럴지도. 열 문제만 더 하고 자자. | lehet = 그럴 수도 | emotion=gentle
+A | Rendben. Holnap hánykor van a vizsgád? | 좋아. 내일 시험 몇 시야? | hánykor = 몇 시에 | emotion=cheerful
+B | Kilenckor. A tiéd? | 아홉 시. 네 건? | a tiéd = 네 것 | emotion=neutral
+A | Tízkor. Utána együtt ebédelünk? | 열 시. 끝나고 같이 점심 먹을까? | utána = 그 후에 | emotion=shy
+B | Igen. Ha ötös lesz, meghívlak. Ha nem, akkor is. | 응. 5점 나오면 내가 살게. 안 나와도 살 거고. | meghívlak = 너를 초대한다(-lak) | emotion=gentle+shy+shy

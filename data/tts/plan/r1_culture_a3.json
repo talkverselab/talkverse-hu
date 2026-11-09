@@ -7,68 +7,68 @@
 "1": {
 "segs": [
 [
-"excited",
-"Hű, ez a színész jól beszél magyarul!"
+"cheerful",
+"Van két jegyem egy koncertre."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"amused",
-"Mi? Ez szinkron."
+"excited",
+"Komolyan? Milyen koncert?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Szinkron? Tényleg?"
+"cheerful",
+"Egy magyar rockzenekar. Jössz?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Persze. Itt minden film szinkronos."
+"excited",
+"Naná! Mikor?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"De jó hangja van!"
+"neutral",
+"Pénteken este nyolckor."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Tudom. Minden este hallom."
+"gentle",
+"Mennyibe kerül a jegy?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Minden este? Hogyhogy?"
+"amused",
+"Semmibe. A bátyám adta."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"neutral",
-"Az apám."
+"surprised",
+"Várj, ma péntek van!"
 ],
 [
-"amused",
-"Otthon így kéri a sót."
+"shout",
+"Már hét óra!"
 ]
 ]
 }

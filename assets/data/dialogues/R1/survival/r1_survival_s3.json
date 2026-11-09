@@ -10,18 +10,19 @@
  "domain": [
   "survival"
  ],
- "title": "세 번째 뵙네요",
- "emoji": "🏥",
- "scene": "다리를 절며 병원을 찾는 길. 할머니가 알려 준 대로 걷고 또 걷는다",
+ "title": "약국은 어느 쪽?",
+ "emoji": "💊",
+ "scene": "목이 아파 약국을 찾는다. 길에서 할머니에게 물었는데 지나가던 할아버지가 끼어든다",
  "speakers": {
   "A": "{name}",
-  "B": "Néni"
+  "B": "Néni",
+  "C": "Bácsi"
  },
  "register": "polite",
- "twist": 8,
- "twist_type": "reveal",
+ "twist": 7,
+ "twist_type": "chaos",
  "flags": [],
- "goal": "길 묻기(Hol van …?)와 길 안내(menjen, balra) 알아듣기",
+ "goal": "길 묻기(Hol van …?)와 길 안내(menjen, balra, jobbra) 알아듣기",
  "expressions": [
   "Elnézést",
   "Hol van",
@@ -32,10 +33,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Elnézést! Hol van a kórház?",
-   "rd": "엘네제슈트! 홀 번 어 코르하즈?",
-   "ko": "실례합니다! 병원이 어디예요?",
-   "note": "kórház = 병원",
+   "hu": "Elnézést! Hol van a gyógyszertár?",
+   "rd": "엘네제슈트! 홀 번 어 죠지쎄르타르?",
+   "ko": "실례합니다! 약국이 어디예요?",
+   "note": "gyógyszertár = 약국",
    "tags": [
     "expr:Elnézést",
     "expr:Hol van"
@@ -53,28 +54,28 @@
      "번"
     ],
     [
-     "kórház",
-     "kórház",
-     "코르하즈"
+     "gyógyszertár",
+     "gyógyszertár",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "A kórház? Menjen egyenesen, aztán balra!",
-   "rd": "어 코르하즈? 멘옌 에제네센, 어즈탄 벌러!",
-   "ko": "병원이요? 쭉 가서 왼쪽이요!",
-   "note": "menjen = 가세요(존댓말), balra = 왼쪽으로",
+   "hu": "A patika? Menjen egyenesen, aztán balra.",
+   "rd": "어 퍼티커? 멘옌 에제네센, 어즈탄 벌러.",
+   "ko": "약국이요? 쭉 가다가 왼쪽이요.",
+   "note": "menjen = 가세요(존댓말), patika = 약국(구어)",
    "tags": [
     "expr:Menjen"
    ],
-   "emotion": "polite",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "kórház",
-     "kórház",
-     "코르하즈"
+     "patika",
+     "patika",
+     ""
     ],
     [
      "egyenesen",
@@ -95,105 +96,23 @@
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Köszönöm! Nagyon fáj a lábam.",
-   "rd": "쾨쐬뇜! 너죤 파이 어 라범.",
-   "ko": "감사합니다! 다리가 너무 아파서요.",
-   "note": "láb = 다리, 발",
+   "speaker": "C",
+   "hu": "Dehogy balra! Jobbra van, a posta mellett.",
+   "rd": "데호지 벌러! 요브러 번, 어 포슈터 멜레트.",
+   "ko": "무슨 왼쪽이야! 오른쪽이지, 우체국 옆.",
+   "note": "dehogy = 천만에, 아니지",
    "tags": [],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Köszönöm!"
-    ],
-    [
-     "sad",
-     "Nagyon fáj a lábam."
-    ]
-   ],
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "Dehogy",
+     "dehogy",
+     "데허고"
     ],
     [
-     "fáj",
-     "fáj",
-     "파이"
-    ],
-    [
-     "lábam",
-     "láb",
-     "라브"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Nincs messze, csak öt perc.",
-   "rd": "닌치 메쎄, 척 외트 페르츠.",
-   "ko": "안 멀어요, 5분밖에 안 걸려요.",
-   "note": "messze = 멀리",
-   "tags": [],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "Nincs",
-     "nincs",
-     "닌치"
-    ],
-    [
-     "messze",
-     "messze",
-     "메쎄"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "perc",
-     "perc",
-     "페르츠"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Elnézést, hol van a... Jaj, megint maga?",
-   "rd": "엘네제슈트, 홀 번 어... 여이, 메긴트 머거?",
-   "ko": "실례합니다! 병원이 어… 어머, 또 뵙네요?",
-   "note": "megint = 또",
-   "tags": [
-    "expr:Elnézést",
-    "expr:Hol van"
-   ],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Elnézést, hol van a..."
-    ],
-    [
-     "surprised",
-     "Jaj, megint maga?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "hol",
-     "hol",
-     "홀"
+     "balra",
+     "bal",
+     "벌"
     ],
     [
      "van",
@@ -201,117 +120,53 @@
      "번"
     ],
     [
-     "megint",
-     "megint",
-     "메긴트"
+     "posta",
+     "posta",
+     ""
     ]
    ]
   },
   {
-   "num": 6,
+   "num": 4,
    "speaker": "B",
-   "hu": "Már harmadszor jön erre!",
-   "rd": "마르 허르머드쏘르 욘 에레!",
-   "ko": "벌써 세 번째 이쪽으로 오시네요!",
-   "note": "harmadszor = 세 번째로",
+   "hu": "Ugyan, Feri! Az a régi patika volt.",
+   "rd": "우젼, 페리! 어즈 어 레기 퍼티커 볼트.",
+   "ko": "아이고, 페리! 그건 옛날 약국이고.",
+   "note": "ugyan = 아이고, 무슨 소리",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "Már",
-     "már",
-     "마르"
+     "régi",
+     "régi",
+     "레기"
     ],
     [
-     "harmadszor",
-     "harmad",
+     "patika",
+     "patika",
      ""
     ],
     [
-     "jön",
-     "jön",
-     "왼"
+     "volt",
+     "van",
+     "번"
     ]
    ]
   },
   {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Igen, sajnos. Most már nagyon fáj a lábam.",
-   "rd": "이겐, 셔이노시. 모슈트 마르 너죤 파이 어 라범.",
-   "ko": "네, 안타깝게도요. 이제 다리가 정말 아파요.",
-   "note": "sajnos = 안타깝게도",
-   "tags": [
-    "expr:sajnos"
-   ],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "sajnos",
-     "sajnos",
-     "셔이노시"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "fáj",
-     "fáj",
-     "파이"
-    ],
-    [
-     "lábam",
-     "láb",
-     "라브"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Hát nézze! A kórház ott van, maga mögött.",
-   "rd": "하트 네제! 어 코르하즈 오트 번, 머거 뫼괴트.",
-   "ko": "아이고 보세요! 병원은 저기, 바로 뒤에 있어요.",
-   "note": "maga mögött = 당신 뒤에",
+   "num": 5,
+   "speaker": "C",
+   "hu": "Milyen régi? Tegnap is ott voltam!",
+   "rd": "미옌 레기? 텍너프 이시 오트 볼텀!",
+   "ko": "옛날은 무슨? 어제도 거기 갔었어!",
+   "note": "tegnap is = 어제도",
    "tags": [],
-   "emotion": "tsukkomi",
-   "segs": [
-    [
-     "tsukkomi",
-     "Hát nézze!"
-    ],
-    [
-     "amused",
-     "A kórház ott van, maga mögött."
-    ]
-   ],
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "nézze",
-     "néz",
-     "네즈"
-    ],
-    [
-     "kórház",
-     "kórház",
-     "코르하즈"
+     "régi",
+     "régi",
+     "레기"
     ],
     [
      "ott",
@@ -319,9 +174,107 @@
      "오트"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "voltam",
+     "volt",
+     "볼트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Sajnos nem értem. Balra vagy jobbra?",
+   "rd": "셔이노시 넴 에르템. 벌러 버지 요브러?",
+   "ko": "죄송한데 잘 모르겠어요. 왼쪽이에요, 오른쪽이에요?",
+   "note": "sajnos = 안타깝게도",
+   "tags": [
+    "expr:sajnos"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Sajnos",
+     "sajnos",
+     "셔이노시"
+    ],
+    [
+     "értem",
+     "ért",
+     "에르트"
+    ],
+    [
+     "jobbra",
+     "jobb",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Jöjjön velünk, mi is oda megyünk.",
+   "rd": "요왼 벨륀크, 미 이시 오더 메쥔크.",
+   "ko": "우리랑 같이 가요, 우리도 거기 가요.",
+   "note": "jöjjön = 오세요(존댓말)",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Jöjjön",
+     "jön",
+     "왼"
+    ],
+    [
+     "oda",
+     "oda",
+     "오더"
+    ],
+    [
+     "megyünk",
+     "megy",
+     "메지"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Igen. És majd meglátjuk, ki tudja jobban!",
+   "rd": "이겐. 에시 머이드 멕라트육, 키 투드여 요번!",
+   "ko": "그래요. 누가 더 잘 아는지 보자고!",
+   "note": "meglátjuk = 두고 보자",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "majd",
+     "majd",
+     "머이드"
+    ],
+    [
+     "meglátjuk",
+     "meglát",
+     "메글라트"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "tudja",
+     "tud",
+     "투드"
+    ],
+    [
+     "jobban",
+     "jobb",
+     ""
     ]
    ]
   }

@@ -8,36 +8,32 @@
 "segs": [
 [
 "cheerful",
-"Szia! Te is szereted a rétest? 😄",
-"Szia! Te is szereted a rétest?"
+"Szia! Láttam, hogy te is szereted a kutyákat. 🐶",
+"Szia! Láttam, hogy te is szereted a kutyákat."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Igen! Nagyon szeretem."
+"excited",
+"Igen! Neked van kutyád?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"teasing",
-"Na, melyik a kedvenced?"
+"amused",
+"Van, Bodri. Kicsit buta, de cuki."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"A túrós."
-],
-[
 "shy",
-"Holnap ráérsz?"
+"Hétvégén ráérsz? Sétálhatunk vele."
 ]
 ]
 },
@@ -45,24 +41,25 @@
 "segs": [
 [
 "worried",
-"Bocsi, túl gyors vagyok?"
+"Jaj, bocsi, túl gyors vagyok? 😅",
+"Jaj, bocsi, túl gyors vagyok?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"sad",
-"Jaj. Felejtsd el."
+"flustered",
+"Bocsi, csak most láttam! Bodri szétrágta a töltőmet."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Bocsi, rétest sütöttem. Holnap hozok neked. 😇",
-"Bocsi, rétest sütöttem. Holnap hozok neked."
+"cheerful",
+"Szombaton? Bodri is jön. 🐾",
+"Szombaton? Bodri is jön."
 ]
 ]
 }

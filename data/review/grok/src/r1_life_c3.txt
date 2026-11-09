@@ -1,19 +1,19 @@
 === r1_life_c3
 kind: chat
-title: 초록 대문, 큰 개
+title: 12호? 21호?
 emoji: 🛵
-scene: 랑고시 배달. 기사가 집 앞에 왔다는데 아무도 안 보인다
+scene: 택배 기사가 문 앞에 두었다고 문자를 보냈다. 그런데 문 앞에 아무것도 없다
 b: Futár
 register: chat
-twist: 7 reveal
+twist: 6 chaos
 purpose: study_abroad
-goal: 배달 기사와 문자로 위치 맞추기
-expressions: Jó napot; Bocsánat; Sajnos
-B | Jó napot! Itt vagyok a kapunál. | 안녕하세요! 대문 앞이에요. | kapunál = 대문 옆에 | emotion=polite at=12:30
-A | Jó napot! Nem látom. | 안녕하세요! 안 보이는데요. | nem látom = 그게 안 보여요 | emotion=polite at=12:31
-B | Zöld kapu, nagy kutya. | 초록 대문, 큰 개요. | zöld = 초록색 | emotion=neutral at=12:31
-A | Itt nincs kutya. | 여긴 개가 없는데요. | nincs = 없다 | emotion=stiff at=12:32
-B | Akkor rossz ház. Bocsánat. | 그럼 다른 집이네요. 죄송해요. | rossz ház = 틀린 집 | emotion=polite at=12:34
-A | És a lángosom? | 제 랑고시는요? | lángosom = 내 랑고시 | emotion=worried at=12:34
-B | Sajnos a kutya megette. | 안타깝게도 개가 먹었어요. | megette = 먹어 치웠다 | emotion=polite at=12:36
-A | Akkor jó étvágyat neki. | 그럼 개한테 맛있게 먹으라고 해 주세요. | jó étvágyat = 맛있게 드세요 | emotion=tsukkomi at=12:37
+goal: 채팅으로 위치 확인(Melyik ajtó? · Biztos?)
+expressions: Elnézést; Biztos; Megkérdezem
+B | Jó napot! A csomagot az ajtó elé tettem. | 안녕하세요! 택배 문 앞에 두었습니다. | elé = ~앞으로 | emotion=polite at=11:20
+A | Köszönöm! De itt nincs semmi. | 고맙습니다! 그런데 여기 아무것도 없는데요. | semmi = 아무것도 | emotion=worried at=11:25
+B | Biztos? Harmadik emelet, tizenkettes ajtó. | 확실하세요? 3층 12호예요. | tizenkettes = 12번 | emotion=surprised at=11:26
+A | Én a huszonegyesben lakom! | 저는 21호에 살아요! | huszonegyes = 21번 | emotion=annoyed at=11:26
+B | Elnézést! Átmegyek érte. | 죄송합니다! 가지러 건너갈게요. | érte = 그것을 위해(가지러) | emotion=flustered at=11:27
+B | A csomag már nincs ott. 😳 | 택배가 벌써 없어요. 😳 | már nincs = 이제 없다 | emotion=surprised at=11:40
+A | Jaj, a tizenkettesben Feri bácsi lakik. Megkérdezem. | 아이고, 12호엔 페리 아저씨가 살아요. 물어볼게요. | megkérdezem = 물어볼게요 | emotion=worried at=11:41
+A | Feri bácsi azt hitte, az övé. Már ki is bontotta. 🙃 | 페리 아저씨가 자기 건 줄 알았대요. 벌써 뜯었대요. 🙃 | kibontotta = 뜯었다 | emotion=amused at=11:55

@@ -7,8 +7,8 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Dávid, jó a víz?"
+"polite",
+"Elnézést, segítene?"
 ]
 ]
 },
@@ -16,63 +16,59 @@
 "segs": [
 [
 "gentle",
-"Jó, jó. Nagyon meleg."
+"Persze. Mit keres?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Figyelj, éhes vagyok. Van pénzed?"
+"worried",
+"A Nyugati pályaudvart. Messze van?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"amused",
-"Van. Mennyi kell?"
+"gentle",
+"Nem. Gyalog öt perc."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Ezer forint."
-],
-[
-"cheerful",
-"Lángosra."
+"polite",
+"Merre menjek?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"gentle",
-"Tessék."
-],
-[
-"amused",
-"De ki az a Dávid?"
+"polite",
+"Egyenesen, aztán balra."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Jaj, elnézést! Hol a szemüvegem?"
+"cheerful",
+"Köszönöm szépen!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
+"surprised",
+"Várjon!"
+],
+[
 "amused",
-"Nem baj. Nekem is hozz egy lángost!"
+"Rossz irányba megy."
 ]
 ]
 }

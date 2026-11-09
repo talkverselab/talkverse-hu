@@ -8,139 +8,105 @@
 "segs": [
 [
 "polite",
-"Tisztelt Professzor Úr! Mikor lesz a vizsga?"
+"Tisztelt Professzor Asszony! Szeretnék időpontot kérni konzultációra."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Elnézést, újra én vagyok. Megkapta az üzenetemet?"
+"stiff",
+"A szakdolgozatom témájáról szeretnék beszélni."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"worried",
-"A dátum sajnos nagyon fontos lenne nekem."
+"polite",
+"Jó napot! Szerdán tízkor vagy csütörtökön kettőkor jó Önnek?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Tudom, hogy sok a dolga, de egy szó is elég lenne."
+"cheerful",
+"Köszönöm, a csütörtök kettő tökéletes!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"worried",
-"Ha nem írhat, kérem, küldjön egy pontot."
+"polite",
+"Rendben. A 312-es irodában leszek."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shy",
-"A dolgozatom is kész, ha ez érdekli."
+"cheerful",
+"Köszönöm szépen, Professzor Asszony! Ott leszek."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"stiff",
-"Szerintem látta az üzeneteimet, mert a rendszer azt mutatja: olvasva."
+"neutral",
+"Még valami."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"sad",
-"Ha egy szót sem ír, azt fogom gondolni, hogy rosszul írtam valamit."
+"amused",
+"Professzor úr vagyok, nem asszony. Kovács Gábor. 🙂",
+"Professzor úr vagyok, nem asszony. Kovács Gábor."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"annoyed",
-"Professzor Úr, él még?"
-],
-[
 "flustered",
-"Bocsánat, ezt nem akartam elküldeni."
+"Úristen, elnézést! A rendszerben csak annyi áll: Dr. Kovács G."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"flustered",
-"Ha a múltkori puszi miatt haragszik, azt Réka írta."
+"amused",
+"Semmi baj. Néztek már Gizellának is."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"flustered",
-"Úristen."
-],
-[
-"polite",
-"Mindegy, jó éjszakát, holnap is írok."
+"shy",
+"Akkor csütörtökön kettőkor, Professzor Úr. Most már biztosan."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"stiff",
-"Kedves {name}! Mind a tizenegyet elolvastam."
+"gentle",
+"Várom. És hozza a témavázlatot is!"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"gentle",
-"Szándékosan nem válaszoltam: egyre jobban írt magyarul."
-]
-]
-},
-"14": {
-"segs": [
-[
-"gentle",
-"A feltételes mód már szinte tökéletes."
-]
-]
-},
-"15": {
-"segs": [
-[
-"worried",
-"És a vizsga mikor lesz?"
-]
-]
-},
-"16": {
-"segs": [
-[
 "amused",
-"Ez volt a vizsga, ötös."
-],
-[
-"teasing",
-"Puszi, Kovács"
+"Hozom. Ezúttal a helyes megszólítással. 😅",
+"Hozom. Ezúttal a helyes megszólítással."
 ]
 ]
 }

@@ -10,35 +10,33 @@
  "domain": [
   "life"
  ],
- "title": "초록 대문, 큰 개",
+ "title": "12호? 21호?",
  "emoji": "🛵",
- "scene": "랑고시 배달. 기사가 집 앞에 왔다는데 아무도 안 보인다",
+ "scene": "택배 기사가 문 앞에 두었다고 문자를 보냈다. 그런데 문 앞에 아무것도 없다",
  "speakers": {
   "A": "{name}",
   "B": "Futár"
  },
  "register": "chat",
- "twist": 7,
- "twist_type": "reveal",
+ "twist": 6,
+ "twist_type": "chaos",
  "flags": [],
- "goal": "배달 기사와 문자로 위치 맞추기",
+ "goal": "채팅으로 위치 확인(Melyik ajtó? · Biztos?)",
  "expressions": [
-  "Jó napot",
-  "Bocsánat",
-  "Sajnos"
+  "Elnézést",
+  "Biztos",
+  "Megkérdezem"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó napot! Itt vagyok a kapunál.",
-   "rd": "요 너포트! 이트 버죡 어 커푸날.",
-   "ko": "안녕하세요! 대문 앞이에요.",
-   "note": "kapunál = 대문 옆에",
-   "tags": [
-    "expr:Jó napot"
-   ],
-   "at": "12:30",
+   "hu": "Jó napot! A csomagot az ajtó elé tettem.",
+   "rd": "요 너포트! 어 초머고트 어즈 어이토 엘레 테뗌.",
+   "ko": "안녕하세요! 택배 문 앞에 두었습니다.",
+   "note": "elé = ~앞으로",
+   "tags": [],
+   "at": "11:20",
    "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
@@ -53,96 +51,41 @@
      "넙"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
+     "csomagot",
+     "csomag",
+     ""
     ],
     [
-     "kapunál",
-     "kapu",
-     "커푸"
+     "ajtó",
+     "ajtó",
+     "어이토"
+    ],
+    [
+     "tettem",
+     "tett",
+     "테트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó napot! Nem látom.",
-   "rd": "요 너포트! 넴 라톰.",
-   "ko": "안녕하세요! 안 보이는데요.",
-   "note": "nem látom = 그게 안 보여요",
-   "tags": [
-    "expr:Jó napot"
-   ],
-   "at": "12:31",
-   "emotion": "polite",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "napot",
-     "nap",
-     "넙"
-    ],
-    [
-     "látom",
-     "lát",
-     "라트"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Zöld kapu, nagy kutya.",
-   "rd": "죌드 커푸, 너지 쿠텨.",
-   "ko": "초록 대문, 큰 개요.",
-   "note": "zöld = 초록색",
+   "hu": "Köszönöm! De itt nincs semmi.",
+   "rd": "쾨쐬뇜! 데 이트 닌치 셈미.",
+   "ko": "고맙습니다! 그런데 여기 아무것도 없는데요.",
+   "note": "semmi = 아무것도",
    "tags": [],
-   "at": "12:31",
-   "emotion": "neutral",
+   "at": "11:25",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Zöld",
-     "zöld",
-     "죄르드"
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
     ],
     [
-     "kapu",
-     "kapu",
-     "커푸"
-    ],
-    [
-     "nagy",
-     "nagy",
-     "너지"
-    ],
-    [
-     "kutya",
-     "kutya",
-     "쿠티어"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Itt nincs kutya.",
-   "rd": "이트 닌치 쿠텨.",
-   "ko": "여긴 개가 없는데요.",
-   "note": "nincs = 없다",
-   "tags": [],
-   "at": "12:32",
-   "emotion": "stiff",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Itt",
+     "itt",
      "itt",
      "이트"
     ],
@@ -150,120 +93,205 @@
      "nincs",
      "nincs",
      "닌치"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Biztos? Harmadik emelet, tizenkettes ajtó.",
+   "rd": "비즈토시? 허르머딕 에멜레트, 티젠케떼시 어이토.",
+   "ko": "확실하세요? 3층 12호예요.",
+   "note": "tizenkettes = 12번",
+   "tags": [
+    "expr:Biztos"
+   ],
+   "at": "11:26",
+   "emotion": "surprised",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Biztos",
+     "biztos",
+     "비즈토슈"
     ],
     [
-     "kutya",
-     "kutya",
-     "쿠티어"
+     "emelet",
+     "emelet",
+     ""
+    ],
+    [
+     "tizenkettes",
+     "tizenkettes",
+     ""
+    ],
+    [
+     "ajtó",
+     "ajtó",
+     "어이토"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Én a huszonegyesben lakom!",
+   "rd": "엔 어 후쏘네제슈벤 러콤!",
+   "ko": "저는 21호에 살아요!",
+   "note": "huszonegyes = 21번",
+   "tags": [],
+   "at": "11:26",
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "huszonegyesben",
+     "huszonegy",
+     ""
+    ],
+    [
+     "lakom",
+     "lakik",
+     "러키크"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Akkor rossz ház. Bocsánat.",
-   "rd": "어꼬르 로쓰 하즈. 보차너트.",
-   "ko": "그럼 다른 집이네요. 죄송해요.",
-   "note": "rossz ház = 틀린 집",
+   "hu": "Elnézést! Átmegyek érte.",
+   "rd": "엘네제슈트! 아트메젝 에르테.",
+   "ko": "죄송합니다! 가지러 건너갈게요.",
+   "note": "érte = 그것을 위해(가지러)",
    "tags": [
-    "expr:Bocsánat"
+    "expr:Elnézést"
    ],
-   "at": "12:34",
-   "emotion": "polite",
+   "at": "11:27",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Akkor",
-     "akkor",
-     "어꼬르"
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
     ],
     [
-     "rossz",
-     "rossz",
-     "로쓰"
-    ],
-    [
-     "ház",
-     "ház",
-     "하즈"
+     "érte",
+     "ér",
+     "에르"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "A",
-   "hu": "És a lángosom?",
-   "rd": "에시 어 란고숌?",
-   "ko": "제 랑고시는요?",
-   "note": "lángosom = 내 랑고시",
+   "speaker": "B",
+   "hu": "A csomag már nincs ott. 😳",
+   "rd": "어 초먹 마르 닌치 오트. 😳",
+   "ko": "택배가 벌써 없어요. 😳",
+   "note": "már nincs = 이제 없다",
    "tags": [],
-   "at": "12:34",
-   "emotion": "worried",
+   "at": "11:40",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "lángosom",
-     "lángosom",
+     "csomag",
+     "csomag",
      ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Sajnos a kutya megette.",
-   "rd": "셔이노시 어 쿠텨 메게떼.",
-   "ko": "안타깝게도 개가 먹었어요.",
-   "note": "megette = 먹어 치웠다",
+   "speaker": "A",
+   "hu": "Jaj, a tizenkettesben Feri bácsi lakik. Megkérdezem.",
+   "rd": "여이, 어 티젠케떼슈벤 페리 바치 러킥. 멕케르데젬.",
+   "ko": "아이고, 12호엔 페리 아저씨가 살아요. 물어볼게요.",
+   "note": "megkérdezem = 물어볼게요",
    "tags": [
-    "expr:Sajnos"
+    "expr:Megkérdezem"
    ],
-   "at": "12:36",
-   "emotion": "polite",
+   "at": "11:41",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Sajnos",
-     "sajnos",
-     "셔이노시"
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "kutya",
-     "kutya",
-     "쿠티어"
-    ],
-    [
-     "megette",
-     "megeszik",
+     "tizenkettesben",
+     "tizenkettes",
      ""
+    ],
+    [
+     "bácsi",
+     "bácsi",
+     ""
+    ],
+    [
+     "lakik",
+     "lakik",
+     "러키크"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Akkor jó étvágyat neki.",
-   "rd": "어꼬르 요 에트바져트 네키.",
-   "ko": "그럼 개한테 맛있게 먹으라고 해 주세요.",
-   "note": "jó étvágyat = 맛있게 드세요",
+   "hu": "Feri bácsi azt hitte, az övé. Már ki is bontotta. 🙃",
+   "rd": "페리 바치 어즈트 히떼, 어즈 외베. 마르 키 이시 본토떠. 🙃",
+   "ko": "페리 아저씨가 자기 건 줄 알았대요. 벌써 뜯었대요. 🙃",
+   "note": "kibontotta = 뜯었다",
    "tags": [],
-   "at": "12:37",
-   "emotion": "tsukkomi",
+   "at": "11:55",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "Akkor",
-     "akkor",
-     "어꼬르"
+     "Feri",
+     "feri",
+     ""
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "bácsi",
+     "bácsi",
+     ""
     ],
     [
-     "étvágyat",
-     "étvágy",
+     "hitte",
+     "hisz",
+     "히쓰"
+    ],
+    [
+     "övé",
+     "öv",
+     "외브"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "bontotta",
+     "bont",
      ""
     ]
    ]

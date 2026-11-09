@@ -1,29 +1,28 @@
 === r3_love_c1
 kind: chat
-title: 마흔일곱 매칭
-emoji: 🔥
-scene: 셋이 있는 단톡방. Anna 가 데이팅앱에서 A 의 프로필을 찾았다. A 는 그런 앱을 깐 적이 없다
+title: 시험 통과?
+emoji: 🍕
+scene: 밤, Anna 가 먼저 토요일 저녁 시간 있냐고 묻는다. 장소는 A 가 고르라는데 내놓는 곳마다 퇴짜다
 b: Anna
-c: Dávid
 register: chat
-twist: 9 chaos
-flags: romance jealousy
+twist: 13 reveal
+flags: romance
 purpose: love
-goal: 해명하기, 놀랄 때 쓰는 말, '이미 가는 중'(úton vagyok)
-expressions: Várj; Úristen; Aha; Király; Egyébként; Légyszi
-B | Szia, kérdezhetek valamit? Ez itt te vagy? | 안녕, 뭐 좀 물어봐도 돼? 여기 이거 너야? | kérdezhetek = 물어봐도 돼 | emotion=stiff at=21:10
-A | Hol? Várj, nézem. | 어디? 잠깐, 볼게. | nézem = 내가 그걸 본다 | emotion=neutral at=21:11
-B | Az appon találtam. „Szeretem a krumplit és a hosszú sétákat.” | 앱에서 찾았어. "감자와 긴 산책을 좋아합니다." | séta = 산책 | emotion=stiff at=21:11
-A | Úristen, ezt nem én írtam! Nekem nincs is ilyen appom. | 세상에, 이거 내가 쓴 거 아니야! 나 그런 앱도 없어. | nincs is = 아예 없다 | emotion=surprised+flustered at=21:12
-B | Aha. És az „egyedül vagyok, de csak hétfőn” is hazugság? 😐 | 아하. 그럼 "혼자예요, 근데 월요일만요"도 거짓말이야? 😐 | hazugság = 거짓말 | emotion=annoyed at=21:13
-A | Ezt csak egy ember csinálhatta. Dávid!!! | 이건 한 사람밖에 없어. 다비드!!! | csinálhatta = 했을 수 있다 | emotion=annoyed+shout at=21:13
-C | Szívesen. Már negyvenhét találatod van, király vagy. 😎 | 천만에. 벌써 매칭이 마흔일곱이야, 너 대단해. 😎 | találat = 매칭, 검색 결과 | emotion=teasing at=21:20
-A | Negyvenhét?! Törölj mindent, de most azonnal! | 마흔일곱?! 다 지워, 지금 당장! | töröl = 지운다 | emotion=surprised+shout at=21:20
-C | Nem lehet. Hárman ma este jönnek hozzánk rétessel. | 안 돼. 세 명이 오늘 저녁 우리 집에 레테시 들고 와. | hozzánk = 우리 집으로 | emotion=amused at=21:21
-A | MI VAN? Dávid, te hány embert hívtál meg? | 뭐?! 다비드, 너 몇 명을 부른 거야? | hívtál meg = 초대했다 | emotion=shout at=21:21
-C | Én senkit, te hívtad őket. Egyébként jól írsz. 😇 | 난 아무도, 네가 부른 거지. 그나저나 글 잘 쓰더라. 😇 | egyébként = 그나저나 | emotion=teasing at=21:22
-B | Ez komoly? Emberek mennek hozzád rétessel? | 이거 진짜야? 사람들이 네 집에 레테시 들고 가? | komoly = 진지한 | emotion=worried at=21:23
-A | Anna, semmit nem tudok! Segíts, légyszi. | 언너, 난 아무것도 몰라! 도와줘, 제발. | semmit nem tudok = 아무것도 몰라 | emotion=worried at=21:24
-B | Jól van. Már úton vagyok. | 알았어. 벌써 가는 중이야. | úton vagyok = 가는 중이야 | emotion=gentle at=21:26
-A | Jössz? Miért? | 온다고? 왜? | jössz = 네가 온다 | emotion=surprised at=21:26
-B | Mert te csak az én rétesemet eszed. 😌 | 너는 내 레테시만 먹는 거니까. 😌 | rétesemet = 내 레테시를 | emotion=gentle at=21:27 stamp=😌
+goal: 장소 제안하기(Mit szólnál …-hoz?)와 거절·이유 말하기(…, de …)
+expressions: Mit szólnál; Igazából; Mindegy; Oké
+B | Szia! Szombat este szabad vagy? 😊 | 안녕! 토요일 저녁 시간 돼? 😊 | szabad = 비어 있는, 한가한 | emotion=cheerful at=21:10
+A | Szia! Igen, teljesen szabad. Mit tervezel? | 안녕! 응, 완전 비어 있어. 뭐 계획해? | tervezel = 계획한다 | emotion=excited at=21:12
+B | Még semmit. Arra gondoltam, hogy te választasz helyet. 😇 | 아직 아무것도. 네가 장소를 고르면 어떨까 했어. 😇 | arra gondoltam = ~라고 생각했다 | emotion=teasing at=21:12
+A | Mit szólnál egy pizzához a belvárosban? | 시내에서 피자 어때? | mit szólnál …-hoz? = ~ 어때? | emotion=cheerful at=21:14
+B | A pizza jó, de múlt héten háromszor ettem. 🍕 | 피자 좋은데, 지난주에 세 번 먹었어. 🍕 | háromszor = 세 번 | emotion=amused at=21:15
+A | Akkor egy kis vendéglő? Van egy jó hely a Ráday utcában. | 그럼 작은 식당? 라다이 거리에 좋은 데 있어. | vendéglő = 식당 | emotion=cheerful at=21:17
+B | Hallottam róla, de oda előre kell foglalni. Szombatra már biztos nincs hely. | 들어 봤는데, 거긴 미리 예약해야 해. 토요일은 분명 자리 없을 거야. | foglalni = 예약하다 | emotion=worried at=21:18
+A | Jaj, igaz. Akkor mozi, vagy séta a Duna-parton? | 아, 맞다. 그럼 영화, 아니면 두너강변 산책? | séta = 산책 | emotion=worried at=21:20
+B | Novemberben a Duna-parton? Megfagyunk. 🥶 | 11월에 강변? 얼어 죽어. 🥶 | megfagyunk = 우리가 언다 | emotion=tsukkomi at=21:21
+A | Oké, feladom. 😅 Te mit szeretnél igazából? | 오케이, 포기. 😅 넌 사실 뭐 하고 싶어? | feladom = 포기한다 | emotion=flustered at=21:30
+B | Igazából... nekem mindegy, hol. | 사실… 난 어디든 상관없어. | mindegy = 상관없어 | emotion=shy at=21:34
+A | Mindegy? Akkor miért mondtál nemet mindenre? 😂 | 상관없다고? 그럼 왜 다 싫다고 했어? 😂 | nemet mond = 거절하다 | emotion=amused at=21:34
+B | Mert csak tudni akartam, meddig próbálkozol. | 네가 언제까지 애쓰나 보고 싶었거든. | próbálkozol = 애쓴다 | emotion=teasing at=21:35
+A | És? Átmentem a vizsgán? | 그래서? 시험 통과했어? | átmentem = 통과했다 | emotion=excited at=21:36
+B | Át. Szombaton hétkor nálam, én főzök. 😊 | 통과. 토요일 7시 우리 집, 내가 요리할게. 😊 | nálam = 우리 집에서 | emotion=gentle at=21:37
+A | Ott leszek hétkor. Nem fél hétkor, azt már megtanultam. 😄 | 7시에 갈게. 반 일곱 시 말고, 그건 이제 알아. 😄 | fél hét = 6시 반 | emotion=amused at=21:37 stamp=😄

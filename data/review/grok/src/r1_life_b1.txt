@@ -1,20 +1,20 @@
 === r1_life_b1
 kind: long
-title: 파프리카 1 kk
-emoji: 🌶️
-scene: 부엌. 레시피를 보고 처음 끓인 굴라시. 냄새가 건물을 타고 올라간다
+title: 이건 어느 통에?
+emoji: ♻️
+scene: 처음 쓰레기 분리수거를 한다. 노란 통·파란 통·회색 통 앞에서 Dávid 에게 묻는다
 b: Dávid
 c: Marika néni
 register: casual
-twist: 8 chaos
+twist: 7 reveal
 purpose: study_abroad
-goal: 요리 재촉·권유(Kóstold meg! Mutasd!)
-expressions: Kóstold meg; Mi van?; Úristen; Mutasd
-B | Mi ez a szag? Mit csinálsz? | 이 냄새 뭐야? 뭐 해? | szag = 냄새 | emotion=worried
-A | Gulyást főzök! Kóstold meg! | 굴라시 끓여! 맛봐! | kóstold meg = 맛봐 | emotion=excited
-B | Hű, de piros! Úristen, víz! | 와, 진짜 빨갛다! 세상에, 물! | de + 형용사 = 정말 ~하다 | emotion=surprised+shout
-A | Mi van? A recept szerint csináltam! | 왜? 레시피대로 했는데! | szerint = ~에 따라 | emotion=flustered
-B | Mutasd! Mennyi paprikát tettél bele? | 보여 줘! 파프리카 얼마나 넣었어? | tettél bele = 네가 안에 넣었다 | emotion=worried
-A | Egy kk. Az egy kiló, nem? | 1 kk. 그거 1킬로잖아, 아니야? | ..., nem? = ~지, 아니야? | emotion=neutral
-B | Kávéskanál! A kk kávéskanál! | 찻숟갈! kk 는 찻숟갈이라고! | kávéskanál = 찻숟갈(요리책의 kk) | emotion=shout
-C | Gyerekek, miért sír az egész ház? | 얘들아, 왜 온 건물이 울고 있니? | sír = 운다 | emotion=worried
+goal: 「이거 어디에 넣어?」 묻기(Hova megy?)와 색 이름
+expressions: Hova megy?; Figyelj; Izé
+A | Dávid, ez a doboz hova megy? | 다비드, 이 상자는 어디에 넣어? | hova = 어디로 | emotion=neutral
+B | A papír a kékbe megy. | 종이는 파란 통에 넣어. | kékbe = 파란 것 안으로(-be) | emotion=cheerful
+A | És a műanyag üveg? | 그럼 플라스틱 병은? | műanyag = 플라스틱 | emotion=neutral
+B | Az a sárgába. Figyelj, előbb lapítsd össze! | 그건 노란 통. 잘 봐, 먼저 납작하게 눌러! | lapítsd össze = 납작하게 눌러 | emotion=gentle
+A | És a pizzás doboz? Az is papír, nem? | 피자 상자는? 그것도 종이잖아, 아니야? | ..., nem? = ~잖아? | emotion=neutral
+B | Nem, az zsíros. Az a szürkébe megy. | 아니, 그건 기름 묻었잖아. 그건 회색 통. | zsíros = 기름진 | emotion=gentle
+C | Jó estét! Ki tette tegnap a pizzás dobozt a kékbe? | 안녕하세요! 어제 피자 상자 파란 통에 누가 넣었어요? | tegnap = 어제 | emotion=stiff
+B | Hát, izé... én. | 음, 저기… 저요. | izé = 저기(말 막힐 때) | emotion=flustered

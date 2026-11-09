@@ -5,211 +5,96 @@
  "kind": "long",
  "draft": true,
  "purpose": [
-  "making_friends",
-  "media"
+  "making_friends"
  ],
  "domain": [
   "friends"
  ],
- "title": "이름의 날 반반",
- "emoji": "💐",
- "scene": "꽃다발을 잔뜩 든 Réka 를 만났다. 오늘이 Réka 의 이름의 날이란다",
+ "title": "벤체 생일 선물",
+ "emoji": "🎁",
+ "scene": "다음 주가 Bence 생일. Réka 와 시장에서 선물을 고른다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "casual",
- "twist": 6,
- "twist_type": "emotion",
+ "twist": 7,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "헝가리 이름의 날(névnap)과 소유 표현(az enyém, a tiéd)",
+ "goal": "선물 고르기(Mit vegyünk? · Szerintem…)",
  "expressions": [
-  "Hű",
-  "Tényleg?",
-  "Várj",
-  "Komolyan?"
+  "Mit vegyünk",
+  "Szerintem",
+  "Hogyhogy"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Hű, mi ez a sok virág?",
-   "rd": "휘, 미 에즈 어 쇽 비락?",
-   "ko": "와, 이 꽃 다 뭐야?",
-   "note": "virág = 꽃",
+   "speaker": "B",
+   "hu": "Jövő héten lesz Bence szülinapja. Mit vegyünk?",
+   "rd": "요뵈 헤텐 레쓰 벤체 쓀리너프여. 미트 베쥔크?",
+   "ko": "다음 주가 벤체 생일이야. 뭐 살까?",
+   "note": "Mit vegyünk? = 우리 뭐 살까?",
    "tags": [
-    "expr:Hű"
+    "expr:Mit vegyünk"
    ],
-   "emotion": "surprised",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Hű",
-     "hű",
-     ""
+     "Jövő",
+     "jövő",
+     "요뵈"
     ],
     [
-     "virág",
-     "virág",
-     "비라그"
+     "héten",
+     "hét",
+     "헤트"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "szülinapja",
+     "szülinap",
+     "쓸리넙"
+    ],
+    [
+     "vegyünk",
+     "vesz",
+     "베쓰"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Ma van a névnapom! Minden névnek van egy napja.",
-   "rd": "머 번 어 네브너폼! 민덴 네브넥 번 에지 너프여.",
-   "ko": "오늘 내 이름의 날이야! 이름마다 자기 날이 있어.",
-   "note": "névnap = 이름의 날",
-   "tags": [],
-   "emotion": "excited",
+   "speaker": "A",
+   "hu": "Szerintem kávét. Imádja a kávét, nem?",
+   "rd": "쎄린템 카베트. 이마드여 어 카베트, 넴?",
+   "ko": "커피 어때. 커피 엄청 좋아하잖아, 아니야?",
+   "note": "imádja = 엄청 좋아한다",
+   "tags": [
+    "expr:Szerintem"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Ma",
-     "ma",
-     "머"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "névnapom",
-     "névnapom",
-     ""
-    ],
-    [
-     "névnek",
-     "név",
-     "네브"
-    ],
-    [
-     "napja",
-     "nap",
-     "넙"
+     "kávét",
+     "kávé",
+     "카베"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Tényleg? És az én nevemnek mikor van?",
-   "rd": "테닐렉? 에시 어즈 엔 네벰넥 미코르 번?",
-   "ko": "진짜? 그럼 내 이름은 언제야?",
-   "note": "mikor = 언제",
-   "tags": [
-    "expr:Tényleg?"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Tényleg?"
-    ],
-    [
-     "cheerful",
-     "És az én nevemnek mikor van?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "nevemnek",
-     "nevem",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 4,
    "speaker": "B",
-   "hu": "Várj, megnézem. Sajnos nincs.",
-   "rd": "바르이, 멕네젬. 셔이노시 닌치.",
-   "ko": "잠깐, 찾아볼게. 안타깝지만 없네.",
-   "note": "megnézem = 찾아볼게",
-   "tags": [
-    "expr:Várj"
-   ],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Várj, megnézem."
-    ],
-    [
-     "sad",
-     "Sajnos nincs."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "megnézem",
-     "megnéz",
-     "메그네즈"
-    ],
-    [
-     "nincs",
-     "nincs",
-     "닌치"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Szóval nekem soha nincs névnapom?",
-   "rd": "쏘벌 네켐 쇼허 닌치 네브너폼?",
-   "ko": "그러니까 나는 이름의 날이 영영 없다고?",
-   "note": "soha = 절대, 한 번도",
+   "hu": "Hát, nem tudom. Valami mást?",
+   "rd": "하트, 넴 투돔. 벌러미 마슈트?",
+   "ko": "글쎄, 모르겠어. 다른 거 없을까?",
+   "note": "valami más = 다른 무언가",
    "tags": [],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "Szóval",
-     "szó",
-     "쏘"
-    ],
-    [
-     "soha",
-     "soha",
-     "쇼허"
-    ],
-    [
-     "nincs",
-     "nincs",
-     "닌치"
-    ],
-    [
-     "névnapom",
-     "névnapom",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Hát legyen az enyém a tiéd is. Fele-fele.",
-   "rd": "하트 레젠 어즈 에넴 어 티에드 이시. 펠레-펠레.",
-   "ko": "그럼 내 거를 네 것도 하자. 반반.",
-   "note": "fele-fele = 반반",
-   "tags": [],
-   "emotion": "gentle",
+   "emotion": "worried",
    "lemmas": [
     [
      "Hát",
@@ -217,80 +102,80 @@
      "핫"
     ],
     [
-     "legyen",
-     "lesz",
-     "레쓰"
+     "tudom",
+     "tud",
+     "투드"
     ],
     [
-     "fele",
-     "fel",
-     "펠"
+     "mást",
+     "más",
+     "마시"
     ]
    ]
   },
   {
-   "num": 7,
+   "num": 4,
    "speaker": "A",
-   "hu": "Komolyan? Nekem adod a fél névnapodat?",
-   "rd": "코모연? 네켐 어도드 어 펠 네브너포더트?",
-   "ko": "진짜? 네 이름의 날 절반을 나 주는 거야?",
-   "note": "adod = 네가 그걸 준다",
-   "tags": [
-    "expr:Komolyan?"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Komolyan?"
-    ],
-    [
-     "shy",
-     "Nekem adod a fél névnapodat?"
-    ]
-   ],
+   "hu": "Akkor egy szép bögrét?",
+   "rd": "어꼬르 에지 쎄프 뵉레트?",
+   "ko": "그럼 예쁜 머그컵?",
+   "note": "bögre = 머그컵",
+   "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Komolyan",
-     "komoly",
-     "코모이"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "adod",
-     "ad",
-     "어드"
+     "szép",
+     "szép",
+     "쎕"
     ],
     [
-     "fél",
-     "fél",
-     "펠"
-    ],
-    [
-     "névnapodat",
-     "névnap",
+     "bögrét",
+     "bögre",
      ""
     ]
    ]
   },
   {
-   "num": 8,
+   "num": 5,
    "speaker": "B",
-   "hu": "Igen. De a virág az enyém!",
-   "rd": "이겐. 데 어 비락 어즈 에넴!",
-   "ko": "응. 근데 꽃은 내 거야!",
-   "note": "az enyém = 내 것",
+   "hu": "Az jó! Ez a piros tetszik?",
+   "rd": "어즈 요! 에즈 어 피로시 테트씩?",
+   "ko": "그거 좋다! 이 빨간 거 마음에 들어?",
+   "note": "tetszik = 마음에 든다",
    "tags": [],
-   "emotion": "gentle",
-   "segs": [
+   "emotion": "excited",
+   "lemmas": [
     [
-     "gentle",
-     "Igen."
+     "jó",
+     "jó",
+     "요"
     ],
     [
-     "teasing",
-     "De a virág az enyém!"
+     "piros",
+     "piros",
+     ""
+    ],
+    [
+     "tetszik",
+     "tetszik",
+     "테트씨크"
     ]
-   ],
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Igen, szép. És egy kis kávét bele.",
+   "rd": "이겐, 쎄프. 에시 에지 키시 카베트 벨레.",
+   "ko": "응, 예뻐. 그리고 안에 커피 조금.",
+   "note": "bele = 안에(로)",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Igen",
@@ -298,9 +183,105 @@
      "이겐"
     ],
     [
-     "virág",
-     "virág",
-     "비라그"
+     "szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "kis",
+     "kis",
+     "키시"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "bele",
+     "bél",
+     "벨"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Kávét ne. Otthon csak teát iszik.",
+   "rd": "카베트 네. 오트혼 척 테아트 이씩.",
+   "ko": "커피는 말고. 집에서는 차만 마셔.",
+   "note": "csak teát = 차만",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "teát",
+     "tea",
+     "테아"
+    ],
+    [
+     "iszik",
+     "iszik",
+     "이식"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Hogyhogy? Ja, a munkában elég kávét lát!",
+   "rd": "호지호지? 여, 어 문카번 엘렉 카베트 라트!",
+   "ko": "왜? 아, 일하면서 커피는 실컷 보는구나!",
+   "note": "hogyhogy? = 어째서?",
+   "tags": [
+    "expr:Hogyhogy"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Hogyhogy?"
+    ],
+    [
+     "amused",
+     "Ja, a munkában elég kávét lát!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Hogyhogy",
+     "hogyhogy",
+     ""
+    ],
+    [
+     "munkában",
+     "munka",
+     "문커"
+    ],
+    [
+     "elég",
+     "elég",
+     "엘렉"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "lát",
+     "lát",
+     "라트"
     ]
    ]
   }

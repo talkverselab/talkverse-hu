@@ -1,29 +1,27 @@
 === r3_life_b1
 kind: long
-title: 모든 다비드를 환영합니다
-emoji: 🎉
-scene: Dávid 몰래 이름의 날 파티를 준비한다. 초대 글에서 낱말 하나를 빠뜨렸다
+title: 새벽 3시의 삑 소리
+emoji: 🔋
+scene: 며칠째 새벽마다 어디선가 「삑」 소리가 난다. Dávid 와 둘이 범인을 찾다가 아래층에 물어본다
 b: Dávid
-c: Másik Dávid
-d: Marika néni
+c: Marika néni
 register: mixed
-twist: 9 chaos
+twist: 14 reveal
 purpose: study_abroad
-goal: 목적격과 소유 표현(minden Dávidot / Dávid minden barátját) 구별
-expressions: Persze; ugye; Úristen; Figyelj; Jaj
-A | Marika néni, tetszik jönni este? Meglepetésbulit csinálok Dávid névnapjára. | 아주머니, 오늘 저녁에 오실래요? 다비드 이름의 날에 깜짝 파티 해요. | tetszik jönni? = 오시겠어요?(어르신께) | emotion=polite+excited
-D | Persze, hozok levest. Hányan lesztek? | 그럼, 국 가져갈게. 몇 명이나 되니? | hányan? = 몇 명이서? | emotion=gentle
-A | Talán tízen. Kiírtam a netre: „Várunk minden Dávidot”, ugye jó? | 열 명쯤요. 인터넷에 「모든 다비드를 기다립니다」라고 썼어요, 괜찮죠? | kiírtam = 올렸다 | emotion=cheerful
-D | Minden Dávidot? Nem „Dávid minden barátját”? | 모든 다비드를? 「다비드의 모든 친구를」이 아니고? | barátját = 그의 친구를 | emotion=worried
-A | Jaj... az nem ugyanaz? | 아이고… 그거 같은 말 아니에요? | ugyanaz = 같은 것 | emotion=flustered
-C | Szia, Dávid vagyok. Itt van a buli? | 안녕, 나 다비드야. 파티 여기야? | buli = 파티 | emotion=cheerful
-A | Szia! Te Dávid barátja vagy? | 안녕! 너 다비드 친구야? | barátja = 그의 친구 | emotion=cheerful
-C | Nem, én csak egy másik Dávid vagyok. Lent jön még harminc. | 아니, 난 그냥 다른 다비드야. 아래에 서른 명 더 와. | másik = 다른 | emotion=neutral
-A | Harminc?! Marika néni, harminc Dávid jön fel a lépcsőn! | 서른?! 아주머니, 다비드 서른 명이 계단으로 올라와요! | jön fel = 올라온다 | emotion=surprised+flustered
-D | Mondtam. Megyek, főzök még levest. | 내가 말했지. 가서 국 더 끓일게. | mondtam = 내가 말했다 | emotion=tsukkomi+gentle
-B | Megjöttem! Ki ez a sok ember a lakásomban? | 나 왔어! 내 집에 이 많은 사람들 누구야? | lakásomban = 내 집 안에 | emotion=cheerful+surprised
-A | Boldog névnapot! Ők mind Dávidok. | 이름의 날 축하해! 이 사람들 다 다비드야. | ők mind = 그들 모두 | emotion=excited+flustered
-B | Mind?! Negyven Dávid van a konyhámban, és egyiket sem ismerem! | 다?! 우리 부엌에 다비드가 마흔 명인데 한 명도 몰라! | egyiket sem = 하나도 ~않다 | emotion=surprised+annoyed
-C | Figyelj, egy rendőr van a lépcsőn. Panasz jött a zaj miatt. | 야, 계단에 경찰 왔어. 시끄럽다고 신고 들어왔대. | panasz = 민원 | emotion=worried
-A | Úristen! Mit akar? | 세상에! 뭐래? | mit akar? = 뭘 원해? | emotion=flustered
-C | Azt mondja, ő is Dávid. És hol a leves? | 자기도 다비드래. 그리고 국 어디 있냐는데? | azt mondja = 그렇게 말한다 | emotion=amused
+goal: 소리·원인 말하기(Hallod? · Honnan jön?) · 추측(Lehet, hogy …)
+expressions: Hallod; Honnan jön; Lehet, hogy
+A | Dávid, ébren vagy? Hallod ezt? | 다비드, 깨 있어? 이거 들려? | ébren = 깨어 있는 | emotion=worried
+B | Mit? Hajnali három van. | 뭘? 새벽 3시야. | hajnal = 새벽 | emotion=annoyed
+A | Ezt a csipogást. Minden éjjel hallom. | 이 삑삑 소리. 매일 밤 들려. | csipogás = 삑삑 소리 | emotion=worried
+B | Ja, tényleg. Honnan jön? | 아, 진짜네. 어디서 나는 거지? | honnan = 어디에서 | emotion=surprised
+A | Szerintem a falon túlról. Lehet, hogy a szomszéd órája. | 내 생각엔 벽 너머야. 옆집 시계일 수도 있어. | lehet, hogy = ~일 수도 있다 | emotion=neutral+worried
+B | Vagy Marika néni mosógépe. Holnap megkérdezzük. | 아니면 마리카 아주머니네 세탁기. 내일 물어보자. | megkérdezzük = 우리가 물어본다 | emotion=neutral
+A | Csókolom, Marika néni! Éjjel hallja a csipogást? | 안녕하세요, 아주머니! 밤에 삑 소리 들리세요? | hallja = 들리세요(Ön, 정활용) | emotion=polite
+C | Csipogást? Nem, én jól alszom. | 삑 소리요? 아니요, 난 잘 자요. | jól alszom = 잘 잔다 | emotion=surprised+gentle
+B | Pedig a mi falunk közös a magáéval. | 그래도 우리 벽이 아주머니 댁 벽이랑 붙어 있는데요. | a magáé = 당신의 것 | emotion=neutral
+C | Nálam semmi nem csipog. És a maguk füstjelzője? | 우리 집엔 삑 소리 나는 게 없어요. 그 집 화재경보기는요? | füstjelző = 화재경보기 | emotion=neutral
+A | Füstjelző? Nálunk van ilyen? | 화재경보기요? 우리 집에 그런 게 있어요? | ilyen = 이런 것 | emotion=surprised
+C | Persze, az előszobában. Ha lemerül az elem, csipog. | 그럼요, 현관에요. 건전지가 닳으면 삑삑대요. | elem = 건전지 | emotion=gentle
+B | Úristen. Az a kis fehér izé a plafonon? | 세상에. 천장에 있는 그 하얀 거? | izé = 그거(이름이 안 떠오를 때) | emotion=surprised
+C | Az. Már három hete szóltam magának, Dávid. | 그거요. 다비드, 3주 전에 벌써 말했잖아요. | szóltam = 알려 줬다 | emotion=amused
+A | Dávid! Három hete? | 다비드! 3주 전에? | három hete = 3주 전에 | emotion=tsukkomi

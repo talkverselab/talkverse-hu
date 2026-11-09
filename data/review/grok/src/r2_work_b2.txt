@@ -1,24 +1,24 @@
 === r2_work_b2
 kind: long
-title: 빨간 버튼
-emoji: 🔴
-scene: 카페 첫 출근. Bence 가 규칙은 딱 하나라고 한다. 규칙이 하나면 지키기 쉬울 텐데
+title: 첫 출근, 첫 손님
+emoji: ☕
+scene: 카페 첫 출근. Bence 가 계산대와 주문 받는 말을 가르쳐 주고, 곧 단골 할머니가 들어온다
 b: Bence
 c: Néni
 register: mixed
-twist: 7 chaos
+twist: 8 slip
 purpose: work_hungary
-goal: 금지하는 말(ne + 명령형)과 과거형으로 일 따지기
-expressions: Na; Jól van; Nem tudom; Úristen; Elnézést
-B | Na, első nap! Ma csak egy szabály van. | 자, 첫날! 오늘 규칙은 딱 하나야. | szabály = 규칙 | emotion=cheerful
-A | Jól van. Mi az? | 알았어. 뭔데? | jól van = 알았어, 좋아 | emotion=neutral
-B | A piros gombot ne nyomd meg. | 빨간 버튼은 누르지 마. | ne nyomd meg = 누르지 마(정활용 명령) | emotion=stiff
-A | Miért? Mit csinál? | 왜? 그거 뭐 하는 건데? | mit csinál? = 뭘 하는데? | emotion=neutral
-B | Nem tudom. Nekem is ezt mondták. | 몰라. 나도 그렇게 들었어. | mondták = 그들이 말했다 | emotion=amused
-C | Jó napot! Egy teát kérek. | 안녕하세요! 차 한 잔 주세요. | teát = 차를(-t 목적격) | emotion=polite
-A | Bence, egy kérdés. A kávégép miért nem áll le? | 벤체, 질문 하나. 커피 머신이 왜 안 멈춰? | nem áll le = 안 멈춘다 | emotion=neutral+worried
-B | Mit nyomtál meg? | 뭐 눌렀어? | nyomtál = 네가 눌렀다 | emotion=worried
-A | A pirosat. Kíváncsi voltam. | 빨간 거. 궁금했어. | kíváncsi = 궁금한 | emotion=shy
-B | Úristen! Hozz még csészéket, gyorsan! | 세상에! 컵 더 가져와, 빨리! | hozz = 가져와 | emotion=shout
-A | Már harminc csésze tele van, és a padlón is folyik! | 벌써 서른 잔이 찼고, 바닥에도 흘러! | folyik = 흐른다 | emotion=flustered
-C | Elnézést... én teát kértem. | 저기요… 저는 차를 시켰는데요. | kértem = 내가 주문했다 | emotion=polite
+goal: 주문 받는 말(Mit adhatok? · elvitelre)과 adhatok / adhat 구분
+expressions: Na; Jól van; Jaj; Hát
+B | Na, első nap! Először megmutatom a kasszát. | 자, 첫날! 먼저 계산대부터 보여 줄게. | kassza = 계산대 | emotion=cheerful
+A | Oké. Mit mondok a vendégnek? | 오케이. 손님한테 뭐라고 해? | vendég = 손님 | emotion=worried
+B | Csak annyit: Jó napot, mit adhatok? | 이것만: 안녕하세요, 뭘 드릴까요? | mit adhatok? = 뭘 드릴까요? | emotion=gentle
+A | Mit adhatok. Jó, megjegyeztem. | 뭘 드릴까요. 좋아, 외웠어. | megjegyeztem = 기억해 뒀다 | emotion=cheerful
+B | Ha elvitelre kérik, papírpohár. Itt van alul. | 포장해 달라고 하면 종이컵. 아래에 있어. | elvitelre = 포장으로 | emotion=gentle
+A | Jól van. Jaj, jön valaki! | 알았어. 아이고, 누가 온다! | jön = 온다 | emotion=neutral+flustered
+C | Jó napot kívánok! | 안녕하세요! | jó napot kívánok = 안녕하세요(정중) | emotion=cheerful
+A | Jó napot! Mit adhat? | 안녕하세요! 뭘 주실 수 있어요? | adhat = (당신이) 줄 수 있다 | emotion=flustered
+C | Én? Hát, egy mosolyt adhatok, kedvesem. | 내가요? 글쎄, 미소 하나 줄 수 있지, 얘야. | kedvesem = 얘야, 자기 | emotion=surprised+amused
+B | Mit adhatok, nem mit adhat! | 「뭘 드릴까요」지, 「뭘 주실래요」가 아니라! | nem = ~가 아니라 | emotion=tsukkomi
+A | Bocsánat! Mit adhatok? | 죄송해요! 뭘 드릴까요? | bocsánat = 죄송합니다 | emotion=flustered+polite
+C | Egy hosszú kávét kérek. A mosoly ingyen volt. | 롱 커피 하나요. 미소는 공짜였어요. | hosszú kávé = 롱 커피(물 탄 에스프레소) | emotion=teasing

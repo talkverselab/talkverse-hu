@@ -11,77 +11,279 @@
  "domain": [
   "study"
  ],
- "title": "언너의 공책",
- "emoji": "📓",
- "scene": "시험 전날 도서관. 항상 뭔가 쓰고 있던 Anna 의 공책을 빌리려고 한다",
+ "title": "도서관 옆자리",
+ "emoji": "📚",
+ "scene": "시험 기간의 대학 도서관. Anna 가 옆자리가 비었냐고 묻고, 서로 문제를 내 주기로 한다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
  },
  "register": "casual",
- "twist": 10,
+ "twist": 11,
  "twist_type": "emotion",
  "flags": [
   "romance"
  ],
- "goal": "빌려 달라는 말(kölcsönadod?)과 -lak/-alak 어미",
+ "goal": "자리 묻기(Szabad ez a hely?)와 공부 도와주기(Segítsek?)",
  "expressions": [
-  "Hát",
-  "Ne már",
-  "Igazából",
-  "Mindegy",
-  "Légyszi",
-  "Jól van",
-  "Tudod"
+  "Bocsi",
+  "Tessék",
+  "Durva",
+  "Látod"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Anna, kölcsönadod a füzeted? Holnap vizsga.",
-   "rd": "언너, 쾰최너도드 어 퓌제테드? 홀너프 비지거.",
-   "ko": "언너, 공책 빌려줄래? 내일 시험이야.",
-   "note": "kölcsönad = 빌려주다",
-   "tags": [],
-   "emotion": "worried",
+   "speaker": "B",
+   "hu": "Bocsi, szabad ez a hely?",
+   "rd": "보치, 써버드 에즈 어 헤이?",
+   "ko": "저기, 이 자리 비었어?",
+   "note": "szabad = 비어 있는",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "emotion": "shy",
    "lemmas": [
     [
-     "Anna",
-     "anna",
-     ""
+     "Bocsi",
+     "bocsi",
+     "보치"
     ],
     [
-     "kölcsönadod",
-     "kölcsönad",
-     ""
+     "szabad",
+     "szabad",
+     "써버드"
     ],
     [
-     "füzeted",
-     "füzeted",
-     ""
-    ],
-    [
-     "vizsga",
-     "vizsga",
-     ""
+     "hely",
+     "hely",
+     "헤이"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "A füzetem? Hát, nem tudom.",
-   "rd": "어 퓌제템? 하트, 넴 투돔.",
-   "ko": "내 공책? 음, 글쎄.",
-   "note": "füzet = 공책",
+   "speaker": "A",
+   "hu": "Igen, szabad. Tessék.",
+   "rd": "이겐, 써버드. 테쎅.",
+   "ko": "응, 비었어. 앉아.",
+   "note": "tessék = 자, 여기(권할 때)",
    "tags": [
-    "expr:Hát"
+    "expr:Tessék"
    ],
-   "emotion": "shy",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "füzetem",
-     "füzetem",
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "szabad",
+     "szabad",
+     "써버드"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Köszi. Te is vizsgára tanulsz?",
+   "rd": "쾨씨. 테 이시 비지가러 터눌쓰?",
+   "ko": "고마워. 너도 시험공부해?",
+   "note": "vizsgára = 시험을 위해",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Köszi",
+     "köszi",
+     "쾨씨"
+    ],
+    [
+     "vizsgára",
+     "vizsga",
+     ""
+    ],
+    [
+     "tanulsz",
+     "tanul",
+     "타눌"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Igen, holnap lesz a történelemvizsgám. Te?",
+   "rd": "이겐, 홀너프 레쓰 어 퇴르테넬렘비지감. 테?",
+   "ko": "응, 내일 역사 시험이야. 너는?",
+   "note": "történelem = 역사",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "történelemvizsgám",
+     "történelemvizsgám",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Művészettörténet. Háromszáz kép, és mindet tudni kell.",
+   "rd": "뮈베쎄뙤르테네트. 하롬싸즈 케프, 에시 민데트 투드니 켈.",
+   "ko": "미술사. 그림 300장인데 다 알아야 해.",
+   "note": "mindet = 전부를",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Művészettörténet",
+     "művészettörténet",
+     ""
+    ],
+    [
+     "kép",
+     "kép",
+     "켑"
+    ],
+    [
+     "tudni",
+     "tud",
+     "투드"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Durva. Segítsek kikérdezni?",
+   "rd": "두르버. 세기트섹 키케르데즈니?",
+   "ko": "장난 아니다. 문제 내 줄까?",
+   "note": "kikérdez = 물어보며 점검하다",
+   "tags": [
+    "expr:Durva"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Durva",
+     "durva",
+     "두르버"
+    ],
+    [
+     "kikérdezni",
+     "kikérdez",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Az jó lenne! De csak halkan.",
+   "rd": "어즈 요 렌네! 데 척 헐컨.",
+   "ko": "그럼 좋겠다! 근데 조용히.",
+   "note": "halkan = 조용히",
+   "tags": [],
+   "emotion": "excited",
+   "segs": [
+    [
+     "excited",
+     "Az jó lenne!"
+    ],
+    [
+     "shy",
+     "De csak halkan."
+    ]
+   ],
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "lenne",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "halkan",
+     "halk",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Ez a kép melyik században készült?",
+   "rd": "에즈 어 케프 메익 싸저드번 케쓀트?",
+   "ko": "이 그림은 몇 세기에 그려졌어?",
+   "note": "század = 세기",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "kép",
+     "kép",
+     "켑"
+    ],
+    [
+     "században",
+     "század",
+     ""
+    ],
+    [
+     "készült",
+     "készül",
+     "케쓸"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "A tizenkilencedikben. Látod, ezt tudom.",
+   "rd": "어 티젠킬렌체딕벤. 라토드, 에즈트 투돔.",
+   "ko": "19세기. 봐, 이건 알아.",
+   "note": "látod = 봐, 거 봐",
+   "tags": [
+    "expr:Látod"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "tizenkilencedikben",
+     "tizenkilencedik",
      ""
     ],
     [
@@ -92,280 +294,61 @@
    ]
   },
   {
-   "num": 3,
+   "num": 10,
    "speaker": "A",
-   "hu": "Ne már! Te mindig írsz az órán.",
-   "rd": "네 마르! 테 민딕 이르쓰 어즈 오란.",
-   "ko": "에이! 너 수업 때 맨날 쓰잖아.",
-   "note": "az órán = 수업 시간에",
-   "tags": [
-    "expr:Ne már"
-   ],
-   "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "mindig",
-     "mindig",
-     "민딕"
-    ],
-    [
-     "írsz",
-     "ír",
-     "이르"
-    ],
-    [
-     "órán",
-     "óra",
-     "오러"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Igazából nem írok. Rajzolok.",
-   "rd": "이거자볼 넴 이록. 러이졸록.",
-   "ko": "사실 쓰는 게 아니라 그려.",
-   "note": "rajzolok = 내가 그린다",
-   "tags": [
-    "expr:Igazából"
-   ],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "Igazából",
-     "igaz",
-     "이거즈"
-    ],
-    [
-     "írok",
-     "ír",
-     "이르"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Mindegy, add ide. Légyszi!",
-   "rd": "민데지, 어드 이데. 레지씨!",
-   "ko": "상관없어, 줘 봐. 제발!",
-   "note": "add ide = 이리 줘",
-   "tags": [
-    "expr:Mindegy",
-    "expr:Légyszi"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Mindegy",
-     "mindegy",
-     "민데지"
-    ],
-    [
-     "add",
-     "ad",
-     "어드"
-    ],
-    [
-     "ide",
-     "ide",
-     "이데"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Jól van. De ne nézd sokáig.",
-   "rd": "욜 번. 데 네 네즈드 쇼카익.",
-   "ko": "알았어. 근데 오래 보지 마.",
-   "note": "ne nézd = 보지 마",
-   "tags": [
-    "expr:Jól van"
-   ],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "Jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "nézd",
-     "néz",
-     "네즈"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Nézzük, ez az első óra. Ki ez?",
-   "rd": "네쥑, 에즈 어즈 엘쇠 오러. 키 에즈?",
-   "ko": "어디 보자, 첫 수업이네. 이거 누구야?",
-   "note": "nézzük = 보자",
-   "tags": [],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Nézzük, ez az első óra."
-    ],
-    [
-     "surprised",
-     "Ki ez?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Nézzük",
-     "néz",
-     "네즈"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Hát... te.",
-   "rd": "하트... 테.",
-   "ko": "음… 너.",
-   "note": "te = 너",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Itt is én? Itt alszom!",
-   "rd": "이트 이시 엔? 이트 얼쏨!",
-   "ko": "여기도 나야? 여기선 자고 있네!",
-   "note": "alszom = 내가 잔다",
+   "hu": "Szuper. És ez a rajz a füzeted hátulján?",
+   "rd": "쑤페르. 에시 에즈 어 러이즈 어 퓌제테드 하툴얀?",
+   "ko": "좋아. 그럼 네 공책 뒤에 있는 이 그림은?",
+   "note": "rajz = 소묘, 그림",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Itt",
-     "itt",
-     "이트"
+     "Szuper",
+     "szuper",
+     "쑤페르"
     ],
     [
-     "alszom",
-     "alszik",
-     "얼루시크"
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Szépen alszol. Tudod, egész félévben csak téged rajzoltalak.",
-   "rd": "쎄펜 얼쏠. 투도드, 에게쓰 펠레브벤 척 테게드 러이졸털럭.",
-   "ko": "예쁘게 자더라. 있지, 한 학기 내내 너만 그렸어.",
-   "note": "rajzoltalak = 내가 너를 그렸다(-alak)",
-   "tags": [
-    "expr:Tudod"
-   ],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Szépen alszol."
-    ],
-    [
-     "shy",
-     "Tudod, egész félévben csak téged rajzoltalak."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Szépen",
-     "szép",
-     "쎕"
-    ],
-    [
-     "alszol",
-     "alszik",
-     "얼루시크"
-    ],
-    [
-     "egész",
-     "egész",
-     "에게쓰"
-    ],
-    [
-     "félévben",
-     "félév",
+     "rajz",
+     "rajz",
      ""
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "füzeted",
+     "füzeted",
+     ""
     ],
     [
-     "rajzoltalak",
-     "rajzol",
+     "hátulján",
+     "hátulja",
      ""
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "És holnap a vizsga?",
-   "rd": "에시 홀너프 어 비지거?",
-   "ko": "그럼 내일 시험은?",
-   "note": "vizsga = 시험",
+   "speaker": "B",
+   "hu": "Az a huszonegyedik század. Ma rajzoltalak le.",
+   "rd": "어즈 어 후쏘네제딕 싸저드. 머 러이졸털럭 레.",
+   "ko": "그건 21세기. 오늘 너 그렸어.",
+   "note": "lerajzoltalak = 너를 그렸다(-lak)",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "shy",
    "lemmas": [
     [
-     "holnap",
-     "holnap",
-     "홀넙"
+     "huszonegyedik",
+     "huszonegyedik",
+     ""
     ],
     [
-     "vizsga",
-     "vizsga",
+     "rajzoltalak",
+     "rajzol",
      ""
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "B",
-   "hu": "Megbukom. Megéri.",
-   "rd": "멕부콤. 메게리.",
-   "ko": "떨어지겠지. 그래도 괜찮아.",
-   "note": "megéri = 그럴 만하다",
-   "tags": [],
-   "emotion": "gentle",
-   "lemmas": [
+    ],
     [
-     "Megbukom",
-     "megbukom",
-     ""
+     "le",
+     "le",
+     "레"
     ]
    ]
   }

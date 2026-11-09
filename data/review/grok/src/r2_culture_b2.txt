@@ -1,23 +1,23 @@
 === r2_culture_b2
 kind: long
-title: 우리 마을 춤
+title: 구경만 하려고 했는데
 emoji: 💃
-scene: Réka 가 끌고 간 민속춤 모임(táncház). 왼발과 오른발이 헷갈리기 시작한다
+scene: Réka 가 민속춤 모임(táncház)에 가자고 한다. 구경만 할 생각이었다
 b: Réka
 c: Tánctanár
 register: casual
 twist: 10 chaos
 purpose: media making_friends
-goal: 방향 말(balra, jobbra)과 ne + 명령형
-expressions: Gyere; Komolyan?; bocsi; nem baj; Szóval
-B | Gyere, ma táncház van. Nem nehéz, csak figyelj a lábamra. | 와, 오늘 민속춤 모임이야. 안 어려워, 내 발만 봐. | táncház = 민속춤 모임 | emotion=cheerful
-A | Komolyan? Nekem két bal lábam van. | 진짜? 나 왼발만 두 개야. | két bal lába van = 몸치다 | emotion=worried
-C | Balra, jobbra, balra, ugrás! Egyszerű, ugye? | 왼쪽, 오른쪽, 왼쪽, 점프! 쉽지? | balra = 왼쪽으로, jobbra = 오른쪽으로 | emotion=cheerful
-A | Jaj, bocsi! Ez a te lábad volt? | 앗, 미안! 이거 네 발이었어? | bocsi = 미안 | emotion=flustered
-B | Igen, de nem baj. Csak ne ugorj többet! | 응, 괜찮아. 더 뛰지만 마! | ne ugorj = 뛰지 마 | emotion=gentle+annoyed
-A | Elfelejtettem, melyik a bal. Forgok, és nem tudok megállni! | 어느 쪽이 왼쪽인지 까먹었어. 돌고 있는데 못 멈추겠어! | forog = 돌다 | emotion=flustered
-B | Várj, mi van? Nézd, a többiek is forognak! | 잠깐, 뭐야? 봐, 다른 사람들도 돌아! | a többiek = 나머지 사람들 | emotion=surprised
-C | Mi ez a lépés? Melyik faluból hoztad? | 이 스텝 뭐야? 어느 마을에서 가져왔어? | lépés = 스텝, 걸음 | emotion=surprised
-A | Izé... ez a mi falunk tánca. | 어… 저희 마을 춤이에요. | izé = 어…(말 막힐 때) | emotion=flustered
-C | Hallottátok? Mától ez a neve: {name} tánca! | 들었지? 오늘부터 이름은 {name} 춤이다! | mától = 오늘부터 | emotion=excited
-B | Szóval jövő héten te tanítod. Százan jönnek. | 그러니까 다음 주엔 네가 가르쳐. 백 명 온대. | százan = 백 명이서 | emotion=teasing
+goal: 거절하기·설득당하기와 방향 말(jobbra · balra)
+expressions: Jaj; Semmi baj; Hát
+B | Ma este táncház van. Eljössz? | 오늘 저녁 민속춤 모임 있어. 올래? | táncház = 민속춤 모임 | emotion=excited
+A | Táncház? Én nem tudok táncolni. | 민속춤? 나 춤 못 춰. | nem tudok = 못 한다 | emotion=worried
+B | Senki sem tud. Azért megyünk, hogy tanuljunk. | 아무도 못 춰. 배우려고 가는 거야. | azért … hogy = ~하려고 | emotion=gentle
+A | Jó, de csak nézni megyek. | 좋아, 근데 구경만 하러 가는 거야. | csak nézni = 보기만 | emotion=stiff
+C | Sziasztok! Álljatok körbe! | 안녕, 여러분! 둥글게 서세요! | körbe = 둥글게 | emotion=cheerful
+A | Réka, én csak nézni jöttem! | 레카, 나 구경만 하러 왔다니까! | jöttem = 왔다 | emotion=flustered
+B | Késő. Fogd meg a kezem! | 늦었어. 내 손 잡아! | fogd meg = 잡아 | emotion=teasing
+C | Most két lépés jobbra, egy balra! | 이제 오른쪽으로 두 걸음, 왼쪽으로 한 걸음! | jobbra = 오른쪽으로 | emotion=cheerful
+A | Jobbra, balra... Jaj, bocsánat! | 오른쪽, 왼쪽… 아, 죄송해요! | bocsánat = 죄송해요 | emotion=flustered
+C | Semmi baj! Gyere középre, mutassuk meg együtt! | 괜찮아요! 가운데로 나와요, 같이 시범 보여 줘요! | mutassuk meg = 보여 주자 | emotion=cheerful
+A | Hát... én tényleg csak nézni jöttem. | 음… 나 정말 구경만 하러 왔는데. | tényleg = 정말 | emotion=flustered

@@ -8,24 +8,24 @@
 "1": {
 "segs": [
 [
-"stiff",
-"Jó napot, üljön le, kérem. Anna sokat mesélt magáról."
+"polite",
+"Jó napot! Jöjjön be, érezze magát otthon."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Csókolom! Remélem, nem csak rosszat mesélt."
+"stiff",
+"Csókolom! Köszönöm a meghívást, hoztam egy kis virágot."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"gentle",
-"Figyelj, ne izgulj. Anyukám nem harap, csak minden kérdést kétszer tesz fel."
+"cheerful",
+"Jaj, de szép! Anna, tedd vízbe, légyszi."
 ]
 ]
 },
@@ -33,59 +33,55 @@
 "segs": [
 [
 "teasing",
-"Szóval maga az a híres krumpli?"
+"Persze. Ne izgulj, anyukám nem harap."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"shy",
-"Igen, sajnos én vagyok az."
-],
-[
-"polite",
-"Nagyon finom az illat, ez mi?"
+"cheerful",
+"Üljön le, kérem. Remélem, éhes, mert sokat főztem."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"polite",
-"Lángos, a férjem anyjának a receptje. Kóstolja meg, de vigyázzon, forró."
+"excited",
+"Nagyon, és milyen finom illat! Ez gulyás?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"excited",
-"Hű, ez fantasztikus! Még soha nem ettem ilyen jót."
+"gentle",
+"Igen, a nagymamám receptje. Kóstolja meg, de vigyázzon, forró."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"stiff",
-"Tényleg ízlik? Anna szerint a vendégek inkább a rétest szeretik."
+"excited",
+"Hű, ez nagyon finom! Még soha nem ettem ilyen jót."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"excited",
-"Nem, nem, őszintén mondom: nagyon szeretem a lányát!"
+"cheerful",
+"Örülök. Kér még egy tányérral?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"surprised",
-"{name}, te most mit mondtál?"
+"polite",
+"Nem, köszönöm, jól vagyok."
 ]
 ]
 },
@@ -93,48 +89,51 @@
 "segs": [
 [
 "amused",
-"Hát, ez gyors volt. Ebéd előtt még senki nem mondta ezt."
+"Annak örülök. De kér még levest, vagy nem?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"flustered",
-"Jaj, nem, a lángosát! A lányát, izé, nem úgy értettem."
+"amused",
+"Anya, azt akarta mondani, hogy jóllakott."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"teasing",
-"Aha, szóval a lányomat nem szereti? Anna, hallod ezt?"
+"flustered",
+"Igen, jóllaktam! Bocsánat, ez a két szó még összekeveredik."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"teasing",
-"Hallom, anya. Kíváncsi vagyok, mit felel."
+"gentle",
+"Semmi baj. Tudod mit, tegeződjünk, Éva vagyok."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"shy",
-"Hát... a lángost is szeretem.",
-"Hát, a lángost is szeretem."
+"flustered",
+"Rendben, Éva! Akkor kér, izé, kérsz egy kis kenyeret?"
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"cheerful",
-"Na jó, tegeződjünk! Éva vagyok, és még van lángos."
+"amused",
+"Látod, anya?"
+],
+[
+"teasing",
+"Két perc, és már ő kínál minket a saját asztalunknál."
 ]
 ]
 }

@@ -1,21 +1,20 @@
 === r1_culture_a5
 kind: short
-title: 맥주잔은 부딪치지 마
-emoji: 🍻
-scene: 동네 술집에서 첫 건배. 맥주잔을 부딪치려는 순간 온 술집이 쳐다본다
+title: 추천 메뉴
+emoji: 🍲
+scene: Réka 와 헝가리 식당에 처음 왔다. 종업원에게 추천을 부탁한다
 b: Réka
 c: Pincér
 register: mixed
-twist: 7 chaos
-flags: alcohol
+twist: 7 slip
 purpose: media making_friends
-goal: 건배사 egészségedre 와 헝가리의 맥주 건배 풍습
-expressions: Na; Ne már; Nézd; Semmi baj
-B | Na, egészségedre! | 자, 건배! | egészségedre = 네 건강을 위해(건배) | emotion=cheerful
-A | Egészségedre! Gyere, koccintsunk! | 건배! 자, 잔 부딪치자! | koccintsunk = 잔을 부딪치자 | emotion=excited
-B | Ne már! Sörrel nem koccintunk! | 아 좀! 맥주로는 안 부딪쳐! | sörrel = 맥주로 | emotion=shout
-A | Miért nem? Mi van? | 왜 안 돼? 뭐야? | miért = 왜 | emotion=flustered
-B | Régi szokás. Nézd, mindenki minket néz. | 옛날 풍습이야. 봐, 다들 우리 쳐다봐. | szokás = 풍습 | emotion=neutral+worried
-A | Jaj, bocsánat! Most mit csináljak? | 아이고, 죄송해요! 이제 어떡하죠? | mit csináljak? = 어떡하지? | emotion=flustered
-C | Semmi baj! Mindenkinek egy pálinka, és ön fizet. | 괜찮아요! 다들 팔린카 한 잔씩, 손님이 내시고요. | mindenkinek = 모두에게 | emotion=polite+teasing
-A | Mindenkinek? Hány ember van itt? | 모두요? 여기 몇 명이나 있는데요? | hány = 몇 | emotion=surprised
+goal: 식당에서 추천받기(Mit ajánl? · … kérek)
+expressions: Mit ajánl; Nem baj; Hű
+C | Jó estét! Mit hozhatok? | 안녕하세요! 뭘 가져다드릴까요? | Mit hozhatok? = 뭘 드릴까요? | emotion=polite
+A | Mit ajánl? Először vagyok itt. | 뭘 추천하세요? 여기 처음이에요. | Mit ajánl? = 뭘 추천하세요? | emotion=polite
+C | A halászlé nagyon finom. | 생선 수프가 아주 맛있어요. | halászlé = 헝가리식 생선 수프 | emotion=cheerful
+B | Igen, de csípős. Vigyázz! | 응, 근데 매워. 조심해! | csípős = 매운 | emotion=worried
+A | Nem baj, szeretem a csípőset. | 괜찮아, 매운 거 좋아해. | nem baj = 괜찮아 | emotion=cheerful
+C | Tessék, a halászlé. Jó étvágyat! | 여기 생선 수프 나왔습니다. 맛있게 드세요! | Jó étvágyat! = 맛있게 드세요 | emotion=polite
+A | Hű... Egy pohár vizet kérek! | 와… 물 한 잔 주세요! | egy pohár víz = 물 한 잔 | emotion=surprised+shout
+B | Na, szereted a csípőset? | 자, 매운 거 좋아한다며? | na = 자, 거 봐 | emotion=teasing

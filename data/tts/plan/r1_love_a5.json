@@ -7,53 +7,49 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Mondd még egyszer a neved!"
+"excited",
+"Szia, Anna! Csukd be a szemed!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"{name}. Miért?"
+"cheerful",
+"Mi az? Na, becsuktam."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"gentle",
-"{name}...",
-"{name}"
-],
-[
-"flustered",
-"Jaj, nem jó."
+"excited",
+"Boldog születésnapot! Ez a tiéd."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"gentle",
-"De, jó. Nagyon jól mondod."
+"surprised",
+"Hű, torta! Nagyon kedves vagy."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"shy",
-"Hát, álmomban jobban ment."
+"cheerful",
+"Réka mondta, hogy ma van."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Álmodban? Milyen álmodban?"
+"amused",
+"Hát... igazából holnap van.",
+"Hát, igazából holnap van."
 ]
 ]
 },
@@ -61,19 +57,15 @@
 "segs": [
 [
 "flustered",
-"Jaj, semmi! Mennem kell!"
+"Jaj, ne már! Akkor holnap hozok egy másikat."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"Várj!"
-],
-[
-"teasing",
-"Mit csináltam az álmodban?"
+"shy",
+"Torta nem kell. Holnap is gyere, az elég."
 ]
 ]
 }

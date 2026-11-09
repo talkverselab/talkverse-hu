@@ -8,16 +8,15 @@
 "segs": [
 [
 "cheerful",
-"Szia! Tegnap a vonaton melletted ültem. 😊",
-"Szia! Tegnap a vonaton melletted ültem."
+"Szia! Megérkeztél Pécsre?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Tényleg? Ki vagy?"
+"cheerful",
+"Igen! Hol egyek valamit?"
 ]
 ]
 },
@@ -25,52 +24,58 @@
 "segs": [
 [
 "gentle",
-"Zsófi. Aki az ablaknál ült."
+"A főtéren van egy jó étterem."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Ó, igen!"
-],
-[
-"cheerful",
-"Hogy találtál meg?"
+"neutral",
+"Mi a neve?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"gentle",
-"A sálad nálam van."
+"amused",
+"Nem tudom. Kék az ajtaja. 😅",
+"Nem tudom. Kék az ajtaja."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Jaj, köszi! Hol kapom vissza?"
+"amused",
+"Itt három kék ajtó van. 😂",
+"Itt három kék ajtó van."
 ]
 ]
 },
 "7": {
 "segs": [
 [
+"gentle",
+"Jó, holnap megmutatom."
+],
+[
 "shy",
-"Nem hagytad ott. Én vettem el."
+"Én is Pécsen vagyok."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Holnap ráérsz? 😇",
-"Holnap ráérsz?"
+"surprised",
+"Tényleg?"
+],
+[
+"shy",
+"Akkor holnap? 😊",
+"Akkor holnap?"
 ]
 ]
 }

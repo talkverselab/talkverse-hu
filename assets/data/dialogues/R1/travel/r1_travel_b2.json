@@ -10,34 +10,33 @@
  "domain": [
   "travel"
  ],
- "title": "웨이터 하나 주세요",
+ "title": "네, 네, 네",
  "emoji": "🍲",
- "scene": "식당. 메뉴에서 외운 말을 자신 있게 말했는데 웨이터 표정이 이상하다",
+ "scene": "식당에서 굴라시를 주문한다. 직원 말이 빨라서 다 「네」라고 답한다",
  "speakers": {
   "A": "{name}",
   "B": "Pincér"
  },
  "register": "polite",
- "twist": 7,
- "twist_type": "slip",
+ "twist": 8,
+ "twist_type": "chaos",
  "flags": [],
- "goal": "식당 주문(… kérek)과 비슷한 낱말 구별",
+ "goal": "식당에서 주문하기(Mit hozhatok? · kérek)",
  "expressions": [
-  "Mit hozhatok?",
-  "ugye",
-  "Hát",
-  "Jaj"
+  "kérek",
+  "Jaj",
+  "Mit hozhatok"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó estét! Mit hozhatok?",
-   "rd": "요 에슈테트! 미트 호즈허톡?",
-   "ko": "안녕하세요! 뭘 가져다 드릴까요?",
+   "hu": "Jó napot! Mit hozhatok?",
+   "rd": "요 너포트! 미트 호즈허톡?",
+   "ko": "안녕하세요! 뭘 가져다드릴까요?",
    "note": "hozhatok = 가져올 수 있다",
    "tags": [
-    "expr:Mit hozhatok?"
+    "expr:Mit hozhatok"
    ],
    "emotion": "polite",
    "lemmas": [
@@ -47,9 +46,9 @@
      "요"
     ],
     [
-     "estét",
-     "este",
-     "에슈테"
+     "napot",
+     "nap",
+     "넙"
     ],
     [
      "hozhatok",
@@ -61,112 +60,100 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Egy pincért kérek, nokedlivel és tejföllel.",
-   "rd": "에지 핀체르트 케렉, 노케들리벨 에시 테이푈렐.",
-   "ko": "웨이터 하나 주세요, 노케들리랑 사워크림 곁들여서요.",
-   "note": "tejföl = 사워크림",
-   "tags": [],
-   "emotion": "cheerful",
+   "hu": "Egy gulyáslevest kérek.",
+   "rd": "에지 구야슐레베슈트 케렉.",
+   "ko": "굴라시 수프 주세요.",
+   "note": "gulyásleves = 굴라시 수프",
+   "tags": [
+    "expr:kérek"
+   ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "pincért",
-     "pincér",
+     "gulyáslevest",
+     "gulyásleves",
      ""
     ],
     [
      "kérek",
      "kér",
      "께르"
-    ],
-    [
-     "nokedlivel",
-     "nokedli",
-     ""
-    ],
-    [
-     "tejföllel",
-     "tejföl",
-     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Egy pincért? Nokedlivel?",
-   "rd": "에지 핀체르트? 노케들리벨?",
-   "ko": "웨이터요? 노케들리랑요?",
-   "note": "pincér = 웨이터",
+   "hu": "Nagy adag vagy kicsi? Kenyeret is kér?",
+   "rd": "너지 어덕 버지 키치? 케네레트 이시 케르?",
+   "ko": "큰 거요, 작은 거요? 빵도 드릴까요?",
+   "note": "adag = 1인분",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "polite",
    "lemmas": [
     [
-     "pincért",
-     "pincér",
+     "Nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "adag",
+     "adag",
      ""
+    ],
+    [
+     "kicsi",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "kér",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Igen! Nagyon finom, ugye?",
-   "rd": "이겐! 너죤 피놈, 우제?",
-   "ko": "네! 아주 맛있죠?",
-   "note": "ugye = ~죠?",
-   "tags": [
-    "expr:ugye"
-   ],
-   "emotion": "excited",
+   "hu": "Igen, igen.",
+   "rd": "이겐, 이겐.",
+   "ko": "네, 네.",
+   "note": "igen = 네",
+   "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "Igen",
      "igen",
      "이겐"
-    ],
-    [
-     "finom",
-     "finom",
-     "피놈"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Hát, ezt még senki nem mondta. Pörköltet kér?",
-   "rd": "하트, 에즈트 멕 센키 넴 몬드터. 푀르쾰테트 케르?",
-   "ko": "글쎄요, 그런 말은 처음 듣네요. 푀르쾰트 말씀이세요?",
-   "note": "pörkölt = 파프리카 고기 스튜",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "amused",
-   "segs": [
-    [
-     "amused",
-     "Hát, ezt még senki nem mondta."
-    ],
-    [
-     "polite",
-     "Pörköltet kér?"
-    ]
-   ],
+   "hu": "Nagy adag kenyérrel. Inni is kér valamit?",
+   "rd": "너지 어덕 케네렐. 인니 이시 케르 벌러미트?",
+   "ko": "큰 걸로 빵이랑요. 마실 것도 드릴까요?",
+   "note": "inni = 마시다",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "Nagy",
+     "nagy",
+     "너지"
     ],
     [
-     "még",
-     "még",
-     "메그"
+     "adag",
+     "adag",
+     ""
     ],
     [
-     "mondta",
-     "mond",
-     "몬드"
+     "kenyérrel",
+     "kenyér",
+     ""
     ],
     [
      "kér",
@@ -178,24 +165,58 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Jaj, igen, pörköltet! És mi a pincér?",
-   "rd": "여이, 이겐, 푀르쾰테트! 에시 미 어 핀체르?",
-   "ko": "아이고, 네, 푀르쾰트요! 그럼 웨이터가 뭐예요?",
-   "note": "mi = 무엇",
+   "hu": "Igen, köszönöm.",
+   "rd": "이겐, 쾨쐬뇜.",
+   "ko": "네, 감사합니다.",
+   "note": "köszönöm = 감사합니다",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "És desszertnek egy palacsintát?",
+   "rd": "에시 데쎄르트넥 에지 펄러친타트?",
+   "ko": "그리고 디저트로 팔라친타 하나요?",
+   "note": "desszertnek = 디저트로",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "desszertnek",
+     "desszert",
+     ""
+    ],
+    [
+     "palacsintát",
+     "palacsinta",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj, várjon! Mit rendeltem eddig?",
+   "rd": "여이, 바르욘! 미트 렌델템 에딕?",
+   "ko": "아, 잠깐만요! 저 지금까지 뭘 시켰죠?",
+   "note": "eddig = 지금까지",
    "tags": [
     "expr:Jaj"
    ],
    "emotion": "flustered",
-   "segs": [
-    [
-     "flustered",
-     "Jaj, igen, pörköltet!"
-    ],
-    [
-     "neutral",
-     "És mi a pincér?"
-    ]
-   ],
    "lemmas": [
     [
      "Jaj",
@@ -203,56 +224,19 @@
      "야이"
     ],
     [
-     "igen",
-     "igen",
-     "이겐"
+     "várjon",
+     "vár",
+     "바르"
     ],
     [
-     "pörköltet",
-     "pörkölt",
-     ""
+     "rendeltem",
+     "rendel",
+     "렌델"
     ],
     [
-     "pincér",
-     "pincér",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Én vagyok az. De tejföl nélkül olcsóbb vagyok.",
-   "rd": "엔 버죡 어즈. 데 테이푈 넬퀼 올초브 버죡.",
-   "ko": "저예요. 그래도 사워크림 없으면 더 쌉니다.",
-   "note": "olcsóbb = 더 싼",
-   "tags": [],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Én vagyok az."
-    ],
-    [
-     "teasing",
-     "De tejföl nélkül olcsóbb vagyok."
-    ]
-   ],
-   "lemmas": [
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "tejföl",
-     "tejföl",
-     ""
-    ],
-    [
-     "olcsóbb",
-     "olcsó",
-     ""
+     "eddig",
+     "eddig",
+     "에딕"
     ]
    ]
   }

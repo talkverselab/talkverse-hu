@@ -11,9 +11,9 @@
  "domain": [
   "culture"
  ],
- "title": "맥주잔은 부딪치지 마",
- "emoji": "🍻",
- "scene": "동네 술집에서 첫 건배. 맥주잔을 부딪치려는 순간 온 술집이 쳐다본다",
+ "title": "추천 메뉴",
+ "emoji": "🍲",
+ "scene": "Réka 와 헝가리 식당에 처음 왔다. 종업원에게 추천을 부탁한다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
@@ -21,38 +21,38 @@
  },
  "register": "mixed",
  "twist": 7,
- "twist_type": "chaos",
- "flags": [
-  "alcohol"
- ],
- "goal": "건배사 egészségedre 와 헝가리의 맥주 건배 풍습",
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "식당에서 추천받기(Mit ajánl? · … kérek)",
  "expressions": [
-  "Na",
-  "Ne már",
-  "Nézd",
-  "Semmi baj"
+  "Mit ajánl",
+  "Nem baj",
+  "Hű"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Na, egészségedre!",
-   "rd": "너, 에게쓰세게드레!",
-   "ko": "자, 건배!",
-   "note": "egészségedre = 네 건강을 위해(건배)",
-   "tags": [
-    "expr:Na"
-   ],
-   "emotion": "cheerful",
+   "speaker": "C",
+   "hu": "Jó estét! Mit hozhatok?",
+   "rd": "요 에슈테트! 미트 호즈허톡?",
+   "ko": "안녕하세요! 뭘 가져다드릴까요?",
+   "note": "Mit hozhatok? = 뭘 드릴까요?",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "egészségedre",
-     "egészség",
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "hozhatok",
+     "hozhat",
      ""
     ]
    ]
@@ -60,195 +60,22 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Egészségedre! Gyere, koccintsunk!",
-   "rd": "에게쓰세게드레! 제레, 코찐트슌크!",
-   "ko": "건배! 자, 잔 부딪치자!",
-   "note": "koccintsunk = 잔을 부딪치자",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Egészségedre",
-     "egészség",
-     ""
-    ],
-    [
-     "koccintsunk",
-     "koccint",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Ne már! Sörrel nem koccintunk!",
-   "rd": "네 마르! 쇠렐 넴 코찐툰크!",
-   "ko": "아 좀! 맥주로는 안 부딪쳐!",
-   "note": "sörrel = 맥주로",
+   "hu": "Mit ajánl? Először vagyok itt.",
+   "rd": "미트 어얀르? 엘뢰쐬르 버죡 이트.",
+   "ko": "뭘 추천하세요? 여기 처음이에요.",
+   "note": "Mit ajánl? = 뭘 추천하세요?",
    "tags": [
-    "expr:Ne már"
-   ],
-   "emotion": "shout",
-   "lemmas": [
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "koccintunk",
-     "koccint",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Miért nem? Mi van?",
-   "rd": "미에르트 넴? 미 번?",
-   "ko": "왜 안 돼? 뭐야?",
-   "note": "miért = 왜",
-   "tags": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Miért",
-     "miért",
-     "미에르트"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Régi szokás. Nézd, mindenki minket néz.",
-   "rd": "레기 쏘카시. 네즈드, 민덴키 민케트 네즈.",
-   "ko": "옛날 풍습이야. 봐, 다들 우리 쳐다봐.",
-   "note": "szokás = 풍습",
-   "tags": [
-    "expr:Nézd"
-   ],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Régi szokás."
-    ],
-    [
-     "worried",
-     "Nézd, mindenki minket néz."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Régi",
-     "régi",
-     "레기"
-    ],
-    [
-     "szokás",
-     "szokás",
-     ""
-    ],
-    [
-     "néz",
-     "néz",
-     "네즈"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Jaj, bocsánat! Most mit csináljak?",
-   "rd": "여이, 보차너트! 모슈트 미트 치날역?",
-   "ko": "아이고, 죄송해요! 이제 어떡하죠?",
-   "note": "mit csináljak? = 어떡하지?",
-   "tags": [
-    "expr:Na"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "bocsánat",
-     "bocsánat",
-     "버치너트"
-    ],
-    [
-     "csináljak",
-     "csinál",
-     "치날"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "C",
-   "hu": "Semmi baj! Mindenkinek egy pálinka, és ön fizet.",
-   "rd": "셈미 버이! 민덴키넥 에지 팔린커, 에시 왼 피제트.",
-   "ko": "괜찮아요! 다들 팔린카 한 잔씩, 손님이 내시고요.",
-   "note": "mindenkinek = 모두에게",
-   "tags": [
-    "expr:Semmi baj"
+    "expr:Mit ajánl"
    ],
    "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Semmi baj!"
-    ],
-    [
-     "teasing",
-     "Mindenkinek egy pálinka, és ön fizet."
-    ]
-   ],
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "ajánl",
+     "ajánl",
+     "어야안"
     ],
     [
-     "pálinka",
-     "pálinka",
-     ""
-    ],
-    [
-     "fizet",
-     "fizet",
-     "피제트"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "hu": "Mindenkinek? Hány ember van itt?",
-   "rd": "민덴키넥? 하니 엠베르 번 이트?",
-   "ko": "모두요? 여기 몇 명이나 있는데요?",
-   "note": "hány = 몇",
-   "tags": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "ember",
-     "ember",
-     "엠베르"
-    ],
-    [
-     "van",
+     "vagyok",
      "van",
      "번"
     ],
@@ -256,6 +83,172 @@
      "itt",
      "itt",
      "이트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "A halászlé nagyon finom.",
+   "rd": "어 헐라쓸레 너죤 피놈.",
+   "ko": "생선 수프가 아주 맛있어요.",
+   "note": "halászlé = 헝가리식 생선 수프",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "halászlé",
+     "halászlé",
+     ""
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Igen, de csípős. Vigyázz!",
+   "rd": "이겐, 데 치푀시. 비자즈!",
+   "ko": "응, 근데 매워. 조심해!",
+   "note": "csípős = 매운",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "csípős",
+     "csípős",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Nem baj, szeretem a csípőset.",
+   "rd": "넴 버이, 쎄레템 어 치푀세트.",
+   "ko": "괜찮아, 매운 거 좋아해.",
+   "note": "nem baj = 괜찮아",
+   "tags": [
+    "expr:Nem baj"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "szeretem",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "csípőset",
+     "csípős",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Tessék, a halászlé. Jó étvágyat!",
+   "rd": "테쎅, 어 헐라쓸레. 요 에트바져트!",
+   "ko": "여기 생선 수프 나왔습니다. 맛있게 드세요!",
+   "note": "Jó étvágyat! = 맛있게 드세요",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "halászlé",
+     "halászlé",
+     ""
+    ],
+    [
+     "étvágyat",
+     "étvágy",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Hű... Egy pohár vizet kérek!",
+   "rd": "휘... 에지 포하르 비제트 케렉!",
+   "ko": "와… 물 한 잔 주세요!",
+   "note": "egy pohár víz = 물 한 잔",
+   "tags": [
+    "expr:Hű"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "pohár",
+     "pohár",
+     ""
+    ],
+    [
+     "vizet",
+     "vize",
+     "비제"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Na, szereted a csípőset?",
+   "rd": "너, 쎄레테드 어 치푀세트?",
+   "ko": "자, 매운 거 좋아한다며?",
+   "note": "na = 자, 거 봐",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "szereted",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "csípőset",
+     "csípős",
+     ""
     ]
    ]
   }

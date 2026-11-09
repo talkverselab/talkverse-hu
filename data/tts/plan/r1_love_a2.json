@@ -7,16 +7,16 @@
 "1": {
 "segs": [
 [
-"excited",
-"Figyelj, feltettem a krumplit a netre."
+"cheerful",
+"Ráérsz holnap este? Elmegyünk moziba?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Engem? Komolyan?"
+"excited",
+"Persze! Hánykor?"
 ]
 ]
 },
@@ -24,23 +24,23 @@
 "segs": [
 [
 "cheerful",
-"Már ezer ember szereti."
+"Fél hétkor a mozi előtt. Jó?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Ezer? Úristen!"
+"cheerful",
+"Szuper. Fél hét, vagyis hét harminc."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"teasing",
-"Egy néni meg akar venni."
+"surprised",
+"Nem, nem! Fél hét az hat harminc."
 ]
 ]
 },
@@ -48,11 +48,11 @@
 "segs": [
 [
 "surprised",
-"Mi van?"
+"Komolyan?"
 ],
 [
-"worried",
-"És eladsz?"
+"flustered",
+"Jaj, ezért késtem tegnap!"
 ]
 ]
 },
@@ -60,19 +60,7 @@
 "segs": [
 [
 "teasing",
-"Nem."
-],
-[
-"gentle",
-"Ez a krumpli az enyém."
-]
-]
-},
-"8": {
-"segs": [
-[
-"shy",
-"Jaj. Most piros krumpli vagyok."
+"Semmi baj. Holnap hatkor felhívlak, biztos ami biztos."
 ]
 ]
 }

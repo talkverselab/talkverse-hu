@@ -8,32 +8,32 @@
 "1": {
 "segs": [
 [
-"worried",
-"Háromszor csengettem. Nem jöttél a levesért, jól vagy?"
+"cheerful",
+"Tessék, üljenek le! Húsleves van, utána rántott hús."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"sad",
-"Csókolom. Jól vagyok, csak fáradt."
+"polite",
+"Köszönjük a meghívást, Marika néni!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"gentle",
-"Aha. Akkor miért piros a szemed?"
+"cheerful",
+"Marika néni levese a legjobb a házban."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"sad",
-"Semmi baj, csak a paprika."
+"cheerful",
+"Tényleg! Nagyon finom."
 ]
 ]
 },
@@ -41,109 +41,95 @@
 "segs": [
 [
 "gentle",
-"Ma nem főztél semmit, nem éreztem szagot."
+"Még egy kicsit? Maga nagyon sovány."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"sad",
-"Hát, ma van a születésnapom, és {country} nagyon messze van."
+"flustered",
+"Jaj, köszönöm, de már a másodikat eszem."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Tudom, hogy ma van. Ebben a házban mindent tudok."
+"teasing",
+"Ne is próbáld. Itt nincs olyan, hogy nem."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Honnan...?",
-"Honnan?"
-],
-[
-"flustered",
-"Jaj, nem akartam gondot csinálni."
+"cheerful",
+"Na tessék, csak egy fél tányért."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"gentle",
-"Na, idefigyelj. Hány éve lakunk egy házban?"
+"amused",
+"Rendben, de tényleg csak felet!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"neutral",
-"Majdnem két éve. Miért?"
+"gentle",
+"Maga már fél éve itt lakik, ugye?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"gentle",
-"Akkor elég a csókolomból."
-],
-[
-"cheerful",
-"Marika vagyok, tegeződjünk!"
+"polite",
+"Igen, tavasz óta."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"shy",
-"Csak így, Marika? Jaj, ezt nem tudom kimondani."
+"gentle",
+"Akkor elég a magázásból: tegeződjünk!"
+],
+[
+"cheerful",
+"Marika vagyok."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"sad",
-"A fiam Kanadában él, ő sem hív."
+"surprised",
+"Tényleg?"
 ],
 [
-"gentle",
-"Szóval most te eszed a levest."
+"shy",
+"Akkor szia, Marika!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"gentle",
-"Ezért hozott... ezért hoztál mindig levest?",
-"Ezért hozott, ezért hoztál mindig levest?"
+"shout",
+"Hé! Én három év után kaptam ezt meg!"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"gentle",
-"Ezért. Na, nyisd ki az ajtót."
-]
-]
-},
-"16": {
-"segs": [
-[
-"excited",
-"Meglepetés, boldog szülinapot! Hoztam húsz liter tejet."
+"teasing",
+"Mert te sosem kérsz még levest. Ez a titok."
 ]
 ]
 }

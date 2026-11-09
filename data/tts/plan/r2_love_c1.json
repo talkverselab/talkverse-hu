@@ -2,69 +2,66 @@
 "ep": "r2_love_c1",
 "cast": {
 "B": "reka",
-"C": "anna",
-"D": "woman_m"
+"C": "anna"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"cheerful",
-"Csináltam egy csoportot. Sziasztok! 😎",
-"Csináltam egy csoportot. Sziasztok!"
+"excited",
+"Sziasztok! Szombaton piknik a Margitszigeten? 🧺",
+"Sziasztok! Szombaton piknik a Margitszigeten?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"tsukkomi",
-"Réka, ez mi? Miért vagyunk csak hárman?"
+"cheerful",
+"Igen! Én viszek pogácsát. 😋",
+"Igen! Én viszek pogácsát."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shy",
-"Szia! Réka azt mondta, te akarsz kérdezni valamit. 😳",
-"Szia! Réka azt mondta, te akarsz kérdezni valamit."
+"cheerful",
+"Szuper! Én hozok gyümölcsöt meg pokrócot."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Én? Nekem azt mondta, hogy te akarsz."
+"cheerful",
+"Tökéletes. Tizenegykor a hídnál?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"annoyed",
-"Jaj, de lassúak vagytok."
-],
-[
-"teasing",
-"Anna tetszik neked, te tetszel neki."
+"flustered",
+"Jaj, bocsi... most jut eszembe, szombaton dolgozom. 😬",
+"Jaj, bocsi, most jut eszembe, szombaton dolgozom."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shout",
-"RÉKA!!!"
+"worried",
+"Komolyan? Akkor halasszuk el?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Várj, ez igaz?"
+"teasing",
+"Ne már, menjetek ketten! A pogácsa nem várhat. 😇",
+"Ne már, menjetek ketten! A pogácsa nem várhat."
 ]
 ]
 },
@@ -72,33 +69,34 @@
 "segs": [
 [
 "teasing",
-"Bocsi, Anna anyukáját is hozzáadtam. Véletlenül. 😇",
-"Bocsi, Anna anyukáját is hozzáadtam. Véletlenül."
+"Dávid, működik a terv! Hagyjuk őket kettesben. 😏",
+"Dávid, működik a terv! Hagyjuk őket kettesben."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"cheerful",
-"Szervusztok! Ki ez a {name}, aki tetszik?"
+"shout",
+"JAJ. Ez nem ide ment!!! 😱",
+"JAJ. Ez nem ide ment!!!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shout",
-"ANYA, NE! 😱",
-"ANYA, NE!"
+"annoyed",
+"Réka... milyen terv? 🙄",
+"Réka, milyen terv?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"cheerful",
-"Akkor vasárnap ebéd nálunk. Hoztok rétest?"
+"shy",
+"Szóval szombaton csak mi ketten?"
 ]
 ]
 },
@@ -106,8 +104,8 @@
 "segs": [
 [
 "shy",
-"Gyere, légyszi. Melléd ülök. 🙈",
-"Gyere, légyszi. Melléd ülök."
+"Úgy tűnik. Hozok több pogácsát. 😊",
+"Úgy tűnik. Hozok több pogácsát."
 ]
 ]
 }

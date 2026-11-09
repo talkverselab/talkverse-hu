@@ -1,18 +1,19 @@
 === r1_culture_a1
 kind: short
-title: 이에 낀 행운
-emoji: 🍰
-scene: 빵집의 마지막 양귀비씨 레테시를 손에 넣었다. Anna 가 「너 양귀비씨 있다」고 한다
+title: 오늘 밤 뭐 볼까
+emoji: 🎬
+scene: 저녁에 Anna 와 함께 볼 영화를 고른다. 코미디냐 공포냐
 b: Anna
 register: casual
-twist: 4 slip
+twist: 5 reveal
 purpose: media making_friends
-goal: 관용구 mákod van 과 되묻는 말 익히기
-expressions: Nézd; Tessék?; Hát
-B | Nézd! Az utolsó mákos rétes. | 봐! 마지막 양귀비씨 레테시야. | mákos = 양귀비씨가 든 | emotion=excited
-A | Gyorsan! Egyet kérek! | 빨리! 하나 주세요! | egyet kérek = 하나 주세요 | emotion=excited
-B | Hű, mákod van! | 와, 너 운 좋다! | mákod van = 운이 좋다(직역: 네게 양귀비씨가 있다) | emotion=cheerful
-A | Tessék? A fogamon? | 뭐라고? 내 이에? | fog = 이, -on = ~위에 | emotion=flustered
-B | Nem, nem! Szerencséd van. | 아니, 아니! 운이 좋다고. | szerencse = 운 | emotion=amused
-A | Jaj, értem. Na, együnk! | 아, 알겠어. 자, 먹자! | együnk = 먹자 | emotion=shy+cheerful
-B | Hát... most már tényleg mákos a fogad. | 음… 이제는 진짜 네 이에 양귀비씨 꼈어. | most már = 이제는 | emotion=teasing
+goal: 볼 영화 정하기(Mit nézzünk? · Legyen…)
+expressions: Persze; Szóval; Hát
+B | Mit nézzünk ma este? | 오늘 저녁 뭐 볼까? | Mit nézzünk? = 뭐 볼까? | emotion=cheerful
+A | Valami vígjátékot? | 코미디 같은 거? | vígjáték = 코미디 | emotion=gentle
+B | Megint? Tegnap is azt néztük. | 또? 어제도 그거 봤잖아. | megint = 또 | emotion=teasing
+A | Jó, akkor horror. | 좋아, 그럼 공포. | akkor = 그럼 | emotion=cheerful
+B | Biztos? Múltkor egész éjjel égett a lámpád. | 확실해? 지난번에 밤새 네 방 불 켜져 있었잖아. | múltkor = 지난번에 | emotion=teasing
+A | Az... véletlen volt. | 그건… 우연이었어. | véletlen = 우연 | emotion=flustered
+B | Persze. Szóval vígjáték? | 그렇겠지. 그래서, 코미디? | szóval = 그러니까, 그래서 | emotion=amused
+A | Hát... legyen vígjáték. | 음… 코미디로 하자. | legyen = ~로 하자 | emotion=shy

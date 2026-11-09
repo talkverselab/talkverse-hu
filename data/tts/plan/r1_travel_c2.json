@@ -7,24 +7,24 @@
 "1": {
 "segs": [
 [
-"worried",
-"Hol vagy? Indul a vonat!"
+"cheerful",
+"Megérkeztem a Keletibe. Te hol vagy?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Réka?"
+"neutral",
+"A nagy óra alatt várok."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shout",
-"Elindult a vonat!"
+"worried",
+"Réka? Tíz perc múlva indul a vonat!"
 ]
 ]
 },
@@ -32,44 +32,41 @@
 "segs": [
 [
 "worried",
-"Jól vagy? Válaszolj, légyszi!"
+"Hívlak! 📞",
+"Hívlak!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"sad",
-"Jaj. Egyedül megyek Egerbe."
+"flustered",
+"Bocsi! A metróban nincs térerő."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Bocsi, aludtam. 😴",
-"Bocsi, aludtam."
+"annoyed",
+"Hol vagy most?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Mi van?"
-],
-[
-"annoyed",
-"Hol vagy?"
+"flustered",
+"A Nyugatiban, az óra alatt. 😅",
+"A Nyugatiban, az óra alatt."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Mögötted ülök. Szép a sapkád."
+"tsukkomi",
+"Ne már! A vonat innen megy!"
 ]
 ]
 }

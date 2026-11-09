@@ -1,23 +1,23 @@
 === r2_work_c1
 kind: chat
-title: 사장의 첫 주문
-emoji: 📦
-scene: 하룻밤 새 사장이 됐다. Bence 가 컵이 떨어졌다고 메시지를 보낸다
+title: 「fél nyolc」 의 함정
+emoji: ⏰
+scene: 내일 아침 카페 재고 조사. Bence 와 메신저로 몇 시에 만날지 정한다
 b: Bence
 register: chat
-twist: 9 chaos
+twist: 9 slip
 purpose: work_hungary
-goal: 채팅으로 수량 묻고 답하기(Mennyi? Hány?)
-expressions: Ne már; Figyelj; Tényleg; Szuper; Egy pillanat
-B | Jó reggelt, főnök! 😎 | 좋은 아침입니다, 사장님! 😎 | főnök = 사장, 상사 | emotion=teasing at=08:02
-A | Ne már. Ez nem vicces. | 아 좀. 안 웃겨. | vicces = 웃긴 | emotion=annoyed at=08:03
-B | Figyelj, elfogytak a poharak. Te rendeled, emlékszel? | 야, 컵 다 떨어졌어. 네가 주문하는 거, 기억나? | elfogytak = 다 떨어졌다 | emotion=neutral at=08:05
-A | Jaj, tényleg. Mennyi kell? | 아이고, 맞다. 얼마나 필요해? | tényleg = 정말, 맞다 | emotion=flustered at=08:06
-B | Nem tudom. Rendelj sokat. | 몰라. 많이 주문해. | rendelj = 주문해 | emotion=neutral at=08:06
-A | Kész! Száz dobozt rendeltem. | 됐다! 백 상자 주문했어. | doboz = 상자 | emotion=cheerful at=08:11
-B | Szuper. Hány pohár van egy dobozban? | 좋아. 한 상자에 컵이 몇 개 들었어? | hány = 몇 개 | emotion=neutral at=08:12
-A | Egy pillanat... ezer. | 잠깐만… 천 개. | ezer = 천 | emotion=worried at=08:14
-B | Ezer? Az százezer pohár! | 천 개? 그럼 십만 개잖아! | százezer = 십만 | emotion=surprised+shout at=08:14
-B | Itt a teherautó. Nem férünk ki az ajtón. 😂 | 트럭 왔어. 문으로 나갈 수가 없어. 😂 | teherautó = 트럭 | emotion=amused at=11:30
-A | Mondd a vendégeknek, hogy ez modern művészet. | 손님들한테 현대미술이라고 해. | művészet = 예술 | emotion=amused at=11:32
-B | Anna már rajzolja. | 언너가 벌써 그리고 있어. | rajzolja = 그것을 그린다 | emotion=teasing at=11:33 stamp=😂
+goal: 채팅으로 시간 정하기(Mikor érsz rá? · fél nyolc = 7시 반)
+expressions: Naná; Várj; Úristen
+B | Szia! Holnap leltár van a kávézóban. Mikor érsz rá? | 안녕! 내일 카페 재고 조사야. 언제 돼? | leltár = 재고 조사 | emotion=cheerful at=18:02
+A | Reggel jó. Fél nyolc? | 아침 좋아. 8시 반? | fél nyolc = 7시 반(!) | emotion=cheerful at=18:05
+B | Fél nyolc? Hű, korán. De oké! | 7시 반? 와, 이르네. 그래도 오케이! | korán = 일찍 | emotion=surprised at=18:06
+A | Hozok pogácsát is. | 포가차도 사 갈게. | pogácsa = 짭짤한 작은 빵 | emotion=cheerful at=18:07
+B | Naná! Akkor holnap. 👍 | 당연하지! 그럼 내일. 👍 | naná = 당연하지 | emotion=excited at=18:07
+B | Itt vagyok. Te hol vagy? | 나 왔어. 너 어디야? | hol vagy? = 어디야? | emotion=neutral at=07:31
+A | Még ágyban vagyok. Még csak hét harminc van! | 아직 침대야. 아직 7시 반밖에 안 됐잖아! | még csak = 아직 겨우 | emotion=surprised at=07:33
+B | Pont. Fél nyolcat mondtál. | 바로 그거. 네가 「fél nyolc」라고 했잖아. | pont = 바로, 딱 | emotion=annoyed at=07:33
+A | Várj, a fél nyolc nem nyolc harminc? | 잠깐, 「fél nyolc」가 8시 반 아니야? | nyolc harminc = 8시 30분 | emotion=flustered at=07:34
+B | Nem! A fél nyolc az hét harminc. 😂 | 아니! 「fél nyolc」는 7시 반이야. 😂 | fél = 반(다음 시를 향한) | emotion=amused at=07:34
+A | Úristen. Húsz perc, és ott vagyok! | 세상에. 20분이면 갈게! | ott vagyok = 거기 간다 | emotion=flustered at=07:35
+B | Akkor három pogácsa jár. Siess! | 그럼 포가차 세 개다. 서둘러! | siess = 서둘러 | emotion=teasing at=07:35 stamp=😂

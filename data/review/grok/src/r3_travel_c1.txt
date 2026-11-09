@@ -1,28 +1,28 @@
 === r3_travel_c1
 kind: chat
-title: 월요일부터 시간표
-emoji: 🚌
-scene: Réka 가 벼룩시장에서 산 버스가 드디어 출발했다. 단체 채팅방은 시골길 위에서 이어진다
+title: 파란 염소는 두 곳
+emoji: 🍽️
+scene: Dávid 가 저녁 식당을 예약했다. 셋이 단톡방에서 각자 찾아가기로 한다
 b: Réka
 c: Dávid
 register: chat
 twist: 11 chaos
 purpose: travel making_friends
-goal: 채팅으로 상황 전하기와 놀라는 말
-expressions: Komolyan; Naná; Mi van?; izé; Bocsi; Figyeljetek; Úristen
-B | Figyelem! A busz elindult! 🚌 | 알립니다! 버스 출발했어! 🚌 | figyelem = 주목 | emotion=excited at=08:03
-A | Komolyan? És a fék működik? | 진짜? 브레이크는 돼? | fék = 브레이크 | emotion=worried at=08:04
-B | Naná. Legtöbbször. | 당연하지. 대부분은. | legtöbbször = 대부분 | emotion=teasing at=08:04
-C | Várjatok, most miért álltunk meg? | 잠깐, 지금 왜 섰어? | álltunk meg = 우리가 멈췄다 | emotion=worried at=09:10
-B | Egy néni integetett a megállóban. Felszállt. | 정류장에서 할머니가 손을 흔들었어. 탔어. | integet = 손을 흔들다 | emotion=neutral at=09:11
-A | Mi van? De ez nem, izé, menetrendes busz! | 뭐? 근데 이건, 그, 노선버스가 아니잖아! | menetrend = 시간표 | emotion=surprised+tsukkomi at=09:11
-B | Ő nem tudja. És már nyolcan szálltak fel. | 할머니는 모르지. 그리고 벌써 여덟 명이 탔어. | nyolcan = 여덟 명이서 | emotion=amused at=09:30
-C | Az egyik bácsi kérdezi, mennyibe kerül a jegy. | 어떤 할아버지가 표 얼마냐고 물어봐. | kérdezi = 물어본다(정활용) | emotion=neutral at=09:31
-A | Hát mondd neki, hogy ingyen van! | 그럼 공짜라고 말해! | ingyen = 공짜로 | emotion=cheerful at=09:31
-B | Bocsi, már mondtam: háromszáz forint. 😇 | 미안, 이미 말했어. 300포린트. 😇 | háromszáz = 300 | emotion=teasing at=09:32
-C | Figyeljetek, most már harmincan vagyunk. Egy néni kolbászt oszt. | 얘들아, 이제 서른 명이야. 어떤 할머니가 소시지 나눠 줘. | harmincan = 서른 명이서 | emotion=amused at=10:05
-A | Úristen, a következő megállóban is sokan várnak! | 세상에, 다음 정류장에도 사람이 많아! | következő = 다음 | emotion=surprised at=10:12
-B | Igen, a néni mindenkit felhívott. | 응, 할머니가 다들 불렀거든. | felhív = 전화하다 | emotion=cheerful at=10:12
-C | Itt a polgármester. Kezet fog Rékával. | 시장님 왔어. 레카랑 악수해. | kezet fog = 악수하다 | emotion=surprised at=10:40
-A | Mi van? Mit akar? | 뭐? 뭘 원한대? | akar = 원하다 | emotion=surprised+worried at=10:41
-B | Semmi. Hétfőtől menetrendünk van. 🚌 | 별거 아니야. 월요일부터 시간표가 있대. 🚌 | hétfőtől = 월요일부터 | emotion=cheerful at=10:48
+goal: 채팅으로 만날 곳 확인하기(Hol ültök? · Nem látlak)
+expressions: ugye; Hogyhogy; Ne már
+C | Foglaltam asztalt hétre a Kék Kecskében. 🍽️ | 7시에 「파란 염소」에 테이블 예약했어. 🍽️ | asztalt foglal = 테이블을 예약하다 | emotion=cheerful at=17:30
+B | Szuper! Hol van? | 좋아! 어디야? | hol van? = 어디 있어? | emotion=excited at=17:31
+C | A Király utcában. Megtaláljátok, ugye? 😄 | 키라이 거리. 찾을 수 있지? 😄 | megtaláljátok = 너희가 찾는다 | emotion=teasing at=17:31
+A | Persze. Én a múzeumból megyek, villamossal. | 그럼. 나는 박물관에서 트램 타고 갈게. | villamossal = 트램으로 | emotion=cheerful at=17:40
+B | Én meg biciklivel. Ott találkozunk! | 나는 자전거로. 거기서 만나! | meg = 그리고(대조) | emotion=cheerful at=17:41
+A | Megérkeztem, szép hely! Hol ültök? | 도착, 예쁜 곳이다! 너희 어디 앉았어? | ültök = 너희가 앉아 있다 | emotion=excited at=18:58
+B | A terasz mellett. Te? | 테라스 옆. 너는? | mellett = ~ 옆에 | emotion=neutral at=18:59
+A | Én is a terasznál vagyok. Nem látlak. | 나도 테라스야. 너 안 보이는데. | látlak = 내가 너를 본다 | emotion=worried at=18:59
+C | Integetek! 👋 Piros pulcsi. | 손 흔들고 있어! 👋 빨간 스웨터. | integet = 손을 흔들다 | emotion=cheerful at=19:00
+A | Itt csak egy bácsi integet, piros pulcsiban. 😅 | 여기 빨간 스웨터 입은 할아버지 한 분만 손 흔드는데. 😅 | pulcsiban = 스웨터를 입고 | emotion=amused at=19:00
+B | Várj, te melyik Kék Kecskében vagy? | 잠깐, 너 어느 「파란 염소」에 있어? | melyik = 어느 | emotion=surprised at=19:01
+A | Hogyhogy melyik? Kettő van? | 어느 거라니? 두 군데야? | hogyhogy = 어째서 | emotion=surprised at=19:01
+C | Igen, a budai és a pesti. Mi Pesten vagyunk. | 응, 부다 쪽이랑 페스트 쪽. 우리는 페스트에 있어. | Pesten = 페스트에 | emotion=flustered at=19:02
+A | Én meg Budán. A bácsi viszont hív, hogy üljek le. 😂 | 나는 부다야. 근데 그 할아버지가 앉으라고 부르셔. 😂 | viszont = 그런데 | emotion=amused at=19:03
+B | Na, akkor jó étvágyat a bácsival! 😂 | 자, 그럼 할아버지랑 맛있게 먹어! 😂 | jó étvágyat = 맛있게 드세요 | emotion=teasing at=19:03
+C | Ne már! Várj, taxival tíz perc, és ott vagyunk. | 아이 참! 기다려, 택시로 10분이면 거기 가. | taxival = 택시로 | emotion=tsukkomi+gentle at=19:04

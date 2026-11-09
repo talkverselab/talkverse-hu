@@ -5,137 +5,44 @@
  "kind": "long",
  "draft": true,
  "purpose": [
-  "making_friends",
-  "love"
+  "making_friends"
  ],
  "domain": [
   "friends"
  ],
- "title": "그 새의 주인",
+ "title": "헝가리어로 주문하기",
  "emoji": "☕",
- "scene": "Réka 는 2주째 Bence 의 카페를 피한다. 끌고 가 앵무새를 보이는데, Bence 가 새를 알아본다",
+ "scene": "Bence 의 카페. Réka 가 지켜보는 가운데 처음부터 끝까지 헝가리어로만 주문해 보기로 했다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
-  "C": "Bence",
-  "D": "Papagáj"
+  "C": "Bence"
  },
  "register": "casual",
- "twist": 10,
+ "twist": 12,
  "twist_type": "reveal",
  "flags": [
   "romance"
  ],
- "goal": "지난 일 되짚기와 마음을 들키는 한마디",
+ "goal": "카페 주문 전 과정(… kérek · Mennyi lesz? · Kártyával)과 「헝가리어로 해 줘」",
  "expressions": [
-  "Na, gyere",
-  "Úristen",
-  "Várj",
-  "Mi van",
-  "hallod",
-  "Szóval"
+  "Na",
+  "Szóval",
+  "Mennyi lesz",
+  "Igazából"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Réka, két hete kerülöd a kávézót. Miattad otthon iszom rossz kávét.",
-   "rd": "레커, 케트 헤테 케륄뢰드 어 카베조트. 미어떠드 오트혼 이쏨 로쓰 카베트.",
-   "ko": "레카, 너 2주째 카페 피하잖아. 너 때문에 집에서 맛없는 커피 마셔.",
-   "note": "kerül = 피하다",
-   "tags": [],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "Réka",
-     "réka",
-     ""
-    ],
-    [
-     "hete",
-     "hét",
-     "헤트"
-    ],
-    [
-     "kerülöd",
-     "kerül",
-     "케륄"
-    ],
-    [
-     "kávézót",
-     "kávézó",
-     ""
-    ],
-    [
-     "otthon",
-     "otthon",
-     "오트혼"
-    ],
-    [
-     "iszom",
-     "iszom",
-     ""
-    ],
-    [
-     "rossz",
-     "rossz",
-     "로쓰"
-    ],
-    [
-     "kávét",
-     "kávé",
-     "카베"
-    ]
-   ]
-  },
-  {
-   "num": 2,
    "speaker": "B",
-   "hu": "Nem megyek oda többet. Az a madár mindent elrontott.",
-   "rd": "넴 메젝 오더 퇴베트. 어즈 어 머다르 민덴트 엘론토트.",
-   "ko": "거기 다신 안 가. 그 새가 다 망쳤어.",
-   "note": "elront = 망치다",
-   "tags": [],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "megyek",
-     "megye",
-     "메예"
-    ],
-    [
-     "oda",
-     "oda",
-     "오더"
-    ],
-    [
-     "többet",
-     "több",
-     "퇴그"
-    ],
-    [
-     "madár",
-     "madár",
-     ""
-    ],
-    [
-     "elrontott",
-     "elront",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "hu": "Na, gyere már! Hozd a madarat is, és essünk túl rajta.",
-   "rd": "너, 제레 마르! 호즈드 어 머더러트 이시, 에시 에쒼크 툴 러이터.",
-   "ko": "자, 가자! 새도 데려와, 그냥 해치워 버리자.",
-   "note": "túlesik = 해치우다",
+   "hu": "Na, ma csak magyarul rendelsz. Egy szó angolul se!",
+   "rd": "너, 머 척 머져룰 렌델쓰. 에지 쏘 언골룰 세!",
+   "ko": "자, 오늘은 헝가리어로만 주문해. 영어 한 마디도 안 돼!",
+   "note": "se = ~도 안",
    "tags": [
-    "expr:Na, gyere"
+    "expr:Na"
    ],
-   "emotion": "cheerful",
+   "emotion": "teasing",
    "lemmas": [
     [
      "Na",
@@ -143,134 +50,196 @@
      "너"
     ],
     [
-     "gyere",
-     "jön",
-     "왼"
+     "ma",
+     "ma",
+     "머"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "csak",
+     "csak",
+     "촉"
     ],
     [
-     "madarat",
-     "madara",
+     "magyarul",
+     "magyar",
      ""
     ],
     [
-     "essünk",
-     "esik",
-     "에시크"
+     "rendelsz",
+     "rendel",
+     "렌델"
     ],
     [
-     "túl",
-     "túl",
-     "툴"
+     "szó",
+     "szó",
+     "쏘"
+    ],
+    [
+     "angolul",
+     "angol",
+     "언골"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó, menni fog. Gyakoroltam otthon.",
+   "rd": "요, 멘니 폭. 져코롤텀 오트혼.",
+   "ko": "좋아, 할 수 있어. 집에서 연습했어.",
+   "note": "gyakoroltam = 연습했다",
+   "tags": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "menni",
+     "megy",
+     "메지"
+    ],
+    [
+     "fog",
+     "fog",
+     "포그"
+    ],
+    [
+     "otthon",
+     "otthon",
+     "오트혼"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Hello! What can I get you?",
+   "rd": "헬로! 브허트 천 이 게트 이오우?",
+   "ko": "안녕! 뭐 줄까?(영어로)",
+   "note": "외국인이면 영어로 바꿔 말하는 가게가 많다",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Hello",
+     "hello",
+     "헬로"
+    ],
+    [
+     "can",
+     "can",
+     ""
+    ],
+    [
+     "get",
+     "get",
+     ""
+    ],
+    [
+     "you",
+     "you",
+     ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "C",
-   "hu": "Hű, Réka, de rég láttalak! Add ide egy pillanatra azt a madarat.",
-   "rd": "휘, 레커, 데 렉 라떨럭! 어드 이데 에지 필러너트러 어즈트 어 머더러트.",
-   "ko": "와, 레카, 진짜 오랜만이다! 그 새 잠깐 줘 봐.",
-   "note": "láttalak = 내가 널 봤다",
-   "tags": [],
+   "speaker": "A",
+   "hu": "Szia, Bence! Egy nagy tejeskávét kérek, zabtejjel.",
+   "rd": "씨어, 벤체! 에지 너지 테예슈카베트 케렉, 저브테옐.",
+   "ko": "안녕, 벤체! 큰 라테 하나 줘, 귀리 우유로.",
+   "note": "zabtej = 귀리 우유",
+   "tags": [
+    "expr:Na"
+   ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Hű",
-     "hű",
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "tejeskávét",
+     "tejes",
      ""
     ],
     [
-     "rég",
-     "rég",
-     "레그"
+     "kérek",
+     "kér",
+     "께르"
     ],
     [
-     "láttalak",
-     "láttalak",
-     ""
-    ],
-    [
-     "ide",
-     "ide",
-     "이데"
-    ],
-    [
-     "pillanatra",
-     "pillanat",
-     "필러넛"
-    ],
-    [
-     "madarat",
-     "madara",
+     "zabtejjel",
+     "zab",
      ""
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "B",
-   "hu": "Miért? Mit akarsz vele?",
-   "rd": "미에르트? 미트 어커르쓰 벨레?",
-   "ko": "왜? 뭐 하려고?",
-   "note": "vele = 그것으로",
+   "speaker": "C",
+   "hu": "Okay, large latte with oat milk. Anything else?",
+   "rd": "오커이, 러르게 러떼 비트흐 오어트 밀크. 어니트힌그 엘세?",
+   "ko": "오케이, 귀리 라테 큰 거. 또 필요한 거?(또 영어)",
+   "note": "끝까지 영어",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Miért",
-     "miért",
-     "미에르트"
+     "Okay",
+     "okay",
+     ""
     ],
     [
-     "akarsz",
-     "akar",
-     "어커르"
+     "large",
+     "large",
+     ""
+    ],
+    [
+     "latte",
+     "latte",
+     ""
+    ],
+    [
+     "with",
+     "with",
+     ""
+    ],
+    [
+     "oat",
+     "oat",
+     ""
+    ],
+    [
+     "milk",
+     "milk",
+     ""
+    ],
+    [
+     "else",
+     "else",
+     ""
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "C",
-   "hu": "Várj, ezt a foltot ismerem. Pityu, te vagy az?",
-   "rd": "바르이, 에즈트 어 폴토트 이슈메렘. 피튜, 테 버지 어즈?",
-   "ko": "잠깐, 이 얼룩 내가 아는데. 피튜, 너니?",
-   "note": "folt = 얼룩",
-   "tags": [
-    "expr:Várj"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "foltot",
-     "folt",
-     ""
-    ],
-    [
-     "ismerem",
-     "ismer",
-     "이슈메르"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "D",
-   "hu": "Bence, szeretlek! Bence, szeretlek!",
-   "rd": "벤체, 쎄레틀렉! 벤체, 쎄레틀렉!",
-   "ko": "벤체, 사랑해! 벤체, 사랑해!",
-   "note": "szeretlek = 널 사랑해",
+   "speaker": "A",
+   "hu": "Bence, kérlek, magyarul! Gyakorolni szeretnék.",
+   "rd": "벤체, 케를렉, 머져룰! 져코롤니 쎄레트넥.",
+   "ko": "벤체, 제발 헝가리어로! 연습하고 싶어.",
+   "note": "gyakorolni = 연습하다",
    "tags": [],
-   "emotion": "excited",
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Bence",
@@ -278,274 +247,342 @@
      ""
     ],
     [
-     "szeretlek",
+     "kérlek",
+     "kér",
+     "께르"
+    ],
+    [
+     "magyarul",
+     "magyar",
+     ""
+    ],
+    [
+     "szeretnék",
      "szeret",
      "쎄레트"
     ]
    ]
   },
   {
-   "num": 8,
+   "num": 7,
    "speaker": "C",
-   "hu": "Úristen, ez tényleg ő! A nagymamám madara, tíz éve elveszett.",
-   "rd": "우리슈텐, 에즈 테닐렉 외! 어 너지머맘 머더러, 티즈 에베 엘베쎄트.",
-   "ko": "세상에, 진짜 얘야! 우리 할머니 새야, 10년 전에 잃어버렸어.",
-   "note": "nagymama = 할머니",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "surprised",
+   "hu": "Bocsi, bocsi. Mást is kérsz?",
+   "rd": "보치, 보치. 마슈트 이시 케르쓰?",
+   "ko": "미안, 미안. 다른 것도 줄까?",
+   "note": "mást is = 다른 것도",
+   "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
+     "Bocsi",
+     "bocsi",
+     "보치"
     ],
     [
-     "tényleg",
-     "tényleg",
-     "테니렉"
+     "kérsz",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Igen, egy pogácsát is. Mennyi lesz?",
+   "rd": "이겐, 에지 포가차트 이시. 메니 레쓰?",
+   "ko": "응, 포가차도 하나. 얼마야?",
+   "note": "mennyi lesz? = 얼마야?",
+   "tags": [
+    "expr:Mennyi lesz"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
-     "nagymamám",
-     "nagy",
-     "너지"
-    ],
-    [
-     "madara",
-     "madara",
+     "pogácsát",
+     "pogácsa",
      ""
     ],
     [
-     "éve",
-     "év",
-     "에브"
-    ],
-    [
-     "elveszett",
-     "elveszik",
-     "엘베직"
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "A",
-   "hu": "Mi van? Akkor ki tanította neki ezt a mondatot?",
-   "rd": "미 번? 어꼬르 키 터니토떠 네키 에즈트 어 몬더토트?",
-   "ko": "뭐야? 그럼 그 말은 누가 가르쳤어?",
-   "note": "tanít = 가르치다",
-   "tags": [
-    "expr:Mi van"
-   ],
-   "emotion": "surprised",
+   "speaker": "C",
+   "hu": "Kétezer-háromszáz. Kártyával vagy készpénzzel?",
+   "rd": "케테제르-하롬싸즈. 카르탸벌 버지 케쓰펜젤?",
+   "ko": "2300. 카드야, 현금이야?",
+   "note": "készpénz = 현금",
+   "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "Kétezer",
+     "kétezer",
+     ""
     ],
     [
-     "ki",
-     "ki",
-     "키"
+     "háromszáz",
+     "háromszáz",
+     ""
     ],
     [
-     "tanította",
-     "tanít",
-     "터니트"
-    ],
-    [
-     "mondatot",
-     "mondat",
+     "készpénzzel",
+     "készpénz",
      ""
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "C",
-   "hu": "A nagymamám. Minden reggel ezt mondta nekem, a madár meg hallotta.",
-   "rd": "어 너지머맘. 민덴 렉겔 에즈트 몬드터 네켐, 어 머다르 멕 헐로떠.",
-   "ko": "우리 할머니. 매일 아침 나한테 그렇게 말하셨거든, 새가 들은 거지.",
-   "note": "meg = 그리고(한편)",
+   "speaker": "A",
+   "hu": "Kártyával, tessék. Látod, Réka, egy angol szó se!",
+   "rd": "카르탸벌, 테쎅. 라토드, 레커, 에지 언골 쏘 세!",
+   "ko": "카드로, 여기. 봤지, 레카, 영어 한 마디도 없어!",
+   "note": "látod = 봤지",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "excited",
    "lemmas": [
     [
-     "nagymamám",
-     "nagy",
-     "너지"
+     "Kártyával",
+     "kár",
+     "카르"
     ],
     [
-     "reggel",
-     "reggel",
-     "렉겔"
+     "tessék",
+     "tessék",
+     "테셰크"
     ],
     [
-     "mondta",
-     "mond",
-     "몬드"
+     "angol",
+     "angol",
+     "언골"
     ],
     [
-     "madár",
-     "madár",
-     ""
-    ],
-    [
-     "hallotta",
-     "hall",
-     "헐"
+     "szó",
+     "szó",
+     "쏘"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "Réka, hallod? Szóval nem tőled tanulta!",
-   "rd": "레커, 헐로드? 쏘벌 넴 퇼레드 터눌터!",
-   "ko": "레카, 들었어? 그러니까 너한테 배운 게 아니었어!",
-   "note": "tőled = 너에게서",
-   "tags": [
-    "expr:hallod",
-    "expr:Szóval"
-   ],
-   "emotion": "excited",
+   "speaker": "B",
+   "hu": "Ügyes vagy! De Bence, te miért váltasz mindig angolra?",
+   "rd": "위제시 버지! 데 벤체, 테 미에르트 발터쓰 민딕 언골러?",
+   "ko": "잘했어! 근데 벤체, 너는 왜 맨날 영어로 바꿔?",
+   "note": "váltasz = 바꾼다",
+   "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
-     "Réka",
-     "réka",
+     "Ügyes",
+     "ügyes",
+     "위계시"
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "váltasz",
+     "vált",
      ""
     ],
     [
-     "hallod",
-     "hall",
-     "헐"
+     "mindig",
+     "mindig",
+     "민딕"
     ],
     [
-     "tanulta",
-     "tanul",
-     "타눌"
+     "angolra",
+     "angol",
+     "언골"
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "C",
-   "hu": "Ja, azt hittem, te tanítottad neki. Kár, már örültem.",
-   "rd": "여, 어즈트 히뗌, 테 터니토떠드 네키. 카르, 마르 외륄템.",
-   "ko": "아, 네가 가르친 줄 알았어. 아깝네, 벌써 좋아했는데.",
-   "note": "kár = 아깝다",
-   "tags": [],
+   "hu": "Igazából jövő héten angol vizsgám van.",
+   "rd": "이거자볼 요뵈 헤텐 언골 비지감 번.",
+   "ko": "사실 다음 주에 영어 시험이 있어.",
+   "note": "vizsga = 시험",
+   "tags": [
+    "expr:Igazából"
+   ],
    "emotion": "shy",
    "lemmas": [
     [
-     "Ja",
-     "ja",
-     "여"
+     "Igazából",
+     "igaz",
+     "이거즈"
     ],
     [
-     "hittem",
-     "hitt",
+     "jövő",
+     "jövő",
+     "요뵈"
+    ],
+    [
+     "héten",
+     "hét",
+     "헤트"
+    ],
+    [
+     "angol",
+     "angol",
+     "언골"
+    ],
+    [
+     "vizsgám",
+     "vizsgám",
      ""
     ],
     [
-     "tanítottad",
-     "tanít",
-     "터니트"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "örültem",
-     "örül",
-     "외뢰"
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 13,
-   "speaker": "B",
-   "hu": "Nem, nem én tanítottam.",
-   "rd": "넴, 넴 엔 터니토떰.",
-   "ko": "아니, 내가 가르친 건 아니야.",
-   "note": "nem én = 내가 아니라",
-   "tags": [],
-   "emotion": "sad",
+   "speaker": "A",
+   "hu": "Szóval rajtam gyakoroltál?!",
+   "rd": "쏘벌 러이텀 져코롤탈?!",
+   "ko": "그러니까 나를 상대로 연습한 거야?!",
+   "note": "rajtam = 나에게(나를 상대로)",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "tanítottam",
-     "tanít",
-     "터니트"
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "gyakoroltál",
+     "gyakorol",
+     ""
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "C",
-   "hu": "Értem. Hát, jó.",
-   "rd": "에르템. 하트, 요.",
-   "ko": "그렇구나. 음, 그래.",
-   "note": "értem = 알겠어",
+   "hu": "Pontosan: te magyarul gyakorolsz, én angolul. Jó üzlet, nem?",
+   "rd": "폰토션: 테 머져룰 져코롤쓰, 엔 언골룰. 요 위즐레트, 넴?",
+   "ko": "바로 그거. 너는 헝가리어, 나는 영어. 괜찮은 거래지?",
+   "note": "üzlet = 거래",
    "tags": [],
-   "emotion": "sad",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Értem",
-     "ért",
-     "에르트"
+     "Pontosan",
+     "pontos",
+     "폰토시"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "magyarul",
+     "magyar",
+     ""
+    ],
+    [
+     "gyakorolsz",
+     "gyakorol",
+     ""
+    ],
+    [
+     "angolul",
+     "angol",
+     "언골"
+    ],
+    [
+     "üzlet",
+     "üzlet",
+     "위즐레트"
     ]
    ]
   },
   {
    "num": 15,
-   "speaker": "B",
-   "hu": "De attól még igaz.",
-   "rd": "데 어똘 멕 이거즈.",
-   "ko": "그래도 그 말이 틀린 건 아니야.",
-   "note": "attól még = 그렇다고 해도",
+   "speaker": "A",
+   "hu": "Rendben. De akkor a pogácsa ingyen van.",
+   "rd": "렌드벤. 데 어꼬르 어 포가처 인젠 번.",
+   "ko": "좋아. 대신 포가차는 공짜다.",
+   "note": "ingyen = 공짜로",
    "tags": [],
-   "emotion": "shy",
+   "emotion": "amused",
    "lemmas": [
     [
-     "még",
-     "még",
-     "메그"
+     "Rendben",
+     "rend",
+     "렌드"
     ],
     [
-     "igaz",
-     "igaz",
-     "이거즈"
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "pogácsa",
+     "pogácsa",
+     ""
+    ],
+    [
+     "ingyen",
+     "ingyen",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 16,
-   "speaker": "D",
-   "hu": "Bence, szeretlek!",
-   "rd": "벤체, 쎄레틀렉!",
-   "ko": "벤체, 사랑해!",
-   "note": "szeretlek = 널 사랑해",
-   "tags": [],
-   "emotion": "cheerful",
+   "speaker": "C",
+   "hu": "Neked holnap is ingyen van. Gyere vissza.",
+   "rd": "네케드 홀너프 이시 인젠 번. 제레 비써.",
+   "ko": "너한텐 내일도 공짜야. 또 와.",
+   "note": "gyere vissza = 다시 와",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "shy",
    "lemmas": [
     [
-     "Bence",
-     "bence",
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "ingyen",
+     "ingyen",
      ""
     ],
     [
-     "szeretlek",
-     "szeret",
-     "쎄레트"
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "vissza",
+     "vissza",
+     "비써"
     ]
    ]
   }

@@ -11,44 +11,49 @@
  "domain": [
   "culture"
  ],
- "title": "나쁜 아이는 뭘 받아?",
- "emoji": "🎅",
- "scene": "12월 5일 밤. 장화를 창가에 내놓으라는 Réka 의 메시지가 왔다",
+ "title": "딱 여덟 편",
+ "emoji": "📺",
+ "scene": "Réka 가 헝가리 드라마를 추천했다. 그날 밤부터 답이 없다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "chat",
- "twist": 7,
+ "twist": 6,
  "twist_type": "ignore",
  "flags": [],
- "goal": "조건 ha 로 짧게 묻기, 미쿨라시 풍습",
+ "goal": "드라마 추천 주고받기(Ajánlok… · Hány rész?)",
  "expressions": [
-  "Miért",
-  "Szuper",
-  "Bocsi"
+  "Oké",
+  "Na",
+  "Ugye"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Kitetted a csizmádat?",
-   "rd": "키테떼드 어 치즈마더트?",
-   "ko": "장화 내놨어?",
-   "note": "csizma = 장화",
+   "hu": "Ajánlok egy sorozatot! Magyar krimi.",
+   "rd": "어얀록 에지 쇼로저토트! 머져르 크리미.",
+   "ko": "시리즈 하나 추천할게! 헝가리 범죄물.",
+   "note": "sorozat = 시리즈, 드라마",
    "tags": [],
-   "at": "22:10",
-   "emotion": "neutral",
+   "at": "19:40",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Kitetted",
-     "kitesz",
+     "Ajánlok",
+     "ajánl",
+     "어야안"
+    ],
+    [
+     "sorozatot",
+     "sorozat",
      ""
     ],
     [
-     "csizmádat",
-     "csizmádat",
+     "krimi",
+     "krimi",
      ""
     ]
    ]
@@ -56,168 +61,164 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen. Miért?",
-   "rd": "이겐. 미에르트?",
-   "ko": "응. 왜?",
-   "note": "kitettem = 내놓았다",
-   "tags": [
-    "expr:Miért"
-   ],
-   "at": "22:12",
-   "emotion": "neutral",
+   "hu": "Hány rész?",
+   "rd": "하니 레쓰?",
+   "ko": "몇 화야?",
+   "note": "rész = 화, 편",
+   "tags": [],
+   "at": "19:42",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "rész",
+     "rész",
+     "레스"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Ma éjjel jön a Mikulás! 🎅",
-   "rd": "머 에옐 욘 어 미쿨라시! 🎅",
-   "ko": "오늘 밤 미쿨라시 와! 🎅",
-   "note": "ma éjjel = 오늘 밤",
+   "hu": "Csak nyolc. Egy hétvége. 😄",
+   "rd": "척 뇰츠. 에지 헤트베게. 😄",
+   "ko": "겨우 여덟 개. 주말 하나면 끝. 😄",
+   "note": "csak = 겨우",
    "tags": [],
-   "at": "22:12",
-   "emotion": "excited",
+   "at": "19:42",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Ma",
-     "ma",
-     "머"
+     "Csak",
+     "csak",
+     "촉"
     ],
     [
-     "éjjel",
-     "éj",
-     "에이"
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
+     "hétvége",
+     "hétvége",
+     "헤트베게"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Szuper. Mit hoz?",
-   "rd": "쑤페르. 미트 호즈?",
-   "ko": "좋다. 뭐 가져와?",
-   "note": "hoz = 가져오다",
+   "hu": "Oké, ma elkezdem.",
+   "rd": "오케, 머 엘케즈뎀.",
+   "ko": "오케이, 오늘 시작할게.",
+   "note": "elkezdem = (그것을) 시작한다",
    "tags": [
-    "expr:Szuper"
+    "expr:Oké"
    ],
-   "at": "22:13",
+   "at": "19:45",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szuper",
-     "szuper",
-     "쑤페르"
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
-     "hoz",
-     "hoz",
-     "호즈"
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "elkezdem",
+     "elkezd",
+     "엘케즈드"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Ha jó voltál: csokit.",
-   "rd": "허 요 볼탈: 초키트.",
-   "ko": "착했으면 초콜릿.",
-   "note": "ha = 만약",
-   "tags": [],
-   "at": "22:13",
-   "emotion": "teasing",
+   "hu": "Na? Tetszik?",
+   "rd": "너? 테트씩?",
+   "ko": "어때? 재밌어?",
+   "note": "na? = 어때?",
+   "tags": [
+    "expr:Na"
+   ],
+   "at": "23:30",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "jó",
-     "jó",
-     "요"
-    ],
-    [
-     "voltál",
-     "van",
-     "번"
-    ],
-    [
-     "csokit",
-     "csoki",
-     ""
+     "Na",
+     "na",
+     "너"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "A",
-   "hu": "És ha nem?",
-   "rd": "에시 허 넴?",
-   "ko": "안 착했으면?",
-   "note": "és ha nem? = 아니면?",
+   "speaker": "B",
+   "hu": "Hahó? 👀",
+   "rd": "허호? 👀",
+   "ko": "여보세요? 👀",
+   "note": "hahó = 여보세요, 저기요",
    "tags": [],
-   "at": "22:14",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": []
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Réka??",
-   "rd": "레커??",
-   "ko": "레카??",
-   "note": "답이 없을 때",
-   "tags": [],
-   "at": "23:48",
+   "at": "00:45",
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Réka",
-     "réka",
+     "Hahó",
+     "hahó",
      ""
     ]
    ]
   },
   {
-   "num": 8,
+   "num": 7,
    "speaker": "B",
-   "hu": "Bocsi, virgácsért mentem. 😈",
-   "rd": "보치, 비르가체르트 멘템. 😈",
-   "ko": "미안, 회초리 가지러 갔었어. 😈",
-   "note": "virgács = 미쿨라시의 금빛 회초리",
+   "hu": "Nem alszol, ugye? 😂",
+   "rd": "넴 얼쏠, 우제? 😂",
+   "ko": "너 안 자고 있지, 그렇지? 😂",
+   "note": "ugye = 그렇지?",
    "tags": [
-    "expr:Bocsi"
+    "expr:Ugye"
    ],
-   "at": "23:59",
+   "at": "01:20",
    "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "Bocsi",
-     "bocsi",
-     "보치"
-    ],
+     "alszol",
+     "alszik",
+     "얼루시크"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Hatodik rész. Ne zavarj! 🙏",
+   "rd": "허토딕 레쓰. 네 저버르이! 🙏",
+   "ko": "6화야. 방해하지 마! 🙏",
+   "note": "ne zavarj = 방해하지 마",
+   "tags": [],
+   "at": "01:21",
+   "emotion": "shout",
+   "ui": "bubble",
+   "lemmas": [
     [
-     "virgácsért",
-     "virgács",
+     "Hatodik",
+     "hatodik",
      ""
     ],
     [
-     "mentem",
-     "ment",
-     "멘트"
+     "rész",
+     "rész",
+     "레스"
+    ],
+    [
+     "zavarj",
+     "zavar",
+     "저버르"
     ]
    ]
   }

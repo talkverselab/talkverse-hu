@@ -9,39 +9,39 @@
 "segs": [
 [
 "cheerful",
-"Gyere, nézd a fát! Az a fehér cukorka a szaloncukor."
+"Apa, ő {name}."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Szép. Ehetek egyet?"
+"polite",
+"Jó estét kívánok! Boldog karácsonyt!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"teasing",
-"Nem! Karácsonyig tilos, ez a szabály."
+"gentle",
+"Jó estét, gyere be! Hideg van kint."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"amused",
-"Jól van, jól van. Csak megnézem."
+"shy",
+"Hoztam egy kis bejglit."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"worried",
-"Ne nyúlj hozzá, apa számolja őket!"
+"cheerful",
+"Ó, köszönöm! Ülj le, mindjárt jön a halászlé."
 ]
 ]
 },
@@ -49,61 +49,61 @@
 "segs": [
 [
 "surprised",
-"Várj... ez üres, ez is, ez is!",
-"Várj, ez üres, ez is, ez is!"
+"Halászlé karácsonykor? Nálunk ilyenkor mást eszünk."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Az nem lehet! Hadd nézzem!"
+"gentle",
+"Nálunk Szenteste mindig hal van. Ez hagyomány."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"stiff",
-"Mi folyik itt? Ki nyúlt a fához?"
+"cheerful",
+"Csípős, de nem nagyon. Kóstold meg!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"flustered",
-"Jó estét, nem én! Az összes cukorka üres."
+"excited",
+"Hű, finom! És tényleg nem nagyon csípős."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"flustered",
-"Hát... tudod, ez egy nagyon régi magyar szokás.",
-"Hát, tudod, ez egy nagyon régi magyar szokás."
+"gentle",
+"Később a bejglit is megkóstoljuk. Te sütötted?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"tsukkomi",
-"Apa, mi van a szádban?"
+"cheerful",
+"Igen!"
+],
+[
+"flustered",
+"Vagyis... a pék a sarkon.",
+"Vagyis, a pék a sarkon."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"flustered",
-"Semmi."
-],
-[
 "amused",
-"A papírokat meg szépen visszaakasztottam."
+"Ügyes vagy. Jó pékséget választottál! 😄",
+"Ügyes vagy. Jó pékséget választottál!"
 ]
 ]
 }

@@ -8,8 +8,8 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Gyere, ma táncház van. Nem nehéz, csak figyelj a lábamra."
+"excited",
+"Ma este táncház van. Eljössz?"
 ]
 ]
 },
@@ -17,35 +17,31 @@
 "segs": [
 [
 "worried",
-"Komolyan? Nekem két bal lábam van."
+"Táncház? Én nem tudok táncolni."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Balra, jobbra, balra, ugrás! Egyszerű, ugye?"
+"gentle",
+"Senki sem tud. Azért megyünk, hogy tanuljunk."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Jaj, bocsi! Ez a te lábad volt?"
+"stiff",
+"Jó, de csak nézni megyek."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"gentle",
-"Igen, de nem baj."
-],
-[
-"annoyed",
-"Csak ne ugorj többet!"
+"cheerful",
+"Sziasztok! Álljatok körbe!"
 ]
 ]
 },
@@ -53,23 +49,23 @@
 "segs": [
 [
 "flustered",
-"Elfelejtettem, melyik a bal. Forgok, és nem tudok megállni!"
+"Réka, én csak nézni jöttem!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Várj, mi van? Nézd, a többiek is forognak!"
+"teasing",
+"Késő. Fogd meg a kezem!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Mi ez a lépés? Melyik faluból hoztad?"
+"cheerful",
+"Most két lépés jobbra, egy balra!"
 ]
 ]
 },
@@ -77,24 +73,25 @@
 "segs": [
 [
 "flustered",
-"Izé... ez a mi falunk tánca.",
-"Izé, ez a mi falunk tánca."
+"Jobbra, balra... Jaj, bocsánat!",
+"Jobbra, balra, Jaj, bocsánat!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"excited",
-"Hallottátok? Mától ez a neve: {name} tánca!"
+"cheerful",
+"Semmi baj! Gyere középre, mutassuk meg együtt!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"teasing",
-"Szóval jövő héten te tanítod. Százan jönnek."
+"flustered",
+"Hát... én tényleg csak nézni jöttem.",
+"Hát, én tényleg csak nézni jöttem."
 ]
 ]
 }

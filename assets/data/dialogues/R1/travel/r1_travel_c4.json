@@ -11,9 +11,9 @@
  "domain": [
   "travel"
  ],
- "title": "목도리",
- "emoji": "🧣",
- "scene": "어제 기차 옆자리였던 사람에게서 메시지가 왔다",
+ "title": "파란 문",
+ "emoji": "🚪",
+ "scene": "페치에 막 도착했다. 어학 교환으로 알게 된 Zsófi 에게 맛집을 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Zsófi"
@@ -24,23 +24,21 @@
  "flags": [
   "romance"
  ],
- "goal": "모르는 사람 메시지에 답하기와 시간 묻기",
+ "goal": "채팅으로 식당 추천 받기(Hol egyek? · Mi a neve?)",
  "expressions": [
-  "Tényleg",
-  "Jaj",
-  "köszi",
-  "ráérsz"
+  "Nem tudom",
+  "Tényleg"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Tegnap a vonaton melletted ültem. 😊",
-   "rd": "씨어! 텍너프 어 보너톤 멜레떼드 윌템. 😊",
-   "ko": "안녕! 어제 기차에서 네 옆에 앉았어. 😊",
-   "note": "melletted = 네 옆에",
+   "hu": "Szia! Megérkeztél Pécsre?",
+   "rd": "씨어! 메게르케즈텔 페치레?",
+   "ko": "안녕! 페치 도착했어?",
+   "note": "Pécsre = 페치로",
    "tags": [],
-   "at": "22:10",
+   "at": "18:02",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
@@ -48,124 +46,133 @@
      "Szia",
      "szia",
      "씨어"
-    ],
-    [
-     "vonaton",
-     "vonat",
-     ""
-    ],
-    [
-     "melletted",
-     "mellette",
-     ""
-    ],
-    [
-     "ültem",
-     "ül",
-     "위일"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Tényleg? Ki vagy?",
-   "rd": "테닐렉? 키 버지?",
-   "ko": "정말? 누구야?",
-   "note": "tényleg? = 정말?",
-   "tags": [
-    "expr:Tényleg"
-   ],
-   "at": "22:12",
-   "emotion": "surprised",
+   "hu": "Igen! Hol egyek valamit?",
+   "rd": "이겐! 홀 에젝 벌러미트?",
+   "ko": "응! 어디서 뭐 먹지?",
+   "note": "egyek = 내가 먹을까(가정법)",
+   "tags": [],
+   "at": "18:05",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
+     "Igen",
+     "igen",
+     "이겐"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Zsófi. Aki az ablaknál ült.",
-   "rd": "죠피. 어키 어즈 어블럭날 윌트.",
-   "ko": "소피. 창가에 앉아 있던.",
-   "note": "ablak = 창문",
+   "hu": "A főtéren van egy jó étterem.",
+   "rd": "어 푀테렌 번 에지 요 에떼렘.",
+   "ko": "중앙 광장에 좋은 식당 있어.",
+   "note": "főtér = 중앙 광장",
    "tags": [],
-   "at": "22:12",
+   "at": "18:06",
    "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Zsófi",
-     "zsófi",
+     "főtéren",
+     "főtér",
      ""
     ],
     [
-     "ablaknál",
-     "ablak",
-     "어블러크"
+     "van",
+     "van",
+     "번"
     ],
     [
-     "ült",
-     "ül",
-     "위일"
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "étterem",
+     "éttér",
+     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Ó, igen! Hogy találtál meg?",
-   "rd": "오, 이겐! 호지 털랄탈 멕?",
-   "ko": "아, 맞아! 어떻게 찾았어?",
-   "note": "hogy = 어떻게",
+   "hu": "Mi a neve?",
+   "rd": "미 어 네베?",
+   "ko": "이름이 뭐야?",
+   "note": "neve = 그것의 이름",
    "tags": [],
-   "at": "22:13",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Ó, igen!"
-    ],
-    [
-     "cheerful",
-     "Hogy találtál meg?"
-    ]
-   ],
+   "at": "18:06",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
-     "igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "találtál",
-     "talál",
-     "털랄"
+     "neve",
+     "név",
+     "네브"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "A sálad nálam van.",
-   "rd": "어 샬러드 날럼 번.",
-   "ko": "네 목도리 나한테 있어.",
-   "note": "sál = 목도리",
-   "tags": [],
-   "at": "22:14",
-   "emotion": "gentle",
+   "hu": "Nem tudom. Kék az ajtaja. 😅",
+   "rd": "넴 투돔. 켁 어즈 어이터여. 😅",
+   "ko": "몰라. 문이 파란색이야. 😅",
+   "note": "ajtó = 문",
+   "tags": [
+    "expr:Nem tudom"
+   ],
+   "at": "18:07",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "sálad",
-     "sálad",
-     ""
+     "tudom",
+     "tud",
+     "투드"
+    ],
+    [
+     "ajtaja",
+     "ajtó",
+     "어이토"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Itt három kék ajtó van. 😂",
+   "rd": "이트 하롬 켁 어이토 번. 😂",
+   "ko": "여기 파란 문이 세 개야. 😂",
+   "note": "három = 셋",
+   "tags": [],
+   "at": "18:12",
+   "emotion": "amused",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "kék",
+     "kék",
+     "케크"
+    ],
+    [
+     "ajtó",
+     "ajtó",
+     "어이토"
     ],
     [
      "van",
@@ -175,99 +182,82 @@
    ]
   },
   {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Jaj, köszi! Hol kapom vissza?",
-   "rd": "여이, 쾨씨! 홀 커폼 비써?",
-   "ko": "아이고, 고마워! 어디서 돌려받아?",
-   "note": "visszakap = 돌려받다",
-   "tags": [
-    "expr:Jaj",
-    "expr:köszi"
-   ],
-   "at": "22:14",
-   "emotion": "cheerful",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "köszi",
-     "köszi",
-     "쾨씨"
-    ],
-    [
-     "kapom",
-     "kap",
-     "커프"
-    ],
-    [
-     "vissza",
-     "vissza",
-     "비써"
-    ]
-   ]
-  },
-  {
    "num": 7,
    "speaker": "B",
-   "hu": "Nem hagytad ott. Én vettem el.",
-   "rd": "넴 허지터드 오트. 엔 베뗌 엘.",
-   "ko": "네가 두고 간 게 아니야. 내가 가져왔어.",
-   "note": "én vettem el = 내가 가져왔다(én 이 초점)",
+   "hu": "Jó, holnap megmutatom. Én is Pécsen vagyok.",
+   "rd": "요, 홀너프 멕무터톰. 엔 이시 페첸 버죡.",
+   "ko": "알았어, 내일 보여 줄게. 나도 페치에 있어.",
+   "note": "megmutat = 보여 주다",
    "tags": [],
-   "at": "22:20",
-   "emotion": "shy",
+   "at": "18:13",
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Jó, holnap megmutatom."
+    ],
+    [
+     "shy",
+     "Én is Pécsen vagyok."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
-     "hagytad",
-     "hagy",
-     "허지"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "ott",
-     "ott",
-     "오트"
+     "holnap",
+     "holnap",
+     "홀넙"
     ],
     [
-     "vettem",
-     "vett",
-     "벳트"
+     "megmutatom",
+     "megmutat",
+     "메그무타트"
     ],
     [
-     "el",
-     "el",
-     "엘"
+     "vagyok",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Holnap ráérsz? 😇",
-   "rd": "홀너프 라에르쓰? 😇",
-   "ko": "내일 시간 돼? 😇",
-   "note": "ráérsz = 너 시간 있어?",
+   "speaker": "A",
+   "hu": "Tényleg? Akkor holnap? 😊",
+   "rd": "테닐렉? 어꼬르 홀너프? 😊",
+   "ko": "정말? 그럼 내일? 😊",
+   "note": "tényleg = 정말",
    "tags": [
-    "expr:ráérsz"
+    "expr:Tényleg"
    ],
-   "at": "22:20",
-   "emotion": "teasing",
+   "at": "18:13",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Tényleg?"
+    ],
+    [
+     "shy",
+     "Akkor holnap? 😊"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
-     "Holnap",
-     "holnap",
-     "홀넙"
+     "Tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "ráérsz",
-     "ráérik",
-     ""
+     "holnap",
+     "holnap",
+     "홀넙"
     ]
    ]
   }

@@ -2,31 +2,30 @@
 "ep": "r2_study_c1",
 "cast": {
 "B": "reka",
-"C": "anna",
-"D": "woman_m"
+"C": "anna"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"neutral",
-"Holnap elmarad az óra?"
+"cheerful",
+"Sziasztok! Mikor tanulunk együtt a vizsgára?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Nem tudom. Szerintem igen."
+"cheerful",
+"Nekem holnap délután jó."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"excited",
-"Tényleg elmarad? Szuper!"
+"cheerful",
+"Nekem is. Négykor a könyvtárban?"
 ]
 ]
 },
@@ -34,23 +33,24 @@
 "segs": [
 [
 "excited",
-"Azt hallottam, hogy egész héten elmarad."
+"Oké! Hozom a jegyzeteimet."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Komolyan? Ki mondta?"
+"teasing",
+"Én pedig pogácsát. 😋",
+"Én pedig pogácsát."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"tsukkomi",
-"Te mondtad."
+"cheerful",
+"Itt vagyok, a második emeleten. Hol vagytok?"
 ]
 ]
 },
@@ -58,32 +58,33 @@
 "segs": [
 [
 "surprised",
-"Úristen, azt írják, hogy bezár az egyetem! 😱",
-"Úristen, azt írják, hogy bezár az egyetem!"
+"Mi is a második emeleten vagyunk. Nem látunk. 🤔",
+"Mi is a második emeleten vagyunk. Nem látunk."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"amused",
-"Durva. Akkor már veszem is a repülőjegyet."
+"worried",
+"Melyik könyvtárban vagy?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"neutral",
-"Én meg eladtam a tankönyvemet."
+"surprised",
+"Hát az egyetemiben. Ti nem?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"polite",
-"Jó estét! Holnap nyolckor dolgozat lesz."
+"amused",
+"Mi a kerületiben vagyunk, a kollégium mellett. Anna most indul hozzád. 😂",
+"Mi a kerületiben vagyunk, a kollégium mellett. Anna most indul hozzád."
 ]
 ]
 },
@@ -91,16 +92,16 @@
 "segs": [
 [
 "flustered",
-"Tanárnő, Ön is itt van?!"
+"Jaj, ne! Én is mindjárt indulok hozzátok!"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"teasing",
-"Mindig itt voltam. A repülőjegy visszaváltható? 😇",
-"Mindig itt voltam. A repülőjegy visszaváltható?"
+"shout",
+"Állj! Maradj ott, én megyek. A pogácsa velem van. 😇",
+"Állj! Maradj ott, én megyek. A pogácsa velem van."
 ]
 ]
 }

@@ -10,165 +10,253 @@
  "domain": [
   "culture"
  ],
- "title": "혼자 친 박수",
+ "title": "셋째 줄 표",
  "emoji": "🎻",
- "scene": "클래식 콘서트. 음악이 멈춘 줄 알고 A 가 손을 든다",
+ "scene": "Anna 가 클래식 콘서트에 가자고 한다. 표는 온라인으로 사기로 한다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
  },
  "register": "casual",
- "twist": 8,
+ "twist": 7,
  "twist_type": "chaos",
  "flags": [],
- "goal": "말리는 표현(ne + 명령형)과 szerintem",
+ "goal": "공연 표 사기(Megveszem a jegyeket · Melyik sor?)",
  "expressions": [
-  "Szerintem",
-  "Várj",
-  "Úristen"
+  "Szívesen",
+  "Szuper",
+  "Hát"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Ez nagyon szép. Vége van?",
-   "rd": "에즈 너죤 쎄프. 베게 번?",
-   "ko": "이거 너무 좋다. 끝났어?",
-   "note": "vége van = 끝났다",
+   "speaker": "B",
+   "hu": "Szombaton koncert lesz a koncertteremben. Eljössz?",
+   "rd": "쏨버톤 콘체르트 레쓰 어 콘체르떼렘벤. 엘요쓰?",
+   "ko": "토요일에 콘서트홀에서 콘서트 있어. 올래?",
+   "note": "Eljössz? = 올래?",
    "tags": [],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Ez nagyon szép."
-    ],
-    [
-     "neutral",
-     "Vége van?"
-    ]
-   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "nagyon",
-     "nagyon",
-     "너존"
+     "Szombaton",
+     "szombat",
+     "솜바트"
     ],
     [
-     "szép",
-     "szép",
-     "쎕"
+     "koncert",
+     "koncert",
+     ""
     ],
     [
-     "van",
-     "van",
-     "번"
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "koncertteremben",
+     "koncertterem",
+     ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Nem tudom. Szerintem még nincs vége.",
-   "rd": "넴 투돔. 쎄린템 멕 닌치 베게.",
-   "ko": "몰라. 내 생각엔 아직 안 끝났어.",
-   "note": "szerintem = 내 생각엔",
+   "speaker": "A",
+   "hu": "Szívesen! Milyen zene?",
+   "rd": "씨베센! 미옌 제네?",
+   "ko": "좋지! 무슨 음악이야?",
+   "note": "szívesen = 기꺼이",
    "tags": [
-    "expr:Szerintem"
+    "expr:Szívesen"
    ],
-   "emotion": "worried",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "tudom",
-     "tud",
-     "투드"
+     "Szívesen",
+     "szíves",
+     "시베시"
     ],
     [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "nincs",
-     "nincs",
-     "닌치"
-    ],
-    [
-     "vége",
-     "vég",
-     "베그"
+     "zene",
+     "zene",
+     "제네"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Csend van. Akkor most tapsolok!",
-   "rd": "첸드 번. 어꼬르 모슈트 터프숄록!",
-   "ko": "조용하네. 그럼 이제 박수 친다!",
-   "note": "taps = 박수, tapsolok = 박수 친다",
+   "speaker": "B",
+   "hu": "Klasszikus. Hegedű és zongora.",
+   "rd": "클러씨쿠시. 헤게뒤 에시 존고러.",
+   "ko": "클래식. 바이올린이랑 피아노.",
+   "note": "hegedű = 바이올린",
    "tags": [],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Csend van."
-    ],
-    [
-     "excited",
-     "Akkor most tapsolok!"
-    ]
-   ],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Csend",
-     "csen",
-     "첸"
+     "Klasszikus",
+     "klasszikus",
+     ""
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "tapsolok",
-     "tapsol",
+     "zongora",
+     "zongora",
      ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Ne! Várj, {name}, ne tapsolj!",
-   "rd": "네! 바르이, {name}, 네 터프숄이!",
-   "ko": "안 돼! 잠깐, {name}, 박수 치지 마!",
-   "note": "ne tapsolj = 박수 치지 마",
+   "speaker": "A",
+   "hu": "Szuper. Megveszem a jegyeket online.",
+   "rd": "쑤페르. 멕베쎔 어 예제케트 온리네.",
+   "ko": "좋다. 내가 온라인으로 표 살게.",
+   "note": "megveszem = (그것을) 산다",
    "tags": [
-    "expr:Várj"
+    "expr:Szuper"
    ],
-   "emotion": "shout",
+   "emotion": "excited",
    "lemmas": [
     [
-     "tapsolj",
-     "tapsolj",
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "jegyeket",
+     "jegy",
+     ""
+    ],
+    [
+     "online",
+     "online",
      ""
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "Jaj. Mindenki engem néz.",
-   "rd": "여이. 민덴키 엔겜 네즈.",
-   "ko": "아이고. 다들 나만 봐.",
-   "note": "engem = 나를",
+   "speaker": "B",
+   "hu": "Siess, gyorsan elfogynak!",
+   "rd": "시에시, 죠르션 엘포지넉!",
+   "ko": "서둘러, 금방 매진돼!",
+   "note": "elfogy = 다 떨어지다",
    "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Siess",
+     "siet",
+     "시에트"
+    ],
+    [
+     "gyorsan",
+     "gyors",
+     "죠르시"
+    ],
+    [
+     "elfogynak",
+     "elfogy",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Kész! Két jegy, harmadik sor, szombat.",
+   "rd": "케쓰! 케트 예지, 허르머딕 쇼르, 쏨버트.",
+   "ko": "됐다! 두 장, 셋째 줄, 토요일.",
+   "note": "sor = 줄",
+   "tags": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Kész",
+     "kész",
+     "케스"
+    ],
+    [
+     "jegy",
+     "jegy",
+     ""
+    ],
+    [
+     "sor",
+     "sor",
+     "쇼르"
+    ],
+    [
+     "szombat",
+     "szombat",
+     "솜바트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Ügyes! De várj, ez a jövő hónap!",
+   "rd": "위제시! 데 바르이, 에즈 어 요뵈 호너프!",
+   "ko": "잘했어! 근데 잠깐, 이거 다음 달이잖아!",
+   "note": "jövő hónap = 다음 달",
+   "tags": [],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Ügyes!"
+    ],
+    [
+     "surprised",
+     "De várj, ez a jövő hónap!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Ügyes",
+     "ügyes",
+     "위계시"
+    ],
+    [
+     "várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "jövő",
+     "jövő",
+     "요뵈"
+    ],
+    [
+     "hónap",
+     "hónap",
+     "호넙"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj! Hát, legalább van időnk készülni.",
+   "rd": "여이! 하트, 레걸라브 번 이된크 케쓀니.",
+   "ko": "아! 음, 적어도 준비할 시간은 있네.",
+   "note": "legalább = 적어도",
+   "tags": [
+    "expr:Hát"
+   ],
    "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj!"
+    ],
+    [
+     "amused",
+     "Hát, legalább van időnk készülni."
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",
@@ -176,119 +264,24 @@
      "야이"
     ],
     [
-     "néz",
-     "néz",
-     "네즈"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Várj... most mindenki tapsol!",
-   "rd": "바르이... 모슈트 민덴키 터프숄!",
-   "ko": "잠깐… 이제 다 박수 쳐!",
-   "note": "mindenki = 모두(동사는 단수)",
-   "tags": [
-    "expr:Várj"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "tapsol",
-     "tapsol",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "A karmester is meghajol. Mi van?",
-   "rd": "어 커르메슈테르 이시 멕허욜. 미 번?",
-   "ko": "지휘자도 인사하네. 뭐야?",
-   "note": "karmester = 지휘자",
-   "tags": [],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "A karmester is meghajol."
-    ],
-    [
-     "surprised",
-     "Mi van?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "karmester",
-     "karmester",
-     ""
-    ],
-    [
-     "meghajol",
-     "meghajol",
-     ""
+     "legalább",
+     "legalább",
+     "레걸랍"
     ],
     [
      "van",
      "van",
      "번"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Úristen, hazamegy! Ennyi volt a koncert.",
-   "rd": "우리슈텐, 허저메지! 에니 볼트 어 콘체르트.",
-   "ko": "세상에, 집에 간다! 콘서트 이걸로 끝이야.",
-   "note": "ennyi volt = 이게 다였다",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Úristen, hazamegy!"
     ],
     [
-     "amused",
-     "Ennyi volt a koncert."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
+     "időnk",
+     "időnk",
+     "이되크"
     ],
     [
-     "hazamegy",
-     "hazamegy",
-     "허저메지"
-    ],
-    [
-     "volt",
-     "van",
-     "번"
-    ],
-    [
-     "koncert",
-     "koncert",
-     ""
+     "készülni",
+     "készül",
+     "케쓸"
     ]
    ]
   }

@@ -8,11 +8,7 @@
 "segs": [
 [
 "polite",
-"Jó napot!"
-],
-[
-"worried",
-"Folyik a víz."
+"Jó napot! Elküldtem a lakbért."
 ]
 ]
 },
@@ -20,48 +16,63 @@
 "segs": [
 [
 "worried",
-"A konyhában."
+"És elromlott a mosógép. 😟",
+"És elromlott a mosógép."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"worried",
-"Most már a szobában is."
+"cheerful",
+"Megkaptam, köszönöm! 👍",
+"Megkaptam, köszönöm!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Dávid úszik. 😅",
-"Dávid úszik."
+"worried",
+"És a mosógép?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"shout",
-"Kérem, válaszoljon!"
+"stiff",
+"Laci bácsi? 🙂",
+"Laci bácsi?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"polite",
-"Jó napot! Bocsánat, fürdőben voltam."
+"neutral",
+"Bocsánat! Rúgjon bele egyszer, jobb oldalt."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"tsukkomi",
-"Nem baj. Most már itt is fürdő van."
+"surprised",
+"Komolyan? 😳",
+"Komolyan?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Tényleg működik!"
+],
+[
+"stiff",
+"Köszönöm, azt hiszem."
 ]
 ]
 }

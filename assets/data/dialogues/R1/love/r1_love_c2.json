@@ -10,36 +10,36 @@
  "domain": [
   "love"
  ],
- "title": "나 언너인데",
+ "title": "방을 잘못 골랐다, 또",
  "emoji": "📲",
- "scene": "Réka 에게 보낸 줄 알았던 메시지가 Anna 에게 갔다. 그리고 또 갔다",
+ "scene": "토요일 데이트 전날 밤. Réka 에게 보낸 줄 알았던 메시지가 Anna 에게 갔다. 당황해서 또 보낸다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
  },
  "register": "chat",
- "twist": 6,
+ "twist": 5,
  "twist_type": "chaos",
  "flags": [
   "romance"
  ],
- "goal": "도움 청하기(Segíts!)와 채팅에서 놀랄 때",
+ "goal": "무엇을 입을지 묻기(Mit vegyek fel?)와 채팅에서 놀랄 때",
  "expressions": [
   "Úristen",
-  "Segíts",
-  "Ne már"
+  "Bocsi",
+  "Segíts"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Réka, Anna nagyon cuki!",
-   "rd": "레커, 언너 너죤 추키!",
-   "ko": "레카, 언너 너무 귀여워!",
-   "note": "cuki = 귀여운",
+   "hu": "Réka, mit vegyek fel szombatra? 😩",
+   "rd": "레커, 미트 베젝 펠 쏨버트러? 😩",
+   "ko": "레카, 토요일에 뭐 입지? 😩",
+   "note": "mit vegyek fel? = 뭘 입을까?",
    "tags": [],
    "at": "20:10",
-   "emotion": "excited",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -48,71 +48,87 @@
      ""
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
+     "vegyek",
+     "vesz",
+     "베쓰"
     ],
     [
-     "cuki",
-     "cuki",
-     ""
+     "fel",
+     "fel",
+     "펠"
+    ],
+    [
+     "szombatra",
+     "szombat",
+     "솜바트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Mit írjak neki?",
-   "rd": "미트 이르역 네키?",
-   "ko": "뭐라고 쓰지?",
-   "note": "írjak = 내가 쓸까",
+   "hu": "Anna biztos szép lesz.",
+   "rd": "언너 비즈토시 쎄프 레쓰.",
+   "ko": "언너는 분명 예쁠 거야.",
+   "note": "biztos = 분명",
    "tags": [],
-   "at": "20:10",
+   "at": "20:11",
    "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
-     "írjak",
-     "írja",
+     "Anna",
+     "anna",
      ""
+    ],
+    [
+     "biztos",
+     "biztos",
+     "비즈토슈"
+    ],
+    [
+     "szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Szia. Anna vagyok. 😄",
-   "rd": "씨어. 언너 버죡. 😄",
-   "ko": "안녕. 나 언너인데. 😄",
-   "note": "… vagyok = 나는 …야",
+   "hu": "Szia. Ez Anna. 😄",
+   "rd": "씨어. 에즈 언너. 😄",
+   "ko": "안녕. 나 언너야. 😄",
+   "note": "ez = 이것, 이 사람",
    "tags": [],
-   "at": "20:12",
-   "emotion": "teasing",
+   "at": "20:13",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
      "Szia",
      "szia",
      "씨어"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Úristen. Rossz chat!",
-   "rd": "우리슈텐. 로쓰 츠허트!",
-   "ko": "세상에. 방을 잘못 왔어!",
+   "hu": "Úristen. Bocsi, rossz chat!",
+   "rd": "우리슈텐. 보치, 로쓰 츠허트!",
+   "ko": "세상에. 미안, 방 잘못 골랐어!",
    "note": "rossz = 잘못된",
    "tags": [
-    "expr:Úristen"
+    "expr:Úristen",
+    "expr:Bocsi"
    ],
-   "at": "20:12",
+   "at": "20:13",
    "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
@@ -120,6 +136,11 @@
      "Úristen",
      "úristen",
      "우리슈텐"
+    ],
+    [
+     "rossz",
+     "rossz",
+     "로쓰"
     ],
     [
      "chat",
@@ -131,15 +152,15 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Réka, segíts! Mit mondjak?",
-   "rd": "레커, 세기트시! 미트 몬드역?",
-   "ko": "레카, 도와줘! 뭐라고 하지?",
+   "hu": "Réka, segíts! Anna mindent látott! 😱",
+   "rd": "레커, 세기트시! 언너 민덴트 라토트! 😱",
+   "ko": "레카, 도와줘! 언너가 다 봤어! 😱",
    "note": "segíts = 도와줘",
    "tags": [
     "expr:Segíts"
    ],
-   "at": "20:13",
-   "emotion": "flustered",
+   "at": "20:14",
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
@@ -153,22 +174,22 @@
      "셰기트"
     ],
     [
-     "mondjak",
-     "mond",
-     "몬드"
+     "látott",
+     "lát",
+     "라트"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Még mindig én vagyok.",
-   "rd": "멕 민딕 엔 버죡.",
-   "ko": "아직도 나야.",
+   "hu": "Még mindig én vagyok. 😂",
+   "rd": "멕 민딕 엔 버죡. 😂",
+   "ko": "아직도 나야. 😂",
    "note": "még mindig = 아직도",
    "tags": [],
-   "at": "20:13",
-   "emotion": "tsukkomi",
+   "at": "20:14",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
@@ -190,62 +211,46 @@
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Jó. Elköltözöm.",
-   "rd": "요. 엘쾰퇴죔.",
-   "ko": "알았어. 나 이사 갈게.",
-   "note": "elköltözöm = 이사 간다",
-   "tags": [],
-   "at": "20:14",
-   "emotion": "sad",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Jó",
-     "jó",
-     "요"
-    ]
-   ]
-  },
-  {
-   "num": 8,
    "speaker": "B",
-   "hu": "Ne már! Holnap is cuki leszek.",
-   "rd": "네 마르! 홀너프 이시 추키 레쎅.",
-   "ko": "에이 왜 그래! 내일도 귀여울게.",
-   "note": "ne már = 에이, 그러지 마",
-   "tags": [
-    "expr:Ne már"
-   ],
-   "at": "20:15",
-   "stamp": "😇",
-   "emotion": "teasing",
-   "segs": [
-    [
-     "teasing",
-     "Ne már!"
-    ],
-    [
-     "gentle",
-     "Holnap is cuki leszek."
-    ]
-   ],
+   "hu": "Amúgy a kék pulóver jó. Múlt héten is tetszett. 🙈",
+   "rd": "어무지 어 켁 풀로베르 요. 물트 헤텐 이시 테트쎄트. 🙈",
+   "ko": "그나저나 파란 스웨터 좋아. 지난주에도 마음에 들었어. 🙈",
+   "note": "tetszett = 마음에 들었다",
+   "tags": [],
+   "at": "20:16",
+   "stamp": "🙈",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
-     "már",
-     "már",
-     "마르"
+     "Amúgy",
+     "amúgy",
+     "어무지"
     ],
     [
-     "cuki",
-     "cuki",
+     "kék",
+     "kék",
+     "케크"
+    ],
+    [
+     "pulóver",
+     "pulóver",
      ""
     ],
     [
-     "leszek",
-     "lesz",
-     "레쓰"
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "héten",
+     "hét",
+     "헤트"
+    ],
+    [
+     "tetszett",
+     "tetszik",
+     "테트씨크"
     ]
    ]
   }

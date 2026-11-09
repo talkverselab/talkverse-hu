@@ -10,203 +10,209 @@
  "domain": [
   "love"
  ],
- "title": "음악이 멈춘 순간",
- "emoji": "🪩",
- "scene": "시끄러운 클럽. Anna 가 춤을 청하는데 안 들린다. 소리친 순간 음악이 딱 멈춘다",
+ "title": "아직 시작도 안 했어",
+ "emoji": "🍿",
+ "scene": "영화관 매표소 앞. 무슨 영화를 볼지 고르는데 Anna 가 공포 영화에 괜히 센 척한다",
  "speakers": {
   "A": "{name}",
-  "B": "Anna",
-  "C": "DJ"
+  "B": "Anna"
  },
  "register": "casual",
- "twist": 6,
- "twist_type": "chaos",
+ "twist": 7,
+ "twist_type": "emotion",
  "flags": [
   "romance"
  ],
- "goal": "못 들었을 때 되묻기, 크게 말해 달라고 하기",
+ "goal": "영화 고르기(Melyiket nézzük?)와 의견 말하기(Szerintem)",
  "expressions": [
-  "Tessék?",
-  "Mi van?",
-  "Légyszi",
-  "Nem baj"
+  "Szerintem",
+  "Hát",
+  "Persze"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Táncolsz velem?",
-   "rd": "씨어! 탄촐쓰 벨렘?",
-   "ko": "안녕! 나랑 춤출래?",
-   "note": "velem = 나랑",
+   "hu": "Melyiket nézzük? Egy vígjátékot?",
+   "rd": "메이케트 네쥑? 에지 빅야테코트?",
+   "ko": "뭐 볼까? 코미디?",
+   "note": "melyiket = 어느 것을",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Szia",
-     "szia",
-     "씨어"
+     "nézzük",
+     "néz",
+     "네즈"
+    ],
+    [
+     "vígjátékot",
+     "vígjáték",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Tessék? Nem hallom!",
-   "rd": "테쎅? 넴 헐롬!",
-   "ko": "뭐라고? 안 들려!",
-   "note": "nem hallom = 안 들려",
+   "hu": "Szerintem ezt a horrort. Jó?",
+   "rd": "쎄린템 에즈트 어 호로르트. 요?",
+   "ko": "내 생각엔 이 공포 영화. 괜찮아?",
+   "note": "szerintem = 내 생각엔",
    "tags": [
-    "expr:Tessék?"
+    "expr:Szerintem"
    ],
-   "emotion": "shout",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
-    ],
-    [
-     "hallom",
-     "hall",
-     "헐"
+     "horrort",
+     "horror",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Azt kérdeztem: táncolsz velem?",
-   "rd": "어즈트 케르데즈템: 탄촐쓰 벨렘?",
-   "ko": "물었잖아, 나랑 춤출래?",
-   "note": "azt kérdeztem = 내가 물은 건",
-   "tags": [],
-   "emotion": "shout",
+   "hu": "Horror? Hát... persze, jó.",
+   "rd": "호로르? 하트... 페르쎄, 요.",
+   "ko": "공포? 음… 그래, 좋아.",
+   "note": "hát = 음",
+   "tags": [
+    "expr:Hát",
+    "expr:Persze"
+   ],
+   "emotion": "stiff",
    "lemmas": [
     [
-     "kérdeztem",
-     "kérdez",
-     "케르데즈"
+     "Horror",
+     "horror",
+     ""
     ],
     [
-     "táncolsz",
-     "táncol",
-     "탄촐"
+     "persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Mi van? Hangosabban, légyszi!",
-   "rd": "미 번? 헌고셔번, 레지씨!",
-   "ko": "뭐? 더 크게, 제발!",
-   "note": "hangosabban = 더 크게",
-   "tags": [
-    "expr:Mi van?",
-    "expr:Légyszi"
-   ],
-   "emotion": "shout",
+   "hu": "Biztos? Nem félsz?",
+   "rd": "비즈토시? 넴 펠쓰?",
+   "ko": "확실해? 안 무서워?",
+   "note": "félsz = 너 무서워한다",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "Biztos",
+     "biztos",
+     "비즈토슈"
     ],
     [
-     "légyszi",
-     "légyszi",
-     ""
+     "félsz",
+     "fél",
+     "펠"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "TÁNCOLSZ VELEM?!",
-   "rd": "탄촐쓰 벨렘?!",
-   "ko": "나랑 춤출 거냐고?!",
-   "note": "táncolsz = 네가 춤춘다",
+   "hu": "Én? Soha nem félek.",
+   "rd": "엔? 쇼허 넴 펠렉.",
+   "ko": "내가? 난 절대 안 무서워.",
+   "note": "soha nem = 절대 안",
    "tags": [],
-   "emotion": "shout",
+   "emotion": "stiff",
    "lemmas": [
     [
-     "TÁNCOLSZ",
-     "táncol",
-     "탄촐"
+     "félek",
+     "fél",
+     "펠"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "C",
-   "hu": "Na, táncolsz vele vagy nem?",
-   "rd": "너, 탄촐쓰 벨레 버지 넴?",
-   "ko": "자, 저분이랑 출 거야 말 거야?",
-   "note": "vele = 그 사람이랑",
+   "speaker": "A",
+   "hu": "Még el sem kezdődött. Miért fogod a kezem?",
+   "rd": "멕 엘 셈 케즈되되트. 미에르트 포고드 어 케젬?",
+   "ko": "아직 시작도 안 했어. 왜 내 손 잡고 있어?",
+   "note": "fogod = 네가 그걸 잡고 있다",
    "tags": [],
    "emotion": "amused",
-   "lemmas": [
+   "segs": [
     [
-     "Na",
-     "na",
-     "너"
+     "amused",
+     "Még el sem kezdődött."
     ],
     [
-     "táncolsz",
-     "táncol",
-     "탄촐"
+     "teasing",
+     "Miért fogod a kezem?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Még",
+     "még",
+     "메그"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "kezdődött",
+     "kezdődik",
+     "케즈되디크"
+    ],
+    [
+     "fogod",
+     "fog",
+     "포그"
+    ],
+    [
+     "kezem",
+     "kéz",
+     "케즈"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Jaj, mindenki minket néz.",
-   "rd": "여이, 민덴키 민케트 네즈.",
-   "ko": "아이고, 다들 우리를 봐.",
-   "note": "minket = 우리를",
-   "tags": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "néz",
-     "néz",
-     "네즈"
-    ]
-   ]
-  },
-  {
-   "num": 8,
    "speaker": "B",
-   "hu": "Nem baj. Én csak téged nézlek.",
-   "rd": "넴 버이. 엔 척 테게드 네즐렉.",
-   "ko": "괜찮아. 나는 너만 봐.",
-   "note": "nézlek = 내가 너를 본다",
+   "hu": "Csak hátha te félsz.",
+   "rd": "척 하트허 테 펠쓰.",
+   "ko": "그냥 혹시 네가 무서울까 봐.",
+   "note": "hátha = 혹시 ~할까 봐",
    "tags": [
-    "expr:Nem baj"
+    "expr:Hát"
    ],
-   "emotion": "gentle",
+   "emotion": "shy",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
-    ],
-    [
-     "csak",
+     "Csak",
      "csak",
      "촉"
     ],
     [
-     "nézlek",
-     "nézlek",
-     ""
+     "hátha",
+     "hátha",
+     "하터허"
+    ],
+    [
+     "félsz",
+     "fél",
+     "펠"
     ]
    ]
   }

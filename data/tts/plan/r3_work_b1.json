@@ -8,47 +8,47 @@
 "segs": [
 [
 "polite",
-"Jó napot, foglaljon helyet! Sajnos ma nem működik a légkondi."
+"Jó napot! Foglaljon helyet. Kér egy pohár vizet?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Semmi baj. Köszönöm, hogy behívott."
+"shy",
+"Igen, köszönöm. Egy kicsit izgulok."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"stiff",
-"Szóval, miért szeretne nálunk dolgozni?"
+"gentle",
+"Semmi baj, ez természetes. Meséljen egy kicsit magáról!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Mert szeretek emberekkel beszélni, és tavaly óta magyarul is tudok."
+"stiff",
+"Két éve élek Budapesten, és egy irodában dolgoztam asszisztensként."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"stiff",
-"Nagyszerű. Mi a legnagyobb gyengesége?"
+"neutral",
+"Értem. Miért hagyta ott az előző munkahelyét?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shy",
-"Hát, igazából a ragok. Néha rosszul mondom őket."
+"polite",
+"A cég Bécsbe költözött, én pedig itt szeretnék maradni."
 ]
 ]
 },
@@ -56,59 +56,51 @@
 "segs": [
 [
 "polite",
-"Így is jól beszél."
-],
-[
-"worried",
-"De piros az arca, minden rendben?"
+"Szép döntés. Az ügyfeleink fele külföldi, milyen nyelveken beszél?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"polite",
-"Elnézést, nagyon meleg vagyok."
+"cheerful",
+"Angolul jól, magyarul pedig egyre jobban."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"Ó, köszönöm, hogy elmondta."
-],
-[
-"polite",
-"Nálunk ez nem probléma."
+"gentle",
+"És mit csinál szívesen a szabadidejében?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"surprised",
-"Tényleg?"
-],
-[
-"neutral",
-"Pedig reggel óta nagyon meleg vagyok, nyáron mindig."
+"amused",
+"Úszni járok, és most tanulok főzni. A gulyás még nem megy."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"stiff",
-"Nyáron? És télen nem?"
+"amused",
+"Az senkinek sem megy elsőre."
+],
+[
+"polite",
+"Nos, van kérdése?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"neutral",
-"Télen nem. Télen nagyon hideg vagyok."
+"polite",
+"Igen. Mikor vesz fel?"
 ]
 ]
 },
@@ -116,28 +108,31 @@
 "segs": [
 [
 "surprised",
-"Várjon... Ön azt akarja mondani, hogy melege van?",
-"Várjon, Ön azt akarja mondani, hogy melege van?"
+"Mikor veszem fel?"
+],
+[
+"amused",
+"Ön nagyon magabiztos!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"cheerful",
-"Igen, melegem van!"
-],
-[
-"worried",
-"Miért, mit mondtam?"
+"flustered",
+"Jaj, nem! Úgy értettem, mikor hív fel?"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"amused",
-"Semmit. Holnap kezdhet, a gyengeségét már ismerjük."
+"gentle",
+"Holnap felhívom."
+],
+[
+"teasing",
+"És szerintem fel is veszem."
 ]
 ]
 }

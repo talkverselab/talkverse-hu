@@ -11,9 +11,9 @@
  "domain": [
   "culture"
  ],
- "title": "우리 마을 춤",
+ "title": "구경만 하려고 했는데",
  "emoji": "💃",
- "scene": "Réka 가 끌고 간 민속춤 모임(táncház). 왼발과 오른발이 헷갈리기 시작한다",
+ "scene": "Réka 가 민속춤 모임(táncház)에 가자고 한다. 구경만 할 생각이었다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
@@ -23,36 +23,32 @@
  "twist": 10,
  "twist_type": "chaos",
  "flags": [],
- "goal": "방향 말(balra, jobbra)과 ne + 명령형",
+ "goal": "거절하기·설득당하기와 방향 말(jobbra · balra)",
  "expressions": [
-  "Gyere",
-  "Komolyan?",
-  "bocsi",
-  "nem baj",
-  "Szóval"
+  "Jaj",
+  "Semmi baj",
+  "Hát"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Gyere, ma táncház van. Nem nehéz, csak figyelj a lábamra.",
-   "rd": "제레, 머 탄츠하즈 번. 넴 네헤즈, 척 피젤이 어 라범러.",
-   "ko": "와, 오늘 민속춤 모임이야. 안 어려워, 내 발만 봐.",
+   "hu": "Ma este táncház van. Eljössz?",
+   "rd": "머 에슈테 탄츠하즈 번. 엘요쓰?",
+   "ko": "오늘 저녁 민속춤 모임 있어. 올래?",
    "note": "táncház = 민속춤 모임",
-   "tags": [
-    "expr:Gyere"
-   ],
-   "emotion": "cheerful",
+   "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Gyere",
-     "jön",
-     "왼"
-    ],
-    [
-     "ma",
+     "Ma",
      "ma",
      "머"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
     ],
     [
      "táncház",
@@ -63,187 +59,23 @@
      "van",
      "van",
      "번"
-    ],
-    [
-     "nehéz",
-     "nehéz",
-     "네헤즈"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "lábamra",
-     "lábam",
-     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Komolyan? Nekem két bal lábam van.",
-   "rd": "코모연? 네켐 케트 벌 라범 번.",
-   "ko": "진짜? 나 왼발만 두 개야.",
-   "note": "két bal lába van = 몸치다",
-   "tags": [
-    "expr:Komolyan?"
-   ],
+   "hu": "Táncház? Én nem tudok táncolni.",
+   "rd": "탄츠하즈? 엔 넴 투독 탄촐니.",
+   "ko": "민속춤? 나 춤 못 춰.",
+   "note": "nem tudok = 못 한다",
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "Komolyan",
-     "komoly",
-     "코모이"
-    ],
-    [
-     "bal",
-     "bal",
-     "벌"
-    ],
-    [
-     "lábam",
-     "láb",
-     "라브"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "C",
-   "hu": "Balra, jobbra, balra, ugrás! Egyszerű, ugye?",
-   "rd": "벌러, 요브러, 벌러, 욱라시! 에지쎄뤼, 우제?",
-   "ko": "왼쪽, 오른쪽, 왼쪽, 점프! 쉽지?",
-   "note": "balra = 왼쪽으로, jobbra = 오른쪽으로",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Balra",
-     "bal",
-     "벌"
-    ],
-    [
-     "jobbra",
-     "jobb",
+     "Táncház",
+     "táncház",
      ""
-    ],
-    [
-     "ugrás",
-     "ugrás",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Jaj, bocsi! Ez a te lábad volt?",
-   "rd": "여이, 보치! 에즈 어 테 라버드 볼트?",
-   "ko": "앗, 미안! 이거 네 발이었어?",
-   "note": "bocsi = 미안",
-   "tags": [
-    "expr:bocsi"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "bocsi",
-     "bocsi",
-     "보치"
-    ],
-    [
-     "lábad",
-     "láb",
-     "라브"
-    ],
-    [
-     "volt",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Igen, de nem baj. Csak ne ugorj többet!",
-   "rd": "이겐, 데 넴 버이. 척 네 우고르이 퇴베트!",
-   "ko": "응, 괜찮아. 더 뛰지만 마!",
-   "note": "ne ugorj = 뛰지 마",
-   "tags": [
-    "expr:nem baj"
-   ],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Igen, de nem baj."
-    ],
-    [
-     "annoyed",
-     "Csak ne ugorj többet!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "baj",
-     "baj",
-     "버이"
-    ],
-    [
-     "ugorj",
-     "ugrik",
-     "우그릭"
-    ],
-    [
-     "többet",
-     "több",
-     "퇴그"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Elfelejtettem, melyik a bal. Forgok, és nem tudok megállni!",
-   "rd": "엘펠레이테뗌, 메익 어 벌. 포르곡, 에시 넴 투독 메갈니!",
-   "ko": "어느 쪽이 왼쪽인지 까먹었어. 돌고 있는데 못 멈추겠어!",
-   "note": "forog = 돌다",
-   "tags": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Elfelejtettem",
-     "elfelejtett",
-     ""
-    ],
-    [
-     "bal",
-     "bal",
-     "벌"
     ],
     [
      "tudok",
@@ -251,159 +83,276 @@
      "투드"
     ],
     [
-     "megállni",
-     "megáll",
-     "메갈"
+     "táncolni",
+     "táncol",
+     "탄촐"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Senki sem tud. Azért megyünk, hogy tanuljunk.",
+   "rd": "센키 셈 투드. 어제르트 메쥔크, 호지 터눌윤크.",
+   "ko": "아무도 못 춰. 배우려고 가는 거야.",
+   "note": "azért … hogy = ~하려고",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "tud",
+     "tud",
+     "투드"
+    ],
+    [
+     "megyünk",
+     "megy",
+     "메지"
+    ],
+    [
+     "tanuljunk",
+     "tanul",
+     "타눌"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Jó, de csak nézni megyek.",
+   "rd": "요, 데 척 네즈니 메젝.",
+   "ko": "좋아, 근데 구경만 하러 가는 거야.",
+   "note": "csak nézni = 보기만",
+   "tags": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "nézni",
+     "néz",
+     "네즈"
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Sziasztok! Álljatok körbe!",
+   "rd": "씨어쓰톡! 알여톡 쾨르베!",
+   "ko": "안녕, 여러분! 둥글게 서세요!",
+   "note": "körbe = 둥글게",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Sziasztok",
+     "sziasztok",
+     "씨어스톡"
+    ],
+    [
+     "körbe",
+     "kör",
+     "쾨르"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Réka, én csak nézni jöttem!",
+   "rd": "레커, 엔 척 네즈니 요뗌!",
+   "ko": "레카, 나 구경만 하러 왔다니까!",
+   "note": "jöttem = 왔다",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "nézni",
+     "néz",
+     "네즈"
+    ],
+    [
+     "jöttem",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Várj, mi van? Nézd, a többiek is forognak!",
-   "rd": "바르이, 미 번? 네즈드, 어 퇴비엑 이시 포록넉!",
-   "ko": "잠깐, 뭐야? 봐, 다른 사람들도 돌아!",
-   "note": "a többiek = 나머지 사람들",
+   "hu": "Késő. Fogd meg a kezem!",
+   "rd": "케쇠. 폭드 멕 어 케젬!",
+   "ko": "늦었어. 내 손 잡아!",
+   "note": "fogd meg = 잡아",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "Késő",
+     "késik",
+     "케시크"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "többiek",
-     "többi",
-     "퇴비"
-    ],
-    [
-     "forognak",
-     "forog",
-     ""
+     "kezem",
+     "kéz",
+     "케즈"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Mi ez a lépés? Melyik faluból hoztad?",
-   "rd": "미 에즈 어 레페시? 메익 펄루볼 호즈터드?",
-   "ko": "이 스텝 뭐야? 어느 마을에서 가져왔어?",
-   "note": "lépés = 스텝, 걸음",
+   "hu": "Most két lépés jobbra, egy balra!",
+   "rd": "모슈트 케트 레페시 요브러, 에지 벌러!",
+   "ko": "이제 오른쪽으로 두 걸음, 왼쪽으로 한 걸음!",
+   "note": "jobbra = 오른쪽으로",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "cheerful",
    "lemmas": [
+    [
+     "Most",
+     "most",
+     "모슈트"
+    ],
     [
      "lépés",
      "lépés",
      "레페스"
     ],
     [
-     "faluból",
-     "falu",
+     "jobbra",
+     "jobb",
      ""
     ],
     [
-     "hoztad",
-     "hoz",
-     "호즈"
+     "balra",
+     "bal",
+     "벌"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Izé... ez a mi falunk tánca.",
-   "rd": "이제... 에즈 어 미 펄룬크 탄처.",
-   "ko": "어… 저희 마을 춤이에요.",
-   "note": "izé = 어…(말 막힐 때)",
-   "tags": [],
+   "hu": "Jobbra, balra... Jaj, bocsánat!",
+   "rd": "요브러, 벌러... 여이, 보차너트!",
+   "ko": "오른쪽, 왼쪽… 아, 죄송해요!",
+   "note": "bocsánat = 죄송해요",
+   "tags": [
+    "expr:Jaj"
+   ],
    "emotion": "flustered",
    "lemmas": [
     [
-     "Izé",
-     "izé",
+     "Jobbra",
+     "jobb",
      ""
     ],
     [
-     "falunk",
-     "fal",
-     "펄"
+     "balra",
+     "bal",
+     "벌"
     ],
     [
-     "tánca",
-     "tánca",
-     ""
+     "bocsánat",
+     "bocsánat",
+     "버치너트"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "C",
-   "hu": "Hallottátok? Mától ez a neve: {name} tánca!",
-   "rd": "헐로따톡? 마톨 에즈 어 네베: {name} 탄처!",
-   "ko": "들었지? 오늘부터 이름은 {name} 춤이다!",
-   "note": "mától = 오늘부터",
-   "tags": [],
-   "emotion": "excited",
+   "hu": "Semmi baj! Gyere középre, mutassuk meg együtt!",
+   "rd": "셈미 버이! 제레 쾨제프레, 무터쓕 멕 에쥐트!",
+   "ko": "괜찮아요! 가운데로 나와요, 같이 시범 보여 줘요!",
+   "note": "mutassuk meg = 보여 주자",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Hallottátok",
-     "hallik",
-     "헐릭"
+     "baj",
+     "baj",
+     "버이"
     ],
     [
-     "neve",
-     "név",
-     "네브"
-    ],
-    [
-     "tánca",
-     "tánca",
+     "középre",
+     "közép",
      ""
+    ],
+    [
+     "mutassuk",
+     "mutat",
+     "무타트"
+    ],
+    [
+     "együtt",
+     "együtt",
+     "에듀트"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "B",
-   "hu": "Szóval jövő héten te tanítod. Százan jönnek.",
-   "rd": "쏘벌 요뵈 헤텐 테 터니토드. 싸전 욘넥.",
-   "ko": "그러니까 다음 주엔 네가 가르쳐. 백 명 온대.",
-   "note": "százan = 백 명이서",
+   "speaker": "A",
+   "hu": "Hát... én tényleg csak nézni jöttem.",
+   "rd": "하트... 엔 테닐렉 척 네즈니 요뗌.",
+   "ko": "음… 나 정말 구경만 하러 왔는데.",
+   "note": "tényleg = 정말",
    "tags": [
-    "expr:Szóval"
+    "expr:Hát"
    ],
-   "emotion": "teasing",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Szóval",
-     "szó",
-     "쏘"
+     "Hát",
+     "hát",
+     "핫"
     ],
     [
-     "jövő",
-     "jövő",
-     "요뵈"
+     "tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "héten",
-     "hét",
-     "헤트"
+     "csak",
+     "csak",
+     "촉"
     ],
     [
-     "tanítod",
-     "tanít",
-     "터니트"
+     "nézni",
+     "néz",
+     "네즈"
     ],
     [
-     "jönnek",
+     "jöttem",
      "jön",
      "왼"
     ]

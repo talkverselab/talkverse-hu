@@ -11,286 +11,44 @@
  "domain": [
   "travel"
  ],
- "title": "오늘의 검표원",
- "emoji": "🧥",
- "scene": "한겨울 온천 탈의실. 옷이 사라지고 사물함에 낯선 제복만 남았다",
+ "title": "쪽지는 어디에",
+ "emoji": "🧳",
+ "scene": "동역. 기차까지 네 시간이 남아 Dávid 와 짐을 자동 보관함에 맡기고 시내에 다녀온다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid",
-  "C": "Néni",
-  "D": "Ellenőr"
+  "C": "Őr"
  },
  "register": "mixed",
- "twist": 9,
+ "twist": 15,
  "twist_type": "chaos",
  "flags": [],
- "goal": "없어진 물건 설명하기와 검표 상황 표현",
+ "goal": "짐 보관하기와 잃어버린 것 설명하기(csomagmegőrző · Nincs meg)",
  "expressions": [
-  "Hogyhogy",
-  "Viccelsz",
-  "Gyere",
-  "Izé",
-  "Nézd",
-  "Hát"
+  "Komolyan",
+  "Nézd meg",
+  "Hát persze"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Dávid, baj van. Az öltözőben valaki elvitte a ruhámat.",
-   "rd": "다비드, 버이 번. 어즈 욀퇴죄벤 벌러키 엘비떼 어 루하머트.",
-   "ko": "다비드, 큰일이야. 탈의실에서 누가 내 옷을 가져갔어.",
-   "note": "öltöző = 탈의실",
-   "tags": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Dávid",
-     "dávid",
-     ""
-    ],
-    [
-     "baj",
-     "baj",
-     "버이"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "öltözőben",
-     "öltöző",
-     ""
-    ],
-    [
-     "elvitte",
-     "elvisz",
-     "엘비스"
-    ],
-    [
-     "ruhámat",
-     "ruha",
-     "루하"
-    ]
-   ]
-  },
-  {
-   "num": 2,
    "speaker": "B",
-   "hu": "Hogyhogy elvitte? Mi maradt a szekrényben?",
-   "rd": "호지호지 엘비떼? 미 머러드트 어 쎅레니벤?",
-   "ko": "어떻게 가져가? 사물함에 뭐가 남았어?",
-   "note": "szekrény = 사물함, 장",
-   "tags": [
-    "expr:Hogyhogy"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Hogyhogy",
-     "hogyhogy",
-     ""
-    ],
-    [
-     "elvitte",
-     "elvisz",
-     "엘비스"
-    ],
-    [
-     "maradt",
-     "marad",
-     "머러드"
-    ],
-    [
-     "szekrényben",
-     "szekrény",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "hu": "Csak ez a sötétkék kabát, egy sapka meg egy kis gép.",
-   "rd": "척 에즈 어 쇠테트켁 커바트, 에지 셔프커 멕 에지 키시 게프.",
-   "ko": "이 남색 재킷이랑 모자, 작은 기계뿐이야.",
-   "note": "gép = 기계",
+   "hu": "Még négy óra a vonatig. Hagyjuk itt a táskákat, és menjünk be a városba!",
+   "rd": "멕 네지 오러 어 보너틱. 허지육 이트 어 타슈카커트, 에시 멘윈크 베 어 바로슈버!",
+   "ko": "기차까지 아직 네 시간이야. 가방 여기 맡기고 시내 가자!",
+   "note": "hagyjuk = 우리 그것을 두자",
    "tags": [],
-   "emotion": "neutral",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Csak",
-     "csak",
-     "촉"
+     "Még",
+     "még",
+     "메그"
     ],
     [
-     "sötétkék",
-     "sötétkék",
+     "vonatig",
+     "vonat",
      ""
-    ],
-    [
-     "kabát",
-     "kabát",
-     ""
-    ],
-    [
-     "sapka",
-     "sapka",
-     ""
-    ],
-    [
-     "kis",
-     "kis",
-     "키시"
-    ],
-    [
-     "gép",
-     "gép",
-     "게프"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Várj, ez egy ellenőr egyenruhája! Legalább meleg.",
-   "rd": "바르이, 에즈 에지 엘레뇌르 에젠루하여! 레걸라브 멜렉.",
-   "ko": "잠깐, 이거 검표원 제복이잖아! 적어도 따뜻하네.",
-   "note": "egyenruha = 제복",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Várj, ez egy ellenőr egyenruhája!"
-    ],
-    [
-     "amused",
-     "Legalább meleg."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "ellenőr",
-     "ellenőr",
-     ""
-    ],
-    [
-     "egyenruhája",
-     "egyenruha",
-     ""
-    ],
-    [
-     "meleg",
-     "meleg",
-     "멜레그"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Viccelsz? Ebben menjek haza a villamossal?",
-   "rd": "비쩰쓰? 에벤 멘옉 허저 어 빌러모쎨?",
-   "ko": "농담해? 이거 입고 트램 타고 집에 가라고?",
-   "note": "ebben = 이것을 입고",
-   "tags": [
-    "expr:Viccelsz"
-   ],
-   "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "Viccelsz",
-     "viccel",
-     "비츠첼"
-    ],
-    [
-     "menjek",
-     "megy",
-     "메지"
-    ],
-    [
-     "haza",
-     "haza",
-     "허저"
-    ],
-    [
-     "villamossal",
-     "villamos",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Nincs más, kint mínusz tíz fok van. Gyere!",
-   "rd": "닌치 마시, 킨트 미누쓰 티즈 폭 번. 제레!",
-   "ko": "다른 수 없어, 밖은 영하 10도야. 와!",
-   "note": "fok = 도",
-   "tags": [
-    "expr:Gyere"
-   ],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Nincs",
-     "nincs",
-     "닌치"
-    ],
-    [
-     "más",
-     "más",
-     "마시"
-    ],
-    [
-     "kint",
-     "kint",
-     "킨트"
-    ],
-    [
-     "mínusz",
-     "mínusz",
-     ""
-    ],
-    [
-     "fok",
-     "fok",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "C",
-   "hu": "Jó napot! Tessék, itt a bérletem, érvényes!",
-   "rd": "요 너포트! 테쎅, 이트 어 베를레템, 에르베네시!",
-   "ko": "안녕하세요! 여기 제 정기권요, 유효해요!",
-   "note": "érvényes = 유효한",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "napot",
-     "nap",
-     "넙"
     ],
     [
      "itt",
@@ -298,133 +56,500 @@
      "이트"
     ],
     [
-     "bérletem",
-     "bérletem",
+     "táskákat",
+     "táska",
      ""
     ],
     [
-     "érvényes",
-     "érvényes",
+     "menjünk",
+     "megy",
+     "메지"
+    ],
+    [
+     "be",
+     "be",
+     "베"
+    ],
+    [
+     "városba",
+     "város",
+     "버로슈"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó ötlet. Van itt csomagmegőrző?",
+   "rd": "요 외틀레트. 번 이트 초먹메괴르죄?",
+   "ko": "좋은 생각. 여기 짐 보관소 있어?",
+   "note": "csomagmegőrző = 짐 보관소",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "ötlet",
+     "ötlet",
+     "외틀레트"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "csomagmegőrző",
+     "csomagmegőrző",
      ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Ott vannak az automaták, a hármas vágány mellett.",
+   "rd": "오트 번넉 어즈 어우토머탁, 어 하르머시 바가니 멜레트.",
+   "ko": "저기 자동 보관함 있어, 3번 선로 옆에.",
+   "note": "mellett = ~ 옆에",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "vannak",
+     "van",
+     "번"
+    ],
+    [
+     "automaták",
+     "automata",
+     ""
+    ],
+    [
+     "hármas",
+     "hármas",
+     ""
+    ],
+    [
+     "vágány",
+     "vágány",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Kicsi, közepes, nagy... A bőröndöm melyikbe fér be?",
+   "rd": "키치, 쾨제페시, 너지... 어 뵈뢴됨 메익베 페르 베?",
+   "ko": "소, 중, 대… 내 캐리어는 어디에 들어가지?",
+   "note": "befér = (크기가 맞아) 들어가다",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Kicsi",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "közepes",
+     "közepes",
+     ""
+    ],
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "bőröndöm",
+     "bőröndöm",
+     ""
+    ],
+    [
+     "fér",
+     "fér",
+     "페르"
+    ],
+    [
+     "be",
+     "be",
+     "베"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "A nagyba. Kártyával fizetsz, és kapsz egy cetlit egy kóddal.",
+   "rd": "어 너지버. 카르탸벌 피제트쓰, 에시 커프쓰 에지 체틀리트 에지 코덜.",
+   "ko": "대형에. 카드로 내면 코드 적힌 쪽지를 줘.",
+   "note": "cetli = 쪽지",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "nagyba",
+     "nagy",
+     "너지"
+    ],
+    [
+     "fizetsz",
+     "fizet",
+     "피제트"
+    ],
+    [
+     "kapsz",
+     "kap",
+     "커프"
+    ],
+    [
+     "cetlit",
+     "cetli",
+     ""
+    ],
+    [
+     "kóddal",
+     "kód",
+     "코드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Megvan: négyezer forint, hat órára. Itt a cetli.",
+   "rd": "멕번: 네제제르 포린트, 허트 오라러. 이트 어 체틀리.",
+   "ko": "됐다: 4천 포린트, 6시간. 쪽지 여기.",
+   "note": "hat órára = 6시간 동안",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Megvan",
+     "megvan",
+     "메그번"
+    ],
+    [
+     "négyezer",
+     "négyezer",
+     ""
+    ],
+    [
+     "forint",
+     "forint",
+     ""
+    ],
+    [
+     "órára",
+     "óra",
+     "오러"
+    ],
+    [
+     "cetli",
+     "cetli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Tedd el jól! Kód nélkül nem nyílik ki.",
+   "rd": "테드 엘 욜! 코드 넬퀼 넴 닐릭 키.",
+   "ko": "잘 챙겨! 코드 없으면 안 열려.",
+   "note": "kód nélkül = 코드 없이",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Tedd",
+     "tesz",
+     "테스"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "nyílik",
+     "nyílik",
+     ""
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Izé... köszönöm, jó.",
-   "rd": "이제... 쾨쐬뇜, 요.",
-   "ko": "저… 고맙습니다, 됐습니다.",
-   "note": "izé = 저, 그",
-   "tags": [
-    "expr:Izé"
-   ],
+   "hu": "Na, hol is a cetli? Nincs meg!",
+   "rd": "너, 홀 이시 어 체틀리? 닌치 멕!",
+   "ko": "자, 쪽지가 어디 있더라? 없어!",
+   "note": "nincs meg = 안 보인다",
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
-     "Izé",
-     "izé",
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "cetli",
+     "cetli",
      ""
-    ],
-    [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
-    ],
-    [
-     "jó",
-     "jó",
-     "요"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Nézd! Mindenki előveszi a jegyét, és neked adja.",
-   "rd": "네즈드! 민덴키 엘뢰베씨 어 예제트, 에시 네케드 어드여.",
-   "ko": "봐! 다들 표를 꺼내서 너한테 줘.",
-   "note": "előveszi = 꺼낸다",
+   "hu": "Komolyan? Nézd meg a kabátodban!",
+   "rd": "코모연? 네즈드 멕 어 커바토드번!",
+   "ko": "진짜? 외투 안에 봐 봐!",
+   "note": "nézd meg = 확인해 봐",
    "tags": [
-    "expr:Nézd"
+    "expr:Komolyan",
+    "expr:Nézd meg"
    ],
-   "emotion": "excited",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Nézd",
-     "néz",
-     "네즈"
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
-     "előveszi",
-     "elővesz",
+     "kabátodban",
+     "kabát",
      ""
-    ],
-    [
-     "jegyét",
-     "jegye",
-     ""
-    ],
-    [
-     "adja",
-     "ad",
-     "어드"
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "C",
-   "hu": "Az a bácsi ott nem mutatta meg a jegyét! Büntesse meg!",
-   "rd": "어즈 어 바치 오트 넴 무터떠 멕 어 예제트! 뷘테쎄 멕!",
-   "ko": "저 할아버지 표 안 보여 줬어요! 벌금 물리세요!",
-   "note": "büntesse meg = 벌을 주세요",
+   "speaker": "A",
+   "hu": "Nincs. Se a zsebemben, se a pénztárcámban.",
+   "rd": "닌치. 세 어 제벰벤, 세 어 펜즈타르참번.",
+   "ko": "없어. 주머니에도 지갑에도.",
+   "note": "se ... se = ~도 ~도 아닌",
    "tags": [],
-   "emotion": "annoyed",
+   "emotion": "worried",
    "lemmas": [
     [
-     "bácsi",
-     "bácsi",
+     "Nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "zsebemben",
+     "zsebem",
      ""
     ],
     [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "mutatta",
-     "mutat",
-     "무타트"
-    ],
-    [
-     "jegyét",
-     "jegye",
+     "pénztárcámban",
+     "pénztárcám",
      ""
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "Hát... elnézést, van jegye?",
-   "rd": "하트... 엘네제슈트, 번 예제?",
-   "ko": "저기… 실례합니다, 표 있으세요?",
-   "note": "van jegye? = 표 있으세요?",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "stiff",
-   "lemmas": [
+   "speaker": "B",
+   "hu": "Kérdezzük meg az őrt! Elnézést, segítene?",
+   "rd": "케르데쥑 멕 어즈 외르트! 엘네제슈트, 세기테네?",
+   "ko": "경비원한테 물어보자! 실례합니다, 좀 도와주시겠어요?",
+   "note": "őr = 경비원",
+   "tags": [],
+   "emotion": "worried",
+   "segs": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "worried",
+     "Kérdezzük meg az őrt!"
     ],
     [
-     "elnézést",
-     "elnézés",
-     "엘네제시"
+     "polite",
+     "Elnézést, segítene?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Kérdezzük",
+     "kérdez",
+     "케르데즈"
+    ],
+    [
+     "őrt",
+     "őr",
+     ""
+    ],
+    [
+     "segítene",
+     "segít",
+     "셰기트"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Persze, elveszett a kód? Melyik szekrény?",
+   "rd": "페르쎄, 엘베쎄트 어 코드? 메익 쎅레니?",
+   "ko": "그럼요, 코드를 잃어버렸어요? 몇 번 보관함이죠?",
+   "note": "szekrény = 보관함",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "elveszett",
+     "elveszik",
+     "엘베직"
+    ],
+    [
+     "kód",
+     "kód",
+     "코드"
+    ],
+    [
+     "szekrény",
+     "szekrény",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "A nagy, a sarokban. Kártyával fizettem.",
+   "rd": "어 너지, 어 셔록번. 카르탸벌 피제뗌.",
+   "ko": "큰 거요, 구석에 있는. 카드로 냈어요.",
+   "note": "sarok = 구석",
+   "tags": [],
+   "emotion": "stiff",
+   "segs": [
+    [
+     "stiff",
+     "A nagy, a sarokban."
+    ],
+    [
+     "polite",
+     "Kártyával fizettem."
+    ]
+   ],
+   "lemmas": [
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "sarokban",
+     "sarok",
+     ""
+    ],
+    [
+     "fizettem",
+     "fizet",
+     "피제트"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "hu": "Rendben, a fizetés alapján megtaláljuk. Kinyitom.",
+   "rd": "렌드벤, 어 피제테시 얼러프얀 멕털랄육. 키니톰.",
+   "ko": "알겠어요, 결제 내역으로 찾을 수 있어요. 열어 드릴게요.",
+   "note": "alapján = ~을 근거로",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "fizetés",
+     "fizetés",
+     ""
+    ],
+    [
+     "alapján",
+     "alap",
+     "얼러프"
+    ],
+    [
+     "megtaláljuk",
+     "megtalál",
+     "메그털랄"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "hu": "Kinyílt! És a cetli itt van, a bőröndön.",
+   "rd": "키닐트! 에시 어 체틀리 이트 번, 어 뵈뢴된.",
+   "ko": "열렸다! 근데 쪽지가 여기 있네, 캐리어 위에.",
+   "note": "kinyílik = 열리다",
+   "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Kinyílt!"
+    ],
+    [
+     "amused",
+     "És a cetli itt van, a bőröndön."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Kinyílt",
+     "kinyílik",
+     ""
+    ],
+    [
+     "cetli",
+     "cetli",
+     ""
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
     ],
     [
      "van",
@@ -432,162 +557,38 @@
      "번"
     ],
     [
-     "jegye",
-     "jegy",
+     "bőröndön",
+     "bőrönd",
      ""
     ]
    ]
   },
   {
-   "num": 12,
+   "num": 16,
    "speaker": "B",
-   "hu": "Várj, ott jön valaki. Az a te pulcsid!",
-   "rd": "바르이, 오트 욘 벌러키. 어즈 어 테 풀치드!",
-   "ko": "잠깐, 저기 누가 와. 저거 네 후드티야!",
-   "note": "pulcsi = 스웨터, 후드티",
-   "tags": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
-    ],
-    [
-     "pulcsid",
-     "pulcsid",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "D",
-   "hu": "Jó napot! Jegyeket, bérleteket kérek!",
-   "rd": "요 너포트! 예제케트, 베를레테케트 케렉!",
-   "ko": "안녕하세요! 표, 정기권 보여 주세요!",
-   "note": "검표원의 정해진 말",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "napot",
-     "nap",
-     "넙"
-    ],
-    [
-     "bérleteket",
-     "bérlet",
-     ""
-    ],
-    [
-     "kérek",
-     "kér",
-     "께르"
-    ]
-   ]
-  },
-  {
-   "num": 14,
-   "speaker": "A",
-   "hu": "Jó napot, kolléga! Az a pulcsi az enyém.",
-   "rd": "요 너포트, 콜레거! 어즈 어 풀치 어즈 에넴.",
-   "ko": "안녕하세요, 동료분! 그 후드티 제 겁니다.",
-   "note": "kolléga = 동료",
-   "tags": [],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Jó napot, kolléga!"
-    ],
-    [
-     "stiff",
-     "Az a pulcsi az enyém."
-    ]
+   "hu": "Hát persze. Bezártad vele együtt.",
+   "rd": "하트 페르쎄. 베자르터드 벨레 에쥐트.",
+   "ko": "하긴. 그거랑 같이 넣고 잠갔구나.",
+   "note": "bezár = 잠그다",
+   "tags": [
+    "expr:Hát persze"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Hát",
+     "hát",
+     "핫"
     ],
     [
-     "napot",
-     "nap",
-     "넙"
+     "persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "kolléga",
-     "kolléga",
-     ""
-    ],
-    [
-     "pulcsi",
-     "pulcsi",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 15,
-   "speaker": "D",
-   "hu": "És az a kabát az enyém. De tartsa meg estig, én visszamegyek a fürdőbe.",
-   "rd": "에시 어즈 어 커바트 어즈 에넴. 데 터르트셔 멕 에슈틱, 엔 비써메젝 어 퓌르되베.",
-   "ko": "그 재킷은 제 거고요. 그래도 저녁까지 입고 계세요, 저는 온천으로 돌아갑니다.",
-   "note": "tartsa meg = 갖고 계세요",
-   "tags": [],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "És az a kabát az enyém."
-    ],
-    [
-     "amused",
-     "De tartsa meg estig, én visszamegyek a fürdőbe."
-    ]
-   ],
-   "lemmas": [
-    [
-     "kabát",
-     "kabát",
-     ""
-    ],
-    [
-     "tartsa",
-     "tart",
-     "터르트"
-    ],
-    [
-     "estig",
-     "est",
-     ""
-    ],
-    [
-     "visszamegyek",
-     "visszamegy",
-     "비슈서메그"
-    ],
-    [
-     "fürdőbe",
-     "fürdőbe",
-     ""
+     "együtt",
+     "együtt",
+     "에듀트"
     ]
    ]
   }

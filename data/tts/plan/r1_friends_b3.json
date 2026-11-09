@@ -1,72 +1,74 @@
 {
 "ep": "r1_friends_b3",
 "cast": {
-"B": "reka",
-"C": "man_o"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"worried",
-"Jaj, figyelj! Hol a szekrény kulcsa?"
+"excited",
+"Figyelj, holnap lesz a szülinapom!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Nem tudom. Nálad volt, nem?"
+"cheerful",
+"Tényleg? Boldog szülinapot előre!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"worried",
-"Nem, nálam nincs! Biztos a vízben van."
+"shy",
+"Köszi! Huszonhárom leszek."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Úristen! Akkor keressük meg!"
+"excited",
+"Szuper! Csinálsz bulit?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"stiff",
-"Elnézést, mit keresnek a lábam alatt?"
+"cheerful",
+"Csak egy kis vacsorát. És te hány éves vagy?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"worried",
-"Egy kulcsot! Bácsi, segítsen, légyszi!"
+"neutral",
+"Én huszonöt éhes vagyok."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"shout",
-"Emberek, mindenki keresse a kulcsot!"
+"amused",
+"Éhes? Huszonöt?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"tsukkomi",
-"Réka... az ott a kezeden nem kulcs?",
-"Réka, az ott a kezeden nem kulcs?"
+"flustered",
+"Jaj, éves!"
+],
+[
+"amused",
+"De éhes is vagyok."
 ]
 ]
 }

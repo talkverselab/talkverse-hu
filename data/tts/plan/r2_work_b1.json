@@ -9,19 +9,15 @@
 "segs": [
 [
 "polite",
-"Elnézést, az állás miatt jöttem."
+"Jó napot! Ön jött az állás miatt?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Az állás miatt?"
-],
-[
-"polite",
-"Tessék, üljön le."
+"stiff",
+"Igen, jó napot kívánok. {name} vagyok."
 ]
 ]
 },
@@ -29,84 +25,79 @@
 "segs": [
 [
 "polite",
-"Köszönöm. Nagyon szeretem a kávét, és gyorsan tanulok."
+"Tessék, üljön le. Dolgozott már kávézóban?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"stiff",
-"Értem. És mit tud még?"
+"flustered",
+"Kávézóban még nem."
+],
+[
+"cheerful",
+"De gyorsan tanulok."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"excited",
-"Hétvégén is tudok dolgozni. Reggel hatkor is!"
+"polite",
+"Értem. Hétvégén is tud dolgozni?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Hatkor? Hű, az durva."
+"cheerful",
+"Persze, szombaton és vasárnap is ráérek."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"shy",
-"Szóval... megkaptam az állást?",
-"Szóval, megkaptam az állást?"
+"cheerful",
+"Szuper. És mikor tud kezdeni?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"cheerful",
-"Szia, bocsi a késésért! Te jöttél az állás miatt?"
+"excited",
+"Akár holnap."
+],
+[
+"shy",
+"Szóval felvesz?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"polite",
-"Igen, de már beszéltem a főnökkel."
-],
-[
-"worried",
-"Ő az, ugye?"
+"cheerful",
+"Felveszem. Bence, gyere, itt az új kolléga!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"stiff",
-"Én csak egy kávét szeretnék."
-],
-[
-"annoyed",
-"Húsz perce várok."
+"surprised",
+"Szia! Ó, te vagy az, aki tegnap háromszor kért cukrot?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"amused",
-"Na jó, fel vagy véve."
-],
-[
-"teasing",
-"Vidd neki a kávét!"
+"flustered",
+"Jaj, igen. Nagyon finom volt a kávé."
 ]
 ]
 }

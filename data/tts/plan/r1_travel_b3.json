@@ -9,75 +9,68 @@
 "segs": [
 [
 "excited",
-"Itt vagyunk Egerben!"
-],
-[
-"teasing",
-"Most bikavért iszunk."
+"Gyere, itt jön a busz! Van jegyed?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Vért iszunk? Komolyan?"
+"neutral",
+"Nincs. A sofőrtől veszek."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"teasing",
-"Naná, friss. Reggel még itt volt a bika."
+"amused",
+"Az drágább, de oké."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Mi van?"
-],
-[
-"shout",
-"Én nem iszom vért!"
+"polite",
+"Jó napot! Egy jegyet kérek."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"polite",
-"Tessék, két pohár."
-],
-[
-"cheerful",
-"Egészségükre!"
+"stiff",
+"Ezerkétszáz forint, de csak pontos összeggel."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Hű, ez bor?"
+"worried",
+"Dávid, van aprópénzed? Nekem csak húszezres van."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"tsukkomi",
-"Persze, hogy bor! Csak így hívják."
+"worried",
+"Várj... Hát, nekem sincs.",
+"Várj, Hát, nekem sincs."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"amused",
-"Jól van. Kérek még egy pohár bikát."
+"stiff",
+"Jól van, üljön le."
+],
+[
+"gentle",
+"A következő megállóban van automata."
 ]
 ]
 }

@@ -1,21 +1,19 @@
 === r1_love_a4
 kind: short
-title: 음악이 멈춘 순간
-emoji: 🪩
-scene: 시끄러운 클럽. Anna 가 춤을 청하는데 안 들린다. 소리친 순간 음악이 딱 멈춘다
+title: 아직 시작도 안 했어
+emoji: 🍿
+scene: 영화관 매표소 앞. 무슨 영화를 볼지 고르는데 Anna 가 공포 영화에 괜히 센 척한다
 b: Anna
-c: DJ
 register: casual
-twist: 6 chaos
+twist: 7 emotion
 flags: romance
 purpose: love
-goal: 못 들었을 때 되묻기, 크게 말해 달라고 하기
-expressions: Tessék?; Mi van?; Légyszi; Nem baj
-B | Szia! Táncolsz velem? | 안녕! 나랑 춤출래? | velem = 나랑 | emotion=cheerful
-A | Tessék? Nem hallom! | 뭐라고? 안 들려! | nem hallom = 안 들려 | emotion=shout
-B | Azt kérdeztem: táncolsz velem? | 물었잖아, 나랑 춤출래? | azt kérdeztem = 내가 물은 건 | emotion=shout
-A | Mi van? Hangosabban, légyszi! | 뭐? 더 크게, 제발! | hangosabban = 더 크게 | emotion=shout
-B | TÁNCOLSZ VELEM?! | 나랑 춤출 거냐고?! | táncolsz = 네가 춤춘다 | emotion=shout
-C | Na, táncolsz vele vagy nem? | 자, 저분이랑 출 거야 말 거야? | vele = 그 사람이랑 | emotion=amused
-A | Jaj, mindenki minket néz. | 아이고, 다들 우리를 봐. | minket = 우리를 | emotion=flustered
-B | Nem baj. Én csak téged nézlek. | 괜찮아. 나는 너만 봐. | nézlek = 내가 너를 본다 | emotion=gentle
+goal: 영화 고르기(Melyiket nézzük?)와 의견 말하기(Szerintem)
+expressions: Szerintem; Hát; Persze
+B | Melyiket nézzük? Egy vígjátékot? | 뭐 볼까? 코미디? | melyiket = 어느 것을 | emotion=cheerful
+A | Szerintem ezt a horrort. Jó? | 내 생각엔 이 공포 영화. 괜찮아? | szerintem = 내 생각엔 | emotion=excited
+B | Horror? Hát... persze, jó. | 공포? 음… 그래, 좋아. | hát = 음 | emotion=stiff
+A | Biztos? Nem félsz? | 확실해? 안 무서워? | félsz = 너 무서워한다 | emotion=worried
+B | Én? Soha nem félek. | 내가? 난 절대 안 무서워. | soha nem = 절대 안 | emotion=stiff
+A | Még el sem kezdődött. Miért fogod a kezem? | 아직 시작도 안 했어. 왜 내 손 잡고 있어? | fogod = 네가 그걸 잡고 있다 | emotion=amused+teasing
+B | Csak hátha te félsz. | 그냥 혹시 네가 무서울까 봐. | hátha = 혹시 ~할까 봐 | emotion=shy

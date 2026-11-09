@@ -1,18 +1,19 @@
 === r1_friends_a4
 kind: short
-title: 어디서 많이 본 자전거
-emoji: 🚲
-scene: Réka 가 시장에서 싸게 산 새 자전거를 자랑한다
+title: 숙제 했어?
+emoji: 📓
+scene: 수업 시작 5분 전, Réka 가 숙제를 했냐고 묻는다
 b: Réka
 register: casual
-twist: 4 reveal
-purpose: making_friends
-goal: 어디서 샀는지 묻기(Hol vetted?)와 놀랄 때 쓰는 말
-expressions: Nézd; ugye; Várj; Komolyan?
-B | Nézd! Új biciklim van! | 봐! 새 자전거 생겼어! | nézd = 봐 | emotion=excited
-A | Szép! Hol vetted? | 예쁘다! 어디서 샀어? | vetted = 네가 그걸 샀다 | emotion=cheerful
-B | A piacon, csak ötezer. Jó, ugye? | 시장에서, 5천밖에 안 해. 좋지, 그치? | ugye? = 그렇지? | emotion=cheerful
-A | Várj... ez az én biciklim! | 잠깐… 이거 내 자전거야! | várj = 잠깐 | emotion=surprised+shout
-B | Na ne! Komolyan? | 설마! 진짜로? | komolyan? = 진짜로? | emotion=surprised
-A | Igen! Tegnap ellopták! | 응! 어제 도둑맞았어! | ellopták = 훔쳐 갔다 | emotion=annoyed
-B | Hát... neked hatezer. | 음… 너한텐 6천. | neked = 너에게 | emotion=teasing
+twist: 7 reveal
+purpose: making_friends study_abroad
+goal: 깜빡했다 말하기(Elfelejtettem)와 도움 청하기(Segítesz?)
+expressions: Megvan; Elfelejtettem; Komolyan
+B | Szia! Megvan a házi? | 안녕! 숙제 했어? | házi = 숙제(házi feladat) | emotion=cheerful
+A | Milyen házi? | 무슨 숙제? | milyen = 어떤 | emotion=surprised
+B | A tizedik oldal! Három feladat. | 10쪽! 문제 세 개. | oldal = 쪽 | emotion=surprised
+A | Jaj, elfelejtettem! Teljesen. | 아, 깜빡했어! 완전히. | elfelejtettem = 잊어버렸다 | emotion=flustered
+B | Gyorsan, még öt perc van. | 빨리, 아직 5분 있어. | gyorsan = 빨리 | emotion=worried
+A | Nem megy, nehéz. Segítesz? | 안 돼, 어려워. 도와줄래? | nem megy = 안 돼(안 풀려) | emotion=worried
+B | Várj, üzenet a tanártól. Ma nincs óra. | 잠깐, 선생님 문자다. 오늘 수업 없대. | üzenet = 메시지 | emotion=surprised
+A | Komolyan? Akkor megyünk kávézni? | 진짜? 그럼 커피 마시러 갈까? | kávézni = 커피 마시러 | emotion=excited

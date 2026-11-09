@@ -10,9 +10,9 @@
  "domain": [
   "friends"
  ],
- "title": "덥다고 했을 뿐인데",
- "emoji": "🥵",
- "scene": "땡볕 벼룩시장. 덥다고 말하려다 헝가리어 학습자가 꼭 한 번 밟는 함정을 밟는다",
+ "title": "초콜릿 하나만",
+ "emoji": "🍫",
+ "scene": "쉬는 시간, 어학원 앞 가게에서 Réka 와 간식을 고른다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
@@ -21,181 +21,88 @@
  "twist": 6,
  "twist_type": "slip",
  "flags": [],
- "goal": "「덥다」는 melegem van — 몸 상태를 말하는 틀 익히기",
+ "goal": "간식 고르기·부탁하기(Kérsz? · Adsz egyet?)",
  "expressions": [
-  "Na",
-  "Tényleg?",
-  "semmi baj",
-  "Na ne"
+  "Kérsz",
+  "Adsz",
+  "Jaj"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Na, jól vagy?",
-   "rd": "너, 욜 버지?",
-   "ko": "야, 괜찮아?",
-   "note": "na = 자, 야(말 꺼낼 때)",
+   "hu": "Éhes vagyok, veszek egy pogácsát. Kérsz?",
+   "rd": "에헤시 버죡, 베쎅 에지 포가차트. 케르쓰?",
+   "ko": "배고파. 포가차 하나 살래. 너도 먹을래?",
+   "note": "kérsz? = 너 먹을래?",
    "tags": [
-    "expr:Na"
+    "expr:Kérsz"
    ],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "Éhes",
+     "éhes",
+     "에헤시"
     ],
     [
-     "jól",
-     "jól",
-     "욜"
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "veszek",
+     "veszik",
+     "베세크"
+    ],
+    [
+     "pogácsát",
+     "pogácsa",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jaj, nagyon meleg vagyok!",
-   "rd": "여이, 너죤 멜렉 버죡!",
-   "ko": "아이고, 나 완전 게이야!",
-   "note": "meleg vagyok = 나 게이야(덥다는 melegem van)",
-   "tags": [
-    "expr:Na"
-   ],
-   "emotion": "annoyed",
+   "hu": "Nem, köszi. Én csokit szeretnék.",
+   "rd": "넴, 쾨씨. 엔 초키트 쎄레트넥.",
+   "ko": "아니, 고마워. 나는 초콜릿 먹고 싶어.",
+   "note": "csoki = 초콜릿",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "köszi",
+     "köszi",
+     "쾨씨"
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
+     "csokit",
+     "csoki",
+     ""
     ],
     [
-     "meleg",
-     "meleg",
-     "멜레그"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
+     "szeretnék",
+     "szeret",
+     "쎄레트"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Tényleg? Jó, semmi baj.",
-   "rd": "테닐렉? 요, 셈미 버이.",
-   "ko": "진짜? 그래, 아무 문제 없어.",
-   "note": "semmi baj = 아무 문제 없어",
-   "tags": [
-    "expr:Tényleg?",
-    "expr:semmi baj"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Tényleg?"
-    ],
-    [
-     "gentle",
-     "Jó, semmi baj."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "baj",
-     "baj",
-     "버이"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Igen, nagyon! És te?",
-   "rd": "이겐, 너죤! 에시 테?",
-   "ko": "응, 완전! 너는?",
-   "note": "és te? = 너는?",
-   "tags": [
-    "expr:Na"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Én? Hát, én nem.",
-   "rd": "엔? 하트, 엔 넴.",
-   "ko": "나? 음, 난 아니야.",
-   "note": "hát = 음, 글쎄",
+   "hu": "Ott van, a pult mellett.",
+   "rd": "오트 번, 어 풀트 멜레트.",
+   "ko": "저기 있어, 계산대 옆에.",
+   "note": "mellett = 옆에",
    "tags": [],
-   "emotion": "flustered",
-   "lemmas": []
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Na ne! Ma mindenki meleg!",
-   "rd": "너 네! 머 민덴키 멜렉!",
-   "ko": "에이! 오늘은 다들 게이지!",
-   "note": "na ne = 에이, 설마",
-   "tags": [
-    "expr:Na",
-    "expr:Na ne"
-   ],
-   "emotion": "cheerful",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
-    ],
-    [
-     "meleg",
-     "meleg",
-     "멜레그"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Hű. Melegem van, ezt akarod mondani?",
-   "rd": "휘. 멜레겜 번, 에즈트 어커로드 몬더니?",
-   "ko": "어휴. 「더워」라고 하려던 거지?",
-   "note": "melegem van = 나 더워",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Hű",
-     "hű",
-     ""
+     "Ott",
+     "ott",
+     "오트"
     ],
     [
      "van",
@@ -203,26 +110,21 @@
      "번"
     ],
     [
-     "akarod",
-     "akar",
-     "어커르"
-    ],
-    [
-     "mondani",
-     "mond",
-     "몬드"
+     "pult",
+     "pult",
+     ""
     ]
    ]
   },
   {
-   "num": 8,
+   "num": 4,
    "speaker": "A",
-   "hu": "Jaj. Ezt mondtam a tanáromnak is!",
-   "rd": "여이. 에즈트 몬드텀 어 터나롬넉 이시!",
-   "ko": "아이고. 선생님한테도 그렇게 말했어!",
-   "note": "tanár = 선생님",
+   "hu": "Jaj, nincs nálam pénz.",
+   "rd": "여이, 닌치 날럼 펜즈.",
+   "ko": "아, 나 돈이 없네.",
+   "note": "nincs nálam = 나한테 없다",
    "tags": [
-    "expr:Na"
+    "expr:Jaj"
    ],
    "emotion": "flustered",
    "lemmas": [
@@ -232,14 +134,119 @@
      "야이"
     ],
     [
-     "mondtam",
-     "mond",
-     "몬드"
+     "nincs",
+     "nincs",
+     "닌치"
     ],
     [
-     "tanáromnak",
-     "tanár",
-     "터나르"
+     "pénz",
+     "pénz",
+     "펜즈"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Semmi baj, van kártyám.",
+   "rd": "셈미 버이, 번 카르턈.",
+   "ko": "괜찮아, 나 카드 있어.",
+   "note": "semmi baj = 괜찮아",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kártyám",
+     "kártyám",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Köszi! Akkor adsz egy csókot?",
+   "rd": "쾨씨! 어꼬르 어드쓰 에지 초코트?",
+   "ko": "고마워! 그럼 뽀뽀 하나 줄래?",
+   "note": "csók = 뽀뽀(csoki = 초콜릿)",
+   "tags": [
+    "expr:Adsz"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Köszi",
+     "köszi",
+     "쾨씨"
+    ],
+    [
+     "adsz",
+     "ad",
+     "어드"
+    ],
+    [
+     "csókot",
+     "csók",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Egy csókot? Itt, a boltban?",
+   "rd": "에지 초코트? 이트, 어 볼트번?",
+   "ko": "뽀뽀? 여기, 가게에서?",
+   "note": "csókot = 뽀뽀를",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "csókot",
+     "csók",
+     ""
+    ],
+    [
+     "boltban",
+     "bolt",
+     "볼트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Csokit! Csokit akartam mondani!",
+   "rd": "초키트! 초키트 어커르텀 몬더니!",
+   "ko": "초콜릿! 초콜릿이라고 하려 했어!",
+   "note": "akartam mondani = 말하려고 했다",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Csokit",
+     "csoki",
+     ""
+    ],
+    [
+     "akartam",
+     "akart",
+     ""
+    ],
+    [
+     "mondani",
+     "mond",
+     "몬드"
     ]
    ]
   }

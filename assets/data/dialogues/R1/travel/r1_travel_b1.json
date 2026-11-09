@@ -11,266 +11,199 @@
  "domain": [
   "travel"
  ],
- "title": "랑고시 2분",
- "emoji": "🚆",
- "scene": "발라톤행 기차가 잠깐 선 역. Réka 가 랑고시를 사러 내린다",
+ "title": "10분 동안 선 줄",
+ "emoji": "🫓",
+ "scene": "중앙시장 2층 랑고시 가게. Réka 가 주문법을 알려 준다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "casual",
- "twist": 5,
+ "twist": 7,
  "twist_type": "chaos",
  "flags": [],
- "goal": "말리는 말과 어디 있는지 묻고 답하기",
+ "goal": "음식 고르기와 주문 준비(Mit kérsz rá? · én is azt kérek)",
  "expressions": [
-  "Figyelj",
-  "Várj",
-  "Mi van?",
-  "Hogyhogy",
-  "mindjárt"
+  "Na",
+  "Komolyan",
+  "Nem tudom"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Figyelj, leszállok egy lángosért. Két perc!",
-   "rd": "피젤이, 레쌀록 에지 란고세르트. 케트 페르츠!",
-   "ko": "야, 랑고시 사러 내릴게. 2분이면 돼!",
-   "note": "-ért = ~를 가지러",
+   "hu": "Na, itt a híres lángos! Mit kérsz rá?",
+   "rd": "너, 이트 어 히레시 란고시! 미트 케르쓰 라?",
+   "ko": "자, 여기가 유명한 랑고시야! 위에 뭐 올릴래?",
+   "note": "rá = 그 위에",
    "tags": [
-    "expr:Figyelj"
+    "expr:Na"
    ],
-   "emotion": "cheerful",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "leszállok",
-     "leszáll",
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "híres",
+     "híres",
      ""
     ],
     [
-     "lángosért",
+     "lángos",
      "lángos",
      ""
     ],
     [
-     "perc",
-     "perc",
-     "페르츠"
+     "kérsz",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Várj! A vonat mindjárt indul!",
-   "rd": "바르이! 어 보너트 민드야르트 인둘!",
-   "ko": "잠깐! 기차 곧 출발해!",
-   "note": "mindjárt = 곧",
+   "hu": "Nem tudom. Te mit szoktál kérni?",
+   "rd": "넴 투돔. 테 미트 쏙탈 케르니?",
+   "ko": "모르겠어. 너는 보통 뭐 시켜?",
+   "note": "szoktál = 보통 ~하곤 해",
    "tags": [
-    "expr:Várj",
-    "expr:mindjárt"
+    "expr:Nem tudom"
    ],
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Várj!"
-    ],
-    [
-     "worried",
-     "A vonat mindjárt indul!"
-    ]
-   ],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "tudom",
+     "tud",
+     "투드"
     ],
     [
-     "vonat",
-     "vonat",
-     ""
+     "szoktál",
+     "szokik",
+     "서키크"
     ],
     [
-     "mindjárt",
-     "mindjárt",
-     "민드야르트"
-    ],
-    [
-     "indul",
-     "indul",
-     "인둘"
+     "kérni",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Nyugi! Fogd a biciklimet és a táskámat.",
-   "rd": "뉴기! 폭드 어 비칙리메트 에시 어 타슈카머트.",
-   "ko": "진정해! 내 자전거랑 가방 잡고 있어.",
-   "note": "fogd = 잡아(정활용 명령)",
+   "hu": "Tejfölt és sajtot. Fokhagyma is kell!",
+   "rd": "테이푈트 에시 셔이토트. 폭허지머 이시 켈!",
+   "ko": "사워크림이랑 치즈. 마늘도 꼭!",
+   "note": "tejföl = 사워크림",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Nyugi",
-     "nyugi",
-     "니우기"
-    ],
-    [
-     "biciklimet",
-     "bicikli",
+     "Tejfölt",
+     "tejföl",
      ""
     ],
     [
-     "táskámat",
-     "táskámat",
+     "sajtot",
+     "sajt",
      ""
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Réka, hol vagy? Már megy a vonat!",
-   "rd": "레커, 홀 버지? 마르 메지 어 보너트!",
-   "ko": "레카, 어디야? 기차 벌써 가!",
-   "note": "már = 벌써",
+   "hu": "Oké, akkor én is azt kérek.",
+   "rd": "오케, 어꼬르 엔 이시 어즈트 케렉.",
+   "ko": "오케이, 그럼 나도 그거.",
+   "note": "azt = 그것을",
    "tags": [],
-   "emotion": "worried",
-   "segs": [
-    [
-     "worried",
-     "Réka, hol vagy?"
-    ],
-    [
-     "shout",
-     "Már megy a vonat!"
-    ]
-   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Réka",
-     "réka",
-     ""
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
-     "hol",
-     "hol",
-     "홀"
+     "akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "megy",
-     "megy",
-     "메지"
-    ],
-    [
-     "vonat",
-     "vonat",
-     ""
+     "kérek",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Szia, ez egy néni telefonja. Itt maradtam!",
-   "rd": "씨어, 에즈 에지 네니 텔레폰여. 이트 머러드텀!",
-   "ko": "안녕, 이거 어떤 할머니 전화야. 나 여기 남았어!",
-   "note": "maradtam = 나는 남았다",
+   "hu": "Akkor állj be a sorba, én foglalok asztalt.",
+   "rd": "어꼬르 알이 베 어 쇼르버, 엔 폭럴록 어쓰털트.",
+   "ko": "그럼 줄 서, 나는 자리 잡을게.",
+   "note": "foglal = 맡다, 잡다",
    "tags": [],
-   "emotion": "amused",
-   "segs": [
-    [
-     "amused",
-     "Szia, ez egy néni telefonja."
-    ],
-    [
-     "flustered",
-     "Itt maradtam!"
-    ]
-   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Szia",
-     "szia",
-     "씨어"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "néni",
-     "néni",
-     ""
+     "állj",
+     "áll",
+     "알"
     ],
     [
-     "telefonja",
-     "telefon",
-     "텔레폰"
+     "be",
+     "be",
+     "베"
     ],
     [
-     "maradtam",
-     "maradt",
-     ""
+     "sorba",
+     "sor",
+     "쇼르"
+    ],
+    [
+     "foglalok",
+     "foglal",
+     "포글럴"
+    ],
+    [
+     "asztalt",
+     "asztal",
+     "어슬러"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Mi van? Nálam van a táskád és a biciklid!",
-   "rd": "미 번? 날럼 번 어 타슈카드 에시 어 비칙리드!",
-   "ko": "뭐? 네 가방이랑 자전거 나한테 있어!",
-   "note": "nálam = 나한테",
+   "hu": "Réka, ez a sor nagyon lassú.",
+   "rd": "레커, 에즈 어 쇼르 너죤 러쓔.",
+   "ko": "레카, 이 줄 엄청 느려.",
+   "note": "sor = 줄",
    "tags": [
-    "expr:Mi van?"
+    "expr:Na"
    ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Mi van?"
-    ],
-    [
-     "worried",
-     "Nálam van a táskád és a biciklid!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "táskád",
-     "táskád",
-     ""
-    ],
-    [
-     "biciklid",
-     "biciklid",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Réka? Te hogyhogy már itt vagy?",
-   "rd": "레커? 테 호지호지 마르 이트 버지?",
-   "ko": "(발라톤 역) 레카? 너 어떻게 벌써 여기 있어?",
-   "note": "hogyhogy = 어떻게 된 거야",
-   "tags": [
-    "expr:Hogyhogy"
-   ],
-   "emotion": "surprised",
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Réka",
@@ -278,61 +211,95 @@
      ""
     ],
     [
-     "hogyhogy",
-     "hogyhogy",
+     "sor",
+     "sor",
+     "쇼르"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "lassú",
+     "lassú",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Az a mosdó sora! És a lángosos bezárt.",
+   "rd": "어즈 어 모슈도 쇼러! 에시 어 란고쇼시 베자르트.",
+   "ko": "그건 화장실 줄이야! 그리고 랑고시 가게 문 닫았어.",
+   "note": "mosdó = 화장실",
+   "tags": [],
+   "emotion": "tsukkomi",
+   "segs": [
+    [
+     "tsukkomi",
+     "Az a mosdó sora!"
+    ],
+    [
+     "surprised",
+     "És a lángosos bezárt."
+    ]
+   ],
+   "lemmas": [
+    [
+     "mosdó",
+     "mosdik",
      ""
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "sora",
+     "sor",
+     "쇼르"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "lángosos",
+     "lángosos",
+     ""
+    ],
+    [
+     "bezárt",
+     "bezár",
+     "베자르"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "A néni elhozott kocsival. A lángosod már hideg.",
-   "rd": "어 네니 엘호조트 코치벌. 어 란고쇼드 마르 히덱.",
-   "ko": "그 할머니가 차로 데려다줬어. 네 랑고시 벌써 식었어.",
-   "note": "elhozott = 데려다줬다",
-   "tags": [],
-   "emotion": "teasing",
+   "speaker": "A",
+   "hu": "Komolyan? Már tíz perce állok itt!",
+   "rd": "코모연? 마르 티즈 페르체 알록 이트!",
+   "ko": "진짜? 벌써 10분째 서 있었는데!",
+   "note": "tíz perce = 10분째",
+   "tags": [
+    "expr:Komolyan"
+   ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "néni",
-     "néni",
-     ""
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
-     "elhozott",
-     "elhoz",
-     ""
+     "perce",
+     "perc",
+     "페르츠"
     ],
     [
-     "kocsival",
-     "kocsi",
-     "코치"
+     "állok",
+     "áll",
+     "알"
     ],
     [
-     "lángosod",
-     "lángosod",
-     ""
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "hideg",
-     "hideg",
-     "히데그"
+     "itt",
+     "itt",
+     "이트"
     ]
    ]
   }

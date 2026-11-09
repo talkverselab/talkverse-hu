@@ -8,31 +8,31 @@
 "segs": [
 [
 "polite",
-"Csókolom, tetszik tudni, hol van Laci bácsi? A lakbér miatt keresem."
+"Csókolom, Marika néni! Megkérdezhetek valamit?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"annoyed",
-"Hát hol lenne, a fürdőben. Mennyi lakbért fizettek neki?"
+"gentle",
+"Persze, kedves. Mi a baj?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"polite",
-"Minden hónapban százötvenezer forintot. Ő a tulajdonos, nem?"
+"worried",
+"Ezt a papírt találtam a postaládában. Mit jelent?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Ő?! Ezt ki mondta?"
+"neutral",
+"Ez értesítő. A postás hozott egy csomagot, de nem volt otthon senki."
 ]
 ]
 },
@@ -40,107 +40,91 @@
 "segs": [
 [
 "worried",
-"Ő mondta. Már két éve neki fizetünk."
+"És most mit csináljak?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"stiff",
-"Na, idefigyelj. A ház az enyém, a lakás is az enyém."
+"gentle",
+"Vigye el ezt a postára, a Petőfi utcába. Öt napig ott van."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Micsoda? Akkor ki Laci bácsi?"
+"neutral",
+"Mit vigyek még? Útlevelet?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"neutral",
-"Laci a férjem. Negyvenhat éve."
+"polite",
+"Igen, az útlevelét vagy a lakcímkártyáját."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"A férje?! De ő a fürdőben lakik!"
+"neutral",
+"Értem. Mikor van nyitva?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"annoyed",
-"Tíz éve azt mondta, sós a levesem. Azóta ott van."
+"polite",
+"Hétköznap nyolctól hatig, szombaton délig."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"surprised",
-"Csak ezért?"
-],
-[
 "worried",
-"És azóta nem beszélnek?"
+"Köszönöm szépen. Ugye a postán sokat kell várni?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"stiff",
-"Nem."
-],
-[
-"gentle",
-"De minden kedden viszek neki levest."
+"amused",
+"Hát, néha egy órát is. Vigyen egy könyvet."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"worried",
-"És a mi pénzünk? A lakbér?"
+"surprised",
+"Várjon, ez a név nem az enyém!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"amused",
-"Azt a fürdőre költi. Ezért nem jön haza."
+"surprised",
+"Mutassa!"
+],
+[
+"cheerful",
+"Jaj, Kovács Mária, ez az enyém!"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"flustered",
-"Akkor most mit csináljak? Kinek fizessek?"
-]
-]
-},
-"16": {
-"segs": [
-[
-"neutral",
-"Továbbra is neki."
-],
-[
-"amused",
-"Ha elfogy a pénze, hazajön, és azt nem bírnám."
+"teasing",
+"Akkor a könyvet Ön viszi a postára."
 ]
 ]
 }

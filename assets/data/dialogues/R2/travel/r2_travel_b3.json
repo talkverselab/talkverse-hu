@@ -10,259 +10,70 @@
  "domain": [
   "travel"
  ],
- "title": "6번 방 손님",
- "emoji": "💒",
- "scene": "에게르 호텔 복도. 방을 찾아가는데 연회장 결혼식 하객이 {name} 을 끌고 들어간다",
+ "title": "와이파이 비밀번호",
+ "emoji": "🔑",
+ "scene": "에게르의 작은 민박. 주인 할아버지가 열쇠와 안내를 해 준다",
  "speakers": {
   "A": "{name}",
-  "B": "Bácsi",
-  "C": "Vőfély"
+  "B": "Bácsi"
  },
  "register": "mixed",
- "twist": 12,
- "twist_type": "chaos",
- "flags": [
-  "alcohol"
- ],
- "goal": "상황 설명하기와 긴 낱말 알아듣기",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "숙소에서 묻기(Mikor van reggeli? · Mi a jelszó?)",
  "expressions": [
-  "Na végre",
-  "Persze",
-  "Elnézést",
-  "izé",
-  "Mi van?",
-  "Nyugi"
+  "Semmi baj",
+  "Hogy kell írni",
+  "Na látja"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Na végre, hol voltál? Mindenki téged vár!",
-   "rd": "너 벡레, 홀 볼탈? 민덴키 테게드 바르!",
-   "ko": "드디어, 어디 있었어? 다들 너 기다려!",
-   "note": "na végre = 드디어",
-   "tags": [
-    "expr:Na végre"
-   ],
-   "emotion": "excited",
+   "hu": "Jó napot! Ön {name}, ugye?",
+   "rd": "요 너포트! 왼 {name}, 우제?",
+   "ko": "안녕하세요! {name} 씨 맞죠?",
+   "note": "ugye = 그렇죠?",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "végre",
-     "vég",
-     "베그"
-    ],
-    [
-     "hol",
-     "hol",
-     "홀"
-    ],
-    [
-     "voltál",
-     "van",
-     "번"
-    ],
-    [
-     "vár",
-     "vár",
-     "바르"
+     "napot",
+     "nap",
+     "넙"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Elnézést, én csak a szobámba megyek. A hatos szobába.",
-   "rd": "엘네제슈트, 엔 척 어 쏘밤버 메젝. 어 허토시 쏘바버.",
-   "ko": "죄송해요, 저는 제 방에 가는 건데요. 6번 방이요.",
-   "note": "a szobámba = 내 방으로",
-   "tags": [
-    "expr:Elnézést"
-   ],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "szobámba",
-     "szobámba",
-     ""
-    ],
-    [
-     "megyek",
-     "megye",
-     "메예"
-    ],
-    [
-     "hatos",
-     "hatos",
-     ""
-    ],
-    [
-     "szobába",
-     "szoba",
-     "서버"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Persze, persze. Gyere, előbb egy pohár pálinka!",
-   "rd": "페르쎄, 페르쎄. 제레, 엘뢰브 에지 포하르 팔린커!",
-   "ko": "그래, 그래. 와, 먼저 팔린카 한 잔!",
-   "note": "előbb = 먼저",
-   "tags": [
-    "expr:Persze"
-   ],
+   "hu": "Igen, jó napot! Bocsánat, késtem.",
+   "rd": "이겐, 요 너포트! 보차너트, 케슈템.",
+   "ko": "네, 안녕하세요! 죄송해요, 늦었어요.",
+   "note": "késtem = 내가 늦었다",
+   "tags": [],
    "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "előbb",
-     "előbb",
-     "엘뢰브"
-    ],
-    [
-     "pohár",
-     "pohár",
-     ""
-    ],
-    [
-     "pálinka",
-     "pálinka",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "De én nem ismerem a menyasszonyt!",
-   "rd": "데 엔 넴 이슈메렘 어 메녀쏘니트!",
-   "ko": "그런데 저 신부를 몰라요!",
-   "note": "menyasszony = 신부",
-   "tags": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "ismerem",
-     "ismer",
-     "이슈메르"
-    ],
-    [
-     "menyasszonyt",
-     "menyasszony",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Én sem! Én a vőlegény nagybátyja vagyok.",
-   "rd": "엔 셈! 엔 어 뵐레게니 너지바티여 버죡.",
-   "ko": "나도 몰라! 나는 신랑 삼촌이야.",
-   "note": "vőlegény = 신랑",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "vőlegény",
-     "vőlegény",
-     ""
-    ],
-    [
-     "nagybátyja",
-     "nagybáty",
-     ""
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "C",
-   "hu": "Csendet kérek! Most a vendégünk mond pár szót!",
-   "rd": "첸데트 케렉! 모슈트 어 벤데귄크 몬드 파르 쏘트!",
-   "ko": "조용히 해 주세요! 이제 우리 손님이 한 말씀 하십니다!",
-   "note": "pár szó = 몇 마디",
-   "tags": [],
-   "emotion": "shout",
    "segs": [
     [
-     "shout",
-     "Csendet kérek!"
+     "cheerful",
+     "Igen, jó napot!"
     ],
     [
-     "excited",
-     "Most a vendégünk mond pár szót!"
+     "shy",
+     "Bocsánat, késtem."
     ]
    ],
    "lemmas": [
     [
-     "Csendet",
-     "csend",
-     ""
-    ],
-    [
-     "kérek",
-     "kér",
-     "께르"
-    ],
-    [
-     "vendégünk",
-     "vendég",
-     "벤데그"
-    ],
-    [
-     "mond",
-     "mond",
-     "몬드"
-    ],
-    [
-     "szót",
-     "szó",
-     "쏘"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Izé, jó estét. Magyarul tanulok, és sok boldogságot!",
-   "rd": "이제, 요 에슈테트. 머져룰 터눌록, 에시 쇽 볼독샤고트!",
-   "ko": "저기, 안녕하세요. 헝가리어 배우는 중이고요, 행복하세요!",
-   "note": "sok boldogságot = 행복하세요",
-   "tags": [
-    "expr:izé"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Izé",
-     "izé",
-     ""
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
      "jó",
@@ -270,178 +81,283 @@
      "요"
     ],
     [
-     "estét",
-     "este",
-     "에슈테"
+     "napot",
+     "nap",
+     "넙"
     ],
     [
-     "tanulok",
-     "tanul",
-     "타눌"
+     "késtem",
+     "késik",
+     "케시크"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Semmi baj. Itt a kulcsok: ez a kapué, ez a szobáé.",
+   "rd": "셈미 버이. 이트 어 쿨촉: 에즈 어 커푸에, 에즈 어 쏘바에.",
+   "ko": "괜찮아요. 열쇠 여기요: 이건 대문 거, 이건 방 거.",
+   "note": "-é = ~의 것",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
     ],
     [
-     "boldogságot",
-     "boldogság",
+     "kulcsok",
+     "kulcs",
+     "쿨치"
+    ],
+    [
+     "kapué",
+     "kapu",
+     "커푸"
+    ],
+    [
+     "szobáé",
+     "szoba",
+     "서버"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Köszönöm. Mikor van reggeli?",
+   "rd": "쾨쐬뇜. 미코르 번 렉겔리?",
+   "ko": "감사합니다. 아침은 언제예요?",
+   "note": "reggeli = 아침 식사",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "reggeli",
+     "reggeli",
+     "렉겔리"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Nyolctól tízig, a teraszon.",
+   "rd": "뇰츠톨 티직, 어 테러쏜.",
+   "ko": "8시부터 10시까지, 테라스에서요.",
+   "note": "-tól ... -ig = ~부터 ~까지",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "teraszon",
+     "terasz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "És van wifi? Mi a jelszó?",
+   "rd": "에시 번 비피? 미 어 옐쏘?",
+   "ko": "그리고 와이파이 있어요? 비밀번호가 뭐예요?",
+   "note": "jelszó = 비밀번호",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "wifi",
+     "wifi",
+     ""
+    ],
+    [
+     "jelszó",
+     "jelszó",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Van. A jelszó: egészségedre.",
+   "rd": "번. 어 옐쏘: 에게쓰세게드레.",
+   "ko": "있어요. 비밀번호는 「에게세게드레」.",
+   "note": "egészségedre = 건배(네 건강을 위해)",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Van",
+     "van",
+     "번"
+    ],
+    [
+     "jelszó",
+     "jelszó",
+     ""
+    ],
+    [
+     "egészségedre",
+     "egészség",
      ""
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Hű, de szép volt! Most jön a menyasszonytánc!",
-   "rd": "휘, 데 쎄프 볼트! 모슈트 욘 어 메녀쏘니탄츠!",
-   "ko": "와, 정말 멋졌어! 이제 신부 춤이야!",
-   "note": "tánc = 춤",
-   "tags": [],
-   "emotion": "excited",
+   "speaker": "A",
+   "hu": "Egészsé... Hogy kell írni?",
+   "rd": "에게쓰세... 호지 켈 이르니?",
+   "ko": "에게세… 어떻게 써요?",
+   "note": "írni = 쓰다",
+   "tags": [
+    "expr:Hogy kell írni"
+   ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Hű",
-     "hű",
+     "Egészsé",
+     "egészsé",
      ""
     ],
     [
-     "szép",
-     "szép",
-     "쎕"
+     "kell",
+     "kell",
+     "켈"
     ],
     [
-     "volt",
-     "van",
-     "번"
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
-    ],
-    [
-     "menyasszonytánc",
-     "menyasszony",
-     ""
+     "írni",
+     "ír",
+     "이르"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "A",
-   "hu": "Mi az a menyasszonytánc?",
-   "rd": "미 어즈 어 메녀쏘니탄츠?",
-   "ko": "그게 뭐예요?",
-   "note": "mi az a …? = …가 뭐야?",
+   "speaker": "B",
+   "hu": "Lassan mondom: e-gész-sé-ged-re. Kis betűkkel.",
+   "rd": "러쎤 몬돔: 에-게쓰-세-게드-레. 키시 베튀껠.",
+   "ko": "천천히 말할게요: 에-게스-세-게드-레. 소문자로요.",
+   "note": "kis betű = 소문자",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "menyasszonytánc",
-     "menyasszony",
+     "Lassan",
+     "lassan",
+     "러셔느"
+    ],
+    [
+     "mondom",
+     "mond",
+     "몬드"
+    ],
+    [
+     "gész",
+     "gész",
+     ""
+    ],
+    [
+     "sé",
+     "sé",
+     ""
+    ],
+    [
+     "ged",
+     "ged",
+     ""
+    ],
+    [
+     "re",
+     "re",
+     ""
+    ],
+    [
+     "betűkkel",
+     "betű",
      ""
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "B",
-   "hu": "Fizetsz, és táncolsz a menyasszonnyal. Ötezer forint.",
-   "rd": "피제트쓰, 에시 탄촐쓰 어 메녀쏘녈. 외테제르 포린트.",
-   "ko": "돈 내고 신부랑 춤추는 거야. 5천 포린트.",
-   "note": "menyasszonnyal = 신부와",
+   "speaker": "A",
+   "hu": "Megvan, működik!",
+   "rd": "멕번, 뮈쾨딕!",
+   "ko": "됐다, 연결됐어요!",
+   "note": "működik = 작동하다",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Fizetsz",
-     "fizet",
-     "피제트"
+     "Megvan",
+     "megvan",
+     "메그번"
     ],
     [
-     "táncolsz",
-     "táncol",
-     "탄촐"
-    ],
-    [
-     "menyasszonnyal",
-     "menyasszony",
-     ""
-    ],
-    [
-     "forint",
-     "forint",
-     ""
+     "működik",
+     "működik",
+     "뮈쾨딕"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "Mi van? Még a szobámat se láttam!",
-   "rd": "미 번? 멕 어 쏘바머트 세 라떰!",
-   "ko": "네? 저 아직 제 방도 못 봤어요!",
-   "note": "se = ~조차 아니다",
+   "speaker": "B",
+   "hu": "Na látja! Ezt a szót Egerben sokat fogja hallani.",
+   "rd": "너 라트여! 에즈트 어 쏘트 에게르벤 쇼커트 폭여 헐러니.",
+   "ko": "거 봐요! 에게르에선 이 말 많이 듣게 될 거예요.",
+   "note": "fogja hallani = 듣게 될 것이다",
    "tags": [
-    "expr:Mi van?"
+    "expr:Na látja"
    ],
-   "emotion": "tsukkomi",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "szobámat",
-     "szobámat",
-     ""
-    ],
-    [
-     "láttam",
+     "látja",
      "lát",
      "라트"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "B",
-   "hu": "Nyugi, a hatos szobában most a torta van.",
-   "rd": "뉴기, 어 허토시 쏘바번 모슈트 어 토르터 번.",
-   "ko": "진정해, 지금 6번 방에는 케이크가 있어.",
-   "note": "torta = 케이크",
-   "tags": [
-    "expr:Nyugi"
-   ],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Nyugi",
-     "nyugi",
-     "니우기"
     ],
     [
-     "hatos",
-     "hatos",
-     ""
+     "szót",
+     "szó",
+     "쏘"
     ],
     [
-     "szobában",
-     "szoba",
-     "서버"
+     "fogja",
+     "fog",
+     "포그"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "torta",
-     "torta",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "hallani",
+     "hall",
+     "헐"
     ]
    ]
   }

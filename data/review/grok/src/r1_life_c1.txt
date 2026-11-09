@@ -1,19 +1,19 @@
 === r1_life_c1
 kind: chat
-title: 레테시 어디 갔어
-emoji: 🥮
-scene: Dávid 가 냉장고의 레테시를 찾는다. 채팅으로 범인을 묻는데…
+title: 다 떨어졌대
+emoji: 🧺
+scene: Dávid 가 마트에서 채팅한다. 부탁한 게 하나씩 없어서 대신 산 게 줄줄이 바뀐다
 b: Dávid
 register: chat
-twist: 7 reveal
+twist: 7 chaos
 purpose: study_abroad
-goal: 「누가 ~했어?」 묻기와 채팅 맞장구
-expressions: Amúgy; Aha; Izé; Nem baj
-B | Ki ette meg a rétesemet? | 누가 내 레테시 먹었어? | ki ette meg? = 누가 먹어 치웠어? | emotion=annoyed at=18:02
-A | Nem én! Miért? | 나 아니야! 왜? | nem én = 나 아니야 | emotion=flustered at=18:03
-B | Semmi. Csak kérdezem. | 아무것도. 그냥 물어보는 거야. | kérdezem = 내가 그걸 묻는다 | emotion=teasing at=18:03
-A | Amúgy finom volt. | 근데 맛있더라. | amúgy = 근데, 그나저나 | emotion=cheerful at=18:04
-B | Aha! 😏 | 아하! 😏 | aha = 아하 | emotion=teasing at=18:04
-A | Jaj. Izé, bocsi. | 아이고. 저기… 미안. | izé = 저기, 그거(말 막힐 때) | emotion=flustered at=18:05
-B | Nem baj. Az szappan volt. | 괜찮아. 그거 비누였어. | szappan = 비누 | emotion=gentle+teasing at=18:05
-A | Ja... ezért volt olyan tiszta. | 아… 어쩐지 깔끔하더라. | ezért = 그래서 | emotion=sad at=18:07
+goal: 채팅으로 대신할 것 정하기(Nincs … · Akkor …)
+expressions: Nincs; Akkor; Mindegy
+B | Nincs fehér kenyér. 😕 | 흰 빵이 없어. 😕 | nincs = 없다 | emotion=worried at=18:05
+A | Akkor barnát. | 그럼 갈색 빵. | akkor = 그럼 | emotion=neutral at=18:06
+B | Tej sincs. Kakaó jó? | 우유도 없어. 코코아 괜찮아? | sincs = ~도 없다 | emotion=worried at=18:08
+A | Mindegy, valamit. | 아무거나, 뭐라도. | mindegy = 상관없어 | emotion=neutral at=18:08
+B | Oké! És tojás? 🥚 | 오케이! 달걀은? 🥚 | tojás = 달걀 | emotion=cheerful at=18:10
+A | Hat darabot, légyszi. | 여섯 개, 부탁해. | légyszi = 부탁해 | emotion=polite at=18:11
+B | Csak harmincas van. Megvan, viszem! 🛒 | 30개짜리밖에 없어. 샀어, 간다! 🛒 | harmincas = 30개짜리 | emotion=excited at=18:24
+A | Harminc tojás és kakaó?! Dávid! | 달걀 30개에 코코아?! 다비드! | és = 그리고 | emotion=tsukkomi at=18:25

@@ -11,127 +11,113 @@
  "domain": [
   "culture"
  ],
- "title": "이에 낀 행운",
- "emoji": "🍰",
- "scene": "빵집의 마지막 양귀비씨 레테시를 손에 넣었다. Anna 가 「너 양귀비씨 있다」고 한다",
+ "title": "오늘 밤 뭐 볼까",
+ "emoji": "🎬",
+ "scene": "저녁에 Anna 와 함께 볼 영화를 고른다. 코미디냐 공포냐",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
  },
  "register": "casual",
- "twist": 4,
- "twist_type": "slip",
+ "twist": 5,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "관용구 mákod van 과 되묻는 말 익히기",
+ "goal": "볼 영화 정하기(Mit nézzünk? · Legyen…)",
  "expressions": [
-  "Nézd",
-  "Tessék?",
+  "Persze",
+  "Szóval",
   "Hát"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Nézd! Az utolsó mákos rétes.",
-   "rd": "네즈드! 어즈 우톨쇼 마코시 레테시.",
-   "ko": "봐! 마지막 양귀비씨 레테시야.",
-   "note": "mákos = 양귀비씨가 든",
-   "tags": [
-    "expr:Nézd"
-   ],
-   "emotion": "excited",
+   "hu": "Mit nézzünk ma este?",
+   "rd": "미트 네쥔크 머 에슈테?",
+   "ko": "오늘 저녁 뭐 볼까?",
+   "note": "Mit nézzünk? = 뭐 볼까?",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Nézd",
+     "nézzünk",
      "néz",
      "네즈"
     ],
     [
-     "utolsó",
-     "utolsó",
-     "우톨쇼"
+     "ma",
+     "ma",
+     "머"
     ],
     [
-     "mákos",
-     "mákos",
-     ""
-    ],
-    [
-     "rétes",
-     "rétes",
-     "레테시"
+     "este",
+     "este",
+     "에슈테"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Gyorsan! Egyet kérek!",
-   "rd": "죠르션! 에제트 케렉!",
-   "ko": "빨리! 하나 주세요!",
-   "note": "egyet kérek = 하나 주세요",
+   "hu": "Valami vígjátékot?",
+   "rd": "벌러미 빅야테코트?",
+   "ko": "코미디 같은 거?",
+   "note": "vígjáték = 코미디",
    "tags": [],
-   "emotion": "excited",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Gyorsan",
-     "gyors",
-     "죠르시"
-    ],
-    [
-     "kérek",
-     "kér",
-     "께르"
+     "vígjátékot",
+     "vígjáték",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Hű, mákod van!",
-   "rd": "휘, 마코드 번!",
-   "ko": "와, 너 운 좋다!",
-   "note": "mákod van = 운이 좋다(직역: 네게 양귀비씨가 있다)",
+   "hu": "Megint? Tegnap is azt néztük.",
+   "rd": "메긴트? 텍너프 이시 어즈트 네즈튁.",
+   "ko": "또? 어제도 그거 봤잖아.",
+   "note": "megint = 또",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Hű",
-     "hű",
-     ""
+     "Megint",
+     "megint",
+     "메긴트"
     ],
     [
-     "mákod",
-     "mákod",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "néztük",
+     "néz",
+     "네즈"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Tessék? A fogamon?",
-   "rd": "테쎅? 어 포거몬?",
-   "ko": "뭐라고? 내 이에?",
-   "note": "fog = 이, -on = ~위에",
-   "tags": [
-    "expr:Tessék?"
-   ],
-   "emotion": "flustered",
+   "hu": "Jó, akkor horror.",
+   "rd": "요, 어꼬르 호로르.",
+   "ko": "좋아, 그럼 공포.",
+   "note": "akkor = 그럼",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "fogamon",
-     "fogam",
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "horror",
+     "horror",
      ""
     ]
    ]
@@ -139,68 +125,98 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Nem, nem! Szerencséd van.",
-   "rd": "넴, 넴! 쎄렌체드 번.",
-   "ko": "아니, 아니! 운이 좋다고.",
-   "note": "szerencse = 운",
+   "hu": "Biztos? Múltkor egész éjjel égett a lámpád.",
+   "rd": "비즈토시? 물트코르 에게쓰 에옐 에게트 어 람파드.",
+   "ko": "확실해? 지난번에 밤새 네 방 불 켜져 있었잖아.",
+   "note": "múltkor = 지난번에",
    "tags": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "Biztos",
+     "biztos",
+     "비즈토슈"
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "éjjel",
+     "éj",
+     "에이"
+    ],
+    [
+     "égett",
+     "ég",
+     "에그"
+    ],
+    [
+     "lámpád",
+     "lámpád",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Jaj, értem. Na, együnk!",
-   "rd": "여이, 에르템. 너, 에쥔크!",
-   "ko": "아, 알겠어. 자, 먹자!",
-   "note": "együnk = 먹자",
+   "hu": "Az... véletlen volt.",
+   "rd": "어즈... 벨레틀렌 볼트.",
+   "ko": "그건… 우연이었어.",
+   "note": "véletlen = 우연",
    "tags": [],
-   "emotion": "shy",
-   "segs": [
-    [
-     "shy",
-     "Jaj, értem."
-    ],
-    [
-     "cheerful",
-     "Na, együnk!"
-    ]
-   ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "véletlen",
+     "véletlen",
+     "벨레틀렌"
     ],
     [
-     "értem",
-     "ért",
-     "에르트"
-    ],
-    [
-     "együnk",
-     "eszik",
-     "에식"
+     "volt",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Hát... most már tényleg mákos a fogad.",
-   "rd": "하트... 모슈트 마르 테닐렉 마코시 어 포거드.",
-   "ko": "음… 이제는 진짜 네 이에 양귀비씨 꼈어.",
-   "note": "most már = 이제는",
+   "hu": "Persze. Szóval vígjáték?",
+   "rd": "페르쎄. 쏘벌 빅야텍?",
+   "ko": "그렇겠지. 그래서, 코미디?",
+   "note": "szóval = 그러니까, 그래서",
+   "tags": [
+    "expr:Persze",
+    "expr:Szóval"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "vígjáték",
+     "vígjáték",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Hát... legyen vígjáték.",
+   "rd": "하트... 레젠 빅야텍.",
+   "ko": "음… 코미디로 하자.",
+   "note": "legyen = ~로 하자",
    "tags": [
     "expr:Hát"
    ],
-   "emotion": "teasing",
+   "emotion": "shy",
    "lemmas": [
     [
      "Hát",
@@ -208,29 +224,14 @@
      "핫"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
+     "legyen",
+     "lesz",
+     "레쓰"
     ],
     [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "mákos",
-     "mákos",
+     "vígjáték",
+     "vígjáték",
      ""
-    ],
-    [
-     "fogad",
-     "fog",
-     "포그"
     ]
    ]
   }

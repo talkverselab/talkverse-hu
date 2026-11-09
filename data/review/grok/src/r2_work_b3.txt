@@ -1,23 +1,24 @@
 === r2_work_b3
 kind: long
-title: 할머니께 드린 인사
-emoji: 👵
-scene: Bence 가 어르신께 쓰는 인사를 가르쳐 준다. 어미 하나만 틀리면 뜻이 완전히 달라진다
+title: 동료와 점심
+emoji: 🥣
+scene: 점심시간. Bence 가 모퉁이 푀젤레크 집에 데려간다. 주인 아주머니가 Bence 를 너무 잘 안다
 b: Bence
 c: Néni
 register: mixed
-twist: 6 slip
+twist: 10 reveal
 purpose: work_hungary
-goal: 어르신 인사 csókolom 과 어미 -om / -lak 의 차이
-expressions: Figyelj; Igazából; Durva; Tessék; Ne már
-B | Figyelj, a néniknek itt azt mondjuk: csókolom. | 잘 들어, 여기선 할머니들한테 「초콜롬」이라고 해. | csókolom = 어르신께 드리는 인사 | emotion=cheerful
-A | Csókolom? Az mit jelent? | 초콜롬? 그게 무슨 뜻이야? | jelent = 뜻하다 | emotion=neutral
-B | Igazából azt, hogy kezét csókolom. De ez csak köszönés. | 사실은 「손에 입 맞춥니다」라는 말이야. 그래도 그냥 인사야. | köszönés = 인사 | emotion=neutral
-A | Durva. És mindig így kell mondani? | 세다. 항상 이렇게 말해야 해? | így = 이렇게 | emotion=surprised
-B | Csak az idősebb néniknek. Na, jön egy! | 나이 드신 할머니들한테만. 자, 한 분 오신다! | idősebb = 나이가 더 많은 | emotion=neutral+excited
-A | Csókollak, néni! Mit kér? | 너한테 뽀뽀할게요, 할머니! 뭐 드릴까요? | csókollak = 내가 너에게 입 맞춘다(-lak) | emotion=cheerful
-C | Tessék? Mit mondott, kedves? | 네? 뭐라고 했어요? | kedves = 어른이 젊은이를 부르는 말 | emotion=surprised
-B | Jaj, ne már! Csókolom, nem csókollak! | 아이고, 아 좀! 초콜롬이지, 초콜러크가 아니야! | ne már = 아 좀, 그러지 마 | emotion=tsukkomi
-A | Bocsánat, néni! Nem akarom megcsókolni! | 죄송해요, 할머니! 입 맞출 생각 없어요! | nem akarom = 원하지 않는다 | emotion=flustered
-C | Kár. Ezt negyven éve nem mondta nekem senki. | 아쉽네. 그 말을 40년째 아무도 안 해 줬는데. | kár = 아쉽다 | emotion=gentle
-B | Na, ő holnap is itt lesz. | 자, 저분 내일도 오시겠다. | lesz = ~일 것이다 | emotion=teasing
+goal: 점심 제안하기(ebédeljünk)와 메뉴 주문하기(…-t kérek, …-val)
+expressions: Gyere; Hát; Hű
+B | Éhes vagy? Gyere, ebédeljünk együtt! | 배고파? 가자, 같이 점심 먹자! | ebédeljünk = 점심 먹자 | emotion=cheerful
+A | Szívesen. Hova megyünk? | 좋아. 어디 가? | hova = 어디로 | emotion=cheerful
+B | A sarki főzelékezőbe. Olcsó és gyors. | 모퉁이 푀젤레크 집. 싸고 빨라. | sarki = 모퉁이의 | emotion=gentle
+A | Főzelék? Az meg mi? | 푀젤레크? 그건 또 뭐야? | az meg mi? = 그건 또 뭐야? | emotion=surprised
+B | Sűrű zöldségétel. Tökfőzelék, borsófőzelék, ilyenek. | 걸쭉한 채소 요리야. 호박, 완두콩 같은 거. | sűrű = 걸쭉한 | emotion=gentle
+C | Mit kértek, fiatalok? | 뭐 줄까, 젊은이들? | kértek = 너희가 주문한다 | emotion=cheerful
+A | Egy tökfőzeléket kérek, fasírttal. | 호박 푀젤레크 하나 주세요, 고기 완자랑. | fasírt = 다진 고기 완자 | emotion=polite
+C | És te, Bence? Megint krumplifőzelék, hús nélkül? | 너는, 벤체? 또 고기 없이 감자 푀젤레크? | hús nélkül = 고기 없이 | emotion=teasing
+A | Hű, ismer téged? | 와, 너 아는 분이야? | ismer = 안다 | emotion=surprised
+B | Hát, ő az anyukám. Ezért olcsó. | 음, 우리 엄마야. 그래서 싼 거야. | anyukám = 우리 엄마 | emotion=shy+amused
+C | Neked is adok egy kis süteményt, jó? Bence barátja vagy. | 너도 케이크 조금 줄게, 응? 벤체 친구잖니. | barátja = 그의 친구 | emotion=gentle
+A | Köszönöm! Bence, holnap is ide jövünk. | 감사합니다! 벤체, 내일도 여기 오자. | ide = 여기로 | emotion=excited

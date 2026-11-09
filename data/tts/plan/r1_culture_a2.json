@@ -7,69 +7,64 @@
 "1": {
 "segs": [
 [
-"neutral",
-"Miért kapsz virágot?"
+"cheerful",
+"Boldog névnapot, Anna!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Ma van a névnapom."
+"surprised",
+"Jaj, köszi! Honnan tudtad?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Névnap? Az mi?"
+"amused",
+"A naptárban láttam."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"gentle",
-"Minden névnek van egy napja."
+"excited",
+"Milyen kedves! Virág is?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"excited",
-"És az én nevem?"
+"shy",
+"Igen, ez a tiéd."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"neutral",
-"Várj...",
-"Várj"
-],
-[
-"sad",
-"Sajnos nincs a naptárban."
+"gentle",
+"Te vagy az első ma."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"sad",
-"Hát, mindegy."
+"surprised",
+"Tényleg? Pedig már délután van."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"gentle",
-"Nekem nem mindegy. Beírtam: holnap a te napod."
+"shy",
+"Tudom. Igazából rád vártam."
 ]
 ]
 }

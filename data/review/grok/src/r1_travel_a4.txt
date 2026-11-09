@@ -1,19 +1,19 @@
 === r1_travel_a4
 kind: short
-title: 도나우 전망
-emoji: 🖼️
-scene: 호텔 접수대. 도나우강 전망 방이라고 했는데 창문으로는 벽만 보인다
+title: 예약은 내일
+emoji: 🏨
+scene: 저녁에 호텔 프런트에서 체크인한다
 b: Recepciós
 register: polite
-twist: 7 reveal
+twist: 5 reveal
 purpose: travel
-goal: 호텔에서 묻기와 불만을 공손하게 말하기
-expressions: Persze; Elnézést; Na; Komolyan
-B | Jó estét! Tessék, a szoba kulcsa. | 안녕하세요! 여기 방 열쇠입니다. | kulcs = 열쇠 | emotion=polite
-A | Köszönöm. Van kilátás a Dunára? | 고맙습니다. 도나우강 전망 있나요? | kilátás = 전망 | emotion=polite
-B | Persze. Szép kilátás, nézze meg! | 물론이죠. 전망이 좋아요, 보세요! | nézze meg = 보세요(존댓말) | emotion=polite
-A | Elnézést, az ablakból csak egy falat látok. | 저기요, 창문으로 벽밖에 안 보여요. | falat = 벽을(fal + -at) | emotion=stiff
-B | És a falon mi van? | 그럼 벽에는 뭐가 있죠? | a falon = 벽에 | emotion=polite
-A | Egy kép... a Dunáról. | 그림이요… 도나우강 그림. | -ról = ~에 관한 | emotion=sad
-B | Na, látja? Kilátás a Dunára. | 그것 보세요. 도나우강 전망이죠. | látja = 보이시죠(정활용) | emotion=cheerful
-A | Komolyan? Ezért fizettem? | 진심이세요? 이걸 돈 내고요? | ezért = 이것 때문에, 이것에 | emotion=tsukkomi
+goal: 체크인하기(Foglalásom van · Milyen névre?)
+expressions: Jó estét; Nem baj; Tényleg
+B | Jó estét! Segíthetek? | 안녕하세요! 도와드릴까요? | segíthetek = 도와드릴까요 | emotion=polite
+A | Jó estét! Foglalásom van. | 안녕하세요! 예약했어요. | foglalás = 예약 | emotion=cheerful
+B | Milyen névre? | 어떤 이름으로요? | névre = 이름으로 | emotion=polite
+A | {name} néven. Tessék, itt van. | {name}(으)로요. 여기 있어요. | néven = ~라는 이름으로 | emotion=neutral
+B | Hm. Ez a foglalás holnapra szól. | 음. 이 예약은 내일 날짜인데요. | holnapra szól = 내일 것이다 | emotion=worried
+A | Holnapra? Jaj, ne már! | 내일요? 아이고, 이럴 수가! | ne már = 아이 참 | emotion=flustered
+B | Nem baj, ma is van szabad szoba. | 괜찮아요, 오늘도 빈방 있어요. | szabad = 비어 있는 | emotion=gentle
+A | Tényleg? Akkor két éjszakát kérek! | 정말요? 그럼 이틀 밤 주세요! | éjszaka = 밤(숙박) | emotion=surprised+cheerful

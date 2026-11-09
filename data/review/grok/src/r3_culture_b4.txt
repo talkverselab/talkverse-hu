@@ -1,26 +1,26 @@
 === r3_culture_b4
 kind: long
-title: 촛불 속의 소개
-emoji: 🕯️
-scene: 11월 1일 저녁, 촛불로 가득한 공동묘지. Anna 가 같이 가자고 했다
+title: 자막 없이
+emoji: 📺
+scene: Anna 네 소파에서 헝가리 드라마를 처음으로 자막 없이 보기로 했다
 b: Anna
 register: casual
 twist: 14 emotion
 flags: romance
 purpose: media love
-goal: 만성절 풍습과 과거 이야기(-ról/-ről mesél)
-expressions: Gyere; Hát; Te jó ég; tudod; izé; Nem tudom
-B | Gyere velem ma este. Mindenszentek van, kimegyünk a temetőbe. | 오늘 저녁 같이 가자. 만성절이라 묘지에 가. | Mindenszentek = 만성절(11월 1일) | emotion=gentle
-A | A temetőbe, este? Hát, nem ez a legjobb randi. | 묘지, 저녁에? 음, 최고의 데이트는 아닌데. | randi = 데이트 | emotion=amused
-B | Ki mondta, hogy randi? Várj, amíg meglátod. | 누가 데이트래? 일단 보고 말해. | amíg = ~할 때까지 | emotion=teasing
-A | Te jó ég, ez gyönyörű. Hány gyertya ég itt? | 세상에, 너무 아름답다. 여기 촛불이 몇 개나 켜져 있는 거야? | ég = 타다(하늘이라는 뜻도) | emotion=surprised+gentle
-B | Több ezer. Ilyenkor az egész ország kijön, tudod. | 몇 천 개. 이맘때면 온 나라가 나와, 알지. | ilyenkor = 이맘때 | emotion=gentle
-A | Azt hittem, ez szomorú lesz. De mindenki halkan beszélget. | 슬플 줄 알았어. 근데 다들 조용조용 이야기하네. | halkan = 조용히 | emotion=gentle
-B | Nem sírunk, csak eljövünk hozzájuk. Itt van a nagypapám. | 울진 않아, 그냥 찾아오는 거야. 여기 우리 할아버지 계셔. | hozzájuk = 그들에게 | emotion=gentle+sad
-A | Jó estét... izé, nem tudom, mit kell itt mondani. | 안녕하세요… 어, 여기서 뭐라고 해야 할지 모르겠어. | mit kell mondani = 뭐라고 해야 하는지 | emotion=stiff+flustered
-B | Semmit, ő szerette a csendet. Majd én beszélek. | 아무 말 안 해도 돼, 조용한 걸 좋아하셨어. 내가 말할게. | majd = 나중에, 내가 알아서 | emotion=gentle
-B | Szia, nagypapa, hoztam valakit! Igen, ő az, akiről meséltem. | 안녕, 할아버지, 누구 데려왔어! 응, 내가 얘기했던 그 사람이야. | akiről = ~에 대해 말한 그 사람 | emotion=cheerful+shy
-A | Rólam meséltél neki? Mikor? | 내 얘기를 했어? 언제? | rólam = 나에 대해 | emotion=surprised
-B | Tavasszal. Hoztam neki virágot, és mindent elmondtam. | 봄에. 꽃 갖다 드리면서 전부 말씀드렸어. | tavasszal = 봄에 | emotion=gentle
-A | Mindent? Mi az a minden? | 전부? 그 전부가 뭔데? | minden = 모든 것 | emotion=surprised+shy
-B | Hogy van valaki, aki krumplinak hívta a rajzomat. És hogy azóta nem tudok mást rajzolni. | 내 그림을 감자라고 부른 사람이 있다고. 그 뒤로 다른 걸 못 그리겠다고. | azóta = 그 뒤로 | emotion=gentle+shy
+goal: 드라마 보며 묻고 답하기(Mit mondott? · Túl gyorsan beszélt)
+expressions: Hű; Szerintem; Várj; Te jó ég
+B | Ma felirat nélkül nézzük a sorozatot? | 오늘은 자막 없이 드라마 볼까? | felirat = 자막 | emotion=cheerful
+A | Felirat nélkül? Hű, ez bátor ötlet. | 자막 없이? 와, 대담한 생각인데. | bátor = 용감한 | emotion=surprised
+B | Szerintem menni fog. Sokat fejlődtél. | 내 생각엔 될 거야. 많이 늘었잖아. | fejlődtél = 늘었다 | emotion=gentle
+A | Jó, de ha nem értek valamit, megállítjuk. | 좋아, 근데 내가 못 알아들으면 멈추는 거야. | megállít = 멈추다 | emotion=worried
+B | Rendben. Hozok teát és pogácsát. | 좋아. 차랑 포가차 가져올게. | pogácsa = 짭짤한 작은 빵 | emotion=cheerful
+A | Várj, ki ez a férfi? Az apja? | 잠깐, 이 남자 누구야? 아빠야? | ki ez? = 이 사람 누구야? | emotion=surprised
+B | Nem, a nagybátyja. És ő is hazudik. | 아니, 삼촌. 그리고 그 사람도 거짓말해. | hazudik = 거짓말하다 | emotion=amused
+A | Mit mondott most? Túl gyorsan beszélt. | 방금 뭐라고 했어? 너무 빨리 말했어. | túl gyorsan = 너무 빨리 | emotion=annoyed
+B | Azt mondta: „Holnap mindent elmondok.” | "내일 다 말할게"라고 했어. | elmondok = 말해 줄게 | emotion=gentle
+A | Aha! Szóval ő tudja, hol van a pénz. | 아하! 그러니까 그 사람이 돈이 어디 있는지 아는구나. | szóval = 그러니까 | emotion=excited
+B | Te jó ég, tényleg mindent értesz! | 세상에, 너 진짜 다 알아듣는구나! | te jó ég = 세상에 | emotion=surprised
+A | Nem mindent. Csak a fontos részeket. 😄 | 다는 아니고. 중요한 부분만. 😄 | fontos = 중요한 | emotion=amused
+B | Emlékszel? Egy éve még a „szia” is nehéz volt. | 기억나? 1년 전엔 "szia"도 어려웠잖아. | emlékszel? = 기억나? | emotion=teasing
+A | Emlékszem. Az első magyar szavam a te neved volt. | 기억나. 내 첫 헝가리어 단어가 네 이름이었어. | szavam = 내 단어 | emotion=shy

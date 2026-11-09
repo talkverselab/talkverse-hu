@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Jó napot! Lakcímkártyát szeretnék kérni."
+"Jó napot kívánok! Miben segíthetek?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Rendben. Kérem a szerződést a lakásról."
+"Jó napot! Bankszámlát szeretnék nyitni."
 ]
 ]
 },
@@ -24,91 +24,83 @@
 "segs": [
 [
 "polite",
-"Tessék. Az útlevelem is itt van."
+"Rendben. Kérem az útlevelét és a lakcímkártyáját."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"stiff",
-"Szép. De hiányzik a tizenkettes papír."
+"neutral",
+"Tessék, itt vannak."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Hol kapok ilyet?"
+"polite",
+"Köszönöm. Van magyar telefonszáma?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"stiff",
-"A harmadik emeleten, a nyolcas ablaknál."
+"cheerful",
+"Igen, itt van, felírtam."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"annoyed",
-"Most jövök onnan! Azt mondták, oda lakcímkártya kell."
+"polite",
+"Rendben. Most küldök egy kódot SMS-ben."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"stiff",
-"Igen, a tizenkettes papírhoz kell lakcímkártya. Ez így van."
+"worried",
+"Még nem jött meg semmi."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"annoyed",
-"De a kártyához kell a papír!"
-],
-[
-"tsukkomi",
-"Ez egy kör!"
+"neutral",
+"Egy pillanat, újra küldöm. Most?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"stiff",
-"Hát igen."
-],
-[
-"sad",
-"Nekem sincs kártyám, pedig húsz éve itt dolgozom."
+"worried",
+"Semmi. Pedig a telefonom jó."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"surprised",
-"Tényleg? Akkor hol lakik Ön hivatalosan?"
+"amused",
+"A telefonja repülő üzemmódban van. Innen is látom."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"sad",
-"Hivatalosan sehol."
+"flustered",
+"Jaj, reggel óta!"
 ],
 [
-"worried",
-"Ne mondja el senkinek!"
+"amused",
+"Ezért volt ilyen csendes a napom."
 ]
 ]
 }

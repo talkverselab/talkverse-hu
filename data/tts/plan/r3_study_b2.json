@@ -8,64 +8,64 @@
 "1": {
 "segs": [
 [
-"excited",
-"Hé, szombaton bolhapiac lesz a folyosón! Van valami eladó cuccod?"
+"worried",
+"Réka, nálad is ilyen hideg van?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Hát, a régi magyar könyveim. De most tanulnom kell."
+"surprised",
+"Nem, nálam meleg van. Miért, nálad nincs fűtés?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Semmi baj, eladom helyetted. Mit adhatok el?"
+"sad",
+"A radiátor meleg, de a szoba hideg. Három pulóverben alszom."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"annoyed",
-"Nem tudom, nézd meg a szobámban. Mindegy, ami nem kell."
+"worried",
+"Te jó ég. Szólj a gondnoknak, ő megnézi."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"excited",
-"Szuper, bízz bennem!"
+"polite",
+"Jó napot, a 214-es szobából jöttem. Nagyon hideg van nálam."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Na, hogy megy? Miért van itt ilyen sok ember?"
+"neutral",
+"Jó napot. A radiátor működik?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"excited",
-"Király, már nyolcvanezer forintot kerestem. Nézd!"
+"worried",
+"Igen, meleg. De mégis fázom."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Nyolcvanezret? Három könyvért?"
+"neutral",
+"Furcsa. Menjünk, megnézem."
 ]
 ]
 },
@@ -73,63 +73,55 @@
 "segs": [
 [
 "amused",
-"Könyvért? Nem, a könyvek nem kellettek senkinek."
+"Én is jövök. Kíváncsi vagyok."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"worried",
-"Akkor mit adtál el?"
+"neutral",
+"Radiátor rendben, ajtó rendben. És az ablak?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"cheerful",
-"A lámpát, a széket, az asztalt."
-],
-[
-"tsukkomi",
-"Azt mondtad, mindegy!"
+"polite",
+"Az ablak csukva van. Mindig csukva tartom."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"surprised",
-"Az asztalomat?"
-],
-[
-"shout",
-"Te jó ég, hol fogok tanulni?"
+"amused",
+"Nem egészen: nézze, felül nyitva van, bukóra állította."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"teasing",
-"Az ágyon. Bár az ágyra már van vevő."
+"surprised",
+"Bukóra? Azt hittem, így van becsukva!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"stiff",
-"Elnézést, ki adta el a kollégium bútorait?"
+"teasing",
+"Két hónapig az udvart fűtötted. Szuper."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"flustered",
-"Hát, ő. Én csak segítettem."
+"gentle",
+"Semmi baj. Az első télen mindenki megtanulja."
 ]
 ]
 }

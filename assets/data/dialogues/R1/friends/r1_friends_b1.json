@@ -10,317 +10,237 @@
  "domain": [
   "friends"
  ],
- "title": "계단의 소파",
- "emoji": "🛋️",
- "scene": "Réka 가 벼룩시장에서 산 소파를 선물이라며 끌고 왔다. 계단이 좁다",
+ "title": "도와줄 사람 데려왔어",
+ "emoji": "📦",
+ "scene": "이삿날. 상자 나르는 걸 도와 달라고 했더니 Réka 가 친구들을 줄줄이 데려왔다",
  "speakers": {
   "A": "{name}",
-  "B": "Réka",
-  "C": "Néni"
+  "B": "Réka"
  },
- "register": "mixed",
- "twist": 6,
+ "register": "casual",
+ "twist": 8,
  "twist_type": "chaos",
  "flags": [],
- "goal": "친구 말투와 어른께 쓰는 말투(üljön le) 나란히 익히기",
+ "goal": "도움 주고받기(Köszi, hogy jöttél · Hoztam segítséget)",
  "expressions": [
-  "Figyelj",
-  "Nem baj",
-  "Jaj, ne már",
-  "Szóval"
+  "Hoztam segítséget",
+  "Szuper",
+  "rendeljünk"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Figyelj! Vettem neked egy kanapét a piacon!",
-   "rd": "피젤이! 베뗌 네케드 에지 커너페트 어 피어촌!",
-   "ko": "야! 시장에서 네 소파 샀어!",
-   "note": "figyelj = 야, 들어 봐",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "excited",
+   "speaker": "A",
+   "hu": "Köszi, hogy jöttél! Csak tíz doboz van.",
+   "rd": "쾨씨, 호지 요뗄! 척 티즈 도보즈 번.",
+   "ko": "와 줘서 고마워! 상자 열 개뿐이야.",
+   "note": "doboz = 상자",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Köszi",
+     "köszi",
+     "쾨씨"
     ],
     [
-     "kanapét",
-     "kanapé",
-     ""
+     "jöttél",
+     "jön",
+     "왼"
     ],
     [
-     "piacon",
-     "piac",
-     ""
+     "doboz",
+     "doboz",
+     "도보즈"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Mi? De hát kicsi a szobám!",
-   "rd": "미? 데 하트 키치 어 쏘밤!",
-   "ko": "뭐? 근데 내 방 좁잖아!",
-   "note": "kicsi = 작은",
-   "tags": [],
-   "emotion": "worried",
+   "speaker": "B",
+   "hu": "Szívesen! Hoztam segítséget is.",
+   "rd": "씨베센! 호즈텀 세기트세게트 이시.",
+   "ko": "천만에! 도와줄 사람도 데려왔어.",
+   "note": "segítség = 도움",
+   "tags": [
+    "expr:Hoztam segítséget"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "hát",
-     "hát",
-     "핫"
+     "Szívesen",
+     "szíves",
+     "시베시"
     ],
     [
-     "kicsi",
-     "kicsi",
-     "키치"
-    ],
-    [
-     "szobám",
-     "szobám",
+     "segítséget",
+     "segítsége",
      ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Nem baj. Már a lépcsőn van, gyere segíteni!",
-   "rd": "넴 버이. 마르 어 레프쵠 번, 제레 세기테니!",
-   "ko": "괜찮아. 벌써 계단에 있어, 와서 도와!",
-   "note": "lépcső = 계단",
+   "speaker": "A",
+   "hu": "Bencét? Szuper!",
+   "rd": "벤체트? 쑤페르!",
+   "ko": "벤체? 좋다!",
+   "note": "Bencét = 벤체를",
    "tags": [
-    "expr:Nem baj"
+    "expr:Szuper"
    ],
-   "emotion": "cheerful",
+   "emotion": "excited",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
-    ],
-    [
-     "lépcsőn",
-     "lépcső",
+     "Bencét",
+     "bence",
      ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "gyere",
-     "jön",
-     "왼"
-    ],
-    [
-     "segíteni",
-     "segít",
-     "셰기트"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "A",
-   "hu": "Jaj, ne már! Nem megy tovább!",
-   "rd": "여이, 네 마르! 넴 메지 토바브!",
-   "ko": "아이고, 말도 안 돼! 더 안 들어가!",
-   "note": "ne már = 에이, 그만 좀",
-   "tags": [
-    "expr:Jaj, ne már"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "megy",
-     "megy",
-     "메지"
-    ],
-    [
-     "tovább",
-     "tovább",
-     "토밥"
-    ]
-   ]
+   "speaker": "B",
+   "hu": "És Dávidot, Annát, meg Petit.",
+   "rd": "에시 다비도트, 언나트, 멕 페티트.",
+   "ko": "그리고 다비드, 안나, 페티도.",
+   "note": "meg = 그리고(구어)",
+   "tags": [],
+   "emotion": "excited",
+   "lemmas": []
   },
   {
    "num": 5,
-   "speaker": "C",
-   "hu": "Elnézést! Én hogy megyek most le?",
-   "rd": "엘네제슈트! 엔 호지 메젝 모슈트 레?",
-   "ko": "실례해요! 나는 이제 어떻게 내려가지?",
-   "note": "le = 아래로",
+   "speaker": "A",
+   "hu": "Hű, öt ember tíz dobozra?",
+   "rd": "휘, 외트 엠베르 티즈 도보즈러?",
+   "ko": "와, 상자 열 개에 다섯 명?",
+   "note": "-ra/-re = ~에 대해",
    "tags": [],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Elnézést!"
-    ],
-    [
-     "worried",
-     "Én hogy megyek most le?"
-    ]
-   ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
+     "Hű",
+     "hű",
+     ""
     ],
     [
-     "megyek",
-     "megye",
-     "메예"
+     "ember",
+     "ember",
+     "엠베르"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "le",
-     "le",
-     "레"
+     "dobozra",
+     "doboz",
+     "도보즈"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Néni, tessék, üljön le a kanapéra!",
-   "rd": "네니, 테쎅, 윌욘 레 어 커너페러!",
-   "ko": "할머니, 여기, 소파에 앉으세요!",
-   "note": "üljön le = 앉으세요",
+   "hu": "Persze, gyorsan kész leszünk! Hol a lift?",
+   "rd": "페르쎄, 죠르션 케쓰 레쒼크! 홀 어 리프트?",
+   "ko": "그럼, 금방 끝날 거야! 엘리베이터 어디 있어?",
+   "note": "kész leszünk = 끝날 것이다",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Néni",
-     "néni",
-     ""
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "tessék",
-     "tessék",
-     "테셰크"
+     "gyorsan",
+     "gyors",
+     "죠르시"
     ],
     [
-     "üljön",
-     "ül",
-     "위일"
+     "kész",
+     "kész",
+     "케스"
     ],
     [
-     "le",
-     "le",
-     "레"
+     "leszünk",
+     "lesz",
+     "레쓰"
     ],
     [
-     "kanapéra",
-     "kanapé",
+     "lift",
+     "lift",
      ""
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "C",
-   "hu": "Jó, köszönöm. És egy kávét is kérek.",
-   "rd": "요, 쾨쐬뇜. 에시 에지 카베트 이시 케렉.",
-   "ko": "그래, 고마워요. 커피도 한 잔 줘요.",
-   "note": "kávét is kérek = 커피도 주세요",
+   "speaker": "A",
+   "hu": "Nincs lift. Ötödik emelet.",
+   "rd": "닌치 리프트. 외퇴딕 에멜레트.",
+   "ko": "엘리베이터 없어. 5층이야.",
+   "note": "emelet = 층",
    "tags": [],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Jó, köszönöm."
-    ],
-    [
-     "amused",
-     "És egy kávét is kérek."
-    ]
-   ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Nincs",
+     "nincs",
+     "닌치"
     ],
     [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "lift",
+     "lift",
+     ""
     ],
     [
-     "kávét",
-     "kávé",
-     "카베"
-    ],
-    [
-     "kérek",
-     "kér",
-     "께르"
+     "emelet",
+     "emelet",
+     ""
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "A",
-   "hu": "Szóval most a néni itt lakik a lépcsőn?",
-   "rd": "쏘벌 모슈트 어 네니 이트 러킥 어 레프쵠?",
-   "ko": "그러니까 이제 할머니가 계단에 사시는 거야?",
-   "note": "szóval = 그러니까",
+   "speaker": "B",
+   "hu": "Akkor előbb rendeljünk pizzát. Hat nagyot.",
+   "rd": "어꼬르 엘뢰브 렌델윈크 피자트. 허트 너죠트.",
+   "ko": "그럼 먼저 피자부터 시키자. 큰 거 여섯 판.",
+   "note": "rendeljünk = 주문하자",
    "tags": [
-    "expr:Szóval"
+    "expr:rendeljünk"
    ],
-   "emotion": "tsukkomi",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Szóval",
-     "szó",
-     "쏘"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
+     "előbb",
+     "előbb",
+     "엘뢰브"
     ],
     [
-     "néni",
-     "néni",
+     "rendeljünk",
+     "rendel",
+     "렌델"
+    ],
+    [
+     "pizzát",
+     "pizza",
      ""
     ],
     [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "lakik",
-     "lakik",
-     "러키크"
-    ],
-    [
-     "lépcsőn",
-     "lépcső",
-     ""
+     "nagyot",
+     "nagy",
+     "너지"
     ]
    ]
   }

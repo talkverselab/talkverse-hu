@@ -7,90 +7,100 @@
 "1": {
 "segs": [
 [
-"shy",
-"Figyelj, találkoztam valakivel. Nagyon aranyos."
+"cheerful",
+"Na, melyik filmet nézzük?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"stiff",
-"De jó... Fiú vagy lány?",
-"De jó, Fiú vagy lány?"
+"gentle",
+"Van egy magyar vígjáték és egy sci-fi."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"amused",
-"Magyarul csak annyit mondok: ő."
+"gentle",
+"Te mit szeretnél?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"annoyed",
-"Nagyszerű. És mit csinál ez az ő?"
+"shy",
+"Mindegy, te válassz."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"gentle",
-"Nyelvet tanul. Mindig rossz ragot használ, de szépen nevet."
+"excited",
+"Akkor a sci-fi. Két és fél óra."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"stiff",
-"Aha. És hol találkoztatok?"
+"surprised",
+"Két és fél óra?"
+],
+[
+"cheerful",
+"Hű. Jó, legyen."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"A múzeum előtt. Azt mondta, hogy a rajzom krumpli."
+"cheerful",
+"Hova üljünk? Előre vagy hátra?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"annoyed",
-"Szemtelen ember. És mit akarsz tőle?"
+"gentle",
+"Középre. Ott a legjobb a hang."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"shy",
-"Hát... azt akarom, hogy végre rájöjjön.",
-"Hát, azt akarom, hogy végre rájöjjön."
+"cheerful",
+"Pattogatott kukoricát is kérsz?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"surprised",
-"Mire? Várj, hány ember mondta ezt neked?"
+"cheerful",
+"Igen, egy nagyot. Közösen esszük."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"gentle",
-"Egy. És most éppen mellettem ül."
+"surprised",
+"Várj, te egyáltalán szereted a sci-fit?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Nem igazán. Csak veled akartam jönni."
 ]
 ]
 }

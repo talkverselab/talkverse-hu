@@ -1,19 +1,19 @@
 === r1_friends_b4
 kind: long
-title: 듣고 있어?
-emoji: 🎧
-scene: 공원 벤치. 큰맘 먹고 진심을 말하는데 Réka 는 이어폰을 끼고 있다
+title: 지름길 알아
+emoji: 🚲
+scene: 주말에 Réka 와 자전거를 탄다. Réka 가 더 빠른 길을 안다며 숲길로 들어간다
 b: Réka
 register: casual
-twist: 8 ignore
+twist: 8 chaos
 purpose: making_friends
-goal: 맞장구(aha, persze)와 hogy 절로 마음 말하기
-expressions: figyelj; Aha; Persze; Szóval
-A | Réka, figyelj, fontos dolgot mondok. | 레카, 들어 봐, 중요한 얘기야. | fontos = 중요한 | emotion=gentle
-B | Aha. Mondd csak. | 응. 말해 봐. | aha = 응, 그래 | emotion=neutral
-A | Te vagy az első barátom itt. | 네가 여기서 내 첫 친구야. | első = 첫 | emotion=shy
-B | Aha, jó. Persze. | 응, 그래. 당연하지. | persze = 당연하지 | emotion=neutral
-A | Nagyon örülök, hogy itt vagy. | 네가 있어서 정말 기뻐. | örülök = 기뻐 | emotion=gentle
-B | Aha. Ja, igen. | 응. 아, 그래. | ja = 아 | emotion=neutral
-A | Szóval a biciklid mostantól az enyém. | 그러니까 네 자전거는 이제부터 내 거야. | mostantól = 이제부터 | emotion=teasing
-B | Na, azt hallottam! | 야, 그건 들었어! | hallottam = 들었다 | emotion=shout
+goal: 힘들다 말하기·길 묻기(Fáradt vagyok · Merre?)
+expressions: Várj; Mindjárt; Nem baj
+A | Réka, várj! Fáradt vagyok. | 레카, 기다려! 나 힘들어. | fáradt = 지친 | emotion=shout
+B | Gyere! Ismerek egy rövidebb utat. | 이리 와! 더 빠른 길 알아. | rövidebb = 더 짧은 | emotion=cheerful
+A | Rövidebbet? Merre? | 더 짧은 길? 어느 쪽? | merre = 어느 쪽으로 | emotion=excited
+B | Itt balra, az erdőn át. | 여기서 왼쪽, 숲을 지나서. | át = 지나서 | emotion=cheerful
+A | Réka, itt nagyon sáros az út! | 레카, 여기 길이 너무 질척해! | sáros = 진흙투성이인 | emotion=worried
+B | Nem baj, mindjárt jön az aszfalt. | 괜찮아, 곧 포장도로 나와. | mindjárt = 곧 | emotion=gentle
+A | Mindjárt? Már húsz perce mondod! | 곧? 벌써 20분째 그 말이잖아! | húsz perce = 20분 전부터 | emotion=annoyed
+B | Hát, azt hiszem, eltévedtünk. | 음, 우리 길 잃은 것 같아. | eltévedtünk = 길을 잃었다 | emotion=flustered

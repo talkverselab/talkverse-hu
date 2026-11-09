@@ -10,119 +10,166 @@
  "domain": [
   "love"
  ],
- "title": "레테시도",
- "emoji": "🥧",
- "scene": "Anna 가 직접 구운 레테시를 내민다. A 가 끝소리 하나를 틀린다",
+ "title": "이미 계산됐어요",
+ "emoji": "🧾",
+ "scene": "카페 데이트가 끝나고 계산대 앞. 둘 다 자기가 내겠다고 한다",
  "speakers": {
   "A": "{name}",
-  "B": "Anna"
+  "B": "Anna",
+  "C": "Bence"
  },
  "register": "casual",
- "twist": 8,
- "twist_type": "emotion",
+ "twist": 7,
+ "twist_type": "reveal",
  "flags": [
   "romance"
  ],
- "goal": "szeretem(그걸 좋아해)과 szeretlek(너를 사랑해) 구별",
+ "goal": "계산하기(Én fizetek · Felezzük?)",
  "expressions": [
-  "Tényleg?",
+  "Várj",
   "Tessék?",
-  "Jaj",
-  "Aha"
+  "Hát"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Kóstold meg! Én sütöttem.",
-   "rd": "코슈톨드 멕! 엔 쉬퇴뗌.",
-   "ko": "먹어 봐! 내가 구웠어.",
-   "note": "kóstold meg = 맛봐",
+   "speaker": "C",
+   "hu": "Kétezer-négyszáz lesz.",
+   "rd": "케테제르-네지싸즈 레쓰.",
+   "ko": "2,400포린트야.",
+   "note": "kétezer-négyszáz = 2,400",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Kóstold",
-     "kóstold",
+     "Kétezer",
+     "kétezer",
      ""
     ],
     [
-     "sütöttem",
-     "süt",
-     "슈트"
+     "négyszáz",
+     "négyszáz",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hű, de finom!",
-   "rd": "휘, 데 피놈!",
-   "ko": "와, 진짜 맛있다!",
-   "note": "finom = 맛있는",
-   "tags": [],
-   "emotion": "excited",
+   "hu": "Várj, ma én fizetek.",
+   "rd": "바르이, 머 엔 피제텍.",
+   "ko": "잠깐, 오늘은 내가 낼게.",
+   "note": "fizetek = 내가 낸다",
+   "tags": [
+    "expr:Várj"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Hű",
-     "hű",
-     ""
+     "Várj",
+     "vár",
+     "바르"
     ],
     [
-     "finom",
-     "finom",
-     "피놈"
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "fizetek",
+     "fizet",
+     "피제트"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Tényleg? Szereted?",
-   "rd": "테닐렉? 쎄레테드?",
-   "ko": "진짜? 좋아해?",
-   "note": "szereted = 네가 그걸 좋아한다",
-   "tags": [
-    "expr:Tényleg?"
-   ],
-   "emotion": "shy",
+   "hu": "Nem, nem. Én hívtalak meg.",
+   "rd": "넴, 넴. 엔 히브털럭 멕.",
+   "ko": "아니, 아니. 내가 초대했잖아.",
+   "note": "meghívtalak = 내가 너를 초대했다",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
+     "hívtalak",
+     "hívtalak",
+     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Igen! Nagyon szeretlek!",
-   "rd": "이겐! 너죤 쎄레틀렉!",
-   "ko": "응! 널 정말 사랑해!",
-   "note": "szeretlek = 너를 사랑해(szeretem = 그걸 좋아해)",
+   "hu": "Akkor felezzük, jó?",
+   "rd": "어꼬르 펠레쥑, 요?",
+   "ko": "그럼 반반 하자, 응?",
+   "note": "felezzük = 반으로 나누자",
    "tags": [],
-   "emotion": "excited",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "szeretlek",
-     "szeret",
-     "쎄레트"
+     "felezzük",
+     "felez",
+     ""
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "B",
-   "hu": "Tessék? Mit mondtál?",
-   "rd": "테쎅? 미트 몬드탈?",
-   "ko": "뭐? 뭐라고 했어?",
-   "note": "mit mondtál? = 뭐라고 했어?",
+   "speaker": "C",
+   "hu": "Már ki van fizetve.",
+   "rd": "마르 키 번 피제트베.",
+   "ko": "이미 계산돼 있어.",
+   "note": "ki van fizetve = 계산되어 있다",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "fizetve",
+     "fizet",
+     "피제트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Tessék? Ki fizette?",
+   "rd": "테쎅? 키 피제떼?",
+   "ko": "응? 누가 냈어?",
+   "note": "ki fizette? = 누가 그걸 냈어?",
    "tags": [
     "expr:Tessék?"
    ],
@@ -134,73 +181,44 @@
      "테셰크"
     ],
     [
-     "mondtál",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Jaj, nem! A rétest szeretem!",
-   "rd": "여이, 넴! 어 레테슈트 쎄레템!",
-   "ko": "아이고, 아니! 레테시를 좋아한다고!",
-   "note": "a rétest = 레테시를, -t = 목적격",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "rétest",
-     "rétes",
-     "레테시"
-    ],
-    [
-     "szeretem",
-     "szeret",
-     "쎄레트"
+     "fizette",
+     "fizet",
+     "피제트"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Aha. Csak a rétest?",
-   "rd": "어허. 척 어 레테슈트?",
-   "ko": "아하. 레테시만?",
-   "note": "csak = ~만",
-   "tags": [
-    "expr:Aha"
-   ],
+   "speaker": "C",
+   "hu": "A hölgy, amikor bejött.",
+   "rd": "어 횔지, 어미코르 베요트.",
+   "ko": "이분이, 들어올 때.",
+   "note": "amikor bejött = 들어왔을 때",
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "Aha",
-     "aha",
-     "어허"
+     "hölgy",
+     "hölgy",
+     "획지"
     ],
     [
-     "rétest",
-     "rétes",
-     "레테시"
+     "bejött",
+     "bejön",
+     "베이왼"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "A",
-   "hu": "Hát... a rétest is.",
-   "rd": "하트... 어 레테슈트 이시.",
-   "ko": "음… 레테시'도'.",
-   "note": "is = ~도",
-   "tags": [],
+   "speaker": "B",
+   "hu": "Hát... a következő randi a tiéd.",
+   "rd": "하트... 어 쾨베트케죄 런디 어 티에드.",
+   "ko": "음… 다음 데이트는 네 차례야.",
+   "note": "a tiéd = 네 것",
+   "tags": [
+    "expr:Hát"
+   ],
    "emotion": "shy",
    "lemmas": [
     [
@@ -209,9 +227,14 @@
      "핫"
     ],
     [
-     "rétest",
-     "rétes",
-     "레테시"
+     "következő",
+     "következik",
+     "쾨베트케지크"
+    ],
+    [
+     "randi",
+     "randi",
+     "런디"
     ]
    ]
   }

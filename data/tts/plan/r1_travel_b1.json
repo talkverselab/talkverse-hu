@@ -7,20 +7,16 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Figyelj, leszállok egy lángosért. Két perc!"
+"excited",
+"Na, itt a híres lángos! Mit kérsz rá?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"shout",
-"Várj!"
-],
-[
-"worried",
-"A vonat mindjárt indul!"
+"neutral",
+"Nem tudom. Te mit szoktál kérni?"
 ]
 ]
 },
@@ -28,59 +24,51 @@
 "segs": [
 [
 "cheerful",
-"Nyugi! Fogd a biciklimet és a táskámat."
+"Tejfölt és sajtot. Fokhagyma is kell!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Réka, hol vagy?"
-],
-[
-"shout",
-"Már megy a vonat!"
+"cheerful",
+"Oké, akkor én is azt kérek."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Szia, ez egy néni telefonja."
-],
-[
-"flustered",
-"Itt maradtam!"
+"cheerful",
+"Akkor állj be a sorba, én foglalok asztalt."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Mi van?"
-],
-[
-"worried",
-"Nálam van a táskád és a biciklid!"
+"annoyed",
+"Réka, ez a sor nagyon lassú."
 ]
 ]
 },
 "7": {
 "segs": [
 [
+"tsukkomi",
+"Az a mosdó sora!"
+],
+[
 "surprised",
-"Réka? Te hogyhogy már itt vagy?"
+"És a lángosos bezárt."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"A néni elhozott kocsival. A lángosod már hideg."
+"flustered",
+"Komolyan? Már tíz perce állok itt!"
 ]
 ]
 }

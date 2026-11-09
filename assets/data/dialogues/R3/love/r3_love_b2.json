@@ -10,9 +10,9 @@
  "domain": [
   "love"
  ],
- "title": "예순 개의 봉투",
- "emoji": "✉️",
- "scene": "A 가 두 달 동안 고향에 다녀온다. 출발 전날, Anna 가 큰 상자를 들고 왔다",
+ "title": "구멍 난 목도리",
+ "emoji": "🧣",
+ "scene": "12월, A 가 2주 동안 고향에 간다. Anna 가 공항버스 정류장까지 따라 나왔다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
@@ -23,277 +23,50 @@
  "flags": [
   "romance"
  ],
- "goal": "기간 말하기(két hónapra, hatvan napig)와 아쉬운 마음을 돌려 말하기",
+ "goal": "날짜·기간 말하기(január hetedikén · két hét)와 '도착하면 연락해'(Írj, ha megérkeztél)",
  "expressions": [
   "Persze",
-  "Semmi baj",
-  "Ugye",
   "Amúgy",
-  "Igazából"
+  "Igazából",
+  "Nézd"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szóval tényleg hazamész? Azt hittem, csak viccelsz.",
-   "rd": "쏘벌 테닐렉 허저메쓰? 어즈트 히뗌, 척 비쩰쓰.",
-   "ko": "그러니까 진짜 집에 가? 농담인 줄 알았어.",
-   "note": "viccelsz = 농담한다",
+   "hu": "Mindent bepakoltál? Útlevél, telefon, töltő?",
+   "rd": "민덴트 베퍼콜탈? 우틀레벨, 텔레폰, 퇼퇴?",
+   "ko": "다 챙겼어? 여권, 휴대폰, 충전기?",
+   "note": "bepakoltál = 짐을 쌌다",
    "tags": [],
-   "emotion": "sad",
+   "emotion": "worried",
    "lemmas": [
     [
-     "Szóval",
-     "szó",
-     "쏘"
-    ],
-    [
-     "tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "hazamész",
-     "hazamegy",
-     "허저메지"
-    ],
-    [
-     "hittem",
-     "hitt",
+     "bepakoltál",
+     "bepakolt",
      ""
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "telefon",
+     "telefon",
+     "텔레폰"
     ],
     [
-     "viccelsz",
-     "viccel",
-     "비츠첼"
+     "töltő",
+     "tölt",
+     "퇼트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Csak két hónapra. A családom már nagyon vár, és a papírokat is intézni kell.",
-   "rd": "척 케트 호너프러. 어 철라돔 마르 너죤 바르, 에시 어 퍼피로커트 이시 인테즈니 켈.",
-   "ko": "두 달만이야. 가족이 많이 기다리고, 서류도 처리해야 해.",
-   "note": "két hónapra = 두 달 동안(예정 기간)",
+   "hu": "Igen, háromszor is megnéztem. Az útlevél itt van a zsebemben.",
+   "rd": "이겐, 하롬쏘르 이시 멕네즈템. 어즈 우틀레벨 이트 번 어 제벰벤.",
+   "ko": "응, 세 번이나 확인했어. 여권은 여기 주머니에 있어.",
+   "note": "zsebemben = 내 주머니에",
    "tags": [],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "Csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "hónapra",
-     "hónap",
-     "호넙"
-    ],
-    [
-     "családom",
-     "család",
-     "처라드"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "vár",
-     "vár",
-     "바르"
-    ],
-    [
-     "papírokat",
-     "papír",
-     "퍼피르"
-    ],
-    [
-     "intézni",
-     "intéz",
-     "인테즈"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Persze, semmi baj. Két hónap nem olyan sok, ugye?",
-   "rd": "페르쎄, 셈미 버이. 케트 호너프 넴 오연 쇽, 우제?",
-   "ko": "그럼, 괜찮아. 두 달이면 그렇게 길지 않지, 그렇지?",
-   "note": "ugye = 그렇지?",
-   "tags": [
-    "expr:Persze",
-    "expr:Semmi baj",
-    "expr:Ugye"
-   ],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "baj",
-     "baj",
-     "버이"
-    ],
-    [
-     "hónap",
-     "hónap",
-     "호넙"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Nem, egyáltalán nem sok. Amúgy mi van ebben a nagy dobozban?",
-   "rd": "넴, 에잘털란 넴 쇽. 어무지 미 번 에벤 어 너지 도보즈번?",
-   "ko": "응, 전혀 길지 않아. 그건 그렇고 이 큰 상자엔 뭐가 있어?",
-   "note": "amúgy = 그건 그렇고",
-   "tags": [
-    "expr:Amúgy"
-   ],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Nem, egyáltalán nem sok."
-    ],
-    [
-     "neutral",
-     "Amúgy mi van ebben a nagy dobozban?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "egyáltalán",
-     "egyáltalán",
-     "에자알탈란"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "nagy",
-     "nagy",
-     "너지"
-    ],
-    [
-     "dobozban",
-     "doboz",
-     "도보즈"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Semmi különös. Csak hatvan boríték, hogy legyen mit csinálnod.",
-   "rd": "셈미 퀼뢰뇌시. 척 허트번 보리텍, 호지 레젠 미트 치날노드.",
-   "ko": "별거 아니야. 그냥 봉투 예순 개, 네가 할 일이 있으라고.",
-   "note": "boríték = 봉투",
-   "tags": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "különös",
-     "különös",
-     "퀼뢰뫼시"
-    ],
-    [
-     "hatvan",
-     "hatvan",
-     ""
-    ],
-    [
-     "boríték",
-     "boríték",
-     ""
-    ],
-    [
-     "legyen",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "csinálnod",
-     "csinál",
-     "치날"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Hatvan? Várj, mindegyiken egy dátum van.",
-   "rd": "허트번? 바르이, 민데지켄 에지 다툼 번.",
-   "ko": "예순 개? 잠깐, 봉투마다 날짜가 있네.",
-   "note": "mindegyiken = 각각에",
-   "tags": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Hatvan",
-     "hatvan",
-     ""
-    ],
-    [
-     "mindegyiken",
-     "mindegyik",
-     ""
-    ],
-    [
-     "dátum",
-     "dátum",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Igen, minden napra egy. De előre nem nyithatod ki, komolyan mondom.",
-   "rd": "이겐, 민덴 너프러 에지. 데 엘뢰레 넴 니트허토드 키, 코모연 몬돔.",
-   "ko": "응, 하루에 하나씩. 근데 미리 열면 안 돼, 진심이야.",
-   "note": "nem nyithatod ki = 열 수 없다",
-   "tags": [],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Igen, minden napra egy."
-    ],
-    [
-     "teasing",
-     "De előre nem nyithatod ki, komolyan mondom."
-    ]
-   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Igen",
@@ -301,80 +74,245 @@
      "이겐"
     ],
     [
-     "napra",
-     "nap",
-     "넙"
+     "megnéztem",
+     "megnéz",
+     "메그네즈"
     ],
     [
-     "előre",
-     "előre",
-     "엘뢰레"
-    ],
-    [
-     "nyithatod",
-     "nyithat",
+     "útlevél",
+     "útlevél",
      ""
     ],
     [
-     "ki",
-     "ki",
-     "키"
+     "itt",
+     "itt",
+     "이트"
     ],
     [
-     "komolyan",
-     "komoly",
-     "코모이"
+     "van",
+     "van",
+     "번"
     ],
     [
-     "mondom",
-     "mond",
-     "몬드"
+     "zsebemben",
+     "zsebem",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "És mikor jössz vissza pontosan?",
+   "rd": "에시 미코르 요쓰 비써 폰토션?",
+   "ko": "그래서 정확히 언제 돌아와?",
+   "note": "pontosan = 정확히",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "jössz",
+     "jön",
+     "왼"
+    ],
+    [
+     "vissza",
+     "vissza",
+     "비써"
+    ],
+    [
+     "pontosan",
+     "pontos",
+     "폰토시"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Január hetedikén. Csak két hét, nem olyan sok.",
+   "rd": "여누아르 헤테디켄. 척 케트 헤트, 넴 오연 쇽.",
+   "ko": "1월 7일. 2주뿐이야, 그렇게 길지 않아.",
+   "note": "hetedikén = 7일에",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Január",
+     "január",
+     ""
+    ],
+    [
+     "hetedikén",
+     "hetedike",
+     ""
+    ],
+    [
+     "hét",
+     "hét",
+     "헤트"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Persze, két hét semmi. Amúgy otthon most hideg van?",
+   "rd": "페르쎄, 케트 헤트 셈미. 어무지 오트혼 모슈트 히덱 번?",
+   "ko": "그럼, 2주는 아무것도 아니지. 그나저나 거기 지금 추워?",
+   "note": "amúgy = 그나저나",
+   "tags": [
+    "expr:Persze",
+    "expr:Amúgy"
+   ],
+   "emotion": "stiff",
+   "segs": [
+    [
+     "stiff",
+     "Persze, két hét semmi."
+    ],
+    [
+     "cheerful",
+     "Amúgy otthon most hideg van?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "hét",
+     "hét",
+     "헤트"
+    ],
+    [
+     "otthon",
+     "otthon",
+     "오트혼"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "hideg",
+     "hideg",
+     "히데그"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Nagyon. Még hidegebb, mint itt.",
+   "rd": "너죤. 멕 히데게브, 민트 이트.",
+   "ko": "엄청. 여기보다 더 추워.",
+   "note": "hidegebb = 더 추운",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "hidegebb",
+     "hideg",
+     "히데그"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Akkor ezt vidd magaddal. Én kötöttem, de ne nézd meg közelről.",
+   "rd": "어꼬르 에즈트 비드 머거덜. 엔 쾨퇴뗌, 데 네 네즈드 멕 쾨젤뢸.",
+   "ko": "그럼 이거 가져가. 내가 떴는데, 가까이서 보진 마.",
+   "note": "kötöttem = 내가 떴다(뜨개질)",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "vidd",
+     "visz",
+     "비스"
+    ],
+    [
+     "kötöttem",
+     "kötött",
+     ""
+    ],
+    [
+     "nézd",
+     "néz",
+     "네즈"
+    ],
+    [
+     "közelről",
+     "közel",
+     "쾨젤"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Jó, de csak egyet nézek meg. Hű, ez egy krumpli sállal!",
-   "rd": "요, 데 척 에제트 네젝 멕. 휘, 에즈 에지 크룸플리 샬럴!",
-   "ko": "알았어, 근데 하나만 볼게. 와, 목도리 두른 감자네!",
-   "note": "sállal = 목도리로, 목도리를 두른",
+   "hu": "Egy sál! Hű, de szép, de ez itt egy lyuk?",
+   "rd": "에지 샬! 휘, 데 쎄프, 데 에즈 이트 에지 육?",
+   "ko": "목도리! 와, 예쁘다, 근데 여기 이거 구멍이야?",
+   "note": "lyuk = 구멍",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "surprised",
    "segs": [
     [
-     "teasing",
-     "Jó, de csak egyet nézek meg."
+     "surprised",
+     "Egy sál!"
     ],
     [
-     "excited",
-     "Hű, ez egy krumpli sállal!"
+     "teasing",
+     "Hű, de szép, de ez itt egy lyuk?"
     ]
    ],
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "nézek",
-     "néz",
-     "네즈"
-    ],
-    [
-     "krumpli",
-     "krumpli",
+     "sál",
+     "sál",
      ""
     ],
     [
-     "sállal",
-     "sál",
+     "szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "lyuk",
+     "lyuk",
      ""
     ]
    ]
@@ -382,36 +320,31 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Az első napon a krumpli hazaér, és nagyon fázik.",
-   "rd": "어즈 엘쇠 너폰 어 크룸플리 허저에르, 에시 너죤 파직.",
-   "ko": "첫날에 감자가 집에 도착하는데, 많이 추워해.",
-   "note": "hazaér = 집에 도착한다",
+   "hu": "Az nem lyuk, hanem dizájn. Három hétig kötöttem.",
+   "rd": "어즈 넴 육, 허넴 디자인. 하롬 헤틱 쾨퇴뗌.",
+   "ko": "그건 구멍이 아니라 디자인이야. 3주 동안 떴어.",
+   "note": "három hétig = 3주 동안",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "napon",
-     "nap",
-     "넙"
-    ],
-    [
-     "krumpli",
-     "krumpli",
+     "lyuk",
+     "lyuk",
      ""
     ],
     [
-     "hazaér",
-     "hazaér",
+     "dizájn",
+     "dizájn",
      ""
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
+     "hétig",
+     "hét",
+     "헤트"
     ],
     [
-     "fázik",
-     "fáz",
+     "kötöttem",
+     "kötött",
      ""
     ]
    ]
@@ -419,111 +352,27 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "És a második napon? Mi történik a krumplival?",
-   "rd": "에시 어 마쇼딕 너폰? 미 퇴르테닉 어 크룸플리벌?",
-   "ko": "둘째 날엔? 감자한테 무슨 일이 생겨?",
-   "note": "történik = 일어난다",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "napon",
-     "nap",
-     "넙"
-    ],
-    [
-     "történik",
-     "történik",
-     "퇴르텐닉"
-    ],
-    [
-     "krumplival",
-     "krumpli",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "B",
-   "hu": "Azt majd holnap tudod meg. Hatvan napig minden reggel rám kell gondolnod.",
-   "rd": "어즈트 머이드 홀너프 투도드 멕. 허트번 너픽 민덴 렉겔 람 켈 곤돌노드.",
-   "ko": "그건 내일 알게 돼. 육십 일 동안 매일 아침 내 생각을 해야 해.",
-   "note": "rám kell gondolnod = 너는 내 생각을 해야 한다",
-   "tags": [],
-   "emotion": "teasing",
-   "segs": [
-    [
-     "teasing",
-     "Azt majd holnap tudod meg."
-    ],
-    [
-     "gentle",
-     "Hatvan napig minden reggel rám kell gondolnod."
-    ]
-   ],
-   "lemmas": [
-    [
-     "majd",
-     "majd",
-     "머이드"
-    ],
-    [
-     "holnap",
-     "holnap",
-     "홀넙"
-    ],
-    [
-     "tudod",
-     "tud",
-     "투드"
-    ],
-    [
-     "napig",
-     "nap",
-     "넙"
-    ],
-    [
-     "reggel",
-     "reggel",
-     "렉겔"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "gondolnod",
-     "gondol",
-     "곤돌"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "A",
-   "hu": "Anna, ezt mikor rajzoltad? Csak tegnap mondtam el, hogy megyek.",
-   "rd": "언너, 에즈트 미코르 러이졸터드? 척 텍너프 몬드텀 엘, 호지 메젝.",
-   "ko": "언너, 이걸 언제 그렸어? 간다고 어제 말했잖아.",
-   "note": "csak tegnap = 겨우 어제",
+   "hu": "Három hétig? De hát csak két hete mondtam, hogy hazamegyek.",
+   "rd": "하롬 헤틱? 데 하트 척 케트 헤테 몬드텀, 호지 허저메젝.",
+   "ko": "3주? 근데 집에 간다고 말한 건 겨우 2주 전인데.",
+   "note": "két hete = 2주 전에",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Anna",
-     "anna",
-     ""
+     "hétig",
+     "hét",
+     "헤트"
     ],
     [
-     "rajzoltad",
-     "rajzol",
-     ""
+     "hát",
+     "hát",
+     "핫"
     ],
     [
-     "tegnap",
-     "tegnap",
-     "테그너프"
+     "csak",
+     "csak",
+     "촉"
     ],
     [
      "mondtam",
@@ -531,24 +380,19 @@
      "몬드"
     ],
     [
-     "el",
-     "el",
-     "엘"
-    ],
-    [
-     "megyek",
-     "megye",
-     "메예"
+     "hazamegyek",
+     "hazamegy",
+     "허저메지"
     ]
    ]
   },
   {
-   "num": 13,
+   "num": 11,
    "speaker": "B",
-   "hu": "Igazából a múlt hónap óta tudom, Réka elmondta. Minden este rajzoltam.",
-   "rd": "이거자볼 어 물트 호너프 오터 투돔, 레커 엘몬드터. 민덴 에슈테 러이졸텀.",
-   "ko": "사실 지난달부터 알고 있었어, 레카가 말해 줬거든. 매일 밤 그렸어.",
-   "note": "igazából = 사실은",
+   "hu": "Igazából nem neked kezdtem. Aztán menet közben a tiéd lett.",
+   "rd": "이거자볼 넴 네케드 케즈드템. 어즈탄 메네트 쾨즈벤 어 티에드 레트.",
+   "ko": "사실 너 주려고 시작한 건 아니었어. 그러다 뜨는 동안 네 것이 됐어.",
+   "note": "menet közben = 하는 도중에",
    "tags": [
     "expr:Igazából"
    ],
@@ -560,33 +404,94 @@
      "이거즈"
     ],
     [
-     "múlt",
-     "múlt",
-     "물트"
+     "kezdtem",
+     "kezd",
+     "케즈드"
     ],
     [
-     "hónap",
-     "hónap",
-     "호넙"
+     "menet",
+     "menet",
+     ""
     ],
     [
-     "tudom",
-     "tud",
-     "투드"
+     "közben",
+     "köz",
+     "쾨즈"
     ],
     [
-     "elmondta",
-     "elmond",
-     "엘몬드"
+     "lett",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "És kinek kezdted?",
+   "rd": "에시 키넥 케즈드테드?",
+   "ko": "그럼 누구 주려고 시작했는데?",
+   "note": "kinek = 누구에게",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "kinek",
+     "ki",
+     "키"
     ],
     [
-     "este",
-     "este",
-     "에슈테"
+     "kezdted",
+     "kezd",
+     "케즈드"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Magamnak, de rajtad jobban áll. Nézd, jön a buszod!",
+   "rd": "머검넉, 데 러이터드 요번 알. 네즈드, 욘 어 부쏘드!",
+   "ko": "나한테, 근데 너한테 더 잘 어울려. 봐, 네 버스 온다!",
+   "note": "rajtad jobban áll = 너한테 더 어울린다",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Magamnak, de rajtad jobban áll."
     ],
     [
-     "rajzoltam",
-     "rajzol",
+     "surprised",
+     "Nézd, jön a buszod!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Magamnak",
+     "magam",
+     ""
+    ],
+    [
+     "jobban",
+     "jobb",
+     ""
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "buszod",
+     "buszod",
      ""
     ]
    ]
@@ -594,64 +499,121 @@
   {
    "num": 14,
    "speaker": "A",
-   "hu": "Minden este? És mi van az utolsó borítékban?",
-   "rd": "민덴 에슈테? 에시 미 번 어즈 우톨쇼 보리텍번?",
-   "ko": "매일 밤? 그럼 마지막 봉투엔 뭐가 있어?",
-   "note": "utolsó = 마지막",
+   "hu": "Jaj, már? Jó, akkor mennem kell.",
+   "rd": "여이, 마르? 요, 어꼬르 멘넴 켈.",
+   "ko": "아, 벌써? 그래, 그럼 가야겠다.",
+   "note": "mennem kell = 나 가야 해",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "sad",
    "lemmas": [
     [
-     "este",
-     "este",
-     "에슈테"
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "már",
+     "már",
+     "마르"
     ],
     [
-     "utolsó",
-     "utolsó",
-     "우톨쇼"
+     "akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "borítékban",
-     "boríték",
-     ""
+     "mennem",
+     "megy",
+     "메지"
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
     ]
    ]
   },
   {
    "num": 15,
    "speaker": "B",
-   "hu": "Az üres. Azt neked kell rajzolnod, amikor visszajössz.",
-   "rd": "어즈 위레시. 어즈트 네케드 켈 러이졸노드, 어미코르 비써요쓰.",
-   "ko": "그건 비어 있어. 네가 돌아오면 네가 그려야 해.",
-   "note": "amikor visszajössz = 네가 돌아올 때",
+   "hu": "Írj, ha megérkeztél. És ne vedd le a sálat a képeken.",
+   "rd": "이르이, 허 메게르케즈텔. 에시 네 베드 레 어 샬러트 어 케페켄.",
+   "ko": "도착하면 문자해. 그리고 사진에서 목도리 벗지 마.",
+   "note": "megérkeztél = 도착했다",
    "tags": [],
    "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Írj, ha megérkeztél."
+    ],
+    [
+     "teasing",
+     "És ne vedd le a sálat a képeken."
+    ]
+   ],
    "lemmas": [
     [
-     "üres",
-     "üres",
-     "위레시"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "rajzolnod",
-     "rajzol",
+     "Írj",
+     "írj",
      ""
     ],
     [
-     "visszajössz",
-     "vissza",
-     "비써"
+     "megérkeztél",
+     "megérkezik",
+     "메게르케직"
+    ],
+    [
+     "vedd",
+     "vedd",
+     "베드"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "sálat",
+     "sál",
+     ""
+    ],
+    [
+     "képeken",
+     "kép",
+     "켑"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "hu": "Nem veszem le. Január hetedikén is ebben jövök.",
+   "rd": "넴 베쎔 레. 여누아르 헤테디켄 이시 에벤 요뵉.",
+   "ko": "안 벗을게. 1월 7일에도 이거 하고 올게.",
+   "note": "ebben = 이것을 하고(입고)",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "veszem",
+     "veszik",
+     "베세크"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "hetedikén",
+     "hetedike",
+     ""
+    ],
+    [
+     "jövök",
+     "jön",
+     "왼"
     ]
    ]
   }

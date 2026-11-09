@@ -8,149 +8,126 @@
 "1": {
 "segs": [
 [
-"neutral",
-"Figyelj, ezt a csomagot vidd el a szomszédba, a harmadik emeletre."
+"polite",
+"Jó napot! Mit adhatok?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Persze, kinek szól? Itt az áll, hogy Szabó Istvánné."
+"polite",
+"Jó napot kívánok! Egy kiló almát kérek."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Igen, ő a néni."
-],
-[
-"teasing",
-"Előbb a családnév, aztán a keresztnév, ezt már tudod, ugye?"
+"surprised",
+"Hű, milyen szépen beszél magyarul!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"amused",
-"Tudom, tudom. Szóval Szabó a családnév, és István a néni neve."
+"shy",
+"Köszönöm, de még csak tanulok. Fél éve."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"teasing",
-"Hát... nem egészen, de menj csak, majd meglátod!",
-"Hát, nem egészen, de menj csak, majd meglátod!"
+"cheerful",
+"Szerintem nagyon jól megy neki. Én is segítek."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"polite",
-"Csókolom! Szabó István nénit keresem."
+"gentle",
+"És mi a legnehezebb?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Kit?"
-],
-[
-"sad",
-"István, a férjem, már harminc éve nem lakik itt."
+"worried",
+"A ragozás. Látok, látom... mindig keverem.",
+"A ragozás. Látok, látom, mindig keverem."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Bocsánat, de a csomagon ez áll: Szabó Istvánné. Ez nem Ön?"
+"gentle",
+"Az nem olyan nehéz. Mit lát most?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"amused",
-"Dehogynem!"
-],
-[
-"gentle",
-"Az annyit tesz: István felesége, így írtuk régen."
+"neutral",
+"Látok egy almát."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"gentle",
-"És az Ön neve? Az igazi neve?"
+"cheerful",
+"Jó! És ezt az almát?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"shy",
-"Margit."
-],
-[
-"sad",
-"Ezt ötven éve nem kérdezte meg senki."
+"excited",
+"Ezt az almát... látom!",
+"Ezt az almát, látom!"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"gentle",
-"Margit néni, akkor ez Önnek szól. A feladó: Kiss Béla."
+"excited",
+"Tökéletes. Ötös!"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"flustered",
-"Jaj, ne szólj Rékának!"
-],
-[
-"shy",
-"Béla a barátom, nyolcvankét éves."
+"surprised",
+"Ötös? Néni, tanár tetszett lenni?"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"cheerful",
-"Na, megvan a néni?"
+"amused",
+"Negyven évig tanítottam magyart."
 ],
 [
-"surprised",
-"Hogyhogy ilyen sokáig tartott?"
+"gentle",
+"Na, a szép válaszért egy alma ajándék."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"amused",
-"Megvan."
-],
-[
-"teasing",
-"De ha megkérdezed, ki az a Béla, én semmit sem tudok."
+"cheerful",
+"Köszönöm! Holnap is jövök gyakorolni."
 ]
 ]
 }

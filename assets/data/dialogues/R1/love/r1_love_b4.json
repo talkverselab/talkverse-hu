@@ -10,13 +10,12 @@
  "domain": [
   "love"
  ],
- "title": "서른 개의 감자",
+ "title": "뭐라고 보내지?",
  "emoji": "📓",
- "scene": "벤치에서 주운 Anna 의 스케치북. Réka 가 열지 말라는데 이미 열었다",
+ "scene": "벼룩시장. A 가 Réka 에게 휴대폰을 내밀며 Anna 에게 보낼 메시지를 봐 달라고 한다",
  "speakers": {
   "A": "{name}",
-  "B": "Réka",
-  "C": "Anna"
+  "B": "Réka"
  },
  "register": "casual",
  "twist": 6,
@@ -24,23 +23,25 @@
  "flags": [
   "romance"
  ],
- "goal": "금지 명령(Ne nyisd ki!)과 '벌써 ~했어'",
+ "goal": "조언 구하기(Mit írjak?)와 불러내기(Hívd el!)",
  "expressions": [
-  "Komolyan",
-  "Hű",
-  "Szóval",
-  "Várj"
+  "Figyelj",
+  "Mizu",
+  "Na ne",
+  "Nézd"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Réka, nézd, ezt a padon találtam. Anna rajzfüzete?",
-   "rd": "레커, 네즈드, 에즈트 어 퍼돈 털랄텀. 언너 러이즈퓌제테?",
-   "ko": "레카, 봐, 이거 벤치에서 찾았어. 언너 스케치북이야?",
-   "note": "pad = 벤치",
-   "tags": [],
-   "emotion": "neutral",
+   "hu": "Réka, figyelj. Mit írjak Annának?",
+   "rd": "레커, 피젤이. 미트 이르역 언나넉?",
+   "ko": "레카, 있잖아. 언너한테 뭐라고 쓰지?",
+   "note": "írjak = 내가 쓸까",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "emotion": "worried",
    "lemmas": [
     [
      "Réka",
@@ -48,23 +49,13 @@
      ""
     ],
     [
-     "nézd",
-     "néz",
-     "네즈"
+     "figyelj",
+     "figyel",
+     "피겔"
     ],
     [
-     "padon",
-     "pad",
-     ""
-    ],
-    [
-     "találtam",
-     "talált",
-     ""
-    ],
-    [
-     "rajzfüzete",
-     "rajzfüzete",
+     "írjak",
+     "írja",
      ""
     ]
    ]
@@ -72,129 +63,72 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Igen, az övé. Ne nyisd ki, komolyan mondom!",
-   "rd": "이겐, 어즈 외베. 네 니슈드 키, 코모연 몬돔!",
-   "ko": "응, 걔 거야. 열지 마, 진심이야!",
-   "note": "ne nyisd ki = 열지 마",
+   "hu": "Mutasd. „Szia, mizu?” Ennyi?",
+   "rd": "무터슈드. „씨어, 미주?” 에니?",
+   "ko": "보여 줘. \"안녕, 뭐 해?\" 이게 다야?",
+   "note": "ennyi = 이만큼",
    "tags": [
-    "expr:Komolyan"
+    "expr:Mizu"
    ],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Igen, az övé."
-    ],
-    [
-     "worried",
-     "Ne nyisd ki, komolyan mondom!"
-    ]
-   ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Mutasd",
+     "mutasd",
+     "무터슈트"
     ],
     [
-     "övé",
-     "öv",
-     "외브"
-    ],
-    [
-     "nyisd",
-     "nyit",
-     "니트"
-    ],
-    [
-     "ki",
-     "ki",
-     "키"
-    ],
-    [
-     "komolyan",
-     "komoly",
-     "코모이"
-    ],
-    [
-     "mondom",
-     "mond",
-     "몬드"
+     "mizu",
+     "mizu",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Már kinyitottam. Hű, itt nagyon sok krumpli van.",
-   "rd": "마르 키니토떰. 휘, 이트 너죤 쇽 크룸플리 번.",
-   "ko": "벌써 열었어. 와, 여기 감자가 엄청 많아.",
-   "note": "már = 벌써",
-   "tags": [
-    "expr:Hű"
-   ],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Már kinyitottam."
-    ],
-    [
-     "surprised",
-     "Hű, itt nagyon sok krumpli van."
-    ]
-   ],
+   "hu": "Jó, de unalmas, ugye?",
+   "rd": "요, 데 우널머시, 우제?",
+   "ko": "괜찮은데, 좀 지루하지, 그렇지?",
+   "note": "unalmas = 지루한",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Már",
-     "már",
-     "마르"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "kinyitottam",
-     "kinyit",
-     "키니트"
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "krumpli",
-     "krumpli",
+     "unalmas",
+     "unalmas",
      ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Ja, azok? Azok nem krumplik.",
-   "rd": "여, 어족? 어족 넴 크룸플릭.",
-   "ko": "아, 그거? 그거 감자 아니야.",
-   "note": "ja = 아",
+   "hu": "Kicsit. Hívd el valahová!",
+   "rd": "키치트. 히브드 엘 벌러호바!",
+   "ko": "좀. 어디 같이 가자고 해!",
+   "note": "hívd el = 불러내",
    "tags": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Ja",
-     "ja",
-     "여"
+     "Kicsit",
+     "kicsi",
+     "키치"
     ],
     [
-     "krumplik",
-     "krumpli",
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "valahová",
+     "valahova",
      ""
     ]
    ]
@@ -202,112 +136,107 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Várj. Ennek a krumplinak az én orrom van.",
-   "rd": "바르이. 엔넥 어 크룸플리넉 어즈 엔 오롬 번.",
-   "ko": "잠깐. 이 감자, 내 코를 하고 있어.",
-   "note": "orr = 코",
-   "tags": [
-    "expr:Várj"
-   ],
-   "emotion": "surprised",
+   "hu": "Moziba? Nem túl gyors?",
+   "rd": "모지버? 넴 툴 죠르시?",
+   "ko": "영화? 너무 빠르지 않아?",
+   "note": "túl gyors = 너무 빠른",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "Moziba",
+     "mozi",
+     "모지"
     ],
     [
-     "krumplinak",
-     "krumpli",
-     ""
+     "túl",
+     "túl",
+     "툴"
     ],
     [
-     "orrom",
-     "orr",
-     "오르"
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "gyors",
+     "gyors",
+     "죠르시"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Mind te vagy. Harminc oldal, csupa te.",
-   "rd": "민드 테 버지. 허르민츠 올덜, 추퍼 테.",
-   "ko": "전부 너야. 서른 쪽이 다 너.",
-   "note": "csupa = 온통",
-   "tags": [],
-   "emotion": "gentle",
+   "hu": "Na ne. Ma reggel Anna ugyanezt kérdezte tőlem.",
+   "rd": "너 네. 머 렉겔 언너 우져네즈트 케르데즈테 퇼렘.",
+   "ko": "에이. 오늘 아침에 언너도 똑같은 걸 나한테 물었어.",
+   "note": "ugyanezt = 바로 이것을",
+   "tags": [
+    "expr:Na ne"
+   ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "oldal",
-     "oldal",
-     "올덜"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "csupa",
-     "csupa",
-     ""
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "kérdezte",
+     "kérdez",
+     "케르데즈"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Harminc? Szóval Anna engem...",
-   "rd": "허르민츠? 쏘벌 언너 엔겜...",
-   "ko": "서른 쪽? 그러니까 언너가 나를…",
-   "note": "szóval = 그러니까",
-   "tags": [
-    "expr:Szóval"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Harminc?"
-    ],
-    [
-     "shy",
-     "Szóval Anna engem..."
-    ]
-   ],
+   "hu": "Tényleg? És mit mondtál neki?",
+   "rd": "테닐렉? 에시 미트 몬드탈 네키?",
+   "ko": "진짜? 그래서 뭐라고 했어?",
+   "note": "mit mondtál? = 뭐라고 했어?",
+   "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Harminc",
-     "harminc",
-     ""
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "mondtál",
+     "mond",
+     "몬드"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "C",
-   "hu": "Sziasztok! Nem láttátok a füzetemet?",
-   "rd": "씨어쓰톡! 넴 라따톡 어 퓌제테메트?",
-   "ko": "얘들아 안녕! 내 공책 못 봤어?",
-   "note": "láttátok = 너희가 그걸 봤다",
-   "tags": [],
-   "emotion": "cheerful",
+   "speaker": "B",
+   "hu": "Azt, hogy ne várjon rád. Nézd, már írt.",
+   "rd": "어즈트, 호지 네 바르욘 라드. 네즈드, 마르 이르트.",
+   "ko": "너 기다리지 말라고. 봐, 벌써 보냈네.",
+   "note": "ne várjon = 기다리지 말라",
+   "tags": [
+    "expr:Nézd"
+   ],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Sziasztok",
-     "sziasztok",
-     "씨어스톡"
+     "várjon",
+     "vár",
+     "바르"
     ],
     [
-     "láttátok",
-     "lát",
-     "라트"
+     "már",
+     "már",
+     "마르"
     ],
     [
-     "füzetemet",
-     "füze",
-     ""
+     "írt",
+     "ír",
+     "이르"
     ]
    ]
   }

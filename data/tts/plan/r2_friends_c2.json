@@ -7,41 +7,41 @@
 "1": {
 "segs": [
 [
-"teasing",
-"Figyelj, ne haragudj, de csináltam neked randiprofilt."
+"cheerful",
+"Itt vagyok a mozinál. Hol tartasz?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Mit csináltál?! Milyen profilt?"
+"cheerful",
+"Mindjárt ott vagyok! Öt perc!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"teasing",
-"Már harminc üzeneted van. Szívesen! 😎",
-"Már harminc üzeneted van. Szívesen!"
+"neutral",
+"Oké, megveszem a jegyeket."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"shout",
-"Töröld! Azonnal töröld!"
+"cheerful",
+"Megvannak a jegyek. Hol vagy? 🎟️",
+"Megvannak a jegyek. Hol vagy?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Egy pillanat. Már mindenkinek válaszoltam helyetted."
+"flustered",
+"Öt perc, ígérem!"
 ]
 ]
 },
@@ -49,32 +49,31 @@
 "segs": [
 [
 "worried",
-"Mit válaszoltál?!"
+"Már megy a reklám. Siess!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Csak annyit: holnap nyolckor, Bence kávézójában."
+"flustered",
+"Futok! A villamoson vagyok."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"worried",
-"Várj. Hány embernek?"
+"annoyed",
+"Melyik megállónál?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"teasing",
-"Hát... mindenkinek. 😇",
-"Hát, mindenkinek."
+"flustered",
+"Hát, igazából még csak most indulok."
 ]
 ]
 },
@@ -82,7 +81,7 @@
 "segs": [
 [
 "shout",
-"Harminc ember, holnap?! Úristen!"
+"Most indulsz?! És a villamos?"
 ]
 ]
 },
@@ -90,16 +89,17 @@
 "segs": [
 [
 "amused",
-"Nyugi. Bence már keres széket."
+"Bocsi! A megállóban vagyok, az már majdnem villamos. 😅",
+"Bocsi! A megállóban vagyok, az már majdnem villamos."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"cheerful",
-"És viszem a kanapét is. 😄",
-"És viszem a kanapét is."
+"teasing",
+"Na jó. A popcornod az enyém. 🍿",
+"Na jó. A popcornod az enyém."
 ]
 ]
 }

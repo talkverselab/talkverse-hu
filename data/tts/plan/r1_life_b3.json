@@ -7,73 +7,77 @@
 "1": {
 "segs": [
 [
-"neutral",
-"Szia, hol a fehér pólóm? Edzésre megyek."
+"worried",
+"Dávid, nem látod a kulcsomat?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Kimostam mindent. Nézd, tiszta!"
+"neutral",
+"Nem. Megnézted a kabátodban?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Köszi!"
-],
-[
-"surprised",
-"Várj, ez miért rózsaszín?"
+"worried",
+"Igen, ott nincs. A táskámban sincs."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Hát... a piros kabátod is ott volt.",
-"Hát, a piros kabátod is ott volt."
+"gentle",
+"A konyhában? Az asztalon?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"annoyed",
-"És a törölközőm? A zoknim?"
+"shout",
+"Nincs!"
+],
+[
+"worried",
+"Jaj, elkések!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Minden rózsaszín. Bocsi."
+"gentle",
+"Nyugi."
+],
+[
+"amused",
+"Mi van a kezedben?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"worried",
-"Na, milyen volt a meccs?"
+"flustered",
+"A telefonom... és a kulcsom.",
+"A telefonom, és a kulcsom."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"excited",
-"Nyertünk!"
+"neutral",
+"Mindjárt nyolc."
 ],
 [
 "teasing",
-"Holnap jön a csapat a ruhákkal."
+"Siess, és ne engedd el!"
 ]
 ]
 }

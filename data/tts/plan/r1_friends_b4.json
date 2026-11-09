@@ -7,64 +7,64 @@
 "1": {
 "segs": [
 [
-"gentle",
-"Réka, figyelj, fontos dolgot mondok."
+"shout",
+"Réka, várj! Fáradt vagyok."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Aha. Mondd csak."
+"cheerful",
+"Gyere! Ismerek egy rövidebb utat."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shy",
-"Te vagy az első barátom itt."
+"excited",
+"Rövidebbet? Merre?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Aha, jó. Persze."
+"cheerful",
+"Itt balra, az erdőn át."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"gentle",
-"Nagyon örülök, hogy itt vagy."
+"worried",
+"Réka, itt nagyon sáros az út!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"neutral",
-"Aha. Ja, igen."
+"gentle",
+"Nem baj, mindjárt jön az aszfalt."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Szóval a biciklid mostantól az enyém."
+"annoyed",
+"Mindjárt? Már húsz perce mondod!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"Na, azt hallottam!"
+"flustered",
+"Hát, azt hiszem, eltévedtünk."
 ]
 ]
 }

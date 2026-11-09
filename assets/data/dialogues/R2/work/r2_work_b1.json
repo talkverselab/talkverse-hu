@@ -10,9 +10,9 @@
  "domain": [
   "work"
  ],
- "title": "20분짜리 면접",
+ "title": "카페 아르바이트 면접",
  "emoji": "🪑",
- "scene": "카페 아르바이트 면접 날. 창가에 앉은 남자가 앉으라고 해서 열심히 자기소개를 했다",
+ "scene": "동네 카페 아르바이트 면접. 사장님이 경험·주말 근무·시작 날짜를 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Férfi",
@@ -22,70 +22,99 @@
  "twist": 10,
  "twist_type": "reveal",
  "flags": [],
- "goal": "일자리 찾아온 용건 말하기와 할 수 있는 일 말하기(tudok + 동사원형)",
+ "goal": "면접에서 할 수 있는 일·시간 되는 날 말하기(tud + 동사원형, ráérek)",
  "expressions": [
-  "Elnézést",
   "Tessék",
-  "Szóval",
-  "bocsi",
-  "Na jó"
+  "Persze",
+  "Szuper",
+  "Szóval"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Elnézést, az állás miatt jöttem.",
-   "rd": "엘네제슈트, 어즈 알라시 미어트 요뗌.",
-   "ko": "실례합니다, 일자리 때문에 왔어요.",
-   "note": "miatt = ~ 때문에",
-   "tags": [
-    "expr:Elnézést"
-   ],
+   "speaker": "B",
+   "hu": "Jó napot! Ön jött az állás miatt?",
+   "rd": "요 너포트! 왼 요트 어즈 알라시 미어트?",
+   "ko": "안녕하세요! 일자리 때문에 오신 분이죠?",
+   "note": "az állás miatt = 일자리 때문에",
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "jött",
+     "jön",
+     "왼"
     ],
     [
      "állás",
      "állás",
      "알라시"
-    ],
-    [
-     "jöttem",
-     "jön",
-     "왼"
     ]
    ]
   },
   {
    "num": 2,
+   "speaker": "A",
+   "hu": "Igen, jó napot kívánok. {name} vagyok.",
+   "rd": "이겐, 요 너포트 키바녹. {name} 버죡.",
+   "ko": "네, 안녕하세요. {name}입니다.",
+   "note": "jó napot kívánok = 안녕하세요(정중)",
+   "tags": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "kívánok",
+     "kíván",
+     "키반"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
    "speaker": "B",
-   "hu": "Az állás miatt? Tessék, üljön le.",
-   "rd": "어즈 알라시 미어트? 테쎅, 윌욘 레.",
-   "ko": "일자리요? 네, 앉으세요.",
-   "note": "üljön le = 앉으세요(존댓말)",
+   "hu": "Tessék, üljön le. Dolgozott már kávézóban?",
+   "rd": "테쎅, 윌욘 레. 돌고조트 마르 카베조번?",
+   "ko": "앉으세요. 카페에서 일해 본 적 있어요?",
+   "note": "dolgozott már = 일해 본 적 있다",
    "tags": [
     "expr:Tessék"
    ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Az állás miatt?"
-    ],
-    [
-     "polite",
-     "Tessék, üljön le."
-    ]
-   ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "állás",
-     "állás",
-     "알라시"
+     "Tessék",
+     "tessék",
+     "테셰크"
     ],
     [
      "üljön",
@@ -96,33 +125,48 @@
      "le",
      "le",
      "레"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "kávézóban",
+     "kávézó",
+     ""
     ]
    ]
   },
   {
-   "num": 3,
+   "num": 4,
    "speaker": "A",
-   "hu": "Köszönöm. Nagyon szeretem a kávét, és gyorsan tanulok.",
-   "rd": "쾨쐬뇜. 너죤 쎄레템 어 카베트, 에시 죠르션 터눌록.",
-   "ko": "감사합니다. 커피를 정말 좋아하고, 빨리 배워요.",
+   "hu": "Kávézóban még nem. De gyorsan tanulok.",
+   "rd": "카베조번 멕 넴. 데 죠르션 터눌록.",
+   "ko": "카페에서는 아직요. 그래도 빨리 배워요.",
    "note": "gyorsan = 빨리",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Kávézóban még nem."
+    ],
+    [
+     "cheerful",
+     "De gyorsan tanulok."
+    ]
+   ],
    "lemmas": [
     [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "Kávézóban",
+     "kávézó",
+     ""
     ],
     [
-     "szeretem",
-     "szeret",
-     "쎄레트"
-    ],
-    [
-     "kávét",
-     "kávé",
-     "카베"
+     "még",
+     "még",
+     "메그"
     ],
     [
      "gyorsan",
@@ -137,14 +181,14 @@
    ]
   },
   {
-   "num": 4,
+   "num": 5,
    "speaker": "B",
-   "hu": "Értem. És mit tud még?",
-   "rd": "에르템. 에시 미트 투드 멕?",
-   "ko": "그렇군요. 또 뭘 할 수 있어요?",
-   "note": "mit tud? = 뭘 할 수 있어요?(존댓말)",
+   "hu": "Értem. Hétvégén is tud dolgozni?",
+   "rd": "에르템. 헤트베겐 이시 투드 돌고즈니?",
+   "ko": "그렇군요. 주말에도 일할 수 있어요?",
+   "note": "hétvégén = 주말에",
    "tags": [],
-   "emotion": "stiff",
+   "emotion": "polite",
    "lemmas": [
     [
      "Értem",
@@ -157,33 +201,6 @@
      "투드"
     ],
     [
-     "még",
-     "még",
-     "메그"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Hétvégén is tudok dolgozni. Reggel hatkor is!",
-   "rd": "헤트베겐 이시 투독 돌고즈니. 렉겔 허트코르 이시!",
-   "ko": "주말에도 일할 수 있어요. 아침 여섯 시에도요!",
-   "note": "-kor = ~시에",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Hétvégén",
-     "hétvége",
-     "헤트베게"
-    ],
-    [
-     "tudok",
-     "tud",
-     "투드"
-    ],
-    [
      "dolgozni",
      "dolgoz",
      "돌고즈"
@@ -192,61 +209,147 @@
   },
   {
    "num": 6,
-   "speaker": "B",
-   "hu": "Hatkor? Hű, az durva.",
-   "rd": "허트코르? 휘, 어즈 두르버.",
-   "ko": "여섯 시에요? 와, 그건 세네요.",
-   "note": "durva = 심하다, 장난 아니다",
-   "tags": [],
-   "emotion": "surprised",
+   "speaker": "A",
+   "hu": "Persze, szombaton és vasárnap is ráérek.",
+   "rd": "페르쎄, 쏨버톤 에시 버샤르너프 이시 라에렉.",
+   "ko": "그럼요, 토요일도 일요일도 돼요.",
+   "note": "ráérek = (내가) 시간이 된다",
+   "tags": [
+    "expr:Persze"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "durva",
-     "durva",
-     "두르버"
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "szombaton",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "vasárnap",
+     "vasárnap",
+     ""
+    ],
+    [
+     "ráérek",
+     "ráér",
+     "라에르"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Szóval... megkaptam az állást?",
-   "rd": "쏘벌... 멕커프텀 어즈 알라슈트?",
-   "ko": "그래서… 저 붙었나요?",
-   "note": "megkaptam = 받아 냈다(정활용)",
+   "speaker": "B",
+   "hu": "Szuper. És mikor tud kezdeni?",
+   "rd": "쑤페르. 에시 미코르 투드 케즈데니?",
+   "ko": "좋네요. 언제부터 시작할 수 있어요?",
+   "note": "kezdeni = 시작하다",
    "tags": [
-    "expr:Szóval"
+    "expr:Szuper"
    ],
-   "emotion": "shy",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Szóval",
-     "szó",
-     "쏘"
+     "Szuper",
+     "szuper",
+     "쑤페르"
     ],
     [
-     "megkaptam",
-     "megkap",
-     "메그커프"
+     "tud",
+     "tud",
+     "투드"
     ],
     [
-     "állást",
-     "állás",
-     "알라시"
+     "kezdeni",
+     "kezd",
+     "케즈드"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "C",
-   "hu": "Szia, bocsi a késésért! Te jöttél az állás miatt?",
-   "rd": "씨어, 보치 어 케세세르트! 테 요뗄 어즈 알라시 미어트?",
-   "ko": "안녕, 늦어서 미안! 일자리 때문에 온 사람이 너야?",
-   "note": "a késésért = 늦은 것에 대해",
+   "speaker": "A",
+   "hu": "Akár holnap. Szóval felvesz?",
+   "rd": "어카르 홀너프. 쏘벌 펠베쓰?",
+   "ko": "내일이라도요. 그럼… 채용하시는 건가요?",
+   "note": "felvesz = 채용하다",
    "tags": [
-    "expr:bocsi"
+    "expr:Szóval"
    ],
+   "emotion": "excited",
+   "segs": [
+    [
+     "excited",
+     "Akár holnap."
+    ],
+    [
+     "shy",
+     "Szóval felvesz?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "felvesz",
+     "felvesz",
+     "펠베스"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Felveszem. Bence, gyere, itt az új kolléga!",
+   "rd": "펠베쎔. 벤체, 제레, 이트 어즈 우이 콜레거!",
+   "ko": "채용할게요. 벤체, 이리 와, 새 동료야!",
+   "note": "kolléga = 동료",
+   "tags": [],
    "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Felveszem",
+     "felvesz",
+     "펠베스"
+    ],
+    [
+     "gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "kolléga",
+     "kolléga",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Szia! Ó, te vagy az, aki tegnap háromszor kért cukrot?",
+   "rd": "씨어! 오, 테 버지 어즈, 어키 텍너프 하롬쏘르 케르트 축로트?",
+   "ko": "안녕! 어, 어제 설탕 세 번 달라던 사람이 너구나?",
+   "note": "háromszor = 세 번",
+   "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Szia",
@@ -254,160 +357,54 @@
      "씨어"
     ],
     [
-     "bocsi",
-     "bocsi",
-     "보치"
+     "tegnap",
+     "tegnap",
+     "테그너프"
     ],
     [
-     "késésért",
-     "késés",
+     "kért",
+     "kér",
+     "께르"
+    ],
+    [
+     "cukrot",
+     "cukor",
      ""
-    ],
-    [
-     "jöttél",
-     "jön",
-     "왼"
-    ],
-    [
-     "állás",
-     "állás",
-     "알라시"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Igen, de már beszéltem a főnökkel. Ő az, ugye?",
-   "rd": "이겐, 데 마르 베쎌템 어 푀뇌껠. 외 어즈, 우제?",
-   "ko": "네, 근데 사장님이랑 벌써 얘기했어요. 이분 맞죠?",
-   "note": "ő az = 저분이 그 사람이다",
-   "tags": [],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Igen, de már beszéltem a főnökkel."
-    ],
-    [
-     "worried",
-     "Ő az, ugye?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "beszéltem",
-     "beszélt",
-     ""
-    ],
-    [
-     "főnökkel",
-     "főnök",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Én csak egy kávét szeretnék. Húsz perce várok.",
-   "rd": "엔 척 에지 카베트 쎄레트넥. 후쓰 페르체 바록.",
-   "ko": "저는 그냥 커피 한 잔 마시고 싶은데요. 20분째 기다리고 있어요.",
-   "note": "húsz perce = 20분째",
-   "tags": [],
-   "emotion": "stiff",
-   "segs": [
-    [
-     "stiff",
-     "Én csak egy kávét szeretnék."
-    ],
-    [
-     "annoyed",
-     "Húsz perce várok."
-    ]
-   ],
-   "lemmas": [
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "kávét",
-     "kávé",
-     "카베"
-    ],
-    [
-     "szeretnék",
-     "szeret",
-     "쎄레트"
-    ],
-    [
-     "perce",
-     "perc",
-     "페르츠"
-    ],
-    [
-     "várok",
-     "vár",
-     "바르"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "C",
-   "hu": "Na jó, fel vagy véve. Vidd neki a kávét!",
-   "rd": "너 요, 펠 버지 베베. 비드 네키 어 카베트!",
-   "ko": "좋아, 합격. 저분한테 커피 갖다 드려!",
-   "note": "fel vagy véve = 너 채용됐어",
-   "tags": [
-    "expr:Na jó"
-   ],
-   "emotion": "amused",
-   "segs": [
-    [
-     "amused",
-     "Na jó, fel vagy véve."
-    ],
-    [
-     "teasing",
-     "Vidd neki a kávét!"
-    ]
-   ],
+   "speaker": "A",
+   "hu": "Jaj, igen. Nagyon finom volt a kávé.",
+   "rd": "여이, 이겐. 너죤 피놈 볼트 어 카베.",
+   "ko": "아이고, 맞아. 커피가 너무 맛있어서.",
+   "note": "finom = 맛있는",
+   "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "igen",
+     "igen",
+     "이겐"
     ],
     [
-     "fel",
-     "fel",
-     "펠"
+     "finom",
+     "finom",
+     "피놈"
     ],
     [
-     "véve",
-     "vesz",
-     "베쓰"
+     "volt",
+     "van",
+     "번"
     ],
     [
-     "kávét",
+     "kávé",
      "kávé",
      "카베"
     ]

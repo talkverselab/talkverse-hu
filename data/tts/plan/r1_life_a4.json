@@ -8,72 +8,67 @@
 "segs": [
 [
 "polite",
-"Jó napot!"
-],
-[
-"sad",
-"Jaj, fáj a hasam."
+"Jó napot! Mi a panasza?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Mit evett tegnap?"
+"worried",
+"Fáj a torkom, és köhögök."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shy",
-"Csak egy lángost."
+"neutral",
+"Mióta? Van láza?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"stiff",
-"Egyet? Biztos?"
+"worried",
+"Hát, két napja. Láz nincs."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"flustered",
-"Hát... egyet reggel.",
-"Hát, egyet reggel."
+"polite",
+"Rendben. Kérem a TAJ-kártyáját."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"stiff",
-"És este?"
+"flustered",
+"Jaj, otthon felejtettem."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"shy",
-"Este hatot."
+"gentle",
+"Nem baj, a száma is jó. Tudja?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Hatot?"
+"cheerful",
+"Igen!"
 ],
 [
-"excited",
-"Hű, hol vette?"
+"flustered",
+"Az is otthon van, a kártyán."
 ]
 ]
 }

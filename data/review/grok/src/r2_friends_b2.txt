@@ -1,23 +1,22 @@
 === r2_friends_b2
 kind: long
-title: 글자 하나 차이
-emoji: 💋
-scene: Réka 네 집에 처음 가는 날. 어머니께 드릴 인사를 현관 앞에서 연습했는데
+title: 레카의 생일
+emoji: 🎂
+scene: Réka 의 생일 저녁. 현관에서 손수 만든 작은 선물을 건넨다
 b: Réka
-c: Réka anyukája
-register: mixed
-twist: 6 slip
-purpose: making_friends media
-goal: 어른께 드리는 인사 csókolom 과 -lom/-lak 구별
-expressions: Figyelj; Nyugi; Oké; ugye; Semmi baj; izé
-B | Figyelj, anyámnak azt mondod: csókolom. Ez fontos. | 야, 우리 엄마한테는 「초콜롬」이라고 해. 이거 중요해. | csókolom = 어른께 드리는 인사 | emotion=worried
-A | Csókolom? De az nem azt jelenti, hogy csók? | 초콜롬? 근데 그거 「키스」라는 뜻 아니야? | csók = 키스 | emotion=surprised
-B | De igen, de így köszönünk a néniknek. Nyugi, ne gondolkodj! | 맞아, 근데 어른들께 그렇게 인사해. 진정해, 생각하지 마! | köszön = 인사하다 | emotion=gentle
-A | Oké. Csókolom, csókolom, csókolom. | 알았어. 초콜롬, 초콜롬, 초콜롬. | 외워 두기 | emotion=worried
-C | Jaj, de jó, hogy jöttél! Te vagy {name}, ugye? | 어머, 와 줘서 반갑다! 네가 {name}, 맞지? | de jó = 참 잘됐다 | emotion=cheerful
-A | Igen! Csókollak! | 네! 키스할게! | csókollak = 내가 너에게 키스한다 | emotion=excited
-C | Hű. Hát, köszönöm? | 어머. 음, 고마워? | hát = 음 | emotion=surprised
-B | Jaj, ne! Csókolom, nem csókollak! | 아이고, 안 돼! 초콜롬이지, 초콜라크가 아니고! | -lak = 내가 너를 | emotion=shout
-A | Mi a különbség? Csak egy betű! | 뭐가 달라? 글자 하나인데! | betű = 글자 | emotion=flustered
-C | Semmi baj. De a férjem most jön, neki ezt ne mondd! | 괜찮아. 근데 남편이 지금 오니까, 그이한텐 하지 마! | férj = 남편 | emotion=gentle+teasing
-A | Jó, rendben. Csók, izé, jó napot! | 네, 알겠어요. 초… 어, 안녕하세요! | rendben = 알겠습니다 | emotion=flustered
+register: casual
+twist: 10 emotion
+purpose: making_friends
+goal: 생일 축하·선물 건네기(Boldog szülinapot · Ez neked)
+expressions: Boldog szülinapot; Ez neked; Nyisd ki
+B | Szia! Gyere be, mindenki itt van már. | 안녕! 들어와, 다들 벌써 와 있어. | gyere be = 들어와 | emotion=cheerful
+A | Boldog szülinapot, Réka! Ez neked. | 생일 축하해, 레카! 이거 너 줄 거야. | ez neked = 이거 너한테 | emotion=excited
+B | Jaj, nem kellett volna! Mi ez? | 어머, 이럴 필요 없었는데! 이게 뭐야? | nem kellett volna = 안 그래도 됐는데 | emotion=surprised
+A | Nyisd ki! De ne nevess ki. | 열어 봐! 근데 비웃지 마. | nyisd ki = 열어 봐 | emotion=shy
+B | Egy kis könyv? Kézzel írtad? | 작은 책? 손으로 쓴 거야? | kézzel = 손으로 | emotion=surprised
+A | Igen, a kedvenc magyar szavaim. Te tanítottad őket. | 응, 내가 좋아하는 헝가리어 단어들. 네가 가르쳐 준 거야. | kedvenc = 가장 좋아하는 | emotion=shy
+B | Nézzük: "pogácsa", "mindjárt", "ne már"... | 어디 보자, 「포가차」, 「금방」, 「아 진짜」… | nézzük = 보자 | emotion=amused
+A | Mind a te szavaid. Mindig ezeket mondod. | 전부 네 말이야. 맨날 이 말들 하잖아. | mindig = 늘 | emotion=teasing
+B | És az utolsó oldal? "Barát"? | 그럼 마지막 쪽은? 「친구」? | utolsó = 마지막 | emotion=gentle
+A | Igen. Az első szavam itt Budapesten. | 응. 부다페스트에서 배운 내 첫 단어. | első = 첫 | emotion=gentle
+B | {name}, most sírni fogok. Ne nézz rám! | {name}, 나 울 것 같아. 쳐다보지 마! | sírni fogok = 울 것이다 | emotion=shy

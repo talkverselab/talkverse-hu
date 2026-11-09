@@ -1,19 +1,19 @@
 === r1_culture_c3
 kind: chat
-title: 나쁜 아이는 뭘 받아?
-emoji: 🎅
-scene: 12월 5일 밤. 장화를 창가에 내놓으라는 Réka 의 메시지가 왔다
+title: 딱 여덟 편
+emoji: 📺
+scene: Réka 가 헝가리 드라마를 추천했다. 그날 밤부터 답이 없다
 b: Réka
 register: chat
-twist: 7 ignore
+twist: 6 ignore
 purpose: media making_friends
-goal: 조건 ha 로 짧게 묻기, 미쿨라시 풍습
-expressions: Miért; Szuper; Bocsi
-B | Kitetted a csizmádat? | 장화 내놨어? | csizma = 장화 | emotion=neutral at=22:10
-A | Igen. Miért? | 응. 왜? | kitettem = 내놓았다 | emotion=neutral at=22:12
-B | Ma éjjel jön a Mikulás! 🎅 | 오늘 밤 미쿨라시 와! 🎅 | ma éjjel = 오늘 밤 | emotion=excited at=22:12
-A | Szuper. Mit hoz? | 좋다. 뭐 가져와? | hoz = 가져오다 | emotion=cheerful at=22:13
-B | Ha jó voltál: csokit. | 착했으면 초콜릿. | ha = 만약 | emotion=teasing at=22:13
-A | És ha nem? | 안 착했으면? | és ha nem? = 아니면? | emotion=worried at=22:14
-A | Réka?? | 레카?? | 답이 없을 때 | emotion=worried at=23:48
-B | Bocsi, virgácsért mentem. 😈 | 미안, 회초리 가지러 갔었어. 😈 | virgács = 미쿨라시의 금빛 회초리 | emotion=teasing at=23:59
+goal: 드라마 추천 주고받기(Ajánlok… · Hány rész?)
+expressions: Oké; Na; Ugye
+B | Ajánlok egy sorozatot! Magyar krimi. | 시리즈 하나 추천할게! 헝가리 범죄물. | sorozat = 시리즈, 드라마 | emotion=excited at=19:40
+A | Hány rész? | 몇 화야? | rész = 화, 편 | emotion=gentle at=19:42
+B | Csak nyolc. Egy hétvége. 😄 | 겨우 여덟 개. 주말 하나면 끝. 😄 | csak = 겨우 | emotion=cheerful at=19:42
+A | Oké, ma elkezdem. | 오케이, 오늘 시작할게. | elkezdem = (그것을) 시작한다 | emotion=cheerful at=19:45
+B | Na? Tetszik? | 어때? 재밌어? | na? = 어때? | emotion=cheerful at=23:30
+B | Hahó? 👀 | 여보세요? 👀 | hahó = 여보세요, 저기요 | emotion=worried at=00:45
+B | Nem alszol, ugye? 😂 | 너 안 자고 있지, 그렇지? 😂 | ugye = 그렇지? | emotion=teasing at=01:20
+A | Hatodik rész. Ne zavarj! 🙏 | 6화야. 방해하지 마! 🙏 | ne zavarj = 방해하지 마 | emotion=shout at=01:21

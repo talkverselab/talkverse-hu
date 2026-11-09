@@ -1,26 +1,23 @@
 === r2_friends_b1
 kind: long
-title: 가방 속 고백
-emoji: 🦜
-scene: 맡아 둔 앵무새를 집에 못 두고 카페까지 데려왔다. 하필 Bence 의 카페다
+title: 나사 네 개
+emoji: 🔩
+scene: Réka 의 새집. 둘이서 그림뿐인 설명서를 보며 책장을 조립한다
 b: Réka
-c: Papagáj
-d: Bence
 register: casual
-twist: 8 chaos
-flags: romance
+twist: 9 chaos
 purpose: making_friends
-goal: 당황할 때 쓰는 말과 남에게 떠넘기기
-expressions: Mi van; Nyugi; Nézd; Sziasztok; Tessék; ne már
-B | Mi van a táskádban? Miért mozog? | 네 가방에 뭐야? 왜 움직여? | mozog = 움직인다 | emotion=worried
-A | A madarad. Otthon egész nap sírt, ezért elhoztam. | 네 새야. 집에서 종일 울어서 데려왔어. | ezért = 그래서 | emotion=worried
-B | Mi?! Ide hoztad, Bence kávézójába?! | 뭐?! 여길 데려왔어, 벤체 카페에?! | ide = 여기로 | emotion=shout
-A | Nyugi, alszik. Nézd, egy szót sem mond. | 진정해, 자고 있어. 봐, 한마디도 안 하잖아. | nyugi = 진정해 | emotion=cheerful
-D | Sziasztok! Mit kértek, friss rétest? | 안녕! 뭐 줄까, 갓 구운 레테시? | sziasztok = 안녕(여럿에게) | emotion=cheerful
-C | Bence, szeretlek! Bence, szeretlek! | 벤체, 사랑해! 벤체, 사랑해! | szeretlek = 널 사랑해 | emotion=excited
-D | Tessék? Ki mondta ezt? | 뭐? 누가 그랬어? | tessék? = 뭐라고? | emotion=surprised
-B | Nem én! Izé, {name} mondta! | 나 아냐! 어, {name} 쟤가 그랬어! | izé = 어, 그게(말 막힐 때) | emotion=flustered
-A | Én?! Réka, ne már! | 내가?! 레카, 그러지 마! | ne már = 그러지 마 | emotion=tsukkomi
-D | Hű. Figyelj, ez kedves, de én csak kávét tudok adni. | 와. 야, 고맙긴 한데 내가 줄 수 있는 건 커피뿐이야. | kedves = 다정한 | emotion=gentle
-C | Kávét! Bence, szeretlek! | 커피! 벤체, 사랑해! | kávét = 커피를 | emotion=excited
-B | Holnap eladom ezt a madarat. Olcsón. | 내일 이 새 판다. 싸게. | olcsón = 싸게 | emotion=annoyed
+goal: 함께 조립하기(Add ide · Fordítsd meg · Szerintem)
+expressions: Add ide; Szerintem; Kész
+B | Na, kezdjük. Hol az útmutató? | 자, 시작하자. 설명서 어디 있어? | útmutató = 설명서 | emotion=cheerful
+A | Itt van. De csak képek vannak benne. | 여기. 근데 그림밖에 없어. | benne = 그 안에 | emotion=amused
+B | Nem baj, az elég. Add ide a csavarhúzót! | 괜찮아, 그거면 돼. 드라이버 줘! | add ide = 이리 줘 | emotion=cheerful
+A | Tessék. Ez a deszka hova megy? | 자. 이 판자는 어디로 가? | deszka = 판자 | emotion=neutral
+B | Szerintem alulra. Nem, várj, fordítsd meg! | 내 생각엔 아래. 아니, 잠깐, 뒤집어! | fordítsd meg = 뒤집어 | emotion=worried
+A | Így? Most jó? | 이렇게? 이제 됐어? | így = 이렇게 | emotion=worried
+B | Tökéletes. Már csak a polcok vannak hátra. | 완벽해. 이제 선반만 남았어. | hátra van = 남아 있다 | emotion=excited
+A | Hű, két óra alatt megcsináltuk! | 와, 두 시간 만에 해냈다! | megcsináltuk = 우리가 해냈다 | emotion=excited
+B | Kész, gyönyörű! De ez a négy csavar honnan van? | 끝, 멋지다! 근데 이 나사 네 개는 어디서 나온 거지? | honnan = 어디서 | emotion=surprised
+A | Hát, szerintem tartalék. | 음, 내 생각엔 여분이야. | tartalék = 여분 | emotion=flustered
+B | Tartalék? Az útmutató szerint nincs tartalék. | 여분? 설명서엔 여분 없다는데. | szerint = ~에 따르면 | emotion=tsukkomi
+A | Akkor ne tegyünk rá könyvet. Csak egy virágot. | 그럼 책은 올리지 말자. 화분 하나만. | ne tegyünk = 놓지 말자 | emotion=amused

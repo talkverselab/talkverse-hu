@@ -1,24 +1,23 @@
 === r2_travel_c2
 kind: chat
-title: 목도리는 여행 중
-emoji: 🧣
-scene: 돌려받기로 한 목도리가 아직 Zsófi 에게 있다. 왜인지 사진이 계속 온다
+title: 우연히 지나가던 길
+emoji: ✈️
+scene: 부다페스트 공항 도착. 현지 친구 Zsófi 가 시내 가는 법을 알려 준다
 b: Zsófi
 register: chat
-twist: 10 emotion
-flags: romance alcohol
+twist: 9 emotion
+flags: romance
 purpose: travel love
-goal: 채팅으로 놀리기와 초대에 답하기
-expressions: Mi van?; nézd; tényleg; Szóval; Komolyan
-A | Zsófi, mikor kapom vissza a sálamat? | 소피, 내 목도리 언제 돌려받아? | sálamat = 내 목도리를 | emotion=annoyed at=20:14
-B | Most nem tud beszélni. Éppen utazik. 😄 | 지금은 통화 못 해. 여행 중이거든. 😄 | éppen = 지금 막 | emotion=teasing at=20:15
-A | Mi van? A sálam utazik? | 뭐? 내 목도리가 여행을 해? | utazik = 여행하다 | emotion=surprised at=20:15
-B | Igen, nézd! Ő a Balatonnál. 📷 | 응, 봐! 발라톤에 있어. 📷 | -nál = ~에, ~ 곁에 | emotion=excited at=20:16
-A | Ez tényleg az én sálam! Miért van egy kutyán? | 이거 진짜 내 목도리네! 왜 개한테 둘렀어? | kutya = 개 | emotion=surprised at=20:17
-B | Egerben is volt. Ott egy kicsit sokat ivott. 🍷 | 에게르에도 갔었어. 거기서 좀 많이 마셨어. 🍷 | ivott = 마셨다 | emotion=amused at=20:18
-A | Hű. Már többet utazott, mint én. | 와. 벌써 나보다 많이 여행했네. | mint = ~보다 | emotion=tsukkomi at=20:18
-B | Igen. Jövő héten Pécsre megy. | 응. 다음 주에 페치 가. | jövő héten = 다음 주에 | emotion=cheerful at=20:19
-A | Szóval nem kapom vissza. | 그러니까 안 돌려준다는 거네. | szóval = 그러니까 | emotion=sad at=20:20
-B | Csak egy baj van: egyedül fél. | 문제가 하나 있어. 혼자서는 무서워해. | fél = 무서워하다 | emotion=shy at=20:24
-A | Komolyan? Fél a sál? | 진짜? 목도리가 무서워해? | komolyan = 진짜로 | emotion=amused at=20:24
-B | Igen. Jössz vele? 😇 | 응. 같이 가 줄래? 😇 | vele = 그것과 함께 | emotion=shy at=20:25
+goal: 공항에서 시내 가는 법 묻기(Hol veszek jegyet? · kijárat)
+expressions: Ne siess; Nem baj; Hát
+B | Leszállt a géped? ✈️ | 비행기 내렸어? ✈️ | leszáll = 착륙하다 | emotion=cheerful at=14:05
+A | Igen! Most várom a bőröndöt. | 응! 지금 캐리어 기다려. | várom = 내가 그것을 기다린다 | emotion=cheerful at=14:07
+B | A városba a 100E busszal gyere, az a leggyorsabb. | 시내는 100E 버스로 와, 그게 제일 빨라. | leggyorsabb = 가장 빠른 | emotion=gentle at=14:08
+A | Hol veszek rá jegyet? | 그 표는 어디서 사? | rá = 그것용으로 | emotion=neutral at=14:08
+B | Az automatánál, a megállóban. Kártyával is lehet. | 정류장 자동판매기에서. 카드도 돼. | automata = 자동판매기 | emotion=gentle at=14:09
+A | Megvan a bőrönd! Hol a kijárat? 😅 | 캐리어 찾았다! 출구가 어디야? 😅 | kijárat = 출구 | emotion=excited+flustered at=14:20
+B | Egyenesen, aztán jobbra. Ne siess. | 쭉 가서 오른쪽. 서두르지 마. | ne siess = 서두르지 마 | emotion=gentle at=14:21
+A | Miért? Lekésem a buszt! | 왜? 버스 놓친다고! | lekés = 놓치다 | emotion=worried at=14:21
+B | Nem baj. Nézz balra. 🌷 | 괜찮아. 왼쪽 봐. 🌷 | nézz = 봐 | emotion=shy at=14:22
+A | Zsófi?! Te kijöttél értem? | 소피?! 나 데리러 나온 거야? | értem = 나 때문에(데리러) | emotion=surprised+shy at=14:22
+B | Hát... véletlenül erre jártam. 😊 | 음… 우연히 이 근처를 지나가던 길이야. 😊 | véletlenül = 우연히 | emotion=shy at=14:23

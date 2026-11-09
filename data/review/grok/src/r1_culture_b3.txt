@@ -1,20 +1,20 @@
 === r1_culture_b3
 kind: long
-title: 양동이 하나
-emoji: 🪣
-scene: 부활절 월요일, Anna 네 시골집. 물 뿌리는 풍습에 Dávid 말만 믿고 왔다
+title: 부활절 점심
+emoji: 🐣
+scene: 부활절에 Anna 의 할머니 댁 점심에 초대받았다
 b: Anna
 c: Nagymama
 register: mixed
 twist: 8 chaos
 purpose: media
-goal: 부활절 인사와 Szabad …? 로 허락 구하기
-expressions: Hát; Jaj; Csókolom; Jól van
-B | Boldog húsvétot! Hoztál kölnit a locsoláshoz? | 부활절 잘 보내! 물 뿌리기용 향수 가져왔어? | locsolás = 부활절에 물·향수 뿌리는 풍습 | emotion=cheerful
-A | Kölnit? Dávid azt mondta, vizet kell hozni. | 향수? Dávid 가 물 가져오라던데. | víz → vizet = 물을 | emotion=surprised+neutral
-B | Hát régen vizet hoztak. Mennyi vizet hoztál? | 옛날엔 물을 가져왔지. 얼마나 가져왔어? | régen = 옛날에 | emotion=amused+worried
-A | Nem sokat, csak egy vödröt. | 많이는 아니고, 양동이 하나. | vödör → vödröt = 양동이를 | emotion=neutral
-B | Egy vödröt? Jaj, jön a nagymamám! | 양동이?! 아이고, 우리 할머니 오셔! | jön = 온다 | emotion=surprised+flustered
-A | Csókolom! Szabad locsolni? | 안녕하세요! 뿌려도 되나요? | csókolom = 어르신께 하는 인사 | emotion=polite+cheerful
-C | Szabad, szabad... Jaj, jaj, jaj! | 되지, 되지… 어머, 어머, 어머! | szabad = 해도 된다 | emotion=gentle+shout
-C | Jól van, most én jövök. Hol a vödröm? | 좋아. 이제 내 차례다. 내 양동이 어디 있지? | most én jövök = 이제 내 차례 | emotion=teasing+excited
+goal: 식사 초대에서 인사하고 사양하기(Csókolom · Jóllaktam)
+expressions: Gyere; Jaj; Egyél
+A | Csókolom! Köszönöm a meghívást. | 안녕하세요! 초대해 주셔서 감사합니다. | Csókolom = 어른께 하는 인사 | emotion=polite
+C | Szervusz! Gyere, ülj le, kész az ebéd. | 어서 와! 와서 앉아, 점심 다 됐어. | ülj le = 앉아 | emotion=cheerful
+B | Nagyi mindig sokat főz. Vigyázz! | 할머니는 늘 많이 하셔. 조심해! | nagyi = 할머니(친근하게) | emotion=teasing
+C | Egyél, egyél! Itt a sonka és a tojás. | 먹어, 먹어! 햄이랑 달걀 여기 있어. | egyél = 먹어 | emotion=cheerful
+A | Nagyon finom! Köszönöm szépen. | 정말 맛있어요! 정말 감사합니다. | finom = 맛있는 | emotion=polite
+C | Még egy kicsit? Alig ettél valamit! | 조금 더? 거의 안 먹었잖아! | alig = 거의 ~ 않다 | emotion=worried
+A | Jaj, köszönöm, de már jóllaktam. | 아, 감사하지만 벌써 배불러요. | jóllaktam = 배부르다 | emotion=polite+flustered
+C | Jó, akkor most jön a sütemény! | 그래, 그럼 이제 케이크 나온다! | sütemény = 케이크, 과자 | emotion=cheerful

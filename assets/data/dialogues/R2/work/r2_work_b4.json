@@ -10,46 +10,38 @@
  "domain": [
   "work"
  ],
- "title": "월급 10퍼센트",
- "emoji": "🔑",
- "scene": "용기를 내서 사장에게 월급 인상을 말했다. 사장이 너무 쉽게 좋다고 한다",
+ "title": "휴가 신청",
+ "emoji": "📅",
+ "scene": "사장님 사무실 문을 두드린다. 다음 주 금요일 하루만 쉬고 싶다",
  "speakers": {
   "A": "{name}",
   "B": "Főnök"
  },
- "register": "mixed",
+ "register": "polite",
  "twist": 10,
- "twist_type": "chaos",
+ "twist_type": "reveal",
  "flags": [],
- "goal": "윗사람에게 말 꺼내기와 조건 듣기(De akkor…)",
+ "goal": "상사에게 휴가 신청하기(Szabadságot szeretnék kérni · Van egy perce?)",
  "expressions": [
   "Persze",
-  "Komolyan",
-  "Jól van",
-  "Rendben",
-  "Hát",
-  "Tessék"
+  "Egy pillanat",
+  "Tényleg"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Főnök úr, van egy perce?",
-   "rd": "푀뇍 우르, 번 에지 페르체?",
-   "ko": "사장님, 잠깐 시간 있으세요?",
+   "hu": "Elnézést, van egy perce?",
+   "rd": "엘네제슈트, 번 에지 페르체?",
+   "ko": "실례합니다, 잠깐 시간 있으세요?",
    "note": "van egy perce? = 1분 있으세요?",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Főnök",
-     "főn",
-     ""
-    ],
-    [
-     "úr",
-     "úr",
-     "우르"
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
     ],
     [
      "van",
@@ -66,14 +58,14 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Persze. Mi a baj?",
-   "rd": "페르쎄. 미 어 버이?",
-   "ko": "그럼. 무슨 일이야?",
-   "note": "mi a baj? = 무슨 문제야?",
+   "hu": "Persze, jöjjön be. Mi a helyzet?",
+   "rd": "페르쎄, 요왼 베. 미 어 헤이제트?",
+   "ko": "그럼요, 들어와요. 무슨 일이에요?",
+   "note": "jöjjön be = 들어오세요",
    "tags": [
     "expr:Persze"
    ],
-   "emotion": "neutral",
+   "emotion": "gentle",
    "lemmas": [
     [
      "Persze",
@@ -81,160 +73,216 @@
      "페르쎄"
     ],
     [
-     "baj",
-     "baj",
-     "버이"
+     "jöjjön",
+     "jön",
+     "왼"
+    ],
+    [
+     "be",
+     "be",
+     "베"
+    ],
+    [
+     "helyzet",
+     "helyzet",
+     "헤이젯"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Szeretnék több pénzt. Tíz százalékkal többet.",
-   "rd": "쎄레트넥 퇴브 펜즈트. 티즈 싸절레껄 퇴베트.",
-   "ko": "돈을 더 받고 싶어요. 10퍼센트 더요.",
-   "note": "-kal/-kel = ~만큼",
+   "hu": "Szabadságot szeretnék kérni. Csak egy napot.",
+   "rd": "써버드샤고트 쎄레트넥 케르니. 척 에지 너포트.",
+   "ko": "휴가를 신청하고 싶어요. 하루만요.",
+   "note": "szabadság = 휴가",
    "tags": [],
-   "emotion": "shy",
+   "emotion": "stiff",
    "lemmas": [
     [
-     "Szeretnék",
+     "Szabadságot",
+     "szabadság",
+     "써버드샤그"
+    ],
+    [
+     "szeretnék",
      "szeret",
      "쎄레트"
     ],
     [
-     "több",
-     "több",
-     "퇴그"
+     "kérni",
+     "kér",
+     "께르"
     ],
     [
-     "pénzt",
-     "pénz",
-     "펜즈"
-    ],
-    [
-     "százalékkal",
-     "százalék",
-     ""
+     "napot",
+     "nap",
+     "넙"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Tízet? Nem, adok harmincat.",
-   "rd": "티제트? 넴, 어독 허르민처트.",
-   "ko": "10? 아니, 30 줄게.",
-   "note": "adok = 내가 준다",
+   "hu": "Melyik napot?",
+   "rd": "메익 너포트?",
+   "ko": "어느 날이요?",
+   "note": "melyik = 어느",
    "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Tízet?"
-    ],
-    [
-     "cheerful",
-     "Nem, adok harmincat."
-    ]
-   ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "adok",
-     "ad",
-     "어드"
-    ],
-    [
-     "harmincat",
-     "harminc",
-     ""
+     "napot",
+     "nap",
+     "넙"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Komolyan? Köszönöm, főnök úr!",
-   "rd": "코모연? 쾨쐬뇜, 푀뇍 우르!",
-   "ko": "정말요? 감사합니다, 사장님!",
-   "note": "komolyan? = 진심이에요?",
-   "tags": [
-    "expr:Komolyan"
-   ],
-   "emotion": "surprised",
+   "hu": "Jövő pénteket. A barátaim jönnek Budapestre.",
+   "rd": "요뵈 펜테케트. 어 버라터임 욘넥 부더페슈트레.",
+   "ko": "다음 주 금요일이요. 친구들이 부다페스트에 와요.",
+   "note": "jövő péntek = 다음 주 금요일",
+   "tags": [],
+   "emotion": "stiff",
    "segs": [
     [
-     "surprised",
-     "Komolyan?"
+     "stiff",
+     "Jövő pénteket."
     ],
     [
-     "excited",
-     "Köszönöm, főnök úr!"
+     "cheerful",
+     "A barátaim jönnek Budapestre."
     ]
    ],
    "lemmas": [
     [
-     "Komolyan",
-     "komoly",
-     "코모이"
+     "Jövő",
+     "jövő",
+     "요뵈"
     ],
     [
-     "főnök",
-     "főn",
+     "pénteket",
+     "péntek",
      ""
     ],
     [
-     "úr",
-     "úr",
-     "우르"
+     "barátaim",
+     "barát",
+     "버랏"
+    ],
+    [
+     "jönnek",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "De akkor szombaton is te nyitsz.",
-   "rd": "데 어꼬르 쏨버톤 이시 테 니트쓰.",
-   "ko": "대신 토요일에도 네가 문 열어.",
-   "note": "nyitsz = 네가 연다",
-   "tags": [],
-   "emotion": "teasing",
+   "hu": "Jövő péntek. Egy pillanat, megnézem a naptárt.",
+   "rd": "요뵈 펜텍. 에지 필러너트, 멕네젬 어 너프타르트.",
+   "ko": "다음 주 금요일이라. 잠깐만요, 달력 볼게요.",
+   "note": "naptár = 달력",
+   "tags": [
+    "expr:Egy pillanat"
+   ],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "akkor",
-     "akkor",
-     "어꼬르"
+     "Jövő",
+     "jövő",
+     "요뵈"
     ],
     [
-     "szombaton",
-     "szombat",
-     "솜바트"
+     "péntek",
+     "péntek",
+     ""
     ],
     [
-     "nyitsz",
-     "nyit",
-     "니트"
+     "pillanat",
+     "pillanat",
+     "필러넛"
+    ],
+    [
+     "megnézem",
+     "megnéz",
+     "메그네즈"
+    ],
+    [
+     "naptárt",
+     "naptár",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Jól van. Rendben.",
-   "rd": "욜 번. 렌드벤.",
-   "ko": "네. 알겠습니다.",
-   "note": "rendben = 알겠다, 좋다",
-   "tags": [
-    "expr:Jól van",
-    "expr:Rendben"
-   ],
-   "emotion": "polite",
+   "hu": "Tudom, hogy sok a munka. Szombaton bejövök helyette.",
+   "rd": "투돔, 호지 쇽 어 문커. 쏨버톤 베요뵉 헤예떼.",
+   "ko": "일 많은 거 알아요. 대신 토요일에 나올게요.",
+   "note": "helyette = 대신",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Jól",
-     "jól",
-     "욜"
+     "Tudom",
+     "tud",
+     "투드"
     ],
+    [
+     "munka",
+     "munka",
+     "문커"
+    ],
+    [
+     "bejövök",
+     "bejön",
+     "베이왼"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Ugyan. Jövő péntek augusztus huszadika.",
+   "rd": "우젼. 요뵈 펜텍 어우구쓰투시 후써디커.",
+   "ko": "무슨요. 다음 주 금요일은 8월 20일이에요.",
+   "note": "ugyan = 별말을, 무슨",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "péntek",
+     "péntek",
+     ""
+    ],
+    [
+     "augusztus",
+     "augusztus",
+     ""
+    ],
+    [
+     "huszadika",
+     "huszadika",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "És? Akkor mi van?",
+   "rd": "에시? 어꼬르 미 번?",
+   "ko": "그래서요? 그게 왜요?",
+   "note": "mi van? = 뭔데요?",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
     [
      "van",
      "van",
@@ -243,146 +291,100 @@
    ]
   },
   {
-   "num": 8,
-   "speaker": "B",
-   "hu": "És vasárnap is. És te rendeled a poharakat.",
-   "rd": "에시 버샤르너프 이시. 에시 테 렌델레드 어 포허러커트.",
-   "ko": "일요일도. 컵 주문도 네가 해.",
-   "note": "rendeled = 네가 그것을 주문한다(정활용)",
-   "tags": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "vasárnap",
-     "vasárnap",
-     ""
-    ],
-    [
-     "rendeled",
-     "rendel",
-     "렌델"
-    ],
-    [
-     "poharakat",
-     "pohár",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Hát, oké. Még valami?",
-   "rd": "하트, 오케. 멕 벌러미?",
-   "ko": "음, 네. 또 있어요?",
-   "note": "még valami? = 또 뭐 있어요?",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "oké",
-     "oké",
-     "오케"
-    ]
-   ]
-  },
-  {
    "num": 10,
    "speaker": "B",
-   "hu": "Igen, itt a kulcs. Holnaptól te vagy a főnök.",
-   "rd": "이겐, 이트 어 쿨치. 홀너프톨 테 버지 어 푀뇍.",
-   "ko": "응, 여기 열쇠. 내일부터 네가 사장이야.",
-   "note": "holnaptól = 내일부터",
+   "hu": "Nemzeti ünnep. Mindenki szabadnapos, mi is zárva leszünk.",
+   "rd": "넴제티 윈네프. 민덴키 써버드너포시, 미 이시 자르버 레쒼크.",
+   "ko": "국경일이에요. 다들 쉬는 날이라 우리도 문 닫아요.",
+   "note": "nemzeti ünnep = 국경일",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "kulcs",
-     "kulcs",
-     "쿨치"
-    ],
-    [
-     "főnök",
-     "főn",
+     "Nemzeti",
+     "nemzeti",
      ""
+    ],
+    [
+     "ünnep",
+     "ünnep",
+     ""
+    ],
+    [
+     "szabadnapos",
+     "szabadnap",
+     ""
+    ],
+    [
+     "zárva",
+     "zár",
+     "자르"
+    ],
+    [
+     "leszünk",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Tessék?! És Ön hova megy?",
-   "rd": "테쎅?! 에시 왼 호버 메지?",
-   "ko": "네?! 그럼 사장님은 어디 가시는데요?",
-   "note": "Ön = 당신(존댓말)",
+   "hu": "Tényleg? Akkor visszavonom a kérést.",
+   "rd": "테닐렉? 어꼬르 비써보놈 어 케레슈트.",
+   "ko": "정말요? 그럼 신청 취소할게요.",
+   "note": "visszavonom = 취소한다",
    "tags": [
-    "expr:Tessék"
+    "expr:Tényleg"
    ],
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Tessék?!"
-    ],
-    [
-     "flustered",
-     "És Ön hova megy?"
-    ]
-   ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
+     "Tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "hova",
-     "hova",
-     "호버"
+     "visszavonom",
+     "visszavon",
+     ""
     ],
     [
-     "megy",
-     "megy",
-     "메지"
+     "kérést",
+     "kérés",
+     ""
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "hu": "A Balatonra. Harminc éve várok erre!",
-   "rd": "어 벌러톤러. 허르민츠 에베 바록 에레!",
-   "ko": "벌러톤에. 30년을 기다렸어!",
-   "note": "erre = 이것을(vár + -ra)",
+   "hu": "Ne vonja vissza. Kérjen inkább egy hétfőt.",
+   "rd": "네 본여 비써. 케르옌 인카브 에지 헤트푀트.",
+   "ko": "취소하지 말고요. 대신 월요일 하루 신청하세요.",
+   "note": "inkább = 차라리, 대신",
    "tags": [],
-   "emotion": "excited",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "éve",
-     "év",
-     "에브"
+     "vonja",
+     "von",
+     ""
     ],
     [
-     "várok",
-     "vár",
-     "바르"
+     "vissza",
+     "vissza",
+     "비써"
+    ],
+    [
+     "inkább",
+     "inkább",
+     "인깝"
+    ],
+    [
+     "hétfőt",
+     "hétfő",
+     ""
     ]
    ]
   }

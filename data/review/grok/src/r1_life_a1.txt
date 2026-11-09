@@ -1,19 +1,19 @@
 === r1_life_a1
 kind: short
-title: 우유 많이
-emoji: 🥛
-scene: 룸메이트 Dávid 가 장 보러 나가는 길에 우유를 부탁한다. 얼마나? 그냥 많이.
+title: 가게 가는 길에
+emoji: 🛒
+scene: 룸메이트 Dávid 가 마트에 간다. 뭐 필요하냐고 묻는다
 b: Dávid
 register: casual
-twist: 7 chaos
-purpose: making_friends
-goal: 필요한 것 묻기(Mi kell?)와 mindegy 쓰기
-expressions: Mi kell?; Mindegy; Tessék; Úristen
-B | Szia! Mész a boltba? | 야! 가게 가? | a boltba = 가게로(-ba 안으로) | emotion=cheerful
-A | Igen, most megyek. Mi kell? | 응, 지금 가. 뭐 필요해? | kell = 필요하다 | emotion=neutral
-B | Csak tej. | 우유만. | csak = ~만 | emotion=neutral
-A | Mennyi tej? | 우유 얼마나? | mennyi = 얼마나 | emotion=neutral
-B | Mindegy. Sok. | 아무거나. 많이. | mindegy = 상관없어 | emotion=amused
-A | Itt vagyok! Tessék, a tej. | 왔어! 자, 우유. | tessék = 여기 있어 | emotion=cheerful
-B | Úristen! Ez húsz liter! | 세상에! 이거 20리터잖아! | úristen = 세상에 | emotion=shout
-A | Azt mondtad: sok. | 네가 많이라고 했잖아. | azt mondtad = 네가 그렇게 말했다 | emotion=tsukkomi
+twist: 7 reveal
+purpose: study_abroad making_friends
+goal: 필요한 것 부탁하기(Kell valami? · Hozol…?)
+expressions: Kell valami?; Persze; Köszi
+B | Megyek a boltba. Kell valami? | 나 마트 간다. 뭐 필요해? | Kell valami? = 뭐 필요해? | emotion=cheerful
+A | Igen, tej. Hozol egyet? | 응, 우유. 하나 사다 줄래? | hozol = 가져올래(사 올래) | emotion=polite
+B | Persze. Zsíros vagy light? | 그럼. 일반 우유, 저지방? | zsíros = 기름진(일반 우유) | emotion=neutral
+A | Mindegy. És kenyér is kell. | 아무거나. 그리고 빵도 필요해. | is = ~도 | emotion=neutral
+B | Oké. Fehér kenyér? | 오케이. 흰 빵? | fehér = 흰 | emotion=gentle
+A | Igen. Köszi! Mennyi lesz? | 응. 고마워! 얼마야? | Mennyi lesz? = 얼마 될까? | emotion=cheerful
+B | Hagyd, majd te fizetsz holnap. | 됐어, 내일 네가 내. | majd = 나중에 | emotion=teasing
+A | Holnap? Holnap te főzöl! | 내일? 내일은 네가 요리 당번이잖아! | főzöl = 네가 요리한다 | emotion=amused

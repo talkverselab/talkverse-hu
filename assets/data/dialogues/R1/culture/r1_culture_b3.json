@@ -10,9 +10,9 @@
  "domain": [
   "culture"
  ],
- "title": "양동이 하나",
- "emoji": "🪣",
- "scene": "부활절 월요일, Anna 네 시골집. 물 뿌리는 풍습에 Dávid 말만 믿고 왔다",
+ "title": "부활절 점심",
+ "emoji": "🐣",
+ "scene": "부활절에 Anna 의 할머니 댁 점심에 초대받았다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
@@ -22,219 +22,22 @@
  "twist": 8,
  "twist_type": "chaos",
  "flags": [],
- "goal": "부활절 인사와 Szabad …? 로 허락 구하기",
+ "goal": "식사 초대에서 인사하고 사양하기(Csókolom · Jóllaktam)",
  "expressions": [
-  "Hát",
+  "Gyere",
   "Jaj",
-  "Csókolom",
-  "Jól van"
+  "Egyél"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Boldog húsvétot! Hoztál kölnit a locsoláshoz?",
-   "rd": "볼독 후슈베토트! 호즈탈 쾰니트 어 로촐라슈호즈?",
-   "ko": "부활절 잘 보내! 물 뿌리기용 향수 가져왔어?",
-   "note": "locsolás = 부활절에 물·향수 뿌리는 풍습",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Boldog",
-     "boldog",
-     "볼도그"
-    ],
-    [
-     "húsvétot",
-     "húsvét",
-     ""
-    ],
-    [
-     "kölnit",
-     "kölni",
-     ""
-    ],
-    [
-     "locsoláshoz",
-     "locsol",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 2,
    "speaker": "A",
-   "hu": "Kölnit? Dávid azt mondta, vizet kell hozni.",
-   "rd": "쾰니트? 다비드 어즈트 몬드터, 비제트 켈 호즈니.",
-   "ko": "향수? Dávid 가 물 가져오라던데.",
-   "note": "víz → vizet = 물을",
+   "hu": "Csókolom! Köszönöm a meghívást.",
+   "rd": "초콜롬! 쾨쐬뇜 어 멕히바슈트.",
+   "ko": "안녕하세요! 초대해 주셔서 감사합니다.",
+   "note": "Csókolom = 어른께 하는 인사",
    "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Kölnit?"
-    ],
-    [
-     "neutral",
-     "Dávid azt mondta, vizet kell hozni."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Kölnit",
-     "kölni",
-     ""
-    ],
-    [
-     "mondta",
-     "mond",
-     "몬드"
-    ],
-    [
-     "vizet",
-     "vize",
-     "비제"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "hozni",
-     "hoz",
-     "호즈"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Hát régen vizet hoztak. Mennyi vizet hoztál?",
-   "rd": "하트 레겐 비제트 호즈턱. 메니 비제트 호즈탈?",
-   "ko": "옛날엔 물을 가져왔지. 얼마나 가져왔어?",
-   "note": "régen = 옛날에",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "amused",
-   "segs": [
-    [
-     "amused",
-     "Hát régen vizet hoztak."
-    ],
-    [
-     "worried",
-     "Mennyi vizet hoztál?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "régen",
-     "rég",
-     "레그"
-    ],
-    [
-     "vizet",
-     "vize",
-     "비제"
-    ],
-    [
-     "hoztak",
-     "hoz",
-     "호즈"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Nem sokat, csak egy vödröt.",
-   "rd": "넴 쇼커트, 척 에지 뵈드뢰트.",
-   "ko": "많이는 아니고, 양동이 하나.",
-   "note": "vödör → vödröt = 양동이를",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "vödröt",
-     "vödör",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Egy vödröt? Jaj, jön a nagymamám!",
-   "rd": "에지 뵈드뢰트? 여이, 욘 어 너지머맘!",
-   "ko": "양동이?! 아이고, 우리 할머니 오셔!",
-   "note": "jön = 온다",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Egy vödröt?"
-    ],
-    [
-     "flustered",
-     "Jaj, jön a nagymamám!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "vödröt",
-     "vödör",
-     ""
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
-    ],
-    [
-     "nagymamám",
-     "nagy",
-     "너지"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Csókolom! Szabad locsolni?",
-   "rd": "초콜롬! 써버드 로촐니?",
-   "ko": "안녕하세요! 뿌려도 되나요?",
-   "note": "csókolom = 어르신께 하는 인사",
-   "tags": [
-    "expr:Csókolom"
-   ],
    "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Csókolom!"
-    ],
-    [
-     "cheerful",
-     "Szabad locsolni?"
-    ]
-   ],
    "lemmas": [
     [
      "Csókolom",
@@ -242,77 +45,214 @@
      ""
     ],
     [
-     "locsolni",
-     "locsol",
+     "meghívást",
+     "meghívás",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "hu": "Szervusz! Gyere, ülj le, kész az ebéd.",
+   "rd": "쎄르부쓰! 제레, 윌이 레, 케쓰 어즈 에베드.",
+   "ko": "어서 와! 와서 앉아, 점심 다 됐어.",
+   "note": "ülj le = 앉아",
+   "tags": [
+    "expr:Gyere"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Szervusz",
+     "szervusz",
+     ""
+    ],
+    [
+     "ülj",
+     "ülj",
+     "위이"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "kész",
+     "kész",
+     "케스"
+    ],
+    [
+     "ebéd",
+     "ebéd",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Nagyi mindig sokat főz. Vigyázz!",
+   "rd": "너지 민딕 쇼커트 푀즈. 비자즈!",
+   "ko": "할머니는 늘 많이 하셔. 조심해!",
+   "note": "nagyi = 할머니(친근하게)",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Nagyi",
+     "nagyi",
+     ""
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "főz",
+     "főz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Egyél, egyél! Itt a sonka és a tojás.",
+   "rd": "에젤, 에젤! 이트 어 숀커 에시 어 토야시.",
+   "ko": "먹어, 먹어! 햄이랑 달걀 여기 있어.",
+   "note": "egyél = 먹어",
+   "tags": [
+    "expr:Egyél"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Egyél",
+     "eszik",
+     "에식"
+    ],
+    [
+     "sonka",
+     "sonka",
+     ""
+    ],
+    [
+     "tojás",
+     "tojás",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Nagyon finom! Köszönöm szépen.",
+   "rd": "너죤 피놈! 쾨쐬뇜 쎄펜.",
+   "ko": "정말 맛있어요! 정말 감사합니다.",
+   "note": "finom = 맛있는",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Még egy kicsit? Alig ettél valamit!",
+   "rd": "멕 에지 키치트? 얼릭 에뗄 벌러미트!",
+   "ko": "조금 더? 거의 안 먹었잖아!",
+   "note": "alig = 거의 ~ 않다",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Még",
+     "még",
+     "메그"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "ettél",
+     "esz",
      ""
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "C",
-   "hu": "Szabad, szabad... Jaj, jaj, jaj!",
-   "rd": "써버드, 써버드... 여이, 여이, 여이!",
-   "ko": "되지, 되지… 어머, 어머, 어머!",
-   "note": "szabad = 해도 된다",
+   "speaker": "A",
+   "hu": "Jaj, köszönöm, de már jóllaktam.",
+   "rd": "여이, 쾨쐬뇜, 데 마르 욜럭텀.",
+   "ko": "아, 감사하지만 벌써 배불러요.",
+   "note": "jóllaktam = 배부르다",
    "tags": [
     "expr:Jaj"
    ],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Szabad, szabad..."
-    ],
-    [
-     "shout",
-     "Jaj, jaj, jaj!"
-    ]
-   ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Szabad",
-     "szabad",
-     "써버드"
-    ],
-    [
-     "jaj",
+     "Jaj",
      "jaj",
      "야이"
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "jóllaktam",
+     "jóllakik",
+     ""
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Jól van, most én jövök. Hol a vödröm?",
-   "rd": "욜 번, 모슈트 엔 요뵉. 홀 어 뵈드룀?",
-   "ko": "좋아. 이제 내 차례다. 내 양동이 어디 있지?",
-   "note": "most én jövök = 이제 내 차례",
-   "tags": [
-    "expr:Jól van"
-   ],
-   "emotion": "teasing",
-   "segs": [
-    [
-     "teasing",
-     "Jól van, most én jövök."
-    ],
-    [
-     "excited",
-     "Hol a vödröm?"
-    ]
-   ],
+   "hu": "Jó, akkor most jön a sütemény!",
+   "rd": "요, 어꼬르 모슈트 욘 어 쉬테메니!",
+   "ko": "그래, 그럼 이제 케이크 나온다!",
+   "note": "sütemény = 케이크, 과자",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Jól",
-     "jól",
-     "욜"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
      "most",
@@ -320,14 +260,14 @@
      "모슈트"
     ],
     [
-     "jövök",
+     "jön",
      "jön",
      "왼"
     ],
     [
-     "vödröm",
-     "vödröm",
-     ""
+     "sütemény",
+     "sütemény",
+     "슈테메니"
     ]
    ]
   }

@@ -5,384 +5,168 @@
  "kind": "long",
  "draft": true,
  "purpose": [
-  "work_hungary",
-  "media"
+  "work_hungary"
  ],
  "domain": [
   "work"
  ],
- "title": "없는 이름의 날",
- "emoji": "💐",
- "scene": "오늘 카페에 꽃이 넘친다. 이름의 날이라는데, 달력에 내 이름은 없다. Bence 가 분필을 집어 든다",
+ "title": "회의 시간 정하기",
+ "emoji": "🗓️",
+ "scene": "사장님이 크리스마스 근무표 회의를 하자고 한다. Bence 와 셋이 시간을 맞추는데, 겨우 정한 시간이 또 꼬인다",
  "speakers": {
   "A": "{name}",
   "B": "Bence",
-  "C": "Néni",
-  "D": "Virágos"
+  "C": "Főnök"
  },
  "register": "mixed",
- "twist": 10,
+ "twist": 13,
  "twist_type": "chaos",
  "flags": [],
- "goal": "이름의 날(névnap) 문화와 축하 인사",
+ "goal": "회의 시간 맞추기(Mikor érnek rá? · Mit szól a keddhez? · Ott leszek)",
  "expressions": [
-  "Várj",
-  "Sajnos",
-  "Ne már",
-  "Nézd",
-  "Figyelj",
-  "Igazából",
-  "Szerintem"
+  "Na",
+  "Szuper",
+  "Szóval",
+  "Jól van"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Miért kap ma mindenki virágot? Mi történt?",
-   "rd": "미에르트 커프 머 민덴키 비라고트? 미 퇴르텐트?",
-   "ko": "오늘 왜 다들 꽃을 받아? 무슨 일 있어?",
-   "note": "kap = 받는다",
+   "speaker": "C",
+   "hu": "Jövő héten tartunk egy rövid megbeszélést a karácsonyi beosztásról. Mikor érnek rá?",
+   "rd": "요뵈 헤텐 터르툰크 에지 뢰비드 멕베쎌레슈트 어 커라초니 베오쓰타슈롤. 미코르 에르넥 라?",
+   "ko": "다음 주에 크리스마스 근무표 회의를 짧게 해요. 언제들 시간 돼요?",
+   "note": "beosztás = 근무표",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Miért",
-     "miért",
-     "미에르트"
+     "Jövő",
+     "jövő",
+     "요뵈"
     ],
     [
-     "kap",
-     "kap",
-     "커프"
+     "héten",
+     "hét",
+     "헤트"
     ],
     [
-     "ma",
-     "ma",
-     "머"
+     "tartunk",
+     "tart",
+     "터르트"
     ],
     [
-     "virágot",
-     "virág",
-     "비라그"
+     "rövid",
+     "rövid",
+     "뢰비드"
     ],
     [
-     "történt",
-     "történik",
-     "퇴르텐닉"
+     "megbeszélést",
+     "megbeszélés",
+     ""
+    ],
+    [
+     "karácsonyi",
+     "karácsonyi",
+     ""
+    ],
+    [
+     "beosztásról",
+     "beosztás",
+     ""
+    ],
+    [
+     "érnek",
+     "érik",
+     "에릭"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Ma van Anna névnapja. Itt minden névnek van napja.",
-   "rd": "머 번 언너 네브너프여. 이트 민덴 네브넥 번 너프여.",
-   "ko": "오늘이 언너의 이름의 날이야. 여기선 이름마다 날이 있어.",
-   "note": "névnap = 이름의 날",
+   "hu": "Nekem a hétfő délelőtt jó.",
+   "rd": "네켐 어 헤트푀 델렐뢰트 요.",
+   "ko": "저는 월요일 오전이 좋아요.",
+   "note": "délelőtt = 오전",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Ma",
-     "ma",
-     "머"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "névnapja",
-     "névnapja",
+     "hétfő",
+     "hétfő",
      ""
     ],
     [
-     "névnek",
-     "név",
-     "네브"
+     "délelőtt",
+     "délelőtt",
+     ""
     ],
     [
-     "napja",
-     "nap",
-     "넙"
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Minden névnek? Akkor nekem mikor van?",
-   "rd": "민덴 네브넥? 어꼬르 네켐 미코르 번?",
-   "ko": "이름마다? 그럼 내 건 언제야?",
-   "note": "mikor = 언제",
+   "hu": "Hétfőn délelőtt nyelvórám van. Mit szól a keddhez?",
+   "rd": "헤트푄 델렐뢰트 넬보람 번. 미트 쏠 어 케드헤즈?",
+   "ko": "월요일 오전엔 어학 수업이 있어요. 화요일은 어떠세요?",
+   "note": "Mit szól hozzá? = 어떻게 생각하세요?",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "polite",
    "lemmas": [
     [
-     "névnek",
-     "név",
-     "네브"
+     "Hétfőn",
+     "hétfő",
+     ""
+    ],
+    [
+     "délelőtt",
+     "délelőtt",
+     ""
+    ],
+    [
+     "nyelvórám",
+     "nyelv",
+     ""
     ],
     [
      "van",
      "van",
      "번"
+    ],
+    [
+     "szól",
+     "szól",
+     "쏠"
+    ],
+    [
+     "keddhez",
+     "kedd",
+     ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Várj, megnézem. Sajnos a te neved nincs a naptárban.",
-   "rd": "바르이, 멕네젬. 셔이노시 어 테 네베드 닌치 어 너프타르번.",
-   "ko": "잠깐, 볼게. 안타깝지만 네 이름은 달력에 없어.",
-   "note": "naptár = 달력",
-   "tags": [
-    "expr:Várj",
-    "expr:Sajnos"
-   ],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Várj, megnézem."
-    ],
-    [
-     "sad",
-     "Sajnos a te neved nincs a naptárban."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "megnézem",
-     "megnéz",
-     "메그네즈"
-    ],
-    [
-     "neved",
-     "neved",
-     "네베드"
-    ],
-    [
-     "nincs",
-     "nincs",
-     "닌치"
-    ],
-    [
-     "naptárban",
-     "naptár",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Jaj, de kár. Nekem soha nem lesz virágom?",
-   "rd": "여이, 데 카르. 네켐 쇼허 넴 레쓰 비라곰?",
-   "ko": "아, 아쉽다. 나는 평생 꽃을 못 받는 거야?",
-   "note": "soha nem = 절대 안",
-   "tags": [],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "kár",
-     "kár",
-     "카르"
-    ],
-    [
-     "soha",
-     "soha",
-     "쇼허"
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "virágom",
-     "virágom",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Ne már! Nézd, felírom a táblára: ma {name} névnapja van.",
-   "rd": "네 마르! 네즈드, 펠리롬 어 타블라러: 머 {name} 네브너프여 번.",
-   "ko": "에이! 봐, 칠판에 쓸게. 오늘은 {name}의 이름의 날.",
-   "note": "tábla = 칠판",
-   "tags": [
-    "expr:Ne már",
-    "expr:Nézd"
-   ],
-   "emotion": "tsukkomi",
-   "segs": [
-    [
-     "tsukkomi",
-     "Ne már!"
-    ],
-    [
-     "excited",
-     "Nézd, felírom a táblára: ma {name} névnapja van."
-    ]
-   ],
-   "lemmas": [
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "felírom",
-     "felír",
-     ""
-    ],
-    [
-     "táblára",
-     "tábla",
-     ""
-    ],
-    [
-     "ma",
-     "ma",
-     "머"
-    ],
-    [
-     "névnapja",
-     "névnapja",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Bence, ezt nem lehet! Ez nem igaz!",
-   "rd": "벤체, 에즈트 넴 레헤트! 에즈 넴 이거즈!",
-   "ko": "벤체, 이러면 안 돼! 이거 거짓말이잖아!",
-   "note": "nem lehet = 안 된다",
-   "tags": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Bence",
-     "bence",
-     ""
-    ],
-    [
-     "lehet",
-     "lehet",
-     "레헤트"
-    ],
-    [
-     "igaz",
-     "igaz",
-     "이거즈"
-    ]
-   ]
-  },
-  {
-   "num": 8,
    "speaker": "C",
-   "hu": "Boldog névnapot, kedves! Hoztam egy rétest.",
-   "rd": "볼독 네브너포트, 케드베시! 호즈텀 에지 레테슈트.",
-   "ko": "이름의 날 축하해요! 레테시 가져왔어요.",
-   "note": "boldog névnapot = 이름의 날 축하합니다",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Boldog",
-     "boldog",
-     "볼도그"
-    ],
-    [
-     "névnapot",
-     "névnap",
-     ""
-    ],
-    [
-     "kedves",
-     "kedves",
-     "케드베슈"
-    ],
-    [
-     "rétest",
-     "rétes",
-     "레테시"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Köszönöm, néni, de... igazából nem...",
-   "rd": "쾨쐬뇜, 네니, 데... 이거자볼 넴...",
-   "ko": "감사합니다, 할머니, 근데… 사실은…",
-   "note": "igazából = 사실은",
+   "hu": "Kedden egész nap a könyvelővel vagyok.",
+   "rd": "케덴 에게쓰 너프 어 쾨니벨뢰벨 버죡.",
+   "ko": "화요일엔 하루 종일 회계사랑 있어요.",
+   "note": "könyvelő = 회계사",
    "tags": [
-    "expr:Igazából"
+    "expr:Na"
    ],
-   "emotion": "flustered",
+   "emotion": "stiff",
    "lemmas": [
     [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
-    ],
-    [
-     "néni",
-     "néni",
+     "Kedden",
+     "kedd",
      ""
-    ],
-    [
-     "igazából",
-     "igaz",
-     "이거즈"
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Figyelj, már az egész utca tudja. Nézd, mennyi ember!",
-   "rd": "피젤이, 마르 어즈 에게쓰 우트처 투드여. 네즈드, 메니 엠베르!",
-   "ko": "야, 벌써 온 동네가 알아. 봐, 사람 얼마나 많은지!",
-   "note": "az egész utca = 거리 전체",
-   "tags": [
-    "expr:Nézd",
-    "expr:Figyelj"
-   ],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
     ],
     [
      "egész",
@@ -390,147 +174,114 @@
      "에게쓰"
     ],
     [
-     "utca",
-     "utca",
-     "우트처"
+     "nap",
+     "nap",
+     "넙"
     ],
     [
-     "tudja",
-     "tud",
-     "투드"
-    ],
-    [
-     "ember",
-     "ember",
-     "엠베르"
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "D",
-   "hu": "Elnézést, elfogyott az összes virágom. Ki ez a híres {name}?",
-   "rd": "엘네제슈트, 엘포죠트 어즈 외쎄시 비라곰. 키 에즈 어 히레시 {name}?",
-   "ko": "실례합니다, 제 꽃이 다 팔렸어요. 이 유명한 {name} 씨가 누구예요?",
-   "note": "elfogyott = 다 떨어졌다",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "elfogyott",
-     "elfogy",
+     "könyvelővel",
+     "könyvelő",
      ""
     ],
-    [
-     "virágom",
-     "virágom",
-     ""
-    ],
-    [
-     "híres",
-     "híres",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "A",
-   "hu": "Én vagyok. De ez nem is ünnep!",
-   "rd": "엔 버죡. 데 에즈 넴 이시 윈네프!",
-   "ko": "저예요. 근데 이거 기념일도 아니에요!",
-   "note": "ünnep = 기념일, 명절",
-   "tags": [],
-   "emotion": "shy",
-   "segs": [
-    [
-     "shy",
-     "Én vagyok."
-    ],
-    [
-     "tsukkomi",
-     "De ez nem is ünnep!"
-    ]
-   ],
-   "lemmas": [
     [
      "vagyok",
      "van",
      "번"
-    ],
-    [
-     "ünnep",
-     "ünnep",
-     ""
     ]
    ]
   },
   {
-   "num": 13,
+   "num": 5,
    "speaker": "B",
-   "hu": "Már igen. A polgármester is ide jön, és beszédet mond.",
-   "rd": "마르 이겐. 어 폴가르메슈테르 이시 이데 욘, 에시 베쎄데트 몬드.",
-   "ko": "이제는 맞아. 구청장님도 오셔서 연설하신대.",
-   "note": "beszédet mond = 연설한다",
+   "hu": "Szerda délután? Háromkor kevesebb a vendég.",
+   "rd": "쎄르더 델루탄? 하롬코르 케베세브 어 벤덱.",
+   "ko": "수요일 오후는요? 세 시엔 손님이 적어요.",
+   "note": "kevesebb = 더 적은",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Már",
-     "már",
-     "마르"
-    ],
-    [
-     "igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "polgármester",
-     "polgármester",
+     "Szerda",
+     "szerda",
      ""
     ],
     [
-     "ide",
-     "ide",
-     "이데"
+     "délután",
+     "délután",
+     "델우탄"
     ],
     [
-     "jön",
-     "jön",
-     "왼"
+     "kevesebb",
+     "kevés",
+     "케베시"
     ],
     [
-     "beszédet",
-     "beszéde",
-     ""
-    ],
-    [
-     "mond",
-     "mond",
-     "몬드"
+     "vendég",
+     "vendég",
+     "벤데그"
     ]
    ]
   },
   {
-   "num": 14,
+   "num": 6,
    "speaker": "A",
-   "hu": "Bence! Mi lesz holnap?",
-   "rd": "벤체! 미 레쓰 홀너프?",
-   "ko": "벤체! 내일은 어쩌려고?",
-   "note": "mi lesz? = 어떻게 될까?",
-   "tags": [],
-   "emotion": "shout",
+   "hu": "Szerdán háromkor fogorvoshoz megyek. Bocsánat!",
+   "rd": "쎄르단 하롬코르 포고르보슈호즈 메젝. 보차너트!",
+   "ko": "수요일 세 시엔 치과에 가요. 죄송해요!",
+   "note": "fogorvos = 치과 의사",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Bence",
-     "bence",
+     "Szerdán",
+     "szerda",
      ""
+    ],
+    [
+     "háromkor",
+     "háromkor",
+     ""
+    ],
+    [
+     "fogorvoshoz",
+     "fogorvos",
+     ""
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Na, ez így nehéz lesz. Te mikor érsz rá egyáltalán?",
+   "rd": "너, 에즈 이지 네헤즈 레쓰. 테 미코르 에르쓰 라 에잘털란?",
+   "ko": "아, 이러면 어렵겠다. 너 대체 언제 시간 돼?",
+   "note": "egyáltalán = 대체",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "nehéz",
+     "nehéz",
+     "네헤즈"
     ],
     [
      "lesz",
@@ -538,53 +289,302 @@
      "레쓰"
     ],
     [
-     "holnap",
-     "holnap",
-     "홀넙"
+     "érsz",
+     "ér",
+     "에르"
+    ],
+    [
+     "egyáltalán",
+     "egyáltalán",
+     "에자알탈란"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Csütörtökön bármikor. Az a szabadnapom.",
+   "rd": "취퇴르퇴쾬 바르미코르. 어즈 어 써버드너폼.",
+   "ko": "목요일엔 아무 때나. 그날 쉬는 날이거든.",
+   "note": "szabadnap = 쉬는 날",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Csütörtökön",
+     "csütörtök",
+     ""
+    ],
+    [
+     "szabadnapom",
+     "szabadnap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Csütörtök négy óra? Ott leszek.",
+   "rd": "취퇴르퇵 네지 오러? 오트 레쎅.",
+   "ko": "목요일 네 시? 저는 돼요.",
+   "note": "ott leszek = 그 자리에 있을게요",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Csütörtök",
+     "csütörtök",
+     ""
+    ],
+    [
+     "leszek",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Nekem is jó. Felírom a táblára.",
+   "rd": "네켐 이시 요. 펠리롬 어 타블라러.",
+   "ko": "저도 좋아요. 칠판에 적어 둘게요.",
+   "note": "felírom = 적어 둔다",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "táblára",
+     "tábla",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Szuper. Szóval csütörtök négy, karácsonyi beosztás.",
+   "rd": "쑤페르. 쏘벌 취퇴르퇵 네지, 커라초니 베오쓰타시.",
+   "ko": "좋아요. 그러니까 목요일 네 시, 크리스마스 근무표.",
+   "note": "szóval = 그러니까",
+   "tags": [
+    "expr:Szuper",
+    "expr:Szóval"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "csütörtök",
+     "csütörtök",
+     ""
+    ],
+    [
+     "karácsonyi",
+     "karácsonyi",
+     ""
+    ],
+    [
+     "beosztás",
+     "beosztás",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Igen. És aki nem jön el, az dolgozik szenteste.",
+   "rd": "이겐. 에시 어키 넴 욘 엘, 어즈 돌고직 쎈테슈테.",
+   "ko": "네. 그리고 안 오는 사람은 크리스마스이브에 근무예요.",
+   "note": "szenteste = 크리스마스이브",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "dolgozik",
+     "dolgoz",
+     "돌고즈"
+    ],
+    [
+     "szenteste",
+     "szenteste",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Várjunk, csütörtök négykor van a nyelvvizsgám! Teljesen elfelejtettem.",
+   "rd": "바르윤크, 취퇴르퇵 네지코르 번 어 넬비지감! 텔예센 엘펠레이테뗌.",
+   "ko": "잠깐만요, 목요일 네 시에 제 어학 시험이 있어요! 완전히 잊고 있었어요.",
+   "note": "elfelejtettem = 잊어버렸다",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Várjunk",
+     "vár",
+     "바르"
+    ],
+    [
+     "csütörtök",
+     "csütörtök",
+     ""
+    ],
+    [
+     "négykor",
+     "négykor",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "nyelvvizsgám",
+     "nyelvvizsgám",
+     ""
+    ],
+    [
+     "elfelejtettem",
+     "elfelejtett",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "hu": "Jól van, akkor szenteste együtt dolgozunk. Hozok bejglit!",
+   "rd": "욜 번, 어꼬르 쎈테슈테 에쥐트 돌고준크. 호족 베익리트!",
+   "ko": "됐어, 그럼 이브에 같이 일하자. 베이글리 가져올게!",
+   "note": "bejgli = 크리스마스 호두·양귀비 롤",
+   "tags": [
+    "expr:Jól van"
+   ],
+   "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "Jól van, akkor szenteste együtt dolgozunk."
+    ],
+    [
+     "cheerful",
+     "Hozok bejglit!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "szenteste",
+     "szenteste",
+     ""
+    ],
+    [
+     "együtt",
+     "együtt",
+     "에듀트"
+    ],
+    [
+     "dolgozunk",
+     "dolgozik",
+     ""
+    ],
+    [
+     "bejglit",
+     "bejgli",
+     ""
     ]
    ]
   },
   {
    "num": 15,
-   "speaker": "B",
-   "hu": "Szerintem semmi. A jövő évi naptárba már beírták a neved.",
-   "rd": "쎄린템 셈미. 어 요뵈 에비 너프타르버 마르 베이르탁 어 네베드.",
-   "ko": "아무 일 없을걸. 내년 달력엔 벌써 네 이름이 들어갔대.",
-   "note": "beírták = 써넣었다",
-   "tags": [
-    "expr:Szerintem"
-   ],
+   "speaker": "C",
+   "hu": "Csak vicceltem. Ötkor kezdünk, sok sikert a vizsgához!",
+   "rd": "척 비쩰템. 외트코르 케즈뒨크, 쇽 시케르트 어 비지가호즈!",
+   "ko": "농담이었어요. 다섯 시에 해요, 시험 잘 보세요!",
+   "note": "vicceltem = 농담했다",
+   "tags": [],
    "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Csak vicceltem."
+    ],
+    [
+     "gentle",
+     "Ötkor kezdünk, sok sikert a vizsgához!"
+    ]
+   ],
    "lemmas": [
     [
-     "jövő",
-     "jövő",
-     "요뵈"
+     "Csak",
+     "csak",
+     "촉"
     ],
     [
-     "évi",
-     "évi",
+     "vicceltem",
+     "viccel",
+     "비츠첼"
+    ],
+    [
+     "kezdünk",
+     "kezd",
+     "케즈드"
+    ],
+    [
+     "sikert",
+     "siker",
+     "시케르"
+    ],
+    [
+     "vizsgához",
+     "vizsga",
      ""
-    ],
-    [
-     "naptárba",
-     "naptár",
-     ""
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "beírták",
-     "beír",
-     ""
-    ],
-    [
-     "neved",
-     "neved",
-     "네베드"
     ]
    ]
   }

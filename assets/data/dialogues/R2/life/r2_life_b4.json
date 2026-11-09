@@ -10,99 +10,104 @@
  "domain": [
   "life"
  ],
- "title": "계단의 옷장",
- "emoji": "🚪",
- "scene": "벼룩시장에서 산 옷장을 둘이서 계단으로 올리다가 2층과 3층 사이에 끼었다",
+ "title": "관리비 냈는데요",
+ "emoji": "🧾",
+ "scene": "Marika 아주머니가 건물 대표로 관리비(közös költség)를 받으러 왔다. Dávid 는 이미 냈다고 한다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid",
   "C": "Marika néni"
  },
- "register": "casual",
- "twist": 9,
+ "register": "mixed",
+ "twist": 8,
  "twist_type": "chaos",
  "flags": [],
- "goal": "함께 일할 때 쓰는 말(Told! Várj! Hogyhogy?)",
+ "goal": "관리비·납부 말하기(Befizettem · Melyik hónapot?)",
  "expressions": [
-  "Figyelj",
-  "Hogyhogy",
-  "Mindjárt",
-  "Ne már",
-  "Semmi baj"
+  "Közös költség",
+  "Befizettem",
+  "Melyik hónap"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Figyelj, vettem egy szekrényt a bolhapiacon. Olcsó volt!",
-   "rd": "피젤이, 베뗌 에지 쎅레니트 어 볼허피어촌. 올초 볼트!",
-   "ko": "야, 벼룩시장에서 옷장 샀어. 쌌어!",
-   "note": "bolhapiac = 벼룩시장",
+   "speaker": "C",
+   "hu": "Jó estét! A közös költség miatt jöttem.",
+   "rd": "요 에슈테트! 어 쾨죄시 쾰트섹 미어트 요뗌.",
+   "ko": "안녕하세요! 관리비 때문에 왔어요.",
+   "note": "közös költség = 공동 관리비",
    "tags": [
-    "expr:Figyelj"
+    "expr:Közös költség"
    ],
-   "emotion": "excited",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "vettem",
-     "vett",
-     "벳트"
+     "estét",
+     "este",
+     "에슈테"
     ],
     [
-     "szekrényt",
-     "szekrény",
+     "közös",
+     "közös",
+     "쾨죄시"
+    ],
+    [
+     "költség",
+     "költség",
      ""
     ],
     [
-     "bolhapiacon",
-     "bolhapiac",
-     ""
-    ],
-    [
-     "volt",
-     "van",
-     "번"
+     "jöttem",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hű, de nagy! Biztos, hogy befér?",
-   "rd": "휘, 데 너지! 비즈토시, 호지 베페르?",
-   "ko": "와, 엄청 크다! 확실히 들어가?",
-   "note": "befér = 안에 들어간다",
-   "tags": [],
-   "emotion": "surprised",
+   "hu": "Jó estét! Az mi, közös költség?",
+   "rd": "요 에슈테트! 어즈 미, 쾨죄시 쾰트섹?",
+   "ko": "안녕하세요! 관리비가 뭐예요?",
+   "note": "az mi? = 그게 뭐예요?",
+   "tags": [
+    "expr:Közös költség"
+   ],
+   "emotion": "polite",
    "segs": [
     [
-     "surprised",
-     "Hű, de nagy!"
+     "polite",
+     "Jó estét!"
     ],
     [
-     "worried",
-     "Biztos, hogy befér?"
+     "surprised",
+     "Az mi, közös költség?"
     ]
    ],
    "lemmas": [
     [
-     "Hű",
-     "hű",
-     ""
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "nagy",
-     "nagy",
-     "너지"
+     "estét",
+     "este",
+     "에슈테"
     ],
     [
-     "befér",
-     "befér",
+     "közös",
+     "közös",
+     "쾨죄시"
+    ],
+    [
+     "költség",
+     "költség",
      ""
     ]
    ]
@@ -110,238 +115,17 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Persze, gyerünk! Te alulról fogod, én felülről.",
-   "rd": "페르쎄, 제륀크! 테 얼룰롤 포고드, 엔 펠륄뢸.",
-   "ko": "당연하지, 가자! 넌 아래서 잡아, 난 위에서.",
-   "note": "gyerünk = 가자",
+   "hu": "Hát, a ház pénze: takarítás, villany a lépcsőházban.",
+   "rd": "하트, 어 하즈 펜제: 터커리타시, 빌러니 어 레프최하즈번.",
+   "ko": "음, 건물 돈이야. 청소, 계단 전기 같은 거.",
+   "note": "lépcsőház = 계단실",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "gyerünk",
-     "gyerünk",
-     "계루네시"
-    ],
-    [
-     "alulról",
-     "alulról",
-     ""
-    ],
-    [
-     "fogod",
-     "fog",
-     "포그"
-    ],
-    [
-     "felülről",
-     "felülről",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Várj, várj! Megállt, nem megy tovább!",
-   "rd": "바르이, 바르이! 메갈트, 넴 메지 토바브!",
-   "ko": "잠깐, 잠깐! 멈췄어, 더 안 올라가!",
-   "note": "tovább = 더, 계속",
-   "tags": [],
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Várj, várj!"
-    ],
-    [
-     "flustered",
-     "Megállt, nem megy tovább!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "megy",
-     "megy",
-     "메지"
-    ],
-    [
-     "tovább",
-     "tovább",
-     "토밥"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Hogyhogy nem megy? Told még egy kicsit!",
-   "rd": "호지호지 넴 메지? 톨드 멕 에지 키치트!",
-   "ko": "왜 안 가? 조금만 더 밀어!",
-   "note": "told = 그걸 밀어",
-   "tags": [
-    "expr:Hogyhogy"
-   ],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "Hogyhogy",
-     "hogyhogy",
-     ""
-    ],
-    [
-     "megy",
-     "megy",
-     "메지"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "kicsit",
-     "kicsi",
-     "키치"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Tolom! De most már visszafelé sem megy.",
-   "rd": "톨롬! 데 모슈트 마르 비써펠레 셈 메지.",
-   "ko": "밀고 있어! 근데 이제 뒤로도 안 가.",
-   "note": "visszafelé = 뒤로",
-   "tags": [],
-   "emotion": "annoyed",
-   "segs": [
-    [
-     "annoyed",
-     "Tolom!"
-    ],
-    [
-     "worried",
-     "De most már visszafelé sem megy."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Tolom",
-     "tol",
-     ""
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "visszafelé",
-     "visszafelé",
-     ""
-    ],
-    [
-     "megy",
-     "megy",
-     "메지"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "C",
-   "hu": "Gyerekek, én hogy megyek le a boltba?",
-   "rd": "제레켁, 엔 호지 메젝 레 어 볼트버?",
-   "ko": "얘들아, 나는 가게에 어떻게 내려가니?",
-   "note": "hogy megyek le? = 어떻게 내려가지?",
-   "tags": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Gyerekek",
-     "gyereke",
-     ""
-    ],
-    [
-     "megyek",
-     "megye",
-     "메예"
-    ],
-    [
-     "le",
-     "le",
-     "레"
-    ],
-    [
-     "boltba",
-     "bolt",
-     "볼트"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Jaj, Marika néni! Mindjárt megoldjuk!",
-   "rd": "여이, 머리커 네니! 민드야르트 메골드육!",
-   "ko": "아이고, 아주머니! 금방 해결할게요!",
-   "note": "mindjárt = 금방",
-   "tags": [
-    "expr:Mindjárt"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "megoldjuk",
-     "megold",
-     "메그올드"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Dávid, az egész ház itt áll. Feri bácsi hívta a tűzoltókat.",
-   "rd": "다비드, 어즈 에게쓰 하즈 이트 알. 페리 바치 히브터 어 튀졸토커트.",
-   "ko": "다비드, 건물 사람들 다 나왔어. 페리 아저씨가 소방관 불렀어.",
-   "note": "tűzoltó = 소방관",
-   "tags": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Dávid",
-     "dávid",
-     ""
-    ],
-    [
-     "egész",
-     "egész",
-     "에게쓰"
+     "Hát",
+     "hát",
+     "핫"
     ],
     [
      "ház",
@@ -349,149 +133,291 @@
      "하즈"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "pénze",
+     "pénz",
+     "펜즈"
     ],
     [
-     "áll",
-     "áll",
-     "알"
-    ],
-    [
-     "bácsi",
-     "bácsi",
+     "takarítás",
+     "takarít",
      ""
     ],
     [
-     "hívta",
-     "hív",
-     "히브"
+     "villany",
+     "villany",
+     ""
     ],
     [
-     "tűzoltókat",
-     "tűzoltó",
+     "lépcsőházban",
+     "lépcsőház",
      ""
     ]
    ]
   },
   {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Tűzoltókat?! Ne már, ez csak egy szekrény!",
-   "rd": "튀졸토커트?! 네 마르, 에즈 척 에지 쎅레니!",
-   "ko": "소방관?! 아 좀, 이거 그냥 옷장이야!",
-   "note": "csak = 그냥",
-   "tags": [
-    "expr:Ne már"
-   ],
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Tűzoltókat?!"
-    ],
-    [
-     "tsukkomi",
-     "Ne már, ez csak egy szekrény!"
-    ]
-   ],
+   "num": 4,
+   "speaker": "C",
+   "hu": "Havonta tizenötezer forint, lakásonként.",
+   "rd": "허본터 티제뇌테제르 포린트, 러카숀켄트.",
+   "ko": "한 달에 집마다 만 5천 포린트예요.",
+   "note": "havonta = 매달",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Tűzoltókat",
-     "tűzoltó",
+     "Havonta",
+     "havonta",
      ""
     ],
+    [
+     "tizenötezer",
+     "tizenöt",
+     ""
+    ],
+    [
+     "forint",
+     "forint",
+     ""
+    ],
+    [
+     "lakásonként",
+     "lakás",
+     "러카시"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "De én már befizettem, Marika néni!",
+   "rd": "데 엔 마르 베피제뗌, 머리커 네니!",
+   "ko": "근데 저 이미 냈어요, 아주머니!",
+   "note": "befizettem = 납부했다",
+   "tags": [
+    "expr:Befizettem"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
     [
      "már",
      "már",
      "마르"
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "befizettem",
+     "befizet",
+     ""
     ],
     [
-     "szekrény",
-     "szekrény",
+     "néni",
+     "néni",
      ""
     ]
    ]
   },
   {
-   "num": 11,
+   "num": 6,
    "speaker": "C",
-   "hu": "Semmi baj, gyerekek. Tessék, átadom a levest a szekrény fölött.",
-   "rd": "셈미 버이, 제레켁. 테쎅, 아터돔 어 레베슈트 어 쎅레니 푈뢰트.",
-   "ko": "괜찮다, 얘들아. 자, 옷장 위로 국 건네 줄게.",
-   "note": "fölött = 위로",
+   "hu": "Melyik hónapot?",
+   "rd": "메익 호너포트?",
+   "ko": "어느 달 거요?",
+   "note": "melyik = 어느",
    "tags": [
-    "expr:Semmi baj"
+    "expr:Melyik hónap"
    ],
-   "emotion": "gentle",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
-    ],
+     "hónapot",
+     "hónap",
+     "호넙"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Mindet, átutalással. Tessék, itt van a telefonomon.",
+   "rd": "민데트, 아투털라쎨. 테쎅, 이트 번 어 텔레포노몬.",
+   "ko": "전부요, 계좌 이체로. 자, 제 폰에 있어요.",
+   "note": "átutalás = 계좌 이체",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
     [
-     "gyerekek",
-     "gyereke",
+     "átutalással",
+     "átutal",
      ""
     ],
     [
-     "átadom",
-     "átad",
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "telefonomon",
+     "telefon",
+     "텔레폰"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Mutassa! Jaj, ez a tizenkettes lakás száma.",
+   "rd": "무터쎠! 여이, 에즈 어 티젠케떼시 러카시 싸머.",
+   "ko": "보여 줘요! 어머, 이건 12호 번호예요.",
+   "note": "tizenkettes = 12번",
+   "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mutassa!"
+    ],
+    [
+     "worried",
+     "Jaj, ez a tizenkettes lakás száma."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Mutassa",
+     "mutat",
+     "무타트"
+    ],
+    [
+     "tizenkettes",
+     "tizenkettes",
      ""
     ],
     [
-     "levest",
-     "leves",
+     "lakás",
+     "lakás",
+     "러카시"
+    ],
+    [
+     "száma",
+     "szám",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "A tizenkettes? Feri bácsié?",
+   "rd": "어 티젠케떼시? 페리 바치에?",
+   "ko": "12호요? 페리 아저씨네요?",
+   "note": "Feri bácsié = 페리 아저씨의 것",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "tizenkettes",
+     "tizenkettes",
      ""
     ],
     [
-     "szekrény",
-     "szekrény",
+     "bácsié",
+     "bácsi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Igen! Ezért mondja mindig Feri, hogy ő időben fizet!",
+   "rd": "이겐! 에제르트 몬드여 민딕 페리, 호지 외 이되벤 피제트!",
+   "ko": "그래요! 그래서 페리 씨가 늘 자기는 제때 낸다고 했구나!",
+   "note": "időben = 제때에",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "mondja",
+     "mond",
+     "몬드"
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "időben",
+     "idő",
+     "이뢰"
+    ],
+    [
+     "fizet",
+     "fizet",
+     "피제트"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Akkor Feri bácsi tartozik nekem százhatvanötezerrel?",
+   "rd": "어꼬르 페리 바치 터르토직 네켐 싸즈허트버뇌테제렐?",
+   "ko": "그럼 페리 아저씨가 저한테 16만 5천 빚진 거예요?",
+   "note": "tartozik = 빚지고 있다",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "bácsi",
+     "bácsi",
      ""
     ],
     [
-     "fölött",
-     "fölött",
+     "tartozik",
+     "tartozik",
+     "터르토직"
+    ],
+    [
+     "százhatvanötezerrel",
+     "százhatvanötezer",
      ""
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "A",
-   "hu": "Dávid... a tűzoltók is levest kérnek.",
-   "rd": "다비드... 어 튀졸톡 이시 레베슈트 케르넥.",
-   "ko": "다비드… 소방관들도 국 달래.",
-   "note": "kérnek = 그들이 달라고 한다",
+   "speaker": "C",
+   "hu": "Tartozik. De ezt maga mondja meg neki.",
+   "rd": "터르토직. 데 에즈트 머거 몬드여 멕 네키.",
+   "ko": "빚졌죠. 근데 그건 직접 말하세요.",
+   "note": "maga = 당신(Ön)",
    "tags": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Dávid",
-     "dávid",
-     ""
+     "Tartozik",
+     "tartozik",
+     "터르토직"
     ],
     [
-     "tűzoltók",
-     "tűzoltó",
-     ""
-    ],
-    [
-     "levest",
-     "leves",
-     ""
-    ],
-    [
-     "kérnek",
-     "kér",
-     "께르"
+     "mondja",
+     "mond",
+     "몬드"
     ]
    ]
   }

@@ -1,19 +1,19 @@
 === r1_culture_a3
 kind: short
-title: 그 배우의 목소리
-emoji: 🎬
-scene: Réka 네 소파에서 외국 영화를 본다. 배우가 헝가리어를 너무 잘한다
+title: 금요일 콘서트
+emoji: 🎸
+scene: Réka 에게 콘서트 표가 두 장 생겼다. 같이 가자고 한다
 b: Réka
 register: casual
-twist: 8 reveal
+twist: 8 chaos
 purpose: media
-goal: 놀라서 되묻기(Tényleg? Hogyhogy?)
-expressions: Tényleg?; Persze; Hogyhogy?
-A | Hű, ez a színész jól beszél magyarul! | 와, 이 배우 헝가리어 잘한다! | színész = 배우 | emotion=excited
-B | Mi? Ez szinkron. | 뭐? 이거 더빙이야. | szinkron = 더빙 | emotion=amused
-A | Szinkron? Tényleg? | 더빙? 진짜? | tényleg? = 진짜? | emotion=surprised
-B | Persze. Itt minden film szinkronos. | 당연하지. 여기선 영화가 다 더빙이야. | persze = 당연하지 | emotion=neutral
-A | De jó hangja van! | 목소리 진짜 좋다! | hang = 목소리 | emotion=cheerful
-B | Tudom. Minden este hallom. | 알아. 매일 저녁 들어. | hallom = 내가 그걸 듣는다 | emotion=amused
-A | Minden este? Hogyhogy? | 매일 저녁? 어째서? | hogyhogy? = 어째서? | emotion=surprised
-B | Az apám. Otthon így kéri a sót. | 우리 아빠야. 집에서도 저 목소리로 소금 달래. | só = 소금, sót = 소금을 | emotion=neutral+amused
+goal: 공연 묻기(Milyen koncert? · Mikor? · Mennyibe kerül?)
+expressions: Komolyan; Naná; Várj
+B | Van két jegyem egy koncertre. | 콘서트 표가 두 장 있어. | jegy = 표 | emotion=cheerful
+A | Komolyan? Milyen koncert? | 진짜? 무슨 콘서트? | komolyan? = 진짜? | emotion=excited
+B | Egy magyar rockzenekar. Jössz? | 헝가리 록밴드. 올래? | Jössz? = 올래? | emotion=cheerful
+A | Naná! Mikor? | 당연하지! 언제? | naná = 당연하지 | emotion=excited
+B | Pénteken este nyolckor. | 금요일 저녁 여덟 시. | pénteken = 금요일에 | emotion=neutral+cheerful
+A | Mennyibe kerül a jegy? | 표 얼마야? | Mennyibe kerül? = 얼마야? | emotion=gentle
+B | Semmibe. A bátyám adta. | 공짜야. 우리 오빠가 줬어. | semmibe = 공짜(아무 값도 아닌) | emotion=amused
+A | Várj, ma péntek van! Már hét óra! | 잠깐, 오늘 금요일이잖아! 벌써 일곱 시야! | ma = 오늘 | emotion=surprised+shout

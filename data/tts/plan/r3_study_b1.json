@@ -9,39 +9,39 @@
 "segs": [
 [
 "worried",
-"Figyelj, segíts. Kovács professzornak kell írnom egy e-mailt."
+"Réka, segítesz? Levelet kell írnom Kovács professzornak."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"teasing",
-"Miért? Mit csináltál?"
+"gentle",
+"Persze. Mit akarsz kérni tőle?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"worried",
-"Semmit, és ez a baj. A dolgozat péntekre kell, és még nincs kész."
+"sad",
+"Egy hét haladékot a dolgozatra. Beteg voltam."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"gentle",
-"Nem baj. Kérj még egy hetet."
+"cheerful",
+"Oké. Hogyan kezdted?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"worried",
-"De hogy kezdjem? Szia, tanár úr?"
+"cheerful",
+"Szia, Tanár Úr!"
 ]
 ]
 },
@@ -49,31 +49,31 @@
 "segs": [
 [
 "tsukkomi",
-"Jaj, ne! Úgy kell: Tisztelt Professzor Úr!"
+"Szia? Ne már, írd azt: Tisztelt Kovács Professzor Úr!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Tisztelt Professzor Úr! Kérem szépen, adjon még egy hetet."
+"neutral",
+"Jó. Aztán: Kérem, adjon egy hetet."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Várj, add ide, én is írok egyet. Csak viccből."
+"gentle",
+"Túl rövid. Inkább: Szeretném megkérdezni, kaphatnék-e egy hét haladékot."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"cheerful",
-"Mit írtál? Mutasd!"
+"surprised",
+"Hű, ez nagyon udvarias. És a végén?"
 ]
 ]
 },
@@ -81,31 +81,31 @@
 "segs": [
 [
 "teasing",
-"Szia Kovács, ne már, adj még egy hetet! Puszi!"
+"Tisztelettel, és a neved. Puszit ne írj!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"amused",
-"Haha, durva! Na, add vissza, küldöm az enyémet."
+"excited",
+"Naná. Na, elküldtem!"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"cheerful",
-"Jó, tessék. Küldd el!"
+"neutral",
+"Csatoltad az orvosi igazolást is?"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"neutral",
-"Elküldtem."
+"cheerful",
+"Persze, a levél alján van."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "worried",
-"Várj. Melyiket küldted el?"
+"Mutasd. Ez nem igazolás, ez egy lista."
 ]
 ]
 },
@@ -121,15 +121,19 @@
 "segs": [
 [
 "flustered",
-"Úristen. A tiédet."
+"Úristen. Ez a bevásárlólistám: tojás, tej, paprika."
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"stiff",
-"Szia, nem adok. Puszi, Kovács"
+"gentle",
+"Kedves {name}, megkapja a haladékot."
+],
+[
+"teasing",
+"És ne felejtse el a tojást!"
 ]
 ]
 }

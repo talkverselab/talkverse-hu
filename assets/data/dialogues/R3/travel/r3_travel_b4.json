@@ -11,74 +11,56 @@
  "domain": [
   "travel"
  ],
- "title": "돌려줘야 하는데",
- "emoji": "❄️",
- "scene": "1월 밤 야외 온천. 머리카락이 어는 추위 속에서 드디어 목도리를 돌려받는 날",
+ "title": "30분 지연",
+ "emoji": "📢",
+ "scene": "기차역 대합실. Zsófi 와 함께 기다리는데 안내 방송이 나온다",
  "speakers": {
   "A": "{name}",
   "B": "Zsófi"
  },
  "register": "casual",
- "twist": 9,
+ "twist": 13,
  "twist_type": "emotion",
  "flags": [
   "romance"
  ],
- "goal": "조건 말하기(ha …)와 마음을 돌려 말하기",
+ "goal": "안내 방송 알아듣기(késik · nem ... hanem)와 기다리며 주문하기",
  "expressions": [
-  "Na végre",
-  "Bocsi",
-  "Szóval",
-  "Jaj",
-  "Tudod",
-  "Hát"
+  "Hallod",
+  "Figyelj",
+  "Hogyhogy"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Na végre, már azt hittem, nem jössz! A hajam megfagyott.",
-   "rd": "너 벡레, 마르 어즈트 히뗌, 넴 요쓰! 어 허염 멕퍼죠트.",
-   "ko": "드디어, 안 오는 줄 알았어! 머리카락이 얼었어.",
-   "note": "megfagyott = 얼었다",
+   "hu": "Hallod? Most mondták be a vonatunkat.",
+   "rd": "헐로드? 모슈트 몬드탁 베 어 보너툰커트.",
+   "ko": "들려? 방금 우리 기차 방송했어.",
+   "note": "bemond = 방송으로 알리다",
    "tags": [
-    "expr:Na végre"
+    "expr:Hallod"
    ],
-   "emotion": "teasing",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "Hallod",
+     "hall",
+     "헐"
     ],
     [
-     "végre",
-     "vég",
-     "베그"
+     "mondták",
+     "mond",
+     "몬드"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "be",
+     "be",
+     "베"
     ],
     [
-     "hittem",
-     "hitt",
-     ""
-    ],
-    [
-     "jössz",
-     "jön",
-     "왼"
-    ],
-    [
-     "hajam",
-     "hajam",
-     ""
-    ],
-    [
-     "megfagyott",
-     "megfagy",
+     "vonatunkat",
+     "vonat",
      ""
     ]
    ]
@@ -86,221 +68,172 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Bocsi, a villamos megint késett. Hű, kint mínusz öt, a víz meg forró!",
-   "rd": "보치, 어 빌러모시 메긴트 케세트. 휘, 킨트 미누쓰 외트, 어 비즈 멕 포로!",
-   "ko": "미안, 트램이 또 늦었어. 와, 밖은 영하 5도인데 물은 뜨겁네!",
-   "note": "forró = 뜨거운",
-   "tags": [
-    "expr:Bocsi"
-   ],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Bocsi, a villamos megint késett."
-    ],
-    [
-     "excited",
-     "Hű, kint mínusz öt, a víz meg forró!"
-    ]
-   ],
+   "hu": "Hallom, de nem értem. Túl gyorsan beszél.",
+   "rd": "헐롬, 데 넴 에르템. 툴 죠르션 베쎌.",
+   "ko": "들리는데 못 알아듣겠어. 너무 빨리 말해.",
+   "note": "értem = 이해한다",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Bocsi",
-     "bocsi",
-     "보치"
+     "Hallom",
+     "hall",
+     "헐"
     ],
     [
-     "villamos",
-     "villamos",
-     ""
+     "értem",
+     "ért",
+     "에르트"
     ],
     [
-     "megint",
-     "megint",
-     "메긴트"
+     "gyorsan",
+     "gyors",
+     "죠르시"
     ],
     [
-     "késett",
-     "késik",
-     "케시크"
-    ],
-    [
-     "kint",
-     "kint",
-     "킨트"
-    ],
-    [
-     "mínusz",
-     "mínusz",
-     ""
-    ],
-    [
-     "víz",
-     "víz",
-     "비즈"
-    ],
-    [
-     "forró",
-     "forr",
-     ""
+     "beszél",
+     "beszél",
+     "베쎌"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Ez a tél legjobb része. Csak az arcod fázik, a többi nem.",
-   "rd": "에즈 어 텔 렉요브 레쎄. 척 어즈 어르초드 파직, 어 퇴비 넴.",
-   "ko": "이게 겨울의 제일 좋은 점이야. 얼굴만 춥고, 나머지는 안 추워.",
-   "note": "fázik = 춥다(사람이)",
+   "hu": "Azt mondta, a vonat körülbelül harminc percet késik.",
+   "rd": "어즈트 몬드터, 어 보너트 쾨륄벨륄 허르민츠 페르체트 케식.",
+   "ko": "기차가 30분쯤 늦는대.",
+   "note": "késik = 늦다",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "tél",
-     "tél",
-     "텔"
+     "mondta",
+     "mond",
+     "몬드"
     ],
     [
-     "legjobb",
-     "jó",
-     "요"
-    ],
-    [
-     "része",
-     "rész",
-     "레스"
-    ],
-    [
-     "arcod",
-     "arc",
-     "어르츠"
-    ],
-    [
-     "fázik",
-     "fáz",
+     "vonat",
+     "vonat",
      ""
     ],
     [
-     "többi",
-     "többi",
-     "퇴비"
+     "körülbelül",
+     "körülbelül",
+     ""
+    ],
+    [
+     "harminc",
+     "harminc",
+     ""
+    ],
+    [
+     "percet",
+     "perce",
+     ""
+    ],
+    [
+     "késik",
+     "késik",
+     "케시크"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Szóval hoztad a sálamat? Balaton, Eger, Pécs: sokat látott már.",
-   "rd": "쏘벌 호즈터드 어 샬러머트? 벌러톤, 에게르, 페치: 쇼커트 라토트 마르.",
-   "ko": "그래서 내 목도리 가져왔어? 발라톤, 에게르, 페치, 많이도 봤네.",
-   "note": "hoztad = 네가 가져왔다(정활용)",
-   "tags": [
-    "expr:Szóval"
-   ],
-   "emotion": "teasing",
+   "hu": "Harminc percet? Akkor lekéssük a csatlakozást?",
+   "rd": "허르민츠 페르체트? 어꼬르 레케쒹 어 처틀러코자슈트?",
+   "ko": "30분? 그럼 갈아탈 기차 놓쳐?",
+   "note": "csatlakozás = 연결편",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Szóval",
-     "szó",
-     "쏘"
-    ],
-    [
-     "hoztad",
-     "hoz",
-     "호즈"
-    ],
-    [
-     "sálamat",
-     "sálamat",
+     "Harminc",
+     "harminc",
      ""
     ],
     [
-     "látott",
-     "lát",
-     "라트"
+     "percet",
+     "perce",
+     ""
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "lekéssük",
+     "lekésik",
+     ""
+    ],
+    [
+     "csatlakozást",
+     "csatlakozás",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Hoztam. Ott van a táskámban, az öltözőben.",
-   "rd": "호즈텀. 오트 번 어 타슈캄번, 어즈 욀퇴죄벤.",
-   "ko": "가져왔어. 탈의실 내 가방에 있어.",
-   "note": "hoztam = 내가 가져왔다",
+   "hu": "Nem, az is késik. Itt ez normális.",
+   "rd": "넴, 어즈 이시 케식. 이트 에즈 노르말리시.",
+   "ko": "아니, 그것도 늦어. 여기선 흔한 일이야.",
+   "note": "normális = 보통인",
    "tags": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Hoztam",
-     "hoz",
-     "호즈"
+     "késik",
+     "késik",
+     "케시크"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "táskámban",
-     "táskám.",
-     ""
-    ],
-    [
-     "öltözőben",
-     "öltöző",
-     ""
+     "normális",
+     "normális",
+     "노르말리시"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Akkor vége a kalandnak. Visszakapom, és kész.",
-   "rd": "어꼬르 베게 어 컬런드넉. 비써커폼, 에시 케쓰.",
-   "ko": "그럼 모험도 끝이네. 돌려받으면 끝이지.",
-   "note": "kaland = 모험",
+   "hu": "És mit mondott még? Valami vágányt hallottam.",
+   "rd": "에시 미트 몬도트 멕? 벌러미 바가니트 헐로떰.",
+   "ko": "그리고 또 뭐래? 선로 얘기를 들은 것 같은데.",
+   "note": "vágány = 선로",
    "tags": [],
-   "emotion": "sad",
+   "emotion": "worried",
    "lemmas": [
     [
-     "Akkor",
-     "akkor",
-     "어꼬르"
+     "mondott",
+     "mond",
+     "몬드"
     ],
     [
-     "vége",
-     "vég",
-     "베그"
+     "még",
+     "még",
+     "메그"
     ],
     [
-     "kalandnak",
-     "kaland",
+     "vágányt",
+     "vágány",
      ""
     ],
     [
-     "kész",
-     "kész",
-     "케스"
+     "hallottam",
+     "hallott",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Igen. Csak van egy gondom.",
-   "rd": "이겐. 척 번 에지 곤돔.",
-   "ko": "응. 그런데 문제가 하나 있어.",
-   "note": "gond = 걱정, 문제",
+   "hu": "Igen, nem a hetesről indul, hanem a kilencesről.",
+   "rd": "이겐, 넴 어 헤테슈뢸 인둘, 허넴 어 킬렌체슈뢸.",
+   "ko": "응, 7번이 아니라 9번 선로에서 출발한대.",
+   "note": "nem ... hanem = ~가 아니라 ~",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "gentle",
    "lemmas": [
     [
      "Igen",
@@ -308,13 +241,18 @@
      "이겐"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "hetesről",
+     "hetes",
+     ""
     ],
     [
-     "gondom",
-     "gondom",
+     "indul",
+     "indul",
+     "인둘"
+    ],
+    [
+     "kilencesről",
+     "kilences",
      ""
     ]
    ]
@@ -322,193 +260,282 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Mi az? Megint fél egyedül?",
-   "rd": "미 어즈? 메긴트 펠 에제뒬?",
-   "ko": "뭔데? 또 혼자 무서워해?",
-   "note": "megint = 또",
+   "hu": "Jó, hogy itt vagy. Egyedül most rossz vonaton ülnék.",
+   "rd": "요, 호지 이트 버지. 에제뒬 모슈트 로쓰 보너톤 윌넥.",
+   "ko": "네가 있어서 다행이야. 혼자였으면 지금쯤 엉뚱한 기차에 앉아 있었을 거야.",
+   "note": "ülnék = 앉아 있을 것이다",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "fél",
-     "fél",
-     "펠"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "egyedül",
-     "egyed",
-     "에제드"
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "rossz",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "vonaton",
+     "vonat",
+     ""
+    ],
+    [
+     "ülnék",
+     "ül",
+     "위일"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Nem ő. Ha visszaadom, nincs több okod írni nekem.",
-   "rd": "넴 외. 허 비써어돔, 닌치 퇴브 오코드 이르니 네켐.",
-   "ko": "목도리 말고. 돌려주면 너 나한테 연락할 이유가 없잖아.",
-   "note": "ok = 이유",
+   "hu": "Gyere, addig igyunk egy kávét a büfében.",
+   "rd": "제레, 어딕 이쥰크 에지 카베트 어 뷔페벤.",
+   "ko": "와, 그동안 매점에서 커피 한잔하자.",
+   "note": "büfé = 매점",
    "tags": [],
-   "emotion": "shy",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "visszaadom",
-     "visszaad",
+     "Gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "igyunk",
+     "iszik",
+     "이식"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "büfében",
+     "büfé",
      ""
-    ],
-    [
-     "nincs",
-     "nincs",
-     "닌치"
-    ],
-    [
-     "több",
-     "több",
-     "퇴그"
-    ],
-    [
-     "okod",
-     "okod",
-     ""
-    ],
-    [
-     "írni",
-     "ír",
-     "이르"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Jaj, Zsófi. Tudod, hány sálam van otthon?",
-   "rd": "여이, 죠피. 투도드, 하니 샬럼 번 오트혼?",
-   "ko": "아이고, 소피. 나 집에 목도리 몇 개 있는지 알아?",
-   "note": "otthon = 집에",
-   "tags": [
-    "expr:Jaj",
-    "expr:Tudod"
-   ],
-   "emotion": "gentle",
+   "hu": "Jó ötlet. Ezúttal én fizetek.",
+   "rd": "요 외틀레트. 에주떨 엔 피제텍.",
+   "ko": "좋아. 이번엔 내가 낼게.",
+   "note": "ezúttal = 이번에는",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "sálam",
-     "sálam",
-     ""
+     "ötlet",
+     "ötlet",
+     "외틀레트"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "otthon",
-     "otthon",
-     "오트혼"
+     "fizetek",
+     "fizet",
+     "피제트"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Hány? Mondd!",
-   "rd": "하니? 몬드!",
-   "ko": "몇 개? 말해 봐!",
-   "note": "hány = 몇",
+   "hu": "Rendben. Két kávé és egy pogácsa?",
+   "rd": "렌드벤. 케트 카베 에시 에지 포가처?",
+   "ko": "좋아. 커피 두 잔이랑 포가차 하나?",
+   "note": "pogácsa = 포가차(짭짤한 빵)",
    "tags": [],
-   "emotion": "shy",
-   "lemmas": []
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "kávé",
+     "kávé",
+     "카베"
+    ],
+    [
+     "pogácsa",
+     "pogácsa",
+     ""
+    ]
+   ]
   },
   {
    "num": 12,
    "speaker": "A",
-   "hu": "Négy. És tudtam, hogy elvetted.",
-   "rd": "네지. 에시 투드텀, 호지 엘베떼드.",
-   "ko": "네 개. 그리고 네가 가져간 거 알고 있었어.",
-   "note": "tudtam = 알고 있었다",
+   "hu": "Kettő. Egy nem elég.",
+   "rd": "케뙤. 에지 넴 엘렉.",
+   "ko": "두 개. 하나로는 모자라.",
+   "note": "elég = 충분한",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "amused",
    "lemmas": [
     [
-     "tudtam",
-     "tud",
-     "투드"
-    ],
-    [
-     "elvetted",
-     "elvesz",
-     "엘베스"
+     "elég",
+     "elég",
+     "엘렉"
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "B",
-   "hu": "Tudtad? Akkor miért nem szóltál?",
-   "rd": "투드터드? 어꼬르 미에르트 넴 쏠탈?",
-   "ko": "알았어? 그럼 왜 말 안 했어?",
-   "note": "szóltál = 네가 말했다",
-   "tags": [],
-   "emotion": "surprised",
+   "hu": "Figyelj... én nem bánom ezt a késést.",
+   "rd": "피젤이... 엔 넴 바놈 에즈트 어 케세슈트.",
+   "ko": "있잖아… 나 이번 지연 싫지 않아.",
+   "note": "nem bánom = 개의치 않는다",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "emotion": "shy",
    "lemmas": [
     [
-     "Tudtad",
-     "tud",
-     "투드"
+     "Figyelj",
+     "figyel",
+     "피겔"
     ],
     [
-     "miért",
-     "miért",
-     "미에르트"
+     "bánom",
+     "bán",
+     "반"
     ],
     [
-     "szóltál",
-     "szól",
-     "쏠"
+     "késést",
+     "késés",
+     ""
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "A",
-   "hu": "Hát... a kesztyűmet is ott akartam hagyni.",
-   "rd": "하트... 어 케쓰튀메트 이시 오트 어커르텀 허지니.",
-   "ko": "음… 장갑도 두고 올 참이었거든.",
-   "note": "kesztyű = 장갑",
+   "hu": "Hogyhogy? Hiszen utálsz várni.",
+   "rd": "호지호지? 히쎈 우탈쓰 바르니.",
+   "ko": "어째서? 기다리는 거 싫어하잖아.",
+   "note": "utál = 몹시 싫어하다",
    "tags": [
-    "expr:Hát"
+    "expr:Hogyhogy"
    ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Hogyhogy",
+     "hogyhogy",
+     ""
+    ],
+    [
+     "utálsz",
+     "utál",
+     "우탈"
+    ],
+    [
+     "várni",
+     "vár",
+     "바르"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Igen. De így fél órával többet lehetek veled.",
+   "rd": "이겐. 데 이지 펠 오라벌 퇴베트 레헤텍 벨레드.",
+   "ko": "응. 근데 덕분에 너랑 30분 더 있을 수 있잖아.",
+   "note": "veled = 너와 함께",
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
-     "kesztyűmet",
-     "kesztyű",
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "fél",
+     "fél",
+     "펠"
+    ],
+    [
+     "órával",
+     "óra",
+     "오러"
+    ],
+    [
+     "többet",
+     "több",
+     "퇴그"
+    ],
+    [
+     "lehetek",
+     "lehet",
+     "레헤트"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "hu": "Akkor remélem, még egyszer bemondják, hogy késik.",
+   "rd": "어꼬르 레멜렘, 멕 에지쎄르 베몬드약, 호지 케식.",
+   "ko": "그럼 한 번 더 늦는다고 방송했으면 좋겠다.",
+   "note": "remél = 바라다",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "remélem",
+     "remél",
+     "레메니"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "bemondják",
+     "bemond",
      ""
     ],
     [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "akartam",
-     "akart",
-     ""
-    ],
-    [
-     "hagyni",
-     "hagy",
-     "허지"
+     "késik",
+     "késik",
+     "케시크"
     ]
    ]
   }

@@ -10,372 +10,387 @@
  "domain": [
   "study"
  ],
- "title": "제일 정중한 감사 인사",
- "emoji": "🙇",
- "scene": "어학원 마지막 수업 전날. 선생님께 제대로 감사하고 싶다고 하자 Réka 가 특별한 단어를 가르쳐 준다",
+ "title": "주말에 뭐 했어요?",
+ "emoji": "🛁",
+ "scene": "어학원 월요일 수업. 숙제 검사 뒤 선생님이 주말 이야기를 시킨다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
   "C": "Tanárnő"
  },
  "register": "mixed",
- "twist": 10,
+ "twist": 7,
  "twist_type": "slip",
  "flags": [],
- "goal": "감사 인사 묻기와 긴 단어 농담",
+ "goal": "주말에 한 일 과거형으로 말하기와 fürdő(온천) / fürdőszoba(욕실) 구분",
  "expressions": [
-  "Figyelj",
-  "Tényleg",
-  "Naná",
-  "Úristen",
-  "Persze",
-  "Te jó ég",
-  "Hogyhogy"
+  "Jaj",
+  "Na jó",
+  "Semmi baj"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Réka, holnap utolsó óra. Hogy köszönjem meg a tanárnak?",
-   "rd": "레커, 홀너프 우톨쇼 오러. 호지 쾨쐰옘 멕 어 터나르넉?",
-   "ko": "레카, 내일 마지막 수업이야. 선생님께 어떻게 감사 인사하지?",
-   "note": "megköszön = 감사를 표하다",
+   "speaker": "C",
+   "hu": "Jó reggelt! Ki csinálta meg a házi feladatot?",
+   "rd": "요 렉겔트! 키 치날터 멕 어 하지 펠러더토트?",
+   "ko": "좋은 아침이에요! 숙제 해 온 사람?",
+   "note": "házi feladat = 숙제",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Réka",
-     "réka",
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "reggelt",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "csinálta",
+     "csinál",
+     "치날"
+    ],
+    [
+     "házi",
+     "házi",
      ""
     ],
     [
-     "holnap",
-     "holnap",
-     "홀넙"
-    ],
-    [
-     "utolsó",
-     "utolsó",
-     "우톨쇼"
-    ],
-    [
-     "köszönjem",
-     "köszön",
-     "쾨쇠니"
-    ],
-    [
-     "tanárnak",
-     "tanár",
-     "터나르"
+     "feladatot",
+     "feladat",
+     "펠러더트"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Figyelj, van egy különleges szó. Megtanítom neked.",
-   "rd": "피젤이, 번 에지 퀼뢴레게시 쏘. 멕터니톰 네케드.",
-   "ko": "들어 봐, 특별한 단어가 있어. 가르쳐 줄게.",
-   "note": "különleges = 특별한",
+   "speaker": "A",
+   "hu": "Jaj, otthon felejtettem a füzetemet.",
+   "rd": "여이, 오트혼 펠레이테뗌 어 퓌제테메트.",
+   "ko": "아이고, 공책을 집에 두고 왔어요.",
+   "note": "otthon felejtettem = 집에 두고 왔다",
    "tags": [
-    "expr:Figyelj"
+    "expr:Jaj"
    ],
-   "emotion": "teasing",
+   "emotion": "worried",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "otthon",
+     "otthon",
+     "오트혼"
     ],
     [
-     "különleges",
-     "különleges",
-     "퀼뢴레게시"
+     "felejtettem",
+     "felejt",
+     "펠레이트"
     ],
     [
-     "szó",
-     "szó",
-     "쏘"
+     "füzetemet",
+     "füze",
+     ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Tényleg? Hosszú?",
-   "rd": "테닐렉? 호쑤?",
-   "ko": "정말? 길어?",
-   "note": "hosszú = 긴",
-   "tags": [
-    "expr:Tényleg"
-   ],
-   "emotion": "surprised",
+   "speaker": "B",
+   "hu": "Én is. Pontosabban: el sem kezdtem.",
+   "rd": "엔 이시. 폰토셔번: 엘 셈 케즈드템.",
+   "ko": "나도. 정확히는 시작도 안 했어.",
+   "note": "el sem kezdtem = 시작도 안 했다",
+   "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "kezdtem",
+     "kezd",
+     "케즈드"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Naná. Megszentségteleníthetetlenségeskedéseitekért.",
-   "rd": "너나. 멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트.",
-   "ko": "당연하지. (헝가리어에서 제일 길다는 그 단어)",
-   "note": "naná = 당연하지",
-   "tags": [
-    "expr:Naná"
-   ],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Naná",
-     "naná",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Úristen! Ez tényleg azt jelenti, hogy köszönöm?",
-   "rd": "우리슈텐! 에즈 테닐렉 어즈트 옐렌티, 호지 쾨쐬뇜?",
-   "ko": "세상에! 이게 정말 「감사합니다」라는 뜻이야?",
-   "note": "azt jelenti = 그런 뜻이다",
-   "tags": [
-    "expr:Tényleg",
-    "expr:Úristen"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Úristen!"
-    ],
-    [
-     "worried",
-     "Ez tényleg azt jelenti, hogy köszönöm?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
-    ],
-    [
-     "tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "jelenti",
-     "jelent",
-     "옐렌트"
-    ],
-    [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Persze. Nagyon udvarias!",
-   "rd": "페르쎄. 너죤 우드버리어시!",
-   "ko": "그럼. 아주 정중해!",
-   "note": "udvarias = 정중한",
-   "tags": [
-    "expr:Persze"
-   ],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "udvarias",
-     "udvarias",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Tanárnő, egy pillanat. Megszentségteleníthetetlenségeskedéseitekért!",
-   "rd": "터나르뇌, 에지 필러너트. 멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트!",
-   "ko": "선생님, 잠깐만요. (그 긴 단어)!",
-   "note": "egy pillanat = 잠깐만",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Tanárnő",
-     "tanárnő",
-     ""
-    ],
-    [
-     "pillanat",
-     "pillanat",
-     "필러넛"
-    ]
-   ]
-  },
-  {
-   "num": 8,
    "speaker": "C",
-   "hu": "Te jó ég! Hogyhogy ezt tudja?",
-   "rd": "테 요 엑! 호지호지 에즈트 투드여?",
-   "ko": "세상에! 그걸 어떻게 아세요?",
-   "note": "te jó ég = 맙소사",
+   "hu": "Na jó, akkor beszélgessünk. Réka, mit csinált a hétvégén?",
+   "rd": "너 요, 어꼬르 베쎌게쒼크. 레커, 미트 치날트 어 헤트베겐?",
+   "ko": "좋아요, 그럼 이야기해 봐요. 레카, 주말에 뭐 했어요?",
+   "note": "hétvégén = 주말에",
    "tags": [
-    "expr:Te jó ég",
-    "expr:Hogyhogy"
+    "expr:Na jó"
    ],
-   "emotion": "surprised",
+   "emotion": "amused",
    "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
     [
      "jó",
      "jó",
      "요"
     ],
     [
-     "ég",
-     "ég",
-     "에그"
+     "akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "tudja",
-     "tud",
-     "투드"
+     "beszélgessünk",
+     "beszélges",
+     ""
+    ],
+    [
+     "csinált",
+     "csinál",
+     "치날"
+    ],
+    [
+     "hétvégén",
+     "hétvége",
+     "헤트베게"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Kirándultam a hegyekben. Nagyon hideg volt.",
+   "rd": "키란둘텀 어 헤젝벤. 너죤 히덱 볼트.",
+   "ko": "산에 하이킹 갔어요. 엄청 추웠어요.",
+   "note": "kirándultam = 소풍(하이킹) 갔다",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Kirándultam",
+     "kirándul",
+     ""
+    ],
+    [
+     "hegyekben",
+     "hegy",
+     ""
+    ],
+    [
+     "hideg",
+     "hideg",
+     "히데그"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Szép. És Ön, {name}?",
+   "rd": "쎄프. 에시 왼, {name}?",
+   "ko": "좋네요. {name} 씨는요?",
+   "note": "és Ön? = 그쪽은요?(존댓말)",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Szép",
+     "szép",
+     "쎕"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Én szombaton egész délután a fürdőszobában voltam.",
+   "rd": "엔 쏨버톤 에게쓰 델루탄 어 퓌르되쏘바번 볼텀.",
+   "ko": "저는 토요일에 오후 내내 욕실에 있었어요.",
+   "note": "fürdőszoba = 욕실(!)",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "szombaton",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "délután",
+     "délután",
+     "델우탄"
+    ],
+    [
+     "fürdőszobában",
+     "fürdőszoba",
+     ""
+    ],
+    [
+     "voltam",
+     "volt",
+     "볼트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Egész délután? Jaj, beteg volt?",
+   "rd": "에게쓰 델루탄? 여이, 베텍 볼트?",
+   "ko": "오후 내내요? 어머, 아팠어요?",
+   "note": "beteg = 아픈",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "délután",
+     "délután",
+     "델우탄"
+    ],
+    [
+     "beteg",
+     "beteg",
+     "베테그"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Réka tanította meg. Ez azt jelenti: köszönöm, ugye?",
-   "rd": "레커 터니토떠 멕. 에즈 어즈트 옐렌티: 쾨쐬뇜, 우제?",
-   "ko": "레카가 가르쳐 줬어요. 「감사합니다」라는 뜻 맞죠?",
-   "note": "ugye? = 그렇죠?",
+   "hu": "Nem, dehogy! Meleg víz, szauna, nagyon jó volt.",
+   "rd": "넴, 데호지! 멜렉 비즈, 써우너, 너죤 요 볼트.",
+   "ko": "아뇨, 전혀요! 따뜻한 물, 사우나, 정말 좋았어요.",
+   "note": "dehogy = 천만에, 아니요",
    "tags": [],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Réka tanította meg."
-    ],
-    [
-     "worried",
-     "Ez azt jelenti: köszönöm, ugye?"
-    ]
-   ],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Réka",
-     "réka",
+     "dehogy",
+     "dehogy",
+     "데허고"
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ],
+    [
+     "szauna",
+     "szauna",
      ""
     ],
     [
-     "tanította",
-     "tanít",
-     "터니트"
+     "nagyon",
+     "nagyon",
+     "너존"
     ],
     [
-     "jelenti",
-     "jelent",
-     "옐렌트"
+     "jó",
+     "jó",
+     "요"
     ],
     [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "volt",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "C",
-   "hu": "Nem. Ez nem köszönet, ez csak a leghosszabb szavunk.",
-   "rd": "넴. 에즈 넴 쾨쐬네트, 에즈 척 어 렉호써브 써분크.",
-   "ko": "아뇨. 감사 인사가 아니라, 그냥 우리말에서 제일 긴 단어예요.",
-   "note": "leghosszabb = 가장 긴",
+   "speaker": "B",
+   "hu": "A fürdőben voltál, nem a fürdőszobában!",
+   "rd": "어 퓌르되벤 볼탈, 넴 어 퓌르되쏘바번!",
+   "ko": "온천에 간 거지, 욕실이 아니라!",
+   "note": "fürdő = 온천",
    "tags": [],
-   "emotion": "stiff",
-   "segs": [
-    [
-     "stiff",
-     "Nem."
-    ],
-    [
-     "amused",
-     "Ez nem köszönet, ez csak a leghosszabb szavunk."
-    ]
-   ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "köszönet",
-     "köszönet",
+     "fürdőben",
+     "fürdő",
      ""
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "voltál",
+     "van",
+     "번"
     ],
     [
-     "leghosszabb",
-     "hosszú",
-     "호쑤"
-    ],
-    [
-     "szavunk",
-     "szó",
-     "쏘"
+     "fürdőszobában",
+     "fürdőszoba",
+     ""
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "C",
-   "hu": "De hibátlanul kimondta. Ötös!",
-   "rd": "데 히바틀러눌 키몬드터. 외퇴시!",
-   "ko": "그래도 틀리지 않고 말했네요. 5점!",
-   "note": "ötös = 5점(최고 점수)",
-   "tags": [],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "De hibátlanul kimondta."
-    ],
-    [
-     "cheerful",
-     "Ötös!"
-    ]
+   "hu": "Semmi baj. Házi feladat: fürdő és fürdőszoba, öt mondat.",
+   "rd": "셈미 버이. 하지 펠러더트: 퓌르되 에시 퓌르되쏘버, 외트 몬더트.",
+   "ko": "괜찮아요. 숙제: 「온천」과 「욕실」로 다섯 문장.",
+   "note": "mondat = 문장",
+   "tags": [
+    "expr:Semmi baj"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "hibátlanul",
-     "hibátlanul",
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "feladat",
+     "feladat",
+     "펠러더트"
+    ],
+    [
+     "fürdő",
+     "fürdő",
      ""
     ],
     [
-     "kimondta",
-     "kimond",
+     "fürdőszoba",
+     "fürdőszoba",
      ""
+    ],
+    [
+     "mondat",
+     "monda",
+     "몬더"
     ]
    ]
   }

@@ -8,45 +8,40 @@
 "1": {
 "segs": [
 [
-"worried",
-"Figyelj! A nagyinál ne mondd, hogy finom."
+"gentle",
+"Mi a kedvenc magyar ételed, kedvesem?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Hogyhogy? És ha tényleg finom?"
+"excited",
+"A gulyás! Nagyon szeretem."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"gentle",
-"Egyél, kedvesem! Itt a húsleves."
+"cheerful",
+"Jó, holnap főzök gulyást. Gyertek ebédre!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Köszönöm!"
-],
-[
-"excited",
-"Hű, ez nagyon finom!"
+"cheerful",
+"Nagyi gulyása a legjobb a városban."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"worried",
-"Jaj, {name}...",
-"Jaj, {name}"
+"gentle",
+"Hozok kenyeret. Vagy inkább rizst?"
 ]
 ]
 },
@@ -54,11 +49,7 @@
 "segs": [
 [
 "surprised",
-"Finom?"
-],
-[
-"excited",
-"Akkor még egy tányérral!"
+"Rizst? Gulyáshoz? Miért?"
 ]
 ]
 },
@@ -66,19 +57,15 @@
 "segs": [
 [
 "flustered",
-"Köszönöm, de már nem tudok enni."
+"Hát, nálunk a gulyás sűrű, rizzsel esszük."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"worried",
-"Nem ízlik?!"
-],
-[
-"excited",
-"Akkor főzök valami mást!"
+"amused",
+"Az pörkölt, kedvesem! A gulyás leves, kanállal esszük."
 ]
 ]
 }

@@ -8,15 +8,16 @@
 "segs": [
 [
 "excited",
-"Figyelj, a buli titok! Réka nem tudhatja!"
+"Figyelj, szombaton meglepetésbuli Rékának!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"excited",
-"Szombaton nyolckor, Bencénél. Ne szólj neki!"
+"teasing",
+"Nyolckor, nálam. Ne szólj neki! 🤫",
+"Nyolckor, nálam. Ne szólj neki!"
 ]
 ]
 },
@@ -31,7 +32,7 @@
 "4": {
 "segs": [
 [
-"tsukkomi",
+"surprised",
 "Hát Réka szülinapja! Elfelejtetted?"
 ]
 ]
@@ -47,16 +48,17 @@
 "6": {
 "segs": [
 [
-"amused",
-"Új sisakot. A régi nagyon ronda."
+"cheerful",
+"Új biciklis sisakot. A régi nagyon csúnya."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"stiff",
-"Ronda?"
+"teasing",
+"Csúnya? 🙂",
+"Csúnya?"
 ]
 ]
 },
@@ -64,7 +66,7 @@
 "segs": [
 [
 "amused",
-"Mint egy fazék a fején!"
+"Nagyon! De ő szereti, szegény."
 ]
 ]
 },
@@ -80,20 +82,17 @@
 "10": {
 "segs": [
 [
-"surprised",
-"Úristen."
-],
-[
 "flustered",
-"Réka, ne már!"
+"Úristen, Réka?! Bocsi!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"teasing",
-"Szombaton ott leszek. Nagyon meglepődöm."
+"amused",
+"Semmi baj. Szombaton nagyon meglepődöm. 😄",
+"Semmi baj. Szombaton nagyon meglepődöm."
 ]
 ]
 },
@@ -101,8 +100,7 @@
 "segs": [
 [
 "teasing",
-"Ja, és a fazék marad. 😄",
-"Ja, és a fazék marad."
+"De a sisakom marad."
 ]
 ]
 }

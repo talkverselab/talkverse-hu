@@ -1,24 +1,23 @@
 === r2_life_c2
 kind: chat
-title: 다비드 엄마입니다
-emoji: 🌭
-scene: 모르는 번호로 문자가 왔다. Dávid 의 어머니가 아들 안부를 대신 묻는다
+title: 다비드 어머니의 문자
+emoji: 🥐
+scene: Dávid 가 전화를 안 받자 그의 어머니가 룸메이트에게 문자를 보낸다
 b: Dávid anyukája
 c: Dávid
 register: chat
 twist: 9 emotion
 purpose: study_abroad
-goal: 어른과 문자 주고받기, 전해 들은 말 옮기기(Azt mondta, …)
-expressions: Csókolom; De jó; Tényleg; Na jó
-B | Szia, {name}! Dávid anyukája vagyok. 😊 | 안녕, {name}! 다비드 엄마야. 😊 | anyuka = 엄마 | emotion=cheerful at=16:20
-A | Csókolom! Honnan van meg a számom? | 안녕하세요! 제 번호는 어떻게 아세요? | honnan van meg? = 어디서 났어요? | emotion=polite at=16:21
-B | Dávid telefonjából. Eszik rendesen? | 다비드 전화기에서. 밥은 잘 먹니? | rendesen = 제대로 | emotion=gentle+worried at=16:21
-A | Igen, azt hiszem. Miért? | 네… 그런 것 같아요. 왜요? | azt hiszem = 그런 것 같아 | emotion=polite at=16:22
-B | Nem válaszol. Küldtem neki kolbászt. | 답을 안 해서. 소시지를 좀 보냈어. | kolbász = 소시지 | emotion=worried at=16:22
-A | De jó! Mennyit? | 좋네요! 얼마나요? | de jó = 좋다 | emotion=polite at=16:23
-B | Tíz kilót, neked is. Dávid mondta, hogy itt nincs családod. | 10킬로, 네 몫도야. 다비드가 네 가족이 여기 없다더라. | neked is = 너한테도 | emotion=gentle at=16:24
-A | Tényleg ezt mondta? | 정말 그렇게 말했어요? | tényleg = 정말 | emotion=surprised at=16:26
-B | Igen. Azt mondta, te vagy itt a családja. | 그래. 여기서는 네가 자기 가족이래. | azt mondta = 그렇게 말했다 | emotion=gentle at=16:26
-C | Anya írt neked?! Ne olvasd el! | 엄마가 너한테 문자 했어?! 읽지 마! | ne olvasd el = 읽지 마 | emotion=flustered at=16:40
-A | Már késő. 🥹 | 이미 늦었어. 🥹 | már késő = 이미 늦었다 | emotion=gentle at=16:41
-C | Na jó. De a kolbász az enyém. | 그래 됐고. 근데 소시지는 내 거야. | az enyém = 내 것 | emotion=shy at=16:41
+goal: 어른께 채팅으로 답하기(Csókolom · Ne aggódjon)
+expressions: Csókolom; Ne aggódjon; Puszi
+B | Szia, Dávid anyukája vagyok. Jól van Dávid? | 안녕, 다비드 엄마야. 다비드 잘 있니? | jól van = 잘 있다 | emotion=worried at=19:02
+A | Csókolom! Jól van, ne aggódjon. | 안녕하세요! 잘 지내요, 걱정 마세요. | ne aggódjon = 걱정 마세요(Ön) | emotion=polite at=19:04
+B | Két napja nem veszi fel a telefont. 😟 | 이틀째 전화를 안 받아. 😟 | felveszi = (전화를) 받는다 | emotion=worried at=19:05
+A | Itthon van, csak lenémította a telefonját. | 집에 있어요, 휴대폰을 무음으로 해 둔 것뿐이에요. | lenémította = 무음으로 했다 | emotion=gentle at=19:06
+B | Jaj, az a gyerek. És eszik rendesen? | 아이고, 얘는 참. 밥은 잘 먹니? | rendesen = 제대로 | emotion=annoyed+worried at=19:06
+A | Hát, sokat eszik. Főleg virslit. | 음, 많이 먹어요. 주로 소시지요. | virsli = 프랑크 소시지 | emotion=amused at=19:08
+B | Tudtam. És te is így eszel? | 그럴 줄 알았다. 너도 그렇게 먹니? | így = 이렇게 | emotion=gentle at=19:09
+A | Hát, néha. | 음, 가끔요. | néha = 가끔 | emotion=shy at=19:09
+B | Szombaton küldök nektek töltött káposztát. Puszi! | 토요일에 너희한테 양배추롤 보낼게. 쪽! | töltött káposzta = 양배추롤 | emotion=gentle at=19:10
+A | Köszönöm szépen! 🥹 | 정말 고맙습니다! 🥹 | köszönöm szépen = 정말 고맙습니다 | emotion=shy at=19:11
+C | Bocsi, anya! Most hívlak. 🙈 | 미안, 엄마! 지금 전화할게. 🙈 | hívlak = 너에게 전화한다(-lak) | emotion=flustered at=19:12

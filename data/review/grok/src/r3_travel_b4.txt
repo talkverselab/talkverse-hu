@@ -1,26 +1,28 @@
 === r3_travel_b4
 kind: long
-title: 돌려줘야 하는데
-emoji: ❄️
-scene: 1월 밤 야외 온천. 머리카락이 어는 추위 속에서 드디어 목도리를 돌려받는 날
+title: 30분 지연
+emoji: 📢
+scene: 기차역 대합실. Zsófi 와 함께 기다리는데 안내 방송이 나온다
 b: Zsófi
 register: casual
-twist: 9 emotion
+twist: 13 emotion
 flags: romance
 purpose: travel love
-goal: 조건 말하기(ha …)와 마음을 돌려 말하기
-expressions: Na végre; Bocsi; Szóval; Jaj; Tudod; Hát
-B | Na végre, már azt hittem, nem jössz! A hajam megfagyott. | 드디어, 안 오는 줄 알았어! 머리카락이 얼었어. | megfagyott = 얼었다 | emotion=teasing
-A | Bocsi, a villamos megint késett. Hű, kint mínusz öt, a víz meg forró! | 미안, 트램이 또 늦었어. 와, 밖은 영하 5도인데 물은 뜨겁네! | forró = 뜨거운 | emotion=neutral+excited
-B | Ez a tél legjobb része. Csak az arcod fázik, a többi nem. | 이게 겨울의 제일 좋은 점이야. 얼굴만 춥고, 나머지는 안 추워. | fázik = 춥다(사람이) | emotion=cheerful
-A | Szóval hoztad a sálamat? Balaton, Eger, Pécs: sokat látott már. | 그래서 내 목도리 가져왔어? 발라톤, 에게르, 페치, 많이도 봤네. | hoztad = 네가 가져왔다(정활용) | emotion=teasing
-B | Hoztam. Ott van a táskámban, az öltözőben. | 가져왔어. 탈의실 내 가방에 있어. | hoztam = 내가 가져왔다 | emotion=neutral
-A | Akkor vége a kalandnak. Visszakapom, és kész. | 그럼 모험도 끝이네. 돌려받으면 끝이지. | kaland = 모험 | emotion=sad
-B | Igen. Csak van egy gondom. | 응. 그런데 문제가 하나 있어. | gond = 걱정, 문제 | emotion=worried
-A | Mi az? Megint fél egyedül? | 뭔데? 또 혼자 무서워해? | megint = 또 | emotion=teasing
-B | Nem ő. Ha visszaadom, nincs több okod írni nekem. | 목도리 말고. 돌려주면 너 나한테 연락할 이유가 없잖아. | ok = 이유 | emotion=shy
-A | Jaj, Zsófi. Tudod, hány sálam van otthon? | 아이고, 소피. 나 집에 목도리 몇 개 있는지 알아? | otthon = 집에 | emotion=gentle
-B | Hány? Mondd! | 몇 개? 말해 봐! | hány = 몇 | emotion=shy
-A | Négy. És tudtam, hogy elvetted. | 네 개. 그리고 네가 가져간 거 알고 있었어. | tudtam = 알고 있었다 | emotion=gentle
-B | Tudtad? Akkor miért nem szóltál? | 알았어? 그럼 왜 말 안 했어? | szóltál = 네가 말했다 | emotion=surprised
-A | Hát... a kesztyűmet is ott akartam hagyni. | 음… 장갑도 두고 올 참이었거든. | kesztyű = 장갑 | emotion=shy
+goal: 안내 방송 알아듣기(késik · nem ... hanem)와 기다리며 주문하기
+expressions: Hallod; Figyelj; Hogyhogy
+B | Hallod? Most mondták be a vonatunkat. | 들려? 방금 우리 기차 방송했어. | bemond = 방송으로 알리다 | emotion=excited
+A | Hallom, de nem értem. Túl gyorsan beszél. | 들리는데 못 알아듣겠어. 너무 빨리 말해. | értem = 이해한다 | emotion=worried
+B | Azt mondta, a vonat körülbelül harminc percet késik. | 기차가 30분쯤 늦는대. | késik = 늦다 | emotion=annoyed
+A | Harminc percet? Akkor lekéssük a csatlakozást? | 30분? 그럼 갈아탈 기차 놓쳐? | csatlakozás = 연결편 | emotion=worried
+B | Nem, az is késik. Itt ez normális. | 아니, 그것도 늦어. 여기선 흔한 일이야. | normális = 보통인 | emotion=amused
+A | És mit mondott még? Valami vágányt hallottam. | 그리고 또 뭐래? 선로 얘기를 들은 것 같은데. | vágány = 선로 | emotion=worried
+B | Igen, nem a hetesről indul, hanem a kilencesről. | 응, 7번이 아니라 9번 선로에서 출발한대. | nem ... hanem = ~가 아니라 ~ | emotion=gentle
+A | Jó, hogy itt vagy. Egyedül most rossz vonaton ülnék. | 네가 있어서 다행이야. 혼자였으면 지금쯤 엉뚱한 기차에 앉아 있었을 거야. | ülnék = 앉아 있을 것이다 | emotion=cheerful
+B | Gyere, addig igyunk egy kávét a büfében. | 와, 그동안 매점에서 커피 한잔하자. | büfé = 매점 | emotion=cheerful
+A | Jó ötlet. Ezúttal én fizetek. | 좋아. 이번엔 내가 낼게. | ezúttal = 이번에는 | emotion=cheerful
+B | Rendben. Két kávé és egy pogácsa? | 좋아. 커피 두 잔이랑 포가차 하나? | pogácsa = 포가차(짭짤한 빵) | emotion=cheerful
+A | Kettő. Egy nem elég. | 두 개. 하나로는 모자라. | elég = 충분한 | emotion=amused
+B | Figyelj... én nem bánom ezt a késést. | 있잖아… 나 이번 지연 싫지 않아. | nem bánom = 개의치 않는다 | emotion=shy
+A | Hogyhogy? Hiszen utálsz várni. | 어째서? 기다리는 거 싫어하잖아. | utál = 몹시 싫어하다 | emotion=surprised
+B | Igen. De így fél órával többet lehetek veled. | 응. 근데 덕분에 너랑 30분 더 있을 수 있잖아. | veled = 너와 함께 | emotion=shy
+A | Akkor remélem, még egyszer bemondják, hogy késik. | 그럼 한 번 더 늦는다고 방송했으면 좋겠다. | remél = 바라다 | emotion=shy

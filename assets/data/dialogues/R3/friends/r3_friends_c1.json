@@ -5,116 +5,127 @@
  "kind": "chat",
  "draft": true,
  "purpose": [
-  "making_friends"
+  "making_friends",
+  "study_abroad"
  ],
  "domain": [
   "friends"
  ],
- "title": "쓰레기만 버리려고",
- "emoji": "🚒",
- "scene": "밤 11시 41분, 잠옷 차림으로 문이 잠겼다. Réka 가 도와주겠단다",
+ "title": "읽고 답이 없네",
+ "emoji": "🏠",
+ "scene": "집을 구하는 중. Réka 에게 하소연했는데 「읽음」만 뜨고 답이 없다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "chat",
- "twist": 10,
- "twist_type": "chaos",
+ "twist": 7,
+ "twist_type": "ignore",
  "flags": [],
- "goal": "긴급 상황을 채팅으로 설명하기",
+ "goal": "집 구하기 표현(rezsi · kaució · főbérlő)과 걱정 표현(Haragszol?)",
  "expressions": [
-  "Mi van",
-  "mindjárt",
-  "Nyugi",
-  "Szuper",
-  "Hát"
+  "Figyelj",
+  "Mi a baj",
+  "Haragszol"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Réka, ébren vagy?",
-   "rd": "레커, 에브렌 버지?",
-   "ko": "레카, 깨어 있어?",
-   "note": "ébren = 깨어 있는",
-   "tags": [],
-   "at": "23:41",
-   "emotion": "worried",
+   "hu": "Figyelj, megint nem kaptam meg a lakást. 😩",
+   "rd": "피젤이, 메긴트 넴 커프텀 멕 어 러카슈트. 😩",
+   "ko": "있잖아, 또 그 집 못 구했어. 😩",
+   "note": "megkaptam = 받았다, 얻었다",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "at": "21:03",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
-     "Réka",
-     "réka",
-     ""
+     "Figyelj",
+     "figyel",
+     "피겔"
     ],
     [
-     "ébren",
-     "éber",
-     ""
+     "megint",
+     "megint",
+     "메긴트"
+    ],
+    [
+     "kaptam",
+     "kap",
+     "커프"
+    ],
+    [
+     "lakást",
+     "lakás",
+     "러카시"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Most már igen. Mi van?",
-   "rd": "모슈트 마르 이겐. 미 번?",
-   "ko": "이제 깼어. 무슨 일이야?",
-   "note": "most már = 이제는",
+   "hu": "Jaj, ne! Mi a baj ezúttal?",
+   "rd": "여이, 네! 미 어 버이 에주떨?",
+   "ko": "아이고, 안 돼! 이번엔 뭐가 문제야?",
+   "note": "ezúttal = 이번에는",
    "tags": [
-    "expr:Mi van"
+    "expr:Mi a baj"
    ],
-   "at": "23:43",
-   "emotion": "annoyed",
+   "at": "21:05",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Most",
-     "most",
-     "모슈트"
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "baj",
+     "baj",
+     "버이"
     ],
     [
-     "igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "ezúttal",
+     "ezúttal",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Kizártam magam. Pizsamában vagyok a lépcsőházban.",
-   "rd": "키자르텀 머검. 피져마번 버죡 어 레프최하즈번.",
-   "ko": "문이 잠겼어. 잠옷 입고 계단에 있어.",
-   "note": "kizártam magam = 문이 잠겨 못 들어간다",
+   "hu": "Túl drága. A rezsi is, a kaució is.",
+   "rd": "툴 드라거. 어 레지 이시, 어 커우치오 이시.",
+   "ko": "너무 비싸. 공과금도, 보증금도.",
+   "note": "rezsi = 공과금, kaució = 보증금",
    "tags": [],
-   "at": "23:43",
-   "emotion": "flustered",
+   "at": "21:06",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
-     "Kizártam",
-     "kizár",
-     "키자르"
+     "Túl",
+     "túl",
+     "툴"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
+     "drága",
+     "drága",
+     "드라가"
     ],
     [
-     "lépcsőházban",
-     "lépcsőház",
+     "rezsi",
+     "rezsi",
+     ""
+    ],
+    [
+     "kaució",
+     "kaució",
      ""
     ]
    ]
@@ -122,57 +133,72 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Csak a szemetet akartam levinni.",
-   "rd": "척 어 쎄메테트 어커르텀 레빈니.",
-   "ko": "쓰레기만 버리려고 했어.",
-   "note": "szemét = 쓰레기",
+   "hu": "És a főbérlő csak magyarul beszél, nagyon gyorsan.",
+   "rd": "에시 어 푀베를뢰 척 머져룰 베쎌, 너죤 죠르션.",
+   "ko": "그리고 집주인이 헝가리어만 해, 엄청 빨리.",
+   "note": "főbérlő = 집주인",
    "tags": [],
-   "at": "23:44",
+   "at": "21:06",
    "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
-     "Csak",
+     "főbérlő",
+     "főbérlő",
+     ""
+    ],
+    [
+     "csak",
      "csak",
      "촉"
     ],
     [
-     "szemetet",
-     "szemét",
+     "magyarul",
+     "magyar",
      ""
     ],
     [
-     "akartam",
-     "akart",
-     ""
+     "beszél",
+     "beszél",
+     "베쎌"
     ],
     [
-     "levinni",
-     "levinni",
-     ""
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "gyorsan",
+     "gyors",
+     "죠르시"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Hol a kulcsod?",
-   "rd": "홀 어 쿨초드?",
-   "ko": "열쇠는 어디 있어?",
-   "note": "kulcsod = 네 열쇠",
+   "hu": "Hány négyzetméter kellene? Melyik kerületben?",
+   "rd": "하니 네지제트메테르 켈레네? 메익 케륄레트벤?",
+   "ko": "몇 제곱미터 필요해? 어느 구에서?",
+   "note": "kerület = 구(부다페스트 행정구)",
    "tags": [],
-   "at": "23:44",
+   "at": "21:08",
    "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
-     "Hol",
-     "hol",
-     "홀"
+     "négyzetméter",
+     "négyzetméter",
+     ""
     ],
     [
-     "kulcsod",
-     "kulcsod",
+     "kellene",
+     "kell",
+     "켈"
+    ],
+    [
+     "kerületben",
+     "kerület",
      ""
     ]
    ]
@@ -180,71 +206,67 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Bent. A telefonom is mindjárt meghal.",
-   "rd": "벤트. 어 텔레포놈 이시 민드야르트 멕헐.",
-   "ko": "안에. 폰도 곧 꺼져.",
-   "note": "mindjárt = 곧",
-   "tags": [
-    "expr:mindjárt"
-   ],
-   "at": "23:45",
+   "hu": "Elég egy kis szoba. Mindegy, csak ne legyen messze az iskolától.",
+   "rd": "엘렉 에지 키시 쏘버. 민데지, 척 네 레젠 메쎄 어즈 이슈콜라톨.",
+   "ko": "작은 방이면 돼. 아무 데나, 학원에서만 안 멀면.",
+   "note": "mindegy = 상관없다",
+   "tags": [],
+   "at": "21:09",
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Bent",
-     "bent",
-     "벤트"
+     "Elég",
+     "elég",
+     "엘렉"
     ],
     [
-     "telefonom",
-     "telefon",
-     "텔레폰"
+     "kis",
+     "kis",
+     "키시"
     ],
     [
-     "mindjárt",
-     "mindjárt",
-     "민드야르트"
+     "szoba",
+     "szoba",
+     "서버"
     ],
     [
-     "meghal",
-     "meghal",
-     "메그헐"
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "legyen",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "messze",
+     "messze",
+     "메쎄"
+    ],
+    [
+     "iskolától",
+     "iskola",
+     "이슈콜러"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Nyugi, írtam a ház csoportjába.",
-   "rd": "뉴기, 이르텀 어 하즈 초포르트야버.",
-   "ko": "진정해, 건물 단톡에 썼어.",
-   "note": "csoport = 그룹",
-   "tags": [
-    "expr:Nyugi"
-   ],
-   "at": "23:49",
-   "emotion": "gentle",
+   "speaker": "A",
+   "hu": "Réka?",
+   "rd": "레커?",
+   "ko": "레카?",
+   "note": "(읽음, 답 없음)",
+   "tags": [],
+   "at": "21:30",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Nyugi",
-     "nyugi",
-     "니우기"
-    ],
-    [
-     "írtam",
-     "írt",
-     ""
-    ],
-    [
-     "ház",
-     "ház",
-     "하즈"
-    ],
-    [
-     "csoportjába",
-     "csoportja",
+     "Réka",
+     "réka",
      ""
     ]
    ]
@@ -252,66 +274,204 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Mit írtál?!",
-   "rd": "미트 이르탈?!",
-   "ko": "뭐라고 썼어?!",
-   "note": "írtál = 네가 썼다",
-   "tags": [],
-   "at": "23:49",
-   "emotion": "shout",
+   "hu": "Haragszol? Bocsi, hogy mindig panaszkodom.",
+   "rd": "허럭쏠? 보치, 호지 민딕 퍼너쓰코돔.",
+   "ko": "화났어? 맨날 투덜거려서 미안.",
+   "note": "haragszol = 너 화났어",
+   "tags": [
+    "expr:Haragszol"
+   ],
+   "at": "21:52",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "írtál",
-     "ír",
-     "이르"
+     "Haragszol",
+     "haragszik",
+     ""
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "panaszkodom",
+     "panasz",
+     ""
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "B",
-   "hu": "Hogy valaki bent ragadt, és segítség kell. 😇",
-   "rd": "호지 벌러키 벤트 러거드트, 에시 세기트섹 켈. 😇",
-   "ko": "누가 안에 갇혔고, 도움이 필요하다고. 😇",
-   "note": "bent ragadt = 안에 갇혔다",
+   "speaker": "A",
+   "hu": "Oké, értem. Jó éjt. 😔",
+   "rd": "오케, 에르템. 요 에이트. 😔",
+   "ko": "알았어. 잘 자. 😔",
+   "note": "jó éjt = 잘 자",
    "tags": [],
-   "at": "23:50",
-   "emotion": "teasing",
+   "at": "22:15",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
-     "bent",
-     "bent",
-     "벤트"
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
-     "ragadt",
-     "ragad",
-     ""
+     "értem",
+     "ért",
+     "에르트"
     ],
     [
-     "segítség",
-     "segítség",
-     "셰그치그"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
+     "éjt",
+     "éj",
+     "에이"
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "A",
-   "hu": "Réka. Itt állnak a tűzoltók.",
-   "rd": "레커. 이트 알넉 어 튀졸톡.",
-   "ko": "레카. 소방관들이 여기 서 있어.",
-   "note": "tűzoltó = 소방관",
+   "speaker": "B",
+   "hu": "Bocsi, nem haragszom! Telefonáltam.",
+   "rd": "보치, 넴 허럭쏨! 텔레포날텀.",
+   "ko": "미안, 화 안 났어! 전화하고 있었어.",
+   "note": "telefonáltam = 전화했다",
    "tags": [],
-   "at": "23:58",
+   "at": "22:31",
    "emotion": "flustered",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "haragszom",
+     "haragszik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "A szomszédom elköltözik, és szabad lesz egy szoba a házunkban.",
+   "rd": "어 쏨쎄돔 엘쾰퇴직, 에시 써버드 레쓰 에지 쏘버 어 하준크번.",
+   "ko": "우리 옆집이 이사 가서, 우리 건물에 방 하나가 비어.",
+   "note": "szabad = 빈",
+   "tags": [],
+   "at": "22:31",
+   "emotion": "excited",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "szomszédom",
+     "szomszéd",
+     "쏨세드"
+    ],
+    [
+     "elköltözik",
+     "elköltözik",
+     ""
+    ],
+    [
+     "szabad",
+     "szabad",
+     "써버드"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "szoba",
+     "szoba",
+     "서버"
+    ],
+    [
+     "házunkban",
+     "házunk",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Komolyan?! Mennyi a bérleti díj?",
+   "rd": "코모연?! 메니 어 베를레티 디이?",
+   "ko": "진짜?! 월세 얼마야?",
+   "note": "bérleti díj = 월세",
+   "tags": [],
+   "at": "22:32",
+   "emotion": "surprised",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "bérleti",
+     "bérleti",
+     ""
+    ],
+    [
+     "díj",
+     "díj",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Megbeszéltem a főbérlővel. Olcsó, és lassan beszél. 😄",
+   "rd": "멕베쎌템 어 푀베를뢰벨. 올초, 에시 러쎤 베쎌. 😄",
+   "ko": "집주인이랑 얘기했어. 싸고, 천천히 말해. 😄",
+   "note": "megbeszéltem = 얘기를 나눴다",
+   "tags": [],
+   "at": "22:33",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Megbeszéltem",
+     "megbeszél",
+     "메그베셀"
+    ],
+    [
+     "főbérlővel",
+     "főbérlővel",
+     ""
+    ],
+    [
+     "lassan",
+     "lassan",
+     "러셔느"
+    ],
+    [
+     "beszél",
+     "beszél",
+     "베쎌"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Réka, te vagy a legjobb szomszéd. Már most!",
+   "rd": "레커, 테 버지 어 렉요브 쏨쎄드. 마르 모슈트!",
+   "ko": "레카, 너 최고의 이웃이야. 벌써부터!",
+   "note": "szomszéd = 이웃",
+   "tags": [],
+   "at": "22:33",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -320,173 +480,19 @@
      ""
     ],
     [
-     "állnak",
-     "áll.",
-     "얼러모쉬"
+     "legjobb",
+     "jó",
+     "요"
     ],
     [
-     "tűzoltók",
-     "tűzoltó",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "A",
-   "hu": "Most törik be az ajtót.",
-   "rd": "모슈트 퇴릭 베 어즈 어이토트.",
-   "ko": "지금 문 부수고 있어.",
-   "note": "betör = 부수다",
-   "tags": [],
-   "at": "23:59",
-   "emotion": "flustered",
-   "ui": "bubble",
-   "lemmas": [
+     "szomszéd",
+     "szomszéd",
+     "쏨세드"
+    ],
     [
-     "Most",
+     "most",
      "most",
      "모슈트"
-    ],
-    [
-     "törik",
-     "töri",
-     ""
-    ],
-    [
-     "be",
-     "be",
-     "베"
-    ],
-    [
-     "ajtót",
-     "ajtó",
-     "어이토"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "B",
-   "hu": "Szuper! Akkor be tudsz menni. 😎",
-   "rd": "쑤페르! 어꼬르 베 투드쓰 멘니. 😎",
-   "ko": "좋아! 그럼 들어갈 수 있네. 😎",
-   "note": "szuper = 좋아",
-   "tags": [
-    "expr:Szuper"
-   ],
-   "at": "23:59",
-   "emotion": "cheerful",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Szuper",
-     "szuper",
-     "쑤페르"
-    ],
-    [
-     "be",
-     "be",
-     "베"
-    ],
-    [
-     "tudsz",
-     "tud",
-     "투드"
-    ],
-    [
-     "menni",
-     "megy",
-     "메지"
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "A",
-   "hu": "Az nem az én ajtóm.",
-   "rd": "어즈 넴 어즈 엔 어이톰.",
-   "ko": "그거 내 문이 아니야.",
-   "note": "az én ajtóm = 내 문",
-   "tags": [],
-   "at": "00:01",
-   "emotion": "tsukkomi",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "ajtóm",
-     "ajtóm",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 14,
-   "speaker": "B",
-   "hu": "Hát akkor kié?",
-   "rd": "하트 어꼬르 키에?",
-   "ko": "그럼 누구 건데?",
-   "note": "kié = 누구의",
-   "tags": [
-    "expr:Hát"
-   ],
-   "at": "00:01",
-   "emotion": "surprised",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "akkor",
-     "akkor",
-     "어꼬르"
-    ],
-    [
-     "kié",
-     "ki",
-     "키"
-    ]
-   ]
-  },
-  {
-   "num": 15,
-   "speaker": "A",
-   "hu": "A nénié. Most kávét főz nekik.",
-   "rd": "어 네니에. 모슈트 카베트 푀즈 네킥.",
-   "ko": "할머니 거. 지금 그분들한테 커피 끓여 주셔.",
-   "note": "a nénié = 할머니의 것",
-   "tags": [],
-   "at": "00:03",
-   "emotion": "sad",
-   "segs": [
-    [
-     "sad",
-     "A nénié."
-    ],
-    [
-     "amused",
-     "Most kávét főz nekik."
-    ]
-   ],
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "nénié",
-     "néni",
-     ""
-    ],
-    [
-     "kávét",
-     "kávé",
-     "카베"
-    ],
-    [
-     "főz",
-     "főz",
-     ""
     ]
    ]
   }

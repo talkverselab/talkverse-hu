@@ -9,40 +9,32 @@
 "1": {
 "segs": [
 [
-"worried",
-"Jaj, remegek."
-],
-[
 "excited",
-"Ma este megnyitó, az első saját kiállításom!"
+"Na, mindenki itt van? Mindjárt kezdődik a koncert!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"gentle",
-"Nyugi, minden rendben lesz. Hányan jönnek?"
+"cheerful",
+"Itt vagyok! Hoztam vizet és pokrócot."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Legalább ötvenen. És az igazgató azt szeretné, ha te mondanál pár szót."
+"flustered",
+"Bocsi a késésért. Lassú volt a villamos."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Én, magyarul?"
-],
-[
-"flustered",
-"Ne már, Anna, én még a kenyeret is rosszul kérem!"
+"gentle",
+"Semmi baj. A jegyek nálad vannak, ugye?"
 ]
 ]
 },
@@ -50,92 +42,97 @@
 "segs": [
 [
 "cheerful",
-"Semmi baj, három mondat: üdvözlöm Önöket, ez Anna kiállítása, köszönöm."
+"Persze, a telefonomon. Mindhárom."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"worried",
-"Kiállítása, kiállítása... Oké, ez nem lehet nehéz.",
-"Kiállítása, kiállítása, Oké, ez nem lehet nehéz."
+"polite",
+"Jó estét! A jegyeket kérem."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Hölgyeim és uraim, kérem, figyeljenek! Most {name} szól néhány szót."
+"worried",
+"Egy pillanat...",
+"Egy pillanat"
+],
+[
+"flustered",
+"Jaj, ne. Lemerült a telefonom."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"stiff",
-"Üdvözlöm Önöket! Ez Anna első kiáltása!"
+"annoyed",
+"Komolyan? Pont most?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"shout",
-"Úristen, kiáltása! Nem kiállítása!"
+"gentle",
+"Nyugi. Réka, van töltőd?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"excited",
-"Milyen bátor! Kérem, mindenki kiáltson Annával együtt!"
+"tsukkomi",
+"Van, de konnektor nincs. Ez egy park."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"shout",
-"Várjatok, ne! Miért kiabál ötven ember?"
+"stiff",
+"Sajnos jegy nélkül nem engedhetem be önöket."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"flustered",
-"Bocsi, Anna! Csak két betű volt a különbség."
+"excited",
+"Várjon! Tegnap lefényképeztem a jegyeket. Itt vannak."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"worried",
-"Hé, a rendőrök is itt vannak! A szomszédok hívták őket."
+"polite",
+"Rendben, mehetnek. Jó szórakozást!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"excited",
-"Csodálatos, minden képet eladtunk! Holnap megismételjük?"
+"surprised",
+"Anna, miért fényképezted le őket?"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"surprised",
-"Minden képet?"
+"teasing",
+"Mert ismerlek."
 ],
 [
-"teasing",
-"{name}, jövőre is te beszélsz, és addig ne tanulj meg magyarul."
+"gentle",
+"A te telefonod mindig lemerül. 😊",
+"A te telefonod mindig lemerül."
 ]
 ]
 }

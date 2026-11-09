@@ -7,70 +7,67 @@
 "1": {
 "segs": [
 [
-"annoyed",
-"Ki ette meg a rétesemet?"
+"worried",
+"Nincs fehér kenyér. 😕",
+"Nincs fehér kenyér."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"flustered",
-"Nem én! Miért?"
+"neutral",
+"Akkor barnát."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"teasing",
-"Semmi. Csak kérdezem."
+"worried",
+"Tej sincs. Kakaó jó?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Amúgy finom volt."
+"neutral",
+"Mindegy, valamit."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"teasing",
-"Aha! 😏",
-"Aha!"
+"cheerful",
+"Oké! És tojás? 🥚",
+"Oké! És tojás?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Jaj. Izé, bocsi."
+"polite",
+"Hat darabot, légyszi."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Nem baj."
-],
-[
-"teasing",
-"Az szappan volt."
+"excited",
+"Csak harmincas van. Megvan, viszem! 🛒",
+"Csak harmincas van. Megvan, viszem!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"sad",
-"Ja... ezért volt olyan tiszta.",
-"Ja, ezért volt olyan tiszta."
+"tsukkomi",
+"Harminc tojás és kakaó?! Dávid!"
 ]
 ]
 }

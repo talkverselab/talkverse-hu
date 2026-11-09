@@ -9,48 +9,54 @@
 "1": {
 "segs": [
 [
-"worried",
-"Emberek, eltűnt Cirmi! Reggel óta nem láttam."
+"polite",
+"Kedves lakók! Holnap kilenctől egyig nem lesz víz a házban."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Jaj, milyen macska? Segítek keresni."
+"polite",
+"Köszönjük, Feri!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"amused",
-"Szürke, kövér, mindenkire mérges."
+"cheerful",
+"Köszönjük az infót! 👍",
+"Köszönjük az infót!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"excited",
-"Találtam egy szürke macskát a kapu előtt!"
+"worried",
+"Dávid, otthon vagy? 😰",
+"Dávid, otthon vagy?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"excited",
-"Én is, a kukánál! Ez is szürke."
+"neutral",
+"Nem, edzésen vagyok. Mi van?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
+"shout",
+"Nincs víz!"
+],
+[
 "worried",
-"Várjatok! Hány macskája van Marika néninek?"
+"És tele van samponnal a hajam."
 ]
 ]
 },
@@ -58,40 +64,44 @@
 "segs": [
 [
 "neutral",
-"Egy! De hozzátok ide, megnézem."
+"Feri bácsi tegnap írta: kilenctől egyig nincs víz."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Már négy macska van nálunk. Az egyik a kanapén alszik."
+"surprised",
+"Tegnap? Nem láttam semmit."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"annoyed",
-"Hat. Az egyik megette a kolbászt."
+"teasing",
+"Te válaszoltál rá: „Köszönjük az infót!” 😂",
+"Te válaszoltál rá: „Köszönjük az infót!”"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"Hoztam még kettőt a pincéből. Szívesen!"
+"flustered",
+"Jaj, tényleg!"
+],
+[
+"polite",
+"Valaki tud adni egy kis vizet?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"worried",
-"Amúgy most jut eszembe: allergiás vagyok a macskára. 🤧",
-"Amúgy most jut eszembe: allergiás vagyok a macskára."
+"gentle",
+"Viszek egy fazék vizet, kedves!"
 ]
 ]
 },
@@ -99,39 +109,41 @@
 "segs": [
 [
 "cheerful",
-"Megvan Cirmi! A szekrényben aludt a lépcsőn."
+"Én két vödröt viszek a pincéből."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"tsukkomi",
-"Szuper. És most kié ez a nyolc macska?"
+"flustered",
+"Köszönöm! Egy pohár is elég lesz!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"stiff",
-"Nem az enyém. Jó éjszakát."
+"cheerful",
+"Már úton vagyunk. A negyedikről is jönnek."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"cheerful",
-"Nekem csak Cirmi kell. Puszi!"
+"amused",
+"Hat fazék víz áll az ajtóm előtt. És most jött vissza a víz. 🚿",
+"Hat fazék víz áll az ajtóm előtt. És most jött vissza a víz."
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"amused",
-"Eladó egy szekrény. Nyolc macska ingyen jár hozzá."
+"teasing",
+"Most mindenkinek vissza kell vinni a fazekát. 😂",
+"Most mindenkinek vissza kell vinni a fazekát."
 ]
 ]
 }

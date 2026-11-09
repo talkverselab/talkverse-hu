@@ -10,74 +10,35 @@
  "domain": [
   "life"
  ],
- "title": "옷장 팝니다",
+ "title": "책상 팝니다",
  "emoji": "🏷️",
- "scene": "계단에 낀 옷장을 중고 장터에 올렸다. 구매자 쪽지가 왔는데 뭔가 이상하다",
+ "scene": "중고 사이트에 책상을 올렸다. 산다는 사람이 메시지를 보낸다",
  "speakers": {
   "A": "{name}",
   "B": "Vevő"
  },
  "register": "chat",
- "twist": 11,
+ "twist": 9,
  "twist_type": "reveal",
  "flags": [],
- "goal": "중고 거래 문자(Mennyibe kerül? Hol lehet megnézni?)",
+ "goal": "중고 거래 채팅(Megvan még? · Lehet alkudni? · Hol lehet átvenni?)",
  "expressions": [
-  "Jó napot",
-  "Mennyibe kerül",
-  "Szuper",
-  "Hát",
-  "Hogyhogy",
-  "Igazából"
+  "Megvan még",
+  "Alkudni",
+  "Rendben"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó napot! Még eladó a szekrény?",
-   "rd": "요 너포트! 멕 엘러도 어 쎅레니?",
-   "ko": "안녕하세요! 옷장 아직 파시나요?",
-   "note": "eladó = 판매 중인",
+   "hu": "Jó napot! Megvan még az íróasztal?",
+   "rd": "요 너포트! 멕번 멕 어즈 이로어쓰털?",
+   "ko": "안녕하세요! 책상 아직 있나요?",
+   "note": "íróasztal = 책상",
    "tags": [
-    "expr:Jó napot"
+    "expr:Megvan még"
    ],
-   "at": "20:14",
-   "emotion": "polite",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "napot",
-     "nap",
-     "넙"
-    ],
-    [
-     "eladó",
-     "elad",
-     "엘러드"
-    ],
-    [
-     "szekrény",
-     "szekrény",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "hu": "Jó napot! Igen, még eladó.",
-   "rd": "요 너포트! 이겐, 멕 엘러도.",
-   "ko": "안녕하세요! 네, 아직 팔아요.",
-   "note": "még = 아직",
-   "tags": [
-    "expr:Jó napot"
-   ],
-   "at": "20:15",
+   "at": "20:10",
    "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
@@ -97,63 +58,63 @@
      "메그"
     ],
     [
-     "eladó",
-     "elad",
-     "엘러드"
+     "íróasztal",
+     "íróasztal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó napot! Igen, megvan.",
+   "rd": "요 너포트! 이겐, 멕번.",
+   "ko": "안녕하세요! 네, 있어요.",
+   "note": "megvan = 있다(남아 있다)",
+   "tags": [],
+   "at": "20:12",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "megvan",
+     "megvan",
+     "메그번"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Mennyibe kerül? Jó állapotban van?",
-   "rd": "메니베 케륄? 요 알러포트번 번?",
-   "ko": "얼마예요? 상태는 좋아요?",
-   "note": "mennyibe kerül? = 얼마예요?",
+   "hu": "Lehet alkudni? Nyolcezer jó lenne?",
+   "rd": "레헤트 얼쿠드니? 뇰체제르 요 렌네?",
+   "ko": "깎을 수 있나요? 8천이면 될까요?",
+   "note": "alkudni = 흥정하다",
    "tags": [
-    "expr:Mennyibe kerül"
+    "expr:Alkudni"
    ],
-   "at": "20:15",
+   "at": "20:13",
    "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
-     "kerül",
-     "kerül",
-     "케륄"
+     "Lehet",
+     "lehet",
+     "레헤트"
     ],
     [
-     "állapotban",
-     "állapot",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Húszezer forint. Nagyon jó állapotban van.",
-   "rd": "후쎄제르 포린트. 너죤 요 알러포트번 번.",
-   "ko": "2만 포린트요. 상태 아주 좋아요.",
-   "note": "állapot = 상태",
-   "tags": [],
-   "at": "20:16",
-   "emotion": "cheerful",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Húszezer",
-     "húszezer",
-     ""
-    ],
-    [
-     "forint",
-     "forint",
+     "alkudni",
+     "alkuszik",
      ""
     ],
     [
@@ -162,35 +123,59 @@
      "요"
     ],
     [
-     "állapotban",
-     "állapot",
+     "lenne",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Tízezer volt... Legyen kilenc.",
+   "rd": "티제제르 볼트... 레젠 킬렌츠.",
+   "ko": "만 포린트였는데… 9천으로 하죠.",
+   "note": "legyen = ~로 하자",
+   "tags": [],
+   "at": "20:15",
+   "emotion": "neutral",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Tízezer",
+     "tízezer",
      ""
     ],
     [
-     "van",
+     "volt",
      "van",
      "번"
+    ],
+    [
+     "kilenc",
+     "kilenc",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Szuper. Hol lehet megnézni?",
-   "rd": "쑤페르. 홀 레헤트 멕네즈니?",
-   "ko": "좋네요. 어디서 볼 수 있어요?",
-   "note": "lehet = ~할 수 있다",
+   "hu": "Rendben! Hol lehet átvenni?",
+   "rd": "렌드벤! 홀 레헤트 아트벤니?",
+   "ko": "좋아요! 어디서 받을 수 있죠?",
+   "note": "átvenni = 받아 가다",
    "tags": [
-    "expr:Szuper"
+    "expr:Rendben"
    ],
    "at": "20:16",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szuper",
-     "szuper",
-     "쑤페르"
+     "Rendben",
+     "rend",
+     "렌드"
     ],
     [
      "lehet",
@@ -198,34 +183,42 @@
      "레헤트"
     ],
     [
-     "megnézni",
-     "megnéz",
-     "메그네즈"
+     "átvenni",
+     "átvesz",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Hát... a lépcsőn.",
-   "rd": "하트... 어 레프쵠.",
-   "ko": "음… 계단에서요.",
-   "note": "lépcső = 계단",
-   "tags": [
-    "expr:Hát"
-   ],
+   "hu": "A Kossuth utcában, a harmadik emeleten. Sajnos nincs lift.",
+   "rd": "어 코쓔트흐 우트차번, 어 허르머딕 에멜레텐. 셔이노시 닌치 리프트.",
+   "ko": "코슈트 거리, 3층이에요. 아쉽게도 엘리베이터가 없어요.",
+   "note": "sajnos = 아쉽게도",
+   "tags": [],
    "at": "20:18",
-   "emotion": "flustered",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "utcában",
+     "utca",
+     "우트처"
     ],
     [
-     "lépcsőn",
-     "lépcső",
+     "emeleten",
+     "emelet",
+     ""
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "lift",
+     "lift",
      ""
     ]
    ]
@@ -233,104 +226,114 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "A lépcsőn? Hogyhogy?",
-   "rd": "어 레프쵠? 호지호지?",
-   "ko": "계단에서요? 어째서요?",
-   "note": "hogyhogy? = 어째서?",
-   "tags": [
-    "expr:Hogyhogy"
-   ],
-   "at": "20:18",
-   "emotion": "surprised",
+   "hu": "Nem baj. Hányas ajtó?",
+   "rd": "넴 버이. 하녀시 어이토?",
+   "ko": "괜찮아요. 몇 호예요?",
+   "note": "hányas = 몇 번",
+   "tags": [],
+   "at": "20:19",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
-     "lépcsőn",
-     "lépcső",
-     ""
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "ajtó",
+     "ajtó",
+     "어이토"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Igazából beragadt. Már három hete ott van.",
-   "rd": "이거자볼 베러거드트. 마르 하롬 헤테 오트 번.",
-   "ko": "사실 끼었어요. 벌써 3주째 거기 있어요.",
-   "note": "beragadt = 끼어서 안 움직인다",
-   "tags": [
-    "expr:Igazából"
-   ],
-   "at": "20:19",
-   "emotion": "flustered",
+   "hu": "Huszonegy. Mikor jön?",
+   "rd": "후쏘네지. 미코르 욘?",
+   "ko": "21호요. 언제 오세요?",
+   "note": "mikor = 언제",
+   "tags": [],
+   "at": "20:20",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
-     "Igazából",
-     "igaz",
-     "이거즈"
-    ],
-    [
-     "beragadt",
-     "beragadt",
+     "Huszonegy",
+     "huszonegy",
      ""
     ],
     [
-     "hete",
-     "hét",
-     "헤트"
-    ],
-    [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "jön",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Várjon. Zöld kapu, második emelet?",
-   "rd": "바르욘. 죌드 커푸, 마쇼딕 에멜레트?",
-   "ko": "잠깐만요. 초록 대문, 2층이요?",
-   "note": "várjon = 기다리세요",
+   "hu": "Most. A huszonkettesben lakom. 😄",
+   "rd": "모슈트. 어 후쏜케떼슈벤 러콤. 😄",
+   "ko": "지금요. 저 22호 살아요. 😄",
+   "note": "-ben = ~안에",
    "tags": [],
    "at": "20:20",
-   "emotion": "stiff",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "Várjon",
-     "vár",
-     "바르"
+     "Most",
+     "most",
+     "모슈트"
     ],
     [
-     "kapu",
-     "kapu",
-     "커푸"
-    ],
-    [
-     "emelet",
-     "emelet",
+     "huszonkettesben",
+     "huszonkettes",
      ""
+    ],
+    [
+     "lakom",
+     "lakik",
+     "러키크"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Igen! Honnan tudja?",
-   "rd": "이겐! 혼넌 투드여?",
-   "ko": "네! 어떻게 아세요?",
-   "note": "honnan = 어디서부터",
+   "hu": "Komolyan? Akkor maga a szomszéd!",
+   "rd": "코모연? 어꼬르 머거 어 쏨쎄드!",
+   "ko": "진짜요? 그럼 옆집이시네요!",
+   "note": "szomszéd = 이웃",
    "tags": [],
-   "at": "20:20",
+   "at": "20:21",
    "emotion": "surprised",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "szomszéd",
+     "szomszéd",
+     "쏨세드"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Igen. Már rég meg akartam szólítani.",
+   "rd": "이겐. 마르 렉 멕 어커르텀 쏠리터니.",
+   "ko": "네. 사실 진작 말 걸고 싶었어요.",
+   "note": "megszólítani = 말을 걸다",
+   "tags": [],
+   "at": "20:22",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
@@ -339,66 +342,18 @@
      "이겐"
     ],
     [
-     "tudja",
-     "tud",
-     "투드"
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "B",
-   "hu": "Én adtam el Dávidnak. Ezért volt olyan olcsó.",
-   "rd": "엔 어드텀 엘 다비드넉. 에제르트 볼트 오연 올초.",
-   "ko": "제가 다비드한테 판 거예요. 그래서 그렇게 쌌던 거고요.",
-   "note": "adtam el = 내가 팔았다",
-   "tags": [],
-   "at": "20:21",
-   "emotion": "amused",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "adtam",
-     "ad",
-     "어드"
+     "rég",
+     "rég",
+     "레그"
     ],
     [
-     "el",
-     "el",
-     "엘"
-    ],
-    [
-     "volt",
-     "van",
-     "번"
-    ],
-    [
-     "olcsó",
-     "olcsó",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "B",
-   "hu": "Az én lépcsőmön is beragadt. 😅",
-   "rd": "어즈 엔 레프최묀 이시 베러거드트. 😅",
-   "ko": "우리 계단에서도 끼었거든요. 😅",
-   "note": "lépcsőmön = 내 계단에서",
-   "tags": [],
-   "at": "20:21",
-   "emotion": "amused",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "lépcsőmön",
-     "lépcső",
+     "akartam",
+     "akart",
      ""
     ],
     [
-     "beragadt",
-     "beragadt",
+     "szólítani",
+     "szólít",
      ""
     ]
    ]

@@ -1,29 +1,29 @@
 === r3_culture_b3
 kind: long
-title: 속담 열 개
-emoji: 🐕
-scene: Réka 네 일요일 점심. 무서운 아버지에게 잘 보이려고 속담을 열 개 외워 왔다
+title: 아빠의 이름의 날
+emoji: 🍷
+scene: Réka 아빠의 이름의 날 저녁에 초대받았다. 가기 전에 축하 인사를 배운다
 b: Réka
 c: Réka apukája
 register: mixed
 twist: 9 slip
 flags: alcohol
 purpose: media making_friends
-goal: 헝가리어 속담과 존댓말에서 반말로 넘어가기(Tegeződjünk!)
-expressions: Figyelj; Nyugi; Úristen; Bocsánat; Kérlek
-B | Figyelj, apám szigorú. Csak mosolyogj, és ne mondj semmi okosat. | 잘 들어, 우리 아빠 엄격해. 웃기만 하고 똑똑한 말은 하지 마. | szigorú = 엄격한 | emotion=worried
-A | Nyugi, megtanultam tíz magyar közmondást. Imádni fog. | 걱정 마, 헝가리 속담 열 개 외웠어. 엄청 좋아하실걸. | közmondás = 속담 | emotion=cheerful
-B | Tíz közmondást? Jaj, jön, mosolyogj! | 속담 열 개? 아이고, 오신다, 웃어! | mosolyogj = 웃어 | emotion=surprised+worried
-C | Üdvözlöm, foglaljon helyet! Ön magyarul tanul, nehéz? | 어서 오세요, 앉으시죠! 헝가리어를 배우신다고요, 어렵습니까? | foglaljon helyet = 앉으세요 | emotion=stiff
-A | Igen, de sehol sincs kolbászból a kerítés. | 네, 하지만 어디든 울타리가 소시지로 되어 있진 않죠. | 속담: 어디나 사는 건 쉽지 않다 | emotion=polite
-C | Hát, ez igaz. Jó mondás! | 음, 맞는 말입니다. 좋은 속담이에요! | mondás = 말, 속담 | emotion=amused
-B | Hű, ez működött. Most már elég, jó? | 오, 먹혔다. 이제 그만해, 알았지? | működik = 작동하다 | emotion=surprised+worried
-C | Kóstolja meg a pörköltet. Ezt én főztem, negyven éve ez a receptem. | 포르쾰트 드셔 보세요. 제가 만들었어요, 40년 된 레시피입니다. | kóstolja meg = 맛보세요 | emotion=polite
-A | Köszönöm! Kutyából nem lesz szalonna! | 감사합니다! 개로는 베이컨을 못 만들죠! | 속담: 나쁜 건 안 변한다 | emotion=cheerful
-B | Úristen, {name}, ezt most komolyan mondtad? | 세상에, {name}, 그거 지금 진심이야? | komolyan = 진지하게 | emotion=surprised
-C | Kutyából? Azt mondja, hogy kutyát főztem? | 개요? 내가 개를 끓였다는 말입니까? | azt mondja = 그렇게 말한다 | emotion=annoyed
-A | Nem, bocsánat! Bagoly mondja verébnek, hogy nagyfejű! | 아뇨, 죄송합니다! 올빼미가 참새더러 머리 크다네요! | 속담: 네가 할 말이냐 | emotion=flustered
-C | Engem nagyfejűnek nevez? | 나더러 머리가 크다는 겁니까? | nevez = 부르다 | emotion=annoyed
-B | Kérlek, hallgass már! Tessék, egyél krumplit! | 제발 좀 조용히 해! 자, 감자나 먹어! | hallgass = 입 다물어 | emotion=tsukkomi
-A | Még hét van. Várj, ez jó: aki másnak vermet ás, maga esik bele! | 아직 일곱 개 남았어. 잠깐, 이거 좋다. 남의 구덩이 파는 자, 제가 빠진다! | verem → vermet = 구덩이를 | emotion=cheerful
-C | Réka, hozd a pálinkát, negyven éve nem nevettem így! Tegeződjünk, {name}! | 레카, 팔린카 가져와, 40년 만에 이렇게 웃네! 말 놓자, {name}! | tegeződjünk = 서로 말 놓자 | emotion=amused+cheerful
+goal: 이름의 날 축하(Isten éltesse!)와 존댓말·반말 실수 수습
+expressions: Jól van; Nyugodtan; Ugye; Jaj
+B | Ma van apukám névnapja. Este nálunk vacsorázunk. | 오늘 우리 아빠 이름의 날이야. 저녁에 우리 집에서 먹어. | nálunk = 우리 집에서 | emotion=cheerful
+A | Vigyek valamit? Virágot vagy bort? | 뭐 가져갈까? 꽃, 아니면 와인? | vigyek = 가져갈까 | emotion=gentle
+B | Egy üveg bor jó lesz. Apa a vöröset szereti. | 와인 한 병이면 돼. 아빠는 레드를 좋아해. | vörös = 레드 와인 | emotion=cheerful
+A | És mit kell mondani? Boldog névnapot? | 그리고 뭐라고 해야 해? 이름의 날 축하해요? | mit kell mondani? = 뭐라고 해야 해? | emotion=worried
+B | Az is jó, vagy „Isten éltesse”, magázva. | 그것도 좋고, 아니면 존댓말로 "Isten éltesse". | Isten éltesse = 만수무강하세요(존댓말) | emotion=gentle
+A | Isten éltesse. Oké, megjegyeztem. | Isten éltesse. 오케이, 외웠어. | megjegyez = 외워 두다 | emotion=cheerful
+C | Sziasztok, gyertek be! Hideg van kint. | 얘들아, 들어와라! 밖에 춥지. | gyertek be = 들어와 | emotion=cheerful
+C | Ó, vörösbor! Köszönöm, nagyon kedves. | 오, 레드 와인! 고맙구나, 정말 고마워. | kedves = 친절한 | emotion=gentle
+A | Szívesen. És... Isten éltessen! | 천만에요. 그리고… Isten éltessen! | éltessen = 만수무강해(반말) | emotion=cheerful
+C | Hű, már tegeződünk? Jól van, László vagyok! 😄 | 오, 벌써 말 놓는 거야? 좋아, 나 라슬로다! 😄 | tegeződünk = 서로 반말한다 | emotion=amused
+A | Jaj, bocsánat! „Éltesse”, azt akartam mondani. | 아, 죄송해요! "éltesse" 라고 하려던 거예요. | akartam mondani = 말하려고 했다 | emotion=flustered
+B | Túl késő. Apa már nagyon örül neki. 😂 | 너무 늦었어. 아빠 벌써 엄청 좋아하셔. 😂 | örül = 기뻐하다 | emotion=teasing
+C | Komolyan, nyugodtan tegezz. Kérsz egy kis pálinkát? | 진짜로, 편하게 말 놔. 팔린카 좀 할래? | pálinka = 과일 증류주 | emotion=gentle
+A | Csak egy kicsit. Egészségére! | 조금만요. 건배!(존댓말) | Egészségére! = 건배(존댓말) | emotion=polite
+C | Egészségedre! Ugye mondtam: tegezz! | 건배! 말 놓으라고 했지! | Egészségedre! = 건배(반말) | emotion=tsukkomi
+B | Ma már kétszer. Holnapra megtanulja, apa. | 오늘만 벌써 두 번. 내일이면 배울 거야, 아빠. | holnapra = 내일까지 | emotion=amused

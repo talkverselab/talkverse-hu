@@ -1,19 +1,20 @@
 === r1_travel_b5
 kind: long
-title: 언제 깊어져
-emoji: 🏖️
-scene: 발라톤 남쪽 호숫가. 수영하러 들어갔는데 물이 아무리 걸어도 무릎이다
+title: 사물함으로 두 장
+emoji: ♨️
+scene: 세체니 온천 매표소. Dávid 가 표는 직접 사 보라고 한다
 b: Dávid
-register: casual
-twist: 7 chaos
+c: Pénztáros
+register: mixed
+twist: 8 slip
 purpose: travel making_friends
-goal: 어디서 할 수 있는지 묻기(hol lehet)와 -ig(~까지)
-expressions: Figyelj; Gyere; menjünk; Nyugi; Nézd; Szuper
-A | Figyelj, hol lehet itt úszni? | 야, 여기 어디서 수영해? | lehet = ~할 수 있다 | emotion=neutral
-B | Itt, a Balatonban! Gyere, menjünk be! | 여기, 발라톤에서! 와, 들어가자! | menjünk = 가자 | emotion=excited
-A | De a víz csak a térdemig ér. | 근데 물이 무릎까지밖에 안 와. | -ig = ~까지 | emotion=worried
-B | Nyugi, menj tovább! Mindjárt mély lesz. | 진정해, 더 가! 곧 깊어져. | mély = 깊은 | emotion=cheerful
-A | Már húsz perce megyünk. Még mindig a térdem! | 벌써 20분째 걷고 있어. 아직도 무릎이야! | húsz perce = 20분째 | emotion=annoyed
-B | Hát, ez a déli part. Menjünk még! | 음, 여긴 남쪽 호숫가니까. 더 가자! | part = 호숫가 | emotion=cheerful
-A | Nézd, egy falu! Ott egy templom! | 봐, 마을이야! 저기 교회도 있어! | falu = 마을 | emotion=surprised
-B | Szuper, ez a másik part. Átsétáltunk. | 좋아, 여기가 건너편이네. 우리 걸어서 건넜어. | átsétáltunk = 걸어서 건넜다 | emotion=cheerful+amused
+goal: 온천 입장권 사기(belépő · szekrény · kabin)
+expressions: Na; legyen szíves; Persze
+B | Na, itt a fürdő. Te kérd a jegyet, gyakorolj! | 자, 온천이야. 표는 네가 사, 연습해! | gyakorolj = 연습해 | emotion=teasing
+A | Jó napot! Két belépőt kérek. | 안녕하세요! 입장권 두 장 주세요. | belépő = 입장권 | emotion=stiff
+C | Szekrénnyel vagy kabinnal? | 사물함으로요, 개인 탈의실로요? | kabin = 개인 탈의실 | emotion=polite
+A | Dávid, mi a különbség? | 다비드, 뭐가 달라? | különbség = 차이 | emotion=worried
+B | A kabin drágább, de csak a tiéd. A szekrény elég. | 탈의실은 더 비싼데 너 혼자 써. 사물함이면 돼. | a tiéd = 네 것 | emotion=gentle
+A | Két szekrényes jegyet, legyen szíves. Kártyával lehet? | 사물함 표 두 장 주세요. 카드 돼요? | lehet = 가능하다 | emotion=polite
+C | Persze. Törölközőt is kérnek? | 물론이죠. 수건도 필요하세요? | törölköző = 수건 | emotion=polite
+A | Nem, hoztunk. Jaj, a fürdőruhám otthon maradt! | 아니요, 가져왔어요. 아이고, 수영복을 집에 두고 왔다! | fürdőruha = 수영복 | emotion=polite+flustered

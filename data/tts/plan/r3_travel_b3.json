@@ -8,8 +8,8 @@
 "1": {
 "segs": [
 [
-"teasing",
-"Figyelj, ma te rendelsz. Eleget tanultál, már nem segítek."
+"cheerful",
+"Ez a halászlé isteni volt. Kérjük a számlát?"
 ]
 ]
 },
@@ -17,20 +17,19 @@
 "segs": [
 [
 "cheerful",
-"Jól van, meg tudom csinálni."
+"Igen, én hívom."
 ],
 [
-"worried",
-"Szeretnék, szeretnék...",
-"Szeretnék, szeretnék"
+"polite",
+"Elnézést!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"gentle",
-"Mondd csak: szeretnék egy halászlét. Ez nem nehéz."
+"polite",
+"Igen, tessék?"
 ]
 ]
 },
@@ -38,75 +37,71 @@
 "segs": [
 [
 "polite",
-"Jó estét! Mit hozhatok?"
+"Fizetni szeretnénk."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"Jó estét, szeretlek!"
-],
-[
-"flustered",
-"Izé, egy halászlét!"
+"polite",
+"Együtt vagy külön?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"teasing",
-"Engem szeret, vagy a halászlét?"
+"polite",
+"Együtt."
+],
+[
+"cheerful",
+"Ma én fizetek!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Jaj, bocsánat! Szeretnék egy halászlét!"
+"tsukkomi",
+"Ne már, tegnap is te fizettél!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"amused",
-"Te jó ég, ezt felvettem."
+"teasing",
+"Akkor holnap te."
+],
+[
+"polite",
+"Kártyával lehet?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"amused",
-"Semmi baj, ez a nap fénypontja."
-],
-[
 "polite",
-"Kér mellé kenyeret?"
+"Persze. Összesen tizennyolcezer-négyszáz forint."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"polite",
-"Igen, köszönöm."
-],
-[
-"flustered",
-"Réka, töröld ki azt a videót, légyszi!"
+"worried",
+"Réka, mennyi borravalót szoktak adni?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"teasing",
-"Naná, hogy nem törlöm ki. Már elküldtem Annának."
+"cheerful",
+"Általában tíz százalékot. Szóval kerekítsünk húszezerre!"
 ]
 ]
 },
@@ -114,11 +109,7 @@
 "segs": [
 [
 "polite",
-"Tessék, a számla."
-],
-[
-"shy",
-"A halászlét a ház állja."
+"Köszönöm, de a szervizdíj már benne van a számlában."
 ]
 ]
 },
@@ -126,27 +117,35 @@
 "segs": [
 [
 "surprised",
-"Hogyhogy? Mi van a számla hátulján?"
+"Tényleg? Hol?"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"surprised",
-"Várj, ez egy telefonszám."
-],
-[
-"shy",
-"És alatta: én is szeretlek."
+"polite",
+"Itt, alul: tizenkét és fél százalék."
 ]
 ]
 },
 "15": {
 "segs": [
 [
+"surprised",
+"Nahát, észre sem vettem!"
+],
+[
+"cheerful",
+"Akkor maradt egy fagyira."
+]
+]
+},
+"16": {
+"segs": [
+[
 "teasing",
-"Na, látod? Mégis jól tanultál magyarul."
+"De azt már én fizetem!"
 ]
 ]
 }

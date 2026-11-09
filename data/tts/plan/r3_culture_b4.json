@@ -7,77 +7,64 @@
 "1": {
 "segs": [
 [
-"gentle",
-"Gyere velem ma este. Mindenszentek van, kimegyünk a temetőbe."
+"cheerful",
+"Ma felirat nélkül nézzük a sorozatot?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"amused",
-"A temetőbe, este? Hát, nem ez a legjobb randi."
+"surprised",
+"Felirat nélkül? Hű, ez bátor ötlet."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"teasing",
-"Ki mondta, hogy randi? Várj, amíg meglátod."
+"gentle",
+"Szerintem menni fog. Sokat fejlődtél."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Te jó ég, ez gyönyörű."
-],
-[
-"gentle",
-"Hány gyertya ég itt?"
+"worried",
+"Jó, de ha nem értek valamit, megállítjuk."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"gentle",
-"Több ezer. Ilyenkor az egész ország kijön, tudod."
+"cheerful",
+"Rendben. Hozok teát és pogácsát."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"gentle",
-"Azt hittem, ez szomorú lesz. De mindenki halkan beszélget."
+"surprised",
+"Várj, ki ez a férfi? Az apja?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Nem sírunk, csak eljövünk hozzájuk."
-],
-[
-"sad",
-"Itt van a nagypapám."
+"amused",
+"Nem, a nagybátyja. És ő is hazudik."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"stiff",
-"Jó estét...",
-"Jó estét"
-],
-[
-"flustered",
-"izé, nem tudom, mit kell itt mondani."
+"annoyed",
+"Mit mondott most? Túl gyorsan beszélt."
 ]
 ]
 },
@@ -85,19 +72,15 @@
 "segs": [
 [
 "gentle",
-"Semmit, ő szerette a csendet. Majd én beszélek."
+"Azt mondta: „Holnap mindent elmondok.”"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"Szia, nagypapa, hoztam valakit!"
-],
-[
-"shy",
-"Igen, ő az, akiről meséltem."
+"excited",
+"Aha! Szóval ő tudja, hol van a pénz."
 ]
 ]
 },
@@ -105,39 +88,32 @@
 "segs": [
 [
 "surprised",
-"Rólam meséltél neki? Mikor?"
+"Te jó ég, tényleg mindent értesz!"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"gentle",
-"Tavasszal. Hoztam neki virágot, és mindent elmondtam."
+"amused",
+"Nem mindent. Csak a fontos részeket. 😄",
+"Nem mindent. Csak a fontos részeket."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"surprised",
-"Mindent?"
-],
-[
-"shy",
-"Mi az a minden?"
+"teasing",
+"Emlékszel? Egy éve még a „szia” is nehéz volt."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"gentle",
-"Hogy van valaki, aki krumplinak hívta a rajzomat."
-],
-[
 "shy",
-"És hogy azóta nem tudok mást rajzolni."
+"Emlékszem. Az első magyar szavam a te neved volt."
 ]
 ]
 }

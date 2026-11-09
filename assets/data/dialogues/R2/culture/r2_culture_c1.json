@@ -11,9 +11,9 @@
  "domain": [
   "culture"
  ],
- "title": "베이글리 열네 개",
- "emoji": "🥮",
- "scene": "크리스마스 파티 단체방. 누가 뭘 가져올지 정하는 중이다",
+ "title": "단톡방 사고",
+ "emoji": "📸",
+ "scene": "친구들 단톡방에서 토요일 사진전 개막에 같이 갈 시간을 정한다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
@@ -21,364 +21,330 @@
   "D": "Bence"
  },
  "register": "chat",
- "twist": 11,
+ "twist": 10,
  "twist_type": "chaos",
  "flags": [],
- "goal": "단체방에서 Ki mit hoz? 로 역할 나누기",
+ "goal": "단톡방에서 약속 시간·장소 정하기(Hánykor? · Hol találkozunk?)",
  "expressions": [
-  "Sziasztok",
-  "Szuper",
-  "Izé"
+  "Jaj",
+  "Bocsi",
+  "Szerintem"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Sziasztok! Szombaton buli nálam, ki mit hoz?",
-   "rd": "씨어쓰톡! 쏨버톤 불리 날럼, 키 미트 호즈?",
-   "ko": "얘들아! 토요일에 우리 집에서 파티, 누가 뭐 가져올래?",
-   "note": "ki mit hoz? = 누가 뭘 가져와?",
-   "tags": [
-    "expr:Sziasztok"
-   ],
-   "at": "18:00",
+   "hu": "Szombaton nyílik a fotókiállítás. Ki jön? 📸",
+   "rd": "쏨버톤 닐릭 어 포토키알리타시. 키 욘? 📸",
+   "ko": "토요일에 사진전 개막해. 누구 올래? 📸",
+   "note": "nyílik = 열리다",
+   "tags": [],
+   "at": "18:10",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Sziasztok",
-     "sziasztok",
-     "씨어스톡"
+     "Szombaton",
+     "szombat",
+     "솜바트"
     ],
     [
-     "buli",
-     "buli",
-     "불리"
+     "nyílik",
+     "nyílik",
+     ""
     ],
     [
-     "ki",
-     "ki",
-     "키"
+     "fotókiállítás",
+     "fotókiállítás",
+     ""
     ],
     [
-     "hoz",
-     "hoz",
-     "호즈"
+     "jön",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "C",
-   "hu": "Én bejglit hozok.",
-   "rd": "엔 베익리트 호족.",
-   "ko": "나는 베이글리 가져갈게.",
-   "note": "bejgli = 크리스마스 양귀비씨·호두 말이빵",
+   "hu": "Én! Hánykor?",
+   "rd": "엔! 하니코르?",
+   "ko": "나! 몇 시?",
+   "note": "hánykor? = 몇 시에?",
    "tags": [],
-   "at": "18:03",
+   "at": "18:11",
+   "emotion": "excited",
+   "ui": "bubble",
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Hatkor kezdődik, ingyenes.",
+   "rd": "허트코르 케즈되딕, 인제네시.",
+   "ko": "여섯 시 시작, 무료야.",
+   "note": "ingyenes = 무료",
+   "tags": [],
+   "at": "18:11",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "bejglit",
-     "bejgli",
-     ""
+     "kezdődik",
+     "kezdődik",
+     "케즈되디크"
     ],
     [
-     "hozok",
-     "hoz",
-     "호즈"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "hu": "Mi az a bejgli?",
-   "rd": "미 어즈 어 베익리?",
-   "ko": "베이글리가 뭐야?",
-   "note": "mi az a …? = ~가 뭐야?",
-   "tags": [],
-   "at": "18:05",
-   "emotion": "neutral",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "bejgli",
-     "bejgli",
+     "ingyenes",
+     "ingyenes",
      ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Mákos vagy diós sütemény. Mindenki szereti.",
-   "rd": "마코시 버지 디오시 쉬테메니. 민덴키 쎄레티.",
-   "ko": "양귀비씨나 호두 케이크야. 다들 좋아해.",
-   "note": "diós = 호두가 든",
+   "speaker": "D",
+   "hu": "Én csak hétre érek oda. Munka. 😩",
+   "rd": "엔 척 헤트레 에렉 오더. 문커. 😩",
+   "ko": "난 일곱 시에야 도착해. 일 때문에. 😩",
+   "note": "odaér = 도착하다",
    "tags": [],
-   "at": "18:05",
-   "emotion": "cheerful",
+   "at": "18:13",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
-     "Mákos",
-     "mákos",
-     ""
+     "csak",
+     "csak",
+     "촉"
     ],
     [
-     "diós",
-     "diós",
-     ""
+     "hétre",
+     "hét",
+     "헤트"
     ],
     [
-     "sütemény",
-     "sütemény",
-     "슈테메니"
+     "érek",
+     "érik",
+     "에릭"
     ],
     [
-     "szereti",
-     "szeret",
-     "쎄레트"
+     "oda",
+     "oda",
+     "오더"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Szuper! Akkor én is hozok.",
-   "rd": "쑤페르! 어꼬르 엔 이시 호족.",
-   "ko": "좋다! 그럼 나도 가져갈게.",
-   "note": "akkor = 그럼",
-   "tags": [
-    "expr:Szuper"
-   ],
-   "at": "18:06",
-   "emotion": "cheerful",
+   "hu": "Én is megyek! Hol találkozunk?",
+   "rd": "엔 이시 메젝! 홀 털랄코준크?",
+   "ko": "나도 갈래! 어디서 만나?",
+   "note": "Hol találkozunk? = 어디서 만나?",
+   "tags": [],
+   "at": "18:14",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szuper",
-     "szuper",
-     "쑤페르"
+     "megyek",
+     "megye",
+     "메예"
     ],
     [
-     "hozok",
-     "hoz",
-     "호즈"
+     "találkozunk",
+     "találkozik",
+     "털랄코지크"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "D",
-   "hu": "Én is bejglit hozok.",
-   "rd": "엔 이시 베익리트 호족.",
-   "ko": "나도 베이글리 가져갈게.",
-   "note": "én is = 나도",
+   "speaker": "B",
+   "hu": "A bejáratnál, fél hatkor.",
+   "rd": "어 베야러트날, 펠 허트코르.",
+   "ko": "입구에서, 다섯 시 반에.",
+   "note": "bejárat = 입구",
    "tags": [],
-   "at": "18:20",
-   "emotion": "neutral",
+   "at": "18:15",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "bejglit",
-     "bejgli",
+     "bejáratnál",
+     "bejárat",
      ""
     ],
     [
-     "hozok",
-     "hoz",
-     "호즈"
+     "fél",
+     "fél",
+     "펠"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "C",
-   "hu": "Itt vagyok. Már tizennégy bejgli van az asztalon.",
-   "rd": "이트 버죡. 마르 티젠네지 베익리 번 어즈 어쓰털론.",
-   "ko": "나 왔어. 탁자에 벌써 베이글리가 열네 개야.",
-   "note": "asztal = 탁자",
+   "hu": "Bence, te ne késs megint! 😄",
+   "rd": "벤체, 테 네 케시 메긴트! 😄",
+   "ko": "벤체, 너 또 늦지 마! 😄",
+   "note": "ne késs = 늦지 마",
    "tags": [],
-   "at": "19:30",
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Itt vagyok."
-    ],
-    [
-     "surprised",
-     "Már tizennégy bejgli van az asztalon."
-    ]
-   ],
+   "at": "18:15",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "Itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "tizennégy",
-     "tizennégy",
+     "Bence",
+     "bence",
      ""
     ],
     [
-     "bejgli",
-     "bejgli",
+     "késs",
+     "késs",
      ""
     ],
     [
-     "asztalon",
-     "asztal",
-     "어슬러"
+     "megint",
+     "megint",
+     "메긴트"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "A",
-   "hu": "Tizennégy?! Én még hozok hatot.",
-   "rd": "티젠네지?! 엔 멕 호족 허토트.",
-   "ko": "열네 개?! 나 여섯 개 더 가져가는데.",
-   "note": "hatot = 여섯을",
+   "speaker": "D",
+   "hu": "Én soha nem késem!",
+   "rd": "엔 쇼허 넴 케셈!",
+   "ko": "나 절대 안 늦어!",
+   "note": "soha = 절대",
    "tags": [],
-   "at": "19:31",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Tizennégy?!"
-    ],
-    [
-     "worried",
-     "Én még hozok hatot."
-    ]
-   ],
+   "at": "18:16",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
-     "Tizennégy",
-     "tizennégy",
+     "soha",
+     "soha",
+     "쇼허"
+    ],
+    [
+     "késem",
+     "késem",
      ""
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "hozok",
-     "hoz",
-     "호즈"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "B",
-   "hu": "És ital? Ki hozott italt?",
-   "rd": "에시 이털? 키 호조트 이털트?",
-   "ko": "그럼 음료는? 누가 음료 가져왔어?",
-   "note": "ital = 음료",
-   "tags": [],
-   "at": "19:33",
-   "emotion": "worried",
+   "speaker": "A",
+   "hu": "Szerintem nyolc előtt nem lesz ott. 😂",
+   "rd": "쎄린템 뇰츠 엘뢰트 넴 레쓰 오트. 😂",
+   "ko": "내 생각엔 여덟 시 전엔 안 올걸. 😂",
+   "note": "előtt = ~전에",
+   "tags": [
+    "expr:Szerintem"
+   ],
+   "at": "18:17",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "ital",
-     "ital",
-     "이털"
+     "lesz",
+     "lesz",
+     "레쓰"
     ],
     [
-     "hozott",
-     "hoz",
-     "호즈"
+     "ott",
+     "ott",
+     "오트"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "D",
-   "hu": "Izé... mindenki azt hitte, hogy valaki hoz.",
-   "rd": "이제... 민덴키 어즈트 히떼, 호지 벌러키 호즈.",
-   "ko": "어… 다들 누가 가져오겠지 했어.",
-   "note": "azt hitte = 그렇게 생각했다",
-   "tags": [
-    "expr:Izé"
-   ],
-   "at": "19:34",
-   "emotion": "flustered",
+   "hu": "Ezt a csoportba írtad, {name}. 👀",
+   "rd": "에즈트 어 초포르트버 이르터드, {name}. 👀",
+   "ko": "이거 단톡방에 썼어, {name}. 👀",
+   "note": "csoport = 그룹, 단톡방",
+   "tags": [],
+   "at": "18:17",
+   "emotion": "stiff",
    "ui": "bubble",
    "lemmas": [
     [
-     "Izé",
-     "izé",
+     "csoportba",
+     "csoport",
+     "초포르트"
+    ],
+    [
+     "írtad",
+     "írt",
      ""
-    ],
-    [
-     "hitte",
-     "hisz",
-     "히쓰"
-    ],
-    [
-     "hoz",
-     "hoz",
-     "호즈"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "C",
-   "hu": "Csengetnek. A szomszéd néni kérdezi, kérünk-e bejglit. 😂",
-   "rd": "첸게트넥. 어 쏨쎄드 네니 케르데지, 케륀크-에 베익리트. 😂",
-   "ko": "초인종이다. 옆집 할머니가 베이글리 필요하냐고 물으셔. 😂",
-   "note": "-e = ~인지(간접의문)",
-   "tags": [],
-   "at": "19:40",
-   "stamp": "😂",
-   "emotion": "amused",
+   "speaker": "A",
+   "hu": "Jaj! Bocsi, ezt Annának akartam írni! 🙈",
+   "rd": "여이! 보치, 에즈트 언나넉 어커르텀 이르니! 🙈",
+   "ko": "아! 미안, 이거 안나한테 보내려던 거야! 🙈",
+   "note": "akartam = ~하려고 했다",
+   "tags": [
+    "expr:Jaj",
+    "expr:Bocsi"
+   ],
+   "at": "18:18",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Csengetnek",
-     "csenget",
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "akartam",
+     "akart",
      ""
     ],
     [
-     "szomszéd",
-     "szomszéd",
-     "쏨세드"
-    ],
+     "írni",
+     "ír",
+     "이르"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "D",
+   "hu": "Hétkor ott leszek. Fogadjunk? 😏",
+   "rd": "헤트코르 오트 레쎅. 포거드윤크? 😏",
+   "ko": "일곱 시에 갈 거야. 내기할래? 😏",
+   "note": "fogadjunk = 내기하자",
+   "tags": [],
+   "at": "18:19",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": [
     [
-     "néni",
-     "néni",
+     "Hétkor",
+     "hétkor",
      ""
     ],
     [
-     "kérdezi",
-     "kérdez",
-     "케르데즈"
+     "ott",
+     "ott",
+     "오트"
     ],
     [
-     "kérünk",
-     "kér",
-     "께르"
-    ],
-    [
-     "bejglit",
-     "bejgli",
-     ""
+     "leszek",
+     "lesz",
+     "레쓰"
     ]
    ]
   }

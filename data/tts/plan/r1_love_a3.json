@@ -1,54 +1,55 @@
 {
 "ep": "r1_love_a3",
 "cast": {
-"B": "anna"
+"B": "anna",
+"C": "bence"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"cheerful",
-"Kóstold meg! Én sütöttem."
+"polite",
+"Kétezer-négyszáz lesz."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"excited",
-"Hű, de finom!"
+"cheerful",
+"Várj, ma én fizetek."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shy",
-"Tényleg? Szereted?"
+"gentle",
+"Nem, nem. Én hívtalak meg."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"excited",
-"Igen! Nagyon szeretlek!"
+"polite",
+"Akkor felezzük, jó?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Tessék? Mit mondtál?"
+"amused",
+"Már ki van fizetve."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Jaj, nem! A rétest szeretem!"
+"surprised",
+"Tessék? Ki fizette?"
 ]
 ]
 },
@@ -56,7 +57,7 @@
 "segs": [
 [
 "teasing",
-"Aha. Csak a rétest?"
+"A hölgy, amikor bejött."
 ]
 ]
 },
@@ -64,8 +65,8 @@
 "segs": [
 [
 "shy",
-"Hát... a rétest is.",
-"Hát, a rétest is."
+"Hát... a következő randi a tiéd.",
+"Hát, a következő randi a tiéd."
 ]
 ]
 }

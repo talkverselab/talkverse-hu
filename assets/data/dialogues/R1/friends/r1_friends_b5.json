@@ -5,262 +5,259 @@
  "kind": "long",
  "draft": true,
  "purpose": [
-  "making_friends"
+  "making_friends",
+  "study_abroad"
  ],
  "domain": [
   "friends"
  ],
- "title": "말하는 새",
- "emoji": "🦜",
- "scene": "Réka 가 벼룩시장에서 앵무새를 사 왔다. 집에서 들은 말을 뭐든 따라 한다는데",
+ "title": "첫 겨울",
+ "emoji": "❄️",
+ "scene": "추운 날 카페에서 Réka 와 수다. 부다페스트에서 맞는 첫 겨울 이야기",
  "speakers": {
   "A": "{name}",
-  "B": "Réka",
-  "C": "Papagáj"
+  "B": "Réka"
  },
  "register": "casual",
- "twist": 6,
- "twist_type": "reveal",
+ "twist": 8,
+ "twist_type": "emotion",
  "flags": [],
- "goal": "놀람 표현과 -lak(너를 ~한다) 알아듣기",
+ "goal": "날씨·기분 말하기(Hideg van · Hiányzik)",
  "expressions": [
-  "Nézd",
-  "Komolyan?",
-  "Látod",
-  "Király"
+  "Hideg van",
+  "Hiányzik",
+  "Tudod"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Nézd, mit vettem a piacon! Ez a madár beszél!",
-   "rd": "네즈드, 미트 베뗌 어 피어촌! 에즈 어 머다르 베쎌!",
-   "ko": "봐, 시장에서 뭐 샀게! 이 새 말해!",
-   "note": "madár = 새",
+   "hu": "Brr, nagyon hideg van ma!",
+   "rd": "브르, 너죤 히덱 번 머!",
+   "ko": "으, 오늘 진짜 춥다!",
+   "note": "hideg van = 춥다",
    "tags": [
-    "expr:Nézd"
+    "expr:Hideg van"
    ],
-   "emotion": "excited",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Nézd",
-     "néz",
-     "네즈"
-    ],
-    [
-     "vettem",
-     "vett",
-     "벳트"
-    ],
-    [
-     "piacon",
-     "piac",
+     "Brr",
+     "brr",
      ""
     ],
     [
-     "madár",
-     "madár",
-     ""
+     "nagyon",
+     "nagyon",
+     "너존"
     ],
     [
-     "beszél",
-     "beszél",
-     "베쎌"
+     "hideg",
+     "hideg",
+     "히데그"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Komolyan? Szia, madár!",
-   "rd": "코모연? 씨어, 머다르!",
-   "ko": "진짜? 안녕, 새야!",
-   "note": "komolyan? = 진짜?",
-   "tags": [
-    "expr:Komolyan?"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Komolyan?"
-    ],
-    [
-     "cheerful",
-     "Szia, madár!"
-    ]
-   ],
+   "hu": "Igen. Otthon most nincs ilyen hideg.",
+   "rd": "이겐. 오트혼 모슈트 닌치 이옌 히덱.",
+   "ko": "응. 고향은 지금 이렇게 안 추워.",
+   "note": "otthon = 집에서, 고향에서",
+   "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
-     "Komolyan",
-     "komoly",
-     "코모이"
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
-     "madár",
-     "madár",
-     ""
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "hideg",
+     "hideg",
+     "히데그"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "C",
-   "hu": "Szia, madár! Szia, madár!",
-   "rd": "씨어, 머다르! 씨어, 머다르!",
-   "ko": "안녕, 새야! 안녕, 새야!",
-   "note": "szia = 안녕",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Szia",
-     "szia",
-     "씨어"
-    ],
-    [
-     "madár",
-     "madár",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
    "speaker": "B",
-   "hu": "Látod? Mindent mond, amit otthon hall.",
-   "rd": "라토드? 민덴트 몬드, 어미트 오트혼 헐.",
-   "ko": "봤지? 집에서 듣는 건 다 말해.",
-   "note": "látod = 봤지",
+   "hu": "Hiányzik az otthon?",
+   "rd": "히아니직 어즈 오트혼?",
+   "ko": "고향이 그리워?",
+   "note": "hiányzik = 그립다",
    "tags": [
-    "expr:Látod"
+    "expr:Hiányzik"
    ],
-   "emotion": "cheerful",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Látod",
-     "lát",
-     "라트"
-    ],
-    [
-     "mond",
-     "mond",
-     "몬드"
+     "Hiányzik",
+     "hiányzik",
+     "히아니직"
     ],
     [
      "otthon",
      "otthon",
      "오트혼"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Néha. Főleg a család és az étel.",
+   "rd": "네허. 푈렉 어 철라드 에시 어즈 에텔.",
+   "ko": "가끔. 특히 가족이랑 음식.",
+   "note": "főleg = 특히",
+   "tags": [],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Néha",
+     "néha",
+     "네허"
     ],
     [
-     "hall",
-     "hall",
-     "헐"
+     "család",
+     "család",
+     "처라드"
+    ],
+    [
+     "étel",
+     "étel",
+     "에텔"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "Király! Mit tud még?",
-   "rd": "키라이! 미트 투드 멕?",
-   "ko": "끝내준다! 또 뭐 할 줄 알아?",
-   "note": "király = 끝내준다(원뜻은 왕)",
+   "speaker": "B",
+   "hu": "Tudod mit? Szombaton főzz nekem valamit!",
+   "rd": "투도드 미트? 쏨버톤 푀즈 네켐 벌러미트!",
+   "ko": "있잖아? 토요일에 나한테 뭐 만들어 줘!",
+   "note": "főzz = 요리해(명령)",
    "tags": [
-    "expr:Király"
+    "expr:Tudod"
    ],
    "emotion": "excited",
    "lemmas": [
     [
-     "Király",
-     "király",
-     "키라이"
-    ],
-    [
-     "tud",
+     "Tudod",
      "tud",
      "투드"
     ],
     [
-     "még",
-     "még",
-     "메그"
+     "főzz",
+     "főz",
+     ""
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "C",
-   "hu": "Bence, szeretlek! Bence, szeretlek!",
-   "rd": "벤체, 쎄레틀렉! 벤체, 쎄레틀렉!",
-   "ko": "벤체, 사랑해! 벤체, 사랑해!",
-   "note": "szeretlek = 널 사랑해",
+   "speaker": "A",
+   "hu": "Tényleg? De nálam kicsi a konyha.",
+   "rd": "테닐렉? 데 날럼 키치 어 코니허.",
+   "ko": "진짜? 근데 우리 집 부엌 작아.",
+   "note": "nálam = 우리 집에",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Bence",
-     "bence",
-     ""
+     "Tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "szeretlek",
-     "szeret",
-     "쎄레트"
+     "kicsi",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "konyha",
+     "konyha",
+     ""
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Várj, melyik Bence? A kávézóból?",
-   "rd": "바르이, 메익 벤체? 어 카베조볼?",
-   "ko": "잠깐… 어느 벤체? 카페 그 벤체?",
-   "note": "kávézó = 카페",
+   "speaker": "B",
+   "hu": "Akkor nálam. Én csinálok desszertet.",
+   "rd": "어꼬르 날럼. 엔 치날록 데쎄르테트.",
+   "ko": "그럼 우리 집에서. 디저트는 내가 할게.",
+   "note": "desszert = 디저트",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "kávézóból",
-     "kávézó",
+     "csinálok",
+     "csinál",
+     "치날"
+    ],
+    [
+     "desszertet",
+     "desszert",
      ""
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "C",
-   "hu": "A kávézóból! Bence, szeretlek!",
-   "rd": "어 카베조볼! 벤체, 쎄레틀렉!",
-   "ko": "카페 그 벤체! 벤체, 사랑해!",
-   "note": "-ból/-ből = ~에서",
+   "speaker": "A",
+   "hu": "Réka, így már nem is olyan hideg.",
+   "rd": "레커, 이지 마르 넴 이시 오연 히덱.",
+   "ko": "레카, 이러니까 별로 안 춥네.",
+   "note": "nem is olyan = 그렇게 ~하지도 않은",
    "tags": [],
-   "emotion": "teasing",
-   "segs": [
-    [
-     "teasing",
-     "A kávézóból!"
-    ],
-    [
-     "gentle",
-     "Bence, szeretlek!"
-    ]
-   ],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "kávézóból",
-     "kávézó",
+     "Réka",
+     "réka",
      ""
     ],
     [
-     "szeretlek",
-     "szeret",
-     "쎄레트"
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "hideg",
+     "hideg",
+     "히데그"
     ]
    ]
   }

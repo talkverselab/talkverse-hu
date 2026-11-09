@@ -1,79 +1,70 @@
 {
 "ep": "r1_friends_b1",
 "cast": {
-"B": "reka",
-"C": "woman_o"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"excited",
-"Figyelj! Vettem neked egy kanapét a piacon!"
+"cheerful",
+"Köszi, hogy jöttél! Csak tíz doboz van."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Mi? De hát kicsi a szobám!"
+"cheerful",
+"Szívesen! Hoztam segítséget is."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Nem baj. Már a lépcsőn van, gyere segíteni!"
+"excited",
+"Bencét? Szuper!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Jaj, ne már! Nem megy tovább!"
+"excited",
+"És Dávidot, Annát, meg Petit."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"polite",
-"Elnézést!"
-],
-[
-"worried",
-"Én hogy megyek most le?"
+"surprised",
+"Hű, öt ember tíz dobozra?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"polite",
-"Néni, tessék, üljön le a kanapéra!"
+"cheerful",
+"Persze, gyorsan kész leszünk! Hol a lift?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Jó, köszönöm."
-],
-[
-"amused",
-"És egy kávét is kérek."
+"flustered",
+"Nincs lift. Ötödik emelet."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"tsukkomi",
-"Szóval most a néni itt lakik a lépcsőn?"
+"amused",
+"Akkor előbb rendeljünk pizzát. Hat nagyot."
 ]
 ]
 }

@@ -11,136 +11,38 @@
  "domain": [
   "love"
  ],
- "title": "언너가 너무 많아",
+ "title": "이름의 날",
  "emoji": "💐",
- "scene": "7월의 이름의 날. A 가 꽃을 잔뜩 들고 Bence 의 카페에 왔는데, 오늘 이곳엔 언너가 한 명이 아니다",
+ "scene": "7월 26일 Bence 의 카페. 사람들이 Anna 에게 자꾸 축하한다고 한다. A 는 영문을 모른다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
-  "C": "Bence",
-  "D": "Anna néni"
+  "C": "Bence"
  },
  "register": "casual",
- "twist": 5,
- "twist_type": "chaos",
+ "twist": 8,
+ "twist_type": "emotion",
  "flags": [
   "romance"
  ],
  "goal": "이름의 날 축하하기(Boldog névnapot!)",
  "expressions": [
-  "Hű",
-  "Mi van?",
-  "De hát",
-  "Szóval"
+  "Boldog névnapot",
+  "Szóval",
+  "Persze"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Hű, de sok virág! Mi van ma?",
-   "rd": "휘, 데 쇽 비락! 미 번 머?",
-   "ko": "와, 꽃 많다! 오늘 뭐 있어?",
-   "note": "virág = 꽃",
-   "tags": [
-    "expr:Hű"
-   ],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Hű",
-     "hű",
-     ""
-    ],
-    [
-     "virág",
-     "virág",
-     "비라그"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "ma",
-     "ma",
-     "머"
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "hu": "Ma van Anna névnapja, de nem látom.",
-   "rd": "머 번 언너 네브너프여, 데 넴 라톰.",
-   "ko": "오늘 언너 이름의 날인데, 안 보여.",
+   "hu": "Boldog névnapot, Anna! Ma ingyen van a kávé.",
+   "rd": "볼독 네브너포트, 언너! 머 인젠 번 어 카베.",
+   "ko": "이름의 날 축하해, 언너! 오늘 커피는 공짜야.",
    "note": "névnap = 이름의 날",
-   "tags": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Ma",
-     "ma",
-     "머"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "névnapja",
-     "névnapja",
-     ""
-    ],
-    [
-     "látom",
-     "lát",
-     "라트"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "C",
-   "hu": "Hát szólj neki hangosan! Kicsi a kávézó.",
-   "rd": "하트 쏠이 네키 헌고션! 키치 어 카베조.",
-   "ko": "그럼 크게 불러! 카페 작잖아.",
-   "note": "szólj = 불러",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "szólj",
-     "szól",
-     "쏠"
-    ],
-    [
-     "hangosan",
-     "hangos",
-     ""
-    ],
-    [
-     "kávézó",
-     "kávézik",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Boldog névnapot, Anna! Ez a tiéd!",
-   "rd": "볼독 네브너포트, 언너! 에즈 어 티에드!",
-   "ko": "이름의 날 축하해, 언너! 이거 네 거야!",
-   "note": "a tiéd = 네 것",
-   "tags": [],
-   "emotion": "excited",
+   "tags": [
+    "expr:Boldog névnapot"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Boldog",
@@ -151,60 +53,33 @@
      "névnapot",
      "névnap",
      ""
+    ],
+    [
+     "ingyen",
+     "ingyen",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kávé",
+     "kávé",
+     "카베"
     ]
    ]
   },
   {
-   "num": 5,
-   "speaker": "D",
-   "hu": "Köszönöm, drágám! Honnan tudod a nevem?",
-   "rd": "쾨쐬뇜, 드라감! 혼넌 투도드 어 네벰?",
-   "ko": "고맙구나, 얘야! 내 이름은 어떻게 알았니?",
-   "note": "honnan = 어디서",
+   "num": 2,
+   "speaker": "B",
+   "hu": "Jaj, köszi, Bence! Kedves vagy.",
+   "rd": "여이, 쾨씨, 벤체! 케드베시 버지.",
+   "ko": "아이, 고마워, 벤체! 다정하네.",
+   "note": "kedves = 다정한",
    "tags": [],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Köszönöm, drágám!"
-    ],
-    [
-     "surprised",
-     "Honnan tudod a nevem?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
-    ],
-    [
-     "drágám",
-     "drága",
-     "드라가"
-    ],
-    [
-     "tudod",
-     "tud",
-     "투드"
-    ],
-    [
-     "nevem",
-     "név",
-     "네브"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "C",
-   "hu": "Jaj, ma itt mindenki Anna. Már hárman állnak mögötted.",
-   "rd": "여이, 머 이트 민덴키 언너. 마르 하르먼 알넉 뫼괴떼드.",
-   "ko": "아이고, 오늘 여기 다 언너야. 벌써 세 명이 네 뒤에 서 있어.",
-   "note": "mögötted = 네 뒤에",
-   "tags": [],
-   "emotion": "amused",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Jaj",
@@ -212,98 +87,180 @@
      "야이"
     ],
     [
-     "ma",
-     "ma",
-     "머"
-    ],
+     "köszi",
+     "köszi",
+     "쾨씨"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Névnap? Ma van a szülinapod?",
+   "rd": "네브너프? 머 번 어 쓀리너포드?",
+   "ko": "이름의 날? 오늘 네 생일이야?",
+   "note": "szülinap = 생일(구어)",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
     [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "hárman",
-     "hárman",
+     "Névnap",
+     "névnap",
      ""
     ],
     [
-     "állnak",
-     "áll.",
-     "얼러모쉬"
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "szülinapod",
+     "szülinap",
+     "쓸리넙"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Nem, a névnapom. Ma minden Annát köszöntenek.",
+   "rd": "넴, 어 네브너폼. 머 민덴 언나트 쾨쐰테넥.",
+   "ko": "아니, 이름의 날. 오늘은 언너라는 사람을 다 축하해.",
+   "note": "köszönt = 축하하다",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "névnapom",
+     "névnapom",
+     ""
+    ],
+    [
+     "köszöntenek",
+     "köszönt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Szóval minden névnek van napja?",
+   "rd": "쏘벌 민덴 네브넥 번 너프여?",
+   "ko": "그러니까 이름마다 날이 있어?",
+   "note": "névnek = 이름에게",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "névnek",
+     "név",
+     "네브"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "napja",
+     "nap",
+     "넙"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Persze. Az enyém januárban van.",
+   "rd": "페르쎄. 어즈 에넴 여누아르번 번.",
+   "ko": "그럼. 내 건 1월이야.",
+   "note": "januárban = 1월에",
+   "tags": [
+    "expr:Persze"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "januárban",
+     "január",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Mi van? De hát nekem csak egy Annám van!",
-   "rd": "미 번? 데 하트 네켐 척 에지 언남 번!",
-   "ko": "뭐? 근데 나한테 언너는 한 명뿐인데!",
-   "note": "Annám = 나의 언너",
-   "tags": [
-    "expr:Mi van?",
-    "expr:De hát"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Mi van?"
-    ],
-    [
-     "flustered",
-     "De hát nekem csak egy Annám van!"
-    ]
-   ],
+   "hu": "És az én nevemnek?",
+   "rd": "에시 어즈 엔 네벰넥?",
+   "ko": "그럼 내 이름은?",
+   "note": "nevemnek = 내 이름에게",
+   "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
+     "nevemnek",
+     "nevem",
+     ""
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Hallottam. Szóval van egy Annád?",
-   "rd": "헐로떰. 쏘벌 번 에지 언나드?",
-   "ko": "들었어. 그러니까… 너한테 언너가 있다는 거네?",
-   "note": "Annád = 너의 언너",
-   "tags": [
-    "expr:Szóval"
-   ],
-   "emotion": "shy",
+   "hu": "Nincs a naptárban. Legyen a mai nap a tiéd is.",
+   "rd": "닌치 어 너프타르번. 레젠 어 머이 너프 어 티에드 이시.",
+   "ko": "달력엔 없어. 오늘을 네 날로도 하자.",
+   "note": "legyen = ~이 되게 하자",
+   "tags": [],
+   "emotion": "gentle",
    "segs": [
     [
-     "shy",
-     "Hallottam."
+     "gentle",
+     "Nincs a naptárban."
     ],
     [
-     "teasing",
-     "Szóval van egy Annád?"
+     "shy",
+     "Legyen a mai nap a tiéd is."
     ]
    ],
    "lemmas": [
     [
-     "Hallottam",
-     "hallott",
+     "Nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "naptárban",
+     "naptár",
      ""
     ],
     [
-     "van",
-     "van",
-     "번"
+     "mai",
+     "mai",
+     "머이"
+    ],
+    [
+     "nap",
+     "nap",
+     "넙"
     ]
    ]
   }

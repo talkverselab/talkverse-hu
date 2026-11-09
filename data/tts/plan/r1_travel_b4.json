@@ -1,72 +1,78 @@
 {
 "ep": "r1_travel_b4",
 "cast": {
-"B": "woman_o",
-"C": "man_o"
+"B": "woman_o"
 },
 "turns": {
 "1": {
 "segs": [
 [
 "polite",
-"Tessék, néni, üljön le!"
+"Elnézést, ez a villamos megy a Parlamenthez?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"annoyed",
-"Néni? Hány évesnek néz engem?"
+"gentle",
+"Igen, kedvesem. Négy megálló."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"flustered",
-"Elnézést, én csak kedves akartam lenni."
+"worried",
+"Köszönöm! Honnan tudom, hogy hol kell leszállni?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"teasing",
-"Ha ő nem akar, leülök én."
+"gentle",
+"Majd szólok."
+],
+[
+"cheerful",
+"Turista?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"annoyed",
-"Maga csak álljon ott!"
+"shy",
+"Igen, {country}ból jöttem."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shout",
-"Mi van? Ki maga, hogy ezt mondja?"
+"cheerful",
+"Ó, messziről! Szép Budapest, ugye?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Elnézést... én itt inkább leszállok.",
-"Elnézést, én itt inkább leszállok."
+"cheerful",
+"Nagyon szép, főleg a Duna."
 ]
 ]
 },
 "8": {
 "segs": [
 [
+"flustered",
+"Jaj, elment a megállója!"
+],
+[
 "amused",
-"Nem baj, ő a férjem. Mindig ilyen."
+"És az enyém is."
 ]
 ]
 }

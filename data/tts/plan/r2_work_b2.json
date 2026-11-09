@@ -9,83 +9,83 @@
 "segs": [
 [
 "cheerful",
-"Na, első nap! Ma csak egy szabály van."
+"Na, első nap! Először megmutatom a kasszát."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Jól van. Mi az?"
+"worried",
+"Oké. Mit mondok a vendégnek?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"stiff",
-"A piros gombot ne nyomd meg."
+"gentle",
+"Csak annyit: Jó napot, mit adhatok?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Miért? Mit csinál?"
+"cheerful",
+"Mit adhatok. Jó, megjegyeztem."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Nem tudom. Nekem is ezt mondták."
+"gentle",
+"Ha elvitelre kérik, papírpohár. Itt van alul."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"polite",
-"Jó napot! Egy teát kérek."
+"neutral",
+"Jól van."
+],
+[
+"flustered",
+"Jaj, jön valaki!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"neutral",
-"Bence, egy kérdés."
-],
-[
-"worried",
-"A kávégép miért nem áll le?"
+"cheerful",
+"Jó napot kívánok!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"worried",
-"Mit nyomtál meg?"
+"flustered",
+"Jó napot! Mit adhat?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"shy",
-"A pirosat. Kíváncsi voltam."
+"amused",
+"Én? Hát, egy mosolyt adhatok, kedvesem."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shout",
-"Úristen! Hozz még csészéket, gyorsan!"
+"tsukkomi",
+"Mit adhatok, nem mit adhat!"
 ]
 ]
 },
@@ -93,16 +93,19 @@
 "segs": [
 [
 "flustered",
-"Már harminc csésze tele van, és a padlón is folyik!"
+"Bocsánat!"
+],
+[
+"polite",
+"Mit adhatok?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"polite",
-"Elnézést... én teát kértem.",
-"Elnézést, én teát kértem."
+"teasing",
+"Egy hosszú kávét kérek. A mosoly ingyen volt."
 ]
 ]
 }

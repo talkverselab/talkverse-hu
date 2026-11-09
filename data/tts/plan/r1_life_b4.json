@@ -8,67 +8,71 @@
 "segs": [
 [
 "polite",
-"Jó napot! Fél nyolcra jöttem az orvoshoz."
+"Rendelő, jó napot kívánok!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Fél nyolcra? Most fél kilenc van!"
+"polite",
+"Jó napot! Időpontot szeretnék kérni."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"worried",
-"Igen, fél nyolc. Nyolc és fél, nem?"
+"polite",
+"Csütörtök tíz óra megfelel?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Nem. A fél nyolc az hét harminc."
+"cheerful",
+"Igen, megfelel."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Hét harminc?"
-],
-[
-"tsukkomi",
-"De ott van a nyolc!"
+"polite",
+"A neve? Betűzze, legyen szíves."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Hát igen, ez magyar idő."
+"flustered",
+"Hát, izé, nehéz."
 ],
 [
 "polite",
-"Jöjjön holnap háromnegyed nyolcra!"
+"E-mailben megírhatom?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Háromnegyed?!"
+"cheerful",
+"Persze. Akkor betűzöm az e-mail címünket."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Jaj, ne!"
 ],
 [
-"worried",
-"Kérem, mondja számmal!"
+"amused",
+"Inkább betűzöm a nevemet."
 ]
 ]
 }

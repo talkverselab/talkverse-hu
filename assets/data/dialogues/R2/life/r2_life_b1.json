@@ -10,35 +10,65 @@
  "domain": [
   "life"
  ],
- "title": "12번 서류",
- "emoji": "🗂️",
- "scene": "구청 창구. 주소 카드(lakcímkártya)를 받으려면 서류가, 서류를 받으려면 카드가 필요하다",
+ "title": "계좌 만들기",
+ "emoji": "🏦",
+ "scene": "은행 창구에서 계좌를 연다. 마지막에 휴대폰으로 인증 문자가 와야 하는데…",
  "speakers": {
   "A": "{name}",
   "B": "Ügyintéző"
  },
  "register": "polite",
- "twist": 10,
- "twist_type": "reveal",
+ "twist": 11,
+ "twist_type": "slip",
  "flags": [],
- "goal": "관공서에서 서류 요청하고 따지기",
+ "goal": "은행에서 쓰는 말(számla · lakcímkártya · kód)과 Ön 으로 대답하기",
  "expressions": [
-  "Jó napot",
+  "Bankszámlát szeretnék nyitni",
   "Rendben",
-  "Tessék",
-  "Hát igen",
-  "Tényleg?"
+  "Egy pillanat"
  ],
  "turns": [
   {
    "num": 1,
+   "speaker": "B",
+   "hu": "Jó napot kívánok! Miben segíthetek?",
+   "rd": "요 너포트 키바녹! 미벤 세기트헤텍?",
+   "ko": "안녕하세요! 무엇을 도와드릴까요?",
+   "note": "miben segíthetek? = 무엇을 도와드릴까요",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "kívánok",
+     "kíván",
+     "키반"
+    ],
+    [
+     "segíthetek",
+     "segít",
+     "셰기트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
    "speaker": "A",
-   "hu": "Jó napot! Lakcímkártyát szeretnék kérni.",
-   "rd": "요 너포트! 럭침카르탸트 쎄레트넥 케르니.",
-   "ko": "안녕하세요! 주소 카드를 받고 싶어요.",
-   "note": "lakcímkártya = 주소 카드",
+   "hu": "Jó napot! Bankszámlát szeretnék nyitni.",
+   "rd": "요 너포트! 번크쌈라트 쎄레트넥 니트니.",
+   "ko": "안녕하세요! 계좌를 만들고 싶어요.",
+   "note": "bankszámla = 은행 계좌",
    "tags": [
-    "expr:Jó napot"
+    "expr:Bankszámlát szeretnék nyitni"
    ],
    "emotion": "polite",
    "lemmas": [
@@ -58,19 +88,19 @@
      "쎄레트"
     ],
     [
-     "kérni",
-     "kér",
-     "께르"
+     "nyitni",
+     "nyit",
+     "니트"
     ]
    ]
   },
   {
-   "num": 2,
+   "num": 3,
    "speaker": "B",
-   "hu": "Rendben. Kérem a szerződést a lakásról.",
-   "rd": "렌드벤. 케렘 어 쎄르죄데슈트 어 러카슈롤.",
-   "ko": "네. 집 계약서 주세요.",
-   "note": "szerződés = 계약서",
+   "hu": "Rendben. Kérem az útlevelét és a lakcímkártyáját.",
+   "rd": "렌드벤. 케렘 어즈 우틀레벨레트 에시 어 럭침카르탸야트.",
+   "ko": "네. 여권하고 주소 카드 주세요.",
+   "note": "lakcímkártya = 주소 카드",
    "tags": [
     "expr:Rendben"
    ],
@@ -82,28 +112,26 @@
      "렌드"
     ],
     [
-     "szerződést",
-     "szerződés",
-     "세르죄데시"
+     "útlevelét",
+     "útlevelét",
+     ""
     ],
     [
-     "lakásról",
-     "lakás",
-     "러카시"
+     "lakcímkártyáját",
+     "lakcímkártyáját",
+     ""
     ]
    ]
   },
   {
-   "num": 3,
+   "num": 4,
    "speaker": "A",
-   "hu": "Tessék. Az útlevelem is itt van.",
-   "rd": "테쎅. 어즈 우틀레벨렘 이시 이트 번.",
-   "ko": "여기요. 제 여권도 여기 있어요.",
-   "note": "útlevél = 여권",
-   "tags": [
-    "expr:Tessék"
-   ],
-   "emotion": "polite",
+   "hu": "Tessék, itt vannak.",
+   "rd": "테쎅, 이트 번넉.",
+   "ko": "여기 있어요.",
+   "note": "tessék = 여기 있어요",
+   "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Tessék",
@@ -111,159 +139,53 @@
      "테셰크"
     ],
     [
-     "útlevelem",
-     "útlevelem",
-     ""
-    ],
-    [
      "itt",
      "itt",
      "이트"
     ],
     [
-     "van",
+     "vannak",
      "van",
      "번"
     ]
    ]
   },
   {
-   "num": 4,
+   "num": 5,
    "speaker": "B",
-   "hu": "Szép. De hiányzik a tizenkettes papír.",
-   "rd": "쎄프. 데 히아니직 어 티젠케떼시 퍼피르.",
-   "ko": "좋아요. 그런데 12번 서류가 없네요.",
-   "note": "hiányzik = 빠져 있다",
+   "hu": "Köszönöm. Van magyar telefonszáma?",
+   "rd": "쾨쐬뇜. 번 머져르 텔레폰싸머?",
+   "ko": "고맙습니다. 헝가리 전화번호 있으세요?",
+   "note": "telefonszám = 전화번호",
    "tags": [],
-   "emotion": "stiff",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Szép",
-     "szép",
-     "쎕"
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
     ],
     [
-     "hiányzik",
-     "hiányzik",
-     "히아니직"
-    ],
-    [
-     "tizenkettes",
-     "tizenkettes",
+     "magyar",
+     "magyar",
      ""
     ],
     [
-     "papír",
-     "papír",
-     "퍼피르"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Hol kapok ilyet?",
-   "rd": "홀 커폭 이예트?",
-   "ko": "그런 건 어디서 받아요?",
-   "note": "ilyet = 이런 것을",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Hol",
-     "hol",
-     "홀"
-    ],
-    [
-     "kapok",
-     "kap",
-     "커프"
+     "telefonszáma",
+     "telefonszám",
+     ""
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "B",
-   "hu": "A harmadik emeleten, a nyolcas ablaknál.",
-   "rd": "어 허르머딕 에멜레텐, 어 뇰처시 어블럭날.",
-   "ko": "3층 8번 창구에서요.",
-   "note": "emelet = 층",
-   "tags": [],
-   "emotion": "stiff",
-   "lemmas": [
-    [
-     "emeleten",
-     "emelet",
-     ""
-    ],
-    [
-     "nyolcas",
-     "nyolcas",
-     ""
-    ],
-    [
-     "ablaknál",
-     "ablak",
-     "어블러크"
-    ]
-   ]
-  },
-  {
-   "num": 7,
    "speaker": "A",
-   "hu": "Most jövök onnan! Azt mondták, oda lakcímkártya kell.",
-   "rd": "모슈트 요뵉 온넌! 어즈트 몬드탁, 오더 럭침카르텨 켈.",
-   "ko": "방금 거기서 왔어요! 거기엔 주소 카드가 필요하대요.",
-   "note": "onnan = 거기서부터",
+   "hu": "Igen, itt van, felírtam.",
+   "rd": "이겐, 이트 번, 펠리르텀.",
+   "ko": "네, 여기 적어 왔어요.",
+   "note": "felírtam = 적어 두었다",
    "tags": [],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "Most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "jövök",
-     "jön",
-     "왼"
-    ],
-    [
-     "onnan",
-     "onnan",
-     "온넌"
-    ],
-    [
-     "mondták",
-     "mond",
-     "몬드"
-    ],
-    [
-     "oda",
-     "oda",
-     "오더"
-    ],
-    [
-     "lakcímkártya",
-     "lakcím",
-     ""
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Igen, a tizenkettes papírhoz kell lakcímkártya. Ez így van.",
-   "rd": "이겐, 어 티젠케떼시 퍼피르호즈 켈 럭침카르텨. 에즈 이지 번.",
-   "ko": "네, 12번 서류에는 주소 카드가 필요해요. 원래 그래요.",
-   "note": "-hoz = ~에(필요한 대상)",
-   "tags": [],
-   "emotion": "stiff",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Igen",
@@ -271,216 +193,210 @@
      "이겐"
     ],
     [
-     "tizenkettes",
-     "tizenkettes",
-     ""
-    ],
-    [
-     "papírhoz",
-     "papír",
-     "퍼피르"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "lakcímkártya",
-     "lakcím",
-     ""
-    ],
-    [
-     "így",
-     "így",
-     "이지"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "De a kártyához kell a papír! Ez egy kör!",
-   "rd": "데 어 카르탸호즈 켈 어 퍼피르! 에즈 에지 쾨르!",
-   "ko": "그런데 카드에 서류가 필요하잖아요! 이건 뺑뺑이예요!",
-   "note": "kör = 원",
-   "tags": [],
-   "emotion": "annoyed",
-   "segs": [
-    [
-     "annoyed",
-     "De a kártyához kell a papír!"
-    ],
-    [
-     "tsukkomi",
-     "Ez egy kör!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "kártyához",
-     "kár",
-     "카르"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "papír",
-     "papír",
-     "퍼피르"
-    ],
-    [
-     "kör",
-     "kör",
-     "쾨르"
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Hát igen. Nekem sincs kártyám, pedig húsz éve itt dolgozom.",
-   "rd": "하트 이겐. 네켐 신치 카르턈, 페딕 후쓰 에베 이트 돌고좀.",
-   "ko": "그러게요. 저도 카드가 없어요, 여기서 20년 일했는데요.",
-   "note": "nekem sincs = 나도 없다",
-   "tags": [
-    "expr:Hát igen"
-   ],
-   "emotion": "stiff",
-   "segs": [
-    [
-     "stiff",
-     "Hát igen."
-    ],
-    [
-     "sad",
-     "Nekem sincs kártyám, pedig húsz éve itt dolgozom."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "sincs",
-     "sincs",
-     "신치"
-    ],
-    [
-     "kártyám",
-     "kártyám",
-     ""
-    ],
-    [
-     "húsz",
-     "húsz",
-     ""
-    ],
-    [
-     "éve",
-     "év",
-     "에브"
-    ],
-    [
      "itt",
      "itt",
      "이트"
     ],
     [
-     "dolgozom",
-     "dolgoz",
-     "돌고즈"
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "felírtam",
+     "felírt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Rendben. Most küldök egy kódot SMS-ben.",
+   "rd": "렌드벤. 모슈트 퀼됙 에지 코도트 슘시-벤.",
+   "ko": "네. 지금 문자로 코드 보내 드릴게요.",
+   "note": "kód = 코드",
+   "tags": [
+    "expr:Rendben"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "küldök",
+     "küld",
+     "퀼드"
+    ],
+    [
+     "kódot",
+     "kód",
+     "코드"
+    ],
+    [
+     "ben",
+     "ben",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Még nem jött meg semmi.",
+   "rd": "멕 넴 요트 멕 셈미.",
+   "ko": "아직 아무것도 안 왔어요.",
+   "note": "megjött = 도착했다",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Még",
+     "még",
+     "메그"
+    ],
+    [
+     "jött",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Egy pillanat, újra küldöm. Most?",
+   "rd": "에지 필러너트, 우이러 퀼됨. 모슈트?",
+   "ko": "잠깐만요, 다시 보낼게요. 지금은요?",
+   "note": "újra = 다시",
+   "tags": [
+    "expr:Egy pillanat"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "pillanat",
+     "pillanat",
+     "필러넛"
+    ],
+    [
+     "újra",
+     "újra",
+     "우이러"
+    ],
+    [
+     "küldöm",
+     "küld",
+     "퀼드"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Semmi. Pedig a telefonom jó.",
+   "rd": "셈미. 페딕 어 텔레포놈 요.",
+   "ko": "아무것도요. 폰은 멀쩡한데요.",
+   "note": "pedig = 그런데도",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "telefonom",
+     "telefon",
+     "텔레폰"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "Tényleg? Akkor hol lakik Ön hivatalosan?",
-   "rd": "테닐렉? 어꼬르 홀 러킥 왼 히버털로션?",
-   "ko": "정말요? 그럼 공식적으로는 어디 사세요?",
-   "note": "hivatalosan = 공식적으로",
-   "tags": [
-    "expr:Tényleg?"
-   ],
-   "emotion": "surprised",
+   "speaker": "B",
+   "hu": "A telefonja repülő üzemmódban van. Innen is látom.",
+   "rd": "어 텔레폰여 레퓔뢰 위젬모드번 번. 인넨 이시 라톰.",
+   "ko": "휴대폰이 비행기 모드예요. 여기서도 보여요.",
+   "note": "repülő üzemmód = 비행기 모드",
+   "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
+     "telefonja",
+     "telefon",
+     "텔레폰"
     ],
     [
-     "hol",
-     "hol",
-     "홀"
+     "repülő",
+     "repül",
+     "레푸르"
     ],
     [
-     "lakik",
-     "lakik",
-     "러키크"
+     "üzemmódban",
+     "üzemmód",
+     ""
     ],
     [
-     "hivatalosan",
-     "hivatalos",
-     "히버털로슈"
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "látom",
+     "lát",
+     "라트"
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "B",
-   "hu": "Hivatalosan sehol. Ne mondja el senkinek!",
-   "rd": "히버털로션 세홀. 네 몬드여 엘 센키넥!",
-   "ko": "공식적으로는 아무 데도요. 아무한테도 말하지 마세요!",
-   "note": "sehol = 아무 데도",
+   "speaker": "A",
+   "hu": "Jaj, reggel óta! Ezért volt ilyen csendes a napom.",
+   "rd": "여이, 렉겔 오터! 에제르트 볼트 이옌 첸데시 어 너폼.",
+   "ko": "아, 아침부터요! 어쩐지 하루가 조용하더라.",
+   "note": "ezért = 그래서",
    "tags": [],
-   "emotion": "sad",
+   "emotion": "flustered",
    "segs": [
     [
-     "sad",
-     "Hivatalosan sehol."
+     "flustered",
+     "Jaj, reggel óta!"
     ],
     [
-     "worried",
-     "Ne mondja el senkinek!"
+     "amused",
+     "Ezért volt ilyen csendes a napom."
     ]
    ],
    "lemmas": [
     [
-     "Hivatalosan",
-     "hivatalos",
-     "히버털로슈"
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "sehol",
-     "sehol",
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "csendes",
+     "csendes",
      ""
     ],
     [
-     "mondja",
-     "mond",
-     "몬드"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
+     "napom",
+     "napom",
+     ""
     ]
    ]
   }

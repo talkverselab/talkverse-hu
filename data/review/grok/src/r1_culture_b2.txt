@@ -1,19 +1,19 @@
 === r1_culture_b2
 kind: long
-title: 혼자 친 박수
+title: 셋째 줄 표
 emoji: 🎻
-scene: 클래식 콘서트. 음악이 멈춘 줄 알고 A 가 손을 든다
+scene: Anna 가 클래식 콘서트에 가자고 한다. 표는 온라인으로 사기로 한다
 b: Anna
 register: casual
-twist: 8 chaos
+twist: 7 chaos
 purpose: media
-goal: 말리는 표현(ne + 명령형)과 szerintem
-expressions: Szerintem; Várj; Úristen
-A | Ez nagyon szép. Vége van? | 이거 너무 좋다. 끝났어? | vége van = 끝났다 | emotion=gentle+neutral
-B | Nem tudom. Szerintem még nincs vége. | 몰라. 내 생각엔 아직 안 끝났어. | szerintem = 내 생각엔 | emotion=worried
-A | Csend van. Akkor most tapsolok! | 조용하네. 그럼 이제 박수 친다! | taps = 박수, tapsolok = 박수 친다 | emotion=neutral+excited
-B | Ne! Várj, {name}, ne tapsolj! | 안 돼! 잠깐, {name}, 박수 치지 마! | ne tapsolj = 박수 치지 마 | emotion=shout
-A | Jaj. Mindenki engem néz. | 아이고. 다들 나만 봐. | engem = 나를 | emotion=flustered
-B | Várj... most mindenki tapsol! | 잠깐… 이제 다 박수 쳐! | mindenki = 모두(동사는 단수) | emotion=surprised
-A | A karmester is meghajol. Mi van? | 지휘자도 인사하네. 뭐야? | karmester = 지휘자 | emotion=neutral+surprised
-B | Úristen, hazamegy! Ennyi volt a koncert. | 세상에, 집에 간다! 콘서트 이걸로 끝이야. | ennyi volt = 이게 다였다 | emotion=surprised+amused
+goal: 공연 표 사기(Megveszem a jegyeket · Melyik sor?)
+expressions: Szívesen; Szuper; Hát
+B | Szombaton koncert lesz a koncertteremben. Eljössz? | 토요일에 콘서트홀에서 콘서트 있어. 올래? | Eljössz? = 올래? | emotion=cheerful
+A | Szívesen! Milyen zene? | 좋지! 무슨 음악이야? | szívesen = 기꺼이 | emotion=cheerful
+B | Klasszikus. Hegedű és zongora. | 클래식. 바이올린이랑 피아노. | hegedű = 바이올린 | emotion=gentle
+A | Szuper. Megveszem a jegyeket online. | 좋다. 내가 온라인으로 표 살게. | megveszem = (그것을) 산다 | emotion=excited
+B | Siess, gyorsan elfogynak! | 서둘러, 금방 매진돼! | elfogy = 다 떨어지다 | emotion=worried
+A | Kész! Két jegy, harmadik sor, szombat. | 됐다! 두 장, 셋째 줄, 토요일. | sor = 줄 | emotion=excited
+B | Ügyes! De várj, ez a jövő hónap! | 잘했어! 근데 잠깐, 이거 다음 달이잖아! | jövő hónap = 다음 달 | emotion=cheerful+surprised
+A | Jaj! Hát, legalább van időnk készülni. | 아! 음, 적어도 준비할 시간은 있네. | legalább = 적어도 | emotion=flustered+amused

@@ -1,43 +1,38 @@
 {
 "ep": "r1_friends_b5",
 "cast": {
-"B": "reka",
-"C": "man_m"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"excited",
-"Nézd, mit vettem a piacon! Ez a madár beszél!"
+"surprised",
+"Brr, nagyon hideg van ma!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Komolyan?"
-],
-[
-"cheerful",
-"Szia, madár!"
+"sad",
+"Igen. Otthon most nincs ilyen hideg."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Szia, madár! Szia, madár!"
+"gentle",
+"Hiányzik az otthon?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Látod? Mindent mond, amit otthon hall."
+"sad",
+"Néha. Főleg a család és az étel."
 ]
 ]
 },
@@ -45,35 +40,31 @@
 "segs": [
 [
 "excited",
-"Király! Mit tud még?"
+"Tudod mit? Szombaton főzz nekem valamit!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"gentle",
-"Bence, szeretlek! Bence, szeretlek!"
+"surprised",
+"Tényleg? De nálam kicsi a konyha."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Várj, melyik Bence? A kávézóból?"
+"cheerful",
+"Akkor nálam. Én csinálok desszertet."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"A kávézóból!"
-],
-[
 "gentle",
-"Bence, szeretlek!"
+"Réka, így már nem is olyan hideg."
 ]
 ]
 }

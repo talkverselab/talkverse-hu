@@ -1,28 +1,28 @@
 === r3_travel_b1
 kind: long
-title: 오늘의 검표원
-emoji: 🧥
-scene: 한겨울 온천 탈의실. 옷이 사라지고 사물함에 낯선 제복만 남았다
+title: 쪽지는 어디에
+emoji: 🧳
+scene: 동역. 기차까지 네 시간이 남아 Dávid 와 짐을 자동 보관함에 맡기고 시내에 다녀온다
 b: Dávid
-c: Néni
-d: Ellenőr
+c: Őr
 register: mixed
-twist: 9 chaos
+twist: 15 chaos
 purpose: travel making_friends
-goal: 없어진 물건 설명하기와 검표 상황 표현
-expressions: Hogyhogy; Viccelsz; Gyere; Izé; Nézd; Hát
-A | Dávid, baj van. Az öltözőben valaki elvitte a ruhámat. | 다비드, 큰일이야. 탈의실에서 누가 내 옷을 가져갔어. | öltöző = 탈의실 | emotion=worried
-B | Hogyhogy elvitte? Mi maradt a szekrényben? | 어떻게 가져가? 사물함에 뭐가 남았어? | szekrény = 사물함, 장 | emotion=surprised
-A | Csak ez a sötétkék kabát, egy sapka meg egy kis gép. | 이 남색 재킷이랑 모자, 작은 기계뿐이야. | gép = 기계 | emotion=neutral
-B | Várj, ez egy ellenőr egyenruhája! Legalább meleg. | 잠깐, 이거 검표원 제복이잖아! 적어도 따뜻하네. | egyenruha = 제복 | emotion=surprised+amused
-A | Viccelsz? Ebben menjek haza a villamossal? | 농담해? 이거 입고 트램 타고 집에 가라고? | ebben = 이것을 입고 | emotion=tsukkomi
-B | Nincs más, kint mínusz tíz fok van. Gyere! | 다른 수 없어, 밖은 영하 10도야. 와! | fok = 도 | emotion=neutral
-C | Jó napot! Tessék, itt a bérletem, érvényes! | 안녕하세요! 여기 제 정기권요, 유효해요! | érvényes = 유효한 | emotion=polite
-A | Izé... köszönöm, jó. | 저… 고맙습니다, 됐습니다. | izé = 저, 그 | emotion=flustered
-B | Nézd! Mindenki előveszi a jegyét, és neked adja. | 봐! 다들 표를 꺼내서 너한테 줘. | előveszi = 꺼낸다 | emotion=excited
-C | Az a bácsi ott nem mutatta meg a jegyét! Büntesse meg! | 저 할아버지 표 안 보여 줬어요! 벌금 물리세요! | büntesse meg = 벌을 주세요 | emotion=annoyed
-A | Hát... elnézést, van jegye? | 저기… 실례합니다, 표 있으세요? | van jegye? = 표 있으세요? | emotion=stiff
-B | Várj, ott jön valaki. Az a te pulcsid! | 잠깐, 저기 누가 와. 저거 네 후드티야! | pulcsi = 스웨터, 후드티 | emotion=surprised
-D | Jó napot! Jegyeket, bérleteket kérek! | 안녕하세요! 표, 정기권 보여 주세요! | 검표원의 정해진 말 | emotion=polite
-A | Jó napot, kolléga! Az a pulcsi az enyém. | 안녕하세요, 동료분! 그 후드티 제 겁니다. | kolléga = 동료 | emotion=polite+stiff
-D | És az a kabát az enyém. De tartsa meg estig, én visszamegyek a fürdőbe. | 그 재킷은 제 거고요. 그래도 저녁까지 입고 계세요, 저는 온천으로 돌아갑니다. | tartsa meg = 갖고 계세요 | emotion=neutral+amused
+goal: 짐 보관하기와 잃어버린 것 설명하기(csomagmegőrző · Nincs meg)
+expressions: Komolyan; Nézd meg; Hát persze
+B | Még négy óra a vonatig. Hagyjuk itt a táskákat, és menjünk be a városba! | 기차까지 아직 네 시간이야. 가방 여기 맡기고 시내 가자! | hagyjuk = 우리 그것을 두자 | emotion=excited
+A | Jó ötlet. Van itt csomagmegőrző? | 좋은 생각. 여기 짐 보관소 있어? | csomagmegőrző = 짐 보관소 | emotion=cheerful
+B | Ott vannak az automaták, a hármas vágány mellett. | 저기 자동 보관함 있어, 3번 선로 옆에. | mellett = ~ 옆에 | emotion=neutral
+A | Kicsi, közepes, nagy... A bőröndöm melyikbe fér be? | 소, 중, 대… 내 캐리어는 어디에 들어가지? | befér = (크기가 맞아) 들어가다 | emotion=worried
+B | A nagyba. Kártyával fizetsz, és kapsz egy cetlit egy kóddal. | 대형에. 카드로 내면 코드 적힌 쪽지를 줘. | cetli = 쪽지 | emotion=gentle
+A | Megvan: négyezer forint, hat órára. Itt a cetli. | 됐다: 4천 포린트, 6시간. 쪽지 여기. | hat órára = 6시간 동안 | emotion=cheerful
+B | Tedd el jól! Kód nélkül nem nyílik ki. | 잘 챙겨! 코드 없으면 안 열려. | kód nélkül = 코드 없이 | emotion=gentle
+A | Na, hol is a cetli? Nincs meg! | 자, 쪽지가 어디 있더라? 없어! | nincs meg = 안 보인다 | emotion=flustered
+B | Komolyan? Nézd meg a kabátodban! | 진짜? 외투 안에 봐 봐! | nézd meg = 확인해 봐 | emotion=surprised
+A | Nincs. Se a zsebemben, se a pénztárcámban. | 없어. 주머니에도 지갑에도. | se ... se = ~도 ~도 아닌 | emotion=worried
+B | Kérdezzük meg az őrt! Elnézést, segítene? | 경비원한테 물어보자! 실례합니다, 좀 도와주시겠어요? | őr = 경비원 | emotion=worried+polite
+C | Persze, elveszett a kód? Melyik szekrény? | 그럼요, 코드를 잃어버렸어요? 몇 번 보관함이죠? | szekrény = 보관함 | emotion=polite
+A | A nagy, a sarokban. Kártyával fizettem. | 큰 거요, 구석에 있는. 카드로 냈어요. | sarok = 구석 | emotion=stiff+polite
+C | Rendben, a fizetés alapján megtaláljuk. Kinyitom. | 알겠어요, 결제 내역으로 찾을 수 있어요. 열어 드릴게요. | alapján = ~을 근거로 | emotion=polite
+A | Kinyílt! És a cetli itt van, a bőröndön. | 열렸다! 근데 쪽지가 여기 있네, 캐리어 위에. | kinyílik = 열리다 | emotion=surprised+amused
+B | Hát persze. Bezártad vele együtt. | 하긴. 그거랑 같이 넣고 잠갔구나. | bezár = 잠그다 | emotion=tsukkomi

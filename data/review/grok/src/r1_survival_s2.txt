@@ -1,19 +1,19 @@
 === r1_survival_s2
 kind: survival
-title: 그 이가 아니라고요
-emoji: 🦷
-scene: 이가 아파 치과에 왔다. 입을 벌린 채로는 「거기 말고요」를 말할 수가 없다
+title: 머리가 아파요
+emoji: 🩺
+scene: 동네 병원 진료실. 어디가 아픈지 말하는데 단어 하나를 헷갈렸다
 b: Orvos
 register: polite
-twist: 7 chaos
+twist: 5 slip
 purpose: travel
-goal: 아픈 곳 말하기(fáj a …)와 fog 두 가지 뜻 구별
-expressions: Mi a baj?; fáj a fogam; Nyissa ki; Tessék
-B | Jó napot! Mi a baj? | 안녕하세요! 어디가 불편하세요? | Mi a baj? = 무슨 일이에요? | emotion=polite
-A | Jó napot! Nagyon fáj a fogam. | 안녕하세요! 이가 많이 아파요. | fáj a fogam = 이가 아파요 | emotion=polite+worried
-B | Melyik fog? Nyissa ki a száját! | 어느 이요? 입 벌리세요! | nyissa ki = 여세요(존댓말 명령) | emotion=polite
-A | Aaa... ott, hátul! | 아아… 저기, 뒤쪽이요! | hátul = 뒤쪽에 | emotion=worried
-B | Aha, ez az. Nem fog fájni. | 아, 이거네요. 안 아플 거예요. | fog + 동사 = ~할 것이다(fog 는 「이」라는 뜻도) | emotion=gentle
-A | Jaj! Mit csinál? | 아악! 뭐 하세요? | Mit csinál? = 뭐 하세요?(존댓말) | emotion=shout
-B | Kész! Tessék, itt a foga. | 다 됐어요! 여기요, 뽑은 이. | foga = 당신의 이(존댓말 소유) | emotion=cheerful
-A | De hát ez a jó fogam volt! | 아니 이건 멀쩡한 이였잖아요! | de hát = 아니 근데 | emotion=shout
+goal: 아픈 곳 말하기(Fáj a …)와 fej(머리)·fog(이) 구별
+expressions: Mi a panasza; Fáj a fejem; Tessék
+B | Jó napot, tessék, üljön le! Mi a panasza? | 안녕하세요! 앉으세요. 어디가 불편하세요? | panasz = 증상, 불편 | emotion=polite
+A | Jó napot! Két napja nagyon fáj a fogam. | 안녕하세요! 이틀째 이가 너무 아파요. | fogam = 내 이(fejem = 내 머리) | emotion=worried
+B | A foga? Akkor nyissa ki a száját! | 이요? 그럼 입 벌려 보세요! | nyissa ki = 여세요(존댓말 명령) | emotion=surprised
+A | Nem a szám. Itt fáj, a homlokom! | 입 말고요. 여기가 아파요, 이마요! | homlok = 이마 | emotion=flustered
+B | De hát az a feje, nem a foga! | 아니 그건 머리잖아요, 이가 아니라! | feje = (당신의) 머리 | emotion=amused
+A | Jaj, bocsánat! Fáj a fejem, nem a fogam. | 아, 죄송해요! 머리가 아파요, 이가 아니라요. | fáj a fejem = 머리가 아파요 | emotion=flustered
+B | Semmi baj, gyakori hiba. Lázas is? | 괜찮아요, 흔한 실수예요. 열도 있어요? | lázas = 열이 있는 | emotion=gentle
+A | Nem, csak nagyon fáradt vagyok. | 아니요, 그냥 많이 피곤해요. | fáradt = 피곤한 | emotion=sad

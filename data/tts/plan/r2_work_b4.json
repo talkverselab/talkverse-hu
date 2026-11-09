@@ -8,107 +8,99 @@
 "segs": [
 [
 "polite",
-"Főnök úr, van egy perce?"
+"Elnézést, van egy perce?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Persze. Mi a baj?"
+"gentle",
+"Persze, jöjjön be. Mi a helyzet?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shy",
-"Szeretnék több pénzt. Tíz százalékkal többet."
+"stiff",
+"Szabadságot szeretnék kérni. Csak egy napot."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Tízet?"
-],
-[
-"cheerful",
-"Nem, adok harmincat."
+"polite",
+"Melyik napot?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Komolyan?"
+"stiff",
+"Jövő pénteket."
 ],
 [
-"excited",
-"Köszönöm, főnök úr!"
+"cheerful",
+"A barátaim jönnek Budapestre."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"teasing",
-"De akkor szombaton is te nyitsz."
+"neutral",
+"Jövő péntek. Egy pillanat, megnézem a naptárt."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Jól van. Rendben."
+"worried",
+"Tudom, hogy sok a munka. Szombaton bejövök helyette."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"És vasárnap is. És te rendeled a poharakat."
+"amused",
+"Ugyan. Jövő péntek augusztus huszadika."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"worried",
-"Hát, oké. Még valami?"
+"surprised",
+"És? Akkor mi van?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"Igen, itt a kulcs. Holnaptól te vagy a főnök."
+"amused",
+"Nemzeti ünnep. Mindenki szabadnapos, mi is zárva leszünk."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"shout",
-"Tessék?!"
-],
-[
 "flustered",
-"És Ön hova megy?"
+"Tényleg? Akkor visszavonom a kérést."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"excited",
-"A Balatonra. Harminc éve várok erre!"
+"gentle",
+"Ne vonja vissza. Kérjen inkább egy hétfőt."
 ]
 ]
 }

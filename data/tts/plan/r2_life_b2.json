@@ -8,53 +8,48 @@
 "1": {
 "segs": [
 [
-"neutral",
-"Figyelj, ma este jönnek a szüleim. Tudsz koccintani?"
+"shout",
+"Fel tudod venni? Zuhanyozom!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Persze! Mit kell mondani?"
+"polite",
+"Halló, Dávid telefonja."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Azt, hogy „egészségedre”. Lassan mondd!"
+"stiff",
+"Jó napot, itt Dávid apja. Ki beszél?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Egész... seggedre?",
-"Egész, seggedre?"
+"polite",
+"A lakótársa, {name}. Dávid most zuhanyozik."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"shout",
-"Nem, az mást jelent!"
-],
-[
-"worried",
-"Ne mondd apámnak!"
+"neutral",
+"Értem. Mondja meg neki, hogy hétvégén jövünk."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Jól van, értem. Egészségedre, egészségedre!"
+"polite",
+"Rendben, megmondom. Ön és Dávid anyukája?"
 ]
 ]
 },
@@ -62,23 +57,27 @@
 "segs": [
 [
 "cheerful",
-"Szia, {name}! Tegeződjünk, és igyunk egyet!"
+"Igen, és a nagymama is. Három napra."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"excited",
-"Köszönöm! Egész seggedre!"
+"polite",
+"Egy pillanat, szólok neki."
+],
+[
+"shout",
+"Dávid, apukád!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"Tessék?"
+"flustered",
+"Mondd, hogy nem vagyok itthon!"
 ]
 ]
 },
@@ -86,23 +85,16 @@
 "segs": [
 [
 "flustered",
-"Úristen. Apa, még tanulja a nyelvet."
+"Hát... azt mondja, nincs itthon.",
+"Hát, azt mondja, nincs itthon."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"excited",
-"Hát ez remek! Mostantól így mondjuk a családban."
-]
-]
-},
-"12": {
-"segs": [
-[
-"tsukkomi",
-"Ne már! Karácsonykor nagymama is ezt fogja mondani."
+"amused",
+"Hallottam. Szombaton tízkor ott vagyunk."
 ]
 ]
 }

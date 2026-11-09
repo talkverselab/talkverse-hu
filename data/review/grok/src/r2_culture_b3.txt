@@ -1,23 +1,24 @@
 === r2_culture_b3
 kind: long
-title: 「ő」는 누구야
-emoji: 🕵️
-scene: Anna 가 어떤 사람 얘기를 꺼낸다. 헝가리어 ő 는 그도 그녀도 된다
+title: 두 시간 반짜리
+emoji: 🎞️
+scene: Anna 와 영화관 매표소 앞. 무슨 영화를 볼지, 어디 앉을지 정한다
 b: Anna
 register: casual
-twist: 11 emotion
-flags: romance jealousy
+twist: 12 emotion
+flags: romance
 purpose: media love
-goal: 3인칭 ő 와 과거형으로 이야기하기
-expressions: Figyelj; De jó; Aha; Hát
-B | Figyelj, találkoztam valakivel. Nagyon aranyos. | 있잖아, 어떤 사람을 만났어. 엄청 귀여워. | aranyos = 귀여운 | emotion=shy
-A | De jó... Fiú vagy lány? | 좋겠네… 남자야, 여자야? | de jó = 좋다 | emotion=stiff
-B | Magyarul csak annyit mondok: ő. | 헝가리어로는 그냥 「ő」라고만 해. | ő = 그, 그녀(성 구별 없음) | emotion=amused
-A | Nagyszerű. És mit csinál ez az ő? | 잘됐네. 그 「ő」는 뭐 하는 사람인데? | nagyszerű = 훌륭한 | emotion=annoyed
-B | Nyelvet tanul. Mindig rossz ragot használ, de szépen nevet. | 언어를 배워. 어미를 맨날 틀리는데, 웃는 게 예뻐. | rag = 어미, 접미사 | emotion=gentle
-A | Aha. És hol találkoztatok? | 아하. 어디서 만났어? | találkoztatok = 너희가 만났다 | emotion=stiff
-B | A múzeum előtt. Azt mondta, hogy a rajzom krumpli. | 미술관 앞에서. 내 그림이 감자래. | előtt = ~앞에서 | emotion=teasing
-A | Szemtelen ember. És mit akarsz tőle? | 건방진 사람이네. 그래서 뭘 바라는데? | szemtelen = 건방진 | emotion=annoyed
-B | Hát... azt akarom, hogy végre rájöjjön. | 음… 이제 좀 눈치챘으면 좋겠어. | rájön = 알아차리다 | emotion=shy
-A | Mire? Várj, hány ember mondta ezt neked? | 뭘? 잠깐, 너한테 그 말 한 사람이 몇 명이야? | hány ember = 몇 사람 | emotion=surprised
-B | Egy. És most éppen mellettem ül. | 한 명. 지금 내 옆에 앉아 있어. | éppen = 바로 지금 | emotion=gentle
+goal: 영화관에서 영화·자리 고르기(Hova üljünk? · Te mit szeretnél?)
+expressions: Na; Mindegy; Várj
+A | Na, melyik filmet nézzük? | 자, 어느 영화 볼까? | melyik = 어느 | emotion=cheerful
+B | Van egy magyar vígjáték és egy sci-fi. | 헝가리 코미디 하나랑 SF 하나 있어. | vígjáték = 코미디 | emotion=gentle
+A | Te mit szeretnél? | 너는 뭐 보고 싶어? | szeretnél = 하고 싶니 | emotion=gentle
+B | Mindegy, te válassz. | 아무거나, 네가 골라. | válassz = 골라 | emotion=shy
+A | Akkor a sci-fi. Két és fél óra. | 그럼 SF. 두 시간 반이야. | két és fél = 두 개 반 | emotion=excited
+B | Két és fél óra? Hű. Jó, legyen. | 두 시간 반? 와. 좋아, 그걸로 하자. | legyen = 그걸로 하자 | emotion=surprised+cheerful
+A | Hova üljünk? Előre vagy hátra? | 어디 앉을까? 앞, 아니면 뒤? | Hova üljünk? = 어디 앉을까? | emotion=cheerful
+B | Középre. Ott a legjobb a hang. | 가운데. 거기가 소리가 제일 좋아. | középre = 가운데로 | emotion=gentle
+A | Pattogatott kukoricát is kérsz? | 팝콘도 먹을래? | pattogatott kukorica = 팝콘 | emotion=cheerful
+B | Igen, egy nagyot. Közösen esszük. | 응, 큰 거. 같이 먹자. | közösen = 같이 | emotion=cheerful
+A | Várj, te egyáltalán szereted a sci-fit? | 잠깐, 너 SF 좋아하긴 해? | egyáltalán = 도대체, 애초에 | emotion=surprised
+B | Nem igazán. Csak veled akartam jönni. | 별로. 그냥 너랑 오고 싶었어. | veled = 너와 함께 | emotion=shy

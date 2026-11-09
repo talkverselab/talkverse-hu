@@ -1,19 +1,19 @@
 === r1_life_b2
 kind: long
-title: 이름의 날이 없는 사람
-emoji: 💐
-scene: 집 안이 꽃투성이다. Dávid 의 이름의 날(névnap)인데, 내 이름은 달력에 없다
+title: 전기 요금 반반
+emoji: 💡
+scene: 전기 요금 고지서가 왔다. Dávid 와 반씩 나누려다 누가 더 썼는지 따지기 시작한다
 b: Dávid
 register: casual
-twist: 8 emotion
+twist: 7 chaos
 purpose: study_abroad
-goal: 이름의 날 문화와 「그건 또 뭐야?」 묻기
-expressions: Az meg mi?; Hát; Sajnos; Nézd
-A | Miért van itt ennyi virág? | 왜 여기 꽃이 이렇게 많아? | ennyi = 이만큼 | emotion=surprised
-B | Ma van a névnapom! Marika néni hozta. | 오늘 내 이름의 날이야! 마리카 아주머니가 갖다주셨어. | névnap = 이름의 날 | emotion=cheerful
-A | Névnap? Az meg mi, születésnap? | 이름의 날? 그건 또 뭐야? 생일이야? | az meg mi? = 그건 또 뭐야? | emotion=surprised
-B | Nem. Minden névnek van egy napja. | 아니. 이름마다 자기 날이 있어. | névnek ... napja = 이름의 날 | emotion=neutral
-A | És az én nevemnek? | 내 이름은? | nevemnek = 내 이름에게 | emotion=excited
-B | Hát... sajnos az nincs a naptárban. | 음… 아쉽지만 그건 달력에 없어. | naptár = 달력 | emotion=sad
-A | Jaj. Szóval nekem soha nincs névnapom. | 아이고. 그럼 나는 이름의 날이 영영 없네. | soha nincs = 절대 없다 | emotion=sad
-B | Nézd, beleírtam: holnap van. Te hozod a tortát! | 봐, 써 넣었어. 내일이야. 케이크는 네가 가져와! | beleírtam = 안에 적어 넣었다 | emotion=gentle+teasing
+goal: 돈 나누기(Felezzük? · Mennyi?)
+expressions: Felezzük?; Komolyan?; Mennyi
+B | Megjött a villanyszámla. Felezzük? | 전기 요금 왔어. 반반 할까? | felezzük = 반으로 나누자 | emotion=neutral
+A | Persze. Mennyi? | 그래. 얼마야? | mennyi = 얼마 | emotion=cheerful
+B | Huszonnégyezer. Múlt hónapban tizenkétezer volt. | 2만 4천. 지난달엔 만 2천이었어. | múlt hónapban = 지난달에 | emotion=worried
+A | Komolyan? Mi fogyaszt ennyit? | 진짜? 뭐가 이렇게 많이 먹어? | fogyaszt = 소비한다 | emotion=surprised
+B | A te hősugárzód. Egész nap megy. | 네 전기 히터. 하루 종일 돌아가잖아. | hősugárzó = 전기 히터 | emotion=teasing
+A | És a te számítógéped? Meg a mosógép éjjel? | 그럼 네 컴퓨터는? 밤에 돌리는 세탁기는? | meg = 그리고 | emotion=annoyed
+B | Jó, akkor a wifit is számoljuk. Te többet netezel. | 좋아, 그럼 와이파이도 따지자. 인터넷은 네가 더 써. | netezel = 인터넷을 한다 | emotion=annoyed
+A | Várj, csak a villanyról volt szó! Felezzük? | 잠깐, 전기 요금 얘기였잖아! 반반 할까? | szó volt róla = 그 얘기였다 | emotion=tsukkomi+amused

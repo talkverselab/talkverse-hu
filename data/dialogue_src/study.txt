@@ -1,288 +1,282 @@
 === r2_study_b1
 kind: long
-title: 제일 정중한 감사 인사
-emoji: 🙇
-scene: 어학원 마지막 수업 전날. 선생님께 제대로 감사하고 싶다고 하자 Réka 가 특별한 단어를 가르쳐 준다
+title: 주말에 뭐 했어요?
+emoji: 🛁
+scene: 어학원 월요일 수업. 숙제 검사 뒤 선생님이 주말 이야기를 시킨다
 b: Réka
 c: Tanárnő
 register: mixed
-twist: 10 slip
+twist: 7 slip
 purpose: study_abroad
-goal: 감사 인사 묻기와 긴 단어 농담
-expressions: Figyelj; Tényleg; Naná; Úristen; Persze; Te jó ég; Hogyhogy
-A | Réka, holnap utolsó óra. Hogy köszönjem meg a tanárnak? | 레카, 내일 마지막 수업이야. 선생님께 어떻게 감사 인사하지? | megköszön = 감사를 표하다
-B | Figyelj, van egy különleges szó. Megtanítom neked. | 들어 봐, 특별한 단어가 있어. 가르쳐 줄게. | különleges = 특별한
-A | Tényleg? Hosszú? | 정말? 길어? | hosszú = 긴
-B | Naná. Megszentségteleníthetetlenségeskedéseitekért. | 당연하지. (헝가리어에서 제일 길다는 그 단어) | naná = 당연하지
-A | Úristen! Ez tényleg azt jelenti, hogy köszönöm? | 세상에! 이게 정말 「감사합니다」라는 뜻이야? | azt jelenti = 그런 뜻이다
-B | Persze. Nagyon udvarias! | 그럼. 아주 정중해! | udvarias = 정중한
-A | Tanárnő, egy pillanat. Megszentségteleníthetetlenségeskedéseitekért! | 선생님, 잠깐만요. (그 긴 단어)! | egy pillanat = 잠깐만
-C | Te jó ég! Hogyhogy ezt tudja? | 세상에! 그걸 어떻게 아세요? | te jó ég = 맙소사
-A | Réka tanította meg. Ez azt jelenti: köszönöm, ugye? | 레카가 가르쳐 줬어요. 「감사합니다」라는 뜻 맞죠? | ugye? = 그렇죠?
-C | Nem. Ez nem köszönet, ez csak a leghosszabb szavunk. | 아뇨. 감사 인사가 아니라, 그냥 우리말에서 제일 긴 단어예요. | leghosszabb = 가장 긴
-C | De hibátlanul kimondta. Ötös! | 그래도 틀리지 않고 말했네요. 5점! | ötös = 5점(최고 점수)
+goal: 주말에 한 일 과거형으로 말하기와 fürdő(온천) / fürdőszoba(욕실) 구분
+expressions: Jaj; Na jó; Semmi baj
+C | Jó reggelt! Ki csinálta meg a házi feladatot? | 좋은 아침이에요! 숙제 해 온 사람? | házi feladat = 숙제 | emotion=cheerful
+A | Jaj, otthon felejtettem a füzetemet. | 아이고, 공책을 집에 두고 왔어요. | otthon felejtettem = 집에 두고 왔다 | emotion=worried
+B | Én is. Pontosabban: el sem kezdtem. | 나도. 정확히는 시작도 안 했어. | el sem kezdtem = 시작도 안 했다 | emotion=teasing
+C | Na jó, akkor beszélgessünk. Réka, mit csinált a hétvégén? | 좋아요, 그럼 이야기해 봐요. 레카, 주말에 뭐 했어요? | hétvégén = 주말에 | emotion=amused
+B | Kirándultam a hegyekben. Nagyon hideg volt. | 산에 하이킹 갔어요. 엄청 추웠어요. | kirándultam = 소풍(하이킹) 갔다 | emotion=cheerful
+C | Szép. És Ön, {name}? | 좋네요. {name} 씨는요? | és Ön? = 그쪽은요?(존댓말) | emotion=gentle
+A | Én szombaton egész délután a fürdőszobában voltam. | 저는 토요일에 오후 내내 욕실에 있었어요. | fürdőszoba = 욕실(!) | emotion=cheerful
+C | Egész délután? Jaj, beteg volt? | 오후 내내요? 어머, 아팠어요? | beteg = 아픈 | emotion=worried
+A | Nem, dehogy! Meleg víz, szauna, nagyon jó volt. | 아뇨, 전혀요! 따뜻한 물, 사우나, 정말 좋았어요. | dehogy = 천만에, 아니요 | emotion=excited
+B | A fürdőben voltál, nem a fürdőszobában! | 온천에 간 거지, 욕실이 아니라! | fürdő = 온천 | emotion=tsukkomi
+C | Semmi baj. Házi feladat: fürdő és fürdőszoba, öt mondat. | 괜찮아요. 숙제: 「온천」과 「욕실」로 다섯 문장. | mondat = 문장 | emotion=teasing
 
 === r2_study_b2
 kind: long
-title: 파프리카 한 봉지
-emoji: 🌶️
-scene: 기숙사 공용 부엌. Réka 와 파프리카 감자를 끓인다. 양을 물어봤는데 Réka 는 자전거를 묶으러 나갔다
+title: 기숙사 냉장고의 요거트
+emoji: 🥛
+scene: 기숙사 공용 주방. Réka 가 냉장고에 둔 요거트가 없어졌다고 한다. 아침에 먹은 요거트가 떠오른다
 b: Réka
-c: Tűzoltó
-register: mixed
+register: casual
 twist: 9 chaos
 purpose: study_abroad
-goal: 요리하며 양 묻기(Mennyi kell bele?)
-expressions: Szuper; Szerintem; Mindegy; Mindjárt; Ne már; Bocsánat
-B | Éhes vagyok. Mit főzünk ma este? | 배고파. 오늘 저녁 뭐 해 먹지? | főzünk = 우리가 요리한다
-A | Paprikás krumplit! Anna adott nekem paprikát. | 파프리카 감자! 언너가 파프리카 줬어. | paprikás krumpli = 파프리카 감자 스튜
-B | Szuper. Mennyi paprika kell bele? | 좋아. 파프리카 얼마나 넣어? | bele = 그 안에
-A | Szerintem egy kanál. Vagy egy zacskó? | 한 숟갈? 아니면 한 봉지? | zacskó = 봉지
-B | Mindegy, mindjárt jövök. Csak lerakom a biciklit. | 상관없어, 금방 올게. 자전거만 세워 두고. | lerak = 내려놓다
-A | Kész! De miért sírok? | 됐다! 근데 왜 눈물이 나지? | sírok = 내가 운다
-B | Jaj, ne már! Mennyit tettél bele? | 아이고, 아 좀! 얼마나 넣었어? | tettél = 네가 넣었다(tesz)
-A | Az egészet. Miért, mi ez a hang? | 전부. 왜, 이 소리 뭐야? | az egészet = 전부를
-B | A riasztó! Az egész emelet köhög a folyosón! | 경보기야! 층 전체가 복도에서 기침해! | köhög = 기침한다
-C | Tűzoltóság! Mi ez a szag? | 소방대입니다! 이 냄새 뭐죠? | szag = 냄새
-A | Bocsánat! Ez csak paprikás krumpli. | 죄송해요! 그냥 파프리카 감자예요. | csak = 그냥, ~만
-C | Hű, ez nagyon jó! Van még hat tányér? | 오, 이거 맛있네요! 여섯 그릇 더 있어요? | tányér = 접시
+goal: 물건 찾기와 소유 말하기(az enyém · a tiéd · Dávidé)
+expressions: Figyelj; Ne már; Várj; Szerintem
+B | Figyelj, láttad a joghurtomat? Itt volt a hűtőben. | 있잖아, 내 요거트 봤어? 냉장고에 있었는데. | hűtő = 냉장고 | emotion=worried
+A | Milyen joghurtot? | 무슨 요거트? | milyen = 어떤 | emotion=neutral
+B | Epreset, kicsit, a felső polcon. Ráírtam a nevemet is. | 딸기 맛, 작은 거, 맨 위 칸. 이름도 써 놨어. | polc = 선반, 칸 | emotion=annoyed
+A | Hát, én ma reggel ettem egy epres joghurtot. | 음, 나 오늘 아침에 딸기 요거트 하나 먹었는데. | ettem = 먹었다 | emotion=worried
+B | Ne már! Nem láttad a nevemet? | 아 진짜! 내 이름 못 봤어? | ne már = 아 좀, 설마 | emotion=annoyed
+A | Nem volt rajta név. Az enyém volt, tegnap vettem. | 이름 없었어. 내 거였어, 어제 샀거든. | az enyém = 내 것 | emotion=flustered
+B | Biztos? Akkor hol van az enyém? | 확실해? 그럼 내 건 어디 있어? | biztos = 확실한 | emotion=worried
+A | Várj, nézzük meg. Mi ez itt hátul? | 잠깐, 보자. 여기 뒤에 이건 뭐야? | hátul = 뒤쪽에 | emotion=surprised
+B | Két epres joghurt. Az egyiken az én nevem, a másikon a tiéd. | 딸기 요거트 두 개. 하나엔 내 이름, 하나엔 네 이름. | a tiéd = 네 것 | emotion=surprised
+A | Akkor reggel kinek a joghurtját ettem meg? | 그럼 아침에 내가 누구 요거트를 먹은 거지? | kinek a…? = 누구의? | emotion=flustered
+B | Szerintem Dávidé volt. Ő pedig mindent megszámol. | 다비드 거였을걸. 걔는 뭐든 다 세어 봐. | megszámol = 세어 보다 | emotion=teasing
 
 === r2_study_b3
 kind: long
-title: 잘 본 구술시험
+title: 시험 보러 왔는데
 emoji: 📝
-scene: 구술시험 날. 떨면서 들어간 강의실에서 카드를 뽑았는데 공부한 적 없는 문제다
+scene: 밤새 공부하고 헐레벌떡 강의실에 들어왔다. 선생님 표정이 이상하다
 b: Tanár
 c: Réka
 register: mixed
-twist: 10 reveal
+twist: 7 reveal
 purpose: study_abroad
-goal: 구술시험 말(Húzzon egy tételt)과 Mit tud …-ról/-ről?
-expressions: Hát; Szóval; Igazából; Mi van
-B | Jó napot! Húzzon egy tételt. | 안녕하세요! 문제 카드를 뽑으세요. | tétel = 구술시험 문제
-A | Jó napot. Hát, a tizenhármas. | 안녕하세요. 음, 13번이요. | tizenhármas = 13번
-B | Szóval, a szív. Mit tud a szívről? | 자, 심장. 심장에 대해 뭘 아시죠? | -ról/-ről = ~에 대해
-A | A szívről? Hát, ha szeretünk, gyorsabban ver. | 심장이요? 음, 사랑하면 더 빨리 뜁니다. | ver = (심장이) 뛴다
-B | Érdekes. És most hogy ver az Öné? | 흥미롭군요. 지금 당신 심장은 어때요? | az Öné = 당신의 것
-A | Nagyon gyorsan. Igazából ezt nem tanultam. | 아주 빨라요. 사실 이건 공부 안 했어요. | igazából = 사실은
-B | Őszinte válasz. Négyes, a következő! | 솔직한 답이군요. 4점, 다음 분! | négyes = 4점
-C | Hol voltál? A te vizsgád a földszinten van, már elkezdődött! | 어디 있었어? 네 시험 1층에서 벌써 시작했어! | földszint = 1층(지상층)
-A | Mi van? Akkor ez milyen vizsga volt? | 뭐? 그럼 이건 무슨 시험이었어? | milyen = 어떤
-C | Ez? Orvosi, harmadéveseknek. | 이거? 의대 3학년 시험이야. | orvosi = 의학의
-A | Négyest kaptam. | 나 4점 받았어. | kaptam = 내가 받았다
+goal: 늦은 사과와 시험 날짜 확인하기(Elnézést a késésért · jövő kedden)
+expressions: Elnézést; Jaj; Szuper
+A | Elnézést a késésért! Elkezdődött már a vizsga? | 늦어서 죄송합니다! 시험 벌써 시작했나요? | késés = 늦음 | emotion=flustered
+B | Jó reggelt. Milyen vizsga? | 좋은 아침이에요. 무슨 시험이요? | milyen = 어떤 | emotion=surprised
+A | A nyelvtanvizsga. Egész éjjel tanultam! | 문법 시험이요. 밤새 공부했어요! | egész éjjel = 밤새 | emotion=worried
+C | Szia! Miért vagy ilyen sápadt? | 안녕! 왜 이렇게 창백해? | sápadt = 창백한 | emotion=surprised
+A | Három órát aludtam. Te nem izgulsz? | 세 시간 잤어. 넌 안 떨려? | izgulsz = 떨린다 | emotion=worried
+C | Miért izgulnék? Ma csak olvasás lesz. | 내가 왜 떨려? 오늘은 그냥 읽기 수업인데. | izgulnék = 떨릴까(조건법) | emotion=amused
+B | A nyelvtanvizsga jövő kedden lesz, {name}. | 문법 시험은 다음 주 화요일이에요, {name} 씨. | jövő kedd = 다음 주 화요일 | emotion=gentle
+A | Jövő kedden? De a naptáramban ma van! | 다음 주 화요일이요? 근데 제 달력엔 오늘인데요! | naptár = 달력 | emotion=surprised
+C | Mutasd. Ez a jövő heti oldal, nem a mostani! | 보여 줘. 이거 다음 주 페이지야, 이번 주가 아니라! | jövő heti = 다음 주의 | emotion=tsukkomi
+A | Jaj. Akkor legalább már tudom az anyagot. | 아이고. 그럼 적어도 공부는 다 해 놓은 거네. | legalább = 적어도 | emotion=flustered+amused
+B | Szuper. Akkor ma Ön olvas fel elsőként. | 좋아요. 그럼 오늘은 {name} 씨가 제일 먼저 낭독해요. | felolvas = 소리 내어 읽다 | emotion=teasing
 
 === r2_study_b4
 kind: long
-title: 언너의 공책
-emoji: 📓
-scene: 시험 전날 도서관. 항상 뭔가 쓰고 있던 Anna 의 공책을 빌리려고 한다
+title: 도서관 옆자리
+emoji: 📚
+scene: 시험 기간의 대학 도서관. Anna 가 옆자리가 비었냐고 묻고, 서로 문제를 내 주기로 한다
 b: Anna
 register: casual
-twist: 10 emotion
+twist: 11 emotion
 flags: romance
 purpose: study_abroad love
-goal: 빌려 달라는 말(kölcsönadod?)과 -lak/-alak 어미
-expressions: Hát; Ne már; Igazából; Mindegy; Légyszi; Jól van; Tudod
-A | Anna, kölcsönadod a füzeted? Holnap vizsga. | 언너, 공책 빌려줄래? 내일 시험이야. | kölcsönad = 빌려주다
-B | A füzetem? Hát, nem tudom. | 내 공책? 음, 글쎄. | füzet = 공책
-A | Ne már! Te mindig írsz az órán. | 에이! 너 수업 때 맨날 쓰잖아. | az órán = 수업 시간에
-B | Igazából nem írok. Rajzolok. | 사실 쓰는 게 아니라 그려. | rajzolok = 내가 그린다
-A | Mindegy, add ide. Légyszi! | 상관없어, 줘 봐. 제발! | add ide = 이리 줘
-B | Jól van. De ne nézd sokáig. | 알았어. 근데 오래 보지 마. | ne nézd = 보지 마
-A | Nézzük, ez az első óra. Ki ez? | 어디 보자, 첫 수업이네. 이거 누구야? | nézzük = 보자
-B | Hát... te. | 음… 너. | te = 너
-A | Itt is én? Itt alszom! | 여기도 나야? 여기선 자고 있네! | alszom = 내가 잔다
-B | Szépen alszol. Tudod, egész félévben csak téged rajzoltalak. | 예쁘게 자더라. 있지, 한 학기 내내 너만 그렸어. | rajzoltalak = 내가 너를 그렸다(-alak)
-A | És holnap a vizsga? | 그럼 내일 시험은? | vizsga = 시험
-B | Megbukom. Megéri. | 떨어지겠지. 그래도 괜찮아. | megéri = 그럴 만하다
+goal: 자리 묻기(Szabad ez a hely?)와 공부 도와주기(Segítsek?)
+expressions: Bocsi; Tessék; Durva; Látod
+B | Bocsi, szabad ez a hely? | 저기, 이 자리 비었어? | szabad = 비어 있는 | emotion=shy
+A | Igen, szabad. Tessék. | 응, 비었어. 앉아. | tessék = 자, 여기(권할 때) | emotion=gentle
+B | Köszi. Te is vizsgára tanulsz? | 고마워. 너도 시험공부해? | vizsgára = 시험을 위해 | emotion=gentle
+A | Igen, holnap lesz a történelemvizsgám. Te? | 응, 내일 역사 시험이야. 너는? | történelem = 역사 | emotion=worried
+B | Művészettörténet. Háromszáz kép, és mindet tudni kell. | 미술사. 그림 300장인데 다 알아야 해. | mindet = 전부를 | emotion=worried
+A | Durva. Segítsek kikérdezni? | 장난 아니다. 문제 내 줄까? | kikérdez = 물어보며 점검하다 | emotion=cheerful
+B | Az jó lenne! De csak halkan. | 그럼 좋겠다! 근데 조용히. | halkan = 조용히 | emotion=excited+shy
+A | Ez a kép melyik században készült? | 이 그림은 몇 세기에 그려졌어? | század = 세기 | emotion=cheerful
+B | A tizenkilencedikben. Látod, ezt tudom. | 19세기. 봐, 이건 알아. | látod = 봐, 거 봐 | emotion=cheerful
+A | Szuper. És ez a rajz a füzeted hátulján? | 좋아. 그럼 네 공책 뒤에 있는 이 그림은? | rajz = 소묘, 그림 | emotion=surprised
+B | Az a huszonegyedik század. Ma rajzoltalak le. | 그건 21세기. 오늘 너 그렸어. | lerajzoltalak = 너를 그렸다(-lak) | emotion=shy
 
 === r2_study_c1
 kind: chat
-title: 물음표 하나
-emoji: ❓
-scene: 수업 단톡방. Réka 의 물음표 하나가 저녁 내내 커진다
+title: 스터디 단톡방
+emoji: 👥
+scene: 셋이 시험공부를 같이 하기로 한 단톡방. 「내일 네 시, 도서관」 까지는 순조로웠다
 b: Réka
 c: Anna
-d: Tanárnő
 register: chat
-twist: 7 chaos
+twist: 10 chaos
 purpose: study_abroad
-goal: 소문 전하기(Azt hallottam, hogy…)와 단톡방 반응
-expressions: Nem tudom; Szerintem; Tényleg; Szuper; Komolyan; Durva
-B | Holnap elmarad az óra? | 내일 휴강이야? | elmarad = 취소된다 | at=18:02
-A | Nem tudom. Szerintem igen. | 몰라. 아마 그럴걸. | szerintem = 내 생각엔 | at=18:03
-C | Tényleg elmarad? Szuper! | 진짜 휴강이야? 좋다! | tényleg = 정말 | at=18:05
-B | Azt hallottam, hogy egész héten elmarad. | 이번 주 내내 휴강이라고 들었어. | azt hallottam = 그렇게 들었다 | at=18:11
-A | Komolyan? Ki mondta? | 진짜? 누가 그랬어? | komolyan? = 진짜? | at=18:12
-B | Te mondtad. | 네가 그랬잖아. | te mondtad = 네가 말했다 | at=18:12
-C | Úristen, azt írják, hogy bezár az egyetem! 😱 | 세상에, 학교가 문 닫는대! 😱 | bezár = 문을 닫다 | at=18:20
-A | Durva. Akkor már veszem is a repülőjegyet. | 대박. 그럼 비행기표 바로 산다. | veszem = 내가 그것을 산다 | at=18:31
-B | Én meg eladtam a tankönyvemet. | 난 교재 팔았어. | eladtam = 내가 팔았다 | at=18:33
-D | Jó estét! Holnap nyolckor dolgozat lesz. | 좋은 저녁이에요! 내일 8시에 쪽지시험 봅니다. | dolgozat = 쪽지시험, 보고서 | at=18:40
-C | Tanárnő, Ön is itt van?! | 선생님, 여기 계셨어요?! | Ön is = 당신도(존댓말) | at=18:41
-D | Mindig itt voltam. A repülőjegy visszaváltható? 😇 | 전 항상 있었어요. 비행기표는 환불되나요? 😇 | visszaváltható = 환불할 수 있는 | at=18:42 stamp=😇
+goal: 단톡방에서 시간·장소 정하기(Mikor tanulunk? · Melyik könyvtárban?)
+expressions: Sziasztok; Oké; Mindjárt; Jaj
+B | Sziasztok! Mikor tanulunk együtt a vizsgára? | 얘들아! 시험공부 같이 언제 해? | sziasztok = 안녕, 얘들아 | emotion=cheerful at=20:01
+C | Nekem holnap délután jó. | 난 내일 오후 좋아. | délután = 오후 | emotion=cheerful at=20:03
+A | Nekem is. Négykor a könyvtárban? | 나도. 네 시에 도서관? | négykor = 네 시에 | emotion=cheerful at=20:04
+B | Oké! Hozom a jegyzeteimet. | 오케이! 내 필기 가져갈게. | jegyzet = 필기 | emotion=excited at=20:04
+C | Én pedig pogácsát. 😋 | 난 포가차. 😋 | pedig = 그리고(나는) | emotion=teasing at=20:05
+A | Itt vagyok, a második emeleten. Hol vagytok? | 나 왔어, 2층이야. 너네 어디야? | emelet = 층 | emotion=cheerful at=16:02
+B | Mi is a második emeleten vagyunk. Nem látunk. 🤔 | 우리도 2층인데. 안 보여. 🤔 | nem látunk = (너를) 못 보겠다 | emotion=surprised at=16:04
+C | Melyik könyvtárban vagy? | 너 어느 도서관이야? | melyik = 어느 | emotion=worried at=16:04
+A | Hát az egyetemiben. Ti nem? | 당연히 대학 도서관이지. 너넨 아니야? | egyetemi = 대학의 | emotion=surprised at=16:05
+B | Mi a kerületiben vagyunk, a kollégium mellett. Anna most indul hozzád. 😂 | 우린 기숙사 옆 구립 도서관이야. 언너가 지금 너한테 출발했어. 😂 | kerületi = 구(區)의 | emotion=amused at=16:05
+A | Jaj, ne! Én is mindjárt indulok hozzátok! | 아, 안 돼! 나도 금방 너네한테 출발하는데! | hozzátok = 너희에게로 | emotion=flustered at=16:06
+C | Állj! Maradj ott, én megyek. A pogácsa velem van. 😇 | 멈춰! 거기 있어, 내가 갈게. 포가차는 나한테 있어. 😇 | állj = 멈춰 | emotion=shout at=16:06 stamp=😇
 
 === r2_study_c2
 kind: chat
-title: 5점이나 받았어
-emoji: 😢
-scene: 시험 결과가 나왔다. Réka 에게 슬픈 소식을 전한다. 점수 체계를 잘못 알고 있는 줄은 모른 채
+title: 숙제가 몇 쪽이었더라
+emoji: 📖
+scene: 아파서 수업에 못 간 날. Réka 에게 숙제를 물어서 저녁 내내 했다
 b: Réka
 register: chat
-twist: 11 slip
+twist: 10 chaos
 purpose: study_abroad
-goal: 점수 말하기(ötös, egyes)와 위로·축하
-expressions: Sajnos; Mi van; Várj; Úristen; Naná; Szóval
-A | Megjött az eredmény. Sajnos ötös lett. 😢 | 결과 나왔어. 아쉽게도 5점이야. 😢 | ötös = 5점 | at=16:10
-B | Sajnos? Mi van? | 아쉽게도? 뭐야? | sajnos = 아쉽게도 | at=16:11
-A | Nagyon sokat tanultam, és csak ötös. | 엄청 공부했는데 겨우 5점이야. | sokat = 많이 | at=16:11
-B | Várj. Szerinted melyik a legjobb jegy? | 잠깐. 네 생각엔 제일 좋은 점수가 뭐야? | jegy = 점수, 표 | at=16:12
-A | Az egyes, nem? Egyes, első, legjobb. | 1점 아니야? 1점, 1등, 최고. | egyes = 1점 | at=16:13
-B | Úristen, nálunk az ötös a legjobb! Az egyes azt jelenti: megbuktál. | 세상에, 우리는 5점이 최고야! 1점은 낙제라는 뜻이야. | megbuktál = 네가 떨어졌다 | at=16:13
-A | Komolyan? Akkor szuper vagyok! | 진짜? 그럼 나 대단한 거네! | szuper = 끝내주는 | at=16:14
-B | Naná! Gratulálok! | 당연하지! 축하해! | gratulálok = 축하해 | at=16:14 stamp=🎉
-A | Várj. Jaj. | 잠깐. 아이고. | jaj = 아이고 | at=16:15
-B | Mi az? | 왜? | mi az? = 뭔데? | at=16:15
-A | Anna tegnap egyest kapott. Tortát vettem neki. | 언너 어제 1점 받았거든. 내가 케이크 사 줬어. | torta = 케이크 | at=16:16
-B | Szóval ezért sírt, amikor énekeltél? | 그래서 네가 노래할 때 걔가 운 거구나? | énekeltél = 네가 노래했다 | at=16:17 stamp=😂
+goal: 결석 뒤 숙제 묻기(Mi a házi feladat? · Melyik oldal?)와 서수
+expressions: Jaj; Úristen; Ne már; Bocsi
+A | Szia! Ma beteg voltam, nem mentem órára. 🤒 | 안녕! 오늘 아파서 수업 못 갔어. 🤒 | órára = 수업에 | emotion=sad at=17:10
+B | Jaj, szegény! Jobban vagy? | 아이고, 저런! 좀 나아? | jobban vagy? = 좀 나아? | emotion=worried at=17:12
+A | Már jobban. Mi a házi feladat? | 이제 좀 나아. 숙제가 뭐야? | házi feladat = 숙제 | emotion=gentle at=17:12
+B | A harmincnegyedik oldal, az összes gyakorlat. | 34쪽, 연습 문제 전부. | oldal = 쪽 | emotion=neutral at=17:15
+A | Az összes? Az tíz gyakorlat! | 전부? 그거 열 문제야! | gyakorlat = 연습 문제 | emotion=surprised at=17:16
+B | Tudom. Sok sikert! 💪 | 알아. 화이팅! 💪 | sok sikert = 잘해 봐 | emotion=teasing at=17:16
+A | Kész! Három órán át írtam. 😵 | 끝! 세 시간 동안 썼어. 😵 | három órán át = 세 시간 동안 | emotion=excited at=21:40
+B | Ügyes vagy! Melyik oldalt csináltad? | 잘했어! 몇 쪽 했어? | ügyes = 잘한다 | emotion=cheerful at=21:45
+A | Hát a harmincnegyediket. Te mondtad. | 당연히 34쪽. 네가 말했잖아. | te mondtad = 네가 말했다 | emotion=surprised at=21:45
+B | Úristen, bocsi! A negyvenharmadik volt. 🙈 | 세상에, 미안! 43쪽이었어. 🙈 | negyvenharmadik = 43번째 | emotion=flustered at=21:47
+A | Ne már. És ott hány gyakorlat van? | 아 진짜. 거기엔 몇 문제 있어? | hány = 몇 개 | emotion=annoyed at=21:47
+B | Csak egy fogalmazás, öt mondat. A harmincnegyediket holnap kérdezi. 😅 | 작문 하나, 다섯 문장. 34쪽은 내일 물어보신대. 😅 | fogalmazás = 작문 | emotion=amused at=21:48 stamp=😅
 
 === r3_study_b1
 kind: long
-title: 보내기 버튼
+title: 교수님께 메일 쓰기
 emoji: 📧
-scene: 기숙사 방. 코바치 교수에게 마감을 늘려 달라는 메일을 쓴다. Réka 가 옆에서 거든다
+scene: 아파서 보고서를 못 냈다. Réka 와 함께 코바치 교수님께 기한 연장을 부탁하는 메일을 쓴다
 b: Réka
 c: Kovács
-register: casual
-twist: 15 slip
+register: mixed
+twist: 15 chaos
 purpose: study_abroad
-goal: 교수에게 쓰는 격식 표현(Tisztelt…, Kérem szépen)과 반말 표현의 차이
-expressions: Figyelj; Nem baj; Tisztelt; Kérem szépen; Várj; Puszi; Durva
-A | Figyelj, segíts. Kovács professzornak kell írnom egy e-mailt. | 야, 좀 도와줘. 코바치 교수님께 메일 써야 해. | kell írnom = 내가 써야 한다
-B | Miért? Mit csináltál? | 왜? 뭐 했는데? | csináltál = 네가 했다
-A | Semmit, és ez a baj. A dolgozat péntekre kell, és még nincs kész. | 아무것도. 그게 문제야. 보고서가 금요일까지인데 아직 안 끝났어. | péntekre = 금요일까지
-B | Nem baj. Kérj még egy hetet. | 괜찮아. 일주일 더 달라고 해. | kérj = 부탁해
-A | De hogy kezdjem? Szia, tanár úr? | 근데 어떻게 시작하지? 야, 교수님? | hogy kezdjem? = 어떻게 시작할까?
-B | Jaj, ne! Úgy kell: Tisztelt Professzor Úr! | 아이고, 안 돼! 이렇게 해야지: 존경하는 교수님께! | tisztelt = 존경하는(편지 첫머리)
-A | Tisztelt Professzor Úr! Kérem szépen, adjon még egy hetet. | 존경하는 교수님께! 부디 일주일만 더 주세요. | kérem szépen = 부디
-B | Várj, add ide, én is írok egyet. Csak viccből. | 잠깐, 줘 봐, 나도 하나 써 볼게. 장난으로. | viccből = 장난으로
-A | Mit írtál? Mutasd! | 뭐 썼어? 보여 줘! | mutasd = 보여 줘
-B | Szia Kovács, ne már, adj még egy hetet! Puszi! | 안녕 코바치, 아 좀, 일주일만 더 줘! 쪽! | puszi = 쪽(친구끼리 끝인사)
-A | Haha, durva! Na, add vissza, küldöm az enyémet. | 하하, 대박! 자, 돌려줘, 내 거 보낼게. | add vissza = 돌려줘
-B | Jó, tessék. Küldd el! | 그래, 여기. 보내! | küldd el = 보내 버려
-A | Elküldtem. | 보냈어. | elküldtem = 내가 보냈다
-B | Várj. Melyiket küldted el? | 잠깐. 어느 걸 보냈어? | melyiket = 어느 것을
-A | Úristen. A tiédet. | 세상에. 네 거. | a tiédet = 네 것을
-C | Szia, nem adok. Puszi, Kovács | 안녕, 안 줍니다. 쪽, 코바치 | nem adok = 안 준다
+goal: 격식 있는 메일 쓰기(Tisztelt … Úr! · kaphatnék-e · Tisztelettel)
+expressions: Persze; Ne már; Naná; Úristen
+A | Réka, segítesz? Levelet kell írnom Kovács professzornak. | 레카, 도와줄래? 코바치 교수님께 메일 써야 해. | levél = 편지, 메일 | emotion=worried
+B | Persze. Mit akarsz kérni tőle? | 물론. 뭘 부탁하려고? | tőle = 그에게서 | emotion=gentle
+A | Egy hét haladékot a dolgozatra. Beteg voltam. | 보고서 일주일 연장. 아팠거든. | haladék = 유예, 연장 | emotion=sad
+B | Oké. Hogyan kezdted? | 오케이. 어떻게 시작했어? | hogyan = 어떻게 | emotion=cheerful
+A | Szia, Tanár Úr! | 안녕, 교수님! | szia = 안녕(친구끼리) | emotion=cheerful
+B | Szia? Ne már, írd azt: Tisztelt Kovács Professzor Úr! | 「안녕」? 아 좀, 이렇게 써: 존경하는 코바치 교수님께! | tisztelt = 존경하는 | emotion=tsukkomi
+A | Jó. Aztán: Kérem, adjon egy hetet. | 알았어. 그다음: 일주일 주세요. | adjon = 주세요(격식) | emotion=neutral
+B | Túl rövid. Inkább: Szeretném megkérdezni, kaphatnék-e egy hét haladékot. | 너무 짧아. 차라리: 일주일 연장을 받을 수 있을지 여쭙고 싶습니다. | kaphatnék-e = 받을 수 있을까요 | emotion=gentle
+A | Hű, ez nagyon udvarias. És a végén? | 와, 엄청 정중하다. 그리고 끝에는? | udvarias = 정중한 | emotion=surprised
+B | Tisztelettel, és a neved. Puszit ne írj! | 「경의를 표하며」, 그리고 네 이름. 「쪽」은 쓰지 마! | tisztelettel = 경의를 담아 | emotion=teasing
+A | Naná. Na, elküldtem! | 당연하지. 자, 보냈다! | elküldtem = 보냈다 | emotion=excited
+B | Csatoltad az orvosi igazolást is? | 진단서도 첨부했어? | orvosi igazolás = 진단서 | emotion=neutral
+A | Persze, a levél alján van. | 물론, 메일 맨 밑에 있어. | alján = 바닥에, 밑에 | emotion=cheerful
+B | Mutasd. Ez nem igazolás, ez egy lista. | 보여 줘. 이거 진단서가 아니라 목록인데. | lista = 목록 | emotion=worried
+A | Úristen. Ez a bevásárlólistám: tojás, tej, paprika. | 세상에. 내 장보기 목록이야. 달걀, 우유, 파프리카. | bevásárlólista = 장보기 목록 | emotion=flustered
+C | Kedves {name}, megkapja a haladékot. És ne felejtse el a tojást! | {name} 씨, 연장해 드리겠습니다. 그리고 달걀 잊지 마세요! | ne felejtse el = 잊지 마세요(격식) | emotion=gentle+teasing
 
 === r3_study_b2
 kind: long
-title: 기숙사 벼룩시장
-emoji: 🛏️
-scene: 토요일 복도 벼룩시장. 공부하느라 바빠서 Réka 에게 방에 있는 걸 대신 팔아 달라고 했다
+title: 기숙사 방이 추워요
+emoji: 🪟
+scene: 겨울 기숙사. 라디에이터는 따뜻한데 방이 춥다. Réka 의 말대로 관리인을 찾아간다
 b: Réka
 c: Gondnok
-register: casual
-twist: 11 chaos
+register: mixed
+twist: 12 reveal
 purpose: study_abroad
-goal: 물건 팔고 값 말하기와 mindegy 의 위험
-expressions: Hé; Hát; Semmi baj; Nem tudom; Mindegy; Szuper; Király; Te jó ég
-B | Hé, szombaton bolhapiac lesz a folyosón! Van valami eladó cuccod? | 야, 토요일에 복도에서 벼룩시장 열려! 팔 물건 있어? | bolhapiac = 벼룩시장
-A | Hát, a régi magyar könyveim. De most tanulnom kell. | 음, 옛날 헝가리어 책들. 근데 지금 공부해야 해. | tanulnom kell = 내가 공부해야 한다
-B | Semmi baj, eladom helyetted. Mit adhatok el? | 괜찮아, 내가 대신 팔아 줄게. 뭘 팔아도 돼? | helyetted = 너 대신
-A | Nem tudom, nézd meg a szobámban. Mindegy, ami nem kell. | 몰라, 내 방 봐 봐. 필요 없는 거면 뭐든 상관없어. | ami nem kell = 필요 없는 것
-B | Szuper, bízz bennem! | 좋아, 나만 믿어! | bízz bennem = 나를 믿어
-A | Na, hogy megy? Miért van itt ilyen sok ember? | 자, 어때? 왜 이렇게 사람이 많아? | hogy megy? = 어떻게 돼 가?
-B | Király, már nyolcvanezer forintot kerestem. Nézd! | 최고야, 벌써 8만 포린트 벌었어. 봐! | kerestem = 내가 벌었다
-A | Nyolcvanezret? Három könyvért? | 8만? 책 세 권으로? | -ért = ~의 값으로
-B | Könyvért? Nem, a könyvek nem kellettek senkinek. | 책? 아니, 책은 아무도 안 사더라. | nem kellettek = 필요 없었다
-A | Akkor mit adtál el? | 그럼 뭘 판 거야? | adtál el = 네가 팔았다
-B | A lámpát, a széket, az asztalt. Azt mondtad, mindegy! | 스탠드, 의자, 책상. 네가 상관없다며! | szék = 의자
-A | Az asztalomat? Te jó ég, hol fogok tanulni? | 내 책상을? 세상에, 나 어디서 공부해? | fogok tanulni = 공부할 것이다
-B | Az ágyon. Bár az ágyra már van vevő. | 침대에서. 근데 침대는 벌써 살 사람이 있어. | vevő = 사는 사람
-C | Elnézést, ki adta el a kollégium bútorait? | 실례합니다, 기숙사 가구를 판 사람이 누구죠? | bútor = 가구
-B | Hát, ő. Én csak segítettem. | 음, 얘요. 전 그냥 도운 거고요. | segítettem = 내가 도왔다
+goal: 고장·불편 말하기(Nagyon hideg van nálam · működik? · fázom)
+expressions: Te jó ég; Szuper; Semmi baj
+A | Réka, nálad is ilyen hideg van? | 레카, 네 방도 이렇게 추워? | nálad = 너한테(네 방에) | emotion=worried
+B | Nem, nálam meleg van. Miért, nálad nincs fűtés? | 아니, 내 방은 따뜻해. 왜, 네 방은 난방 안 돼? | fűtés = 난방 | emotion=surprised
+A | A radiátor meleg, de a szoba hideg. Három pulóverben alszom. | 라디에이터는 따뜻한데 방이 추워. 스웨터 세 겹 입고 자. | pulóver = 스웨터 | emotion=sad
+B | Te jó ég. Szólj a gondnoknak, ő megnézi. | 세상에. 관리인한테 말해, 봐 줄 거야. | szólj = 말해 | emotion=worried
+A | Jó napot, a 214-es szobából jöttem. Nagyon hideg van nálam. | 안녕하세요, 214호에서 왔어요. 제 방이 너무 추워요. | 214-es = 214번 | emotion=polite
+C | Jó napot. A radiátor működik? | 안녕하세요. 라디에이터는 작동해요? | működik = 작동한다 | emotion=neutral
+A | Igen, meleg. De mégis fázom. | 네, 따뜻해요. 그런데도 추워요. | fázom = (나는) 춥다 | emotion=worried
+C | Furcsa. Menjünk, megnézem. | 이상하네요. 갑시다, 봐 드릴게요. | furcsa = 이상한 | emotion=neutral
+B | Én is jövök. Kíváncsi vagyok. | 나도 갈래. 궁금해. | kíváncsi = 궁금한 | emotion=amused
+C | Radiátor rendben, ajtó rendben. És az ablak? | 라디에이터 괜찮고, 문 괜찮고. 창문은요? | rendben = 괜찮다 | emotion=neutral
+A | Az ablak csukva van. Mindig csukva tartom. | 창문은 닫혀 있어요. 항상 닫아 둬요. | csukva = 닫힌 채 | emotion=polite
+C | Nem egészen: nézze, felül nyitva van, bukóra állította. | 꼭 그렇진 않네요. 보세요, 위가 열려 있어요, 틸트로 해 두셨어요. | bukó = 위로 젖혀 여는 창 | emotion=amused
+A | Bukóra? Azt hittem, így van becsukva! | 틸트요? 이게 닫힌 건 줄 알았어요! | azt hittem = ~인 줄 알았다 | emotion=surprised
+B | Két hónapig az udvart fűtötted. Szuper. | 두 달 동안 마당을 데웠네. 대단하다. | udvar = 마당 | emotion=teasing
+C | Semmi baj. Az első télen mindenki megtanulja. | 괜찮아요. 첫 겨울엔 다들 배워요. | megtanulja = 배운다 | emotion=gentle
 
 === r3_study_b3
 kind: long
-title: 감자 발표
-emoji: 🥔
-scene: 미술사 수업 발표 날. Anna 의 컴퓨터에서 복사해 온 파일을 열었더니 슬라이드 대신 감자 그림이 떴다
+title: 교수님 면담 시간
+emoji: 🎓
+scene: 보고서 점수가 3점이라 교수님 면담 시간에 찾아간다. Anna 가 문 앞에서 기다려 준다
 b: Anna
 c: Professzor
 register: mixed
-twist: 13 chaos
+twist: 13 reveal
 purpose: study_abroad
-goal: 발표 말(Nézzük az első képet!)과 즉흥으로 이어 가기
-expressions: Nyugi; ugye; Tessék; Jaj; izé; Te jó ég
-A | Anna, segítesz? Öt perc múlva kezdem az előadást, és remeg a kezem. | 언너, 도와줄래? 5분 뒤에 발표 시작인데 손이 떨려. | remeg = 떨린다
-B | Nyugi, jó lesz. A gépen van a fájl, ugye? | 진정해, 잘될 거야. 파일 컴퓨터에 있지? | nyugi = 진정해
-A | Igen, tegnap a te gépedről másoltam át. | 응, 어제 네 컴퓨터에서 복사했어. | másoltam át = 옮겨 복사했다
-B | Az én gépemről? Várj, melyik mappából? | 내 컴퓨터에서? 잠깐, 어느 폴더에서? | mappa = 폴더
-C | Tessék, {name}, kezdheti. Mi a téma? | 네, {name} 씨, 시작하세요. 주제가 뭐죠? | kezdheti = 시작해도 됩니다
-A | A téma a modern magyar festészet. Nézzük az első képet! | 주제는 현대 헝가리 회화입니다. 첫 그림을 보시죠! | festészet = 회화
-B | Jaj, ne! Te jó ég, ez az én krumplim! | 아이고, 안 돼! 맙소사, 이거 내 감자야! | krumplim = 내 감자
-C | Krumpli? Folytassa, kérem. | 감자요? 계속하세요. | folytassa = 계속하세요
-A | Igen, izé, a krumpli a magyar lélek. Egyszerű, de mindenhol ott van. | 네, 저, 감자는 헝가리의 영혼입니다. 소박하지만 어디에나 있지요. | lélek = 영혼
-C | Érdekes! És a következő képen? | 흥미롭네요! 다음 그림은요? | következő = 다음
-A | Az is krumpli. De nézzék: ez már szomorú krumpli. | 그것도 감자입니다. 하지만 보세요, 이건 슬픈 감자입니다. | nézzék = 보세요(여러분, 존댓말)
-C | Zseniális! Harminc éve tanítok, de ilyet még nem láttam. | 천재적이에요! 30년을 가르쳤지만 이런 건 처음 봅니다. | zseniális = 천재적인
-C | Szeptemberben Bécsben konferencia lesz. Ezt ott is elő kell adnia. | 9월에 빈에서 학회가 있어요. 거기서도 발표해야겠습니다. | elő kell adnia = 발표해야 한다
-A | Bécsben, krumpliról? Anna, most mit csináljak? | 빈에서, 감자로? 언너, 나 이제 어떡해? | mit csináljak? = 뭘 해야 하지?
-B | Semmit. Már beírtam a nevem: én vagyok a társszerző. | 아무것도. 내 이름 벌써 써 놨어, 내가 공동 저자야. | társszerző = 공동 저자
+goal: 면담에서 점수 묻기(A dolgozatomról szeretnék kérdezni · Miben segíthetek?)
+expressions: Légyszi; Egy pillanat; Szerintem; Tényleg
+B | Ideges vagy? | 긴장돼? | ideges = 긴장한, 초조한 | emotion=gentle
+A | Egy kicsit. Hármas lett a dolgozatom, és nem értem, miért. | 조금. 보고서가 3점인데 왜인지 모르겠어. | hármas = 3점 | emotion=worried
+B | Kérdezd meg nyugodtan. A professzor kedves, csak szigorú. | 편하게 물어봐. 교수님 친절해, 엄격할 뿐이지. | szigorú = 엄격한 | emotion=gentle
+A | Jó, bemegyek. Várj meg, légyszi! | 알았어, 들어간다. 기다려 줘, 제발! | várj meg = 기다려 줘 | emotion=worried
+C | Jöjjön be! Miben segíthetek? | 들어오세요! 무엇을 도와드릴까요? | miben = 무엇에서 | emotion=polite
+A | Jó napot, Professzor Úr. A dolgozatomról szeretnék kérdezni. | 안녕하세요, 교수님. 제 보고서에 대해 여쭙고 싶어서요. | dolgozat = 보고서 | emotion=polite
+C | Persze. Mi a probléma? | 그럼요. 뭐가 문제죠? | probléma = 문제 | emotion=gentle
+A | A listán hármas áll a nevem mellett. | 명단에 제 이름 옆에 3점이라고 적혀 있어서요. | áll = (적혀) 있다 | emotion=worried
+C | Hármas? Egy pillanat, megnézem. | 3점이요? 잠깐만요, 볼게요. | egy pillanat = 잠깐만요 | emotion=surprised
+A | Szerintem a ragok miatt. Mindig rosszul rakom őket. | 제 생각엔 격 어미 때문이에요. 늘 틀리게 붙여요. | rag = 격 어미 | emotion=sad
+C | Melyik sort nézte a listán? | 명단에서 어느 줄을 보셨어요? | sor = 줄 | emotion=neutral
+A | Ezt, a harmadikat. | 이거요, 세 번째 줄. | harmadik = 세 번째 | emotion=polite
+C | Az a szomszédja. Ön a negyedik sorban van: ötös. | 그건 옆 사람이에요. {name} 씨는 네 번째 줄, 5점이에요. | ötös = 5점(최고 점수) | emotion=amused+gentle
+A | Tényleg ötös? Köszönöm szépen! | 정말 5점이요? 정말 감사합니다! | tényleg = 정말 | emotion=excited
+B | Na? Mi volt? | 어때? 어떻게 됐어? | mi volt? = 어땠어? | emotion=worried
+A | Ötös lett! Csak rossz sort néztem. | 5점이었어! 그냥 엉뚱한 줄을 봤던 거야. | rossz sor = 잘못된 줄 | emotion=excited
 
 === r3_study_b4
 kind: long
-title: 옥상의 시험 한 문제
+title: 시험 전날 밤 공부방
 emoji: 🌙
-scene: 어학 과정 마지막 날 밤, 기숙사 옥상. A 는 모레 {country} 로 돌아간다. Anna 가 스케치북을 들고 올라왔다
+scene: 시험 전날 자정, 기숙사 공부방. Anna 가 차를 들고 와서 서로 문제를 내 준다
 b: Anna
 register: casual
 twist: 15 emotion
 flags: romance
 purpose: study_abroad love
-goal: 동사 활용 -lek 과 헤어짐 앞에서 하는 말
-expressions: Tudom; Na jó; Várj; Tényleg; Nézd; ugye
-B | Hideg van itt fent. Miért nem maradsz bent? | 위는 춥다. 왜 안에 안 있어? | fent = 위에, bent = 안에
-A | Utoljára akarom látni a várost. Holnapután már nem leszek itt. | 마지막으로 도시를 보고 싶어서. 모레면 난 여기 없잖아. | holnapután = 모레
-B | Tudom. Összepakoltál már? | 알아. 짐은 다 쌌어? | összepakol = 짐을 싸다
-A | Igen, a szótárt itt hagyom neked. Már tudom a ragokat. | 응, 사전은 너한테 두고 갈게. 이제 격 어미 다 알아. | szótár = 사전
-B | Mindet? Na jó, akkor egy kis vizsga: szeret, én téged. | 전부? 그래, 그럼 시험 한 문제. 「사랑하다」, 내가 너를. | téged = 너를
-A | Várj, ez könnyű. Szeretlek. | 잠깐, 이건 쉽지. 사랑해. | szeretlek = 내가 너를 사랑한다(-lek)
-B | Jó. Még egyszer, lassabban. | 좋아. 한 번 더, 천천히. | lassabban = 더 천천히
-A | Anna... ez most tényleg vizsga? | 언너… 이거 진짜 시험이야? | tényleg = 정말
-B | Nem tudom. Te mondd meg. | 몰라. 네가 말해 봐. | mondd meg = 말해 줘
-A | Szeretlek. És ez nem nyelvtan. | 사랑해. 이건 문법 아니야. | nyelvtan = 문법
-B | Ötös. | 5점. | ötös = 5점(최고 점수)
-A | De holnapután megyek. {country} nagyon messze van. | 근데 나 모레 가. {country}, 너무 멀어. | messze = 멀리
-B | Tudom. Nézd, a vázlatfüzetem, neked adom. | 알아. 봐, 내 스케치북, 너 줄게. | vázlatfüzet = 스케치북
-A | Mi ez a papír a lapok között? | 페이지 사이에 이 종이는 뭐야? | között = 사이에
-B | Repülőjegy, júniusra. Ott is vannak múzeumok, ugye? | 비행기표, 6월 거. 거기도 미술관 있지? | júniusra = 6월로
+goal: 밤샘 공부하며 문제 내 주기(Kikérdezel? · Hánykor van a vizsgád?)
+expressions: Na; Jaj; Szerintem; Rendben
+B | Még fent vagy? Már éjfél van. | 아직 안 자? 벌써 자정이야. | fent vagy = 깨어 있다 | emotion=surprised
+A | Holnap vizsgázom. Még két fejezet van hátra. | 내일 시험이야. 아직 두 장 남았어. | hátra van = 남아 있다 | emotion=worried
+B | Én is. Hoztam teát, kérsz? | 나도. 차 가져왔는데, 마실래? | kérsz? = 마실래? | emotion=gentle
+A | Köszi, jólesik. Milyen tea ez? | 고마워, 딱 좋다. 이거 무슨 차야? | jólesik = 반갑다, 기분 좋다 | emotion=cheerful
+B | Kamilla. Állítólag nyugtat, de nem altat. | 캐모마일. 마음은 진정되는데 잠은 안 온대. | állítólag = ~라고들 한다 | emotion=amused
+A | Kikérdezel? Itt vannak a kérdések. | 문제 좀 내 줄래? 여기 질문들이야. | kikérdez = 물어보며 점검하다 | emotion=cheerful
+B | Na, lássuk. Mikor egyesült Budapest? | 자, 보자. 부다페스트는 언제 합쳐졌어? | egyesült = 하나로 합쳐졌다 | emotion=teasing
+A | Ezernyolcszázhetvenháromban. Buda, Pest és Óbuda. | 1873년에. 부다, 페스트, 오부다. | -ban = ~년에 | emotion=excited
+B | Ügyes! Jaj, bocsi, ásítok. | 잘했어! 아, 미안, 하품 나와. | ásítok = 하품한다 | emotion=cheerful+shy
+A | Szerintem a kamilla mégis altat. | 아무래도 캐모마일이 잠 오게 하나 봐. | mégis = 그래도 결국 | emotion=teasing
+B | Lehet. Még tíz kérdés, aztán alszunk. | 그럴지도. 열 문제만 더 하고 자자. | lehet = 그럴 수도 | emotion=gentle
+A | Rendben. Holnap hánykor van a vizsgád? | 좋아. 내일 시험 몇 시야? | hánykor = 몇 시에 | emotion=cheerful
+B | Kilenckor. A tiéd? | 아홉 시. 네 건? | a tiéd = 네 것 | emotion=neutral
+A | Tízkor. Utána együtt ebédelünk? | 열 시. 끝나고 같이 점심 먹을까? | utána = 그 후에 | emotion=shy
+B | Igen. Ha ötös lesz, meghívlak. Ha nem, akkor is. | 응. 5점 나오면 내가 살게. 안 나와도 살 거고. | meghívlak = 너를 초대한다(-lak) | emotion=gentle+shy+shy
 
 === r3_study_c1
 kind: chat
-title: 답 없는 교수님
+title: 교수님 호칭
 emoji: 📩
-scene: 코바치 교수에게 시험 날짜를 물었다. 읽음 표시는 뜨는데 답이 없다. 메시지만 길어진다
+scene: 학교 메신저로 지도 교수에게 논문 면담을 신청한다. 시스템에는 「Dr. Kovács G.」 라고만 나온다
 b: Kovács
 register: chat
-twist: 12 ignore
+twist: 8 slip
 purpose: study_abroad
-goal: 격식 있게 재촉하기(조건법 lenne, 존댓말 명령형)
-expressions: Tisztelt; Elnézést; Tudom; Szerintem; Sajnos; Mindegy; Úristen
-A | Tisztelt Professzor Úr! Mikor lesz a vizsga? | 존경하는 교수님께! 시험이 언제인가요? | mikor = 언제 | at=09:00
-A | Elnézést, újra én vagyok. Megkapta az üzenetemet? | 죄송합니다, 또 저입니다. 제 메시지 받으셨나요? | újra = 다시 | at=12:30
-A | A dátum sajnos nagyon fontos lenne nekem. | 날짜가 제게 아주 중요해서요. | lenne = ~일 텐데(조건법) | at=15:10
-A | Tudom, hogy sok a dolga, de egy szó is elég lenne. | 바쁘신 건 알지만, 한마디만 주셔도 충분합니다. | elég = 충분한 | at=18:45
-A | Ha nem írhat, kérem, küldjön egy pontot. | 쓰기 어려우시면 마침표 하나만 보내 주세요. | pont = 점, 마침표 | at=20:20
-A | A dolgozatom is kész, ha ez érdekli. | 제 보고서도 끝났습니다, 궁금하시면요. | érdekli = 관심 있으시다 | at=21:05
-A | Szerintem látta az üzeneteimet, mert a rendszer azt mutatja: olvasva. | 제 메시지를 보신 것 같습니다, 시스템에 「읽음」이라고 나와서요. | olvasva = 읽음 | at=21:40
-A | Ha egy szót sem ír, azt fogom gondolni, hogy rosszul írtam valamit. | 한마디도 없으시면 제가 뭔가 잘못 썼다고 생각하겠습니다. | azt fogom gondolni = 그렇게 생각할 것이다 | at=22:15
-A | Professzor Úr, él még? Bocsánat, ezt nem akartam elküldeni. | 교수님, 살아 계세요? 죄송합니다, 이건 보내려던 게 아닙니다. | él = 살아 있다 | at=23:02
-A | Ha a múltkori puszi miatt haragszik, azt Réka írta. | 지난번 「쪽」 때문에 화나신 거라면, 그건 레카가 쓴 겁니다. | haragszik = 화나 있다 | at=23:30
-A | Úristen. Mindegy, jó éjszakát, holnap is írok. | 세상에. 아무튼 안녕히 주무세요, 내일도 쓰겠습니다. | jó éjszakát = 안녕히 주무세요 | at=23:58
-B | Kedves {name}! Mind a tizenegyet elolvastam. | {name} 씨! 열한 통 다 읽었습니다. | mind a tizenegyet = 열한 개 전부를 | at=00:10
-B | Szándékosan nem válaszoltam: egyre jobban írt magyarul. | 일부러 답을 안 했어요. 갈수록 헝가리어를 잘 쓰시더군요. | szándékosan = 일부러 | at=00:10
-B | A feltételes mód már szinte tökéletes. | 조건법은 이제 거의 완벽합니다. | feltételes mód = 조건법 | at=00:11
-A | És a vizsga mikor lesz? | 그럼 시험은 언제인가요? | vizsga = 시험 | at=00:11
-B | Ez volt a vizsga, ötös. Puszi, Kovács | 이게 시험이었습니다, 5점. 쪽, 코바치 | ötös = 5점(최고 점수) | at=00:12 stamp=😇
+goal: 격식 있게 면담 시간 잡기(időpontot kérni · jó Önnek? · Ott leszek)와 호칭
+expressions: Elnézést; Rendben; Úristen; Semmi baj
+A | Tisztelt Professzor Asszony! Szeretnék időpontot kérni konzultációra. | 존경하는 (여)교수님께! 면담 시간을 요청드리고 싶습니다. | időpont = 약속 시간 | emotion=polite at=09:12
+A | A szakdolgozatom témájáról szeretnék beszélni. | 제 졸업 논문 주제에 대해 말씀드리고 싶습니다. | szakdolgozat = 졸업 논문 | emotion=stiff at=09:13
+B | Jó napot! Szerdán tízkor vagy csütörtökön kettőkor jó Önnek? | 안녕하세요! 수요일 10시나 목요일 2시 괜찮으세요? | Önnek = 당신에게(존댓말) | emotion=polite at=11:40
+A | Köszönöm, a csütörtök kettő tökéletes! | 감사합니다, 목요일 2시가 딱 좋습니다! | tökéletes = 완벽한 | emotion=cheerful at=11:42
+B | Rendben. A 312-es irodában leszek. | 좋습니다. 312호 연구실에 있겠습니다. | iroda = 사무실, 연구실 | emotion=polite at=11:45
+A | Köszönöm szépen, Professzor Asszony! Ott leszek. | 정말 감사합니다, 교수님! 가겠습니다. | ott leszek = 가겠다 | emotion=cheerful at=11:46
+B | Még valami. | 하나 더요. | még valami = 하나 더 | emotion=neutral at=11:50
+B | Professzor úr vagyok, nem asszony. Kovács Gábor. 🙂 | 저는 「여」교수가 아니라 남자입니다. 코바치 가보르예요. 🙂 | Gábor = 남자 이름 | emotion=amused at=11:50
+A | Úristen, elnézést! A rendszerben csak annyi áll: Dr. Kovács G. | 세상에, 죄송합니다! 시스템에는 「Dr. Kovács G.」라고만 나와서요. | annyi áll = 그만큼만 적혀 있다 | emotion=flustered at=11:52
+B | Semmi baj. Néztek már Gizellának is. | 괜찮아요. 기젤라로 착각한 사람도 있었어요. | néz vminek = ~로 착각하다 | emotion=amused at=11:55
+A | Akkor csütörtökön kettőkor, Professzor Úr. Most már biztosan. | 그럼 목요일 2시에 뵙겠습니다, 교수님. 이번엔 확실히요. | biztosan = 확실히 | emotion=shy at=11:56
+B | Várom. És hozza a témavázlatot is! | 기다리겠습니다. 주제 개요도 가져오세요! | témavázlat = 주제 개요 | emotion=gentle at=11:57
+A | Hozom. Ezúttal a helyes megszólítással. 😅 | 가져가겠습니다. 이번엔 호칭도 제대로요. 😅 | megszólítás = 호칭 | emotion=amused at=11:58 stamp=😅

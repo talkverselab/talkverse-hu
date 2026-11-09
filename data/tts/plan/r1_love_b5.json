@@ -8,69 +8,69 @@
 "1": {
 "segs": [
 [
-"annoyed",
-"Ki rajzolt szívet a kávédba?"
+"cheerful",
+"Szia! Mit kérsz ma?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Bence. Mindenkinek rajzol, ez a munkája."
+"polite",
+"Egy kapucsínót, légyszi."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"annoyed",
-"Nekem soha nem rajzol szívet."
-],
-[
-"shout",
-"Bence!"
+"cheerful",
+"És a barátnőd mit kér?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Tessék, Anna. Mit kérsz?"
+"flustered",
+"Izé... nem a barátnőm. Csak...",
+"Izé, nem a barátnőm. Csak"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"stiff",
-"Figyelj: mostantól a kávéjába én rajzolok."
+"flustered",
+"Bocsi, félreértettem."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Jól van, tessék, itt a tej."
+"shy",
+"Semmi baj. Még nem."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Anna, ez szív vagy krumpli?"
+"surprised",
+"Még?"
+],
+[
+"flustered",
+"Mit jelent az, hogy még?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shy",
-"Hát... te melyiket szeretnéd?",
-"Hát, te melyiket szeretnéd?"
+"teasing",
+"Egy citromos teát kérek, Bence."
 ]
 ]
 }

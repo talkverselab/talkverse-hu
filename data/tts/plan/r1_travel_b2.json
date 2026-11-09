@@ -8,67 +8,63 @@
 "segs": [
 [
 "polite",
-"Jó estét! Mit hozhatok?"
+"Jó napot! Mit hozhatok?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Egy pincért kérek, nokedlivel és tejföllel."
+"polite",
+"Egy gulyáslevest kérek."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Egy pincért? Nokedlivel?"
+"polite",
+"Nagy adag vagy kicsi? Kenyeret is kér?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"excited",
-"Igen! Nagyon finom, ugye?"
+"flustered",
+"Igen, igen."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Hát, ezt még senki nem mondta."
-],
-[
 "polite",
-"Pörköltet kér?"
+"Nagy adag kenyérrel. Inni is kér valamit?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Jaj, igen, pörköltet!"
-],
-[
-"neutral",
-"És mi a pincér?"
+"shy",
+"Igen, köszönöm."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Én vagyok az."
-],
+"cheerful",
+"És desszertnek egy palacsintát?"
+]
+]
+},
+"8": {
+"segs": [
 [
-"teasing",
-"De tejföl nélkül olcsóbb vagyok."
+"flustered",
+"Jaj, várjon! Mit rendeltem eddig?"
 ]
 ]
 }

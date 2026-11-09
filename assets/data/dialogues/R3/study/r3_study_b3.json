@@ -10,9 +10,9 @@
  "domain": [
   "study"
  ],
- "title": "감자 발표",
- "emoji": "🥔",
- "scene": "미술사 수업 발표 날. Anna 의 컴퓨터에서 복사해 온 파일을 열었더니 슬라이드 대신 감자 그림이 떴다",
+ "title": "교수님 면담 시간",
+ "emoji": "🎓",
+ "scene": "보고서 점수가 3점이라 교수님 면담 시간에 찾아간다. Anna 가 문 앞에서 기다려 준다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
@@ -20,165 +20,137 @@
  },
  "register": "mixed",
  "twist": 13,
- "twist_type": "chaos",
+ "twist_type": "reveal",
  "flags": [],
- "goal": "발표 말(Nézzük az első képet!)과 즉흥으로 이어 가기",
+ "goal": "면담에서 점수 묻기(A dolgozatomról szeretnék kérdezni · Miben segíthetek?)",
  "expressions": [
-  "Nyugi",
-  "ugye",
-  "Tessék",
-  "Jaj",
-  "izé",
-  "Te jó ég"
+  "Légyszi",
+  "Egy pillanat",
+  "Szerintem",
+  "Tényleg"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Anna, segítesz? Öt perc múlva kezdem az előadást, és remeg a kezem.",
-   "rd": "언너, 세기테쓰? 외트 페르츠 물버 케즈뎀 어즈 엘뢰어다슈트, 에시 레멕 어 케젬.",
-   "ko": "언너, 도와줄래? 5분 뒤에 발표 시작인데 손이 떨려.",
-   "note": "remeg = 떨린다",
+   "speaker": "B",
+   "hu": "Ideges vagy?",
+   "rd": "이데게시 버지?",
+   "ko": "긴장돼?",
+   "note": "ideges = 긴장한, 초조한",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Anna",
-     "anna",
-     ""
-    ],
-    [
-     "segítesz",
-     "segít",
-     "셰기트"
-    ],
-    [
-     "perc",
-     "perc",
-     "페르츠"
-    ],
-    [
-     "kezdem",
-     "kezd",
-     "케즈드"
-    ],
-    [
-     "előadást",
-     "előadás",
-     ""
-    ],
-    [
-     "remeg",
-     "remeg",
-     ""
-    ],
-    [
-     "kezem",
-     "kéz",
-     "케즈"
+     "Ideges",
+     "ideges",
+     "이데게시"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Nyugi, jó lesz. A gépen van a fájl, ugye?",
-   "rd": "뉴기, 요 레쓰. 어 게펜 번 어 파일, 우제?",
-   "ko": "진정해, 잘될 거야. 파일 컴퓨터에 있지?",
-   "note": "nyugi = 진정해",
-   "tags": [
-    "expr:Nyugi",
-    "expr:ugye"
-   ],
-   "emotion": "gentle",
+   "speaker": "A",
+   "hu": "Egy kicsit. Hármas lett a dolgozatom, és nem értem, miért.",
+   "rd": "에지 키치트. 하르머시 레트 어 돌고저톰, 에시 넴 에르템, 미에르트.",
+   "ko": "조금. 보고서가 3점인데 왜인지 모르겠어.",
+   "note": "hármas = 3점",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Nyugi",
-     "nyugi",
-     "니우기"
+     "kicsit",
+     "kicsi",
+     "키치"
     ],
     [
-     "jó",
-     "jó",
-     "요"
-    ],
-    [
-     "lesz",
+     "lett",
      "lesz",
      "레쓰"
     ],
     [
-     "gépen",
-     "gépe",
+     "dolgozatom",
+     "dolgozat",
      ""
     ],
     [
-     "van",
-     "van",
-     "번"
+     "értem",
+     "ért",
+     "에르트"
     ],
     [
-     "fájl",
-     "fájl",
-     ""
+     "miért",
+     "miért",
+     "미에르트"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Igen, tegnap a te gépedről másoltam át.",
-   "rd": "이겐, 텍너프 어 테 게페드뢸 마숄텀 아트.",
-   "ko": "응, 어제 네 컴퓨터에서 복사했어.",
-   "note": "másoltam át = 옮겨 복사했다",
+   "speaker": "B",
+   "hu": "Kérdezd meg nyugodtan. A professzor kedves, csak szigorú.",
+   "rd": "케르데즈드 멕 뉴고드턴. 어 프로페쏘르 케드베시, 척 씨고루.",
+   "ko": "편하게 물어봐. 교수님 친절해, 엄격할 뿐이지.",
+   "note": "szigorú = 엄격한",
    "tags": [],
-   "emotion": "neutral",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Kérdezd",
+     "kérdez",
+     "케르데즈"
     ],
     [
-     "tegnap",
-     "tegnap",
-     "테그너프"
+     "nyugodtan",
+     "nyugodt",
+     "뉴고트"
     ],
     [
-     "gépedről",
-     "gépedről",
+     "professzor",
+     "professzor",
      ""
     ],
     [
-     "másoltam",
-     "másolt",
-     ""
+     "kedves",
+     "kedves",
+     "케드베슈"
     ],
     [
-     "át",
-     "át",
-     "아트"
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "szigorú",
+     "szigorú",
+     ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Az én gépemről? Várj, melyik mappából?",
-   "rd": "어즈 엔 게펨뢸? 바르이, 메익 머빠볼?",
-   "ko": "내 컴퓨터에서? 잠깐, 어느 폴더에서?",
-   "note": "mappa = 폴더",
-   "tags": [],
+   "speaker": "A",
+   "hu": "Jó, bemegyek. Várj meg, légyszi!",
+   "rd": "요, 베메젝. 바르이 멕, 레지씨!",
+   "ko": "알았어, 들어간다. 기다려 줘, 제발!",
+   "note": "várj meg = 기다려 줘",
+   "tags": [
+    "expr:Légyszi"
+   ],
    "emotion": "worried",
    "lemmas": [
     [
-     "gépemről",
-     "gépem",
-     ""
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "mappából",
-     "mappából",
+     "bemegyek",
+     "bemegy",
+     "베메지"
+    ],
+    [
+     "légyszi",
+     "légyszi",
      ""
     ]
    ]
@@ -186,424 +158,349 @@
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Tessék, {name}, kezdheti. Mi a téma?",
-   "rd": "테쎅, {name}, 케즈드헤티. 미 어 테머?",
-   "ko": "네, {name} 씨, 시작하세요. 주제가 뭐죠?",
-   "note": "kezdheti = 시작해도 됩니다",
-   "tags": [
-    "expr:Tessék"
-   ],
+   "hu": "Jöjjön be! Miben segíthetek?",
+   "rd": "요왼 베! 미벤 세기트헤텍?",
+   "ko": "들어오세요! 무엇을 도와드릴까요?",
+   "note": "miben = 무엇에서",
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
+     "Jöjjön",
+     "jön",
+     "왼"
     ],
     [
-     "kezdheti",
-     "kezdhet",
-     ""
+     "be",
+     "be",
+     "베"
     ],
     [
-     "téma",
-     "téma",
-     ""
+     "segíthetek",
+     "segít",
+     "셰기트"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "A téma a modern magyar festészet. Nézzük az első képet!",
-   "rd": "어 테머 어 모데른 머져르 페슈테쎄트. 네쥑 어즈 엘쇠 케페트!",
-   "ko": "주제는 현대 헝가리 회화입니다. 첫 그림을 보시죠!",
-   "note": "festészet = 회화",
+   "hu": "Jó napot, Professzor Úr. A dolgozatomról szeretnék kérdezni.",
+   "rd": "요 너포트, 프로페쏘르 우르. 어 돌고저톰롤 쎄레트넥 케르데즈니.",
+   "ko": "안녕하세요, 교수님. 제 보고서에 대해 여쭙고 싶어서요.",
+   "note": "dolgozat = 보고서",
    "tags": [],
-   "emotion": "stiff",
+   "emotion": "polite",
    "lemmas": [
     [
-     "téma",
-     "téma",
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "dolgozatomról",
+     "dolgozat",
      ""
     ],
     [
-     "modern",
-     "modern",
-     ""
+     "szeretnék",
+     "szeret",
+     "쎄레트"
     ],
     [
-     "magyar",
-     "magyar",
-     ""
-    ],
-    [
-     "festészet",
-     "festészet",
-     ""
-    ],
-    [
-     "képet",
-     "képe",
-     ""
+     "kérdezni",
+     "kérdez",
+     "케르데즈"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Jaj, ne! Te jó ég, ez az én krumplim!",
-   "rd": "여이, 네! 테 요 엑, 에즈 어즈 엔 크룸플림!",
-   "ko": "아이고, 안 돼! 맙소사, 이거 내 감자야!",
-   "note": "krumplim = 내 감자",
-   "tags": [
-    "expr:Jaj",
-    "expr:Te jó ég"
-   ],
-   "emotion": "flustered",
+   "speaker": "C",
+   "hu": "Persze. Mi a probléma?",
+   "rd": "페르쎄. 미 어 프로블레머?",
+   "ko": "그럼요. 뭐가 문제죠?",
+   "note": "probléma = 문제",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "jó",
-     "jó",
-     "요"
-    ],
-    [
-     "ég",
-     "ég",
-     "에그"
-    ],
-    [
-     "krumplim",
-     "krumplim",
-     ""
+     "probléma",
+     "probléma",
+     "프로블레머"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "C",
-   "hu": "Krumpli? Folytassa, kérem.",
-   "rd": "크룸플리? 포이터쎠, 케렘.",
-   "ko": "감자요? 계속하세요.",
-   "note": "folytassa = 계속하세요",
+   "speaker": "A",
+   "hu": "A listán hármas áll a nevem mellett.",
+   "rd": "어 리슈탄 하르머시 알 어 네벰 멜레트.",
+   "ko": "명단에 제 이름 옆에 3점이라고 적혀 있어서요.",
+   "note": "áll = (적혀) 있다",
    "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Krumpli?"
-    ],
-    [
-     "polite",
-     "Folytassa, kérem."
-    ]
-   ],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Krumpli",
-     "krumpli",
+     "listán",
+     "lista",
+     "리슈터"
+    ],
+    [
+     "hármas",
+     "hármas",
      ""
     ],
     [
-     "kérem",
-     "kér",
-     "께르"
+     "áll",
+     "áll",
+     "알"
+    ],
+    [
+     "nevem",
+     "név",
+     "네브"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "A",
-   "hu": "Igen, izé, a krumpli a magyar lélek. Egyszerű, de mindenhol ott van.",
-   "rd": "이겐, 이제, 어 크룸플리 어 머져르 렐렉. 에지쎄뤼, 데 민덴홀 오트 번.",
-   "ko": "네, 저, 감자는 헝가리의 영혼입니다. 소박하지만 어디에나 있지요.",
-   "note": "lélek = 영혼",
+   "speaker": "C",
+   "hu": "Hármas? Egy pillanat, megnézem.",
+   "rd": "하르머시? 에지 필러너트, 멕네젬.",
+   "ko": "3점이요? 잠깐만요, 볼게요.",
+   "note": "egy pillanat = 잠깐만요",
    "tags": [
-    "expr:izé"
+    "expr:Egy pillanat"
    ],
-   "emotion": "flustered",
-   "segs": [
-    [
-     "flustered",
-     "Igen, izé, a krumpli a magyar lélek."
-    ],
-    [
-     "stiff",
-     "Egyszerű, de mindenhol ott van."
-    ]
-   ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "izé",
-     "izé",
+     "Hármas",
+     "hármas",
      ""
     ],
     [
-     "krumpli",
-     "krumpli",
-     ""
+     "pillanat",
+     "pillanat",
+     "필러넛"
     ],
     [
-     "magyar",
-     "magyar",
-     ""
-    ],
-    [
-     "lélek",
-     "lélek",
-     "레렉"
-    ],
-    [
-     "mindenhol",
-     "mindenhol",
-     ""
-    ],
-    [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "megnézem",
+     "megnéz",
+     "메그네즈"
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "C",
-   "hu": "Érdekes! És a következő képen?",
-   "rd": "에르데케시! 에시 어 쾨베트케죄 케펜?",
-   "ko": "흥미롭네요! 다음 그림은요?",
-   "note": "következő = 다음",
-   "tags": [],
-   "emotion": "cheerful",
+   "speaker": "A",
+   "hu": "Szerintem a ragok miatt. Mindig rosszul rakom őket.",
+   "rd": "쎄린템 어 러곡 미어트. 민딕 로쑬 러콤 외케트.",
+   "ko": "제 생각엔 격 어미 때문이에요. 늘 틀리게 붙여요.",
+   "note": "rag = 격 어미",
+   "tags": [
+    "expr:Szerintem"
+   ],
+   "emotion": "sad",
    "lemmas": [
     [
-     "Érdekes",
-     "érdekes",
-     "에르데케시"
-    ],
-    [
-     "következő",
-     "következik",
-     "쾨베트케지크"
-    ],
-    [
-     "képen",
-     "képe",
+     "ragok",
+     "rag",
      ""
+    ],
+    [
+     "rosszul",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "rakom",
+     "rak",
+     "러크"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "Az is krumpli. De nézzék: ez már szomorú krumpli.",
-   "rd": "어즈 이시 크룸플리. 데 네젝: 에즈 마르 쏘모루 크룸플리.",
-   "ko": "그것도 감자입니다. 하지만 보세요, 이건 슬픈 감자입니다.",
-   "note": "nézzék = 보세요(여러분, 존댓말)",
+   "speaker": "C",
+   "hu": "Melyik sort nézte a listán?",
+   "rd": "메익 쇼르트 네즈테 어 리슈탄?",
+   "ko": "명단에서 어느 줄을 보셨어요?",
+   "note": "sor = 줄",
    "tags": [],
-   "emotion": "stiff",
-   "segs": [
-    [
-     "stiff",
-     "Az is krumpli."
-    ],
-    [
-     "sad",
-     "De nézzék: ez már szomorú krumpli."
-    ]
-   ],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "krumpli",
-     "krumpli",
-     ""
+     "sort",
+     "sor",
+     "쇼르"
     ],
     [
-     "nézzék",
+     "nézte",
      "néz",
      "네즈"
     ],
     [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "szomorú",
-     "szomorú",
-     "쏘모루"
+     "listán",
+     "lista",
+     "리슈터"
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "C",
-   "hu": "Zseniális! Harminc éve tanítok, de ilyet még nem láttam.",
-   "rd": "제니알리시! 허르민츠 에베 터니톡, 데 이예트 멕 넴 라떰.",
-   "ko": "천재적이에요! 30년을 가르쳤지만 이런 건 처음 봅니다.",
-   "note": "zseniális = 천재적인",
+   "speaker": "A",
+   "hu": "Ezt, a harmadikat.",
+   "rd": "에즈트, 어 허르머디커트.",
+   "ko": "이거요, 세 번째 줄.",
+   "note": "harmadik = 세 번째",
    "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Zseniális",
-     "zseniális",
-     ""
-    ],
-    [
-     "éve",
-     "év",
-     "에브"
-    ],
-    [
-     "tanítok",
-     "tanít",
-     "터니트"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "láttam",
-     "lát",
-     "라트"
-    ]
-   ]
+   "emotion": "polite",
+   "lemmas": []
   },
   {
    "num": 13,
    "speaker": "C",
-   "hu": "Szeptemberben Bécsben konferencia lesz. Ezt ott is elő kell adnia.",
-   "rd": "쎄프템베르벤 베치벤 콘페렌치어 레쓰. 에즈트 오트 이시 엘뢰 켈 어드니어.",
-   "ko": "9월에 빈에서 학회가 있어요. 거기서도 발표해야겠습니다.",
-   "note": "elő kell adnia = 발표해야 한다",
+   "hu": "Az a szomszédja. Ön a negyedik sorban van: ötös.",
+   "rd": "어즈 어 쏨쎄드여. 왼 어 네제딕 쇼르번 번: 외퇴시.",
+   "ko": "그건 옆 사람이에요. {name} 씨는 네 번째 줄, 5점이에요.",
+   "note": "ötös = 5점(최고 점수)",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Az a szomszédja."
+    ],
+    [
+     "gentle",
+     "Ön a negyedik sorban van: ötös."
+    ]
+   ],
    "lemmas": [
     [
-     "Szeptemberben",
-     "szeptember",
+     "szomszédja",
+     "szomszéd",
+     "쏨세드"
+    ],
+    [
+     "negyedik",
+     "negyedik",
      ""
     ],
     [
-     "konferencia",
-     "konferencia",
+     "sorban",
+     "sor",
+     "쇼르"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "ötös",
+     "ötös",
      ""
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "elő",
-     "elő",
-     "엘뢰"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "adnia",
-     "ad",
-     "어드"
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "A",
-   "hu": "Bécsben, krumpliról? Anna, most mit csináljak?",
-   "rd": "베치벤, 크룸플리롤? 언너, 모슈트 미트 치날역?",
-   "ko": "빈에서, 감자로? 언너, 나 이제 어떡해?",
-   "note": "mit csináljak? = 뭘 해야 하지?",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Bécsben, krumpliról?"
-    ],
-    [
-     "worried",
-     "Anna, most mit csináljak?"
-    ]
+   "hu": "Tényleg ötös? Köszönöm szépen!",
+   "rd": "테닐렉 외퇴시? 쾨쐬뇜 쎄펜!",
+   "ko": "정말 5점이요? 정말 감사합니다!",
+   "note": "tényleg = 정말",
+   "tags": [
+    "expr:Tényleg"
    ],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Bécsben",
-     "bécs",
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "ötös",
+     "ötös",
      ""
     ],
     [
-     "krumpliról",
-     "krumpli",
-     ""
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "csináljak",
-     "csinál",
-     "치날"
+     "szépen",
+     "szép",
+     "쎕"
     ]
    ]
   },
   {
    "num": 15,
    "speaker": "B",
-   "hu": "Semmit. Már beírtam a nevem: én vagyok a társszerző.",
-   "rd": "셈미트. 마르 베이르텀 어 네벰: 엔 버죡 어 타르쎄르죄.",
-   "ko": "아무것도. 내 이름 벌써 써 놨어, 내가 공동 저자야.",
-   "note": "társszerző = 공동 저자",
+   "hu": "Na? Mi volt?",
+   "rd": "너? 미 볼트?",
+   "ko": "어때? 어떻게 됐어?",
+   "note": "mi volt? = 어땠어?",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "worried",
    "lemmas": [
     [
-     "beírtam",
-     "beír",
-     ""
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "nevem",
-     "név",
-     "네브"
-    ],
-    [
-     "vagyok",
+     "volt",
      "van",
      "번"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "hu": "Ötös lett! Csak rossz sort néztem.",
+   "rd": "외퇴시 레트! 척 로쓰 쇼르트 네즈템.",
+   "ko": "5점이었어! 그냥 엉뚱한 줄을 봤던 거야.",
+   "note": "rossz sor = 잘못된 줄",
+   "tags": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Ötös",
+     "ötös",
+     ""
     ],
     [
-     "társszerző",
-     "társszerző",
-     ""
+     "lett",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "rossz",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "sort",
+     "sor",
+     "쇼르"
+    ],
+    [
+     "néztem",
+     "néz",
+     "네즈"
     ]
    ]
   }

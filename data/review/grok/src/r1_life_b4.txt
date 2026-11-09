@@ -1,18 +1,19 @@
 === r1_life_b4
 kind: long
-title: 8시 반은 7시 반
-emoji: 🕢
-scene: 병원 접수처. fél nyolc 를 8시 반으로 알고 한 시간 늦게 왔다
+title: 진료 예약 전화
+emoji: ☎️
+scene: 병원에 전화해서 진료 예약을 잡는다. 접수 직원이 이름 철자를 불러 달라고 한다
 b: Asszisztens
 register: polite
-twist: 4 slip
+twist: 7 reveal
 purpose: study_abroad
-goal: 시각 말하기 fél·negyed·háromnegyed
-expressions: Jó napot; Hát; Kérem
-A | Jó napot! Fél nyolcra jöttem az orvoshoz. | 안녕하세요! 「반 여덟 시」로 진료 왔어요. | fél nyolc = 7시 반(8시로 가는 중의 반) | emotion=polite
-B | Fél nyolcra? Most fél kilenc van! | 「반 여덟 시」요? 지금 「반 아홉 시」예요! | fél kilenc = 8시 반 | emotion=surprised
-A | Igen, fél nyolc. Nyolc és fél, nem? | 네, 「반 여덟」이요. 8시 반 아니에요? | ..., nem? = ~지요? | emotion=worried
-B | Nem. A fél nyolc az hét harminc. | 아니요. 「반 여덟」은 7시 30분이에요. | hét harminc = 7시 30분 | emotion=polite
-A | Hét harminc? De ott van a nyolc! | 7시 30분요? 그런데 8이 들어 있잖아요! | de = 하지만 | emotion=surprised+tsukkomi
-B | Hát igen, ez magyar idő. Jöjjön holnap háromnegyed nyolcra! | 네, 이게 헝가리 시간이에요. 내일 「4분의 3 여덟 시」에 오세요! | háromnegyed nyolc = 7시 45분 | emotion=amused+polite
-A | Háromnegyed?! Kérem, mondja számmal! | 4분의 3이요?! 제발 숫자로 말해 주세요! | számmal = 숫자로 | emotion=surprised+worried
+goal: 전화로 예약하기(Időpontot szeretnék kérni)와 요일·시간
+expressions: Időpontot szeretnék; Megfelel; Legyen szíves
+B | Rendelő, jó napot kívánok! | 병원입니다, 안녕하세요! | rendelő = 진료소 | emotion=polite
+A | Jó napot! Időpontot szeretnék kérni. | 안녕하세요! 진료 예약하고 싶어요. | időpont = 약속 시간 | emotion=polite
+B | Csütörtök tíz óra megfelel? | 목요일 10시 괜찮으세요? | megfelel = 맞는다, 괜찮다 | emotion=polite
+A | Igen, megfelel. | 네, 괜찮아요. | igen = 네 | emotion=cheerful
+B | A neve? Betűzze, legyen szíves. | 성함이요? 철자 불러 주세요. | betűzze = 철자를 불러 주세요(Ön) | emotion=polite
+A | Hát, izé, nehéz. E-mailben megírhatom? | 음, 저기, 어려워요. 이메일로 보내도 될까요? | megírhatom = 써 보내도 된다 | emotion=flustered+polite
+B | Persze. Akkor betűzöm az e-mail címünket. | 그럼요. 그럼 저희 이메일 주소 철자를 불러 드릴게요. | betűzöm = 철자를 불러 드린다 | emotion=cheerful
+A | Jaj, ne! Inkább betűzöm a nevemet. | 아, 아니에요! 차라리 제 이름 철자 부를게요. | inkább = 차라리 | emotion=flustered+amused

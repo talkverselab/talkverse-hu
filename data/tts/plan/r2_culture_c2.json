@@ -9,33 +9,33 @@
 "segs": [
 [
 "excited",
-"Kész az új rajzom! Mit szóltok? 🎨",
-"Kész az új rajzom! Mit szóltok?"
+"Ma írtam az első magyar posztomat! 📝",
+"Ma írtam az első magyar posztomat!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"excited",
-"Hű, nagyon tetszel!"
+"cheerful",
+"Láttam! Nagyon ügyes vagy. 👏",
+"Láttam! Nagyon ügyes vagy."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"amused",
-"Úristen, {name}! Ezt mindenki látja! 😂",
-"Úristen, {name}! Ezt mindenki látja!"
+"worried",
+"Volt benne hiba? Őszintén."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Mi van? Mit írtam?"
+"gentle",
+"Csak egy kicsi. Szerintem nem baj."
 ]
 ]
 },
@@ -43,48 +43,49 @@
 "segs": [
 [
 "teasing",
-"Olvasd el még egyszer. Lassan."
+"Egy? Inkább három. 😂",
+"Egy? Inkább három."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Jaj, ne! A rajz tetszik!"
+"annoyed",
+"Réka! Melyik három?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Bocsi, töröltem! Ez csak egy rag volt!"
+"amused",
+"„Budapestben” helyett „Budapesten”. Ez az első."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Anna látta. Sok sikert. 😇",
-"Anna látta. Sok sikert."
+"sad",
+"Jaj. És a másik kettő?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"worried",
-"Anna? Ott vagy?"
+"cheerful",
+"Majd holnap, egy kávé mellett. ☕",
+"Majd holnap, egy kávé mellett."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shy",
-"Itt vagyok. Csak olvastam, sokszor."
+"gentle",
+"Én is szívesen segítek. Csak szólj."
 ]
 ]
 },
@@ -92,7 +93,17 @@
 "segs": [
 [
 "gentle",
-"Kár, hogy törölted. Az első változat jobban tetszett."
+"Amúgy az utolsó mondatod volt a legszebb. 🙂",
+"Amúgy az utolsó mondatod volt a legszebb."
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Az, hogy „jó itt lenni”? Azt rád gondolva írtam. 😳",
+"Az, hogy „jó itt lenni”? Azt rád gondolva írtam."
 ]
 ]
 }

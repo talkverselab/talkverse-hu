@@ -10,32 +10,30 @@
  "domain": [
   "work"
  ],
- "title": "더운 날의 면접",
- "emoji": "🥵",
- "scene": "한여름 회사 면접. 에어컨이 고장 난 방에서 「덥다」고 말했는데 면접관의 표정이 묘하다",
+ "title": "사무직 면접",
+ "emoji": "💼",
+ "scene": "회사 사무직 면접. 대답은 잘 해 나가는데, 마지막 질문에서 동사 하나가 꼬인다",
  "speakers": {
   "A": "{name}",
   "B": "Igazgató"
  },
  "register": "polite",
- "twist": 8,
+ "twist": 12,
  "twist_type": "slip",
  "flags": [],
- "goal": "면접 질문에 답하기와 melegem van / meleg vagyok 구분",
+ "goal": "면접 질문에 답하기와 felvesz(채용하다) / felhív(전화하다) 구분",
  "expressions": [
   "Semmi baj",
-  "Szóval",
-  "Igazából",
-  "Tényleg",
-  "Várjon"
+  "Szerintem",
+  "Jaj"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó napot, foglaljon helyet! Sajnos ma nem működik a légkondi.",
-   "rd": "요 너포트, 폭럴욘 헤예트! 셔이노시 머 넴 뮈쾨딕 어 렉콘디.",
-   "ko": "안녕하세요, 앉으세요! 아쉽게도 오늘 에어컨이 안 돼요.",
+   "hu": "Jó napot! Foglaljon helyet. Kér egy pohár vizet?",
+   "rd": "요 너포트! 폭럴욘 헤예트. 케르 에지 포하르 비제트?",
+   "ko": "안녕하세요! 앉으세요. 물 한 잔 드릴까요?",
    "note": "foglaljon helyet = 앉으세요(격식)",
    "tags": [],
    "emotion": "polite",
@@ -51,490 +49,31 @@
      "넙"
     ],
     [
-     "foglaljon",
-     "foglal",
-     "포글럴"
-    ],
-    [
      "helyet",
      "hely",
      "헤이"
     ],
     [
-     "ma",
-     "ma",
-     "머"
-    ],
-    [
-     "működik",
-     "működik",
-     "뮈쾨딕"
-    ],
-    [
-     "légkondi",
-     "légkondi",
+     "pohár",
+     "pohár",
      ""
+    ],
+    [
+     "vizet",
+     "vize",
+     "비제"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Semmi baj. Köszönöm, hogy behívott.",
-   "rd": "셈미 버이. 쾨쐬뇜, 호지 베히보트.",
-   "ko": "괜찮습니다. 불러 주셔서 감사합니다.",
-   "note": "behívott = 불렀다",
-   "tags": [
-    "expr:Semmi baj"
-   ],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "baj",
-     "baj",
-     "버이"
-    ],
-    [
-     "behívott",
-     "behív",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Szóval, miért szeretne nálunk dolgozni?",
-   "rd": "쏘벌, 미에르트 쎄레트네 날룬크 돌고즈니?",
-   "ko": "그래서, 왜 저희 회사에서 일하고 싶으세요?",
-   "note": "nálunk = 우리 쪽에서",
-   "tags": [
-    "expr:Szóval"
-   ],
-   "emotion": "stiff",
-   "lemmas": [
-    [
-     "Szóval",
-     "szó",
-     "쏘"
-    ],
-    [
-     "miért",
-     "miért",
-     "미에르트"
-    ],
-    [
-     "szeretne",
-     "szeret",
-     "쎄레트"
-    ],
-    [
-     "dolgozni",
-     "dolgoz",
-     "돌고즈"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Mert szeretek emberekkel beszélni, és tavaly óta magyarul is tudok.",
-   "rd": "메르트 쎄레텍 엠베레껠 베쎌니, 에시 터버이 오터 머져룰 이시 투독.",
-   "ko": "사람들과 이야기하는 걸 좋아하고, 작년부터 헝가리어도 할 줄 알아서요.",
-   "note": "tavaly óta = 작년부터",
+   "hu": "Igen, köszönöm. Egy kicsit izgulok.",
+   "rd": "이겐, 쾨쐬뇜. 에지 키치트 이즈굴록.",
+   "ko": "네, 감사합니다. 조금 떨려서요.",
+   "note": "izgulok = 긴장된다",
    "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "szeretek",
-     "szeret",
-     "쎄레트"
-    ],
-    [
-     "emberekkel",
-     "ember",
-     "엠베르"
-    ],
-    [
-     "beszélni",
-     "beszél",
-     "베쎌"
-    ],
-    [
-     "tavaly",
-     "tavaly",
-     ""
-    ],
-    [
-     "magyarul",
-     "magyar",
-     ""
-    ],
-    [
-     "tudok",
-     "tud",
-     "투드"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Nagyszerű. Mi a legnagyobb gyengesége?",
-   "rd": "너지쎄뤼. 미 어 렉너죠브 젠게세게?",
-   "ko": "훌륭하네요. 가장 큰 약점이 뭔가요?",
-   "note": "gyengeség = 약점",
-   "tags": [],
-   "emotion": "stiff",
-   "lemmas": [
-    [
-     "Nagyszerű",
-     "nagyszerű",
-     "너지세뤼"
-    ],
-    [
-     "legnagyobb",
-     "nagy",
-     "너지"
-    ],
-    [
-     "gyengesége",
-     "gyengeség",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Hát, igazából a ragok. Néha rosszul mondom őket.",
-   "rd": "하트, 이거자볼 어 러곡. 네허 로쑬 몬돔 외케트.",
-   "ko": "음, 사실 격 어미요. 가끔 틀리게 말해요.",
-   "note": "rag = 격 어미",
-   "tags": [
-    "expr:Igazából"
-   ],
    "emotion": "shy",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "igazából",
-     "igaz",
-     "이거즈"
-    ],
-    [
-     "ragok",
-     "rag",
-     ""
-    ],
-    [
-     "rosszul",
-     "rossz",
-     "로쓰"
-    ],
-    [
-     "mondom",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Így is jól beszél. De piros az arca, minden rendben?",
-   "rd": "이지 이시 욜 베쎌. 데 피로시 어즈 어르처, 민덴 렌드벤?",
-   "ko": "그래도 잘하시는데요. 근데 얼굴이 빨개요, 괜찮으세요?",
-   "note": "minden rendben? = 다 괜찮아요?",
-   "tags": [],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Így is jól beszél."
-    ],
-    [
-     "worried",
-     "De piros az arca, minden rendben?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Így",
-     "így",
-     "이지"
-    ],
-    [
-     "jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "beszél",
-     "beszél",
-     "베쎌"
-    ],
-    [
-     "piros",
-     "piros",
-     ""
-    ],
-    [
-     "arca",
-     "arc",
-     "어르츠"
-    ],
-    [
-     "rendben",
-     "rend",
-     "렌드"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "hu": "Elnézést, nagyon meleg vagyok.",
-   "rd": "엘네제슈트, 너죤 멜렉 버죡.",
-   "ko": "죄송합니다, 저는 아주 게이입니다.(「덥다」고 말하려던 것)",
-   "note": "meleg vagyok = 나는 게이다(덥다는 melegem van)",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "meleg",
-     "meleg",
-     "멜레그"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "B",
-   "hu": "Ó, köszönöm, hogy elmondta. Nálunk ez nem probléma.",
-   "rd": "오, 쾨쐬뇜, 호지 엘몬드터. 날룬크 에즈 넴 프로블레머.",
-   "ko": "아, 말씀해 주셔서 감사합니다. 저희는 전혀 문제없습니다.",
-   "note": "elmondta = 말해 주었다",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Ó, köszönöm, hogy elmondta."
-    ],
-    [
-     "polite",
-     "Nálunk ez nem probléma."
-    ]
-   ],
-   "lemmas": [
-    [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
-    ],
-    [
-     "elmondta",
-     "elmond",
-     "엘몬드"
-    ],
-    [
-     "probléma",
-     "probléma",
-     "프로블레머"
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "A",
-   "hu": "Tényleg? Pedig reggel óta nagyon meleg vagyok, nyáron mindig.",
-   "rd": "테닐렉? 페딕 렉겔 오터 너죤 멜렉 버죡, 냐론 민딕.",
-   "ko": "정말요? 그런데 아침부터 아주 그래요, 여름엔 항상요.",
-   "note": "pedig = 그런데, 하지만",
-   "tags": [
-    "expr:Tényleg"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Tényleg?"
-    ],
-    [
-     "neutral",
-     "Pedig reggel óta nagyon meleg vagyok, nyáron mindig."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "reggel",
-     "reggel",
-     "렉겔"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "meleg",
-     "meleg",
-     "멜레그"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "nyáron",
-     "nyár",
-     ""
-    ],
-    [
-     "mindig",
-     "mindig",
-     "민딕"
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "B",
-   "hu": "Nyáron? És télen nem?",
-   "rd": "냐론? 에시 텔렌 넴?",
-   "ko": "여름에요? 겨울엔 아니고요?",
-   "note": "télen = 겨울에",
-   "tags": [],
-   "emotion": "stiff",
-   "lemmas": [
-    [
-     "Nyáron",
-     "nyár",
-     ""
-    ],
-    [
-     "télen",
-     "tél",
-     "텔"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "A",
-   "hu": "Télen nem. Télen nagyon hideg vagyok.",
-   "rd": "텔렌 넴. 텔렌 너죤 히덱 버죡.",
-   "ko": "겨울엔 아니에요. 겨울엔 아주 차가운 사람이에요.",
-   "note": "hideg vagyok = 나는 차갑다(춥다는 fázom)",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Télen",
-     "tél",
-     "텔"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "hideg",
-     "hideg",
-     "히데그"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "B",
-   "hu": "Várjon... Ön azt akarja mondani, hogy melege van?",
-   "rd": "바르욘... 왼 어즈트 어커르여 몬더니, 호지 멜레게 번?",
-   "ko": "잠깐만요… 덥다는 말씀이세요?",
-   "note": "melege van = (그분이) 덥다",
-   "tags": [
-    "expr:Várjon"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Várjon",
-     "vár",
-     "바르"
-    ],
-    [
-     "akarja",
-     "akar",
-     "어커르"
-    ],
-    [
-     "mondani",
-     "mond",
-     "몬드"
-    ],
-    [
-     "melege",
-     "melege",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 14,
-   "speaker": "A",
-   "hu": "Igen, melegem van! Miért, mit mondtam?",
-   "rd": "이겐, 멜레겜 번! 미에르트, 미트 몬드텀?",
-   "ko": "네, 더워요! 왜요, 제가 뭐라고 했나요?",
-   "note": "melegem van = 나는 덥다",
-   "tags": [],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Igen, melegem van!"
-    ],
-    [
-     "worried",
-     "Miért, mit mondtam?"
-    ]
-   ],
    "lemmas": [
     [
      "Igen",
@@ -542,9 +81,349 @@
      "이겐"
     ],
     [
-     "melegem",
-     "melegem",
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "izgulok",
+     "izgul",
      ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Semmi baj, ez természetes. Meséljen egy kicsit magáról!",
+   "rd": "셈미 버이, 에즈 테르메쎄테시. 메셀옌 에지 키치트 머가롤!",
+   "ko": "괜찮아요, 당연하죠. 본인 소개를 좀 해 주세요!",
+   "note": "magáról = 본인에 대해",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "természetes",
+     "természetes",
+     "테르메쎄테시"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Két éve élek Budapesten, és egy irodában dolgoztam asszisztensként.",
+   "rd": "케트 에베 엘렉 부더페슈텐, 에시 에지 이로다번 돌고즈텀 어씨쓰텐슈켄트.",
+   "ko": "부다페스트에 산 지 2년이고, 사무실에서 비서로 일했어요.",
+   "note": "asszisztensként = 비서로서",
+   "tags": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "éve",
+     "év",
+     "에브"
+    ],
+    [
+     "élek",
+     "éle",
+     "에레"
+    ],
+    [
+     "irodában",
+     "iroda",
+     "이로더"
+    ],
+    [
+     "dolgoztam",
+     "dolgoz",
+     "돌고즈"
+    ],
+    [
+     "asszisztensként",
+     "asszisztens",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Értem. Miért hagyta ott az előző munkahelyét?",
+   "rd": "에르템. 미에르트 허지터 오트 어즈 엘뢰죄 문커헤예트?",
+   "ko": "그렇군요. 이전 직장은 왜 그만두셨어요?",
+   "note": "otthagy = 그만두고 떠나다",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Értem",
+     "ért",
+     "에르트"
+    ],
+    [
+     "hagyta",
+     "hagy",
+     "허지"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "előző",
+     "előz",
+     "엘뢰즈"
+    ],
+    [
+     "munkahelyét",
+     "munkahely",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "A cég Bécsbe költözött, én pedig itt szeretnék maradni.",
+   "rd": "어 첵 베치베 쾰퇴죄트, 엔 페딕 이트 쎄레트넥 머러드니.",
+   "ko": "회사가 빈으로 옮겼는데, 저는 여기 남고 싶어서요.",
+   "note": "pedig = 반면, 그런데",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "cég",
+     "cég",
+     "체그"
+    ],
+    [
+     "költözött",
+     "költözik",
+     "쾰퇴직"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "szeretnék",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "maradni",
+     "marad",
+     "머러드"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Szép döntés. Az ügyfeleink fele külföldi, milyen nyelveken beszél?",
+   "rd": "쎄프 된테시. 어즈 위지펠레인크 펠레 퀼푈디, 미옌 넬베켄 베쎌?",
+   "ko": "좋은 결정이네요. 고객 절반이 외국인인데, 어떤 언어를 하세요?",
+   "note": "ügyfél = 고객",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "döntés",
+     "döntés",
+     "된테시"
+    ],
+    [
+     "ügyfeleink",
+     "ügyfeleink",
+     ""
+    ],
+    [
+     "fele",
+     "fel",
+     "펠"
+    ],
+    [
+     "külföldi",
+     "külföldi",
+     ""
+    ],
+    [
+     "nyelveken",
+     "nyelv",
+     ""
+    ],
+    [
+     "beszél",
+     "beszél",
+     "베쎌"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Angolul jól, magyarul pedig egyre jobban.",
+   "rd": "언골룰 욜, 머져룰 페딕 에지레 요번.",
+   "ko": "영어는 잘하고, 헝가리어는 점점 늘고 있어요.",
+   "note": "egyre jobban = 점점 더 잘",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Angolul",
+     "angol",
+     "언골"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "magyarul",
+     "magyar",
+     ""
+    ],
+    [
+     "egyre",
+     "egyre",
+     "에지레"
+    ],
+    [
+     "jobban",
+     "jobb",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "És mit csinál szívesen a szabadidejében?",
+   "rd": "에시 미트 치날 씨베센 어 써버디데예벤?",
+   "ko": "여가 시간엔 뭘 즐겨 하세요?",
+   "note": "szabadidő = 여가",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "csinál",
+     "csi",
+     "치"
+    ],
+    [
+     "szívesen",
+     "szíves",
+     "시베시"
+    ],
+    [
+     "szabadidejében",
+     "szabadidő",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Úszni járok, és most tanulok főzni. A gulyás még nem megy.",
+   "rd": "우쓰니 야록, 에시 모슈트 터눌록 푀즈니. 어 구야시 멕 넴 메지.",
+   "ko": "수영 다니고, 요즘 요리 배워요. 굴라시는 아직 잘 안 돼요.",
+   "note": "nem megy = 잘 안 된다",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Úszni",
+     "úszni",
+     ""
+    ],
+    [
+     "járok",
+     "jár",
+     "야르"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "tanulok",
+     "tanul",
+     "타눌"
+    ],
+    [
+     "főzni",
+     "főz",
+     ""
+    ],
+    [
+     "gulyás",
+     "gulyás",
+     ""
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Az senkinek sem megy elsőre. Nos, van kérdése?",
+   "rd": "어즈 센키넥 셈 메지 엘쇠레. 노시, 번 케르데세?",
+   "ko": "처음부터 되는 사람은 없죠. 자, 질문 있으세요?",
+   "note": "elsőre = 처음에",
+   "tags": [],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Az senkinek sem megy elsőre."
+    ],
+    [
+     "polite",
+     "Nos, van kérdése?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "megy",
+     "megy",
+     "메지"
     ],
     [
      "van",
@@ -552,41 +431,156 @@
      "번"
     ],
     [
-     "mondtam",
-     "mond",
-     "몬드"
+     "kérdése",
+     "kérdés",
+     "케르데시"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Igen. Mikor vesz fel?",
+   "rd": "이겐. 미코르 베쓰 펠?",
+   "ko": "네. 언제 저를 채용하시나요?(「언제 전화 주시나요」라고 하려던 것)",
+   "note": "felvesz = 채용하다",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "vesz",
+     "vesz",
+     "베쓰"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Mikor veszem fel? Ön nagyon magabiztos!",
+   "rd": "미코르 베쎔 펠? 왼 너죤 머거비즈토시!",
+   "ko": "언제 채용하냐고요? 자신감이 대단하시네요!",
+   "note": "magabiztos = 자신감 있는",
+   "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mikor veszem fel?"
+    ],
+    [
+     "amused",
+     "Ön nagyon magabiztos!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veszem",
+     "veszik",
+     "베세크"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "magabiztos",
+     "magabiztos",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "hu": "Jaj, nem! Úgy értettem, mikor hív fel?",
+   "rd": "여이, 넴! 우지 에르테뗌, 미코르 히브 펠?",
+   "ko": "아, 아니요! 언제 전화 주시냐는 뜻이었어요!",
+   "note": "felhív = 전화하다",
+   "tags": [
+    "expr:Jaj"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "értettem",
+     "értett",
+     ""
+    ],
+    [
+     "hív",
+     "hív",
+     "히브"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
     ]
    ]
   },
   {
    "num": 15,
    "speaker": "B",
-   "hu": "Semmit. Holnap kezdhet, a gyengeségét már ismerjük.",
-   "rd": "셈미트. 홀너프 케즈드헤트, 어 젠게세게트 마르 이슈메르윅.",
-   "ko": "아무 말도요. 내일부터 나오세요, 약점은 이제 잘 알겠네요.",
-   "note": "kezdhet = 시작해도 된다",
-   "tags": [],
-   "emotion": "amused",
+   "hu": "Holnap felhívom. És szerintem fel is veszem.",
+   "rd": "홀너프 펠히봄. 에시 쎄린템 펠 이시 베쎔.",
+   "ko": "내일 전화드릴게요. 그리고 아마 채용도 할 것 같네요.",
+   "note": "fel is veszem = 채용도 한다",
+   "tags": [
+    "expr:Szerintem"
+   ],
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Holnap felhívom."
+    ],
+    [
+     "teasing",
+     "És szerintem fel is veszem."
+    ]
+   ],
    "lemmas": [
     [
-     "kezdhet",
-     "kezdhet",
-     ""
+     "Holnap",
+     "holnap",
+     "홀넙"
     ],
     [
-     "gyengeségét",
-     "gyengeség",
-     ""
+     "felhívom",
+     "felhív",
+     "펠히브"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "fel",
+     "fel",
+     "펠"
     ],
     [
-     "ismerjük",
-     "ismer",
-     "이슈메르"
+     "veszem",
+     "veszik",
+     "베세크"
     ]
    ]
   }

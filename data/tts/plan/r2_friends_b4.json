@@ -7,104 +7,96 @@
 "1": {
 "segs": [
 [
-"surprised",
-"Mi ez a füzet? Az én nevem van rajta."
+"cheerful",
+"Szia, Réka, megérkeztem! Te hol vagy?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"flustered",
-"Jaj, add vissza! Az nem a tiéd."
+"cheerful",
+"Én is itt vagyok, a Deáknál."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Várj, „Meleg vagyok.” Ezt én mondtam!"
+"worried",
+"Nem látlak. Hol vagy pontosan?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"amused",
-"Hát igen. Minden hibádat leírom."
+"neutral",
+"A metró kijáratánál, a fagyizó mellett."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Komolyan?"
-],
-[
-"annoyed",
-"Még a fél hetet is?"
+"worried",
+"Én is a kijáratnál vagyok. Fagyizó nincs itt."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"teasing",
-"Persze, az a kedvencem."
+"gentle",
+"Látod a nagy templomot?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"sad",
-"Ez nagyon gonosz, Réka. Csak nevetsz rajtam?"
+"worried",
+"Nem. Egy bankot látok és egy pékséget."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shy",
-"Olvasd el az utolsó oldalt."
+"surprised",
+"Várj, melyik metróval jöttél?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"gentle",
-"„Ma {name} egy hibát sem csinált. Kicsit hiányzik.”"
+"surprised",
+"A sárgával. Miért?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shy",
-"Na jó, elég. Add már vissza!"
+"tsukkomi",
+"Én a pirossal! A Deáknak sok kijárata van, {name}."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"gentle",
-"Réka, te sírsz?"
+"amused",
+"Jó, maradj ott! Megyek a fagyizó felé."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"flustered",
-"Dehogy!"
-],
-[
-"shy",
-"Csak erős volt a paprika."
+"cheerful",
+"Siess! Már veszek neked egyet."
 ]
 ]
 }

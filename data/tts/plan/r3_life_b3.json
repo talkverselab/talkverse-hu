@@ -10,23 +10,23 @@
 "segs": [
 [
 "polite",
-"Jó napot, mi történt? Hol fáj?"
+"Jó estét! Ki a beteg, és mi történt?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Jó napot! Elcsúsztam a fürdőben, és megütöttem a fejem."
+"sad",
+"Én. Fáj a bokám, nem tudok rálépni."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"worried",
-"Én hoztam be. Azóta furcsákat mond, doktor úr."
+"polite",
+"Tegnap este megcsúszott a lépcsőn. Itt a TAJ-kártyája."
 ]
 ]
 },
@@ -34,16 +34,15 @@
 "segs": [
 [
 "polite",
-"Rendben, ellenőrizzük. Milyen nap van ma?"
+"Köszönöm, felírtam. Üljenek le, mindjárt hívják."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"flustered",
-"Hát, izé... hétfő vagy szombat?",
-"Hát, izé, hétfő vagy szombat?"
+"worried",
+"Nagyon fáj? Hozzak vizet?"
 ]
 ]
 },
@@ -51,27 +50,23 @@
 "segs": [
 [
 "stiff",
-"Szerda. Hogy hívják a szobatársát?"
+"Nem kell. De az orvosnak mondjuk azt, hogy focizás közben történt."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Őt? Hát, ő az, aki sokat eszik."
+"teasing",
+"Miért? A lépcső nem elég jó?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"annoyed",
-"Jaj, ne már."
-],
-[
-"worried",
-"Doktor úr, ez komoly?"
+"flustered",
+"Psszt! A lépcső ciki, a foci menő."
 ]
 ]
 },
@@ -79,75 +74,71 @@
 "segs": [
 [
 "polite",
-"Még egy teszt. Mondjon nekem egy hosszú magyar szót."
+"Dávid, jöjjön be!"
+],
+[
+"neutral",
+"Hogy történt?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"Megszentségteleníthetetlenségeskedéseitekért."
+"stiff",
+"Meccsen, a kapu előtt. Egy nagy szerelés volt."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"surprised",
-"Tessék?!"
+"neutral",
+"Értem."
 ],
 [
-"excited",
-"Ezt még egyszer, lassan!"
+"gentle",
+"Szerencsére nem tört el, csak megrándult."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"worried",
-"Mi történt, doktor úr? Rosszul van a beteg?"
+"cheerful",
+"Látod? Mondtam, hogy nem komoly."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"excited",
-"Hallgassa! Ezt húsz éve nem tudom kimondani."
+"gentle",
+"Egy hétig pihenjen."
+],
+[
+"amused",
+"De a lapon az áll: lépcső."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"cheerful",
-"Megszentségteleníthetetlenségeskedéseitekért."
-],
-[
-"polite",
-"Mehetek már?"
+"shout",
+"Ki mondta ezt?!"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"shout",
-"Úristen!"
+"shy",
+"Hát, én."
 ],
 [
-"excited",
-"Hívom a főorvost és az egész osztályt!"
-]
-]
-},
-"16": {
-"segs": [
-[
-"tsukkomi",
-"Figyelj, nem tudod a nevemet, de ezt tudod? Akkor te mosogatsz."
+"amused",
+"Bocsi, nem tudtam, hogy a foci menőbb."
 ]
 ]
 }

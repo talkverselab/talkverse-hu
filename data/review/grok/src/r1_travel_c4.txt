@@ -1,20 +1,20 @@
 === r1_travel_c4
 kind: chat
-title: 목도리
-emoji: 🧣
-scene: 어제 기차 옆자리였던 사람에게서 메시지가 왔다
+title: 파란 문
+emoji: 🚪
+scene: 페치에 막 도착했다. 어학 교환으로 알게 된 Zsófi 에게 맛집을 묻는다
 b: Zsófi
 register: chat
 twist: 7 emotion
 flags: romance
 purpose: travel love
-goal: 모르는 사람 메시지에 답하기와 시간 묻기
-expressions: Tényleg; Jaj; köszi; ráérsz
-B | Szia! Tegnap a vonaton melletted ültem. 😊 | 안녕! 어제 기차에서 네 옆에 앉았어. 😊 | melletted = 네 옆에 | emotion=cheerful at=22:10
-A | Tényleg? Ki vagy? | 정말? 누구야? | tényleg? = 정말? | emotion=surprised at=22:12
-B | Zsófi. Aki az ablaknál ült. | 소피. 창가에 앉아 있던. | ablak = 창문 | emotion=gentle at=22:12
-A | Ó, igen! Hogy találtál meg? | 아, 맞아! 어떻게 찾았어? | hogy = 어떻게 | emotion=surprised+cheerful at=22:13
-B | A sálad nálam van. | 네 목도리 나한테 있어. | sál = 목도리 | emotion=gentle at=22:14
-A | Jaj, köszi! Hol kapom vissza? | 아이고, 고마워! 어디서 돌려받아? | visszakap = 돌려받다 | emotion=cheerful at=22:14
-B | Nem hagytad ott. Én vettem el. | 네가 두고 간 게 아니야. 내가 가져왔어. | én vettem el = 내가 가져왔다(én 이 초점) | emotion=shy at=22:20
-B | Holnap ráérsz? 😇 | 내일 시간 돼? 😇 | ráérsz = 너 시간 있어? | emotion=teasing at=22:20
+goal: 채팅으로 식당 추천 받기(Hol egyek? · Mi a neve?)
+expressions: Nem tudom; Tényleg
+B | Szia! Megérkeztél Pécsre? | 안녕! 페치 도착했어? | Pécsre = 페치로 | emotion=cheerful at=18:02
+A | Igen! Hol egyek valamit? | 응! 어디서 뭐 먹지? | egyek = 내가 먹을까(가정법) | emotion=cheerful at=18:05
+B | A főtéren van egy jó étterem. | 중앙 광장에 좋은 식당 있어. | főtér = 중앙 광장 | emotion=gentle at=18:06
+A | Mi a neve? | 이름이 뭐야? | neve = 그것의 이름 | emotion=neutral at=18:06
+B | Nem tudom. Kék az ajtaja. 😅 | 몰라. 문이 파란색이야. 😅 | ajtó = 문 | emotion=amused at=18:07
+A | Itt három kék ajtó van. 😂 | 여기 파란 문이 세 개야. 😂 | három = 셋 | emotion=amused at=18:12
+B | Jó, holnap megmutatom. Én is Pécsen vagyok. | 알았어, 내일 보여 줄게. 나도 페치에 있어. | megmutat = 보여 주다 | emotion=gentle+shy at=18:13
+A | Tényleg? Akkor holnap? 😊 | 정말? 그럼 내일? 😊 | tényleg = 정말 | emotion=surprised+shy at=18:13

@@ -7,72 +7,64 @@
 "1": {
 "segs": [
 [
-"shout",
-"Futás, ott jön az utolsó villamos!"
+"surprised",
+"Hű, de esik! Szerencsére van esernyőm."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"flustered",
-"Várj, bekötöm a cipőfűzőmet!"
+"sad",
+"Nekem nincs. Reggel még sütött a nap."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shout",
-"Anna, elment!"
-],
-[
-"worried",
-"Most mi lesz ebben a hidegben?"
+"gentle",
+"Semmi baj, gyere alá. Hazakísérlek."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Hát, akkor gyalogolunk. Csak negyven perc a hídon át."
+"surprised",
+"Tényleg? De te a másik irányba laksz."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Negyven perc?"
-],
-[
-"annoyed",
-"Itt mínusz öt fok van!"
+"gentle",
+"Nem baj, nem sietek."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"gentle",
-"Nem baj, nézd, milyen szép éjjel a Duna."
+"shy",
+"Közelebb jössz egy kicsit? Elázik a vállam."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"sad",
-"Szép, de már nem érzem a lábam."
+"flustered",
+"Bocsi. Így jó?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"gentle",
-"Gyere közelebb, mindjárt melegebb lesz."
+"shy",
+"Így pont jó."
 ]
 ]
 },
@@ -80,8 +72,7 @@
 "segs": [
 [
 "surprised",
-"Várj... a csizmádon nincs is cipőfűző.",
-"Várj, a csizmádon nincs is cipőfűző."
+"Várj, mi lóg ki a táskádból?"
 ]
 ]
 },
@@ -89,7 +80,7 @@
 "segs": [
 [
 "flustered",
-"Tényleg? Hát ez furcsa."
+"Semmi! Az egy régi, rossz esernyő."
 ]
 ]
 },
@@ -97,15 +88,19 @@
 "segs": [
 [
 "teasing",
-"Anna. Te direkt lekésted a villamost?"
+"Tényleg? Nekem elég újnak tűnik."
 ]
 ]
 },
 "12": {
 "segs": [
 [
+"amused",
+"Na jó, lebuktam."
+],
+[
 "shy",
-"Csak még negyven percet akartam veled lenni."
+"Remélem, holnap is esik."
 ]
 ]
 }

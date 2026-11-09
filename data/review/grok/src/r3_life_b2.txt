@@ -1,27 +1,26 @@
 === r3_life_b2
 kind: long
-title: 진짜 집주인
-emoji: 🔑
-scene: 월세 문제로 Laci 아저씨를 찾다가 Marika 아주머니에게 물었다. 2년 동안 몰랐던 사실이 나온다
+title: 우체국 쪽지
+emoji: ✉️
+scene: 우편함에 부재중 배달 쪽지(értesítő)가 꽂혀 있다. 계단에서 Marika 아주머니에게 어떻게 하는지 묻는다
 b: Marika néni
-register: mixed
-twist: 10 reveal
+register: polite
+twist: 13 reveal
 purpose: study_abroad
-goal: 놀람 표현과 「~ 때문에」(miatt), 간접 인용
-expressions: Csókolom; Micsoda; Na; Hát
-A | Csókolom, tetszik tudni, hol van Laci bácsi? A lakbér miatt keresem. | 안녕하세요! 라치 아저씨 어디 계신지 아세요? 월세 때문에 찾아요. | lakbér = 월세 | emotion=polite
-B | Hát hol lenne, a fürdőben. Mennyi lakbért fizettek neki? | 어디 있겠니, 온천이지. 월세를 얼마나 내는데? | hol lenne? = 어디 있겠어? | emotion=annoyed
-A | Minden hónapban százötvenezer forintot. Ő a tulajdonos, nem? | 매달 15만 포린트요. 그분이 집주인이잖아요? | tulajdonos = 소유주 | emotion=polite
-B | Ő?! Ezt ki mondta? | 그 사람이?! 누가 그래? | ezt ki mondta? = 누가 그랬어? | emotion=surprised
-A | Ő mondta. Már két éve neki fizetünk. | 그분이요. 벌써 2년째 그분께 내고 있어요. | két éve = 2년째 | emotion=worried
-B | Na, idefigyelj. A ház az enyém, a lakás is az enyém. | 자, 잘 들어. 건물도 내 거고, 그 집도 내 거야. | az enyém = 내 것 | emotion=stiff
-A | Micsoda? Akkor ki Laci bácsi? | 뭐라고요? 그럼 라치 아저씨는 누구예요? | micsoda? = 뭐라고? | emotion=surprised
-B | Laci a férjem. Negyvenhat éve. | 라치는 내 남편이야. 46년째. | férj = 남편 | emotion=neutral
-A | A férje?! De ő a fürdőben lakik! | 남편이요?! 그런데 온천에 사시잖아요! | a férje = 남편분(Ön 에게 '당신의 남편') | emotion=surprised
-B | Tíz éve azt mondta, sós a levesem. Azóta ott van. | 10년 전에 내 국이 짜다고 했거든. 그 뒤로 거기 있어. | sós = 짠 | emotion=annoyed
-A | Csak ezért? És azóta nem beszélnek? | 그것 때문에요? 그 뒤로 말씀 안 하세요? | azóta = 그때부터 | emotion=surprised+worried
-B | Nem. De minden kedden viszek neki levest. | 안 해. 그래도 화요일마다 국은 갖다줘. | visz = 가져간다 | emotion=stiff+gentle
-A | És a mi pénzünk? A lakbér? | 그럼 저희 돈은요? 월세는요? | pénzünk = 우리 돈 | emotion=worried
-B | Azt a fürdőre költi. Ezért nem jön haza. | 그걸 온천에 쓰는 거지. 그래서 집에 안 오는 거고. | költ = 돈을 쓴다 | emotion=amused
-A | Akkor most mit csináljak? Kinek fizessek? | 그럼 저는 어떡해요? 누구한테 내야 돼요? | fizessek = 내가 내야 할까 | emotion=flustered
-B | Továbbra is neki. Ha elfogy a pénze, hazajön, és azt nem bírnám. | 계속 그 사람한테 내. 돈 떨어지면 집에 오잖아, 그건 내가 못 견뎌. | nem bírnám = 못 견딜 거야(조건법) | emotion=neutral+amused
+goal: 우체국에서 소포 찾는 법(értesítő · útlevél · nyitvatartás) 묻고 알아듣기
+expressions: Mit jelent; Értem; Ugye
+A | Csókolom, Marika néni! Megkérdezhetek valamit? | 안녕하세요, 아주머니! 뭐 좀 여쭤봐도 될까요? | megkérdezhetek = 물어봐도 된다 | emotion=polite
+B | Persze, kedves. Mi a baj? | 그럼요. 무슨 일이에요? | mi a baj? = 무슨 일이에요? | emotion=gentle
+A | Ezt a papírt találtam a postaládában. Mit jelent? | 우편함에서 이 종이를 찾았어요. 무슨 뜻이에요? | postaláda = 우편함 | emotion=worried
+B | Ez értesítő. A postás hozott egy csomagot, de nem volt otthon senki. | 부재중 쪽지예요. 집배원이 소포를 가져왔는데 집에 아무도 없었던 거예요. | értesítő = 통지서 | emotion=neutral
+A | És most mit csináljak? | 그럼 이제 어떻게 해요? | csináljak = 내가 해야 할까(접속법) | emotion=worried
+B | Vigye el ezt a postára, a Petőfi utcába. Öt napig ott van. | 이걸 우체국에 가져가세요, 페퇴피 거리요. 닷새 동안 거기 있어요. | vigye el = 가져가세요(Ön) | emotion=gentle
+A | Mit vigyek még? Útlevelet? | 그 밖에 뭘 가져가요? 여권? | vigyek = 가져가야 할까 | emotion=neutral
+B | Igen, az útlevelét vagy a lakcímkártyáját. | 네, 여권이나 주소 카드요. | lakcímkártya = 주소 카드 | emotion=polite
+A | Értem. Mikor van nyitva? | 알겠어요. 언제 열어요? | nyitva = 열려 있는 | emotion=neutral
+B | Hétköznap nyolctól hatig, szombaton délig. | 평일 8시부터 6시까지, 토요일은 정오까지요. | -tól … -ig = ~부터 ~까지 | emotion=polite
+A | Köszönöm szépen. Ugye a postán sokat kell várni? | 정말 고맙습니다. 우체국은 오래 기다려야 하죠? | ugye = ~죠? | emotion=worried
+B | Hát, néha egy órát is. Vigyen egy könyvet. | 글쎄요, 가끔은 한 시간도요. 책 한 권 가져가세요. | vigyen = 가져가세요 | emotion=amused
+A | Várjon, ez a név nem az enyém! | 잠깐만요, 이 이름 제 게 아니에요! | az enyém = 내 것 | emotion=surprised
+B | Mutassa! Jaj, Kovács Mária, ez az enyém! | 보여 줘요! 어머, 코바치 마리아, 이거 내 거네! | Mária = 마리카의 본이름 | emotion=surprised+cheerful
+A | Akkor a könyvet Ön viszi a postára. | 그럼 책은 아주머니가 우체국에 가져가셔야겠네요. | viszi = 가져간다 | emotion=teasing

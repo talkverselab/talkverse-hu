@@ -10,391 +10,346 @@
  "domain": [
   "friends"
  ],
- "title": "전부 천 포린트",
- "emoji": "🏷️",
- "scene": "Réka 의 벼룩시장 매대를 10분만 봐주기로 했다. 규칙은 하나, 전부 천 포린트",
+ "title": "수영모 없어?",
+ "emoji": "🏊",
+ "scene": "일 끝나고 Réka 와 동네 수영장에 왔다. 입구에서 수영모 이야기가 나온다",
  "speakers": {
   "A": "{name}",
-  "B": "Réka",
-  "C": "Vevő"
+  "B": "Réka"
  },
- "register": "mixed",
+ "register": "casual",
  "twist": 9,
- "twist_type": "chaos",
+ "twist_type": "reveal",
  "flags": [],
- "goal": "값 말하기와 -ért(~에)로 값 표현",
+ "goal": "준비물 확인(Hoztál…?)과 규칙 표현(kötelező)",
  "expressions": [
-  "légyszi",
-  "Mindjárt",
-  "Oké",
-  "nyugi",
-  "Tessék"
+  "Hoztál",
+  "kötelező",
+  "Ne már"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Vigyázol a dolgaimra tíz percig, légyszi? Mindjárt jövök.",
-   "rd": "비자졸 어 돌거임러 티즈 페르칙, 레지씨? 민드야르트 요뵉.",
-   "ko": "내 물건 10분만 봐줄래? 금방 올게.",
-   "note": "vigyáz = 돌보다, 조심하다",
+   "hu": "Hoztál mindent? Törölközőt, papucsot?",
+   "rd": "호즈탈 민덴트? 퇴뢸쾨죄트, 퍼푸초트?",
+   "ko": "다 챙겼어? 수건, 슬리퍼?",
+   "note": "papucs = 슬리퍼",
    "tags": [
-    "expr:légyszi",
-    "expr:Mindjárt"
+    "expr:Hoztál"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Vigyázol",
-     "vigyáz",
-     "비거즈"
+     "Hoztál",
+     "hoz",
+     "호즈"
     ],
     [
-     "dolgaimra",
-     "dolgaim",
+     "papucsot",
+     "papucs",
      ""
-    ],
-    [
-     "percig",
-     "perc",
-     "페르츠"
-    ],
-    [
-     "légyszi",
-     "légyszi",
-     ""
-    ],
-    [
-     "jövök",
-     "jön",
-     "왼"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Oké, nyugi. Mi mennyibe kerül?",
-   "rd": "오케, 뉴기. 미 메니베 케륄?",
-   "ko": "알았어, 걱정 마. 뭐가 얼마야?",
-   "note": "mennyibe kerül = 얼마예요",
-   "tags": [
-    "expr:Oké",
-    "expr:nyugi"
-   ],
-   "emotion": "neutral",
+   "hu": "Persze: fürdőruha, törölköző, papucs. Minden megvan.",
+   "rd": "페르쎄: 퓌르되루허, 퇴뢸쾨죄, 퍼푸치. 민덴 멕번.",
+   "ko": "당연하지. 수영복, 수건, 슬리퍼. 다 있어.",
+   "note": "fürdőruha = 수영복",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Oké",
-     "oké",
-     "오케"
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "nyugi",
-     "nyugi",
-     "니우기"
+     "fürdőruha",
+     "fürdőruha",
+     ""
     ],
     [
-     "kerül",
-     "kerül",
-     "케륄"
+     "törölköző",
+     "töröl",
+     ""
+    ],
+    [
+     "papucs",
+     "papucs",
+     ""
+    ],
+    [
+     "megvan",
+     "megvan",
+     "메그번"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Minden ezer forint. Ne gondolkodj!",
-   "rd": "민덴 에제르 포린트. 네 곤돌코드이!",
-   "ko": "전부 천 포린트. 생각하지 마!",
-   "note": "minden = 전부",
+   "hu": "És úszósapka?",
+   "rd": "에시 우쏘셔프커?",
+   "ko": "그럼 수영모는?",
+   "note": "úszósapka = 수영모",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "forint",
-     "forint",
+     "úszósapka",
+     "úszósapka",
      ""
-    ],
-    [
-     "gondolkodj",
-     "gondol",
-     "곤돌"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "C",
-   "hu": "Elnézést, ez a szék is ezer forint?",
-   "rd": "엘네제슈트, 에즈 어 쎅 이시 에제르 포린트?",
-   "ko": "실례합니다, 이 의자도 천 포린트예요?",
-   "note": "szék = 의자",
+   "speaker": "A",
+   "hu": "Sapka? Nem hideg a víz, nem?",
+   "rd": "셔프커? 넴 히덱 어 비즈, 넴?",
+   "ko": "모자? 물 안 차갑잖아, 아니야?",
+   "note": "sapka = 모자",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "szék",
-     "szék",
+     "Sapka",
+     "sapka",
      ""
     ],
     [
-     "forint",
-     "forint",
-     ""
+     "hideg",
+     "hideg",
+     "히데그"
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "Igen, kérem. Minden ezer forint.",
-   "rd": "이겐, 케렘. 민덴 에제르 포린트.",
-   "ko": "네. 전부 천 포린트예요.",
-   "note": "kérem = 네(정중히)",
-   "tags": [],
-   "emotion": "polite",
+   "speaker": "B",
+   "hu": "Nem a hideg miatt. Itt kötelező.",
+   "rd": "넴 어 히덱 미어트. 이트 쾨텔레죄.",
+   "ko": "추워서가 아니야. 여기선 필수야.",
+   "note": "kötelező = 의무인, 필수인",
+   "tags": [
+    "expr:kötelező"
+   ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "hideg",
+     "hideg",
+     "히데그"
     ],
     [
-     "kérem",
-     "kér",
-     "께르"
-    ],
-    [
-     "forint",
-     "forint",
+     "kötelező",
+     "kötelez",
      ""
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "C",
-   "hu": "És a lámpa? És az a bicikli ott?",
-   "rd": "에시 어 람퍼? 에시 어즈 어 비칙리 오트?",
-   "ko": "그럼 램프는요? 저기 저 자전거는요?",
-   "note": "az a bicikli ott = 저기 저 자전거",
+   "speaker": "A",
+   "hu": "Komolyan? Nálunk nem kell, most mit csináljak?",
+   "rd": "코모연? 날룬크 넴 켈, 모슈트 미트 치날역?",
+   "ko": "진짜? 우리 나라에선 안 써도 되는데, 이제 어떡하지?",
+   "note": "mit csináljak = 어떡하지",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "worried",
    "lemmas": [
     [
-     "lámpa",
-     "lámpa",
-     ""
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
-     "bicikli",
-     "bicikli",
-     ""
+     "kell",
+     "kell",
+     "켈"
     ],
     [
-     "ott",
-     "ott",
-     "오트"
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "csináljak",
+     "csinál",
+     "치날"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Hát, minden ezer. Tessék, vigye!",
-   "rd": "하트, 민덴 에제르. 테쎅, 비제!",
-   "ko": "음, 전부 천이에요. 여기요, 가져가세요!",
-   "note": "vigye = 가져가세요",
-   "tags": [
-    "expr:Tessék"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "vigye",
-     "visz",
-     "비스"
-    ]
-   ]
-  },
-  {
-   "num": 8,
    "speaker": "B",
-   "hu": "Na, hogy ment? Hol a biciklim?",
-   "rd": "너, 호지 멘트? 홀 어 비칙림?",
-   "ko": "자, 어땠어? 내 자전거 어디 있어?",
-   "note": "hogy ment? = 어땠어?",
+   "hu": "Várj, nekem van kettő.",
+   "rd": "바르이, 네켐 번 케뙤.",
+   "ko": "잠깐, 나 두 개 있어.",
+   "note": "kettő = 두 개",
    "tags": [],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Na, hogy ment?"
-    ],
-    [
-     "worried",
-     "Hol a biciklim?"
-    ]
-   ],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
-    ],
-    [
-     "ment",
-     "megy",
-     "메지"
-    ],
-    [
-     "biciklim",
-     "biciklim",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Jó hírem van: mindent eladtam! Négyezer forint!",
-   "rd": "요 히렘 번: 민덴트 엘러드텀! 네제제르 포린트!",
-   "ko": "좋은 소식이야: 다 팔았어! 4천 포린트!",
-   "note": "eladtam = 팔았다",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "hírem",
-     "hír",
-     "히르"
+     "Várj",
+     "vár",
+     "바르"
     ],
     [
      "van",
      "van",
      "번"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Szuper! Köszi, Réka!",
+   "rd": "쑤페르! 쾨씨, 레커!",
+   "ko": "좋다! 고마워, 레카!",
+   "note": "szuper = 최고",
+   "tags": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Tessék. Remélem, szereted a rózsaszínt.",
+   "rd": "테쎅. 레멜렘, 쎄레테드 어 로져씬트.",
+   "ko": "자. 분홍색 좋아하면 좋겠다.",
+   "note": "rózsaszín = 분홍색",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
     ],
     [
-     "eladtam",
-     "elad",
-     "엘러드"
+     "szereted",
+     "szeret",
+     "쎄레트"
     ],
     [
-     "forint",
-     "forint",
+     "rózsaszínt",
+     "rózsaszín",
      ""
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "B",
-   "hu": "Ezer forintért eladtad a biciklimet?!",
-   "rd": "에제르 포린테르트 엘러드터드 어 비칙리메트?!",
-   "ko": "내 자전거를 천 포린트에 팔았다고?!",
-   "note": "-ért = ~에(값)",
+   "speaker": "A",
+   "hu": "Rózsaszín, virágokkal?!",
+   "rd": "로져씬, 비라고껄?!",
+   "ko": "분홍에, 꽃무늬까지?!",
+   "note": "virágokkal = 꽃들과 함께",
    "tags": [],
-   "emotion": "shout",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "forintért",
-     "forint",
+     "Rózsaszín",
+     "rózsaszín",
      ""
     ],
     [
-     "eladtad",
-     "elad",
-     "엘러드"
-    ],
-    [
-     "biciklimet",
-     "bicikli",
-     ""
+     "virágokkal",
+     "virág",
+     "비라그"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "Te mondtad: minden ezer. Ne gondolkodj!",
-   "rd": "테 몬드터드: 민덴 에제르. 네 곤돌코드이!",
-   "ko": "네가 그랬잖아: 전부 천. 생각하지 마!",
-   "note": "te mondtad = 네가 말했다",
+   "speaker": "B",
+   "hu": "A nagymamámé volt. Nagyon jól áll!",
+   "rd": "어 너지머마메 볼트. 너죤 욜 알!",
+   "ko": "우리 할머니 거였어. 완전 잘 어울려!",
+   "note": "nagymamámé = 할머니의 것",
    "tags": [],
-   "emotion": "tsukkomi",
+   "emotion": "amused",
    "lemmas": [
     [
-     "mondtad",
-     "mond",
-     "몬드"
+     "nagymamámé",
+     "nagymamámé",
+     ""
     ],
     [
-     "gondolkodj",
-     "gondol",
-     "곤돌"
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "B",
-   "hu": "Jól van. Ki kér egy barátot ezer forintért?",
-   "rd": "욜 번. 키 케르 에지 버라토트 에제르 포린테르트?",
-   "ko": "좋아. 친구 하나 천 포린트에 사실 분?",
-   "note": "jól van = 좋아, 알았어",
-   "tags": [],
-   "emotion": "annoyed",
+   "speaker": "A",
+   "hu": "Ne már! Na jó, gyorsan a vízbe.",
+   "rd": "네 마르! 너 요, 죠르션 어 비즈베.",
+   "ko": "아 진짜! 알았어, 빨리 물속으로.",
+   "note": "gyorsan = 빨리",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "emotion": "tsukkomi",
    "segs": [
     [
-     "annoyed",
-     "Jól van."
+     "tsukkomi",
+     "Ne már!"
     ],
     [
-     "shout",
-     "Ki kér egy barátot ezer forintért?"
+     "amused",
+     "Na jó, gyorsan a vízbe."
     ]
    ],
    "lemmas": [
     [
-     "Jól",
-     "jól",
-     "욜"
+     "már",
+     "már",
+     "마르"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "jó",
+     "jó",
+     "요"
     ],
     [
-     "kér",
-     "kér",
-     "께르"
+     "gyorsan",
+     "gyors",
+     "죠르시"
     ],
     [
-     "barátot",
-     "barát",
-     "버랏"
-    ],
-    [
-     "forintért",
-     "forint",
-     ""
+     "vízbe",
+     "víz",
+     "비즈"
     ]
    ]
   }

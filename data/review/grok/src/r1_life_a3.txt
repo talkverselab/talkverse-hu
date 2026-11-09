@@ -1,18 +1,19 @@
 === r1_life_a3
 kind: short
-title: 저 몇 살로 보이세요?
-emoji: 🥖
-scene: 빵집. 아주머니께 배운 공손한 인사를 스물두 살 점원에게 그대로 써 본다
+title: 치즈 10킬로?
+emoji: 🧀
+scene: 시장 치즈 가판대. 헝가리에서는 작은 무게를 데카(10g)로 말한다
 b: Eladó
 register: polite
 twist: 5 slip
 purpose: study_abroad
-goal: 빵 주문하기, 인사는 상대 나이에 맞게
-expressions: Csókolom; Tessék?; kérek; Bocsánat
-A | Csókolom! Egy kenyeret kérek. | 안녕하세요! 빵 하나 주세요. | kenyeret = 빵을(kenyér 의 목적격) | emotion=polite
-B | Tessék? Hogy mondta? | 네? 뭐라고 하셨어요? | hogy mondta? = 뭐라고 하셨어요? | emotion=surprised
-A | Csókolom. Ez nem jó? | 「초콜롬」이요. 이 말 틀려요? | csókolom = 어르신께만 쓰는 인사(글자 뜻: 입 맞춥니다) | emotion=flustered
-B | Hány évesnek néz engem? | 저를 몇 살로 보세요? | hány éves = 몇 살 | emotion=annoyed
-A | Hát, nem tudom. Hatvan? | 음… 모르겠어요. 예순? | hatvan = 60 | emotion=flustered
-B | Huszonkét éves vagyok! | 저 스물두 살이에요! | huszonkét = 22 | emotion=shout
-A | Jaj, bocsánat! Akkor szia? | 아이고, 죄송해요! 그럼 안녕? | szia = 안녕(친구끼리) | emotion=flustered+shy
+goal: 무게로 주문하기(… dekát kérek)와 Ön 으로 대답하기
+expressions: Tessék; Legyen szíves; Rendben
+B | Jó napot! Tessék, mit kér? | 안녕하세요! 네, 뭐 드릴까요? | mit kér? = 뭘 원하세요(Ön) | emotion=polite
+A | Jó napot! Ebből a sajtból kérek. | 안녕하세요! 이 치즈로 주세요. | ebből = 이것에서 | emotion=polite
+B | Rendben. Mennyit kér? | 네. 얼마나 드릴까요? | mennyit = 얼마만큼을 | emotion=neutral
+A | Tíz kilót, legyen szíves. | 10킬로요, 부탁드려요. | legyen szíves = 부탁드립니다 | emotion=polite
+B | Tíz kilót? Az egy egész sajt! | 10킬로요? 그거 치즈 한 덩이 통째예요! | egész = 통째, 전체 | emotion=surprised
+A | Jaj, bocsánat! Tíz dekát! | 아이고, 죄송해요! 10데카요! | deka = 10그램 | emotion=flustered
+B | Jó, tíz deka. És kenyeret hány kilót kér? | 네, 10데카. 빵은 몇 킬로 드릴까요? | hány = 몇 | emotion=teasing
+A | Egyet! Egy darabot! | 하나요! 한 개요! | darab = 개(낱개) | emotion=flustered+shy

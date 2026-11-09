@@ -1,107 +1,99 @@
 {
 "ep": "r2_travel_b3",
 "cast": {
-"B": "man_o",
-"C": "man_y"
+"B": "man_o"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"excited",
-"Na végre, hol voltál? Mindenki téged vár!"
+"cheerful",
+"Jó napot! Ön {name}, ugye?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Elnézést, én csak a szobámba megyek. A hatos szobába."
+"cheerful",
+"Igen, jó napot!"
+],
+[
+"shy",
+"Bocsánat, késtem."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Persze, persze. Gyere, előbb egy pohár pálinka!"
+"gentle",
+"Semmi baj. Itt a kulcsok: ez a kapué, ez a szobáé."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"De én nem ismerem a menyasszonyt!"
+"polite",
+"Köszönöm. Mikor van reggeli?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Én sem! Én a vőlegény nagybátyja vagyok."
+"polite",
+"Nyolctól tízig, a teraszon."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shout",
-"Csendet kérek!"
-],
-[
-"excited",
-"Most a vendégünk mond pár szót!"
+"polite",
+"És van wifi? Mi a jelszó?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Izé, jó estét. Magyarul tanulok, és sok boldogságot!"
+"amused",
+"Van. A jelszó: egészségedre."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"excited",
-"Hű, de szép volt! Most jön a menyasszonytánc!"
+"flustered",
+"Egészsé... Hogy kell írni?",
+"Egészsé, Hogy kell írni?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"worried",
-"Mi az a menyasszonytánc?"
+"gentle",
+"Lassan mondom: e-gész-sé-ged-re. Kis betűkkel."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"Fizetsz, és táncolsz a menyasszonnyal. Ötezer forint."
+"excited",
+"Megvan, működik!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"tsukkomi",
-"Mi van? Még a szobámat se láttam!"
-]
-]
-},
-"12": {
-"segs": [
-[
-"amused",
-"Nyugi, a hatos szobában most a torta van."
+"teasing",
+"Na látja! Ezt a szót Egerben sokat fogja hallani."
 ]
 ]
 }

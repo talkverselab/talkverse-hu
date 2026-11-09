@@ -1,27 +1,27 @@
 === r3_study_b2
 kind: long
-title: 기숙사 벼룩시장
-emoji: 🛏️
-scene: 토요일 복도 벼룩시장. 공부하느라 바빠서 Réka 에게 방에 있는 걸 대신 팔아 달라고 했다
+title: 기숙사 방이 추워요
+emoji: 🪟
+scene: 겨울 기숙사. 라디에이터는 따뜻한데 방이 춥다. Réka 의 말대로 관리인을 찾아간다
 b: Réka
 c: Gondnok
-register: casual
-twist: 11 chaos
+register: mixed
+twist: 12 reveal
 purpose: study_abroad
-goal: 물건 팔고 값 말하기와 mindegy 의 위험
-expressions: Hé; Hát; Semmi baj; Nem tudom; Mindegy; Szuper; Király; Te jó ég
-B | Hé, szombaton bolhapiac lesz a folyosón! Van valami eladó cuccod? | 야, 토요일에 복도에서 벼룩시장 열려! 팔 물건 있어? | bolhapiac = 벼룩시장 | emotion=excited
-A | Hát, a régi magyar könyveim. De most tanulnom kell. | 음, 옛날 헝가리어 책들. 근데 지금 공부해야 해. | tanulnom kell = 내가 공부해야 한다 | emotion=neutral
-B | Semmi baj, eladom helyetted. Mit adhatok el? | 괜찮아, 내가 대신 팔아 줄게. 뭘 팔아도 돼? | helyetted = 너 대신 | emotion=cheerful
-A | Nem tudom, nézd meg a szobámban. Mindegy, ami nem kell. | 몰라, 내 방 봐 봐. 필요 없는 거면 뭐든 상관없어. | ami nem kell = 필요 없는 것 | emotion=annoyed
-B | Szuper, bízz bennem! | 좋아, 나만 믿어! | bízz bennem = 나를 믿어 | emotion=excited
-A | Na, hogy megy? Miért van itt ilyen sok ember? | 자, 어때? 왜 이렇게 사람이 많아? | hogy megy? = 어떻게 돼 가? | emotion=surprised
-B | Király, már nyolcvanezer forintot kerestem. Nézd! | 최고야, 벌써 8만 포린트 벌었어. 봐! | kerestem = 내가 벌었다 | emotion=excited
-A | Nyolcvanezret? Három könyvért? | 8만? 책 세 권으로? | -ért = ~의 값으로 | emotion=surprised
-B | Könyvért? Nem, a könyvek nem kellettek senkinek. | 책? 아니, 책은 아무도 안 사더라. | nem kellettek = 필요 없었다 | emotion=amused
-A | Akkor mit adtál el? | 그럼 뭘 판 거야? | adtál el = 네가 팔았다 | emotion=worried
-B | A lámpát, a széket, az asztalt. Azt mondtad, mindegy! | 스탠드, 의자, 책상. 네가 상관없다며! | szék = 의자 | emotion=cheerful+tsukkomi
-A | Az asztalomat? Te jó ég, hol fogok tanulni? | 내 책상을? 세상에, 나 어디서 공부해? | fogok tanulni = 공부할 것이다 | emotion=surprised+shout
-B | Az ágyon. Bár az ágyra már van vevő. | 침대에서. 근데 침대는 벌써 살 사람이 있어. | vevő = 사는 사람 | emotion=teasing
-C | Elnézést, ki adta el a kollégium bútorait? | 실례합니다, 기숙사 가구를 판 사람이 누구죠? | bútor = 가구 | emotion=stiff
-B | Hát, ő. Én csak segítettem. | 음, 얘요. 전 그냥 도운 거고요. | segítettem = 내가 도왔다 | emotion=flustered
+goal: 고장·불편 말하기(Nagyon hideg van nálam · működik? · fázom)
+expressions: Te jó ég; Szuper; Semmi baj
+A | Réka, nálad is ilyen hideg van? | 레카, 네 방도 이렇게 추워? | nálad = 너한테(네 방에) | emotion=worried
+B | Nem, nálam meleg van. Miért, nálad nincs fűtés? | 아니, 내 방은 따뜻해. 왜, 네 방은 난방 안 돼? | fűtés = 난방 | emotion=surprised
+A | A radiátor meleg, de a szoba hideg. Három pulóverben alszom. | 라디에이터는 따뜻한데 방이 추워. 스웨터 세 겹 입고 자. | pulóver = 스웨터 | emotion=sad
+B | Te jó ég. Szólj a gondnoknak, ő megnézi. | 세상에. 관리인한테 말해, 봐 줄 거야. | szólj = 말해 | emotion=worried
+A | Jó napot, a 214-es szobából jöttem. Nagyon hideg van nálam. | 안녕하세요, 214호에서 왔어요. 제 방이 너무 추워요. | 214-es = 214번 | emotion=polite
+C | Jó napot. A radiátor működik? | 안녕하세요. 라디에이터는 작동해요? | működik = 작동한다 | emotion=neutral
+A | Igen, meleg. De mégis fázom. | 네, 따뜻해요. 그런데도 추워요. | fázom = (나는) 춥다 | emotion=worried
+C | Furcsa. Menjünk, megnézem. | 이상하네요. 갑시다, 봐 드릴게요. | furcsa = 이상한 | emotion=neutral
+B | Én is jövök. Kíváncsi vagyok. | 나도 갈래. 궁금해. | kíváncsi = 궁금한 | emotion=amused
+C | Radiátor rendben, ajtó rendben. És az ablak? | 라디에이터 괜찮고, 문 괜찮고. 창문은요? | rendben = 괜찮다 | emotion=neutral
+A | Az ablak csukva van. Mindig csukva tartom. | 창문은 닫혀 있어요. 항상 닫아 둬요. | csukva = 닫힌 채 | emotion=polite
+C | Nem egészen: nézze, felül nyitva van, bukóra állította. | 꼭 그렇진 않네요. 보세요, 위가 열려 있어요, 틸트로 해 두셨어요. | bukó = 위로 젖혀 여는 창 | emotion=amused
+A | Bukóra? Azt hittem, így van becsukva! | 틸트요? 이게 닫힌 건 줄 알았어요! | azt hittem = ~인 줄 알았다 | emotion=surprised
+B | Két hónapig az udvart fűtötted. Szuper. | 두 달 동안 마당을 데웠네. 대단하다. | udvar = 마당 | emotion=teasing
+C | Semmi baj. Az első télen mindenki megtanulja. | 괜찮아요. 첫 겨울엔 다들 배워요. | megtanulja = 배운다 | emotion=gentle

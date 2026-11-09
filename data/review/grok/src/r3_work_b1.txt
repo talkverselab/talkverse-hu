@@ -1,26 +1,26 @@
 === r3_work_b1
 kind: long
-title: 더운 날의 면접
-emoji: 🥵
-scene: 한여름 회사 면접. 에어컨이 고장 난 방에서 「덥다」고 말했는데 면접관의 표정이 묘하다
+title: 사무직 면접
+emoji: 💼
+scene: 회사 사무직 면접. 대답은 잘 해 나가는데, 마지막 질문에서 동사 하나가 꼬인다
 b: Igazgató
 register: polite
-twist: 8 slip
+twist: 12 slip
 purpose: work_hungary
-goal: 면접 질문에 답하기와 melegem van / meleg vagyok 구분
-expressions: Semmi baj; Szóval; Igazából; Tényleg; Várjon
-B | Jó napot, foglaljon helyet! Sajnos ma nem működik a légkondi. | 안녕하세요, 앉으세요! 아쉽게도 오늘 에어컨이 안 돼요. | foglaljon helyet = 앉으세요(격식) | emotion=polite
-A | Semmi baj. Köszönöm, hogy behívott. | 괜찮습니다. 불러 주셔서 감사합니다. | behívott = 불렀다 | emotion=polite
-B | Szóval, miért szeretne nálunk dolgozni? | 그래서, 왜 저희 회사에서 일하고 싶으세요? | nálunk = 우리 쪽에서 | emotion=stiff
-A | Mert szeretek emberekkel beszélni, és tavaly óta magyarul is tudok. | 사람들과 이야기하는 걸 좋아하고, 작년부터 헝가리어도 할 줄 알아서요. | tavaly óta = 작년부터 | emotion=polite
-B | Nagyszerű. Mi a legnagyobb gyengesége? | 훌륭하네요. 가장 큰 약점이 뭔가요? | gyengeség = 약점 | emotion=stiff
-A | Hát, igazából a ragok. Néha rosszul mondom őket. | 음, 사실 격 어미요. 가끔 틀리게 말해요. | rag = 격 어미 | emotion=shy
-B | Így is jól beszél. De piros az arca, minden rendben? | 그래도 잘하시는데요. 근데 얼굴이 빨개요, 괜찮으세요? | minden rendben? = 다 괜찮아요? | emotion=polite+worried
-A | Elnézést, nagyon meleg vagyok. | 죄송합니다, 저는 아주 게이입니다.(「덥다」고 말하려던 것) | meleg vagyok = 나는 게이다(덥다는 melegem van) | emotion=polite
-B | Ó, köszönöm, hogy elmondta. Nálunk ez nem probléma. | 아, 말씀해 주셔서 감사합니다. 저희는 전혀 문제없습니다. | elmondta = 말해 주었다 | emotion=surprised+polite
-A | Tényleg? Pedig reggel óta nagyon meleg vagyok, nyáron mindig. | 정말요? 그런데 아침부터 아주 그래요, 여름엔 항상요. | pedig = 그런데, 하지만 | emotion=surprised+neutral
-B | Nyáron? És télen nem? | 여름에요? 겨울엔 아니고요? | télen = 겨울에 | emotion=stiff
-A | Télen nem. Télen nagyon hideg vagyok. | 겨울엔 아니에요. 겨울엔 아주 차가운 사람이에요. | hideg vagyok = 나는 차갑다(춥다는 fázom) | emotion=neutral
-B | Várjon... Ön azt akarja mondani, hogy melege van? | 잠깐만요… 덥다는 말씀이세요? | melege van = (그분이) 덥다 | emotion=surprised
-A | Igen, melegem van! Miért, mit mondtam? | 네, 더워요! 왜요, 제가 뭐라고 했나요? | melegem van = 나는 덥다 | emotion=cheerful+worried
-B | Semmit. Holnap kezdhet, a gyengeségét már ismerjük. | 아무 말도요. 내일부터 나오세요, 약점은 이제 잘 알겠네요. | kezdhet = 시작해도 된다 | emotion=amused
+goal: 면접 질문에 답하기와 felvesz(채용하다) / felhív(전화하다) 구분
+expressions: Semmi baj; Szerintem; Jaj
+B | Jó napot! Foglaljon helyet. Kér egy pohár vizet? | 안녕하세요! 앉으세요. 물 한 잔 드릴까요? | foglaljon helyet = 앉으세요(격식) | emotion=polite
+A | Igen, köszönöm. Egy kicsit izgulok. | 네, 감사합니다. 조금 떨려서요. | izgulok = 긴장된다 | emotion=shy
+B | Semmi baj, ez természetes. Meséljen egy kicsit magáról! | 괜찮아요, 당연하죠. 본인 소개를 좀 해 주세요! | magáról = 본인에 대해 | emotion=gentle
+A | Két éve élek Budapesten, és egy irodában dolgoztam asszisztensként. | 부다페스트에 산 지 2년이고, 사무실에서 비서로 일했어요. | asszisztensként = 비서로서 | emotion=stiff
+B | Értem. Miért hagyta ott az előző munkahelyét? | 그렇군요. 이전 직장은 왜 그만두셨어요? | otthagy = 그만두고 떠나다 | emotion=neutral
+A | A cég Bécsbe költözött, én pedig itt szeretnék maradni. | 회사가 빈으로 옮겼는데, 저는 여기 남고 싶어서요. | pedig = 반면, 그런데 | emotion=polite
+B | Szép döntés. Az ügyfeleink fele külföldi, milyen nyelveken beszél? | 좋은 결정이네요. 고객 절반이 외국인인데, 어떤 언어를 하세요? | ügyfél = 고객 | emotion=polite
+A | Angolul jól, magyarul pedig egyre jobban. | 영어는 잘하고, 헝가리어는 점점 늘고 있어요. | egyre jobban = 점점 더 잘 | emotion=cheerful
+B | És mit csinál szívesen a szabadidejében? | 여가 시간엔 뭘 즐겨 하세요? | szabadidő = 여가 | emotion=gentle
+A | Úszni járok, és most tanulok főzni. A gulyás még nem megy. | 수영 다니고, 요즘 요리 배워요. 굴라시는 아직 잘 안 돼요. | nem megy = 잘 안 된다 | emotion=amused
+B | Az senkinek sem megy elsőre. Nos, van kérdése? | 처음부터 되는 사람은 없죠. 자, 질문 있으세요? | elsőre = 처음에 | emotion=amused+polite
+A | Igen. Mikor vesz fel? | 네. 언제 저를 채용하시나요?(「언제 전화 주시나요」라고 하려던 것) | felvesz = 채용하다 | emotion=polite
+B | Mikor veszem fel? Ön nagyon magabiztos! | 언제 채용하냐고요? 자신감이 대단하시네요! | magabiztos = 자신감 있는 | emotion=surprised+amused
+A | Jaj, nem! Úgy értettem, mikor hív fel? | 아, 아니요! 언제 전화 주시냐는 뜻이었어요! | felhív = 전화하다 | emotion=flustered
+B | Holnap felhívom. És szerintem fel is veszem. | 내일 전화드릴게요. 그리고 아마 채용도 할 것 같네요. | fel is veszem = 채용도 한다 | emotion=gentle+teasing

@@ -1,20 +1,20 @@
 === r1_culture_b4
 kind: long
-title: 절대 「맛있다」고 하지 마
-emoji: 🍲
-scene: Anna 의 할머니 댁 일요일 점심. Anna 가 들어가기 전에 단단히 일러 준다
+title: 굴라시는 수프
+emoji: 🥣
+scene: Anna 의 할머니가 좋아하는 헝가리 음식을 물으신다. 내일 해 주시겠단다
 b: Anna
 c: Nagymama
 register: mixed
-twist: 8 chaos
+twist: 8 reveal
 purpose: media
-goal: 음식 칭찬과 사양하는 말
-expressions: Figyelj; Hogyhogy?; Köszönöm
-B | Figyelj! A nagyinál ne mondd, hogy finom. | 잘 들어! 할머니 댁에서 맛있다고 하지 마. | finom = 맛있는 | emotion=worried
-A | Hogyhogy? És ha tényleg finom? | 어째서? 진짜 맛있으면? | hogyhogy? = 어째서? | emotion=surprised
-C | Egyél, kedvesem! Itt a húsleves. | 먹으렴, 얘야! 고깃국이다. | egyél = 먹어 | emotion=gentle
-A | Köszönöm! Hű, ez nagyon finom! | 감사합니다! 와, 이거 정말 맛있어요! | köszönöm = 감사합니다 | emotion=polite+excited
-B | Jaj, {name}... | 아이고, {name}… | jaj = 아이고 | emotion=worried
-C | Finom? Akkor még egy tányérral! | 맛있어? 그럼 한 그릇 더! | tányér = 접시, 그릇 | emotion=surprised+excited
-A | Köszönöm, de már nem tudok enni. | 감사합니다만, 이제 못 먹겠어요. | nem tudok enni = 못 먹겠다 | emotion=flustered
-C | Nem ízlik?! Akkor főzök valami mást! | 입에 안 맞아?! 그럼 다른 거 해 주마! | ízlik = 입에 맞다 | emotion=worried+excited
+goal: 좋아하는 음식 말하기와 gulyás/pörkölt 구별
+expressions: Hát; Miért
+C | Mi a kedvenc magyar ételed, kedvesem? | 제일 좋아하는 헝가리 음식이 뭐니, 얘야? | kedvenc = 가장 좋아하는 | emotion=gentle
+A | A gulyás! Nagyon szeretem. | 굴라시요! 정말 좋아해요. | gulyás = 굴라시 | emotion=excited
+C | Jó, holnap főzök gulyást. Gyertek ebédre! | 좋아, 내일 굴라시 끓일게. 점심 먹으러 오렴! | gyertek = (너희) 와 | emotion=cheerful
+B | Nagyi gulyása a legjobb a városban. | 할머니 굴라시가 이 동네에서 제일 맛있어. | a legjobb = 최고 | emotion=cheerful
+A | Hozok kenyeret. Vagy inkább rizst? | 빵 가져갈게요. 아니면 밥이 나을까? | inkább = 차라리, 오히려 | emotion=gentle
+B | Rizst? Gulyáshoz? Miért? | 밥? 굴라시에? 왜? | -hoz = ~에 곁들여 | emotion=surprised
+A | Hát, nálunk a gulyás sűrű, rizzsel esszük. | 음, 우리 쪽에선 굴라시가 걸쭉해서 밥이랑 먹어. | sűrű = 걸쭉한 | emotion=flustered
+C | Az pörkölt, kedvesem! A gulyás leves, kanállal esszük. | 그건 푀르쾰트란다, 얘야! 굴라시는 수프야, 숟가락으로 먹지. | pörkölt = 걸쭉한 고기 스튜 | emotion=amused

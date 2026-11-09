@@ -8,24 +8,24 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Gyere, ez a kedvenc termem a múzeumban."
+"excited",
+"Ez egy diákkiállítás. Gyere, nézd!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Várj, egy pillanat. Hova teszem a rétesemet?"
+"surprised",
+"Hű, sok kép van. Melyik a legjobb?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Mindegy, tedd oda! Mindjárt visszajövünk."
+"gentle",
+"Mondd te. Melyik tetszik?"
 ]
 ]
 },
@@ -33,47 +33,39 @@
 "segs": [
 [
 "cheerful",
-"Nézd, mennyi ember áll ott!"
+"Ez a kék. A Duna, ugye?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Mit néznek? Új mű?"
+"stiff",
+"Elnézést, ne menjen ilyen közel!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Jaj."
-],
-[
-"shout",
-"Az ott az én rétesem!"
+"flustered",
+"Bocsánat! Csak nagyon szép."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"stiff",
-"Kérem, ne nyúljon hozzá!"
-],
-[
-"polite",
-"Egy úr már megvette."
+"shy",
+"Tényleg tetszik? Komolyan?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"amused",
-"Szóval gratulálok. Művész vagy."
+"gentle",
+"Ezt egyébként a kisasszony festette."
 ]
 ]
 }

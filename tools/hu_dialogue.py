@@ -86,7 +86,8 @@ def to_json(e, lemmatize=None):
         if t.get('emotion'):  # 원고 턴 줄의 emotion=shy+gentle (문장별, 하나면 턴 전체) 가 먼저
             ss = sents(t['hu'])
             em = t['emotion'].split('+')
-            segs = segs_of(ss, em * len(ss) if len(em) == 1 else em)
+            em = (em + em[-1:] * len(ss))[:len(ss)] if len(em) != len(ss) else em  # 개수가 달라도 문장이 빠지지 않게
+            segs = segs_of(ss, em)
         if segs:  # 음성을 고려한 감정 열(2026-11-07) — 턴 안에서 바뀌면 segs
             o['emotion'] = segs[0][0]
             if len(segs) > 1:
@@ -139,6 +140,11 @@ def check(e, lex_rank):
             errs.append(f'턴 {t["num"]} R1 한 낱말 답')
         if len(words) > MAXW[r] + (2 if kind == 'long' else 0):
             warns.append(f'턴 {t["num"]} 낱말 {len(words)}개')
+        em = [x for x in str(e['turns'][t['num'] - 1].get('emotion', '')).split('+') if x]
+        if not em:
+            errs.append(f'턴 {t["num"]} emotion 없음')
+        elif len(em) > 1 and len(em) != len(sents(t['hu'])):
+            warns.append(f'턴 {t["num"]} 감정 {len(em)}개 / 문장 {len(sents(t["hu"]))}개')
         if len(re.findall(r'[.!?…]+', t['hu'])) > 2:
             warns.append(f'턴 {t["num"]} 3문장 이상')
     if d['speakers'].get('B') and not any(t['speaker'] == 'A' for t in ts):

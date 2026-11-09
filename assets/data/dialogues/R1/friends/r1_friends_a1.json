@@ -5,59 +5,63 @@
  "kind": "short",
  "draft": true,
  "purpose": [
-  "making_friends"
+  "making_friends",
+  "study_abroad"
  ],
  "domain": [
   "friends"
  ],
- "title": "너도 잘하네!",
- "emoji": "🚲",
- "scene": "자전거에 부딪힐 뻔한 Réka 와 처음 말을 튼다. 칭찬을 받아 기뻐서 그대로 돌려줬는데…",
+ "title": "수업 끝나고",
+ "emoji": "☕",
+ "scene": "어학원 수업이 끝나고 옆자리 Réka 가 말을 건다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "casual",
- "twist": 6,
- "twist_type": "slip",
+ "twist": 7,
+ "twist_type": "emotion",
  "flags": [],
- "goal": "자기소개(… vagyok)와 칭찬 주고받기",
+ "goal": "처음 말 트기 — 이름·어디서 왔는지·커피 제안",
  "expressions": [
-  "Bocsi",
-  "Jól vagy?",
-  "Köszi",
-  "Hát"
+  "Szia",
+  "Na",
+  "Szuper"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Bocsi! Jól vagy?",
-   "rd": "보치! 욜 버지?",
-   "ko": "미안! 괜찮아?",
-   "note": "bocsi = 미안(가벼운 말)",
+   "hu": "Szia! Új vagy itt?",
+   "rd": "씨어! 우이 버지 이트?",
+   "ko": "안녕! 여기 처음이야?",
+   "note": "új = 새로운",
    "tags": [
-    "expr:Bocsi",
-    "expr:Jól vagy?"
+    "expr:Szia"
    ],
-   "emotion": "worried",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Bocsi",
-     "bocsi",
-     "보치"
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen, jól vagyok. Ez a te biciklid?",
-   "rd": "이겐, 욜 버죡. 에즈 어 테 비칙리드?",
-   "ko": "응, 괜찮아. 이거 네 자전거야?",
-   "note": "jól vagyok = 괜찮아",
+   "hu": "Igen, ez az első hetem.",
+   "rd": "이겐, 에즈 어즈 엘쇠 헤템.",
+   "ko": "응, 이번이 첫 주야.",
+   "note": "első = 첫",
    "tags": [],
-   "emotion": "neutral",
+   "emotion": "shy",
    "lemmas": [
     [
      "Igen",
@@ -65,18 +69,8 @@
      "이겐"
     ],
     [
-     "jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "biciklid",
-     "biciklid",
+     "hetem",
+     "hetem",
      ""
     ]
    ]
@@ -84,10 +78,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Réka vagyok. És te?",
-   "rd": "레커 버죡. 에시 테?",
+   "hu": "Réka vagyok. Te?",
+   "rd": "레커 버죡. 테?",
    "ko": "나는 레카야. 너는?",
-   "note": "és te? = 너는?",
+   "note": "Te? = 너는?",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -106,134 +100,128 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "{name} vagyok. Magyarul tanulok.",
-   "rd": "{name} 버죡. 머져룰 터눌록.",
-   "ko": "나는 {name}. 헝가리어 배워.",
-   "note": "magyarul = 헝가리어로",
-   "tags": [],
-   "emotion": "cheerful",
+   "hu": "{name}. {country}ból jöttem.",
+   "rd": "{name}. {country}볼 요뗌.",
+   "ko": "{name}. {country}에서 왔어.",
+   "note": "-ból/-ből = ~에서",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "vagyok",
-     "van",
-     "번"
+     "ból",
+     "ból",
+     ""
     ],
     [
-     "tanulok",
-     "tanul",
-     "타눌"
+     "jöttem",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Hű, de jól beszélsz!",
-   "rd": "휘, 데 욜 베쎌쓰!",
-   "ko": "와, 말 진짜 잘한다!",
-   "note": "de + 형용사/부사 = 정말 ~하다",
-   "tags": [],
+   "hu": "Szuper! Hogy tetszik Budapest?",
+   "rd": "쑤페르! 호지 테트씩 부더페슈트?",
+   "ko": "좋다! 부다페스트 어때?",
+   "note": "Hogy tetszik? = 마음에 들어?",
+   "tags": [
+    "expr:Szuper"
+   ],
    "emotion": "excited",
    "lemmas": [
     [
-     "Hű",
-     "hű",
-     ""
+     "Szuper",
+     "szuper",
+     "쑤페르"
     ],
     [
-     "jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "beszélsz",
-     "beszél",
-     "베쎌"
+     "tetszik",
+     "tetszik",
+     "테트씨크"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Köszi! Te is jól beszélsz magyarul!",
-   "rd": "쾨씨! 테 이시 욜 베쎌쓰 머져룰!",
-   "ko": "고마워! 너도 헝가리어 잘하네!",
-   "note": "köszi = 고마워(köszönöm 의 줄임)",
+   "hu": "Nagyon. De a nyelv nehéz.",
+   "rd": "너죤. 데 어 넬브 네헤즈.",
+   "ko": "아주 좋아. 근데 말이 어려워.",
+   "note": "nehéz = 어려운",
    "tags": [
-    "expr:Köszi"
+    "expr:Na"
    ],
-   "emotion": "cheerful",
+   "emotion": "worried",
    "lemmas": [
     [
-     "Köszi",
-     "köszi",
-     "쾨씨"
+     "Nagyon",
+     "nagyon",
+     "너존"
     ],
     [
-     "jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "beszélsz",
-     "beszél",
-     "베쎌"
-    ],
-    [
-     "magyarul",
-     "magyar",
+     "nyelv",
+     "nyelv",
      ""
+    ],
+    [
+     "nehéz",
+     "nehéz",
+     "네헤즈"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Hát... én magyar vagyok.",
-   "rd": "하트... 엔 머져르 버죡.",
-   "ko": "음… 나 헝가리 사람인데.",
-   "note": "hát = 음, 글쎄(말 꺼낼 때)",
+   "hu": "Na, gyere, igyunk egy kávét. Segítek.",
+   "rd": "너, 제레, 이쥰크 에지 카베트. 세기텍.",
+   "ko": "자, 가자, 커피 한잔하자. 도와줄게.",
+   "note": "segítek = 내가 도와줄게",
    "tags": [
-    "expr:Hát"
+    "expr:Na"
    ],
-   "emotion": "amused",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "magyar",
-     "magyar",
-     ""
+     "gyere",
+     "jön",
+     "왼"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
+     "igyunk",
+     "iszik",
+     "이식"
+    ],
+    [
+     "kávét",
+     "kávé",
+     "카베"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Jaj. Ja, persze.",
-   "rd": "여이. 여, 페르쎄.",
-   "ko": "아이고. 아, 그렇지.",
-   "note": "persze = 물론, 그렇지",
+   "hu": "Tényleg? Köszi, Réka.",
+   "rd": "테닐렉? 쾨씨, 레커.",
+   "ko": "진짜? 고마워, 레카.",
+   "note": "tényleg = 정말",
    "tags": [],
-   "emotion": "flustered",
+   "emotion": "shy",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "persze",
-     "persze",
-     "페르쎄"
+     "Tényleg",
+     "tényleg",
+     "테니렉"
     ]
    ]
   }

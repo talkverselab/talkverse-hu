@@ -10,93 +10,77 @@
  "domain": [
   "study"
  ],
- "title": "파프리카 한 봉지",
- "emoji": "🌶️",
- "scene": "기숙사 공용 부엌. Réka 와 파프리카 감자를 끓인다. 양을 물어봤는데 Réka 는 자전거를 묶으러 나갔다",
+ "title": "기숙사 냉장고의 요거트",
+ "emoji": "🥛",
+ "scene": "기숙사 공용 주방. Réka 가 냉장고에 둔 요거트가 없어졌다고 한다. 아침에 먹은 요거트가 떠오른다",
  "speakers": {
   "A": "{name}",
-  "B": "Réka",
-  "C": "Tűzoltó"
+  "B": "Réka"
  },
- "register": "mixed",
+ "register": "casual",
  "twist": 9,
  "twist_type": "chaos",
  "flags": [],
- "goal": "요리하며 양 묻기(Mennyi kell bele?)",
+ "goal": "물건 찾기와 소유 말하기(az enyém · a tiéd · Dávidé)",
  "expressions": [
-  "Szuper",
-  "Szerintem",
-  "Mindegy",
-  "Mindjárt",
+  "Figyelj",
   "Ne már",
-  "Bocsánat"
+  "Várj",
+  "Szerintem"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Éhes vagyok. Mit főzünk ma este?",
-   "rd": "에헤시 버죡. 미트 푀쥔크 머 에슈테?",
-   "ko": "배고파. 오늘 저녁 뭐 해 먹지?",
-   "note": "főzünk = 우리가 요리한다",
-   "tags": [],
-   "emotion": "neutral",
+   "hu": "Figyelj, láttad a joghurtomat? Itt volt a hűtőben.",
+   "rd": "피젤이, 라떠드 어 욕후르토머트? 이트 볼트 어 휘퇴벤.",
+   "ko": "있잖아, 내 요거트 봤어? 냉장고에 있었는데.",
+   "note": "hűtő = 냉장고",
+   "tags": [
+    "expr:Figyelj"
+   ],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Éhes",
-     "éhes",
-     "에헤시"
+     "Figyelj",
+     "figyel",
+     "피겔"
     ],
     [
-     "vagyok",
+     "láttad",
+     "lát",
+     "라트"
+    ],
+    [
+     "joghurtomat",
+     "joghurt",
+     ""
+    ],
+    [
+     "volt",
      "van",
      "번"
     ],
     [
-     "főzünk",
-     "főz",
+     "hűtőben",
+     "hűtő",
      ""
-    ],
-    [
-     "ma",
-     "ma",
-     "머"
-    ],
-    [
-     "este",
-     "este",
-     "에슈테"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Paprikás krumplit! Anna adott nekem paprikát.",
-   "rd": "퍼프리카시 크룸플리트! 언너 어도트 네켐 퍼프리카트.",
-   "ko": "파프리카 감자! 언너가 파프리카 줬어.",
-   "note": "paprikás krumpli = 파프리카 감자 스튜",
+   "hu": "Milyen joghurtot?",
+   "rd": "미옌 욕후르토트?",
+   "ko": "무슨 요거트?",
+   "note": "milyen = 어떤",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Paprikás",
-     "paprikás",
-     ""
-    ],
-    [
-     "krumplit",
-     "krumpli",
-     ""
-    ],
-    [
-     "adott",
-     "ad",
-     "어드"
-    ],
-    [
-     "paprikát",
-     "paprika",
+     "joghurtot",
+     "joghurt",
      ""
     ]
    ]
@@ -104,57 +88,78 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Szuper. Mennyi paprika kell bele?",
-   "rd": "쑤페르. 메니 퍼프리커 켈 벨레?",
-   "ko": "좋아. 파프리카 얼마나 넣어?",
-   "note": "bele = 그 안에",
-   "tags": [
-    "expr:Szuper"
-   ],
-   "emotion": "cheerful",
+   "hu": "Epreset, kicsit, a felső polcon. Ráírtam a nevemet is.",
+   "rd": "에프레세트, 키치트, 어 펠쇠 폴촌. 라이르텀 어 네베메트 이시.",
+   "ko": "딸기 맛, 작은 거, 맨 위 칸. 이름도 써 놨어.",
+   "note": "polc = 선반, 칸",
+   "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "Szuper",
-     "szuper",
-     "쑤페르"
-    ],
-    [
-     "paprika",
-     "paprika",
+     "Epreset",
+     "epreset",
      ""
     ],
     [
-     "kell",
-     "kell",
-     "켈"
+     "kicsit",
+     "kicsi",
+     "키치"
     ],
     [
-     "bele",
-     "bél",
-     "벨"
+     "felső",
+     "felső",
+     ""
+    ],
+    [
+     "polcon",
+     "polc",
+     ""
+    ],
+    [
+     "nevemet",
+     "név",
+     "네브"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Szerintem egy kanál. Vagy egy zacskó?",
-   "rd": "쎄린템 에지 커날. 버지 에지 저치코?",
-   "ko": "한 숟갈? 아니면 한 봉지?",
-   "note": "zacskó = 봉지",
-   "tags": [
-    "expr:Szerintem"
-   ],
+   "hu": "Hát, én ma reggel ettem egy epres joghurtot.",
+   "rd": "하트, 엔 머 렉겔 에뗌 에지 에프레시 욕후르토트.",
+   "ko": "음, 나 오늘 아침에 딸기 요거트 하나 먹었는데.",
+   "note": "ettem = 먹었다",
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "kanál",
-     "kanál",
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "ettem",
+     "esz",
      ""
     ],
     [
-     "zacskó",
-     "zacskó",
+     "epres",
+     "epres",
+     ""
+    ],
+    [
+     "joghurtot",
+     "joghurt",
      ""
     ]
    ]
@@ -162,282 +167,214 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Mindegy, mindjárt jövök. Csak lerakom a biciklit.",
-   "rd": "민데지, 민드야르트 요뵉. 척 레러콤 어 비칙리트.",
-   "ko": "상관없어, 금방 올게. 자전거만 세워 두고.",
-   "note": "lerak = 내려놓다",
-   "tags": [
-    "expr:Mindegy",
-    "expr:Mindjárt"
-   ],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Mindegy",
-     "mindegy",
-     "민데지"
-    ],
-    [
-     "mindjárt",
-     "mindjárt",
-     "민드야르트"
-    ],
-    [
-     "jövök",
-     "jön",
-     "왼"
-    ],
-    [
-     "lerakom",
-     "lerak",
-     ""
-    ],
-    [
-     "biciklit",
-     "bicikli",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Kész! De miért sírok?",
-   "rd": "케쓰! 데 미에르트 시록?",
-   "ko": "됐다! 근데 왜 눈물이 나지?",
-   "note": "sírok = 내가 운다",
-   "tags": [],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Kész!"
-    ],
-    [
-     "surprised",
-     "De miért sírok?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Kész",
-     "kész",
-     "케스"
-    ],
-    [
-     "miért",
-     "miért",
-     "미에르트"
-    ],
-    [
-     "sírok",
-     "sír",
-     "시르"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Jaj, ne már! Mennyit tettél bele?",
-   "rd": "여이, 네 마르! 메니트 테뗄 벨레?",
-   "ko": "아이고, 아 좀! 얼마나 넣었어?",
-   "note": "tettél = 네가 넣었다(tesz)",
+   "hu": "Ne már! Nem láttad a nevemet?",
+   "rd": "네 마르! 넴 라떠드 어 네베메트?",
+   "ko": "아 진짜! 내 이름 못 봤어?",
+   "note": "ne már = 아 좀, 설마",
    "tags": [
     "expr:Ne már"
    ],
-   "emotion": "shout",
+   "emotion": "annoyed",
    "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
     [
      "már",
      "már",
      "마르"
     ],
     [
-     "tettél",
-     "tesz",
-     "테스"
+     "láttad",
+     "lát",
+     "라트"
     ],
     [
-     "bele",
-     "bél",
-     "벨"
+     "nevemet",
+     "név",
+     "네브"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Nem volt rajta név. Az enyém volt, tegnap vettem.",
+   "rd": "넴 볼트 러이터 네브. 어즈 에넴 볼트, 텍너프 베뗌.",
+   "ko": "이름 없었어. 내 거였어, 어제 샀거든.",
+   "note": "az enyém = 내 것",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "név",
+     "név",
+     "네브"
+    ],
+    [
+     "tegnap",
+     "tegnap",
+     "테그너프"
+    ],
+    [
+     "vettem",
+     "vett",
+     "벳트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Biztos? Akkor hol van az enyém?",
+   "rd": "비즈토시? 어꼬르 홀 번 어즈 에넴?",
+   "ko": "확실해? 그럼 내 건 어디 있어?",
+   "note": "biztos = 확실한",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Biztos",
+     "biztos",
+     "비즈토슈"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Az egészet. Miért, mi ez a hang?",
-   "rd": "어즈 에게쎄트. 미에르트, 미 에즈 어 헌그?",
-   "ko": "전부. 왜, 이 소리 뭐야?",
-   "note": "az egészet = 전부를",
-   "tags": [],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Az egészet."
-    ],
-    [
-     "worried",
-     "Miért, mi ez a hang?"
-    ]
+   "hu": "Várj, nézzük meg. Mi ez itt hátul?",
+   "rd": "바르이, 네쥑 멕. 미 에즈 이트 하툴?",
+   "ko": "잠깐, 보자. 여기 뒤에 이건 뭐야?",
+   "note": "hátul = 뒤쪽에",
+   "tags": [
+    "expr:Várj"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "egészet",
-     "egésze",
-     "에게세"
+     "Várj",
+     "vár",
+     "바르"
     ],
     [
-     "hang",
-     "hang",
-     "헝"
+     "nézzük",
+     "néz",
+     "네즈"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "hátul",
+     "hátul",
+     "하툴"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "hu": "A riasztó! Az egész emelet köhög a folyosón!",
-   "rd": "어 리어쓰토! 어즈 에게쓰 에멜레트 쾨획 어 포요숀!",
-   "ko": "경보기야! 층 전체가 복도에서 기침해!",
-   "note": "köhög = 기침한다",
+   "hu": "Két epres joghurt. Az egyiken az én nevem, a másikon a tiéd.",
+   "rd": "케트 에프레시 욕후르트. 어즈 에지켄 어즈 엔 네벰, 어 마시콘 어 티에드.",
+   "ko": "딸기 요거트 두 개. 하나엔 내 이름, 하나엔 네 이름.",
+   "note": "a tiéd = 네 것",
    "tags": [],
-   "emotion": "shout",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "riasztó",
-     "riaszt",
+     "epres",
+     "epres",
      ""
     ],
     [
-     "egész",
-     "egész",
-     "에게쓰"
-    ],
-    [
-     "emelet",
-     "emelet",
+     "joghurt",
+     "joghurt",
      ""
     ],
     [
-     "köhög",
-     "köhög",
+     "egyiken",
+     "egyike",
      ""
     ],
     [
-     "folyosón",
-     "folyosó",
-     ""
+     "nevem",
+     "név",
+     "네브"
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "C",
-   "hu": "Tűzoltóság! Mi ez a szag?",
-   "rd": "튀졸토샥! 미 에즈 어 썩?",
-   "ko": "소방대입니다! 이 냄새 뭐죠?",
-   "note": "szag = 냄새",
+   "speaker": "A",
+   "hu": "Akkor reggel kinek a joghurtját ettem meg?",
+   "rd": "어꼬르 렉겔 키넥 어 욕후르트야트 에뗌 멕?",
+   "ko": "그럼 아침에 내가 누구 요거트를 먹은 거지?",
+   "note": "kinek a…? = 누구의?",
    "tags": [],
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Tűzoltóság!"
-    ],
-    [
-     "stiff",
-     "Mi ez a szag?"
-    ]
-   ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Tűzoltóság",
-     "tűzoltóság",
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "kinek",
+     "ki",
+     "키"
+    ],
+    [
+     "joghurtját",
+     "joghurt",
      ""
     ],
     [
-     "szag",
-     "szag",
+     "ettem",
+     "esz",
      ""
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "hu": "Bocsánat! Ez csak paprikás krumpli.",
-   "rd": "보차너트! 에즈 척 퍼프리카시 크룸플리.",
-   "ko": "죄송해요! 그냥 파프리카 감자예요.",
-   "note": "csak = 그냥, ~만",
+   "speaker": "B",
+   "hu": "Szerintem Dávidé volt. Ő pedig mindent megszámol.",
+   "rd": "쎄린템 다비데 볼트. 외 페딕 민덴트 멕싸몰.",
+   "ko": "다비드 거였을걸. 걔는 뭐든 다 세어 봐.",
+   "note": "megszámol = 세어 보다",
    "tags": [
-    "expr:Bocsánat"
+    "expr:Szerintem"
    ],
-   "emotion": "flustered",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Bocsánat",
-     "bocsánat",
-     "버치너트"
+     "volt",
+     "van",
+     "번"
     ],
     [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "paprikás",
-     "paprikás",
-     ""
-    ],
-    [
-     "krumpli",
-     "krumpli",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "C",
-   "hu": "Hű, ez nagyon jó! Van még hat tányér?",
-   "rd": "휘, 에즈 너죤 요! 번 멕 허트 타네르?",
-   "ko": "오, 이거 맛있네요! 여섯 그릇 더 있어요?",
-   "note": "tányér = 접시",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Hű",
-     "hű",
-     ""
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "jó",
-     "jó",
-     "요"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "tányér",
-     "tányér",
+     "megszámol",
+     "megszámol",
      ""
     ]
    ]

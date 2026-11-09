@@ -1,23 +1,23 @@
 === r2_work_b4
 kind: long
-title: 월급 10퍼센트
-emoji: 🔑
-scene: 용기를 내서 사장에게 월급 인상을 말했다. 사장이 너무 쉽게 좋다고 한다
+title: 휴가 신청
+emoji: 📅
+scene: 사장님 사무실 문을 두드린다. 다음 주 금요일 하루만 쉬고 싶다
 b: Főnök
-register: mixed
-twist: 10 chaos
+register: polite
+twist: 10 reveal
 purpose: work_hungary
-goal: 윗사람에게 말 꺼내기와 조건 듣기(De akkor…)
-expressions: Persze; Komolyan; Jól van; Rendben; Hát; Tessék
-A | Főnök úr, van egy perce? | 사장님, 잠깐 시간 있으세요? | van egy perce? = 1분 있으세요? | emotion=polite
-B | Persze. Mi a baj? | 그럼. 무슨 일이야? | mi a baj? = 무슨 문제야? | emotion=neutral
-A | Szeretnék több pénzt. Tíz százalékkal többet. | 돈을 더 받고 싶어요. 10퍼센트 더요. | -kal/-kel = ~만큼 | emotion=shy
-B | Tízet? Nem, adok harmincat. | 10? 아니, 30 줄게. | adok = 내가 준다 | emotion=surprised+cheerful
-A | Komolyan? Köszönöm, főnök úr! | 정말요? 감사합니다, 사장님! | komolyan? = 진심이에요? | emotion=surprised+excited
-B | De akkor szombaton is te nyitsz. | 대신 토요일에도 네가 문 열어. | nyitsz = 네가 연다 | emotion=teasing
-A | Jól van. Rendben. | 네. 알겠습니다. | rendben = 알겠다, 좋다 | emotion=polite
-B | És vasárnap is. És te rendeled a poharakat. | 일요일도. 컵 주문도 네가 해. | rendeled = 네가 그것을 주문한다(정활용) | emotion=teasing
-A | Hát, oké. Még valami? | 음, 네. 또 있어요? | még valami? = 또 뭐 있어요? | emotion=worried
-B | Igen, itt a kulcs. Holnaptól te vagy a főnök. | 응, 여기 열쇠. 내일부터 네가 사장이야. | holnaptól = 내일부터 | emotion=cheerful
-A | Tessék?! És Ön hova megy? | 네?! 그럼 사장님은 어디 가시는데요? | Ön = 당신(존댓말) | emotion=shout+flustered
-B | A Balatonra. Harminc éve várok erre! | 벌러톤에. 30년을 기다렸어! | erre = 이것을(vár + -ra) | emotion=excited
+goal: 상사에게 휴가 신청하기(Szabadságot szeretnék kérni · Van egy perce?)
+expressions: Persze; Egy pillanat; Tényleg
+A | Elnézést, van egy perce? | 실례합니다, 잠깐 시간 있으세요? | van egy perce? = 1분 있으세요? | emotion=polite
+B | Persze, jöjjön be. Mi a helyzet? | 그럼요, 들어와요. 무슨 일이에요? | jöjjön be = 들어오세요 | emotion=gentle
+A | Szabadságot szeretnék kérni. Csak egy napot. | 휴가를 신청하고 싶어요. 하루만요. | szabadság = 휴가 | emotion=stiff
+B | Melyik napot? | 어느 날이요? | melyik = 어느 | emotion=polite
+A | Jövő pénteket. A barátaim jönnek Budapestre. | 다음 주 금요일이요. 친구들이 부다페스트에 와요. | jövő péntek = 다음 주 금요일 | emotion=stiff+cheerful
+B | Jövő péntek. Egy pillanat, megnézem a naptárt. | 다음 주 금요일이라. 잠깐만요, 달력 볼게요. | naptár = 달력 | emotion=neutral
+A | Tudom, hogy sok a munka. Szombaton bejövök helyette. | 일 많은 거 알아요. 대신 토요일에 나올게요. | helyette = 대신 | emotion=worried
+B | Ugyan. Jövő péntek augusztus huszadika. | 무슨요. 다음 주 금요일은 8월 20일이에요. | ugyan = 별말을, 무슨 | emotion=amused
+A | És? Akkor mi van? | 그래서요? 그게 왜요? | mi van? = 뭔데요? | emotion=surprised
+B | Nemzeti ünnep. Mindenki szabadnapos, mi is zárva leszünk. | 국경일이에요. 다들 쉬는 날이라 우리도 문 닫아요. | nemzeti ünnep = 국경일 | emotion=amused
+A | Tényleg? Akkor visszavonom a kérést. | 정말요? 그럼 신청 취소할게요. | visszavonom = 취소한다 | emotion=flustered
+B | Ne vonja vissza. Kérjen inkább egy hétfőt. | 취소하지 말고요. 대신 월요일 하루 신청하세요. | inkább = 차라리, 대신 | emotion=gentle

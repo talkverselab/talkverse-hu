@@ -1,96 +1,86 @@
 {
 "ep": "r3_friends_b3",
 "cast": {
-"B": "reka",
-"C": "man_m",
-"D": "woman_o"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"worried",
-"Figyelj, mit rendeltél tegnap? Egy teherautó áll a ház előtt."
+"teasing",
+"Bírod még? Már csak tíz perc a kilátóig."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Csak paprikát a gulyáshoz. Öt kilót, ha jól emlékszem."
+"worried",
+"Bírom, bírom. De miért ilyen nehéz a te táskád?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"polite",
-"Jó napot! Hová tegyem az ötszáz kilót?"
+"flustered",
+"Csak víz meg szendvics. Semmi különös."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Mennyit?!"
-],
-[
-"flustered",
-"Nem, nem, öt kilót kértem!"
+"teasing",
+"Gyanús vagy ma. Egész reggel mosolyogsz."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"stiff",
-"Itt az áll, hogy ötszáz. Maga rendelte, maga fizette."
+"flustered",
+"Én? Nézd inkább, ott a Duna!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Úristen, {name}!"
-],
-[
-"worried",
-"Ez hova fér el?"
+"excited",
+"Hű, gyönyörű! Innen az egész város látszik."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"A szobámba nem. Oda még a kanapé sem fért be."
+"teasing",
+"Emlékszel? Tavaly ilyenkor még mindenhol a térképet nézted."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"annoyed",
-"Engem ez nem érdekel. A lépcsőre teszem, aztán megyek."
+"amused",
+"Igen, és minden villamoson eltévedtem."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"annoyed",
-"Már megint maguk? Mi ez a szag, ez paprika?"
+"gentle",
+"Most meg te mutatod nekem az utat."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"Néni, nem kér véletlenül paprikát? Egy kiló csak ezer forint."
+"shy",
+"Na jó, néha. Leülünk egy kicsit?"
 ]
 ]
 },
@@ -98,7 +88,7 @@
 "segs": [
 [
 "excited",
-"Ezer? Hívom a lányomat, a szomszédokat, az egész utcát!"
+"Persze. Várj, csukd be a szemed!"
 ]
 ]
 },
@@ -106,7 +96,7 @@
 "segs": [
 [
 "surprised",
-"Várj, miért állnak sorban a lépcsőn? Ki ez a sok ember?"
+"Miért? Mit csinálsz?"
 ]
 ]
 },
@@ -114,23 +104,31 @@
 "segs": [
 [
 "excited",
-"Az egész utca gulyást főz. Hallod, ez király!"
+"Most nyisd ki! Ma pont egy éve vagy Budapesten."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"excited",
-"Réka, mindent eladtunk! Még pénzünk is maradt!"
+"surprised",
+"Torta?! Ezt cipelted fel egész úton?"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"amused",
-"Tudom. Ezért rendeltem ötszáz kiló hagymát."
+"cheerful",
+"Naná! Na, fújd el a gyertyát, mielőtt elfújja a szél."
+]
+]
+},
+"16": {
+"segs": [
+[
+"gentle",
+"Réka, ez a legjobb nap egész évben."
 ]
 ]
 }

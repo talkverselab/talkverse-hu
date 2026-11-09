@@ -2,86 +2,79 @@
 "ep": "r3_friends_b2",
 "cast": {
 "B": "reka",
-"C": "woman_o"
+"C": "woman_m",
+"D": "woman_y"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"excited",
-"Réka, nézd, mit találtam a kanapéban! Egy régi levél."
+"cheerful",
+"Boldog névnapot, Réka! Ezt neked hoztam."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"teasing",
-"Pénz van benne? Mert ha igen, a fele az enyém."
+"excited",
+"Jaj, de szép virág, köszönöm! Gyere be."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Nincs pénz."
-],
-[
-"gentle",
-"„Drága Ilonka, szombaton várlak a hídnál.”"
+"surprised",
+"Hogyhogy ennyi ember van itt? Ez egy buli?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"excited",
-"Hű, mikori ez? Nézd meg a dátumot!"
+"gentle",
+"Nálunk a névnap majdnem olyan fontos, mint a szülinap."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Ezerkilencszázhatvannyolc. Ez a szó hosszabb, mint a levél."
+"surprised",
+"Tényleg? És honnan tudjátok, mikor van?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"worried",
-"És mi lett? Eljött Ilonka a hídhoz, vagy nem?"
+"cheerful",
+"A naptárban minden napnak van neve. Nézd, ma Réka."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"tsukkomi",
-"Honnan tudnám?"
-],
-[
-"neutral",
-"A kanapét te vetted, kitől volt?"
+"cheerful",
+"Szervusz, te vagy {name}? Réka sokat mesél rólad."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"sad",
-"Egy bácsitól a piacon. Már nem tudjuk meg, sajnos."
+"polite",
+"Csókolom! Örülök, hogy megismerhetem."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"polite",
-"Elnézést, ott van még a kanapé? Olyan jól ültem rajta."
+"gentle",
+"Milyen udvarias! Kérsz egy kis süteményt?"
 ]
 ]
 },
@@ -89,64 +82,55 @@
 "segs": [
 [
 "polite",
-"Csókolom! Tessék, üljön le, ezt most találtuk benne."
+"Igen, köszönöm szépen."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"surprised",
-"Várjanak... ez Pista írása.",
-"Várjanak, ez Pista írása."
+"cheerful",
+"Szia! Peti vagyok, Réka unokatestvére."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"surprised",
-"Ismeri Pistát? És ki az az Ilonka?"
+"polite",
+"Csókolom! Örülök, hogy megismerhetem."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"gentle",
-"Én vagyok Ilonka. Pista a férjem."
+"tsukkomi",
+"Csókolom? Huszonkét éves vagyok, nem nyolcvan!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"surprised",
-"Úristen!"
-],
-[
-"excited",
-"És elment a hídhoz?"
+"amused",
+"Te jó ég! A csókolom csak az idősebbeknek jár, neki elég egy szia."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"sad",
-"Nem kaptam meg. Hatvan éve mondja, hogy írt, és nem hittem neki."
+"flustered",
+"Bocsi, Peti! Akkor szia, és boldog névnapot neked is?"
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"sad",
-"Jaj, most bocsánatot kell kérnem tőle."
-],
-[
 "amused",
-"De csak holnap!"
+"Az enyém csak júniusban lesz. De köszi!"
 ]
 ]
 }

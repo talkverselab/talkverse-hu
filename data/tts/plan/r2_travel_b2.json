@@ -9,31 +9,31 @@
 "segs": [
 [
 "excited",
-"Figyelj, a bolhapiacon sose mondd, hogy valami szép!"
+"Nézd, ezek a hímzett terítők szépek!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Miért? Akkor mit mondjak?"
+"cheerful",
+"Tényleg. Anyukámnak jó lenne."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Mondd, hogy csúnya, akkor olcsóbb lesz. Na, menj!"
+"teasing",
+"Kérdezd meg az árát, te beszélsz!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Jó napot! Mennyibe kerül ez a régi óra?"
+"stiff",
+"Jó napot! Mennyibe kerül ez a kicsi?"
 ]
 ]
 },
@@ -41,57 +41,67 @@
 "segs": [
 [
 "polite",
-"Tizenötezer. Nagyon szép darab."
+"Hétezer forint. Kézzel készült."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"stiff",
-"Hát... Ön nagyon csúnya.",
-"Hát, Ön nagyon csúnya."
+"surprised",
+"Hétszáz?"
+],
+[
+"excited",
+"Az olcsó, tessék!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"shout",
-"Úristen, nem ő, az óra! Az óra csúnya!"
+"amused",
+"Nem hétszáz, kedves."
+],
+[
+"polite",
+"Hétezer."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"sad",
-"Hát, igaza van. A feleségem is ezt mondja."
+"amused",
+"Jaj, ezt a kettőt mindenki összekeveri."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"flustered",
-"Jaj, bocsánat! Én csak az órát...",
-"Jaj, bocsánat! Én csak az órát"
+"shy",
+"Bocsánat!"
+],
+[
+"polite",
+"Lehet egy kicsit olcsóbban?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"gentle",
-"Nem baj, legyen kétezer. Végre valaki őszinte velem."
+"polite",
+"Ha kettőt vesz, a másodikat fél áron adom."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"amused",
-"Na, látod? Mondtam, hogy működik."
+"teasing",
+"Réka, kell neked terítő?"
 ]
 ]
 }

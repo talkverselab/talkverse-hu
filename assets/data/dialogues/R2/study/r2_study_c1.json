@@ -10,103 +10,106 @@
  "domain": [
   "study"
  ],
- "title": "물음표 하나",
- "emoji": "❓",
- "scene": "수업 단톡방. Réka 의 물음표 하나가 저녁 내내 커진다",
+ "title": "스터디 단톡방",
+ "emoji": "👥",
+ "scene": "셋이 시험공부를 같이 하기로 한 단톡방. 「내일 네 시, 도서관」 까지는 순조로웠다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
-  "C": "Anna",
-  "D": "Tanárnő"
+  "C": "Anna"
  },
  "register": "chat",
- "twist": 7,
+ "twist": 10,
  "twist_type": "chaos",
  "flags": [],
- "goal": "소문 전하기(Azt hallottam, hogy…)와 단톡방 반응",
+ "goal": "단톡방에서 시간·장소 정하기(Mikor tanulunk? · Melyik könyvtárban?)",
  "expressions": [
-  "Nem tudom",
-  "Szerintem",
-  "Tényleg",
-  "Szuper",
-  "Komolyan",
-  "Durva"
+  "Sziasztok",
+  "Oké",
+  "Mindjárt",
+  "Jaj"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Holnap elmarad az óra?",
-   "rd": "홀너프 엘머러드 어즈 오러?",
-   "ko": "내일 휴강이야?",
-   "note": "elmarad = 취소된다",
-   "tags": [],
-   "at": "18:02",
-   "emotion": "neutral",
+   "hu": "Sziasztok! Mikor tanulunk együtt a vizsgára?",
+   "rd": "씨어쓰톡! 미코르 터눌룬크 에쥐트 어 비지가러?",
+   "ko": "얘들아! 시험공부 같이 언제 해?",
+   "note": "sziasztok = 안녕, 얘들아",
+   "tags": [
+    "expr:Sziasztok"
+   ],
+   "at": "20:01",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Holnap",
-     "holnap",
-     "홀넙"
+     "Sziasztok",
+     "sziasztok",
+     "씨어스톡"
     ],
     [
-     "elmarad",
-     "elmarad",
+     "tanulunk",
+     "tanul",
+     "타눌"
+    ],
+    [
+     "együtt",
+     "együtt",
+     "에듀트"
+    ],
+    [
+     "vizsgára",
+     "vizsga",
      ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Nem tudom. Szerintem igen.",
-   "rd": "넴 투돔. 쎄린템 이겐.",
-   "ko": "몰라. 아마 그럴걸.",
-   "note": "szerintem = 내 생각엔",
-   "tags": [
-    "expr:Nem tudom",
-    "expr:Szerintem"
-   ],
-   "at": "18:03",
-   "emotion": "neutral",
+   "speaker": "C",
+   "hu": "Nekem holnap délután jó.",
+   "rd": "네켐 홀너프 델루탄 요.",
+   "ko": "난 내일 오후 좋아.",
+   "note": "délután = 오후",
+   "tags": [],
+   "at": "20:03",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "tudom",
-     "tud",
-     "투드"
+     "holnap",
+     "holnap",
+     "홀넙"
     ],
     [
-     "igen",
-     "igen",
-     "이겐"
+     "délután",
+     "délután",
+     "델우탄"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "C",
-   "hu": "Tényleg elmarad? Szuper!",
-   "rd": "테닐렉 엘머러드? 쑤페르!",
-   "ko": "진짜 휴강이야? 좋다!",
-   "note": "tényleg = 정말",
-   "tags": [
-    "expr:Tényleg",
-    "expr:Szuper"
-   ],
-   "at": "18:05",
-   "emotion": "excited",
+   "speaker": "A",
+   "hu": "Nekem is. Négykor a könyvtárban?",
+   "rd": "네켐 이시. 네지코르 어 쾨니브타르번?",
+   "ko": "나도. 네 시에 도서관?",
+   "note": "négykor = 네 시에",
+   "tags": [],
+   "at": "20:04",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "elmarad",
-     "elmarad",
+     "könyvtárban",
+     "könyvtár",
      ""
     ]
    ]
@@ -114,281 +117,262 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Azt hallottam, hogy egész héten elmarad.",
-   "rd": "어즈트 헐로떰, 호지 에게쓰 헤텐 엘머러드.",
-   "ko": "이번 주 내내 휴강이라고 들었어.",
-   "note": "azt hallottam = 그렇게 들었다",
-   "tags": [],
-   "at": "18:11",
+   "hu": "Oké! Hozom a jegyzeteimet.",
+   "rd": "오케! 호좀 어 예지제테이메트.",
+   "ko": "오케이! 내 필기 가져갈게.",
+   "note": "jegyzet = 필기",
+   "tags": [
+    "expr:Oké"
+   ],
+   "at": "20:04",
    "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "hallottam",
-     "hallott",
-     ""
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
-     "egész",
-     "egész",
-     "에게쓰"
-    ],
-    [
-     "héten",
-     "hét",
-     "헤트"
-    ],
-    [
-     "elmarad",
-     "elmarad",
+     "jegyzeteimet",
+     "jegyzet",
      ""
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "Komolyan? Ki mondta?",
-   "rd": "코모연? 키 몬드터?",
-   "ko": "진짜? 누가 그랬어?",
-   "note": "komolyan? = 진짜?",
-   "tags": [
-    "expr:Komolyan"
-   ],
-   "at": "18:12",
-   "emotion": "surprised",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Komolyan",
-     "komoly",
-     "코모이"
-    ],
-    [
-     "mondta",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Te mondtad.",
-   "rd": "테 몬드터드.",
-   "ko": "네가 그랬잖아.",
-   "note": "te mondtad = 네가 말했다",
-   "tags": [],
-   "at": "18:12",
-   "emotion": "tsukkomi",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "mondtad",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
-   "num": 7,
    "speaker": "C",
-   "hu": "Úristen, azt írják, hogy bezár az egyetem! 😱",
-   "rd": "우리슈텐, 어즈트 이르약, 호지 베자르 어즈 에제템! 😱",
-   "ko": "세상에, 학교가 문 닫는대! 😱",
-   "note": "bezár = 문을 닫다",
+   "hu": "Én pedig pogácsát. 😋",
+   "rd": "엔 페딕 포가차트. 😋",
+   "ko": "난 포가차. 😋",
+   "note": "pedig = 그리고(나는)",
    "tags": [],
-   "at": "18:20",
-   "emotion": "surprised",
+   "at": "20:05",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
-    ],
-    [
-     "írják",
-     "ír",
-     "이르"
-    ],
-    [
-     "bezár",
-     "bezár",
-     "베자르"
-    ],
-    [
-     "egyetem",
-     "egyetem",
+     "pogácsát",
+     "pogácsa",
      ""
     ]
    ]
   },
   {
-   "num": 8,
+   "num": 6,
    "speaker": "A",
-   "hu": "Durva. Akkor már veszem is a repülőjegyet.",
-   "rd": "두르버. 어꼬르 마르 베쎔 이시 어 레퓔뢰예제트.",
-   "ko": "대박. 그럼 비행기표 바로 산다.",
-   "note": "veszem = 내가 그것을 산다",
-   "tags": [
-    "expr:Durva"
-   ],
-   "at": "18:31",
-   "emotion": "amused",
+   "hu": "Itt vagyok, a második emeleten. Hol vagytok?",
+   "rd": "이트 버죡, 어 마쇼딕 에멜레텐. 홀 버지톡?",
+   "ko": "나 왔어, 2층이야. 너네 어디야?",
+   "note": "emelet = 층",
+   "tags": [],
+   "at": "16:02",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Durva",
-     "durva",
-     "두르버"
+     "Itt",
+     "itt",
+     "이트"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "vagyok",
+     "van",
+     "번"
     ],
     [
-     "veszem",
-     "veszik",
-     "베세크"
+     "emeleten",
+     "emelet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Mi is a második emeleten vagyunk. Nem látunk. 🤔",
+   "rd": "미 이시 어 마쇼딕 에멜레텐 버쥰크. 넴 라툰크. 🤔",
+   "ko": "우리도 2층인데. 안 보여. 🤔",
+   "note": "nem látunk = (너를) 못 보겠다",
+   "tags": [],
+   "at": "16:04",
+   "emotion": "surprised",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "emeleten",
+     "emelet",
+     ""
     ],
     [
-     "repülőjegyet",
-     "repülőjegy",
+     "vagyunk",
+     "van",
+     "번"
+    ],
+    [
+     "látunk",
+     "lát",
+     "라트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Melyik könyvtárban vagy?",
+   "rd": "메익 쾨니브타르번 버지?",
+   "ko": "너 어느 도서관이야?",
+   "note": "melyik = 어느",
+   "tags": [],
+   "at": "16:04",
+   "emotion": "worried",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "könyvtárban",
+     "könyvtár",
      ""
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "B",
-   "hu": "Én meg eladtam a tankönyvemet.",
-   "rd": "엔 멕 엘러드텀 어 턴쾨니베메트.",
-   "ko": "난 교재 팔았어.",
-   "note": "eladtam = 내가 팔았다",
+   "speaker": "A",
+   "hu": "Hát az egyetemiben. Ti nem?",
+   "rd": "하트 어즈 에제테미벤. 티 넴?",
+   "ko": "당연히 대학 도서관이지. 너넨 아니야?",
+   "note": "egyetemi = 대학의",
    "tags": [],
-   "at": "18:33",
-   "emotion": "neutral",
+   "at": "16:05",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "eladtam",
-     "elad",
-     "엘러드"
+     "Hát",
+     "hát",
+     "핫"
     ],
     [
-     "tankönyvemet",
-     "tankönyv",
+     "egyetemiben",
+     "egyetemi",
      ""
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "D",
-   "hu": "Jó estét! Holnap nyolckor dolgozat lesz.",
-   "rd": "요 에슈테트! 홀너프 뇰츠코르 돌고저트 레쓰.",
-   "ko": "좋은 저녁이에요! 내일 8시에 쪽지시험 봅니다.",
-   "note": "dolgozat = 쪽지시험, 보고서",
+   "speaker": "B",
+   "hu": "Mi a kerületiben vagyunk, a kollégium mellett. Anna most indul hozzád. 😂",
+   "rd": "미 어 케륄레티벤 버쥰크, 어 콜레기움 멜레트. 언너 모슈트 인둘 호자드. 😂",
+   "ko": "우린 기숙사 옆 구립 도서관이야. 언너가 지금 너한테 출발했어. 😂",
+   "note": "kerületi = 구(區)의",
    "tags": [],
-   "at": "18:40",
-   "emotion": "polite",
+   "at": "16:05",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "estét",
-     "este",
-     "에슈테"
-    ],
-    [
-     "nyolckor",
-     "nyolckor",
+     "kerületiben",
+     "kerületi",
      ""
     ],
     [
-     "dolgozat",
-     "dolgozat",
+     "vagyunk",
+     "van",
+     "번"
+    ],
+    [
+     "kollégium",
+     "kollégium",
      ""
     ],
     [
-     "lesz",
-     "lesz",
-     "레쓰"
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "indul",
+     "indul",
+     "인둘"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "C",
-   "hu": "Tanárnő, Ön is itt van?!",
-   "rd": "터나르뇌, 왼 이시 이트 번?!",
-   "ko": "선생님, 여기 계셨어요?!",
-   "note": "Ön is = 당신도(존댓말)",
-   "tags": [],
-   "at": "18:41",
+   "speaker": "A",
+   "hu": "Jaj, ne! Én is mindjárt indulok hozzátok!",
+   "rd": "여이, 네! 엔 이시 민드야르트 인둘록 호자톡!",
+   "ko": "아, 안 돼! 나도 금방 너네한테 출발하는데!",
+   "note": "hozzátok = 너희에게로",
+   "tags": [
+    "expr:Mindjárt",
+    "expr:Jaj"
+   ],
+   "at": "16:06",
    "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Tanárnő",
-     "tanárnő",
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "mindjárt",
+     "mindjárt",
+     "민드야르트"
+    ],
+    [
+     "indulok",
+     "indul",
+     "인둘"
+    ],
+    [
+     "hozzátok",
+     "hozzá",
      ""
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "van",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "D",
-   "hu": "Mindig itt voltam. A repülőjegy visszaváltható? 😇",
-   "rd": "민딕 이트 볼텀. 어 레퓔뢰예지 비써발트허토? 😇",
-   "ko": "전 항상 있었어요. 비행기표는 환불되나요? 😇",
-   "note": "visszaváltható = 환불할 수 있는",
+   "speaker": "C",
+   "hu": "Állj! Maradj ott, én megyek. A pogácsa velem van. 😇",
+   "rd": "알이! 머러드이 오트, 엔 메젝. 어 포가처 벨렘 번. 😇",
+   "ko": "멈춰! 거기 있어, 내가 갈게. 포가차는 나한테 있어. 😇",
+   "note": "állj = 멈춰",
    "tags": [],
-   "at": "18:42",
+   "at": "16:06",
    "stamp": "😇",
-   "emotion": "teasing",
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
-     "Mindig",
-     "mindig",
-     "민딕"
+     "Állj",
+     "áll",
+     "알"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "ott",
+     "ott",
+     "오트"
     ],
     [
-     "voltam",
-     "volt",
-     "볼트"
+     "megyek",
+     "megye",
+     "메예"
     ],
     [
-     "repülőjegy",
-     "repülőjegy",
+     "pogácsa",
+     "pogácsa",
      ""
     ],
     [
-     "visszaváltható",
-     "visszavált",
-     ""
+     "van",
+     "van",
+     "번"
     ]
    ]
   }

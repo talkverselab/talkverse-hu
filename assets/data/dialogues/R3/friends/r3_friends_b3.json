@@ -5,283 +5,47 @@
  "kind": "long",
  "draft": true,
  "purpose": [
-  "making_friends"
+  "making_friends",
+  "study_abroad"
  ],
  "domain": [
   "friends"
  ],
- "title": "파프리카 500킬로",
- "emoji": "🚚",
- "scene": "굴라시 하려고 앱으로 파프리카를 주문했다. 다음 날 아침 트럭이 왔다",
+ "title": "정상에서",
+ "emoji": "⛰️",
+ "scene": "일요일, Réka 와 부다 언덕에 오른다. 오늘따라 Réka 의 배낭이 유난히 무겁다",
  "speakers": {
   "A": "{name}",
-  "B": "Réka",
-  "C": "Sofőr",
-  "D": "Néni"
+  "B": "Réka"
  },
- "register": "mixed",
- "twist": 11,
- "twist_type": "chaos",
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "emotion",
  "flags": [],
- "goal": "수량 말하기와 잘못된 주문 따지기",
+ "goal": "경치·기분 말하기(Gyönyörű · Emlékszel?)와 기념일 축하",
  "expressions": [
-  "Figyelj",
-  "Úristen",
-  "Várj",
-  "Hallod",
-  "király"
+  "Bírod még",
+  "Gyönyörű",
+  "Emlékszel",
+  "Egy éve"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Figyelj, mit rendeltél tegnap? Egy teherautó áll a ház előtt.",
-   "rd": "피젤이, 미트 렌델텔 텍너프? 에지 테헤러우토 알 어 하즈 엘뢰트.",
-   "ko": "야, 어제 뭐 주문했어? 트럭이 집 앞에 서 있어.",
-   "note": "teherautó = 트럭",
+   "hu": "Bírod még? Már csak tíz perc a kilátóig.",
+   "rd": "비로드 멕? 마르 척 티즈 페르츠 어 킬라토익.",
+   "ko": "아직 할 만해? 전망대까지 10분 남았어.",
+   "note": "bírod még? = 아직 버틸 만해?",
    "tags": [
-    "expr:Figyelj"
+    "expr:Bírod még"
    ],
-   "emotion": "worried",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "rendeltél",
-     "rendel",
-     "렌델"
-    ],
-    [
-     "tegnap",
-     "tegnap",
-     "테그너프"
-    ],
-    [
-     "teherautó",
-     "teherautó",
-     ""
-    ],
-    [
-     "áll",
-     "áll",
-     "알"
-    ],
-    [
-     "ház",
-     "ház",
-     "하즈"
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "hu": "Csak paprikát a gulyáshoz. Öt kilót, ha jól emlékszem.",
-   "rd": "척 퍼프리카트 어 구야슈호즈. 외트 킬로트, 허 욜 엠렉쎔.",
-   "ko": "굴라시에 넣을 파프리카만. 내 기억에 5킬로.",
-   "note": "ha jól emlékszem = 내 기억이 맞다면",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "paprikát",
-     "paprika",
-     ""
-    ],
-    [
-     "gulyáshoz",
-     "gulyás",
-     ""
-    ],
-    [
-     "kilót",
-     "kiló",
-     ""
-    ],
-    [
-     "jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "emlékszem",
-     "emlékszik",
-     "에믈레크시크"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "C",
-   "hu": "Jó napot! Hová tegyem az ötszáz kilót?",
-   "rd": "요 너포트! 호바 테젬 어즈 외트싸즈 킬로트?",
-   "ko": "안녕하세요! 500킬로 어디 둘까요?",
-   "note": "hová tegyem = 어디에 둘까요",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "napot",
-     "nap",
-     "넙"
-    ],
-    [
-     "tegyem",
-     "tesz",
-     "테스"
-    ],
-    [
-     "ötszáz",
-     "ötszáz",
-     ""
-    ],
-    [
-     "kilót",
-     "kiló",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Mennyit?! Nem, nem, öt kilót kértem!",
-   "rd": "메니트?! 넴, 넴, 외트 킬로트 케르템!",
-   "ko": "얼마요?! 아니, 아니, 5킬로 주문했어요!",
-   "note": "mennyit = 얼마를",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Mennyit?!"
-    ],
-    [
-     "flustered",
-     "Nem, nem, öt kilót kértem!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "kilót",
-     "kiló",
-     ""
-    ],
-    [
-     "kértem",
-     "kért",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "C",
-   "hu": "Itt az áll, hogy ötszáz. Maga rendelte, maga fizette.",
-   "rd": "이트 어즈 알, 호지 외트싸즈. 머거 렌델테, 머거 피제떼.",
-   "ko": "여기 500이라고 돼 있어요. 주문도 결제도 손님이 하셨어요.",
-   "note": "maga = 당신(존댓말)",
-   "tags": [],
-   "emotion": "stiff",
-   "lemmas": [
-    [
-     "Itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "áll",
-     "áll",
-     "알"
-    ],
-    [
-     "ötszáz",
-     "ötszáz",
-     ""
-    ],
-    [
-     "rendelte",
-     "rendel",
-     "렌델"
-    ],
-    [
-     "fizette",
-     "fizet",
-     "피제트"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Úristen, {name}! Ez hova fér el?",
-   "rd": "우리슈텐, {name}! 에즈 호버 페르 엘?",
-   "ko": "세상에, {name}! 이걸 어디다 둬?",
-   "note": "elfér = 들어가다",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Úristen, {name}!"
-    ],
-    [
-     "worried",
-     "Ez hova fér el?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
-    ],
-    [
-     "hova",
-     "hova",
-     "호버"
-    ],
-    [
-     "fér",
-     "fér",
-     "페르"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "A szobámba nem. Oda még a kanapé sem fért be.",
-   "rd": "어 쏘밤버 넴. 오더 멕 어 커너페 셈 페르트 베.",
-   "ko": "내 방은 안 돼. 거긴 소파도 안 들어갔어.",
-   "note": "még … sem = ~조차 안",
-   "tags": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "szobámba",
-     "szobámba",
-     ""
+     "Bírod",
+     "bír",
+     "비르"
     ],
     [
      "még",
@@ -289,186 +53,36 @@
      "메그"
     ],
     [
-     "kanapé",
-     "kanapé",
-     ""
-    ],
-    [
-     "fért",
-     "fér",
-     "페르"
-    ],
-    [
-     "be",
-     "be",
-     "베"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "C",
-   "hu": "Engem ez nem érdekel. A lépcsőre teszem, aztán megyek.",
-   "rd": "엔겜 에즈 넴 에르데켈. 어 레프최레 테쎔, 어즈탄 메젝.",
-   "ko": "저는 상관없어요. 계단에 놓고 갑니다.",
-   "note": "nem érdekel = 상관없다",
-   "tags": [],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "érdekel",
-     "érdekel",
-     "에르데켈"
-    ],
-    [
-     "lépcsőre",
-     "lépcsőr",
-     ""
-    ],
-    [
-     "teszem",
-     "tesz",
-     "테스"
-    ],
-    [
-     "aztán",
-     "aztán",
-     "어스탄"
-    ],
-    [
-     "megyek",
-     "megye",
-     "메예"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "D",
-   "hu": "Már megint maguk? Mi ez a szag, ez paprika?",
-   "rd": "마르 메긴트 머국? 미 에즈 어 썩, 에즈 퍼프리커?",
-   "ko": "또 자네들이야? 이 냄새 뭐야, 파프리카야?",
-   "note": "szag = 냄새",
-   "tags": [],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "Már",
-     "már",
-     "마르"
-    ],
-    [
-     "megint",
-     "megint",
-     "메긴트"
-    ],
-    [
-     "szag",
-     "szag",
-     ""
-    ],
-    [
-     "paprika",
-     "paprika",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Néni, nem kér véletlenül paprikát? Egy kiló csak ezer forint.",
-   "rd": "네니, 넴 케르 벨레틀레뉠 퍼프리카트? 에지 킬로 척 에제르 포린트.",
-   "ko": "할머니, 혹시 파프리카 안 사세요? 1킬로에 천 포린트예요.",
-   "note": "véletlenül = 혹시",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Néni",
-     "néni",
-     ""
-    ],
-    [
-     "kér",
-     "kér",
-     "께르"
-    ],
-    [
-     "véletlenül",
-     "véletlen",
-     "벨레틀렌"
-    ],
-    [
-     "paprikát",
-     "paprika",
-     ""
-    ],
-    [
-     "kiló",
-     "kiló",
-     ""
-    ],
-    [
      "csak",
      "csak",
      "촉"
     ],
     [
-     "forint",
-     "forint",
+     "perc",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "kilátóig",
+     "kilátóig",
      ""
     ]
    ]
   },
   {
-   "num": 11,
-   "speaker": "D",
-   "hu": "Ezer? Hívom a lányomat, a szomszédokat, az egész utcát!",
-   "rd": "에제르? 히봄 어 라뇨머트, 어 쏨쎄도커트, 어즈 에게쓰 우트차트!",
-   "ko": "천? 딸이랑 이웃이랑 온 동네를 부를게!",
-   "note": "szomszéd = 이웃",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "lányomat",
-     "lányom",
-     ""
-    ],
-    [
-     "szomszédokat",
-     "szomszéd",
-     "쏨세드"
-    ],
-    [
-     "egész",
-     "egész",
-     "에게쓰"
-    ],
-    [
-     "utcát",
-     "utca",
-     "우트처"
-    ]
-   ]
-  },
-  {
-   "num": 12,
+   "num": 2,
    "speaker": "A",
-   "hu": "Várj, miért állnak sorban a lépcsőn? Ki ez a sok ember?",
-   "rd": "바르이, 미에르트 알넉 쇼르번 어 레프쵠? 키 에즈 어 쇽 엠베르?",
-   "ko": "잠깐, 왜 계단에 줄을 서? 이 많은 사람 다 누구야?",
-   "note": "sorban áll = 줄 서다",
-   "tags": [
-    "expr:Várj"
-   ],
-   "emotion": "surprised",
+   "hu": "Bírom, bírom. De miért ilyen nehéz a te táskád?",
+   "rd": "비롬, 비롬. 데 미에르트 이옌 네헤즈 어 테 타슈카드?",
+   "ko": "버틸 만해, 버틸 만해. 근데 네 가방은 왜 그렇게 무거워?",
+   "note": "nehéz = 무거운",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "Bírom",
+     "bír",
+     "비르"
     ],
     [
      "miért",
@@ -476,76 +90,448 @@
      "미에르트"
     ],
     [
-     "állnak",
-     "áll.",
-     "얼러모쉬"
+     "nehéz",
+     "nehéz",
+     "네헤즈"
     ],
     [
-     "sorban",
-     "sor",
-     "쇼르"
-    ],
-    [
-     "lépcsőn",
-     "lépcső",
+     "táskád",
+     "táskád",
      ""
-    ],
-    [
-     "ember",
-     "ember",
-     "엠베르"
     ]
    ]
   },
   {
-   "num": 13,
+   "num": 3,
    "speaker": "B",
-   "hu": "Az egész utca gulyást főz. Hallod, ez király!",
-   "rd": "어즈 에게쓰 우트처 구야슈트 푀즈. 헐로드, 에즈 키라이!",
-   "ko": "온 동네가 굴라시 끓여. 들리지, 끝내준다!",
-   "note": "főz = 끓이다",
+   "hu": "Csak víz meg szendvics. Semmi különös.",
+   "rd": "척 비즈 멕 쎈드비치. 셈미 퀼뢰뇌시.",
+   "ko": "그냥 물이랑 샌드위치. 별거 없어.",
+   "note": "különös = 특별한",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "víz",
+     "víz",
+     "비즈"
+    ],
+    [
+     "szendvics",
+     "szendvics",
+     ""
+    ],
+    [
+     "különös",
+     "különös",
+     "퀼뢰뫼시"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Gyanús vagy ma. Egész reggel mosolyogsz.",
+   "rd": "져누시 버지 머. 에게쓰 렉겔 모쇼욕쓰.",
+   "ko": "너 오늘 수상해. 아침 내내 웃고 있잖아.",
+   "note": "gyanús = 수상한",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Gyanús",
+     "gyanús",
+     ""
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "mosolyogsz",
+     "mosolyog",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Én? Nézd inkább, ott a Duna!",
+   "rd": "엔? 네즈드 인카브, 오트 어 두너!",
+   "ko": "내가? 저기나 봐, 도나우강이야!",
+   "note": "inkább = 차라리",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "inkább",
+     "inkább",
+     "인깝"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Hű, gyönyörű! Innen az egész város látszik.",
+   "rd": "휘, 죄뇌뤼! 인넨 어즈 에게쓰 바로시 라트씩.",
+   "ko": "와, 진짜 멋지다! 여기서 도시 전체가 보여.",
+   "note": "látszik = 보인다",
    "tags": [
-    "expr:Hallod",
-    "expr:király"
+    "expr:Gyönyörű"
    ],
    "emotion": "excited",
    "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "gyönyörű",
+     "gyönyörű",
+     "죠뇌루"
+    ],
     [
      "egész",
      "egész",
      "에게쓰"
     ],
     [
-     "utca",
-     "utca",
-     "우트처"
+     "város",
+     "város",
+     "버로슈"
     ],
     [
-     "gulyást",
-     "gulyás",
+     "látszik",
+     "látszik",
+     "랏직"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Emlékszel? Tavaly ilyenkor még mindenhol a térképet nézted.",
+   "rd": "엠렉쎌? 터버이 이옌코르 멕 민덴홀 어 테르케페트 네즈테드.",
+   "ko": "기억나? 작년 이맘때 넌 어디서나 지도만 봤잖아.",
+   "note": "ilyenkor = 이맘때",
+   "tags": [
+    "expr:Emlékszel"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Emlékszel",
+     "emlékszik",
+     "에믈레크시크"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "mindenhol",
+     "mindenhol",
      ""
     ],
     [
-     "főz",
-     "főz",
+     "térképet",
+     "térkép",
      ""
     ],
     [
-     "király",
-     "király",
-     "키라이"
+     "nézted",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Igen, és minden villamoson eltévedtem.",
+   "rd": "이겐, 에시 민덴 빌러모숀 엘테베드템.",
+   "ko": "응, 그리고 트램마다 길을 잃었지.",
+   "note": "eltévedtem = 길을 잃었다",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "villamoson",
+     "villamos",
+     ""
+    ],
+    [
+     "eltévedtem",
+     "eltéved",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Most meg te mutatod nekem az utat.",
+   "rd": "모슈트 멕 테 무터토드 네켐 어즈 우터트.",
+   "ko": "근데 지금은 네가 나한테 길을 알려 주잖아.",
+   "note": "mutatod = 보여 준다",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "mutatod",
+     "mutat",
+     "무타트"
+    ],
+    [
+     "utat",
+     "út",
+     "우트"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Na jó, néha. Leülünk egy kicsit?",
+   "rd": "너 요, 네허. 레윌륀크 에지 키치트?",
+   "ko": "뭐, 가끔. 좀 앉을까?",
+   "note": "leülünk = 우리 앉을까",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "néha",
+     "néha",
+     "네허"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Persze. Várj, csukd be a szemed!",
+   "rd": "페르쎄. 바르이, 축드 베 어 쎄메드!",
+   "ko": "그럼. 잠깐, 눈 감아 봐!",
+   "note": "csukd be = 감아",
+   "tags": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "csukd",
+     "csuk",
+     ""
+    ],
+    [
+     "be",
+     "be",
+     "베"
+    ],
+    [
+     "szemed",
+     "szem",
+     "쎔"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Miért? Mit csinálsz?",
+   "rd": "미에르트? 미트 치날쓰?",
+   "ko": "왜? 뭐 하는데?",
+   "note": "csinálsz = 너 하다",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "csinálsz",
+     "csinál",
+     "치날"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "hu": "Most nyisd ki! Ma pont egy éve vagy Budapesten.",
+   "rd": "모슈트 니슈드 키! 머 폰트 에지 에베 버지 부더페슈텐.",
+   "ko": "이제 떠! 오늘이 너 부다페스트 온 지 딱 1년이야.",
+   "note": "egy éve = 1년째",
+   "tags": [
+    "expr:Egy éve"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "nyisd",
+     "nyit",
+     "니트"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "pont",
+     "pont",
+     "폰트"
+    ],
+    [
+     "éve",
+     "év",
+     "에브"
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "A",
-   "hu": "Réka, mindent eladtunk! Még pénzünk is maradt!",
-   "rd": "레커, 민덴트 엘러드툰크! 멕 펜쥔크 이시 머러드트!",
-   "ko": "레카, 다 팔았어! 돈도 남았어!",
-   "note": "maradt = 남았다",
+   "hu": "Torta?! Ezt cipelted fel egész úton?",
+   "rd": "토르터?! 에즈트 치펠테드 펠 에게쓰 우톤?",
+   "ko": "케이크?! 이걸 내내 들고 올라온 거야?",
+   "note": "cipelted = 들고 왔다",
    "tags": [],
-   "emotion": "excited",
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Torta",
+     "torta",
+     ""
+    ],
+    [
+     "cipelted",
+     "cipel",
+     ""
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "úton",
+     "út",
+     "우트"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Naná! Na, fújd el a gyertyát, mielőtt elfújja a szél.",
+   "rd": "너나! 너, 푸이드 엘 어 제르탸트, 미엘뢰트 엘푸여 어 쎌.",
+   "ko": "당연하지! 자, 바람이 끄기 전에 촛불 불어.",
+   "note": "fújd el = 불어서 꺼",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Naná",
+     "naná",
+     ""
+    ],
+    [
+     "fújd",
+     "fúj",
+     ""
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "gyertyát",
+     "gyertya",
+     ""
+    ],
+    [
+     "elfújja",
+     "elfújja",
+     ""
+    ],
+    [
+     "szél",
+     "szél",
+     "쎌"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "hu": "Réka, ez a legjobb nap egész évben.",
+   "rd": "레커, 에즈 어 렉요브 너프 에게쓰 에브벤.",
+   "ko": "레카, 오늘이 올해 최고의 날이야.",
+   "note": "a legjobb = 최고의",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "Réka",
@@ -553,56 +539,24 @@
      ""
     ],
     [
-     "eladtunk",
-     "elad",
-     "엘러드"
+     "legjobb",
+     "jó",
+     "요"
     ],
     [
-     "pénzünk",
-     "pénzünk",
-     ""
+     "nap",
+     "nap",
+     "넙"
     ],
     [
-     "maradt",
-     "marad",
-     "머러드"
-    ]
-   ]
-  },
-  {
-   "num": 15,
-   "speaker": "B",
-   "hu": "Tudom. Ezért rendeltem ötszáz kiló hagymát.",
-   "rd": "투돔. 에제르트 렌델템 외트싸즈 킬로 허지마트.",
-   "ko": "알아. 그래서 양파 500킬로 주문했어.",
-   "note": "hagyma = 양파",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Tudom",
-     "tud",
-     "투드"
+     "egész",
+     "egész",
+     "에게쓰"
     ],
     [
-     "rendeltem",
-     "rendel",
-     "렌델"
-    ],
-    [
-     "ötszáz",
-     "ötszáz",
-     ""
-    ],
-    [
-     "kiló",
-     "kiló",
-     ""
-    ],
-    [
-     "hagymát",
-     "hagyma",
-     ""
+     "évben",
+     "év",
+     "에브"
     ]
    ]
   }

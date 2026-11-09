@@ -9,23 +9,23 @@
 "segs": [
 [
 "excited",
-"Figyelj, ezek a bácsik a vízben sakkoznak. Komolyan."
+"Gyere, ez a legmelegebb medence!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"amused",
-"Durva. Én csak egy kicsit tudok sakkozni."
+"surprised",
+"Hű, ez tényleg meleg. Hány fokos?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Na, ülj ide! Harminc éve senki nem győzött le engem."
+"gentle",
+"Harmincnyolc. Először vannak itt?"
 ]
 ]
 },
@@ -33,71 +33,71 @@
 "segs": [
 [
 "polite",
-"Jól van, de csak egy partit, rendben?"
+"Igen. Ön gyakran jár ide?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Mit csinálsz? Ezt a lovat miért oda tetted?"
+"cheerful",
+"Minden reggel, hétkor. Ez a gyógyvíz jót tesz."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Nem tudom. Szép volt ott."
+"teasing",
+"Mondtam! A térdemnek is segít."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Várj, egy pillanat, ez matt!"
-],
-[
-"shout",
-"Úristen, harminc év!"
+"polite",
+"Meddig lehet bent maradni?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"excited",
-"Az egész fürdő ide jön! Mindenki téged néz!"
+"gentle",
+"Húsz percig, aztán pihenjenek egy kicsit."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"excited",
-"Holnap jön a másik fürdő csapata. Te játszol helyettem!"
+"polite",
+"Köszönjük! És Ön mióta jár ide?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"surprised",
-"Mi van?"
+"amused",
+"Hatvan éve."
 ],
 [
-"flustered",
-"Azt se tudom, hogyan lép a ló!"
+"cheerful",
+"Kilencvenkét éves vagyok."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"amused",
-"Naná. Ezért nem látja senki, mit fogsz lépni."
+"surprised",
+"Komolyan?"
+],
+[
+"excited",
+"Na, holnaptól én is jövök hétre!"
 ]
 ]
 }

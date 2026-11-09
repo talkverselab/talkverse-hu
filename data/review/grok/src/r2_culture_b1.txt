@@ -1,22 +1,22 @@
 === r2_culture_b1
 kind: long
-title: 사흘 된 걸작
-emoji: 🎤
-scene: 받침대 위 레테시가 팔린 뒤 기자가 찾아왔다. 사실대로 말할수록 더 깊어 보인다
+title: 언어교환 모임
+emoji: 🗣️
+scene: Anna 가 언어교환 모임에 데려가 친구 Bence 를 소개해 준다
 b: Anna
-c: Újságíró
+c: Bence
 register: mixed
-twist: 8 chaos
+twist: 6 slip
 purpose: media
-goal: 인터뷰에서 사실 바로잡기(igazából, komolyan)
-expressions: Hát; igazából; Figyelj; Szóval; Nyugi
-C | Ön a művész? Mit jelent ez a rétes? | 작가님이세요? 이 레테시는 무슨 뜻인가요? | Ön = 당신(동사는 3인칭) | emotion=polite
-A | Hát... igazából ez csak az ebédem. | 음… 사실 이건 그냥 제 점심이에요. | igazából = 사실은 | emotion=flustered
-C | Az ebédje, zseniális! A művész és a mindennapi éhség! | 점심! 천재적이네요! 예술가와 일상의 허기! | zseniális = 천재적인 | emotion=excited
-B | Figyelj, mondj valami okosat, mindenki téged néz. | 들어 봐, 똑똑한 말 좀 해, 다들 너만 봐. | valami okosat = 뭔가 똑똑한 것을 | emotion=worried
-A | Szóval... megéheztem, letettem, és elfelejtettem. | 그러니까… 배고팠고, 내려놨고, 잊어버렸어요. | elfelejt = 잊어버리다 | emotion=flustered
-C | Éhség, elengedés, felejtés! Ezt leírom, ez lesz a címlap! | 허기, 놓아줌, 망각! 받아 적겠습니다, 이게 1면이에요! | címlap = 1면, 표지 | emotion=excited
-A | Várjon, kérem! Komolyan, a rétes már háromnapos! | 잠깐만요! 진짜로, 그 레테시 벌써 사흘 됐어요! | háromnapos = 사흘 된 | emotion=flustered
-C | Zseniális! A vevő már kérdezi: mikor lesz a következő? | 천재적이에요! 구매자가 벌써 묻네요, 다음 작품은 언제냐고요! | vevő = 구매자 | emotion=excited
-A | A következő? Anna, mit csináljak? | 다음 작품? 안나, 나 어떡해? | mit csináljak? = 어떡하지? | emotion=surprised+worried
-B | Nyugi, már sütöm a másodikat. A pénz fele az enyém. | 진정해, 벌써 두 번째 굽고 있어. 돈 반은 내 거야. | nyugi = 진정해 | emotion=cheerful+teasing
+goal: 처음 소개받는 말과 존댓말·반말 전환(Nyugodtan tegezz)
+expressions: Nem baj; Nyugodtan; Bocsi; Na
+B | Ez a nyelvcsere-est. Itt mindenki gyakorol. | 여기가 언어교환 모임이야. 여기선 다들 연습해. | nyelvcsere = 언어교환 | emotion=cheerful
+A | Hű, sok ember van. Kicsit izgulok. | 와, 사람 많다. 좀 떨려. | izgulok = 떨린다 | emotion=worried
+B | Nem baj, gyere. Bemutatlak Bencének. | 괜찮아, 와. 벤체한테 소개해 줄게. | bemutatlak = 너를 소개한다 | emotion=gentle
+C | Szia, Bence vagyok! Te mit tanulsz? | 안녕, 나 벤체야! 너는 뭐 배워? | Te mit tanulsz? = 너는 뭐 배워? | emotion=cheerful
+A | Jó estét kívánok! Örülök, hogy megismerhetem. | 안녕하십니까! 만나 뵙게 되어 반갑습니다. | megismerhetem = 당신을 알게 되다(존댓말) | emotion=stiff
+C | Hű, de udvarias! Nyugodtan tegezz. | 와, 엄청 공손하다! 편하게 말 놔. | tegezz = 반말해 | emotion=amused
+A | Bocsi! A tankönyvemben mindig így van. | 미안! 내 교과서엔 늘 이렇게 나와. | tankönyv = 교과서 | emotion=flustered
+B | A tankönyvek mindig túl udvariasak. 😄 | 교과서는 늘 너무 공손해. 😄 | túl = 너무 | emotion=teasing
+C | Na, és mióta tanulsz magyarul? | 그래서, 헝가리어는 얼마나 배웠어? | mióta = 언제부터 | emotion=cheerful
+A | Fél éve. Tegnap a szomszéd kutyáját is magáztam. | 반년. 어제는 옆집 개한테도 존댓말 썼어. | magáz = 존댓말 하다 | emotion=amused

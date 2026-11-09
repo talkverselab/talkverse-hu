@@ -10,95 +10,341 @@
  "domain": [
   "life"
  ],
- "title": "모든 다비드를 환영합니다",
- "emoji": "🎉",
- "scene": "Dávid 몰래 이름의 날 파티를 준비한다. 초대 글에서 낱말 하나를 빠뜨렸다",
+ "title": "새벽 3시의 삑 소리",
+ "emoji": "🔋",
+ "scene": "며칠째 새벽마다 어디선가 「삑」 소리가 난다. Dávid 와 둘이 범인을 찾다가 아래층에 물어본다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid",
-  "C": "Másik Dávid",
-  "D": "Marika néni"
+  "C": "Marika néni"
  },
  "register": "mixed",
- "twist": 9,
- "twist_type": "chaos",
+ "twist": 14,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "목적격과 소유 표현(minden Dávidot / Dávid minden barátját) 구별",
+ "goal": "소리·원인 말하기(Hallod? · Honnan jön?) · 추측(Lehet, hogy …)",
  "expressions": [
-  "Persze",
-  "ugye",
-  "Úristen",
-  "Figyelj",
-  "Jaj"
+  "Hallod",
+  "Honnan jön",
+  "Lehet, hogy"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Marika néni, tetszik jönni este? Meglepetésbulit csinálok Dávid névnapjára.",
-   "rd": "머리커 네니, 테트씩 욘니 에슈테? 멕레페테슈불리트 치날록 다비드 네브너프야러.",
-   "ko": "아주머니, 오늘 저녁에 오실래요? 다비드 이름의 날에 깜짝 파티 해요.",
-   "note": "tetszik jönni? = 오시겠어요?(어르신께)",
-   "tags": [],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Marika néni, tetszik jönni este?"
-    ],
-    [
-     "excited",
-     "Meglepetésbulit csinálok Dávid névnapjára."
-    ]
+   "hu": "Dávid, ébren vagy? Hallod ezt?",
+   "rd": "다비드, 에브렌 버지? 헐로드 에즈트?",
+   "ko": "다비드, 깨 있어? 이거 들려?",
+   "note": "ébren = 깨어 있는",
+   "tags": [
+    "expr:Hallod"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Marika",
-     "marika",
+     "Dávid",
+     "dávid",
      ""
     ],
     [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "tetszik",
-     "tetszik",
-     "테트씨크"
-    ],
-    [
-     "jönni",
-     "jön",
-     "왼"
-    ],
-    [
-     "este",
-     "este",
-     "에슈테"
-    ],
-    [
-     "csinálok",
-     "csinál",
-     "치날"
-    ],
-    [
-     "névnapjára",
-     "névnap",
+     "ébren",
+     "éber",
      ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "D",
-   "hu": "Persze, hozok levest. Hányan lesztek?",
-   "rd": "페르쎄, 호족 레베슈트. 하년 레쓰텍?",
-   "ko": "그럼, 국 가져갈게. 몇 명이나 되니?",
-   "note": "hányan? = 몇 명이서?",
+   "speaker": "B",
+   "hu": "Mit? Hajnali három van.",
+   "rd": "미트? 허이널리 하롬 번.",
+   "ko": "뭘? 새벽 3시야.",
+   "note": "hajnal = 새벽",
+   "tags": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Ezt a csipogást. Minden éjjel hallom.",
+   "rd": "에즈트 어 치포가슈트. 민덴 에옐 헐롬.",
+   "ko": "이 삑삑 소리. 매일 밤 들려.",
+   "note": "csipogás = 삑삑 소리",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "csipogást",
+     "csipog",
+     ""
+    ],
+    [
+     "éjjel",
+     "éj",
+     "에이"
+    ],
+    [
+     "hallom",
+     "hall",
+     "헐"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Ja, tényleg. Honnan jön?",
+   "rd": "여, 테닐렉. 혼넌 욘?",
+   "ko": "아, 진짜네. 어디서 나는 거지?",
+   "note": "honnan = 어디에서",
    "tags": [
-    "expr:Persze"
+    "expr:Honnan jön"
    ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Ja",
+     "ja",
+     "여"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Szerintem a falon túlról. Lehet, hogy a szomszéd órája.",
+   "rd": "쎄린템 어 펄론 툴롤. 레헤트, 호지 어 쏨쎄드 오라여.",
+   "ko": "내 생각엔 벽 너머야. 옆집 시계일 수도 있어.",
+   "note": "lehet, hogy = ~일 수도 있다",
+   "tags": [
+    "expr:Lehet, hogy"
+   ],
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Szerintem a falon túlról."
+    ],
+    [
+     "worried",
+     "Lehet, hogy a szomszéd órája."
+    ]
+   ],
+   "lemmas": [
+    [
+     "falon",
+     "fal",
+     "펄"
+    ],
+    [
+     "túlról",
+     "túlról",
+     ""
+    ],
+    [
+     "szomszéd",
+     "szomszéd",
+     "쏨세드"
+    ],
+    [
+     "órája",
+     "óra",
+     "오러"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Vagy Marika néni mosógépe. Holnap megkérdezzük.",
+   "rd": "버지 머리커 네니 모쇼게페. 홀너프 멕케르데쥑.",
+   "ko": "아니면 마리카 아주머니네 세탁기. 내일 물어보자.",
+   "note": "megkérdezzük = 우리가 물어본다",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "mosógépe",
+     "mosógépe",
+     ""
+    ],
+    [
+     "megkérdezzük",
+     "megkérdez",
+     "메그케르데즈"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Csókolom, Marika néni! Éjjel hallja a csipogást?",
+   "rd": "초콜롬, 머리커 네니! 에옐 헐여 어 치포가슈트?",
+   "ko": "안녕하세요, 아주머니! 밤에 삑 소리 들리세요?",
+   "note": "hallja = 들리세요(Ön, 정활용)",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Csókolom",
+     "csókol",
+     ""
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "hallja",
+     "hall",
+     "헐"
+    ],
+    [
+     "csipogást",
+     "csipog",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Csipogást? Nem, én jól alszom.",
+   "rd": "치포가슈트? 넴, 엔 욜 얼쏨.",
+   "ko": "삑 소리요? 아니요, 난 잘 자요.",
+   "note": "jól alszom = 잘 잔다",
+   "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Csipogást?"
+    ],
+    [
+     "gentle",
+     "Nem, én jól alszom."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Csipogást",
+     "csipog",
+     ""
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "alszom",
+     "alszik",
+     "얼루시크"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Pedig a mi falunk közös a magáéval.",
+   "rd": "페딕 어 미 펄룬크 쾨죄시 어 머가에벌.",
+   "ko": "그래도 우리 벽이 아주머니 댁 벽이랑 붙어 있는데요.",
+   "note": "a magáé = 당신의 것",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "falunk",
+     "fal",
+     "펄"
+    ],
+    [
+     "közös",
+     "közös",
+     "쾨죄시"
+    ],
+    [
+     "magáéval",
+     "magáé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Nálam semmi nem csipog. És a maguk füstjelzője?",
+   "rd": "날럼 셈미 넴 치폭. 에시 어 머국 퓌슈트옐죄예?",
+   "ko": "우리 집엔 삑 소리 나는 게 없어요. 그 집 화재경보기는요?",
+   "note": "füstjelző = 화재경보기",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "csipog",
+     "csipog",
+     ""
+    ],
+    [
+     "füstjelzője",
+     "füstjelző",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Füstjelző? Nálunk van ilyen?",
+   "rd": "퓌슈트옐죄? 날룬크 번 이옌?",
+   "ko": "화재경보기요? 우리 집에 그런 게 있어요?",
+   "note": "ilyen = 이런 것",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Füstjelző",
+     "füstjelző",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Persze, az előszobában. Ha lemerül az elem, csipog.",
+   "rd": "페르쎄, 어즈 엘뢰쏘바번. 허 레메륄 어즈 엘렘, 치폭.",
+   "ko": "그럼요, 현관에요. 건전지가 닳으면 삑삑대요.",
+   "note": "elem = 건전지",
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -107,327 +353,23 @@
      "페르쎄"
     ],
     [
-     "hozok",
-     "hoz",
-     "호즈"
-    ],
-    [
-     "levest",
-     "leves",
+     "előszobában",
+     "előszoba",
      ""
     ],
     [
-     "lesztek",
-     "lesz",
-     "레쓰"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "hu": "Talán tízen. Kiírtam a netre: „Várunk minden Dávidot”, ugye jó?",
-   "rd": "털란 티젠. 키이르텀 어 네트레: „바룬크 민덴 다비도트”, 우제 요?",
-   "ko": "열 명쯤요. 인터넷에 「모든 다비드를 기다립니다」라고 썼어요, 괜찮죠?",
-   "note": "kiírtam = 올렸다",
-   "tags": [
-    "expr:ugye"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Talán",
-     "talán",
-     "털란"
-    ],
-    [
-     "netre",
-     "net",
+     "lemerül",
+     "lemerül",
      ""
     ],
     [
-     "jó",
-     "jó",
-     "요"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "D",
-   "hu": "Minden Dávidot? Nem „Dávid minden barátját”?",
-   "rd": "민덴 다비도트? 넴 „다비드 민덴 버라트야트”?",
-   "ko": "모든 다비드를? 「다비드의 모든 친구를」이 아니고?",
-   "note": "barátját = 그의 친구를",
-   "tags": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "barátját",
-     "barátja",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Jaj... az nem ugyanaz?",
-   "rd": "여이... 어즈 넴 우져너즈?",
-   "ko": "아이고… 그거 같은 말 아니에요?",
-   "note": "ugyanaz = 같은 것",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "C",
-   "hu": "Szia, Dávid vagyok. Itt van a buli?",
-   "rd": "씨어, 다비드 버죡. 이트 번 어 불리?",
-   "ko": "안녕, 나 다비드야. 파티 여기야?",
-   "note": "buli = 파티",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Szia",
-     "szia",
-     "씨어"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "buli",
-     "buli",
-     "불리"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Szia! Te Dávid barátja vagy?",
-   "rd": "씨어! 테 다비드 버라트여 버지?",
-   "ko": "안녕! 너 다비드 친구야?",
-   "note": "barátja = 그의 친구",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Szia",
-     "szia",
-     "씨어"
-    ],
-    [
-     "barátja",
-     "barát",
-     "버랏"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "C",
-   "hu": "Nem, én csak egy másik Dávid vagyok. Lent jön még harminc.",
-   "rd": "넴, 엔 척 에지 마식 다비드 버죡. 렌트 욘 멕 허르민츠.",
-   "ko": "아니, 난 그냥 다른 다비드야. 아래에 서른 명 더 와.",
-   "note": "másik = 다른",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "harminc",
-     "harminc",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Harminc?! Marika néni, harminc Dávid jön fel a lépcsőn!",
-   "rd": "허르민츠?! 머리커 네니, 허르민츠 다비드 욘 펠 어 레프쵠!",
-   "ko": "서른?! 아주머니, 다비드 서른 명이 계단으로 올라와요!",
-   "note": "jön fel = 올라온다",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Harminc?!"
-    ],
-    [
-     "flustered",
-     "Marika néni, harminc Dávid jön fel a lépcsőn!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Harminc",
-     "harminc",
+     "elem",
+     "elem",
      ""
     ],
     [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
-    ],
-    [
-     "fel",
-     "fel",
-     "펠"
-    ],
-    [
-     "lépcsőn",
-     "lépcső",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "D",
-   "hu": "Mondtam. Megyek, főzök még levest.",
-   "rd": "몬드텀. 메젝, 푀죅 멕 레베슈트.",
-   "ko": "내가 말했지. 가서 국 더 끓일게.",
-   "note": "mondtam = 내가 말했다",
-   "tags": [],
-   "emotion": "tsukkomi",
-   "segs": [
-    [
-     "tsukkomi",
-     "Mondtam."
-    ],
-    [
-     "gentle",
-     "Megyek, főzök még levest."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Mondtam",
-     "mond",
-     "몬드"
-    ],
-    [
-     "főzök",
-     "főz",
-     ""
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "levest",
-     "leves",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "B",
-   "hu": "Megjöttem! Ki ez a sok ember a lakásomban?",
-   "rd": "멕요뗌! 키 에즈 어 쇽 엠베르 어 러카숌번?",
-   "ko": "나 왔어! 내 집에 이 많은 사람들 누구야?",
-   "note": "lakásomban = 내 집 안에",
-   "tags": [],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Megjöttem!"
-    ],
-    [
-     "surprised",
-     "Ki ez a sok ember a lakásomban?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Megjöttem",
-     "megjön",
-     ""
-    ],
-    [
-     "ember",
-     "ember",
-     "엠베르"
-    ],
-    [
-     "lakásomban",
-     "lakás",
-     "러카시"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "A",
-   "hu": "Boldog névnapot! Ők mind Dávidok.",
-   "rd": "볼독 네브너포트! 왹 민드 다비독.",
-   "ko": "이름의 날 축하해! 이 사람들 다 다비드야.",
-   "note": "ők mind = 그들 모두",
-   "tags": [],
-   "emotion": "excited",
-   "segs": [
-    [
-     "excited",
-     "Boldog névnapot!"
-    ],
-    [
-     "flustered",
-     "Ők mind Dávidok."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Boldog",
-     "boldog",
-     "볼도그"
-    ],
-    [
-     "névnapot",
-     "névnap",
+     "csipog",
+     "csipog",
      ""
     ]
    ]
@@ -435,100 +377,12 @@
   {
    "num": 13,
    "speaker": "B",
-   "hu": "Mind?! Negyven Dávid van a konyhámban, és egyiket sem ismerem!",
-   "rd": "민드?! 네지벤 다비드 번 어 코니함번, 에시 에지케트 셈 이슈메렘!",
-   "ko": "다?! 우리 부엌에 다비드가 마흔 명인데 한 명도 몰라!",
-   "note": "egyiket sem = 하나도 ~않다",
+   "hu": "Úristen. Az a kis fehér izé a plafonon?",
+   "rd": "우리슈텐. 어즈 어 키시 페헤르 이제 어 플러포논?",
+   "ko": "세상에. 천장에 있는 그 하얀 거?",
+   "note": "izé = 그거(이름이 안 떠오를 때)",
    "tags": [],
    "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Mind?!"
-    ],
-    [
-     "annoyed",
-     "Negyven Dávid van a konyhámban, és egyiket sem ismerem!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "konyhámban",
-     "konyhám",
-     ""
-    ],
-    [
-     "egyiket",
-     "egyike",
-     ""
-    ],
-    [
-     "ismerem",
-     "ismer",
-     "이슈메르"
-    ]
-   ]
-  },
-  {
-   "num": 14,
-   "speaker": "C",
-   "hu": "Figyelj, egy rendőr van a lépcsőn. Panasz jött a zaj miatt.",
-   "rd": "피젤이, 에지 렌되르 번 어 레프쵠. 퍼너쓰 요트 어 저이 미어트.",
-   "ko": "야, 계단에 경찰 왔어. 시끄럽다고 신고 들어왔대.",
-   "note": "panasz = 민원",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "rendőr",
-     "rendőr",
-     "렌되르"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "lépcsőn",
-     "lépcső",
-     ""
-    ],
-    [
-     "jött",
-     "jön",
-     "왼"
-    ],
-    [
-     "zaj",
-     "zaj",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 15,
-   "speaker": "A",
-   "hu": "Úristen! Mit akar?",
-   "rd": "우리슈텐! 미트 어커르?",
-   "ko": "세상에! 뭐래?",
-   "note": "mit akar? = 뭘 원해?",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "flustered",
    "lemmas": [
     [
      "Úristen",
@@ -536,36 +390,73 @@
      "우리슈텐"
     ],
     [
-     "akar",
-     "akar",
-     "어커르"
+     "kis",
+     "kis",
+     "키시"
+    ],
+    [
+     "fehér",
+     "fehér",
+     "페헤르"
+    ],
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "plafonon",
+     "plafon",
+     ""
     ]
    ]
   },
   {
-   "num": 16,
+   "num": 14,
    "speaker": "C",
-   "hu": "Azt mondja, ő is Dávid. És hol a leves?",
-   "rd": "어즈트 몬드여, 외 이시 다비드. 에시 홀 어 레베시?",
-   "ko": "자기도 다비드래. 그리고 국 어디 있냐는데?",
-   "note": "azt mondja = 그렇게 말한다",
+   "hu": "Az. Már három hete szóltam magának, Dávid.",
+   "rd": "어즈. 마르 하롬 헤테 쏠텀 머가넉, 다비드.",
+   "ko": "그거요. 다비드, 3주 전에 벌써 말했잖아요.",
+   "note": "szóltam = 알려 줬다",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "mondja",
-     "mond",
-     "몬드"
+     "hete",
+     "hét",
+     "헤트"
     ],
     [
-     "hol",
-     "hol",
-     "홀"
+     "szóltam",
+     "szól",
+     "쏠"
     ],
     [
-     "leves",
-     "leves",
+     "magának",
+     "magán",
      ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "hu": "Dávid! Három hete?",
+   "rd": "다비드! 하롬 헤테?",
+   "ko": "다비드! 3주 전에?",
+   "note": "három hete = 3주 전에",
+   "tags": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "hete",
+     "hét",
+     "헤트"
     ]
    ]
   }

@@ -10,238 +10,233 @@
  "domain": [
   "culture"
  ],
- "title": "그 배우의 목소리",
- "emoji": "🎬",
- "scene": "Réka 네 소파에서 외국 영화를 본다. 배우가 헝가리어를 너무 잘한다",
+ "title": "금요일 콘서트",
+ "emoji": "🎸",
+ "scene": "Réka 에게 콘서트 표가 두 장 생겼다. 같이 가자고 한다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "casual",
  "twist": 8,
- "twist_type": "reveal",
+ "twist_type": "chaos",
  "flags": [],
- "goal": "놀라서 되묻기(Tényleg? Hogyhogy?)",
+ "goal": "공연 묻기(Milyen koncert? · Mikor? · Mennyibe kerül?)",
  "expressions": [
-  "Tényleg?",
-  "Persze",
-  "Hogyhogy?"
+  "Komolyan",
+  "Naná",
+  "Várj"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Hű, ez a színész jól beszél magyarul!",
-   "rd": "휘, 에즈 어 씨네쓰 욜 베쎌 머져룰!",
-   "ko": "와, 이 배우 헝가리어 잘한다!",
-   "note": "színész = 배우",
+   "speaker": "B",
+   "hu": "Van két jegyem egy koncertre.",
+   "rd": "번 케트 예젬 에지 콘체르트레.",
+   "ko": "콘서트 표가 두 장 있어.",
+   "note": "jegy = 표",
    "tags": [],
-   "emotion": "excited",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Hű",
-     "hű",
+     "Van",
+     "van",
+     "번"
+    ],
+    [
+     "jegyem",
+     "jegyem",
      ""
     ],
     [
-     "színész",
-     "színész",
-     ""
-    ],
-    [
-     "jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "beszél",
-     "beszél",
-     "베쎌"
-    ],
-    [
-     "magyarul",
-     "magyar",
+     "koncertre",
+     "koncert",
      ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Mi? Ez szinkron.",
-   "rd": "미? 에즈 씬크론.",
-   "ko": "뭐? 이거 더빙이야.",
-   "note": "szinkron = 더빙",
-   "tags": [],
-   "emotion": "amused",
+   "speaker": "A",
+   "hu": "Komolyan? Milyen koncert?",
+   "rd": "코모연? 미옌 콘체르트?",
+   "ko": "진짜? 무슨 콘서트?",
+   "note": "komolyan? = 진짜?",
+   "tags": [
+    "expr:Komolyan"
+   ],
+   "emotion": "excited",
    "lemmas": [
     [
-     "szinkron",
-     "szinkron",
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "koncert",
+     "koncert",
      ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Szinkron? Tényleg?",
-   "rd": "씬크론? 테닐렉?",
-   "ko": "더빙? 진짜?",
-   "note": "tényleg? = 진짜?",
-   "tags": [
-    "expr:Tényleg?"
-   ],
-   "emotion": "surprised",
+   "speaker": "B",
+   "hu": "Egy magyar rockzenekar. Jössz?",
+   "rd": "에지 머져르 로측제네커르. 요쓰?",
+   "ko": "헝가리 록밴드. 올래?",
+   "note": "Jössz? = 올래?",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Szinkron",
-     "szinkron",
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "rockzenekar",
+     "rockzenekar",
      ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Persze. Itt minden film szinkronos.",
-   "rd": "페르쎄. 이트 민덴 필므 씬크로노시.",
-   "ko": "당연하지. 여기선 영화가 다 더빙이야.",
-   "note": "persze = 당연하지",
+   "speaker": "A",
+   "hu": "Naná! Mikor?",
+   "rd": "너나! 미코르?",
+   "ko": "당연하지! 언제?",
+   "note": "naná = 당연하지",
    "tags": [
-    "expr:Persze"
+    "expr:Naná"
    ],
-   "emotion": "neutral",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "film",
-     "film",
-     "필름"
-    ],
-    [
-     "szinkronos",
-     "szinkron",
+     "Naná",
+     "naná",
      ""
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "De jó hangja van!",
-   "rd": "데 요 헌그여 번!",
-   "ko": "목소리 진짜 좋다!",
-   "note": "hang = 목소리",
+   "speaker": "B",
+   "hu": "Pénteken este nyolckor.",
+   "rd": "펜테켄 에슈테 뇰츠코르.",
+   "ko": "금요일 저녁 여덟 시.",
+   "note": "pénteken = 금요일에",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "jó",
-     "jó",
-     "요"
+     "Pénteken",
+     "péntek",
+     ""
     ],
     [
-     "hangja",
-     "hang",
-     "헝"
+     "este",
+     "este",
+     "에슈테"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "nyolckor",
+     "nyolckor",
+     ""
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "B",
-   "hu": "Tudom. Minden este hallom.",
-   "rd": "투돔. 민덴 에슈테 헐롬.",
-   "ko": "알아. 매일 저녁 들어.",
-   "note": "hallom = 내가 그걸 듣는다",
+   "speaker": "A",
+   "hu": "Mennyibe kerül a jegy?",
+   "rd": "메니베 케륄 어 예지?",
+   "ko": "표 얼마야?",
+   "note": "Mennyibe kerül? = 얼마야?",
    "tags": [],
-   "emotion": "amused",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Tudom",
-     "tud",
-     "투드"
+     "kerül",
+     "kerül",
+     "케륄"
     ],
     [
-     "este",
-     "este",
-     "에슈테"
-    ],
-    [
-     "hallom",
-     "hall",
-     "헐"
+     "jegy",
+     "jegy",
+     ""
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Minden este? Hogyhogy?",
-   "rd": "민덴 에슈테? 호지호지?",
-   "ko": "매일 저녁? 어째서?",
-   "note": "hogyhogy? = 어째서?",
-   "tags": [
-    "expr:Hogyhogy?"
-   ],
-   "emotion": "surprised",
+   "speaker": "B",
+   "hu": "Semmibe. A bátyám adta.",
+   "rd": "셈미베. 어 바턈 어드터.",
+   "ko": "공짜야. 우리 오빠가 줬어.",
+   "note": "semmibe = 공짜(아무 값도 아닌)",
+   "tags": [],
+   "emotion": "amused",
    "lemmas": [
     [
-     "este",
-     "este",
-     "에슈테"
+     "bátyám",
+     "bátya",
+     "바티어"
+    ],
+    [
+     "adta",
+     "ad",
+     "어드"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Az apám. Otthon így kéri a sót.",
-   "rd": "어즈 어팜. 오트혼 이지 케리 어 쇼트.",
-   "ko": "우리 아빠야. 집에서도 저 목소리로 소금 달래.",
-   "note": "só = 소금, sót = 소금을",
-   "tags": [],
-   "emotion": "neutral",
+   "speaker": "A",
+   "hu": "Várj, ma péntek van! Már hét óra!",
+   "rd": "바르이, 머 펜텍 번! 마르 헤트 오러!",
+   "ko": "잠깐, 오늘 금요일이잖아! 벌써 일곱 시야!",
+   "note": "ma = 오늘",
+   "tags": [
+    "expr:Várj"
+   ],
+   "emotion": "surprised",
    "segs": [
     [
-     "neutral",
-     "Az apám."
+     "surprised",
+     "Várj, ma péntek van!"
     ],
     [
-     "amused",
-     "Otthon így kéri a sót."
+     "shout",
+     "Már hét óra!"
     ]
    ],
    "lemmas": [
     [
-     "apám",
-     "apám",
-     "어팜"
+     "Várj",
+     "vár",
+     "바르"
     ],
     [
-     "így",
-     "így",
-     "이지"
+     "ma",
+     "ma",
+     "머"
     ],
     [
-     "kéri",
-     "kér",
-     "께르"
-    ],
-    [
-     "sót",
-     "só",
+     "péntek",
+     "péntek",
      ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "hét",
+     "hét",
+     "헤트"
     ]
    ]
   }

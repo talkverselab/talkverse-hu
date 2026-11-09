@@ -1,26 +1,25 @@
 === r3_friends_c1
 kind: chat
-title: 쓰레기만 버리려고
-emoji: 🚒
-scene: 밤 11시 41분, 잠옷 차림으로 문이 잠겼다. Réka 가 도와주겠단다
+title: 읽고 답이 없네
+emoji: 🏠
+scene: 집을 구하는 중. Réka 에게 하소연했는데 「읽음」만 뜨고 답이 없다
 b: Réka
 register: chat
-twist: 10 chaos
-purpose: making_friends
-goal: 긴급 상황을 채팅으로 설명하기
-expressions: Mi van; mindjárt; Nyugi; Szuper; Hát
-A | Réka, ébren vagy? | 레카, 깨어 있어? | ébren = 깨어 있는 | emotion=worried at=23:41
-B | Most már igen. Mi van? | 이제 깼어. 무슨 일이야? | most már = 이제는 | emotion=annoyed at=23:43
-A | Kizártam magam. Pizsamában vagyok a lépcsőházban. | 문이 잠겼어. 잠옷 입고 계단에 있어. | kizártam magam = 문이 잠겨 못 들어간다 | emotion=flustered at=23:43
-A | Csak a szemetet akartam levinni. | 쓰레기만 버리려고 했어. | szemét = 쓰레기 | emotion=sad at=23:44
-B | Hol a kulcsod? | 열쇠는 어디 있어? | kulcsod = 네 열쇠 | emotion=neutral at=23:44
-A | Bent. A telefonom is mindjárt meghal. | 안에. 폰도 곧 꺼져. | mindjárt = 곧 | emotion=worried at=23:45
-B | Nyugi, írtam a ház csoportjába. | 진정해, 건물 단톡에 썼어. | csoport = 그룹 | emotion=gentle at=23:49
-A | Mit írtál?! | 뭐라고 썼어?! | írtál = 네가 썼다 | emotion=shout at=23:49
-B | Hogy valaki bent ragadt, és segítség kell. 😇 | 누가 안에 갇혔고, 도움이 필요하다고. 😇 | bent ragadt = 안에 갇혔다 | emotion=teasing at=23:50
-A | Réka. Itt állnak a tűzoltók. | 레카. 소방관들이 여기 서 있어. | tűzoltó = 소방관 | emotion=flustered at=23:58
-A | Most törik be az ajtót. | 지금 문 부수고 있어. | betör = 부수다 | emotion=flustered at=23:59
-B | Szuper! Akkor be tudsz menni. 😎 | 좋아! 그럼 들어갈 수 있네. 😎 | szuper = 좋아 | emotion=cheerful at=23:59
-A | Az nem az én ajtóm. | 그거 내 문이 아니야. | az én ajtóm = 내 문 | emotion=tsukkomi at=00:01
-B | Hát akkor kié? | 그럼 누구 건데? | kié = 누구의 | emotion=surprised at=00:01
-A | A nénié. Most kávét főz nekik. | 할머니 거. 지금 그분들한테 커피 끓여 주셔. | a nénié = 할머니의 것 | emotion=sad+amused at=00:03
+twist: 7 ignore
+purpose: making_friends study_abroad
+goal: 집 구하기 표현(rezsi · kaució · főbérlő)과 걱정 표현(Haragszol?)
+expressions: Figyelj; Mi a baj; Haragszol
+A | Figyelj, megint nem kaptam meg a lakást. 😩 | 있잖아, 또 그 집 못 구했어. 😩 | megkaptam = 받았다, 얻었다 | emotion=sad at=21:03
+B | Jaj, ne! Mi a baj ezúttal? | 아이고, 안 돼! 이번엔 뭐가 문제야? | ezúttal = 이번에는 | emotion=worried at=21:05
+A | Túl drága. A rezsi is, a kaució is. | 너무 비싸. 공과금도, 보증금도. | rezsi = 공과금, kaució = 보증금 | emotion=annoyed at=21:06
+A | És a főbérlő csak magyarul beszél, nagyon gyorsan. | 그리고 집주인이 헝가리어만 해, 엄청 빨리. | főbérlő = 집주인 | emotion=sad at=21:06
+B | Hány négyzetméter kellene? Melyik kerületben? | 몇 제곱미터 필요해? 어느 구에서? | kerület = 구(부다페스트 행정구) | emotion=neutral at=21:08
+A | Elég egy kis szoba. Mindegy, csak ne legyen messze az iskolától. | 작은 방이면 돼. 아무 데나, 학원에서만 안 멀면. | mindegy = 상관없다 | emotion=worried at=21:09
+A | Réka? | 레카? | (읽음, 답 없음) | emotion=worried at=21:30
+A | Haragszol? Bocsi, hogy mindig panaszkodom. | 화났어? 맨날 투덜거려서 미안. | haragszol = 너 화났어 | emotion=worried at=21:52
+A | Oké, értem. Jó éjt. 😔 | 알았어. 잘 자. 😔 | jó éjt = 잘 자 | emotion=sad at=22:15
+B | Bocsi, nem haragszom! Telefonáltam. | 미안, 화 안 났어! 전화하고 있었어. | telefonáltam = 전화했다 | emotion=flustered at=22:31
+B | A szomszédom elköltözik, és szabad lesz egy szoba a házunkban. | 우리 옆집이 이사 가서, 우리 건물에 방 하나가 비어. | szabad = 빈 | emotion=excited at=22:31
+A | Komolyan?! Mennyi a bérleti díj? | 진짜?! 월세 얼마야? | bérleti díj = 월세 | emotion=surprised at=22:32
+B | Megbeszéltem a főbérlővel. Olcsó, és lassan beszél. 😄 | 집주인이랑 얘기했어. 싸고, 천천히 말해. 😄 | megbeszéltem = 얘기를 나눴다 | emotion=teasing at=22:33
+A | Réka, te vagy a legjobb szomszéd. Már most! | 레카, 너 최고의 이웃이야. 벌써부터! | szomszéd = 이웃 | emotion=excited at=22:33

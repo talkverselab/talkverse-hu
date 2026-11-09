@@ -10,190 +10,164 @@
  "domain": [
   "culture"
  ],
- "title": "사흘 된 걸작",
- "emoji": "🎤",
- "scene": "받침대 위 레테시가 팔린 뒤 기자가 찾아왔다. 사실대로 말할수록 더 깊어 보인다",
+ "title": "언어교환 모임",
+ "emoji": "🗣️",
+ "scene": "Anna 가 언어교환 모임에 데려가 친구 Bence 를 소개해 준다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
-  "C": "Újságíró"
+  "C": "Bence"
  },
  "register": "mixed",
- "twist": 8,
- "twist_type": "chaos",
+ "twist": 6,
+ "twist_type": "slip",
  "flags": [],
- "goal": "인터뷰에서 사실 바로잡기(igazából, komolyan)",
+ "goal": "처음 소개받는 말과 존댓말·반말 전환(Nyugodtan tegezz)",
  "expressions": [
-  "Hát",
-  "igazából",
-  "Figyelj",
-  "Szóval",
-  "Nyugi"
+  "Nem baj",
+  "Nyugodtan",
+  "Bocsi",
+  "Na"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "C",
-   "hu": "Ön a művész? Mit jelent ez a rétes?",
-   "rd": "왼 어 뮈베쓰? 미트 옐렌트 에즈 어 레테시?",
-   "ko": "작가님이세요? 이 레테시는 무슨 뜻인가요?",
-   "note": "Ön = 당신(동사는 3인칭)",
+   "speaker": "B",
+   "hu": "Ez a nyelvcsere-est. Itt mindenki gyakorol.",
+   "rd": "에즈 어 넬브체레-에슈트. 이트 민덴키 져코롤.",
+   "ko": "여기가 언어교환 모임이야. 여기선 다들 연습해.",
+   "note": "nyelvcsere = 언어교환",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "művész",
-     "művész",
+     "nyelvcsere",
+     "nyelv",
      ""
     ],
     [
-     "jelent",
-     "jelen",
+     "est",
+     "1-es",
      ""
     ],
     [
-     "rétes",
-     "rétes",
-     "레테시"
+     "gyakorol",
+     "gyakorol",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hát... igazából ez csak az ebédem.",
-   "rd": "하트... 이거자볼 에즈 척 어즈 에베뎀.",
-   "ko": "음… 사실 이건 그냥 제 점심이에요.",
-   "note": "igazából = 사실은",
-   "tags": [
-    "expr:Hát",
-    "expr:igazából"
-   ],
-   "emotion": "flustered",
+   "hu": "Hű, sok ember van. Kicsit izgulok.",
+   "rd": "휘, 쇽 엠베르 번. 키치트 이즈굴록.",
+   "ko": "와, 사람 많다. 좀 떨려.",
+   "note": "izgulok = 떨린다",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "Hű",
+     "hű",
+     ""
     ],
     [
-     "igazából",
-     "igaz",
-     "이거즈"
+     "ember",
+     "ember",
+     "엠베르"
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "van",
+     "van",
+     "번"
     ],
     [
-     "ebédem",
-     "ebédem",
+     "izgulok",
+     "izgul",
      ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "C",
-   "hu": "Az ebédje, zseniális! A művész és a mindennapi éhség!",
-   "rd": "어즈 에베드예, 제니알리시! 어 뮈베쓰 에시 어 민덴너피 에흐섹!",
-   "ko": "점심! 천재적이네요! 예술가와 일상의 허기!",
-   "note": "zseniális = 천재적인",
-   "tags": [],
-   "emotion": "excited",
+   "speaker": "B",
+   "hu": "Nem baj, gyere. Bemutatlak Bencének.",
+   "rd": "넴 버이, 제레. 베무터틀럭 벤체넥.",
+   "ko": "괜찮아, 와. 벤체한테 소개해 줄게.",
+   "note": "bemutatlak = 너를 소개한다",
+   "tags": [
+    "expr:Nem baj"
+   ],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "ebédje",
-     "ebédje",
-     ""
+     "baj",
+     "baj",
+     "버이"
     ],
     [
-     "zseniális",
-     "zseniális",
-     ""
-    ],
-    [
-     "művész",
-     "művész",
-     ""
-    ],
-    [
-     "mindennapi",
-     "mindennapi",
-     ""
-    ],
-    [
-     "éhség",
-     "éhség",
-     ""
+     "gyere",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Figyelj, mondj valami okosat, mindenki téged néz.",
-   "rd": "피젤이, 몬드이 벌러미 오코셔트, 민덴키 테게드 네즈.",
-   "ko": "들어 봐, 똑똑한 말 좀 해, 다들 너만 봐.",
-   "note": "valami okosat = 뭔가 똑똑한 것을",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "worried",
+   "speaker": "C",
+   "hu": "Szia, Bence vagyok! Te mit tanulsz?",
+   "rd": "씨어, 벤체 버죡! 테 미트 터눌쓰?",
+   "ko": "안녕, 나 벤체야! 너는 뭐 배워?",
+   "note": "Te mit tanulsz? = 너는 뭐 배워?",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Szia",
+     "szia",
+     "씨어"
     ],
     [
-     "mondj",
-     "mond",
-     "몬드"
+     "vagyok",
+     "van",
+     "번"
     ],
     [
-     "okosat",
-     "okos",
-     "오코시"
-    ],
-    [
-     "néz",
-     "néz",
-     "네즈"
+     "tanulsz",
+     "tanul",
+     "타눌"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Szóval... megéheztem, letettem, és elfelejtettem.",
-   "rd": "쏘벌... 메게헤즈템, 레테뗌, 에시 엘펠레이테뗌.",
-   "ko": "그러니까… 배고팠고, 내려놨고, 잊어버렸어요.",
-   "note": "elfelejt = 잊어버리다",
-   "tags": [
-    "expr:Szóval"
-   ],
-   "emotion": "flustered",
+   "hu": "Jó estét kívánok! Örülök, hogy megismerhetem.",
+   "rd": "요 에슈테트 키바녹! 외륄뢱, 호지 메기슈메르헤템.",
+   "ko": "안녕하십니까! 만나 뵙게 되어 반갑습니다.",
+   "note": "megismerhetem = 당신을 알게 되다(존댓말)",
+   "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
-     "Szóval",
-     "szó",
-     "쏘"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "megéheztem",
-     "megéhezik",
-     ""
+     "estét",
+     "este",
+     "에슈테"
     ],
     [
-     "letettem",
-     "letesz",
-     ""
+     "kívánok",
+     "kíván",
+     "키반"
     ],
     [
-     "elfelejtettem",
-     "elfelejtett",
+     "megismerhetem",
+     "megismerhet",
      ""
     ]
    ]
@@ -201,41 +175,28 @@
   {
    "num": 6,
    "speaker": "C",
-   "hu": "Éhség, elengedés, felejtés! Ezt leírom, ez lesz a címlap!",
-   "rd": "에흐섹, 엘렌게데시, 펠레이테시! 에즈트 레이롬, 에즈 레쓰 어 침러프!",
-   "ko": "허기, 놓아줌, 망각! 받아 적겠습니다, 이게 1면이에요!",
-   "note": "címlap = 1면, 표지",
-   "tags": [],
-   "emotion": "excited",
+   "hu": "Hű, de udvarias! Nyugodtan tegezz.",
+   "rd": "휘, 데 우드버리어시! 뉴고드턴 테게즈.",
+   "ko": "와, 엄청 공손하다! 편하게 말 놔.",
+   "note": "tegezz = 반말해",
+   "tags": [
+    "expr:Nyugodtan"
+   ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "Éhség",
-     "éhség",
+     "Hű",
+     "hű",
      ""
     ],
     [
-     "elengedés",
-     "elengedés",
+     "udvarias",
+     "udvarias",
      ""
     ],
     [
-     "felejtés",
-     "felejt",
-     "펠레이트"
-    ],
-    [
-     "leírom",
-     "leír",
-     ""
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "címlap",
-     "címlap",
+     "tegezz",
+     "tegezz",
      ""
     ]
    ]
@@ -243,165 +204,139 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Várjon, kérem! Komolyan, a rétes már háromnapos!",
-   "rd": "바르욘, 케렘! 코모연, 어 레테시 마르 하롬너포시!",
-   "ko": "잠깐만요! 진짜로, 그 레테시 벌써 사흘 됐어요!",
-   "note": "háromnapos = 사흘 된",
-   "tags": [],
+   "hu": "Bocsi! A tankönyvemben mindig így van.",
+   "rd": "보치! 어 턴쾨니벰벤 민딕 이지 번.",
+   "ko": "미안! 내 교과서엔 늘 이렇게 나와.",
+   "note": "tankönyv = 교과서",
+   "tags": [
+    "expr:Bocsi"
+   ],
    "emotion": "flustered",
    "lemmas": [
     [
-     "Várjon",
-     "vár",
-     "바르"
+     "Bocsi",
+     "bocsi",
+     "보치"
     ],
     [
-     "kérem",
-     "kér",
-     "께르"
-    ],
-    [
-     "rétes",
-     "rétes",
-     "레테시"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "háromnapos",
-     "háromnap",
+     "tankönyvemben",
+     "tankönyv",
      ""
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "C",
-   "hu": "Zseniális! A vevő már kérdezi: mikor lesz a következő?",
-   "rd": "제니알리시! 어 베뵈 마르 케르데지: 미코르 레쓰 어 쾨베트케죄?",
-   "ko": "천재적이에요! 구매자가 벌써 묻네요, 다음 작품은 언제냐고요!",
-   "note": "vevő = 구매자",
+   "speaker": "B",
+   "hu": "A tankönyvek mindig túl udvariasak. 😄",
+   "rd": "어 턴쾨니벡 민딕 툴 우드버리어셕. 😄",
+   "ko": "교과서는 늘 너무 공손해. 😄",
+   "note": "túl = 너무",
    "tags": [],
-   "emotion": "excited",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Zseniális",
-     "zseniális",
+     "tankönyvek",
+     "tankönyv",
      ""
     ],
     [
-     "vevő",
-     "vevő",
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "túl",
+     "túl",
+     "툴"
+    ],
+    [
+     "udvariasak",
+     "udvarias",
      ""
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "kérdezi",
-     "kérdez",
-     "케르데즈"
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "következő",
-     "következik",
-     "쾨베트케지크"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "A",
-   "hu": "A következő? Anna, mit csináljak?",
-   "rd": "어 쾨베트케죄? 언너, 미트 치날역?",
-   "ko": "다음 작품? 안나, 나 어떡해?",
-   "note": "mit csináljak? = 어떡하지?",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "A következő?"
-    ],
-    [
-     "worried",
-     "Anna, mit csináljak?"
-    ]
+   "speaker": "C",
+   "hu": "Na, és mióta tanulsz magyarul?",
+   "rd": "너, 에시 미오터 터눌쓰 머져룰?",
+   "ko": "그래서, 헝가리어는 얼마나 배웠어?",
+   "note": "mióta = 언제부터",
+   "tags": [
+    "expr:Na"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "következő",
-     "következik",
-     "쾨베트케지크"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "csináljak",
-     "csinál",
-     "치날"
+     "tanulsz",
+     "tanul",
+     "타눌"
+    ],
+    [
+     "magyarul",
+     "magyar",
+     ""
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "B",
-   "hu": "Nyugi, már sütöm a másodikat. A pénz fele az enyém.",
-   "rd": "뉴기, 마르 쉬툄 어 마쇼디커트. 어 펜즈 펠레 어즈 에넴.",
-   "ko": "진정해, 벌써 두 번째 굽고 있어. 돈 반은 내 거야.",
-   "note": "nyugi = 진정해",
+   "speaker": "A",
+   "hu": "Fél éve. Tegnap a szomszéd kutyáját is magáztam.",
+   "rd": "펠 에베. 텍너프 어 쏨쎄드 쿠탸야트 이시 머가즈텀.",
+   "ko": "반년. 어제는 옆집 개한테도 존댓말 썼어.",
+   "note": "magáz = 존댓말 하다",
    "tags": [
-    "expr:Nyugi"
+    "expr:Na"
    ],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Nyugi, már sütöm a másodikat."
-    ],
-    [
-     "teasing",
-     "A pénz fele az enyém."
-    ]
-   ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "Nyugi",
-     "nyugi",
-     "니우기"
+     "Fél",
+     "fél",
+     "펠"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "éve",
+     "év",
+     "에브"
     ],
     [
-     "sütöm",
-     "süt",
-     "슈트"
+     "szomszéd",
+     "szomszéd",
+     "쏨세드"
     ],
     [
-     "másodikat",
-     "második",
+     "kutyáját",
+     "kutyája",
      ""
     ],
     [
-     "pénz",
-     "pénz",
-     "펜즈"
-    ],
-    [
-     "fele",
-     "fel",
-     "펠"
+     "magáztam",
+     "magáz",
+     ""
     ]
    ]
   }

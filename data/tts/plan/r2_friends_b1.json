@@ -1,104 +1,102 @@
 {
 "ep": "r2_friends_b1",
 "cast": {
-"B": "reka",
-"C": "man_m",
-"D": "bence"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"worried",
-"Mi van a táskádban? Miért mozog?"
+"cheerful",
+"Na, kezdjük. Hol az útmutató?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"A madarad. Otthon egész nap sírt, ezért elhoztam."
+"amused",
+"Itt van. De csak képek vannak benne."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shout",
-"Mi?! Ide hoztad, Bence kávézójába?!"
+"cheerful",
+"Nem baj, az elég. Add ide a csavarhúzót!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Nyugi, alszik. Nézd, egy szót sem mond."
+"neutral",
+"Tessék. Ez a deszka hova megy?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"Sziasztok! Mit kértek, friss rétest?"
+"worried",
+"Szerintem alulra. Nem, várj, fordítsd meg!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"excited",
-"Bence, szeretlek! Bence, szeretlek!"
+"worried",
+"Így? Most jó?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Tessék? Ki mondta ezt?"
+"excited",
+"Tökéletes. Már csak a polcok vannak hátra."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Nem én! Izé, {name} mondta!"
+"excited",
+"Hű, két óra alatt megcsináltuk!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"tsukkomi",
-"Én?! Réka, ne már!"
+"surprised",
+"Kész, gyönyörű! De ez a négy csavar honnan van?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"gentle",
-"Hű. Figyelj, ez kedves, de én csak kávét tudok adni."
+"flustered",
+"Hát, szerintem tartalék."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"excited",
-"Kávét! Bence, szeretlek!"
+"tsukkomi",
+"Tartalék? Az útmutató szerint nincs tartalék."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"annoyed",
-"Holnap eladom ezt a madarat. Olcsón."
+"amused",
+"Akkor ne tegyünk rá könyvet. Csak egy virágot."
 ]
 ]
 }

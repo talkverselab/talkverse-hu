@@ -10,43 +10,66 @@
  "domain": [
   "friends"
  ],
- "title": "읽고 안 읽씹",
- "emoji": "🍲",
- "scene": "몸살이 났다. Réka 에게 보낸 메시지가 읽혔는데 답이 없다",
+ "title": "오늘 결석",
+ "emoji": "🤒",
+ "scene": "감기로 수업에 못 간 날, Réka 에게서 메시지가 온다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "chat",
- "twist": 6,
- "twist_type": "ignore",
+ "twist": 7,
+ "twist_type": "emotion",
  "flags": [],
- "goal": "아프다고 말하기와 채팅 혼잣말",
+ "goal": "아프다 말하기(Beteg vagyok · Fáj a torkom)",
  "expressions": [
-  "Hé",
-  "Na",
-  "nyisd ki"
+  "Mi van veled",
+  "Beteg vagyok",
+  "Jobbulást"
  ],
  "turns": [
   {
    "num": 1,
+   "speaker": "B",
+   "hu": "Mi van veled? Nem vagy órán.",
+   "rd": "미 번 벨레드? 넴 버지 오란.",
+   "ko": "무슨 일이야? 수업에 없네.",
+   "note": "órán = 수업에",
+   "tags": [
+    "expr:Mi van veled"
+   ],
+   "at": "09:15",
+   "emotion": "worried",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "órán",
+     "óra",
+     "오러"
+    ]
+   ]
+  },
+  {
+   "num": 2,
    "speaker": "A",
-   "hu": "Réka, beteg vagyok.",
-   "rd": "레커, 베텍 버죡.",
-   "ko": "레카, 나 아파.",
-   "note": "beteg = 아픈",
-   "tags": [],
-   "at": "10:02",
+   "hu": "Beteg vagyok. Fáj a torkom. 🤒",
+   "rd": "베텍 버죡. 파이 어 토르콤. 🤒",
+   "ko": "아파. 목이 아파. 🤒",
+   "note": "fáj a torkom = 목이 아프다",
+   "tags": [
+    "expr:Beteg vagyok"
+   ],
+   "at": "09:31",
    "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
-     "Réka",
-     "réka",
-     ""
-    ],
-    [
-     "beteg",
+     "Beteg",
      "beteg",
      "베테그"
     ],
@@ -54,205 +77,167 @@
      "vagyok",
      "van",
      "번"
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "hu": "Nagyon fáj a fejem.",
-   "rd": "너죤 파이 어 페옘.",
-   "ko": "머리 너무 아파.",
-   "note": "fej = 머리",
-   "tags": [
-    "expr:Na"
-   ],
-   "at": "10:03",
-   "emotion": "sad",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Nagyon",
-     "nagyon",
-     "너존"
     ],
     [
-     "fáj",
-     "fáj",
-     "파이"
-    ],
-    [
-     "fejem",
-     "fej",
-     "페이"
+     "torkom",
+     "torok",
+     ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Látod? Olvastad?",
-   "rd": "라토드? 올버슈터드?",
-   "ko": "봤어? 읽었어?",
-   "note": "olvastad = 네가 그걸 읽었다",
+   "speaker": "B",
+   "hu": "Jaj, szegény! Lázas vagy?",
+   "rd": "여이, 쎄게니! 라저시 버지?",
+   "ko": "아이고, 어떡해! 열 있어?",
+   "note": "lázas = 열이 있는",
    "tags": [],
-   "at": "10:40",
+   "at": "09:32",
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Látod",
-     "lát",
-     "라트"
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "szegény",
+     "szegény",
+     "쎄게니"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Hé! Nem válaszolsz?",
-   "rd": "헤! 넴 발러쏠쓰?",
-   "ko": "야! 답 안 해?",
-   "note": "válaszolsz = 네가 답한다",
-   "tags": [
-    "expr:Hé"
-   ],
-   "at": "11:15",
-   "emotion": "annoyed",
+   "hu": "Egy kicsit. Egész nap alszom.",
+   "rd": "에지 키치트. 에게쓰 너프 얼쏨.",
+   "ko": "조금. 하루 종일 자.",
+   "note": "alszom = 잔다",
+   "tags": [],
+   "at": "09:33",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
-     "Hé",
-     "hé",
-     "헤"
+     "kicsit",
+     "kicsi",
+     "키치"
     ],
     [
-     "válaszolsz",
-     "válaszol",
-     "발러졸"
+     "nap",
+     "nap",
+     "넙"
+    ],
+    [
+     "alszom",
+     "alszik",
+     "얼루시크"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "Jó, akkor meghalok. Szia.",
-   "rd": "요, 어꼬르 멕헐록. 씨어.",
-   "ko": "그래, 그럼 나 죽는다. 안녕.",
-   "note": "meghalok = 나 죽는다",
+   "speaker": "B",
+   "hu": "Van otthon tea? Méz?",
+   "rd": "번 오트혼 테어? 메즈?",
+   "ko": "집에 차 있어? 꿀은?",
+   "note": "méz = 꿀",
    "tags": [],
-   "at": "12:30",
-   "emotion": "sad",
+   "at": "09:33",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Van",
+     "van",
+     "번"
     ],
     [
-     "akkor",
-     "akkor",
-     "어꼬르"
+     "otthon",
+     "otthon",
+     "오트혼"
     ],
     [
-     "meghalok",
-     "meghal",
-     "메그헐"
+     "tea",
+     "tea",
+     "테아"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "B",
-   "hu": "Na, nyisd ki az ajtót.",
-   "rd": "너, 니슈드 키 어즈 어이토트.",
-   "ko": "야, 문 열어.",
-   "note": "nyisd ki = 열어",
-   "tags": [
-    "expr:Na",
-    "expr:nyisd ki"
-   ],
-   "at": "12:41",
-   "emotion": "annoyed",
+   "speaker": "A",
+   "hu": "Nincs semmi. Csak víz. 😅",
+   "rd": "닌치 셈미. 척 비즈. 😅",
+   "ko": "아무것도 없어. 물만. 😅",
+   "note": "semmi = 아무것도",
+   "tags": [],
+   "at": "09:34",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "Nincs",
+     "nincs",
+     "닌치"
     ],
     [
-     "nyisd",
-     "nyit",
-     "니트"
-    ],
-    [
-     "ki",
-     "ki",
-     "키"
-    ],
-    [
-     "ajtót",
-     "ajtó",
-     "어이토"
+     "víz",
+     "víz",
+     "비즈"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Mi? Hol vagy?",
-   "rd": "미? 홀 버지?",
-   "ko": "뭐? 어디야?",
-   "note": "hol vagy? = 어디야?",
-   "tags": [],
-   "at": "12:41",
-   "emotion": "surprised",
-   "ui": "bubble",
-   "lemmas": []
-  },
-  {
-   "num": 8,
    "speaker": "B",
-   "hu": "Itt, levessel. Egy órája csengetek.",
-   "rd": "이트, 레베쎌. 에지 오라여 첸게텍.",
-   "ko": "여기, 수프 들고. 한 시간째 초인종 눌러.",
-   "note": "egy órája = 한 시간째",
-   "tags": [],
-   "at": "12:42",
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Itt, levessel."
-    ],
-    [
-     "tsukkomi",
-     "Egy órája csengetek."
-    ]
+   "hu": "Óra után viszek levest. Jobbulást!",
+   "rd": "오러 우탄 비쎅 레베슈트. 요불라슈트!",
+   "ko": "수업 끝나고 수프 갖다줄게. 빨리 나아!",
+   "note": "jobbulást = 빨리 나아",
+   "tags": [
+    "expr:Jobbulást"
    ],
+   "at": "09:35",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Itt",
-     "itt",
-     "이트"
+     "viszek",
+     "visz",
+     "비스"
     ],
     [
-     "levessel",
+     "levest",
      "leves",
      ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Komolyan? Te vagy a legjobb. 🥹",
+   "rd": "코모연? 테 버지 어 렉요브. 🥹",
+   "ko": "진짜? 너 최고야. 🥹",
+   "note": "a legjobb = 최고",
+   "tags": [],
+   "at": "09:36",
+   "emotion": "shy",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
-     "órája",
-     "óra",
-     "오러"
-    ],
-    [
-     "csengetek",
-     "csenget",
-     ""
+     "legjobb",
+     "jó",
+     "요"
     ]
    ]
   }

@@ -7,24 +7,24 @@
 "1": {
 "segs": [
 [
-"gentle",
-"Gyere be, éhes vagy? Főztem egy kis levest."
+"polite",
+"Kedves, megkérhetem valamire?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Köszönöm, nem vagyok éhes."
+"cheerful",
+"Persze, Marika néni. Mi az?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Egy kicsit! Tessék, itt a leves és a hús."
+"gentle",
+"Hétvégén a lányomnál leszek. Meglocsolja a virágaimat?"
 ]
 ]
 },
@@ -32,55 +32,39 @@
 "segs": [
 [
 "cheerful",
-"Nagyon finom!"
-],
-[
-"polite",
-"De most már elég."
+"Szívesen! Hány virága van?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Elég?"
-],
-[
-"sad",
-"Nem ízlik?"
+"neutral",
+"Tizenkettő. És Cirminek is adjon enni, reggel és este."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Dehogy! Csak tele vagyok."
+"polite",
+"Rendben. Még valami?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"worried",
-"Nem eszel?"
-],
-[
-"shout",
-"Hívom az orvost!"
+"cheerful",
+"A postát is hozza fel. Vasárnap jön a gázos."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Jaj, ne!"
-],
-[
-"sad",
-"Jól van, kérek még."
+"worried",
+"Ugye csak két napig lesz távol, Marika néni?"
 ]
 ]
 }

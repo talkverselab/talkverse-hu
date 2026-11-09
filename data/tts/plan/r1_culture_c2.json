@@ -2,73 +2,76 @@
 "ep": "r1_culture_c2",
 "cast": {
 "B": "anna",
-"C": "reka",
-"D": "woman_m"
+"C": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"cheerful",
-"Új rajzom! 🎨",
-"Új rajzom!"
+"excited",
+"Kész az új képem! 🎨",
+"Kész az új képem!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"amused",
-"Hű! Szép krumpli! 😄",
-"Hű! Szép krumpli!"
+"excited",
+"Hű, de jó! Ez a Duna?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shout",
-"Krumpli?!"
+"cheerful",
+"Igen, este. 🌙",
+"Igen, este."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"annoyed",
-"Jaj. {name}, ez Réka."
+"excited",
+"Nagyon szép vagy! 😍",
+"Nagyon szép vagy!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"flustered",
-"Bocsi! Szép Réka!"
+"teasing",
+"Ó-ó! 😏",
+"Ó-ó!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"worried",
-"Réka, mi van az arcoddal?"
+"flustered",
+"Jaj, a kép! A kép szép!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"shout",
-"Anyu! Ne írj ide!"
+"amused",
+"Aha. Már tizenöt lájk van rajta. 😂",
+"Aha. Már tizenöt lájk van rajta."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"gentle",
-"Szerintem szép krumpli vagy, kicsim."
+"shy",
+"Köszi. Mindkettőt. 😘",
+"Köszi. Mindkettőt."
 ]
 ]
 }

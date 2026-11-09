@@ -1,18 +1,19 @@
 === r1_life_c4
 kind: chat
-title: 읽고 답 없는 집주인
-emoji: 💧
-scene: 수도관이 터졌다. 집주인 Laci 아저씨에게 문자를 보내는데, 읽기만 하고 답이 없다
+title: 한쪽만 답하는 집주인
+emoji: 🧺
+scene: 월세를 보내면서 집주인 Laci 아저씨에게 세탁기 고장도 말한다. 아저씨는 월세에만 답한다
 b: Laci bácsi
 register: chat
-twist: 6 ignore
+twist: 5 ignore
 purpose: study_abroad
-goal: 상황이 번지는 것을 문자로 알리기(Most már …)
-expressions: Kérem; Most már; Nem baj; Bocsánat
-A | Jó napot! Folyik a víz. | 안녕하세요! 물이 새요. | folyik = 흐른다 | emotion=polite+worried at=08:10
-A | A konyhában. | 부엌에서요. | konyha = 부엌 | emotion=worried at=08:40
-A | Most már a szobában is. | 이제 방에서도요. | most már = 이제는 | emotion=worried at=09:15
-A | Dávid úszik. 😅 | 다비드가 수영해요. 😅 | úszik = 수영한다 | emotion=flustered at=09:50
-A | Kérem, válaszoljon! | 제발 답 좀 해 주세요! | válaszoljon = 답하세요(존댓말) | emotion=shout at=10:30
-B | Jó napot! Bocsánat, fürdőben voltam. | 안녕하세요! 죄송해요, 온천에 있었어요. | fürdőben = 온천에 | emotion=polite at=15:12
-A | Nem baj. Most már itt is fürdő van. | 괜찮아요. 이제 여기도 온천이에요. | itt is = 여기도 | emotion=tsukkomi at=15:13
+goal: 채팅으로 집주인에게 알리기(Elküldtem · Elromlott)
+expressions: Elküldtem; Elromlott; Megkaptam
+A | Jó napot! Elküldtem a lakbért. | 안녕하세요! 월세 보냈습니다. | lakbér = 월세 | emotion=polite at=09:00
+A | És elromlott a mosógép. 😟 | 그리고 세탁기가 고장 났어요. 😟 | elromlott = 고장 났다 | emotion=worried at=09:01
+B | Megkaptam, köszönöm! 👍 | 받았어요, 고마워요! 👍 | megkaptam = 받았다 | emotion=cheerful at=09:30
+A | És a mosógép? | 그럼 세탁기는요? | és = 그리고 | emotion=worried at=09:31
+A | Laci bácsi? 🙂 | 라치 아저씨? 🙂 | bácsi = 아저씨(손윗사람) | emotion=stiff at=13:00
+B | Bocsánat! Rúgjon bele egyszer, jobb oldalt. | 미안해요! 오른쪽을 한 번 차 봐요. | rúgjon bele = 한 번 차 보세요 | emotion=neutral at=18:20
+A | Komolyan? 😳 | 진짜요? 😳 | komolyan = 진심으로 | emotion=surprised at=18:21
+A | Tényleg működik! Köszönöm, azt hiszem. | 진짜 돌아가네요! 고마워요… 아마도. | azt hiszem = 아마, 그런 것 같다 | emotion=surprised+stiff at=18:26

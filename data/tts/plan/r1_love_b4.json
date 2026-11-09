@@ -1,84 +1,70 @@
 {
 "ep": "r1_love_b4",
 "cast": {
-"B": "reka",
-"C": "anna"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"neutral",
-"Réka, nézd, ezt a padon találtam. Anna rajzfüzete?"
+"worried",
+"Réka, figyelj. Mit írjak Annának?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Igen, az övé."
-],
-[
-"worried",
-"Ne nyisd ki, komolyan mondom!"
+"amused",
+"Mutasd. „Szia, mizu?” Ennyi?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Már kinyitottam."
-],
-[
-"surprised",
-"Hű, itt nagyon sok krumpli van."
+"worried",
+"Jó, de unalmas, ugye?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"amused",
-"Ja, azok? Azok nem krumplik."
+"teasing",
+"Kicsit. Hívd el valahová!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Várj. Ennek a krumplinak az én orrom van."
+"worried",
+"Moziba? Nem túl gyors?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"gentle",
-"Mind te vagy. Harminc oldal, csupa te."
+"amused",
+"Na ne. Ma reggel Anna ugyanezt kérdezte tőlem."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Harminc?"
-],
-[
-"shy",
-"Szóval Anna engem...",
-"Szóval Anna engem"
+"excited",
+"Tényleg? És mit mondtál neki?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"cheerful",
-"Sziasztok! Nem láttátok a füzetemet?"
+"teasing",
+"Azt, hogy ne várjon rád. Nézd, már írt."
 ]
 ]
 }

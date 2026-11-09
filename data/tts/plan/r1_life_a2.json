@@ -8,51 +8,47 @@
 "segs": [
 [
 "polite",
-"Csókolom! Kér tejet?"
+"Csókolom, Marika néni!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Tejet?"
-],
-[
-"neutral",
-"Hát, mennyi van?"
+"cheerful",
+"Jó napot! Tessék, itt egy csomag magának."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Húsz liter."
+"surprised",
+"Nekem? Tényleg?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Úristen! Miért?"
+"gentle",
+"Tegnap jött, nem volt otthon senki."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"flustered",
-"Hosszú történet. Tessék."
+"polite",
+"Köszönöm szépen! Mit adhatok érte?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Köszönöm! Egy pillanat, szólok valakinek."
+"gentle",
+"Semmit. Csak a dobozt kérem majd."
 ]
 ]
 },
@@ -60,15 +56,15 @@
 "segs": [
 [
 "surprised",
-"Marika néni, ki ez a sok ember?"
+"A dobozt? Minek?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"cheerful",
-"Az egész ház. Mindenki tejet kér!"
+"amused",
+"Cirminek. Ő csak az új dobozokat szereti."
 ]
 ]
 }

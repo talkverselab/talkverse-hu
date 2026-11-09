@@ -1,31 +1,30 @@
 {
 "ep": "r2_study_b2",
 "cast": {
-"B": "reka",
-"C": "man_y"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"neutral",
-"Éhes vagyok. Mit főzünk ma este?"
+"worried",
+"Figyelj, láttad a joghurtomat? Itt volt a hűtőben."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Paprikás krumplit! Anna adott nekem paprikát."
+"neutral",
+"Milyen joghurtot?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Szuper. Mennyi paprika kell bele?"
+"annoyed",
+"Epreset, kicsit, a felső polcon. Ráírtam a nevemet is."
 ]
 ]
 },
@@ -33,83 +32,63 @@
 "segs": [
 [
 "worried",
-"Szerintem egy kanál. Vagy egy zacskó?"
+"Hát, én ma reggel ettem egy epres joghurtot."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Mindegy, mindjárt jövök. Csak lerakom a biciklit."
+"annoyed",
+"Ne már! Nem láttad a nevemet?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Kész!"
-],
-[
-"surprised",
-"De miért sírok?"
+"flustered",
+"Nem volt rajta név. Az enyém volt, tegnap vettem."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"shout",
-"Jaj, ne már! Mennyit tettél bele?"
+"worried",
+"Biztos? Akkor hol van az enyém?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"neutral",
-"Az egészet."
-],
-[
-"worried",
-"Miért, mi ez a hang?"
+"surprised",
+"Várj, nézzük meg. Mi ez itt hátul?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"shout",
-"A riasztó! Az egész emelet köhög a folyosón!"
+"surprised",
+"Két epres joghurt. Az egyiken az én nevem, a másikon a tiéd."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shout",
-"Tűzoltóság!"
-],
-[
-"stiff",
-"Mi ez a szag?"
+"flustered",
+"Akkor reggel kinek a joghurtját ettem meg?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"flustered",
-"Bocsánat! Ez csak paprikás krumpli."
-]
-]
-},
-"12": {
-"segs": [
-[
-"excited",
-"Hű, ez nagyon jó! Van még hat tányér?"
+"teasing",
+"Szerintem Dávidé volt. Ő pedig mindent megszámol."
 ]
 ]
 }

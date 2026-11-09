@@ -1,23 +1,22 @@
 === r2_love_c2
 kind: chat
-title: 글자 하나
+title: 뽀뽀 하나에 식은땀
 emoji: 💋
-scene: Anna 가 자기 작은 전시에 A 를 먼저 초대한다. A 의 엄지가 모음 하나를 틀린다
+scene: Anna 가 먼저 내일 드로잉 수업에 오냐고 묻는다. A 가 인사 끝에 한 단어를 붙인다
 b: Anna
 register: chat
-twist: 6 slip
+twist: 8 reveal
 flags: romance
 purpose: love
-goal: 초대 주고받기, csak(~만)과 csók(키스) 구별
-expressions: Hű; Tessék?; Bocsi; Aha; Izé
-B | Szia! Pénteken kiállításom lesz, nem nagy. 😊 | 안녕! 금요일에 내 전시 있어, 크진 않아. 😊 | kiállítás = 전시 | emotion=shy at=19:20
-A | Hű, de jó! Hol? | 와, 좋다! 어디서? | de jó = 정말 좋다 | emotion=excited at=19:21
-B | Az egyetemen. De csak húsz jegy van. | 대학교에서. 근데 표가 스무 장뿐이야. | jegy = 표 | emotion=neutral at=19:21
-A | Akkor nekem is jut? | 그럼 나도 받을 수 있어? | jut = 돌아온다 | emotion=cheerful at=19:22
-B | Csak egy maradt. Kinek adjam? | 한 장 남았어. 누구 줄까? | kinek adjam? = 누구에게 줄까? | emotion=teasing at=19:22
-A | Csók nekem! 😄 | 나한테 키스! 😄 | csók = 키스(csak = ~만) | emotion=cheerful at=19:23
-B | Tessék? 😳 | 뭐라고? 😳 | tessék? = 뭐라고? | emotion=surprised at=19:23
-A | Jaj, bocsi! Csak nekem, nem csók! | 아이고, 미안! 나한테'만', 키스 말고! | csak = ~만 | emotion=flustered at=19:24
-B | Aha. Szóval csók nincs. | 아하. 그러니까 키스는 없다는 거네. | nincs = 없다 | emotion=teasing at=19:25
-A | Izé... nem így értettem! | 어… 그런 뜻이 아니었어! | nem így értettem = 그런 뜻 아니었어 | emotion=flustered at=19:25
-B | A jegy a tiéd. A másikról pénteken beszélünk. 😇 | 표는 네 거야. 나머지는 금요일에 얘기하자. 😇 | a másikról = 다른 것에 대해 | emotion=teasing at=19:27
+goal: 채팅 인사 puszi(볼뽀뽀, 흔한 끝인사)와 주문 말하기(…-val, … nélkül)
+expressions: Persze; Bocsi; Nyugi; Tényleg?
+B | Szia! Holnap is jössz a rajzórára? | 안녕! 내일도 드로잉 수업 와? | rajzóra = 드로잉 수업 | emotion=cheerful at=20:05
+A | Igen, persze! Hozok neked kávét. | 응, 당연하지! 커피 가져다줄게. | hozok = 가져간다 | emotion=cheerful at=20:06
+B | Jaj, köszi! Tejjel, cukor nélkül. ☕ | 아, 고마워! 우유 넣고 설탕은 빼고. ☕ | nélkül = ~없이 | emotion=cheerful at=20:06
+A | Rendben, akkor holnap. Puszi! | 알았어, 그럼 내일. 뽀뽀! | puszi = 볼뽀뽀(끝인사) | emotion=cheerful at=20:07
+A | Úristen, bocsi! Nem úgy értettem! | 세상에, 미안! 그런 뜻 아니었어! | nem úgy értettem = 그런 뜻이 아니었어 | emotion=flustered at=20:07
+B | Mit? 😄 | 뭘? 😄 | mit? = 뭘? | emotion=amused at=20:09
+A | A puszit. Az túl sok volt, ugye? | 뽀뽀 말이야. 너무 갔지, 그렇지? | túl sok = 너무 많은 | emotion=worried at=20:09
+B | Nyugi, itt mindenki puszit küld. Még a fogorvosom is. 😂 | 진정해, 여기선 다들 뽀뽀 보내. 내 치과 의사도. 😂 | nyugi = 진정해 | emotion=amused at=20:10
+A | Tényleg? Akkor jó, megnyugodtam. | 진짜? 그럼 다행이다, 안심했어. | megnyugodtam = 안심했다 | emotion=cheerful at=20:11
+B | De a tiéd jobban esett, mint a fogorvosé. 🙈 | 근데 네 건 치과 의사 거보다 더 좋았어. 🙈 | jól esik = 기분 좋다 | emotion=shy at=20:13 stamp=🙈

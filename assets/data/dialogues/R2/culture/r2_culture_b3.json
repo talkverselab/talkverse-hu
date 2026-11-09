@@ -11,345 +11,370 @@
  "domain": [
   "culture"
  ],
- "title": "「ő」는 누구야",
- "emoji": "🕵️",
- "scene": "Anna 가 어떤 사람 얘기를 꺼낸다. 헝가리어 ő 는 그도 그녀도 된다",
+ "title": "두 시간 반짜리",
+ "emoji": "🎞️",
+ "scene": "Anna 와 영화관 매표소 앞. 무슨 영화를 볼지, 어디 앉을지 정한다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
  },
  "register": "casual",
- "twist": 11,
+ "twist": 12,
  "twist_type": "emotion",
  "flags": [
-  "romance",
-  "jealousy"
+  "romance"
  ],
- "goal": "3인칭 ő 와 과거형으로 이야기하기",
+ "goal": "영화관에서 영화·자리 고르기(Hova üljünk? · Te mit szeretnél?)",
  "expressions": [
-  "Figyelj",
-  "De jó",
-  "Aha",
-  "Hát"
+  "Na",
+  "Mindegy",
+  "Várj"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Figyelj, találkoztam valakivel. Nagyon aranyos.",
-   "rd": "피젤이, 털랄코즈텀 벌러키벨. 너죤 어러뇨시.",
-   "ko": "있잖아, 어떤 사람을 만났어. 엄청 귀여워.",
-   "note": "aranyos = 귀여운",
+   "speaker": "A",
+   "hu": "Na, melyik filmet nézzük?",
+   "rd": "너, 메익 필메트 네쥑?",
+   "ko": "자, 어느 영화 볼까?",
+   "note": "melyik = 어느",
    "tags": [
-    "expr:Figyelj"
+    "expr:Na"
    ],
-   "emotion": "shy",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "találkoztam",
-     "találkozik",
-     "털랄코지크"
+     "filmet",
+     "film",
+     "필름"
     ],
     [
-     "aranyos",
-     "aranyos",
-     "어러뇨시"
+     "nézzük",
+     "néz",
+     "네즈"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "De jó... Fiú vagy lány?",
-   "rd": "데 요... 피우 버지 라니?",
-   "ko": "좋겠네… 남자야, 여자야?",
-   "note": "de jó = 좋다",
-   "tags": [
-    "expr:De jó"
-   ],
-   "emotion": "stiff",
+   "speaker": "B",
+   "hu": "Van egy magyar vígjáték és egy sci-fi.",
+   "rd": "번 에지 머져르 빅야텍 에시 에지 슈치-피.",
+   "ko": "헝가리 코미디 하나랑 SF 하나 있어.",
+   "note": "vígjáték = 코미디",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "jó",
-     "jó",
-     "요"
+     "Van",
+     "van",
+     "번"
     ],
     [
-     "lány",
-     "lány",
-     "라니"
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "vígjáték",
+     "vígjáték",
+     ""
+    ],
+    [
+     "sci",
+     "sci",
+     ""
+    ],
+    [
+     "fi",
+     "fi",
+     "피"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Magyarul csak annyit mondok: ő.",
-   "rd": "머져룰 척 어니트 몬독: 외.",
-   "ko": "헝가리어로는 그냥 「ő」라고만 해.",
-   "note": "ő = 그, 그녀(성 구별 없음)",
+   "speaker": "A",
+   "hu": "Te mit szeretnél?",
+   "rd": "테 미트 쎄레트넬?",
+   "ko": "너는 뭐 보고 싶어?",
+   "note": "szeretnél = 하고 싶니",
    "tags": [],
-   "emotion": "amused",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Magyarul",
-     "magyar",
-     ""
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "mondok",
-     "mond",
-     "몬드"
+     "szeretnél",
+     "szeret",
+     "쎄레트"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "A",
-   "hu": "Nagyszerű. És mit csinál ez az ő?",
-   "rd": "너지쎄뤼. 에시 미트 치날 에즈 어즈 외?",
-   "ko": "잘됐네. 그 「ő」는 뭐 하는 사람인데?",
-   "note": "nagyszerű = 훌륭한",
-   "tags": [],
-   "emotion": "annoyed",
+   "speaker": "B",
+   "hu": "Mindegy, te válassz.",
+   "rd": "민데지, 테 발러쓰.",
+   "ko": "아무거나, 네가 골라.",
+   "note": "válassz = 골라",
+   "tags": [
+    "expr:Mindegy"
+   ],
+   "emotion": "shy",
    "lemmas": [
     [
-     "Nagyszerű",
-     "nagyszerű",
-     "너지세뤼"
+     "Mindegy",
+     "mindegy",
+     "민데지"
     ],
     [
-     "csinál",
-     "csi",
-     "치"
+     "válassz",
+     "választ",
+     "발라쓰트"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "B",
-   "hu": "Nyelvet tanul. Mindig rossz ragot használ, de szépen nevet.",
-   "rd": "넬베트 터눌. 민딕 로쓰 러고트 허쓰날, 데 쎄펜 네베트.",
-   "ko": "언어를 배워. 어미를 맨날 틀리는데, 웃는 게 예뻐.",
-   "note": "rag = 어미, 접미사",
+   "speaker": "A",
+   "hu": "Akkor a sci-fi. Két és fél óra.",
+   "rd": "어꼬르 어 슈치-피. 케트 에시 펠 오러.",
+   "ko": "그럼 SF. 두 시간 반이야.",
+   "note": "két és fél = 두 개 반",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Nyelvet",
-     "nyelve",
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "sci",
+     "sci",
      ""
     ],
     [
-     "tanul",
-     "tan",
-     ""
+     "fi",
+     "fi",
+     "피"
     ],
     [
-     "rossz",
-     "rossz",
-     "로쓰"
-    ],
-    [
-     "ragot",
-     "rag",
-     ""
-    ],
-    [
-     "használ",
-     "használ",
-     "하스날"
-    ],
-    [
-     "szépen",
-     "szép",
-     "쎕"
-    ],
-    [
-     "nevet",
-     "neve",
-     "네베"
+     "fél",
+     "fél",
+     "펠"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "A",
-   "hu": "Aha. És hol találkoztatok?",
-   "rd": "어허. 에시 홀 털랄코즈터톡?",
-   "ko": "아하. 어디서 만났어?",
-   "note": "találkoztatok = 너희가 만났다",
-   "tags": [
-    "expr:Aha"
+   "speaker": "B",
+   "hu": "Két és fél óra? Hű. Jó, legyen.",
+   "rd": "케트 에시 펠 오러? 휘. 요, 레젠.",
+   "ko": "두 시간 반? 와. 좋아, 그걸로 하자.",
+   "note": "legyen = 그걸로 하자",
+   "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Két és fél óra?"
+    ],
+    [
+     "cheerful",
+     "Hű. Jó, legyen."
+    ]
    ],
-   "emotion": "stiff",
    "lemmas": [
     [
-     "Aha",
-     "aha",
-     "어허"
+     "fél",
+     "fél",
+     "펠"
     ],
     [
-     "hol",
-     "hol",
-     "홀"
-    ],
-    [
-     "találkoztatok",
-     "találkozik",
-     "털랄코지크"
+     "legyen",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "A múzeum előtt. Azt mondta, hogy a rajzom krumpli.",
-   "rd": "어 무제움 엘뢰트. 어즈트 몬드터, 호지 어 러이좀 크룸플리.",
-   "ko": "미술관 앞에서. 내 그림이 감자래.",
-   "note": "előtt = ~앞에서",
+   "speaker": "A",
+   "hu": "Hova üljünk? Előre vagy hátra?",
+   "rd": "호버 윌윈크? 엘뢰레 버지 하트러?",
+   "ko": "어디 앉을까? 앞, 아니면 뒤?",
+   "note": "Hova üljünk? = 어디 앉을까?",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "múzeum",
-     "múzeum",
-     "무제움"
+     "Hova",
+     "hova",
+     "호버"
     ],
     [
-     "mondta",
-     "mond",
-     "몬드"
+     "üljünk",
+     "ül",
+     "위일"
     ],
     [
-     "rajzom",
-     "rajzom",
-     ""
-    ],
-    [
-     "krumpli",
-     "krumpli",
-     ""
+     "hátra",
+     "hát",
+     "핫"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "A",
-   "hu": "Szemtelen ember. És mit akarsz tőle?",
-   "rd": "쎔텔렌 엠베르. 에시 미트 어커르쓰 퇼레?",
-   "ko": "건방진 사람이네. 그래서 뭘 바라는데?",
-   "note": "szemtelen = 건방진",
+   "speaker": "B",
+   "hu": "Középre. Ott a legjobb a hang.",
+   "rd": "쾨제프레. 오트 어 렉요브 어 헌그.",
+   "ko": "가운데. 거기가 소리가 제일 좋아.",
+   "note": "középre = 가운데로",
    "tags": [],
-   "emotion": "annoyed",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Szemtelen",
-     "szemtelen",
+     "Középre",
+     "közép",
      ""
     ],
     [
-     "ember",
-     "ember",
-     "엠베르"
+     "legjobb",
+     "jó",
+     "요"
     ],
     [
-     "akarsz",
-     "akar",
-     "어커르"
+     "hang",
+     "hang",
+     "헝"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "B",
-   "hu": "Hát... azt akarom, hogy végre rájöjjön.",
-   "rd": "하트... 어즈트 어커롬, 호지 벡레 라요왼.",
-   "ko": "음… 이제 좀 눈치챘으면 좋겠어.",
-   "note": "rájön = 알아차리다",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "shy",
+   "speaker": "A",
+   "hu": "Pattogatott kukoricát is kérsz?",
+   "rd": "퍼또거토트 쿠코리차트 이시 케르쓰?",
+   "ko": "팝콘도 먹을래?",
+   "note": "pattogatott kukorica = 팝콘",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "Pattogatott",
+     "pattogat",
+     ""
     ],
     [
-     "akarom",
-     "akar",
-     "어커르"
+     "kukoricát",
+     "kukorica",
+     ""
     ],
     [
-     "végre",
-     "vég",
-     "베그"
-    ],
-    [
-     "rájöjjön",
-     "rájön",
-     "라이욘"
+     "kérsz",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "A",
-   "hu": "Mire? Várj, hány ember mondta ezt neked?",
-   "rd": "미레? 바르이, 하니 엠베르 몬드터 에즈트 네케드?",
-   "ko": "뭘? 잠깐, 너한테 그 말 한 사람이 몇 명이야?",
-   "note": "hány ember = 몇 사람",
-   "tags": [],
-   "emotion": "surprised",
+   "speaker": "B",
+   "hu": "Igen, egy nagyot. Közösen esszük.",
+   "rd": "이겐, 에지 너죠트. 쾨죄센 에쒹.",
+   "ko": "응, 큰 거. 같이 먹자.",
+   "note": "közösen = 같이",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "ember",
-     "ember",
-     "엠베르"
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
-     "mondta",
-     "mond",
-     "몬드"
+     "nagyot",
+     "nagy",
+     "너지"
+    ],
+    [
+     "esszük",
+     "eszik",
+     "에식"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "B",
-   "hu": "Egy. És most éppen mellettem ül.",
-   "rd": "에지. 에시 모슈트 에뻰 멜레뗌 윌.",
-   "ko": "한 명. 지금 내 옆에 앉아 있어.",
-   "note": "éppen = 바로 지금",
-   "tags": [],
-   "emotion": "gentle",
+   "speaker": "A",
+   "hu": "Várj, te egyáltalán szereted a sci-fit?",
+   "rd": "바르이, 테 에잘털란 쎄레테드 어 슈치-피트?",
+   "ko": "잠깐, 너 SF 좋아하긴 해?",
+   "note": "egyáltalán = 도대체, 애초에",
+   "tags": [
+    "expr:Várj"
+   ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "most",
-     "most",
-     "모슈트"
+     "Várj",
+     "vár",
+     "바르"
     ],
     [
-     "éppen",
-     "éppen",
-     "에펜"
+     "egyáltalán",
+     "egyáltalán",
+     "에자알탈란"
     ],
     [
-     "ül",
-     "ül",
-     "위일"
+     "szereted",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "sci",
+     "sci",
+     ""
+    ],
+    [
+     "fit",
+     "fi",
+     "피"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Nem igazán. Csak veled akartam jönni.",
+   "rd": "넴 이거잔. 척 벨레드 어커르텀 욘니.",
+   "ko": "별로. 그냥 너랑 오고 싶었어.",
+   "note": "veled = 너와 함께",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "igazán",
+     "igaz",
+     "이거즈"
+    ],
+    [
+     "akartam",
+     "akart",
+     ""
+    ],
+    [
+     "jönni",
+     "jön",
+     "왼"
     ]
    ]
   }

@@ -1,29 +1,28 @@
 === r3_life_b3
 kind: long
-title: 뇌진탕 검사
-emoji: 🏥
-scene: 온천에서 미끄러져 머리를 찧고 응급실에 왔다. 날짜도 모르는데, 내기로 외운 헝가리어 최장 단어는 안다
+title: 축구하다 다친 발목
+emoji: 🦶
+scene: Dávid 가 발목을 다쳐 같이 야간 진료소(ügyelet)에 왔다. Dávid 는 의사에게 축구하다 다쳤다고 말하고 싶다
 b: Dávid
 c: Orvos
 d: Nővér
 register: mixed
-twist: 11 chaos
+twist: 13 reveal
 purpose: study_abroad
-goal: 병원에서 다친 경위 말하기, 긴 단어 농담
-expressions: Hát; Izé; Rendben; Figyelj; Úristen
-C | Jó napot, mi történt? Hol fáj? | 안녕하세요! 무슨 일이에요? 어디가 아파요? | mi történt? = 무슨 일이에요? | emotion=polite
-A | Jó napot! Elcsúsztam a fürdőben, és megütöttem a fejem. | 안녕하세요! 온천에서 미끄러져서 머리를 부딪쳤어요. | elcsúsztam = 미끄러졌다 | emotion=polite
-B | Én hoztam be. Azóta furcsákat mond, doktor úr. | 제가 데려왔어요. 그 뒤로 이상한 말을 해요, 의사 선생님. | furcsa = 이상한 | emotion=worried
-C | Rendben, ellenőrizzük. Milyen nap van ma? | 네, 확인해 봅시다. 오늘 무슨 요일이죠? | ellenőrizzük = 확인합시다 | emotion=polite
-A | Hát, izé... hétfő vagy szombat? | 음, 저기… 월요일이나 토요일? | izé = 저기, 그거 | emotion=flustered
-C | Szerda. Hogy hívják a szobatársát? | 수요일이에요. 룸메이트 이름이 뭐죠? | hogy hívják? = 이름이 뭐예요? | emotion=stiff
-A | Őt? Hát, ő az, aki sokat eszik. | 쟤요? 음… 많이 먹는 애요. | aki = ~하는 사람 | emotion=flustered
-B | Jaj, ne már. Doktor úr, ez komoly? | 아 좀. 의사 선생님, 심각한 거예요? | komoly = 심각한 | emotion=annoyed+worried
-C | Még egy teszt. Mondjon nekem egy hosszú magyar szót. | 검사 하나 더요. 긴 헝가리어 단어 하나 말해 보세요. | mondjon = 말하세요(존댓말) | emotion=polite
-A | Megszentségteleníthetetlenségeskedéseitekért. | (헝가리어에서 가장 길다는 그 단어.) | 뜻은 몰라도 된다: 농담으로 쓰는 긴 단어 | emotion=cheerful
-C | Tessék?! Ezt még egyszer, lassan! | 네?! 다시 한번, 천천히요! | még egyszer = 한 번 더 | emotion=surprised+excited
-D | Mi történt, doktor úr? Rosszul van a beteg? | 무슨 일이에요, 선생님? 환자가 안 좋아요? | rosszul van = 몸이 안 좋다 | emotion=worried
-C | Hallgassa! Ezt húsz éve nem tudom kimondani. | 들어 보세요! 나는 이걸 20년째 못 말해요. | kimondani = 말로 내뱉다 | emotion=excited
-A | Megszentségteleníthetetlenségeskedéseitekért. Mehetek már? | (또 그 단어.) 이제 가도 돼요? | mehetek = 가도 돼요? | emotion=cheerful+polite
-D | Úristen! Hívom a főorvost és az egész osztályt! | 세상에! 과장님이랑 병동 전체를 부를게요! | főorvos = 과장 의사 | emotion=shout+excited
-B | Figyelj, nem tudod a nevemet, de ezt tudod? Akkor te mosogatsz. | 야, 내 이름은 몰라도 그건 안다고? 그럼 설거지는 네가 해. | mosogatsz = 네가 설거지한다 | emotion=tsukkomi
+goal: 병원에서 다친 경위 말하기(Hogy történt? · Megrándult)
+expressions: Hogy történt; Megrándult; Szerencsére
+D | Jó estét! Ki a beteg, és mi történt? | 안녕하세요! 환자분이 누구고, 어떻게 오셨어요? | beteg = 환자 | emotion=polite
+B | Én. Fáj a bokám, nem tudok rálépni. | 저요. 발목이 아파서 디딜 수가 없어요. | rálépni = 위에 디디다 | emotion=sad
+A | Tegnap este megcsúszott a lépcsőn. Itt a TAJ-kártyája. | 어제 저녁에 계단에서 미끄러졌어요. 여기 보험 카드요. | megcsúszott = 미끄러졌다 | emotion=polite
+D | Köszönöm, felírtam. Üljenek le, mindjárt hívják. | 고맙습니다, 적어 뒀어요. 앉으세요, 곧 불러요. | üljenek le = 앉으세요(여럿, Ön) | emotion=polite
+A | Nagyon fáj? Hozzak vizet? | 많이 아파? 물 갖다줄까? | hozzak = 내가 가져올까 | emotion=worried
+B | Nem kell. De az orvosnak mondjuk azt, hogy focizás közben történt. | 괜찮아. 근데 의사한테는 축구하다 다쳤다고 하자. | focizás közben = 축구하는 도중 | emotion=stiff
+A | Miért? A lépcső nem elég jó? | 왜? 계단은 별로야? | elég jó = 충분히 좋은 | emotion=teasing
+B | Psszt! A lépcső ciki, a foci menő. | 쉿! 계단은 창피하고, 축구는 멋있잖아. | ciki = 창피한, menő = 멋진 | emotion=flustered
+C | Dávid, jöjjön be! Hogy történt? | 다비드 씨, 들어오세요! 어떻게 된 거예요? | hogy történt? = 어떻게 일어났어요 | emotion=polite+neutral
+B | Meccsen, a kapu előtt. Egy nagy szerelés volt. | 경기 중에, 골문 앞에서요. 큰 태클이 들어왔어요. | szerelés = 태클 | emotion=stiff
+C | Értem. Szerencsére nem tört el, csak megrándult. | 알겠어요. 다행히 부러지진 않았고, 삔 거예요. | megrándult = 삐었다 | emotion=neutral+gentle
+B | Látod? Mondtam, hogy nem komoly. | 봐? 별거 아니라고 했잖아. | mondtam = 내가 말했다 | emotion=cheerful
+C | Egy hétig pihenjen. De a lapon az áll: lépcső. | 일주일 쉬세요. 근데 차트엔 「계단」이라고 적혀 있네요. | az áll = 그렇게 적혀 있다 | emotion=gentle+amused
+B | Ki mondta ezt?! | 누가 그런 말을 했어요?! | ki = 누가 | emotion=shout
+A | Hát, én. Bocsi, nem tudtam, hogy a foci menőbb. | 음, 나. 미안, 축구가 더 멋있는 줄 몰랐지. | menőbb = 더 멋진 | emotion=shy+amused

@@ -7,8 +7,9 @@
 "1": {
 "segs": [
 [
-"excited",
-"Réka, Anna nagyon cuki!"
+"worried",
+"Réka, mit vegyek fel szombatra? 😩",
+"Réka, mit vegyek fel szombatra?"
 ]
 ]
 },
@@ -16,16 +17,16 @@
 "segs": [
 [
 "shy",
-"Mit írjak neki?"
+"Anna biztos szép lesz."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"teasing",
-"Szia. Anna vagyok. 😄",
-"Szia. Anna vagyok."
+"amused",
+"Szia. Ez Anna. 😄",
+"Szia. Ez Anna."
 ]
 ]
 },
@@ -33,22 +34,24 @@
 "segs": [
 [
 "flustered",
-"Úristen. Rossz chat!"
+"Úristen. Bocsi, rossz chat!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"flustered",
-"Réka, segíts! Mit mondjak?"
+"shout",
+"Réka, segíts! Anna mindent látott! 😱",
+"Réka, segíts! Anna mindent látott!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"tsukkomi",
+"amused",
+"Még mindig én vagyok. 😂",
 "Még mindig én vagyok."
 ]
 ]
@@ -56,20 +59,9 @@
 "7": {
 "segs": [
 [
-"sad",
-"Jó. Elköltözöm."
-]
-]
-},
-"8": {
-"segs": [
-[
-"teasing",
-"Ne már!"
-],
-[
-"gentle",
-"Holnap is cuki leszek."
+"shy",
+"Amúgy a kék pulóver jó. Múlt héten is tetszett. 🙈",
+"Amúgy a kék pulóver jó. Múlt héten is tetszett."
 ]
 ]
 }

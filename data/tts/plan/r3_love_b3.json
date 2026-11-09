@@ -9,39 +9,39 @@
 "segs": [
 [
 "worried",
-"Figyelj, Anna három napja nem válaszol. Szerinted most mit csináljak?"
+"Dávid, figyelj, Anna öt órája nem válaszol. Szerinted haragszik?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Mutasd! Hány üzenetet küldtél neki?"
+"gentle",
+"Mit írtál neki? Mutasd."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shy",
-"Csak tizennégyet. Az utolsó egy krumpli volt, szívvel."
+"worried",
+"Csak annyit, hogy van-e kedve szombaton koncertre jönni."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"tsukkomi",
-"Te jó ég. Nem akarok semmit mondani, de ez durva."
+"gentle",
+"Ez normális kérdés. Ebben nincs semmi rossz."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"annoyed",
-"Ne már! Először ő írt, és ő sütött nekem rétest."
+"worried",
+"Akkor miért nem ír? Délben még online volt."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "gentle",
-"Oké, nyugodj meg, és legalább ma estig ne írj semmit."
+"Lehet, hogy dolgozik vagy alszik. Nyugi, ne idegeskedj."
 ]
 ]
 },
@@ -57,27 +57,23 @@
 "segs": [
 [
 "worried",
-"Nem bírom. Már megírtam egy új üzenetet, hosszú és őszinte."
+"Nem tudok nyugodni. Írjak még egy rövidet?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"Add ide a telefont!"
-],
-[
-"surprised",
-"Várj, te kinek írsz?"
+"tsukkomi",
+"Ne már! Ha most írsz, kétségbeesettnek tűnsz."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"neutral",
-"Annának. Itt van a neve, nézd."
+"stiff",
+"Igazad van. Jó, leteszem a telefont, és nem nézem."
 ]
 ]
 },
@@ -85,7 +81,7 @@
 "segs": [
 [
 "surprised",
-"Figyelj, ez nem a te Annád. Ez a szomszéd Anna néni száma!"
+"Várj, add ide egy pillanatra. Miért van egy repülő a képernyő tetején?"
 ]
 ]
 },
@@ -93,51 +89,55 @@
 "segs": [
 [
 "flustered",
-"Mi van? A szomszédnak küldtem a krumplit is?"
+"Repülő? Jaj, délelőtt edzés előtt bekapcsoltam a repülő üzemmódot."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"amused",
-"Várj, most jött válasz: „Köszönöm a krumplit, de nekem már van férjem.”"
+"tsukkomi",
+"Te jó ég. Kapcsold ki, gyorsan!"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"flustered",
-"Úristen! Akkor az igazi Anna mit gondol rólam?"
+"surprised",
+"Úristen, hét üzenet jött tőle, és most hív!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"neutral",
-"Azt nem tudom, de valaki csenget. Kinyitom."
+"shout",
+"Akkor vedd fel! Mire vársz?"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"sad",
-"Három napja várom, hogy írj. Azt hittem, már nem tetszem neked."
+"surprised",
+"Végre!"
+],
+[
+"worried",
+"Azt hittem, baj van, és már indultam hozzád."
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"gentle",
-"Anna, mindjárt mindent elmondok."
+"flustered",
+"Bocsi, repülő üzemmód."
 ],
 [
-"flustered",
-"Csak előbb bocsánatot kérek egy nénitől."
+"shy",
+"De ha már elindultál, igyunk egy kávét lent?"
 ]
 ]
 }

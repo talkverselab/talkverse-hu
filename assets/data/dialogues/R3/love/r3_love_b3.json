@@ -11,50 +11,54 @@
  "domain": [
   "love"
  ],
- "title": "사흘째 읽씹",
+ "title": "다섯 시간째 답이 없다",
  "emoji": "📵",
- "scene": "Anna 가 사흘째 답이 없다. A 는 룸메이트 Dávid 에게 대화창을 보여 준다",
+ "scene": "Anna 에게 콘서트를 제안했는데 다섯 시간째 답이 없다. A 가 룸메이트 Dávid 에게 털어놓는다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid",
   "C": "Anna"
  },
  "register": "casual",
- "twist": 10,
- "twist_type": "reveal",
+ "twist": 13,
+ "twist_type": "chaos",
  "flags": [
   "romance"
  ],
- "goal": "조언 구하기(Szerinted mit csináljak?)와 말리는 말(Ne …!)",
+ "goal": "조언 구하기(Szerinted …?)와 말리기(Ne már! · Nyugi)",
  "expressions": [
   "Figyelj",
-  "Te jó ég",
+  "Nyugi",
   "Ne már",
-  "Oké",
-  "Úristen"
+  "Te jó ég"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Figyelj, Anna három napja nem válaszol. Szerinted most mit csináljak?",
-   "rd": "피젤이, 언너 하롬 너프여 넴 발러쏠. 쎄린테드 모슈트 미트 치날역?",
-   "ko": "있잖아, 언너가 사흘째 답이 없어. 어떻게 하면 좋을까?",
-   "note": "három napja = 사흘째",
+   "hu": "Dávid, figyelj, Anna öt órája nem válaszol. Szerinted haragszik?",
+   "rd": "다비드, 피젤이, 언너 외트 오라여 넴 발러쏠. 쎄린테드 허럭씩?",
+   "ko": "다비드, 있잖아, 언너가 다섯 시간째 답이 없어. 화났을까?",
+   "note": "öt órája = 다섯 시간째",
    "tags": [
     "expr:Figyelj"
    ],
    "emotion": "worried",
    "lemmas": [
     [
-     "Figyelj",
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "figyelj",
      "figyel",
      "피겔"
     ],
     [
-     "napja",
-     "nap",
-     "넙"
+     "órája",
+     "óra",
+     "오러"
     ],
     [
      "válaszol",
@@ -62,53 +66,38 @@
      "발러졸"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "csináljak",
-     "csinál",
-     "치날"
+     "haragszik",
+     "haragszik",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Mutasd! Hány üzenetet küldtél neki?",
-   "rd": "무터슈드! 하니 위제네테트 퀼드텔 네키?",
-   "ko": "보여 줘! 몇 통 보냈어?",
-   "note": "üzenet = 메시지",
+   "hu": "Mit írtál neki? Mutasd.",
+   "rd": "미트 이르탈 네키? 무터슈드.",
+   "ko": "뭐라고 보냈는데? 보여 줘.",
+   "note": "mutasd = 보여 줘",
    "tags": [],
-   "emotion": "neutral",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Mutasd",
-     "mutasd",
-     "무터슈트"
-    ],
-    [
-     "üzenetet",
-     "üzenete",
-     "위제네테"
-    ],
-    [
-     "küldtél",
-     "küld",
-     "퀼드"
+     "írtál",
+     "ír",
+     "이르"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Csak tizennégyet. Az utolsó egy krumpli volt, szívvel.",
-   "rd": "척 티젠네제트. 어즈 우톨쇼 에지 크룸플리 볼트, 씨벨.",
-   "ko": "겨우 열네 통. 마지막은 하트 붙인 감자였어.",
-   "note": "szívvel = 하트와 함께",
+   "hu": "Csak annyit, hogy van-e kedve szombaton koncertre jönni.",
+   "rd": "척 어니트, 호지 번-에 케드베 쏨버톤 콘체르트레 욘니.",
+   "ko": "그냥 토요일에 콘서트 갈 생각 있냐고만.",
+   "note": "van-e kedve = ~할 마음이 있는지",
    "tags": [],
-   "emotion": "shy",
+   "emotion": "worried",
    "lemmas": [
     [
      "Csak",
@@ -116,39 +105,344 @@
      "촉"
     ],
     [
-     "tizennégyet",
-     "tizennégy",
-     ""
-    ],
-    [
-     "utolsó",
-     "utolsó",
-     "우톨쇼"
-    ],
-    [
-     "krumpli",
-     "krumpli",
-     ""
-    ],
-    [
-     "volt",
+     "van",
      "van",
      "번"
     ],
     [
-     "szívvel",
-     "szív",
-     "씨브"
+     "kedve",
+     "kedv",
+     "케드브"
+    ],
+    [
+     "szombaton",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "koncertre",
+     "koncert",
+     ""
+    ],
+    [
+     "jönni",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Te jó ég. Nem akarok semmit mondani, de ez durva.",
-   "rd": "테 요 엑. 넴 어커록 셈미트 몬더니, 데 에즈 두르버.",
-   "ko": "맙소사. 뭐라 하고 싶진 않은데, 이건 심하다.",
-   "note": "durva = 심한",
+   "hu": "Ez normális kérdés. Ebben nincs semmi rossz.",
+   "rd": "에즈 노르말리시 케르데시. 에벤 닌치 셈미 로쓰.",
+   "ko": "그건 평범한 질문이야. 아무 문제 없어.",
+   "note": "semmi rossz = 나쁜 것 하나도",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "normális",
+     "normális",
+     "노르말리시"
+    ],
+    [
+     "kérdés",
+     "kérdés",
+     "케르데시"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "rossz",
+     "rossz",
+     "로쓰"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Akkor miért nem ír? Délben még online volt.",
+   "rd": "어꼬르 미에르트 넴 이르? 델벤 멕 온리네 볼트.",
+   "ko": "그럼 왜 답이 없지? 점심때는 접속해 있었는데.",
+   "note": "délben = 정오에",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "ír",
+     "ír",
+     "이르"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "online",
+     "online",
+     ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Lehet, hogy dolgozik vagy alszik. Nyugi, ne idegeskedj.",
+   "rd": "레헤트, 호지 돌고직 버지 얼씩. 뉴기, 네 이데게슈케드이.",
+   "ko": "일하는 중이거나 자는 걸 수도 있어. 진정해, 초조해하지 마.",
+   "note": "nyugi = 진정해",
+   "tags": [
+    "expr:Nyugi"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "dolgozik",
+     "dolgoz",
+     "돌고즈"
+    ],
+    [
+     "alszik",
+     "alszik",
+     "얼루시크"
+    ],
+    [
+     "idegeskedj",
+     "ideges",
+     "이데게시"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Nem tudok nyugodni. Írjak még egy rövidet?",
+   "rd": "넴 투독 뉴고드니. 이르역 멕 에지 뢰비데트?",
+   "ko": "진정이 안 돼. 짧게 하나 더 보낼까?",
+   "note": "írjak = 내가 쓸까",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "tudok",
+     "tud",
+     "투드"
+    ],
+    [
+     "nyugodni",
+     "nyugodik",
+     ""
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "rövidet",
+     "rövid",
+     "뢰비드"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Ne már! Ha most írsz, kétségbeesettnek tűnsz.",
+   "rd": "네 마르! 허 모슈트 이르쓰, 케트섹베에세트넥 튄쓰.",
+   "ko": "에이! 지금 보내면 절박해 보여.",
+   "note": "kétségbeesett = 절박한",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "írsz",
+     "ír",
+     "이르"
+    ],
+    [
+     "kétségbeesettnek",
+     "kétségbeesett",
+     ""
+    ],
+    [
+     "tűnsz",
+     "tűnik",
+     "튀닉"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Igazad van. Jó, leteszem a telefont, és nem nézem.",
+   "rd": "이거저드 번. 요, 레테쎔 어 텔레폰트, 에시 넴 네젬.",
+   "ko": "네 말이 맞아. 좋아, 휴대폰 내려놓고 안 볼게.",
+   "note": "leteszem = 내려놓는다",
+   "tags": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Igazad",
+     "igaz",
+     "이거즈"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "leteszem",
+     "letesz",
+     ""
+    ],
+    [
+     "telefont",
+     "telefon",
+     "텔레폰"
+    ],
+    [
+     "nézem",
+     "néz",
+     "네즈"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Várj, add ide egy pillanatra. Miért van egy repülő a képernyő tetején?",
+   "rd": "바르이, 어드 이데 에지 필러너트러. 미에르트 번 에지 레퓔뢰 어 케페르뇌 테테옌?",
+   "ko": "잠깐, 잠깐만 줘 봐. 화면 위에 왜 비행기가 있어?",
+   "note": "a képernyő tetején = 화면 위쪽에",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "add",
+     "ad",
+     "어드"
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ],
+    [
+     "pillanatra",
+     "pillanat",
+     "필러넛"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "repülő",
+     "repül",
+     "레푸르"
+    ],
+    [
+     "képernyő",
+     "képernyő",
+     ""
+    ],
+    [
+     "tetején",
+     "tető",
+     "테퇴"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Repülő? Jaj, délelőtt edzés előtt bekapcsoltam a repülő üzemmódot.",
+   "rd": "레퓔뢰? 여이, 델렐뢰트 에제시 엘뢰트 베커프촐텀 어 레퓔뢰 위젬모도트.",
+   "ko": "비행기? 아이고, 오전에 운동 가기 전에 비행기 모드 켜 놨어.",
+   "note": "repülő üzemmód = 비행기 모드",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Repülő",
+     "repül",
+     "레푸르"
+    ],
+    [
+     "délelőtt",
+     "délelőtt",
+     ""
+    ],
+    [
+     "edzés",
+     "edzés",
+     ""
+    ],
+    [
+     "bekapcsoltam",
+     "bekapcsol",
+     ""
+    ],
+    [
+     "üzemmódot",
+     "üzemmód",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Te jó ég. Kapcsold ki, gyorsan!",
+   "rd": "테 요 엑. 커프촐드 키, 죠르션!",
+   "ko": "맙소사. 꺼, 빨리!",
+   "note": "kapcsold ki = 꺼",
    "tags": [
     "expr:Te jó ég"
    ],
@@ -165,350 +459,26 @@
      "에그"
     ],
     [
-     "akarok",
-     "akar",
-     "어커르"
-    ],
-    [
-     "mondani",
-     "mond",
-     "몬드"
-    ],
-    [
-     "durva",
-     "durva",
-     "두르버"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Ne már! Először ő írt, és ő sütött nekem rétest.",
-   "rd": "네 마르! 엘뢰쐬르 외 이르트, 에시 외 쉬퇴트 네켐 레테슈트.",
-   "ko": "에이! 처음엔 걔가 먼저 썼고, 걔가 나한테 레테시도 구워 줬어.",
-   "note": "először = 처음에",
-   "tags": [
-    "expr:Ne már"
-   ],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "írt",
-     "ír",
-     "이르"
-    ],
-    [
-     "sütött",
-     "süt",
-     "슈트"
-    ],
-    [
-     "rétest",
-     "rétes",
-     "레테시"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Oké, nyugodj meg, és legalább ma estig ne írj semmit.",
-   "rd": "오케, 뉴고드이 멕, 에시 레걸라브 머 에슈틱 네 이르이 셈미트.",
-   "ko": "알았어, 진정해, 그리고 적어도 오늘 저녁까진 아무것도 쓰지 마.",
-   "note": "nyugodj meg = 진정해",
-   "tags": [
-    "expr:Oké"
-   ],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "Oké",
-     "oké",
-     "오케"
-    ],
-    [
-     "nyugodj",
-     "nyugodj",
-     "뉴고지"
-    ],
-    [
-     "legalább",
-     "legalább",
-     "레걸랍"
-    ],
-    [
-     "ma",
-     "ma",
-     "머"
-    ],
-    [
-     "estig",
-     "est",
-     ""
-    ],
-    [
-     "írj",
-     "írj",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Nem bírom. Már megírtam egy új üzenetet, hosszú és őszinte.",
-   "rd": "넴 비롬. 마르 메기르텀 에지 우이 위제네테트, 호쑤 에시 외씬테.",
-   "ko": "못 참겠어. 벌써 새 메시지 썼어, 길고 솔직하게.",
-   "note": "őszinte = 솔직한",
-   "tags": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "bírom",
-     "bír",
-     "비르"
-    ],
-    [
-     "megírtam",
-     "megírt",
-     ""
-    ],
-    [
-     "új",
-     "új",
-     "우이"
-    ],
-    [
-     "üzenetet",
-     "üzenete",
-     "위제네테"
-    ],
-    [
-     "hosszú",
-     "hosszú",
-     "호쑤"
-    ],
-    [
-     "őszinte",
-     "őszinte",
-     "외세인테"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Add ide a telefont! Várj, te kinek írsz?",
-   "rd": "어드 이데 어 텔레폰트! 바르이, 테 키넥 이르쓰?",
-   "ko": "전화기 이리 줘! 잠깐, 너 누구한테 쓰는 거야?",
-   "note": "kinek = 누구에게",
-   "tags": [],
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Add ide a telefont!"
-    ],
-    [
-     "surprised",
-     "Várj, te kinek írsz?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Add",
-     "ad",
-     "어드"
-    ],
-    [
-     "ide",
-     "ide",
-     "이데"
-    ],
-    [
-     "telefont",
-     "telefon",
-     "텔레폰"
-    ],
-    [
-     "kinek",
+     "ki",
      "ki",
      "키"
     ],
     [
-     "írsz",
-     "ír",
-     "이르"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Annának. Itt van a neve, nézd.",
-   "rd": "언나넉. 이트 번 어 네베, 네즈드.",
-   "ko": "언너한테. 여기 이름 있잖아, 봐.",
-   "note": "itt van = 여기 있다",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Annának",
-     "anna",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "neve",
-     "név",
-     "네브"
-    ],
-    [
-     "nézd",
-     "néz",
-     "네즈"
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Figyelj, ez nem a te Annád. Ez a szomszéd Anna néni száma!",
-   "rd": "피젤이, 에즈 넴 어 테 언나드. 에즈 어 쏨쎄드 언너 네니 싸머!",
-   "ko": "있잖아, 이건 네 언너가 아니야. 옆집 언너 아주머니 번호야!",
-   "note": "szomszéd = 이웃",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "szomszéd",
-     "szomszéd",
-     "쏨세드"
-    ],
-    [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "száma",
-     "szám",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "A",
-   "hu": "Mi van? A szomszédnak küldtem a krumplit is?",
-   "rd": "미 번? 어 쏨쎄드넉 퀼드템 어 크룸플리트 이시?",
-   "ko": "뭐? 옆집에 감자까지 보냈다고?",
-   "note": "a szomszédnak = 이웃에게",
-   "tags": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "szomszédnak",
-     "szomszéd",
-     "쏨세드"
-    ],
-    [
-     "küldtem",
-     "küldtem",
-     ""
-    ],
-    [
-     "krumplit",
-     "krumpli",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "B",
-   "hu": "Várj, most jött válasz: „Köszönöm a krumplit, de nekem már van férjem.”",
-   "rd": "바르이, 모슈트 요트 발러쓰: „쾨쐬뇜 어 크룸플리트, 데 네켐 마르 번 페르옘.”",
-   "ko": "잠깐, 지금 답 왔어. \"감자 고마워요, 그런데 나는 남편이 있어요.\"",
-   "note": "férj = 남편",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "jött",
-     "jön",
-     "왼"
-    ],
-    [
-     "válasz",
-     "válasz",
-     "바라스"
-    ],
-    [
-     "krumplit",
-     "krumpli",
-     ""
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "férjem",
-     "férj",
-     ""
+     "gyorsan",
+     "gyors",
+     "죠르시"
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Úristen! Akkor az igazi Anna mit gondol rólam?",
-   "rd": "우리슈텐! 어꼬르 어즈 이거지 언너 미트 곤돌 롤럼?",
-   "ko": "세상에! 그럼 진짜 언너는 나를 뭐라고 생각할까?",
-   "note": "igazi = 진짜",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "flustered",
+   "hu": "Úristen, hét üzenet jött tőle, és most hív!",
+   "rd": "우리슈텐, 헤트 위제네트 요트 퇼레, 에시 모슈트 히브!",
+   "ko": "세상에, 걔한테 메시지 일곱 개 왔어, 그리고 지금 전화 와!",
+   "note": "hív = 전화한다",
+   "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Úristen",
@@ -516,67 +486,149 @@
      "우리슈텐"
     ],
     [
-     "igazi",
-     "igazi",
-     "이거지"
+     "hét",
+     "hét",
+     "헤트"
     ],
     [
-     "gondol",
-     "gondol",
-     "곤돌"
+     "üzenet",
+     "üzenet",
+     "위제네트"
+    ],
+    [
+     "jött",
+     "jön",
+     "왼"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "hív",
+     "hív",
+     "히브"
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "B",
-   "hu": "Azt nem tudom, de valaki csenget. Kinyitom.",
-   "rd": "어즈트 넴 투돔, 데 벌러키 첸게트. 키니톰.",
-   "ko": "그건 모르겠고, 누가 벨을 눌렀어. 내가 열게.",
-   "note": "csenget = 벨을 누른다",
+   "hu": "Akkor vedd fel! Mire vársz?",
+   "rd": "어꼬르 베드 펠! 미레 바르쓰?",
+   "ko": "그럼 받아! 뭘 기다려?",
+   "note": "vedd fel = 받아",
    "tags": [],
-   "emotion": "neutral",
+   "emotion": "shout",
    "lemmas": [
     [
-     "tudom",
-     "tud",
-     "투드"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "csenget",
-     "csenget",
-     ""
+     "vedd",
+     "vedd",
+     "베드"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ],
+    [
+     "vársz",
+     "vár",
+     "바르"
     ]
    ]
   },
   {
    "num": 15,
    "speaker": "C",
-   "hu": "Három napja várom, hogy írj. Azt hittem, már nem tetszem neked.",
-   "rd": "하롬 너프여 바롬, 호지 이르이. 어즈트 히뗌, 마르 넴 테트쎔 네케드.",
-   "ko": "사흘째 네 메시지만 기다렸어. 내가 이제 마음에 안 드는 줄 알았어.",
-   "note": "várom, hogy írj = 네가 쓰길 기다린다",
+   "hu": "Végre! Azt hittem, baj van, és már indultam hozzád.",
+   "rd": "벡레! 어즈트 히뗌, 버이 번, 에시 마르 인둘텀 호자드.",
+   "ko": "드디어! 무슨 일 생긴 줄 알고 너한테 가려던 참이었어.",
+   "note": "indultam = 출발했다",
    "tags": [],
-   "emotion": "sad",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Végre!"
+    ],
+    [
+     "worried",
+     "Azt hittem, baj van, és már indultam hozzád."
+    ]
+   ],
    "lemmas": [
     [
-     "napja",
-     "nap",
-     "넙"
-    ],
-    [
-     "várom",
-     "vár",
-     "바르"
-    ],
-    [
-     "írj",
-     "írj",
-     ""
+     "Végre",
+     "vég",
+     "베그"
     ],
     [
      "hittem",
      "hitt",
+     ""
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "indultam",
+     "indul",
+     "인둘"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "hu": "Bocsi, repülő üzemmód. De ha már elindultál, igyunk egy kávét lent?",
+   "rd": "보치, 레퓔뢰 위젬모드. 데 허 마르 엘린둘탈, 이쥰크 에지 카베트 렌트?",
+   "ko": "미안, 비행기 모드였어. 근데 이미 나섰으면, 아래에서 커피 한잔할까?",
+   "note": "ha már = 이왕 ~했으니",
+   "tags": [],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Bocsi, repülő üzemmód."
+    ],
+    [
+     "shy",
+     "De ha már elindultál, igyunk egy kávét lent?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "repülő",
+     "repül",
+     "레푸르"
+    ],
+    [
+     "üzemmód",
+     "üzemmód",
      ""
     ],
     [
@@ -585,66 +637,24 @@
      "마르"
     ],
     [
-     "tetszem",
-     "tetszem",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 16,
-   "speaker": "A",
-   "hu": "Anna, mindjárt mindent elmondok. Csak előbb bocsánatot kérek egy nénitől.",
-   "rd": "언너, 민드야르트 민덴트 엘몬독. 척 엘뢰브 보차너토트 케렉 에지 네니퇼.",
-   "ko": "언너, 금방 다 말해 줄게. 먼저 어떤 아주머니께 사과부터 하고.",
-   "note": "bocsánatot kérek = 사과한다",
-   "tags": [],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Anna, mindjárt mindent elmondok."
-    ],
-    [
-     "flustered",
-     "Csak előbb bocsánatot kérek egy nénitől."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Anna",
-     "anna",
+     "elindultál",
+     "elindul",
      ""
     ],
     [
-     "mindjárt",
-     "mindjárt",
-     "민드야르트"
+     "igyunk",
+     "iszik",
+     "이식"
     ],
     [
-     "elmondok",
-     "elmond",
-     "엘몬드"
+     "kávét",
+     "kávé",
+     "카베"
     ],
     [
-     "előbb",
-     "előbb",
-     "엘뢰브"
-    ],
-    [
-     "bocsánatot",
-     "bocsánat",
-     "버치너트"
-    ],
-    [
-     "kérek",
-     "kér",
-     "께르"
-    ],
-    [
-     "nénitől",
-     "néni",
-     ""
+     "lent",
+     "len",
+     "렌"
     ]
    ]
   }

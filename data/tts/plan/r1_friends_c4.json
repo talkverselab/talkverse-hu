@@ -8,68 +8,64 @@
 "segs": [
 [
 "cheerful",
-"Piacon vagyok. Mit hozzak?"
+"Szia! Megvan még a könyvem?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"amused",
-"Haha, egy lovat!"
+"flustered",
+"Igen, persze! Bocsi!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Oké."
+"worried",
+"Holnap kell, vizsga lesz."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Réka? Ez vicc volt."
+"cheerful",
+"Holnap hozom, ígérem! 🤞",
+"Holnap hozom, ígérem!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Fehér vagy fekete?"
+"teasing",
+"Ugye nem felejted el?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"tsukkomi",
-"Ne már! Nem kell ló!"
+"cheerful",
+"Dehogy! Mindjárt beteszem a táskámba."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Késő. A kapud előtt áll. 😄",
-"Késő. A kapud előtt áll."
+"annoyed",
+"Tegnap is ezt mondtad. És tegnapelőtt is."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Úristen."
-],
-[
 "flustered",
-"Mit eszik?!"
+"Most tényleg! Nézd, már a táskámban van."
 ]
 ]
 }

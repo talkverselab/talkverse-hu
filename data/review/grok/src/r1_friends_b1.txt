@@ -1,20 +1,19 @@
 === r1_friends_b1
 kind: long
-title: 계단의 소파
-emoji: 🛋️
-scene: Réka 가 벼룩시장에서 산 소파를 선물이라며 끌고 왔다. 계단이 좁다
+title: 도와줄 사람 데려왔어
+emoji: 📦
+scene: 이삿날. 상자 나르는 걸 도와 달라고 했더니 Réka 가 친구들을 줄줄이 데려왔다
 b: Réka
-c: Néni
-register: mixed
-twist: 6 chaos
+register: casual
+twist: 8 chaos
 purpose: making_friends
-goal: 친구 말투와 어른께 쓰는 말투(üljön le) 나란히 익히기
-expressions: Figyelj; Nem baj; Jaj, ne már; Szóval
-B | Figyelj! Vettem neked egy kanapét a piacon! | 야! 시장에서 네 소파 샀어! | figyelj = 야, 들어 봐 | emotion=excited
-A | Mi? De hát kicsi a szobám! | 뭐? 근데 내 방 좁잖아! | kicsi = 작은 | emotion=worried
-B | Nem baj. Már a lépcsőn van, gyere segíteni! | 괜찮아. 벌써 계단에 있어, 와서 도와! | lépcső = 계단 | emotion=cheerful
-A | Jaj, ne már! Nem megy tovább! | 아이고, 말도 안 돼! 더 안 들어가! | ne már = 에이, 그만 좀 | emotion=flustered
-C | Elnézést! Én hogy megyek most le? | 실례해요! 나는 이제 어떻게 내려가지? | le = 아래로 | emotion=polite+worried
-B | Néni, tessék, üljön le a kanapéra! | 할머니, 여기, 소파에 앉으세요! | üljön le = 앉으세요 | emotion=polite
-C | Jó, köszönöm. És egy kávét is kérek. | 그래, 고마워요. 커피도 한 잔 줘요. | kávét is kérek = 커피도 주세요 | emotion=gentle+amused
-A | Szóval most a néni itt lakik a lépcsőn? | 그러니까 이제 할머니가 계단에 사시는 거야? | szóval = 그러니까 | emotion=tsukkomi
+goal: 도움 주고받기(Köszi, hogy jöttél · Hoztam segítséget)
+expressions: Hoztam segítséget; Szuper; rendeljünk
+A | Köszi, hogy jöttél! Csak tíz doboz van. | 와 줘서 고마워! 상자 열 개뿐이야. | doboz = 상자 | emotion=cheerful
+B | Szívesen! Hoztam segítséget is. | 천만에! 도와줄 사람도 데려왔어. | segítség = 도움 | emotion=cheerful
+A | Bencét? Szuper! | 벤체? 좋다! | Bencét = 벤체를 | emotion=excited
+B | És Dávidot, Annát, meg Petit. | 그리고 다비드, 안나, 페티도. | meg = 그리고(구어) | emotion=excited
+A | Hű, öt ember tíz dobozra? | 와, 상자 열 개에 다섯 명? | -ra/-re = ~에 대해 | emotion=surprised
+B | Persze, gyorsan kész leszünk! Hol a lift? | 그럼, 금방 끝날 거야! 엘리베이터 어디 있어? | kész leszünk = 끝날 것이다 | emotion=cheerful
+A | Nincs lift. Ötödik emelet. | 엘리베이터 없어. 5층이야. | emelet = 층 | emotion=flustered
+B | Akkor előbb rendeljünk pizzát. Hat nagyot. | 그럼 먼저 피자부터 시키자. 큰 거 여섯 판. | rendeljünk = 주문하자 | emotion=amused

@@ -1,20 +1,19 @@
 === r1_friends_b5
 kind: long
-title: 말하는 새
-emoji: 🦜
-scene: Réka 가 벼룩시장에서 앵무새를 사 왔다. 집에서 들은 말을 뭐든 따라 한다는데
+title: 첫 겨울
+emoji: ❄️
+scene: 추운 날 카페에서 Réka 와 수다. 부다페스트에서 맞는 첫 겨울 이야기
 b: Réka
-c: Papagáj
 register: casual
-twist: 6 reveal
-purpose: making_friends
-goal: 놀람 표현과 -lak(너를 ~한다) 알아듣기
-expressions: Nézd; Komolyan?; Látod; Király
-B | Nézd, mit vettem a piacon! Ez a madár beszél! | 봐, 시장에서 뭐 샀게! 이 새 말해! | madár = 새 | emotion=excited
-A | Komolyan? Szia, madár! | 진짜? 안녕, 새야! | komolyan? = 진짜? | emotion=surprised+cheerful
-C | Szia, madár! Szia, madár! | 안녕, 새야! 안녕, 새야! | szia = 안녕 | emotion=cheerful
-B | Látod? Mindent mond, amit otthon hall. | 봤지? 집에서 듣는 건 다 말해. | látod = 봤지 | emotion=cheerful
-A | Király! Mit tud még? | 끝내준다! 또 뭐 할 줄 알아? | király = 끝내준다(원뜻은 왕) | emotion=excited
-C | Bence, szeretlek! Bence, szeretlek! | 벤체, 사랑해! 벤체, 사랑해! | szeretlek = 널 사랑해 | emotion=gentle
-A | Várj, melyik Bence? A kávézóból? | 잠깐… 어느 벤체? 카페 그 벤체? | kávézó = 카페 | emotion=surprised
-C | A kávézóból! Bence, szeretlek! | 카페 그 벤체! 벤체, 사랑해! | -ból/-ből = ~에서 | emotion=teasing+gentle
+twist: 8 emotion
+purpose: making_friends study_abroad
+goal: 날씨·기분 말하기(Hideg van · Hiányzik)
+expressions: Hideg van; Hiányzik; Tudod
+B | Brr, nagyon hideg van ma! | 으, 오늘 진짜 춥다! | hideg van = 춥다 | emotion=surprised
+A | Igen. Otthon most nincs ilyen hideg. | 응. 고향은 지금 이렇게 안 추워. | otthon = 집에서, 고향에서 | emotion=sad
+B | Hiányzik az otthon? | 고향이 그리워? | hiányzik = 그립다 | emotion=gentle
+A | Néha. Főleg a család és az étel. | 가끔. 특히 가족이랑 음식. | főleg = 특히 | emotion=sad
+B | Tudod mit? Szombaton főzz nekem valamit! | 있잖아? 토요일에 나한테 뭐 만들어 줘! | főzz = 요리해(명령) | emotion=excited
+A | Tényleg? De nálam kicsi a konyha. | 진짜? 근데 우리 집 부엌 작아. | nálam = 우리 집에 | emotion=surprised
+B | Akkor nálam. Én csinálok desszertet. | 그럼 우리 집에서. 디저트는 내가 할게. | desszert = 디저트 | emotion=cheerful
+A | Réka, így már nem is olyan hideg. | 레카, 이러니까 별로 안 춥네. | nem is olyan = 그렇게 ~하지도 않은 | emotion=gentle

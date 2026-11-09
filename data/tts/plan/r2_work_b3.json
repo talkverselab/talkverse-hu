@@ -9,23 +9,23 @@
 "segs": [
 [
 "cheerful",
-"Figyelj, a néniknek itt azt mondjuk: csókolom."
+"Éhes vagy? Gyere, ebédeljünk együtt!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Csókolom? Az mit jelent?"
+"cheerful",
+"Szívesen. Hova megyünk?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Igazából azt, hogy kezét csókolom. De ez csak köszönés."
+"gentle",
+"A sarki főzelékezőbe. Olcsó és gyors."
 ]
 ]
 },
@@ -33,19 +33,15 @@
 "segs": [
 [
 "surprised",
-"Durva. És mindig így kell mondani?"
+"Főzelék? Az meg mi?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Csak az idősebb néniknek."
-],
-[
-"excited",
-"Na, jön egy!"
+"gentle",
+"Sűrű zöldségétel. Tökfőzelék, borsófőzelék, ilyenek."
 ]
 ]
 },
@@ -53,47 +49,59 @@
 "segs": [
 [
 "cheerful",
-"Csókollak, néni! Mit kér?"
+"Mit kértek, fiatalok?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Tessék? Mit mondott, kedves?"
+"polite",
+"Egy tökfőzeléket kérek, fasírttal."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"tsukkomi",
-"Jaj, ne már! Csókolom, nem csókollak!"
+"teasing",
+"És te, Bence? Megint krumplifőzelék, hús nélkül?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"flustered",
-"Bocsánat, néni! Nem akarom megcsókolni!"
+"surprised",
+"Hű, ismer téged?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"gentle",
-"Kár. Ezt negyven éve nem mondta nekem senki."
+"shy",
+"Hát, ő az anyukám."
+],
+[
+"amused",
+"Ezért olcsó."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"teasing",
-"Na, ő holnap is itt lesz."
+"gentle",
+"Neked is adok egy kis süteményt, jó? Bence barátja vagy."
+]
+]
+},
+"12": {
+"segs": [
+[
+"excited",
+"Köszönöm! Bence, holnap is ide jövünk."
 ]
 ]
 }

@@ -7,9 +7,8 @@
 "1": {
 "segs": [
 [
-"excited",
-"Nézd, mit vettem! 📷",
-"Nézd, mit vettem!"
+"worried",
+"Ajándékot veszek anyukámnak. Mit vegyek?"
 ]
 ]
 },
@@ -17,23 +16,23 @@
 "segs": [
 [
 "cheerful",
-"Hű! Hol vetted?"
+"Paprikát! Az mindig jó."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"A bolhapiacon. Szép, ugye?"
+"neutral",
+"Édeset vagy csípőset?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Szép. Mennyiért?"
+"cheerful",
+"Szerintem csípőset."
 ]
 ]
 },
@@ -41,23 +40,24 @@
 "segs": [
 [
 "excited",
-"Ötezer forint. Olcsó!"
+"Oké, megvan! 🌶️",
+"Oké, megvan!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Durva."
+"neutral",
+"Hol vetted?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"worried",
-"Miért?"
+"cheerful",
+"A Váci utcában. Négyezer forint."
 ]
 ]
 },
@@ -65,11 +65,8 @@
 "segs": [
 [
 "surprised",
-"A régi lámpám!"
-],
-[
-"teasing",
-"Kétezerért adtam el."
+"Te jó ég! A piacon ezer. 😅",
+"Te jó ég! A piacon ezer."
 ]
 ]
 }

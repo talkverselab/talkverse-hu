@@ -8,22 +8,23 @@
 "segs": [
 [
 "cheerful",
-"Szia! Ráérsz szombaton?"
+"Szia! Kérdezhetek valamit?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Szombaton dolgozom, de a fürdőbe szeretnék menni. Cserélünk?"
+"worried",
+"Szombaton cserélnél velem műszakot? Orvoshoz megyek."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"annoyed",
+"teasing",
+"Bence? Látom, hogy olvastad. 👀",
 "Bence? Látom, hogy olvastad."
 ]
 ]
@@ -32,64 +33,76 @@
 "segs": [
 [
 "worried",
-"Légyszi! Hozok rétest is."
+"Légyszi!"
+],
+[
+"cheerful",
+"Hozok rétest is."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"sad",
-"Na jó, két rétest."
+"teasing",
+"Na jó, két rétest. Utolsó ajánlat."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"annoyed",
-"Komolyan nem válaszolsz? Ez durva."
+"flustered",
+"Bocsi! Olvastam, de egész délelőtt sorban álltak a vendégek."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"stiff",
-"Bocsi, eddig nem tudtam írni. A te műszakodat csinálom."
+"cheerful",
+"Semmi baj. Szóval cserélünk?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Az enyémet? Hogyhogy?"
+"amused",
+"Persze. De szombaton én amúgy is ott vagyok."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"tsukkomi",
-"Ma szombat van."
+"surprised",
+"Hogyhogy?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"flustered",
-"Úristen. Mindjárt megyek!"
+"gentle",
+"Szombaton ketten vagyunk beosztva. Nyugodtan menj, egyedül is megoldom."
 ]
 ]
 },
 "11": {
 "segs": [
 [
+"excited",
+"Te vagy a legjobb! Három rétes jár."
+]
+]
+},
+"12": {
+"segs": [
+[
 "teasing",
-"Két rétes. Emlékszel? 😇",
-"Két rétes. Emlékszel?"
+"Kettőt ígértél. Kettőt kérek. 😇",
+"Kettőt ígértél. Kettőt kérek."
 ]
 ]
 }

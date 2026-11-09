@@ -10,245 +10,66 @@
  "domain": [
   "study"
  ],
- "title": "기숙사 벼룩시장",
- "emoji": "🛏️",
- "scene": "토요일 복도 벼룩시장. 공부하느라 바빠서 Réka 에게 방에 있는 걸 대신 팔아 달라고 했다",
+ "title": "기숙사 방이 추워요",
+ "emoji": "🪟",
+ "scene": "겨울 기숙사. 라디에이터는 따뜻한데 방이 춥다. Réka 의 말대로 관리인을 찾아간다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
   "C": "Gondnok"
  },
- "register": "casual",
- "twist": 11,
- "twist_type": "chaos",
+ "register": "mixed",
+ "twist": 12,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "물건 팔고 값 말하기와 mindegy 의 위험",
+ "goal": "고장·불편 말하기(Nagyon hideg van nálam · működik? · fázom)",
  "expressions": [
-  "Hé",
-  "Hát",
-  "Semmi baj",
-  "Nem tudom",
-  "Mindegy",
+  "Te jó ég",
   "Szuper",
-  "Király",
-  "Te jó ég"
+  "Semmi baj"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Hé, szombaton bolhapiac lesz a folyosón! Van valami eladó cuccod?",
-   "rd": "헤, 쏨버톤 볼허피어츠 레쓰 어 포요숀! 번 벌러미 엘러도 추쪼드?",
-   "ko": "야, 토요일에 복도에서 벼룩시장 열려! 팔 물건 있어?",
-   "note": "bolhapiac = 벼룩시장",
-   "tags": [
-    "expr:Hé"
-   ],
-   "emotion": "excited",
+   "speaker": "A",
+   "hu": "Réka, nálad is ilyen hideg van?",
+   "rd": "레커, 날러드 이시 이옌 히덱 번?",
+   "ko": "레카, 네 방도 이렇게 추워?",
+   "note": "nálad = 너한테(네 방에)",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Hé",
-     "hé",
-     "헤"
-    ],
-    [
-     "szombaton",
-     "szombat",
-     "솜바트"
-    ],
-    [
-     "bolhapiac",
-     "bolhapiac",
+     "Réka",
+     "réka",
      ""
     ],
     [
-     "lesz",
-     "lesz",
-     "레쓰"
+     "hideg",
+     "hideg",
+     "히데그"
     ],
     [
-     "folyosón",
-     "folyosó",
-     ""
-    ],
-    [
-     "eladó",
-     "elad",
-     "엘러드"
-    ],
-    [
-     "cuccod",
-     "cuccod",
-     ""
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Hát, a régi magyar könyveim. De most tanulnom kell.",
-   "rd": "하트, 어 레기 머져르 쾨니베임. 데 모슈트 터눌놈 켈.",
-   "ko": "음, 옛날 헝가리어 책들. 근데 지금 공부해야 해.",
-   "note": "tanulnom kell = 내가 공부해야 한다",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "régi",
-     "régi",
-     "레기"
-    ],
-    [
-     "magyar",
-     "magyar",
-     ""
-    ],
-    [
-     "könyveim",
-     "könyveim",
-     ""
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "tanulnom",
-     "tanulni",
-     ""
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ]
-   ]
-  },
-  {
-   "num": 3,
    "speaker": "B",
-   "hu": "Semmi baj, eladom helyetted. Mit adhatok el?",
-   "rd": "셈미 버이, 엘러돔 헤예떼드. 미트 어드허톡 엘?",
-   "ko": "괜찮아, 내가 대신 팔아 줄게. 뭘 팔아도 돼?",
-   "note": "helyetted = 너 대신",
-   "tags": [
-    "expr:Semmi baj"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "baj",
-     "baj",
-     "버이"
-    ],
-    [
-     "eladom",
-     "elad",
-     "엘러드"
-    ],
-    [
-     "helyetted",
-     "helyette",
-     ""
-    ],
-    [
-     "adhatok",
-     "adhat",
-     ""
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Nem tudom, nézd meg a szobámban. Mindegy, ami nem kell.",
-   "rd": "넴 투돔, 네즈드 멕 어 쏘밤번. 민데지, 어미 넴 켈.",
-   "ko": "몰라, 내 방 봐 봐. 필요 없는 거면 뭐든 상관없어.",
-   "note": "ami nem kell = 필요 없는 것",
-   "tags": [
-    "expr:Nem tudom",
-    "expr:Mindegy"
-   ],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "tudom",
-     "tud",
-     "투드"
-    ],
-    [
-     "nézd",
-     "néz",
-     "네즈"
-    ],
-    [
-     "szobámban",
-     "szob",
-     ""
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Szuper, bízz bennem!",
-   "rd": "쑤페르, 비즈 벤넴!",
-   "ko": "좋아, 나만 믿어!",
-   "note": "bízz bennem = 나를 믿어",
-   "tags": [
-    "expr:Szuper"
-   ],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Szuper",
-     "szuper",
-     "쑤페르"
-    ],
-    [
-     "bízz",
-     "bízik",
-     "비즈크"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Na, hogy megy? Miért van itt ilyen sok ember?",
-   "rd": "너, 호지 메지? 미에르트 번 이트 이옌 쇽 엠베르?",
-   "ko": "자, 어때? 왜 이렇게 사람이 많아?",
-   "note": "hogy megy? = 어떻게 돼 가?",
+   "hu": "Nem, nálam meleg van. Miért, nálad nincs fűtés?",
+   "rd": "넴, 날럼 멜렉 번. 미에르트, 날러드 닌치 퓌테시?",
+   "ko": "아니, 내 방은 따뜻해. 왜, 네 방은 난방 안 돼?",
+   "note": "fűtés = 난방",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
-    ],
-    [
-     "megy",
-     "megy",
-     "메지"
+     "meleg",
+     "meleg",
+     "멜레그"
     ],
     [
      "van",
@@ -256,208 +77,71 @@
      "번"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "nincs",
+     "nincs",
+     "닌치"
     ],
     [
-     "ember",
-     "ember",
-     "엠베르"
+     "fűtés",
+     "fűtés",
+     ""
     ]
    ]
   },
   {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Király, már nyolcvanezer forintot kerestem. Nézd!",
-   "rd": "키라이, 마르 뇰츠버네제르 포린토트 케레슈템. 네즈드!",
-   "ko": "최고야, 벌써 8만 포린트 벌었어. 봐!",
-   "note": "kerestem = 내가 벌었다",
-   "tags": [
-    "expr:Király"
-   ],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Király",
-     "király",
-     "키라이"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "nyolcvanezer",
-     "nyolcvan",
-     ""
-    ],
-    [
-     "forintot",
-     "forint",
-     ""
-    ],
-    [
-     "kerestem",
-     "keres",
-     "케레시"
-    ]
-   ]
-  },
-  {
-   "num": 8,
+   "num": 3,
    "speaker": "A",
-   "hu": "Nyolcvanezret? Három könyvért?",
-   "rd": "뇰츠버네즈레트? 하롬 쾨니베르트?",
-   "ko": "8만? 책 세 권으로?",
-   "note": "-ért = ~의 값으로",
+   "hu": "A radiátor meleg, de a szoba hideg. Három pulóverben alszom.",
+   "rd": "어 러디아토르 멜렉, 데 어 쏘버 히덱. 하롬 풀로베르벤 얼쏨.",
+   "ko": "라디에이터는 따뜻한데 방이 추워. 스웨터 세 겹 입고 자.",
+   "note": "pulóver = 스웨터",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "sad",
    "lemmas": [
     [
-     "Nyolcvanezret",
-     "nyolcvan",
+     "radiátor",
+     "radiátor",
      ""
     ],
     [
-     "könyvért",
-     "könyv",
-     "쾨니브"
+     "meleg",
+     "meleg",
+     "멜레그"
+    ],
+    [
+     "szoba",
+     "szoba",
+     "서버"
+    ],
+    [
+     "hideg",
+     "hideg",
+     "히데그"
+    ],
+    [
+     "pulóverben",
+     "pulóver",
+     ""
+    ],
+    [
+     "alszom",
+     "alszik",
+     "얼루시크"
     ]
    ]
   },
   {
-   "num": 9,
+   "num": 4,
    "speaker": "B",
-   "hu": "Könyvért? Nem, a könyvek nem kellettek senkinek.",
-   "rd": "쾨니베르트? 넴, 어 쾨니벡 넴 켈레떽 센키넥.",
-   "ko": "책? 아니, 책은 아무도 안 사더라.",
-   "note": "nem kellettek = 필요 없었다",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Könyvért",
-     "könyv",
-     "쾨니브"
-    ],
-    [
-     "könyvek",
-     "könyve",
-     ""
-    ],
-    [
-     "kellettek",
-     "kell",
-     "켈"
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "A",
-   "hu": "Akkor mit adtál el?",
-   "rd": "어꼬르 미트 어드탈 엘?",
-   "ko": "그럼 뭘 판 거야?",
-   "note": "adtál el = 네가 팔았다",
-   "tags": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Akkor",
-     "akkor",
-     "어꼬르"
-    ],
-    [
-     "adtál",
-     "ad",
-     "어드"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "B",
-   "hu": "A lámpát, a széket, az asztalt. Azt mondtad, mindegy!",
-   "rd": "어 람파트, 어 쎄케트, 어즈 어쓰털트. 어즈트 몬드터드, 민데지!",
-   "ko": "스탠드, 의자, 책상. 네가 상관없다며!",
-   "note": "szék = 의자",
-   "tags": [
-    "expr:Mindegy"
-   ],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "A lámpát, a széket, az asztalt."
-    ],
-    [
-     "tsukkomi",
-     "Azt mondtad, mindegy!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "lámpát",
-     "lámpa",
-     ""
-    ],
-    [
-     "széket",
-     "szék",
-     ""
-    ],
-    [
-     "asztalt",
-     "asztal",
-     "어슬러"
-    ],
-    [
-     "mondtad",
-     "mond",
-     "몬드"
-    ],
-    [
-     "mindegy",
-     "mindegy",
-     "민데지"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "A",
-   "hu": "Az asztalomat? Te jó ég, hol fogok tanulni?",
-   "rd": "어즈 어쓰털로머트? 테 요 엑, 홀 포곡 터눌니?",
-   "ko": "내 책상을? 세상에, 나 어디서 공부해?",
-   "note": "fogok tanulni = 공부할 것이다",
+   "hu": "Te jó ég. Szólj a gondnoknak, ő megnézi.",
+   "rd": "테 요 엑. 쏠이 어 곤드녹넉, 외 멕네지.",
+   "ko": "세상에. 관리인한테 말해, 봐 줄 거야.",
+   "note": "szólj = 말해",
    "tags": [
     "expr:Te jó ég"
    ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Az asztalomat?"
-    ],
-    [
-     "shout",
-     "Te jó ég, hol fogok tanulni?"
-    ]
-   ],
+   "emotion": "worried",
    "lemmas": [
-    [
-     "asztalomat",
-     "asztalom",
-     ""
-    ],
     [
      "jó",
      "jó",
@@ -469,41 +153,223 @@
      "에그"
     ],
     [
-     "hol",
-     "hol",
-     "홀"
+     "gondnoknak",
+     "gondnok",
+     ""
     ],
     [
-     "fogok",
-     "fog",
-     "포그"
-    ],
-    [
-     "tanulni",
-     "tanul",
-     "타눌"
+     "megnézi",
+     "megnéz",
+     "메그네즈"
     ]
    ]
   },
   {
-   "num": 13,
-   "speaker": "B",
-   "hu": "Az ágyon. Bár az ágyra már van vevő.",
-   "rd": "어즈 아죤. 바르 어즈 아지러 마르 번 베뵈.",
-   "ko": "침대에서. 근데 침대는 벌써 살 사람이 있어.",
-   "note": "vevő = 사는 사람",
+   "num": 5,
+   "speaker": "A",
+   "hu": "Jó napot, a 214-es szobából jöttem. Nagyon hideg van nálam.",
+   "rd": "요 너포트, 어 214-에시 쏘바볼 요뗌. 너죤 히덱 번 날럼.",
+   "ko": "안녕하세요, 214호에서 왔어요. 제 방이 너무 추워요.",
+   "note": "214-es = 214번",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "polite",
    "lemmas": [
     [
-     "ágyon",
-     "ágy",
-     "아지"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "es",
+     "es",
+     ""
+    ],
+    [
+     "szobából",
+     "szoba",
+     "서버"
+    ],
+    [
+     "jöttem",
+     "jön",
+     "왼"
+    ],
+    [
+     "hideg",
+     "hideg",
+     "히데그"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Jó napot. A radiátor működik?",
+   "rd": "요 너포트. 어 러디아토르 뮈쾨딕?",
+   "ko": "안녕하세요. 라디에이터는 작동해요?",
+   "note": "működik = 작동한다",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "radiátor",
+     "radiátor",
+     ""
+    ],
+    [
+     "működik",
+     "működik",
+     "뮈쾨딕"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Igen, meleg. De mégis fázom.",
+   "rd": "이겐, 멜렉. 데 메기시 파좀.",
+   "ko": "네, 따뜻해요. 그런데도 추워요.",
+   "note": "fázom = (나는) 춥다",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "meleg",
+     "meleg",
+     "멜레그"
+    ],
+    [
+     "mégis",
+     "mégis",
+     "메기슈"
+    ],
+    [
+     "fázom",
+     "fázom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Furcsa. Menjünk, megnézem.",
+   "rd": "푸르처. 멘윈크, 멕네젬.",
+   "ko": "이상하네요. 갑시다, 봐 드릴게요.",
+   "note": "furcsa = 이상한",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Furcsa",
+     "furcsa",
+     "푸르처"
+    ],
+    [
+     "megnézem",
+     "megnéz",
+     "메그네즈"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Én is jövök. Kíváncsi vagyok.",
+   "rd": "엔 이시 요뵉. 키반치 버죡.",
+   "ko": "나도 갈래. 궁금해.",
+   "note": "kíváncsi = 궁금한",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "jövök",
+     "jön",
+     "왼"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Radiátor rendben, ajtó rendben. És az ablak?",
+   "rd": "러디아토르 렌드벤, 어이토 렌드벤. 에시 어즈 어블럭?",
+   "ko": "라디에이터 괜찮고, 문 괜찮고. 창문은요?",
+   "note": "rendben = 괜찮다",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Radiátor",
+     "radiátor",
+     ""
+    ],
+    [
+     "rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "ajtó",
+     "ajtó",
+     "어이토"
+    ],
+    [
+     "ablak",
+     "ablak",
+     "어블러크"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Az ablak csukva van. Mindig csukva tartom.",
+   "rd": "어즈 어블럭 축버 번. 민딕 축버 터르톰.",
+   "ko": "창문은 닫혀 있어요. 항상 닫아 둬요.",
+   "note": "csukva = 닫힌 채",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "ablak",
+     "ablak",
+     "어블러크"
+    ],
+    [
+     "csukva",
+     "csuk",
+     ""
     ],
     [
      "van",
@@ -511,79 +377,150 @@
      "번"
     ],
     [
-     "vevő",
-     "vevő",
+     "tartom",
+     "tart",
+     "터르트"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "hu": "Nem egészen: nézze, felül nyitva van, bukóra állította.",
+   "rd": "넴 에게쎈: 네제, 펠륄 니트버 번, 부코러 알리토떠.",
+   "ko": "꼭 그렇진 않네요. 보세요, 위가 열려 있어요, 틸트로 해 두셨어요.",
+   "note": "bukó = 위로 젖혀 여는 창",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "egészen",
+     "egésze",
+     "에게세"
+    ],
+    [
+     "nézze",
+     "néz",
+     "네즈"
+    ],
+    [
+     "felül",
+     "fel",
+     "펠"
+    ],
+    [
+     "nyitva",
+     "nyit",
+     "니트"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "bukóra",
+     "bukó",
+     ""
+    ],
+    [
+     "állította",
+     "állít",
+     "알리트"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Bukóra? Azt hittem, így van becsukva!",
+   "rd": "부코러? 어즈트 히뗌, 이지 번 베축버!",
+   "ko": "틸트요? 이게 닫힌 건 줄 알았어요!",
+   "note": "azt hittem = ~인 줄 알았다",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Bukóra",
+     "bukó",
+     ""
+    ],
+    [
+     "hittem",
+     "hitt",
+     ""
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "becsukva",
+     "becsuk",
      ""
     ]
    ]
   },
   {
    "num": 14,
-   "speaker": "C",
-   "hu": "Elnézést, ki adta el a kollégium bútorait?",
-   "rd": "엘네제슈트, 키 어드터 엘 어 콜레기움 부토러이트?",
-   "ko": "실례합니다, 기숙사 가구를 판 사람이 누구죠?",
-   "note": "bútor = 가구",
-   "tags": [],
-   "emotion": "stiff",
+   "speaker": "B",
+   "hu": "Két hónapig az udvart fűtötted. Szuper.",
+   "rd": "케트 호너픽 어즈 우드버르트 퓌퇴떼드. 쑤페르.",
+   "ko": "두 달 동안 마당을 데웠네. 대단하다.",
+   "note": "udvar = 마당",
+   "tags": [
+    "expr:Szuper"
+   ],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
+     "hónapig",
+     "hónap",
+     "호넙"
     ],
     [
-     "ki",
-     "ki",
-     "키"
-    ],
-    [
-     "adta",
-     "ad",
-     "어드"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ],
-    [
-     "kollégium",
-     "kollégium",
+     "udvart",
+     "udvar",
      ""
     ],
     [
-     "bútorait",
-     "bútorai",
+     "fűtötted",
+     "fűt",
      ""
     ]
    ]
   },
   {
    "num": 15,
-   "speaker": "B",
-   "hu": "Hát, ő. Én csak segítettem.",
-   "rd": "하트, 외. 엔 척 세기테뗌.",
-   "ko": "음, 얘요. 전 그냥 도운 거고요.",
-   "note": "segítettem = 내가 도왔다",
+   "speaker": "C",
+   "hu": "Semmi baj. Az első télen mindenki megtanulja.",
+   "rd": "셈미 버이. 어즈 엘쇠 텔렌 민덴키 멕터눌여.",
+   "ko": "괜찮아요. 첫 겨울엔 다들 배워요.",
+   "note": "megtanulja = 배운다",
    "tags": [
-    "expr:Hát"
+    "expr:Semmi baj"
    ],
-   "emotion": "flustered",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "baj",
+     "baj",
+     "버이"
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "télen",
+     "tél",
+     "텔"
     ],
     [
-     "segítettem",
-     "segített",
+     "megtanulja",
+     "megtanul",
      ""
     ]
    ]

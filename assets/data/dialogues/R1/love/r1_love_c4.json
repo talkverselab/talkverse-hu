@@ -10,130 +10,109 @@
  "domain": [
   "love"
  ],
- "title": "고양이가 썼어",
- "emoji": "🐈",
- "scene": "밤 11시, Anna 가 먼저 메시지를 보낸다. A 는 자고 있고, Anna 혼자 초조해진다",
+ "title": "읽고 두 시간",
+ "emoji": "🎶",
+ "scene": "A 가 Anna 에게 토요일 공원 콘서트를 제안했다. 읽음 표시는 떴는데 답이 없다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
  },
  "register": "chat",
- "twist": 5,
+ "twist": 3,
  "twist_type": "ignore",
  "flags": [
   "romance"
  ],
- "goal": "데이트 제안하기, 사과하기(Bocsi)",
+ "goal": "제안하기(Jössz?)와 '~ 때문에'(miattam)",
  "expressions": [
-  "Bocsi",
   "Mindegy",
-  "Jaj"
+  "Bocsi",
+  "Komolyan?"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Szia! Alszol?",
-   "rd": "씨어! 얼쏠?",
-   "ko": "안녕! 자?",
-   "note": "alszol = 너 잔다",
+   "speaker": "A",
+   "hu": "Szia! Szombaton koncert a parkban. Jössz?",
+   "rd": "씨어! 쏨버톤 콘체르트 어 퍼륵번. 요쓰?",
+   "ko": "안녕! 토요일에 공원에서 콘서트 해. 올래?",
+   "note": "jössz? = 올래?",
    "tags": [],
-   "at": "23:01",
-   "emotion": "gentle",
+   "at": "12:30",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
      "Szia",
      "szia",
      "씨어"
+    ],
+    [
+     "koncert",
+     "koncert",
+     ""
+    ],
+    [
+     "parkban",
+     "park",
+     ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Csak egy kérdés.",
-   "rd": "척 에지 케르데시.",
-   "ko": "그냥 질문 하나.",
-   "note": "kérdés = 질문",
+   "speaker": "A",
+   "hu": "Ingyenes. 🎶",
+   "rd": "인제네시. 🎶",
+   "ko": "무료야. 🎶",
+   "note": "ingyenes = 무료의",
    "tags": [],
-   "at": "23:02",
-   "emotion": "shy",
+   "at": "12:31",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "kérdés",
-     "kérdés",
-     "케르데시"
+     "Ingyenes",
+     "ingyenes",
+     ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Holnap múzeum? Velem?",
-   "rd": "홀너프 무제움? 벨렘?",
-   "ko": "내일 미술관? 나랑?",
-   "note": "múzeum = 박물관·미술관",
+   "speaker": "A",
+   "hu": "Hahó? Látom, hogy olvastad. 😅",
+   "rd": "허호? 라톰, 호지 올버슈터드. 😅",
+   "ko": "여보세요? 읽은 거 다 보여. 😅",
+   "note": "olvastad = 네가 그걸 읽었다",
    "tags": [],
-   "at": "23:04",
-   "emotion": "shy",
+   "at": "14:40",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Holnap",
-     "holnap",
-     "홀넙"
+     "Hahó",
+     "hahó",
+     ""
     ],
     [
-     "múzeum",
-     "múzeum",
-     "무제움"
+     "olvastad",
+     "olvas",
+     "올버스"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Jaj. Túl sokat írok?",
-   "rd": "여이. 툴 쇼커트 이록?",
-   "ko": "아이고. 내가 너무 많이 쓰나?",
-   "note": "túl sokat = 너무 많이",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "at": "23:20",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "írok",
-     "ír",
-     "이르"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Mindegy. Felejtsd el. 😅",
-   "rd": "민데지. 펠레이트슈드 엘. 😅",
-   "ko": "됐어. 잊어 줘. 😅",
+   "speaker": "A",
+   "hu": "Mindegy, nem baj.",
+   "rd": "민데지, 넴 버이.",
+   "ko": "상관없어, 괜찮아.",
    "note": "mindegy = 상관없어",
    "tags": [
     "expr:Mindegy"
    ],
-   "at": "23:48",
+   "at": "15:10",
    "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
@@ -143,34 +122,24 @@
      "민데지"
     ],
     [
-     "el",
-     "el",
-     "엘"
+     "baj",
+     "baj",
+     "버이"
     ]
    ]
   },
   {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Bocsi, elaludtam! Igen, múzeum!",
-   "rd": "보치, 엘럴루드텀! 이겐, 무제움!",
-   "ko": "미안, 잠들었어! 응, 미술관!",
-   "note": "elaludtam = 잠들었다",
+   "num": 5,
+   "speaker": "B",
+   "hu": "Bocsi! Szombaton dolgozom, de kivettem szabadnapot.",
+   "rd": "보치! 쏨버톤 돌고좀, 데 키베뗌 써버드너포트.",
+   "ko": "미안! 토요일에 일하는데, 쉬는 날로 뺐어.",
+   "note": "szabadnap = 쉬는 날",
    "tags": [
     "expr:Bocsi"
    ],
-   "at": "07:15",
-   "emotion": "flustered",
-   "segs": [
-    [
-     "flustered",
-     "Bocsi, elaludtam!"
-    ],
-    [
-     "excited",
-     "Igen, múzeum!"
-    ]
-   ],
+   "at": "15:12",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -179,72 +148,108 @@
      "보치"
     ],
     [
-     "elaludtam",
-     "elaludt",
+     "dolgozom",
+     "dolgoz",
+     "돌고즈"
+    ],
+    [
+     "kivettem",
+     "kivett",
      ""
     ],
     [
-     "múzeum",
-     "múzeum",
-     "무제움"
+     "szabadnapot",
+     "szabadnap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Két órát vártam a főnökre. 😩",
+   "rd": "케트 오라트 바르텀 어 푀뇍레. 😩",
+   "ko": "사장님을 두 시간 기다렸어. 😩",
+   "note": "főnök = 상사",
+   "tags": [],
+   "at": "15:12",
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "órát",
+     "óra",
+     "오러"
+    ],
+    [
+     "vártam",
+     "várt",
+     ""
+    ],
+    [
+     "főnökre",
+     "főnök",
+     ""
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Nem én írtam. A macskám volt. 😳",
-   "rd": "넴 엔 이르텀. 어 머치캄 볼트. 😳",
-   "ko": "나 아니야. 우리 고양이가 쓴 거야. 😳",
-   "note": "macska = 고양이",
-   "tags": [],
-   "at": "07:16",
-   "emotion": "flustered",
+   "speaker": "A",
+   "hu": "Komolyan? Miattam?",
+   "rd": "코모연? 미어떰?",
+   "ko": "진짜? 나 때문에?",
+   "note": "miattam = 나 때문에",
+   "tags": [
+    "expr:Komolyan?"
+   ],
+   "at": "15:13",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "írtam",
-     "írt",
-     ""
-    ],
-    [
-     "macskám",
-     "macskám",
-     ""
-    ],
-    [
-     "volt",
-     "van",
-     "번"
+     "Komolyan",
+     "komoly",
+     "코모이"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "A",
-   "hu": "A macskád cuki. Ő is jön?",
-   "rd": "어 머치카드 추키. 외 이시 욘?",
-   "ko": "네 고양이 귀엽다. 걔도 와?",
-   "note": "ő = 그 사람, 그것",
+   "speaker": "B",
+   "hu": "A koncert miatt. Meg egy kicsit miattad.",
+   "rd": "어 콘체르트 미어트. 멕 에지 키치트 미어떠드.",
+   "ko": "콘서트 때문에. 그리고 조금은 너 때문에.",
+   "note": "miattad = 너 때문에",
    "tags": [],
-   "at": "07:17",
+   "at": "15:14",
    "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "A koncert miatt."
+    ],
+    [
+     "shy",
+     "Meg egy kicsit miattad."
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
-     "macskád",
-     "macskád",
+     "koncert",
+     "koncert",
      ""
     ],
     [
-     "cuki",
-     "cuki",
-     ""
+     "kicsit",
+     "kicsi",
+     "키치"
     ],
     [
-     "jön",
-     "jön",
-     "왼"
+     "miattad",
+     "miatta",
+     ""
     ]
    ]
   }

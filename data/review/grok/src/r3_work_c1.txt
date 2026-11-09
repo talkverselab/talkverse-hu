@@ -1,27 +1,27 @@
 === r3_work_c1
 kind: chat
-title: 전 직원 방의 레테시
-emoji: 🥧
-scene: 회사 메신저. 옆자리 동료에게 물어본다는 게 전 직원 방에 올라갔다
+title: 단체방에 보낸 혼잣말
+emoji: 💬
+scene: 회사 메신저. 이사님이 월요일 아침 8시 팀 회의를 공지한다. 동료에게만 보낸다는 불평이 단체방에 올라간다
 b: Kolléga
 c: Igazgató
-d: Bécsi iroda
 register: chat
 twist: 11 chaos
 purpose: work_hungary
-goal: 회사 메신저에서 사과하고 부탁하기(ne + 명령형, 존댓말)
-expressions: Hé; Bocsánat; Figyelj; Bocsi; Jaj
-A | A konyhában van egy almás rétes. Kié? 😄 | 부엌에 사과 레테시가 있어요. 누구 거예요? 😄 | kié? = 누구 것? | emotion=cheerful at=11:02
-B | Hé, ez a Mindenki csoport! Ezer ember látja ezt. | 야, 여기 「전 직원」 방이야! 천 명이 보고 있어. | csoport = 그룹 | emotion=surprised at=11:03
-A | Jaj! Bocsánat, mindenki, rossz helyre írtam. | 앗! 여러분 죄송합니다, 잘못 올렸어요. | rossz helyre = 틀린 곳으로 | emotion=flustered at=11:04
-D | Jó napot, itt a bécsi iroda. Miért kaptunk üzenetet egy rétesről? | 안녕하세요, 빈 지사입니다. 왜 레테시 메시지가 왔죠? | üzenet = 메시지 | emotion=stiff at=11:06
-B | Figyelj, már harminc válasz van. Mindenki azt írja, hogy ne írjunk ide. | 야, 답글이 벌써 서른 개야. 다들 여기 쓰지 말자고 쓰고 있어. | ne írjunk = 쓰지 말자 | emotion=worried at=11:08
-A | Kérem, ne írjanak ide! | 제발 여기 쓰지 말아 주세요! | ne írjanak = 쓰지 마세요(여러분, 존댓말) | emotion=flustered at=11:09
-B | Te is ide írtad. | 너도 여기 썼잖아. | ide = 여기로 | emotion=tsukkomi at=11:09
-A | Bocsi. | 미안. | bocsi = 미안(가벼운 말) | emotion=sad at=11:10
-B | Ezt is. | 그것도. | ezt is = 이것도 | emotion=tsukkomi at=11:10
-C | Itt az igazgató. Kérem, mindenki hagyja abba. | 이사입니다. 모두 그만하세요. | hagyja abba = 그만두세요 | emotion=stiff at=11:20
-D | A levelezőnk leállt a rétes miatt. Ez komoly? | 저희 메일이 레테시 때문에 멈췄습니다. 이게 진심입니까? | leállt = 멈췄다 | emotion=stiff+annoyed at=11:31
-B | Most ötven ember áll a konyhában. Mind a rétest nézi. | 지금 부엌에 쉰 명이 서 있어. 다들 레테시를 보고 있어. | mind = 모두 | emotion=amused at=11:40
-A | Nem írok többet. Soha. | 이제 안 쓰겠습니다. 영원히. | többet = 더 | emotion=sad at=11:41
-C | Még valami: az a rétes az enyém. Ne nyúljanak hozzá! | 하나 더요. 그 레테시 제 겁니다. 손대지 마세요! | ne nyúljanak hozzá = 손대지 마세요 | emotion=stiff+shout at=11:45 stamp=😇
+goal: 회사 메신저에서 공지에 답하기와 사과하기(Elnézést kérek, rossz helyre írtam)
+expressions: Komolyan; Úristen; Semmi baj
+C | Kedves Kollégák! Hétfőn reggel nyolckor csapatmegbeszélés lesz. | 동료 여러분! 월요일 아침 8시에 팀 회의가 있습니다. | csapatmegbeszélés = 팀 회의 | emotion=polite at=16:02
+B | Rendben, ott leszek. | 알겠습니다, 참석하겠습니다. | ott leszek = 참석하겠다 | emotion=polite at=16:05
+A | Köszönöm, ott leszek. | 감사합니다, 참석하겠습니다. | köszönöm = 감사합니다 | emotion=polite at=16:06
+A | Komolyan, hétfőn nyolckor? Akkor én még alszom. 😴 | 진짜, 월요일 8시? 나 그때 아직 자는데. 😴 | alszom = 잔다 | emotion=annoyed at=16:07
+B | Haha. Ezt nekem írtad, vagy a csoportba? | ㅋㅋ 이거 나한테 쓴 거야, 단체방에 쓴 거야? | csoport = 그룹, 단체방 | emotion=teasing at=16:08
+A | Neked, persze. Miért? | 너한테지, 당연히. 왜? | persze = 당연히 | emotion=cheerful at=16:08
+B | Mert a csoportban látom. Az igazgató is olvasta. 👀 | 단체방에 보이거든. 이사님도 읽었어. 👀 | olvasta = 그걸 읽었다 | emotion=amused at=16:09
+A | Úristen. Hogy lehet törölni? | 세상에. 어떻게 지워? | törölni = 지우다 | emotion=flustered at=16:09
+B | Már késő. Szerintem írj valamit gyorsan. | 이미 늦었어. 빨리 뭐라도 써. | gyorsan = 빨리 | emotion=teasing at=16:10
+A | Elnézést kérek, rossz helyre írtam. Természetesen ott leszek hétfőn. | 죄송합니다, 잘못 보냈습니다. 물론 월요일에 참석합니다. | rossz helyre = 잘못된 곳에 | emotion=stiff at=16:11
+C | Semmi baj. Igazság szerint nyolckor én is alszom. | 괜찮습니다. 솔직히 8시엔 저도 자요. | igazság szerint = 솔직히 말하면 | emotion=amused at=16:15
+C | Ki szeretne inkább tízkor kezdeni? Szavazzunk! | 10시가 더 좋은 분? 투표합시다! | szavazzunk = 투표하자 | emotion=cheerful at=16:15
+B | Én! És a könyvelés is, mind a hatan. 😂 | 저요! 회계팀도요, 여섯 명 전부. 😂 | mind a hatan = 여섯 명 모두 | emotion=excited at=16:16
+C | Akkor tízkor kezdünk. A kávét én hozom. | 그럼 10시에 시작합니다. 커피는 제가 가져올게요. | kezdünk = 시작한다 | emotion=gentle at=16:18
+B | Hősünk vagy! Legközelebb is panaszkodj a csoportba. | 네가 우리 영웅이야! 다음에도 단체방에 불평해. | panaszkodj = 불평해 | emotion=teasing at=16:19 stamp=😂

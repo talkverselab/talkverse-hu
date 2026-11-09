@@ -10,9 +10,9 @@
  "domain": [
   "travel"
  ],
- "title": "세케시페헤르바르",
- "emoji": "🎫",
- "scene": "기차역 매표소. 도시 이름이 너무 길다",
+ "title": "3분 뒤 출발",
+ "emoji": "🚆",
+ "scene": "기차역 매표소. 에게르행 표를 산다",
  "speakers": {
   "A": "{name}",
   "B": "Pénztáros"
@@ -21,35 +21,22 @@
  "twist": 6,
  "twist_type": "reveal",
  "flags": [],
- "goal": "기차표 사기(-ra/-re, -ba/-be 가는 곳)",
+ "goal": "기차표 사기(oda-vissza · Mikor indul?)",
  "expressions": [
-  "Jó napot",
-  "izé",
-  "Sajnos",
-  "Ja"
+  "legyen szíves",
+  "oda-vissza",
+  "Tessék"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Jó napot! Egy jegyet kérek Széke, Székes...",
-   "rd": "요 너포트! 에지 예제트 케렉 쎄케, 쎄케시...",
-   "ko": "안녕하세요! 표 한 장 주세요, 세케, 세케시…",
-   "note": "jegyet = 표를",
-   "tags": [
-    "expr:Jó napot"
-   ],
+   "hu": "Jó napot! Egy jegyet kérek Egerbe.",
+   "rd": "요 너포트! 에지 예제트 케렉 에게르베.",
+   "ko": "안녕하세요! 에게르 표 한 장 주세요.",
+   "note": "Egerbe = 에게르로",
+   "tags": [],
    "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Jó napot!"
-    ],
-    [
-     "flustered",
-     "Egy jegyet kérek Széke, Székes..."
-    ]
-   ],
    "lemmas": [
     [
      "Jó",
@@ -76,97 +63,19 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Szegedre megy?",
-   "rd": "쎄게드레 메지?",
-   "ko": "세게드 가세요?",
-   "note": "-re = ~로(도시)",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Szegedre",
-     "szeg",
-     ""
-    ],
-    [
-     "megy",
-     "megy",
-     "메지"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "hu": "Nem, nem. Székes, izé, fehér...",
-   "rd": "넴, 넴. 쎄케시, 이제, 페헤르...",
-   "ko": "아니요, 아니요. 세케시, 그, 페헤르…",
-   "note": "izé = 그거, 뭐더라",
+   "hu": "Csak oda, vagy oda-vissza?",
+   "rd": "척 오더, 버지 오더-비써?",
+   "ko": "편도요, 왕복이요?",
+   "note": "oda-vissza = 왕복",
    "tags": [
-    "expr:izé"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "izé",
-     "izé",
-     ""
-    ],
-    [
-     "fehér",
-     "fehér",
-     "페헤르"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Ja, Székesfehérvárra kéri?",
-   "rd": "여, 쎄케슈페헤르바러 케리?",
-   "ko": "아, 세케시페헤르바르요?",
-   "note": "ja = 아(알았을 때)",
-   "tags": [
-    "expr:Ja"
+    "expr:oda-vissza"
    ],
    "emotion": "polite",
    "lemmas": [
     [
-     "Ja",
-     "ja",
-     "여"
-    ],
-    [
-     "kéri",
-     "kér",
-     "께르"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Igen, oda! Mikor indul a vonat?",
-   "rd": "이겐, 오더! 미코르 인둘 어 보너트?",
-   "ko": "네, 거기요! 기차 언제 출발해요?",
-   "note": "indul = 출발하다",
-   "tags": [],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Igen, oda!"
-    ],
-    [
-     "polite",
-     "Mikor indul a vonat?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Igen",
-     "igen",
-     "이겐"
+     "Csak",
+     "csak",
+     "촉"
     ],
     [
      "oda",
@@ -174,102 +83,159 @@
      "오더"
     ],
     [
+     "vissza",
+     "vissza",
+     "비써"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Oda-vissza, légyszi... izé, legyen szíves.",
+   "rd": "오더-비써, 레지씨... 이제, 레젠 씨베시.",
+   "ko": "왕복이요, 부탁해… 아니, 부탁드려요.",
+   "note": "legyen szíves = 부탁드립니다(Ön)",
+   "tags": [
+    "expr:legyen szíves",
+    "expr:oda-vissza"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Oda",
+     "oda",
+     "오더"
+    ],
+    [
+     "vissza",
+     "vissza",
+     "비써"
+    ],
+    [
+     "légyszi",
+     "légyszi",
+     ""
+    ],
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "legyen",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "szíves",
+     "szíves",
+     "시베시"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Hatezer-négyszáz forint.",
+   "rd": "허테제르-네지싸즈 포린트.",
+   "ko": "6400포린트예요.",
+   "note": "hatezer-négyszáz = 6400",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Hatezer",
+     "hatezer",
+     ""
+    ],
+    [
+     "négyszáz",
+     "négyszáz",
+     ""
+    ],
+    [
+     "forint",
+     "forint",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Tessék. Mikor indul?",
+   "rd": "테쎅. 미코르 인둘?",
+   "ko": "여기요. 언제 출발해요?",
+   "note": "indul = 출발하다",
+   "tags": [
+    "expr:Tessék"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
      "indul",
      "indul",
      "인둘"
-    ],
-    [
-     "vonat",
-     "vonat",
-     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Sajnos most ment el. Amíg mondta.",
-   "rd": "셔이노시 모슈트 멘트 엘. 어믹 몬드터.",
-   "ko": "아쉽지만 방금 떠났어요. 말씀하시는 동안에요.",
-   "note": "amíg = ~하는 동안",
-   "tags": [
-    "expr:Sajnos"
-   ],
+   "hu": "Három perc múlva, a hatos vágányról.",
+   "rd": "하롬 페르츠 물버, 어 허토시 바가니롤.",
+   "ko": "3분 뒤에요, 6번 선로에서.",
+   "note": "vágány = 선로",
+   "tags": [],
    "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Sajnos most ment el."
-    ],
-    [
-     "amused",
-     "Amíg mondta."
-    ]
-   ],
    "lemmas": [
     [
-     "Sajnos",
-     "sajnos",
-     "셔이노시"
+     "perc",
+     "perc",
+     "페르츠"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
+     "hatos",
+     "hatos",
+     ""
     ],
     [
-     "ment",
-     "megy",
-     "메지"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ],
-    [
-     "mondta",
-     "mond",
-     "몬드"
+     "vágányról",
+     "vágány",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Jaj! Akkor egy jegyet kérek Győrbe.",
-   "rd": "여이! 어꼬르 에지 예제트 케렉 죄르베.",
-   "ko": "아이고! 그럼 죄르 표로 주세요.",
-   "note": "Győrbe = 죄르로",
-   "tags": [
-    "expr:Ja"
-   ],
-   "emotion": "flustered",
+   "hu": "Három perc? Futok!",
+   "rd": "하롬 페르츠? 푸톡!",
+   "ko": "3분요? 뛰어야겠다!",
+   "note": "futok = 내가 뛴다",
+   "tags": [],
+   "emotion": "surprised",
    "segs": [
     [
-     "flustered",
-     "Jaj!"
+     "surprised",
+     "Három perc?"
     ],
     [
-     "polite",
-     "Akkor egy jegyet kérek Győrbe."
+     "flustered",
+     "Futok!"
     ]
    ],
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "jegyet",
-     "jegye",
-     ""
-    ],
-    [
-     "kérek",
-     "kér",
-     "께르"
+     "perc",
+     "perc",
+     "페르츠"
     ]
    ]
   }

@@ -1,30 +1,29 @@
 === r3_culture_c1
 kind: chat
-title: 판매 중인 사람
-emoji: 🏷️
-scene: 토요일에 Réka 의 벼룩시장 일을 돕는다고 올렸다. 그런데 eladó 는 「판매원」이기도 「판매 중」이기도 하다
+title: 첫 레초
+emoji: 🍅
+scene: 처음 만든 레초(lecsó) 사진을 올렸다. 친구들과 옆집 할머니가 댓글을 단다
 b: Réka
 c: Anna
 d: Margit néni
 register: chat
-twist: 12 chaos
-flags: romance
+twist: 16 chaos
 purpose: media love
-goal: 낱말 하나의 두 뜻(eladó)과 값 흥정 말
-expressions: Úristen; Mi a baj; Ne már; Mi van; Várjatok
-A | Szombaton Rékánál segítek a bolhapiacon. Eladó vagyok! 😄 | 토요일에 레카네 벼룩시장에서 도와! 나 eladó 야! 😄 | eladó = 판매원 / 팔려고 내놓은 | emotion=excited at=19:00
-B | Úristen, tényleg ezt írtad ki? 😂 | 세상에, 진짜 그렇게 올렸어? 😂 | kiír = 써서 올리다 | emotion=amused at=19:01
-A | Igen, miért? Mi a baj? | 응, 왜? 뭐가 문제야? | mi a baj? = 뭐가 문제야? | emotion=surprised at=19:01
-B | Eladó az, aki árul, de az is, amit el lehet adni. | eladó 는 파는 사람이기도 하지만, 팔 수 있는 물건이기도 해. | el lehet adni = 팔 수 있다 | emotion=amused at=19:02
-D | Mennyibe kerül, kedvesem? Tud krumplit pucolni? | 얼마유, 얘야? 감자 깎을 줄 아나? | mennyibe kerül? = 얼마예요? | emotion=cheerful at=19:04
-A | Margit néni! Nem, én nem vagyok eladó! | 머르기트 할머니! 아뇨, 저 안 팔아요! | nem vagyok eladó = 안 판다 | emotion=flustered at=19:04
-B | Ötezer! De biciklit nem tud szerelni. | 5천! 근데 자전거는 못 고쳐. | szerel = 고치다 | emotion=teasing at=19:05
-D | Hatezer, és adok hozzá bejglit. | 6천, 베이글리도 얹어 주지. | hozzá = 거기에 더해 | emotion=teasing at=19:06
-A | Ne már! Várjatok, törlöm! | 아 좀! 잠깐만, 지울게! | várjatok = 너희 기다려 | emotion=flustered at=19:07
-B | Késő, már negyvenen nézik. Béla bácsi hétezret ad. | 늦었어. 벌써 마흔 명이 보고 있어. 벨러 할아버지가 7천 낸대. | késő = 늦은 | emotion=teasing at=19:08
-A | Béla bácsi?! Mi van itt? | 벨러 할아버지?! 여기 뭐야? | bácsi = 아저씨, 할아버지 | emotion=surprised at=19:08
-C | Ötvenezer. | 5만. | ötvenezer = 5만 | emotion=stiff at=23:11
-A | Anna?! | 안나?! | ?! = 깜짝 놀랄 때 | emotion=surprised at=23:12
-C | Mi van? Eladtam egy rétest. | 왜? 레테시 하나 팔았거든. | eladtam = 내가 팔았다 | emotion=amused at=23:12
-B | Eladva! Szombaton viheted. 😘 | 낙찰! 토요일에 가져가. 😘 | eladva = 팔렸음 | emotion=excited at=23:13
-C | Csak szépen csomagold be. 🎁 | 예쁘게 포장해 줘. 🎁 | csomagold be = 포장해 줘 | emotion=gentle at=23:14
+goal: 음식 사진 댓글 주고받기(Jól néz ki · Kolbásszal vagy anélkül?)
+expressions: Hű; Hát; Ne már
+A | Az első lecsóm! 🍅🌶️ | 내 첫 레초! 🍅🌶️ | lecsó = 파프리카 토마토 스튜 | emotion=excited at=19:30
+B | Hű! Kolbásszal vagy anélkül? | 와! 소시지 넣었어, 안 넣었어? | anélkül = 그것 없이 | emotion=cheerful at=19:32
+A | Anélkül. Kolbász nem volt itthon. | 안 넣었어. 집에 소시지가 없었어. | itthon = 집에 | emotion=gentle at=19:33
+B | Akkor ez csak paprikás paradicsom. 😏 | 그럼 이건 그냥 파프리카 넣은 토마토네. 😏 | paradicsom = 토마토 | emotion=teasing at=19:33
+C | Ne hallgass rá! Nagyon jól néz ki. 😍 | 쟤 말 듣지 마! 정말 맛있어 보여. 😍 | jól néz ki = 좋아 보인다 | emotion=gentle at=19:35
+A | Köszi, Anna! Legközelebb meghívlak. | 고마워, 안나! 다음엔 초대할게. | meghívlak = 너를 초대한다 | emotion=shy at=19:36
+D | NAGYON SZÉP LECSÓ, KEDVESEM!!! | 아주 멋진 레초구나, 얘야!!! | kedvesem = 얘야(다정하게) | emotion=shout at=19:50
+A | Köszönöm szépen! 😊 | 정말 감사합니다! 😊 | köszönöm szépen = 정말 감사합니다 | emotion=polite at=19:51
+B | Miért kiabálsz? 😂 | 왜 소리 질러? 😂 | kiabál = 소리 지르다 | emotion=amused at=19:51
+D | Nem kiabálok. A telefon csinálja. | 소리 안 질러. 폰이 그러는 거야. | csinálja = (그것을) 한다 | emotion=annoyed at=19:55
+A | Réka, te ismered Margit nénit? | 레카, 너 머르기트 할머니 알아? | ismered = (그 사람을) 아니 | emotion=surprised at=19:56
+B | Hát... ő a nagymamám. 🙈 | 음… 우리 할머니야. 🙈 | nagymama = 할머니 | emotion=flustered at=19:57
+A | Mi?! Ő a szomszédom! | 뭐?! 우리 옆집 분인데! | szomszéd = 이웃 | emotion=surprised at=19:57
+D | Tudom, kedvesem. Holnap átviszek egy kis kolbászt. | 알지, 얘야. 내일 소시지 좀 갖다줄게. | átvisz = 건너가 갖다주다 | emotion=gentle at=20:01
+C | Akkor holnap igazi lecsó lesz? Megyek! 🙋 | 그럼 내일 진짜 레초야? 나 갈래! 🙋 | igazi = 진짜 | emotion=excited at=20:02
+B | Ne már! Akkor én is megyek, meg Bence is. 😂 | 아 좀! 그럼 나도 가. 벤체도. 😂 | meg … is = ~도 또 | emotion=tsukkomi at=20:03

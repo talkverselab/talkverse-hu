@@ -1,23 +1,23 @@
 === r2_study_b3
 kind: long
-title: 잘 본 구술시험
+title: 시험 보러 왔는데
 emoji: 📝
-scene: 구술시험 날. 떨면서 들어간 강의실에서 카드를 뽑았는데 공부한 적 없는 문제다
+scene: 밤새 공부하고 헐레벌떡 강의실에 들어왔다. 선생님 표정이 이상하다
 b: Tanár
 c: Réka
 register: mixed
-twist: 10 reveal
+twist: 7 reveal
 purpose: study_abroad
-goal: 구술시험 말(Húzzon egy tételt)과 Mit tud …-ról/-ről?
-expressions: Hát; Szóval; Igazából; Mi van
-B | Jó napot! Húzzon egy tételt. | 안녕하세요! 문제 카드를 뽑으세요. | tétel = 구술시험 문제 | emotion=polite
-A | Jó napot. Hát, a tizenhármas. | 안녕하세요. 음, 13번이요. | tizenhármas = 13번 | emotion=worried
-B | Szóval, a szív. Mit tud a szívről? | 자, 심장. 심장에 대해 뭘 아시죠? | -ról/-ről = ~에 대해 | emotion=stiff
-A | A szívről? Hát, ha szeretünk, gyorsabban ver. | 심장이요? 음, 사랑하면 더 빨리 뜁니다. | ver = (심장이) 뛴다 | emotion=worried
-B | Érdekes. És most hogy ver az Öné? | 흥미롭군요. 지금 당신 심장은 어때요? | az Öné = 당신의 것 | emotion=amused
-A | Nagyon gyorsan. Igazából ezt nem tanultam. | 아주 빨라요. 사실 이건 공부 안 했어요. | igazából = 사실은 | emotion=flustered
-B | Őszinte válasz. Négyes, a következő! | 솔직한 답이군요. 4점, 다음 분! | négyes = 4점 | emotion=amused+stiff
-C | Hol voltál? A te vizsgád a földszinten van, már elkezdődött! | 어디 있었어? 네 시험 1층에서 벌써 시작했어! | földszint = 1층(지상층) | emotion=worried
-A | Mi van? Akkor ez milyen vizsga volt? | 뭐? 그럼 이건 무슨 시험이었어? | milyen = 어떤 | emotion=surprised
-C | Ez? Orvosi, harmadéveseknek. | 이거? 의대 3학년 시험이야. | orvosi = 의학의 | emotion=amused
-A | Négyest kaptam. | 나 4점 받았어. | kaptam = 내가 받았다 | emotion=surprised
+goal: 늦은 사과와 시험 날짜 확인하기(Elnézést a késésért · jövő kedden)
+expressions: Elnézést; Jaj; Szuper
+A | Elnézést a késésért! Elkezdődött már a vizsga? | 늦어서 죄송합니다! 시험 벌써 시작했나요? | késés = 늦음 | emotion=flustered
+B | Jó reggelt. Milyen vizsga? | 좋은 아침이에요. 무슨 시험이요? | milyen = 어떤 | emotion=surprised
+A | A nyelvtanvizsga. Egész éjjel tanultam! | 문법 시험이요. 밤새 공부했어요! | egész éjjel = 밤새 | emotion=worried
+C | Szia! Miért vagy ilyen sápadt? | 안녕! 왜 이렇게 창백해? | sápadt = 창백한 | emotion=surprised
+A | Három órát aludtam. Te nem izgulsz? | 세 시간 잤어. 넌 안 떨려? | izgulsz = 떨린다 | emotion=worried
+C | Miért izgulnék? Ma csak olvasás lesz. | 내가 왜 떨려? 오늘은 그냥 읽기 수업인데. | izgulnék = 떨릴까(조건법) | emotion=amused
+B | A nyelvtanvizsga jövő kedden lesz, {name}. | 문법 시험은 다음 주 화요일이에요, {name} 씨. | jövő kedd = 다음 주 화요일 | emotion=gentle
+A | Jövő kedden? De a naptáramban ma van! | 다음 주 화요일이요? 근데 제 달력엔 오늘인데요! | naptár = 달력 | emotion=surprised
+C | Mutasd. Ez a jövő heti oldal, nem a mostani! | 보여 줘. 이거 다음 주 페이지야, 이번 주가 아니라! | jövő heti = 다음 주의 | emotion=tsukkomi
+A | Jaj. Akkor legalább már tudom az anyagot. | 아이고. 그럼 적어도 공부는 다 해 놓은 거네. | legalább = 적어도 | emotion=flustered+amused
+B | Szuper. Akkor ma Ön olvas fel elsőként. | 좋아요. 그럼 오늘은 {name} 씨가 제일 먼저 낭독해요. | felolvas = 소리 내어 읽다 | emotion=teasing

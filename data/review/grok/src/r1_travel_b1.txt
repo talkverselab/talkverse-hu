@@ -1,19 +1,19 @@
 === r1_travel_b1
 kind: long
-title: 랑고시 2분
-emoji: 🚆
-scene: 발라톤행 기차가 잠깐 선 역. Réka 가 랑고시를 사러 내린다
+title: 10분 동안 선 줄
+emoji: 🫓
+scene: 중앙시장 2층 랑고시 가게. Réka 가 주문법을 알려 준다
 b: Réka
 register: casual
-twist: 5 chaos
+twist: 7 chaos
 purpose: travel making_friends
-goal: 말리는 말과 어디 있는지 묻고 답하기
-expressions: Figyelj; Várj; Mi van?; Hogyhogy; mindjárt
-B | Figyelj, leszállok egy lángosért. Két perc! | 야, 랑고시 사러 내릴게. 2분이면 돼! | -ért = ~를 가지러 | emotion=cheerful
-A | Várj! A vonat mindjárt indul! | 잠깐! 기차 곧 출발해! | mindjárt = 곧 | emotion=shout+worried
-B | Nyugi! Fogd a biciklimet és a táskámat. | 진정해! 내 자전거랑 가방 잡고 있어. | fogd = 잡아(정활용 명령) | emotion=cheerful
-A | Réka, hol vagy? Már megy a vonat! | 레카, 어디야? 기차 벌써 가! | már = 벌써 | emotion=worried+shout
-B | Szia, ez egy néni telefonja. Itt maradtam! | 안녕, 이거 어떤 할머니 전화야. 나 여기 남았어! | maradtam = 나는 남았다 | emotion=amused+flustered
-A | Mi van? Nálam van a táskád és a biciklid! | 뭐? 네 가방이랑 자전거 나한테 있어! | nálam = 나한테 | emotion=surprised+worried
-A | Réka? Te hogyhogy már itt vagy? | (발라톤 역) 레카? 너 어떻게 벌써 여기 있어? | hogyhogy = 어떻게 된 거야 | emotion=surprised
-B | A néni elhozott kocsival. A lángosod már hideg. | 그 할머니가 차로 데려다줬어. 네 랑고시 벌써 식었어. | elhozott = 데려다줬다 | emotion=teasing
+goal: 음식 고르기와 주문 준비(Mit kérsz rá? · én is azt kérek)
+expressions: Na; Komolyan; Nem tudom
+B | Na, itt a híres lángos! Mit kérsz rá? | 자, 여기가 유명한 랑고시야! 위에 뭐 올릴래? | rá = 그 위에 | emotion=excited
+A | Nem tudom. Te mit szoktál kérni? | 모르겠어. 너는 보통 뭐 시켜? | szoktál = 보통 ~하곤 해 | emotion=neutral
+B | Tejfölt és sajtot. Fokhagyma is kell! | 사워크림이랑 치즈. 마늘도 꼭! | tejföl = 사워크림 | emotion=cheerful
+A | Oké, akkor én is azt kérek. | 오케이, 그럼 나도 그거. | azt = 그것을 | emotion=cheerful
+B | Akkor állj be a sorba, én foglalok asztalt. | 그럼 줄 서, 나는 자리 잡을게. | foglal = 맡다, 잡다 | emotion=cheerful
+A | Réka, ez a sor nagyon lassú. | 레카, 이 줄 엄청 느려. | sor = 줄 | emotion=annoyed
+B | Az a mosdó sora! És a lángosos bezárt. | 그건 화장실 줄이야! 그리고 랑고시 가게 문 닫았어. | mosdó = 화장실 | emotion=tsukkomi+surprised
+A | Komolyan? Már tíz perce állok itt! | 진짜? 벌써 10분째 서 있었는데! | tíz perce = 10분째 | emotion=flustered

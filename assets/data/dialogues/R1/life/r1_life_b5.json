@@ -10,306 +10,258 @@
  "domain": [
   "life"
  ],
- "title": "안 먹으면 의사 부른다",
- "emoji": "🍲",
- "scene": "고장 난 전구 때문에 잠깐 들렀을 뿐인데, Marika 아주머니의 식탁에서 나갈 수가 없다",
+ "title": "화분에 물만 주면 돼요",
+ "emoji": "🪴",
+ "scene": "아래층 Marika 아주머니가 주말에 딸네 집에 간다. 화분 부탁이 점점 늘어난다",
  "speakers": {
   "A": "{name}",
   "B": "Marika néni"
  },
- "register": "mixed",
+ "register": "polite",
  "twist": 7,
  "twist_type": "chaos",
  "flags": [],
- "goal": "음식 사양하기(Elég, tele vagyok)와 Nem ízlik?",
+ "goal": "부탁 들어주기(Szívesen · Még valami?) · Ön 명령형 알아듣기",
  "expressions": [
-  "Gyere be",
-  "Tessék",
-  "Nem ízlik?",
-  "Dehogy"
+  "Szívesen",
+  "Persze",
+  "Ugye"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Gyere be, éhes vagy? Főztem egy kis levest.",
-   "rd": "제레 베, 에헤시 버지? 푀즈템 에지 키시 레베슈트.",
-   "ko": "들어와! 배고프니? 국 좀 끓였어.",
-   "note": "gyere be = 들어와",
-   "tags": [
-    "expr:Gyere be"
-   ],
-   "emotion": "gentle",
+   "hu": "Kedves, megkérhetem valamire?",
+   "rd": "케드베시, 멕케르헤템 벌러미레?",
+   "ko": "저기, 부탁 하나 해도 될까요?",
+   "note": "megkérhetem = 부탁해도 될까요",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Gyere",
-     "jön",
-     "왼"
+     "Kedves",
+     "kedves",
+     "케드베슈"
     ],
     [
-     "be",
-     "be",
-     "베"
-    ],
-    [
-     "éhes",
-     "éhes",
-     "에헤시"
-    ],
-    [
-     "kis",
-     "kis",
-     "키시"
-    ],
-    [
-     "levest",
-     "leves",
-     ""
+     "megkérhetem",
+     "megkér",
+     "메그케르"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Köszönöm, nem vagyok éhes.",
-   "rd": "쾨쐬뇜, 넴 버죡 에헤시.",
-   "ko": "고맙습니다, 배 안 고파요.",
-   "note": "éhes = 배고픈",
-   "tags": [],
-   "emotion": "polite",
+   "hu": "Persze, Marika néni. Mi az?",
+   "rd": "페르쎄, 머리커 네니. 미 어즈?",
+   "ko": "그럼요, 아주머니. 뭔데요?",
+   "note": "mi az? = 뭔데요?",
+   "tags": [
+    "expr:Persze"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "éhes",
-     "éhes",
-     "에헤시"
+     "néni",
+     "néni",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Egy kicsit! Tessék, itt a leves és a hús.",
-   "rd": "에지 키치트! 테쎅, 이트 어 레베시 에시 어 후시.",
-   "ko": "조금만! 자, 국이랑 고기.",
-   "note": "hús = 고기",
-   "tags": [
-    "expr:Tessék"
-   ],
-   "emotion": "cheerful",
+   "hu": "Hétvégén a lányomnál leszek. Meglocsolja a virágaimat?",
+   "rd": "헤트베겐 어 라뇸날 레쎅. 멕로촐여 어 비라거이머트?",
+   "ko": "주말에 딸네 가 있어요. 꽃에 물 좀 줄래요?",
+   "note": "meglocsolja = 물을 주다(Ön)",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "kicsit",
-     "kicsi",
-     "키치"
+     "Hétvégén",
+     "hétvége",
+     "헤트베게"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "leves",
-     "leves",
+     "lányomnál",
+     "lányom",
      ""
     ],
     [
-     "hús",
-     "hús",
-     ""
+     "leszek",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "virágaimat",
+     "virág",
+     "비라그"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Nagyon finom! De most már elég.",
-   "rd": "너죤 피놈! 데 모슈트 마르 엘렉.",
-   "ko": "정말 맛있어요! 그런데 이제 됐어요.",
-   "note": "elég = 충분해",
-   "tags": [],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Nagyon finom!"
-    ],
-    [
-     "polite",
-     "De most már elég."
-    ]
+   "hu": "Szívesen! Hány virága van?",
+   "rd": "씨베센! 하니 비라거 번?",
+   "ko": "기꺼이요! 화분이 몇 개예요?",
+   "note": "hány = 몇",
+   "tags": [
+    "expr:Szívesen"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Nagyon",
-     "nagyon",
-     "너존"
+     "Szívesen",
+     "szíves",
+     "시베시"
     ],
     [
-     "finom",
-     "finom",
-     "피놈"
+     "virága",
+     "virága",
+     ""
     ],
     [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "elég",
-     "elég",
-     "엘렉"
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Elég? Nem ízlik?",
-   "rd": "엘렉? 넴 이즐릭?",
-   "ko": "됐다고? 맛이 없니?",
-   "note": "nem ízlik? = 입에 안 맞아?",
-   "tags": [
-    "expr:Nem ízlik?"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Elég?"
-    ],
-    [
-     "sad",
-     "Nem ízlik?"
-    ]
-   ],
+   "hu": "Tizenkettő. És Cirminek is adjon enni, reggel és este.",
+   "rd": "티젠케뙤. 에시 치르미넥 이시 어드욘 엔니, 렉겔 에시 에슈테.",
+   "ko": "열두 개요. 그리고 치르미 밥도 줘요, 아침저녁으로.",
+   "note": "adjon = 주세요(Ön 명령)",
+   "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Elég",
-     "elég",
-     "엘렉"
+     "Tizenkettő",
+     "tizenkettő",
+     ""
     ],
     [
-     "ízlik",
-     "ízlik",
-     ""
+     "adjon",
+     "ad",
+     "어드"
+    ],
+    [
+     "enni",
+     "eszik",
+     "에식"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Dehogy! Csak tele vagyok.",
-   "rd": "데호지! 척 텔레 버죡.",
-   "ko": "아니에요! 그냥 배불러요.",
-   "note": "dehogy = 천만에, 전혀 아니야",
-   "tags": [
-    "expr:Dehogy"
-   ],
-   "emotion": "flustered",
+   "hu": "Rendben. Még valami?",
+   "rd": "렌드벤. 멕 벌러미?",
+   "ko": "네. 또 있어요?",
+   "note": "még valami? = 또 뭐가?",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Dehogy",
-     "dehogy",
-     "데허고"
-    ],
-    [
-     "tele",
-     "tél",
-     "텔"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
+     "Rendben",
+     "rend",
+     "렌드"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Nem eszel? Hívom az orvost!",
-   "rd": "넴 에쎌? 히봄 어즈 오르보슈트!",
-   "ko": "안 먹어? 의사 부른다!",
-   "note": "hívom = 내가 그를 부른다",
+   "hu": "A postát is hozza fel. Vasárnap jön a gázos.",
+   "rd": "어 포슈타트 이시 호저 펠. 버샤르너프 욘 어 가조시.",
+   "ko": "우편물도 올려다 줘요. 일요일엔 가스 검침원이 와요.",
+   "note": "gázos = 가스 검침원(구어)",
    "tags": [],
-   "emotion": "worried",
-   "segs": [
-    [
-     "worried",
-     "Nem eszel?"
-    ],
-    [
-     "shout",
-     "Hívom az orvost!"
-    ]
-   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "eszel",
-     "eszel",
+     "postát",
+     "posta",
      ""
     ],
     [
-     "orvost",
-     "orvos",
-     "오르보시"
+     "hozza",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "gázos",
+     "gázos",
+     ""
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Jaj, ne! Jól van, kérek még.",
-   "rd": "여이, 네! 욜 번, 케렉 멕.",
-   "ko": "아이고, 안 돼요! 알겠어요, 더 주세요.",
-   "note": "jól van = 알겠어",
-   "tags": [],
-   "emotion": "flustered",
-   "segs": [
-    [
-     "flustered",
-     "Jaj, ne!"
-    ],
-    [
-     "sad",
-     "Jól van, kérek még."
-    ]
+   "hu": "Ugye csak két napig lesz távol, Marika néni?",
+   "rd": "우제 척 케트 너픽 레쓰 타볼, 머리커 네니?",
+   "ko": "이틀만 비우시는 거죠, 아주머니?",
+   "note": "ugye = ~죠?",
+   "tags": [
+    "expr:Ugye"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "csak",
+     "csak",
+     "촉"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "napig",
+     "nap",
+     "넙"
     ],
     [
-     "kérek",
-     "kér",
-     "께르"
+     "lesz",
+     "lesz",
+     "레쓰"
     ],
     [
-     "még",
-     "még",
-     "메그"
+     "távol",
+     "távol",
+     "타볼"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
     ]
    ]
   }

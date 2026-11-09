@@ -7,16 +7,16 @@
 "1": {
 "segs": [
 [
-"worried",
-"Bocsi! Jól vagy?"
+"cheerful",
+"Szia! Új vagy itt?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Igen, jól vagyok. Ez a te biciklid?"
+"shy",
+"Igen, ez az első hetem."
 ]
 ]
 },
@@ -24,15 +24,15 @@
 "segs": [
 [
 "cheerful",
-"Réka vagyok. És te?"
+"Réka vagyok. Te?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"{name} vagyok. Magyarul tanulok."
+"neutral",
+"{name}. {country}ból jöttem."
 ]
 ]
 },
@@ -40,32 +40,31 @@
 "segs": [
 [
 "excited",
-"Hű, de jól beszélsz!"
+"Szuper! Hogy tetszik Budapest?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Köszi! Te is jól beszélsz magyarul!"
+"worried",
+"Nagyon. De a nyelv nehéz."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"amused",
-"Hát... én magyar vagyok.",
-"Hát, én magyar vagyok."
+"gentle",
+"Na, gyere, igyunk egy kávét. Segítek."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Jaj. Ja, persze."
+"shy",
+"Tényleg? Köszi, Réka."
 ]
 ]
 }

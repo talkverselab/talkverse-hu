@@ -8,92 +8,92 @@
 "1": {
 "segs": [
 [
-"polite",
-"Jó napot! Húzzon egy tételt."
+"flustered",
+"Elnézést a késésért! Elkezdődött már a vizsga?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Jó napot. Hát, a tizenhármas."
+"surprised",
+"Jó reggelt. Milyen vizsga?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"stiff",
-"Szóval, a szív. Mit tud a szívről?"
+"worried",
+"A nyelvtanvizsga. Egész éjjel tanultam!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"A szívről? Hát, ha szeretünk, gyorsabban ver."
+"surprised",
+"Szia! Miért vagy ilyen sápadt?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Érdekes. És most hogy ver az Öné?"
+"worried",
+"Három órát aludtam. Te nem izgulsz?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Nagyon gyorsan. Igazából ezt nem tanultam."
+"amused",
+"Miért izgulnék? Ma csak olvasás lesz."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"amused",
-"Őszinte válasz."
-],
-[
-"stiff",
-"Négyes, a következő!"
+"gentle",
+"A nyelvtanvizsga jövő kedden lesz, {name}."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"worried",
-"Hol voltál? A te vizsgád a földszinten van, már elkezdődött!"
+"surprised",
+"Jövő kedden? De a naptáramban ma van!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"Mi van? Akkor ez milyen vizsga volt?"
+"tsukkomi",
+"Mutasd. Ez a jövő heti oldal, nem a mostani!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
+"flustered",
+"Jaj."
+],
+[
 "amused",
-"Ez? Orvosi, harmadéveseknek."
+"Akkor legalább már tudom az anyagot."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"surprised",
-"Négyest kaptam."
+"teasing",
+"Szuper. Akkor ma Ön olvas fel elsőként."
 ]
 ]
 }

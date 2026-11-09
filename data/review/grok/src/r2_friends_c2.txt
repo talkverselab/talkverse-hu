@@ -1,24 +1,23 @@
 === r2_friends_c2
 kind: chat
-title: 내일 8시, 서른 명
-emoji: 💘
-scene: Réka 가 허락도 없이 내 데이팅 프로필을 만들고 답장까지 해 놨다
+title: 5분만
+emoji: ⏰
+scene: 영화 시작 15분 전, 극장 앞. Réka 는 계속 「5분!」이라고 한다
 b: Réka
 register: chat
 twist: 9 chaos
-flags: romance
-purpose: making_friends love
-goal: 채팅에서 따지기(Mit csináltál?)와 helyetted(너 대신)
-expressions: Figyelj; ne haragudj; Egy pillanat; Hát; Nyugi
-B | Figyelj, ne haragudj, de csináltam neked randiprofilt. | 야, 화내지 마, 네 데이팅 프로필 만들었어. | ne haragudj = 화내지 마 | emotion=teasing at=20:02
-A | Mit csináltál?! Milyen profilt? | 뭘 했다고?! 무슨 프로필? | Mit csináltál? = 뭘 했어? | emotion=surprised at=20:03
-B | Már harminc üzeneted van. Szívesen! 😎 | 벌써 메시지 30개야. 고맙긴! 😎 | szívesen = 천만에 | emotion=teasing at=20:03
-A | Töröld! Azonnal töröld! | 지워! 당장 지워! | azonnal = 당장 | emotion=shout at=20:04
-B | Egy pillanat. Már mindenkinek válaszoltam helyetted. | 잠깐만. 네 대신 벌써 다 답장했어. | helyetted = 너 대신 | emotion=amused at=20:04
-A | Mit válaszoltál?! | 뭐라고 답했어?! | válaszoltál = 네가 답했다 | emotion=worried at=20:05
-B | Csak annyit: holnap nyolckor, Bence kávézójában. | 그냥 이렇게: 내일 8시, 벤체 카페. | csak annyit = 그것만 | emotion=teasing at=20:05
-A | Várj. Hány embernek? | 잠깐. 몇 명한테? | hány = 몇 | emotion=worried at=20:06
-B | Hát... mindenkinek. 😇 | 음… 전부. 😇 | mindenkinek = 모두에게 | emotion=teasing at=20:06 stamp=😇
-A | Harminc ember, holnap?! Úristen! | 서른 명이 내일?! 세상에! | harminc = 서른 | emotion=shout at=20:06
-B | Nyugi. Bence már keres széket. | 진정해. 벤체가 벌써 의자 구하고 있어. | keres = 찾다 | emotion=amused at=20:08
-B | És viszem a kanapét is. 😄 | 소파도 가져갈게. 😄 | viszem = 내가 그걸 가져간다 | emotion=cheerful at=20:08
+purpose: making_friends
+goal: 늦음 알리기·재촉하기(Hol tartasz? · Siess)
+expressions: Hol tartasz; Mindjárt; Siess
+A | Itt vagyok a mozinál. Hol tartasz? | 나 영화관 앞이야. 어디쯤이야? | Hol tartasz? = 어디쯤이야? | emotion=cheerful at=19:45
+B | Mindjárt ott vagyok! Öt perc! | 금방 도착해! 5분! | mindjárt = 곧 | emotion=cheerful at=19:46
+A | Oké, megveszem a jegyeket. | 오케이, 표 살게. | jegy = 표 | emotion=neutral at=19:47
+A | Megvannak a jegyek. Hol vagy? 🎟️ | 표 샀어. 어디야? 🎟️ | megvannak = 확보됐다 | emotion=cheerful at=19:55
+B | Öt perc, ígérem! | 5분, 약속해! | ígérem = 약속해 | emotion=flustered at=19:56
+A | Már megy a reklám. Siess! | 벌써 광고 나와. 서둘러! | siess = 서둘러 | emotion=worried at=20:02
+B | Futok! A villamoson vagyok. | 뛰는 중! 트램 탔어. | villamos = 트램 | emotion=flustered at=20:03
+A | Melyik megállónál? | 어느 정류장? | megálló = 정류장 | emotion=annoyed at=20:05
+B | Hát, igazából még csak most indulok. | 음, 사실 이제 막 출발해. | igazából = 사실은 | emotion=flustered at=20:06
+A | Most indulsz?! És a villamos? | 지금 출발한다고?! 트램은? | indulsz = 출발한다 | emotion=shout at=20:06
+B | Bocsi! A megállóban vagyok, az már majdnem villamos. 😅 | 미안! 정류장에 있으니까 거의 트램이지. 😅 | majdnem = 거의 | emotion=amused at=20:07
+A | Na jó. A popcornod az enyém. 🍿 | 알았어. 네 팝콘은 내 거야. 🍿 | az enyém = 내 것 | emotion=teasing at=20:08

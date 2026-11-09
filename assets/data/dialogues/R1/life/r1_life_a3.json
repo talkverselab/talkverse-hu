@@ -10,9 +10,9 @@
  "domain": [
   "life"
  ],
- "title": "저 몇 살로 보이세요?",
- "emoji": "🥖",
- "scene": "빵집. 아주머니께 배운 공손한 인사를 스물두 살 점원에게 그대로 써 본다",
+ "title": "치즈 10킬로?",
+ "emoji": "🧀",
+ "scene": "시장 치즈 가판대. 헝가리에서는 작은 무게를 데카(10g)로 말한다",
  "speakers": {
   "A": "{name}",
   "B": "Eladó"
@@ -21,35 +21,65 @@
  "twist": 5,
  "twist_type": "slip",
  "flags": [],
- "goal": "빵 주문하기, 인사는 상대 나이에 맞게",
+ "goal": "무게로 주문하기(… dekát kérek)와 Ön 으로 대답하기",
  "expressions": [
-  "Csókolom",
-  "Tessék?",
-  "kérek",
-  "Bocsánat"
+  "Tessék",
+  "Legyen szíves",
+  "Rendben"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Csókolom! Egy kenyeret kérek.",
-   "rd": "초콜롬! 에지 케네레트 케렉.",
-   "ko": "안녕하세요! 빵 하나 주세요.",
-   "note": "kenyeret = 빵을(kenyér 의 목적격)",
+   "speaker": "B",
+   "hu": "Jó napot! Tessék, mit kér?",
+   "rd": "요 너포트! 테쎅, 미트 케르?",
+   "ko": "안녕하세요! 네, 뭐 드릴까요?",
+   "note": "mit kér? = 뭘 원하세요(Ön)",
    "tags": [
-    "expr:Csókolom",
-    "expr:kérek"
+    "expr:Tessék"
    ],
    "emotion": "polite",
    "lemmas": [
     [
-     "Csókolom",
-     "csókol",
-     ""
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "kenyeret",
-     "kenyere",
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "kér",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó napot! Ebből a sajtból kérek.",
+   "rd": "요 너포트! 에뵐 어 셔이트볼 케렉.",
+   "ko": "안녕하세요! 이 치즈로 주세요.",
+   "note": "ebből = 이것에서",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "sajtból",
+     "sajt",
      ""
     ],
     [
@@ -60,145 +90,94 @@
    ]
   },
   {
-   "num": 2,
-   "speaker": "B",
-   "hu": "Tessék? Hogy mondta?",
-   "rd": "테쎅? 호지 몬드터?",
-   "ko": "네? 뭐라고 하셨어요?",
-   "note": "hogy mondta? = 뭐라고 하셨어요?",
-   "tags": [
-    "expr:Tessék?"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Tessék",
-     "tessék",
-     "테셰크"
-    ],
-    [
-     "mondta",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
    "num": 3,
-   "speaker": "A",
-   "hu": "Csókolom. Ez nem jó?",
-   "rd": "초콜롬. 에즈 넴 요?",
-   "ko": "「초콜롬」이요. 이 말 틀려요?",
-   "note": "csókolom = 어르신께만 쓰는 인사(글자 뜻: 입 맞춥니다)",
+   "speaker": "B",
+   "hu": "Rendben. Mennyit kér?",
+   "rd": "렌드벤. 메니트 케르?",
+   "ko": "네. 얼마나 드릴까요?",
+   "note": "mennyit = 얼마만큼을",
    "tags": [
-    "expr:Csókolom"
+    "expr:Rendben"
    ],
-   "emotion": "flustered",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Csókolom",
-     "csókol",
-     ""
+     "Rendben",
+     "rend",
+     "렌드"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "kér",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Hány évesnek néz engem?",
-   "rd": "하니 에베슈넥 네즈 엔겜?",
-   "ko": "저를 몇 살로 보세요?",
-   "note": "hány éves = 몇 살",
-   "tags": [],
-   "emotion": "annoyed",
+   "speaker": "A",
+   "hu": "Tíz kilót, legyen szíves.",
+   "rd": "티즈 킬로트, 레젠 씨베시.",
+   "ko": "10킬로요, 부탁드려요.",
+   "note": "legyen szíves = 부탁드립니다",
+   "tags": [
+    "expr:Legyen szíves"
+   ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "évesnek",
-     "éves",
-     "에베슈"
+     "kilót",
+     "kiló",
+     ""
     ],
     [
-     "néz",
-     "néz",
-     "네즈"
+     "legyen",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "szíves",
+     "szíves",
+     "시베시"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "Hát, nem tudom. Hatvan?",
-   "rd": "하트, 넴 투돔. 허트번?",
-   "ko": "음… 모르겠어요. 예순?",
-   "note": "hatvan = 60",
+   "speaker": "B",
+   "hu": "Tíz kilót? Az egy egész sajt!",
+   "rd": "티즈 킬로트? 어즈 에지 에게쓰 셔이트!",
+   "ko": "10킬로요? 그거 치즈 한 덩이 통째예요!",
+   "note": "egész = 통째, 전체",
    "tags": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "kilót",
+     "kiló",
+     ""
     ],
     [
-     "tudom",
-     "tud",
-     "투드"
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "sajt",
+     "sajt",
+     ""
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "B",
-   "hu": "Huszonkét éves vagyok!",
-   "rd": "후쏜케트 에베시 버죡!",
-   "ko": "저 스물두 살이에요!",
-   "note": "huszonkét = 22",
-   "tags": [],
-   "emotion": "shout",
-   "lemmas": [
-    [
-     "Huszonkét",
-     "huszonkét",
-     ""
-    ],
-    [
-     "éves",
-     "éves",
-     "에베슈"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 7,
    "speaker": "A",
-   "hu": "Jaj, bocsánat! Akkor szia?",
-   "rd": "여이, 보차너트! 어꼬르 씨어?",
-   "ko": "아이고, 죄송해요! 그럼 안녕?",
-   "note": "szia = 안녕(친구끼리)",
-   "tags": [
-    "expr:Bocsánat"
-   ],
+   "hu": "Jaj, bocsánat! Tíz dekát!",
+   "rd": "여이, 보차너트! 티즈 데카트!",
+   "ko": "아이고, 죄송해요! 10데카요!",
+   "note": "deka = 10그램",
+   "tags": [],
    "emotion": "flustered",
-   "segs": [
-    [
-     "flustered",
-     "Jaj, bocsánat!"
-    ],
-    [
-     "shy",
-     "Akkor szia?"
-    ]
-   ],
    "lemmas": [
     [
      "Jaj",
@@ -211,9 +190,73 @@
      "버치너트"
     ],
     [
-     "szia",
-     "szia",
-     "씨어"
+     "dekát",
+     "deka",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Jó, tíz deka. És kenyeret hány kilót kér?",
+   "rd": "요, 티즈 데커. 에시 케네레트 하니 킬로트 케르?",
+   "ko": "네, 10데카. 빵은 몇 킬로 드릴까요?",
+   "note": "hány = 몇",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "deka",
+     "deka",
+     ""
+    ],
+    [
+     "kenyeret",
+     "kenyere",
+     ""
+    ],
+    [
+     "kilót",
+     "kiló",
+     ""
+    ],
+    [
+     "kér",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Egyet! Egy darabot!",
+   "rd": "에제트! 에지 더러보트!",
+   "ko": "하나요! 한 개요!",
+   "note": "darab = 개(낱개)",
+   "tags": [],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Egyet!"
+    ],
+    [
+     "shy",
+     "Egy darabot!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "darabot",
+     "darab",
+     "더럽"
     ]
    ]
   }

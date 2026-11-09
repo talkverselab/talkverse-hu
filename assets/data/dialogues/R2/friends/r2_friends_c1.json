@@ -10,36 +10,33 @@
  "domain": [
   "friends"
  ],
- "title": "생일 파티는 비밀",
- "emoji": "🎂",
- "scene": "친구에게 Réka 깜짝 파티를 알린다는 게, 채팅방을 잘못 골랐다",
+ "title": "비밀 파티",
+ "emoji": "🤫",
+ "scene": "Réka 의 깜짝 생일 파티를 친구들에게 알리는 중. 그런데 이 채팅방은…",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "chat",
  "twist": 9,
- "twist_type": "slip",
+ "twist_type": "chaos",
  "flags": [],
- "goal": "약속 알리기(시간·장소)와 ne szólj",
+ "goal": "약속 알리기(시간·장소)와 Ne szólj neki",
  "expressions": [
   "Figyelj",
-  "Aha",
-  "Ja",
-  "Úristen",
-  "ne már"
+  "Ne szólj",
+  "Úristen"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Figyelj, a buli titok! Réka nem tudhatja!",
-   "rd": "피젤이, 어 불리 티톡! 레커 넴 투드허트여!",
-   "ko": "야, 파티 비밀이야! 레카는 몰라야 해!",
-   "note": "titok = 비밀",
+   "hu": "Figyelj, szombaton meglepetésbuli Rékának!",
+   "rd": "피젤이, 쏨버톤 멕레페테슈불리 레카넉!",
+   "ko": "있잖아, 토요일에 레카 깜짝 파티 해!",
+   "note": "meglepetésbuli = 깜짝 파티",
    "tags": [
-    "expr:Figyelj",
-    "expr:Ja"
+    "expr:Figyelj"
    ],
    "at": "17:10",
    "emotion": "excited",
@@ -51,41 +48,33 @@
      "피겔"
     ],
     [
-     "buli",
-     "buli",
-     "불리"
+     "szombaton",
+     "szombat",
+     "솜바트"
     ],
     [
-     "titok",
-     "titok",
-     "티트코"
-    ],
-    [
-     "tudhatja",
-     "tudhat",
-     "투트헛"
+     "meglepetésbuli",
+     "meglepetés",
+     "메글레페테시"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Szombaton nyolckor, Bencénél. Ne szólj neki!",
-   "rd": "쏨버톤 뇰츠코르, 벤체넬. 네 쏠이 네키!",
-   "ko": "토요일 8시, 벤체네. 말하지 마!",
+   "hu": "Nyolckor, nálam. Ne szólj neki! 🤫",
+   "rd": "뇰츠코르, 날럼. 네 쏠이 네키! 🤫",
+   "ko": "8시, 우리 집에서. 레카한테 말하지 마! 🤫",
    "note": "ne szólj = 말하지 마",
-   "tags": [],
+   "tags": [
+    "expr:Ne szólj"
+   ],
    "at": "17:10",
-   "emotion": "excited",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szombaton",
-     "szombat",
-     "솜바트"
-    ],
-    [
-     "nyolckor",
+     "Nyolckor",
      "nyolckor",
      ""
     ],
@@ -103,9 +92,7 @@
    "rd": "어허. 미옌 불리?",
    "ko": "응. 무슨 파티?",
    "note": "buli = 파티",
-   "tags": [
-    "expr:Aha"
-   ],
+   "tags": [],
    "at": "17:12",
    "emotion": "neutral",
    "ui": "bubble",
@@ -127,13 +114,11 @@
    "speaker": "A",
    "hu": "Hát Réka szülinapja! Elfelejtetted?",
    "rd": "하트 레커 쓀리너프여! 엘펠레이테떼드?",
-   "ko": "레카 생일이지! 잊었어?",
-   "note": "szülinap = 생일",
-   "tags": [
-    "expr:Ja"
-   ],
+   "ko": "레카 생일이잖아! 잊었어?",
+   "note": "elfelejtetted = 너 잊었어",
+   "tags": [],
    "at": "17:12",
-   "emotion": "tsukkomi",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
@@ -155,9 +140,7 @@
    "rd": "여, 페르쎄. 에시 미트 베쒼크 네키?",
    "ko": "아, 맞다. 뭐 사 주는데?",
    "note": "veszünk = 우리가 산다",
-   "tags": [
-    "expr:Ja"
-   ],
+   "tags": [],
    "at": "17:13",
    "emotion": "amused",
    "ui": "bubble",
@@ -182,19 +165,24 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Új sisakot. A régi nagyon ronda.",
-   "rd": "우이 시셔코트. 어 레기 너죤 론더.",
-   "ko": "새 헬멧. 지금 건 너무 못생겼어.",
-   "note": "ronda = 못생긴",
+   "hu": "Új biciklis sisakot. A régi nagyon csúnya.",
+   "rd": "우이 비칙리시 시셔코트. 어 레기 너죤 추녀.",
+   "ko": "새 자전거 헬멧. 지금 건 너무 못생겼어.",
+   "note": "sisak = 헬멧",
    "tags": [],
    "at": "17:13",
-   "emotion": "amused",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
      "Új",
      "új",
      "우이"
+    ],
+    [
+     "biciklis",
+     "biciklis",
+     ""
     ],
     [
      "sisakot",
@@ -212,8 +200,8 @@
      "너존"
     ],
     [
-     "ronda",
-     "ronda",
+     "csúnya",
+     "csúnya",
      ""
     ]
    ]
@@ -221,18 +209,18 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Ronda?",
-   "rd": "론더?",
-   "ko": "못생겼어?",
-   "note": "ronda = 못생긴",
+   "hu": "Csúnya? 🙂",
+   "rd": "추녀? 🙂",
+   "ko": "못생겼다고? 🙂",
+   "note": "csúnya = 못생긴",
    "tags": [],
    "at": "17:14",
-   "emotion": "stiff",
+   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "Ronda",
-     "ronda",
+     "Csúnya",
+     "csúnya",
      ""
     ]
    ]
@@ -240,25 +228,29 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Mint egy fazék a fején!",
-   "rd": "민트 에지 퍼젝 어 페옌!",
-   "ko": "머리에 냄비 쓴 것 같아!",
-   "note": "fazék = 냄비",
+   "hu": "Nagyon! De ő szereti, szegény.",
+   "rd": "너죤! 데 외 쎄레티, 쎄게니.",
+   "ko": "엄청! 근데 본인은 좋아해, 불쌍하게.",
+   "note": "szegény = 가엾은",
    "tags": [],
    "at": "17:14",
-   "stamp": "😂",
    "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "fazék",
-     "fazék",
-     ""
+     "Nagyon",
+     "nagyon",
+     "너존"
     ],
     [
-     "fején",
-     "feje",
-     ""
+     "szereti",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "szegény",
+     "szegény",
+     "쎄게니"
     ]
    ]
   },
@@ -267,7 +259,7 @@
    "speaker": "B",
    "hu": "{name}. Nézd meg, kinek írsz. 😇",
    "rd": "{name}. 네즈드 멕, 키넥 이르쓰. 😇",
-   "ko": "{name}. 누구한테 쓰는지 봐. 😇",
+   "ko": "{name}. 누구한테 보내는지 봐. 😇",
    "note": "kinek = 누구에게",
    "tags": [],
    "at": "17:15",
@@ -294,66 +286,45 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Úristen. Réka, ne már!",
-   "rd": "우리슈텐. 레커, 네 마르!",
-   "ko": "세상에. 레카, 안 돼!",
+   "hu": "Úristen, Réka?! Bocsi!",
+   "rd": "우리슈텐, 레커?! 보치!",
+   "ko": "세상에. 레카?! 미안!",
    "note": "úristen = 세상에",
    "tags": [
-    "expr:Úristen",
-    "expr:ne már"
+    "expr:Úristen"
    ],
    "at": "17:15",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Úristen."
-    ],
-    [
-     "flustered",
-     "Réka, ne már!"
-    ]
-   ],
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
      "Úristen",
      "úristen",
      "우리슈텐"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Szombaton ott leszek. Nagyon meglepődöm.",
-   "rd": "쏨버톤 오트 레쎅. 너죤 멕레푀됨.",
-   "ko": "토요일에 갈게. 엄청 놀라 줄게.",
-   "note": "meglepődöm = 내가 놀란다",
+   "hu": "Semmi baj. Szombaton nagyon meglepődöm. 😄",
+   "rd": "셈미 버이. 쏨버톤 너죤 멕레푀됨. 😄",
+   "ko": "괜찮아. 토요일에 엄청 놀라 줄게. 😄",
+   "note": "meglepődöm = 놀란다",
    "tags": [],
    "at": "17:16",
-   "emotion": "teasing",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szombaton",
-     "szombat",
-     "솜바트"
+     "baj",
+     "baj",
+     "버이"
     ],
     [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "leszek",
-     "lesz",
-     "레쓰"
+     "nagyon",
+     "nagyon",
+     "너존"
     ],
     [
      "meglepődöm",
@@ -365,25 +336,18 @@
   {
    "num": 12,
    "speaker": "B",
-   "hu": "Ja, és a fazék marad. 😄",
-   "rd": "여, 에시 어 퍼젝 머러드. 😄",
-   "ko": "아, 그리고 냄비는 안 벗어. 😄",
+   "hu": "De a sisakom marad.",
+   "rd": "데 어 시셔콤 머러드.",
+   "ko": "근데 내 헬멧은 그대로야.",
    "note": "marad = 남는다",
-   "tags": [
-    "expr:Ja"
-   ],
+   "tags": [],
    "at": "17:16",
    "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "Ja",
-     "ja",
-     "여"
-    ],
-    [
-     "fazék",
-     "fazék",
+     "sisakom",
+     "sisakom",
      ""
     ],
     [

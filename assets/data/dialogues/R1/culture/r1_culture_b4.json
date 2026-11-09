@@ -10,9 +10,9 @@
  "domain": [
   "culture"
  ],
- "title": "절대 「맛있다」고 하지 마",
- "emoji": "🍲",
- "scene": "Anna 의 할머니 댁 일요일 점심. Anna 가 들어가기 전에 단단히 일러 준다",
+ "title": "굴라시는 수프",
+ "emoji": "🥣",
+ "scene": "Anna 의 할머니가 좋아하는 헝가리 음식을 물으신다. 내일 해 주시겠단다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
@@ -20,194 +20,184 @@
  },
  "register": "mixed",
  "twist": 8,
- "twist_type": "chaos",
+ "twist_type": "reveal",
  "flags": [],
- "goal": "음식 칭찬과 사양하는 말",
+ "goal": "좋아하는 음식 말하기와 gulyás/pörkölt 구별",
  "expressions": [
-  "Figyelj",
-  "Hogyhogy?",
-  "Köszönöm"
+  "Hát",
+  "Miért"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Figyelj! A nagyinál ne mondd, hogy finom.",
-   "rd": "피젤이! 어 너지날 네 몬드, 호지 피놈.",
-   "ko": "잘 들어! 할머니 댁에서 맛있다고 하지 마.",
-   "note": "finom = 맛있는",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "worried",
+   "speaker": "C",
+   "hu": "Mi a kedvenc magyar ételed, kedvesem?",
+   "rd": "미 어 케드벤츠 머져르 에텔레드, 케드베셈?",
+   "ko": "제일 좋아하는 헝가리 음식이 뭐니, 얘야?",
+   "note": "kedvenc = 가장 좋아하는",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "kedvenc",
+     "kedvenc",
+     "케드벤츠"
     ],
     [
-     "nagyinál",
-     "nagyi",
+     "magyar",
+     "magyar",
      ""
     ],
     [
-     "mondd",
-     "mond",
-     "몬드"
+     "ételed",
+     "ételed",
+     ""
     ],
     [
-     "finom",
-     "finom",
-     "피놈"
+     "kedvesem",
+     "kedvesem",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hogyhogy? És ha tényleg finom?",
-   "rd": "호지호지? 에시 허 테닐렉 피놈?",
-   "ko": "어째서? 진짜 맛있으면?",
-   "note": "hogyhogy? = 어째서?",
-   "tags": [
-    "expr:Hogyhogy?"
-   ],
-   "emotion": "surprised",
+   "hu": "A gulyás! Nagyon szeretem.",
+   "rd": "어 구야시! 너죤 쎄레템.",
+   "ko": "굴라시요! 정말 좋아해요.",
+   "note": "gulyás = 굴라시",
+   "tags": [],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Hogyhogy",
-     "hogyhogy",
+     "gulyás",
+     "gulyás",
      ""
     ],
     [
-     "tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "finom",
-     "finom",
-     "피놈"
+     "szeretem",
+     "szeret",
+     "쎄레트"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "C",
-   "hu": "Egyél, kedvesem! Itt a húsleves.",
-   "rd": "에젤, 케드베셈! 이트 어 후슐레베시.",
-   "ko": "먹으렴, 얘야! 고깃국이다.",
-   "note": "egyél = 먹어",
+   "hu": "Jó, holnap főzök gulyást. Gyertek ebédre!",
+   "rd": "요, 홀너프 푀죅 구야슈트. 제르텍 에베드레!",
+   "ko": "좋아, 내일 굴라시 끓일게. 점심 먹으러 오렴!",
+   "note": "gyertek = (너희) 와",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Egyél",
-     "eszik",
-     "에식"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "kedvesem",
-     "kedvesem",
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "főzök",
+     "főz",
      ""
     ],
     [
-     "húsleves",
-     "húsleves",
+     "gulyást",
+     "gulyás",
+     ""
+    ],
+    [
+     "ebédre",
+     "ebéd",
      ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "A",
-   "hu": "Köszönöm! Hű, ez nagyon finom!",
-   "rd": "쾨쐬뇜! 휘, 에즈 너죤 피놈!",
-   "ko": "감사합니다! 와, 이거 정말 맛있어요!",
-   "note": "köszönöm = 감사합니다",
-   "tags": [
-    "expr:Köszönöm"
-   ],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Köszönöm!"
-    ],
-    [
-     "excited",
-     "Hű, ez nagyon finom!"
-    ]
-   ],
+   "speaker": "B",
+   "hu": "Nagyi gulyása a legjobb a városban.",
+   "rd": "너지 구야셔 어 렉요브 어 바로슈번.",
+   "ko": "할머니 굴라시가 이 동네에서 제일 맛있어.",
+   "note": "a legjobb = 최고",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "Nagyi",
+     "nagyi",
+     ""
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
+     "gulyása",
+     "gulyása",
+     ""
     ],
     [
-     "finom",
-     "finom",
-     "피놈"
+     "legjobb",
+     "jó",
+     "요"
+    ],
+    [
+     "városban",
+     "város",
+     "버로슈"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "B",
-   "hu": "Jaj, {name}...",
-   "rd": "여이, {name}...",
-   "ko": "아이고, {name}…",
-   "note": "jaj = 아이고",
+   "speaker": "A",
+   "hu": "Hozok kenyeret. Vagy inkább rizst?",
+   "rd": "호족 케네레트. 버지 인카브 리지트?",
+   "ko": "빵 가져갈게요. 아니면 밥이 나을까?",
+   "note": "inkább = 차라리, 오히려",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Hozok",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "kenyeret",
+     "kenyere",
+     ""
+    ],
+    [
+     "inkább",
+     "inkább",
+     "인깝"
+    ],
+    [
+     "rizst",
+     "rizs",
+     ""
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "C",
-   "hu": "Finom? Akkor még egy tányérral!",
-   "rd": "피놈? 어꼬르 멕 에지 타네럴!",
-   "ko": "맛있어? 그럼 한 그릇 더!",
-   "note": "tányér = 접시, 그릇",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Finom?"
-    ],
-    [
-     "excited",
-     "Akkor még egy tányérral!"
-    ]
+   "speaker": "B",
+   "hu": "Rizst? Gulyáshoz? Miért?",
+   "rd": "리지트? 구야슈호즈? 미에르트?",
+   "ko": "밥? 굴라시에? 왜?",
+   "note": "-hoz = ~에 곁들여",
+   "tags": [
+    "expr:Miért"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Finom",
-     "finom",
-     "피놈"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "tányérral",
-     "tányér",
+     "Rizst",
+     "rizs",
      ""
     ]
    ]
@@ -215,32 +205,37 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Köszönöm, de már nem tudok enni.",
-   "rd": "쾨쐬뇜, 데 마르 넴 투독 엔니.",
-   "ko": "감사합니다만, 이제 못 먹겠어요.",
-   "note": "nem tudok enni = 못 먹겠다",
+   "hu": "Hát, nálunk a gulyás sűrű, rizzsel esszük.",
+   "rd": "하트, 날룬크 어 구야시 쉬뤼, 리젤 에쒹.",
+   "ko": "음, 우리 쪽에선 굴라시가 걸쭉해서 밥이랑 먹어.",
+   "note": "sűrű = 걸쭉한",
    "tags": [
-    "expr:Köszönöm"
+    "expr:Hát"
    ],
    "emotion": "flustered",
    "lemmas": [
     [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "Hát",
+     "hát",
+     "핫"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "gulyás",
+     "gulyás",
+     ""
     ],
     [
-     "tudok",
-     "tud",
-     "투드"
+     "sűrű",
+     "sűrű",
+     ""
     ],
     [
-     "enni",
+     "rizzsel",
+     "rizs",
+     ""
+    ],
+    [
+     "esszük",
      "eszik",
      "에식"
     ]
@@ -249,37 +244,42 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Nem ízlik?! Akkor főzök valami mást!",
-   "rd": "넴 이즐릭?! 어꼬르 푀죅 벌러미 마슈트!",
-   "ko": "입에 안 맞아?! 그럼 다른 거 해 주마!",
-   "note": "ízlik = 입에 맞다",
+   "hu": "Az pörkölt, kedvesem! A gulyás leves, kanállal esszük.",
+   "rd": "어즈 푀르쾰트, 케드베셈! 어 구야시 레베시, 커날럴 에쒹.",
+   "ko": "그건 푀르쾰트란다, 얘야! 굴라시는 수프야, 숟가락으로 먹지.",
+   "note": "pörkölt = 걸쭉한 고기 스튜",
    "tags": [],
-   "emotion": "worried",
-   "segs": [
-    [
-     "worried",
-     "Nem ízlik?!"
-    ],
-    [
-     "excited",
-     "Akkor főzök valami mást!"
-    ]
-   ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "ízlik",
-     "ízlik",
+     "pörkölt",
+     "pörköl",
      ""
     ],
     [
-     "főzök",
-     "főz",
+     "kedvesem",
+     "kedvesem",
      ""
     ],
     [
-     "mást",
-     "más",
-     "마시"
+     "gulyás",
+     "gulyás",
+     ""
+    ],
+    [
+     "leves",
+     "leves",
+     ""
+    ],
+    [
+     "kanállal",
+     "kanáll",
+     ""
+    ],
+    [
+     "esszük",
+     "eszik",
+     "에식"
     ]
    ]
   }

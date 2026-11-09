@@ -1,20 +1,20 @@
 === r1_culture_b5
 kind: long
-title: 제일 긴 낱말, 두 개요
+title: 랑고시에 우유?
 emoji: 🥖
-scene: 빵집 줄. 일주일 외운 헝가리어 최장 낱말을 Réka 에게 자랑하려 한다
+scene: 시장에서 Réka 가 랑고시를 먹어 보라고 추천한다. 직접 주문해 본다
 b: Réka
 c: Eladó
 register: mixed
-twist: 7 slip
+twist: 5 slip
 purpose: media
-goal: Mit jelent? 로 뜻 묻기, 가게에서 수량 답하기
-expressions: Figyelj; Ne már; Hát
-B | Mit tanulsz? Mi ez a hosszú szó? | 뭐 배워? 이 긴 낱말은 뭐야? | hosszú = 긴 | emotion=cheerful
-A | A leghosszabb magyar szó. Figyelj, mondom! | 헝가리어에서 제일 긴 낱말이야. 들어 봐, 말한다! | leg-…-bb = 가장 ~한 | emotion=excited
-B | Ne már! Itt, a pékségben? | 에이! 여기, 빵집에서? | pékség = 빵집 | emotion=tsukkomi
-A | Igen! Megszentségteleníthetetlenségeskedéseitekért! | 응! 메그센트셰그텔레니트헤테틀렌셰게시케데셰이테케르트! | 헝가리어 최장 낱말로 유명한 장난말 | emotion=excited
-B | Úristen! És mit jelent? | 세상에! 그래서 무슨 뜻이야? | mit jelent? = 무슨 뜻이야? | emotion=surprised+amused
-A | Nem tudom. Egy hétig tanultam. | 몰라. 일주일 동안 외웠어. | egy hétig = 일주일 동안 | emotion=shy
-C | Tessék. Hány darabot kér? | 네. 몇 개 드릴까요? | hány darabot? = 몇 개를? | emotion=polite
-A | Hát... kettőt. | 음… 두 개요. | kettőt = 둘을(목적격) | emotion=flustered
+goal: 음식 추천받고 주문하기(Mit ajánlasz? · …-val kérek)
+expressions: Mit ajánlasz; Bocsánat; Szóval
+B | Itt a legjobb lángos a piacon. | 여기가 시장에서 제일 맛있는 랑고시야. | lángos = 튀긴 빵 | emotion=excited
+A | Mit ajánlasz? Először eszem lángost. | 뭐 추천해? 랑고시 처음 먹어 봐. | Mit ajánlasz? = 뭐 추천해? | emotion=cheerful
+B | Sajtos-tejfölöset. Az a klasszikus. | 치즈 사워크림. 그게 기본이야. | tejföl = 사워크림 | emotion=gentle
+C | Jó napot! Mit kér? | 안녕하세요! 뭐 드릴까요? | Mit kér? = 뭐 드릴까요? | emotion=polite
+A | Egy lángost kérek, sajttal és tejjel. | 랑고시 하나 주세요, 치즈랑 우유 올려서요. | tej = 우유 | emotion=polite
+C | Tejjel? A lángosra? | 우유요? 랑고시 위에요? | -ra = ~위에 | emotion=surprised
+B | Tejföllel! Bocsánat, még tanul. | 사워크림이요! 죄송해요, 아직 배우는 중이라서요. | még tanul = 아직 배우는 중 | emotion=amused+polite
+A | Szóval a tejföl nem tej? Mindegy, finom! | 그러니까 tejföl 은 우유가 아니야? 아무튼, 맛있다! | mindegy = 아무래도 좋아 | emotion=surprised+cheerful

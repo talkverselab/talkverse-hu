@@ -10,117 +10,331 @@
  "domain": [
   "work"
  ],
- "title": "전 직원 방의 레테시",
- "emoji": "🥧",
- "scene": "회사 메신저. 옆자리 동료에게 물어본다는 게 전 직원 방에 올라갔다",
+ "title": "단체방에 보낸 혼잣말",
+ "emoji": "💬",
+ "scene": "회사 메신저. 이사님이 월요일 아침 8시 팀 회의를 공지한다. 동료에게만 보낸다는 불평이 단체방에 올라간다",
  "speakers": {
   "A": "{name}",
   "B": "Kolléga",
-  "C": "Igazgató",
-  "D": "Bécsi iroda"
+  "C": "Igazgató"
  },
  "register": "chat",
  "twist": 11,
  "twist_type": "chaos",
  "flags": [],
- "goal": "회사 메신저에서 사과하고 부탁하기(ne + 명령형, 존댓말)",
+ "goal": "회사 메신저에서 공지에 답하기와 사과하기(Elnézést kérek, rossz helyre írtam)",
  "expressions": [
-  "Hé",
-  "Bocsánat",
-  "Figyelj",
-  "Bocsi",
-  "Jaj"
+  "Komolyan",
+  "Úristen",
+  "Semmi baj"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "A konyhában van egy almás rétes. Kié? 😄",
-   "rd": "어 코니하번 번 에지 얼마시 레테시. 키에? 😄",
-   "ko": "부엌에 사과 레테시가 있어요. 누구 거예요? 😄",
-   "note": "kié? = 누구 것?",
+   "speaker": "C",
+   "hu": "Kedves Kollégák! Hétfőn reggel nyolckor csapatmegbeszélés lesz.",
+   "rd": "케드베시 콜레각! 헤트푄 렉겔 뇰츠코르 처퍼트멕베쎌레시 레쓰.",
+   "ko": "동료 여러분! 월요일 아침 8시에 팀 회의가 있습니다.",
+   "note": "csapatmegbeszélés = 팀 회의",
    "tags": [],
-   "at": "11:02",
-   "emotion": "cheerful",
+   "at": "16:02",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
-     "konyhában",
-     "konyha",
+     "Kedves",
+     "kedves",
+     "케드베슈"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "nyolckor",
+     "nyolckor",
      ""
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "almás",
-     "almás",
+     "csapatmegbeszélés",
+     "csapatmegbeszélés",
      ""
     ],
     [
-     "rétes",
-     "rétes",
-     "레테시"
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Hé, ez a Mindenki csoport! Ezer ember látja ezt.",
-   "rd": "헤, 에즈 어 민덴키 초포르트! 에제르 엠베르 라트여 에즈트.",
-   "ko": "야, 여기 「전 직원」 방이야! 천 명이 보고 있어.",
-   "note": "csoport = 그룹",
-   "tags": [
-    "expr:Hé"
-   ],
-   "at": "11:03",
-   "emotion": "surprised",
+   "hu": "Rendben, ott leszek.",
+   "rd": "렌드벤, 오트 레쎅.",
+   "ko": "알겠습니다, 참석하겠습니다.",
+   "note": "ott leszek = 참석하겠다",
+   "tags": [],
+   "at": "16:05",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
-     "Hé",
-     "hé",
-     "헤"
+     "Rendben",
+     "rend",
+     "렌드"
     ],
     [
-     "csoport",
-     "csoport",
-     "초포르트"
+     "ott",
+     "ott",
+     "오트"
     ],
     [
-     "ember",
-     "ember",
-     "엠베르"
-    ],
-    [
-     "látja",
-     "lát",
-     "라트"
+     "leszek",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Jaj! Bocsánat, mindenki, rossz helyre írtam.",
-   "rd": "여이! 보차너트, 민덴키, 로쓰 헤이레 이르텀.",
-   "ko": "앗! 여러분 죄송합니다, 잘못 올렸어요.",
-   "note": "rossz helyre = 틀린 곳으로",
+   "hu": "Köszönöm, ott leszek.",
+   "rd": "쾨쐬뇜, 오트 레쎅.",
+   "ko": "감사합니다, 참석하겠습니다.",
+   "note": "köszönöm = 감사합니다",
+   "tags": [],
+   "at": "16:06",
+   "emotion": "polite",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "leszek",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Komolyan, hétfőn nyolckor? Akkor én még alszom. 😴",
+   "rd": "코모연, 헤트푄 뇰츠코르? 어꼬르 엔 멕 얼쏨. 😴",
+   "ko": "진짜, 월요일 8시? 나 그때 아직 자는데. 😴",
+   "note": "alszom = 잔다",
    "tags": [
-    "expr:Bocsánat",
-    "expr:Jaj"
+    "expr:Komolyan"
    ],
-   "at": "11:04",
+   "at": "16:07",
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "hétfőn",
+     "hétfő",
+     ""
+    ],
+    [
+     "nyolckor",
+     "nyolckor",
+     ""
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "alszom",
+     "alszik",
+     "얼루시크"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Haha. Ezt nekem írtad, vagy a csoportba?",
+   "rd": "허허. 에즈트 네켐 이르터드, 버지 어 초포르트버?",
+   "ko": "ㅋㅋ 이거 나한테 쓴 거야, 단체방에 쓴 거야?",
+   "note": "csoport = 그룹, 단체방",
+   "tags": [],
+   "at": "16:08",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Haha",
+     "haha",
+     ""
+    ],
+    [
+     "írtad",
+     "írt",
+     ""
+    ],
+    [
+     "csoportba",
+     "csoport",
+     "초포르트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Neked, persze. Miért?",
+   "rd": "네케드, 페르쎄. 미에르트?",
+   "ko": "너한테지, 당연히. 왜?",
+   "note": "persze = 당연히",
+   "tags": [],
+   "at": "16:08",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "persze",
+     "persze",
+     "페르쎄"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Mert a csoportban látom. Az igazgató is olvasta. 👀",
+   "rd": "메르트 어 초포르트번 라톰. 어즈 이거즈거토 이시 올버슈터. 👀",
+   "ko": "단체방에 보이거든. 이사님도 읽었어. 👀",
+   "note": "olvasta = 그걸 읽었다",
+   "tags": [],
+   "at": "16:09",
+   "emotion": "amused",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "csoportban",
+     "csoport",
+     "초포르트"
+    ],
+    [
+     "látom",
+     "lát",
+     "라트"
+    ],
+    [
+     "igazgató",
+     "igazgat",
+     "이거즈거트"
+    ],
+    [
+     "olvasta",
+     "olvas",
+     "올버스"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Úristen. Hogy lehet törölni?",
+   "rd": "우리슈텐. 호지 레헤트 퇴뢸니?",
+   "ko": "세상에. 어떻게 지워?",
+   "note": "törölni = 지우다",
+   "tags": [
+    "expr:Úristen"
+   ],
+   "at": "16:09",
    "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Úristen",
+     "úristen",
+     "우리슈텐"
+    ],
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "törölni",
+     "töröl",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "hu": "Már késő. Szerintem írj valamit gyorsan.",
+   "rd": "마르 케쇠. 쎄린템 이르이 벌러미트 죠르션.",
+   "ko": "이미 늦었어. 빨리 뭐라도 써.",
+   "note": "gyorsan = 빨리",
+   "tags": [],
+   "at": "16:10",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "késő",
+     "késik",
+     "케시크"
+    ],
+    [
+     "írj",
+     "írj",
+     ""
+    ],
+    [
+     "gyorsan",
+     "gyors",
+     "죠르시"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Elnézést kérek, rossz helyre írtam. Természetesen ott leszek hétfőn.",
+   "rd": "엘네제슈트 케렉, 로쓰 헤이레 이르텀. 테르메쎄테센 오트 레쎅 헤트푄.",
+   "ko": "죄송합니다, 잘못 보냈습니다. 물론 월요일에 참석합니다.",
+   "note": "rossz helyre = 잘못된 곳에",
+   "tags": [],
+   "at": "16:11",
+   "emotion": "stiff",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
     ],
     [
      "rossz",
@@ -136,384 +350,174 @@
      "írtam",
      "írt",
      ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "D",
-   "hu": "Jó napot, itt a bécsi iroda. Miért kaptunk üzenetet egy rétesről?",
-   "rd": "요 너포트, 이트 어 베치 이로더. 미에르트 커프툰크 위제네테트 에지 레테슈뢸?",
-   "ko": "안녕하세요, 빈 지사입니다. 왜 레테시 메시지가 왔죠?",
-   "note": "üzenet = 메시지",
-   "tags": [],
-   "at": "11:06",
-   "emotion": "stiff",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Jó",
-     "jó",
-     "요"
     ],
     [
-     "napot",
-     "nap",
-     "넙"
+     "ott",
+     "ott",
+     "오트"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "leszek",
+     "lesz",
+     "레쓰"
     ],
     [
-     "bécsi",
-     "bécsi",
+     "hétfőn",
+     "hétfő",
      ""
-    ],
-    [
-     "iroda",
-     "iroda",
-     "이로더"
-    ],
-    [
-     "kaptunk",
-     "kap",
-     "커프"
-    ],
-    [
-     "üzenetet",
-     "üzenete",
-     "위제네테"
-    ],
-    [
-     "rétesről",
-     "rétes",
-     "레테시"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Figyelj, már harminc válasz van. Mindenki azt írja, hogy ne írjunk ide.",
-   "rd": "피젤이, 마르 허르민츠 발러쓰 번. 민덴키 어즈트 이르여, 호지 네 이르윤크 이데.",
-   "ko": "야, 답글이 벌써 서른 개야. 다들 여기 쓰지 말자고 쓰고 있어.",
-   "note": "ne írjunk = 쓰지 말자",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "at": "11:08",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "harminc",
-     "harminc",
-     ""
-    ],
-    [
-     "válasz",
-     "válasz",
-     "바라스"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "írja",
-     "ír",
-     "이르"
-    ],
-    [
-     "ide",
-     "ide",
-     "이데"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Kérem, ne írjanak ide!",
-   "rd": "케렘, 네 이르여넉 이데!",
-   "ko": "제발 여기 쓰지 말아 주세요!",
-   "note": "ne írjanak = 쓰지 마세요(여러분, 존댓말)",
-   "tags": [],
-   "at": "11:09",
-   "emotion": "flustered",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Kérem",
-     "kér",
-     "께르"
-    ],
-    [
-     "írjanak",
-     "írja",
-     ""
-    ],
-    [
-     "ide",
-     "ide",
-     "이데"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Te is ide írtad.",
-   "rd": "테 이시 이데 이르터드.",
-   "ko": "너도 여기 썼잖아.",
-   "note": "ide = 여기로",
-   "tags": [],
-   "at": "11:09",
-   "emotion": "tsukkomi",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "ide",
-     "ide",
-     "이데"
-    ],
-    [
-     "írtad",
-     "írt",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "hu": "Bocsi.",
-   "rd": "보치.",
-   "ko": "미안.",
-   "note": "bocsi = 미안(가벼운 말)",
-   "tags": [
-    "expr:Bocsi"
-   ],
-   "at": "11:10",
-   "emotion": "sad",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Bocsi",
-     "bocsi",
-     "보치"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "B",
-   "hu": "Ezt is.",
-   "rd": "에즈트 이시.",
-   "ko": "그것도.",
-   "note": "ezt is = 이것도",
-   "tags": [],
-   "at": "11:10",
-   "emotion": "tsukkomi",
-   "ui": "bubble",
-   "lemmas": []
-  },
-  {
-   "num": 10,
-   "speaker": "C",
-   "hu": "Itt az igazgató. Kérem, mindenki hagyja abba.",
-   "rd": "이트 어즈 이거즈거토. 케렘, 민덴키 허지여 어버.",
-   "ko": "이사입니다. 모두 그만하세요.",
-   "note": "hagyja abba = 그만두세요",
-   "tags": [],
-   "at": "11:20",
-   "emotion": "stiff",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "igazgató",
-     "igazgat",
-     "이거즈거트"
-    ],
-    [
-     "hagyja",
-     "hagy",
-     "허지"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "D",
-   "hu": "A levelezőnk leállt a rétes miatt. Ez komoly?",
-   "rd": "어 레벨레죈크 레알트 어 레테시 미어트. 에즈 코모이?",
-   "ko": "저희 메일이 레테시 때문에 멈췄습니다. 이게 진심입니까?",
-   "note": "leállt = 멈췄다",
-   "tags": [],
-   "at": "11:31",
-   "emotion": "stiff",
-   "segs": [
-    [
-     "stiff",
-     "A levelezőnk leállt a rétes miatt."
-    ],
-    [
-     "annoyed",
-     "Ez komoly?"
-    ]
+   "speaker": "C",
+   "hu": "Semmi baj. Igazság szerint nyolckor én is alszom.",
+   "rd": "셈미 버이. 이거작 쎄린트 뇰츠코르 엔 이시 얼쏨.",
+   "ko": "괜찮습니다. 솔직히 8시엔 저도 자요.",
+   "note": "igazság szerint = 솔직히 말하면",
+   "tags": [
+    "expr:Semmi baj"
    ],
+   "at": "16:15",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "levelezőnk",
-     "levelező",
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "nyolckor",
+     "nyolckor",
      ""
     ],
     [
-     "leállt",
-     "leáll",
-     ""
-    ],
-    [
-     "rétes",
-     "rétes",
-     "레테시"
-    ],
-    [
-     "komoly",
-     "komoly",
-     "코모이"
+     "alszom",
+     "alszik",
+     "얼루시크"
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "B",
-   "hu": "Most ötven ember áll a konyhában. Mind a rétest nézi.",
-   "rd": "모슈트 외트벤 엠베르 알 어 코니하번. 민드 어 레테슈트 네지.",
-   "ko": "지금 부엌에 쉰 명이 서 있어. 다들 레테시를 보고 있어.",
-   "note": "mind = 모두",
+   "speaker": "C",
+   "hu": "Ki szeretne inkább tízkor kezdeni? Szavazzunk!",
+   "rd": "키 쎄레트네 인카브 티즈코르 케즈데니? 써버준크!",
+   "ko": "10시가 더 좋은 분? 투표합시다!",
+   "note": "szavazzunk = 투표하자",
    "tags": [],
-   "at": "11:40",
-   "emotion": "amused",
+   "at": "16:15",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Most",
-     "most",
-     "모슈트"
+     "Ki",
+     "ki",
+     "키"
     ],
     [
-     "ötven",
-     "ötven",
-     ""
+     "szeretne",
+     "szeret",
+     "쎄레트"
     ],
     [
-     "ember",
-     "ember",
-     "엠베르"
+     "inkább",
+     "inkább",
+     "인깝"
     ],
     [
-     "áll",
-     "áll",
-     "알"
-    ],
-    [
-     "konyhában",
-     "konyha",
-     ""
-    ],
-    [
-     "rétest",
-     "rétes",
-     "레테시"
-    ],
-    [
-     "nézi",
-     "néz",
-     "네즈"
+     "kezdeni",
+     "kezd",
+     "케즈드"
     ]
    ]
   },
   {
    "num": 13,
-   "speaker": "A",
-   "hu": "Nem írok többet. Soha.",
-   "rd": "넴 이록 퇴베트. 쇼허.",
-   "ko": "이제 안 쓰겠습니다. 영원히.",
-   "note": "többet = 더",
+   "speaker": "B",
+   "hu": "Én! És a könyvelés is, mind a hatan. 😂",
+   "rd": "엔! 에시 어 쾨니벨레시 이시, 민드 어 허턴. 😂",
+   "ko": "저요! 회계팀도요, 여섯 명 전부. 😂",
+   "note": "mind a hatan = 여섯 명 모두",
    "tags": [],
-   "at": "11:41",
-   "emotion": "sad",
+   "at": "16:16",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "írok",
-     "ír",
-     "이르"
+     "könyvelés",
+     "könyvelés",
+     ""
     ],
     [
-     "többet",
-     "több",
-     "퇴그"
+     "hatan",
+     "hatan",
+     ""
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "C",
-   "hu": "Még valami: az a rétes az enyém. Ne nyúljanak hozzá!",
-   "rd": "멕 벌러미: 어즈 어 레테시 어즈 에넴. 네 뉼여넉 호자!",
-   "ko": "하나 더요. 그 레테시 제 겁니다. 손대지 마세요!",
-   "note": "ne nyúljanak hozzá = 손대지 마세요",
+   "hu": "Akkor tízkor kezdünk. A kávét én hozom.",
+   "rd": "어꼬르 티즈코르 케즈뒨크. 어 카베트 엔 호좀.",
+   "ko": "그럼 10시에 시작합니다. 커피는 제가 가져올게요.",
+   "note": "kezdünk = 시작한다",
    "tags": [],
-   "at": "11:45",
-   "stamp": "😇",
-   "emotion": "stiff",
-   "segs": [
-    [
-     "stiff",
-     "Még valami: az a rétes az enyém."
-    ],
-    [
-     "shout",
-     "Ne nyúljanak hozzá!"
-    ]
-   ],
+   "at": "16:18",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Még",
-     "még",
-     "메그"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "rétes",
-     "rétes",
-     "레테시"
+     "kezdünk",
+     "kezd",
+     "케즈드"
     ],
     [
-     "nyúljanak",
-     "nyúlik",
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "hozom",
+     "hoz",
+     "호즈"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "hu": "Hősünk vagy! Legközelebb is panaszkodj a csoportba.",
+   "rd": "회쉰크 버지! 렉쾨젤레브 이시 퍼너쓰코드이 어 초포르트버.",
+   "ko": "네가 우리 영웅이야! 다음에도 단체방에 불평해.",
+   "note": "panaszkodj = 불평해",
+   "tags": [],
+   "at": "16:19",
+   "stamp": "😂",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hősünk",
+     "hősünk",
      ""
+    ],
+    [
+     "panaszkodj",
+     "panasz",
+     ""
+    ],
+    [
+     "csoportba",
+     "csoport",
+     "초포르트"
     ]
    ]
   }

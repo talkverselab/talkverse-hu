@@ -1,19 +1,19 @@
 === r1_travel_c3
 kind: chat
-title: 곧 도착해
-emoji: 🚄
-scene: Dávid 를 만나러 기차를 탔다. 무슨 기차인지는 모른다
+title: 체크인은 3시부터
+emoji: 🧳
+scene: 아침에 호텔에 도착했는데 방은 오후부터. Dávid 에게 캐리어를 어쩔지 묻는다
 b: Dávid
 register: chat
-twist: 7 chaos
+twist: 7 slip
 purpose: travel making_friends
-goal: 채팅으로 위치 알리기(-ban/-ben)
-expressions: Mindjárt; Nem tudom; Mi van?; Figyelj; Király
-A | Mindjárt ott vagyok! 🚆 | 곧 도착해! 🚆 | mindjárt = 곧 | emotion=excited at=10:02
-B | Szuper. Melyik vonat? | 좋아. 어느 기차? | melyik = 어느 | emotion=neutral at=10:03
-A | Nem tudom. Gyors. 😄 | 몰라. 빨라. 😄 | gyors = 빠른 | emotion=cheerful at=10:03
-B | Na, hol vagy? | 그래서, 어디야? | na = 그래서, 자 | emotion=neutral at=11:15
-A | Itt minden németül van. | 여기 전부 독일어로 돼 있어. | németül = 독일어로 | emotion=worried at=12:38
-B | Mi van? | 뭐? | mi van? = 뭐?, 뭐야? | emotion=surprised at=12:38
-A | Figyelj, Bécsben vagyok. | 있잖아, 나 빈이야. | Bécs = 빈(오스트리아) | emotion=flustered at=12:41
-B | Király. Hozz csokit! | 대박. 초콜릿 사 와! | király = 끝내준다(글자 뜻: 왕) | emotion=amused at=12:42
+goal: 짐 맡기기 묻기(Hol hagyjam? · megőriz)
+expressions: Na; Kérdezd meg; Nem baj
+A | Megérkeztem! De a szobát csak háromtól kapom. | 도착! 근데 방은 3시부터래. | háromtól = 3시부터 | emotion=cheerful+annoyed at=10:15
+B | Na és a bőrönd? | 그럼 캐리어는? | bőrönd = 여행 가방 | emotion=neutral at=10:16
+A | Az a gond. Hol hagyjam? | 그게 문제야. 어디 두지? | hagyjam = 내가 둘까(가정법) | emotion=worried at=10:16
+B | A szállodában megőrzik. Kérdezd meg! | 호텔에서 맡아 줘. 물어봐! | megőriz = 보관하다 | emotion=gentle at=10:17
+A | Megkérdeztem. Ingyen van! 😊 | 물어봤어. 무료래! 😊 | ingyen = 무료로 | emotion=excited at=10:25
+B | Szuper. Akkor gyere ebédelni! | 좋아. 그럼 점심 먹으러 와! | ebédelni = 점심 먹으러 | emotion=cheerful at=10:26
+A | Megyek! Jaj, a pénztárcám a bőröndben maradt. | 갈게! 아이고, 지갑을 캐리어에 두고 왔다. | pénztárca = 지갑 | emotion=excited+flustered at=10:31
+B | Nem baj, ma én fizetek. 😄 | 괜찮아, 오늘은 내가 살게. 😄 | én fizetek = 내가 낸다 | emotion=gentle at=10:32

@@ -1,76 +1,75 @@
 {
 "ep": "r1_friends_c2",
 "cast": {
-"B": "reka"
+"B": "reka",
+"C": "man_m"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"annoyed",
-"Figyelj, miért hívnak engem?"
+"excited",
+"Sziasztok! Ki jön ma moziba? 🎬",
+"Sziasztok! Ki jön ma moziba?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"flustered",
-"Kik? Nem tudom."
+"excited",
+"Én! Hánykor?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shout",
-"Már tíz ember!"
-],
-[
-"annoyed",
-"Kérik a biciklimet."
+"cheerful",
+"Hétkor kezdődik a film."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Jaj. Az a hirdetés...",
-"Jaj. Az a hirdetés"
+"cheerful",
+"Szuper! Hozom Bencét is."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"shout",
-"Milyen hirdetés?! Mit írtál?"
+"excited",
+"És Annát meg Petit. 😄",
+"És Annát meg Petit."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Olcsó bicikli: ingyen. Ez olcsó, nem?"
+"surprised",
+"Hű, már öt jegy kell!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"tsukkomi",
-"Nem! Az nulla!"
+"cheerful",
+"Én is megyek! Jó gyakorlás. 😊",
+"Én is megyek! Jó gyakorlás."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"annoyed",
-"Most száz ember áll a háznál. 😱",
-"Most száz ember áll a háznál."
+"flustered",
+"Úristen, a tanár is jön?! 😳",
+"Úristen, a tanár is jön?!"
 ]
 ]
 }

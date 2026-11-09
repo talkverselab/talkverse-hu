@@ -11,9 +11,9 @@
  "domain": [
   "love"
  ],
- "title": "예쁜 감자",
- "emoji": "🥔",
- "scene": "미술관 앞 벤치. 처음 보는 Anna 가 스케치북을 들고 먼저 말을 건다",
+ "title": "같이 줄 설래?",
+ "emoji": "☕",
+ "scene": "아침 Bence 의 카페 줄. 뒤에 선 Anna 가 먼저 말을 건다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
@@ -24,209 +24,32 @@
  "flags": [
   "romance"
  ],
- "goal": "되묻는 말(Tessék? Mi van?)과 놀랄 때 쓰는 말 익히기",
+ "goal": "처음 말 걸기와 주문 말하기(Mit kérsz? · ugye?)",
  "expressions": [
-  "Elnézést",
-  "Tessék?",
-  "Mi van?",
-  "Nézd"
+  "Ugye",
+  "Hát",
+  "Komolyan?"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Elnézést, egy pillanat. Ne mozogj!",
-   "rd": "엘네제슈트, 에지 필러너트. 네 모족이!",
-   "ko": "실례, 잠깐만. 움직이지 마!",
-   "note": "egy pillanat = 잠깐만",
-   "tags": [
-    "expr:Elnézést"
-   ],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Elnézést, egy pillanat."
-    ],
-    [
-     "cheerful",
-     "Ne mozogj!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "pillanat",
-     "pillanat",
-     "필러넛"
-    ],
-    [
-     "mozogj",
-     "mozogj",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "hu": "Tessék? Mi van?",
-   "rd": "테쎅? 미 번?",
-   "ko": "네? 뭐야?",
-   "note": "tessék? = 네?(되물을 때)",
-   "tags": [
-    "expr:Tessék?",
-    "expr:Mi van?"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Tessék",
-     "tessék",
-     "테셰크"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Rajzollak. Jó az arcod.",
-   "rd": "러이졸럭. 요 어즈 어르초드.",
-   "ko": "너 그리고 있어. 얼굴이 좋아서.",
-   "note": "-lak = 내가 너를 ~한다",
+   "hu": "Szia! Te is mindig itt kávézol?",
+   "rd": "씨어! 테 이시 민딕 이트 카베졸?",
+   "ko": "안녕! 너도 늘 여기서 커피 마셔?",
+   "note": "kávézol = 커피 마신다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Rajzollak",
-     "rajzol",
-     ""
+     "Szia",
+     "szia",
+     "씨어"
     ],
     [
-     "arcod",
-     "arc",
-     "어르츠"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Az arcom? Köszi...",
-   "rd": "어즈 어르촘? 쾨씨...",
-   "ko": "내 얼굴? 고마워…",
-   "note": "arc = 얼굴, -om = 내",
-   "tags": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "arcom",
-     "arc",
-     "어르츠"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Nézd! Kész.",
-   "rd": "네즈드! 케쓰.",
-   "ko": "봐! 다 됐어.",
-   "note": "nézd = 봐",
-   "tags": [
-    "expr:Nézd"
-   ],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Nézd",
-     "néz",
-     "네즈"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Ez nem én vagyok. Ez egy krumpli!",
-   "rd": "에즈 넴 엔 버죡. 에즈 에지 크룸플리!",
-   "ko": "이건 내가 아니야. 감자잖아!",
-   "note": "krumpli = 감자",
-   "tags": [],
-   "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "krumpli",
-     "krumpli",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Igen. De nagyon szép krumpli.",
-   "rd": "이겐. 데 너죤 쎄프 크룸플리.",
-   "ko": "응. 그래도 아주 예쁜 감자야.",
-   "note": "de = 하지만",
-   "tags": [],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "szép",
-     "szép",
-     "쎕"
-    ],
-    [
-     "krumpli",
-     "krumpli",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "hu": "Na jó. Holnap is itt leszek.",
-   "rd": "너 요. 홀너프 이시 이트 레쎅.",
-   "ko": "그래 좋아. 내일도 여기 있을게.",
-   "note": "na jó = 그래 좋아, leszek = 나는 ~일 것이다",
-   "tags": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "Na",
-     "na",
-     "너"
-    ],
-    [
-     "jó",
-     "jó",
-     "요"
+     "mindig",
+     "mindig",
+     "민딕"
     ],
     [
      "itt",
@@ -234,9 +57,204 @@
      "이트"
     ],
     [
-     "leszek",
-     "lesz",
-     "레쓰"
+     "kávézol",
+     "kávézik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Igen, minden reggel. Te is?",
+   "rd": "이겐, 민덴 렉겔. 테 이시?",
+   "ko": "응, 매일 아침. 너도?",
+   "note": "minden reggel = 매일 아침",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Igen. Mit kérsz ma?",
+   "rd": "이겐. 미트 케르쓰 머?",
+   "ko": "응. 오늘은 뭐 시킬 거야?",
+   "note": "mit kérsz? = 뭐 시킬래?",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "kérsz",
+     "kér",
+     "께르"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Egy nagy lattét, mint mindig.",
+   "rd": "에지 너지 러떼트, 민트 민딕.",
+   "ko": "큰 라테, 늘 그렇듯.",
+   "note": "mint mindig = 늘 그렇듯",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "lattét",
+     "lattét",
+     ""
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Tudom. Zabtejjel, ugye?",
+   "rd": "투돔. 저브테옐, 우제?",
+   "ko": "알아. 귀리우유로, 맞지?",
+   "note": "ugye = 그렇지?",
+   "tags": [
+    "expr:Ugye"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Tudom",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Mi van? Honnan tudod?",
+   "rd": "미 번? 혼넌 투도드?",
+   "ko": "뭐야? 어떻게 알아?",
+   "note": "honnan tudod? = 어떻게 알아?",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "tudod",
+     "tud",
+     "투드"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Hát... minden reggel mögötted állok.",
+   "rd": "하트... 민덴 렉겔 뫼괴떼드 알록.",
+   "ko": "음… 매일 아침 네 뒤에 서 있거든.",
+   "note": "mögötted = 네 뒤에",
+   "tags": [
+    "expr:Hát"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "állok",
+     "áll",
+     "알"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Komolyan? Akkor holnap együtt állunk sorba?",
+   "rd": "코모연? 어꼬르 홀너프 에쥐트 알룬크 쇼르버?",
+   "ko": "진짜? 그럼 내일은 같이 줄 설래?",
+   "note": "sorba áll = 줄을 서다",
+   "tags": [
+    "expr:Komolyan?"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Komolyan?"
+    ],
+    [
+     "shy",
+     "Akkor holnap együtt állunk sorba?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "együtt",
+     "együtt",
+     "에듀트"
+    ],
+    [
+     "állunk",
+     "áll",
+     "알"
+    ],
+    [
+     "sorba",
+     "sor",
+     "쇼르"
     ]
    ]
   }

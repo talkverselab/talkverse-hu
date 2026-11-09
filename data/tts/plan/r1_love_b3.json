@@ -2,83 +2,74 @@
 "ep": "r1_love_b3",
 "cast": {
 "B": "anna",
-"C": "bence",
-"D": "woman_o"
+"C": "bence"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"amused",
-"Hű, de sok virág! Mi van ma?"
+"cheerful",
+"Boldog névnapot, Anna! Ma ingyen van a kávé."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Ma van Anna névnapja, de nem látom."
+"cheerful",
+"Jaj, köszi, Bence! Kedves vagy."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"amused",
-"Hát szólj neki hangosan! Kicsi a kávézó."
+"surprised",
+"Névnap? Ma van a szülinapod?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"excited",
-"Boldog névnapot, Anna! Ez a tiéd!"
+"gentle",
+"Nem, a névnapom. Ma minden Annát köszöntenek."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"gentle",
-"Köszönöm, drágám!"
-],
-[
 "surprised",
-"Honnan tudod a nevem?"
+"Szóval minden névnek van napja?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Jaj, ma itt mindenki Anna. Már hárman állnak mögötted."
+"cheerful",
+"Persze. Az enyém januárban van."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Mi van?"
-],
-[
-"flustered",
-"De hát nekem csak egy Annám van!"
+"excited",
+"És az én nevemnek?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shy",
-"Hallottam."
+"gentle",
+"Nincs a naptárban."
 ],
 [
-"teasing",
-"Szóval van egy Annád?"
+"shy",
+"Legyen a mai nap a tiéd is."
 ]
 ]
 }

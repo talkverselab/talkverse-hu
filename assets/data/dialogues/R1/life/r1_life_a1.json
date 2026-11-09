@@ -5,44 +5,46 @@
  "kind": "short",
  "draft": true,
  "purpose": [
+  "study_abroad",
   "making_friends"
  ],
  "domain": [
   "life"
  ],
- "title": "우유 많이",
- "emoji": "🥛",
- "scene": "룸메이트 Dávid 가 장 보러 나가는 길에 우유를 부탁한다. 얼마나? 그냥 많이.",
+ "title": "가게 가는 길에",
+ "emoji": "🛒",
+ "scene": "룸메이트 Dávid 가 마트에 간다. 뭐 필요하냐고 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid"
  },
  "register": "casual",
  "twist": 7,
- "twist_type": "chaos",
+ "twist_type": "reveal",
  "flags": [],
- "goal": "필요한 것 묻기(Mi kell?)와 mindegy 쓰기",
+ "goal": "필요한 것 부탁하기(Kell valami? · Hozol…?)",
  "expressions": [
-  "Mi kell?",
-  "Mindegy",
-  "Tessék",
-  "Úristen"
+  "Kell valami?",
+  "Persze",
+  "Köszi"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Mész a boltba?",
-   "rd": "씨어! 메쓰 어 볼트버?",
-   "ko": "야! 가게 가?",
-   "note": "a boltba = 가게로(-ba 안으로)",
-   "tags": [],
+   "hu": "Megyek a boltba. Kell valami?",
+   "rd": "메젝 어 볼트버. 켈 벌러미?",
+   "ko": "나 마트 간다. 뭐 필요해?",
+   "note": "Kell valami? = 뭐 필요해?",
+   "tags": [
+    "expr:Kell valami?"
+   ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Szia",
-     "szia",
-     "씨어"
+     "Megyek",
+     "megye",
+     "메예"
     ],
     [
      "boltba",
@@ -54,14 +56,12 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen, most megyek. Mi kell?",
-   "rd": "이겐, 모슈트 메젝. 미 켈?",
-   "ko": "응, 지금 가. 뭐 필요해?",
-   "note": "kell = 필요하다",
-   "tags": [
-    "expr:Mi kell?"
-   ],
-   "emotion": "neutral",
+   "hu": "Igen, tej. Hozol egyet?",
+   "rd": "이겐, 테이. 호졸 에제트?",
+   "ko": "응, 우유. 하나 사다 줄래?",
+   "note": "hozol = 가져올래(사 올래)",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "Igen",
@@ -69,14 +69,55 @@
      "이겐"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
+     "tej",
+     "tej",
+     "테이"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Persze. Zsíros vagy light?",
+   "rd": "페르쎄. 지로시 버지 릭흐트?",
+   "ko": "그럼. 일반 우유, 저지방?",
+   "note": "zsíros = 기름진(일반 우유)",
+   "tags": [
+    "expr:Persze"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "megyek",
-     "megye",
-     "메예"
+     "light",
+     "light",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Mindegy. És kenyér is kell.",
+   "rd": "민데지. 에시 케네르 이시 켈.",
+   "ko": "아무거나. 그리고 빵도 필요해.",
+   "note": "is = ~도",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Mindegy",
+     "mindegy",
+     "민데지"
+    ],
+    [
+     "kenyér",
+     "kenyér",
+     ""
     ],
     [
      "kell",
@@ -86,135 +127,102 @@
    ]
   },
   {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Csak tej.",
-   "rd": "척 테이.",
-   "ko": "우유만.",
-   "note": "csak = ~만",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "tej",
-     "tej",
-     "테이"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Mennyi tej?",
-   "rd": "메니 테이?",
-   "ko": "우유 얼마나?",
-   "note": "mennyi = 얼마나",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "tej",
-     "tej",
-     "테이"
-    ]
-   ]
-  },
-  {
    "num": 5,
    "speaker": "B",
-   "hu": "Mindegy. Sok.",
-   "rd": "민데지. 쇽.",
-   "ko": "아무거나. 많이.",
-   "note": "mindegy = 상관없어",
-   "tags": [
-    "expr:Mindegy"
-   ],
-   "emotion": "amused",
+   "hu": "Oké. Fehér kenyér?",
+   "rd": "오케. 페헤르 케네르?",
+   "ko": "오케이. 흰 빵?",
+   "note": "fehér = 흰",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Mindegy",
-     "mindegy",
-     "민데지"
+     "Oké",
+     "oké",
+     "오케"
+    ],
+    [
+     "kenyér",
+     "kenyér",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Itt vagyok! Tessék, a tej.",
-   "rd": "이트 버죡! 테쎅, 어 테이.",
-   "ko": "왔어! 자, 우유.",
-   "note": "tessék = 여기 있어",
+   "hu": "Igen. Köszi! Mennyi lesz?",
+   "rd": "이겐. 쾨씨! 메니 레쓰?",
+   "ko": "응. 고마워! 얼마야?",
+   "note": "Mennyi lesz? = 얼마 될까?",
    "tags": [
-    "expr:Tessék"
+    "expr:Köszi"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Itt",
-     "itt",
-     "이트"
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "tej",
-     "tej",
-     "테이"
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Úristen! Ez húsz liter!",
-   "rd": "우리슈텐! 에즈 후쓰 리테르!",
-   "ko": "세상에! 이거 20리터잖아!",
-   "note": "úristen = 세상에",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "shout",
+   "hu": "Hagyd, majd te fizetsz holnap.",
+   "rd": "허지드, 머이드 테 피제트쓰 홀너프.",
+   "ko": "됐어, 내일 네가 내.",
+   "note": "majd = 나중에",
+   "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
+     "Hagyd",
+     "hagy",
+     "허지"
     ],
     [
-     "húsz",
-     "húsz",
-     ""
+     "majd",
+     "majd",
+     "머이드"
     ],
     [
-     "liter",
-     "liter",
-     ""
+     "fizetsz",
+     "fizet",
+     "피제트"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Azt mondtad: sok.",
-   "rd": "어즈트 몬드터드: 쇽.",
-   "ko": "네가 많이라고 했잖아.",
-   "note": "azt mondtad = 네가 그렇게 말했다",
+   "hu": "Holnap? Holnap te főzöl!",
+   "rd": "홀너프? 홀너프 테 푀죌!",
+   "ko": "내일? 내일은 네가 요리 당번이잖아!",
+   "note": "főzöl = 네가 요리한다",
    "tags": [],
-   "emotion": "tsukkomi",
+   "emotion": "amused",
    "lemmas": [
     [
-     "mondtad",
-     "mond",
-     "몬드"
+     "Holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "főzöl",
+     "főz",
+     ""
     ]
    ]
   }

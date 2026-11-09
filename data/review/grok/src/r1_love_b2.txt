@@ -1,19 +1,20 @@
 === r1_love_b2
 kind: long
-title: 네 쓰레기가 예뻐
-emoji: 🗑️
-scene: 강변 벤치. A 가 몰래 연습한 칭찬 한 문장을 드디어 꺼낸다
+title: 뭐 달라진 거 없어?
+emoji: 💇
+scene: 약속 장소에 나온 Anna 가 빙글 돈다. 뭔가 달라졌다는데 A 는 모르겠다
 b: Anna
 register: casual
-twist: 4 slip
+twist: 8 emotion
 flags: romance
 purpose: love
-goal: 소유 접미사(szemed 네 눈 / szemeted 네 쓰레기)
-expressions: Na; Várj; Köszi; Jaj
-B | Olyan csendes vagy ma. Mire gondolsz? | 오늘 왜 이렇게 조용해. 무슨 생각해? | mire gondolsz? = 무슨 생각해? | emotion=gentle
-A | Semmire. Csak gyakorlok egy mondatot neked. | 아무것도. 그냥 너한테 할 문장을 연습해. | mondat = 문장 | emotion=shy
-B | Egy mondatot? Na, mondd, nagyon kíváncsi vagyok! | 문장? 자, 말해 봐, 엄청 궁금해! | kíváncsi = 궁금한 | emotion=excited
-A | Várj... Anna, neked nagyon szép szemeted van. | 잠깐… 언너, 너 정말 예쁜 쓰레기가 있어. | szemeted = 네 쓰레기(szemed = 네 눈) | emotion=shy
-B | Szemetem? Köszi, minden kedden viszik el. | 내 쓰레기? 고마워, 매주 화요일에 수거해 가. | kedden = 화요일에 | emotion=surprised+teasing
-A | Jaj, nem! A szemed szép, nem a szemeted! | 아이고, 아니! 네 눈이 예쁘다고, 쓰레기 말고! | szem = 눈 | emotion=flustered
-B | Tudom. Csak még egyszer akartam hallani. | 알아. 그냥 한 번 더 듣고 싶었어. | akartam = 하고 싶었다 | emotion=gentle
+goal: 외모 칭찬하기(Jól áll)와 '새로운 것'(valami új)
+expressions: Na; Nézd; Tényleg
+B | Na? Nem látsz valami újat? | 어때? 뭐 새로운 거 안 보여? | valami újat = 뭔가 새로운 것을 | emotion=excited
+A | Újat? Izé... új a kabátod? | 새로운 거? 어… 코트 새로 샀어? | kabát = 코트 | emotion=worried
+B | Nem, ez régi. Nézd jobban! | 아니, 이거 옛날 거야. 잘 봐! | nézd jobban = 더 잘 봐 | emotion=teasing
+A | Új táska? Új cipő? | 새 가방? 새 신발? | táska = 가방 | emotion=flustered
+B | Jaj, a hajam! Levágattam. | 아이참, 머리! 잘랐어. | levágattam = (미용실에서) 잘랐다 | emotion=annoyed
+A | Ja, tényleg! Nagyon jól áll. | 아, 진짜네! 정말 잘 어울려. | jól áll = 잘 어울린다 | emotion=surprised
+B | Csak azért mondod, mert szóltam. | 내가 말하니까 그러는 거잖아. | szóltam = 말했다(알려 줬다) | emotion=teasing
+A | Nem. Csak a szemedet néztem, nem a hajadat. | 아니. 그냥 네 눈만 보고 있었어, 머리 말고. | szemedet = 네 눈을 | emotion=shy

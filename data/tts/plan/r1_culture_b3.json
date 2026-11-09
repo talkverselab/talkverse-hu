@@ -8,89 +8,64 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Boldog húsvétot! Hoztál kölnit a locsoláshoz?"
+"polite",
+"Csókolom! Köszönöm a meghívást."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Kölnit?"
-],
-[
-"neutral",
-"Dávid azt mondta, vizet kell hozni."
+"cheerful",
+"Szervusz! Gyere, ülj le, kész az ebéd."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"amused",
-"Hát régen vizet hoztak."
-],
-[
-"worried",
-"Mennyi vizet hoztál?"
+"teasing",
+"Nagyi mindig sokat főz. Vigyázz!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Nem sokat, csak egy vödröt."
+"cheerful",
+"Egyél, egyél! Itt a sonka és a tojás."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Egy vödröt?"
-],
-[
-"flustered",
-"Jaj, jön a nagymamám!"
+"polite",
+"Nagyon finom! Köszönöm szépen."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"polite",
-"Csókolom!"
-],
-[
-"cheerful",
-"Szabad locsolni?"
+"worried",
+"Még egy kicsit? Alig ettél valamit!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Szabad, szabad...",
-"Szabad, szabad"
-],
-[
-"shout",
-"Jaj, jaj, jaj!"
+"polite",
+"Jaj, köszönöm, de már jóllaktam."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Jól van, most én jövök."
-],
-[
-"excited",
-"Hol a vödröm?"
+"cheerful",
+"Jó, akkor most jön a sütemény!"
 ]
 ]
 }

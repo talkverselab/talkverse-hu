@@ -10,246 +10,218 @@
  "domain": [
   "travel"
  ],
- "title": "다비드가 아니었다",
- "emoji": "♨️",
- "scene": "온천 김 속. 안경을 벗은 {name} 이 옆 사람을 룸메이트 Dávid 로 알고 말을 건다",
+ "title": "걸어서 5분",
+ "emoji": "🧭",
+ "scene": "서역(뉘거티)에 가려고 길에서 할아버지에게 길을 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Bácsi"
  },
- "register": "mixed",
- "twist": 6,
+ "register": "polite",
+ "twist": 8,
  "twist_type": "slip",
  "flags": [],
- "goal": "편한 말로 부탁하기와 사람을 잘못 봤을 때 사과하기",
+ "goal": "길 묻기(Merre menjek? · Messze van?)",
  "expressions": [
-  "Figyelj",
-  "Mennyi kell?",
-  "Tessék",
-  "Nem baj"
+  "Elnézést",
+  "Merre menjek",
+  "Persze"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Dávid, jó a víz?",
-   "rd": "다비드, 요 어 비즈?",
-   "ko": "다비드, 물 좋아?",
-   "note": "víz = 물",
-   "tags": [],
-   "emotion": "cheerful",
+   "hu": "Elnézést, segítene?",
+   "rd": "엘네제슈트, 세기테네?",
+   "ko": "실례합니다, 좀 도와주시겠어요?",
+   "note": "segítene = 도와주시겠어요(Ön)",
+   "tags": [
+    "expr:Elnézést"
+   ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Dávid",
-     "dávid",
-     ""
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
     ],
     [
-     "jó",
-     "jó",
-     "요"
-    ],
-    [
-     "víz",
-     "víz",
-     "비즈"
+     "segítene",
+     "segít",
+     "셰기트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Jó, jó. Nagyon meleg.",
-   "rd": "요, 요. 너죤 멜렉.",
-   "ko": "좋아, 좋아. 아주 따뜻해.",
-   "note": "meleg = 따뜻한",
-   "tags": [],
+   "hu": "Persze. Mit keres?",
+   "rd": "페르쎄. 미트 케레시?",
+   "ko": "그럼요. 뭘 찾으세요?",
+   "note": "keres = 찾다",
+   "tags": [
+    "expr:Persze"
+   ],
    "emotion": "gentle",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "meleg",
-     "meleg",
-     "멜레그"
+     "keres",
+     "keres",
+     "케레시"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Figyelj, éhes vagyok. Van pénzed?",
-   "rd": "피젤이, 에헤시 버죡. 번 펜제드?",
-   "ko": "야, 나 배고파. 돈 있어?",
-   "note": "figyelj = 야, 있잖아(말 꺼낼 때)",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "cheerful",
+   "hu": "A Nyugati pályaudvart. Messze van?",
+   "rd": "어 뉴거티 파여우드버르트. 메쎄 번?",
+   "ko": "서역(뉘거티)요. 멀어요?",
+   "note": "pályaudvar = 기차역",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "pályaudvart",
+     "pályaudvar",
+     ""
     ],
     [
-     "éhes",
-     "éhes",
-     "에헤시"
-    ],
-    [
-     "vagyok",
+     "van",
      "van",
      "번"
-    ],
-    [
-     "pénzed",
-     "pénzed",
-     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Van. Mennyi kell?",
-   "rd": "번. 메니 켈?",
-   "ko": "있지. 얼마 필요해?",
-   "note": "mennyi kell? = 얼마 필요해?",
-   "tags": [
-    "expr:Mennyi kell?"
-   ],
-   "emotion": "amused",
+   "hu": "Nem. Gyalog öt perc.",
+   "rd": "넴. 졀록 외트 페르츠.",
+   "ko": "아니요. 걸어서 5분이에요.",
+   "note": "gyalog = 걸어서",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Van",
-     "van",
-     "번"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
+     "perc",
+     "perc",
+     "페르츠"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Ezer forint. Lángosra.",
-   "rd": "에제르 포린트. 란고슈러.",
-   "ko": "천 포린트. 랑고시 사 먹게.",
-   "note": "-ra = ~에(쓸 곳)",
-   "tags": [],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Ezer forint."
-    ],
-    [
-     "cheerful",
-     "Lángosra."
-    ]
+   "hu": "Merre menjek?",
+   "rd": "메레 멘옉?",
+   "ko": "어느 쪽으로 가요?",
+   "note": "merre = 어느 쪽으로",
+   "tags": [
+    "expr:Merre menjek"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "forint",
-     "forint",
-     ""
+     "Merre",
+     "merre",
+     "메레"
+    ],
+    [
+     "menjek",
+     "megy",
+     "메지"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Tessék. De ki az a Dávid?",
-   "rd": "테쎅. 데 키 어즈 어 다비드?",
-   "ko": "여기. 그런데 다비드가 누구야?",
-   "note": "ki = 누구",
-   "tags": [
-    "expr:Tessék"
-   ],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Tessék."
-    ],
-    [
-     "amused",
-     "De ki az a Dávid?"
-    ]
-   ],
+   "hu": "Egyenesen, aztán balra.",
+   "rd": "에제네센, 어즈탄 벌러.",
+   "ko": "쭉 가다가 왼쪽으로요.",
+   "note": "balra = 왼쪽으로",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
+     "Egyenesen",
+     "egyenes",
+     "에제녜시"
     ],
     [
-     "ki",
-     "ki",
-     "키"
+     "aztán",
+     "aztán",
+     "어스탄"
+    ],
+    [
+     "balra",
+     "bal",
+     "벌"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Jaj, elnézést! Hol a szemüvegem?",
-   "rd": "여이, 엘네제슈트! 홀 어 쎄뮈베겜?",
-   "ko": "아이고, 죄송합니다! 제 안경 어디 있지?",
-   "note": "szemüveg = 안경",
+   "hu": "Köszönöm szépen!",
+   "rd": "쾨쐬뇜 쎄펜!",
+   "ko": "정말 감사합니다!",
+   "note": "köszönöm szépen = 정말 감사합니다",
    "tags": [],
-   "emotion": "flustered",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
     ],
     [
-     "elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "szemüvegem",
-     "szemüveg",
-     ""
+     "szépen",
+     "szép",
+     "쎕"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Nem baj. Nekem is hozz egy lángost!",
-   "rd": "넴 버이. 네켐 이시 호즈 에지 란고슈트!",
-   "ko": "괜찮아. 나도 랑고시 하나 갖다 줘!",
-   "note": "hozz = 가져와",
-   "tags": [
-    "expr:Nem baj"
+   "hu": "Várjon! Rossz irányba megy.",
+   "rd": "바르욘! 로쓰 이라니버 메지.",
+   "ko": "잠깐요! 반대쪽으로 가시네요.",
+   "note": "irány = 방향",
+   "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Várjon!"
+    ],
+    [
+     "amused",
+     "Rossz irányba megy."
+    ]
    ],
-   "emotion": "amused",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "Várjon",
+     "vár",
+     "바르"
     ],
     [
-     "hozz",
-     "hoz",
-     "호즈"
+     "irányba",
+     "irány",
+     "이라니"
     ],
     [
-     "lángost",
-     "lángos",
-     ""
+     "megy",
+     "megy",
+     "메지"
     ]
    ]
   }

@@ -10,22 +10,22 @@
  "domain": [
   "survival"
  ],
- "title": "「네」만 했을 뿐인데",
+ "title": "커피 한 잔이요",
  "emoji": "☕",
- "scene": "카페에서 커피 한 잔을 주문하는데, 다 못 알아듣고 「네」만 하다가 일이 커진다",
+ "scene": "처음 가 본 카페. 직원이 묻는 말마다 「네」라고 했더니 커피가 점점 커진다",
  "speakers": {
   "A": "{name}",
   "B": "Bence"
  },
  "register": "polite",
- "twist": 6,
+ "twist": 7,
  "twist_type": "chaos",
  "flags": [],
- "goal": "주문 표현 kérek 과 멈춰 세우는 말 익히기",
+ "goal": "주문하기(…kérek)와 추가 질문(Tejjel kéri? · … is kér?) 알아듣기",
  "expressions": [
   "Jó napot",
   "kérek",
-  "várjon"
+  "Tessék"
  ],
  "turns": [
   {
@@ -68,7 +68,7 @@
     "expr:Jó napot",
     "expr:kérek"
    ],
-   "emotion": "polite",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Jó",
@@ -95,10 +95,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Tejjel és cukorral?",
-   "rd": "테옐 에시 추코럴?",
-   "ko": "우유랑 설탕 넣어 드려요?",
-   "note": "-val/-vel = ~와 함께",
+   "hu": "Tejjel kéri?",
+   "rd": "테옐 케리?",
+   "ko": "우유 넣어 드릴까요?",
+   "note": "tejjel = 우유와 함께",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -108,9 +108,9 @@
      "테이"
     ],
     [
-     "cukorral",
-     "cukor",
-     ""
+     "kéri",
+     "kér",
+     "께르"
     ]
    ]
   },
@@ -139,17 +139,22 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Süteményt is kér?",
-   "rd": "쉬테메니트 이시 케르?",
-   "ko": "케이크도 드릴까요?",
+   "hu": "Szirupot és tejszínhabot is kér?",
+   "rd": "씨루포트 에시 테이씬허보트 이시 케르?",
+   "ko": "시럽이랑 휘핑크림도 드릴까요?",
    "note": "is = ~도",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Süteményt",
-     "sütemény",
-     "슈테메니"
+     "Szirupot",
+     "szirup",
+     ""
+    ],
+    [
+     "tejszínhabot",
+     "tejszínhab",
+     ""
     ],
     [
      "kér",
@@ -166,7 +171,7 @@
    "ko": "네, 네.",
    "note": "못 알아들어도 일단 igen",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "flustered",
    "lemmas": [
     [
      "Igen",
@@ -178,17 +183,29 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Akkor egy kávé, három sütemény és egy rétes!",
-   "rd": "어꼬르 에지 카베, 하롬 쉬테메니 에시 에지 레테시!",
-   "ko": "그럼 커피 하나, 케이크 셋, 레테시 하나요!",
-   "note": "három = 셋",
-   "tags": [],
+   "hu": "Tessék: nagy karamellás kávé tejszínhabbal. Kétezer forint.",
+   "rd": "테쎅: 너지 커러멜라시 카베 테이씬허벌. 케테제르 포린트.",
+   "ko": "여기요, 휘핑크림 올린 캐러멜 커피 큰 거요. 2천 포린트입니다.",
+   "note": "tessék = 여기 있어요",
+   "tags": [
+    "expr:Tessék"
+   ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Akkor",
-     "akkor",
-     "어꼬르"
+     "Tessék",
+     "tessék",
+     "테셰크"
+    ],
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "karamellás",
+     "karamell",
+     ""
     ],
     [
      "kávé",
@@ -196,39 +213,51 @@
      "카베"
     ],
     [
-     "sütemény",
-     "sütemény",
-     "슈테메니"
+     "tejszínhabbal",
+     "tejszínhab",
+     ""
     ],
     [
-     "rétes",
-     "rétes",
-     "레테시"
+     "forint",
+     "forint",
+     ""
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Jaj, várjon! Csak egy kávét kérek!",
-   "rd": "여이, 바르욘! 척 에지 카베트 케렉!",
-   "ko": "아, 잠깐만요! 커피 한 잔만 주세요!",
-   "note": "várjon = 기다리세요(존댓말), csak = ~만",
-   "tags": [
-    "expr:kérek",
-    "expr:várjon"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
+   "hu": "Kétezer? Jaj, csak egy sima kávét akartam!",
+   "rd": "케테제르? 여이, 척 에지 시머 카베트 어커르텀!",
+   "ko": "2천이요? 아, 그냥 기본 커피를 원했는데!",
+   "note": "sima = 기본의, 그냥",
+   "tags": [],
+   "emotion": "surprised",
+   "segs": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "surprised",
+     "Kétezer?"
     ],
     [
-     "várjon",
-     "vár",
-     "바르"
+     "flustered",
+     "Jaj, csak egy sima kávét akartam!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Kétezer",
+     "kétezer",
+     ""
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "sima",
+     "sima",
+     ""
     ],
     [
      "kávét",
@@ -236,9 +265,9 @@
      "카베"
     ],
     [
-     "kérek",
-     "kér",
-     "께르"
+     "akartam",
+     "akart",
+     ""
     ]
    ]
   }

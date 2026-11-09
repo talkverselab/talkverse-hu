@@ -10,72 +10,73 @@
  "domain": [
   "love"
  ],
- "title": "네 쓰레기가 예뻐",
- "emoji": "🗑️",
- "scene": "강변 벤치. A 가 몰래 연습한 칭찬 한 문장을 드디어 꺼낸다",
+ "title": "뭐 달라진 거 없어?",
+ "emoji": "💇",
+ "scene": "약속 장소에 나온 Anna 가 빙글 돈다. 뭔가 달라졌다는데 A 는 모르겠다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
  },
  "register": "casual",
- "twist": 4,
- "twist_type": "slip",
+ "twist": 8,
+ "twist_type": "emotion",
  "flags": [
   "romance"
  ],
- "goal": "소유 접미사(szemed 네 눈 / szemeted 네 쓰레기)",
+ "goal": "외모 칭찬하기(Jól áll)와 '새로운 것'(valami új)",
  "expressions": [
   "Na",
-  "Várj",
-  "Köszi",
-  "Jaj"
+  "Nézd",
+  "Tényleg"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Olyan csendes vagy ma. Mire gondolsz?",
-   "rd": "오연 첸데시 버지 머. 미레 곤돌쓰?",
-   "ko": "오늘 왜 이렇게 조용해. 무슨 생각해?",
-   "note": "mire gondolsz? = 무슨 생각해?",
-   "tags": [],
-   "emotion": "gentle",
+   "hu": "Na? Nem látsz valami újat?",
+   "rd": "너? 넴 라트쓰 벌러미 우여트?",
+   "ko": "어때? 뭐 새로운 거 안 보여?",
+   "note": "valami újat = 뭔가 새로운 것을",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "excited",
    "lemmas": [
     [
-     "csendes",
-     "csendes",
-     ""
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "ma",
-     "ma",
-     "머"
+     "látsz",
+     "lát",
+     "라트"
     ],
     [
-     "gondolsz",
-     "gondol",
-     "곤돌"
+     "újat",
+     "új",
+     "우이"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Semmire. Csak gyakorlok egy mondatot neked.",
-   "rd": "셈미레. 척 져코를록 에지 몬더토트 네케드.",
-   "ko": "아무것도. 그냥 너한테 할 문장을 연습해.",
-   "note": "mondat = 문장",
+   "hu": "Újat? Izé... új a kabátod?",
+   "rd": "우여트? 이제... 우이 어 커바토드?",
+   "ko": "새로운 거? 어… 코트 새로 샀어?",
+   "note": "kabát = 코트",
    "tags": [],
-   "emotion": "shy",
+   "emotion": "worried",
    "lemmas": [
     [
-     "gyakorlok",
-     "gyakor",
-     ""
+     "Újat",
+     "új",
+     "우이"
     ],
     [
-     "mondatot",
-     "mondat",
+     "kabátod",
+     "kabátod",
      ""
     ]
    ]
@@ -83,137 +84,63 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Egy mondatot? Na, mondd, nagyon kíváncsi vagyok!",
-   "rd": "에지 몬더토트? 너, 몬드, 너죤 키반치 버죡!",
-   "ko": "문장? 자, 말해 봐, 엄청 궁금해!",
-   "note": "kíváncsi = 궁금한",
+   "hu": "Nem, ez régi. Nézd jobban!",
+   "rd": "넴, 에즈 레기. 네즈드 요번!",
+   "ko": "아니, 이거 옛날 거야. 잘 봐!",
+   "note": "nézd jobban = 더 잘 봐",
    "tags": [
-    "expr:Na"
+    "expr:Nézd"
    ],
-   "emotion": "excited",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "mondatot",
-     "mondat",
+     "régi",
+     "régi",
+     "레기"
+    ],
+    [
+     "jobban",
+     "jobb",
      ""
-    ],
-    [
-     "mondd",
-     "mond",
-     "몬드"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "kíváncsi",
-     "kíváncsi",
-     "키반치"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Várj... Anna, neked nagyon szép szemeted van.",
-   "rd": "바르이... 언너, 네케드 너죤 쎄프 쎄메테드 번.",
-   "ko": "잠깐… 언너, 너 정말 예쁜 쓰레기가 있어.",
-   "note": "szemeted = 네 쓰레기(szemed = 네 눈)",
-   "tags": [
-    "expr:Na",
-    "expr:Várj"
-   ],
-   "emotion": "shy",
+   "hu": "Új táska? Új cipő?",
+   "rd": "우이 타슈커? 우이 치푀?",
+   "ko": "새 가방? 새 신발?",
+   "note": "táska = 가방",
+   "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "Új",
+     "új",
+     "우이"
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "szép",
-     "szép",
-     "쎕"
-    ],
-    [
-     "szemeted",
-     "szemeted",
+     "táska",
+     "táska",
      ""
     ],
     [
-     "van",
-     "van",
-     "번"
+     "cipő",
+     "cipő",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Szemetem? Köszi, minden kedden viszik el.",
-   "rd": "쎄메템? 쾨씨, 민덴 케덴 비씩 엘.",
-   "ko": "내 쓰레기? 고마워, 매주 화요일에 수거해 가.",
-   "note": "kedden = 화요일에",
-   "tags": [
-    "expr:Köszi"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Szemetem?"
-    ],
-    [
-     "teasing",
-     "Köszi, minden kedden viszik el."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Szemetem",
-     "szemetem",
-     ""
-    ],
-    [
-     "kedden",
-     "kedd",
-     ""
-    ],
-    [
-     "viszik",
-     "visz",
-     "비스"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Jaj, nem! A szemed szép, nem a szemeted!",
-   "rd": "여이, 넴! 어 쎄메드 쎄프, 넴 어 쎄메테드!",
-   "ko": "아이고, 아니! 네 눈이 예쁘다고, 쓰레기 말고!",
-   "note": "szem = 눈",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "emotion": "flustered",
+   "hu": "Jaj, a hajam! Levágattam.",
+   "rd": "여이, 어 허염! 레바거떰.",
+   "ko": "아이참, 머리! 잘랐어.",
+   "note": "levágattam = (미용실에서) 잘랐다",
+   "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Jaj",
@@ -221,51 +148,98 @@
      "야이"
     ],
     [
-     "szemed",
-     "szem",
-     "쎔"
-    ],
-    [
-     "szép",
-     "szép",
-     "쎕"
-    ],
-    [
-     "szemeted",
-     "szemeted",
+     "hajam",
+     "hajam",
      ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Ja, tényleg! Nagyon jól áll.",
+   "rd": "여, 테닐렉! 너죤 욜 알.",
+   "ko": "아, 진짜네! 정말 잘 어울려.",
+   "note": "jól áll = 잘 어울린다",
+   "tags": [
+    "expr:Na",
+    "expr:Tényleg"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Ja",
+     "ja",
+     "여"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Tudom. Csak még egyszer akartam hallani.",
-   "rd": "투돔. 척 멕 에지쎄르 어커르텀 헐러니.",
-   "ko": "알아. 그냥 한 번 더 듣고 싶었어.",
-   "note": "akartam = 하고 싶었다",
+   "hu": "Csak azért mondod, mert szóltam.",
+   "rd": "척 어제르트 몬도드, 메르트 쏠텀.",
+   "ko": "내가 말하니까 그러는 거잖아.",
+   "note": "szóltam = 말했다(알려 줬다)",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Tudom",
-     "tud",
-     "투드"
+     "Csak",
+     "csak",
+     "촉"
     ],
     [
-     "még",
-     "még",
-     "메그"
+     "mondod",
+     "mond",
+     "몬드"
     ],
     [
-     "akartam",
-     "akart",
+     "szóltam",
+     "szól",
+     "쏠"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Nem. Csak a szemedet néztem, nem a hajadat.",
+   "rd": "넴. 척 어 쎄메데트 네즈템, 넴 어 허여더트.",
+   "ko": "아니. 그냥 네 눈만 보고 있었어, 머리 말고.",
+   "note": "szemedet = 네 눈을",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "szemedet",
+     "szem",
+     "쎔"
+    ],
+    [
+     "néztem",
+     "néz",
+     "네즈"
+    ],
+    [
+     "hajadat",
+     "hajad",
      ""
-    ],
-    [
-     "hallani",
-     "hall",
-     "헐"
     ]
    ]
   }

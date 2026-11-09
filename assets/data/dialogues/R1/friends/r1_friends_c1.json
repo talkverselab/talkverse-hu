@@ -10,9 +10,9 @@
  "domain": [
   "friends"
  ],
- "title": "반 일곱 시",
- "emoji": "🕡",
- "scene": "Réka 와 저녁 약속 채팅. 시간을 정했는데, 헝가리어의 「반」은 방향이 반대다",
+ "title": "반 여섯 시",
+ "emoji": "🕠",
+ "scene": "Réka 와 저녁 약속을 채팅으로 잡는다. 헝가리어 「반 여섯」은 5시 반이다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
@@ -21,25 +21,24 @@
  "twist": 6,
  "twist_type": "slip",
  "flags": [],
- "goal": "시각 표현 fél hét = 6시 반",
+ "goal": "시각 표현 fél hat = 5시 반, 약속 잡기(Ráérsz?)",
  "expressions": [
-  "Szia",
+  "Ráérsz",
   "Oké",
-  "Hol vagy?",
-  "Jaj"
+  "Hol vagy"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Ma vacsora fél hétkor?",
-   "rd": "씨어! 머 버초러 펠 헤트코르?",
-   "ko": "안녕! 오늘 6시 반에 저녁?",
-   "note": "fél hét = 6시 반(7시로 가는 절반)",
+   "hu": "Szia! Ma este ráérsz?",
+   "rd": "씨어! 머 에슈테 라에르쓰?",
+   "ko": "안녕! 오늘 저녁 시간 돼?",
+   "note": "ráérsz? = 시간 있어?",
    "tags": [
-    "expr:Szia"
+    "expr:Ráérsz"
    ],
-   "at": "16:02",
+   "at": "13:20",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
@@ -49,18 +48,13 @@
      "씨어"
     ],
     [
-     "vacsora",
-     "vacsora",
-     "버초라"
+     "este",
+     "este",
+     "에슈테"
     ],
     [
-     "fél",
-     "fél",
-     "펠"
-    ],
-    [
-     "hétkor",
-     "hétkor",
+     "ráérsz",
+     "ráérik",
      ""
     ]
    ]
@@ -68,14 +62,57 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Oké, jó!",
-   "rd": "오케, 요!",
-   "ko": "좋아!",
-   "note": "oké = 좋아",
+   "hu": "Igen! Mikor?",
+   "rd": "이겐! 미코르?",
+   "ko": "응! 언제?",
+   "note": "mikor = 언제",
+   "tags": [],
+   "at": "13:24",
+   "emotion": "excited",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Fél hatkor a kávézóban?",
+   "rd": "펠 허트코르 어 카베조번?",
+   "ko": "반 여섯 시에 카페에서?",
+   "note": "fél hat = 5시 반(6시로 가는 절반)",
+   "tags": [],
+   "at": "13:25",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Fél",
+     "fél",
+     "펠"
+    ],
+    [
+     "kávézóban",
+     "kávézó",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Oké, ott leszek! 😊",
+   "rd": "오케, 오트 레쎅! 😊",
+   "ko": "오케이, 갈게! 😊",
+   "note": "ott leszek = 거기 있을게",
    "tags": [
     "expr:Oké"
    ],
-   "at": "16:05",
+   "at": "13:25",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
@@ -85,24 +122,29 @@
      "오케"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "leszek",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
-   "num": 3,
+   "num": 5,
    "speaker": "B",
-   "hu": "Hol vagy? Itt vagyok.",
-   "rd": "홀 버지? 이트 버죡.",
-   "ko": "어디야? 나 왔어.",
-   "note": "Hol vagy? = 어디야?",
+   "hu": "Hol vagy? Már itt ülök.",
+   "rd": "홀 버지? 마르 이트 윌뢱.",
+   "ko": "어디야? 나 벌써 와서 앉아 있어.",
+   "note": "ülök = 앉아 있다",
    "tags": [
-    "expr:Hol vagy?"
+    "expr:Hol vagy"
    ],
-   "at": "18:40",
-   "emotion": "neutral",
+   "at": "17:40",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
@@ -111,104 +153,46 @@
      "홀"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Mi? Még korán van!",
-   "rd": "미? 멕 코란 번!",
-   "ko": "뭐? 아직 이르잖아!",
-   "note": "korán = 일찍",
-   "tags": [],
-   "at": "18:41",
-   "emotion": "surprised",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "korán",
-     "kor",
-     "코르"
+     "itt",
+     "itt",
+     "이트"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Már elmúlt fél hét!",
-   "rd": "마르 엘물트 펠 헤트!",
-   "ko": "벌써 6시 반 지났어!",
-   "note": "elmúlt = 지났다",
-   "tags": [],
-   "at": "18:41",
-   "emotion": "annoyed",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Már",
-     "már",
-     "마르"
-    ],
-    [
-     "elmúlt",
-     "elmúlt",
-     "엘물트"
-    ],
-    [
-     "fél",
-     "fél",
-     "펠"
-    ],
-    [
-     "hét",
-     "hét",
-     "헤트"
+     "ülök",
+     "ül",
+     "위일"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Fél hét? Hét és fél, nem?",
-   "rd": "펠 헤트? 헤트 에시 펠, 넴?",
-   "ko": "반 일곱? 일곱 시 반 아니야?",
-   "note": "hét és fél = 일곱과 반",
+   "hu": "Mi? Fél hat, az nem hat harminc?",
+   "rd": "미? 펠 허트, 어즈 넴 허트 허르민츠?",
+   "ko": "뭐? 반 여섯, 그거 6시 30분 아니야?",
+   "note": "hat harminc = 6시 30분",
    "tags": [],
-   "at": "18:42",
-   "emotion": "flustered",
+   "at": "17:41",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "Fél",
-     "fél",
-     "펠"
-    ],
-    [
-     "hét",
-     "hét",
-     "헤트"
+     "harminc",
+     "harminc",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Nem! Az hat harminc!",
-   "rd": "넴! 어즈 허트 허르민츠!",
-   "ko": "아니! 6시 30분이야!",
-   "note": "hat harminc = 6시 30분",
+   "hu": "Nem! Fél hat az öt harminc. 😅",
+   "rd": "넴! 펠 허트 어즈 외트 허르민츠. 😅",
+   "ko": "아니! 반 여섯은 5시 30분이야. 😅",
+   "note": "öt harminc = 5시 30분",
    "tags": [],
-   "at": "18:42",
-   "emotion": "annoyed",
+   "at": "17:41",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
@@ -220,17 +204,14 @@
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Jaj. Megettem a vacsorádat is. 😇",
-   "rd": "여이. 메게뗌 어 버초라더트 이시. 😇",
-   "ko": "아이고. 네 저녁도 내가 먹었어. 😇",
-   "note": "megettem = 다 먹었다",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "at": "19:05",
-   "stamp": "😇",
-   "emotion": "teasing",
+   "speaker": "A",
+   "hu": "Jaj, futok! Tíz perc!",
+   "rd": "여이, 푸톡! 티즈 페르츠!",
+   "ko": "아, 뛰어갈게! 10분!",
+   "note": "futok = 뛰어간다",
+   "tags": [],
+   "at": "17:42",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -239,9 +220,14 @@
      "야이"
     ],
     [
-     "vacsorádat",
-     "vacsorád",
-     ""
+     "futok",
+     "fut",
+     "푸트"
+    ],
+    [
+     "perc",
+     "perc",
+     "페르츠"
     ]
    ]
   }

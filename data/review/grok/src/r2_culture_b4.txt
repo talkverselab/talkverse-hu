@@ -1,24 +1,24 @@
 === r2_culture_b4
 kind: long
-title: 빈 사탕 트리
+title: 크리스마스이브 저녁
 emoji: 🎄
-scene: 크리스마스이브의 Anna 네 집. 트리에 걸린 하얀 사탕을 만져 봤는데 가볍다
+scene: 크리스마스이브에 Anna 네 가족 저녁에 초대받았다. Anna 의 아빠가 맞아 주신다
 b: Anna
 c: Anna apukája
 register: mixed
-twist: 11 reveal
+twist: 11 slip
 purpose: media
-goal: 금지 표현(tilos, ne nyúlj)과 크리스마스 풍습
-expressions: Gyere; Nézd; Jól van; Várj
-B | Gyere, nézd a fát! Az a fehér cukorka a szaloncukor. | 와서 트리 봐! 저 하얀 사탕이 살론추코르야. | szaloncukor = 트리에 거는 사탕 | emotion=cheerful
-A | Szép. Ehetek egyet? | 예쁘다. 하나 먹어도 돼? | ehetek = 먹어도 된다 | emotion=cheerful
-B | Nem! Karácsonyig tilos, ez a szabály. | 안 돼! 크리스마스까지 금지, 규칙이야. | tilos = 금지된 | emotion=teasing
-A | Jól van, jól van. Csak megnézem. | 알았어, 알았어. 구경만 할게. | megnézem = 살펴본다 | emotion=amused
-B | Ne nyúlj hozzá, apa számolja őket! | 손대지 마, 아빠가 세고 계셔! | számol = 세다 | emotion=worried
-A | Várj... ez üres, ez is, ez is! | 잠깐… 이거 비었어. 이것도. 이것도! | üres = 빈 | emotion=surprised
-B | Az nem lehet! Hadd nézzem! | 말도 안 돼! 나 좀 보자! | hadd = ~하게 해 줘 | emotion=surprised
-C | Mi folyik itt? Ki nyúlt a fához? | 무슨 일이니? 누가 트리 건드렸어? | mi folyik itt? = 무슨 일이야? | emotion=stiff
-A | Jó estét, nem én! Az összes cukorka üres. | 안녕하세요, 저 아니에요! 사탕이 전부 비었어요. | az összes = 전부 | emotion=flustered
-C | Hát... tudod, ez egy nagyon régi magyar szokás. | 음… 있잖니, 이건 아주 오래된 헝가리 풍습이란다. | szokás = 풍습 | emotion=flustered
-B | Apa, mi van a szádban? | 아빠, 입에 뭐 있어요? | száj → szád = 네 입 | emotion=tsukkomi
-C | Semmi. A papírokat meg szépen visszaakasztottam. | 아무것도. 포장지는 곱게 다시 걸어 놨다. | visszaakaszt = 도로 걸다 | emotion=flustered+amused
+goal: 명절 초대에서 인사·선물 건네기·음식 맛보기(Boldog karácsonyt! · Kóstold meg!)
+expressions: Mindjárt; Kóstold meg; Vagyis
+B | Apa, ő {name}. | 아빠, 얘가 {name}이야. | ő = 그 사람 | emotion=cheerful
+A | Jó estét kívánok! Boldog karácsonyt! | 안녕하세요! 메리 크리스마스! | Boldog karácsonyt! = 메리 크리스마스 | emotion=polite
+C | Jó estét, gyere be! Hideg van kint. | 어서 와, 들어오렴! 밖에 춥지. | kint = 밖에 | emotion=gentle
+A | Hoztam egy kis bejglit. | 베이글리 좀 가져왔어요. | bejgli = 호두·양귀비씨 롤 케이크 | emotion=shy
+C | Ó, köszönöm! Ülj le, mindjárt jön a halászlé. | 오, 고맙다! 앉으렴, 곧 생선 수프 나와. | mindjárt = 곧 | emotion=cheerful
+A | Halászlé karácsonykor? Nálunk ilyenkor mást eszünk. | 크리스마스에 생선 수프요? 저희는 이맘때 다른 걸 먹어요. | ilyenkor = 이맘때 | emotion=surprised
+B | Nálunk Szenteste mindig hal van. Ez hagyomány. | 우리 집은 크리스마스이브엔 늘 생선이야. 전통이야. | Szenteste = 크리스마스이브 | emotion=gentle
+C | Csípős, de nem nagyon. Kóstold meg! | 맵긴 한데 많이는 아니야. 먹어 보렴! | kóstold meg = 맛봐 | emotion=cheerful
+A | Hű, finom! És tényleg nem nagyon csípős. | 와, 맛있어요! 정말 별로 안 맵네요. | tényleg = 정말 | emotion=excited
+C | Később a bejglit is megkóstoljuk. Te sütötted? | 이따 베이글리도 먹어 보자. 네가 구웠니? | sütötted = (그것을) 구웠니 | emotion=gentle
+A | Igen! Vagyis... a pék a sarkon. | 네! 아니, 그러니까… 모퉁이 빵집이요. | vagyis = 즉, 그러니까 | emotion=cheerful+flustered
+C | Ügyes vagy. Jó pékséget választottál! 😄 | 잘했네. 빵집을 잘 골랐구나! 😄 | pékség = 빵집 | emotion=amused

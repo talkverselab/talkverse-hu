@@ -11,9 +11,9 @@
  "domain": [
   "travel"
  ],
- "title": "못생겼다고 해",
- "emoji": "🕰️",
- "scene": "벼룩시장. Réka 가 흥정 비법을 알려 주는데, 낱말 하나가 어긋난다",
+ "title": "700 아니고 7천",
+ "emoji": "🧵",
+ "scene": "중앙시장 2층 기념품 가판. Réka 와 자수 식탁보를 본다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
@@ -23,50 +23,42 @@
  "twist": 6,
  "twist_type": "slip",
  "flags": [],
- "goal": "값 묻기(Mennyibe kerül?)와 흥정하기",
+ "goal": "값 묻기와 깎아 달라고 하기(Lehet egy kicsit olcsóbban?)",
  "expressions": [
-  "Figyelj",
-  "Mennyibe kerül",
-  "Hát",
-  "Úristen",
-  "Nem baj",
-  "Na, látod?"
+  "Nézd",
+  "Kérdezd meg",
+  "Lehet"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Figyelj, a bolhapiacon sose mondd, hogy valami szép!",
-   "rd": "피젤이, 어 볼허피어촌 쇼세 몬드, 호지 벌러미 쎄프!",
-   "ko": "야, 벼룩시장에서는 절대 뭐가 예쁘다고 하지 마!",
-   "note": "sose = 절대 ~ 않다",
+   "hu": "Nézd, ezek a hímzett terítők szépek!",
+   "rd": "네즈드, 에젝 어 힘제트 테리퇵 쎄펙!",
+   "ko": "봐, 이 자수 식탁보들 예쁘다!",
+   "note": "hímzett = 수놓은",
    "tags": [
-    "expr:Figyelj"
+    "expr:Nézd"
    ],
    "emotion": "excited",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Nézd",
+     "néz",
+     "네즈"
     ],
     [
-     "bolhapiacon",
-     "bolhapiac",
+     "hímzett",
+     "hímzett",
      ""
     ],
     [
-     "sose",
-     "sohasem",
-     "쇼허셈"
+     "terítők",
+     "terítő",
+     ""
     ],
     [
-     "mondd",
-     "mond",
-     "몬드"
-    ],
-    [
-     "szép",
+     "szépek",
      "szép",
      "쎕"
     ]
@@ -75,78 +67,68 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Miért? Akkor mit mondjak?",
-   "rd": "미에르트? 어꼬르 미트 몬드역?",
-   "ko": "왜? 그럼 뭐라고 해?",
-   "note": "mondjak = 내가 말할까",
+   "hu": "Tényleg. Anyukámnak jó lenne.",
+   "rd": "테닐렉. 어뉴캄넉 요 렌네.",
+   "ko": "진짜. 엄마한테 좋겠다.",
+   "note": "jó lenne = 좋을 것 같다",
    "tags": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Miért",
-     "miért",
-     "미에르트"
+     "Tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "mondjak",
-     "mond",
-     "몬드"
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "lenne",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Mondd, hogy csúnya, akkor olcsóbb lesz. Na, menj!",
-   "rd": "몬드, 호지 추녀, 어꼬르 올초브 레쓰. 너, 멘이!",
-   "ko": "못생겼다고 해, 그럼 싸져. 자, 가!",
-   "note": "csúnya = 못생긴",
-   "tags": [],
-   "emotion": "cheerful",
+   "hu": "Kérdezd meg az árát, te beszélsz!",
+   "rd": "케르데즈드 멕 어즈 아라트, 테 베쎌쓰!",
+   "ko": "값 물어봐, 네가 말해!",
+   "note": "ár = 값",
+   "tags": [
+    "expr:Kérdezd meg"
+   ],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Mondd",
-     "mond",
-     "몬드"
+     "Kérdezd",
+     "kérdez",
+     "케르데즈"
     ],
     [
-     "csúnya",
-     "csúnya",
-     ""
+     "árát",
+     "ár",
+     "아르"
     ],
     [
-     "akkor",
-     "akkor",
-     "어꼬르"
-    ],
-    [
-     "olcsóbb",
-     "olcsó",
-     ""
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "menj",
-     "megy",
-     "메지"
+     "beszélsz",
+     "beszél",
+     "베쎌"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Jó napot! Mennyibe kerül ez a régi óra?",
-   "rd": "요 너포트! 메니베 케륄 에즈 어 레기 오러?",
-   "ko": "안녕하세요! 이 오래된 시계 얼마예요?",
-   "note": "mennyibe kerül? = 얼마예요?",
-   "tags": [
-    "expr:Mennyibe kerül"
-   ],
-   "emotion": "polite",
+   "hu": "Jó napot! Mennyibe kerül ez a kicsi?",
+   "rd": "요 너포트! 메니베 케륄 에즈 어 키치?",
+   "ko": "안녕하세요! 이 작은 거 얼마예요?",
+   "note": "kicsi = 작은 것",
+   "tags": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "Jó",
@@ -164,140 +146,117 @@
      "케륄"
     ],
     [
-     "régi",
-     "régi",
-     "레기"
+     "kicsi",
+     "kicsi",
+     "키치"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Tizenötezer. Nagyon szép darab.",
-   "rd": "티제뇌테제르. 너죤 쎄프 더러브.",
-   "ko": "1만 5천이요. 아주 좋은 물건이에요.",
-   "note": "darab = 한 점, 개",
+   "hu": "Hétezer forint. Kézzel készült.",
+   "rd": "헤테제르 포린트. 케젤 케쓀트.",
+   "ko": "7천 포린트요. 손으로 만든 거예요.",
+   "note": "kézzel készült = 손으로 만들었다",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Tizenötezer",
-     "tizenöt",
+     "Hétezer",
+     "hétezer",
      ""
     ],
     [
-     "szép",
-     "szép",
-     "쎕"
+     "forint",
+     "forint",
+     ""
     ],
     [
-     "darab",
-     "darab",
-     "더럽"
+     "készült",
+     "készül",
+     "케쓸"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Hát... Ön nagyon csúnya.",
-   "rd": "하트... 왼 너죤 추녀.",
-   "ko": "음… 선생님은 아주 못생기셨네요.",
-   "note": "Ön = 당신(ez = 이것 이라고 해야 했다)",
-   "tags": [
-    "expr:Hát"
+   "hu": "Hétszáz? Az olcsó, tessék!",
+   "rd": "헤트싸즈? 어즈 올초, 테쎅!",
+   "ko": "700요? 싸네요, 여기요!",
+   "note": "hétszáz = 700",
+   "tags": [],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Hétszáz?"
+    ],
+    [
+     "excited",
+     "Az olcsó, tessék!"
+    ]
    ],
-   "emotion": "stiff",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "csúnya",
-     "csúnya",
+     "Hétszáz",
+     "hétszáz",
      ""
+    ],
+    [
+     "olcsó",
+     "olcsó",
+     ""
+    ],
+    [
+     "tessék",
+     "tessék",
+     "테셰크"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Úristen, nem ő, az óra! Az óra csúnya!",
-   "rd": "우리슈텐, 넴 외, 어즈 오러! 어즈 오러 추녀!",
-   "ko": "세상에, 그분 말고 시계! 시계가 못생겼다고!",
-   "note": "az óra = 시계",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "shout",
-   "lemmas": [
+   "speaker": "C",
+   "hu": "Nem hétszáz, kedves. Hétezer.",
+   "rd": "넴 헤트싸즈, 케드베시. 헤테제르.",
+   "ko": "700 아니에요, 손님. 7천이요.",
+   "note": "hétezer = 7000",
+   "tags": [],
+   "emotion": "amused",
+   "segs": [
     [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
+     "amused",
+     "Nem hétszáz, kedves."
     ],
     [
-     "csúnya",
-     "csúnya",
+     "polite",
+     "Hétezer."
+    ]
+   ],
+   "lemmas": [
+    [
+     "hétszáz",
+     "hétszáz",
      ""
+    ],
+    [
+     "kedves",
+     "kedves",
+     "케드베슈"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "C",
-   "hu": "Hát, igaza van. A feleségem is ezt mondja.",
-   "rd": "하트, 이거저 번. 어 펠레세겜 이시 에즈트 몬드여.",
-   "ko": "음, 맞는 말씀이에요. 제 아내도 그렇게 말해요.",
-   "note": "igaza van = 말씀이 맞다",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "igaza",
-     "igaz",
-     "이거즈"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "feleségem",
-     "feleség",
-     "펠레시그"
-    ],
-    [
-     "mondja",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Jaj, bocsánat! Én csak az órát...",
-   "rd": "여이, 보차너트! 엔 척 어즈 오라트...",
-   "ko": "아이고, 죄송해요! 저는 그냥 시계를…",
-   "note": "bocsánat = 죄송합니다",
+   "speaker": "B",
+   "hu": "Jaj, ezt a kettőt mindenki összekeveri.",
+   "rd": "여이, 에즈트 어 케뙤트 민덴키 외쎄케베리.",
+   "ko": "아이고, 그 둘은 다들 헷갈려.",
+   "note": "összekever = 헷갈리다",
    "tags": [],
-   "emotion": "flustered",
+   "emotion": "amused",
    "lemmas": [
     [
      "Jaj",
@@ -305,82 +264,112 @@
      "야이"
     ],
     [
-     "bocsánat",
+     "összekeveri",
+     "összekever",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Bocsánat! Lehet egy kicsit olcsóbban?",
+   "rd": "보차너트! 레헤트 에지 키치트 올초번?",
+   "ko": "죄송해요! 조금 싸게 해 주실 수 있어요?",
+   "note": "olcsóbban = 더 싸게",
+   "tags": [
+    "expr:Lehet"
+   ],
+   "emotion": "shy",
+   "segs": [
+    [
+     "shy",
+     "Bocsánat!"
+    ],
+    [
+     "polite",
+     "Lehet egy kicsit olcsóbban?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bocsánat",
      "bocsánat",
      "버치너트"
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "kicsit",
+     "kicsi",
+     "키치"
     ],
     [
-     "órát",
-     "óra",
-     "오러"
+     "olcsóbban",
+     "olcsón",
+     ""
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "C",
-   "hu": "Nem baj, legyen kétezer. Végre valaki őszinte velem.",
-   "rd": "넴 버이, 레젠 케테제르. 벡레 벌러키 외씬테 벨렘.",
-   "ko": "괜찮아요, 2천으로 하죠. 드디어 제게 솔직한 분이 나타났네요.",
-   "note": "legyen = ~로 하죠",
-   "tags": [
-    "expr:Nem baj"
-   ],
-   "emotion": "gentle",
+   "hu": "Ha kettőt vesz, a másodikat fél áron adom.",
+   "rd": "허 케뙤트 베쓰, 어 마쇼디커트 펠 아론 어돔.",
+   "ko": "두 개 사시면 두 번째는 반값에 드릴게요.",
+   "note": "fél áron = 반값에",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "vesz",
+     "vesz",
+     "베쓰"
     ],
     [
-     "legyen",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "kétezer",
-     "kétezer",
+     "másodikat",
+     "második",
      ""
     ],
     [
-     "őszinte",
-     "őszinte",
-     "외세인테"
+     "fél",
+     "fél",
+     "펠"
+    ],
+    [
+     "áron",
+     "ár",
+     "아르"
+    ],
+    [
+     "adom",
+     "ad",
+     "어드"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "B",
-   "hu": "Na, látod? Mondtam, hogy működik.",
-   "rd": "너, 라토드? 몬드텀, 호지 뮈쾨딕.",
-   "ko": "봐? 통한다고 했지.",
-   "note": "működik = 작동하다, 통하다",
-   "tags": [
-    "expr:Na, látod?"
-   ],
-   "emotion": "amused",
+   "speaker": "A",
+   "hu": "Réka, kell neked terítő?",
+   "rd": "레커, 켈 네케드 테리퇴?",
+   "ko": "레카, 너 식탁보 필요해?",
+   "note": "neked = 너에게",
+   "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "Réka",
+     "réka",
+     ""
     ],
     [
-     "látod",
-     "lát",
-     "라트"
+     "kell",
+     "kell",
+     "켈"
     ],
     [
-     "működik",
-     "működik",
-     "뮈쾨딕"
+     "terítő",
+     "terít",
+     ""
     ]
    ]
   }

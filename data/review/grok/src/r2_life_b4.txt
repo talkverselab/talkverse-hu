@@ -1,24 +1,24 @@
 === r2_life_b4
 kind: long
-title: 계단의 옷장
-emoji: 🚪
-scene: 벼룩시장에서 산 옷장을 둘이서 계단으로 올리다가 2층과 3층 사이에 끼었다
+title: 관리비 냈는데요
+emoji: 🧾
+scene: Marika 아주머니가 건물 대표로 관리비(közös költség)를 받으러 왔다. Dávid 는 이미 냈다고 한다
 b: Dávid
 c: Marika néni
-register: casual
-twist: 9 chaos
+register: mixed
+twist: 8 chaos
 purpose: study_abroad
-goal: 함께 일할 때 쓰는 말(Told! Várj! Hogyhogy?)
-expressions: Figyelj; Hogyhogy; Mindjárt; Ne már; Semmi baj
-B | Figyelj, vettem egy szekrényt a bolhapiacon. Olcsó volt! | 야, 벼룩시장에서 옷장 샀어. 쌌어! | bolhapiac = 벼룩시장 | emotion=excited
-A | Hű, de nagy! Biztos, hogy befér? | 와, 엄청 크다! 확실히 들어가? | befér = 안에 들어간다 | emotion=surprised+worried
-B | Persze, gyerünk! Te alulról fogod, én felülről. | 당연하지, 가자! 넌 아래서 잡아, 난 위에서. | gyerünk = 가자 | emotion=cheerful
-A | Várj, várj! Megállt, nem megy tovább! | 잠깐, 잠깐! 멈췄어, 더 안 올라가! | tovább = 더, 계속 | emotion=shout+flustered
-B | Hogyhogy nem megy? Told még egy kicsit! | 왜 안 가? 조금만 더 밀어! | told = 그걸 밀어 | emotion=annoyed
-A | Tolom! De most már visszafelé sem megy. | 밀고 있어! 근데 이제 뒤로도 안 가. | visszafelé = 뒤로 | emotion=annoyed+worried
-C | Gyerekek, én hogy megyek le a boltba? | 얘들아, 나는 가게에 어떻게 내려가니? | hogy megyek le? = 어떻게 내려가지? | emotion=worried
-B | Jaj, Marika néni! Mindjárt megoldjuk! | 아이고, 아주머니! 금방 해결할게요! | mindjárt = 금방 | emotion=flustered
-A | Dávid, az egész ház itt áll. Feri bácsi hívta a tűzoltókat. | 다비드, 건물 사람들 다 나왔어. 페리 아저씨가 소방관 불렀어. | tűzoltó = 소방관 | emotion=worried
-B | Tűzoltókat?! Ne már, ez csak egy szekrény! | 소방관?! 아 좀, 이거 그냥 옷장이야! | csak = 그냥 | emotion=shout+tsukkomi
-C | Semmi baj, gyerekek. Tessék, átadom a levest a szekrény fölött. | 괜찮다, 얘들아. 자, 옷장 위로 국 건네 줄게. | fölött = 위로 | emotion=gentle
-A | Dávid... a tűzoltók is levest kérnek. | 다비드… 소방관들도 국 달래. | kérnek = 그들이 달라고 한다 | emotion=amused
+goal: 관리비·납부 말하기(Befizettem · Melyik hónapot?)
+expressions: Közös költség; Befizettem; Melyik hónap
+C | Jó estét! A közös költség miatt jöttem. | 안녕하세요! 관리비 때문에 왔어요. | közös költség = 공동 관리비 | emotion=polite
+A | Jó estét! Az mi, közös költség? | 안녕하세요! 관리비가 뭐예요? | az mi? = 그게 뭐예요? | emotion=polite+surprised
+B | Hát, a ház pénze: takarítás, villany a lépcsőházban. | 음, 건물 돈이야. 청소, 계단 전기 같은 거. | lépcsőház = 계단실 | emotion=neutral
+C | Havonta tizenötezer forint, lakásonként. | 한 달에 집마다 만 5천 포린트예요. | havonta = 매달 | emotion=polite
+B | De én már befizettem, Marika néni! | 근데 저 이미 냈어요, 아주머니! | befizettem = 납부했다 | emotion=surprised
+C | Melyik hónapot? | 어느 달 거요? | melyik = 어느 | emotion=neutral
+B | Mindet, átutalással. Tessék, itt van a telefonomon. | 전부요, 계좌 이체로. 자, 제 폰에 있어요. | átutalás = 계좌 이체 | emotion=cheerful
+C | Mutassa! Jaj, ez a tizenkettes lakás száma. | 보여 줘요! 어머, 이건 12호 번호예요. | tizenkettes = 12번 | emotion=surprised+worried
+A | A tizenkettes? Feri bácsié? | 12호요? 페리 아저씨네요? | Feri bácsié = 페리 아저씨의 것 | emotion=surprised
+C | Igen! Ezért mondja mindig Feri, hogy ő időben fizet! | 그래요! 그래서 페리 씨가 늘 자기는 제때 낸다고 했구나! | időben = 제때에 | emotion=amused
+B | Akkor Feri bácsi tartozik nekem százhatvanötezerrel? | 그럼 페리 아저씨가 저한테 16만 5천 빚진 거예요? | tartozik = 빚지고 있다 | emotion=flustered
+C | Tartozik. De ezt maga mondja meg neki. | 빚졌죠. 근데 그건 직접 말하세요. | maga = 당신(Ön) | emotion=teasing

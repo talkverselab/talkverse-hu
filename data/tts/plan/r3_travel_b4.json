@@ -7,117 +7,129 @@
 "1": {
 "segs": [
 [
-"teasing",
-"Na végre, már azt hittem, nem jössz! A hajam megfagyott."
+"excited",
+"Hallod? Most mondták be a vonatunkat."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Bocsi, a villamos megint késett."
-],
-[
-"excited",
-"Hű, kint mínusz öt, a víz meg forró!"
+"worried",
+"Hallom, de nem értem. Túl gyorsan beszél."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Ez a tél legjobb része. Csak az arcod fázik, a többi nem."
+"annoyed",
+"Azt mondta, a vonat körülbelül harminc percet késik."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"teasing",
-"Szóval hoztad a sálamat? Balaton, Eger, Pécs: sokat látott már."
+"worried",
+"Harminc percet? Akkor lekéssük a csatlakozást?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Hoztam. Ott van a táskámban, az öltözőben."
+"amused",
+"Nem, az is késik. Itt ez normális."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"sad",
-"Akkor vége a kalandnak. Visszakapom, és kész."
+"worried",
+"És mit mondott még? Valami vágányt hallottam."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"worried",
-"Igen. Csak van egy gondom."
+"gentle",
+"Igen, nem a hetesről indul, hanem a kilencesről."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Mi az? Megint fél egyedül?"
+"cheerful",
+"Jó, hogy itt vagy. Egyedül most rossz vonaton ülnék."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"shy",
-"Nem ő. Ha visszaadom, nincs több okod írni nekem."
+"cheerful",
+"Gyere, addig igyunk egy kávét a büfében."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"gentle",
-"Jaj, Zsófi. Tudod, hány sálam van otthon?"
+"cheerful",
+"Jó ötlet. Ezúttal én fizetek."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"shy",
-"Hány? Mondd!"
+"cheerful",
+"Rendben. Két kávé és egy pogácsa?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"gentle",
-"Négy. És tudtam, hogy elvetted."
+"amused",
+"Kettő. Egy nem elég."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"surprised",
-"Tudtad? Akkor miért nem szóltál?"
+"shy",
+"Figyelj... én nem bánom ezt a késést.",
+"Figyelj, én nem bánom ezt a késést."
 ]
 ]
 },
 "14": {
 "segs": [
 [
+"surprised",
+"Hogyhogy? Hiszen utálsz várni."
+]
+]
+},
+"15": {
+"segs": [
+[
 "shy",
-"Hát... a kesztyűmet is ott akartam hagyni.",
-"Hát, a kesztyűmet is ott akartam hagyni."
+"Igen. De így fél órával többet lehetek veled."
+]
+]
+},
+"16": {
+"segs": [
+[
+"shy",
+"Akkor remélem, még egyszer bemondják, hogy késik."
 ]
 ]
 }

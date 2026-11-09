@@ -10,9 +10,9 @@
  "domain": [
   "travel"
  ],
- "title": "어제 표, 다른 트램",
+ "title": "그건 박물관 표예요",
  "emoji": "🚋",
- "scene": "부다페스트 트램 안 검표. 표를 내밀었는데 문제가 하나가 아니다",
+ "scene": "부다페스트 트램 안 검표. 주머니에서 표를 꺼내 내밀었다",
  "speakers": {
   "A": "{name}",
   "B": "Ellenőr"
@@ -21,11 +21,11 @@
  "twist": 7,
  "twist_type": "reveal",
  "flags": [],
- "goal": "표 검사에 답하기와 어디 가는지 말하기",
+ "goal": "검표에 답하기와 사과하기(Tessék · bocsánat)",
  "expressions": [
-  "Jó napot",
+  "Egy pillanat",
   "Tessék",
-  "bocsánat"
+  "Jól van"
  ],
  "turns": [
   {
@@ -35,9 +35,7 @@
    "rd": "요 너포트! 예제케트, 베를레테케트 케렉!",
    "ko": "안녕하세요! 표, 정기권 보여 주세요!",
    "note": "검표원의 정해진 말",
-   "tags": [
-    "expr:Jó napot"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -65,50 +63,41 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Tessék, itt a jegyem.",
-   "rd": "테쎅, 이트 어 예젬.",
-   "ko": "여기요, 제 표요.",
-   "note": "a jegyem = 내 표",
+   "hu": "Egy pillanat... Tessék.",
+   "rd": "에지 필러너트... 테쎅.",
+   "ko": "잠깐만요… 여기요.",
+   "note": "egy pillanat = 잠깐만요",
    "tags": [
+    "expr:Egy pillanat",
     "expr:Tessék"
    ],
-   "emotion": "polite",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "jegyem",
-     "jegyem",
-     ""
+     "pillanat",
+     "pillanat",
+     "필러넛"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Ez a jegy tegnapi.",
-   "rd": "에즈 어 예지 텍너피.",
-   "ko": "이 표는 어제 거예요.",
-   "note": "tegnapi = 어제의",
+   "hu": "Ez múzeumi jegy.",
+   "rd": "에즈 무제우미 예지.",
+   "ko": "이건 박물관 표인데요.",
+   "note": "múzeumi jegy = 박물관 표",
    "tags": [],
-   "emotion": "stiff",
+   "emotion": "amused",
    "lemmas": [
     [
-     "jegy",
-     "jegy",
+     "múzeumi",
+     "múzeumi",
      ""
     ],
     [
-     "tegnapi",
-     "tegnapi",
+     "jegy",
+     "jegy",
      ""
     ]
    ]
@@ -116,29 +105,17 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Tegnapi? Jaj, bocsánat!",
-   "rd": "텍너피? 여이, 보차너트!",
-   "ko": "어제 거요? 아이고, 죄송해요!",
-   "note": "bocsánat = 죄송합니다",
-   "tags": [
-    "expr:bocsánat"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Tegnapi?"
-    ],
-    [
-     "flustered",
-     "Jaj, bocsánat!"
-    ]
-   ],
+   "hu": "Jaj, bocsánat! Ez az.",
+   "rd": "여이, 보차너트! 에즈 어즈.",
+   "ko": "아이고, 죄송해요! 이거요.",
+   "note": "ez az = 이거예요",
+   "tags": [],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Tegnapi",
-     "tegnapi",
-     ""
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
      "bocsánat",
@@ -150,103 +127,135 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Hova megy?",
-   "rd": "호버 메지?",
-   "ko": "어디 가세요?",
-   "note": "hova = 어디로",
+   "hu": "Ezt nem lyukasztotta ki.",
+   "rd": "에즈트 넴 유커쓰토떠 키.",
+   "ko": "이건 개찰을 안 하셨네요.",
+   "note": "kilyukaszt = 펀칭하다(개찰)",
    "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
-     "Hova",
-     "hova",
-     "호버"
+     "lyukasztotta",
+     "lyukaszt",
+     ""
     ],
     [
-     "megy",
-     "megy",
-     "메지"
+     "ki",
+     "ki",
+     "키"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "A Parlamenthez megyek.",
-   "rd": "어 퍼를러멘트헤즈 메젝.",
-   "ko": "국회의사당에 가요.",
-   "note": "-hoz/-hez/-höz = ~쪽으로",
+   "hu": "Most szálltam fel, tényleg!",
+   "rd": "모슈트 쌀텀 펠, 테닐렉!",
+   "ko": "방금 탔어요, 정말이에요!",
+   "note": "felszáll = (차에) 타다",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "worried",
    "lemmas": [
     [
-     "megyek",
-     "megye",
-     "메예"
+     "Most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "szálltam",
+     "száll",
+     "쌀"
+    ],
+    [
+     "fel",
+     "fel",
+     "펠"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Akkor rossz villamoson ül.",
-   "rd": "어꼬르 로쓰 빌러모숀 윌.",
-   "ko": "그럼 트램 잘못 타셨어요.",
-   "note": "rossz = 나쁜, 틀린",
-   "tags": [],
-   "emotion": "stiff",
+   "hu": "Jól van, ott a gép. Tetszett a múzeum?",
+   "rd": "욜 번, 오트 어 게프. 테트쎄트 어 무제움?",
+   "ko": "알겠어요, 저기 기계요. 박물관은 좋았어요?",
+   "note": "tetszett = 마음에 들었다",
+   "tags": [
+    "expr:Jól van"
+   ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Jól van, ott a gép."
+    ],
+    [
+     "gentle",
+     "Tetszett a múzeum?"
+    ]
+   ],
    "lemmas": [
     [
-     "Akkor",
-     "akkor",
-     "어꼬르"
+     "Jól",
+     "jól",
+     "욜"
     ],
     [
-     "rossz",
-     "rossz",
-     "로쓰"
+     "van",
+     "van",
+     "번"
     ],
     [
-     "villamoson",
-     "villamos",
-     ""
+     "ott",
+     "ott",
+     "오트"
     ],
     [
-     "ül",
-     "ül",
-     "위일"
+     "gép",
+     "gép",
+     "게프"
+    ],
+    [
+     "múzeum",
+     "múzeum",
+     "무제움"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Hát most hova megyek?",
-   "rd": "하트 모슈트 호버 메젝?",
-   "ko": "그럼 저 이제 어디로 가죠?",
-   "note": "hát = 그럼, 음",
+   "hu": "Nagyon! Köszönöm szépen.",
+   "rd": "너죤! 쾨쐬뇜 쎄펜.",
+   "ko": "아주요! 정말 감사합니다.",
+   "note": "köszönöm szépen = 정말 감사합니다",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Nagyon!"
+    ],
+    [
+     "cheerful",
+     "Köszönöm szépen."
+    ]
+   ],
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "Nagyon",
+     "nagyon",
+     "너존"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "hova",
-     "hova",
-     "호버"
-    ],
-    [
-     "megyek",
-     "megye",
-     "메예"
+     "szépen",
+     "szép",
+     "쎕"
     ]
    ]
   }

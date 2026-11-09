@@ -5,51 +5,146 @@
  "kind": "short",
  "draft": true,
  "purpose": [
-  "making_friends"
+  "making_friends",
+  "study_abroad"
  ],
  "domain": [
   "friends"
  ],
- "title": "어디서 많이 본 자전거",
- "emoji": "🚲",
- "scene": "Réka 가 시장에서 싸게 산 새 자전거를 자랑한다",
+ "title": "숙제 했어?",
+ "emoji": "📓",
+ "scene": "수업 시작 5분 전, Réka 가 숙제를 했냐고 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "casual",
- "twist": 4,
+ "twist": 7,
  "twist_type": "reveal",
  "flags": [],
- "goal": "어디서 샀는지 묻기(Hol vetted?)와 놀랄 때 쓰는 말",
+ "goal": "깜빡했다 말하기(Elfelejtettem)와 도움 청하기(Segítesz?)",
  "expressions": [
-  "Nézd",
-  "ugye",
-  "Várj",
-  "Komolyan?"
+  "Megvan",
+  "Elfelejtettem",
+  "Komolyan"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Nézd! Új biciklim van!",
-   "rd": "네즈드! 우이 비칙림 번!",
-   "ko": "봐! 새 자전거 생겼어!",
-   "note": "nézd = 봐",
+   "hu": "Szia! Megvan a házi?",
+   "rd": "씨어! 멕번 어 하지?",
+   "ko": "안녕! 숙제 했어?",
+   "note": "házi = 숙제(házi feladat)",
    "tags": [
-    "expr:Nézd"
+    "expr:Megvan"
    ],
-   "emotion": "excited",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Nézd",
-     "néz",
-     "네즈"
+     "Szia",
+     "szia",
+     "씨어"
     ],
     [
-     "biciklim",
-     "biciklim",
+     "házi",
+     "házi",
      ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Milyen házi?",
+   "rd": "미옌 하지?",
+   "ko": "무슨 숙제?",
+   "note": "milyen = 어떤",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "házi",
+     "házi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "A tizedik oldal! Három feladat.",
+   "rd": "어 티제딕 올덜! 하롬 펠러더트.",
+   "ko": "10쪽! 문제 세 개.",
+   "note": "oldal = 쪽",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "tizedik",
+     "tizedik",
+     ""
+    ],
+    [
+     "oldal",
+     "oldal",
+     "올덜"
+    ],
+    [
+     "feladat",
+     "feladat",
+     "펠러더트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Jaj, elfelejtettem! Teljesen.",
+   "rd": "여이, 엘펠레이테뗌! 텔예센.",
+   "ko": "아, 깜빡했어! 완전히.",
+   "note": "elfelejtettem = 잊어버렸다",
+   "tags": [
+    "expr:Elfelejtettem"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "elfelejtettem",
+     "elfelejtett",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Gyorsan, még öt perc van.",
+   "rd": "죠르션, 멕 외트 페르츠 번.",
+   "ko": "빨리, 아직 5분 있어.",
+   "note": "gyorsan = 빨리",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Gyorsan",
+     "gyors",
+     "죠르시"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "perc",
+     "perc",
+     "페르츠"
     ],
     [
      "van",
@@ -59,77 +154,36 @@
    ]
   },
   {
-   "num": 2,
+   "num": 6,
    "speaker": "A",
-   "hu": "Szép! Hol vetted?",
-   "rd": "쎄프! 홀 베떼드?",
-   "ko": "예쁘다! 어디서 샀어?",
-   "note": "vetted = 네가 그걸 샀다",
+   "hu": "Nem megy, nehéz. Segítesz?",
+   "rd": "넴 메지, 네헤즈. 세기테쓰?",
+   "ko": "안 돼, 어려워. 도와줄래?",
+   "note": "nem megy = 안 돼(안 풀려)",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "worried",
    "lemmas": [
     [
-     "Szép",
-     "szép",
-     "쎕"
+     "megy",
+     "megy",
+     "메지"
     ],
     [
-     "vetted",
-     "vesz",
-     "베쓰"
+     "nehéz",
+     "nehéz",
+     "네헤즈"
     ]
    ]
   },
   {
-   "num": 3,
+   "num": 7,
    "speaker": "B",
-   "hu": "A piacon, csak ötezer. Jó, ugye?",
-   "rd": "어 피어촌, 척 외테제르. 요, 우제?",
-   "ko": "시장에서, 5천밖에 안 해. 좋지, 그치?",
-   "note": "ugye? = 그렇지?",
-   "tags": [
-    "expr:ugye"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "piacon",
-     "piac",
-     ""
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "ötezer",
-     "ötezer",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Várj... ez az én biciklim!",
-   "rd": "바르이... 에즈 어즈 엔 비칙림!",
-   "ko": "잠깐… 이거 내 자전거야!",
-   "note": "várj = 잠깐",
-   "tags": [
-    "expr:Várj"
-   ],
+   "hu": "Várj, üzenet a tanártól. Ma nincs óra.",
+   "rd": "바르이, 위제네트 어 터나르톨. 머 닌치 오러.",
+   "ko": "잠깐, 선생님 문자다. 오늘 수업 없대.",
+   "note": "üzenet = 메시지",
+   "tags": [],
    "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Várj..."
-    ],
-    [
-     "shout",
-     "ez az én biciklim!"
-    ]
-   ],
    "lemmas": [
     [
      "Várj",
@@ -137,71 +191,47 @@
      "바르"
     ],
     [
-     "biciklim",
-     "biciklim",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Na ne! Komolyan?",
-   "rd": "너 네! 코모연?",
-   "ko": "설마! 진짜로?",
-   "note": "komolyan? = 진짜로?",
-   "tags": [
-    "expr:Komolyan?"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
+     "üzenet",
+     "üzenet",
+     "위제네트"
+    ],
     [
-     "Na",
-     "na",
-     "너"
+     "tanártól",
+     "tanár",
+     "터나르"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
     ]
    ]
   },
   {
-   "num": 6,
+   "num": 8,
    "speaker": "A",
-   "hu": "Igen! Tegnap ellopták!",
-   "rd": "이겐! 텍너프 엘로프탁!",
-   "ko": "응! 어제 도둑맞았어!",
-   "note": "ellopták = 훔쳐 갔다",
-   "tags": [],
-   "emotion": "annoyed",
+   "hu": "Komolyan? Akkor megyünk kávézni?",
+   "rd": "코모연? 어꼬르 메쥔크 카베즈니?",
+   "ko": "진짜? 그럼 커피 마시러 갈까?",
+   "note": "kávézni = 커피 마시러",
+   "tags": [
+    "expr:Komolyan"
+   ],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
-     "ellopták",
-     "ellop",
-     "엘롭"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Hát... neked hatezer.",
-   "rd": "하트... 네케드 허테제르.",
-   "ko": "음… 너한텐 6천.",
-   "note": "neked = 너에게",
-   "tags": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
+     "megyünk",
+     "megy",
+     "메지"
     ],
     [
-     "hatezer",
-     "hatezer",
+     "kávézni",
+     "kávézik",
      ""
     ]
    ]

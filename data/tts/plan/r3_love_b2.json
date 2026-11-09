@@ -7,24 +7,24 @@
 "1": {
 "segs": [
 [
-"sad",
-"Szóval tényleg hazamész? Azt hittem, csak viccelsz."
+"worried",
+"Mindent bepakoltál? Útlevél, telefon, töltő?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"gentle",
-"Csak két hónapra. A családom már nagyon vár, és a papírokat is intézni kell."
+"cheerful",
+"Igen, háromszor is megnéztem. Az útlevél itt van a zsebemben."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"sad",
-"Persze, semmi baj. Két hónap nem olyan sok, ugye?"
+"gentle",
+"És mikor jössz vissza pontosan?"
 ]
 ]
 },
@@ -32,103 +32,99 @@
 "segs": [
 [
 "gentle",
-"Nem, egyáltalán nem sok."
-],
-[
-"neutral",
-"Amúgy mi van ebben a nagy dobozban?"
+"Január hetedikén. Csak két hét, nem olyan sok."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"shy",
-"Semmi különös. Csak hatvan boríték, hogy legyen mit csinálnod."
+"stiff",
+"Persze, két hét semmi."
+],
+[
+"cheerful",
+"Amúgy otthon most hideg van?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Hatvan? Várj, mindegyiken egy dátum van."
+"amused",
+"Nagyon. Még hidegebb, mint itt."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Igen, minden napra egy."
-],
-[
-"teasing",
-"De előre nem nyithatod ki, komolyan mondom."
+"shy",
+"Akkor ezt vidd magaddal. Én kötöttem, de ne nézd meg közelről."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Jó, de csak egyet nézek meg."
+"surprised",
+"Egy sál!"
 ],
 [
-"excited",
-"Hű, ez egy krumpli sállal!"
+"teasing",
+"Hű, de szép, de ez itt egy lyuk?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"gentle",
-"Az első napon a krumpli hazaér, és nagyon fázik."
+"flustered",
+"Az nem lyuk, hanem dizájn. Három hétig kötöttem."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"És a második napon? Mi történik a krumplival?"
+"surprised",
+"Három hétig? De hát csak két hete mondtam, hogy hazamegyek."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"teasing",
-"Azt majd holnap tudod meg."
-],
-[
-"gentle",
-"Hatvan napig minden reggel rám kell gondolnod."
+"shy",
+"Igazából nem neked kezdtem. Aztán menet közben a tiéd lett."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"surprised",
-"Anna, ezt mikor rajzoltad? Csak tegnap mondtam el, hogy megyek."
+"teasing",
+"És kinek kezdted?"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"shy",
-"Igazából a múlt hónap óta tudom, Réka elmondta. Minden este rajzoltam."
+"gentle",
+"Magamnak, de rajtad jobban áll."
+],
+[
+"surprised",
+"Nézd, jön a buszod!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"gentle",
-"Minden este? És mi van az utolsó borítékban?"
+"sad",
+"Jaj, már? Jó, akkor mennem kell."
 ]
 ]
 },
@@ -136,7 +132,19 @@
 "segs": [
 [
 "gentle",
-"Az üres. Azt neked kell rajzolnod, amikor visszajössz."
+"Írj, ha megérkeztél."
+],
+[
+"teasing",
+"És ne vedd le a sálat a képeken."
+]
+]
+},
+"16": {
+"segs": [
+[
+"shy",
+"Nem veszem le. Január hetedikén is ebben jövök."
 ]
 ]
 }

@@ -10,283 +10,270 @@
  "domain": [
   "life"
  ],
- "title": "이름의 날이 없는 사람",
- "emoji": "💐",
- "scene": "집 안이 꽃투성이다. Dávid 의 이름의 날(névnap)인데, 내 이름은 달력에 없다",
+ "title": "전기 요금 반반",
+ "emoji": "💡",
+ "scene": "전기 요금 고지서가 왔다. Dávid 와 반씩 나누려다 누가 더 썼는지 따지기 시작한다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid"
  },
  "register": "casual",
- "twist": 8,
- "twist_type": "emotion",
+ "twist": 7,
+ "twist_type": "chaos",
  "flags": [],
- "goal": "이름의 날 문화와 「그건 또 뭐야?」 묻기",
+ "goal": "돈 나누기(Felezzük? · Mennyi?)",
  "expressions": [
-  "Az meg mi?",
-  "Hát",
-  "Sajnos",
-  "Nézd"
+  "Felezzük?",
+  "Komolyan?",
+  "Mennyi"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Miért van itt ennyi virág?",
-   "rd": "미에르트 번 이트 에니 비락?",
-   "ko": "왜 여기 꽃이 이렇게 많아?",
-   "note": "ennyi = 이만큼",
-   "tags": [],
-   "emotion": "surprised",
+   "speaker": "B",
+   "hu": "Megjött a villanyszámla. Felezzük?",
+   "rd": "멕요트 어 빌러니쌈러. 펠레쥑?",
+   "ko": "전기 요금 왔어. 반반 할까?",
+   "note": "felezzük = 반으로 나누자",
+   "tags": [
+    "expr:Felezzük?"
+   ],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Miért",
-     "miért",
-     "미에르트"
+     "Megjött",
+     "megjön",
+     ""
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "ennyi",
-     "ennyi",
-     "엔니"
-    ],
-    [
-     "virág",
-     "virág",
-     "비라그"
+     "villanyszámla",
+     "villanyszámla",
+     ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Ma van a névnapom! Marika néni hozta.",
-   "rd": "머 번 어 네브너폼! 머리커 네니 호즈터.",
-   "ko": "오늘 내 이름의 날이야! 마리카 아주머니가 갖다주셨어.",
-   "note": "névnap = 이름의 날",
-   "tags": [],
+   "speaker": "A",
+   "hu": "Persze. Mennyi?",
+   "rd": "페르쎄. 메니?",
+   "ko": "그래. 얼마야?",
+   "note": "mennyi = 얼마",
+   "tags": [
+    "expr:Mennyi"
+   ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Ma",
-     "ma",
-     "머"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "névnapom",
-     "névnapom",
-     ""
-    ],
-    [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "hozta",
-     "hoz",
-     "호즈"
+     "Persze",
+     "persze",
+     "페르쎄"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Névnap? Az meg mi, születésnap?",
-   "rd": "네브너프? 어즈 멕 미, 쓀레테슈너프?",
-   "ko": "이름의 날? 그건 또 뭐야? 생일이야?",
-   "note": "az meg mi? = 그건 또 뭐야?",
+   "speaker": "B",
+   "hu": "Huszonnégyezer. Múlt hónapban tizenkétezer volt.",
+   "rd": "후쏜네제제르. 물트 호너프번 티젠케테제르 볼트.",
+   "ko": "2만 4천. 지난달엔 만 2천이었어.",
+   "note": "múlt hónapban = 지난달에",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "worried",
    "lemmas": [
     [
-     "Névnap",
-     "névnap",
+     "Huszonnégyezer",
+     "huszonnégy",
      ""
     ],
     [
-     "születésnap",
-     "születésnap",
+     "hónapban",
+     "hónap",
+     "호넙"
+    ],
+    [
+     "tizenkétezer",
+     "tizenkét",
      ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Nem. Minden névnek van egy napja.",
-   "rd": "넴. 민덴 네브넥 번 에지 너프여.",
-   "ko": "아니. 이름마다 자기 날이 있어.",
-   "note": "névnek ... napja = 이름의 날",
-   "tags": [],
-   "emotion": "neutral",
+   "speaker": "A",
+   "hu": "Komolyan? Mi fogyaszt ennyit?",
+   "rd": "코모연? 미 포져쓰트 에니트?",
+   "ko": "진짜? 뭐가 이렇게 많이 먹어?",
+   "note": "fogyaszt = 소비한다",
+   "tags": [
+    "expr:Komolyan?"
+   ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "névnek",
-     "név",
-     "네브"
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "fogyaszt",
+     "fogyaszt",
+     ""
     ],
     [
-     "napja",
-     "nap",
-     "넙"
+     "ennyit",
+     "ennyi",
+     "엔니"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "És az én nevemnek?",
-   "rd": "에시 어즈 엔 네벰넥?",
-   "ko": "내 이름은?",
-   "note": "nevemnek = 내 이름에게",
+   "speaker": "B",
+   "hu": "A te hősugárzód. Egész nap megy.",
+   "rd": "어 테 회슈가르조드. 에게쓰 너프 메지.",
+   "ko": "네 전기 히터. 하루 종일 돌아가잖아.",
+   "note": "hősugárzó = 전기 히터",
    "tags": [],
-   "emotion": "excited",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "nevemnek",
-     "nevem",
+     "hősugárzód",
+     "hősugárzó",
      ""
+    ],
+    [
+     "nap",
+     "nap",
+     "넙"
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "B",
-   "hu": "Hát... sajnos az nincs a naptárban.",
-   "rd": "하트... 셔이노시 어즈 닌치 어 너프타르번.",
-   "ko": "음… 아쉽지만 그건 달력에 없어.",
-   "note": "naptár = 달력",
-   "tags": [
-    "expr:Hát",
-    "expr:Sajnos"
-   ],
-   "emotion": "sad",
+   "speaker": "A",
+   "hu": "És a te számítógéped? Meg a mosógép éjjel?",
+   "rd": "에시 어 테 싸미토게페드? 멕 어 모쇼게프 에옐?",
+   "ko": "그럼 네 컴퓨터는? 밤에 돌리는 세탁기는?",
+   "note": "meg = 그리고",
+   "tags": [],
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "sajnos",
-     "sajnos",
-     "셔이노시"
-    ],
-    [
-     "nincs",
-     "nincs",
-     "닌치"
-    ],
-    [
-     "naptárban",
-     "naptár",
+     "számítógéped",
+     "számítógép",
      ""
+    ],
+    [
+     "mosógép",
+     "mosógép",
+     ""
+    ],
+    [
+     "éjjel",
+     "éj",
+     "에이"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Jaj. Szóval nekem soha nincs névnapom.",
-   "rd": "여이. 쏘벌 네켐 쇼허 닌치 네브너폼.",
-   "ko": "아이고. 그럼 나는 이름의 날이 영영 없네.",
-   "note": "soha nincs = 절대 없다",
+   "speaker": "B",
+   "hu": "Jó, akkor a wifit is számoljuk. Te többet netezel.",
+   "rd": "요, 어꼬르 어 비피트 이시 싸몰육. 테 퇴베트 네테젤.",
+   "ko": "좋아, 그럼 와이파이도 따지자. 인터넷은 네가 더 써.",
+   "note": "netezel = 인터넷을 한다",
    "tags": [],
-   "emotion": "sad",
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "soha",
-     "soha",
-     "쇼허"
+     "akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "nincs",
-     "nincs",
-     "닌치"
+     "wifit",
+     "wifit",
+     ""
     ],
     [
-     "névnapom",
-     "névnapom",
+     "számoljuk",
+     "számol",
+     ""
+    ],
+    [
+     "többet",
+     "több",
+     "퇴그"
+    ],
+    [
+     "netezel",
+     "netezel",
      ""
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Nézd, beleírtam: holnap van. Te hozod a tortát!",
-   "rd": "네즈드, 벨레이르텀: 홀너프 번. 테 호조드 어 토르타트!",
-   "ko": "봐, 써 넣었어. 내일이야. 케이크는 네가 가져와!",
-   "note": "beleírtam = 안에 적어 넣었다",
+   "speaker": "A",
+   "hu": "Várj, csak a villanyról volt szó! Felezzük?",
+   "rd": "바르이, 척 어 빌러니롤 볼트 쏘! 펠레쥑?",
+   "ko": "잠깐, 전기 요금 얘기였잖아! 반반 할까?",
+   "note": "szó volt róla = 그 얘기였다",
    "tags": [
-    "expr:Nézd"
+    "expr:Felezzük?"
    ],
-   "emotion": "gentle",
+   "emotion": "tsukkomi",
    "segs": [
     [
-     "gentle",
-     "Nézd, beleírtam: holnap van."
+     "tsukkomi",
+     "Várj, csak a villanyról volt szó!"
     ],
     [
-     "teasing",
-     "Te hozod a tortát!"
+     "amused",
+     "Felezzük?"
     ]
    ],
    "lemmas": [
     [
-     "Nézd",
-     "néz",
-     "네즈"
+     "Várj",
+     "vár",
+     "바르"
     ],
     [
-     "beleírtam",
-     "beleír",
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "villanyról",
+     "villany",
      ""
     ],
     [
-     "holnap",
-     "holnap",
-     "홀넙"
-    ],
-    [
-     "van",
+     "volt",
      "van",
      "번"
     ],
     [
-     "hozod",
-     "hoz",
-     "호즈"
-    ],
-    [
-     "tortát",
-     "torta",
-     ""
+     "szó",
+     "szó",
+     "쏘"
     ]
    ]
   }

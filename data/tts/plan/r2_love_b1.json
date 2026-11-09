@@ -2,38 +2,42 @@
 "ep": "r2_love_b1",
 "cast": {
 "B": "anna",
-"C": "man_o"
+"C": "woman_m"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"cheerful",
-"Gyere a meleg vízbe! És add ide a szemüveged."
+"excited",
+"Na, készen vagy? Kint mínusz két fok van, a víz meg harmincnyolc."
 ]
 ]
 },
 "2": {
 "segs": [
 [
+"excited",
+"Igen, nagyon várom."
+],
+[
 "worried",
-"Jó, de szemüveg nélkül semmit nem látok."
+"Várj, hol a fürdőruhám?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"teasing",
-"Nem baj, pont ez a terv. Egy pillanat, mindjárt jövök."
+"surprised",
+"Komolyan? Otthon hagytad?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"shy",
-"Figyelj, Anna, régóta mondani akarok valamit."
+"flustered",
+"Úgy tűnik. Reggel csak a törölközőre figyeltem."
 ]
 ]
 },
@@ -41,71 +45,63 @@
 "segs": [
 [
 "gentle",
-"Mondjad csak, hallgatlak."
+"Semmi baj. Kérdezzük meg a pénztárnál."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shy",
-"Nagyon tetszel nekem. Szép vagy, és jó az illatod."
+"polite",
+"Elnézést, lehet itt fürdőruhát bérelni?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Köszönöm."
-],
-[
-"amused",
-"A feleségem is ezt mondja."
+"polite",
+"Bérelni nem, de venni lehet. Ott vannak a polcon."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"Mi van?!"
-],
-[
-"flustered",
-"Ki maga?"
+"cheerful",
+"Köszönöm. Anna, segítesz választani?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"amused",
-"Feri bácsi. A barátaim is hallották, nagyon tetszett nekik."
+"teasing",
+"Naná. Ez a sárga, kis kacsákkal, tökéletes."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"surprised",
-"Mi történt? Miért tapsol mindenki?"
+"flustered",
+"Kacsákkal? Ezt nem veszem fel, mindenki nevetni fog."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"flustered",
-"Semmi. Add vissza a szemüvegem, légyszi."
+"gentle",
+"Jó, akkor én is ilyet veszek. Ha ketten vagyunk, már nem vicces."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"teasing",
-"Nem. Előbb mondd el nekem is, amit neki mondtál."
+"amused",
+"Tényleg? Akkor két kacsás fürdőruhát kérünk."
 ]
 ]
 }

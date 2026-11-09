@@ -10,151 +10,149 @@
  "domain": [
   "study"
  ],
- "title": "5점이나 받았어",
- "emoji": "😢",
- "scene": "시험 결과가 나왔다. Réka 에게 슬픈 소식을 전한다. 점수 체계를 잘못 알고 있는 줄은 모른 채",
+ "title": "숙제가 몇 쪽이었더라",
+ "emoji": "📖",
+ "scene": "아파서 수업에 못 간 날. Réka 에게 숙제를 물어서 저녁 내내 했다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "chat",
- "twist": 11,
- "twist_type": "slip",
+ "twist": 10,
+ "twist_type": "chaos",
  "flags": [],
- "goal": "점수 말하기(ötös, egyes)와 위로·축하",
+ "goal": "결석 뒤 숙제 묻기(Mi a házi feladat? · Melyik oldal?)와 서수",
  "expressions": [
-  "Sajnos",
-  "Mi van",
-  "Várj",
+  "Jaj",
   "Úristen",
-  "Naná",
-  "Szóval"
+  "Ne már",
+  "Bocsi"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Megjött az eredmény. Sajnos ötös lett. 😢",
-   "rd": "멕요트 어즈 에레드메니. 셔이노시 외퇴시 레트. 😢",
-   "ko": "결과 나왔어. 아쉽게도 5점이야. 😢",
-   "note": "ötös = 5점",
-   "tags": [
-    "expr:Sajnos"
-   ],
-   "at": "16:10",
+   "hu": "Szia! Ma beteg voltam, nem mentem órára. 🤒",
+   "rd": "씨어! 머 베텍 볼텀, 넴 멘템 오라러. 🤒",
+   "ko": "안녕! 오늘 아파서 수업 못 갔어. 🤒",
+   "note": "órára = 수업에",
+   "tags": [],
+   "at": "17:10",
    "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
-     "Megjött",
-     "megjön",
-     ""
+     "Szia",
+     "szia",
+     "씨어"
     ],
     [
-     "eredmény",
-     "eredmény",
-     "에레드메니"
+     "beteg",
+     "beteg",
+     "베테그"
     ],
     [
-     "ötös",
-     "ötös",
-     ""
+     "voltam",
+     "volt",
+     "볼트"
     ],
     [
-     "lett",
-     "lesz",
-     "레쓰"
+     "mentem",
+     "ment",
+     "멘트"
+    ],
+    [
+     "órára",
+     "óra",
+     "오러"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Sajnos? Mi van?",
-   "rd": "셔이노시? 미 번?",
-   "ko": "아쉽게도? 뭐야?",
-   "note": "sajnos = 아쉽게도",
+   "hu": "Jaj, szegény! Jobban vagy?",
+   "rd": "여이, 쎄게니! 요번 버지?",
+   "ko": "아이고, 저런! 좀 나아?",
+   "note": "jobban vagy? = 좀 나아?",
    "tags": [
-    "expr:Sajnos",
-    "expr:Mi van"
+    "expr:Jaj"
    ],
-   "at": "16:11",
-   "emotion": "surprised",
+   "at": "17:12",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Sajnos",
-     "sajnos",
-     "셔이노시"
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "szegény",
+     "szegény",
+     "쎄게니"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Nagyon sokat tanultam, és csak ötös.",
-   "rd": "너죤 쇼커트 터눌텀, 에시 척 외퇴시.",
-   "ko": "엄청 공부했는데 겨우 5점이야.",
-   "note": "sokat = 많이",
+   "hu": "Már jobban. Mi a házi feladat?",
+   "rd": "마르 요번. 미 어 하지 펠러더트?",
+   "ko": "이제 좀 나아. 숙제가 뭐야?",
+   "note": "házi feladat = 숙제",
    "tags": [],
-   "at": "16:11",
-   "emotion": "sad",
+   "at": "17:12",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Nagyon",
-     "nagyon",
-     "너존"
+     "Már",
+     "már",
+     "마르"
     ],
     [
-     "tanultam",
-     "tanult",
+     "jobban",
+     "jobb",
      ""
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "házi",
+     "házi",
+     ""
     ],
     [
-     "ötös",
-     "ötös",
-     ""
+     "feladat",
+     "feladat",
+     "펠러더트"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Várj. Szerinted melyik a legjobb jegy?",
-   "rd": "바르이. 쎄린테드 메익 어 렉요브 예지?",
-   "ko": "잠깐. 네 생각엔 제일 좋은 점수가 뭐야?",
-   "note": "jegy = 점수, 표",
-   "tags": [
-    "expr:Várj"
-   ],
-   "at": "16:12",
+   "hu": "A harmincnegyedik oldal, az összes gyakorlat.",
+   "rd": "어 허르민츠네제딕 올덜, 어즈 외쎄시 져코를러트.",
+   "ko": "34쪽, 연습 문제 전부.",
+   "note": "oldal = 쪽",
+   "tags": [],
+   "at": "17:15",
    "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "harmincnegyedik",
+     "harmincnegyedik",
+     ""
     ],
     [
-     "legjobb",
-     "jó",
-     "요"
+     "oldal",
+     "oldal",
+     "올덜"
     ],
     [
-     "jegy",
-     "jegy",
+     "gyakorlat",
+     "gyakorlat",
      ""
     ]
    ]
@@ -162,44 +160,151 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Az egyes, nem? Egyes, első, legjobb.",
-   "rd": "어즈 에제시, 넴? 에제시, 엘쇠, 렉요브.",
-   "ko": "1점 아니야? 1점, 1등, 최고.",
-   "note": "egyes = 1점",
+   "hu": "Az összes? Az tíz gyakorlat!",
+   "rd": "어즈 외쎄시? 어즈 티즈 져코를러트!",
+   "ko": "전부? 그거 열 문제야!",
+   "note": "gyakorlat = 연습 문제",
    "tags": [],
-   "at": "16:13",
-   "emotion": "neutral",
+   "at": "17:16",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "legjobb",
-     "jó",
-     "요"
+     "gyakorlat",
+     "gyakorlat",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Úristen, nálunk az ötös a legjobb! Az egyes azt jelenti: megbuktál.",
-   "rd": "우리슈텐, 날룬크 어즈 외퇴시 어 렉요브! 어즈 에제시 어즈트 옐렌티: 멕북탈.",
-   "ko": "세상에, 우리는 5점이 최고야! 1점은 낙제라는 뜻이야.",
-   "note": "megbuktál = 네가 떨어졌다",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "at": "16:13",
-   "emotion": "surprised",
-   "segs": [
+   "hu": "Tudom. Sok sikert! 💪",
+   "rd": "투돔. 쇽 시케르트! 💪",
+   "ko": "알아. 화이팅! 💪",
+   "note": "sok sikert = 잘해 봐",
+   "tags": [],
+   "at": "17:16",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": [
     [
-     "surprised",
-     "Úristen, nálunk az ötös a legjobb!"
+     "Tudom",
+     "tud",
+     "투드"
     ],
     [
-     "neutral",
-     "Az egyes azt jelenti: megbuktál."
+     "sikert",
+     "siker",
+     "시케르"
     ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Kész! Három órán át írtam. 😵",
+   "rd": "케쓰! 하롬 오란 아트 이르텀. 😵",
+   "ko": "끝! 세 시간 동안 썼어. 😵",
+   "note": "három órán át = 세 시간 동안",
+   "tags": [],
+   "at": "21:40",
+   "emotion": "excited",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Kész",
+     "kész",
+     "케스"
+    ],
+    [
+     "órán",
+     "óra",
+     "오러"
+    ],
+    [
+     "át",
+     "át",
+     "아트"
+    ],
+    [
+     "írtam",
+     "írt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Ügyes vagy! Melyik oldalt csináltad?",
+   "rd": "위제시 버지! 메익 올덜트 치날터드?",
+   "ko": "잘했어! 몇 쪽 했어?",
+   "note": "ügyes = 잘한다",
+   "tags": [],
+   "at": "21:45",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Ügyes",
+     "ügyes",
+     "위계시"
+    ],
+    [
+     "oldalt",
+     "oldal",
+     "올덜"
+    ],
+    [
+     "csináltad",
+     "csinált",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Hát a harmincnegyediket. Te mondtad.",
+   "rd": "하트 어 허르민츠네제디케트. 테 몬드터드.",
+   "ko": "당연히 34쪽. 네가 말했잖아.",
+   "note": "te mondtad = 네가 말했다",
+   "tags": [],
+   "at": "21:45",
+   "emotion": "surprised",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "harmincnegyediket",
+     "harmincnegyedik",
+     ""
+    ],
+    [
+     "mondtad",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Úristen, bocsi! A negyvenharmadik volt. 🙈",
+   "rd": "우리슈텐, 보치! 어 네지벤허르머딕 볼트. 🙈",
+   "ko": "세상에, 미안! 43쪽이었어. 🙈",
+   "note": "negyvenharmadik = 43번째",
+   "tags": [
+    "expr:Úristen",
+    "expr:Bocsi"
    ],
+   "at": "21:47",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
@@ -208,185 +313,100 @@
      "우리슈텐"
     ],
     [
-     "ötös",
-     "ötös",
+     "bocsi",
+     "bocsi",
+     "보치"
+    ],
+    [
+     "negyvenharmadik",
+     "negyvenharmadik",
      ""
     ],
     [
-     "legjobb",
-     "jó",
-     "요"
-    ],
-    [
-     "jelenti",
-     "jelent",
-     "옐렌트"
-    ],
-    [
-     "megbuktál",
-     "megbukik",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Komolyan? Akkor szuper vagyok!",
-   "rd": "코모연? 어꼬르 쑤페르 버죡!",
-   "ko": "진짜? 그럼 나 대단한 거네!",
-   "note": "szuper = 끝내주는",
-   "tags": [],
-   "at": "16:14",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Komolyan?"
-    ],
-    [
-     "excited",
-     "Akkor szuper vagyok!"
-    ]
-   ],
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Komolyan",
-     "komoly",
-     "코모이"
-    ],
-    [
-     "szuper",
-     "szuper",
-     "쑤페르"
-    ],
-    [
-     "vagyok",
+     "volt",
      "van",
      "번"
     ]
    ]
   },
   {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Naná! Gratulálok!",
-   "rd": "너나! 그러툴랄록!",
-   "ko": "당연하지! 축하해!",
-   "note": "gratulálok = 축하해",
-   "tags": [
-    "expr:Naná"
-   ],
-   "at": "16:14",
-   "stamp": "🎉",
-   "emotion": "excited",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Naná",
-     "naná",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Várj. Jaj.",
-   "rd": "바르이. 여이.",
-   "ko": "잠깐. 아이고.",
-   "note": "jaj = 아이고",
-   "tags": [
-    "expr:Várj"
-   ],
-   "at": "16:15",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Mi az?",
-   "rd": "미 어즈?",
-   "ko": "왜?",
-   "note": "mi az? = 뭔데?",
-   "tags": [],
-   "at": "16:15",
-   "emotion": "neutral",
-   "ui": "bubble",
-   "lemmas": []
-  },
-  {
    "num": 11,
    "speaker": "A",
-   "hu": "Anna tegnap egyest kapott. Tortát vettem neki.",
-   "rd": "언너 텍너프 에제슈트 커포트. 토르타트 베뗌 네키.",
-   "ko": "언너 어제 1점 받았거든. 내가 케이크 사 줬어.",
-   "note": "torta = 케이크",
-   "tags": [],
-   "at": "16:16",
-   "emotion": "flustered",
+   "hu": "Ne már. És ott hány gyakorlat van?",
+   "rd": "네 마르. 에시 오트 하니 져코를러트 번?",
+   "ko": "아 진짜. 거기엔 몇 문제 있어?",
+   "note": "hány = 몇 개",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "at": "21:47",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
-     "Anna",
-     "anna",
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "gyakorlat",
+     "gyakorlat",
      ""
     ],
     [
-     "tegnap",
-     "tegnap",
-     "테그너프"
-    ],
-    [
-     "kapott",
-     "kap",
-     "커프"
-    ],
-    [
-     "vettem",
-     "vett",
-     "벳트"
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "hu": "Szóval ezért sírt, amikor énekeltél?",
-   "rd": "쏘벌 에제르트 시르트, 어미코르 에네켈텔?",
-   "ko": "그래서 네가 노래할 때 걔가 운 거구나?",
-   "note": "énekeltél = 네가 노래했다",
-   "tags": [
-    "expr:Szóval"
-   ],
-   "at": "16:17",
-   "stamp": "😂",
-   "emotion": "tsukkomi",
+   "hu": "Csak egy fogalmazás, öt mondat. A harmincnegyediket holnap kérdezi. 😅",
+   "rd": "척 에지 포걸머자시, 외트 몬더트. 어 허르민츠네제디케트 홀너프 케르데지. 😅",
+   "ko": "작문 하나, 다섯 문장. 34쪽은 내일 물어보신대. 😅",
+   "note": "fogalmazás = 작문",
+   "tags": [],
+   "at": "21:48",
+   "stamp": "😅",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szóval",
-     "szó",
-     "쏘"
+     "Csak",
+     "csak",
+     "촉"
     ],
     [
-     "sírt",
-     "sír",
-     "시르"
+     "fogalmazás",
+     "fogalmazás",
+     ""
     ],
     [
-     "énekeltél",
-     "énekel",
-     "에네켈"
+     "mondat",
+     "monda",
+     "몬더"
+    ],
+    [
+     "harmincnegyediket",
+     "harmincnegyedik",
+     ""
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "kérdezi",
+     "kérdez",
+     "케르데즈"
     ]
    ]
   }

@@ -10,97 +10,102 @@
 "segs": [
 [
 "cheerful",
-"Sziasztok! Szombaton buli nálam, ki mit hoz?"
+"Szombaton nyílik a fotókiállítás. Ki jön? 📸",
+"Szombaton nyílik a fotókiállítás. Ki jön?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Én bejglit hozok."
+"excited",
+"Én! Hánykor?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Mi az a bejgli?"
+"cheerful",
+"Hatkor kezdődik, ingyenes."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Mákos vagy diós sütemény. Mindenki szereti."
+"sad",
+"Én csak hétre érek oda. Munka. 😩",
+"Én csak hétre érek oda. Munka."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"Szuper! Akkor én is hozok."
+"excited",
+"Én is megyek! Hol találkozunk?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"neutral",
-"Én is bejglit hozok."
+"gentle",
+"A bejáratnál, fél hatkor."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"neutral",
-"Itt vagyok."
-],
-[
-"surprised",
-"Már tizennégy bejgli van az asztalon."
+"teasing",
+"Bence, te ne késs megint! 😄",
+"Bence, te ne késs megint!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Tizennégy?!"
-],
-[
-"worried",
-"Én még hozok hatot."
+"annoyed",
+"Én soha nem késem!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"worried",
-"És ital? Ki hozott italt?"
+"amused",
+"Szerintem nyolc előtt nem lesz ott. 😂",
+"Szerintem nyolc előtt nem lesz ott."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"flustered",
-"Izé... mindenki azt hitte, hogy valaki hoz.",
-"Izé, mindenki azt hitte, hogy valaki hoz."
+"stiff",
+"Ezt a csoportba írtad, {name}. 👀",
+"Ezt a csoportba írtad, {name}."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"amused",
-"Csengetnek. A szomszéd néni kérdezi, kérünk-e bejglit. 😂",
-"Csengetnek. A szomszéd néni kérdezi, kérünk-e bejglit."
+"flustered",
+"Jaj! Bocsi, ezt Annának akartam írni! 🙈",
+"Jaj! Bocsi, ezt Annának akartam írni!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Hétkor ott leszek. Fogadjunk? 😏",
+"Hétkor ott leszek. Fogadjunk?"
 ]
 ]
 }

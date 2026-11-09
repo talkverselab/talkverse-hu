@@ -7,44 +7,40 @@
 "1": {
 "segs": [
 [
-"neutral",
-"Na, jól vagy?"
+"cheerful",
+"Éhes vagyok, veszek egy pogácsát. Kérsz?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"annoyed",
-"Jaj, nagyon meleg vagyok!"
+"cheerful",
+"Nem, köszi. Én csokit szeretnék."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Tényleg?"
-],
-[
 "gentle",
-"Jó, semmi baj."
+"Ott van, a pult mellett."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Igen, nagyon! És te?"
+"flustered",
+"Jaj, nincs nálam pénz."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"flustered",
-"Én? Hát, én nem."
+"gentle",
+"Semmi baj, van kártyám."
 ]
 ]
 },
@@ -52,7 +48,7 @@
 "segs": [
 [
 "cheerful",
-"Na ne! Ma mindenki meleg!"
+"Köszi! Akkor adsz egy csókot?"
 ]
 ]
 },
@@ -60,7 +56,7 @@
 "segs": [
 [
 "amused",
-"Hű. Melegem van, ezt akarod mondani?"
+"Egy csókot? Itt, a boltban?"
 ]
 ]
 },
@@ -68,7 +64,7 @@
 "segs": [
 [
 "flustered",
-"Jaj. Ezt mondtam a tanáromnak is!"
+"Csokit! Csokit akartam mondani!"
 ]
 ]
 }

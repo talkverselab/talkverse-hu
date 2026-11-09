@@ -1,16 +1,14 @@
 {
 "ep": "r1_travel_a3",
 "cast": {
-"B": "woman_m",
-"C": "woman_o",
-"D": "man_o"
+"B": "woman_m"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"cheerful",
-"Jó napot! Kóstolja meg a kolbászt!"
+"polite",
+"Jó napot! Mennyibe kerül ez?"
 ]
 ]
 },
@@ -18,60 +16,55 @@
 "segs": [
 [
 "polite",
-"Köszönöm."
-],
-[
-"excited",
-"Hű, de finom!"
+"A mágnes? Ezerkétszáz forint."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"excited",
-"Várjon! Az enyémet is kóstolja meg!"
+"cheerful",
+"És a paprika?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Hm, ez is nagyon finom."
+"cheerful",
+"Kétezer. Nagyon finom."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"excited",
-"Itt a szalámi! Tessék, tessék!"
+"cheerful",
+"Akkor kettőt kérek, kártyával."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Jaj, köszönöm, de már jóllaktam."
+"polite",
+"Sajnos csak készpénzt fogadunk."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Na, és mit vesz?"
+"flustered",
+"Jaj! Van itt bankautomata?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shy",
-"Hát... egy vizet kérek.",
-"Hát, egy vizet kérek."
+"gentle",
+"Van, a sarkon. Addig félreteszem."
 ]
 ]
 }

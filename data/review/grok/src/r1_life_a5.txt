@@ -1,19 +1,19 @@
 === r1_life_a5
 kind: short
-title: 집주인은 어디에
+title: 온수가 안 나와요
 emoji: 🚿
-scene: 한겨울에 온수가 끊겨 집주인 Laci 아저씨에게 전화한다. 아저씨 뒤로 물소리가 난다
+scene: 아침에 샤워하려는데 찬물만 나온다. 집주인 Laci 아저씨에게 전화한다
 b: Laci bácsi
 register: polite
 twist: 8 reveal
 purpose: study_abroad
-goal: 집 문제 말하기(Nincs …)와 Ön 으로 묻기
-expressions: Tényleg?; Hát; Jaj; Persze
-A | Jó napot! Nincs meleg víz. | 안녕하세요! 온수가 안 나와요. | meleg víz = 더운물 | emotion=polite+worried
-B | Tényleg? Hát, most tél van. | 그래요? 뭐, 지금 겨울이잖아요. | tél = 겨울 | emotion=neutral
-A | Igen, és nagyon hideg van! | 네, 그래서 엄청 추워요! | hideg van = 춥다 | emotion=annoyed
-B | Jaj. Menjen a fürdőbe! | 아이고. 온천에 가세요! | fürdő = 온천, 목욕탕 | emotion=cheerful
-A | A fürdőbe? Ez komoly? | 온천요? 진심이세요? | komoly = 진지한 | emotion=tsukkomi
-B | Persze! Ott sok meleg víz van. | 그럼요! 거긴 더운물이 많아요. | ott = 거기 | emotion=cheerful
-A | Ön most hol van? | 지금 어디 계세요? | Ön = 당신(존댓말) | emotion=stiff
-B | Én? A fürdőben, három hete. | 저요? 온천이요, 3주째요. | három hete = 3주 전부터 쭉 | emotion=amused
+goal: 전화로 집 문제 말하기(Nincs meleg víz) · Ön 으로 묻기
+expressions: Halló; Nincs meleg víz; Egy pillanat
+B | Halló, tessék! | 여보세요, 네! | tessék = (전화 받을 때) 네, 말씀하세요 | emotion=polite
+A | Jó reggelt, Laci bácsi! Nincs meleg víz. | 안녕하세요, 라치 아저씨! 온수가 안 나와요. | meleg víz = 더운물 | emotion=polite+worried
+B | A bojleren ég a piros lámpa? | 온수기에 빨간 불 켜져 있어요? | bojler = 온수기 | emotion=neutral
+A | Egy pillanat, megnézem. Nem ég. | 잠깐만요, 볼게요. 안 켜져 있어요. | megnézem = 확인할게요 | emotion=polite+worried
+B | És a konnektorban benne van? | 콘센트에는 꽂혀 있어요? | konnektor = 콘센트 | emotion=neutral
+A | Konnektor? Hol van az? | 콘센트요? 그게 어디 있죠? | hol van? = 어디 있어요? | emotion=surprised
+B | A bojler mellett, lent. | 온수기 옆, 아래쪽에요. | mellett = ~옆에 | emotion=gentle
+A | Jaj, Dávid kihúzta! Ott tölti a telefonját. | 아, 다비드가 뽑았네요! 거기서 폰을 충전해요. | kihúzta = 뽑았다 | emotion=flustered+annoyed

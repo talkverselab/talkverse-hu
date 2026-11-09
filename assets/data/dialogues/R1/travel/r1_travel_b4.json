@@ -10,254 +10,258 @@
  "domain": [
   "travel"
  ],
- "title": "자리 양보",
- "emoji": "🚋",
- "scene": "만원 트램. 친절하게 자리를 양보했을 뿐인데 차 안이 시끄러워진다",
+ "title": "제가 말해 줄게요",
+ "emoji": "🚃",
+ "scene": "2번 트램. 국회의사당에서 내려야 해서 옆자리 할머니에게 묻는다",
  "speakers": {
   "A": "{name}",
-  "B": "Néni",
-  "C": "Bácsi"
+  "B": "Néni"
  },
  "register": "polite",
- "twist": 5,
+ "twist": 8,
  "twist_type": "chaos",
  "flags": [],
- "goal": "자리 양보하기와 존댓말 명령형(üljön le)",
+ "goal": "어디서 내리는지 묻기(Hol kell leszállni?)",
  "expressions": [
-  "Tessék",
   "Elnézést",
-  "Mi van?",
-  "Nem baj"
+  "Majd szólok",
+  "ugye"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Tessék, néni, üljön le!",
-   "rd": "테쎅, 네니, 윌욘 레!",
-   "ko": "여기요, 할머니, 앉으세요!",
-   "note": "üljön le = 앉으세요",
+   "hu": "Elnézést, ez a villamos megy a Parlamenthez?",
+   "rd": "엘네제슈트, 에즈 어 빌러모시 메지 어 퍼를러멘트헤즈?",
+   "ko": "실례합니다, 이 트램 국회의사당 가요?",
+   "note": "megy = 가다",
    "tags": [
-    "expr:Tessék"
+    "expr:Elnézést"
    ],
    "emotion": "polite",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
     ],
     [
-     "néni",
-     "néni",
+     "villamos",
+     "villamos",
      ""
     ],
     [
-     "üljön",
-     "ül",
-     "위일"
-    ],
-    [
-     "le",
-     "le",
-     "레"
+     "megy",
+     "megy",
+     "메지"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Néni? Hány évesnek néz engem?",
-   "rd": "네니? 하니 에베슈넥 네즈 엔겜?",
-   "ko": "할머니요? 내가 몇 살로 보여요?",
-   "note": "hány évesnek = 몇 살로",
+   "hu": "Igen, kedvesem. Négy megálló.",
+   "rd": "이겐, 케드베셈. 네지 메갈로.",
+   "ko": "네, 얘야. 네 정거장이에요.",
+   "note": "kedvesem = 얘야(다정한 호칭)",
    "tags": [],
-   "emotion": "annoyed",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Néni",
-     "néni",
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "kedvesem",
+     "kedvesem",
      ""
     ],
     [
-     "évesnek",
-     "éves",
-     "에베슈"
-    ],
-    [
-     "néz",
-     "néz",
-     "네즈"
+     "megálló",
+     "megáll",
+     "메갈"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Elnézést, én csak kedves akartam lenni.",
-   "rd": "엘네제슈트, 엔 척 케드베시 어커르텀 렌니.",
-   "ko": "죄송해요, 그냥 친절하게 하려던 거예요.",
-   "note": "akartam = ~하려고 했다",
-   "tags": [
-    "expr:Elnézést"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "kedves",
-     "kedves",
-     "케드베슈"
-    ],
-    [
-     "akartam",
-     "akart",
-     ""
-    ],
-    [
-     "lenni",
-     "lesz",
-     "레쓰"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "C",
-   "hu": "Ha ő nem akar, leülök én.",
-   "rd": "허 외 넴 어커르, 레윌뢱 엔.",
-   "ko": "저분이 싫으면 내가 앉지요.",
-   "note": "ha = 만약",
+   "hu": "Köszönöm! Honnan tudom, hogy hol kell leszállni?",
+   "rd": "쾨쐬뇜! 혼넌 투돔, 호지 홀 켈 레쌀니?",
+   "ko": "감사합니다! 어디서 내려야 하는지 어떻게 알아요?",
+   "note": "leszáll = 내리다",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "worried",
    "lemmas": [
     [
-     "akar",
-     "akar",
-     "어커르"
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
     ],
     [
-     "leülök",
-     "leül",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Maga csak álljon ott!",
-   "rd": "머거 척 알욘 오트!",
-   "ko": "당신은 거기 그냥 서 있어요!",
-   "note": "maga = 당신, álljon = 서 계세요",
-   "tags": [],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "csak",
-     "csak",
-     "촉"
+     "tudom",
+     "tud",
+     "투드"
     ],
     [
-     "álljon",
-     "áll",
-     "알"
+     "hol",
+     "hol",
+     "홀"
     ],
     [
-     "ott",
-     "ott",
-     "오트"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "C",
-   "hu": "Mi van? Ki maga, hogy ezt mondja?",
-   "rd": "미 번? 키 머거, 호지 에즈트 몬드여?",
-   "ko": "뭐요? 당신이 뭔데 그런 말을 해요?",
-   "note": "ki maga = 당신이 뭔데",
-   "tags": [
-    "expr:Mi van?"
-   ],
-   "emotion": "shout",
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
+     "kell",
+     "kell",
+     "켈"
     ],
     [
-     "mondja",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Elnézést... én itt inkább leszállok.",
-   "rd": "엘네제슈트... 엔 이트 인카브 레쌀록.",
-   "ko": "죄송해요… 저는 여기서 그냥 내릴게요.",
-   "note": "leszállok = 내린다",
-   "tags": [
-    "expr:Elnézést"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "inkább",
-     "inkább",
-     "인깝"
-    ],
-    [
-     "leszállok",
+     "leszállni",
      "leszáll",
      ""
     ]
    ]
   },
   {
-   "num": 8,
+   "num": 4,
    "speaker": "B",
-   "hu": "Nem baj, ő a férjem. Mindig ilyen.",
-   "rd": "넴 버이, 외 어 페르옘. 민딕 이옌.",
-   "ko": "괜찮아요, 내 남편이에요. 늘 이래요.",
-   "note": "a férjem = 내 남편",
+   "hu": "Majd szólok. Turista?",
+   "rd": "머이드 쏠록. 투리슈터?",
+   "ko": "내가 말해 줄게요. 관광객이에요?",
+   "note": "majd szólok = 나중에 말해 줄게요",
    "tags": [
-    "expr:Nem baj"
+    "expr:Majd szólok"
    ],
-   "emotion": "amused",
-   "lemmas": [
+   "emotion": "gentle",
+   "segs": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "gentle",
+     "Majd szólok."
     ],
     [
-     "férjem",
-     "férj",
+     "cheerful",
+     "Turista?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Majd",
+     "majd",
+     "머이드"
+    ],
+    [
+     "szólok",
+     "szól",
+     "쏠"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Igen, {country}ból jöttem.",
+   "rd": "이겐, {country}볼 요뗌.",
+   "ko": "네, {country}에서 왔어요.",
+   "note": "-ból/-ből = ~에서",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "ból",
+     "ból",
      ""
+    ],
+    [
+     "jöttem",
+     "jön",
+     "왼"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Ó, messziről! Szép Budapest, ugye?",
+   "rd": "오, 메씨뢸! 쎄프 부더페슈트, 우제?",
+   "ko": "아, 멀리서 왔네요! 부다페스트 예쁘죠?",
+   "note": "ugye = 그렇죠?",
+   "tags": [
+    "expr:ugye"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "messziről",
+     "messzi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Nagyon szép, főleg a Duna.",
+   "rd": "너죤 쎄프, 푈렉 어 두너.",
+   "ko": "아주 예뻐요, 특히 도나우강요.",
+   "note": "főleg = 특히",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "szép",
+     "szép",
+     "쎕"
+    ],
+    [
+     "főleg",
+     "főleg",
+     "푀레그"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Jaj, elment a megállója! És az enyém is.",
+   "rd": "여이, 엘멘트 어 메갈로여! 에시 어즈 에넴 이시.",
+   "ko": "아이고, 내릴 정거장 지나갔네! 내 것도.",
+   "note": "az enyém = 내 것",
+   "tags": [],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj, elment a megállója!"
+    ],
+    [
+     "amused",
+     "És az enyém is."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "elment",
+     "elmegy",
+     "엘메지"
+    ],
+    [
+     "megállója",
+     "megáll",
+     "메갈"
     ]
    ]
   }

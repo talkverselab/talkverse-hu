@@ -1,23 +1,23 @@
 === r2_study_c2
 kind: chat
-title: 5점이나 받았어
-emoji: 😢
-scene: 시험 결과가 나왔다. Réka 에게 슬픈 소식을 전한다. 점수 체계를 잘못 알고 있는 줄은 모른 채
+title: 숙제가 몇 쪽이었더라
+emoji: 📖
+scene: 아파서 수업에 못 간 날. Réka 에게 숙제를 물어서 저녁 내내 했다
 b: Réka
 register: chat
-twist: 11 slip
+twist: 10 chaos
 purpose: study_abroad
-goal: 점수 말하기(ötös, egyes)와 위로·축하
-expressions: Sajnos; Mi van; Várj; Úristen; Naná; Szóval
-A | Megjött az eredmény. Sajnos ötös lett. 😢 | 결과 나왔어. 아쉽게도 5점이야. 😢 | ötös = 5점 | emotion=sad at=16:10
-B | Sajnos? Mi van? | 아쉽게도? 뭐야? | sajnos = 아쉽게도 | emotion=surprised at=16:11
-A | Nagyon sokat tanultam, és csak ötös. | 엄청 공부했는데 겨우 5점이야. | sokat = 많이 | emotion=sad at=16:11
-B | Várj. Szerinted melyik a legjobb jegy? | 잠깐. 네 생각엔 제일 좋은 점수가 뭐야? | jegy = 점수, 표 | emotion=neutral at=16:12
-A | Az egyes, nem? Egyes, első, legjobb. | 1점 아니야? 1점, 1등, 최고. | egyes = 1점 | emotion=neutral at=16:13
-B | Úristen, nálunk az ötös a legjobb! Az egyes azt jelenti: megbuktál. | 세상에, 우리는 5점이 최고야! 1점은 낙제라는 뜻이야. | megbuktál = 네가 떨어졌다 | emotion=surprised+neutral at=16:13
-A | Komolyan? Akkor szuper vagyok! | 진짜? 그럼 나 대단한 거네! | szuper = 끝내주는 | emotion=surprised+excited at=16:14
-B | Naná! Gratulálok! | 당연하지! 축하해! | gratulálok = 축하해 | emotion=excited at=16:14 stamp=🎉
-A | Várj. Jaj. | 잠깐. 아이고. | jaj = 아이고 | emotion=worried at=16:15
-B | Mi az? | 왜? | mi az? = 뭔데? | emotion=neutral at=16:15
-A | Anna tegnap egyest kapott. Tortát vettem neki. | 언너 어제 1점 받았거든. 내가 케이크 사 줬어. | torta = 케이크 | emotion=flustered at=16:16
-B | Szóval ezért sírt, amikor énekeltél? | 그래서 네가 노래할 때 걔가 운 거구나? | énekeltél = 네가 노래했다 | emotion=tsukkomi at=16:17 stamp=😂
+goal: 결석 뒤 숙제 묻기(Mi a házi feladat? · Melyik oldal?)와 서수
+expressions: Jaj; Úristen; Ne már; Bocsi
+A | Szia! Ma beteg voltam, nem mentem órára. 🤒 | 안녕! 오늘 아파서 수업 못 갔어. 🤒 | órára = 수업에 | emotion=sad at=17:10
+B | Jaj, szegény! Jobban vagy? | 아이고, 저런! 좀 나아? | jobban vagy? = 좀 나아? | emotion=worried at=17:12
+A | Már jobban. Mi a házi feladat? | 이제 좀 나아. 숙제가 뭐야? | házi feladat = 숙제 | emotion=gentle at=17:12
+B | A harmincnegyedik oldal, az összes gyakorlat. | 34쪽, 연습 문제 전부. | oldal = 쪽 | emotion=neutral at=17:15
+A | Az összes? Az tíz gyakorlat! | 전부? 그거 열 문제야! | gyakorlat = 연습 문제 | emotion=surprised at=17:16
+B | Tudom. Sok sikert! 💪 | 알아. 화이팅! 💪 | sok sikert = 잘해 봐 | emotion=teasing at=17:16
+A | Kész! Három órán át írtam. 😵 | 끝! 세 시간 동안 썼어. 😵 | három órán át = 세 시간 동안 | emotion=excited at=21:40
+B | Ügyes vagy! Melyik oldalt csináltad? | 잘했어! 몇 쪽 했어? | ügyes = 잘한다 | emotion=cheerful at=21:45
+A | Hát a harmincnegyediket. Te mondtad. | 당연히 34쪽. 네가 말했잖아. | te mondtad = 네가 말했다 | emotion=surprised at=21:45
+B | Úristen, bocsi! A negyvenharmadik volt. 🙈 | 세상에, 미안! 43쪽이었어. 🙈 | negyvenharmadik = 43번째 | emotion=flustered at=21:47
+A | Ne már. És ott hány gyakorlat van? | 아 진짜. 거기엔 몇 문제 있어? | hány = 몇 개 | emotion=annoyed at=21:47
+B | Csak egy fogalmazás, öt mondat. A harmincnegyediket holnap kérdezi. 😅 | 작문 하나, 다섯 문장. 34쪽은 내일 물어보신대. 😅 | fogalmazás = 작문 | emotion=amused at=21:48 stamp=😅

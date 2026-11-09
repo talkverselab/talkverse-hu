@@ -10,46 +10,33 @@
  "domain": [
   "life"
  ],
- "title": "딱 랑고시 하나",
- "emoji": "🤢",
- "scene": "병원. 의사가 어제 뭘 먹었는지 묻는다. 대답이 점점 늘어난다",
+ "title": "목이 아파요",
+ "emoji": "🤧",
+ "scene": "동네 병원(가정의). 목이 아프고 기침이 난다. 의사가 증상을 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Orvos"
  },
  "register": "polite",
- "twist": 7,
- "twist_type": "reveal",
+ "twist": 8,
+ "twist_type": "slip",
  "flags": [],
- "goal": "아픈 곳 말하기(Fáj a …)",
+ "goal": "증상 말하기(Fáj a torkom · Köhögök)",
  "expressions": [
-  "Fáj a hasam",
-  "Hát",
-  "Jaj"
+  "Fáj a torkom",
+  "Mióta?",
+  "Nem baj"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Jó napot! Jaj, fáj a hasam.",
-   "rd": "요 너포트! 여이, 파이 어 허셤.",
-   "ko": "안녕하세요! 아이고, 배가 아파요.",
-   "note": "fáj a hasam = 배가 아파요",
-   "tags": [
-    "expr:Fáj a hasam",
-    "expr:Jaj"
-   ],
+   "speaker": "B",
+   "hu": "Jó napot! Mi a panasza?",
+   "rd": "요 너포트! 미 어 퍼너써?",
+   "ko": "안녕하세요! 어디가 불편하세요?",
+   "note": "panasz = 불편(증상)",
+   "tags": [],
    "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Jó napot!"
-    ],
-    [
-     "sad",
-     "Jaj, fáj a hasam."
-    ]
-   ],
    "lemmas": [
     [
      "Jó",
@@ -62,83 +49,69 @@
      "넙"
     ],
     [
-     "fáj",
-     "fáj",
-     "파이"
-    ],
-    [
-     "hasam",
-     "hasam",
+     "panasza",
+     "panasza",
      ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Mit evett tegnap?",
-   "rd": "미트 에베트 텍너프?",
-   "ko": "어제 뭘 드셨어요?",
-   "note": "evett = 드셨다(eszik 의 과거)",
-   "tags": [],
-   "emotion": "polite",
+   "speaker": "A",
+   "hu": "Fáj a torkom, és köhögök.",
+   "rd": "파이 어 토르콤, 에시 쾨회괵.",
+   "ko": "목이 아프고 기침이 나요.",
+   "note": "köhögök = 기침한다",
+   "tags": [
+    "expr:Fáj a torkom"
+   ],
+   "emotion": "worried",
    "lemmas": [
     [
-     "evett",
-     "evet",
+     "Fáj",
+     "fáj",
+     "파이"
+    ],
+    [
+     "torkom",
+     "torok",
      ""
     ],
     [
-     "tegnap",
-     "tegnap",
-     "테그너프"
+     "köhögök",
+     "köhög",
+     ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Csak egy lángost.",
-   "rd": "척 에지 란고슈트.",
-   "ko": "랑고시 하나만요.",
-   "note": "lángos = 튀긴 빵, 랑고시",
-   "tags": [],
-   "emotion": "shy",
+   "speaker": "B",
+   "hu": "Mióta? Van láza?",
+   "rd": "미오터? 번 라저?",
+   "ko": "언제부터요? 열은 있어요?",
+   "note": "láz = 열",
+   "tags": [
+    "expr:Mióta?"
+   ],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "lángost",
-     "lángos",
+     "láza",
+     "láza",
      ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Egyet? Biztos?",
-   "rd": "에제트? 비즈토시?",
-   "ko": "하나요? 확실해요?",
-   "note": "biztos = 확실한",
-   "tags": [],
-   "emotion": "stiff",
-   "lemmas": []
-  },
-  {
-   "num": 5,
    "speaker": "A",
-   "hu": "Hát... egyet reggel.",
-   "rd": "하트... 에제트 렉겔.",
-   "ko": "음… 아침에 하나요.",
-   "note": "reggel = 아침에",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "flustered",
+   "hu": "Hát, két napja. Láz nincs.",
+   "rd": "하트, 케트 너프여. 라즈 닌치.",
+   "ko": "음, 이틀 됐어요. 열은 없어요.",
+   "note": "két napja = 이틀 전부터",
+   "tags": [],
+   "emotion": "worried",
    "lemmas": [
     [
      "Hát",
@@ -146,75 +119,134 @@
      "핫"
     ],
     [
-     "reggel",
-     "reggel",
-     "렉겔"
+     "napja",
+     "nap",
+     "넙"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Rendben. Kérem a TAJ-kártyáját.",
+   "rd": "렌드벤. 케렘 어 터이-카르탸야트.",
+   "ko": "네. 건강보험 카드 주세요.",
+   "note": "TAJ-kártya = 건강보험 카드",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "kártyáját",
+     "kár",
+     "카르"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "B",
-   "hu": "És este?",
-   "rd": "에시 에슈테?",
-   "ko": "저녁에는요?",
-   "note": "este = 저녁에",
+   "speaker": "A",
+   "hu": "Jaj, otthon felejtettem.",
+   "rd": "여이, 오트혼 펠레이테뗌.",
+   "ko": "아이고, 집에 두고 왔어요.",
+   "note": "felejtettem = 잊어버렸다",
    "tags": [],
-   "emotion": "stiff",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "este",
-     "este",
-     "에슈테"
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "otthon",
+     "otthon",
+     "오트혼"
+    ],
+    [
+     "felejtettem",
+     "felejt",
+     "펠레이트"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Este hatot.",
-   "rd": "에슈테 허토트.",
-   "ko": "저녁엔 여섯 개요.",
-   "note": "hatot = 여섯 개를(hat 의 목적격)",
-   "tags": [],
-   "emotion": "shy",
+   "speaker": "B",
+   "hu": "Nem baj, a száma is jó. Tudja?",
+   "rd": "넴 버이, 어 싸머 이시 요. 투드여?",
+   "ko": "괜찮아요, 번호만 알아도 돼요. 아세요?",
+   "note": "a száma = 그 번호",
+   "tags": [
+    "expr:Nem baj"
+   ],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Este",
-     "este",
-     "에슈테"
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "száma",
+     "szám",
+     ""
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Hatot? Hű, hol vette?",
-   "rd": "허토트? 휘, 홀 베떼?",
-   "ko": "여섯 개요? 와, 어디서 사셨어요?",
-   "note": "hol vette? = 어디서 사셨어요?",
+   "speaker": "A",
+   "hu": "Igen! Az is otthon van, a kártyán.",
+   "rd": "이겐! 어즈 이시 오트혼 번, 어 카르탼.",
+   "ko": "네! 그것도 집에 있어요, 카드에요.",
+   "note": "az is = 그것도",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "cheerful",
    "segs": [
     [
-     "surprised",
-     "Hatot?"
+     "cheerful",
+     "Igen!"
     ],
     [
-     "excited",
-     "Hű, hol vette?"
+     "flustered",
+     "Az is otthon van, a kártyán."
     ]
    ],
    "lemmas": [
     [
-     "hol",
-     "hol",
-     "홀"
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
-     "vette",
-     "vesz",
-     "베쓰"
+     "otthon",
+     "otthon",
+     "오트혼"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kártyán",
+     "kártyán",
+     ""
     ]
    ]
   }

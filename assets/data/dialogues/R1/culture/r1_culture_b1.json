@@ -10,286 +10,227 @@
  "domain": [
   "culture"
  ],
- "title": "이미 팔린 점심",
+ "title": "학생 전시회",
  "emoji": "🖼️",
- "scene": "현대미술 전시실. 먹던 레테시를 받침대에 잠깐 올려 뒀을 뿐이다",
+ "scene": "Anna 가 다니는 학교의 학생 전시회에 같이 갔다. 마음에 드는 그림을 고른다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
   "C": "Teremőr"
  },
  "register": "mixed",
- "twist": 7,
- "twist_type": "chaos",
+ "twist": 8,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "전시장에서 쓰는 말과 존댓말 금지 표현(ne nyúljon)",
+ "goal": "전시장에서 그림 이야기하기(Melyik tetszik? · Ez a…)",
  "expressions": [
-  "Gyere",
-  "egy pillanat",
-  "Mindegy",
-  "Mindjárt"
+  "Nézd",
+  "Ugye",
+  "Bocsánat",
+  "Komolyan"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Gyere, ez a kedvenc termem a múzeumban.",
-   "rd": "제레, 에즈 어 케드벤츠 테르멤 어 무제움번.",
-   "ko": "이리 와, 미술관에서 내가 제일 좋아하는 전시실이야.",
-   "note": "kedvenc = 가장 좋아하는",
+   "hu": "Ez egy diákkiállítás. Gyere, nézd!",
+   "rd": "에즈 에지 디아끼알리타시. 제레, 네즈드!",
+   "ko": "이건 학생 전시회야. 와서 봐!",
+   "note": "kiállítás = 전시회",
    "tags": [
-    "expr:Gyere"
+    "expr:Nézd"
    ],
-   "emotion": "cheerful",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Gyere",
-     "jön",
-     "왼"
-    ],
-    [
-     "kedvenc",
-     "kedvenc",
-     "케드벤츠"
-    ],
-    [
-     "termem",
-     "termem",
+     "diákkiállítás",
+     "diákkiállítás",
      ""
     ],
     [
-     "múzeumban",
-     "múzeum",
-     "무제움"
+     "nézd",
+     "néz",
+     "네즈"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Várj, egy pillanat. Hova teszem a rétesemet?",
-   "rd": "바르이, 에지 필러너트. 호버 테쎔 어 레테세메트?",
-   "ko": "잠깐만. 내 레테시 어디 두지?",
-   "note": "hova = 어디로",
-   "tags": [
-    "expr:egy pillanat"
-   ],
-   "emotion": "neutral",
+   "hu": "Hű, sok kép van. Melyik a legjobb?",
+   "rd": "휘, 쇽 케프 번. 메익 어 렉요브?",
+   "ko": "와, 그림 많다. 어느 게 제일 좋아?",
+   "note": "Melyik? = 어느 것?",
+   "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "Hű",
+     "hű",
+     ""
     ],
     [
-     "pillanat",
-     "pillanat",
-     "필러넛"
+     "kép",
+     "kép",
+     "켑"
     ],
     [
-     "teszem",
-     "tesz",
-     "테스"
+     "van",
+     "van",
+     "번"
     ],
     [
-     "rétesemet",
-     "rétes",
-     "레테시"
+     "legjobb",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Mindegy, tedd oda! Mindjárt visszajövünk.",
-   "rd": "민데지, 테드 오더! 민드야르트 비써요뷘크.",
-   "ko": "아무 데나, 거기 둬! 금방 돌아올 거야.",
-   "note": "tedd oda = 거기 놔",
-   "tags": [
-    "expr:Mindegy",
-    "expr:Mindjárt"
-   ],
-   "emotion": "cheerful",
+   "hu": "Mondd te. Melyik tetszik?",
+   "rd": "몬드 테. 메익 테트씩?",
+   "ko": "네가 말해 봐. 어느 게 마음에 들어?",
+   "note": "tetszik = 마음에 들다",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Mindegy",
-     "mindegy",
-     "민데지"
+     "Mondd",
+     "mond",
+     "몬드"
     ],
     [
-     "tedd",
-     "tesz",
-     "테스"
-    ],
-    [
-     "oda",
-     "oda",
-     "오더"
-    ],
-    [
-     "visszajövünk",
-     "visszajön",
-     "비슈서요"
+     "tetszik",
+     "tetszik",
+     "테트씨크"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Nézd, mennyi ember áll ott!",
-   "rd": "네즈드, 메니 엠베르 알 오트!",
-   "ko": "봐, 저기 사람 엄청 많이 서 있어!",
-   "note": "mennyi + 단수 = 얼마나 많은",
-   "tags": [],
+   "hu": "Ez a kék. A Duna, ugye?",
+   "rd": "에즈 어 켁. 어 두너, 우제?",
+   "ko": "이 파란 거. 도나우강이지, 그렇지?",
+   "note": "ugye = 그렇지?",
+   "tags": [
+    "expr:Ugye"
+   ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Nézd",
-     "néz",
-     "네즈"
-    ],
-    [
-     "ember",
-     "ember",
-     "엠베르"
-    ],
-    [
-     "áll",
-     "áll",
-     "알"
-    ],
-    [
-     "ott",
-     "ott",
-     "오트"
+     "kék",
+     "kék",
+     "케크"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "B",
-   "hu": "Mit néznek? Új mű?",
-   "rd": "미트 네즈넥? 우이 뮈?",
-   "ko": "뭘 보는 거지? 새 작품인가?",
-   "note": "mű = 작품",
+   "speaker": "C",
+   "hu": "Elnézést, ne menjen ilyen közel!",
+   "rd": "엘네제슈트, 네 멘옌 이옌 쾨젤!",
+   "ko": "실례합니다, 그렇게 가까이 가지 마세요!",
+   "note": "ne menjen = 가지 마세요",
    "tags": [],
-   "emotion": "neutral",
+   "emotion": "stiff",
    "lemmas": [
     [
-     "néznek",
-     "néz",
-     "네즈"
+     "Elnézést",
+     "elnézés",
+     "엘네제시"
     ],
     [
-     "mű",
-     "mű",
-     ""
+     "menjen",
+     "megy",
+     "메지"
+    ],
+    [
+     "közel",
+     "közel",
+     "쾨젤"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Jaj. Az ott az én rétesem!",
-   "rd": "여이. 어즈 오트 어즈 엔 레테셈!",
-   "ko": "아이고. 저거 내 레테시야!",
-   "note": "az ott = 저기 저것",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Jaj."
-    ],
-    [
-     "shout",
-     "Az ott az én rétesem!"
-    ]
+   "hu": "Bocsánat! Csak nagyon szép.",
+   "rd": "보차너트! 척 너죤 쎄프.",
+   "ko": "죄송해요! 너무 예뻐서요.",
+   "note": "bocsánat = 죄송해요",
+   "tags": [
+    "expr:Bocsánat"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Bocsánat",
+     "bocsánat",
+     "버치너트"
     ],
     [
-     "ott",
-     "ott",
-     "오트"
+     "nagyon",
+     "nagyon",
+     "너존"
     ],
     [
-     "rétesem",
-     "rétesem",
-     ""
+     "szép",
+     "szép",
+     "쎕"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "C",
-   "hu": "Kérem, ne nyúljon hozzá! Egy úr már megvette.",
-   "rd": "케렘, 네 뉼욘 호자! 에지 우르 마르 멕베떼.",
-   "ko": "손대지 마세요! 어떤 분이 벌써 사 가셨습니다.",
-   "note": "ne nyúljon hozzá = 손대지 마세요",
-   "tags": [],
-   "emotion": "stiff",
-   "segs": [
-    [
-     "stiff",
-     "Kérem, ne nyúljon hozzá!"
-    ],
-    [
-     "polite",
-     "Egy úr már megvette."
-    ]
+   "speaker": "B",
+   "hu": "Tényleg tetszik? Komolyan?",
+   "rd": "테닐렉 테트씩? 코모연?",
+   "ko": "진짜 마음에 들어? 진심이야?",
+   "note": "komolyan = 진심으로",
+   "tags": [
+    "expr:Komolyan"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
-     "Kérem",
-     "kér",
-     "께르"
+     "Tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "nyúljon",
-     "nyúlik",
-     ""
-    ],
-    [
-     "úr",
-     "úr",
-     "우르"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "megvette",
-     "megvesz",
-     "메그베스"
+     "tetszik",
+     "tetszik",
+     "테트씨크"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Szóval gratulálok. Művész vagy.",
-   "rd": "쏘벌 그러툴랄록. 뮈베쓰 버지.",
-   "ko": "그러니까… 축하해. 너 예술가야.",
-   "note": "gratulálok = 축하해",
+   "speaker": "C",
+   "hu": "Ezt egyébként a kisasszony festette.",
+   "rd": "에즈트 에제브켄트 어 키셔쏘니 페슈테떼.",
+   "ko": "그건 그렇고, 이건 이 아가씨가 그렸어요.",
+   "note": "festette = (그것을) 그렸다",
    "tags": [],
-   "emotion": "amused",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Szóval",
-     "szó",
-     "쏘"
+     "egyébként",
+     "egyébként",
+     "에제브켄트"
     ],
     [
-     "gratulálok",
-     "gratulál",
-     "그러툴랄"
+     "kisasszony",
+     "kisasszony",
+     "키셔쏜"
+    ],
+    [
+     "festette",
+     "festet",
+     ""
     ]
    ]
   }

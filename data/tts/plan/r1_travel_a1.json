@@ -15,28 +15,25 @@
 "2": {
 "segs": [
 [
-"polite",
-"Tessék, itt a jegyem."
+"flustered",
+"Egy pillanat... Tessék.",
+"Egy pillanat, Tessék."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"stiff",
-"Ez a jegy tegnapi."
+"amused",
+"Ez múzeumi jegy."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Tegnapi?"
-],
-[
 "flustered",
-"Jaj, bocsánat!"
+"Jaj, bocsánat! Ez az."
 ]
 ]
 },
@@ -44,31 +41,39 @@
 "segs": [
 [
 "stiff",
-"Hova megy?"
+"Ezt nem lyukasztotta ki."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"polite",
-"A Parlamenthez megyek."
+"worried",
+"Most szálltam fel, tényleg!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"stiff",
-"Akkor rossz villamoson ül."
+"polite",
+"Jól van, ott a gép."
+],
+[
+"gentle",
+"Tetszett a múzeum?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"worried",
-"Hát most hova megyek?"
+"surprised",
+"Nagyon!"
+],
+[
+"cheerful",
+"Köszönöm szépen."
 ]
 ]
 }

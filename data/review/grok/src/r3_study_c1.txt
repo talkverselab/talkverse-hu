@@ -1,27 +1,24 @@
 === r3_study_c1
 kind: chat
-title: 답 없는 교수님
+title: 교수님 호칭
 emoji: 📩
-scene: 코바치 교수에게 시험 날짜를 물었다. 읽음 표시는 뜨는데 답이 없다. 메시지만 길어진다
+scene: 학교 메신저로 지도 교수에게 논문 면담을 신청한다. 시스템에는 「Dr. Kovács G.」 라고만 나온다
 b: Kovács
 register: chat
-twist: 12 ignore
+twist: 8 slip
 purpose: study_abroad
-goal: 격식 있게 재촉하기(조건법 lenne, 존댓말 명령형)
-expressions: Tisztelt; Elnézést; Tudom; Szerintem; Sajnos; Mindegy; Úristen
-A | Tisztelt Professzor Úr! Mikor lesz a vizsga? | 존경하는 교수님께! 시험이 언제인가요? | mikor = 언제 | emotion=polite at=09:00
-A | Elnézést, újra én vagyok. Megkapta az üzenetemet? | 죄송합니다, 또 저입니다. 제 메시지 받으셨나요? | újra = 다시 | emotion=polite at=12:30
-A | A dátum sajnos nagyon fontos lenne nekem. | 날짜가 제게 아주 중요해서요. | lenne = ~일 텐데(조건법) | emotion=worried at=15:10
-A | Tudom, hogy sok a dolga, de egy szó is elég lenne. | 바쁘신 건 알지만, 한마디만 주셔도 충분합니다. | elég = 충분한 | emotion=polite at=18:45
-A | Ha nem írhat, kérem, küldjön egy pontot. | 쓰기 어려우시면 마침표 하나만 보내 주세요. | pont = 점, 마침표 | emotion=worried at=20:20
-A | A dolgozatom is kész, ha ez érdekli. | 제 보고서도 끝났습니다, 궁금하시면요. | érdekli = 관심 있으시다 | emotion=shy at=21:05
-A | Szerintem látta az üzeneteimet, mert a rendszer azt mutatja: olvasva. | 제 메시지를 보신 것 같습니다, 시스템에 「읽음」이라고 나와서요. | olvasva = 읽음 | emotion=stiff at=21:40
-A | Ha egy szót sem ír, azt fogom gondolni, hogy rosszul írtam valamit. | 한마디도 없으시면 제가 뭔가 잘못 썼다고 생각하겠습니다. | azt fogom gondolni = 그렇게 생각할 것이다 | emotion=sad at=22:15
-A | Professzor Úr, él még? Bocsánat, ezt nem akartam elküldeni. | 교수님, 살아 계세요? 죄송합니다, 이건 보내려던 게 아닙니다. | él = 살아 있다 | emotion=annoyed+flustered at=23:02
-A | Ha a múltkori puszi miatt haragszik, azt Réka írta. | 지난번 「쪽」 때문에 화나신 거라면, 그건 레카가 쓴 겁니다. | haragszik = 화나 있다 | emotion=flustered at=23:30
-A | Úristen. Mindegy, jó éjszakát, holnap is írok. | 세상에. 아무튼 안녕히 주무세요, 내일도 쓰겠습니다. | jó éjszakát = 안녕히 주무세요 | emotion=flustered+polite at=23:58
-B | Kedves {name}! Mind a tizenegyet elolvastam. | {name} 씨! 열한 통 다 읽었습니다. | mind a tizenegyet = 열한 개 전부를 | emotion=stiff at=00:10
-B | Szándékosan nem válaszoltam: egyre jobban írt magyarul. | 일부러 답을 안 했어요. 갈수록 헝가리어를 잘 쓰시더군요. | szándékosan = 일부러 | emotion=gentle at=00:10
-B | A feltételes mód már szinte tökéletes. | 조건법은 이제 거의 완벽합니다. | feltételes mód = 조건법 | emotion=gentle at=00:11
-A | És a vizsga mikor lesz? | 그럼 시험은 언제인가요? | vizsga = 시험 | emotion=worried at=00:11
-B | Ez volt a vizsga, ötös. Puszi, Kovács | 이게 시험이었습니다, 5점. 쪽, 코바치 | ötös = 5점(최고 점수) | emotion=amused+teasing at=00:12 stamp=😇
+goal: 격식 있게 면담 시간 잡기(időpontot kérni · jó Önnek? · Ott leszek)와 호칭
+expressions: Elnézést; Rendben; Úristen; Semmi baj
+A | Tisztelt Professzor Asszony! Szeretnék időpontot kérni konzultációra. | 존경하는 (여)교수님께! 면담 시간을 요청드리고 싶습니다. | időpont = 약속 시간 | emotion=polite at=09:12
+A | A szakdolgozatom témájáról szeretnék beszélni. | 제 졸업 논문 주제에 대해 말씀드리고 싶습니다. | szakdolgozat = 졸업 논문 | emotion=stiff at=09:13
+B | Jó napot! Szerdán tízkor vagy csütörtökön kettőkor jó Önnek? | 안녕하세요! 수요일 10시나 목요일 2시 괜찮으세요? | Önnek = 당신에게(존댓말) | emotion=polite at=11:40
+A | Köszönöm, a csütörtök kettő tökéletes! | 감사합니다, 목요일 2시가 딱 좋습니다! | tökéletes = 완벽한 | emotion=cheerful at=11:42
+B | Rendben. A 312-es irodában leszek. | 좋습니다. 312호 연구실에 있겠습니다. | iroda = 사무실, 연구실 | emotion=polite at=11:45
+A | Köszönöm szépen, Professzor Asszony! Ott leszek. | 정말 감사합니다, 교수님! 가겠습니다. | ott leszek = 가겠다 | emotion=cheerful at=11:46
+B | Még valami. | 하나 더요. | még valami = 하나 더 | emotion=neutral at=11:50
+B | Professzor úr vagyok, nem asszony. Kovács Gábor. 🙂 | 저는 「여」교수가 아니라 남자입니다. 코바치 가보르예요. 🙂 | Gábor = 남자 이름 | emotion=amused at=11:50
+A | Úristen, elnézést! A rendszerben csak annyi áll: Dr. Kovács G. | 세상에, 죄송합니다! 시스템에는 「Dr. Kovács G.」라고만 나와서요. | annyi áll = 그만큼만 적혀 있다 | emotion=flustered at=11:52
+B | Semmi baj. Néztek már Gizellának is. | 괜찮아요. 기젤라로 착각한 사람도 있었어요. | néz vminek = ~로 착각하다 | emotion=amused at=11:55
+A | Akkor csütörtökön kettőkor, Professzor Úr. Most már biztosan. | 그럼 목요일 2시에 뵙겠습니다, 교수님. 이번엔 확실히요. | biztosan = 확실히 | emotion=shy at=11:56
+B | Várom. És hozza a témavázlatot is! | 기다리겠습니다. 주제 개요도 가져오세요! | témavázlat = 주제 개요 | emotion=gentle at=11:57
+A | Hozom. Ezúttal a helyes megszólítással. 😅 | 가져가겠습니다. 이번엔 호칭도 제대로요. 😅 | megszólítás = 호칭 | emotion=amused at=11:58 stamp=😅

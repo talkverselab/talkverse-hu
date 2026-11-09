@@ -7,56 +7,48 @@
 "1": {
 "segs": [
 [
-"polite",
-"Már fél éve itt dolgozik, és jól dolgozik."
-],
-[
 "cheerful",
-"Tegeződjünk?"
+"Jó reggelt! Üdvözöljük a cégnél. Jól odatalált?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Tényleg?"
-],
-[
-"polite",
-"Ez nagy megtiszteltetés, igazgató úr!"
+"shy",
+"Jó reggelt! Igen, de a portán egy kicsit eltévedtem."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Na, hagyjuk az igazgató urat. Laci vagyok."
+"gentle",
+"Mindenki eltéved az első napon. Ez lesz az asztala, az ablak mellett."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"shy",
-"Jó, akkor szia, Laci. Furcsa, de jó érzés."
+"cheerful",
+"Nagyon szép! És a jelszót kitől kapom meg?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Látod, nem fáj. És hogy tetszik az új terv?"
+"polite",
+"Az informatikustól, kilenckor jön. Addig megmutatom a konyhát."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Mondjam őszintén, Laci?"
+"polite",
+"Köszönöm. Hol lehet itt ebédelni?"
 ]
 ]
 },
@@ -64,77 +56,79 @@
 "segs": [
 [
 "cheerful",
-"Persze, most már tegeződünk."
+"Itt a konyhában, vagy a sarkon van egy menüs hely. A kávé ingyen van."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"annoyed",
-"Figyelj, ez a terv borzalmas. Ki írta, egy krumpli?"
+"excited",
+"Ez nagyon jó hír!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"stiff",
-"Hát... én írtam.",
-"Hát, én írtam."
+"gentle",
+"Még valami: nálunk mindenki tegeződik. Péter vagyok."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"Nem baj. Amúgy a nyakkendőd is csúnya, ha már tegeződünk."
+"polite",
+"Rendben, örülök, Péter úr! Ön nagyon kedves."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"stiff",
-"A nyakkendőmet a feleségem vette."
+"amused",
+"Csak Péter. És nem Ön, hanem te."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"annoyed",
-"Tudod, mi még rossz, Laci? A fizetésem."
+"flustered",
+"Jaj, bocsánat."
+],
+[
+"shy",
+"Péter, te nagyon kedves vagy."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"annoyed",
-"Várj, azt mondtam, tegeződjünk."
-],
-[
-"shout",
-"Nem azt, hogy mondj el mindent!"
+"cheerful",
+"Na látod, megy ez. Kérsz egy kávét?"
 ]
 ]
 },
 "14": {
 "segs": [
 [
+"polite",
+"Köszönöm szépen, nagyon szívesen."
+],
+[
 "flustered",
-"Akkor... visszamagázhatom, igazgató úr?",
-"Akkor, visszamagázhatom, igazgató úr?"
+"Izé, kösz, kérek!"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"stiff",
-"Igen, kérem. Holnaptól Ön lesz az új terv felelőse."
+"teasing",
+"Egy hét, és megszokod. A kávét viszont már ma."
 ]
 ]
 }

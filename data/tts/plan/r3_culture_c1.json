@@ -10,81 +10,84 @@
 "segs": [
 [
 "excited",
-"Szombaton Rékánál segítek a bolhapiacon. Eladó vagyok! 😄",
-"Szombaton Rékánál segítek a bolhapiacon. Eladó vagyok!"
+"Az első lecsóm! 🍅🌶️",
+"Az első lecsóm!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"amused",
-"Úristen, tényleg ezt írtad ki? 😂",
-"Úristen, tényleg ezt írtad ki?"
+"cheerful",
+"Hű! Kolbásszal vagy anélkül?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Igen, miért? Mi a baj?"
+"gentle",
+"Anélkül. Kolbász nem volt itthon."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"amused",
-"Eladó az, aki árul, de az is, amit el lehet adni."
+"teasing",
+"Akkor ez csak paprikás paradicsom. 😏",
+"Akkor ez csak paprikás paradicsom."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"Mennyibe kerül, kedvesem? Tud krumplit pucolni?"
+"gentle",
+"Ne hallgass rá! Nagyon jól néz ki. 😍",
+"Ne hallgass rá! Nagyon jól néz ki."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Margit néni! Nem, én nem vagyok eladó!"
+"shy",
+"Köszi, Anna! Legközelebb meghívlak."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Ötezer! De biciklit nem tud szerelni."
+"shout",
+"NAGYON SZÉP LECSÓ, KEDVESEM!!!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Hatezer, és adok hozzá bejglit."
+"polite",
+"Köszönöm szépen! 😊",
+"Köszönöm szépen!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"flustered",
-"Ne már! Várjatok, törlöm!"
+"amused",
+"Miért kiabálsz? 😂",
+"Miért kiabálsz?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"teasing",
-"Késő, már negyvenen nézik. Béla bácsi hétezret ad."
+"annoyed",
+"Nem kiabálok. A telefon csinálja."
 ]
 ]
 },
@@ -92,15 +95,16 @@
 "segs": [
 [
 "surprised",
-"Béla bácsi?! Mi van itt?"
+"Réka, te ismered Margit nénit?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"stiff",
-"Ötvenezer."
+"flustered",
+"Hát... ő a nagymamám. 🙈",
+"Hát, ő a nagymamám."
 ]
 ]
 },
@@ -108,15 +112,15 @@
 "segs": [
 [
 "surprised",
-"Anna?!"
+"Mi?! Ő a szomszédom!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"amused",
-"Mi van? Eladtam egy rétest."
+"gentle",
+"Tudom, kedvesem. Holnap átviszek egy kis kolbászt."
 ]
 ]
 },
@@ -124,17 +128,17 @@
 "segs": [
 [
 "excited",
-"Eladva! Szombaton viheted. 😘",
-"Eladva! Szombaton viheted."
+"Akkor holnap igazi lecsó lesz? Megyek! 🙋",
+"Akkor holnap igazi lecsó lesz? Megyek!"
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"gentle",
-"Csak szépen csomagold be. 🎁",
-"Csak szépen csomagold be."
+"tsukkomi",
+"Ne már! Akkor én is megyek, meg Bence is. 😂",
+"Ne már! Akkor én is megyek, meg Bence is."
 ]
 ]
 }

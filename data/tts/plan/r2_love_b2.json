@@ -1,107 +1,107 @@
 {
 "ep": "r2_love_b2",
 "cast": {
-"B": "reka"
+"B": "reka",
+"C": "woman_m"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"stiff",
-"Ülj le. Hallom, hogy szombaton találkozol Annával."
+"worried",
+"Réka, jövő héten Anna születésnapja. Mit vegyek neki?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"tsukkomi",
-"Igen, de ez mi? Ez egy interjú?"
+"cheerful",
+"Gyere, a bolhapiacon mindig van valami jó."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"stiff",
-"Pontosan. Első kérdés: túrós vagy mákos rétes?"
+"worried",
+"Szerinted a virág nem jobb? Az biztos tetszik neki."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"tsukkomi",
-"Túrós, persze. Ez tényleg ilyen fontos?"
+"excited",
+"Virágot mindenki vesz. Nézd, ez a régi festékdoboz!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"stiff",
-"Nagyon. Második: melyik a kedvenc múzeumod?"
+"polite",
+"Hű, de szép. Elnézést, mennyibe kerül?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shy",
-"Izé... amelyikben Anna van.",
-"Izé, amelyikben Anna van."
+"polite",
+"Nyolcezer forint. Nagyon régi, a nagyapámé volt."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"amused",
-"Jó válasz."
-],
-[
-"stiff",
-"Utolsó: ha késik, hány percet vársz?"
+"polite",
+"Hát, kicsit drága. Nem lehetne hatezerért?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"gentle",
-"Amennyit kell."
-],
-[
-"neutral",
-"De figyelj, kié ez a lista?"
+"amused",
+"Hétezer, és csak azért, mert maga kedves."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"amused",
-"Anna írta. Tizenkét oldal, éjjel kettőkor küldte."
+"teasing",
+"Vedd meg, jó üzlet. Amúgy tudod, miért jó ez?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"surprised",
-"Anna írta?"
-],
-[
-"shy",
-"Szóval ő is izgul?"
+"cheerful",
+"Mert Anna szeret festeni?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"teasing",
-"Izgul? Már négyszer átöltözött, pedig még csak szerda van."
+"amused",
+"Mert múlt héten Anna is ezt nézte itt, fél óráig."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Komolyan?"
+],
+[
+"cheerful",
+"Akkor jó, hogy nem vette meg."
 ]
 ]
 }

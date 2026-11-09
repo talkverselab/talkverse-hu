@@ -1,23 +1,23 @@
 === r2_friends_b4
 kind: long
-title: 실수 공책
-emoji: 📓
-scene: Réka 의 가방에서 내 이름이 적힌 공책이 떨어졌다. 안에는 내 실수가 빽빽하다
+title: 어느 출구?
+emoji: 🚇
+scene: Réka 와 데아크 광장 역에서 만나기로 했다. 둘 다 도착했다는데 서로 안 보인다
 b: Réka
 register: casual
-twist: 9 emotion
+twist: 10 chaos
 purpose: making_friends
-goal: 속마음을 들켰을 때의 말과 hiányzik(그립다)
-expressions: Jaj; Várj; Hát; Komolyan; Persze; Na jó
-A | Mi ez a füzet? Az én nevem van rajta. | 이 공책 뭐야? 내 이름이 써 있네. | füzet = 공책 | emotion=surprised
-B | Jaj, add vissza! Az nem a tiéd. | 아이고, 돌려줘! 네 거 아니야. | add vissza = 돌려줘 | emotion=flustered
-A | Várj, „Meleg vagyok.” Ezt én mondtam! | 잠깐, 「나 게이야.」 이거 내가 한 말이잖아! | ezt = 이것을 | emotion=surprised
-B | Hát igen. Minden hibádat leírom. | 뭐, 그렇지. 네 실수는 전부 적어. | hiba = 실수 | emotion=amused
-A | Komolyan? Még a fél hetet is? | 진짜? 그 6시 반까지도? | még … is = ~까지도 | emotion=surprised+annoyed
-B | Persze, az a kedvencem. | 당연하지, 그게 내 최애야. | kedvenc = 가장 좋아하는 것 | emotion=teasing
-A | Ez nagyon gonosz, Réka. Csak nevetsz rajtam? | 이건 너무 못됐어, 레카. 나 비웃기만 하는 거야? | nevet = 웃다 | emotion=sad
-B | Olvasd el az utolsó oldalt. | 마지막 쪽 읽어 봐. | olvasd el = 읽어 봐 | emotion=shy
-A | „Ma {name} egy hibát sem csinált. Kicsit hiányzik.” | 「오늘 {name} 실수 0개. 조금 허전하다.」 | hiányzik = 그립다, 허전하다 | emotion=gentle
-B | Na jó, elég. Add már vissza! | 그래, 됐어. 이제 돌려줘! | elég = 충분한, 됐어 | emotion=shy
-A | Réka, te sírsz? | 레카, 너 울어? | sírsz = 너 운다 | emotion=gentle
-B | Dehogy! Csak erős volt a paprika. | 아니거든! 파프리카가 매웠을 뿐이야. | dehogy = 천만에 | emotion=flustered+shy
+goal: 전화로 위치 설명하기(Hol vagy pontosan? · mellett · Látod…?)
+expressions: Hol vagy pontosan; mellett; Látod
+A | Szia, Réka, megérkeztem! Te hol vagy? | 안녕, 레카! 나 도착했어. 너 어디야? | megérkeztem = 도착했다 | emotion=cheerful
+B | Én is itt vagyok, a Deáknál. | 나도 여기 있어, 데아크에. | Deáknál = 데아크(광장)에 | emotion=cheerful
+A | Nem látlak. Hol vagy pontosan? | 너 안 보여. 정확히 어디야? | látlak = (내가) 너를 본다 | emotion=worried
+B | A metró kijáratánál, a fagyizó mellett. | 지하철 출구, 아이스크림 가게 옆. | mellett = 옆에 | emotion=neutral
+A | Én is a kijáratnál vagyok. Fagyizó nincs itt. | 나도 출구에 있어. 여기 아이스크림 가게 없는데. | kijárat = 출구 | emotion=worried
+B | Látod a nagy templomot? | 큰 성당 보여? | templom = 성당 | emotion=gentle
+A | Nem. Egy bankot látok és egy pékséget. | 아니. 은행이랑 빵집이 보여. | pékség = 빵집 | emotion=worried
+B | Várj, melyik metróval jöttél? | 잠깐, 어느 지하철 타고 왔어? | melyik = 어느 | emotion=surprised
+A | A sárgával. Miért? | 노란 선. 왜? | sárga = 노란 | emotion=surprised
+B | Én a pirossal! A Deáknak sok kijárata van, {name}. | 나는 빨간 선! 데아크는 출구가 엄청 많아, {name}. | kijárata = 그곳의 출구 | emotion=tsukkomi
+A | Jó, maradj ott! Megyek a fagyizó felé. | 알았어, 거기 있어! 아이스크림 가게 쪽으로 갈게. | maradj = 있어(머물러) | emotion=amused
+B | Siess! Már veszek neked egyet. | 빨리 와! 네 것도 하나 사 놓을게. | siess = 서둘러 | emotion=cheerful

@@ -7,61 +7,66 @@
 "1": {
 "segs": [
 [
-"excited",
-"Nézd! Az utolsó mákos rétes."
+"cheerful",
+"Mit nézzünk ma este?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"excited",
-"Gyorsan! Egyet kérek!"
+"gentle",
+"Valami vígjátékot?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Hű, mákod van!"
+"teasing",
+"Megint? Tegnap is azt néztük."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Tessék? A fogamon?"
+"cheerful",
+"Jó, akkor horror."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Nem, nem! Szerencséd van."
+"teasing",
+"Biztos? Múltkor egész éjjel égett a lámpád."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shy",
-"Jaj, értem."
-],
-[
-"cheerful",
-"Na, együnk!"
+"flustered",
+"Az... véletlen volt.",
+"Az, véletlen volt."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Hát... most már tényleg mákos a fogad.",
-"Hát, most már tényleg mákos a fogad."
+"amused",
+"Persze. Szóval vígjáték?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Hát... legyen vígjáték.",
+"Hát, legyen vígjáték."
 ]
 ]
 }

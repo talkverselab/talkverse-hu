@@ -11,9 +11,9 @@
  "domain": [
   "culture"
  ],
- "title": "새해 첫 생선",
- "emoji": "🐟",
- "scene": "12월 31일 자정이 막 지났다. A 는 맛있게 먹는 중이다",
+ "title": "매진된 표",
+ "emoji": "🎫",
+ "scene": "Réka 가 좋아하는 밴드의 콘서트 표가 매진됐다며 메시지를 보낸다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
@@ -22,130 +22,149 @@
  "twist": 6,
  "twist_type": "reveal",
  "flags": [],
- "goal": "새해 인사와 음식 미신",
+ "goal": "위로하는 짧은 말(Sajnálom · Durva)과 깜짝 소식",
  "expressions": [
-  "Ne már",
-  "Mi van",
-  "Jaj"
+  "Durva",
+  "Mindegy",
+  "Mi van"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Boldog új évet! 🎆",
-   "rd": "볼독 우이 에베트! 🎆",
-   "ko": "새해 복 많이! 🎆",
-   "note": "boldog új évet = 새해 복 많이",
+   "speaker": "B",
+   "hu": "Elfogytak a jegyek a koncertre! 😭",
+   "rd": "엘포지턱 어 예젝 어 콘체르트레! 😭",
+   "ko": "콘서트 표 매진됐어! 😭",
+   "note": "elfogytak = 다 떨어졌다",
    "tags": [],
-   "at": "00:03",
-   "emotion": "excited",
+   "at": "10:02",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
-     "Boldog",
-     "boldog",
-     "볼도그"
+     "Elfogytak",
+     "elfogy",
+     ""
     ],
     [
-     "új",
-     "új",
-     "우이"
+     "jegyek",
+     "jegye",
+     ""
     ],
     [
-     "évet",
-     "éve",
+     "koncertre",
+     "koncert",
      ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Neked is! Mit eszel?",
-   "rd": "네케드 이시! 미트 에쎌?",
-   "ko": "너도! 뭐 먹어?",
-   "note": "neked is = 너도",
+   "speaker": "A",
+   "hu": "Jaj, ne! Mind?",
+   "rd": "여이, 네! 민드?",
+   "ko": "아, 안 돼! 전부?",
+   "note": "mind = 전부",
    "tags": [],
-   "at": "00:04",
-   "emotion": "cheerful",
+   "at": "10:03",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "eszel",
-     "eszel",
-     ""
+     "Jaj",
+     "jaj",
+     "야이"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Halat. Finom!",
-   "rd": "헐러트. 피놈!",
-   "ko": "생선. 맛있어!",
-   "note": "hal = 생선",
+   "speaker": "B",
+   "hu": "Mind. Két perc alatt.",
+   "rd": "민드. 케트 페르츠 얼러트.",
+   "ko": "전부. 2분 만에.",
+   "note": "alatt = ~만에",
    "tags": [],
-   "at": "00:04",
-   "emotion": "cheerful",
+   "at": "10:03",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
-     "Halat",
-     "hala",
-     ""
+     "perc",
+     "perc",
+     "페르츠"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Halat?! Ne már!",
-   "rd": "헐러트?! 네 마르!",
-   "ko": "생선?! 아 안 돼!",
-   "note": "ne már! = 아 좀!",
+   "speaker": "A",
+   "hu": "Durva. Sajnálom.",
+   "rd": "두르버. 셔이날롬.",
+   "ko": "심하다. 안됐다.",
+   "note": "durva = 심하다, 대박",
    "tags": [
-    "expr:Ne már"
+    "expr:Durva"
    ],
-   "at": "00:04",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Halat?!"
-    ],
-    [
-     "shout",
-     "Ne már!"
-    ]
-   ],
+   "at": "10:04",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Halat",
-     "hala",
-     ""
-    ],
-    [
-     "már",
-     "már",
-     "마르"
+     "Durva",
+     "durva",
+     "두르버"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "Mi van?",
-   "rd": "미 번?",
-   "ko": "왜?",
-   "note": "mi van? = 왜?",
+   "speaker": "B",
+   "hu": "Mindegy, majd jövőre. 😔",
+   "rd": "민데지, 머이드 요뵈레. 😔",
+   "ko": "됐어, 내년에 가지 뭐. 😔",
+   "note": "jövőre = 내년에",
    "tags": [
-    "expr:Mi van"
+    "expr:Mindegy"
    ],
-   "at": "00:05",
-   "emotion": "surprised",
+   "at": "10:05",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
+    [
+     "Mindegy",
+     "mindegy",
+     "민데지"
+    ],
+    [
+     "majd",
+     "majd",
+     "머이드"
+    ],
+    [
+     "jövőre",
+     "jövő",
+     "요뵈"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Várj... nekem van kettő. 🎫",
+   "rd": "바르이... 네켐 번 케뙤. 🎫",
+   "ko": "잠깐… 나 두 장 있어. 🎫",
+   "note": "nekem van = 나에게 있다",
+   "tags": [],
+   "at": "10:06",
+   "emotion": "amused",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
     [
      "van",
      "van",
@@ -154,96 +173,66 @@
    ]
   },
   {
-   "num": 6,
-   "speaker": "B",
-   "hu": "A hal elúszik a szerencsével!",
-   "rd": "어 헐 엘루씩 어 쎄렌체벨!",
-   "ko": "생선이 운을 달고 헤엄쳐 가잖아!",
-   "note": "elúszik = 헤엄쳐 가 버리다",
-   "tags": [],
-   "at": "00:05",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "hal",
-     "hal",
-     "헐"
-    ],
-    [
-     "elúszik",
-     "elúszik",
-     ""
-    ],
-    [
-     "szerencsével",
-     "szerencse",
-     "세렌체"
-    ]
-   ]
-  },
-  {
    "num": 7,
-   "speaker": "A",
-   "hu": "Jaj. Három halat ettem.",
-   "rd": "여이. 하롬 헐러트 에뗌.",
-   "ko": "아이고. 세 마리 먹었어.",
-   "note": "ettem = 먹었다",
+   "speaker": "B",
+   "hu": "MI VAN?! Komolyan?",
+   "rd": "미 번?! 코모연?",
+   "ko": "뭐?! 진짜?",
+   "note": "mi van? = 뭐야?",
    "tags": [
-    "expr:Jaj"
+    "expr:Mi van"
    ],
-   "at": "00:06",
-   "emotion": "flustered",
-   "ui": "bubble",
-   "lemmas": [
+   "at": "10:06",
+   "emotion": "shout",
+   "segs": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "shout",
+     "MI VAN?!"
     ],
     [
-     "halat",
-     "hala",
-     ""
-    ],
-    [
-     "ettem",
-     "esz",
-     ""
+     "surprised",
+     "Komolyan?"
     ]
-   ]
+   ],
+   "ui": "bubble",
+   "lemmas": []
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Akkor idén ne ülj mellém. 😅",
-   "rd": "어꼬르 이덴 네 윌이 멜렘. 😅",
-   "ko": "그럼 올해 내 옆에 앉지 마. 😅",
-   "note": "mellém = 내 옆으로",
+   "speaker": "A",
+   "hu": "Meglepetés lett volna. Boldog szülinapot előre! 🎂",
+   "rd": "멕레페테시 레트 볼너. 볼독 쓀리너포트 엘뢰레! 🎂",
+   "ko": "서프라이즈였는데. 미리 생일 축하해! 🎂",
+   "note": "lett volna = ~였을 텐데",
    "tags": [],
-   "at": "00:06",
-   "emotion": "teasing",
+   "at": "10:07",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Akkor",
-     "akkor",
-     "어꼬르"
+     "Meglepetés",
+     "meglepetés",
+     "메글레페테시"
     ],
     [
-     "idén",
-     "idén",
-     ""
+     "lett",
+     "lesz",
+     "레쓰"
     ],
     [
-     "ülj",
-     "ülj",
-     "위이"
+     "volna",
+     "van",
+     "번"
     ],
     [
-     "mellém",
-     "mellé",
-     ""
+     "szülinapot",
+     "szülinap",
+     "쓸리넙"
+    ],
+    [
+     "előre",
+     "előre",
+     "엘뢰레"
     ]
    ]
   }

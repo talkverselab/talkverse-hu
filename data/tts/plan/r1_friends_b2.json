@@ -7,28 +7,24 @@
 "1": {
 "segs": [
 [
-"surprised",
-"Hű, mi ez a sok virág?"
+"cheerful",
+"Jövő héten lesz Bence szülinapja. Mit vegyünk?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"excited",
-"Ma van a névnapom! Minden névnek van egy napja."
+"cheerful",
+"Szerintem kávét. Imádja a kávét, nem?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Tényleg?"
-],
-[
-"cheerful",
-"És az én nevemnek mikor van?"
+"worried",
+"Hát, nem tudom. Valami mást?"
 ]
 ]
 },
@@ -36,51 +32,43 @@
 "segs": [
 [
 "neutral",
-"Várj, megnézem."
-],
-[
-"sad",
-"Sajnos nincs."
+"Akkor egy szép bögrét?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"sad",
-"Szóval nekem soha nincs névnapom?"
+"excited",
+"Az jó! Ez a piros tetszik?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"gentle",
-"Hát legyen az enyém a tiéd is. Fele-fele."
+"cheerful",
+"Igen, szép. És egy kis kávét bele."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Komolyan?"
-],
-[
-"shy",
-"Nekem adod a fél névnapodat?"
+"amused",
+"Kávét ne. Otthon csak teát iszik."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"gentle",
-"Igen."
+"surprised",
+"Hogyhogy?"
 ],
 [
-"teasing",
-"De a virág az enyém!"
+"amused",
+"Ja, a munkában elég kávét lát!"
 ]
 ]
 }

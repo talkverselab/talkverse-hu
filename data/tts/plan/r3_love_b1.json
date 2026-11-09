@@ -8,37 +8,32 @@
 "1": {
 "segs": [
 [
-"teasing",
-"Figyelj, ismered a leghosszabb magyar szót? Ha kimondod, a következő randit én fizetem."
+"excited",
+"Ez a kedvenc helyem. Nem elegáns, de itt főznek a legjobban a városban."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"amused",
-"Naná. Tegnap éjjel három óráig gyakoroltam, mert tudtam, hogy ezzel jössz."
+"cheerful",
+"Tetszik, olyan, mint egy nagymama konyhája. Mit ajánlasz?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Komolyan?"
-],
-[
-"teasing",
-"Na, halljuk, de lassan, hogy élvezzem!"
+"cheerful",
+"A töltött káposzta itt fantasztikus, azt kóstold meg."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Megszentségtelenít... izé, hol tartottam?",
-"Megszentségtelenít, izé, hol tartottam?"
+"polite",
+"Jó estét, már választottak?"
 ]
 ]
 },
@@ -46,108 +41,100 @@
 "segs": [
 [
 "polite",
-"Elnézést, jól hallom? Itt valaki a nagy szót próbálja kimondani?"
+"Igen. Én egy töltött káposztát kérek, és egy ásványvizet."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Igen, de ez csak kettőnk között van. Nem kell semmit csinálni."
+"polite",
+"Szénsavasat vagy mentest?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"excited",
-"Hölgyeim és uraim, figyelem! A kettes asztal most elmondja a leghosszabb magyar szót!"
+"flustered",
+"Izé... a buborékosat.",
+"Izé, a buborékosat."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Mi van?"
-],
-[
-"worried",
-"Anna, miért áll fel mindenki?"
+"amused",
+"Értem, szénsavasat. És a hölgy?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"teasing",
-"Ja, tudod, ez itt szokás. Ha sikerül, ingyen vacsorázunk."
+"polite",
+"Én egy paprikás csirkét kérek, galuskával."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"worried",
-"És ha nem sikerül?"
+"polite",
+"Tessék, a töltött káposzta és a paprikás csirke. Jó étvágyat!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"stiff",
-"Akkor a vendég mosogat."
-],
-[
-"excited",
-"Tessék, mindenki figyel!"
+"cheerful",
+"Köszönöm, egészségére!"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"flustered",
-"Megszentségteleníthetetlen... jaj, ez már nem magyar.",
-"Megszentségteleníthetetlen, jaj, ez már nem magyar."
+"amused",
+"Én nem iszom, de köszönöm."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"polite",
-"Sajnálom. A konyha arra van, a kötényt megtalálja a széken."
+"amused",
+"Ha valaki azt mondja, jó étvágyat, akkor azt feleled: köszönöm, viszont."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"cheerful",
-"Hé, várjon! Két kötényt kérek."
+"surprised",
+"Szóval az egészségedre csak koccintáshoz kell?"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"surprised",
-"Te miért jössz? Te nem hibáztál."
+"amused",
+"Pontosan, meg ha valaki tüsszent."
+],
+[
+"teasing",
+"De a pincér arca megérte."
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"shy",
-"Mert még nem akarok hazamenni."
-],
-[
 "gentle",
-"Te mosol, én törölök."
+"Jó. De legalább nevettél, akkor megérte hibázni."
 ]
 ]
 }

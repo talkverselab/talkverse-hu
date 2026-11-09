@@ -10,33 +10,65 @@
  "domain": [
   "life"
  ],
- "title": "8시 반은 7시 반",
- "emoji": "🕢",
- "scene": "병원 접수처. fél nyolc 를 8시 반으로 알고 한 시간 늦게 왔다",
+ "title": "진료 예약 전화",
+ "emoji": "☎️",
+ "scene": "병원에 전화해서 진료 예약을 잡는다. 접수 직원이 이름 철자를 불러 달라고 한다",
  "speakers": {
   "A": "{name}",
   "B": "Asszisztens"
  },
  "register": "polite",
- "twist": 4,
- "twist_type": "slip",
+ "twist": 7,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "시각 말하기 fél·negyed·háromnegyed",
+ "goal": "전화로 예약하기(Időpontot szeretnék kérni)와 요일·시간",
  "expressions": [
-  "Jó napot",
-  "Hát",
-  "Kérem"
+  "Időpontot szeretnék",
+  "Megfelel",
+  "Legyen szíves"
  ],
  "turns": [
   {
    "num": 1,
+   "speaker": "B",
+   "hu": "Rendelő, jó napot kívánok!",
+   "rd": "렌델뢰, 요 너포트 키바녹!",
+   "ko": "병원입니다, 안녕하세요!",
+   "note": "rendelő = 진료소",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Rendelő",
+     "rendel",
+     "렌델"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "kívánok",
+     "kíván",
+     "키반"
+    ]
+   ]
+  },
+  {
+   "num": 2,
    "speaker": "A",
-   "hu": "Jó napot! Fél nyolcra jöttem az orvoshoz.",
-   "rd": "요 너포트! 펠 뇰츠러 요뗌 어즈 오르보슈호즈.",
-   "ko": "안녕하세요! 「반 여덟 시」로 진료 왔어요.",
-   "note": "fél nyolc = 7시 반(8시로 가는 중의 반)",
+   "hu": "Jó napot! Időpontot szeretnék kérni.",
+   "rd": "요 너포트! 이되폰토트 쎄레트넥 케르니.",
+   "ko": "안녕하세요! 진료 예약하고 싶어요.",
+   "note": "időpont = 약속 시간",
    "tags": [
-    "expr:Jó napot"
+    "expr:Időpontot szeretnék"
    ],
    "emotion": "polite",
    "lemmas": [
@@ -51,53 +83,52 @@
      "넙"
     ],
     [
-     "jöttem",
-     "jön",
-     "왼"
+     "szeretnék",
+     "szeret",
+     "쎄레트"
     ],
     [
-     "orvoshoz",
-     "orvos",
-     "오르보시"
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "B",
-   "hu": "Fél nyolcra? Most fél kilenc van!",
-   "rd": "펠 뇰츠러? 모슈트 펠 킬렌츠 번!",
-   "ko": "「반 여덟 시」요? 지금 「반 아홉 시」예요!",
-   "note": "fél kilenc = 8시 반",
-   "tags": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Fél",
-     "fél",
-     "펠"
-    ],
-    [
-     "kilenc",
-     "kilenc",
-     ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "kérni",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 3,
+   "speaker": "B",
+   "hu": "Csütörtök tíz óra megfelel?",
+   "rd": "취퇴르퇵 티즈 오러 멕펠렐?",
+   "ko": "목요일 10시 괜찮으세요?",
+   "note": "megfelel = 맞는다, 괜찮다",
+   "tags": [
+    "expr:Megfelel"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Csütörtök",
+     "csütörtök",
+     ""
+    ],
+    [
+     "megfelel",
+     "megfelel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
    "speaker": "A",
-   "hu": "Igen, fél nyolc. Nyolc és fél, nem?",
-   "rd": "이겐, 펠 뇰츠. 뇰츠 에시 펠, 넴?",
-   "ko": "네, 「반 여덟」이요. 8시 반 아니에요?",
-   "note": "..., nem? = ~지요?",
-   "tags": [],
-   "emotion": "worried",
+   "hu": "Igen, megfelel.",
+   "rd": "이겐, 멕펠렐.",
+   "ko": "네, 괜찮아요.",
+   "note": "igen = 네",
+   "tags": [
+    "expr:Megfelel"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Igen",
@@ -105,100 +136,58 @@
      "이겐"
     ],
     [
-     "fél",
-     "fél",
-     "펠"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Nem. A fél nyolc az hét harminc.",
-   "rd": "넴. 어 펠 뇰츠 어즈 헤트 허르민츠.",
-   "ko": "아니요. 「반 여덟」은 7시 30분이에요.",
-   "note": "hét harminc = 7시 30분",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "fél",
-     "fél",
-     "펠"
-    ],
-    [
-     "hét",
-     "hét",
-     "헤트"
-    ],
-    [
-     "harminc",
-     "harminc",
+     "megfelel",
+     "megfelel",
      ""
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "A",
-   "hu": "Hét harminc? De ott van a nyolc!",
-   "rd": "헤트 허르민츠? 데 오트 번 어 뇰츠!",
-   "ko": "7시 30분요? 그런데 8이 들어 있잖아요!",
-   "note": "de = 하지만",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Hét harminc?"
-    ],
-    [
-     "tsukkomi",
-     "De ott van a nyolc!"
-    ]
+   "speaker": "B",
+   "hu": "A neve? Betűzze, legyen szíves.",
+   "rd": "어 네베? 베튀제, 레젠 씨베시.",
+   "ko": "성함이요? 철자 불러 주세요.",
+   "note": "betűzze = 철자를 불러 주세요(Ön)",
+   "tags": [
+    "expr:Legyen szíves"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Hét",
-     "hét",
-     "헤트"
+     "neve",
+     "név",
+     "네브"
     ],
     [
-     "harminc",
-     "harminc",
-     ""
+     "legyen",
+     "lesz",
+     "레쓰"
     ],
     [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "szíves",
+     "szíves",
+     "시베시"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "B",
-   "hu": "Hát igen, ez magyar idő. Jöjjön holnap háromnegyed nyolcra!",
-   "rd": "하트 이겐, 에즈 머져르 이되. 요왼 홀너프 하롬네제드 뇰츠러!",
-   "ko": "네, 이게 헝가리 시간이에요. 내일 「4분의 3 여덟 시」에 오세요!",
-   "note": "háromnegyed nyolc = 7시 45분",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "amused",
+   "speaker": "A",
+   "hu": "Hát, izé, nehéz. E-mailben megírhatom?",
+   "rd": "하트, 이제, 네헤즈. 에-머일벤 메기르허톰?",
+   "ko": "음, 저기, 어려워요. 이메일로 보내도 될까요?",
+   "note": "megírhatom = 써 보내도 된다",
+   "tags": [],
+   "emotion": "flustered",
    "segs": [
     [
-     "amused",
-     "Hát igen, ez magyar idő."
+     "flustered",
+     "Hát, izé, nehéz."
     ],
     [
      "polite",
-     "Jöjjön holnap háromnegyed nyolcra!"
+     "E-mailben megírhatom?"
     ]
    ],
    "lemmas": [
@@ -208,68 +197,93 @@
      "핫"
     ],
     [
-     "igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "magyar",
-     "magyar",
+     "izé",
+     "izé",
      ""
     ],
     [
-     "idő",
-     "idő",
-     "이뢰"
+     "nehéz",
+     "nehéz",
+     "네헤즈"
     ],
     [
-     "holnap",
-     "holnap",
-     "홀넙"
+     "mailben",
+     "mailben",
+     ""
     ],
     [
-     "háromnegyed",
-     "háromnegyed",
+     "megírhatom",
+     "megír",
      ""
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Háromnegyed?! Kérem, mondja számmal!",
-   "rd": "하롬네제드?! 케렘, 몬드여 쌈멀!",
-   "ko": "4분의 3이요?! 제발 숫자로 말해 주세요!",
-   "note": "számmal = 숫자로",
-   "tags": [
-    "expr:Kérem"
-   ],
-   "emotion": "surprised",
-   "segs": [
+   "speaker": "B",
+   "hu": "Persze. Akkor betűzöm az e-mail címünket.",
+   "rd": "페르쎄. 어꼬르 베튀죔 어즈 에-머일 치뮌케트.",
+   "ko": "그럼요. 그럼 저희 이메일 주소 철자를 불러 드릴게요.",
+   "note": "betűzöm = 철자를 불러 드린다",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
     [
-     "surprised",
-     "Háromnegyed?!"
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "worried",
-     "Kérem, mondja számmal!"
+     "betűzöm",
+     "betűz",
+     ""
+    ],
+    [
+     "mail",
+     "mail",
+     ""
+    ],
+    [
+     "címünket",
+     "címünk",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj, ne! Inkább betűzöm a nevemet.",
+   "rd": "여이, 네! 인카브 베튀죔 어 네베메트.",
+   "ko": "아, 아니에요! 차라리 제 이름 철자 부를게요.",
+   "note": "inkább = 차라리",
+   "tags": [],
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj, ne!"
+    ],
+    [
+     "amused",
+     "Inkább betűzöm a nevemet."
     ]
    ],
    "lemmas": [
     [
-     "Háromnegyed",
-     "háromnegyed",
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "betűzöm",
+     "betűz",
      ""
     ],
     [
-     "mondja",
-     "mond",
-     "몬드"
-    ],
-    [
-     "számmal",
-     "szám",
-     ""
+     "nevemet",
+     "név",
+     "네브"
     ]
    ]
   }

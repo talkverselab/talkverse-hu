@@ -8,7 +8,15 @@
 "segs": [
 [
 "polite",
-"Jó napot!"
+"Halló, tessék!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Jó reggelt, Laci bácsi!"
 ],
 [
 "worried",
@@ -16,59 +24,59 @@
 ]
 ]
 },
-"2": {
-"segs": [
-[
-"neutral",
-"Tényleg? Hát, most tél van."
-]
-]
-},
 "3": {
 "segs": [
 [
-"annoyed",
-"Igen, és nagyon hideg van!"
+"neutral",
+"A bojleren ég a piros lámpa?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Jaj. Menjen a fürdőbe!"
+"polite",
+"Egy pillanat, megnézem."
+],
+[
+"worried",
+"Nem ég."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"tsukkomi",
-"A fürdőbe? Ez komoly?"
+"neutral",
+"És a konnektorban benne van?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Persze! Ott sok meleg víz van."
+"surprised",
+"Konnektor? Hol van az?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"stiff",
-"Ön most hol van?"
+"gentle",
+"A bojler mellett, lent."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"amused",
-"Én? A fürdőben, három hete."
+"flustered",
+"Jaj, Dávid kihúzta!"
+],
+[
+"annoyed",
+"Ott tölti a telefonját."
 ]
 ]
 }

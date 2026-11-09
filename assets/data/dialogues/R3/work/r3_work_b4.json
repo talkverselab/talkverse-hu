@@ -10,339 +10,387 @@
  "domain": [
   "work"
  ],
- "title": "매일 오는 할머니",
- "emoji": "🏠",
- "scene": "임대료를 세 배로 올린다는 편지가 왔다. 카페가 문을 닫게 생겼는데, 오늘도 그 할머니가 커피를 드시러 온다",
+ "title": "「늘 드시던 걸로」",
+ "emoji": "🫖",
+ "scene": "저녁 카페. Bence 가 창고에 간 사이 단골 할머니가 「늘 먹던 걸로」를 주문한다. 처음 보는 사람이라 뭔지 모른다",
  "speakers": {
   "A": "{name}",
   "B": "Bence",
   "C": "Néni"
  },
  "register": "mixed",
- "twist": 14,
- "twist_type": "reveal",
+ "twist": 13,
+ "twist_type": "chaos",
  "flags": [],
- "goal": "걱정 나누기와 어르신께 말하기(3인칭 존댓말)",
+ "goal": "손님 주문 되묻기(Tejjel? · Zabtej vagy mandulatej?)와 늘 먹던 것(a szokásos)",
  "expressions": [
+  "Tessék",
   "Hát",
-  "Sajnos",
-  "Szerintem",
-  "Mindegy",
-  "Figyelj",
-  "Ne már",
-  "Tessék"
+  "Mindjárt",
+  "Rendben"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Olvastad a levelet? A tulajdonos háromszor annyit kér a helyért.",
-   "rd": "올버슈터드 어 레벨레트? 어 툴러이도노시 하롬쏘르 어니트 케르 어 헤예르트.",
-   "ko": "편지 읽었어? 건물주가 임대료를 세 배로 달래.",
-   "note": "tulajdonos = 주인",
+   "speaker": "C",
+   "hu": "Jó estét! A szokásosat kérem.",
+   "rd": "요 에슈테트! 어 쏘카쇼셔트 케렘.",
+   "ko": "안녕하세요! 늘 먹던 걸로 주세요.",
+   "note": "a szokásos = 늘 먹던 것",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Olvastad",
-     "olvas",
-     "올버스"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "levelet",
-     "levele",
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "szokásosat",
+     "szokásos",
      ""
     ],
     [
-     "tulajdonos",
-     "tulajdonos",
-     ""
-    ],
-    [
-     "kér",
+     "kérem",
      "kér",
      "께르"
-    ],
-    [
-     "helyért",
-     "hely",
-     "헤이"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Háromszor annyit? Hát ezt nem tudjuk kifizetni!",
-   "rd": "하롬쏘르 어니트? 하트 에즈트 넴 투드육 키피제트니!",
-   "ko": "세 배? 그건 못 내지!",
-   "note": "kifizetni = 다 내다",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "surprised",
+   "hu": "Jó estét! Elnézést, új vagyok. Mi a szokásos?",
+   "rd": "요 에슈테트! 엘네제슈트, 우이 버죡. 미 어 쏘카쇼시?",
+   "ko": "안녕하세요! 죄송해요, 제가 새로 와서요. 늘 드시는 게 뭔가요?",
+   "note": "új vagyok = 새로 왔다",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "tudjuk",
-     "tud",
-     "투드"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "kifizetni",
-     "kifizet",
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "szokásos",
+     "szokásos",
      ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Sajnos nem. Szerintem egy hónap múlva bezárunk.",
-   "rd": "셔이노시 넴. 쎄린템 에지 호너프 물버 베자룬크.",
-   "ko": "못 내지. 내 생각엔 한 달 뒤면 문 닫아.",
-   "note": "egy hónap múlva = 한 달 뒤에",
-   "tags": [
-    "expr:Sajnos",
-    "expr:Szerintem"
-   ],
-   "emotion": "sad",
+   "speaker": "C",
+   "hu": "Bence tudja. Ő hol van?",
+   "rd": "벤체 투드여. 외 홀 번?",
+   "ko": "벤체가 알아요. 벤체는 어디 있어요?",
+   "note": "hol van? = 어디 있어요?",
+   "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Sajnos",
-     "sajnos",
-     "셔이노시"
+     "Bence",
+     "bence",
+     ""
     ],
     [
-     "hónap",
-     "hónap",
-     "호넙"
+     "tudja",
+     "tud",
+     "투드"
     ],
     [
-     "bezárunk",
-     "bezár",
-     "베자르"
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Ki ez a tulajdonos? Még sosem láttuk.",
-   "rd": "키 에즈 어 툴러이도노시? 멕 쇼셈 라뚝.",
-   "ko": "건물주가 누군데? 한 번도 못 봤잖아.",
-   "note": "még sosem = 아직 한 번도 안",
-   "tags": [],
-   "emotion": "annoyed",
+   "hu": "Hátul van, mindjárt jön. Addig segíthetek?",
+   "rd": "하툴 번, 민드야르트 욘. 어딕 세기트헤텍?",
+   "ko": "뒤에 있어요, 금방 와요. 그동안 제가 도와드릴까요?",
+   "note": "mindjárt = 금방",
+   "tags": [
+    "expr:Hát",
+    "expr:Mindjárt"
+   ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Ki",
-     "ki",
-     "키"
+     "Hátul",
+     "hátul",
+     "하툴"
     ],
     [
-     "tulajdonos",
-     "tulajdonos",
-     ""
+     "van",
+     "van",
+     "번"
     ],
     [
-     "sosem",
-     "sohasem",
-     "쇼허셈"
+     "mindjárt",
+     "mindjárt",
+     "민드야르트"
     ],
     [
-     "láttuk",
-     "lát",
-     "라트"
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "segíthetek",
+     "segít",
+     "셰기트"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "B",
-   "hu": "Senki sem tudja. Csak a levelei jönnek.",
-   "rd": "센키 셈 투드여. 척 어 레벨레이 욘넥.",
-   "ko": "아무도 몰라. 편지만 와.",
-   "note": "levelei = 그의 편지들",
-   "tags": [],
-   "emotion": "sad",
+   "speaker": "C",
+   "hu": "Hát, próbáljuk meg. Kávé, de nem túl erős.",
+   "rd": "하트, 프로발육 멕. 카베, 데 넴 툴 에뢰시.",
+   "ko": "글쎄, 해 보죠. 커피인데 너무 진하지 않게.",
+   "note": "próbáljuk meg = 해 보자",
+   "tags": [
+    "expr:Hát"
+   ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "tudja",
-     "tud",
-     "투드"
+     "Hát",
+     "hát",
+     "핫"
     ],
     [
-     "levelei",
-     "levél",
-     "레벨"
+     "próbáljuk",
+     "próbál",
+     "프로발"
     ],
     [
-     "jönnek",
-     "jön",
-     "왼"
+     "túl",
+     "túl",
+     "툴"
+    ],
+    [
+     "erős",
+     "erős",
+     "에뢰시"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Mindegy. Jön a néni, legalább ő ne tudja meg.",
-   "rd": "민데지. 욘 어 네니, 레걸라브 외 네 투드여 멕.",
-   "ko": "아무튼. 할머니 오신다, 저분은 모르시게 하자.",
-   "note": "legalább = 적어도",
-   "tags": [
-    "expr:Mindegy"
-   ],
-   "emotion": "sad",
-   "segs": [
-    [
-     "sad",
-     "Mindegy."
-    ],
-    [
-     "worried",
-     "Jön a néni, legalább ő ne tudja meg."
-    ]
-   ],
+   "hu": "Akkor egy hosszú kávé? Tejjel?",
+   "rd": "어꼬르 에지 호쑤 카베? 테옐?",
+   "ko": "그럼 롱 커피요? 우유 넣어서요?",
+   "note": "tejjel = 우유를 넣어",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Mindegy",
-     "mindegy",
-     "민데지"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "néni",
-     "néni",
-     ""
+     "hosszú",
+     "hosszú",
+     "호쑤"
     ],
     [
-     "legalább",
-     "legalább",
-     "레걸랍"
-    ],
-    [
-     "tudja",
-     "tud",
-     "투드"
+     "kávé",
+     "kávé",
+     "카베"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "C",
-   "hu": "Csókollak, kedves! Mi van, miért ilyen szomorú?",
-   "rd": "초콜럭, 케드베시! 미 번, 미에르트 이옌 쏘모루?",
-   "ko": "뽀뽀할게요! 무슨 일이에요, 왜 이렇게 시무룩해요?",
-   "note": "csókollak = 그때 그 실수를 놀리는 말",
+   "hu": "Tejjel, igen. De nem tehéntejjel.",
+   "rd": "테옐, 이겐. 데 넴 테헨테옐.",
+   "ko": "우유 넣어서요, 네. 근데 소젖 말고요.",
+   "note": "tehéntej = 소젖 우유",
    "tags": [],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Csókollak, kedves!"
-    ],
-    [
-     "worried",
-     "Mi van, miért ilyen szomorú?"
-    ]
-   ],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Csókollak",
-     "csókol",
+     "Tejjel",
+     "tej",
+     "테이"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "tehéntejjel",
+     "tehén",
      ""
-    ],
-    [
-     "kedves",
-     "kedves",
-     "케드베슈"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "miért",
-     "miért",
-     "미에르트"
-    ],
-    [
-     "szomorú",
-     "szomorú",
-     "쏘모루"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Semmi, néni. Tessék, a kávéja, ma is ingyen van.",
-   "rd": "셈미, 네니. 테쎅, 어 카베여, 머 이시 인젠 번.",
-   "ko": "아무것도 아니에요, 할머니. 여기 커피요, 오늘도 공짜예요.",
-   "note": "ingyen = 공짜로",
-   "tags": [
-    "expr:Tessék"
-   ],
-   "emotion": "gentle",
+   "hu": "Zabtej vagy mandulatej?",
+   "rd": "저브테이 버지 먼둘러테이?",
+   "ko": "귀리 우유요, 아몬드 우유요?",
+   "note": "zabtej = 귀리 우유",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "néni",
-     "néni",
+     "Zabtej",
+     "zabtej",
      ""
     ],
     [
-     "kávéja",
-     "kávé",
-     "카베"
-    ],
-    [
-     "ma",
-     "ma",
-     "머"
-    ],
-    [
-     "ingyen",
-     "ingyen",
+     "mandulatej",
+     "mandulatej",
      ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "B",
-   "hu": "Figyelj, már egy éve ingyen iszik. Ezért nincs pénzünk!",
-   "rd": "피젤이, 마르 에지 에베 인젠 이씩. 에제르트 닌치 펜쥔크!",
-   "ko": "야, 벌써 1년째 공짜로 드시잖아. 그러니까 돈이 없지!",
-   "note": "ezért = 그래서",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "annoyed",
+   "speaker": "C",
+   "hu": "Zab, egy kanál mézzel. És egy kis fahéj a tetejére.",
+   "rd": "저브, 에지 커날 메젤. 에시 에지 키시 퍼헤이 어 테테예레.",
+   "ko": "귀리요, 꿀 한 스푼 넣어서. 위에 시나몬 조금이요.",
+   "note": "fahéj = 시나몬",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Zab",
+     "zab",
+     ""
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "kanál",
+     "kanál",
+     ""
     ],
     [
-     "éve",
-     "év",
-     "에브"
+     "mézzel",
+     "méz",
+     ""
     ],
     [
-     "ingyen",
-     "ingyen",
+     "kis",
+     "kis",
+     "키시"
+    ],
+    [
+     "fahéj",
+     "fahéj",
+     ""
+    ],
+    [
+     "tetejére",
+     "tető",
+     "테퇴"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Rendben. Tessék, zabtejes hosszú kávé mézzel és fahéjjal.",
+   "rd": "렌드벤. 테쎅, 저브테예시 호쑤 카베 메젤 에시 퍼헤열.",
+   "ko": "알겠습니다. 여기요, 꿀과 시나몬 올린 귀리 우유 롱 커피예요.",
+   "note": "fahéjjal = 시나몬과 함께",
+   "tags": [
+    "expr:Tessék",
+    "expr:Rendben"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "zabtejes",
+     "zabtejes",
+     ""
+    ],
+    [
+     "hosszú",
+     "hosszú",
+     "호쑤"
+    ],
+    [
+     "kávé",
+     "kávé",
+     "카베"
+    ],
+    [
+     "mézzel",
+     "méz",
+     ""
+    ],
+    [
+     "fahéjjal",
+     "fahéj",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Jó estét, Erzsi néni! Jaj, mit iszik ma?",
+   "rd": "요 에슈테트, 에르지 네니! 여이, 미트 이씩 머?",
+   "ko": "안녕하세요, 에르지 아주머니! 어, 오늘은 뭘 드세요?",
+   "note": "mit iszik? = 뭘 드세요?(존댓말)",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "néni",
+     "néni",
      ""
     ],
     [
@@ -351,234 +399,126 @@
      "이식"
     ],
     [
-     "nincs",
-     "nincs",
-     "닌치"
-    ],
-    [
-     "pénzünk",
-     "pénzünk",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "A",
-   "hu": "Egy nyugdíjas néni? Ne már, egy kávé nem gond.",
-   "rd": "에지 뉵디여시 네니? 네 마르, 에지 카베 넴 곤드.",
-   "ko": "연금으로 사시는 할머니인데? 에이, 커피 한 잔이 뭐라고.",
-   "note": "nyugdíjas = 연금 생활자",
-   "tags": [
-    "expr:Ne már"
-   ],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "nyugdíjas",
-     "nyugdíjas",
-     ""
-    ],
-    [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "kávé",
-     "kávé",
-     "카베"
-    ],
-    [
-     "gond",
-     "gond",
-     "곤드"
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "C",
-   "hu": "Milyen levél? Mutassa csak!",
-   "rd": "미옌 레벨? 무터쎠 척!",
-   "ko": "무슨 편지요? 어디 봐요!",
-   "note": "mutassa = 보여 주세요(존댓말)",
-   "tags": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "levél",
-     "levél",
-     "레벨"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
+     "ma",
+     "ma",
+     "머"
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "C",
-   "hu": "Jaj, ezt az unokám írta. Szólok neki, hogy ne írjon többet.",
-   "rd": "여이, 에즈트 어즈 우노캄 이르터. 쏠록 네키, 호지 네 이르욘 퇴베트.",
-   "ko": "아이고, 이건 내 손주가 썼네. 더 쓰지 말라고 일러야겠어요.",
-   "note": "unoka = 손주",
+   "speaker": "A",
+   "hu": "A szokásosat. Nem ez az?",
+   "rd": "어 쏘카쇼셔트. 넴 에즈 어즈?",
+   "ko": "늘 드시는 거. 이거 아니야?",
+   "note": "nem ez az? = 이거 아니야?",
    "tags": [],
-   "emotion": "amused",
+   "emotion": "worried",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "unokám",
-     "unokám",
+     "szokásosat",
+     "szokásos",
      ""
-    ],
-    [
-     "írta",
-     "ír",
-     "이르"
-    ],
-    [
-     "többet",
-     "több",
-     "퇴그"
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "B",
-   "hu": "Az unokája? Ezt hogy érti, néni?",
-   "rd": "어즈 우노카여? 에즈트 호지 에르티, 네니?",
-   "ko": "손주분이요? 그게 무슨 말씀이세요, 할머니?",
-   "note": "hogy érti? = 무슨 뜻이에요?",
+   "hu": "A szokásos egy kamillatea. Már tíz éve.",
+   "rd": "어 쏘카쇼시 에지 커밀러테어. 마르 티즈 에베.",
+   "ko": "늘 드시는 건 캐모마일 차야. 벌써 10년째.",
+   "note": "kamillatea = 캐모마일 차",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "amused",
    "lemmas": [
     [
-     "unokája",
-     "unoka",
+     "szokásos",
+     "szokásos",
      ""
     ],
     [
-     "érti",
-     "ért",
-     "에르트"
+     "kamillatea",
+     "kamillatea",
+     ""
     ],
     [
-     "néni",
-     "néni",
-     ""
+     "éve",
+     "év",
+     "에브"
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "C",
-   "hu": "A ház az enyém, kedves. Az egész utca is.",
-   "rd": "어 하즈 어즈 에넴, 케드베시. 어즈 에게쓰 우트처 이시.",
-   "ko": "이 건물 내 거예요. 이 거리 전체도요.",
-   "note": "az enyém = 내 것",
+   "hu": "Tudom, kedvesem. Csak kíváncsi voltam az új kollégára.",
+   "rd": "투돔, 케드베셈. 척 키반치 볼텀 어즈 우이 콜레가러.",
+   "ko": "알아요, 얘야. 새 직원이 궁금했을 뿐이에요.",
+   "note": "kíváncsi = 궁금한",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "ház",
-     "ház",
-     "하즈"
+     "Tudom",
+     "tud",
+     "투드"
     ],
     [
-     "kedves",
-     "kedves",
-     "케드베슈"
+     "kedvesem",
+     "kedvesem",
+     ""
     ],
     [
-     "egész",
-     "egész",
-     "에게쓰"
+     "kíváncsi",
+     "kíváncsi",
+     "키반치"
     ],
     [
-     "utca",
-     "utca",
-     "우트처"
+     "voltam",
+     "volt",
+     "볼트"
+    ],
+    [
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "kollégára",
+     "kolléga",
+     ""
     ]
    ]
   },
   {
    "num": 15,
-   "speaker": "A",
-   "hu": "És én egy éve ingyen adok Önnek kávét?",
-   "rd": "에시 엔 에지 에베 인젠 어독 왼넥 카베트?",
-   "ko": "그럼 저는 1년째 공짜 커피를 드린 거예요?",
-   "note": "Önnek = 당신께(존댓말)",
-   "tags": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "éve",
-     "év",
-     "에브"
-    ],
-    [
-     "ingyen",
-     "ingyen",
-     ""
-    ],
-    [
-     "adok",
-     "ad",
-     "어드"
-    ],
-    [
-     "kávét",
-     "kávé",
-     "카베"
-    ]
-   ]
-  },
-  {
-   "num": 16,
    "speaker": "C",
-   "hu": "Igen. Holnap is jövök, csókollak!",
-   "rd": "이겐. 홀너프 이시 요뵉, 초콜럭!",
-   "ko": "그래요. 내일도 올게요, 뽀뽀!",
-   "note": "-lak = 내가 너를 ~한다",
+   "hu": "Finom. Holnap is ezt kérem, ez az új szokásos.",
+   "rd": "피놈. 홀너프 이시 에즈트 케렘, 에즈 어즈 우이 쏘카쇼시.",
+   "ko": "맛있네요. 내일도 이걸로 줘요, 이게 새 「늘 먹던 거」예요.",
+   "note": "szokásos = 늘 먹는 것",
    "tags": [],
-   "emotion": "amused",
-   "segs": [
-    [
-     "amused",
-     "Igen."
-    ],
-    [
-     "cheerful",
-     "Holnap is jövök, csókollak!"
-    ]
-   ],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Finom",
+     "finom",
+     "피놈"
     ],
     [
-     "jövök",
-     "jön",
-     "왼"
+     "kérem",
+     "kér",
+     "께르"
     ],
     [
-     "csókollak",
-     "csókol",
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "szokásos",
+     "szokásos",
      ""
     ]
    ]

@@ -10,9 +10,9 @@
  "domain": [
   "culture"
  ],
- "title": "빈 사탕 트리",
+ "title": "크리스마스이브 저녁",
  "emoji": "🎄",
- "scene": "크리스마스이브의 Anna 네 집. 트리에 걸린 하얀 사탕을 만져 봤는데 가볍다",
+ "scene": "크리스마스이브에 Anna 네 가족 저녁에 초대받았다. Anna 의 아빠가 맞아 주신다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
@@ -20,243 +20,41 @@
  },
  "register": "mixed",
  "twist": 11,
- "twist_type": "reveal",
+ "twist_type": "slip",
  "flags": [],
- "goal": "금지 표현(tilos, ne nyúlj)과 크리스마스 풍습",
+ "goal": "명절 초대에서 인사·선물 건네기·음식 맛보기(Boldog karácsonyt! · Kóstold meg!)",
  "expressions": [
-  "Gyere",
-  "Nézd",
-  "Jól van",
-  "Várj"
+  "Mindjárt",
+  "Kóstold meg",
+  "Vagyis"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Gyere, nézd a fát! Az a fehér cukorka a szaloncukor.",
-   "rd": "제레, 네즈드 어 파트! 어즈 어 페헤르 추코르커 어 썰론추코르.",
-   "ko": "와서 트리 봐! 저 하얀 사탕이 살론추코르야.",
-   "note": "szaloncukor = 트리에 거는 사탕",
-   "tags": [
-    "expr:Gyere",
-    "expr:Nézd"
-   ],
+   "hu": "Apa, ő {name}.",
+   "rd": "어퍼, 외 {name}.",
+   "ko": "아빠, 얘가 {name}이야.",
+   "note": "ő = 그 사람",
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Gyere",
-     "jön",
-     "왼"
-    ],
-    [
-     "nézd",
-     "néz",
-     "네즈"
-    ],
-    [
-     "fát",
-     "fa",
-     "퍼"
-    ],
-    [
-     "fehér",
-     "fehér",
-     "페헤르"
-    ],
-    [
-     "cukorka",
-     "cukorka",
-     ""
-    ],
-    [
-     "szaloncukor",
-     "szaloncukor",
-     ""
+     "Apa",
+     "apa",
+     "어퍼"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Szép. Ehetek egyet?",
-   "rd": "쎄프. 에헤텍 에제트?",
-   "ko": "예쁘다. 하나 먹어도 돼?",
-   "note": "ehetek = 먹어도 된다",
+   "hu": "Jó estét kívánok! Boldog karácsonyt!",
+   "rd": "요 에슈테트 키바녹! 볼독 커라초니트!",
+   "ko": "안녕하세요! 메리 크리스마스!",
+   "note": "Boldog karácsonyt! = 메리 크리스마스",
    "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Szép",
-     "szép",
-     "쎕"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Nem! Karácsonyig tilos, ez a szabály.",
-   "rd": "넴! 커라초닉 틸로시, 에즈 어 써바이.",
-   "ko": "안 돼! 크리스마스까지 금지, 규칙이야.",
-   "note": "tilos = 금지된",
-   "tags": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "tilos",
-     "tilos",
-     ""
-    ],
-    [
-     "szabály",
-     "szabály",
-     "사발리"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Jól van, jól van. Csak megnézem.",
-   "rd": "욜 번, 욜 번. 척 멕네젬.",
-   "ko": "알았어, 알았어. 구경만 할게.",
-   "note": "megnézem = 살펴본다",
-   "tags": [
-    "expr:Jól van"
-   ],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "megnézem",
-     "megnéz",
-     "메그네즈"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Ne nyúlj hozzá, apa számolja őket!",
-   "rd": "네 뉼이 호자, 어퍼 싸몰여 외케트!",
-   "ko": "손대지 마, 아빠가 세고 계셔!",
-   "note": "számol = 세다",
-   "tags": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "nyúlj",
-     "nyúl",
-     ""
-    ],
-    [
-     "apa",
-     "apa",
-     "어퍼"
-    ],
-    [
-     "számolja",
-     "számol",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Várj... ez üres, ez is, ez is!",
-   "rd": "바르이... 에즈 위레시, 에즈 이시, 에즈 이시!",
-   "ko": "잠깐… 이거 비었어. 이것도. 이것도!",
-   "note": "üres = 빈",
-   "tags": [
-    "expr:Várj"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "üres",
-     "üres",
-     "위레시"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Az nem lehet! Hadd nézzem!",
-   "rd": "어즈 넴 레헤트! 허드 네젬!",
-   "ko": "말도 안 돼! 나 좀 보자!",
-   "note": "hadd = ~하게 해 줘",
-   "tags": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "lehet",
-     "lehet",
-     "레헤트"
-    ],
-    [
-     "nézzem",
-     "néz",
-     "네즈"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "C",
-   "hu": "Mi folyik itt? Ki nyúlt a fához?",
-   "rd": "미 포익 이트? 키 뉼트 어 파호즈?",
-   "ko": "무슨 일이니? 누가 트리 건드렸어?",
-   "note": "mi folyik itt? = 무슨 일이야?",
-   "tags": [],
-   "emotion": "stiff",
-   "lemmas": [
-    [
-     "folyik",
-     "folyik",
-     "폴리크"
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "nyúlt",
-     "nyúl",
-     ""
-    ],
-    [
-     "fához",
-     "fa",
-     "퍼"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Jó estét, nem én! Az összes cukorka üres.",
-   "rd": "요 에슈테트, 넴 엔! 어즈 외쎄시 추코르커 위레시.",
-   "ko": "안녕하세요, 저 아니에요! 사탕이 전부 비었어요.",
-   "note": "az összes = 전부",
-   "tags": [],
-   "emotion": "flustered",
+   "emotion": "polite",
    "lemmas": [
     [
      "Jó",
@@ -269,73 +67,46 @@
      "에슈테"
     ],
     [
-     "cukorka",
-     "cukorka",
-     ""
+     "kívánok",
+     "kíván",
+     "키반"
     ],
     [
-     "üres",
-     "üres",
-     "위레시"
+     "karácsonyt",
+     "karácsony",
+     ""
     ]
    ]
   },
   {
-   "num": 10,
+   "num": 3,
    "speaker": "C",
-   "hu": "Hát... tudod, ez egy nagyon régi magyar szokás.",
-   "rd": "하트... 투도드, 에즈 에지 너죤 레기 머져르 쏘카시.",
-   "ko": "음… 있잖니, 이건 아주 오래된 헝가리 풍습이란다.",
-   "note": "szokás = 풍습",
+   "hu": "Jó estét, gyere be! Hideg van kint.",
+   "rd": "요 에슈테트, 제레 베! 히덱 번 킨트.",
+   "ko": "어서 와, 들어오렴! 밖에 춥지.",
+   "note": "kint = 밖에",
    "tags": [],
-   "emotion": "flustered",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "tudod",
-     "tud",
-     "투드"
+     "estét",
+     "este",
+     "에슈테"
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
+     "gyere",
+     "jön",
+     "왼"
     ],
     [
-     "régi",
-     "régi",
-     "레기"
-    ],
-    [
-     "magyar",
-     "magyar",
-     ""
-    ],
-    [
-     "szokás",
-     "szokás",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "B",
-   "hu": "Apa, mi van a szádban?",
-   "rd": "어퍼, 미 번 어 싸드번?",
-   "ko": "아빠, 입에 뭐 있어요?",
-   "note": "száj → szád = 네 입",
-   "tags": [],
-   "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "Apa",
-     "apa",
-     "어퍼"
+     "be",
+     "be",
+     "베"
     ],
     [
      "van",
@@ -343,8 +114,270 @@
      "번"
     ],
     [
-     "szádban",
-     "szád",
+     "kint",
+     "kint",
+     "킨트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Hoztam egy kis bejglit.",
+   "rd": "호즈텀 에지 키시 베익리트.",
+   "ko": "베이글리 좀 가져왔어요.",
+   "note": "bejgli = 호두·양귀비씨 롤 케이크",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Hoztam",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "kis",
+     "kis",
+     "키시"
+    ],
+    [
+     "bejglit",
+     "bejgli",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Ó, köszönöm! Ülj le, mindjárt jön a halászlé.",
+   "rd": "오, 쾨쐬뇜! 윌이 레, 민드야르트 욘 어 헐라쓸레.",
+   "ko": "오, 고맙다! 앉으렴, 곧 생선 수프 나와.",
+   "note": "mindjárt = 곧",
+   "tags": [
+    "expr:Mindjárt"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "mindjárt",
+     "mindjárt",
+     "민드야르트"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
+    ],
+    [
+     "halászlé",
+     "halászlé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Halászlé karácsonykor? Nálunk ilyenkor mást eszünk.",
+   "rd": "헐라쓸레 커라초니코르? 날룬크 이옌코르 마슈트 에쒼크.",
+   "ko": "크리스마스에 생선 수프요? 저희는 이맘때 다른 걸 먹어요.",
+   "note": "ilyenkor = 이맘때",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Halászlé",
+     "halászlé",
+     ""
+    ],
+    [
+     "karácsonykor",
+     "karácsony",
+     ""
+    ],
+    [
+     "mást",
+     "más",
+     "마시"
+    ],
+    [
+     "eszünk",
+     "eszik",
+     "에식"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Nálunk Szenteste mindig hal van. Ez hagyomány.",
+   "rd": "날룬크 쎈테슈테 민딕 헐 번. 에즈 허죠마니.",
+   "ko": "우리 집은 크리스마스이브엔 늘 생선이야. 전통이야.",
+   "note": "Szenteste = 크리스마스이브",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "hal",
+     "hal",
+     "헐"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "hagyomány",
+     "hagyomány",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "hu": "Csípős, de nem nagyon. Kóstold meg!",
+   "rd": "치푀시, 데 넴 너죤. 코슈톨드 멕!",
+   "ko": "맵긴 한데 많이는 아니야. 먹어 보렴!",
+   "note": "kóstold meg = 맛봐",
+   "tags": [
+    "expr:Kóstold meg"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Csípős",
+     "csípős",
+     ""
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Hű, finom! És tényleg nem nagyon csípős.",
+   "rd": "휘, 피놈! 에시 테닐렉 넴 너죤 치푀시.",
+   "ko": "와, 맛있어요! 정말 별로 안 맵네요.",
+   "note": "tényleg = 정말",
+   "tags": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
+     ""
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "csípős",
+     "csípős",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "hu": "Később a bejglit is megkóstoljuk. Te sütötted?",
+   "rd": "케쇠브 어 베익리트 이시 멕코슈톨육. 테 쉬퇴떼드?",
+   "ko": "이따 베이글리도 먹어 보자. 네가 구웠니?",
+   "note": "sütötted = (그것을) 구웠니",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Később",
+     "késő",
+     "께쇠"
+    ],
+    [
+     "bejglit",
+     "bejgli",
+     ""
+    ],
+    [
+     "megkóstoljuk",
+     "megkóstol",
+     ""
+    ],
+    [
+     "sütötted",
+     "süt",
+     "슈트"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Igen! Vagyis... a pék a sarkon.",
+   "rd": "이겐! 버지시... 어 펙 어 셔르콘.",
+   "ko": "네! 아니, 그러니까… 모퉁이 빵집이요.",
+   "note": "vagyis = 즉, 그러니까",
+   "tags": [
+    "expr:Vagyis"
+   ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Igen!"
+    ],
+    [
+     "flustered",
+     "Vagyis... a pék a sarkon."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "pék",
+     "pék",
+     ""
+    ],
+    [
+     "sarkon",
+     "sark",
      ""
     ]
    ]
@@ -352,37 +385,27 @@
   {
    "num": 12,
    "speaker": "C",
-   "hu": "Semmi. A papírokat meg szépen visszaakasztottam.",
-   "rd": "셈미. 어 퍼피로커트 멕 쎄펜 비써어커쓰토떰.",
-   "ko": "아무것도. 포장지는 곱게 다시 걸어 놨다.",
-   "note": "visszaakaszt = 도로 걸다",
+   "hu": "Ügyes vagy. Jó pékséget választottál! 😄",
+   "rd": "위제시 버지. 요 펙세게트 발러쓰토딸! 😄",
+   "ko": "잘했네. 빵집을 잘 골랐구나! 😄",
+   "note": "pékség = 빵집",
    "tags": [],
-   "emotion": "flustered",
-   "segs": [
-    [
-     "flustered",
-     "Semmi."
-    ],
-    [
-     "amused",
-     "A papírokat meg szépen visszaakasztottam."
-    ]
-   ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "papírokat",
-     "papír",
-     "퍼피르"
+     "Ügyes",
+     "ügyes",
+     "위계시"
     ],
     [
-     "szépen",
-     "szép",
-     "쎕"
-    ],
-    [
-     "visszaakasztottam",
-     "visszaakaszt",
+     "pékséget",
+     "pékség",
      ""
+    ],
+    [
+     "választottál",
+     "választ",
+     "발라쓰트"
     ]
    ]
   }

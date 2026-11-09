@@ -1,19 +1,19 @@
 === r1_friends_c1
 kind: chat
-title: 반 일곱 시
-emoji: 🕡
-scene: Réka 와 저녁 약속 채팅. 시간을 정했는데, 헝가리어의 「반」은 방향이 반대다
+title: 반 여섯 시
+emoji: 🕠
+scene: Réka 와 저녁 약속을 채팅으로 잡는다. 헝가리어 「반 여섯」은 5시 반이다
 b: Réka
 register: chat
 twist: 6 slip
 purpose: making_friends
-goal: 시각 표현 fél hét = 6시 반
-expressions: Szia; Oké; Hol vagy?; Jaj
-B | Szia! Ma vacsora fél hétkor? | 안녕! 오늘 6시 반에 저녁? | fél hét = 6시 반(7시로 가는 절반) | emotion=cheerful at=16:02
-A | Oké, jó! | 좋아! | oké = 좋아 | emotion=cheerful at=16:05
-B | Hol vagy? Itt vagyok. | 어디야? 나 왔어. | Hol vagy? = 어디야? | emotion=neutral at=18:40
-A | Mi? Még korán van! | 뭐? 아직 이르잖아! | korán = 일찍 | emotion=surprised at=18:41
-B | Már elmúlt fél hét! | 벌써 6시 반 지났어! | elmúlt = 지났다 | emotion=annoyed at=18:41
-A | Fél hét? Hét és fél, nem? | 반 일곱? 일곱 시 반 아니야? | hét és fél = 일곱과 반 | emotion=flustered at=18:42
-B | Nem! Az hat harminc! | 아니! 6시 30분이야! | hat harminc = 6시 30분 | emotion=annoyed at=18:42
-B | Jaj. Megettem a vacsorádat is. 😇 | 아이고. 네 저녁도 내가 먹었어. 😇 | megettem = 다 먹었다 | emotion=teasing at=19:05 stamp=😇
+goal: 시각 표현 fél hat = 5시 반, 약속 잡기(Ráérsz?)
+expressions: Ráérsz; Oké; Hol vagy
+B | Szia! Ma este ráérsz? | 안녕! 오늘 저녁 시간 돼? | ráérsz? = 시간 있어? | emotion=cheerful at=13:20
+A | Igen! Mikor? | 응! 언제? | mikor = 언제 | emotion=excited at=13:24
+B | Fél hatkor a kávézóban? | 반 여섯 시에 카페에서? | fél hat = 5시 반(6시로 가는 절반) | emotion=cheerful at=13:25
+A | Oké, ott leszek! 😊 | 오케이, 갈게! 😊 | ott leszek = 거기 있을게 | emotion=cheerful at=13:25
+B | Hol vagy? Már itt ülök. | 어디야? 나 벌써 와서 앉아 있어. | ülök = 앉아 있다 | emotion=worried at=17:40
+A | Mi? Fél hat, az nem hat harminc? | 뭐? 반 여섯, 그거 6시 30분 아니야? | hat harminc = 6시 30분 | emotion=surprised at=17:41
+B | Nem! Fél hat az öt harminc. 😅 | 아니! 반 여섯은 5시 30분이야. 😅 | öt harminc = 5시 30분 | emotion=tsukkomi at=17:41
+A | Jaj, futok! Tíz perc! | 아, 뛰어갈게! 10분! | futok = 뛰어간다 | emotion=flustered at=17:42

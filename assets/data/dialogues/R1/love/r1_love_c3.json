@@ -10,209 +10,246 @@
  "domain": [
   "love"
  ],
- "title": "뒤돌아봐",
- "emoji": "👀",
- "scene": "앱에서 매칭되자마자 Anna 가 먼저 말을 건다. 그런데 뭔가 너무 잘 안다",
+ "title": "어느 영화관?",
+ "emoji": "🎬",
+ "scene": "첫 영화 데이트. 둘 다 \"영화관 앞\"에 도착했다는데 서로가 안 보인다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
  },
  "register": "chat",
- "twist": 5,
- "twist_type": "reveal",
+ "twist": 6,
+ "twist_type": "chaos",
  "flags": [
   "romance"
  ],
- "goal": "지금 뭐 하는지 묻기, '어떻게 알았어?'",
+ "goal": "위치 묻고 말하기(Hol vagy? · Melyik …-ban?)",
  "expressions": [
-  "Köszi",
-  "Mi van?",
-  "Honnan tudod?"
+  "Hol vagy?",
+  "Várj",
+  "Melyik"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Szia! Tetszik a képed. 😊",
-   "rd": "씨어! 테트씩 어 케페드. 😊",
-   "ko": "안녕! 네 사진 마음에 들어. 😊",
-   "note": "tetszik = 마음에 든다",
-   "tags": [],
-   "at": "16:02",
+   "speaker": "A",
+   "hu": "Itt vagyok a mozi előtt. Hol vagy?",
+   "rd": "이트 버죡 어 모지 엘뢰트. 홀 버지?",
+   "ko": "영화관 앞 도착. 어디야?",
+   "note": "hol vagy? = 어디야?",
+   "tags": [
+    "expr:Hol vagy?"
+   ],
+   "at": "19:00",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szia",
-     "szia",
-     "씨어"
+     "Itt",
+     "itt",
+     "이트"
     ],
     [
-     "képed",
-     "képed",
-     ""
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "mozi",
+     "mozi",
+     "모지"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Köszi! Mit csinálsz?",
-   "rd": "쾨씨! 미트 치날쓰?",
-   "ko": "고마워! 뭐 해?",
-   "note": "mit csinálsz? = 뭐 해?",
-   "tags": [
-    "expr:Köszi"
-   ],
-   "at": "16:03",
-   "emotion": "cheerful",
+   "speaker": "B",
+   "hu": "Én is a mozi előtt vagyok. Nem látlak!",
+   "rd": "엔 이시 어 모지 엘뢰트 버죡. 넴 라틀럭!",
+   "ko": "나도 영화관 앞이야. 너 안 보여!",
+   "note": "nem látlak = 너를 못 본다",
+   "tags": [],
+   "at": "19:01",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "Köszi",
-     "köszi",
-     "쾨씨"
+     "mozi",
+     "mozi",
+     "모지"
     ],
     [
-     "csinálsz",
-     "csinál",
-     "치날"
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "látlak",
+     "látlak",
+     ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Kávézom. Te?",
-   "rd": "카베좀. 테?",
-   "ko": "커피 마셔. 너는?",
-   "note": "kávézom = 커피 마신다",
+   "speaker": "A",
+   "hu": "Piros sapkában integetek. 👋",
+   "rd": "피로시 셔프카번 인테게텍. 👋",
+   "ko": "빨간 모자 쓰고 손 흔들고 있어. 👋",
+   "note": "integetek = 손을 흔든다",
    "tags": [],
-   "at": "16:03",
-   "emotion": "neutral",
+   "at": "19:01",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Kávézom",
-     "kávézom",
+     "Piros",
+     "piros",
+     ""
+    ],
+    [
+     "sapkában",
+     "sapka",
+     ""
+    ],
+    [
+     "integetek",
+     "integet",
      ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "A",
-   "hu": "Én is.",
-   "rd": "엔 이시.",
-   "ko": "나도.",
-   "note": "én is = 나도",
-   "tags": [],
-   "at": "16:04",
-   "emotion": "neutral",
-   "ui": "bubble",
-   "lemmas": []
-  },
-  {
-   "num": 5,
    "speaker": "B",
-   "hu": "Szép a kék pulóvered.",
-   "rd": "쎄프 어 켁 풀로베레드.",
-   "ko": "파란 스웨터 예쁘다.",
-   "note": "pulóver = 스웨터",
+   "hu": "Itt senki nem integet. 🤔",
+   "rd": "이트 센키 넴 인테게트. 🤔",
+   "ko": "여기 손 흔드는 사람 없는데. 🤔",
+   "note": "senki nem = 아무도 안",
    "tags": [],
-   "at": "16:04",
-   "emotion": "teasing",
+   "at": "19:02",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szép",
-     "szép",
-     "쎕"
+     "Itt",
+     "itt",
+     "이트"
     ],
     [
-     "kék",
-     "kék",
-     "케크"
-    ],
-    [
-     "pulóvered",
-     "pulóver",
+     "integet",
+     "integet",
      ""
     ]
    ]
   },
   {
-   "num": 6,
+   "num": 5,
    "speaker": "A",
-   "hu": "Mi van? Honnan tudod?",
-   "rd": "미 번? 혼넌 투도드?",
-   "ko": "뭐야? 어떻게 알아?",
-   "note": "honnan tudod? = 어떻게 알아?",
+   "hu": "Várj. Melyik moziban vagy?",
+   "rd": "바르이. 메익 모지번 버지?",
+   "ko": "잠깐. 어느 영화관이야?",
+   "note": "melyik = 어느",
    "tags": [
-    "expr:Mi van?",
-    "expr:Honnan tudod?"
+    "expr:Várj",
+    "expr:Melyik"
    ],
-   "at": "16:05",
+   "at": "19:02",
+   "emotion": "worried",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "moziban",
+     "mozi",
+     "모지"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "A kicsiben, a téren. Te nem? 😳",
+   "rd": "어 키치벤, 어 테렌. 테 넴? 😳",
+   "ko": "광장에 있는 작은 데. 너 아니야? 😳",
+   "note": "a téren = 광장에",
+   "tags": [],
+   "at": "19:03",
    "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "kicsiben",
+     "kicsi",
+     "키치"
     ],
     [
-     "tudod",
-     "tud",
-     "투드"
+     "téren",
+     "tér",
+     "테르"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Nézz hátra. 😄",
-   "rd": "네즈 하트러. 😄",
-   "ko": "뒤돌아봐. 😄",
-   "note": "nézz hátra = 뒤돌아봐",
+   "speaker": "A",
+   "hu": "Én a nagyban, a pláza mellett. Futok!",
+   "rd": "엔 어 너지번, 어 플라저 멜레트. 푸톡!",
+   "ko": "난 쇼핑몰 옆 큰 데. 뛰어갈게!",
+   "note": "mellett = 옆에",
    "tags": [],
-   "at": "16:05",
-   "emotion": "teasing",
+   "at": "19:03",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Nézz",
-     "néz",
-     "네즈"
+     "nagyban",
+     "nagy",
+     "너지"
     ],
     [
-     "hátra",
-     "hát",
-     "핫"
+     "pláza",
+     "pláza",
+     ""
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Ne mozogj! Még rajzollak.",
-   "rd": "네 모족이! 멕 러이졸럭.",
-   "ko": "움직이지 마! 아직 그리는 중이야.",
-   "note": "még = 아직",
+   "hu": "Ne fuss, megyek. Csak ne integess másnak. 😄",
+   "rd": "네 푸시, 메젝. 척 네 인테게시 마슈넉. 😄",
+   "ko": "뛰지 마, 내가 갈게. 대신 딴 사람한테 손 흔들지 마. 😄",
+   "note": "ne integess = 손 흔들지 마",
    "tags": [],
-   "at": "16:05",
+   "at": "19:04",
+   "stamp": "😄",
    "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "mozogj",
-     "mozogj",
+     "fuss",
+     "fut",
+     "푸트"
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ],
+    [
+     "integess",
+     "integess",
      ""
     ],
     [
-     "rajzollak",
-     "rajzol",
-     ""
+     "másnak",
+     "más",
+     "마시"
     ]
    ]
   }

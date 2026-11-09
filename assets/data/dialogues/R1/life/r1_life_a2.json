@@ -10,35 +10,33 @@
  "domain": [
   "life"
  ],
- "title": "우유 나눠 드려요",
- "emoji": "🍼",
- "scene": "20리터 우유가 남아서 아래층 Marika 아주머니의 문을 두드린다. 한 분께만 드렸을 뿐인데…",
+ "title": "대신 받아 둔 택배",
+ "emoji": "📦",
+ "scene": "계단에서 아래층 Marika 아주머니를 만난다. 어제 온 택배를 대신 받아 두셨다",
  "speakers": {
   "A": "{name}",
   "B": "Marika néni"
  },
- "register": "mixed",
- "twist": 7,
- "twist_type": "chaos",
+ "register": "polite",
+ "twist": 8,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "어르신께 하는 인사 Csókolom 과 권하는 말(Kér …?)",
+ "goal": "이웃 어른께 인사·감사하기(Csókolom · Köszönöm szépen)",
  "expressions": [
   "Csókolom",
-  "Kér tejet?",
-  "Egy pillanat",
-  "Úristen"
+  "Köszönöm szépen",
+  "Tényleg"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Csókolom! Kér tejet?",
-   "rd": "초콜롬! 케르 테예트?",
-   "ko": "안녕하세요! 우유 드실래요?",
+   "hu": "Csókolom, Marika néni!",
+   "rd": "초콜롬, 머리커 네니!",
+   "ko": "안녕하세요, 마리카 아주머니!",
    "note": "csókolom = 어르신께 하는 인사",
    "tags": [
-    "expr:Csókolom",
-    "expr:Kér tejet?"
+    "expr:Csókolom"
    ],
    "emotion": "polite",
    "lemmas": [
@@ -48,118 +46,105 @@
      ""
     ],
     [
-     "tejet",
-     "tej",
-     "테이"
+     "néni",
+     "néni",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Tejet? Hát, mennyi van?",
-   "rd": "테예트? 하트, 메니 번?",
-   "ko": "우유? 글쎄… 얼마나 있는데?",
-   "note": "mennyi van? = 얼마나 있어?",
+   "hu": "Jó napot! Tessék, itt egy csomag magának.",
+   "rd": "요 너포트! 테쎅, 이트 에지 초먹 머가넉.",
+   "ko": "안녕하세요! 자, 택배 왔어요.",
+   "note": "magának = 당신에게(Ön)",
    "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Tejet?"
-    ],
-    [
-     "neutral",
-     "Hát, mennyi van?"
-    ]
-   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Tejet",
-     "tej",
-     "테이"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "napot",
+     "nap",
+     "넙"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "csomag",
+     "csomag",
+     ""
+    ],
+    [
+     "magának",
+     "magán",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Húsz liter.",
-   "rd": "후쓰 리테르.",
-   "ko": "20리터요.",
-   "note": "húsz = 스물",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Húsz",
-     "húsz",
-     ""
-    ],
-    [
-     "liter",
-     "liter",
-     ""
-    ]
-   ]
+   "hu": "Nekem? Tényleg?",
+   "rd": "네켐? 테닐렉?",
+   "ko": "저한테요? 정말요?",
+   "note": "nekem = 나에게",
+   "tags": [
+    "expr:Tényleg"
+   ],
+   "emotion": "surprised",
+   "lemmas": []
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Úristen! Miért?",
-   "rd": "우리슈텐! 미에르트?",
-   "ko": "세상에! 왜?",
-   "note": "miért = 왜",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "surprised",
+   "hu": "Tegnap jött, nem volt otthon senki.",
+   "rd": "텍너프 요트, 넴 볼트 오트혼 센키.",
+   "ko": "어제 왔는데 집에 아무도 없었어요.",
+   "note": "senki = 아무도",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
+     "Tegnap",
+     "tegnap",
+     "테그너프"
+    ],
+    [
+     "jött",
+     "jön",
+     "왼"
+    ],
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "otthon",
+     "otthon",
+     "오트혼"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Hosszú történet. Tessék.",
-   "rd": "호쑤 퇴르테네트. 테쎅.",
-   "ko": "얘기가 길어요. 여기요.",
-   "note": "hosszú = 긴",
-   "tags": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Hosszú",
-     "hosszú",
-     "호쑤"
-    ],
-    [
-     "történet",
-     "történet",
-     "퇴르테네트"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Köszönöm! Egy pillanat, szólok valakinek.",
-   "rd": "쾨쐬뇜! 에지 필러너트, 쏠록 벌러키넥.",
-   "ko": "고맙다! 잠깐만, 누구한테 좀 말할게.",
-   "note": "szólok = 말을 건넨다",
+   "hu": "Köszönöm szépen! Mit adhatok érte?",
+   "rd": "쾨쐬뇜 쎄펜! 미트 어드허톡 에르테?",
+   "ko": "정말 고맙습니다! 뭘 드리면 될까요?",
+   "note": "érte = 그것에 대해",
    "tags": [
-    "expr:Egy pillanat"
+    "expr:Köszönöm szépen"
    ],
-   "emotion": "cheerful",
+   "emotion": "polite",
    "lemmas": [
     [
      "Köszönöm",
@@ -167,78 +152,100 @@
      "쾨쇠니"
     ],
     [
-     "pillanat",
-     "pillanat",
-     "필러넛"
+     "szépen",
+     "szép",
+     "쎕"
     ],
     [
-     "szólok",
-     "szól",
-     "쏠"
+     "adhatok",
+     "adhat",
+     ""
+    ],
+    [
+     "érte",
+     "ér",
+     "에르"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Semmit. Csak a dobozt kérem majd.",
+   "rd": "셈미트. 척 어 도보즈트 케렘 머이드.",
+   "ko": "아무것도요. 상자만 나중에 줘요.",
+   "note": "a dobozt = 상자를",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "dobozt",
+     "doboz",
+     "도보즈"
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
+    ],
+    [
+     "majd",
+     "majd",
+     "머이드"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Marika néni, ki ez a sok ember?",
-   "rd": "머리커 네니, 키 에즈 어 쇽 엠베르?",
-   "ko": "아주머니, 이 많은 사람들은 누구예요?",
-   "note": "ez a sok ember = 이 많은 사람들",
+   "hu": "A dobozt? Minek?",
+   "rd": "어 도보즈트? 미넥?",
+   "ko": "상자요? 뭐 하시게요?",
+   "note": "minek? = 뭐 하러?",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Marika",
-     "marika",
-     ""
-    ],
-    [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "ki",
-     "ki",
-     "키"
-    ],
-    [
-     "ember",
-     "ember",
-     "엠베르"
+     "dobozt",
+     "doboz",
+     "도보즈"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Az egész ház. Mindenki tejet kér!",
-   "rd": "어즈 에게쓰 하즈. 민덴키 테예트 케르!",
-   "ko": "건물 전체야. 다들 우유 달라네!",
-   "note": "az egész ház = 건물 전체",
+   "hu": "Cirminek. Ő csak az új dobozokat szereti.",
+   "rd": "치르미넥. 외 척 어즈 우이 도보조커트 쎄레티.",
+   "ko": "치르미 주려고요. 걔는 새 상자만 좋아해요.",
+   "note": "Cirmi = 아주머니네 고양이(-nek = ~에게)",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "amused",
    "lemmas": [
     [
-     "egész",
-     "egész",
-     "에게쓰"
+     "Cirminek",
+     "cirminek",
+     ""
     ],
     [
-     "ház",
-     "ház",
-     "하즈"
+     "csak",
+     "csak",
+     "촉"
     ],
     [
-     "tejet",
-     "tej",
-     "테이"
+     "új",
+     "új",
+     "우이"
     ],
     [
-     "kér",
-     "kér",
-     "께르"
+     "dobozokat",
+     "doboz",
+     "도보즈"
+    ],
+    [
+     "szereti",
+     "szeret",
+     "쎄레트"
     ]
    ]
   }

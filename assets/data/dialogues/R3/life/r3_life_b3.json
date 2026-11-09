@@ -10,9 +10,9 @@
  "domain": [
   "life"
  ],
- "title": "뇌진탕 검사",
- "emoji": "🏥",
- "scene": "온천에서 미끄러져 머리를 찧고 응급실에 왔다. 날짜도 모르는데, 내기로 외운 헝가리어 최장 단어는 안다",
+ "title": "축구하다 다친 발목",
+ "emoji": "🦶",
+ "scene": "Dávid 가 발목을 다쳐 같이 야간 진료소(ügyelet)에 왔다. Dávid 는 의사에게 축구하다 다쳤다고 말하고 싶다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid",
@@ -20,25 +20,23 @@
   "D": "Nővér"
  },
  "register": "mixed",
- "twist": 11,
- "twist_type": "chaos",
+ "twist": 13,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "병원에서 다친 경위 말하기, 긴 단어 농담",
+ "goal": "병원에서 다친 경위 말하기(Hogy történt? · Megrándult)",
  "expressions": [
-  "Hát",
-  "Izé",
-  "Rendben",
-  "Figyelj",
-  "Úristen"
+  "Hogy történt",
+  "Megrándult",
+  "Szerencsére"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "C",
-   "hu": "Jó napot, mi történt? Hol fáj?",
-   "rd": "요 너포트, 미 퇴르텐트? 홀 파이?",
-   "ko": "안녕하세요! 무슨 일이에요? 어디가 아파요?",
-   "note": "mi történt? = 무슨 일이에요?",
+   "speaker": "D",
+   "hu": "Jó estét! Ki a beteg, és mi történt?",
+   "rd": "요 에슈테트! 키 어 베텍, 에시 미 퇴르텐트?",
+   "ko": "안녕하세요! 환자분이 누구고, 어떻게 오셨어요?",
+   "note": "beteg = 환자",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -48,73 +46,292 @@
      "요"
     ],
     [
-     "napot",
-     "nap",
-     "넙"
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "beteg",
+     "beteg",
+     "베테그"
     ],
     [
      "történt",
      "történik",
      "퇴르텐닉"
-    ],
-    [
-     "fáj",
-     "fáj",
-     "파이"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Jó napot! Elcsúsztam a fürdőben, és megütöttem a fejem.",
-   "rd": "요 너포트! 엘추쓰텀 어 퓌르되벤, 에시 메귀퇴뗌 어 페옘.",
-   "ko": "안녕하세요! 온천에서 미끄러져서 머리를 부딪쳤어요.",
-   "note": "elcsúsztam = 미끄러졌다",
+   "speaker": "B",
+   "hu": "Én. Fáj a bokám, nem tudok rálépni.",
+   "rd": "엔. 파이 어 보캄, 넴 투독 랄레프니.",
+   "ko": "저요. 발목이 아파서 디딜 수가 없어요.",
+   "note": "rálépni = 위에 디디다",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "sad",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "napot",
-     "nap",
-     "넙"
-    ],
-    [
-     "fürdőben",
-     "fürdő",
+     "bokám",
+     "bokám",
      ""
     ],
     [
-     "megütöttem",
-     "megütött",
-     ""
+     "tudok",
+     "tud",
+     "투드"
     ],
     [
-     "fejem",
-     "fej",
-     "페이"
+     "rálépni",
+     "rálép",
+     ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Én hoztam be. Azóta furcsákat mond, doktor úr.",
-   "rd": "엔 호즈텀 베. 어조터 푸르차커트 몬드, 독토르 우르.",
-   "ko": "제가 데려왔어요. 그 뒤로 이상한 말을 해요, 의사 선생님.",
-   "note": "furcsa = 이상한",
+   "speaker": "A",
+   "hu": "Tegnap este megcsúszott a lépcsőn. Itt a TAJ-kártyája.",
+   "rd": "텍너프 에슈테 멕추쏘트 어 레프쵠. 이트 어 터이-카르탸여.",
+   "ko": "어제 저녁에 계단에서 미끄러졌어요. 여기 보험 카드요.",
+   "note": "megcsúszott = 미끄러졌다",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Tegnap",
+     "tegnap",
+     "테그너프"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "megcsúszott",
+     "megcsúszik",
+     ""
+    ],
+    [
+     "lépcsőn",
+     "lépcső",
+     ""
+    ],
+    [
+     "kártyája",
+     "kártyája",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "hu": "Köszönöm, felírtam. Üljenek le, mindjárt hívják.",
+   "rd": "쾨쐬뇜, 펠리르텀. 윌예넥 레, 민드야르트 히브약.",
+   "ko": "고맙습니다, 적어 뒀어요. 앉으세요, 곧 불러요.",
+   "note": "üljenek le = 앉으세요(여럿, Ön)",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "felírtam",
+     "felírt",
+     ""
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "mindjárt",
+     "mindjárt",
+     "민드야르트"
+    ],
+    [
+     "hívják",
+     "hív",
+     "히브"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Nagyon fáj? Hozzak vizet?",
+   "rd": "너죤 파이? 호적 비제트?",
+   "ko": "많이 아파? 물 갖다줄까?",
+   "note": "hozzak = 내가 가져올까",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "hoztam",
-     "hoz",
-     "호즈"
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "fáj",
+     "fáj",
+     "파이"
+    ],
+    [
+     "vizet",
+     "vize",
+     "비제"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Nem kell. De az orvosnak mondjuk azt, hogy focizás közben történt.",
+   "rd": "넴 켈. 데 어즈 오르보슈넉 몬드육 어즈트, 호지 포치자시 쾨즈벤 퇴르텐트.",
+   "ko": "괜찮아. 근데 의사한테는 축구하다 다쳤다고 하자.",
+   "note": "focizás közben = 축구하는 도중",
+   "tags": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "orvosnak",
+     "orvos",
+     "오르보시"
+    ],
+    [
+     "mondjuk",
+     "mond",
+     "몬드"
+    ],
+    [
+     "focizás",
+     "focizik",
+     ""
+    ],
+    [
+     "közben",
+     "köz",
+     "쾨즈"
+    ],
+    [
+     "történt",
+     "történik",
+     "퇴르텐닉"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Miért? A lépcső nem elég jó?",
+   "rd": "미에르트? 어 레프최 넴 엘렉 요?",
+   "ko": "왜? 계단은 별로야?",
+   "note": "elég jó = 충분히 좋은",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Miért",
+     "miért",
+     "미에르트"
+    ],
+    [
+     "lépcső",
+     "lépcső",
+     ""
+    ],
+    [
+     "elég",
+     "elég",
+     "엘렉"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Psszt! A lépcső ciki, a foci menő.",
+   "rd": "프쓰트! 어 레프최 치키, 어 포치 메뇌.",
+   "ko": "쉿! 계단은 창피하고, 축구는 멋있잖아.",
+   "note": "ciki = 창피한, menő = 멋진",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Psszt",
+     "psszt",
+     ""
+    ],
+    [
+     "lépcső",
+     "lépcső",
+     ""
+    ],
+    [
+     "ciki",
+     "ciki",
+     ""
+    ],
+    [
+     "foci",
+     "foci",
+     ""
+    ],
+    [
+     "menő",
+     "menő",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Dávid, jöjjön be! Hogy történt?",
+   "rd": "다비드, 요왼 베! 호지 퇴르텐트?",
+   "ko": "다비드 씨, 들어오세요! 어떻게 된 거예요?",
+   "note": "hogy történt? = 어떻게 일어났어요",
+   "tags": [
+    "expr:Hogy történt"
+   ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Dávid, jöjjön be!"
+    ],
+    [
+     "neutral",
+     "Hogy történt?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "jöjjön",
+     "jön",
+     "왼"
     ],
     [
      "be",
@@ -122,181 +339,113 @@
      "베"
     ],
     [
-     "furcsákat",
-     "furcsa",
-     "푸르처"
-    ],
-    [
-     "mond",
-     "mond",
-     "몬드"
-    ],
-    [
-     "doktor",
-     "doktor",
-     "독토르"
-    ],
-    [
-     "úr",
-     "úr",
-     "우르"
+     "történt",
+     "történik",
+     "퇴르텐닉"
     ]
    ]
   },
   {
-   "num": 4,
-   "speaker": "C",
-   "hu": "Rendben, ellenőrizzük. Milyen nap van ma?",
-   "rd": "렌드벤, 엘레뇌리쥑. 미옌 너프 번 머?",
-   "ko": "네, 확인해 봅시다. 오늘 무슨 요일이죠?",
-   "note": "ellenőrizzük = 확인합시다",
-   "tags": [
-    "expr:Rendben"
-   ],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Rendben",
-     "rend",
-     "렌드"
-    ],
-    [
-     "ellenőrizzük",
-     "ellenőriz",
-     "엘렌외리즈"
-    ],
-    [
-     "nap",
-     "nap",
-     "넙"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "ma",
-     "ma",
-     "머"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Hát, izé... hétfő vagy szombat?",
-   "rd": "하트, 이제... 헤트푀 버지 쏨버트?",
-   "ko": "음, 저기… 월요일이나 토요일?",
-   "note": "izé = 저기, 그거",
-   "tags": [
-    "expr:Hát",
-    "expr:Izé"
-   ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "izé",
-     "izé",
-     ""
-    ],
-    [
-     "hétfő",
-     "hétfő",
-     ""
-    ],
-    [
-     "szombat",
-     "szombat",
-     "솜바트"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "C",
-   "hu": "Szerda. Hogy hívják a szobatársát?",
-   "rd": "쎄르더. 호지 히브약 어 쏘버타르샤트?",
-   "ko": "수요일이에요. 룸메이트 이름이 뭐죠?",
-   "note": "hogy hívják? = 이름이 뭐예요?",
+   "num": 10,
+   "speaker": "B",
+   "hu": "Meccsen, a kapu előtt. Egy nagy szerelés volt.",
+   "rd": "메쩬, 어 커푸 엘뢰트. 에지 너지 쎄렐레시 볼트.",
+   "ko": "경기 중에, 골문 앞에서요. 큰 태클이 들어왔어요.",
+   "note": "szerelés = 태클",
    "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
-     "Szerda",
-     "szerda",
+     "Meccsen",
+     "meccs",
      ""
     ],
     [
-     "hívják",
-     "hív",
-     "히브"
+     "kapu",
+     "kapu",
+     "커푸"
     ],
     [
-     "szobatársát",
-     "szobatárs",
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "szerelés",
+     "szerelés",
      ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
     ]
    ]
   },
   {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Őt? Hát, ő az, aki sokat eszik.",
-   "rd": "외트? 하트, 외 어즈, 어키 쇼커트 에씩.",
-   "ko": "쟤요? 음… 많이 먹는 애요.",
-   "note": "aki = ~하는 사람",
+   "num": 11,
+   "speaker": "C",
+   "hu": "Értem. Szerencsére nem tört el, csak megrándult.",
+   "rd": "에르템. 쎄렌체레 넴 퇴르트 엘, 척 멕란둘트.",
+   "ko": "알겠어요. 다행히 부러지진 않았고, 삔 거예요.",
+   "note": "megrándult = 삐었다",
    "tags": [
-    "expr:Hát"
+    "expr:Megrándult",
+    "expr:Szerencsére"
    ],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "eszik",
-     "eszik",
-     "에식"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Jaj, ne már. Doktor úr, ez komoly?",
-   "rd": "여이, 네 마르. 독토르 우르, 에즈 코모이?",
-   "ko": "아 좀. 의사 선생님, 심각한 거예요?",
-   "note": "komoly = 심각한",
-   "tags": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "segs": [
     [
-     "annoyed",
-     "Jaj, ne már."
+     "neutral",
+     "Értem."
     ],
     [
-     "worried",
-     "Doktor úr, ez komoly?"
+     "gentle",
+     "Szerencsére nem tört el, csak megrándult."
     ]
    ],
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Értem",
+     "ért",
+     "에르트"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "tört",
+     "tör",
+     ""
     ],
     [
-     "úr",
-     "úr",
-     "우르"
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "megrándult",
+     "megrándul",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Látod? Mondtam, hogy nem komoly.",
+   "rd": "라토드? 몬드텀, 호지 넴 코모이.",
+   "ko": "봐? 별거 아니라고 했잖아.",
+   "note": "mondtam = 내가 말했다",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Látod",
+     "lát",
+     "라트"
     ],
     [
      "komoly",
@@ -306,276 +455,112 @@
    ]
   },
   {
-   "num": 9,
+   "num": 13,
    "speaker": "C",
-   "hu": "Még egy teszt. Mondjon nekem egy hosszú magyar szót.",
-   "rd": "멕 에지 테쓰트. 몬드욘 네켐 에지 호쑤 머져르 쏘트.",
-   "ko": "검사 하나 더요. 긴 헝가리어 단어 하나 말해 보세요.",
-   "note": "mondjon = 말하세요(존댓말)",
+   "hu": "Egy hétig pihenjen. De a lapon az áll: lépcső.",
+   "rd": "에지 헤틱 피헨옌. 데 어 러폰 어즈 알: 레프최.",
+   "ko": "일주일 쉬세요. 근데 차트엔 「계단」이라고 적혀 있네요.",
+   "note": "az áll = 그렇게 적혀 있다",
    "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Még",
-     "még",
-     "메그"
-    ],
-    [
-     "teszt",
-     "teszt",
-     "테스트"
-    ],
-    [
-     "hosszú",
-     "hosszú",
-     "호쑤"
-    ],
-    [
-     "magyar",
-     "magyar",
-     ""
-    ],
-    [
-     "szót",
-     "szó",
-     "쏘"
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "A",
-   "hu": "Megszentségteleníthetetlenségeskedéseitekért.",
-   "rd": "멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트.",
-   "ko": "(헝가리어에서 가장 길다는 그 단어.)",
-   "note": "뜻은 몰라도 된다: 농담으로 쓰는 긴 단어",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Megszentségteleníthetetlenségeskedéseitekért",
-     "megszentségteleníthetetlenségeskedéseitek",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "C",
-   "hu": "Tessék?! Ezt még egyszer, lassan!",
-   "rd": "테쎅?! 에즈트 멕 에지쎄르, 러쎤!",
-   "ko": "네?! 다시 한번, 천천히요!",
-   "note": "még egyszer = 한 번 더",
-   "tags": [],
-   "emotion": "surprised",
+   "emotion": "gentle",
    "segs": [
     [
-     "surprised",
-     "Tessék?!"
+     "gentle",
+     "Egy hétig pihenjen."
     ],
     [
-     "excited",
-     "Ezt még egyszer, lassan!"
+     "amused",
+     "De a lapon az áll: lépcső."
     ]
    ],
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
+     "hétig",
+     "hét",
+     "헤트"
     ],
     [
-     "még",
-     "még",
-     "메그"
+     "pihenjen",
+     "pihen",
+     "피헨"
     ],
     [
-     "lassan",
-     "lassan",
-     "러셔느"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "D",
-   "hu": "Mi történt, doktor úr? Rosszul van a beteg?",
-   "rd": "미 퇴르텐트, 독토르 우르? 로쑬 번 어 베텍?",
-   "ko": "무슨 일이에요, 선생님? 환자가 안 좋아요?",
-   "note": "rosszul van = 몸이 안 좋다",
-   "tags": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "történt",
-     "történik",
-     "퇴르텐닉"
-    ],
-    [
-     "doktor",
-     "doktor",
-     "독토르"
-    ],
-    [
-     "úr",
-     "úr",
-     "우르"
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "beteg",
-     "beteg",
-     "베테그"
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "C",
-   "hu": "Hallgassa! Ezt húsz éve nem tudom kimondani.",
-   "rd": "헐거쎠! 에즈트 후쓰 에베 넴 투돔 키몬더니.",
-   "ko": "들어 보세요! 나는 이걸 20년째 못 말해요.",
-   "note": "kimondani = 말로 내뱉다",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Hallgassa",
-     "hallgat",
-     "헐르거트"
-    ],
-    [
-     "húsz",
-     "húsz",
+     "lapon",
+     "lap",
      ""
     ],
     [
-     "éve",
-     "év",
-     "에브"
+     "áll",
+     "áll",
+     "알"
     ],
     [
-     "tudom",
-     "tud",
-     "투드"
-    ],
-    [
-     "kimondani",
-     "kimond",
+     "lépcső",
+     "lépcső",
      ""
     ]
    ]
   },
   {
    "num": 14,
-   "speaker": "A",
-   "hu": "Megszentségteleníthetetlenségeskedéseitekért. Mehetek már?",
-   "rd": "멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트. 메헤텍 마르?",
-   "ko": "(또 그 단어.) 이제 가도 돼요?",
-   "note": "mehetek = 가도 돼요?",
+   "speaker": "B",
+   "hu": "Ki mondta ezt?!",
+   "rd": "키 몬드터 에즈트?!",
+   "ko": "누가 그런 말을 했어요?!",
+   "note": "ki = 누가",
    "tags": [],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Megszentségteleníthetetlenségeskedéseitekért."
-    ],
-    [
-     "polite",
-     "Mehetek már?"
-    ]
-   ],
+   "emotion": "shout",
    "lemmas": [
     [
-     "Megszentségteleníthetetlenségeskedéseitekért",
-     "megszentségteleníthetetlenségeskedéseitek",
-     ""
+     "Ki",
+     "ki",
+     "키"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "mondta",
+     "mond",
+     "몬드"
     ]
    ]
   },
   {
    "num": 15,
-   "speaker": "D",
-   "hu": "Úristen! Hívom a főorvost és az egész osztályt!",
-   "rd": "우리슈텐! 히봄 어 푀오르보슈트 에시 어즈 에게쓰 오쓰타이트!",
-   "ko": "세상에! 과장님이랑 병동 전체를 부를게요!",
-   "note": "főorvos = 과장 의사",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "shout",
+   "speaker": "A",
+   "hu": "Hát, én. Bocsi, nem tudtam, hogy a foci menőbb.",
+   "rd": "하트, 엔. 보치, 넴 투드텀, 호지 어 포치 메뇌브.",
+   "ko": "음, 나. 미안, 축구가 더 멋있는 줄 몰랐지.",
+   "note": "menőbb = 더 멋진",
+   "tags": [],
+   "emotion": "shy",
    "segs": [
     [
-     "shout",
-     "Úristen!"
+     "shy",
+     "Hát, én."
     ],
     [
-     "excited",
-     "Hívom a főorvost és az egész osztályt!"
+     "amused",
+     "Bocsi, nem tudtam, hogy a foci menőbb."
     ]
    ],
    "lemmas": [
     [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
+     "Hát",
+     "hát",
+     "핫"
     ],
     [
-     "főorvost",
-     "főorvos",
-     ""
-    ],
-    [
-     "egész",
-     "egész",
-     "에게쓰"
-    ],
-    [
-     "osztályt",
-     "osztály",
-     "오스타이"
-    ]
-   ]
-  },
-  {
-   "num": 16,
-   "speaker": "B",
-   "hu": "Figyelj, nem tudod a nevemet, de ezt tudod? Akkor te mosogatsz.",
-   "rd": "피젤이, 넴 투도드 어 네베메트, 데 에즈트 투도드? 어꼬르 테 모쇼거트쓰.",
-   "ko": "야, 내 이름은 몰라도 그건 안다고? 그럼 설거지는 네가 해.",
-   "note": "mosogatsz = 네가 설거지한다",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "Figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "tudod",
+     "tudtam",
      "tud",
      "투드"
     ],
     [
-     "nevemet",
-     "név",
-     "네브"
+     "foci",
+     "foci",
+     ""
     ],
     [
-     "mosogatsz",
-     "mosogat",
+     "menőbb",
+     "menő",
      ""
     ]
    ]

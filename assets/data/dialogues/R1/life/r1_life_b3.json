@@ -10,150 +10,84 @@
  "domain": [
   "life"
  ],
- "title": "분홍색 팀",
- "emoji": "🩷",
- "scene": "빨래를 도와줬다. Dávid 의 빨간 재킷과 흰 옷을 한꺼번에",
+ "title": "열쇠 어디 있지",
+ "emoji": "🔑",
+ "scene": "아침, 늦었다. 나가려는데 열쇠가 안 보인다. Dávid 가 같이 찾아 준다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid"
  },
  "register": "casual",
- "twist": 8,
- "twist_type": "chaos",
+ "twist": 6,
+ "twist_type": "slip",
  "flags": [],
- "goal": "색깔 말과 소유 접미사(-m, -d)",
+ "goal": "물건 찾기(Nem látod …? · Megnézted?)",
  "expressions": [
-  "Köszi",
-  "Várj",
-  "Bocsi",
-  "Nézd"
+  "Nem látod",
+  "Mi van",
+  "Mindjárt"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Szia, hol a fehér pólóm? Edzésre megyek.",
-   "rd": "씨어, 홀 어 페헤르 폴롬? 에제슈레 메젝.",
-   "ko": "야! 내 흰 티 어디 있어? 훈련 가.",
-   "note": "pólóm = 내 티셔츠",
-   "tags": [],
-   "emotion": "neutral",
+   "speaker": "A",
+   "hu": "Dávid, nem látod a kulcsomat?",
+   "rd": "다비드, 넴 라토드 어 쿨초머트?",
+   "ko": "다비드, 내 열쇠 못 봤어?",
+   "note": "látod = 보이니(정활용, 목적어 있음)",
+   "tags": [
+    "expr:Nem látod"
+   ],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Szia",
-     "szia",
-     "씨어"
-    ],
-    [
-     "hol",
-     "hol",
-     "홀"
-    ],
-    [
-     "fehér",
-     "fehér",
-     "페헤르"
-    ],
-    [
-     "pólóm",
-     "pólóm",
+     "Dávid",
+     "dávid",
      ""
     ],
     [
-     "megyek",
-     "megye",
-     "메예"
+     "látod",
+     "lát",
+     "라트"
+    ],
+    [
+     "kulcsomat",
+     "kulcs",
+     "쿨치"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Kimostam mindent. Nézd, tiszta!",
-   "rd": "키모슈텀 민덴트. 네즈드, 티쓰터!",
-   "ko": "전부 빨았어. 봐, 깨끗해!",
-   "note": "kimostam = 다 빨았다",
-   "tags": [
-    "expr:Nézd"
-   ],
-   "emotion": "cheerful",
+   "speaker": "B",
+   "hu": "Nem. Megnézted a kabátodban?",
+   "rd": "넴. 멕네즈테드 어 커바토드번?",
+   "ko": "아니. 외투 안에 봤어?",
+   "note": "kabát = 외투",
+   "tags": [],
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Kimostam",
-     "kimostam",
+     "kabátodban",
+     "kabát",
      ""
-    ],
-    [
-     "tiszta",
-     "tiszta",
-     "티스터"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Köszi! Várj, ez miért rózsaszín?",
-   "rd": "쾨씨! 바르이, 에즈 미에르트 로져씬?",
-   "ko": "고마워! 잠깐… 이거 왜 분홍색이야?",
-   "note": "rózsaszín = 분홍색",
-   "tags": [
-    "expr:Köszi",
-    "expr:Várj"
-   ],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Köszi!"
-    ],
-    [
-     "surprised",
-     "Várj, ez miért rózsaszín?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Köszi",
-     "köszi",
-     "쾨씨"
-    ],
-    [
-     "miért",
-     "miért",
-     "미에르트"
-    ],
-    [
-     "rózsaszín",
-     "rózsaszín",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
    "speaker": "A",
-   "hu": "Hát... a piros kabátod is ott volt.",
-   "rd": "하트... 어 피로시 커바토드 이시 오트 볼트.",
-   "ko": "음… 네 빨간 재킷도 거기 있었거든.",
-   "note": "kabátod = 네 재킷",
+   "hu": "Igen, ott nincs. A táskámban sincs.",
+   "rd": "이겐, 오트 닌치. 어 타슈캄번 신치.",
+   "ko": "응, 거기 없어. 가방에도 없고.",
+   "note": "sincs = ~도 없다",
    "tags": [],
-   "emotion": "flustered",
+   "emotion": "worried",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "piros",
-     "piros",
-     ""
-    ],
-    [
-     "kabátod",
-     "kabátod",
-     ""
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
      "ott",
@@ -161,76 +95,133 @@
      "오트"
     ],
     [
-     "volt",
-     "van",
-     "번"
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "táskámban",
+     "táskám.",
+     ""
+    ],
+    [
+     "sincs",
+     "sincs",
+     "신치"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "A konyhában? Az asztalon?",
+   "rd": "어 코니하번? 어즈 어쓰털론?",
+   "ko": "부엌에? 식탁 위에?",
+   "note": "asztal = 탁자",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "konyhában",
+     "konyha",
+     ""
+    ],
+    [
+     "asztalon",
+     "asztal",
+     "어슬러"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "B",
-   "hu": "És a törölközőm? A zoknim?",
-   "rd": "에시 어 퇴뢸쾨죔? 어 족님?",
-   "ko": "내 수건은? 양말은?",
-   "note": "törölköző = 수건",
+   "speaker": "A",
+   "hu": "Nincs! Jaj, elkések!",
+   "rd": "닌치! 여이, 엘케섹!",
+   "ko": "없어! 아, 늦겠다!",
+   "note": "elkések = 지각한다",
    "tags": [],
-   "emotion": "annoyed",
-   "lemmas": [
+   "emotion": "shout",
+   "segs": [
     [
-     "törölközőm",
-     "töröl",
-     ""
+     "shout",
+     "Nincs!"
     ],
     [
-     "zoknim",
-     "zoknim",
+     "worried",
+     "Jaj, elkések!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "elkések",
+     "elkésik",
      ""
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "A",
-   "hu": "Minden rózsaszín. Bocsi.",
-   "rd": "민덴 로져씬. 보치.",
-   "ko": "전부 분홍색이야. 미안.",
-   "note": "minden = 전부",
+   "speaker": "B",
+   "hu": "Nyugi. Mi van a kezedben?",
+   "rd": "뉴기. 미 번 어 케제드벤?",
+   "ko": "진정해. 너 손에 든 거 뭐야?",
+   "note": "kezedben = 네 손 안에",
    "tags": [
-    "expr:Bocsi"
+    "expr:Mi van"
    ],
-   "emotion": "flustered",
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "Nyugi."
+    ],
+    [
+     "amused",
+     "Mi van a kezedben?"
+    ]
+   ],
    "lemmas": [
     [
-     "rózsaszín",
-     "rózsaszín",
-     ""
+     "Nyugi",
+     "nyugi",
+     "니우기"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "kezedben",
+     "kéz",
+     "케즈"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Na, milyen volt a meccs?",
-   "rd": "너, 미옌 볼트 어 메치?",
-   "ko": "(경기 뒤) 그래서 경기는 어땠어?",
-   "note": "meccs = 경기",
+   "hu": "A telefonom... és a kulcsom.",
+   "rd": "어 텔레포놈... 에시 어 쿨촘.",
+   "ko": "내 폰… 그리고 내 열쇠.",
+   "note": "és = 그리고",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "telefonom",
+     "telefon",
+     "텔레폰"
     ],
     [
-     "volt",
-     "van",
-     "번"
-    ],
-    [
-     "meccs",
-     "meccs",
+     "kulcsom",
+     "kulcsom",
      ""
     ]
    ]
@@ -238,42 +229,39 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Nyertünk! Holnap jön a csapat a ruhákkal.",
-   "rd": "네르튄크! 홀너프 욘 어 처퍼트 어 루하껄.",
-   "ko": "이겼어! 내일 팀 전체가 옷 들고 온대.",
-   "note": "ruhákkal = 옷들을 가지고",
-   "tags": [],
-   "emotion": "excited",
+   "hu": "Mindjárt nyolc. Siess, és ne engedd el!",
+   "rd": "민드야르트 뇰츠. 시에시, 에시 네 엔게드 엘!",
+   "ko": "곧 8시야. 서둘러, 손 놓지 말고!",
+   "note": "ne engedd el = 놓지 마",
+   "tags": [
+    "expr:Mindjárt"
+   ],
+   "emotion": "neutral",
    "segs": [
     [
-     "excited",
-     "Nyertünk!"
+     "neutral",
+     "Mindjárt nyolc."
     ],
     [
      "teasing",
-     "Holnap jön a csapat a ruhákkal."
+     "Siess, és ne engedd el!"
     ]
    ],
    "lemmas": [
     [
-     "Nyertünk",
-     "nyer",
-     "네르"
+     "Mindjárt",
+     "mindjárt",
+     "민드야르트"
     ],
     [
-     "jön",
-     "jön",
-     "왼"
+     "engedd",
+     "enged",
+     "엔게드"
     ],
     [
-     "csapat",
-     "csapat",
-     "처펏"
-    ],
-    [
-     "ruhákkal",
-     "ruha",
-     "루하"
+     "el",
+     "el",
+     "엘"
     ]
    ]
   }

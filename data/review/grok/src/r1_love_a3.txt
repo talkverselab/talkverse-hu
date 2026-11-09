@@ -1,20 +1,21 @@
 === r1_love_a3
 kind: short
-title: 레테시도
-emoji: 🥧
-scene: Anna 가 직접 구운 레테시를 내민다. A 가 끝소리 하나를 틀린다
+title: 이미 계산됐어요
+emoji: 🧾
+scene: 카페 데이트가 끝나고 계산대 앞. 둘 다 자기가 내겠다고 한다
 b: Anna
+c: Bence
 register: casual
-twist: 8 emotion
+twist: 7 reveal
 flags: romance
 purpose: love
-goal: szeretem(그걸 좋아해)과 szeretlek(너를 사랑해) 구별
-expressions: Tényleg?; Tessék?; Jaj; Aha
-B | Kóstold meg! Én sütöttem. | 먹어 봐! 내가 구웠어. | kóstold meg = 맛봐 | emotion=cheerful
-A | Hű, de finom! | 와, 진짜 맛있다! | finom = 맛있는 | emotion=excited
-B | Tényleg? Szereted? | 진짜? 좋아해? | szereted = 네가 그걸 좋아한다 | emotion=shy
-A | Igen! Nagyon szeretlek! | 응! 널 정말 사랑해! | szeretlek = 너를 사랑해(szeretem = 그걸 좋아해) | emotion=excited
-B | Tessék? Mit mondtál? | 뭐? 뭐라고 했어? | mit mondtál? = 뭐라고 했어? | emotion=surprised
-A | Jaj, nem! A rétest szeretem! | 아이고, 아니! 레테시를 좋아한다고! | a rétest = 레테시를, -t = 목적격 | emotion=flustered
-B | Aha. Csak a rétest? | 아하. 레테시만? | csak = ~만 | emotion=teasing
-A | Hát... a rétest is. | 음… 레테시'도'. | is = ~도 | emotion=shy
+goal: 계산하기(Én fizetek · Felezzük?)
+expressions: Várj; Tessék?; Hát
+C | Kétezer-négyszáz lesz. | 2,400포린트야. | kétezer-négyszáz = 2,400 | emotion=polite
+A | Várj, ma én fizetek. | 잠깐, 오늘은 내가 낼게. | fizetek = 내가 낸다 | emotion=cheerful
+B | Nem, nem. Én hívtalak meg. | 아니, 아니. 내가 초대했잖아. | meghívtalak = 내가 너를 초대했다 | emotion=gentle
+A | Akkor felezzük, jó? | 그럼 반반 하자, 응? | felezzük = 반으로 나누자 | emotion=polite
+C | Már ki van fizetve. | 이미 계산돼 있어. | ki van fizetve = 계산되어 있다 | emotion=amused
+A | Tessék? Ki fizette? | 응? 누가 냈어? | ki fizette? = 누가 그걸 냈어? | emotion=surprised
+C | A hölgy, amikor bejött. | 이분이, 들어올 때. | amikor bejött = 들어왔을 때 | emotion=teasing
+B | Hát... a következő randi a tiéd. | 음… 다음 데이트는 네 차례야. | a tiéd = 네 것 | emotion=shy

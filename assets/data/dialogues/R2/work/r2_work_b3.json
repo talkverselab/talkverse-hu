@@ -10,289 +10,214 @@
  "domain": [
   "work"
  ],
- "title": "할머니께 드린 인사",
- "emoji": "👵",
- "scene": "Bence 가 어르신께 쓰는 인사를 가르쳐 준다. 어미 하나만 틀리면 뜻이 완전히 달라진다",
+ "title": "동료와 점심",
+ "emoji": "🥣",
+ "scene": "점심시간. Bence 가 모퉁이 푀젤레크 집에 데려간다. 주인 아주머니가 Bence 를 너무 잘 안다",
  "speakers": {
   "A": "{name}",
   "B": "Bence",
   "C": "Néni"
  },
  "register": "mixed",
- "twist": 6,
- "twist_type": "slip",
+ "twist": 10,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "어르신 인사 csókolom 과 어미 -om / -lak 의 차이",
+ "goal": "점심 제안하기(ebédeljünk)와 메뉴 주문하기(…-t kérek, …-val)",
  "expressions": [
-  "Figyelj",
-  "Igazából",
-  "Durva",
-  "Tessék",
-  "Ne már"
+  "Gyere",
+  "Hát",
+  "Hű"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Figyelj, a néniknek itt azt mondjuk: csókolom.",
-   "rd": "피젤이, 어 네닉넥 이트 어즈트 몬드육: 초콜롬.",
-   "ko": "잘 들어, 여기선 할머니들한테 「초콜롬」이라고 해.",
-   "note": "csókolom = 어르신께 드리는 인사",
+   "hu": "Éhes vagy? Gyere, ebédeljünk együtt!",
+   "rd": "에헤시 버지? 제레, 에베델윈크 에쥐트!",
+   "ko": "배고파? 가자, 같이 점심 먹자!",
+   "note": "ebédeljünk = 점심 먹자",
    "tags": [
-    "expr:Figyelj"
+    "expr:Gyere"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Éhes",
+     "éhes",
+     "에헤시"
     ],
     [
-     "néniknek",
-     "néni",
+     "ebédeljünk",
+     "ebédel",
      ""
     ],
     [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "mondjuk",
-     "mond",
-     "몬드"
-    ],
-    [
-     "csókolom",
-     "csókol",
-     ""
+     "együtt",
+     "együtt",
+     "에듀트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Csókolom? Az mit jelent?",
-   "rd": "초콜롬? 어즈 미트 옐렌트?",
-   "ko": "초콜롬? 그게 무슨 뜻이야?",
-   "note": "jelent = 뜻하다",
+   "hu": "Szívesen. Hova megyünk?",
+   "rd": "씨베센. 호버 메쥔크?",
+   "ko": "좋아. 어디 가?",
+   "note": "hova = 어디로",
    "tags": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Csókolom",
-     "csókol",
-     ""
+     "Szívesen",
+     "szíves",
+     "시베시"
     ],
     [
-     "jelent",
-     "jelen",
-     ""
+     "megyünk",
+     "megy",
+     "메지"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Igazából azt, hogy kezét csókolom. De ez csak köszönés.",
-   "rd": "이거자볼 어즈트, 호지 케제트 초콜롬. 데 에즈 척 쾨쐬네시.",
-   "ko": "사실은 「손에 입 맞춥니다」라는 말이야. 그래도 그냥 인사야.",
-   "note": "köszönés = 인사",
-   "tags": [
-    "expr:Igazából"
-   ],
-   "emotion": "neutral",
+   "hu": "A sarki főzelékezőbe. Olcsó és gyors.",
+   "rd": "어 셔르키 푀젤레케죄베. 올초 에시 죠르시.",
+   "ko": "모퉁이 푀젤레크 집. 싸고 빨라.",
+   "note": "sarki = 모퉁이의",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Igazából",
-     "igaz",
-     "이거즈"
-    ],
-    [
-     "kezét",
-     "kéz",
-     "케즈"
-    ],
-    [
-     "csókolom",
-     "csókol",
+     "sarki",
+     "sarki",
      ""
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "főzelékezőbe",
+     "főzelék",
+     ""
     ],
     [
-     "köszönés",
-     "köszönés",
-     ""
+     "gyors",
+     "gyors",
+     "죠르시"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Durva. És mindig így kell mondani?",
-   "rd": "두르버. 에시 민딕 이지 켈 몬더니?",
-   "ko": "세다. 항상 이렇게 말해야 해?",
-   "note": "így = 이렇게",
-   "tags": [
-    "expr:Durva"
-   ],
+   "hu": "Főzelék? Az meg mi?",
+   "rd": "푀젤렉? 어즈 멕 미?",
+   "ko": "푀젤레크? 그건 또 뭐야?",
+   "note": "az meg mi? = 그건 또 뭐야?",
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Durva",
-     "durva",
-     "두르버"
-    ],
-    [
-     "mindig",
-     "mindig",
-     "민딕"
-    ],
-    [
-     "így",
-     "így",
-     "이지"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "mondani",
-     "mond",
-     "몬드"
+     "Főzelék",
+     "főzelék",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Csak az idősebb néniknek. Na, jön egy!",
-   "rd": "척 어즈 이되세브 네닉넥. 너, 욘 에지!",
-   "ko": "나이 드신 할머니들한테만. 자, 한 분 오신다!",
-   "note": "idősebb = 나이가 더 많은",
+   "hu": "Sűrű zöldségétel. Tökfőzelék, borsófőzelék, ilyenek.",
+   "rd": "쉬뤼 죌드세게텔. 퇵푀젤렉, 보르쇼푀젤렉, 이예넥.",
+   "ko": "걸쭉한 채소 요리야. 호박, 완두콩 같은 거.",
+   "note": "sűrű = 걸쭉한",
    "tags": [],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Csak az idősebb néniknek."
-    ],
-    [
-     "excited",
-     "Na, jön egy!"
-    ]
-   ],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "idősebb",
-     "idős",
-     "이되시"
-    ],
-    [
-     "néniknek",
-     "néni",
+     "Sűrű",
+     "sűrű",
      ""
     ],
     [
-     "jön",
-     "jön",
-     "왼"
+     "zöldségétel",
+     "zöldség",
+     ""
+    ],
+    [
+     "borsófőzelék",
+     "borsófőzelék",
+     ""
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "A",
-   "hu": "Csókollak, néni! Mit kér?",
-   "rd": "초콜럭, 네니! 미트 케르?",
-   "ko": "너한테 뽀뽀할게요, 할머니! 뭐 드릴까요?",
-   "note": "csókollak = 내가 너에게 입 맞춘다(-lak)",
+   "speaker": "C",
+   "hu": "Mit kértek, fiatalok?",
+   "rd": "미트 케르텍, 피어털록?",
+   "ko": "뭐 줄까, 젊은이들?",
+   "note": "kértek = 너희가 주문한다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Csókollak",
-     "csókol",
+     "kértek",
+     "kért",
      ""
     ],
     [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "kér",
-     "kér",
-     "께르"
+     "fiatalok",
+     "fiatal",
+     "피어털"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "C",
-   "hu": "Tessék? Mit mondott, kedves?",
-   "rd": "테쎅? 미트 몬도트, 케드베시?",
-   "ko": "네? 뭐라고 했어요?",
-   "note": "kedves = 어른이 젊은이를 부르는 말",
-   "tags": [
-    "expr:Tessék"
-   ],
-   "emotion": "surprised",
+   "speaker": "A",
+   "hu": "Egy tökfőzeléket kérek, fasírttal.",
+   "rd": "에지 퇵푀젤레케트 케렉, 퍼시르떨.",
+   "ko": "호박 푀젤레크 하나 주세요, 고기 완자랑.",
+   "note": "fasírt = 다진 고기 완자",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
+     "tökfőzeléket",
+     "tökfőzelék",
+     ""
     ],
     [
-     "mondott",
-     "mond",
-     "몬드"
+     "kérek",
+     "kér",
+     "께르"
     ],
     [
-     "kedves",
-     "kedves",
-     "케드베슈"
+     "fasírttal",
+     "fasírt",
+     ""
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Jaj, ne már! Csókolom, nem csókollak!",
-   "rd": "여이, 네 마르! 초콜롬, 넴 초콜럭!",
-   "ko": "아이고, 아 좀! 초콜롬이지, 초콜러크가 아니야!",
-   "note": "ne már = 아 좀, 그러지 마",
-   "tags": [
-    "expr:Ne már"
-   ],
-   "emotion": "tsukkomi",
+   "speaker": "C",
+   "hu": "És te, Bence? Megint krumplifőzelék, hús nélkül?",
+   "rd": "에시 테, 벤체? 메긴트 크룸플리푀젤렉, 후시 넬퀼?",
+   "ko": "너는, 벤체? 또 고기 없이 감자 푀젤레크?",
+   "note": "hús nélkül = 고기 없이",
+   "tags": [],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "krumplifőzelék",
+     "krumplifőzelék",
+     ""
     ],
     [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "csókollak",
-     "csókol",
+     "hús",
+     "hús",
      ""
     ]
    ]
@@ -300,81 +225,117 @@
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Bocsánat, néni! Nem akarom megcsókolni!",
-   "rd": "보차너트, 네니! 넴 어커롬 멕초콜니!",
-   "ko": "죄송해요, 할머니! 입 맞출 생각 없어요!",
-   "note": "nem akarom = 원하지 않는다",
-   "tags": [],
-   "emotion": "flustered",
+   "hu": "Hű, ismer téged?",
+   "rd": "휘, 이슈메르 테게드?",
+   "ko": "와, 너 아는 분이야?",
+   "note": "ismer = 안다",
+   "tags": [
+    "expr:Hű"
+   ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Bocsánat",
-     "bocsánat",
-     "버치너트"
-    ],
-    [
-     "néni",
-     "néni",
+     "Hű",
+     "hű",
      ""
     ],
     [
-     "akarom",
-     "akar",
-     "어커르"
-    ],
-    [
-     "megcsókolni",
-     "megcsókol",
-     ""
+     "ismer",
+     "ismer",
+     "이슈메르"
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "C",
-   "hu": "Kár. Ezt negyven éve nem mondta nekem senki.",
-   "rd": "카르. 에즈트 네지벤 에베 넴 몬드터 네켐 센키.",
-   "ko": "아쉽네. 그 말을 40년째 아무도 안 해 줬는데.",
-   "note": "kár = 아쉽다",
-   "tags": [],
-   "emotion": "gentle",
-   "lemmas": [
+   "speaker": "B",
+   "hu": "Hát, ő az anyukám. Ezért olcsó.",
+   "rd": "하트, 외 어즈 어뉴캄. 에제르트 올초.",
+   "ko": "음, 우리 엄마야. 그래서 싼 거야.",
+   "note": "anyukám = 우리 엄마",
+   "tags": [
+    "expr:Hát"
+   ],
+   "emotion": "shy",
+   "segs": [
     [
-     "Kár",
-     "kár",
-     "카르"
+     "shy",
+     "Hát, ő az anyukám."
     ],
     [
-     "negyven",
-     "negyven",
+     "amused",
+     "Ezért olcsó."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "anyukám",
+     "anyukám",
      ""
     ],
     [
-     "éve",
-     "év",
-     "에브"
-    ],
-    [
-     "mondta",
-     "mond",
-     "몬드"
+     "olcsó",
+     "olcsó",
+     ""
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "B",
-   "hu": "Na, ő holnap is itt lesz.",
-   "rd": "너, 외 홀너프 이시 이트 레쓰.",
-   "ko": "자, 저분 내일도 오시겠다.",
-   "note": "lesz = ~일 것이다",
+   "speaker": "C",
+   "hu": "Neked is adok egy kis süteményt, jó? Bence barátja vagy.",
+   "rd": "네케드 이시 어독 에지 키시 쉬테메니트, 요? 벤체 버라트여 버지.",
+   "ko": "너도 케이크 조금 줄게, 응? 벤체 친구잖니.",
+   "note": "barátja = 그의 친구",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "adok",
+     "ad",
+     "어드"
+    ],
+    [
+     "kis",
+     "kis",
+     "키시"
+    ],
+    [
+     "süteményt",
+     "sütemény",
+     "슈테메니"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "barátja",
+     "barát",
+     "버랏"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Köszönöm! Bence, holnap is ide jövünk.",
+   "rd": "쾨쐬뇜! 벤체, 홀너프 이시 이데 요뷘크.",
+   "ko": "감사합니다! 벤체, 내일도 여기 오자.",
+   "note": "ide = 여기로",
+   "tags": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
     ],
     [
      "holnap",
@@ -382,14 +343,14 @@
      "홀넙"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "ide",
+     "ide",
+     "이데"
     ],
     [
-     "lesz",
-     "lesz",
-     "레쓰"
+     "jövünk",
+     "jön",
+     "왼"
     ]
    ]
   }

@@ -10,169 +10,95 @@
  "domain": [
   "friends"
  ],
- "title": "말 한 마리",
- "emoji": "🐴",
- "scene": "시장에 간 Réka 가 뭐 사다 줄까 묻는다. 농담은 상대를 보고 해야 한다",
+ "title": "내 책 언제 줘?",
+ "emoji": "📚",
+ "scene": "지난주 Réka 에게 빌린 문법책. Réka 가 메시지로 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "chat",
  "twist": 7,
- "twist_type": "chaos",
+ "twist_type": "reveal",
  "flags": [],
- "goal": "짧은 채팅 답, 목적격(lovat)과 필요 없다는 말(nem kell)",
+ "goal": "사과하기·약속하기(Bocsi · Holnap hozom)",
  "expressions": [
-  "Oké",
-  "Ne már",
-  "Úristen"
+  "Bocsi",
+  "Holnap hozom",
+  "Ugye"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Piacon vagyok. Mit hozzak?",
-   "rd": "피어촌 버죡. 미트 호적?",
-   "ko": "시장이야. 뭐 사다 줄까?",
-   "note": "hozzak = 내가 가져올까",
+   "hu": "Szia! Megvan még a könyvem?",
+   "rd": "씨어! 멕번 멕 어 쾨니벰?",
+   "ko": "안녕! 내 책 아직 갖고 있지?",
+   "note": "könyvem = 내 책",
    "tags": [],
-   "at": "11:20",
+   "at": "20:10",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Piacon",
-     "piac",
+     "Szia",
+     "szia",
+     "씨어"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "könyvem",
+     "könyvem",
      ""
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "hozzak",
-     "hoz",
-     "호즈"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Haha, egy lovat!",
-   "rd": "허허, 에지 로버트!",
-   "ko": "하하, 말 한 마리!",
-   "note": "lovat = 말을(ló 의 목적격)",
-   "tags": [],
-   "at": "11:21",
-   "emotion": "amused",
+   "hu": "Igen, persze! Bocsi!",
+   "rd": "이겐, 페르쎄! 보치!",
+   "ko": "응, 그럼! 미안!",
+   "note": "bocsi = 미안",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "20:12",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Haha",
-     "haha",
-     ""
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
-     "lovat",
-     "lova",
-     ""
+     "persze",
+     "persze",
+     "페르쎄"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Oké.",
-   "rd": "오케.",
-   "ko": "오케이.",
-   "note": "oké = 좋아",
-   "tags": [
-    "expr:Oké"
-   ],
-   "at": "11:21",
-   "emotion": "neutral",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Oké",
-     "oké",
-     "오케"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Réka? Ez vicc volt.",
-   "rd": "레커? 에즈 비츠 볼트.",
-   "ko": "레카? 농담이었어.",
-   "note": "vicc = 농담",
+   "hu": "Holnap kell, vizsga lesz.",
+   "rd": "홀너프 켈, 비지거 레쓰.",
+   "ko": "내일 필요해, 시험 있어.",
+   "note": "kell = 필요하다",
    "tags": [],
-   "at": "11:30",
+   "at": "20:12",
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Réka",
-     "réka",
-     ""
-    ],
-    [
-     "vicc",
-     "vicc",
-     "비츠"
-    ],
-    [
-     "volt",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Fehér vagy fekete?",
-   "rd": "페헤르 버지 페케테?",
-   "ko": "흰색, 검은색?",
-   "note": "vagy = 또는",
-   "tags": [],
-   "at": "11:42",
-   "emotion": "neutral",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Fehér",
-     "fehér",
-     "페헤르"
-    ],
-    [
-     "fekete",
-     "fekete",
-     "페케테"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Ne már! Nem kell ló!",
-   "rd": "네 마르! 넴 켈 로!",
-   "ko": "그만해! 말 필요 없어!",
-   "note": "nem kell = 필요 없다",
-   "tags": [
-    "expr:Ne már"
-   ],
-   "at": "11:42",
-   "emotion": "tsukkomi",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "már",
-     "már",
-     "마르"
+     "Holnap",
+     "holnap",
+     "홀넙"
     ],
     [
      "kell",
@@ -180,75 +106,169 @@
      "켈"
     ],
     [
-     "ló",
-     "ló",
-     "로"
+     "vizsga",
+     "vizsga",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Holnap hozom, ígérem! 🤞",
+   "rd": "홀너프 호좀, 이게렘! 🤞",
+   "ko": "내일 가져갈게, 약속해! 🤞",
+   "note": "ígérem = 약속해",
+   "tags": [
+    "expr:Holnap hozom"
+   ],
+   "at": "20:13",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "hozom",
+     "hoz",
+     "호즈"
+    ],
+    [
+     "ígérem",
+     "ígér",
+     "이게르"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Ugye nem felejted el?",
+   "rd": "우제 넴 펠레이테드 엘?",
+   "ko": "설마 잊진 않겠지?",
+   "note": "ugye = ~지?",
+   "tags": [
+    "expr:Ugye"
+   ],
+   "at": "20:13",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "felejted",
+     "felejt",
+     "펠레이트"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Dehogy! Mindjárt beteszem a táskámba.",
+   "rd": "데호지! 민드야르트 베테쎔 어 타슈캄버.",
+   "ko": "그럴 리가! 지금 바로 가방에 넣을게.",
+   "note": "beteszem = 넣는다",
+   "tags": [],
+   "at": "20:14",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Dehogy",
+     "dehogy",
+     "데허고"
+    ],
+    [
+     "beteszem",
+     "betesz",
+     ""
+    ],
+    [
+     "táskámba",
+     "táskámba",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Késő. A kapud előtt áll. 😄",
-   "rd": "케쇠. 어 커푸드 엘뢰트 알. 😄",
-   "ko": "늦었어. 네 대문 앞에 서 있어. 😄",
-   "note": "késő = 늦은",
+   "hu": "Tegnap is ezt mondtad. És tegnapelőtt is.",
+   "rd": "텍너프 이시 에즈트 몬드터드. 에시 텍너펠뢰트 이시.",
+   "ko": "어제도 그렇게 말했어. 그저께도.",
+   "note": "tegnapelőtt = 그저께",
    "tags": [],
-   "at": "12:15",
-   "stamp": "😄",
-   "emotion": "teasing",
+   "at": "20:14",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
-     "Késő",
-     "késik",
-     "케시크"
+     "Tegnap",
+     "tegnap",
+     "테그너프"
     ],
     [
-     "kapud",
-     "kapud",
+     "mondtad",
+     "mond",
+     "몬드"
+    ],
+    [
+     "tegnapelőtt",
+     "tegnapelőtt",
      ""
-    ],
-    [
-     "áll",
-     "áll",
-     "알"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Úristen. Mit eszik?!",
-   "rd": "우리슈텐. 미트 에씩?!",
-   "ko": "세상에. 뭐 먹어?!",
-   "note": "eszik = 먹는다",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "at": "12:16",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Úristen."
-    ],
-    [
-     "flustered",
-     "Mit eszik?!"
-    ]
-   ],
+   "hu": "Most tényleg! Nézd, már a táskámban van.",
+   "rd": "모슈트 테닐렉! 네즈드, 마르 어 타슈캄번 번.",
+   "ko": "이번엔 진짜! 봐, 벌써 가방에 있어.",
+   "note": "táska = 가방",
+   "tags": [],
+   "at": "20:16",
+   "stamp": "📸",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
+     "Most",
+     "most",
+     "모슈트"
     ],
     [
-     "eszik",
-     "eszik",
-     "에식"
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "táskámban",
+     "táskám.",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   }

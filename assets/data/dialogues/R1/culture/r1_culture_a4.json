@@ -11,9 +11,9 @@
  "domain": [
   "culture"
  ],
- "title": "네 비계 예쁘다",
- "emoji": "💇",
- "scene": "Réka 가 머리를 짧게 잘랐다. 칭찬을 하려는데 모음 길이가 말썽이다",
+ "title": "커피를 사랑해",
+ "emoji": "☕",
+ "scene": "카페에서 Réka 가 헝가리어 공부 이야기를 묻다가 연습을 시켜 준다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
@@ -22,33 +22,31 @@
  "twist": 6,
  "twist_type": "slip",
  "flags": [],
- "goal": "긴 모음과 짧은 모음 구별(haj/háj)",
+ "goal": "헝가리어 배우는 이야기와 szeretem/szeretlek 구별",
  "expressions": [
-  "Nézd",
-  "Ja, persze",
-  "Bocsi"
+  "Na",
+  "Tessék",
+  "Jaj"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Nézd, mit csináltam!",
-   "rd": "씨어! 네즈드, 미트 치날텀!",
-   "ko": "안녕! 봐, 내가 뭘 했게!",
-   "note": "nézd = 봐",
-   "tags": [
-    "expr:Nézd"
-   ],
+   "hu": "Mióta tanulsz magyarul?",
+   "rd": "미오터 터눌쓰 머져룰?",
+   "ko": "헝가리어 배운 지 얼마나 됐어?",
+   "note": "mióta = 언제부터",
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Szia",
-     "szia",
-     "씨어"
+     "tanulsz",
+     "tanul",
+     "타눌"
     ],
     [
-     "csináltam",
-     "csinált",
+     "magyarul",
+     "magyar",
      ""
     ]
    ]
@@ -56,185 +54,174 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Mit? A biciklidet?",
-   "rd": "미트? 어 비칙리데트?",
-   "ko": "뭘? 자전거?",
-   "note": "biciklidet = 네 자전거를",
-   "tags": [],
-   "emotion": "neutral",
+   "hu": "Négy hónapja. De nehéz.",
+   "rd": "네지 호너프여. 데 네헤즈.",
+   "ko": "넉 달. 근데 어려워.",
+   "note": "négy hónapja = 넉 달 전부터",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "worried",
    "lemmas": [
     [
-     "biciklidet",
-     "bicikli",
-     ""
+     "hónapja",
+     "hónap",
+     "호넙"
+    ],
+    [
+     "nehéz",
+     "nehéz",
+     "네헤즈"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Nem! A fejemet nézd!",
-   "rd": "넴! 어 페예메트 네즈드!",
-   "ko": "아니! 내 머리를 봐!",
-   "note": "fej = 머리(신체)",
-   "tags": [
-    "expr:Nézd"
-   ],
-   "emotion": "annoyed",
+   "hu": "Mi a legnehezebb?",
+   "rd": "미 어 렉네헤제브?",
+   "ko": "제일 어려운 게 뭐야?",
+   "note": "legnehezebb = 가장 어려운",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "fejemet",
-     "fejem",
-     ""
-    ],
-    [
-     "nézd",
-     "néz",
-     "네즈"
+     "legnehezebb",
+     "nehéz",
+     "네헤즈"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Ja, persze! Rövid!",
-   "rd": "여, 페르쎄! 뢰비드!",
-   "ko": "아, 그렇네! 짧다!",
-   "note": "rövid = 짧은",
-   "tags": [
-    "expr:Ja, persze"
-   ],
-   "emotion": "flustered",
+   "hu": "A -lak és a -lek. Mindig keverem.",
+   "rd": "어 -럭 에시 어 -렉. 민딕 케베렘.",
+   "ko": "-lak 하고 -lek. 맨날 헷갈려.",
+   "note": "keverem = 섞는다, 헷갈린다",
+   "tags": [],
+   "emotion": "sad",
    "lemmas": [
     [
-     "Ja",
-     "ja",
-     "여"
+     "lak",
+     "lak",
+     ""
     ],
     [
-     "persze",
-     "persze",
-     "페르쎄"
+     "lek",
+     "lek",
+     ""
+    ],
+    [
+     "keverem",
+     "kever",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Na, és? Szép?",
-   "rd": "너, 에시? 쎄프?",
-   "ko": "그래서? 예뻐?",
-   "note": "na, és? = 그래서?",
-   "tags": [],
-   "emotion": "teasing",
+   "hu": "Na, gyakoroljunk. Ízlik a kávé?",
+   "rd": "너, 져코롤윤크. 이즐릭 어 카베?",
+   "ko": "자, 연습하자. 커피 맛있어?",
+   "note": "Ízlik? = 입에 맞아?",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Na",
      "na",
      "너"
+    ],
+    [
+     "gyakoroljunk",
+     "gyakorol",
+     ""
+    ],
+    [
+     "kávé",
+     "kávé",
+     "카베"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Nagyon szép a hájad!",
-   "rd": "너죤 쎄프 어 하여드!",
-   "ko": "네 비계 참 예쁘다!",
-   "note": "háj = 비계(haj = 머리카락)",
-   "tags": [],
-   "emotion": "gentle",
+   "hu": "Igen, nagyon szeretlek!",
+   "rd": "이겐, 너죤 쎄레틀렉!",
+   "ko": "응, 너무 사랑해!",
+   "note": "szeretlek = (내가) 너를 사랑해",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Nagyon",
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "nagyon",
      "nagyon",
      "너존"
     ],
     [
-     "szép",
-     "szép",
-     "쎕"
-    ],
-    [
-     "hájad",
-     "hájad",
-     ""
+     "szeretlek",
+     "szeret",
+     "쎄레트"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "A mim? Haj, rövid a-val!",
-   "rd": "어 밈? 허이, 뢰비드 어-벌!",
-   "ko": "내 뭐? 「허이」, 짧은 a 로!",
-   "note": "a mim? = 내 뭐?",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "A mim?"
-    ],
-    [
-     "tsukkomi",
-     "Haj, rövid a-val!"
-    ]
+   "hu": "Tessék? Engem vagy a kávét?",
+   "rd": "테쎅? 엔겜 버지 어 카베트?",
+   "ko": "뭐? 나를, 아니면 커피를?",
+   "note": "Tessék? = 뭐라고?",
+   "tags": [
+    "expr:Tessék"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
-     "mim",
-     "mim",
-     ""
+     "Tessék",
+     "tessék",
+     "테셰크"
     ],
     [
-     "rövid",
-     "rövid",
-     "뢰비드"
-    ],
-    [
-     "val",
-     "val",
-     ""
+     "kávét",
+     "kávé",
+     "카베"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Bocsi! A hajad is szép.",
-   "rd": "보치! 어 허여드 이시 쎄프.",
-   "ko": "미안! 머리도 예뻐.",
-   "note": "is = ~도(그럼 앞의 말은…)",
+   "hu": "Jaj, a kávét! Szeretem!",
+   "rd": "여이, 어 카베트! 쎄레템!",
+   "ko": "아, 커피를! 좋아한다고!",
+   "note": "szeretem = (그것을) 좋아한다",
    "tags": [
-    "expr:Bocsi"
+    "expr:Jaj"
    ],
    "emotion": "flustered",
-   "segs": [
-    [
-     "flustered",
-     "Bocsi!"
-    ],
-    [
-     "shy",
-     "A hajad is szép."
-    ]
-   ],
    "lemmas": [
     [
-     "Bocsi",
-     "bocsi",
-     "보치"
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "hajad",
-     "haj",
-     "허이"
-    ],
-    [
-     "szép",
-     "szép",
-     "쎕"
+     "kávét",
+     "kávé",
+     "카베"
     ]
    ]
   }

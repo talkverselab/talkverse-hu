@@ -8,59 +8,55 @@
 "segs": [
 [
 "cheerful",
-"Szia! Nézd, mit csináltam!"
+"Mióta tanulsz magyarul?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Mit? A biciklidet?"
+"worried",
+"Négy hónapja. De nehéz."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"annoyed",
-"Nem! A fejemet nézd!"
+"gentle",
+"Mi a legnehezebb?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Ja, persze! Rövid!"
+"sad",
+"A -lak és a -lek. Mindig keverem."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"teasing",
-"Na, és? Szép?"
+"cheerful",
+"Na, gyakoroljunk. Ízlik a kávé?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"gentle",
-"Nagyon szép a hájad!"
+"cheerful",
+"Igen, nagyon szeretlek!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"A mim?"
-],
-[
-"tsukkomi",
-"Haj, rövid a-val!"
+"teasing",
+"Tessék? Engem vagy a kávét?"
 ]
 ]
 },
@@ -68,11 +64,7 @@
 "segs": [
 [
 "flustered",
-"Bocsi!"
-],
-[
-"shy",
-"A hajad is szép."
+"Jaj, a kávét! Szeretem!"
 ]
 ]
 }

@@ -8,15 +8,15 @@
 "segs": [
 [
 "polite",
-"Jó napot! Még eladó a szekrény?"
+"Jó napot! Megvan még az íróasztal?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Jó napot! Igen, még eladó."
+"cheerful",
+"Jó napot! Igen, megvan."
 ]
 ]
 },
@@ -24,15 +24,16 @@
 "segs": [
 [
 "polite",
-"Mennyibe kerül? Jó állapotban van?"
+"Lehet alkudni? Nyolcezer jó lenne?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Húszezer forint. Nagyon jó állapotban van."
+"neutral",
+"Tízezer volt... Legyen kilenc.",
+"Tízezer volt, Legyen kilenc."
 ]
 ]
 },
@@ -40,40 +41,40 @@
 "segs": [
 [
 "cheerful",
-"Szuper. Hol lehet megnézni?"
+"Rendben! Hol lehet átvenni?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Hát... a lépcsőn.",
-"Hát, a lépcsőn."
+"worried",
+"A Kossuth utcában, a harmadik emeleten. Sajnos nincs lift."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"A lépcsőn? Hogyhogy?"
+"neutral",
+"Nem baj. Hányas ajtó?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Igazából beragadt. Már három hete ott van."
+"polite",
+"Huszonegy. Mikor jön?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"stiff",
-"Várjon. Zöld kapu, második emelet?"
+"amused",
+"Most. A huszonkettesben lakom. 😄",
+"Most. A huszonkettesben lakom."
 ]
 ]
 },
@@ -81,24 +82,15 @@
 "segs": [
 [
 "surprised",
-"Igen! Honnan tudja?"
+"Komolyan? Akkor maga a szomszéd!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"amused",
-"Én adtam el Dávidnak. Ezért volt olyan olcsó."
-]
-]
-},
-"12": {
-"segs": [
-[
-"amused",
-"Az én lépcsőmön is beragadt. 😅",
-"Az én lépcsőmön is beragadt."
+"shy",
+"Igen. Már rég meg akartam szólítani."
 ]
 ]
 }

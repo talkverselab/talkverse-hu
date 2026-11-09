@@ -10,9 +10,9 @@
  "domain": [
   "life"
  ],
- "title": "건물 단톡방",
+ "title": "단톡방에 잘못 보냄",
  "emoji": "🏢",
- "scene": "Dávid 에게 보낸 줄 알았는데, 아주머니가 있는 건물 전체 단톡방이었다",
+ "scene": "Dávid 에게 보낼 메시지를 건물 단톡방에 보냈다. 이웃들이 하나둘 주문을 얹는다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid",
@@ -20,143 +20,59 @@
   "D": "Feri bácsi"
  },
  "register": "chat",
- "twist": 5,
+ "twist": 6,
  "twist_type": "chaos",
  "flags": [],
- "goal": "짧은 명령·경고 문자(Ne nyisd ki!)",
+ "goal": "채팅 부탁(Hozol …?)과 사과(Bocsánat, rossz csoport)",
  "expressions": [
-  "Figyelj",
-  "Jaj",
-  "Szép volt"
+  "Hozol",
+  "Bocsánat",
+  "Semmi baj"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Figyelj, jön a néni!",
-   "rd": "피젤이, 욘 어 네니!",
-   "ko": "야, 아주머니 온다!",
-   "note": "figyelj = 야, 들어 봐",
+   "hu": "Hozol kenyeret hazafelé? 🍞",
+   "rd": "호졸 케네레트 허저펠레? 🍞",
+   "ko": "집에 오는 길에 빵 사 올래? 🍞",
+   "note": "hazafelé = 집 오는 길에",
    "tags": [
-    "expr:Figyelj"
+    "expr:Hozol"
    ],
-   "at": "19:10",
-   "emotion": "worried",
+   "at": "17:40",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Hozol",
+     "hoz",
+     "호즈"
     ],
     [
-     "jön",
-     "jön",
-     "왼"
+     "kenyeret",
+     "kenyere",
+     ""
     ],
     [
-     "néni",
-     "néni",
+     "hazafelé",
+     "hazafelé",
      ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Ne nyisd ki az ajtót!",
-   "rd": "네 니슈드 키 어즈 어이토트!",
-   "ko": "문 열지 마!",
-   "note": "ne nyisd ki = 열지 마",
-   "tags": [],
-   "at": "19:10",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "nyisd",
-     "nyit",
-     "니트"
-    ],
-    [
-     "ki",
-     "ki",
-     "키"
-    ],
-    [
-     "ajtót",
-     "ajtó",
-     "어이토"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "hu": "Megint leves!",
-   "rd": "메긴트 레베시!",
-   "ko": "또 국이야!",
-   "note": "megint = 또",
-   "tags": [],
-   "at": "19:11",
-   "emotion": "annoyed",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Megint",
-     "megint",
-     "메긴트"
-    ],
-    [
-     "leves",
-     "leves",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "C",
-   "hu": "Kivel beszélsz?",
-   "rd": "키벨 베쎌쓰?",
-   "ko": "누구랑 얘기하니?",
-   "note": "kivel = 누구와",
-   "tags": [],
-   "at": "19:12",
-   "emotion": "stiff",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Kivel",
-     "ki",
-     "키"
-    ],
-    [
-     "beszélsz",
-     "beszél",
-     "베쎌"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Jaj... ez a ház csoportja?!",
-   "rd": "여이... 에즈 어 하즈 초포르트여?!",
-   "ko": "어머… 여기 건물 단톡방이에요?!",
+   "speaker": "D",
+   "hu": "Ez a ház csoportja. 🙂",
+   "rd": "에즈 어 하즈 초포르트여. 🙂",
+   "ko": "여기 건물 단톡방이에요. 🙂",
    "note": "csoport = 그룹",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "at": "19:12",
-   "emotion": "flustered",
+   "tags": [],
+   "at": "17:42",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
     [
      "ház",
      "ház",
@@ -170,21 +86,180 @@
    ]
   },
   {
-   "num": 6,
-   "speaker": "D",
-   "hu": "Igen. Én is kérek levest!",
-   "rd": "이겐. 엔 이시 케렉 레베슈트!",
-   "ko": "응. 나도 국 줘!",
-   "note": "én is = 나도",
-   "tags": [],
-   "at": "19:13",
-   "emotion": "amused",
+   "num": 3,
+   "speaker": "A",
+   "hu": "Jaj! Bocsánat, rossz csoport!",
+   "rd": "여이! 보차너트, 로쓰 초포르트!",
+   "ko": "아이고! 죄송해요, 방을 잘못 골랐어요!",
+   "note": "rossz = 잘못된",
+   "tags": [
+    "expr:Bocsánat"
+   ],
+   "at": "17:42",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "rossz",
+     "rossz",
+     "로쓰"
+    ],
+    [
+     "csoport",
+     "csoport",
+     "초포르트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "hu": "Semmi baj. Fehéret vagy barnát?",
+   "rd": "셈미 버이. 페헤레트 버지 버르나트?",
+   "ko": "괜찮아요. 흰 빵? 갈색 빵?",
+   "note": "barna = 갈색(호밀빵)",
+   "tags": [
+    "expr:Semmi baj"
+   ],
+   "at": "17:43",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "barnát",
+     "barna",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Marika néni, nem kell! 😅",
+   "rd": "머리커 네니, 넴 켈! 😅",
+   "ko": "아주머니, 안 사 오셔도 돼요! 😅",
+   "note": "nem kell = 필요 없다",
+   "tags": [],
+   "at": "17:43",
+   "emotion": "flustered",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Marika",
+     "marika",
+     ""
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ],
+    [
+     "kell",
+     "kell",
+     "켈"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Már a boltban vagyok. Feri, magának is?",
+   "rd": "마르 어 볼트번 버죡. 페리, 머가넉 이시?",
+   "ko": "벌써 가게예요. 페리 씨도 하나?",
+   "note": "magának = 당신에게(Ön)",
+   "tags": [],
+   "at": "17:44",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "boltban",
+     "bolt",
+     "볼트"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "magának",
+     "magán",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "hu": "Egy kiflit kérek. Köszönöm!",
+   "rd": "에지 키플리트 케렉. 쾨쐬뇜!",
+   "ko": "저는 키플리 하나요. 고마워요!",
+   "note": "kifli = 초승달 모양 빵",
+   "tags": [],
+   "at": "17:45",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "kiflit",
+     "kifli",
+     ""
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Mi történt itt? Én is kérek kiflit.",
+   "rd": "미 퇴르텐트 이트? 엔 이시 케렉 키플리트.",
+   "ko": "여기 무슨 일이야? 나도 키플리 줘.",
+   "note": "én is = 나도",
+   "tags": [],
+   "at": "17:50",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Mi történt itt?"
+    ],
+    [
+     "amused",
+     "Én is kérek kiflit."
+    ]
+   ],
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "történt",
+     "történik",
+     "퇴르텐닉"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
     ],
     [
      "kérek",
@@ -192,58 +267,8 @@
      "께르"
     ],
     [
-     "levest",
-     "leves",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Szép volt. 👏",
-   "rd": "쎄프 볼트. 👏",
-   "ko": "잘했다. 👏",
-   "note": "szép volt = 잘했다(비꼬는 말로도)",
-   "tags": [
-    "expr:Szép volt"
-   ],
-   "at": "19:13",
-   "emotion": "teasing",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Szép",
-     "szép",
-     "쎕"
-    ],
-    [
-     "volt",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "C",
-   "hu": "Holnap mindenkinek. Tíz liter.",
-   "rd": "홀너프 민덴키넥. 티즈 리테르.",
-   "ko": "내일 전부 다 준다. 10리터.",
-   "note": "mindenkinek = 모두에게",
-   "tags": [],
-   "at": "19:15",
-   "emotion": "stiff",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Holnap",
-     "holnap",
-     "홀넙"
-    ],
-    [
-     "liter",
-     "liter",
+     "kiflit",
+     "kifli",
      ""
     ]
    ]

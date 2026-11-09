@@ -7,12 +7,8 @@
 "1": {
 "segs": [
 [
-"polite",
-"Elnézést, egy pillanat."
-],
-[
 "cheerful",
-"Ne mozogj!"
+"Szia! Te is mindig itt kávézol?"
 ]
 ]
 },
@@ -20,7 +16,7 @@
 "segs": [
 [
 "surprised",
-"Tessék? Mi van?"
+"Igen, minden reggel. Te is?"
 ]
 ]
 },
@@ -28,48 +24,52 @@
 "segs": [
 [
 "cheerful",
-"Rajzollak. Jó az arcod."
+"Igen. Mit kérsz ma?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"shy",
-"Az arcom? Köszi...",
-"Az arcom? Köszi"
+"polite",
+"Egy nagy lattét, mint mindig."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"excited",
-"Nézd! Kész."
+"teasing",
+"Tudom. Zabtejjel, ugye?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"tsukkomi",
-"Ez nem én vagyok. Ez egy krumpli!"
+"surprised",
+"Mi van? Honnan tudod?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Igen. De nagyon szép krumpli."
+"shy",
+"Hát... minden reggel mögötted állok.",
+"Hát, minden reggel mögötted állok."
 ]
 ]
 },
 "8": {
 "segs": [
 [
+"surprised",
+"Komolyan?"
+],
+[
 "shy",
-"Na jó. Holnap is itt leszek."
+"Akkor holnap együtt állunk sorba?"
 ]
 ]
 }

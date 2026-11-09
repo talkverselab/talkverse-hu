@@ -1,151 +1,143 @@
 {
 "ep": "r3_love_c1",
 "cast": {
-"B": "anna",
-"C": "david"
+"B": "anna"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"stiff",
-"Szia, kérdezhetek valamit? Ez itt te vagy?"
+"cheerful",
+"Szia! Szombat este szabad vagy? 😊",
+"Szia! Szombat este szabad vagy?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Hol? Várj, nézem."
+"excited",
+"Szia! Igen, teljesen szabad. Mit tervezel?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"stiff",
-"Az appon találtam. „Szeretem a krumplit és a hosszú sétákat.”"
+"teasing",
+"Még semmit. Arra gondoltam, hogy te választasz helyet. 😇",
+"Még semmit. Arra gondoltam, hogy te választasz helyet."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Úristen, ezt nem én írtam!"
-],
-[
-"flustered",
-"Nekem nincs is ilyen appom."
+"cheerful",
+"Mit szólnál egy pizzához a belvárosban?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"annoyed",
-"Aha. És az „egyedül vagyok, de csak hétfőn” is hazugság? 😐",
-"Aha. És az „egyedül vagyok, de csak hétfőn” is hazugság?"
+"amused",
+"A pizza jó, de múlt héten háromszor ettem. 🍕",
+"A pizza jó, de múlt héten háromszor ettem."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"annoyed",
-"Ezt csak egy ember csinálhatta."
-],
-[
-"shout",
-"Dávid!!!"
+"cheerful",
+"Akkor egy kis vendéglő? Van egy jó hely a Ráday utcában."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Szívesen. Már negyvenhét találatod van, király vagy. 😎",
-"Szívesen. Már negyvenhét találatod van, király vagy."
+"worried",
+"Hallottam róla, de oda előre kell foglalni. Szombatra már biztos nincs hely."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Negyvenhét?!"
-],
-[
-"shout",
-"Törölj mindent, de most azonnal!"
+"worried",
+"Jaj, igaz. Akkor mozi, vagy séta a Duna-parton?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"amused",
-"Nem lehet. Hárman ma este jönnek hozzánk rétessel."
+"tsukkomi",
+"Novemberben a Duna-parton? Megfagyunk. 🥶",
+"Novemberben a Duna-parton? Megfagyunk."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shout",
-"MI VAN? Dávid, te hány embert hívtál meg?"
+"flustered",
+"Oké, feladom. 😅 Te mit szeretnél igazából?",
+"Oké, feladom. Te mit szeretnél igazából?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"teasing",
-"Én senkit, te hívtad őket. Egyébként jól írsz. 😇",
-"Én senkit, te hívtad őket. Egyébként jól írsz."
+"shy",
+"Igazából... nekem mindegy, hol.",
+"Igazából, nekem mindegy, hol."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"worried",
-"Ez komoly? Emberek mennek hozzád rétessel?"
+"amused",
+"Mindegy? Akkor miért mondtál nemet mindenre? 😂",
+"Mindegy? Akkor miért mondtál nemet mindenre?"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"worried",
-"Anna, semmit nem tudok! Segíts, légyszi."
+"teasing",
+"Mert csak tudni akartam, meddig próbálkozol."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"gentle",
-"Jól van. Már úton vagyok."
+"excited",
+"És? Átmentem a vizsgán?"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"surprised",
-"Jössz? Miért?"
+"gentle",
+"Át. Szombaton hétkor nálam, én főzök. 😊",
+"Át. Szombaton hétkor nálam, én főzök."
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"gentle",
-"Mert te csak az én rétesemet eszed. 😌",
-"Mert te csak az én rétesemet eszed."
+"amused",
+"Ott leszek hétkor. Nem fél hétkor, azt már megtanultam. 😄",
+"Ott leszek hétkor. Nem fél hétkor, azt már megtanultam."
 ]
 ]
 }

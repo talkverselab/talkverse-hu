@@ -1,19 +1,19 @@
 === r1_friends_a3
 kind: short
-title: 덥다고 했을 뿐인데
-emoji: 🥵
-scene: 땡볕 벼룩시장. 덥다고 말하려다 헝가리어 학습자가 꼭 한 번 밟는 함정을 밟는다
+title: 초콜릿 하나만
+emoji: 🍫
+scene: 쉬는 시간, 어학원 앞 가게에서 Réka 와 간식을 고른다
 b: Réka
 register: casual
 twist: 6 slip
 purpose: making_friends
-goal: 「덥다」는 melegem van — 몸 상태를 말하는 틀 익히기
-expressions: Na; Tényleg?; semmi baj; Na ne
-B | Na, jól vagy? | 야, 괜찮아? | na = 자, 야(말 꺼낼 때) | emotion=neutral
-A | Jaj, nagyon meleg vagyok! | 아이고, 나 완전 게이야! | meleg vagyok = 나 게이야(덥다는 melegem van) | emotion=annoyed
-B | Tényleg? Jó, semmi baj. | 진짜? 그래, 아무 문제 없어. | semmi baj = 아무 문제 없어 | emotion=surprised+gentle
-A | Igen, nagyon! És te? | 응, 완전! 너는? | és te? = 너는? | emotion=cheerful
-B | Én? Hát, én nem. | 나? 음, 난 아니야. | hát = 음, 글쎄 | emotion=flustered
-A | Na ne! Ma mindenki meleg! | 에이! 오늘은 다들 게이지! | na ne = 에이, 설마 | emotion=cheerful
-B | Hű. Melegem van, ezt akarod mondani? | 어휴. 「더워」라고 하려던 거지? | melegem van = 나 더워 | emotion=amused
-A | Jaj. Ezt mondtam a tanáromnak is! | 아이고. 선생님한테도 그렇게 말했어! | tanár = 선생님 | emotion=flustered
+goal: 간식 고르기·부탁하기(Kérsz? · Adsz egyet?)
+expressions: Kérsz; Adsz; Jaj
+B | Éhes vagyok, veszek egy pogácsát. Kérsz? | 배고파. 포가차 하나 살래. 너도 먹을래? | kérsz? = 너 먹을래? | emotion=cheerful
+A | Nem, köszi. Én csokit szeretnék. | 아니, 고마워. 나는 초콜릿 먹고 싶어. | csoki = 초콜릿 | emotion=cheerful
+B | Ott van, a pult mellett. | 저기 있어, 계산대 옆에. | mellett = 옆에 | emotion=gentle
+A | Jaj, nincs nálam pénz. | 아, 나 돈이 없네. | nincs nálam = 나한테 없다 | emotion=flustered
+B | Semmi baj, van kártyám. | 괜찮아, 나 카드 있어. | semmi baj = 괜찮아 | emotion=gentle
+A | Köszi! Akkor adsz egy csókot? | 고마워! 그럼 뽀뽀 하나 줄래? | csók = 뽀뽀(csoki = 초콜릿) | emotion=cheerful
+B | Egy csókot? Itt, a boltban? | 뽀뽀? 여기, 가게에서? | csókot = 뽀뽀를 | emotion=amused
+A | Csokit! Csokit akartam mondani! | 초콜릿! 초콜릿이라고 하려 했어! | akartam mondani = 말하려고 했다 | emotion=flustered

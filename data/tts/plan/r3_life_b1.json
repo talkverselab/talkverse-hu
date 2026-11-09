@@ -2,124 +2,110 @@
 "ep": "r3_life_b1",
 "cast": {
 "B": "david",
-"C": "man_y",
-"D": "woman_o"
+"C": "woman_o"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"polite",
-"Marika néni, tetszik jönni este?"
-],
-[
-"excited",
-"Meglepetésbulit csinálok Dávid névnapjára."
+"worried",
+"Dávid, ébren vagy? Hallod ezt?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"gentle",
-"Persze, hozok levest. Hányan lesztek?"
+"annoyed",
+"Mit? Hajnali három van."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Talán tízen. Kiírtam a netre: „Várunk minden Dávidot”, ugye jó?"
+"worried",
+"Ezt a csipogást. Minden éjjel hallom."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Minden Dávidot? Nem „Dávid minden barátját”?"
+"surprised",
+"Ja, tényleg. Honnan jön?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"flustered",
-"Jaj... az nem ugyanaz?",
-"Jaj, az nem ugyanaz?"
+"neutral",
+"Szerintem a falon túlról."
+],
+[
+"worried",
+"Lehet, hogy a szomszéd órája."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Szia, Dávid vagyok. Itt van a buli?"
+"neutral",
+"Vagy Marika néni mosógépe. Holnap megkérdezzük."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"cheerful",
-"Szia! Te Dávid barátja vagy?"
+"polite",
+"Csókolom, Marika néni! Éjjel hallja a csipogást?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"neutral",
-"Nem, én csak egy másik Dávid vagyok. Lent jön még harminc."
+"surprised",
+"Csipogást?"
+],
+[
+"gentle",
+"Nem, én jól alszom."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"Harminc?!"
-],
-[
-"flustered",
-"Marika néni, harminc Dávid jön fel a lépcsőn!"
+"neutral",
+"Pedig a mi falunk közös a magáéval."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"tsukkomi",
-"Mondtam."
-],
-[
-"gentle",
-"Megyek, főzök még levest."
+"neutral",
+"Nálam semmi nem csipog. És a maguk füstjelzője?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"cheerful",
-"Megjöttem!"
-],
-[
 "surprised",
-"Ki ez a sok ember a lakásomban?"
+"Füstjelző? Nálunk van ilyen?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"excited",
-"Boldog névnapot!"
-],
-[
-"flustered",
-"Ők mind Dávidok."
+"gentle",
+"Persze, az előszobában. Ha lemerül az elem, csipog."
 ]
 ]
 },
@@ -127,35 +113,23 @@
 "segs": [
 [
 "surprised",
-"Mind?!"
-],
-[
-"annoyed",
-"Negyven Dávid van a konyhámban, és egyiket sem ismerem!"
+"Úristen. Az a kis fehér izé a plafonon?"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"worried",
-"Figyelj, egy rendőr van a lépcsőn. Panasz jött a zaj miatt."
+"amused",
+"Az. Már három hete szóltam magának, Dávid."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"flustered",
-"Úristen! Mit akar?"
-]
-]
-},
-"16": {
-"segs": [
-[
-"amused",
-"Azt mondja, ő is Dávid. És hol a leves?"
+"tsukkomi",
+"Dávid! Három hete?"
 ]
 ]
 }

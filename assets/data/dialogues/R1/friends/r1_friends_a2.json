@@ -10,74 +10,150 @@
  "domain": [
   "friends"
  ],
- "title": "손 흔들었을 뿐인데",
- "emoji": "🪑",
- "scene": "벼룩시장 경매 한복판. 멀리 있는 Réka 를 보고 손을 흔든다",
+ "title": "내일 같이 뛸래?",
+ "emoji": "🏃",
+ "scene": "어학원 앞에서 Réka 가 내일 같이 달리기를 하자고 한다",
  "speakers": {
   "A": "{name}",
-  "B": "Réka",
-  "C": "Eladó"
+  "B": "Réka"
  },
- "register": "mixed",
- "twist": 6,
- "twist_type": "chaos",
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "숫자·값 알아듣기, 부정 명령 ne ~ 익히기",
+ "goal": "제안하고 받기(Jössz? · Persze, megyek)와 시간 묻기",
  "expressions": [
-  "Hé",
-  "Jaj",
-  "Mi van?",
-  "Szuper"
+  "Jössz",
+  "Persze",
+  "Hánykor"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "C",
-   "hu": "Ki ad ezer forintot?",
-   "rd": "키 어드 에제르 포린토트?",
-   "ko": "천 포린트 내실 분?",
-   "note": "ezer = 천",
-   "tags": [],
-   "emotion": "excited",
+   "speaker": "B",
+   "hu": "Holnap futok a Margitszigeten. Jössz?",
+   "rd": "홀너프 푸톡 어 머르기트씨게텐. 요쓰?",
+   "ko": "내일 머르기트섬에서 달리기해. 올래?",
+   "note": "jössz? = 너 올래?",
+   "tags": [
+    "expr:Jössz"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Ki",
-     "ki",
-     "키"
+     "Holnap",
+     "holnap",
+     "홀넙"
     ],
     [
-     "ad",
-     "ad",
-     "어드"
-    ],
-    [
-     "forintot",
-     "forint",
-     ""
+     "futok",
+     "fut",
+     "푸트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Réka! Hé, itt vagyok!",
-   "rd": "레커! 헤, 이트 버죡!",
-   "ko": "레카! 야, 나 여기 있어!",
-   "note": "hé = 야, 저기",
+   "hu": "Persze, megyek! Szeretek futni.",
+   "rd": "페르쎄, 메젝! 쎄레텍 푸트니.",
+   "ko": "당연하지, 갈게! 나 달리기 좋아해.",
+   "note": "szeretek futni = 달리기를 좋아한다",
    "tags": [
-    "expr:Hé"
+    "expr:Persze"
    ],
-   "emotion": "shout",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Réka",
-     "réka",
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "megyek",
+     "megye",
+     "메예"
+    ],
+    [
+     "futni",
+     "fut",
+     "푸트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Szuper! Mennyit futsz általában?",
+   "rd": "쑤페르! 메니트 푸트쓰 알털라번?",
+   "ko": "좋다! 보통 얼마나 뛰어?",
+   "note": "általában = 보통",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "futsz",
+     "fut",
+     "푸트"
+    ],
+    [
+     "általában",
+     "általában",
+     "알탈러번"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Hát, öt kilométert, lassan.",
+   "rd": "하트, 외트 킬로메테르트, 러쎤.",
+   "ko": "음, 5킬로, 천천히.",
+   "note": "lassan = 천천히",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "kilométert",
+     "kilométer",
      ""
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "lassan",
+     "lassan",
+     "러셔느"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Nem baj, én is lassú vagyok.",
+   "rd": "넴 버이, 엔 이시 러쓔 버죡.",
+   "ko": "괜찮아, 나도 느려.",
+   "note": "nem baj = 괜찮아",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "lassú",
+     "lassú",
+     ""
     ],
     [
      "vagyok",
@@ -87,135 +163,65 @@
    ]
   },
   {
-   "num": 3,
-   "speaker": "C",
-   "hu": "Ezer forint! Ki ad többet?",
-   "rd": "에제르 포린트! 키 어드 퇴베트?",
-   "ko": "천 포린트! 더 내실 분?",
-   "note": "többet = 더 많이",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "forint",
-     "forint",
-     ""
-    ],
-    [
-     "ad",
-     "ad",
-     "어드"
-    ],
-    [
-     "többet",
-     "több",
-     "퇴그"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Jaj, ne integess!",
-   "rd": "여이, 네 인테게시!",
-   "ko": "아이고, 손 흔들지 마!",
-   "note": "ne integess = 손 흔들지 마",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "integess",
-     "integess",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Mi van? Hol vagy?",
-   "rd": "미 번? 홀 버지?",
-   "ko": "뭐? 어디 있어?",
-   "note": "Mi van? = 뭐?, 뭐야?",
-   "tags": [
-    "expr:Mi van?"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
    "num": 6,
-   "speaker": "C",
-   "hu": "Kétezer! Szuper, köszönöm!",
-   "rd": "케테제르! 쑤페르, 쾨쐬뇜!",
-   "ko": "이천! 좋습니다, 감사합니다!",
-   "note": "kétezer = 이천",
+   "speaker": "A",
+   "hu": "Oké. Hánykor találkozunk?",
+   "rd": "오케. 하니코르 털랄코준크?",
+   "ko": "오케이. 몇 시에 만나?",
+   "note": "Hánykor? = 몇 시에?",
    "tags": [
-    "expr:Szuper"
+    "expr:Hánykor"
    ],
-   "emotion": "excited",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Kétezer",
-     "kétezer",
-     ""
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "találkozunk",
+     "találkozik",
+     "털랄코지크"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Mi? Mi az a kétezer?",
-   "rd": "미? 미 어즈 어 케테제르?",
-   "ko": "뭐? 이천이 뭔데?",
-   "note": "mi az = 그게 뭐야",
+   "speaker": "B",
+   "hu": "Hatkor, a hídnál. Reggel.",
+   "rd": "허트코르, 어 히드날. 렉겔.",
+   "ko": "여섯 시, 다리 앞에서. 아침.",
+   "note": "reggel = 아침(에)",
    "tags": [],
-   "emotion": "flustered",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "kétezer",
-     "kétezer",
+     "hídnál",
+     "híd",
      ""
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Gratulálok! A szék a tiéd.",
-   "rd": "그러툴랄록! 어 쎅 어 티에드.",
-   "ko": "축하해! 의자는 네 거야.",
-   "note": "a tiéd = 네 것",
+   "speaker": "A",
+   "hu": "Reggel hatkor? Ne már, Réka!",
+   "rd": "렉겔 허트코르? 네 마르, 레커!",
+   "ko": "아침 여섯 시? 아 진짜, 레카!",
+   "note": "ne már = 아 진짜(설마)",
    "tags": [],
-   "emotion": "teasing",
+   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "Gratulálok",
-     "gratulál",
-     "그러툴랄"
+     "Reggel",
+     "reggel",
+     "렉겔"
     ],
     [
-     "szék",
-     "szék",
-     ""
+     "már",
+     "már",
+     "마르"
     ]
    ]
   }

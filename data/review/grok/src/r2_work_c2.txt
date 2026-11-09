@@ -1,22 +1,23 @@
 === r2_work_c2
 kind: chat
-title: 읽고 답이 없는 벤체
+title: 토요일 근무 바꿔 줘
 emoji: 📵
-scene: 토요일 근무를 바꾸고 싶다. Bence 는 읽기만 하고 답이 없다
+scene: 토요일에 병원에 가야 한다. Bence 에게 근무를 바꿔 달라고 했는데 읽기만 하고 답이 없다
 b: Bence
 register: chat
-twist: 9 ignore
+twist: 6 ignore
 purpose: work_hungary
-goal: 부탁하고 조르는 말(Légyszi!)과 근무 바꾸기
-expressions: Ráérsz; Légyszi; Na jó; Komolyan; Bocsi; Hogyhogy
-A | Szia! Ráérsz szombaton? | 안녕! 토요일에 시간 돼? | ráérsz? = 시간 있어? | emotion=cheerful at=09:02
-A | Szombaton dolgozom, de a fürdőbe szeretnék menni. Cserélünk? | 토요일에 일인데 온천에 가고 싶어서. 바꿀래? | cserélünk? = 우리 바꿀까? | emotion=cheerful at=09:03
-A | Bence? Látom, hogy olvastad. | 벤체? 읽은 거 보여. | olvastad = 네가 그것을 읽었다 | emotion=annoyed at=10:15
-A | Légyszi! Hozok rétest is. | 제발! 레테시도 사 올게. | légyszi = 제발, 부탁이야 | emotion=worried at=10:40
-A | Na jó, két rétest. | 알았어, 레테시 두 개. | két = 두(명사 앞) | emotion=sad at=11:30
-A | Komolyan nem válaszolsz? Ez durva. | 진짜 답 안 해? 너무한다. | válaszolsz = 네가 답한다 | emotion=annoyed at=12:10
-B | Bocsi, eddig nem tudtam írni. A te műszakodat csinálom. | 미안, 지금까지 답을 못 했어. 네 근무를 하고 있거든. | műszak = 근무 시간 | emotion=stiff at=14:20
-A | Az enyémet? Hogyhogy? | 내 걸? 어떻게? | hogyhogy? = 어째서? | emotion=surprised at=14:21
-B | Ma szombat van. | 오늘 토요일이야. | szombat = 토요일 | emotion=tsukkomi at=14:21
-A | Úristen. Mindjárt megyek! | 세상에. 금방 갈게! | mindjárt = 금방 | emotion=flustered at=14:22
-B | Két rétes. Emlékszel? 😇 | 레테시 두 개. 기억하지? 😇 | emlékszel = 네가 기억한다 | emotion=teasing at=14:22 stamp=😇
+goal: 근무 바꿔 달라고 부탁하기(cserélnél? · Légyszi!)
+expressions: Légyszi; Na jó; Hogyhogy
+A | Szia! Kérdezhetek valamit? | 안녕! 뭐 하나 물어봐도 돼? | kérdezhetek = 물어봐도 될까 | emotion=cheerful at=10:02
+A | Szombaton cserélnél velem műszakot? Orvoshoz megyek. | 토요일에 나랑 근무 바꿔 줄래? 병원 가야 해서. | cserélnél = 바꿔 줄래(조건법) | emotion=worried at=10:03
+A | Bence? Látom, hogy olvastad. 👀 | 벤체? 읽은 거 다 보여. 👀 | olvastad = 네가 그걸 읽었다 | emotion=teasing at=11:40
+A | Légyszi! Hozok rétest is. | 제발! 레테시도 사 갈게. | légyszi = 제발, 부탁이야 | emotion=worried+cheerful at=12:15
+A | Na jó, két rétest. Utolsó ajánlat. | 알았어, 레테시 두 개. 마지막 제안이야. | utolsó ajánlat = 마지막 제안 | emotion=teasing at=13:30
+B | Bocsi! Olvastam, de egész délelőtt sorban álltak a vendégek. | 미안! 읽긴 했는데 오전 내내 손님이 줄 서 있었어. | sorban állnak = 줄 서다 | emotion=flustered at=14:05
+A | Semmi baj. Szóval cserélünk? | 괜찮아. 그래서 바꿔 줄 거야? | szóval = 그래서 | emotion=cheerful at=14:06
+B | Persze. De szombaton én amúgy is ott vagyok. | 물론. 근데 토요일엔 나 어차피 거기 있어. | amúgy is = 어차피 | emotion=amused at=14:07
+A | Hogyhogy? | 어째서? | hogyhogy? = 어째서? | emotion=surprised at=14:07
+B | Szombaton ketten vagyunk beosztva. Nyugodtan menj, egyedül is megoldom. | 토요일엔 우리 둘이 근무야. 맘 편히 가, 혼자서도 돼. | beosztva = (근무표에) 배정된 | emotion=gentle at=14:08
+A | Te vagy a legjobb! Három rétes jár. | 너 최고야! 레테시 세 개 쏜다. | jár = (마땅히) 받을 만하다 | emotion=excited at=14:09
+B | Kettőt ígértél. Kettőt kérek. 😇 | 두 개 약속했잖아. 두 개면 돼. 😇 | ígértél = 네가 약속했다 | emotion=teasing at=14:09 stamp=😇

@@ -1,27 +1,28 @@
 === r3_love_b2
 kind: long
-title: 예순 개의 봉투
-emoji: ✉️
-scene: A 가 두 달 동안 고향에 다녀온다. 출발 전날, Anna 가 큰 상자를 들고 왔다
+title: 구멍 난 목도리
+emoji: 🧣
+scene: 12월, A 가 2주 동안 고향에 간다. Anna 가 공항버스 정류장까지 따라 나왔다
 b: Anna
 register: casual
 twist: 11 emotion
 flags: romance
 purpose: love
-goal: 기간 말하기(két hónapra, hatvan napig)와 아쉬운 마음을 돌려 말하기
-expressions: Persze; Semmi baj; Ugye; Amúgy; Igazából
-B | Szóval tényleg hazamész? Azt hittem, csak viccelsz. | 그러니까 진짜 집에 가? 농담인 줄 알았어. | viccelsz = 농담한다 | emotion=sad
-A | Csak két hónapra. A családom már nagyon vár, és a papírokat is intézni kell. | 두 달만이야. 가족이 많이 기다리고, 서류도 처리해야 해. | két hónapra = 두 달 동안(예정 기간) | emotion=gentle
-B | Persze, semmi baj. Két hónap nem olyan sok, ugye? | 그럼, 괜찮아. 두 달이면 그렇게 길지 않지, 그렇지? | ugye = 그렇지? | emotion=sad
-A | Nem, egyáltalán nem sok. Amúgy mi van ebben a nagy dobozban? | 응, 전혀 길지 않아. 그건 그렇고 이 큰 상자엔 뭐가 있어? | amúgy = 그건 그렇고 | emotion=gentle+neutral
-B | Semmi különös. Csak hatvan boríték, hogy legyen mit csinálnod. | 별거 아니야. 그냥 봉투 예순 개, 네가 할 일이 있으라고. | boríték = 봉투 | emotion=shy
-A | Hatvan? Várj, mindegyiken egy dátum van. | 예순 개? 잠깐, 봉투마다 날짜가 있네. | mindegyiken = 각각에 | emotion=surprised
-B | Igen, minden napra egy. De előre nem nyithatod ki, komolyan mondom. | 응, 하루에 하나씩. 근데 미리 열면 안 돼, 진심이야. | nem nyithatod ki = 열 수 없다 | emotion=gentle+teasing
-A | Jó, de csak egyet nézek meg. Hű, ez egy krumpli sállal! | 알았어, 근데 하나만 볼게. 와, 목도리 두른 감자네! | sállal = 목도리로, 목도리를 두른 | emotion=teasing+excited
-B | Az első napon a krumpli hazaér, és nagyon fázik. | 첫날에 감자가 집에 도착하는데, 많이 추워해. | hazaér = 집에 도착한다 | emotion=gentle
-A | És a második napon? Mi történik a krumplival? | 둘째 날엔? 감자한테 무슨 일이 생겨? | történik = 일어난다 | emotion=cheerful
-B | Azt majd holnap tudod meg. Hatvan napig minden reggel rám kell gondolnod. | 그건 내일 알게 돼. 육십 일 동안 매일 아침 내 생각을 해야 해. | rám kell gondolnod = 너는 내 생각을 해야 한다 | emotion=teasing+gentle
-A | Anna, ezt mikor rajzoltad? Csak tegnap mondtam el, hogy megyek. | 언너, 이걸 언제 그렸어? 간다고 어제 말했잖아. | csak tegnap = 겨우 어제 | emotion=surprised
-B | Igazából a múlt hónap óta tudom, Réka elmondta. Minden este rajzoltam. | 사실 지난달부터 알고 있었어, 레카가 말해 줬거든. 매일 밤 그렸어. | igazából = 사실은 | emotion=shy
-A | Minden este? És mi van az utolsó borítékban? | 매일 밤? 그럼 마지막 봉투엔 뭐가 있어? | utolsó = 마지막 | emotion=gentle
-B | Az üres. Azt neked kell rajzolnod, amikor visszajössz. | 그건 비어 있어. 네가 돌아오면 네가 그려야 해. | amikor visszajössz = 네가 돌아올 때 | emotion=gentle
+goal: 날짜·기간 말하기(január hetedikén · két hét)와 '도착하면 연락해'(Írj, ha megérkeztél)
+expressions: Persze; Amúgy; Igazából; Nézd
+B | Mindent bepakoltál? Útlevél, telefon, töltő? | 다 챙겼어? 여권, 휴대폰, 충전기? | bepakoltál = 짐을 쌌다 | emotion=worried
+A | Igen, háromszor is megnéztem. Az útlevél itt van a zsebemben. | 응, 세 번이나 확인했어. 여권은 여기 주머니에 있어. | zsebemben = 내 주머니에 | emotion=cheerful
+B | És mikor jössz vissza pontosan? | 그래서 정확히 언제 돌아와? | pontosan = 정확히 | emotion=gentle
+A | Január hetedikén. Csak két hét, nem olyan sok. | 1월 7일. 2주뿐이야, 그렇게 길지 않아. | hetedikén = 7일에 | emotion=gentle
+B | Persze, két hét semmi. Amúgy otthon most hideg van? | 그럼, 2주는 아무것도 아니지. 그나저나 거기 지금 추워? | amúgy = 그나저나 | emotion=stiff+cheerful
+A | Nagyon. Még hidegebb, mint itt. | 엄청. 여기보다 더 추워. | hidegebb = 더 추운 | emotion=amused
+B | Akkor ezt vidd magaddal. Én kötöttem, de ne nézd meg közelről. | 그럼 이거 가져가. 내가 떴는데, 가까이서 보진 마. | kötöttem = 내가 떴다(뜨개질) | emotion=shy
+A | Egy sál! Hű, de szép, de ez itt egy lyuk? | 목도리! 와, 예쁘다, 근데 여기 이거 구멍이야? | lyuk = 구멍 | emotion=surprised+teasing
+B | Az nem lyuk, hanem dizájn. Három hétig kötöttem. | 그건 구멍이 아니라 디자인이야. 3주 동안 떴어. | három hétig = 3주 동안 | emotion=flustered
+A | Három hétig? De hát csak két hete mondtam, hogy hazamegyek. | 3주? 근데 집에 간다고 말한 건 겨우 2주 전인데. | két hete = 2주 전에 | emotion=surprised
+B | Igazából nem neked kezdtem. Aztán menet közben a tiéd lett. | 사실 너 주려고 시작한 건 아니었어. 그러다 뜨는 동안 네 것이 됐어. | menet közben = 하는 도중에 | emotion=shy
+A | És kinek kezdted? | 그럼 누구 주려고 시작했는데? | kinek = 누구에게 | emotion=teasing
+B | Magamnak, de rajtad jobban áll. Nézd, jön a buszod! | 나한테, 근데 너한테 더 잘 어울려. 봐, 네 버스 온다! | rajtad jobban áll = 너한테 더 어울린다 | emotion=gentle+surprised
+A | Jaj, már? Jó, akkor mennem kell. | 아, 벌써? 그래, 그럼 가야겠다. | mennem kell = 나 가야 해 | emotion=sad
+B | Írj, ha megérkeztél. És ne vedd le a sálat a képeken. | 도착하면 문자해. 그리고 사진에서 목도리 벗지 마. | megérkeztél = 도착했다 | emotion=gentle+teasing
+A | Nem veszem le. Január hetedikén is ebben jövök. | 안 벗을게. 1월 7일에도 이거 하고 올게. | ebben = 이것을 하고(입고) | emotion=shy

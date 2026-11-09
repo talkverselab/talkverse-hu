@@ -2,56 +2,54 @@
 "ep": "r2_culture_b1",
 "cast": {
 "B": "anna",
-"C": "man_y"
+"C": "bence"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"polite",
-"Ön a művész? Mit jelent ez a rétes?"
+"cheerful",
+"Ez a nyelvcsere-est. Itt mindenki gyakorol."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"flustered",
-"Hát... igazából ez csak az ebédem.",
-"Hát, igazából ez csak az ebédem."
+"worried",
+"Hű, sok ember van. Kicsit izgulok."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"excited",
-"Az ebédje, zseniális! A művész és a mindennapi éhség!"
+"gentle",
+"Nem baj, gyere. Bemutatlak Bencének."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Figyelj, mondj valami okosat, mindenki téged néz."
+"cheerful",
+"Szia, Bence vagyok! Te mit tanulsz?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"flustered",
-"Szóval... megéheztem, letettem, és elfelejtettem.",
-"Szóval, megéheztem, letettem, és elfelejtettem."
+"stiff",
+"Jó estét kívánok! Örülök, hogy megismerhetem."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"excited",
-"Éhség, elengedés, felejtés! Ezt leírom, ez lesz a címlap!"
+"amused",
+"Hű, de udvarias! Nyugodtan tegezz."
 ]
 ]
 },
@@ -59,39 +57,32 @@
 "segs": [
 [
 "flustered",
-"Várjon, kérem! Komolyan, a rétes már háromnapos!"
+"Bocsi! A tankönyvemben mindig így van."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"excited",
-"Zseniális! A vevő már kérdezi: mikor lesz a következő?"
+"teasing",
+"A tankönyvek mindig túl udvariasak. 😄",
+"A tankönyvek mindig túl udvariasak."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"A következő?"
-],
-[
-"worried",
-"Anna, mit csináljak?"
+"cheerful",
+"Na, és mióta tanulsz magyarul?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"Nyugi, már sütöm a másodikat."
-],
-[
-"teasing",
-"A pénz fele az enyém."
+"amused",
+"Fél éve. Tegnap a szomszéd kutyáját is magáztam."
 ]
 ]
 }

@@ -10,93 +10,222 @@
  "domain": [
   "friends"
  ],
- "title": "실수 공책",
- "emoji": "📓",
- "scene": "Réka 의 가방에서 내 이름이 적힌 공책이 떨어졌다. 안에는 내 실수가 빽빽하다",
+ "title": "어느 출구?",
+ "emoji": "🚇",
+ "scene": "Réka 와 데아크 광장 역에서 만나기로 했다. 둘 다 도착했다는데 서로 안 보인다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "casual",
- "twist": 9,
- "twist_type": "emotion",
+ "twist": 10,
+ "twist_type": "chaos",
  "flags": [],
- "goal": "속마음을 들켰을 때의 말과 hiányzik(그립다)",
+ "goal": "전화로 위치 설명하기(Hol vagy pontosan? · mellett · Látod…?)",
  "expressions": [
-  "Jaj",
-  "Várj",
-  "Hát",
-  "Komolyan",
-  "Persze",
-  "Na jó"
+  "Hol vagy pontosan",
+  "mellett",
+  "Látod"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Mi ez a füzet? Az én nevem van rajta.",
-   "rd": "미 에즈 어 퓌제트? 어즈 엔 네벰 번 러이터.",
-   "ko": "이 공책 뭐야? 내 이름이 써 있네.",
-   "note": "füzet = 공책",
+   "hu": "Szia, Réka, megérkeztem! Te hol vagy?",
+   "rd": "씨어, 레커, 메게르케즈템! 테 홀 버지?",
+   "ko": "안녕, 레카! 나 도착했어. 너 어디야?",
+   "note": "megérkeztem = 도착했다",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "füzet",
-     "füze",
-     ""
+     "Szia",
+     "szia",
+     "씨어"
     ],
     [
-     "nevem",
-     "név",
-     "네브"
+     "megérkeztem",
+     "megérkezik",
+     "메게르케직"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "hol",
+     "hol",
+     "홀"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Jaj, add vissza! Az nem a tiéd.",
-   "rd": "여이, 어드 비써! 어즈 넴 어 티에드.",
-   "ko": "아이고, 돌려줘! 네 거 아니야.",
-   "note": "add vissza = 돌려줘",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "emotion": "flustered",
+   "hu": "Én is itt vagyok, a Deáknál.",
+   "rd": "엔 이시 이트 버죡, 어 데악날.",
+   "ko": "나도 여기 있어, 데아크에.",
+   "note": "Deáknál = 데아크(광장)에",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "itt",
+     "itt",
+     "이트"
     ],
     [
-     "add",
-     "ad",
-     "어드"
-    ],
-    [
-     "vissza",
-     "vissza",
-     "비써"
+     "vagyok",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Várj, „Meleg vagyok.” Ezt én mondtam!",
-   "rd": "바르이, „멜렉 버죡.” 에즈트 엔 몬드텀!",
-   "ko": "잠깐, 「나 게이야.」 이거 내가 한 말이잖아!",
-   "note": "ezt = 이것을",
+   "hu": "Nem látlak. Hol vagy pontosan?",
+   "rd": "넴 라틀럭. 홀 버지 폰토션?",
+   "ko": "너 안 보여. 정확히 어디야?",
+   "note": "látlak = (내가) 너를 본다",
    "tags": [
-    "expr:Várj"
+    "expr:Hol vagy pontosan"
    ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "látlak",
+     "látlak",
+     ""
+    ],
+    [
+     "pontosan",
+     "pontos",
+     "폰토시"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "A metró kijáratánál, a fagyizó mellett.",
+   "rd": "어 메트로 키야러타날, 어 퍼지조 멜레트.",
+   "ko": "지하철 출구, 아이스크림 가게 옆.",
+   "note": "mellett = 옆에",
+   "tags": [
+    "expr:mellett"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "metró",
+     "metró",
+     ""
+    ],
+    [
+     "kijáratánál",
+     "kijárat",
+     ""
+    ],
+    [
+     "fagyizó",
+     "fagyizó",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Én is a kijáratnál vagyok. Fagyizó nincs itt.",
+   "rd": "엔 이시 어 키야러트날 버죡. 퍼지조 닌치 이트.",
+   "ko": "나도 출구에 있어. 여기 아이스크림 가게 없는데.",
+   "note": "kijárat = 출구",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "kijáratnál",
+     "kijárat",
+     ""
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Látod a nagy templomot?",
+   "rd": "라토드 어 너지 템플로모트?",
+   "ko": "큰 성당 보여?",
+   "note": "templom = 성당",
+   "tags": [
+    "expr:Látod"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Látod",
+     "lát",
+     "라트"
+    ],
+    [
+     "nagy",
+     "nagy",
+     "너지"
+    ],
+    [
+     "templomot",
+     "templom",
+     "템플롬"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Nem. Egy bankot látok és egy pékséget.",
+   "rd": "넴. 에지 번코트 라톡 에시 에지 펙세게트.",
+   "ko": "아니. 은행이랑 빵집이 보여.",
+   "note": "pékség = 빵집",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "bankot",
+     "bank",
+     "번크"
+    ],
+    [
+     "látok",
+     "lát",
+     "라트"
+    ],
+    [
+     "pékséget",
+     "pékség",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Várj, melyik metróval jöttél?",
+   "rd": "바르이, 메익 메트로벌 요뗄?",
+   "ko": "잠깐, 어느 지하철 타고 왔어?",
+   "note": "melyik = 어느",
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -105,305 +234,112 @@
      "바르"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "mondtam",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Hát igen. Minden hibádat leírom.",
-   "rd": "하트 이겐. 민덴 히바더트 레이롬.",
-   "ko": "뭐, 그렇지. 네 실수는 전부 적어.",
-   "note": "hiba = 실수",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "hibádat",
-     "hibádat",
+     "metróval",
+     "metró",
      ""
     ],
     [
-     "leírom",
-     "leír",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Komolyan? Még a fél hetet is?",
-   "rd": "코모연? 멕 어 펠 헤테트 이시?",
-   "ko": "진짜? 그 6시 반까지도?",
-   "note": "még … is = ~까지도",
-   "tags": [
-    "expr:Komolyan"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Komolyan?"
-    ],
-    [
-     "annoyed",
-     "Még a fél hetet is?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Komolyan",
-     "komoly",
-     "코모이"
-    ],
-    [
-     "fél",
-     "fél",
-     "펠"
-    ],
-    [
-     "hetet",
-     "hete",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Persze, az a kedvencem.",
-   "rd": "페르쎄, 어즈 어 케드벤쳄.",
-   "ko": "당연하지, 그게 내 최애야.",
-   "note": "kedvenc = 가장 좋아하는 것",
-   "tags": [
-    "expr:Persze"
-   ],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "kedvencem",
-     "kedvencem",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Ez nagyon gonosz, Réka. Csak nevetsz rajtam?",
-   "rd": "에즈 너죤 고노쓰, 레커. 척 네베트쓰 러이텀?",
-   "ko": "이건 너무 못됐어, 레카. 나 비웃기만 하는 거야?",
-   "note": "nevet = 웃다",
-   "tags": [],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "gonosz",
-     "gonosz",
-     "고노스"
-    ],
-    [
-     "nevetsz",
-     "nevet",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Olvasd el az utolsó oldalt.",
-   "rd": "올버슈드 엘 어즈 우톨쇼 올덜트.",
-   "ko": "마지막 쪽 읽어 봐.",
-   "note": "olvasd el = 읽어 봐",
-   "tags": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "Olvasd",
-     "olvas",
-     "올버스"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ],
-    [
-     "utolsó",
-     "utolsó",
-     "우톨쇼"
-    ],
-    [
-     "oldalt",
-     "oldal",
-     "올덜"
+     "jöttél",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "hu": "„Ma {name} egy hibát sem csinált. Kicsit hiányzik.”",
-   "rd": "„머 {name} 에지 히바트 셈 치날트. 키치트 히아니직.”",
-   "ko": "「오늘 {name} 실수 0개. 조금 허전하다.」",
-   "note": "hiányzik = 그립다, 허전하다",
+   "hu": "A sárgával. Miért?",
+   "rd": "어 샤르가벌. 미에르트?",
+   "ko": "노란 선. 왜?",
+   "note": "sárga = 노란",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Ma",
-     "ma",
-     "머"
-    ],
-    [
-     "hibát",
-     "hiba",
-     "히버"
-    ],
-    [
-     "csinált",
-     "csinál",
-     "치날"
-    ],
-    [
-     "hiányzik",
-     "hiányzik",
-     "히아니직"
+     "sárgával",
+     "sárga",
+     ""
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Na jó, elég. Add már vissza!",
-   "rd": "너 요, 엘렉. 어드 마르 비써!",
-   "ko": "그래, 됐어. 이제 돌려줘!",
-   "note": "elég = 충분한, 됐어",
-   "tags": [
-    "expr:Na jó"
-   ],
-   "emotion": "shy",
+   "hu": "Én a pirossal! A Deáknak sok kijárata van, {name}.",
+   "rd": "엔 어 피로쎨! 어 데악넉 쇽 키야러터 번, {name}.",
+   "ko": "나는 빨간 선! 데아크는 출구가 엄청 많아, {name}.",
+   "note": "kijárata = 그곳의 출구",
+   "tags": [],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "pirossal",
+     "piros",
+     ""
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "kijárata",
+     "kijárata",
+     ""
     ],
     [
-     "elég",
-     "elég",
-     "엘렉"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "vissza",
-     "vissza",
-     "비써"
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Réka, te sírsz?",
-   "rd": "레커, 테 시르쓰?",
-   "ko": "레카, 너 울어?",
-   "note": "sírsz = 너 운다",
+   "hu": "Jó, maradj ott! Megyek a fagyizó felé.",
+   "rd": "요, 머러드이 오트! 메젝 어 퍼지조 펠레.",
+   "ko": "알았어, 거기 있어! 아이스크림 가게 쪽으로 갈게.",
+   "note": "maradj = 있어(머물러)",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Réka",
-     "réka",
-     ""
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "sírsz",
-     "sír",
-     "시르"
+     "maradj",
+     "marad",
+     "머러드"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "fagyizó",
+     "fagyizó",
+     ""
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "hu": "Dehogy! Csak erős volt a paprika.",
-   "rd": "데호지! 척 에뢰시 볼트 어 퍼프리커.",
-   "ko": "아니거든! 파프리카가 매웠을 뿐이야.",
-   "note": "dehogy = 천만에",
+   "hu": "Siess! Már veszek neked egyet.",
+   "rd": "시에시! 마르 베쎅 네케드 에제트.",
+   "ko": "빨리 와! 네 것도 하나 사 놓을게.",
+   "note": "siess = 서둘러",
    "tags": [],
-   "emotion": "flustered",
-   "segs": [
-    [
-     "flustered",
-     "Dehogy!"
-    ],
-    [
-     "shy",
-     "Csak erős volt a paprika."
-    ]
-   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Dehogy",
-     "dehogy",
-     "데허고"
+     "Siess",
+     "siet",
+     "시에트"
     ],
     [
-     "erős",
-     "erős",
-     "에뢰시"
-    ],
-    [
-     "volt",
-     "van",
-     "번"
-    ],
-    [
-     "paprika",
-     "paprika",
-     ""
+     "veszek",
+     "veszik",
+     "베세크"
     ]
    ]
   }

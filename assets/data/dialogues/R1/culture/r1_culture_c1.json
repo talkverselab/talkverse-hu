@@ -11,9 +11,9 @@
  "domain": [
   "culture"
  ],
- "title": "새벽 세 시의 좋아요",
- "emoji": "❤️",
- "scene": "밤중에 Anna 의 옛날 사진을 구경하다 손가락이 미끄러졌다",
+ "title": "스포 금지",
+ "emoji": "🍿",
+ "scene": "Anna 가 새 영화를 벌써 봤다며 메시지를 보낸다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
@@ -24,76 +24,90 @@
  "flags": [
   "romance"
  ],
- "goal": "채팅의 짧은 대답과 véletlenül(실수로)",
+ "goal": "채팅으로 영화 이야기하기(Láttad már? · Ne mondd el!)",
  "expressions": [
-  "Aha",
-  "Jaj",
-  "Nem baj"
+  "Bocsi",
+  "Szívesen"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Ébren vagy? 😄",
-   "rd": "씨어! 에브렌 버지? 😄",
-   "ko": "안녕! 안 자? 😄",
-   "note": "ébren = 깨어 있는",
+   "hu": "Láttad már az új filmet? 🎬",
+   "rd": "라떠드 마르 어즈 우이 필메트? 🎬",
+   "ko": "그 새 영화 벌써 봤어? 🎬",
+   "note": "láttad = (그것을) 봤니",
    "tags": [],
-   "at": "02:41",
-   "emotion": "cheerful",
+   "at": "20:14",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szia",
-     "szia",
-     "씨어"
+     "Láttad",
+     "lát",
+     "라트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "filmet",
+     "film",
+     "필름"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen. Miért?",
-   "rd": "이겐. 미에르트?",
-   "ko": "응. 왜?",
-   "note": "miért? = 왜?",
+   "hu": "Még nem. Jó?",
+   "rd": "멕 넴. 요?",
+   "ko": "아직. 재밌어?",
+   "note": "még nem = 아직",
    "tags": [],
-   "at": "02:42",
-   "emotion": "neutral",
+   "at": "20:15",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Még",
+     "még",
+     "메그"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Most lájkoltad a képemet.",
-   "rd": "모슈트 라이콜터드 어 케페메트.",
-   "ko": "방금 내 사진에 좋아요 눌렀어.",
-   "note": "lájkol = 좋아요를 누르다",
+   "hu": "Nagyon! A végén a főszereplő...",
+   "rd": "너죤! 어 베겐 어 푀쎄레플뢰...",
+   "ko": "엄청! 마지막에 주인공이…",
+   "note": "a végén = 마지막에",
    "tags": [],
-   "at": "02:42",
-   "emotion": "teasing",
+   "at": "20:15",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Most",
-     "most",
-     "모슈트"
+     "Nagyon",
+     "nagyon",
+     "너존"
     ],
     [
-     "lájkoltad",
-     "lájkol",
-     ""
+     "végén",
+     "vég",
+     "베그"
     ],
     [
-     "képemet",
-     "képemet",
+     "főszereplő",
+     "főszereplő",
      ""
     ]
    ]
@@ -101,110 +115,154 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Melyiket?",
-   "rd": "메이케트?",
-   "ko": "어떤 거?",
-   "note": "melyiket? = 어느 것을?",
+   "hu": "Ne! Ne mondd el! 🙉",
+   "rd": "네! 네 몬드 엘! 🙉",
+   "ko": "안 돼! 말하지 마! 🙉",
+   "note": "ne mondd el = 말하지 마",
    "tags": [],
-   "at": "02:43",
-   "emotion": "worried",
+   "at": "20:15",
+   "emotion": "shout",
    "ui": "bubble",
-   "lemmas": []
+   "lemmas": [
+    [
+     "mondd",
+     "mond",
+     "몬드"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "A régit. Nyolcéves vagyok rajta.",
-   "rd": "어 레기트. 뇰체베시 버죡 러이터.",
-   "ko": "옛날 거. 거기서 나 여덟 살이야.",
-   "note": "rajta = 그 위에(사진 속에)",
-   "tags": [],
-   "at": "02:43",
-   "emotion": "teasing",
+   "hu": "Jó, jó. Bocsi! 😅",
+   "rd": "요, 요. 보치! 😅",
+   "ko": "알았어, 알았어. 미안! 😅",
+   "note": "bocsi = 미안",
+   "tags": [
+    "expr:Bocsi"
+   ],
+   "at": "20:16",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "régit",
-     "régi",
-     "레기"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
+     "Jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Jaj. Véletlenül.",
-   "rd": "여이. 벨레틀레뉠.",
-   "ko": "아이고. 실수로.",
-   "note": "véletlenül = 실수로",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "at": "02:45",
-   "emotion": "flustered",
+   "hu": "Mikor megy a moziban?",
+   "rd": "미코르 메지 어 모지번?",
+   "ko": "영화관에서 언제 해?",
+   "note": "mozi = 영화관",
+   "tags": [],
+   "at": "20:17",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "megy",
+     "megy",
+     "메지"
+    ],
+    [
+     "moziban",
+     "mozi",
+     "모지"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Aha. Véletlenül.",
-   "rd": "어허. 벨레틀레뉠.",
-   "ko": "아하. 실수로.",
-   "note": "aha = 아하",
-   "tags": [
-    "expr:Aha"
+   "hu": "Szombaton este. De én már láttam.",
+   "rd": "쏨버톤 에슈테. 데 엔 마르 라떰.",
+   "ko": "토요일 저녁. 근데 난 이미 봤어.",
+   "note": "már = 이미",
+   "tags": [],
+   "at": "20:18",
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Szombaton este."
+    ],
+    [
+     "teasing",
+     "De én már láttam."
+    ]
    ],
-   "at": "02:45",
-   "emotion": "teasing",
    "ui": "bubble",
    "lemmas": [
     [
-     "Aha",
-     "aha",
-     "어허"
+     "Szombaton",
+     "szombat",
+     "솜바트"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "láttam",
+     "lát",
+     "라트"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Nem baj. Van még száz kép. 😏",
-   "rd": "넴 버이. 번 멕 싸즈 케프. 😏",
-   "ko": "괜찮아. 사진 백 장 더 있어. 😏",
-   "note": "nem baj = 괜찮아",
+   "hu": "De szívesen megnézem még egyszer. Veled. 😊",
+   "rd": "데 씨베센 멕네젬 멕 에지쎄르. 벨레드. 😊",
+   "ko": "근데 한 번 더 볼래. 너랑. 😊",
+   "note": "még egyszer = 한 번 더",
    "tags": [
-    "expr:Nem baj"
+    "expr:Szívesen"
    ],
-   "at": "02:46",
-   "emotion": "teasing",
+   "at": "20:19",
+   "emotion": "gentle",
+   "segs": [
+    [
+     "gentle",
+     "De szívesen megnézem még egyszer."
+    ],
+    [
+     "shy",
+     "Veled. 😊"
+    ]
+   ],
    "ui": "bubble",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "szívesen",
+     "szíves",
+     "시베시"
+    ],
+    [
+     "megnézem",
+     "megnéz",
+     "메그네즈"
     ],
     [
      "még",
      "még",
      "메그"
-    ],
-    [
-     "kép",
-     "kép",
-     "켑"
     ]
    ]
   }

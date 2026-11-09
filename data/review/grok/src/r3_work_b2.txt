@@ -1,28 +1,27 @@
 === r3_work_b2
 kind: long
-title: 없는 이름의 날
-emoji: 💐
-scene: 오늘 카페에 꽃이 넘친다. 이름의 날이라는데, 달력에 내 이름은 없다. Bence 가 분필을 집어 든다
+title: 회의 시간 정하기
+emoji: 🗓️
+scene: 사장님이 크리스마스 근무표 회의를 하자고 한다. Bence 와 셋이 시간을 맞추는데, 겨우 정한 시간이 또 꼬인다
 b: Bence
-c: Néni
-d: Virágos
+c: Főnök
 register: mixed
-twist: 10 chaos
-purpose: work_hungary media
-goal: 이름의 날(névnap) 문화와 축하 인사
-expressions: Várj; Sajnos; Ne már; Nézd; Figyelj; Igazából; Szerintem
-A | Miért kap ma mindenki virágot? Mi történt? | 오늘 왜 다들 꽃을 받아? 무슨 일 있어? | kap = 받는다 | emotion=surprised
-B | Ma van Anna névnapja. Itt minden névnek van napja. | 오늘이 언너의 이름의 날이야. 여기선 이름마다 날이 있어. | névnap = 이름의 날 | emotion=cheerful
-A | Minden névnek? Akkor nekem mikor van? | 이름마다? 그럼 내 건 언제야? | mikor = 언제 | emotion=cheerful
-B | Várj, megnézem. Sajnos a te neved nincs a naptárban. | 잠깐, 볼게. 안타깝지만 네 이름은 달력에 없어. | naptár = 달력 | emotion=neutral+sad
-A | Jaj, de kár. Nekem soha nem lesz virágom? | 아, 아쉽다. 나는 평생 꽃을 못 받는 거야? | soha nem = 절대 안 | emotion=sad
-B | Ne már! Nézd, felírom a táblára: ma {name} névnapja van. | 에이! 봐, 칠판에 쓸게. 오늘은 {name}의 이름의 날. | tábla = 칠판 | emotion=tsukkomi+excited
-A | Bence, ezt nem lehet! Ez nem igaz! | 벤체, 이러면 안 돼! 이거 거짓말이잖아! | nem lehet = 안 된다 | emotion=flustered
-C | Boldog névnapot, kedves! Hoztam egy rétest. | 이름의 날 축하해요! 레테시 가져왔어요. | boldog névnapot = 이름의 날 축하합니다 | emotion=cheerful
-A | Köszönöm, néni, de... igazából nem... | 감사합니다, 할머니, 근데… 사실은… | igazából = 사실은 | emotion=flustered
-B | Figyelj, már az egész utca tudja. Nézd, mennyi ember! | 야, 벌써 온 동네가 알아. 봐, 사람 얼마나 많은지! | az egész utca = 거리 전체 | emotion=excited
-D | Elnézést, elfogyott az összes virágom. Ki ez a híres {name}? | 실례합니다, 제 꽃이 다 팔렸어요. 이 유명한 {name} 씨가 누구예요? | elfogyott = 다 떨어졌다 | emotion=polite
-A | Én vagyok. De ez nem is ünnep! | 저예요. 근데 이거 기념일도 아니에요! | ünnep = 기념일, 명절 | emotion=shy+tsukkomi
-B | Már igen. A polgármester is ide jön, és beszédet mond. | 이제는 맞아. 구청장님도 오셔서 연설하신대. | beszédet mond = 연설한다 | emotion=teasing
-A | Bence! Mi lesz holnap? | 벤체! 내일은 어쩌려고? | mi lesz? = 어떻게 될까? | emotion=shout
-B | Szerintem semmi. A jövő évi naptárba már beírták a neved. | 아무 일 없을걸. 내년 달력엔 벌써 네 이름이 들어갔대. | beírták = 써넣었다 | emotion=amused
+twist: 13 chaos
+purpose: work_hungary
+goal: 회의 시간 맞추기(Mikor érnek rá? · Mit szól a keddhez? · Ott leszek)
+expressions: Na; Szuper; Szóval; Jól van
+C | Jövő héten tartunk egy rövid megbeszélést a karácsonyi beosztásról. Mikor érnek rá? | 다음 주에 크리스마스 근무표 회의를 짧게 해요. 언제들 시간 돼요? | beosztás = 근무표 | emotion=polite
+B | Nekem a hétfő délelőtt jó. | 저는 월요일 오전이 좋아요. | délelőtt = 오전 | emotion=cheerful
+A | Hétfőn délelőtt nyelvórám van. Mit szól a keddhez? | 월요일 오전엔 어학 수업이 있어요. 화요일은 어떠세요? | Mit szól hozzá? = 어떻게 생각하세요? | emotion=polite
+C | Kedden egész nap a könyvelővel vagyok. | 화요일엔 하루 종일 회계사랑 있어요. | könyvelő = 회계사 | emotion=stiff
+B | Szerda délután? Háromkor kevesebb a vendég. | 수요일 오후는요? 세 시엔 손님이 적어요. | kevesebb = 더 적은 | emotion=cheerful
+A | Szerdán háromkor fogorvoshoz megyek. Bocsánat! | 수요일 세 시엔 치과에 가요. 죄송해요! | fogorvos = 치과 의사 | emotion=flustered
+B | Na, ez így nehéz lesz. Te mikor érsz rá egyáltalán? | 아, 이러면 어렵겠다. 너 대체 언제 시간 돼? | egyáltalán = 대체 | emotion=tsukkomi
+A | Csütörtökön bármikor. Az a szabadnapom. | 목요일엔 아무 때나. 그날 쉬는 날이거든. | szabadnap = 쉬는 날 | emotion=cheerful
+C | Csütörtök négy óra? Ott leszek. | 목요일 네 시? 저는 돼요. | ott leszek = 그 자리에 있을게요 | emotion=polite
+B | Nekem is jó. Felírom a táblára. | 저도 좋아요. 칠판에 적어 둘게요. | felírom = 적어 둔다 | emotion=cheerful
+A | Szuper. Szóval csütörtök négy, karácsonyi beosztás. | 좋아요. 그러니까 목요일 네 시, 크리스마스 근무표. | szóval = 그러니까 | emotion=cheerful
+C | Igen. És aki nem jön el, az dolgozik szenteste. | 네. 그리고 안 오는 사람은 크리스마스이브에 근무예요. | szenteste = 크리스마스이브 | emotion=teasing
+A | Várjunk, csütörtök négykor van a nyelvvizsgám! Teljesen elfelejtettem. | 잠깐만요, 목요일 네 시에 제 어학 시험이 있어요! 완전히 잊고 있었어요. | elfelejtettem = 잊어버렸다 | emotion=flustered
+B | Jól van, akkor szenteste együtt dolgozunk. Hozok bejglit! | 됐어, 그럼 이브에 같이 일하자. 베이글리 가져올게! | bejgli = 크리스마스 호두·양귀비 롤 | emotion=teasing+cheerful
+C | Csak vicceltem. Ötkor kezdünk, sok sikert a vizsgához! | 농담이었어요. 다섯 시에 해요, 시험 잘 보세요! | vicceltem = 농담했다 | emotion=amused+gentle

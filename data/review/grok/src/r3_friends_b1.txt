@@ -1,28 +1,28 @@
 === r3_friends_b1
 kind: long
-title: 부다페스트에서? 위에서?
-emoji: 🚋
-scene: 표 없이 트램을 탔다. 검표원 앞에서 한 접미사 실수가 트램 전체를 깨운다
+title: 아래층 할머니
+emoji: 🏠
+scene: Réka 의 이사를 돕는 날. 무거운 상자를 나르다 계단에서 아래층 할머니와 마주친다
 b: Réka
-c: Ellenőr
-d: Néni
+c: Néni
 register: mixed
-twist: 11 chaos
-purpose: making_friends travel
-goal: 도시 이름의 격(-ban/-ben 과 -on/-en) 맛보기
-expressions: Nyugi; Elnézést; Jaj, ne már; Bocsánat; Hát nem; szóljak
-C | Jó napot kívánok! Jegyeket, bérleteket kérem! | 안녕하세요! 표, 정기권 보여 주세요! | jegy = 표, bérlet = 정기권 | emotion=polite
-A | Réka, mit akar? Nekem nincs jegyem, otthon maradt a táskámban. | 레카, 뭐래? 나 표 없어, 집 가방에 두고 왔어. | otthon maradt = 집에 남았다 | emotion=worried
-B | Nyugi, mondd neki, hogy új vagy itt. Néha működik. | 진정해, 여기 처음이라고 해. 가끔 먹혀. | működik = 작동한다, 먹힌다 | emotion=amused
-A | Elnézést, új vagyok. Csak két hete lakom Budapestben. | 실례합니다, 저 처음이에요. 부다페스트 안에 산 지 2주밖에 안 됐어요. | Budapestben = 틀린 말(Budapesten 이 맞다) | emotion=polite
-C | Budapestben? Jaj, ne már, Budapesten! | 부다페스트 「안에」요? 아이고, 부다페스트 「위에」죠! | 헝가리 도시는 대개 -on/-en | emotion=tsukkomi
-A | Bocsánat. És akkor Szegedben? | 죄송합니다. 그럼 세게드 「안에」는요? | bocsánat = 죄송합니다 | emotion=polite
-D | Szegeden, drágám! De Győrben, ezt mindenki tudja. | 세게드 「위에」지, 얘야! 근데 죄르는 「안에」, 다들 아는 거야. | drágám = 얘야, 자기야 | emotion=gentle
-A | Miért nem Győrön? Mi itt a szabály? | 왜 죄르는 「위에」가 아니에요? 규칙이 뭐예요? | szabály = 규칙 | emotion=flustered
-C | Szabály? Ez Magyarország, itt csak hallani kell. | 규칙이요? 여긴 헝가리예요, 그냥 귀로 듣는 겁니다. | hallani kell = 들어야 한다 | emotion=stiff
-D | Hát nem, szabály igenis van! Gyere el hozzám, megtanítalak! | 아니지, 규칙 있고말고! 우리 집에 와, 내가 가르쳐 줄게! | megtanítalak = 내가 널 가르쳐 줄게 | emotion=annoyed
-C | Emberek, szavazzunk! Ki mondja, hogy Pécsen, és ki, hogy Pécsben? | 여러분, 투표합시다! 페치 「위에」 누구, 「안에」 누구? | szavazzunk = 투표합시다 | emotion=excited
-B | {name}, az egész villamos szavaz. Mit csináltál? | {name}, 트램 전체가 투표하고 있어. 너 뭘 한 거야? | villamos = 트램 | emotion=tsukkomi
-A | Semmit! Csak nincs jegyem, szóljak neki még egyszer? | 아무것도! 그냥 표가 없는 건데, 다시 말할까? | szóljak = 내가 말할까 | emotion=flustered
-B | Ne szólj! Már a végállomáson állunk, mindenki vitatkozik. | 말하지 마! 벌써 종점이야, 다들 싸우고 있어. | végállomás = 종점 | emotion=annoyed
-C | Hagyja a jegyet! Holnap ugyanitt, kilenckor: Miskolc! | 표는 됐어요! 내일 같은 곳, 9시: 미슈콜츠! | ugyanitt = 같은 곳에서 | emotion=excited
+twist: 11 reveal
+purpose: making_friends
+goal: 이웃에게 정중히 사과·인사하기(Elnézést a zajért · Csókolom), 친구와는 반말
+expressions: Elnézést; Csókolom; Szóval; Na
+B | Na, még három doboz, és kész vagyunk. | 자, 상자 세 개만 더 하면 끝이야. | kész = 끝난 | emotion=cheerful
+A | Jó, de mi van ebben a dobozban? Nagyon nehéz! | 좋아, 근데 이 상자엔 뭐가 들었어? 엄청 무거워! | ebben = 이 안에 | emotion=annoyed
+B | Régi tányérok és lábasok. Vigyázz vele! | 오래된 접시랑 냄비. 조심해! | vigyázz = 조심해 | emotion=worried
+A | Vigyázok. Remélem, a szomszédok nem alszanak. | 조심할게. 이웃들이 자고 있지 않으면 좋겠다. | szomszéd = 이웃 | emotion=worried
+C | Mi ez a nagy zaj egész délelőtt? | 오전 내내 이게 무슨 소리야? | zaj = 소음 | emotion=annoyed
+B | Csókolom! Elnézést, ma költözöm ide. | 안녕하세요! 죄송해요, 오늘 여기로 이사 와요. | csókolom = (어르신께) 안녕하세요 | emotion=polite
+A | Elnézést a zajért. Mindjárt végzünk. | 시끄럽게 해서 죄송합니다. 곧 끝나요. | a zajért = 소음에 대해 | emotion=polite
+C | Ide költözöl? Melyik lakásba? | 여기로 이사 온다고? 어느 집으로? | költözöl = 이사한다 | emotion=stiff
+B | A negyedikre, a tizenkettesbe. | 4층, 12호로요. | tizenkettes = 12호 | emotion=polite
+C | A tizenkettesbe? Ott a barátnőm lakott negyven évig. | 12호? 거기 내 친구가 40년 살았는데. | negyven évig = 40년 동안 | emotion=surprised
+B | Ilona nénire gondol? Ő a nagymamám! | 일로너 할머니 말씀이세요? 우리 할머니예요! | gondol = 생각하다(존댓말 3인칭) | emotion=excited
+C | Te vagy a kis Réka?! Úristen, mekkora lettél! | 네가 꼬마 레카구나?! 세상에, 이렇게 컸네! | mekkora = 얼마나 큰 | emotion=surprised+excited
+A | Szóval a nagymamád lakása? Ezt nem is mondtad! | 그러니까 너희 할머니 집이야? 그런 말 안 했잖아! | szóval = 그러니까 | emotion=surprised
+B | Nem kérdezted. És ezek a tányérok is az övéi. | 안 물어봤잖아. 이 접시들도 할머니 거야. | az övéi = 그분의 것들 | emotion=teasing
+C | Na, gyertek le hozzám. Van friss pogácsa. | 자, 우리 집으로 내려와. 갓 구운 포가차 있어. | gyertek = 너희 와(명령) | emotion=gentle
+A | Köszönjük! A dobozok várhatnak, ugye? | 감사합니다! 상자는 좀 기다려도 되지, 그치? | várhatnak = 기다릴 수 있다 | emotion=cheerful

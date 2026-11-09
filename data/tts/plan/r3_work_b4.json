@@ -8,88 +8,80 @@
 "1": {
 "segs": [
 [
-"worried",
-"Olvastad a levelet? A tulajdonos háromszor annyit kér a helyért."
+"cheerful",
+"Jó estét! A szokásosat kérem."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Háromszor annyit? Hát ezt nem tudjuk kifizetni!"
+"polite",
+"Jó estét! Elnézést, új vagyok. Mi a szokásos?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"sad",
-"Sajnos nem. Szerintem egy hónap múlva bezárunk."
+"surprised",
+"Bence tudja. Ő hol van?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"annoyed",
-"Ki ez a tulajdonos? Még sosem láttuk."
+"polite",
+"Hátul van, mindjárt jön. Addig segíthetek?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"sad",
-"Senki sem tudja. Csak a levelei jönnek."
+"amused",
+"Hát, próbáljuk meg. Kávé, de nem túl erős."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"sad",
-"Mindegy."
-],
-[
-"worried",
-"Jön a néni, legalább ő ne tudja meg."
+"polite",
+"Akkor egy hosszú kávé? Tejjel?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"cheerful",
-"Csókollak, kedves!"
-],
-[
-"worried",
-"Mi van, miért ilyen szomorú?"
+"neutral",
+"Tejjel, igen. De nem tehéntejjel."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"gentle",
-"Semmi, néni. Tessék, a kávéja, ma is ingyen van."
+"polite",
+"Zabtej vagy mandulatej?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"annoyed",
-"Figyelj, már egy éve ingyen iszik. Ezért nincs pénzünk!"
+"cheerful",
+"Zab, egy kanál mézzel. És egy kis fahéj a tetejére."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"gentle",
-"Egy nyugdíjas néni? Ne már, egy kávé nem gond."
+"cheerful",
+"Rendben. Tessék, zabtejes hosszú kávé mézzel és fahéjjal."
 ]
 ]
 },
@@ -97,51 +89,39 @@
 "segs": [
 [
 "surprised",
-"Milyen levél? Mutassa csak!"
+"Jó estét, Erzsi néni! Jaj, mit iszik ma?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"amused",
-"Jaj, ezt az unokám írta. Szólok neki, hogy ne írjon többet."
+"worried",
+"A szokásosat. Nem ez az?"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"surprised",
-"Az unokája? Ezt hogy érti, néni?"
+"amused",
+"A szokásos egy kamillatea. Már tíz éve."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"gentle",
-"A ház az enyém, kedves. Az egész utca is."
+"teasing",
+"Tudom, kedvesem. Csak kíváncsi voltam az új kollégára."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"surprised",
-"És én egy éve ingyen adok Önnek kávét?"
-]
-]
-},
-"16": {
-"segs": [
-[
-"amused",
-"Igen."
-],
-[
-"cheerful",
-"Holnap is jövök, csókollak!"
+"gentle",
+"Finom. Holnap is ezt kérem, ez az új szokásos."
 ]
 ]
 }

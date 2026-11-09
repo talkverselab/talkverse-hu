@@ -1,71 +1,70 @@
 {
 "ep": "r1_friends_a2",
 "cast": {
-"B": "reka",
-"C": "woman_m"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"excited",
-"Ki ad ezer forintot?"
+"cheerful",
+"Holnap futok a Margitszigeten. Jössz?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"shout",
-"Réka! Hé, itt vagyok!"
+"excited",
+"Persze, megyek! Szeretek futni."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"excited",
-"Ezer forint! Ki ad többet?"
+"cheerful",
+"Szuper! Mennyit futsz általában?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Jaj, ne integess!"
+"shy",
+"Hát, öt kilométert, lassan."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Mi van? Hol vagy?"
+"gentle",
+"Nem baj, én is lassú vagyok."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"excited",
-"Kétezer! Szuper, köszönöm!"
+"cheerful",
+"Oké. Hánykor találkozunk?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Mi? Mi az a kétezer?"
+"cheerful",
+"Hatkor, a hídnál. Reggel."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Gratulálok! A szék a tiéd."
+"tsukkomi",
+"Reggel hatkor? Ne már, Réka!"
 ]
 ]
 }

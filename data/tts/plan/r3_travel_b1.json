@@ -2,23 +2,22 @@
 "ep": "r3_travel_b1",
 "cast": {
 "B": "david",
-"C": "woman_o",
-"D": "man_m"
+"C": "man_y"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"worried",
-"Dávid, baj van. Az öltözőben valaki elvitte a ruhámat."
+"excited",
+"Még négy óra a vonatig. Hagyjuk itt a táskákat, és menjünk be a városba!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Hogyhogy elvitte? Mi maradt a szekrényben?"
+"cheerful",
+"Jó ötlet. Van itt csomagmegőrző?"
 ]
 ]
 },
@@ -26,43 +25,40 @@
 "segs": [
 [
 "neutral",
-"Csak ez a sötétkék kabát, egy sapka meg egy kis gép."
+"Ott vannak az automaták, a hármas vágány mellett."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Várj, ez egy ellenőr egyenruhája!"
-],
-[
-"amused",
-"Legalább meleg."
+"worried",
+"Kicsi, közepes, nagy... A bőröndöm melyikbe fér be?",
+"Kicsi, közepes, nagy, A bőröndöm melyikbe fér be?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"tsukkomi",
-"Viccelsz? Ebben menjek haza a villamossal?"
+"gentle",
+"A nagyba. Kártyával fizetsz, és kapsz egy cetlit egy kóddal."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"neutral",
-"Nincs más, kint mínusz tíz fok van. Gyere!"
+"cheerful",
+"Megvan: négyezer forint, hat órára. Itt a cetli."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Jó napot! Tessék, itt a bérletem, érvényes!"
+"gentle",
+"Tedd el jól! Kód nélkül nem nyílik ki."
 ]
 ]
 },
@@ -70,49 +66,55 @@
 "segs": [
 [
 "flustered",
-"Izé... köszönöm, jó.",
-"Izé, köszönöm, jó."
+"Na, hol is a cetli? Nincs meg!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"excited",
-"Nézd! Mindenki előveszi a jegyét, és neked adja."
+"surprised",
+"Komolyan? Nézd meg a kabátodban!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"annoyed",
-"Az a bácsi ott nem mutatta meg a jegyét! Büntesse meg!"
+"worried",
+"Nincs. Se a zsebemben, se a pénztárcámban."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"stiff",
-"Hát... elnézést, van jegye?",
-"Hát, elnézést, van jegye?"
+"worried",
+"Kérdezzük meg az őrt!"
+],
+[
+"polite",
+"Elnézést, segítene?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"surprised",
-"Várj, ott jön valaki. Az a te pulcsid!"
+"polite",
+"Persze, elveszett a kód? Melyik szekrény?"
 ]
 ]
 },
 "13": {
 "segs": [
 [
+"stiff",
+"A nagy, a sarokban."
+],
+[
 "polite",
-"Jó napot! Jegyeket, bérleteket kérek!"
+"Kártyával fizettem."
 ]
 ]
 },
@@ -120,23 +122,27 @@
 "segs": [
 [
 "polite",
-"Jó napot, kolléga!"
-],
-[
-"stiff",
-"Az a pulcsi az enyém."
+"Rendben, a fizetés alapján megtaláljuk. Kinyitom."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"neutral",
-"És az a kabát az enyém."
+"surprised",
+"Kinyílt!"
 ],
 [
 "amused",
-"De tartsa meg estig, én visszamegyek a fürdőbe."
+"És a cetli itt van, a bőröndön."
+]
+]
+},
+"16": {
+"segs": [
+[
+"tsukkomi",
+"Hát persze. Bezártad vele együtt."
 ]
 ]
 }

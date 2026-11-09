@@ -1,20 +1,20 @@
 === r1_love_a1
 kind: short
-title: 예쁜 감자
-emoji: 🥔
-scene: 미술관 앞 벤치. 처음 보는 Anna 가 스케치북을 들고 먼저 말을 건다
+title: 같이 줄 설래?
+emoji: ☕
+scene: 아침 Bence 의 카페 줄. 뒤에 선 Anna 가 먼저 말을 건다
 b: Anna
 register: casual
 twist: 7 emotion
 flags: romance
 purpose: love making_friends
-goal: 되묻는 말(Tessék? Mi van?)과 놀랄 때 쓰는 말 익히기
-expressions: Elnézést; Tessék?; Mi van?; Nézd
-B | Elnézést, egy pillanat. Ne mozogj! | 실례, 잠깐만. 움직이지 마! | egy pillanat = 잠깐만 | emotion=polite+cheerful
-A | Tessék? Mi van? | 네? 뭐야? | tessék? = 네?(되물을 때) | emotion=surprised
-B | Rajzollak. Jó az arcod. | 너 그리고 있어. 얼굴이 좋아서. | -lak = 내가 너를 ~한다 | emotion=cheerful
-A | Az arcom? Köszi... | 내 얼굴? 고마워… | arc = 얼굴, -om = 내 | emotion=shy
-B | Nézd! Kész. | 봐! 다 됐어. | nézd = 봐 | emotion=excited
-A | Ez nem én vagyok. Ez egy krumpli! | 이건 내가 아니야. 감자잖아! | krumpli = 감자 | emotion=tsukkomi
-B | Igen. De nagyon szép krumpli. | 응. 그래도 아주 예쁜 감자야. | de = 하지만 | emotion=gentle
-A | Na jó. Holnap is itt leszek. | 그래 좋아. 내일도 여기 있을게. | na jó = 그래 좋아, leszek = 나는 ~일 것이다 | emotion=shy
+goal: 처음 말 걸기와 주문 말하기(Mit kérsz? · ugye?)
+expressions: Ugye; Hát; Komolyan?
+B | Szia! Te is mindig itt kávézol? | 안녕! 너도 늘 여기서 커피 마셔? | kávézol = 커피 마신다 | emotion=cheerful
+A | Igen, minden reggel. Te is? | 응, 매일 아침. 너도? | minden reggel = 매일 아침 | emotion=surprised
+B | Igen. Mit kérsz ma? | 응. 오늘은 뭐 시킬 거야? | mit kérsz? = 뭐 시킬래? | emotion=cheerful
+A | Egy nagy lattét, mint mindig. | 큰 라테, 늘 그렇듯. | mint mindig = 늘 그렇듯 | emotion=polite
+B | Tudom. Zabtejjel, ugye? | 알아. 귀리우유로, 맞지? | ugye = 그렇지? | emotion=teasing
+A | Mi van? Honnan tudod? | 뭐야? 어떻게 알아? | honnan tudod? = 어떻게 알아? | emotion=surprised
+B | Hát... minden reggel mögötted állok. | 음… 매일 아침 네 뒤에 서 있거든. | mögötted = 네 뒤에 | emotion=shy
+A | Komolyan? Akkor holnap együtt állunk sorba? | 진짜? 그럼 내일은 같이 줄 설래? | sorba áll = 줄을 서다 | emotion=surprised+shy

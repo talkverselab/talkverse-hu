@@ -7,24 +7,25 @@
 "1": {
 "segs": [
 [
-"worried",
-"Réka, ébren vagy?"
+"sad",
+"Figyelj, megint nem kaptam meg a lakást. 😩",
+"Figyelj, megint nem kaptam meg a lakást."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"annoyed",
-"Most már igen. Mi van?"
+"worried",
+"Jaj, ne! Mi a baj ezúttal?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"flustered",
-"Kizártam magam. Pizsamában vagyok a lépcsőházban."
+"annoyed",
+"Túl drága. A rezsi is, a kaució is."
 ]
 ]
 },
@@ -32,7 +33,7 @@
 "segs": [
 [
 "sad",
-"Csak a szemetet akartam levinni."
+"És a főbérlő csak magyarul beszél, nagyon gyorsan."
 ]
 ]
 },
@@ -40,7 +41,7 @@
 "segs": [
 [
 "neutral",
-"Hol a kulcsod?"
+"Hány négyzetméter kellene? Melyik kerületben?"
 ]
 ]
 },
@@ -48,32 +49,32 @@
 "segs": [
 [
 "worried",
-"Bent. A telefonom is mindjárt meghal."
+"Elég egy kis szoba. Mindegy, csak ne legyen messze az iskolától."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Nyugi, írtam a ház csoportjába."
+"worried",
+"Réka?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"Mit írtál?!"
+"worried",
+"Haragszol? Bocsi, hogy mindig panaszkodom."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"teasing",
-"Hogy valaki bent ragadt, és segítség kell. 😇",
-"Hogy valaki bent ragadt, és segítség kell."
+"sad",
+"Oké, értem. Jó éjt. 😔",
+"Oké, értem. Jó éjt."
 ]
 ]
 },
@@ -81,52 +82,40 @@
 "segs": [
 [
 "flustered",
-"Réka. Itt állnak a tűzoltók."
+"Bocsi, nem haragszom! Telefonáltam."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"flustered",
-"Most törik be az ajtót."
+"excited",
+"A szomszédom elköltözik, és szabad lesz egy szoba a házunkban."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"cheerful",
-"Szuper! Akkor be tudsz menni. 😎",
-"Szuper! Akkor be tudsz menni."
+"surprised",
+"Komolyan?! Mennyi a bérleti díj?"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"tsukkomi",
-"Az nem az én ajtóm."
+"teasing",
+"Megbeszéltem a főbérlővel. Olcsó, és lassan beszél. 😄",
+"Megbeszéltem a főbérlővel. Olcsó, és lassan beszél."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"surprised",
-"Hát akkor kié?"
-]
-]
-},
-"15": {
-"segs": [
-[
-"sad",
-"A nénié."
-],
-[
-"amused",
-"Most kávét főz nekik."
+"excited",
+"Réka, te vagy a legjobb szomszéd. Már most!"
 ]
 ]
 }

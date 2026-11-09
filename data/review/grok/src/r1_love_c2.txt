@@ -1,20 +1,19 @@
 === r1_love_c2
 kind: chat
-title: 나 언너인데
+title: 방을 잘못 골랐다, 또
 emoji: 📲
-scene: Réka 에게 보낸 줄 알았던 메시지가 Anna 에게 갔다. 그리고 또 갔다
+scene: 토요일 데이트 전날 밤. Réka 에게 보낸 줄 알았던 메시지가 Anna 에게 갔다. 당황해서 또 보낸다
 b: Anna
 register: chat
-twist: 6 chaos
+twist: 5 chaos
 flags: romance
 purpose: love
-goal: 도움 청하기(Segíts!)와 채팅에서 놀랄 때
-expressions: Úristen; Segíts; Ne már
-A | Réka, Anna nagyon cuki! | 레카, 언너 너무 귀여워! | cuki = 귀여운 | emotion=excited at=20:10
-A | Mit írjak neki? | 뭐라고 쓰지? | írjak = 내가 쓸까 | emotion=shy at=20:10
-B | Szia. Anna vagyok. 😄 | 안녕. 나 언너인데. 😄 | … vagyok = 나는 …야 | emotion=teasing at=20:12
-A | Úristen. Rossz chat! | 세상에. 방을 잘못 왔어! | rossz = 잘못된 | emotion=flustered at=20:12
-A | Réka, segíts! Mit mondjak? | 레카, 도와줘! 뭐라고 하지? | segíts = 도와줘 | emotion=flustered at=20:13
-B | Még mindig én vagyok. | 아직도 나야. | még mindig = 아직도 | emotion=tsukkomi at=20:13
-A | Jó. Elköltözöm. | 알았어. 나 이사 갈게. | elköltözöm = 이사 간다 | emotion=sad at=20:14
-B | Ne már! Holnap is cuki leszek. | 에이 왜 그래! 내일도 귀여울게. | ne már = 에이, 그러지 마 | emotion=teasing+gentle at=20:15 stamp=😇
+goal: 무엇을 입을지 묻기(Mit vegyek fel?)와 채팅에서 놀랄 때
+expressions: Úristen; Bocsi; Segíts
+A | Réka, mit vegyek fel szombatra? 😩 | 레카, 토요일에 뭐 입지? 😩 | mit vegyek fel? = 뭘 입을까? | emotion=worried at=20:10
+A | Anna biztos szép lesz. | 언너는 분명 예쁠 거야. | biztos = 분명 | emotion=shy at=20:11
+B | Szia. Ez Anna. 😄 | 안녕. 나 언너야. 😄 | ez = 이것, 이 사람 | emotion=amused at=20:13
+A | Úristen. Bocsi, rossz chat! | 세상에. 미안, 방 잘못 골랐어! | rossz = 잘못된 | emotion=flustered at=20:13
+A | Réka, segíts! Anna mindent látott! 😱 | 레카, 도와줘! 언너가 다 봤어! 😱 | segíts = 도와줘 | emotion=shout at=20:14
+B | Még mindig én vagyok. 😂 | 아직도 나야. 😂 | még mindig = 아직도 | emotion=amused at=20:14
+B | Amúgy a kék pulóver jó. Múlt héten is tetszett. 🙈 | 그나저나 파란 스웨터 좋아. 지난주에도 마음에 들었어. 🙈 | tetszett = 마음에 들었다 | emotion=shy at=20:16 stamp=🙈

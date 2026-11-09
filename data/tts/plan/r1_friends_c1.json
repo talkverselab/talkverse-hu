@@ -8,64 +8,65 @@
 "segs": [
 [
 "cheerful",
-"Szia! Ma vacsora fél hétkor?"
+"Szia! Ma este ráérsz?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Oké, jó!"
+"excited",
+"Igen! Mikor?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Hol vagy? Itt vagyok."
+"cheerful",
+"Fél hatkor a kávézóban?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Mi? Még korán van!"
+"cheerful",
+"Oké, ott leszek! 😊",
+"Oké, ott leszek!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"annoyed",
-"Már elmúlt fél hét!"
+"worried",
+"Hol vagy? Már itt ülök."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Fél hét? Hét és fél, nem?"
+"surprised",
+"Mi? Fél hat, az nem hat harminc?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"annoyed",
-"Nem! Az hat harminc!"
+"tsukkomi",
+"Nem! Fél hat az öt harminc. 😅",
+"Nem! Fél hat az öt harminc."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Jaj. Megettem a vacsorádat is. 😇",
-"Jaj. Megettem a vacsorádat is."
+"flustered",
+"Jaj, futok! Tíz perc!"
 ]
 ]
 }

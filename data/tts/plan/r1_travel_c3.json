@@ -7,9 +7,12 @@
 "1": {
 "segs": [
 [
-"excited",
-"Mindjárt ott vagyok! 🚆",
-"Mindjárt ott vagyok!"
+"cheerful",
+"Megérkeztem!"
+],
+[
+"annoyed",
+"De a szobát csak háromtól kapom."
 ]
 ]
 },
@@ -17,56 +20,61 @@
 "segs": [
 [
 "neutral",
-"Szuper. Melyik vonat?"
+"Na és a bőrönd?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Nem tudom. Gyors. 😄",
-"Nem tudom. Gyors."
+"worried",
+"Az a gond. Hol hagyjam?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Na, hol vagy?"
+"gentle",
+"A szállodában megőrzik. Kérdezd meg!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"worried",
-"Itt minden németül van."
+"excited",
+"Megkérdeztem. Ingyen van! 😊",
+"Megkérdeztem. Ingyen van!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Mi van?"
+"cheerful",
+"Szuper. Akkor gyere ebédelni!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
+"excited",
+"Megyek!"
+],
+[
 "flustered",
-"Figyelj, Bécsben vagyok."
+"Jaj, a pénztárcám a bőröndben maradt."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"amused",
-"Király. Hozz csokit!"
+"gentle",
+"Nem baj, ma én fizetek. 😄",
+"Nem baj, ma én fizetek."
 ]
 ]
 }

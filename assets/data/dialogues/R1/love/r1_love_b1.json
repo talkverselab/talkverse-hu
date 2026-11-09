@@ -10,293 +10,63 @@
  "domain": [
   "love"
  ],
- "title": "결혼식은 언제니",
- "emoji": "🍲",
- "scene": "첫 데이트 장소는 Anna 할머니 댁. 점심 조금이라더니 음식이 끝없이 나온다",
+ "title": "같이요, 따로요?",
+ "emoji": "🍝",
+ "scene": "첫 저녁 식사. 다 먹고 웨이터가 계산서를 가져온다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
-  "C": "Nagymama"
+  "C": "Pincér"
  },
  "register": "mixed",
- "twist": 6,
+ "twist": 7,
  "twist_type": "chaos",
  "flags": [
   "romance"
  ],
- "goal": "어른께 쓰는 말(Csókolom, 3인칭 동사)과 친구에게 쓰는 말 구별",
+ "goal": "식당에서 계산하기(Kérjük a számlát · együtt vagy külön · kártya)",
  "expressions": [
-  "Figyelj",
-  "Légyszi",
-  "Mi van?",
-  "Hát"
+  "Persze",
+  "Izé",
+  "Szóval"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Csak egy kis ebéd lesz a nagymamámnál, ne félj.",
-   "rd": "척 에지 키시 에베드 레쓰 어 너지머맘날, 네 펠이.",
-   "ko": "할머니 댁에서 점심 조금만 먹는 거야, 겁내지 마.",
-   "note": "nagymamámnál = 우리 할머니 댁에서",
+   "speaker": "C",
+   "hu": "Ízlett? Hozhatom a számlát?",
+   "rd": "이즐레트? 호즈허톰 어 쌈라트?",
+   "ko": "맛있게 드셨어요? 계산서 가져다드릴까요?",
+   "note": "ízlett = 입에 맞았다",
    "tags": [],
-   "emotion": "gentle",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "kis",
-     "kis",
-     "키시"
-    ],
-    [
-     "ebéd",
-     "ebéd",
+     "Ízlett",
+     "ízlik",
      ""
     ],
     [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "nagymamámnál",
-     "nagymamám.",
+     "számlát",
+     "számla",
      ""
-    ],
-    [
-     "félj",
-     "fél",
-     "펠"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "C",
-   "hu": "Szia, drágám! Egyél még egy kis gulyást!",
-   "rd": "씨어, 드라감! 에젤 멕 에지 키시 구야슈트!",
-   "ko": "어서 와, 얘야! 굴라시 좀 더 먹어!",
-   "note": "egyél = 먹어",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Szia",
-     "szia",
-     "씨어"
-    ],
-    [
-     "drágám",
-     "drága",
-     "드라가"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "kis",
-     "kis",
-     "키시"
-    ],
-    [
-     "gulyást",
-     "gulyás",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
    "speaker": "A",
-   "hu": "Csókolom! Köszönöm, de már három tányérral ettem.",
-   "rd": "초콜롬! 쾨쐬뇜, 데 마르 하롬 타네럴 에뗌.",
-   "ko": "안녕하세요! 고맙습니다만 벌써 세 그릇 먹었어요.",
-   "note": "csókolom = 어른께 하는 인사",
+   "hu": "Igen, nagyon finom volt. Kérjük a számlát.",
+   "rd": "이겐, 너죤 피놈 볼트. 케르윅 어 쌈라트.",
+   "ko": "네, 아주 맛있었어요. 계산서 주세요.",
+   "note": "kérjük = 저희가 청합니다",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Csókolom",
-     "csókol",
-     ""
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "tányérral",
-     "tányér",
-     ""
-    ],
-    [
-     "ettem",
-     "esz",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "C",
-   "hu": "Az semmi! Anna, hozd a rétest is!",
-   "rd": "어즈 셈미! 언너, 호즈드 어 레테슈트 이시!",
-   "ko": "그건 아무것도 아니야! 언너, 레테시도 가져와!",
-   "note": "hozd = 가져와",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "hozd",
-     "hoz",
-     "호즈"
-    ],
-    [
-     "rétest",
-     "rétes",
-     "레테시"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Figyelj, Anna, segíts, légyszi. Nem bírom.",
-   "rd": "피젤이, 언너, 세기트시, 레지씨. 넴 비롬.",
-   "ko": "야 언너, 좀 도와줘, 제발. 못 먹겠어.",
-   "note": "nem bírom = 못 버티겠어",
-   "tags": [
-    "expr:Figyelj",
-    "expr:Légyszi"
-   ],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "segíts",
-     "segít",
-     "셰기트"
-    ],
-    [
-     "légyszi",
-     "légyszi",
-     ""
-    ],
-    [
-     "bírom",
-     "bír",
-     "비르"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "C",
-   "hu": "Na, és mikor lesz az esküvő? Már kész a torta!",
-   "rd": "너, 에시 미코르 레쓰 어즈 에슈퀴뵈? 마르 케쓰 어 토르터!",
-   "ko": "자, 결혼식은 언제니? 케이크는 벌써 다 됐어!",
-   "note": "esküvő = 결혼식",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Na",
-     "na",
-     "너"
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "esküvő",
-     "esküvő",
-     "에슈퀴뵈"
-    ],
-    [
-     "kész",
-     "kész",
-     "케스"
-    ],
-    [
-     "torta",
-     "torta",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Mi van? Anna, mit mondtál neki rólam?",
-   "rd": "미 번? 언너, 미트 몬드탈 네키 롤럼?",
-   "ko": "뭐? 언너, 나에 대해 뭐라고 말했어?",
-   "note": "rólam = 나에 대해",
-   "tags": [
-    "expr:Mi van?"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Mi van?"
-    ],
-    [
-     "flustered",
-     "Anna, mit mondtál neki rólam?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "mondtál",
-     "mond",
-     "몬드"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Hát... csak azt, hogy ma egy nagyon fontos embert hozok.",
-   "rd": "하트... 척 어즈트, 호지 머 에지 너죤 폰토시 엠베르트 호족.",
-   "ko": "음… 그냥 오늘 아주 중요한 사람을 데려온다고만.",
-   "note": "fontos = 중요한",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "ma",
-     "ma",
-     "머"
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
      "nagyon",
@@ -304,19 +74,199 @@
      "너존"
     ],
     [
-     "fontos",
-     "fontos",
-     "폰토슈"
+     "finom",
+     "finom",
+     "피놈"
     ],
     [
-     "embert",
-     "ember",
-     "엠베르"
+     "volt",
+     "van",
+     "번"
     ],
     [
-     "hozok",
-     "hoz",
-     "호즈"
+     "számlát",
+     "számla",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "hu": "Együtt vagy külön fizetnek?",
+   "rd": "에쥐트 버지 퀼뢴 피제트넥?",
+   "ko": "같이 계산하세요, 따로 하세요?",
+   "note": "külön = 따로",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Együtt",
+     "együtt",
+     "에듀트"
+    ],
+    [
+     "külön",
+     "külön",
+     ""
+    ],
+    [
+     "fizetnek",
+     "fizet",
+     "피제트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Külön, persze.",
+   "rd": "퀼뢴, 페르쎄.",
+   "ko": "따로요, 당연히.",
+   "note": "persze = 당연히",
+   "tags": [
+    "expr:Persze"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Külön",
+     "külön",
+     ""
+    ],
+    [
+     "persze",
+     "persze",
+     "페르쎄"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Persze? Hát jó.",
+   "rd": "페르쎄? 하트 요.",
+   "ko": "당연히? 음, 그래.",
+   "note": "hát jó = 음, 그래",
+   "tags": [
+    "expr:Persze"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Várj, izé, együtt! Együtt fizetünk.",
+   "rd": "바르이, 이제, 에쥐트! 에쥐트 피제튄크.",
+   "ko": "잠깐, 어, 같이요! 같이 낼게요.",
+   "note": "együtt = 같이",
+   "tags": [
+    "expr:Izé"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Várj",
+     "vár",
+     "바르"
+    ],
+    [
+     "izé",
+     "izé",
+     ""
+    ],
+    [
+     "együtt",
+     "együtt",
+     "에듀트"
+    ],
+    [
+     "fizetünk",
+     "fizet",
+     "피제트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "Szóval együtt. Sajnos a kártyája nem megy át.",
+   "rd": "쏘벌 에쥐트. 셔이노시 어 카르탸여 넴 메지 아트.",
+   "ko": "그러니까 같이요. 죄송한데 카드가 안 되네요.",
+   "note": "nem megy át = (결제가) 안 된다",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "együtt",
+     "együtt",
+     "에듀트"
+    ],
+    [
+     "kártyája",
+     "kártyája",
+     ""
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
+    ],
+    [
+     "át",
+     "át",
+     "아트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Semmi baj, majd én. Te a mozit fizeted.",
+   "rd": "셈미 버이, 머이드 엔. 테 어 모지트 피제테드.",
+   "ko": "괜찮아, 내가 낼게. 넌 영화 내.",
+   "note": "majd én = 내가 할게",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "baj",
+     "baj",
+     "버이"
+    ],
+    [
+     "majd",
+     "majd",
+     "머이드"
+    ],
+    [
+     "mozit",
+     "mozi",
+     "모지"
+    ],
+    [
+     "fizeted",
+     "fizet",
+     "피제트"
     ]
    ]
   }

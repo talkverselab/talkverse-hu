@@ -1,20 +1,19 @@
 === r1_travel_b4
 kind: long
-title: 자리 양보
-emoji: 🚋
-scene: 만원 트램. 친절하게 자리를 양보했을 뿐인데 차 안이 시끄러워진다
+title: 제가 말해 줄게요
+emoji: 🚃
+scene: 2번 트램. 국회의사당에서 내려야 해서 옆자리 할머니에게 묻는다
 b: Néni
-c: Bácsi
 register: polite
-twist: 5 chaos
+twist: 8 chaos
 purpose: travel
-goal: 자리 양보하기와 존댓말 명령형(üljön le)
-expressions: Tessék; Elnézést; Mi van?; Nem baj
-A | Tessék, néni, üljön le! | 여기요, 할머니, 앉으세요! | üljön le = 앉으세요 | emotion=polite
-B | Néni? Hány évesnek néz engem? | 할머니요? 내가 몇 살로 보여요? | hány évesnek = 몇 살로 | emotion=annoyed
-A | Elnézést, én csak kedves akartam lenni. | 죄송해요, 그냥 친절하게 하려던 거예요. | akartam = ~하려고 했다 | emotion=flustered
-C | Ha ő nem akar, leülök én. | 저분이 싫으면 내가 앉지요. | ha = 만약 | emotion=teasing
-B | Maga csak álljon ott! | 당신은 거기 그냥 서 있어요! | maga = 당신, álljon = 서 계세요 | emotion=annoyed
-C | Mi van? Ki maga, hogy ezt mondja? | 뭐요? 당신이 뭔데 그런 말을 해요? | ki maga = 당신이 뭔데 | emotion=shout
-A | Elnézést... én itt inkább leszállok. | 죄송해요… 저는 여기서 그냥 내릴게요. | leszállok = 내린다 | emotion=flustered
-B | Nem baj, ő a férjem. Mindig ilyen. | 괜찮아요, 내 남편이에요. 늘 이래요. | a férjem = 내 남편 | emotion=amused
+goal: 어디서 내리는지 묻기(Hol kell leszállni?)
+expressions: Elnézést; Majd szólok; ugye
+A | Elnézést, ez a villamos megy a Parlamenthez? | 실례합니다, 이 트램 국회의사당 가요? | megy = 가다 | emotion=polite
+B | Igen, kedvesem. Négy megálló. | 네, 얘야. 네 정거장이에요. | kedvesem = 얘야(다정한 호칭) | emotion=gentle
+A | Köszönöm! Honnan tudom, hogy hol kell leszállni? | 감사합니다! 어디서 내려야 하는지 어떻게 알아요? | leszáll = 내리다 | emotion=worried
+B | Majd szólok. Turista? | 내가 말해 줄게요. 관광객이에요? | majd szólok = 나중에 말해 줄게요 | emotion=gentle+cheerful
+A | Igen, {country}ból jöttem. | 네, {country}에서 왔어요. | -ból/-ből = ~에서 | emotion=shy
+B | Ó, messziről! Szép Budapest, ugye? | 아, 멀리서 왔네요! 부다페스트 예쁘죠? | ugye = 그렇죠? | emotion=cheerful
+A | Nagyon szép, főleg a Duna. | 아주 예뻐요, 특히 도나우강요. | főleg = 특히 | emotion=cheerful
+B | Jaj, elment a megállója! És az enyém is. | 아이고, 내릴 정거장 지나갔네! 내 것도. | az enyém = 내 것 | emotion=flustered+amused

@@ -5,355 +5,343 @@
  "kind": "long",
  "draft": true,
  "purpose": [
-  "making_friends",
-  "media"
+  "making_friends"
  ],
  "domain": [
   "friends"
  ],
- "title": "글자 하나 차이",
- "emoji": "💋",
- "scene": "Réka 네 집에 처음 가는 날. 어머니께 드릴 인사를 현관 앞에서 연습했는데",
+ "title": "레카의 생일",
+ "emoji": "🎂",
+ "scene": "Réka 의 생일 저녁. 현관에서 손수 만든 작은 선물을 건넨다",
  "speakers": {
   "A": "{name}",
-  "B": "Réka",
-  "C": "Réka anyukája"
+  "B": "Réka"
  },
- "register": "mixed",
- "twist": 6,
- "twist_type": "slip",
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "emotion",
  "flags": [],
- "goal": "어른께 드리는 인사 csókolom 과 -lom/-lak 구별",
+ "goal": "생일 축하·선물 건네기(Boldog szülinapot · Ez neked)",
  "expressions": [
-  "Figyelj",
-  "Nyugi",
-  "Oké",
-  "ugye",
-  "Semmi baj",
-  "izé"
+  "Boldog szülinapot",
+  "Ez neked",
+  "Nyisd ki"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Figyelj, anyámnak azt mondod: csókolom. Ez fontos.",
-   "rd": "피젤이, 어냠넉 어즈트 몬도드: 초콜롬. 에즈 폰토시.",
-   "ko": "야, 우리 엄마한테는 「초콜롬」이라고 해. 이거 중요해.",
-   "note": "csókolom = 어른께 드리는 인사",
-   "tags": [
-    "expr:Figyelj"
-   ],
-   "emotion": "worried",
+   "hu": "Szia! Gyere be, mindenki itt van már.",
+   "rd": "씨어! 제레 베, 민덴키 이트 번 마르.",
+   "ko": "안녕! 들어와, 다들 벌써 와 있어.",
+   "note": "gyere be = 들어와",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Szia",
+     "szia",
+     "씨어"
     ],
     [
-     "anyámnak",
-     "anyám",
-     "언얌"
+     "be",
+     "be",
+     "베"
     ],
     [
-     "mondod",
-     "mond",
-     "몬드"
+     "itt",
+     "itt",
+     "이트"
     ],
     [
-     "csókolom",
-     "csókol",
-     ""
+     "van",
+     "van",
+     "번"
     ],
     [
-     "fontos",
-     "fontos",
-     "폰토슈"
+     "már",
+     "már",
+     "마르"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Csókolom? De az nem azt jelenti, hogy csók?",
-   "rd": "초콜롬? 데 어즈 넴 어즈트 옐렌티, 호지 촉?",
-   "ko": "초콜롬? 근데 그거 「키스」라는 뜻 아니야?",
-   "note": "csók = 키스",
-   "tags": [],
-   "emotion": "surprised",
+   "hu": "Boldog szülinapot, Réka! Ez neked.",
+   "rd": "볼독 쓀리너포트, 레커! 에즈 네케드.",
+   "ko": "생일 축하해, 레카! 이거 너 줄 거야.",
+   "note": "ez neked = 이거 너한테",
+   "tags": [
+    "expr:Boldog szülinapot",
+    "expr:Ez neked"
+   ],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Csókolom",
-     "csókol",
-     ""
+     "Boldog",
+     "boldog",
+     "볼도그"
     ],
     [
-     "jelenti",
-     "jelent",
-     "옐렌트"
-    ],
-    [
-     "csók",
-     "csók",
-     ""
+     "szülinapot",
+     "szülinap",
+     "쓸리넙"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "De igen, de így köszönünk a néniknek. Nyugi, ne gondolkodj!",
-   "rd": "데 이겐, 데 이지 쾨쐬뉜크 어 네닉넥. 뉴기, 네 곤돌코드이!",
-   "ko": "맞아, 근데 어른들께 그렇게 인사해. 진정해, 생각하지 마!",
-   "note": "köszön = 인사하다",
-   "tags": [
-    "expr:Nyugi"
-   ],
-   "emotion": "gentle",
+   "hu": "Jaj, nem kellett volna! Mi ez?",
+   "rd": "여이, 넴 켈레트 볼너! 미 에즈?",
+   "ko": "어머, 이럴 필요 없었는데! 이게 뭐야?",
+   "note": "nem kellett volna = 안 그래도 됐는데",
+   "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "igen",
-     "igen",
-     "이겐"
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "így",
-     "így",
-     "이지"
+     "kellett",
+     "kell",
+     "켈"
     ],
     [
-     "köszönünk",
-     "köszön",
-     "쾨쇠니"
-    ],
-    [
-     "néniknek",
-     "néni",
-     ""
-    ],
-    [
-     "gondolkodj",
-     "gondol",
-     "곤돌"
+     "volna",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Oké. Csókolom, csókolom, csókolom.",
-   "rd": "오케. 초콜롬, 초콜롬, 초콜롬.",
-   "ko": "알았어. 초콜롬, 초콜롬, 초콜롬.",
-   "note": "외워 두기",
+   "hu": "Nyisd ki! De ne nevess ki.",
+   "rd": "니슈드 키! 데 네 네베시 키.",
+   "ko": "열어 봐! 근데 비웃지 마.",
+   "note": "nyisd ki = 열어 봐",
    "tags": [
-    "expr:Oké"
+    "expr:Nyisd ki"
    ],
-   "emotion": "worried",
+   "emotion": "shy",
    "lemmas": [
     [
-     "Oké",
-     "oké",
-     "오케"
+     "Nyisd",
+     "nyit",
+     "니트"
     ],
     [
-     "csókolom",
-     "csókol",
+     "ki",
+     "ki",
+     "키"
+    ],
+    [
+     "nevess",
+     "nevess",
      ""
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "C",
-   "hu": "Jaj, de jó, hogy jöttél! Te vagy {name}, ugye?",
-   "rd": "여이, 데 요, 호지 요뗄! 테 버지 {name}, 우제?",
-   "ko": "어머, 와 줘서 반갑다! 네가 {name}, 맞지?",
-   "note": "de jó = 참 잘됐다",
-   "tags": [
-    "expr:ugye"
-   ],
-   "emotion": "cheerful",
+   "speaker": "B",
+   "hu": "Egy kis könyv? Kézzel írtad?",
+   "rd": "에지 키시 쾨니브? 케젤 이르터드?",
+   "ko": "작은 책? 손으로 쓴 거야?",
+   "note": "kézzel = 손으로",
+   "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "kis",
+     "kis",
+     "키시"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "könyv",
+     "könyv",
+     "쾨니브"
     ],
     [
-     "jöttél",
-     "jön",
-     "왼"
+     "írtad",
+     "írt",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Igen! Csókollak!",
-   "rd": "이겐! 초콜럭!",
-   "ko": "네! 키스할게!",
-   "note": "csókollak = 내가 너에게 키스한다",
+   "hu": "Igen, a kedvenc magyar szavaim. Te tanítottad őket.",
+   "rd": "이겐, 어 케드벤츠 머져르 써버임. 테 터니토떠드 외케트.",
+   "ko": "응, 내가 좋아하는 헝가리어 단어들. 네가 가르쳐 준 거야.",
+   "note": "kedvenc = 가장 좋아하는",
    "tags": [],
-   "emotion": "excited",
+   "emotion": "shy",
    "lemmas": [
     [
      "Igen",
      "igen",
      "이겐"
+    ],
+    [
+     "kedvenc",
+     "kedvenc",
+     "케드벤츠"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "szavaim",
+     "szavaim",
+     ""
+    ],
+    [
+     "tanítottad",
+     "tanít",
+     "터니트"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "C",
-   "hu": "Hű. Hát, köszönöm?",
-   "rd": "휘. 하트, 쾨쐬뇜?",
-   "ko": "어머. 음, 고마워?",
-   "note": "hát = 음",
+   "speaker": "B",
+   "hu": "Nézzük: \"pogácsa\", \"mindjárt\", \"ne már\"...",
+   "rd": "네쥑: \"포가처\", \"민드야르트\", \"네 마르\"...",
+   "ko": "어디 보자, 「포가차」, 「금방」, 「아 진짜」…",
+   "note": "nézzük = 보자",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Hű",
-     "hű",
+     "Nézzük",
+     "néz",
+     "네즈"
+    ],
+    [
+     "pogácsa",
+     "pogácsa",
      ""
     ],
     [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "mindjárt",
+     "mindjárt",
+     "민드야르트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Jaj, ne! Csókolom, nem csókollak!",
-   "rd": "여이, 네! 초콜롬, 넴 초콜럭!",
-   "ko": "아이고, 안 돼! 초콜롬이지, 초콜라크가 아니고!",
-   "note": "-lak = 내가 너를",
-   "tags": [],
-   "emotion": "shout",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "csókollak",
-     "csókol",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 9,
    "speaker": "A",
-   "hu": "Mi a különbség? Csak egy betű!",
-   "rd": "미 어 퀼뢴브섹? 척 에지 베튀!",
-   "ko": "뭐가 달라? 글자 하나인데!",
-   "note": "betű = 글자",
+   "hu": "Mind a te szavaid. Mindig ezeket mondod.",
+   "rd": "민드 어 테 써버이드. 민딕 에제케트 몬도드.",
+   "ko": "전부 네 말이야. 맨날 이 말들 하잖아.",
+   "note": "mindig = 늘",
    "tags": [],
-   "emotion": "flustered",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "különbség",
-     "különbség",
+     "szavaid",
+     "szavaid",
      ""
     ],
     [
-     "betű",
-     "betű",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "C",
-   "hu": "Semmi baj. De a férjem most jön, neki ezt ne mondd!",
-   "rd": "셈미 버이. 데 어 페르옘 모슈트 욘, 네키 에즈트 네 몬드!",
-   "ko": "괜찮아. 근데 남편이 지금 오니까, 그이한텐 하지 마!",
-   "note": "férj = 남편",
-   "tags": [
-    "expr:Semmi baj"
-   ],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Semmi baj."
-    ],
-    [
-     "teasing",
-     "De a férjem most jön, neki ezt ne mondd!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "baj",
-     "baj",
-     "버이"
-    ],
-    [
-     "férjem",
-     "férj",
-     ""
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
-    ],
-    [
-     "mondd",
+     "mondod",
      "mond",
      "몬드"
     ]
    ]
   },
   {
-   "num": 11,
-   "speaker": "A",
-   "hu": "Jó, rendben. Csók, izé, jó napot!",
-   "rd": "요, 렌드벤. 촉, 이제, 요 너포트!",
-   "ko": "네, 알겠어요. 초… 어, 안녕하세요!",
-   "note": "rendben = 알겠습니다",
-   "tags": [
-    "expr:izé"
-   ],
-   "emotion": "flustered",
+   "num": 9,
+   "speaker": "B",
+   "hu": "És az utolsó oldal? \"Barát\"?",
+   "rd": "에시 어즈 우톨쇼 올덜? \"버라트\"?",
+   "ko": "그럼 마지막 쪽은? 「친구」?",
+   "note": "utolsó = 마지막",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "utolsó",
+     "utolsó",
+     "우톨쇼"
     ],
     [
-     "rendben",
-     "rend",
-     "렌드"
+     "oldal",
+     "oldal",
+     "올덜"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Igen. Az első szavam itt Budapesten.",
+   "rd": "이겐. 어즈 엘쇠 써범 이트 부더페슈텐.",
+   "ko": "응. 부다페스트에서 배운 내 첫 단어.",
+   "note": "első = 첫",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
-     "izé",
-     "izé",
-     ""
+     "szavam",
+     "szó",
+     "쏘"
     ],
     [
-     "napot",
-     "nap",
-     "넙"
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "{name}, most sírni fogok. Ne nézz rám!",
+   "rd": "{name}, 모슈트 시르니 포곡. 네 네즈 람!",
+   "ko": "{name}, 나 울 것 같아. 쳐다보지 마!",
+   "note": "sírni fogok = 울 것이다",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
+     "sírni",
+     "sír",
+     "시르"
+    ],
+    [
+     "fogok",
+     "fog",
+     "포그"
+    ],
+    [
+     "nézz",
+     "néz",
+     "네즈"
     ]
    ]
   }

@@ -9,32 +9,34 @@
 "1": {
 "segs": [
 [
-"worried",
-"Figyelj, jön a néni!"
+"cheerful",
+"Hozol kenyeret hazafelé? 🍞",
+"Hozol kenyeret hazafelé?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Ne nyisd ki az ajtót!"
+"amused",
+"Ez a ház csoportja. 🙂",
+"Ez a ház csoportja."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"annoyed",
-"Megint leves!"
+"flustered",
+"Jaj! Bocsánat, rossz csoport!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"stiff",
-"Kivel beszélsz?"
+"teasing",
+"Semmi baj. Fehéret vagy barnát?"
 ]
 ]
 },
@@ -42,33 +44,36 @@
 "segs": [
 [
 "flustered",
-"Jaj... ez a ház csoportja?!",
-"Jaj, ez a ház csoportja?!"
+"Marika néni, nem kell! 😅",
+"Marika néni, nem kell!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Igen. Én is kérek levest!"
+"cheerful",
+"Már a boltban vagyok. Feri, magának is?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Szép volt. 👏",
-"Szép volt."
+"cheerful",
+"Egy kiflit kérek. Köszönöm!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"stiff",
-"Holnap mindenkinek. Tíz liter."
+"surprised",
+"Mi történt itt?"
+],
+[
+"amused",
+"Én is kérek kiflit."
 ]
 ]
 }

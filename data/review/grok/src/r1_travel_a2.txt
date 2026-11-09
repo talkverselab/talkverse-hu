@@ -1,19 +1,19 @@
 === r1_travel_a2
 kind: short
-title: 다비드가 아니었다
-emoji: ♨️
-scene: 온천 김 속. 안경을 벗은 {name} 이 옆 사람을 룸메이트 Dávid 로 알고 말을 건다
+title: 걸어서 5분
+emoji: 🧭
+scene: 서역(뉘거티)에 가려고 길에서 할아버지에게 길을 묻는다
 b: Bácsi
-register: mixed
-twist: 6 slip
+register: polite
+twist: 8 slip
 purpose: travel
-goal: 편한 말로 부탁하기와 사람을 잘못 봤을 때 사과하기
-expressions: Figyelj; Mennyi kell?; Tessék; Nem baj
-A | Dávid, jó a víz? | 다비드, 물 좋아? | víz = 물 | emotion=cheerful
-B | Jó, jó. Nagyon meleg. | 좋아, 좋아. 아주 따뜻해. | meleg = 따뜻한 | emotion=gentle
-A | Figyelj, éhes vagyok. Van pénzed? | 야, 나 배고파. 돈 있어? | figyelj = 야, 있잖아(말 꺼낼 때) | emotion=cheerful
-B | Van. Mennyi kell? | 있지. 얼마 필요해? | mennyi kell? = 얼마 필요해? | emotion=amused
-A | Ezer forint. Lángosra. | 천 포린트. 랑고시 사 먹게. | -ra = ~에(쓸 곳) | emotion=neutral+cheerful
-B | Tessék. De ki az a Dávid? | 여기. 그런데 다비드가 누구야? | ki = 누구 | emotion=gentle+amused
-A | Jaj, elnézést! Hol a szemüvegem? | 아이고, 죄송합니다! 제 안경 어디 있지? | szemüveg = 안경 | emotion=flustered
-B | Nem baj. Nekem is hozz egy lángost! | 괜찮아. 나도 랑고시 하나 갖다 줘! | hozz = 가져와 | emotion=amused
+goal: 길 묻기(Merre menjek? · Messze van?)
+expressions: Elnézést; Merre menjek; Persze
+A | Elnézést, segítene? | 실례합니다, 좀 도와주시겠어요? | segítene = 도와주시겠어요(Ön) | emotion=polite
+B | Persze. Mit keres? | 그럼요. 뭘 찾으세요? | keres = 찾다 | emotion=gentle
+A | A Nyugati pályaudvart. Messze van? | 서역(뉘거티)요. 멀어요? | pályaudvar = 기차역 | emotion=worried
+B | Nem. Gyalog öt perc. | 아니요. 걸어서 5분이에요. | gyalog = 걸어서 | emotion=gentle
+A | Merre menjek? | 어느 쪽으로 가요? | merre = 어느 쪽으로 | emotion=polite
+B | Egyenesen, aztán balra. | 쭉 가다가 왼쪽으로요. | balra = 왼쪽으로 | emotion=polite
+A | Köszönöm szépen! | 정말 감사합니다! | köszönöm szépen = 정말 감사합니다 | emotion=cheerful
+B | Várjon! Rossz irányba megy. | 잠깐요! 반대쪽으로 가시네요. | irány = 방향 | emotion=surprised+amused

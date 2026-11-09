@@ -7,62 +7,59 @@
 "1": {
 "segs": [
 [
-"gentle",
-"Szia! Alszol?"
+"cheerful",
+"Szia! Szombaton koncert a parkban. Jössz?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"shy",
-"Csak egy kérdés."
+"cheerful",
+"Ingyenes. 🎶",
+"Ingyenes."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"shy",
-"Holnap múzeum? Velem?"
+"worried",
+"Hahó? Látom, hogy olvastad. 😅",
+"Hahó? Látom, hogy olvastad."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Jaj. Túl sokat írok?"
+"sad",
+"Mindegy, nem baj."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"sad",
-"Mindegy. Felejtsd el. 😅",
-"Mindegy. Felejtsd el."
+"excited",
+"Bocsi! Szombaton dolgozom, de kivettem szabadnapot."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Bocsi, elaludtam!"
-],
-[
-"excited",
-"Igen, múzeum!"
+"annoyed",
+"Két órát vártam a főnökre. 😩",
+"Két órát vártam a főnökre."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Nem én írtam. A macskám volt. 😳",
-"Nem én írtam. A macskám volt."
+"surprised",
+"Komolyan? Miattam?"
 ]
 ]
 },
@@ -70,7 +67,11 @@
 "segs": [
 [
 "teasing",
-"A macskád cuki. Ő is jön?"
+"A koncert miatt."
+],
+[
+"shy",
+"Meg egy kicsit miattad."
 ]
 ]
 }

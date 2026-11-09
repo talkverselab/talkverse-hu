@@ -8,12 +8,7 @@
 "segs": [
 [
 "polite",
-"Jó napot!"
-],
-[
-"flustered",
-"Egy jegyet kérek Széke, Székes...",
-"Egy jegyet kérek Széke, Székes"
+"Jó napot! Egy jegyet kérek Egerbe."
 ]
 ]
 },
@@ -21,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Szegedre megy?"
+"Csak oda, vagy oda-vissza?"
 ]
 ]
 },
@@ -29,28 +24,24 @@
 "segs": [
 [
 "flustered",
-"Nem, nem. Székes, izé, fehér...",
-"Nem, nem. Székes, izé, fehér"
+"Oda-vissza, légyszi... izé, legyen szíves.",
+"Oda-vissza, légyszi, izé, legyen szíves."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Ja, Székesfehérvárra kéri?"
+"amused",
+"Hatezer-négyszáz forint."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"Igen, oda!"
-],
-[
-"polite",
-"Mikor indul a vonat?"
+"neutral",
+"Tessék. Mikor indul?"
 ]
 ]
 },
@@ -58,23 +49,19 @@
 "segs": [
 [
 "polite",
-"Sajnos most ment el."
-],
-[
-"amused",
-"Amíg mondta."
+"Három perc múlva, a hatos vágányról."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Jaj!"
+"surprised",
+"Három perc?"
 ],
 [
-"polite",
-"Akkor egy jegyet kérek Győrbe."
+"flustered",
+"Futok!"
 ]
 ]
 }

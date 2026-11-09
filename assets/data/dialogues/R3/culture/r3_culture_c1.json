@@ -11,9 +11,9 @@
  "domain": [
   "culture"
  ],
- "title": "판매 중인 사람",
- "emoji": "🏷️",
- "scene": "토요일에 Réka 의 벼룩시장 일을 돕는다고 올렸다. 그런데 eladó 는 「판매원」이기도 「판매 중」이기도 하다",
+ "title": "첫 레초",
+ "emoji": "🍅",
+ "scene": "처음 만든 레초(lecsó) 사진을 올렸다. 친구들과 옆집 할머니가 댓글을 단다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
@@ -21,82 +21,140 @@
   "D": "Margit néni"
  },
  "register": "chat",
- "twist": 12,
+ "twist": 16,
  "twist_type": "chaos",
- "flags": [
-  "romance"
- ],
- "goal": "낱말 하나의 두 뜻(eladó)과 값 흥정 말",
+ "flags": [],
+ "goal": "음식 사진 댓글 주고받기(Jól néz ki · Kolbásszal vagy anélkül?)",
  "expressions": [
-  "Úristen",
-  "Mi a baj",
-  "Ne már",
-  "Mi van",
-  "Várjatok"
+  "Hű",
+  "Hát",
+  "Ne már"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Szombaton Rékánál segítek a bolhapiacon. Eladó vagyok! 😄",
-   "rd": "쏨버톤 레카날 세기텍 어 볼허피어촌. 엘러도 버죡! 😄",
-   "ko": "토요일에 레카네 벼룩시장에서 도와! 나 eladó 야! 😄",
-   "note": "eladó = 판매원 / 팔려고 내놓은",
+   "hu": "Az első lecsóm! 🍅🌶️",
+   "rd": "어즈 엘쇠 레촘! 🍅🌶️",
+   "ko": "내 첫 레초! 🍅🌶️",
+   "note": "lecsó = 파프리카 토마토 스튜",
    "tags": [],
-   "at": "19:00",
+   "at": "19:30",
    "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Szombaton",
-     "szombat",
-     "솜바트"
-    ],
-    [
-     "segítek",
-     "segít",
-     "셰기트"
-    ],
-    [
-     "bolhapiacon",
-     "bolhapiac",
+     "lecsóm",
+     "lecsóm",
      ""
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Úristen, tényleg ezt írtad ki? 😂",
-   "rd": "우리슈텐, 테닐렉 에즈트 이르터드 키? 😂",
-   "ko": "세상에, 진짜 그렇게 올렸어? 😂",
-   "note": "kiír = 써서 올리다",
+   "hu": "Hű! Kolbásszal vagy anélkül?",
+   "rd": "휘! 콜바썰 버지 어넬퀼?",
+   "ko": "와! 소시지 넣었어, 안 넣었어?",
+   "note": "anélkül = 그것 없이",
    "tags": [
-    "expr:Úristen"
+    "expr:Hű"
    ],
-   "at": "19:01",
-   "emotion": "amused",
+   "at": "19:32",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
-    ],
-    [
-     "tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "írtad",
-     "írt",
+     "Hű",
+     "hű",
      ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Anélkül. Kolbász nem volt itthon.",
+   "rd": "어넬퀼. 콜바쓰 넴 볼트 이트혼.",
+   "ko": "안 넣었어. 집에 소시지가 없었어.",
+   "note": "itthon = 집에",
+   "tags": [],
+   "at": "19:33",
+   "emotion": "gentle",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "itthon",
+     "itthon",
+     "이트혼"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Akkor ez csak paprikás paradicsom. 😏",
+   "rd": "어꼬르 에즈 척 퍼프리카시 퍼러디촘. 😏",
+   "ko": "그럼 이건 그냥 파프리카 넣은 토마토네. 😏",
+   "note": "paradicsom = 토마토",
+   "tags": [],
+   "at": "19:33",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "paprikás",
+     "paprikás",
+     ""
+    ],
+    [
+     "paradicsom",
+     "paradicsom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "hu": "Ne hallgass rá! Nagyon jól néz ki. 😍",
+   "rd": "네 헐거시 라! 너죤 욜 네즈 키. 😍",
+   "ko": "쟤 말 듣지 마! 정말 맛있어 보여. 😍",
+   "note": "jól néz ki = 좋아 보인다",
+   "tags": [],
+   "at": "19:35",
+   "emotion": "gentle",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "hallgass",
+     "hallgass",
+     "헐그어시"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "néz",
+     "néz",
+     "네즈"
     ],
     [
      "ki",
@@ -106,437 +164,300 @@
    ]
   },
   {
-   "num": 3,
-   "speaker": "A",
-   "hu": "Igen, miért? Mi a baj?",
-   "rd": "이겐, 미에르트? 미 어 버이?",
-   "ko": "응, 왜? 뭐가 문제야?",
-   "note": "mi a baj? = 뭐가 문제야?",
-   "tags": [
-    "expr:Mi a baj"
-   ],
-   "at": "19:01",
-   "emotion": "surprised",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "miért",
-     "miért",
-     "미에르트"
-    ],
-    [
-     "baj",
-     "baj",
-     "버이"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Eladó az, aki árul, de az is, amit el lehet adni.",
-   "rd": "엘러도 어즈, 어키 아룰, 데 어즈 이시, 어미트 엘 레헤트 어드니.",
-   "ko": "eladó 는 파는 사람이기도 하지만, 팔 수 있는 물건이기도 해.",
-   "note": "el lehet adni = 팔 수 있다",
-   "tags": [],
-   "at": "19:02",
-   "emotion": "amused",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Eladó",
-     "elad",
-     "엘러드"
-    ],
-    [
-     "árul",
-     "ár",
-     "아르"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ],
-    [
-     "lehet",
-     "lehet",
-     "레헤트"
-    ],
-    [
-     "adni",
-     "ad",
-     "어드"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "D",
-   "hu": "Mennyibe kerül, kedvesem? Tud krumplit pucolni?",
-   "rd": "메니베 케륄, 케드베셈? 투드 크룸플리트 푸촐니?",
-   "ko": "얼마유, 얘야? 감자 깎을 줄 아나?",
-   "note": "mennyibe kerül? = 얼마예요?",
-   "tags": [],
-   "at": "19:04",
-   "emotion": "cheerful",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "kerül",
-     "kerül",
-     "케륄"
-    ],
-    [
-     "kedvesem",
-     "kedvesem",
-     ""
-    ],
-    [
-     "krumplit",
-     "krumpli",
-     ""
-    ],
-    [
-     "pucolni",
-     "pucol",
-     ""
-    ]
-   ]
-  },
-  {
    "num": 6,
    "speaker": "A",
-   "hu": "Margit néni! Nem, én nem vagyok eladó!",
-   "rd": "머르기트 네니! 넴, 엔 넴 버죡 엘러도!",
-   "ko": "머르기트 할머니! 아뇨, 저 안 팔아요!",
-   "note": "nem vagyok eladó = 안 판다",
+   "hu": "Köszi, Anna! Legközelebb meghívlak.",
+   "rd": "쾨씨, 언너! 렉쾨젤레브 멕히블럭.",
+   "ko": "고마워, 안나! 다음엔 초대할게.",
+   "note": "meghívlak = 너를 초대한다",
    "tags": [],
-   "at": "19:04",
-   "emotion": "flustered",
+   "at": "19:36",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
-     "Margit",
-     "margit",
-     ""
+     "Köszi",
+     "köszi",
+     "쾨씨"
     ],
     [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "eladó",
-     "elad",
-     "엘러드"
+     "meghívlak",
+     "meghív",
+     "메그히브"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Ötezer! De biciklit nem tud szerelni.",
-   "rd": "외테제르! 데 비칙리트 넴 투드 쎄렐니.",
-   "ko": "5천! 근데 자전거는 못 고쳐.",
-   "note": "szerel = 고치다",
+   "speaker": "D",
+   "hu": "NAGYON SZÉP LECSÓ, KEDVESEM!!!",
+   "rd": "너죤 쎄프 레초, 케드베셈!!!",
+   "ko": "아주 멋진 레초구나, 얘야!!!",
+   "note": "kedvesem = 얘야(다정하게)",
    "tags": [],
-   "at": "19:05",
-   "emotion": "teasing",
+   "at": "19:50",
+   "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
     [
-     "Ötezer",
-     "ötezer",
-     ""
-    ],
-    [
-     "biciklit",
-     "bicikli",
-     ""
-    ],
-    [
-     "tud",
-     "tud",
-     "투드"
-    ],
-    [
-     "szerelni",
-     "szerel",
-     "세렐"
+     "NAGYON",
+     "nagyon",
+     "너존"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "D",
-   "hu": "Hatezer, és adok hozzá bejglit.",
-   "rd": "허테제르, 에시 어독 호자 베익리트.",
-   "ko": "6천, 베이글리도 얹어 주지.",
-   "note": "hozzá = 거기에 더해",
+   "speaker": "A",
+   "hu": "Köszönöm szépen! 😊",
+   "rd": "쾨쐬뇜 쎄펜! 😊",
+   "ko": "정말 감사합니다! 😊",
+   "note": "köszönöm szépen = 정말 감사합니다",
    "tags": [],
-   "at": "19:06",
-   "emotion": "teasing",
+   "at": "19:51",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
-     "Hatezer",
-     "hatezer",
-     ""
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
     ],
     [
-     "adok",
-     "ad",
-     "어드"
-    ],
-    [
-     "bejglit",
-     "bejgli",
-     ""
+     "szépen",
+     "szép",
+     "쎕"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "A",
-   "hu": "Ne már! Várjatok, törlöm!",
-   "rd": "네 마르! 바르여톡, 퇴를룀!",
-   "ko": "아 좀! 잠깐만, 지울게!",
-   "note": "várjatok = 너희 기다려",
-   "tags": [
-    "expr:Ne már",
-    "expr:Várjatok"
-   ],
-   "at": "19:07",
-   "emotion": "flustered",
+   "speaker": "B",
+   "hu": "Miért kiabálsz? 😂",
+   "rd": "미에르트 키어발쓰? 😂",
+   "ko": "왜 소리 질러? 😂",
+   "note": "kiabál = 소리 지르다",
+   "tags": [],
+   "at": "19:51",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "már",
-     "már",
-     "마르"
+     "Miért",
+     "miért",
+     "미에르트"
     ],
     [
-     "törlöm",
-     "törlöm",
+     "kiabálsz",
+     "kiabál",
      ""
     ]
    ]
   },
   {
    "num": 10,
-   "speaker": "B",
-   "hu": "Késő, már negyvenen nézik. Béla bácsi hétezret ad.",
-   "rd": "케쇠, 마르 네지베넨 네직. 벨러 바치 헤테즈레트 어드.",
-   "ko": "늦었어. 벌써 마흔 명이 보고 있어. 벨러 할아버지가 7천 낸대.",
-   "note": "késő = 늦은",
+   "speaker": "D",
+   "hu": "Nem kiabálok. A telefon csinálja.",
+   "rd": "넴 키어발록. 어 텔레폰 치날여.",
+   "ko": "소리 안 질러. 폰이 그러는 거야.",
+   "note": "csinálja = (그것을) 한다",
    "tags": [],
-   "at": "19:08",
-   "emotion": "teasing",
+   "at": "19:55",
+   "emotion": "annoyed",
    "ui": "bubble",
    "lemmas": [
     [
-     "Késő",
-     "késik",
-     "케시크"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "negyvenen",
-     "negyven",
+     "kiabálok",
+     "kiabál",
      ""
     ],
     [
-     "nézik",
-     "néz",
-     "네즈"
+     "telefon",
+     "telefon",
+     "텔레폰"
     ],
     [
-     "bácsi",
-     "bácsi",
-     ""
-    ],
-    [
-     "hétezret",
-     "hétezret",
-     ""
-    ],
-    [
-     "ad",
-     "ad",
-     "어드"
+     "csinálja",
+     "csinál",
+     "치날"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Béla bácsi?! Mi van itt?",
-   "rd": "벨러 바치?! 미 번 이트?",
-   "ko": "벨러 할아버지?! 여기 뭐야?",
-   "note": "bácsi = 아저씨, 할아버지",
-   "tags": [
-    "expr:Mi van"
-   ],
-   "at": "19:08",
+   "hu": "Réka, te ismered Margit nénit?",
+   "rd": "레커, 테 이슈메레드 머르기트 네니트?",
+   "ko": "레카, 너 머르기트 할머니 알아?",
+   "note": "ismered = (그 사람을) 아니",
+   "tags": [],
+   "at": "19:56",
    "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "Béla",
-     "béla",
+     "Réka",
+     "réka",
      ""
     ],
     [
-     "bácsi",
-     "bácsi",
+     "ismered",
+     "ismer",
+     "이슈메르"
+    ],
+    [
+     "nénit",
+     "néni",
      ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "C",
-   "hu": "Ötvenezer.",
-   "rd": "외트베네제르.",
-   "ko": "5만.",
-   "note": "ötvenezer = 5만",
-   "tags": [],
-   "at": "23:11",
-   "emotion": "stiff",
+   "speaker": "B",
+   "hu": "Hát... ő a nagymamám. 🙈",
+   "rd": "하트... 외 어 너지머맘. 🙈",
+   "ko": "음… 우리 할머니야. 🙈",
+   "note": "nagymama = 할머니",
+   "tags": [
+    "expr:Hát"
+   ],
+   "at": "19:57",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Ötvenezer",
-     "ötven",
-     ""
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "nagymamám",
+     "nagy",
+     "너지"
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Anna?!",
-   "rd": "언너?!",
-   "ko": "안나?!",
-   "note": "?! = 깜짝 놀랄 때",
+   "hu": "Mi?! Ő a szomszédom!",
+   "rd": "미?! 외 어 쏨쎄돔!",
+   "ko": "뭐?! 우리 옆집 분인데!",
+   "note": "szomszéd = 이웃",
    "tags": [],
-   "at": "23:12",
+   "at": "19:57",
    "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "Anna",
-     "anna",
-     ""
+     "szomszédom",
+     "szomszéd",
+     "쏨세드"
     ]
    ]
   },
   {
    "num": 14,
-   "speaker": "C",
-   "hu": "Mi van? Eladtam egy rétest.",
-   "rd": "미 번? 엘러드텀 에지 레테슈트.",
-   "ko": "왜? 레테시 하나 팔았거든.",
-   "note": "eladtam = 내가 팔았다",
-   "tags": [
-    "expr:Mi van"
-   ],
-   "at": "23:12",
-   "emotion": "amused",
+   "speaker": "D",
+   "hu": "Tudom, kedvesem. Holnap átviszek egy kis kolbászt.",
+   "rd": "투돔, 케드베셈. 홀너프 아트비쎅 에지 키시 콜바쓰트.",
+   "ko": "알지, 얘야. 내일 소시지 좀 갖다줄게.",
+   "note": "átvisz = 건너가 갖다주다",
+   "tags": [],
+   "at": "20:01",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "Tudom",
+     "tud",
+     "투드"
     ],
     [
-     "rétest",
-     "rétes",
-     "레테시"
+     "kedvesem",
+     "kedvesem",
+     ""
+    ],
+    [
+     "átviszek",
+     "átviszek",
+     ""
+    ],
+    [
+     "kis",
+     "kis",
+     "키시"
+    ],
+    [
+     "kolbászt",
+     "kolbász",
+     ""
     ]
    ]
   },
   {
    "num": 15,
-   "speaker": "B",
-   "hu": "Eladva! Szombaton viheted. 😘",
-   "rd": "엘러드버! 쏨버톤 비헤테드. 😘",
-   "ko": "낙찰! 토요일에 가져가. 😘",
-   "note": "eladva = 팔렸음",
+   "speaker": "C",
+   "hu": "Akkor holnap igazi lecsó lesz? Megyek! 🙋",
+   "rd": "어꼬르 홀너프 이거지 레초 레쓰? 메젝! 🙋",
+   "ko": "그럼 내일 진짜 레초야? 나 갈래! 🙋",
+   "note": "igazi = 진짜",
    "tags": [],
-   "at": "23:13",
+   "at": "20:02",
    "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Eladva",
-     "elad",
-     "엘러드"
+     "Akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
-     "viheted",
-     "visz",
-     "비스"
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "igazi",
+     "igazi",
+     "이거지"
+    ],
+    [
+     "lecsó",
+     "lecsó",
+     ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 16,
-   "speaker": "C",
-   "hu": "Csak szépen csomagold be. 🎁",
-   "rd": "척 쎄펜 초머골드 베. 🎁",
-   "ko": "예쁘게 포장해 줘. 🎁",
-   "note": "csomagold be = 포장해 줘",
-   "tags": [],
-   "at": "23:14",
-   "emotion": "gentle",
+   "speaker": "B",
+   "hu": "Ne már! Akkor én is megyek, meg Bence is. 😂",
+   "rd": "네 마르! 어꼬르 엔 이시 메젝, 멕 벤체 이시. 😂",
+   "ko": "아 좀! 그럼 나도 가. 벤체도. 😂",
+   "note": "meg … is = ~도 또",
+   "tags": [
+    "expr:Ne már"
+   ],
+   "at": "20:03",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
-     "Csak",
-     "csak",
-     "촉"
+     "már",
+     "már",
+     "마르"
     ],
     [
-     "szépen",
-     "szép",
-     "쎕"
-    ],
-    [
-     "csomagold",
-     "csomagol",
-     ""
-    ],
-    [
-     "be",
-     "be",
-     "베"
+     "megyek",
+     "megye",
+     "메예"
     ]
    ]
   }

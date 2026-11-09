@@ -1,19 +1,19 @@
 === r1_travel_c2
 kind: chat
-title: 어디야, 레카
-emoji: 😴
-scene: 에게르행 기차. 같이 가기로 한 Réka 가 답이 없다
+title: 시계 밑에서
+emoji: 🕰️
+scene: 동역에서 Réka 와 만나기로 했다. 기차 시간이 다가오는데 답이 없다
 b: Réka
 register: chat
-twist: 8 ignore
+twist: 7 chaos
 purpose: travel making_friends
-goal: 채팅으로 어디 있는지 묻기와 재촉하기
-expressions: légyszi; Jaj; Bocsi; Mi van?
-A | Hol vagy? Indul a vonat! | 어디야? 기차 출발해! | hol vagy? = 어디야? | emotion=worried at=08:10 read=false
-A | Réka? | 레카? | 부를 때는 이름만 | emotion=worried at=08:12 read=false
-A | Elindult a vonat! | 기차 떠났어! | elindult = 출발했다 | emotion=shout at=08:15 read=false
-A | Jól vagy? Válaszolj, légyszi! | 괜찮아? 답 좀 해 줘! | válaszolj = 답해 | emotion=worried at=08:40 read=false
-A | Jaj. Egyedül megyek Egerbe. | 아이고. 혼자 에게르 가네. | egyedül = 혼자 | emotion=sad at=09:05 read=false
-B | Bocsi, aludtam. 😴 | 미안, 자고 있었어. 😴 | aludtam = 나는 잤다 | emotion=amused at=09:31
-A | Mi van? Hol vagy? | 뭐야? 어디야? | mi van? = 뭐야? | emotion=surprised+annoyed at=09:31
-B | Mögötted ülök. Szép a sapkád. | 네 뒤에 앉아 있어. 모자 예쁘다. | mögötted = 네 뒤에 | emotion=teasing at=09:32
+goal: 채팅으로 위치 알리기와 재촉하기(Hol vagy? · alatt)
+expressions: Bocsi; Ne már
+A | Megérkeztem a Keletibe. Te hol vagy? | 동역 도착했어. 너 어디야? | Keleti = 동역(켈레티) | emotion=cheerful at=09:40 read=false
+A | A nagy óra alatt várok. | 큰 시계 밑에서 기다릴게. | alatt = ~ 아래 | emotion=neutral at=09:41 read=false
+A | Réka? Tíz perc múlva indul a vonat! | 레카? 10분 뒤에 기차 출발해! | múlva = ~ 후에 | emotion=worried at=09:50 read=false
+A | Hívlak! 📞 | 전화할게! 📞 | hívlak = 너한테 전화할게 | emotion=worried at=09:52 read=false
+B | Bocsi! A metróban nincs térerő. | 미안! 지하철에선 신호가 안 터져. | térerő = (휴대폰) 신호 | emotion=flustered at=09:56
+A | Hol vagy most? | 지금 어디야? | most = 지금 | emotion=annoyed at=09:56
+B | A Nyugatiban, az óra alatt. 😅 | 서역에, 시계 밑에. 😅 | Nyugati = 서역(뉘거티) | emotion=flustered at=09:57
+A | Ne már! A vonat innen megy! | 아이 참! 기차는 여기서 출발한다고! | innen = 여기서부터 | emotion=tsukkomi at=09:57

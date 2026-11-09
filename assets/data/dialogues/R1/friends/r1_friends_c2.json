@@ -5,255 +5,228 @@
  "kind": "chat",
  "draft": true,
  "purpose": [
-  "making_friends"
+  "making_friends",
+  "study_abroad"
  ],
  "domain": [
   "friends"
  ],
- "title": "공짜는 싸다는 뜻 아니야?",
- "emoji": "📢",
- "scene": "자전거를 대신 팔아 준다고 중고 앱에 글을 올렸다. Réka 의 전화가 불난다",
+ "title": "누구 영화 볼 사람?",
+ "emoji": "🎬",
+ "scene": "어학원 반 단톡방에 「오늘 영화 볼 사람?」이라고 올렸더니 사람이 자꾸 는다",
  "speakers": {
   "A": "{name}",
-  "B": "Réka"
+  "B": "Réka",
+  "C": "Tanár"
  },
  "register": "chat",
- "twist": 8,
+ "twist": 7,
  "twist_type": "chaos",
  "flags": [],
- "goal": "채팅으로 상황 묻기, ingyen(공짜) 구별",
+ "goal": "단체방에 제안하기(Ki jön…?)와 시간 알리기",
  "expressions": [
-  "Figyelj",
-  "Nem tudom",
-  "Jaj"
+  "Ki jön",
+  "Sziasztok",
+  "Szuper"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Figyelj, miért hívnak engem?",
-   "rd": "피젤이, 미에르트 히브넉 엔겜?",
-   "ko": "야, 왜 사람들이 나한테 전화해?",
-   "note": "hívnak = (사람들이) 전화한다",
+   "speaker": "A",
+   "hu": "Sziasztok! Ki jön ma moziba? 🎬",
+   "rd": "씨어쓰톡! 키 욘 머 모지버? 🎬",
+   "ko": "얘들아! 오늘 누구 영화 보러 갈래? 🎬",
+   "note": "sziasztok = 얘들아(여럿에게 인사)",
    "tags": [
-    "expr:Figyelj"
+    "expr:Ki jön",
+    "expr:Sziasztok"
    ],
-   "at": "10:12",
-   "emotion": "annoyed",
+   "at": "18:02",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Sziasztok",
+     "sziasztok",
+     "씨어스톡"
     ],
     [
-     "miért",
-     "miért",
-     "미에르트"
+     "jön",
+     "jön",
+     "왼"
     ],
     [
-     "hívnak",
-     "hív",
-     "히브"
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "moziba",
+     "mozi",
+     "모지"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Kik? Nem tudom.",
-   "rd": "킥? 넴 투돔.",
-   "ko": "누가? 몰라.",
-   "note": "kik = 누구들",
-   "tags": [
-    "expr:Nem tudom"
-   ],
-   "at": "10:13",
-   "emotion": "flustered",
+   "speaker": "B",
+   "hu": "Én! Hánykor?",
+   "rd": "엔! 하니코르?",
+   "ko": "나! 몇 시?",
+   "note": "hánykor = 몇 시에",
+   "tags": [],
+   "at": "18:03",
+   "emotion": "excited",
    "ui": "bubble",
-   "lemmas": [
-    [
-     "Kik",
-     "ki",
-     "키"
-    ],
-    [
-     "tudom",
-     "tud",
-     "투드"
-    ]
-   ]
+   "lemmas": []
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "Már tíz ember! Kérik a biciklimet.",
-   "rd": "마르 티즈 엠베르! 케릭 어 비칙리메트.",
-   "ko": "벌써 10명! 내 자전거 달래.",
-   "note": "kérik = 그들이 그걸 달라고 한다",
+   "speaker": "A",
+   "hu": "Hétkor kezdődik a film.",
+   "rd": "헤트코르 케즈되딕 어 필므.",
+   "ko": "7시에 영화 시작해.",
+   "note": "kezdődik = 시작한다",
    "tags": [],
-   "at": "10:13",
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Már tíz ember!"
-    ],
-    [
-     "annoyed",
-     "Kérik a biciklimet."
-    ]
-   ],
+   "at": "18:04",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Már",
-     "már",
-     "마르"
-    ],
-    [
-     "ember",
-     "ember",
-     "엠베르"
-    ],
-    [
-     "biciklimet",
-     "bicikli",
+     "Hétkor",
+     "hétkor",
      ""
+    ],
+    [
+     "kezdődik",
+     "kezdődik",
+     "케즈되디크"
+    ],
+    [
+     "film",
+     "film",
+     "필름"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "A",
-   "hu": "Jaj. Az a hirdetés...",
-   "rd": "여이. 어즈 어 히르데테시...",
-   "ko": "아이고. 그 광고…",
-   "note": "hirdetés = 광고",
+   "speaker": "B",
+   "hu": "Szuper! Hozom Bencét is.",
+   "rd": "쑤페르! 호좀 벤체트 이시.",
+   "ko": "좋아! 벤체도 데려갈게.",
+   "note": "hozom = 데려간다",
    "tags": [
-    "expr:Jaj"
+    "expr:Szuper"
    ],
-   "at": "10:14",
-   "emotion": "worried",
+   "at": "18:05",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "hirdetés",
-     "hirdetés",
-     ""
+     "Szuper",
+     "szuper",
+     "쑤페르"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Milyen hirdetés?! Mit írtál?",
-   "rd": "미옌 히르데테시?! 미트 이르탈?",
-   "ko": "무슨 광고?! 뭐라고 썼어?",
-   "note": "milyen = 어떤",
+   "hu": "És Annát meg Petit. 😄",
+   "rd": "에시 언나트 멕 페티트. 😄",
+   "ko": "그리고 안나랑 페티도. 😄",
+   "note": "meg = ~랑(구어)",
    "tags": [],
-   "at": "10:14",
-   "emotion": "shout",
+   "at": "18:07",
+   "emotion": "excited",
    "ui": "bubble",
-   "lemmas": [
-    [
-     "hirdetés",
-     "hirdetés",
-     ""
-    ],
-    [
-     "írtál",
-     "ír",
-     "이르"
-    ]
-   ]
+   "lemmas": []
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Olcsó bicikli: ingyen. Ez olcsó, nem?",
-   "rd": "올초 비칙리: 인젠. 에즈 올초, 넴?",
-   "ko": "싼 자전거: 공짜. 이게 싸다는 뜻 아니야?",
-   "note": "ingyen = 공짜로",
+   "hu": "Hű, már öt jegy kell!",
+   "rd": "휘, 마르 외트 예지 켈!",
+   "ko": "와, 벌써 표 다섯 장이네!",
+   "note": "jegy = 표",
    "tags": [],
-   "at": "10:15",
-   "emotion": "flustered",
+   "at": "18:08",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "Olcsó",
-     "olcsó",
+     "Hű",
+     "hű",
      ""
     ],
     [
-     "bicikli",
-     "bicikli",
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "jegy",
+     "jegy",
      ""
     ],
     [
-     "ingyen",
-     "ingyen",
-     ""
+     "kell",
+     "kell",
+     "켈"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Nem! Az nulla!",
-   "rd": "넴! 어즈 눌러!",
-   "ko": "아니! 그건 0이야!",
-   "note": "nulla = 0",
+   "speaker": "C",
+   "hu": "Én is megyek! Jó gyakorlás. 😊",
+   "rd": "엔 이시 메젝! 요 져코를라시. 😊",
+   "ko": "나도 갈게! 좋은 연습이야. 😊",
+   "note": "gyakorlás = 연습",
    "tags": [],
-   "at": "10:15",
-   "emotion": "tsukkomi",
+   "at": "18:10",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "nulla",
-     "nulla",
+     "megyek",
+     "megye",
+     "메예"
+    ],
+    [
+     "gyakorlás",
+     "gyakorlás",
      ""
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Most száz ember áll a háznál. 😱",
-   "rd": "모슈트 싸즈 엠베르 알 어 하즈날. 😱",
-   "ko": "지금 백 명이 집 앞에 서 있어. 😱",
-   "note": "száz = 백",
+   "speaker": "A",
+   "hu": "Úristen, a tanár is jön?! 😳",
+   "rd": "우리슈텐, 어 터나르 이시 욘?! 😳",
+   "ko": "세상에, 선생님도 와?! 😳",
+   "note": "úristen = 세상에",
    "tags": [],
-   "at": "10:31",
-   "stamp": "😱",
-   "emotion": "annoyed",
+   "at": "18:10",
+   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Most",
-     "most",
-     "모슈트"
+     "Úristen",
+     "úristen",
+     "우리슈텐"
     ],
     [
-     "ember",
-     "ember",
-     "엠베르"
+     "tanár",
+     "tanár",
+     "터나르"
     ],
     [
-     "áll",
-     "áll",
-     "알"
-    ],
-    [
-     "háznál",
-     "ház",
-     "하즈"
+     "jön",
+     "jön",
+     "왼"
     ]
    ]
   }

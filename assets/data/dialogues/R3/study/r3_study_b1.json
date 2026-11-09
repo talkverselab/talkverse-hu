@@ -10,55 +10,45 @@
  "domain": [
   "study"
  ],
- "title": "보내기 버튼",
+ "title": "교수님께 메일 쓰기",
  "emoji": "📧",
- "scene": "기숙사 방. 코바치 교수에게 마감을 늘려 달라는 메일을 쓴다. Réka 가 옆에서 거든다",
+ "scene": "아파서 보고서를 못 냈다. Réka 와 함께 코바치 교수님께 기한 연장을 부탁하는 메일을 쓴다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
   "C": "Kovács"
  },
- "register": "casual",
+ "register": "mixed",
  "twist": 15,
- "twist_type": "slip",
+ "twist_type": "chaos",
  "flags": [],
- "goal": "교수에게 쓰는 격식 표현(Tisztelt…, Kérem szépen)과 반말 표현의 차이",
+ "goal": "격식 있는 메일 쓰기(Tisztelt … Úr! · kaphatnék-e · Tisztelettel)",
  "expressions": [
-  "Figyelj",
-  "Nem baj",
-  "Tisztelt",
-  "Kérem szépen",
-  "Várj",
-  "Puszi",
-  "Durva"
+  "Persze",
+  "Ne már",
+  "Naná",
+  "Úristen"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Figyelj, segíts. Kovács professzornak kell írnom egy e-mailt.",
-   "rd": "피젤이, 세기트시. 코바치 프로페쏘르넉 켈 이르놈 에지 에-머일트.",
-   "ko": "야, 좀 도와줘. 코바치 교수님께 메일 써야 해.",
-   "note": "kell írnom = 내가 써야 한다",
-   "tags": [
-    "expr:Figyelj"
-   ],
+   "hu": "Réka, segítesz? Levelet kell írnom Kovács professzornak.",
+   "rd": "레커, 세기테쓰? 레벨레트 켈 이르놈 코바치 프로페쏘르넉.",
+   "ko": "레카, 도와줄래? 코바치 교수님께 메일 써야 해.",
+   "note": "levél = 편지, 메일",
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Réka",
+     "réka",
+     ""
     ],
     [
-     "segíts",
+     "segítesz",
      "segít",
      "셰기트"
-    ],
-    [
-     "professzornak",
-     "professzor",
-     ""
     ],
     [
      "kell",
@@ -71,8 +61,8 @@
      ""
     ],
     [
-     "mailt",
-     "mailt",
+     "professzornak",
+     "professzor",
      ""
     ]
    ]
@@ -80,259 +70,114 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Miért? Mit csináltál?",
-   "rd": "미에르트? 미트 치날탈?",
-   "ko": "왜? 뭐 했는데?",
-   "note": "csináltál = 네가 했다",
-   "tags": [],
-   "emotion": "teasing",
+   "hu": "Persze. Mit akarsz kérni tőle?",
+   "rd": "페르쎄. 미트 어커르쓰 케르니 퇼레?",
+   "ko": "물론. 뭘 부탁하려고?",
+   "note": "tőle = 그에게서",
+   "tags": [
+    "expr:Persze"
+   ],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Miért",
-     "miért",
-     "미에르트"
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "csináltál",
-     "csinál",
-     "치날"
+     "akarsz",
+     "akar",
+     "어커르"
+    ],
+    [
+     "kérni",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Semmit, és ez a baj. A dolgozat péntekre kell, és még nincs kész.",
-   "rd": "셈미트, 에시 에즈 어 버이. 어 돌고저트 펜텍레 켈, 에시 멕 닌치 케쓰.",
-   "ko": "아무것도. 그게 문제야. 보고서가 금요일까지인데 아직 안 끝났어.",
-   "note": "péntekre = 금요일까지",
+   "hu": "Egy hét haladékot a dolgozatra. Beteg voltam.",
+   "rd": "에지 헤트 헐러데코트 어 돌고저트러. 베텍 볼텀.",
+   "ko": "보고서 일주일 연장. 아팠거든.",
+   "note": "haladék = 유예, 연장",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "sad",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "hét",
+     "hét",
+     "헤트"
     ],
     [
-     "dolgozat",
+     "haladékot",
+     "haladék",
+     ""
+    ],
+    [
+     "dolgozatra",
      "dolgozat",
      ""
     ],
     [
-     "péntekre",
-     "péntek",
-     ""
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "nincs",
-     "nincs",
-     "닌치"
-    ],
-    [
-     "kész",
-     "kész",
-     "케스"
+     "voltam",
+     "volt",
+     "볼트"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Nem baj. Kérj még egy hetet.",
-   "rd": "넴 버이. 케르이 멕 에지 헤테트.",
-   "ko": "괜찮아. 일주일 더 달라고 해.",
-   "note": "kérj = 부탁해",
-   "tags": [
-    "expr:Nem baj"
-   ],
-   "emotion": "gentle",
+   "hu": "Oké. Hogyan kezdted?",
+   "rd": "오케. 호젼 케즈드테드?",
+   "ko": "오케이. 어떻게 시작했어?",
+   "note": "hogyan = 어떻게",
+   "tags": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "hetet",
-     "hete",
-     ""
+     "kezdted",
+     "kezd",
+     "케즈드"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "De hogy kezdjem? Szia, tanár úr?",
-   "rd": "데 호지 케즈드옘? 씨어, 터나르 우르?",
-   "ko": "근데 어떻게 시작하지? 야, 교수님?",
-   "note": "hogy kezdjem? = 어떻게 시작할까?",
+   "hu": "Szia, Tanár Úr!",
+   "rd": "씨어, 터나르 우르!",
+   "ko": "안녕, 교수님!",
+   "note": "szia = 안녕(친구끼리)",
    "tags": [],
-   "emotion": "worried",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "kezdjem",
-     "kezd",
-     "케즈드"
-    ],
-    [
-     "tanár",
-     "tanár",
-     "터나르"
-    ],
-    [
-     "úr",
-     "úr",
-     "우르"
+     "Szia",
+     "szia",
+     "씨어"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Jaj, ne! Úgy kell: Tisztelt Professzor Úr!",
-   "rd": "여이, 네! 우지 켈: 티쓰텔트 프로페쏘르 우르!",
-   "ko": "아이고, 안 돼! 이렇게 해야지: 존경하는 교수님께!",
-   "note": "tisztelt = 존경하는(편지 첫머리)",
+   "hu": "Szia? Ne már, írd azt: Tisztelt Kovács Professzor Úr!",
+   "rd": "씨어? 네 마르, 이르드 어즈트: 티쓰텔트 코바치 프로페쏘르 우르!",
+   "ko": "「안녕」? 아 좀, 이렇게 써: 존경하는 코바치 교수님께!",
+   "note": "tisztelt = 존경하는",
    "tags": [
-    "expr:Tisztelt"
+    "expr:Ne már"
    ],
    "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "kell",
-     "kell",
-     "켈"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Tisztelt Professzor Úr! Kérem szépen, adjon még egy hetet.",
-   "rd": "티쓰텔트 프로페쏘르 우르! 케렘 쎄펜, 어드욘 멕 에지 헤테트.",
-   "ko": "존경하는 교수님께! 부디 일주일만 더 주세요.",
-   "note": "kérem szépen = 부디",
-   "tags": [
-    "expr:Tisztelt",
-    "expr:Kérem szépen"
-   ],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Tisztelt",
-     "tisztelt",
-     ""
-    ],
-    [
-     "szépen",
-     "szép",
-     "쎕"
-    ],
-    [
-     "adjon",
-     "ad",
-     "어드"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "hetet",
-     "hete",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Várj, add ide, én is írok egyet. Csak viccből.",
-   "rd": "바르이, 어드 이데, 엔 이시 이록 에제트. 척 비츠뵐.",
-   "ko": "잠깐, 줘 봐, 나도 하나 써 볼게. 장난으로.",
-   "note": "viccből = 장난으로",
-   "tags": [
-    "expr:Várj"
-   ],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "add",
-     "ad",
-     "어드"
-    ],
-    [
-     "ide",
-     "ide",
-     "이데"
-    ],
-    [
-     "írok",
-     "ír",
-     "이르"
-    ],
-    [
-     "viccből",
-     "vicc",
-     "비츠"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Mit írtál? Mutasd!",
-   "rd": "미트 이르탈? 무터슈드!",
-   "ko": "뭐 썼어? 보여 줘!",
-   "note": "mutasd = 보여 줘",
-   "tags": [],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "írtál",
-     "ír",
-     "이르"
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Szia Kovács, ne már, adj még egy hetet! Puszi!",
-   "rd": "씨어 코바치, 네 마르, 어드이 멕 에지 헤테트! 푸씨!",
-   "ko": "안녕 코바치, 아 좀, 일주일만 더 줘! 쪽!",
-   "note": "puszi = 쪽(친구끼리 끝인사)",
-   "tags": [
-    "expr:Puszi"
-   ],
-   "emotion": "teasing",
    "lemmas": [
     [
      "Szia",
@@ -345,14 +190,31 @@
      "마르"
     ],
     [
-     "adj",
-     "ad",
-     "어드"
+     "írd",
+     "ír",
+     "이르"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Jó. Aztán: Kérem, adjon egy hetet.",
+   "rd": "요. 어즈탄: 케렘, 어드욘 에지 헤테트.",
+   "ko": "알았어. 그다음: 일주일 주세요.",
+   "note": "adjon = 주세요(격식)",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "még",
-     "még",
-     "메그"
+     "adjon",
+     "ad",
+     "어드"
     ],
     [
      "hetet",
@@ -362,125 +224,228 @@
    ]
   },
   {
-   "num": 11,
-   "speaker": "A",
-   "hu": "Haha, durva! Na, add vissza, küldöm az enyémet.",
-   "rd": "허허, 두르버! 너, 어드 비써, 퀼됨 어즈 에네메트.",
-   "ko": "하하, 대박! 자, 돌려줘, 내 거 보낼게.",
-   "note": "add vissza = 돌려줘",
-   "tags": [
-    "expr:Durva"
-   ],
-   "emotion": "amused",
+   "num": 8,
+   "speaker": "B",
+   "hu": "Túl rövid. Inkább: Szeretném megkérdezni, kaphatnék-e egy hét haladékot.",
+   "rd": "툴 뢰비드. 인카브: 쎄레트넴 멕케르데즈니, 커프허트넥-에 에지 헤트 헐러데코트.",
+   "ko": "너무 짧아. 차라리: 일주일 연장을 받을 수 있을지 여쭙고 싶습니다.",
+   "note": "kaphatnék-e = 받을 수 있을까요",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Haha",
-     "haha",
+     "Túl",
+     "túl",
+     "툴"
+    ],
+    [
+     "rövid",
+     "rövid",
+     "뢰비드"
+    ],
+    [
+     "megkérdezni",
+     "megkérdez",
+     "메그케르데즈"
+    ],
+    [
+     "kaphatnék",
+     "kap",
+     "커프"
+    ],
+    [
+     "hét",
+     "hét",
+     "헤트"
+    ],
+    [
+     "haladékot",
+     "haladék",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Hű, ez nagyon udvarias. És a végén?",
+   "rd": "휘, 에즈 너죤 우드버리어시. 에시 어 베겐?",
+   "ko": "와, 엄청 정중하다. 그리고 끝에는?",
+   "note": "udvarias = 정중한",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Hű",
+     "hű",
      ""
     ],
     [
-     "durva",
-     "durva",
-     "두르버"
+     "nagyon",
+     "nagyon",
+     "너존"
     ],
     [
-     "add",
-     "ad",
-     "어드"
+     "udvarias",
+     "udvarias",
+     ""
     ],
     [
-     "vissza",
-     "vissza",
-     "비써"
-    ],
-    [
-     "küldöm",
-     "küld",
-     "퀼드"
+     "végén",
+     "vég",
+     "베그"
     ]
    ]
   },
   {
-   "num": 12,
+   "num": 10,
    "speaker": "B",
-   "hu": "Jó, tessék. Küldd el!",
-   "rd": "요, 테쎅. 퀼드 엘!",
-   "ko": "그래, 여기. 보내!",
-   "note": "küldd el = 보내 버려",
+   "hu": "Tisztelettel, és a neved. Puszit ne írj!",
+   "rd": "티쓰텔레뗄, 에시 어 네베드. 푸씨트 네 이르이!",
+   "ko": "「경의를 표하며」, 그리고 네 이름. 「쪽」은 쓰지 마!",
+   "note": "tisztelettel = 경의를 담아",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Tisztelettel",
+     "tisztelet",
+     "티스텔레트"
     ],
     [
-     "tessék",
-     "tessék",
-     "테셰크"
+     "neved",
+     "neved",
+     "네베드"
     ],
     [
-     "el",
-     "el",
-     "엘"
+     "írj",
+     "írj",
+     ""
     ]
    ]
   },
   {
-   "num": 13,
+   "num": 11,
    "speaker": "A",
-   "hu": "Elküldtem.",
-   "rd": "엘퀼드템.",
-   "ko": "보냈어.",
-   "note": "elküldtem = 내가 보냈다",
-   "tags": [],
-   "emotion": "neutral",
+   "hu": "Naná. Na, elküldtem!",
+   "rd": "너나. 너, 엘퀼드템!",
+   "ko": "당연하지. 자, 보냈다!",
+   "note": "elküldtem = 보냈다",
+   "tags": [
+    "expr:Naná"
+   ],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Elküldtem",
+     "Naná",
+     "naná",
+     ""
+    ],
+    [
+     "elküldtem",
      "elküld",
      "엘퀼드"
     ]
    ]
   },
   {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Csatoltad az orvosi igazolást is?",
+   "rd": "처톨터드 어즈 오르보시 이거졸라슈트 이시?",
+   "ko": "진단서도 첨부했어?",
+   "note": "orvosi igazolás = 진단서",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Csatoltad",
+     "csatol",
+     ""
+    ],
+    [
+     "orvosi",
+     "orvosi",
+     ""
+    ],
+    [
+     "igazolást",
+     "igazolás",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Persze, a levél alján van.",
+   "rd": "페르쎄, 어 레벨 얼얀 번.",
+   "ko": "물론, 메일 맨 밑에 있어.",
+   "note": "alján = 바닥에, 밑에",
+   "tags": [
+    "expr:Persze"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Persze",
+     "persze",
+     "페르쎄"
+    ],
+    [
+     "levél",
+     "levél",
+     "레벨"
+    ],
+    [
+     "alján",
+     "alja",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
    "num": 14,
    "speaker": "B",
-   "hu": "Várj. Melyiket küldted el?",
-   "rd": "바르이. 메이케트 퀼드테드 엘?",
-   "ko": "잠깐. 어느 걸 보냈어?",
-   "note": "melyiket = 어느 것을",
-   "tags": [
-    "expr:Várj"
-   ],
+   "hu": "Mutasd. Ez nem igazolás, ez egy lista.",
+   "rd": "무터슈드. 에즈 넴 이거졸라시, 에즈 에지 리슈터.",
+   "ko": "보여 줘. 이거 진단서가 아니라 목록인데.",
+   "note": "lista = 목록",
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
+     "Mutasd",
+     "mutasd",
+     "무터슈트"
     ],
     [
-     "küldted",
-     "küld",
-     "퀼드"
+     "igazolás",
+     "igazolás",
+     ""
     ],
     [
-     "el",
-     "el",
-     "엘"
+     "lista",
+     "lista",
+     "리슈터"
     ]
    ]
   },
   {
    "num": 15,
    "speaker": "A",
-   "hu": "Úristen. A tiédet.",
-   "rd": "우리슈텐. 어 티에데트.",
-   "ko": "세상에. 네 거.",
-   "note": "a tiédet = 네 것을",
-   "tags": [],
+   "hu": "Úristen. Ez a bevásárlólistám: tojás, tej, paprika.",
+   "rd": "우리슈텐. 에즈 어 베바샤를롤리슈탐: 토야시, 테이, 퍼프리커.",
+   "ko": "세상에. 내 장보기 목록이야. 달걀, 우유, 파프리카.",
+   "note": "bevásárlólista = 장보기 목록",
+   "tags": [
+    "expr:Úristen"
+   ],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -489,8 +454,23 @@
      "우리슈텐"
     ],
     [
-     "tiédet",
-     "tiéd",
+     "bevásárlólistám",
+     "bevásárlólistám",
+     ""
+    ],
+    [
+     "tojás",
+     "tojás",
+     ""
+    ],
+    [
+     "tej",
+     "tej",
+     "테이"
+    ],
+    [
+     "paprika",
+     "paprika",
      ""
     ]
    ]
@@ -498,24 +478,52 @@
   {
    "num": 16,
    "speaker": "C",
-   "hu": "Szia, nem adok. Puszi, Kovács",
-   "rd": "씨어, 넴 어독. 푸씨, 코바치",
-   "ko": "안녕, 안 줍니다. 쪽, 코바치",
-   "note": "nem adok = 안 준다",
-   "tags": [
-    "expr:Puszi"
-   ],
-   "emotion": "stiff",
-   "lemmas": [
+   "hu": "Kedves {name}, megkapja a haladékot. És ne felejtse el a tojást!",
+   "rd": "케드베시 {name}, 멕커프여 어 헐러데코트. 에시 네 펠레이트세 엘 어 토야슈트!",
+   "ko": "{name} 씨, 연장해 드리겠습니다. 그리고 달걀 잊지 마세요!",
+   "note": "ne felejtse el = 잊지 마세요(격식)",
+   "tags": [],
+   "emotion": "gentle",
+   "segs": [
     [
-     "Szia",
-     "szia",
-     "씨어"
+     "gentle",
+     "Kedves {name}, megkapja a haladékot."
     ],
     [
-     "adok",
-     "ad",
-     "어드"
+     "teasing",
+     "És ne felejtse el a tojást!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Kedves",
+     "kedves",
+     "케드베슈"
+    ],
+    [
+     "megkapja",
+     "megkap",
+     "메그커프"
+    ],
+    [
+     "haladékot",
+     "haladék",
+     ""
+    ],
+    [
+     "felejtse",
+     "felejt",
+     "펠레이트"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
+    ],
+    [
+     "tojást",
+     "tojás",
+     ""
     ]
    ]
   }

@@ -1,25 +1,24 @@
 === r2_study_c1
 kind: chat
-title: 물음표 하나
-emoji: ❓
-scene: 수업 단톡방. Réka 의 물음표 하나가 저녁 내내 커진다
+title: 스터디 단톡방
+emoji: 👥
+scene: 셋이 시험공부를 같이 하기로 한 단톡방. 「내일 네 시, 도서관」 까지는 순조로웠다
 b: Réka
 c: Anna
-d: Tanárnő
 register: chat
-twist: 7 chaos
+twist: 10 chaos
 purpose: study_abroad
-goal: 소문 전하기(Azt hallottam, hogy…)와 단톡방 반응
-expressions: Nem tudom; Szerintem; Tényleg; Szuper; Komolyan; Durva
-B | Holnap elmarad az óra? | 내일 휴강이야? | elmarad = 취소된다 | emotion=neutral at=18:02
-A | Nem tudom. Szerintem igen. | 몰라. 아마 그럴걸. | szerintem = 내 생각엔 | emotion=neutral at=18:03
-C | Tényleg elmarad? Szuper! | 진짜 휴강이야? 좋다! | tényleg = 정말 | emotion=excited at=18:05
-B | Azt hallottam, hogy egész héten elmarad. | 이번 주 내내 휴강이라고 들었어. | azt hallottam = 그렇게 들었다 | emotion=excited at=18:11
-A | Komolyan? Ki mondta? | 진짜? 누가 그랬어? | komolyan? = 진짜? | emotion=surprised at=18:12
-B | Te mondtad. | 네가 그랬잖아. | te mondtad = 네가 말했다 | emotion=tsukkomi at=18:12
-C | Úristen, azt írják, hogy bezár az egyetem! 😱 | 세상에, 학교가 문 닫는대! 😱 | bezár = 문을 닫다 | emotion=surprised at=18:20
-A | Durva. Akkor már veszem is a repülőjegyet. | 대박. 그럼 비행기표 바로 산다. | veszem = 내가 그것을 산다 | emotion=amused at=18:31
-B | Én meg eladtam a tankönyvemet. | 난 교재 팔았어. | eladtam = 내가 팔았다 | emotion=neutral at=18:33
-D | Jó estét! Holnap nyolckor dolgozat lesz. | 좋은 저녁이에요! 내일 8시에 쪽지시험 봅니다. | dolgozat = 쪽지시험, 보고서 | emotion=polite at=18:40
-C | Tanárnő, Ön is itt van?! | 선생님, 여기 계셨어요?! | Ön is = 당신도(존댓말) | emotion=flustered at=18:41
-D | Mindig itt voltam. A repülőjegy visszaváltható? 😇 | 전 항상 있었어요. 비행기표는 환불되나요? 😇 | visszaváltható = 환불할 수 있는 | emotion=teasing at=18:42 stamp=😇
+goal: 단톡방에서 시간·장소 정하기(Mikor tanulunk? · Melyik könyvtárban?)
+expressions: Sziasztok; Oké; Mindjárt; Jaj
+B | Sziasztok! Mikor tanulunk együtt a vizsgára? | 얘들아! 시험공부 같이 언제 해? | sziasztok = 안녕, 얘들아 | emotion=cheerful at=20:01
+C | Nekem holnap délután jó. | 난 내일 오후 좋아. | délután = 오후 | emotion=cheerful at=20:03
+A | Nekem is. Négykor a könyvtárban? | 나도. 네 시에 도서관? | négykor = 네 시에 | emotion=cheerful at=20:04
+B | Oké! Hozom a jegyzeteimet. | 오케이! 내 필기 가져갈게. | jegyzet = 필기 | emotion=excited at=20:04
+C | Én pedig pogácsát. 😋 | 난 포가차. 😋 | pedig = 그리고(나는) | emotion=teasing at=20:05
+A | Itt vagyok, a második emeleten. Hol vagytok? | 나 왔어, 2층이야. 너네 어디야? | emelet = 층 | emotion=cheerful at=16:02
+B | Mi is a második emeleten vagyunk. Nem látunk. 🤔 | 우리도 2층인데. 안 보여. 🤔 | nem látunk = (너를) 못 보겠다 | emotion=surprised at=16:04
+C | Melyik könyvtárban vagy? | 너 어느 도서관이야? | melyik = 어느 | emotion=worried at=16:04
+A | Hát az egyetemiben. Ti nem? | 당연히 대학 도서관이지. 너넨 아니야? | egyetemi = 대학의 | emotion=surprised at=16:05
+B | Mi a kerületiben vagyunk, a kollégium mellett. Anna most indul hozzád. 😂 | 우린 기숙사 옆 구립 도서관이야. 언너가 지금 너한테 출발했어. 😂 | kerületi = 구(區)의 | emotion=amused at=16:05
+A | Jaj, ne! Én is mindjárt indulok hozzátok! | 아, 안 돼! 나도 금방 너네한테 출발하는데! | hozzátok = 너희에게로 | emotion=flustered at=16:06
+C | Állj! Maradj ott, én megyek. A pogácsa velem van. 😇 | 멈춰! 거기 있어, 내가 갈게. 포가차는 나한테 있어. 😇 | állj = 멈춰 | emotion=shout at=16:06 stamp=😇

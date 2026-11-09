@@ -8,24 +8,24 @@
 "1": {
 "segs": [
 [
-"worried",
-"Anna, segítesz? Öt perc múlva kezdem az előadást, és remeg a kezem."
+"gentle",
+"Ideges vagy?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"gentle",
-"Nyugi, jó lesz. A gépen van a fájl, ugye?"
+"worried",
+"Egy kicsit. Hármas lett a dolgozatom, és nem értem, miért."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Igen, tegnap a te gépedről másoltam át."
+"gentle",
+"Kérdezd meg nyugodtan. A professzor kedves, csak szigorú."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "worried",
-"Az én gépemről? Várj, melyik mappából?"
+"Jó, bemegyek. Várj meg, légyszi!"
 ]
 ]
 },
@@ -41,103 +41,99 @@
 "segs": [
 [
 "polite",
-"Tessék, {name}, kezdheti. Mi a téma?"
+"Jöjjön be! Miben segíthetek?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"stiff",
-"A téma a modern magyar festészet. Nézzük az első képet!"
+"polite",
+"Jó napot, Professzor Úr. A dolgozatomról szeretnék kérdezni."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Jaj, ne! Te jó ég, ez az én krumplim!"
+"gentle",
+"Persze. Mi a probléma?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Krumpli?"
-],
-[
-"polite",
-"Folytassa, kérem."
+"worried",
+"A listán hármas áll a nevem mellett."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"flustered",
-"Igen, izé, a krumpli a magyar lélek."
-],
-[
-"stiff",
-"Egyszerű, de mindenhol ott van."
+"surprised",
+"Hármas? Egy pillanat, megnézem."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"cheerful",
-"Érdekes! És a következő képen?"
+"sad",
+"Szerintem a ragok miatt. Mindig rosszul rakom őket."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"stiff",
-"Az is krumpli."
-],
-[
-"sad",
-"De nézzék: ez már szomorú krumpli."
+"neutral",
+"Melyik sort nézte a listán?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"excited",
-"Zseniális! Harminc éve tanítok, de ilyet még nem láttam."
+"polite",
+"Ezt, a harmadikat."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"cheerful",
-"Szeptemberben Bécsben konferencia lesz. Ezt ott is elő kell adnia."
+"amused",
+"Az a szomszédja."
+],
+[
+"gentle",
+"Ön a negyedik sorban van: ötös."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"surprised",
-"Bécsben, krumpliról?"
-],
-[
-"worried",
-"Anna, most mit csináljak?"
+"excited",
+"Tényleg ötös? Köszönöm szépen!"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"teasing",
-"Semmit. Már beírtam a nevem: én vagyok a társszerző."
+"worried",
+"Na? Mi volt?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"excited",
+"Ötös lett! Csak rossz sort néztem."
 ]
 ]
 }

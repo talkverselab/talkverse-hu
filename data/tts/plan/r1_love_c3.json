@@ -8,40 +8,41 @@
 "segs": [
 [
 "cheerful",
-"Szia! Tetszik a képed. 😊",
-"Szia! Tetszik a képed."
+"Itt vagyok a mozi előtt. Hol vagy?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Köszi! Mit csinálsz?"
+"surprised",
+"Én is a mozi előtt vagyok. Nem látlak!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Kávézom. Te?"
+"cheerful",
+"Piros sapkában integetek. 👋",
+"Piros sapkában integetek."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Én is."
+"worried",
+"Itt senki nem integet. 🤔",
+"Itt senki nem integet."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"teasing",
-"Szép a kék pulóvered."
+"worried",
+"Várj. Melyik moziban vagy?"
 ]
 ]
 },
@@ -49,16 +50,16 @@
 "segs": [
 [
 "surprised",
-"Mi van? Honnan tudod?"
+"A kicsiben, a téren. Te nem? 😳",
+"A kicsiben, a téren. Te nem?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Nézz hátra. 😄",
-"Nézz hátra."
+"flustered",
+"Én a nagyban, a pláza mellett. Futok!"
 ]
 ]
 },
@@ -66,7 +67,8 @@
 "segs": [
 [
 "teasing",
-"Ne mozogj! Még rajzollak."
+"Ne fuss, megyek. Csak ne integess másnak. 😄",
+"Ne fuss, megyek. Csak ne integess másnak."
 ]
 ]
 }

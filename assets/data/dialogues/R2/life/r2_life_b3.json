@@ -10,62 +10,60 @@
  "domain": [
   "life"
  ],
- "title": "빠른 아주머니",
- "emoji": "🏊",
- "scene": "온천 수영장. Dávid 가 수영 실력을 뽐내는데 수영모 쓴 Marika 아주머니가 지나간다",
+ "title": "2센티만",
+ "emoji": "💇",
+ "scene": "미용실에서 돌아왔다. 「2센티 잘라 주세요」라고 한 줄 알았는데…",
  "speakers": {
   "A": "{name}",
   "B": "Dávid",
   "C": "Marika néni"
  },
  "register": "mixed",
- "twist": 11,
- "twist_type": "reveal",
+ "twist": 7,
+ "twist_type": "slip",
  "flags": [],
- "goal": "어르신께 쓰는 tetszik 말투(Hogy tetszik lenni?)",
+ "goal": "머리 주문 표현(Csak egy kicsit · Két centit vágjon le)",
  "expressions": [
-  "Gyere",
-  "Persze",
-  "Csókolom",
-  "Hogy tetszik lenni?",
-  "Ne már"
+  "Mi történt",
+  "Csak egy kicsit",
+  "Jól áll"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Gyere, megmutatom, hogy kell gyorsan úszni. Nézd!",
-   "rd": "제레, 멕무터톰, 호지 켈 죠르션 우쓰니. 네즈드!",
-   "ko": "와, 빨리 수영하는 법 보여 줄게. 봐!",
-   "note": "megmutatom = 내가 보여 줄게",
+   "hu": "Szia! Hű, mi történt a hajaddal?",
+   "rd": "씨어! 휘, 미 퇴르텐트 어 허여덜?",
+   "ko": "안녕! 와, 머리 어떻게 된 거야?",
+   "note": "mi történt = 무슨 일이야",
    "tags": [
-    "expr:Gyere"
+    "expr:Mi történt"
    ],
-   "emotion": "excited",
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Szia!"
+    ],
+    [
+     "surprised",
+     "Hű, mi történt a hajaddal?"
+    ]
+   ],
    "lemmas": [
     [
-     "Gyere",
-     "jön",
-     "왼"
+     "Szia",
+     "szia",
+     "씨어"
     ],
     [
-     "megmutatom",
-     "megmutat",
-     "메그무타트"
+     "történt",
+     "történik",
+     "퇴르텐닉"
     ],
     [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "gyorsan",
-     "gyors",
-     "죠르시"
-    ],
-    [
-     "úszni",
-     "úszni",
+     "hajaddal",
+     "hajad",
      ""
     ]
    ]
@@ -73,17 +71,321 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hű, te tényleg gyors vagy!",
-   "rd": "휘, 테 테닐렉 죠르시 버지!",
-   "ko": "와, 너 진짜 빠르다!",
-   "note": "gyors = 빠른",
+   "hu": "Fodrásznál voltam. Ne nézz így!",
+   "rd": "포드라쓰날 볼텀. 네 네즈 이지!",
+   "ko": "미용실 갔다 왔어. 그렇게 보지 마!",
+   "note": "fodrász = 미용사",
    "tags": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
+   "segs": [
+    [
+     "neutral",
+     "Fodrásznál voltam."
+    ],
+    [
+     "shy",
+     "Ne nézz így!"
+    ]
+   ],
    "lemmas": [
     [
-     "Hű",
-     "hű",
+     "Fodrásznál",
+     "fodrász",
      ""
+    ],
+    [
+     "voltam",
+     "volt",
+     "볼트"
+    ],
+    [
+     "nézz",
+     "néz",
+     "네즈"
+    ],
+    [
+     "így",
+     "így",
+     "이지"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Mit mondtál neki?",
+   "rd": "미트 몬드탈 네키?",
+   "ko": "뭐라고 했는데?",
+   "note": "mondtál = 네가 말했다",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "mondtál",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Azt, hogy csak egy kicsit. Két centit.",
+   "rd": "어즈트, 호지 척 에지 키치트. 케트 첸티트.",
+   "ko": "조금만이라고. 2센티.",
+   "note": "csak egy kicsit = 조금만",
+   "tags": [
+    "expr:Csak egy kicsit"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "centit",
+     "centi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "És pontosan hogy mondtad?",
+   "rd": "에시 폰토션 호지 몬드터드?",
+   "ko": "정확히 어떻게 말했는데?",
+   "note": "pontosan = 정확히",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "pontosan",
+     "pontos",
+     "폰토시"
+    ],
+    [
+     "mondtad",
+     "mond",
+     "몬드"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Azt mondtam: két centi legyen.",
+   "rd": "어즈트 몬드텀: 케트 첸티 레젠.",
+   "ko": "\"2센티로 해 주세요\"라고 했지.",
+   "note": "legyen = ~이 되게 해 주세요",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "mondtam",
+     "mond",
+     "몬드"
+    ],
+    [
+     "centi",
+     "centi",
+     ""
+    ],
+    [
+     "legyen",
+     "lesz",
+     "레쓰"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Hát ez az: két centi lett, nem két centit vágott le.",
+   "rd": "하트 에즈 어즈: 케트 첸티 레트, 넴 케트 첸티트 바고트 레.",
+   "ko": "그러니까. 2센티를 자른 게 아니라 2센티가 남았잖아.",
+   "note": "lett = 되었다",
+   "tags": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "centi",
+     "centi",
+     ""
+    ],
+    [
+     "lett",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "vágott",
+     "vág",
+     "바그"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj. Azt kellett volna mondanom: két centit vágjon le.",
+   "rd": "여이. 어즈트 켈레트 볼너 몬더놈: 케트 첸티트 박욘 레.",
+   "ko": "아. \"2센티 잘라 주세요\"라고 했어야 했구나.",
+   "note": "kellett volna = ~했어야 했다",
+   "tags": [],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "kellett",
+     "kell",
+     "켈"
+    ],
+    [
+     "volna",
+     "van",
+     "번"
+    ],
+    [
+     "mondanom",
+     "mond",
+     "몬드"
+    ],
+    [
+     "centit",
+     "centi",
+     ""
+    ],
+    [
+     "vágjon",
+     "vág",
+     "바그"
+    ],
+    [
+     "le",
+     "le",
+     "레"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "hu": "Jó estét! Jaj, de jól áll ez a rövid haj!",
+   "rd": "요 에슈테트! 여이, 데 욜 알 에즈 어 뢰비드 허이!",
+   "ko": "안녕하세요! 어머, 짧은 머리 참 잘 어울려요!",
+   "note": "jól áll = 잘 어울린다",
+   "tags": [
+    "expr:Jól áll"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "estét",
+     "este",
+     "에슈테"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
+    ],
+    [
+     "rövid",
+     "rövid",
+     "뢰비드"
+    ],
+    [
+     "haj",
+     "haj",
+     "허이"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "hu": "Tényleg? Köszönöm, Marika néni!",
+   "rd": "테닐렉? 쾨쐬뇜, 머리커 네니!",
+   "ko": "정말요? 고맙습니다, 아주머니!",
+   "note": "tényleg = 정말",
+   "tags": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "hu": "Na látod. Amúgy tényleg jól áll.",
+   "rd": "너 라토드. 어무지 테닐렉 욜 알.",
+   "ko": "거봐. 근데 진짜 잘 어울려.",
+   "note": "amúgy = 근데, 그나저나",
+   "tags": [
+    "expr:Jól áll"
+   ],
+   "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "Na látod."
+    ],
+    [
+     "gentle",
+     "Amúgy tényleg jól áll."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "látod",
+     "lát",
+     "라트"
     ],
     [
      "tényleg",
@@ -91,321 +393,14 @@
      "테니렉"
     ],
     [
-     "gyors",
-     "gyors",
-     "죠르시"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "C",
-   "hu": "Bocsánat, kisfiam, mehetek?",
-   "rd": "보차너트, 키슈피엄, 메헤텍?",
-   "ko": "미안하다 얘야, 지나가도 되니?",
-   "note": "kisfiam = 얘야(어린 남자에게)",
-   "tags": [],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "Bocsánat",
-     "bocsánat",
-     "버치너트"
-    ],
-    [
-     "kisfiam",
-     "kisfiam",
-     ""
-    ],
-    [
-     "mehetek",
-     "mehet",
-     "메헤트"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Persze, tessék. Várj, ez Marika néni?",
-   "rd": "페르쎄, 테쎅. 바르이, 에즈 머리커 네니?",
-   "ko": "그럼요, 가세요. 잠깐, 이거 마리카 아주머니야?",
-   "note": "várj = 잠깐",
-   "tags": [
-    "expr:Persze"
-   ],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Persze, tessék."
-    ],
-    [
-     "surprised",
-     "Várj, ez Marika néni?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "tessék",
-     "tessék",
-     "테셰크"
-    ],
-    [
-     "néni",
-     "néni",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Csókolom! Hogy tetszik lenni?",
-   "rd": "초콜롬! 호지 테트씩 렌니?",
-   "ko": "안녕하세요! 잘 지내세요?",
-   "note": "hogy tetszik lenni? = 어르신께 쓰는 안부",
-   "tags": [
-    "expr:Csókolom",
-    "expr:Hogy tetszik lenni?"
-   ],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Csókolom",
-     "csókol",
-     ""
-    ],
-    [
-     "tetszik",
-     "tetszik",
-     "테트씨크"
-    ],
-    [
-     "lenni",
-     "lesz",
-     "레쓰"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "C",
-   "hu": "Jól, csak ez a fiú lassú. Nem baj, még fiatal.",
-   "rd": "욜, 척 에즈 어 피우 러쓔. 넴 버이, 멕 피어털.",
-   "ko": "잘 지내지, 이 청년이 느릴 뿐. 괜찮아, 아직 젊으니까.",
-   "note": "lassú = 느린",
-   "tags": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Jól",
+     "jól",
      "jól",
      "욜"
     ],
     [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "fiú",
-     "fiú",
-     "피우"
-    ],
-    [
-     "lassú",
-     "lassú",
-     ""
-    ],
-    [
-     "baj",
-     "baj",
-     "버이"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "fiatal",
-     "fiatal",
-     "피어털"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Lassú?! Na, jöjjön, két hossz!",
-   "rd": "러쓔?! 너, 요왼, 케트 호쓰!",
-   "ko": "느리다고요?! 자, 오세요, 두 바퀴요!",
-   "note": "jöjjön = 오세요(존댓말)",
-   "tags": [],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "Lassú",
-     "lassú",
-     ""
-    ],
-    [
-     "jöjjön",
-     "jön",
-     "왼"
-    ],
-    [
-     "hossz",
-     "hossz",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "hu": "Dávid, ne már! Nyolcvan éves!",
-   "rd": "다비드, 네 마르! 뇰츠번 에베시!",
-   "ko": "다비드, 아 좀! 여든이시잖아!",
-   "note": "ne már = 아 좀",
-   "tags": [
-    "expr:Ne már"
-   ],
-   "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "Dávid",
-     "dávid",
-     ""
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "éves",
-     "éves",
-     "에베슈"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "C",
-   "hu": "Nyolcvankettő. Mehetünk?",
-   "rd": "뇰츠번케뙤. 메헤튄크?",
-   "ko": "여든둘이다. 갈까?",
-   "note": "mehetünk = 우리 가도 된다",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Nyolcvankettő",
-     "nyolcvankettő",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Ez nem lehet! Hogy csinálta?!",
-   "rd": "에즈 넴 레헤트! 호지 치날터?!",
-   "ko": "말도 안 돼! 어떻게 하신 거예요?!",
-   "note": "nem lehet = 그럴 리 없어",
-   "tags": [],
-   "emotion": "shout",
-   "lemmas": [
-    [
-     "lehet",
-     "lehet",
-     "레헤트"
-    ],
-    [
-     "csinálta",
-     "csinál",
-     "치날"
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "C",
-   "hu": "Régen az olimpián úsztam, kisfiam. Ne siess, még fiatal vagy.",
-   "rd": "레겐 어즈 올림피안 우쓰텀, 키슈피엄. 네 시에시, 멕 피어털 버지.",
-   "ko": "옛날에 올림픽에서 수영했단다, 얘야. 서두르지 마, 아직 젊잖니.",
-   "note": "régen = 옛날에",
-   "tags": [],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "Régen",
-     "rég",
-     "레그"
-    ],
-    [
-     "olimpián",
-     "olimpia",
-     ""
-    ],
-    [
-     "úsztam",
-     "úszik",
-     ""
-    ],
-    [
-     "kisfiam",
-     "kisfiam",
-     ""
-    ],
-    [
-     "siess",
-     "siet",
-     "시에트"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "fiatal",
-     "fiatal",
-     "피어털"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "B",
-   "hu": "Marika néni... nem edzene engem?",
-   "rd": "머리커 네니... 넴 에제네 엔겜?",
-   "ko": "아주머니… 저 좀 훈련시켜 주시면 안 될까요?",
-   "note": "edzene = 훈련시켜 주실 텐데(조건법)",
-   "tags": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "Marika",
-     "marika",
-     ""
-    ],
-    [
-     "néni",
-     "néni",
-     ""
-    ],
-    [
-     "edzene",
-     "edz",
-     ""
+     "áll",
+     "áll",
+     "알"
     ]
    ]
   }

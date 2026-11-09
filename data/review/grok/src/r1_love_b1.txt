@@ -1,21 +1,21 @@
 === r1_love_b1
 kind: long
-title: 결혼식은 언제니
-emoji: 🍲
-scene: 첫 데이트 장소는 Anna 할머니 댁. 점심 조금이라더니 음식이 끝없이 나온다
+title: 같이요, 따로요?
+emoji: 🍝
+scene: 첫 저녁 식사. 다 먹고 웨이터가 계산서를 가져온다
 b: Anna
-c: Nagymama
+c: Pincér
 register: mixed
-twist: 6 chaos
+twist: 7 chaos
 flags: romance
 purpose: love
-goal: 어른께 쓰는 말(Csókolom, 3인칭 동사)과 친구에게 쓰는 말 구별
-expressions: Figyelj; Légyszi; Mi van?; Hát
-B | Csak egy kis ebéd lesz a nagymamámnál, ne félj. | 할머니 댁에서 점심 조금만 먹는 거야, 겁내지 마. | nagymamámnál = 우리 할머니 댁에서 | emotion=gentle
-C | Szia, drágám! Egyél még egy kis gulyást! | 어서 와, 얘야! 굴라시 좀 더 먹어! | egyél = 먹어 | emotion=cheerful
-A | Csókolom! Köszönöm, de már három tányérral ettem. | 안녕하세요! 고맙습니다만 벌써 세 그릇 먹었어요. | csókolom = 어른께 하는 인사 | emotion=polite
-C | Az semmi! Anna, hozd a rétest is! | 그건 아무것도 아니야! 언너, 레테시도 가져와! | hozd = 가져와 | emotion=excited
-A | Figyelj, Anna, segíts, légyszi. Nem bírom. | 야 언너, 좀 도와줘, 제발. 못 먹겠어. | nem bírom = 못 버티겠어 | emotion=worried
-C | Na, és mikor lesz az esküvő? Már kész a torta! | 자, 결혼식은 언제니? 케이크는 벌써 다 됐어! | esküvő = 결혼식 | emotion=excited
-A | Mi van? Anna, mit mondtál neki rólam? | 뭐? 언너, 나에 대해 뭐라고 말했어? | rólam = 나에 대해 | emotion=surprised+flustered
-B | Hát... csak azt, hogy ma egy nagyon fontos embert hozok. | 음… 그냥 오늘 아주 중요한 사람을 데려온다고만. | fontos = 중요한 | emotion=shy
+goal: 식당에서 계산하기(Kérjük a számlát · együtt vagy külön · kártya)
+expressions: Persze; Izé; Szóval
+C | Ízlett? Hozhatom a számlát? | 맛있게 드셨어요? 계산서 가져다드릴까요? | ízlett = 입에 맞았다 | emotion=polite
+A | Igen, nagyon finom volt. Kérjük a számlát. | 네, 아주 맛있었어요. 계산서 주세요. | kérjük = 저희가 청합니다 | emotion=polite
+C | Együtt vagy külön fizetnek? | 같이 계산하세요, 따로 하세요? | külön = 따로 | emotion=polite
+A | Külön, persze. | 따로요, 당연히. | persze = 당연히 | emotion=cheerful
+B | Persze? Hát jó. | 당연히? 음, 그래. | hát jó = 음, 그래 | emotion=annoyed
+A | Várj, izé, együtt! Együtt fizetünk. | 잠깐, 어, 같이요! 같이 낼게요. | együtt = 같이 | emotion=flustered
+C | Szóval együtt. Sajnos a kártyája nem megy át. | 그러니까 같이요. 죄송한데 카드가 안 되네요. | nem megy át = (결제가) 안 된다 | emotion=polite
+B | Semmi baj, majd én. Te a mozit fizeted. | 괜찮아, 내가 낼게. 넌 영화 내. | majd én = 내가 할게 | emotion=teasing

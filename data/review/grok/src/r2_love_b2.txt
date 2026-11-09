@@ -1,23 +1,25 @@
 === r2_love_b2
 kind: long
-title: 레카의 면접
-emoji: 📋
-scene: 벼룩시장 뒤편. 토요일 데이트를 앞둔 A 를 Réka 가 불러 앉히고 질문을 쏟아낸다
+title: 30분 동안 본 물감 상자
+emoji: 🎨
+scene: 벼룩시장. 다음 주가 Anna 생일이라 A 가 Réka 에게 선물 고르기를 도와 달라고 했다
 b: Réka
-register: casual
-twist: 9 reveal
+c: Eladó
+register: mixed
+twist: 11 reveal
 flags: romance
 purpose: love making_friends
-goal: 순서 말하기(első, második, utolsó)와 '~하면'(ha)
-expressions: Persze; Izé; Figyelj; Szóval
-B | Ülj le. Hallom, hogy szombaton találkozol Annával. | 앉아. 토요일에 언너 만난다며. | hallom, hogy = ~라고 들었어 | emotion=stiff
-A | Igen, de ez mi? Ez egy interjú? | 응, 근데 이게 뭐야? 면접이야? | interjú = 면접 | emotion=tsukkomi
-B | Pontosan. Első kérdés: túrós vagy mákos rétes? | 맞아. 첫 질문, 코티지치즈야 양귀비씨야? | mákos = 양귀비씨를 넣은 | emotion=stiff
-A | Túrós, persze. Ez tényleg ilyen fontos? | 코티지치즈지, 당연히. 이게 그렇게 중요해? | ilyen = 이렇게 | emotion=tsukkomi
-B | Nagyon. Második: melyik a kedvenc múzeumod? | 아주. 둘째, 제일 좋아하는 미술관은? | második = 둘째 | emotion=stiff
-A | Izé... amelyikben Anna van. | 어… 언너가 있는 곳. | amelyikben = ~가 있는 그곳에 | emotion=shy
-B | Jó válasz. Utolsó: ha késik, hány percet vársz? | 좋은 답이야. 마지막, 걔가 늦으면 몇 분 기다려? | hány = 몇 | emotion=amused+stiff
-A | Amennyit kell. De figyelj, kié ez a lista? | 필요한 만큼. 근데 있잖아, 이 목록 누구 거야? | kié = 누구의 것 | emotion=gentle+neutral
-B | Anna írta. Tizenkét oldal, éjjel kettőkor küldte. | 언너가 썼어. 열두 쪽, 새벽 두 시에 보냈더라. | küldte = 그걸 보냈다 | emotion=amused
-A | Anna írta? Szóval ő is izgul? | 언너가 썼다고? 그럼 언너도 떨려? | izgul = 긴장한다 | emotion=surprised+shy
-B | Izgul? Már négyszer átöltözött, pedig még csak szerda van. | 떨리냐고? 벌써 옷을 네 번 갈아입었어, 아직 수요일인데. | átöltözött = 옷을 갈아입었다 | emotion=teasing
+goal: 값 묻고 깎기(Mennyibe kerül? · Nem lehetne …-ért?)
+expressions: Szerinted; Nézd; Amúgy; Komolyan?
+A | Réka, jövő héten Anna születésnapja. Mit vegyek neki? | 레카, 다음 주 언너 생일이야. 뭘 사 주지? | mit vegyek? = 뭘 살까? | emotion=worried
+B | Gyere, a bolhapiacon mindig van valami jó. | 따라와, 벼룩시장엔 늘 뭔가 좋은 게 있어. | bolhapiac = 벼룩시장 | emotion=cheerful
+A | Szerinted a virág nem jobb? Az biztos tetszik neki. | 꽃이 낫지 않을까? 그건 분명 좋아할 텐데. | szerinted = 네 생각엔 | emotion=worried
+B | Virágot mindenki vesz. Nézd, ez a régi festékdoboz! | 꽃은 다들 사. 봐, 이 오래된 물감 상자! | festékdoboz = 물감 상자 | emotion=excited
+A | Hű, de szép. Elnézést, mennyibe kerül? | 와, 예쁘다. 실례합니다, 얼마예요? | mennyibe kerül? = 얼마예요? | emotion=polite
+C | Nyolcezer forint. Nagyon régi, a nagyapámé volt. | 8천 포린트요. 아주 오래된 거예요, 우리 할아버지 거였어요. | a nagyapámé = 우리 할아버지의 것 | emotion=polite
+A | Hát, kicsit drága. Nem lehetne hatezerért? | 음, 좀 비싸네요. 6천에는 안 될까요? | lehetne = 될 수 있을까 | emotion=polite
+C | Hétezer, és csak azért, mert maga kedves. | 7천이요, 손님이 친절하셔서 그런 거예요. | maga = 당신(존대) | emotion=amused
+B | Vedd meg, jó üzlet. Amúgy tudod, miért jó ez? | 사, 좋은 거래야. 그나저나 이게 왜 좋은지 알아? | amúgy = 그나저나 | emotion=teasing
+A | Mert Anna szeret festeni? | 언너가 그림 그리는 걸 좋아해서? | festeni = 그리다(물감으로) | emotion=cheerful
+B | Mert múlt héten Anna is ezt nézte itt, fél óráig. | 지난주에 언너도 여기서 이걸 30분 동안 봤거든. | fél óráig = 30분 동안 | emotion=amused
+A | Komolyan? Akkor jó, hogy nem vette meg. | 진짜? 그럼 안 사서 다행이다. | megvette = 그걸 샀다 | emotion=surprised+cheerful

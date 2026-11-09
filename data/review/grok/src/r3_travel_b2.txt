@@ -1,26 +1,27 @@
 === r3_travel_b2
 kind: long
-title: 로자 민박
-emoji: 🏡
-scene: 에게르 근처 마을, 밤 10시. 민박을 찾던 {name} 이 불 켜진 집 문을 두드린다
+title: 일요일엔 안 다녀요
+emoji: ⛴️
+scene: 센텐드레 골목. 비셰그라드행 버스를 타려고 할머니에게 정류장을 묻는다
 b: Néni
-register: mixed
-twist: 10 reveal
+register: polite
+twist: 12 reveal
 purpose: travel
-goal: 어른께 인사하기(Csókolom)와 숙소·계산 묻기
-expressions: Csókolom; ugye; Hát persze; Hogyhogy; Úristen; Jaj
-A | Csókolom, elnézést a késésért! Ez a Rózsa panzió, ugye? | 안녕하세요, 할머니, 늦어서 죄송해요! 여기 로자 민박 맞죠? | csókolom = 어른께 드리는 인사 | emotion=polite
-B | Gyere be, gyere be! Jaj, de sovány vagy! | 들어와, 들어와! 아이고, 왜 이렇게 말랐어! | sovány = 마른 | emotion=cheerful+worried
-A | Köszönöm. Tudom, hogy késő van, de van még vacsora? | 고맙습니다. 늦은 거 아는데, 저녁 아직 있나요? | késő = 늦은 | emotion=polite
-B | Hát persze! Húsleves, töltött káposzta, és ülj már le! | 당연하지! 고깃국, 양배추말이, 얼른 앉아! | hát persze = 당연하지 | emotion=cheerful
-A | Hű, ez nagyon finom! A neten nem írták, hogy itt ilyen jó. | 와, 아주 맛있어요! 인터넷에 이렇게 좋다고는 안 쓰여 있었는데. | a neten = 인터넷에 | emotion=excited
-B | Egyél még! Aztán alhatsz a kisszobában. | 더 먹어! 그다음엔 작은방에서 자면 돼. | egyél = 먹어 | emotion=gentle
-A | Jó reggelt! Hol lehet fizetni, kártyával vagy készpénzzel? | (다음 날 아침) 안녕하세요! 어디서 계산해요, 카드요 현금이요? | készpénz = 현금 | emotion=polite
-B | Fizetni? Hát ez nem hotel, egyél még egy kicsit! | 돈을? 여기 호텔 아니야, 조금 더 먹어! | fizetni = 돈 내기 | emotion=surprised+gentle
-A | Hogyhogy nem hotel? Ez nem a Rózsa panzió? | 호텔이 아니라니요? 여기 로자 민박 아니에요? | hogyhogy = 어째서 | emotion=worried
-B | Rózsa én vagyok. A panzió a szomszéd faluban van. | 로자는 나야. 민박은 옆 마을에 있어. | szomszéd = 이웃 | emotion=amused
-A | Úristen! Akkor miért engedett be? | 세상에! 그럼 왜 저를 들여보내셨어요? | beenged = 들여보내다 | emotion=surprised+flustered
-B | Azt hittem, az unokámhoz jöttél. | 우리 손주 보러 온 줄 알았지. | unoka = 손주 | emotion=gentle
-A | Jaj, nagyon sajnálom! Akkor én most megyek. | 아이고, 정말 죄송해요! 그럼 저 이제 갈게요. | sajnálom = 죄송해요 | emotion=flustered+polite
-B | Hova mész? Az unokám úgyse jön, ebédre meg rakott krumpli lesz. | 어딜 가? 손주는 어차피 안 와, 점심은 감자 그라탱이야. | úgyse = 어차피 ~ 않다 | emotion=gentle
-A | Rózsa néni, és holnap mit főz? | 로자 할머니, 내일은 뭐 만드세요? | főz = 요리하다 | emotion=cheerful
+goal: 길 안내 따라 말하기(-ig, jobbra, balra)와 시간표 묻기
+expressions: Elnézést; Várjon csak; Ugye
+A | Elnézést, meg tudná mondani, hol van a buszmegálló? | 실례합니다, 버스 정류장이 어디인지 알려 주시겠어요? | meg tudná mondani = 말씀해 주실 수 있을까요 | emotion=polite
+B | Melyik busz kell, kedvesem? | 어떤 버스 타요, 얘야? | kedvesem = 얘야(다정한 호칭) | emotion=gentle
+A | A visegrádi. Fél ötkor indul, ha jól tudom. | 비셰그라드 가는 거요. 제가 알기론 4시 반에 출발해요. | fél öt = 4시 반 | emotion=polite
+B | Fél ötkor? Akkor siessen, most négy húsz van! | 4시 반? 그럼 서둘러요, 지금 4시 20분이에요! | siessen = 서두르세요 | emotion=worried
+A | Messze van? | 멀어요? | messze = 멀리 | emotion=worried
+B | Nem. Menjen le a templomig, ott jobbra. | 아니요. 교회까지 내려가서 거기서 오른쪽. | -ig = ~까지 | emotion=gentle
+A | A templomig, aztán jobbra. És utána? | 교회까지, 그다음 오른쪽. 그다음엔요? | utána = 그 후에 | emotion=neutral
+B | Utána a cukrászdánál balra. A megálló a pékség előtt van. | 그다음 제과점에서 왼쪽. 정류장은 빵집 앞이에요. | cukrászda = 제과점 | emotion=gentle
+A | Cukrászda, balra, pékség. Köszönöm szépen! | 제과점, 왼쪽, 빵집. 정말 감사합니다! | pékség = 빵집 | emotion=cheerful
+B | Várjon csak! Ma milyen nap van? | 잠깐만요! 오늘 무슨 요일이죠? | milyen nap = 무슨 요일 | emotion=surprised
+A | Vasárnap. Miért? | 일요일요. 왜요? | vasárnap = 일요일 | emotion=worried
+B | Vasárnap az a busz nem jár, csak hétköznap. | 일요일엔 그 버스 안 다녀요, 평일에만요. | hétköznap = 평일 | emotion=worried
+A | Jaj, ne! Akkor itt ragadtam? | 아이고, 이런! 그럼 저 여기서 꼼짝 못 하는 거예요? | itt ragad = 발이 묶이다 | emotion=flustered
+B | Dehogy. Hajóval is mehet, fél hatkor indul a kikötőből. | 아니에요. 배로도 가요, 5시 반에 선착장에서 떠나요. | kikötő = 선착장 | emotion=gentle
+A | Hajóval? Az még jobb! | 배로요? 그게 더 좋네요! | még jobb = 더 좋은 | emotion=excited
+B | Ugye? És addig megehet egy krémest a cukrászdában. | 그렇죠? 그동안 제과점에서 크렘레시 하나 먹으면 되고요. | krémes = 크림 케이크 | emotion=cheerful+teasing

@@ -8,19 +8,15 @@
 "segs": [
 [
 "polite",
-"Csókolom, elnézést a késésért! Ez a Rózsa panzió, ugye?"
+"Elnézést, meg tudná mondani, hol van a buszmegálló?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Gyere be, gyere be!"
-],
-[
-"worried",
-"Jaj, de sovány vagy!"
+"gentle",
+"Melyik busz kell, kedvesem?"
 ]
 ]
 },
@@ -28,23 +24,23 @@
 "segs": [
 [
 "polite",
-"Köszönöm. Tudom, hogy késő van, de van még vacsora?"
+"A visegrádi. Fél ötkor indul, ha jól tudom."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"Hát persze! Húsleves, töltött káposzta, és ülj már le!"
+"worried",
+"Fél ötkor? Akkor siessen, most négy húsz van!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"excited",
-"Hű, ez nagyon finom! A neten nem írták, hogy itt ilyen jó."
+"worried",
+"Messze van?"
 ]
 ]
 },
@@ -52,63 +48,55 @@
 "segs": [
 [
 "gentle",
-"Egyél még! Aztán alhatsz a kisszobában."
+"Nem. Menjen le a templomig, ott jobbra."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Jó reggelt! Hol lehet fizetni, kártyával vagy készpénzzel?"
+"neutral",
+"A templomig, aztán jobbra. És utána?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Fizetni?"
-],
-[
 "gentle",
-"Hát ez nem hotel, egyél még egy kicsit!"
+"Utána a cukrászdánál balra. A megálló a pékség előtt van."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"worried",
-"Hogyhogy nem hotel? Ez nem a Rózsa panzió?"
+"cheerful",
+"Cukrászda, balra, pékség. Köszönöm szépen!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"amused",
-"Rózsa én vagyok. A panzió a szomszéd faluban van."
+"surprised",
+"Várjon csak! Ma milyen nap van?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"surprised",
-"Úristen!"
-],
-[
-"flustered",
-"Akkor miért engedett be?"
+"worried",
+"Vasárnap. Miért?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"gentle",
-"Azt hittem, az unokámhoz jöttél."
+"worried",
+"Vasárnap az a busz nem jár, csak hétköznap."
 ]
 ]
 },
@@ -116,11 +104,7 @@
 "segs": [
 [
 "flustered",
-"Jaj, nagyon sajnálom!"
-],
-[
-"polite",
-"Akkor én most megyek."
+"Jaj, ne! Akkor itt ragadtam?"
 ]
 ]
 },
@@ -128,15 +112,27 @@
 "segs": [
 [
 "gentle",
-"Hova mész? Az unokám úgyse jön, ebédre meg rakott krumpli lesz."
+"Dehogy. Hajóval is mehet, fél hatkor indul a kikötőből."
 ]
 ]
 },
 "15": {
 "segs": [
 [
+"excited",
+"Hajóval? Az még jobb!"
+]
+]
+},
+"16": {
+"segs": [
+[
 "cheerful",
-"Rózsa néni, és holnap mit főz?"
+"Ugye?"
+],
+[
+"teasing",
+"És addig megehet egy krémest a cukrászdában."
 ]
 ]
 }

@@ -8,113 +8,104 @@
 "1": {
 "segs": [
 [
-"excited",
-"Figyelj, vettem egy szekrényt a bolhapiacon. Olcsó volt!"
+"polite",
+"Jó estét! A közös költség miatt jöttem."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Hű, de nagy!"
+"polite",
+"Jó estét!"
 ],
 [
-"worried",
-"Biztos, hogy befér?"
+"surprised",
+"Az mi, közös költség?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Persze, gyerünk! Te alulról fogod, én felülről."
+"neutral",
+"Hát, a ház pénze: takarítás, villany a lépcsőházban."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"shout",
-"Várj, várj!"
-],
-[
-"flustered",
-"Megállt, nem megy tovább!"
+"polite",
+"Havonta tizenötezer forint, lakásonként."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"annoyed",
-"Hogyhogy nem megy? Told még egy kicsit!"
+"surprised",
+"De én már befizettem, Marika néni!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"annoyed",
-"Tolom!"
-],
-[
-"worried",
-"De most már visszafelé sem megy."
+"neutral",
+"Melyik hónapot?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"worried",
-"Gyerekek, én hogy megyek le a boltba?"
+"cheerful",
+"Mindet, átutalással. Tessék, itt van a telefonomon."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Jaj, Marika néni! Mindjárt megoldjuk!"
+"surprised",
+"Mutassa!"
+],
+[
+"worried",
+"Jaj, ez a tizenkettes lakás száma."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"worried",
-"Dávid, az egész ház itt áll. Feri bácsi hívta a tűzoltókat."
+"surprised",
+"A tizenkettes? Feri bácsié?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shout",
-"Tűzoltókat?!"
-],
-[
-"tsukkomi",
-"Ne már, ez csak egy szekrény!"
+"amused",
+"Igen! Ezért mondja mindig Feri, hogy ő időben fizet!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"gentle",
-"Semmi baj, gyerekek. Tessék, átadom a levest a szekrény fölött."
+"flustered",
+"Akkor Feri bácsi tartozik nekem százhatvanötezerrel?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"amused",
-"Dávid... a tűzoltók is levest kérnek.",
-"Dávid, a tűzoltók is levest kérnek."
+"teasing",
+"Tartozik. De ezt maga mondja meg neki."
 ]
 ]
 }

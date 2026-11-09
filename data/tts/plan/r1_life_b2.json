@@ -7,8 +7,8 @@
 "1": {
 "segs": [
 [
-"surprised",
-"Miért van itt ennyi virág?"
+"neutral",
+"Megjött a villanyszámla. Felezzük?"
 ]
 ]
 },
@@ -16,60 +16,59 @@
 "segs": [
 [
 "cheerful",
-"Ma van a névnapom! Marika néni hozta."
+"Persze. Mennyi?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Névnap? Az meg mi, születésnap?"
+"worried",
+"Huszonnégyezer. Múlt hónapban tizenkétezer volt."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Nem. Minden névnek van egy napja."
+"surprised",
+"Komolyan? Mi fogyaszt ennyit?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"excited",
-"És az én nevemnek?"
+"teasing",
+"A te hősugárzód. Egész nap megy."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"sad",
-"Hát... sajnos az nincs a naptárban.",
-"Hát, sajnos az nincs a naptárban."
+"annoyed",
+"És a te számítógéped? Meg a mosógép éjjel?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"sad",
-"Jaj. Szóval nekem soha nincs névnapom."
+"annoyed",
+"Jó, akkor a wifit is számoljuk. Te többet netezel."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"gentle",
-"Nézd, beleírtam: holnap van."
+"tsukkomi",
+"Várj, csak a villanyról volt szó!"
 ],
 [
-"teasing",
-"Te hozod a tortát!"
+"amused",
+"Felezzük?"
 ]
 ]
 }

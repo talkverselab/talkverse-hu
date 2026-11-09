@@ -10,34 +10,59 @@
  "domain": [
   "travel"
  ],
- "title": "도나우 전망",
- "emoji": "🖼️",
- "scene": "호텔 접수대. 도나우강 전망 방이라고 했는데 창문으로는 벽만 보인다",
+ "title": "예약은 내일",
+ "emoji": "🏨",
+ "scene": "저녁에 호텔 프런트에서 체크인한다",
  "speakers": {
   "A": "{name}",
   "B": "Recepciós"
  },
  "register": "polite",
- "twist": 7,
+ "twist": 5,
  "twist_type": "reveal",
  "flags": [],
- "goal": "호텔에서 묻기와 불만을 공손하게 말하기",
+ "goal": "체크인하기(Foglalásom van · Milyen névre?)",
  "expressions": [
-  "Persze",
-  "Elnézést",
-  "Na",
-  "Komolyan"
+  "Jó estét",
+  "Nem baj",
+  "Tényleg"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó estét! Tessék, a szoba kulcsa.",
-   "rd": "요 에슈테트! 테쎅, 어 쏘버 쿨처.",
-   "ko": "안녕하세요! 여기 방 열쇠입니다.",
-   "note": "kulcs = 열쇠",
-   "tags": [],
+   "hu": "Jó estét! Segíthetek?",
+   "rd": "요 에슈테트! 세기트헤텍?",
+   "ko": "안녕하세요! 도와드릴까요?",
+   "note": "segíthetek = 도와드릴까요",
+   "tags": [
+    "expr:Jó estét"
+   ],
    "emotion": "polite",
+   "lemmas": [
+    [
+     "Jó",
+     "jó",
+     "요"
+    ],
+    [
+     "estét",
+     "este",
+     "에슈테"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Jó estét! Foglalásom van.",
+   "rd": "요 에슈테트! 폭럴라숌 번.",
+   "ko": "안녕하세요! 예약했어요.",
+   "note": "foglalás = 예약",
+   "tags": [
+    "expr:Jó estét"
+   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Jó",
@@ -50,121 +75,48 @@
      "에슈테"
     ],
     [
-     "szoba",
-     "szoba",
-     "서버"
-    ],
-    [
-     "kulcsa",
-     "kulcsa",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "hu": "Köszönöm. Van kilátás a Dunára?",
-   "rd": "쾨쐬뇜. 번 킬라타시 어 두나러?",
-   "ko": "고맙습니다. 도나우강 전망 있나요?",
-   "note": "kilátás = 전망",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
-    ],
-    [
-     "kilátás",
-     "kilátás",
-     ""
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Persze. Szép kilátás, nézze meg!",
-   "rd": "페르쎄. 쎄프 킬라타시, 네제 멕!",
-   "ko": "물론이죠. 전망이 좋아요, 보세요!",
-   "note": "nézze meg = 보세요(존댓말)",
-   "tags": [
-    "expr:Persze"
-   ],
+   "hu": "Milyen névre?",
+   "rd": "미옌 네브레?",
+   "ko": "어떤 이름으로요?",
+   "note": "névre = 이름으로",
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "kilátás",
-     "kilátás",
-     ""
-    ],
-    [
-     "nézze",
-     "néz",
-     "네즈"
+     "névre",
+     "név",
+     "네브"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Elnézést, az ablakból csak egy falat látok.",
-   "rd": "엘네제슈트, 어즈 어블럭볼 척 에지 펄러트 라톡.",
-   "ko": "저기요, 창문으로 벽밖에 안 보여요.",
-   "note": "falat = 벽을(fal + -at)",
-   "tags": [
-    "expr:Elnézést"
-   ],
-   "emotion": "stiff",
-   "lemmas": [
-    [
-     "Elnézést",
-     "elnézés",
-     "엘네제시"
-    ],
-    [
-     "ablakból",
-     "ablak",
-     "어블러크"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "falat",
-     "fala",
-     ""
-    ],
-    [
-     "látok",
-     "lát",
-     "라트"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "És a falon mi van?",
-   "rd": "에시 어 펄론 미 번?",
-   "ko": "그럼 벽에는 뭐가 있죠?",
-   "note": "a falon = 벽에",
+   "hu": "{name} néven. Tessék, itt van.",
+   "rd": "{name} 네벤. 테쎅, 이트 번.",
+   "ko": "{name}(으)로요. 여기 있어요.",
+   "note": "néven = ~라는 이름으로",
    "tags": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "falon",
-     "fal",
-     "펄"
+     "néven",
+     "név",
+     "네브"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
     ],
     [
      "van",
@@ -174,67 +126,134 @@
    ]
   },
   {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Egy kép... a Dunáról.",
-   "rd": "에지 케프... 어 두나롤.",
-   "ko": "그림이요… 도나우강 그림.",
-   "note": "-ról = ~에 관한",
+   "num": 5,
+   "speaker": "B",
+   "hu": "Hm. Ez a foglalás holnapra szól.",
+   "rd": "흠. 에즈 어 폭럴라시 홀너프러 쏠.",
+   "ko": "음. 이 예약은 내일 날짜인데요.",
+   "note": "holnapra szól = 내일 것이다",
    "tags": [],
-   "emotion": "sad",
+   "emotion": "worried",
    "lemmas": [
     [
-     "kép",
-     "kép",
-     "켑"
+     "Hm",
+     "hm",
+     ""
+    ],
+    [
+     "foglalás",
+     "foglalás",
+     ""
+    ],
+    [
+     "holnapra",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "szól",
+     "szól",
+     "쏠"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "hu": "Holnapra? Jaj, ne már!",
+   "rd": "홀너프러? 여이, 네 마르!",
+   "ko": "내일요? 아이고, 이럴 수가!",
+   "note": "ne már = 아이 참",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Holnapra",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Na, látja? Kilátás a Dunára.",
-   "rd": "너, 라트여? 킬라타시 어 두나러.",
-   "ko": "그것 보세요. 도나우강 전망이죠.",
-   "note": "látja = 보이시죠(정활용)",
+   "hu": "Nem baj, ma is van szabad szoba.",
+   "rd": "넴 버이, 머 이시 번 써버드 쏘버.",
+   "ko": "괜찮아요, 오늘도 빈방 있어요.",
+   "note": "szabad = 비어 있는",
    "tags": [
-    "expr:Na"
+    "expr:Nem baj"
    ],
-   "emotion": "cheerful",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "baj",
+     "baj",
+     "버이"
     ],
     [
-     "látja",
-     "lát",
-     "라트"
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "szabad",
+     "szabad",
+     "써버드"
+    ],
+    [
+     "szoba",
+     "szoba",
+     "서버"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Komolyan? Ezért fizettem?",
-   "rd": "코모연? 에제르트 피제뗌?",
-   "ko": "진심이세요? 이걸 돈 내고요?",
-   "note": "ezért = 이것 때문에, 이것에",
+   "hu": "Tényleg? Akkor két éjszakát kérek!",
+   "rd": "테닐렉? 어꼬르 케트 에이써카트 케렉!",
+   "ko": "정말요? 그럼 이틀 밤 주세요!",
+   "note": "éjszaka = 밤(숙박)",
    "tags": [
-    "expr:Komolyan"
+    "expr:Tényleg"
    ],
-   "emotion": "tsukkomi",
-   "lemmas": [
+   "emotion": "surprised",
+   "segs": [
     [
-     "Komolyan",
-     "komoly",
-     "코모이"
+     "surprised",
+     "Tényleg?"
     ],
     [
-     "fizettem",
-     "fizet",
-     "피제트"
+     "cheerful",
+     "Akkor két éjszakát kérek!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "éjszakát",
+     "éjszaka",
+     "에이사카"
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
     ]
    ]
   }

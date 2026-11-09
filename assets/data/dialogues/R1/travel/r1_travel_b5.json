@@ -11,53 +11,41 @@
  "domain": [
   "travel"
  ],
- "title": "언제 깊어져",
- "emoji": "🏖️",
- "scene": "발라톤 남쪽 호숫가. 수영하러 들어갔는데 물이 아무리 걸어도 무릎이다",
+ "title": "사물함으로 두 장",
+ "emoji": "♨️",
+ "scene": "세체니 온천 매표소. Dávid 가 표는 직접 사 보라고 한다",
  "speakers": {
   "A": "{name}",
-  "B": "Dávid"
+  "B": "Dávid",
+  "C": "Pénztáros"
  },
- "register": "casual",
- "twist": 7,
- "twist_type": "chaos",
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "slip",
  "flags": [],
- "goal": "어디서 할 수 있는지 묻기(hol lehet)와 -ig(~까지)",
+ "goal": "온천 입장권 사기(belépő · szekrény · kabin)",
  "expressions": [
-  "Figyelj",
-  "Gyere",
-  "menjünk",
-  "Nyugi",
-  "Nézd",
-  "Szuper"
+  "Na",
+  "legyen szíves",
+  "Persze"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "A",
-   "hu": "Figyelj, hol lehet itt úszni?",
-   "rd": "피젤이, 홀 레헤트 이트 우쓰니?",
-   "ko": "야, 여기 어디서 수영해?",
-   "note": "lehet = ~할 수 있다",
+   "speaker": "B",
+   "hu": "Na, itt a fürdő. Te kérd a jegyet, gyakorolj!",
+   "rd": "너, 이트 어 퓌르되. 테 케르드 어 예제트, 져코롤이!",
+   "ko": "자, 온천이야. 표는 네가 사, 연습해!",
+   "note": "gyakorolj = 연습해",
    "tags": [
-    "expr:Figyelj"
+    "expr:Na"
    ],
-   "emotion": "neutral",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
-    ],
-    [
-     "hol",
-     "hol",
-     "홀"
-    ],
-    [
-     "lehet",
-     "lehet",
-     "레헤트"
+     "Na",
+     "na",
+     "너"
     ],
     [
      "itt",
@@ -65,56 +53,126 @@
      "이트"
     ],
     [
-     "úszni",
-     "úszni",
+     "fürdő",
+     "fürdő",
+     ""
+    ],
+    [
+     "kérd",
+     "kér",
+     "께르"
+    ],
+    [
+     "jegyet",
+     "jegye",
+     ""
+    ],
+    [
+     "gyakorolj",
+     "gyakorol",
      ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "B",
-   "hu": "Itt, a Balatonban! Gyere, menjünk be!",
-   "rd": "이트, 어 벌러톤번! 제레, 멘윈크 베!",
-   "ko": "여기, 발라톤에서! 와, 들어가자!",
-   "note": "menjünk = 가자",
+   "speaker": "A",
+   "hu": "Jó napot! Két belépőt kérek.",
+   "rd": "요 너포트! 케트 벨레푀트 케렉.",
+   "ko": "안녕하세요! 입장권 두 장 주세요.",
+   "note": "belépő = 입장권",
    "tags": [
-    "expr:Gyere",
-    "expr:menjünk"
+    "expr:Na"
    ],
-   "emotion": "excited",
+   "emotion": "stiff",
    "lemmas": [
     [
-     "Itt",
-     "itt",
-     "이트"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "menjünk",
-     "megy",
-     "메지"
+     "napot",
+     "nap",
+     "넙"
     ],
     [
-     "be",
-     "be",
-     "베"
+     "belépőt",
+     "belépő",
+     ""
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 3,
+   "speaker": "C",
+   "hu": "Szekrénnyel vagy kabinnal?",
+   "rd": "쎅레넬 버지 커빈널?",
+   "ko": "사물함으로요, 개인 탈의실로요?",
+   "note": "kabin = 개인 탈의실",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Szekrénnyel",
+     "szekrény",
+     ""
+    ],
+    [
+     "kabinnal",
+     "kabinnal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
    "speaker": "A",
-   "hu": "De a víz csak a térdemig ér.",
-   "rd": "데 어 비즈 척 어 테르데믹 에르.",
-   "ko": "근데 물이 무릎까지밖에 안 와.",
-   "note": "-ig = ~까지",
+   "hu": "Dávid, mi a különbség?",
+   "rd": "다비드, 미 어 퀼뢴브섹?",
+   "ko": "다비드, 뭐가 달라?",
+   "note": "különbség = 차이",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "víz",
-     "víz",
-     "비즈"
+     "Dávid",
+     "dávid",
+     ""
+    ],
+    [
+     "különbség",
+     "különbség",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "A kabin drágább, de csak a tiéd. A szekrény elég.",
+   "rd": "어 커빈 드라가브, 데 척 어 티에드. 어 쎅레니 엘렉.",
+   "ko": "탈의실은 더 비싼데 너 혼자 써. 사물함이면 돼.",
+   "note": "a tiéd = 네 것",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "kabin",
+     "kabin",
+     ""
+    ],
+    [
+     "drágább",
+     "drága",
+     "드라가"
     ],
     [
      "csak",
@@ -122,192 +180,119 @@
      "촉"
     ],
     [
-     "térdemig",
-     "térdemig",
+     "szekrény",
+     "szekrény",
      ""
     ],
     [
-     "ér",
-     "ér",
-     "에르"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Nyugi, menj tovább! Mindjárt mély lesz.",
-   "rd": "뉴기, 멘이 토바브! 민드야르트 메이 레쓰.",
-   "ko": "진정해, 더 가! 곧 깊어져.",
-   "note": "mély = 깊은",
-   "tags": [
-    "expr:Nyugi"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Nyugi",
-     "nyugi",
-     "니우기"
-    ],
-    [
-     "menj",
-     "megy",
-     "메지"
-    ],
-    [
-     "tovább",
-     "tovább",
-     "토밥"
-    ],
-    [
-     "mély",
-     "mély",
-     "메이"
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Már húsz perce megyünk. Még mindig a térdem!",
-   "rd": "마르 후쓰 페르체 메쥔크. 멕 민딕 어 테르뎀!",
-   "ko": "벌써 20분째 걷고 있어. 아직도 무릎이야!",
-   "note": "húsz perce = 20분째",
-   "tags": [],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "Már",
-     "már",
-     "마르"
-    ],
-    [
-     "húsz",
-     "húsz",
-     ""
-    ],
-    [
-     "perce",
-     "perc",
-     "페르츠"
-    ],
-    [
-     "megyünk",
-     "megy",
-     "메지"
-    ],
-    [
-     "mindig",
-     "mindig",
-     "민딕"
-    ],
-    [
-     "térdem",
-     "térd",
-     ""
+     "elég",
+     "elég",
+     "엘렉"
     ]
    ]
   },
   {
    "num": 6,
-   "speaker": "B",
-   "hu": "Hát, ez a déli part. Menjünk még!",
-   "rd": "하트, 에즈 어 델리 퍼르트. 멘윈크 멕!",
-   "ko": "음, 여긴 남쪽 호숫가니까. 더 가자!",
-   "note": "part = 호숫가",
+   "speaker": "A",
+   "hu": "Két szekrényes jegyet, legyen szíves. Kártyával lehet?",
+   "rd": "케트 쎅레네시 예제트, 레젠 씨베시. 카르탸벌 레헤트?",
+   "ko": "사물함 표 두 장 주세요. 카드 돼요?",
+   "note": "lehet = 가능하다",
    "tags": [
-    "expr:menjünk"
+    "expr:legyen szíves"
    ],
-   "emotion": "cheerful",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "déli",
-     "déli",
+     "szekrényes",
+     "szekrény",
      ""
     ],
     [
-     "part",
-     "part",
-     "퍼르트"
+     "jegyet",
+     "jegye",
+     ""
     ],
     [
-     "még",
-     "még",
-     "메그"
+     "legyen",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "szíves",
+     "szíves",
+     "시베시"
+    ],
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Nézd, egy falu! Ott egy templom!",
-   "rd": "네즈드, 에지 펄루! 오트 에지 템플롬!",
-   "ko": "봐, 마을이야! 저기 교회도 있어!",
-   "note": "falu = 마을",
+   "speaker": "C",
+   "hu": "Persze. Törölközőt is kérnek?",
+   "rd": "페르쎄. 퇴뢸쾨죄트 이시 케르넥?",
+   "ko": "물론이죠. 수건도 필요하세요?",
+   "note": "törölköző = 수건",
    "tags": [
-    "expr:Nézd"
+    "expr:Persze"
    ],
-   "emotion": "surprised",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Nézd",
-     "néz",
-     "네즈"
+     "Persze",
+     "persze",
+     "페르쎄"
     ],
     [
-     "falu",
-     "falu",
-     ""
-    ],
-    [
-     "templom",
-     "templom",
-     "템플롬"
+     "kérnek",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Szuper, ez a másik part. Átsétáltunk.",
-   "rd": "쑤페르, 에즈 어 마식 퍼르트. 아트세탈툰크.",
-   "ko": "좋아, 여기가 건너편이네. 우리 걸어서 건넜어.",
-   "note": "átsétáltunk = 걸어서 건넜다",
-   "tags": [
-    "expr:Szuper"
-   ],
-   "emotion": "cheerful",
+   "speaker": "A",
+   "hu": "Nem, hoztunk. Jaj, a fürdőruhám otthon maradt!",
+   "rd": "넴, 호즈툰크. 여이, 어 퓌르되루함 오트혼 머러드트!",
+   "ko": "아니요, 가져왔어요. 아이고, 수영복을 집에 두고 왔다!",
+   "note": "fürdőruha = 수영복",
+   "tags": [],
+   "emotion": "polite",
    "segs": [
     [
-     "cheerful",
-     "Szuper, ez a másik part."
+     "polite",
+     "Nem, hoztunk."
     ],
     [
-     "amused",
-     "Átsétáltunk."
+     "flustered",
+     "Jaj, a fürdőruhám otthon maradt!"
     ]
    ],
    "lemmas": [
     [
-     "Szuper",
-     "szuper",
-     "쑤페르"
+     "hoztunk",
+     "hoz",
+     "호즈"
     ],
     [
-     "part",
-     "part",
-     "퍼르트"
+     "fürdőruhám",
+     "fürdő",
+     ""
+    ],
+    [
+     "otthon",
+     "otthon",
+     "오트혼"
+    ],
+    [
+     "maradt",
+     "marad",
+     "머러드"
     ]
    ]
   }

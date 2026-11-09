@@ -7,78 +7,73 @@
 "1": {
 "segs": [
 [
-"teasing",
-"Jó reggelt, főnök! 😎",
-"Jó reggelt, főnök!"
+"cheerful",
+"Szia! Holnap leltár van a kávézóban. Mikor érsz rá?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"annoyed",
-"Ne már. Ez nem vicces."
+"cheerful",
+"Reggel jó. Fél nyolc?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Figyelj, elfogytak a poharak. Te rendeled, emlékszel?"
+"surprised",
+"Fél nyolc? Hű, korán. De oké!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Jaj, tényleg. Mennyi kell?"
+"cheerful",
+"Hozok pogácsát is."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Nem tudom. Rendelj sokat."
+"excited",
+"Naná! Akkor holnap. 👍",
+"Naná! Akkor holnap."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Kész! Száz dobozt rendeltem."
+"neutral",
+"Itt vagyok. Te hol vagy?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"neutral",
-"Szuper. Hány pohár van egy dobozban?"
+"surprised",
+"Még ágyban vagyok. Még csak hét harminc van!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"worried",
-"Egy pillanat... ezer.",
-"Egy pillanat, ezer."
+"annoyed",
+"Pont. Fél nyolcat mondtál."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"Ezer?"
-],
-[
-"shout",
-"Az százezer pohár!"
+"flustered",
+"Várj, a fél nyolc nem nyolc harminc?"
 ]
 ]
 },
@@ -86,16 +81,16 @@
 "segs": [
 [
 "amused",
-"Itt a teherautó. Nem férünk ki az ajtón. 😂",
-"Itt a teherautó. Nem férünk ki az ajtón."
+"Nem! A fél nyolc az hét harminc. 😂",
+"Nem! A fél nyolc az hét harminc."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"amused",
-"Mondd a vendégeknek, hogy ez modern művészet."
+"flustered",
+"Úristen. Húsz perc, és ott vagyok!"
 ]
 ]
 },
@@ -103,7 +98,7 @@
 "segs": [
 [
 "teasing",
-"Anna már rajzolja."
+"Akkor három pogácsa jár. Siess!"
 ]
 ]
 }

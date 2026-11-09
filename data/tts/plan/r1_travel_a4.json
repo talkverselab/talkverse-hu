@@ -8,15 +8,15 @@
 "segs": [
 [
 "polite",
-"Jó estét! Tessék, a szoba kulcsa."
+"Jó estét! Segíthetek?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Köszönöm. Van kilátás a Dunára?"
+"cheerful",
+"Jó estét! Foglalásom van."
 ]
 ]
 },
@@ -24,48 +24,51 @@
 "segs": [
 [
 "polite",
-"Persze. Szép kilátás, nézze meg!"
+"Milyen névre?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"stiff",
-"Elnézést, az ablakból csak egy falat látok."
+"neutral",
+"{name} néven. Tessék, itt van."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"polite",
-"És a falon mi van?"
+"worried",
+"Hm. Ez a foglalás holnapra szól."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"sad",
-"Egy kép... a Dunáról.",
-"Egy kép, a Dunáról."
+"flustered",
+"Holnapra? Jaj, ne már!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"cheerful",
-"Na, látja? Kilátás a Dunára."
+"gentle",
+"Nem baj, ma is van szabad szoba."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"tsukkomi",
-"Komolyan? Ezért fizettem?"
+"surprised",
+"Tényleg?"
+],
+[
+"cheerful",
+"Akkor két éjszakát kérek!"
 ]
 ]
 }

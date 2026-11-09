@@ -1,79 +1,79 @@
 {
 "ep": "r2_friends_b2",
 "cast": {
-"B": "reka",
-"C": "woman_m"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"worried",
-"Figyelj, anyámnak azt mondod: csókolom. Ez fontos."
+"cheerful",
+"Szia! Gyere be, mindenki itt van már."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Csókolom? De az nem azt jelenti, hogy csók?"
+"excited",
+"Boldog szülinapot, Réka! Ez neked."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"gentle",
-"De igen, de így köszönünk a néniknek. Nyugi, ne gondolkodj!"
+"surprised",
+"Jaj, nem kellett volna! Mi ez?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Oké. Csókolom, csókolom, csókolom."
+"shy",
+"Nyisd ki! De ne nevess ki."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"Jaj, de jó, hogy jöttél! Te vagy {name}, ugye?"
+"surprised",
+"Egy kis könyv? Kézzel írtad?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"excited",
-"Igen! Csókollak!"
+"shy",
+"Igen, a kedvenc magyar szavaim. Te tanítottad őket."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Hű. Hát, köszönöm?"
+"amused",
+"Nézzük: \"pogácsa\", \"mindjárt\", \"ne már\"...",
+"Nézzük: \"pogácsa\", \"mindjárt\", \"ne már\""
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"Jaj, ne! Csókolom, nem csókollak!"
+"teasing",
+"Mind a te szavaid. Mindig ezeket mondod."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"flustered",
-"Mi a különbség? Csak egy betű!"
+"gentle",
+"És az utolsó oldal? \"Barát\"?"
 ]
 ]
 },
@@ -81,19 +81,15 @@
 "segs": [
 [
 "gentle",
-"Semmi baj."
-],
-[
-"teasing",
-"De a férjem most jön, neki ezt ne mondd!"
+"Igen. Az első szavam itt Budapesten."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"flustered",
-"Jó, rendben. Csók, izé, jó napot!"
+"shy",
+"{name}, most sírni fogok. Ne nézz rám!"
 ]
 ]
 }

@@ -9,15 +9,15 @@
 "segs": [
 [
 "excited",
-"Nézd ezt a kis piros paprikát! Szerinted mennyire erős?"
+"Nézd, milyen szép paprikák! Veszünk kettőt a szendvicsbe?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"amused",
-"Ez? Ilyen kicsi nem lehet erős."
+"cheerful",
+"Jó ötlet. Én kérem, gyakorolni akarok."
 ]
 ]
 },
@@ -25,68 +25,67 @@
 "segs": [
 [
 "polite",
-"Csak óvatosan, kérem. Egy fazék gulyáshoz is elég egy darab."
+"Jó napot! Mit adhatok?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"teasing",
-"Hallod? Ha megeszed, szombaton én hívlak vacsorázni."
+"polite",
+"Jó napot! Két kiló paprikát kérek."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"amused",
-"Naná. Add ide, ez semmi."
+"surprised",
+"Két kilót? Rendben, az körülbelül tizenöt darab."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"teasing",
-"Na, mi van? Miért vagy ilyen piros?"
+"flustered",
+"Tizenöt? Nem, nem, két darabot, bocsánat!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"stiff",
-"Semmi baj...",
-"Semmi baj"
-],
-[
-"shout",
-"jaj, ég a szám!"
+"amused",
+"Semmi baj, gyakran mondják. Két darab, tessék."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"Vizet ne! Hozzanak tejet, és hívják a férjemet!"
+"teasing",
+"Kár. Tizenöt paprikából jó lecsó lett volna."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"worried",
-"A férjét? Miért, ő orvos?"
+"surprised",
+"Lecsó? Én még soha nem ettem lecsót."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"amused",
-"Nem, ő fotóz mindenkit, aki megeszi. Nézze a falat!"
+"surprised",
+"Komolyan?"
+],
+[
+"gentle",
+"Akkor mégis kérünk egy kilót, vasárnap főzök neked."
 ]
 ]
 },
@@ -94,15 +93,11 @@
 "segs": [
 [
 "surprised",
-"Úristen, ott harminc piros arc van a falon."
-]
-]
-},
-"12": {
-"segs": [
+"Nekem?"
+],
 [
 "teasing",
-"Szombat, hét óra. A képed meg az enyém lesz."
+"Akkor az egy kiló nem túl kevés?"
 ]
 ]
 }

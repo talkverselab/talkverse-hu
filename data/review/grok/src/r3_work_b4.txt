@@ -1,28 +1,27 @@
 === r3_work_b4
 kind: long
-title: 매일 오는 할머니
-emoji: 🏠
-scene: 임대료를 세 배로 올린다는 편지가 왔다. 카페가 문을 닫게 생겼는데, 오늘도 그 할머니가 커피를 드시러 온다
+title: 「늘 드시던 걸로」
+emoji: 🫖
+scene: 저녁 카페. Bence 가 창고에 간 사이 단골 할머니가 「늘 먹던 걸로」를 주문한다. 처음 보는 사람이라 뭔지 모른다
 b: Bence
 c: Néni
 register: mixed
-twist: 14 reveal
+twist: 13 chaos
 purpose: work_hungary
-goal: 걱정 나누기와 어르신께 말하기(3인칭 존댓말)
-expressions: Hát; Sajnos; Szerintem; Mindegy; Figyelj; Ne már; Tessék
-B | Olvastad a levelet? A tulajdonos háromszor annyit kér a helyért. | 편지 읽었어? 건물주가 임대료를 세 배로 달래. | tulajdonos = 주인 | emotion=worried
-A | Háromszor annyit? Hát ezt nem tudjuk kifizetni! | 세 배? 그건 못 내지! | kifizetni = 다 내다 | emotion=surprised
-B | Sajnos nem. Szerintem egy hónap múlva bezárunk. | 못 내지. 내 생각엔 한 달 뒤면 문 닫아. | egy hónap múlva = 한 달 뒤에 | emotion=sad
-A | Ki ez a tulajdonos? Még sosem láttuk. | 건물주가 누군데? 한 번도 못 봤잖아. | még sosem = 아직 한 번도 안 | emotion=annoyed
-B | Senki sem tudja. Csak a levelei jönnek. | 아무도 몰라. 편지만 와. | levelei = 그의 편지들 | emotion=sad
-A | Mindegy. Jön a néni, legalább ő ne tudja meg. | 아무튼. 할머니 오신다, 저분은 모르시게 하자. | legalább = 적어도 | emotion=sad+worried
-C | Csókollak, kedves! Mi van, miért ilyen szomorú? | 뽀뽀할게요! 무슨 일이에요, 왜 이렇게 시무룩해요? | csókollak = 그때 그 실수를 놀리는 말 | emotion=cheerful+worried
-A | Semmi, néni. Tessék, a kávéja, ma is ingyen van. | 아무것도 아니에요, 할머니. 여기 커피요, 오늘도 공짜예요. | ingyen = 공짜로 | emotion=gentle
-B | Figyelj, már egy éve ingyen iszik. Ezért nincs pénzünk! | 야, 벌써 1년째 공짜로 드시잖아. 그러니까 돈이 없지! | ezért = 그래서 | emotion=annoyed
-A | Egy nyugdíjas néni? Ne már, egy kávé nem gond. | 연금으로 사시는 할머니인데? 에이, 커피 한 잔이 뭐라고. | nyugdíjas = 연금 생활자 | emotion=gentle
-C | Milyen levél? Mutassa csak! | 무슨 편지요? 어디 봐요! | mutassa = 보여 주세요(존댓말) | emotion=surprised
-C | Jaj, ezt az unokám írta. Szólok neki, hogy ne írjon többet. | 아이고, 이건 내 손주가 썼네. 더 쓰지 말라고 일러야겠어요. | unoka = 손주 | emotion=amused
-B | Az unokája? Ezt hogy érti, néni? | 손주분이요? 그게 무슨 말씀이세요, 할머니? | hogy érti? = 무슨 뜻이에요? | emotion=surprised
-C | A ház az enyém, kedves. Az egész utca is. | 이 건물 내 거예요. 이 거리 전체도요. | az enyém = 내 것 | emotion=gentle
-A | És én egy éve ingyen adok Önnek kávét? | 그럼 저는 1년째 공짜 커피를 드린 거예요? | Önnek = 당신께(존댓말) | emotion=surprised
-C | Igen. Holnap is jövök, csókollak! | 그래요. 내일도 올게요, 뽀뽀! | -lak = 내가 너를 ~한다 | emotion=amused+cheerful
+goal: 손님 주문 되묻기(Tejjel? · Zabtej vagy mandulatej?)와 늘 먹던 것(a szokásos)
+expressions: Tessék; Hát; Mindjárt; Rendben
+C | Jó estét! A szokásosat kérem. | 안녕하세요! 늘 먹던 걸로 주세요. | a szokásos = 늘 먹던 것 | emotion=cheerful
+A | Jó estét! Elnézést, új vagyok. Mi a szokásos? | 안녕하세요! 죄송해요, 제가 새로 와서요. 늘 드시는 게 뭔가요? | új vagyok = 새로 왔다 | emotion=polite
+C | Bence tudja. Ő hol van? | 벤체가 알아요. 벤체는 어디 있어요? | hol van? = 어디 있어요? | emotion=surprised
+A | Hátul van, mindjárt jön. Addig segíthetek? | 뒤에 있어요, 금방 와요. 그동안 제가 도와드릴까요? | mindjárt = 금방 | emotion=polite
+C | Hát, próbáljuk meg. Kávé, de nem túl erős. | 글쎄, 해 보죠. 커피인데 너무 진하지 않게. | próbáljuk meg = 해 보자 | emotion=amused
+A | Akkor egy hosszú kávé? Tejjel? | 그럼 롱 커피요? 우유 넣어서요? | tejjel = 우유를 넣어 | emotion=polite
+C | Tejjel, igen. De nem tehéntejjel. | 우유 넣어서요, 네. 근데 소젖 말고요. | tehéntej = 소젖 우유 | emotion=neutral
+A | Zabtej vagy mandulatej? | 귀리 우유요, 아몬드 우유요? | zabtej = 귀리 우유 | emotion=polite
+C | Zab, egy kanál mézzel. És egy kis fahéj a tetejére. | 귀리요, 꿀 한 스푼 넣어서. 위에 시나몬 조금이요. | fahéj = 시나몬 | emotion=cheerful
+A | Rendben. Tessék, zabtejes hosszú kávé mézzel és fahéjjal. | 알겠습니다. 여기요, 꿀과 시나몬 올린 귀리 우유 롱 커피예요. | fahéjjal = 시나몬과 함께 | emotion=cheerful
+B | Jó estét, Erzsi néni! Jaj, mit iszik ma? | 안녕하세요, 에르지 아주머니! 어, 오늘은 뭘 드세요? | mit iszik? = 뭘 드세요?(존댓말) | emotion=surprised
+A | A szokásosat. Nem ez az? | 늘 드시는 거. 이거 아니야? | nem ez az? = 이거 아니야? | emotion=worried
+B | A szokásos egy kamillatea. Már tíz éve. | 늘 드시는 건 캐모마일 차야. 벌써 10년째. | kamillatea = 캐모마일 차 | emotion=amused
+C | Tudom, kedvesem. Csak kíváncsi voltam az új kollégára. | 알아요, 얘야. 새 직원이 궁금했을 뿐이에요. | kíváncsi = 궁금한 | emotion=teasing
+C | Finom. Holnap is ezt kérem, ez az új szokásos. | 맛있네요. 내일도 이걸로 줘요, 이게 새 「늘 먹던 거」예요. | szokásos = 늘 먹는 것 | emotion=gentle

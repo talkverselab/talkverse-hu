@@ -8,68 +8,63 @@
 "segs": [
 [
 "polite",
-"Jó napot! Mi a baj?"
+"Jó napot, tessék, üljön le! Mi a panasza?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Jó napot!"
-],
-[
 "worried",
-"Nagyon fáj a fogam."
+"Jó napot! Két napja nagyon fáj a fogam."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"polite",
-"Melyik fog? Nyissa ki a száját!"
+"surprised",
+"A foga? Akkor nyissa ki a száját!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"worried",
-"Aaa... ott, hátul!",
-"Aaa, ott, hátul!"
+"flustered",
+"Nem a szám. Itt fáj, a homlokom!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"gentle",
-"Aha, ez az. Nem fog fájni."
+"amused",
+"De hát az a feje, nem a foga!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shout",
-"Jaj! Mit csinál?"
+"flustered",
+"Jaj, bocsánat! Fáj a fejem, nem a fogam."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"cheerful",
-"Kész! Tessék, itt a foga."
+"gentle",
+"Semmi baj, gyakori hiba. Lázas is?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"De hát ez a jó fogam volt!"
+"sad",
+"Nem, csak nagyon fáradt vagyok."
 ]
 ]
 }

@@ -15,7 +15,7 @@
 "2": {
 "segs": [
 [
-"polite",
+"cheerful",
 "Jó napot! Egy kávét kérek."
 ]
 ]
@@ -24,7 +24,7 @@
 "segs": [
 [
 "polite",
-"Tejjel és cukorral?"
+"Tejjel kéri?"
 ]
 ]
 },
@@ -39,15 +39,15 @@
 "5": {
 "segs": [
 [
-"polite",
-"Süteményt is kér?"
+"cheerful",
+"Szirupot és tejszínhabot is kér?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"worried",
+"flustered",
 "Igen, igen."
 ]
 ]
@@ -56,15 +56,19 @@
 "segs": [
 [
 "cheerful",
-"Akkor egy kávé, három sütemény és egy rétes!"
+"Tessék: nagy karamellás kávé tejszínhabbal. Kétezer forint."
 ]
 ]
 },
 "8": {
 "segs": [
 [
+"surprised",
+"Kétezer?"
+],
+[
 "flustered",
-"Jaj, várjon! Csak egy kávét kérek!"
+"Jaj, csak egy sima kávét akartam!"
 ]
 ]
 }

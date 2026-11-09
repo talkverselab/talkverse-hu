@@ -10,142 +10,171 @@
  "domain": [
   "love"
  ],
- "title": "꿈에서는",
- "emoji": "💭",
- "scene": "미술관 앞 계단. Anna 가 A 의 이름을 자꾸 말해 보라고 한다",
+ "title": "하루 일찍",
+ "emoji": "🎂",
+ "scene": "아침 어학원 앞. A 가 작은 케이크를 들고 Anna 를 기다렸다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
  },
  "register": "casual",
- "twist": 5,
- "twist_type": "emotion",
+ "twist": 6,
+ "twist_type": "reveal",
  "flags": [
   "romance"
  ],
- "goal": "이유 묻기(Miért?)와 '~해야 해'(mennem kell)",
+ "goal": "생일 축하하기(Boldog születésnapot!)와 눈 감으라고 하기",
  "expressions": [
-  "Miért?",
-  "Jaj",
-  "Várj"
+  "Na",
+  "Igazából",
+  "Ne már"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Mondd még egyszer a neved!",
-   "rd": "몬드 멕 에지쎄르 어 네베드!",
-   "ko": "네 이름 한 번 더 말해 봐!",
-   "note": "még egyszer = 한 번 더",
-   "tags": [],
-   "emotion": "cheerful",
+   "speaker": "A",
+   "hu": "Szia, Anna! Csukd be a szemed!",
+   "rd": "씨어, 언너! 축드 베 어 쎄메드!",
+   "ko": "안녕, 언너! 눈 감아 봐!",
+   "note": "csukd be = 감아",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Mondd",
-     "mond",
-     "몬드"
+     "Szia",
+     "szia",
+     "씨어"
     ],
     [
-     "még",
-     "még",
-     "메그"
+     "be",
+     "be",
+     "베"
     ],
     [
-     "neved",
-     "neved",
-     "네베드"
+     "szemed",
+     "szem",
+     "쎔"
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "{name}. Miért?",
-   "rd": "{name}. 미에르트?",
-   "ko": "{name}. 왜?",
-   "note": "miért? = 왜?",
+   "speaker": "B",
+   "hu": "Mi az? Na, becsuktam.",
+   "rd": "미 어즈? 너, 베축텀.",
+   "ko": "뭔데? 자, 감았어.",
+   "note": "becsuktam = 감았다",
    "tags": [
-    "expr:Miért?"
+    "expr:Na"
    ],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Miért",
-     "miért",
-     "미에르트"
+     "becsuktam",
+     "becsuk",
+     ""
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "B",
-   "hu": "{name}... Jaj, nem jó.",
-   "rd": "{name}... 여이, 넴 요.",
-   "ko": "{name}… 아이고, 안 되네.",
-   "note": "nem jó = 안 좋아",
+   "speaker": "A",
+   "hu": "Boldog születésnapot! Ez a tiéd.",
+   "rd": "볼독 쓀레테슈너포트! 에즈 어 티에드.",
+   "ko": "생일 축하해! 이거 네 거야.",
+   "note": "születésnap = 생일",
    "tags": [
-    "expr:Jaj"
+    "expr:Na"
    ],
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "{name}..."
-    ],
-    [
-     "flustered",
-     "Jaj, nem jó."
-    ]
-   ],
+   "emotion": "excited",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Boldog",
+     "boldog",
+     "볼도그"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "születésnapot",
+     "születésnap",
+     ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "A",
-   "hu": "De, jó. Nagyon jól mondod.",
-   "rd": "데, 요. 너죤 욜 몬도드.",
-   "ko": "아니야, 좋아. 아주 잘 말해.",
-   "note": "de = 아니야(부정에 반박)",
-   "tags": [],
-   "emotion": "gentle",
+   "speaker": "B",
+   "hu": "Hű, torta! Nagyon kedves vagy.",
+   "rd": "휘, 토르터! 너죤 케드베시 버지.",
+   "ko": "와, 케이크! 너 정말 다정하다.",
+   "note": "kedves = 다정한",
+   "tags": [
+    "expr:Na"
+   ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "jó",
-     "jó",
-     "요"
+     "Hű",
+     "hű",
+     ""
     ],
     [
-     "jól",
-     "jól",
-     "욜"
+     "torta",
+     "torta",
+     ""
     ],
     [
-     "mondod",
-     "mond",
-     "몬드"
+     "kedves",
+     "kedves",
+     "케드베슈"
     ]
    ]
   },
   {
    "num": 5,
-   "speaker": "B",
-   "hu": "Hát, álmomban jobban ment.",
-   "rd": "하트, 알몸번 요번 멘트.",
-   "ko": "음, 꿈에서는 더 잘됐는데.",
-   "note": "álmomban = 내 꿈에서",
+   "speaker": "A",
+   "hu": "Réka mondta, hogy ma van.",
+   "rd": "레커 몬드터, 호지 머 번.",
+   "ko": "레카가 오늘이라고 했어.",
+   "note": "hogy = ~라고",
    "tags": [],
-   "emotion": "shy",
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ],
+    [
+     "mondta",
+     "mond",
+     "몬드"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Hát... igazából holnap van.",
+   "rd": "하트... 이거자볼 홀너프 번.",
+   "ko": "음… 사실은 내일이야.",
+   "note": "igazából = 사실은",
+   "tags": [
+    "expr:Na",
+    "expr:Igazából"
+   ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Hát",
@@ -153,48 +182,32 @@
      "핫"
     ],
     [
-     "álmomban",
-     "álom",
-     "알롬"
+     "igazából",
+     "igaz",
+     "이거즈"
     ],
     [
-     "jobban",
-     "jobb",
-     ""
+     "holnap",
+     "holnap",
+     "홀넙"
     ],
     [
-     "ment",
-     "megy",
-     "메지"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Álmodban? Milyen álmodban?",
-   "rd": "알모드번? 미옌 알모드번?",
-   "ko": "네 꿈에서? 무슨 꿈?",
-   "note": "milyen = 어떤",
-   "tags": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Álmodban",
-     "álmod",
-     ""
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 7,
-   "speaker": "B",
-   "hu": "Jaj, semmi! Mennem kell!",
-   "rd": "여이, 셈미! 멘넴 켈!",
-   "ko": "아이고, 아무것도 아냐! 나 가야 해!",
-   "note": "mennem kell = 나 가야 해",
+   "speaker": "A",
+   "hu": "Jaj, ne már! Akkor holnap hozok egy másikat.",
+   "rd": "여이, 네 마르! 어꼬르 홀너프 호족 에지 마시커트.",
+   "ko": "아이고, 말도 안 돼! 그럼 내일 하나 더 가져올게.",
+   "note": "egy másikat = 다른 하나를",
    "tags": [
-    "expr:Jaj"
+    "expr:Na",
+    "expr:Ne már"
    ],
    "emotion": "flustered",
    "lemmas": [
@@ -204,48 +217,53 @@
      "야이"
     ],
     [
-     "kell",
-     "kell",
-     "켈"
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "hozok",
+     "hoz",
+     "호즈"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "A",
-   "hu": "Várj! Mit csináltam az álmodban?",
-   "rd": "바르이! 미트 치날텀 어즈 알모드번?",
-   "ko": "잠깐! 꿈에서 내가 뭐 했는데?",
-   "note": "csináltam = 내가 했다",
+   "speaker": "B",
+   "hu": "Torta nem kell. Holnap is gyere, az elég.",
+   "rd": "토르터 넴 켈. 홀너프 이시 제레, 어즈 엘렉.",
+   "ko": "케이크는 필요 없어. 내일도 와, 그거면 돼.",
+   "note": "elég = 충분하다",
    "tags": [
-    "expr:Várj"
+    "expr:Na"
    ],
-   "emotion": "shout",
-   "segs": [
-    [
-     "shout",
-     "Várj!"
-    ],
-    [
-     "teasing",
-     "Mit csináltam az álmodban?"
-    ]
-   ],
+   "emotion": "shy",
    "lemmas": [
     [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "csináltam",
-     "csinált",
+     "Torta",
+     "torta",
      ""
     ],
     [
-     "álmodban",
-     "álmod",
-     ""
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "elég",
+     "elég",
+     "엘렉"
     ]
    ]
   }

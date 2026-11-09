@@ -8,15 +8,15 @@
 "segs": [
 [
 "polite",
-"Elnézést, tudja, miért állunk már negyven perce?"
+"Elnézést, azt hiszem, ez az én helyem."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"gentle",
-"Nem baj, ráérünk. Kér egy pogácsát?"
+"surprised",
+"Tényleg? Nekem is ez van a jegyemen."
 ]
 ]
 },
@@ -24,67 +24,80 @@
 "segs": [
 [
 "polite",
-"Köszönöm, szívesen."
-],
-[
-"excited",
-"Hű, ez nagyon finom!"
+"Melyik kocsi? Én a hatosban vagyok."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"cheerful",
-"A feleségem süti. Tegeződjünk, ha már itt ülünk!"
+"flustered",
+"Várjon... Hatos kocsi, negyvenkettes hely.",
+"Várjon, Hatos kocsi, negyvenkettes hely."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"Jó, persze, {name} vagyok. Te hova mész?"
+"surprised",
+"Megnézhetem? Ez a jegy a debreceni vonatra szól."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Tamás. Fonyódra megyek, de előbb megeszem ezt a pogácsát."
+"flustered",
+"Mi? Ez nem Debrecenbe megy?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"worried",
-"Figyelj, szerinted mikor indul a vonat?"
+"polite",
+"Nem, ez Szegedre megy. Az Ön vonata ott áll, a szomszéd vágányon."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"amused",
-"Szerintem mindjárt. Még két pogácsa van."
+"flustered",
+"Jaj! Mikor indul?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"tsukkomi",
-"Mi köze a pogácsának a vonathoz?"
+"worried",
+"Két perc múlva."
+],
+[
+"gentle",
+"Segítek a bőrönddel!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"teasing",
-"Hát, én vezetem a vonatot. Ebédszünet van."
+"cheerful",
+"Köszönöm! Ön nagyon kedves."
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Szívesen."
+],
+[
+"shout",
+"Siessen, a kalauz már sípol!"
 ]
 ]
 }

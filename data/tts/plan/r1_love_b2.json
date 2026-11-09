@@ -7,61 +7,65 @@
 "1": {
 "segs": [
 [
-"gentle",
-"Olyan csendes vagy ma. Mire gondolsz?"
+"excited",
+"Na? Nem látsz valami újat?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"shy",
-"Semmire. Csak gyakorlok egy mondatot neked."
+"worried",
+"Újat? Izé... új a kabátod?",
+"Újat? Izé, új a kabátod?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"excited",
-"Egy mondatot? Na, mondd, nagyon kíváncsi vagyok!"
+"teasing",
+"Nem, ez régi. Nézd jobban!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"shy",
-"Várj... Anna, neked nagyon szép szemeted van.",
-"Várj, Anna, neked nagyon szép szemeted van."
+"flustered",
+"Új táska? Új cipő?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Szemetem?"
-],
-[
-"teasing",
-"Köszi, minden kedden viszik el."
+"annoyed",
+"Jaj, a hajam! Levágattam."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Jaj, nem! A szemed szép, nem a szemeted!"
+"surprised",
+"Ja, tényleg! Nagyon jól áll."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Tudom. Csak még egyszer akartam hallani."
+"teasing",
+"Csak azért mondod, mert szóltam."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Nem. Csak a szemedet néztem, nem a hajadat."
 ]
 ]
 }

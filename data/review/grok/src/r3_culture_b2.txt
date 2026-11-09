@@ -1,28 +1,29 @@
 === r3_culture_b2
 kind: long
-title: 안나의 첫 비명
-emoji: 😱
-scene: Anna 의 첫 개인전 개막식. A 가 축사 세 문장을 맡았다. kiállítás(전시)와 kiáltás(비명)는 글자 두 개 차이다
+title: 공원 콘서트
+emoji: 🎶
+scene: 여름 저녁 공원 야외 콘서트. 세 사람 표는 전부 내 폰에 있다
 b: Anna
 c: Réka
-d: Igazgató
+d: Jegyellenőr
 register: mixed
-twist: 10 chaos
+twist: 11 chaos
+flags: romance
 purpose: media love
-goal: 공식 자리의 인사말(üdvözlöm Önöket)과 비슷한 낱말 구별
-expressions: Nyugi; Ne már; Semmi baj; Úristen; Bocsi
-B | Jaj, remegek. Ma este megnyitó, az első saját kiállításom! | 아, 떨려. 오늘 밤 개막이야, 내 첫 개인전! | kiállítás = 전시회 | emotion=worried+excited
-A | Nyugi, minden rendben lesz. Hányan jönnek? | 진정해, 다 잘될 거야. 몇 명 와? | hányan? = 몇 명이서? | emotion=gentle
-B | Legalább ötvenen. És az igazgató azt szeretné, ha te mondanál pár szót. | 적어도 쉰 명. 그리고 관장님이 네가 몇 마디 해 줬으면 하셔. | azt szeretné, ha = ~하면 좋겠다고 한다 | emotion=cheerful
-A | Én, magyarul? Ne már, Anna, én még a kenyeret is rosszul kérem! | 나? 헝가리어로? 에이, 안나, 난 빵도 제대로 못 시켜! | még … is = ~조차 | emotion=surprised+flustered
-C | Semmi baj, három mondat: üdvözlöm Önöket, ez Anna kiállítása, köszönöm. | 괜찮아, 세 문장이야. 환영합니다, 안나의 전시입니다, 감사합니다. | üdvözlöm Önöket = 여러분을 환영합니다 | emotion=cheerful
-A | Kiállítása, kiállítása... Oké, ez nem lehet nehéz. | 전시, 전시… 좋아, 이게 어려울 리 없지. | nem lehet = ~일 리 없다 | emotion=worried
-D | Hölgyeim és uraim, kérem, figyeljenek! Most {name} szól néhány szót. | 신사 숙녀 여러분, 주목해 주십시오! 이제 {name} 님이 몇 마디 하겠습니다. | hölgyeim és uraim = 신사 숙녀 여러분 | emotion=polite
-A | Üdvözlöm Önöket! Ez Anna első kiáltása! | 여러분을 환영합니다! 이것은 안나의 첫 비명입니다! | kiáltás = 비명, 외침 | emotion=stiff
-C | Úristen, kiáltása! Nem kiállítása! | 세상에, 「비명」이래! 「전시」가 아니라! | -a/-e = 그의 | emotion=shout
-D | Milyen bátor! Kérem, mindenki kiáltson Annával együtt! | 참 대담하군요! 여러분, 다 같이 안나와 함께 외칩시다! | kiáltson = 외치십시오 | emotion=excited
-B | Várjatok, ne! Miért kiabál ötven ember? | 잠깐, 안 돼! 왜 쉰 명이 소리를 질러? | kiabál = 소리 지르다 | emotion=shout
-A | Bocsi, Anna! Csak két betű volt a különbség. | 미안, 안나! 글자 두 개 차이였어. | különbség = 차이 | emotion=flustered
-C | Hé, a rendőrök is itt vannak! A szomszédok hívták őket. | 야, 경찰도 왔어! 이웃들이 불렀대. | rendőr = 경찰 | emotion=worried
-D | Csodálatos, minden képet eladtunk! Holnap megismételjük? | 훌륭합니다! 그림이 다 팔렸어요. 내일 또 할까요? | megismétel = 되풀이하다 | emotion=excited
-B | Minden képet? {name}, jövőre is te beszélsz, és addig ne tanulj meg magyarul. | 그림을 다? {name}, 내년에도 네가 말해, 그때까지 헝가리어 배우지 마. | addig = 그때까지 | emotion=surprised+teasing
+goal: 공연장 입구에서 표 보여 주기와 곤란할 때 말(Egy pillanat · Sajnos)
+expressions: Semmi baj; Egy pillanat; Komolyan
+C | Na, mindenki itt van? Mindjárt kezdődik a koncert! | 자, 다 왔어? 곧 콘서트 시작해! | mindjárt = 곧 | emotion=excited
+B | Itt vagyok! Hoztam vizet és pokrócot. | 나 왔어! 물이랑 돗자리 가져왔어. | pokróc = 담요, 돗자리 | emotion=cheerful
+A | Bocsi a késésért. Lassú volt a villamos. | 늦어서 미안. 트램이 느렸어. | késés = 늦음 | emotion=flustered
+C | Semmi baj. A jegyek nálad vannak, ugye? | 괜찮아. 표는 너한테 있지, 그렇지? | nálad = 너한테 | emotion=gentle
+A | Persze, a telefonomon. Mindhárom. | 물론, 내 폰에. 세 장 다. | mindhárom = 셋 다 | emotion=cheerful
+D | Jó estét! A jegyeket kérem. | 안녕하세요! 표 보여 주세요. | a jegyeket kérem = 표 주세요 | emotion=polite
+A | Egy pillanat... Jaj, ne. Lemerült a telefonom. | 잠시만요… 아, 안 돼. 폰 배터리가 나갔어. | lemerült = 배터리가 다 됐다 | emotion=worried+flustered
+C | Komolyan? Pont most? | 진짜? 하필 지금? | pont most = 하필 지금 | emotion=annoyed
+B | Nyugi. Réka, van töltőd? | 진정해. 레카, 충전기 있어? | töltő = 충전기 | emotion=gentle
+C | Van, de konnektor nincs. Ez egy park. | 있어, 근데 콘센트가 없잖아. 여긴 공원이야. | konnektor = 콘센트 | emotion=tsukkomi
+D | Sajnos jegy nélkül nem engedhetem be önöket. | 죄송하지만 표 없이는 들여보내 드릴 수 없습니다. | nélkül = ~없이 | emotion=stiff
+B | Várjon! Tegnap lefényképeztem a jegyeket. Itt vannak. | 잠깐만요! 어제 표를 찍어 뒀어요. 여기 있어요. | lefényképez = 사진 찍어 두다 | emotion=excited
+D | Rendben, mehetnek. Jó szórakozást! | 좋습니다, 들어가세요. 즐거운 시간 되세요! | Jó szórakozást! = 즐거운 시간 되세요 | emotion=polite
+A | Anna, miért fényképezted le őket? | 안나, 왜 그걸 찍어 둔 거야? | miért = 왜 | emotion=surprised
+B | Mert ismerlek. A te telefonod mindig lemerül. 😊 | 너를 아니까. 네 폰은 늘 배터리가 나가잖아. 😊 | ismerlek = 너를 안다 | emotion=teasing+gentle

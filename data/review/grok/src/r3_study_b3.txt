@@ -1,27 +1,28 @@
 === r3_study_b3
 kind: long
-title: 감자 발표
-emoji: 🥔
-scene: 미술사 수업 발표 날. Anna 의 컴퓨터에서 복사해 온 파일을 열었더니 슬라이드 대신 감자 그림이 떴다
+title: 교수님 면담 시간
+emoji: 🎓
+scene: 보고서 점수가 3점이라 교수님 면담 시간에 찾아간다. Anna 가 문 앞에서 기다려 준다
 b: Anna
 c: Professzor
 register: mixed
-twist: 13 chaos
+twist: 13 reveal
 purpose: study_abroad
-goal: 발표 말(Nézzük az első képet!)과 즉흥으로 이어 가기
-expressions: Nyugi; ugye; Tessék; Jaj; izé; Te jó ég
-A | Anna, segítesz? Öt perc múlva kezdem az előadást, és remeg a kezem. | 언너, 도와줄래? 5분 뒤에 발표 시작인데 손이 떨려. | remeg = 떨린다 | emotion=worried
-B | Nyugi, jó lesz. A gépen van a fájl, ugye? | 진정해, 잘될 거야. 파일 컴퓨터에 있지? | nyugi = 진정해 | emotion=gentle
-A | Igen, tegnap a te gépedről másoltam át. | 응, 어제 네 컴퓨터에서 복사했어. | másoltam át = 옮겨 복사했다 | emotion=neutral
-B | Az én gépemről? Várj, melyik mappából? | 내 컴퓨터에서? 잠깐, 어느 폴더에서? | mappa = 폴더 | emotion=worried
-C | Tessék, {name}, kezdheti. Mi a téma? | 네, {name} 씨, 시작하세요. 주제가 뭐죠? | kezdheti = 시작해도 됩니다 | emotion=polite
-A | A téma a modern magyar festészet. Nézzük az első képet! | 주제는 현대 헝가리 회화입니다. 첫 그림을 보시죠! | festészet = 회화 | emotion=stiff
-B | Jaj, ne! Te jó ég, ez az én krumplim! | 아이고, 안 돼! 맙소사, 이거 내 감자야! | krumplim = 내 감자 | emotion=flustered
-C | Krumpli? Folytassa, kérem. | 감자요? 계속하세요. | folytassa = 계속하세요 | emotion=surprised+polite
-A | Igen, izé, a krumpli a magyar lélek. Egyszerű, de mindenhol ott van. | 네, 저, 감자는 헝가리의 영혼입니다. 소박하지만 어디에나 있지요. | lélek = 영혼 | emotion=flustered+stiff
-C | Érdekes! És a következő képen? | 흥미롭네요! 다음 그림은요? | következő = 다음 | emotion=cheerful
-A | Az is krumpli. De nézzék: ez már szomorú krumpli. | 그것도 감자입니다. 하지만 보세요, 이건 슬픈 감자입니다. | nézzék = 보세요(여러분, 존댓말) | emotion=stiff+sad
-C | Zseniális! Harminc éve tanítok, de ilyet még nem láttam. | 천재적이에요! 30년을 가르쳤지만 이런 건 처음 봅니다. | zseniális = 천재적인 | emotion=excited
-C | Szeptemberben Bécsben konferencia lesz. Ezt ott is elő kell adnia. | 9월에 빈에서 학회가 있어요. 거기서도 발표해야겠습니다. | elő kell adnia = 발표해야 한다 | emotion=cheerful
-A | Bécsben, krumpliról? Anna, most mit csináljak? | 빈에서, 감자로? 언너, 나 이제 어떡해? | mit csináljak? = 뭘 해야 하지? | emotion=surprised+worried
-B | Semmit. Már beírtam a nevem: én vagyok a társszerző. | 아무것도. 내 이름 벌써 써 놨어, 내가 공동 저자야. | társszerző = 공동 저자 | emotion=teasing
+goal: 면담에서 점수 묻기(A dolgozatomról szeretnék kérdezni · Miben segíthetek?)
+expressions: Légyszi; Egy pillanat; Szerintem; Tényleg
+B | Ideges vagy? | 긴장돼? | ideges = 긴장한, 초조한 | emotion=gentle
+A | Egy kicsit. Hármas lett a dolgozatom, és nem értem, miért. | 조금. 보고서가 3점인데 왜인지 모르겠어. | hármas = 3점 | emotion=worried
+B | Kérdezd meg nyugodtan. A professzor kedves, csak szigorú. | 편하게 물어봐. 교수님 친절해, 엄격할 뿐이지. | szigorú = 엄격한 | emotion=gentle
+A | Jó, bemegyek. Várj meg, légyszi! | 알았어, 들어간다. 기다려 줘, 제발! | várj meg = 기다려 줘 | emotion=worried
+C | Jöjjön be! Miben segíthetek? | 들어오세요! 무엇을 도와드릴까요? | miben = 무엇에서 | emotion=polite
+A | Jó napot, Professzor Úr. A dolgozatomról szeretnék kérdezni. | 안녕하세요, 교수님. 제 보고서에 대해 여쭙고 싶어서요. | dolgozat = 보고서 | emotion=polite
+C | Persze. Mi a probléma? | 그럼요. 뭐가 문제죠? | probléma = 문제 | emotion=gentle
+A | A listán hármas áll a nevem mellett. | 명단에 제 이름 옆에 3점이라고 적혀 있어서요. | áll = (적혀) 있다 | emotion=worried
+C | Hármas? Egy pillanat, megnézem. | 3점이요? 잠깐만요, 볼게요. | egy pillanat = 잠깐만요 | emotion=surprised
+A | Szerintem a ragok miatt. Mindig rosszul rakom őket. | 제 생각엔 격 어미 때문이에요. 늘 틀리게 붙여요. | rag = 격 어미 | emotion=sad
+C | Melyik sort nézte a listán? | 명단에서 어느 줄을 보셨어요? | sor = 줄 | emotion=neutral
+A | Ezt, a harmadikat. | 이거요, 세 번째 줄. | harmadik = 세 번째 | emotion=polite
+C | Az a szomszédja. Ön a negyedik sorban van: ötös. | 그건 옆 사람이에요. {name} 씨는 네 번째 줄, 5점이에요. | ötös = 5점(최고 점수) | emotion=amused+gentle
+A | Tényleg ötös? Köszönöm szépen! | 정말 5점이요? 정말 감사합니다! | tényleg = 정말 | emotion=excited
+B | Na? Mi volt? | 어때? 어떻게 됐어? | mi volt? = 어땠어? | emotion=worried
+A | Ötös lett! Csak rossz sort néztem. | 5점이었어! 그냥 엉뚱한 줄을 봤던 거야. | rossz sor = 잘못된 줄 | emotion=excited

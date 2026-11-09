@@ -1,19 +1,19 @@
 === r1_travel_a1
 kind: short
-title: 어제 표, 다른 트램
+title: 그건 박물관 표예요
 emoji: 🚋
-scene: 부다페스트 트램 안 검표. 표를 내밀었는데 문제가 하나가 아니다
+scene: 부다페스트 트램 안 검표. 주머니에서 표를 꺼내 내밀었다
 b: Ellenőr
 register: polite
 twist: 7 reveal
 purpose: travel
-goal: 표 검사에 답하기와 어디 가는지 말하기
-expressions: Jó napot; Tessék; bocsánat
+goal: 검표에 답하기와 사과하기(Tessék · bocsánat)
+expressions: Egy pillanat; Tessék; Jól van
 B | Jó napot! Jegyeket, bérleteket kérek! | 안녕하세요! 표, 정기권 보여 주세요! | 검표원의 정해진 말 | emotion=polite
-A | Tessék, itt a jegyem. | 여기요, 제 표요. | a jegyem = 내 표 | emotion=polite
-B | Ez a jegy tegnapi. | 이 표는 어제 거예요. | tegnapi = 어제의 | emotion=stiff
-A | Tegnapi? Jaj, bocsánat! | 어제 거요? 아이고, 죄송해요! | bocsánat = 죄송합니다 | emotion=surprised+flustered
-B | Hova megy? | 어디 가세요? | hova = 어디로 | emotion=stiff
-A | A Parlamenthez megyek. | 국회의사당에 가요. | -hoz/-hez/-höz = ~쪽으로 | emotion=polite
-B | Akkor rossz villamoson ül. | 그럼 트램 잘못 타셨어요. | rossz = 나쁜, 틀린 | emotion=stiff
-A | Hát most hova megyek? | 그럼 저 이제 어디로 가죠? | hát = 그럼, 음 | emotion=worried
+A | Egy pillanat... Tessék. | 잠깐만요… 여기요. | egy pillanat = 잠깐만요 | emotion=flustered
+B | Ez múzeumi jegy. | 이건 박물관 표인데요. | múzeumi jegy = 박물관 표 | emotion=amused
+A | Jaj, bocsánat! Ez az. | 아이고, 죄송해요! 이거요. | ez az = 이거예요 | emotion=flustered
+B | Ezt nem lyukasztotta ki. | 이건 개찰을 안 하셨네요. | kilyukaszt = 펀칭하다(개찰) | emotion=stiff
+A | Most szálltam fel, tényleg! | 방금 탔어요, 정말이에요! | felszáll = (차에) 타다 | emotion=worried
+B | Jól van, ott a gép. Tetszett a múzeum? | 알겠어요, 저기 기계요. 박물관은 좋았어요? | tetszett = 마음에 들었다 | emotion=polite+gentle
+A | Nagyon! Köszönöm szépen. | 아주요! 정말 감사합니다. | köszönöm szépen = 정말 감사합니다 | emotion=surprised+cheerful

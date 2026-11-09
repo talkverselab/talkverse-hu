@@ -2,47 +2,46 @@
 "ep": "r3_friends_b1",
 "cast": {
 "B": "reka",
-"C": "man_m",
-"D": "woman_o"
+"C": "woman_o"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"polite",
-"Jó napot kívánok! Jegyeket, bérleteket kérem!"
+"cheerful",
+"Na, még három doboz, és kész vagyunk."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Réka, mit akar? Nekem nincs jegyem, otthon maradt a táskámban."
+"annoyed",
+"Jó, de mi van ebben a dobozban? Nagyon nehéz!"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"amused",
-"Nyugi, mondd neki, hogy új vagy itt. Néha működik."
+"worried",
+"Régi tányérok és lábasok. Vigyázz vele!"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Elnézést, új vagyok. Csak két hete lakom Budapestben."
+"worried",
+"Vigyázok. Remélem, a szomszédok nem alszanak."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"tsukkomi",
-"Budapestben? Jaj, ne már, Budapesten!"
+"annoyed",
+"Mi ez a nagy zaj egész délelőtt?"
 ]
 ]
 },
@@ -50,39 +49,39 @@
 "segs": [
 [
 "polite",
-"Bocsánat. És akkor Szegedben?"
+"Csókolom! Elnézést, ma költözöm ide."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Szegeden, drágám! De Győrben, ezt mindenki tudja."
+"polite",
+"Elnézést a zajért. Mindjárt végzünk."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Miért nem Győrön? Mi itt a szabály?"
+"stiff",
+"Ide költözöl? Melyik lakásba?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"stiff",
-"Szabály? Ez Magyarország, itt csak hallani kell."
+"polite",
+"A negyedikre, a tizenkettesbe."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"annoyed",
-"Hát nem, szabály igenis van! Gyere el hozzám, megtanítalak!"
+"surprised",
+"A tizenkettesbe? Ott a barátnőm lakott negyven évig."
 ]
 ]
 },
@@ -90,39 +89,51 @@
 "segs": [
 [
 "excited",
-"Emberek, szavazzunk! Ki mondja, hogy Pécsen, és ki, hogy Pécsben?"
+"Ilona nénire gondol? Ő a nagymamám!"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"tsukkomi",
-"{name}, az egész villamos szavaz. Mit csináltál?"
+"surprised",
+"Te vagy a kis Réka?!"
+],
+[
+"excited",
+"Úristen, mekkora lettél!"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"flustered",
-"Semmit! Csak nincs jegyem, szóljak neki még egyszer?"
+"surprised",
+"Szóval a nagymamád lakása? Ezt nem is mondtad!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"annoyed",
-"Ne szólj! Már a végállomáson állunk, mindenki vitatkozik."
+"teasing",
+"Nem kérdezted. És ezek a tányérok is az övéi."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"excited",
-"Hagyja a jegyet! Holnap ugyanitt, kilenckor: Miskolc!"
+"gentle",
+"Na, gyertek le hozzám. Van friss pogácsa."
+]
+]
+},
+"16": {
+"segs": [
+[
+"cheerful",
+"Köszönjük! A dobozok várhatnak, ugye?"
 ]
 ]
 }

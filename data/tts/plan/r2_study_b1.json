@@ -8,104 +8,88 @@
 "1": {
 "segs": [
 [
-"worried",
-"Réka, holnap utolsó óra. Hogy köszönjem meg a tanárnak?"
+"cheerful",
+"Jó reggelt! Ki csinálta meg a házi feladatot?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"teasing",
-"Figyelj, van egy különleges szó. Megtanítom neked."
+"worried",
+"Jaj, otthon felejtettem a füzetemet."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Tényleg? Hosszú?"
+"teasing",
+"Én is. Pontosabban: el sem kezdtem."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"teasing",
-"Naná. Megszentségteleníthetetlenségeskedéseitekért."
+"amused",
+"Na jó, akkor beszélgessünk. Réka, mit csinált a hétvégén?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Úristen!"
-],
-[
-"worried",
-"Ez tényleg azt jelenti, hogy köszönöm?"
+"cheerful",
+"Kirándultam a hegyekben. Nagyon hideg volt."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"teasing",
-"Persze. Nagyon udvarias!"
+"gentle",
+"Szép. És Ön, {name}?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Tanárnő, egy pillanat. Megszentségteleníthetetlenségeskedéseitekért!"
+"cheerful",
+"Én szombaton egész délután a fürdőszobában voltam."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Te jó ég! Hogyhogy ezt tudja?"
+"worried",
+"Egész délután? Jaj, beteg volt?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"polite",
-"Réka tanította meg."
-],
-[
-"worried",
-"Ez azt jelenti: köszönöm, ugye?"
+"excited",
+"Nem, dehogy! Meleg víz, szauna, nagyon jó volt."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"stiff",
-"Nem."
-],
-[
-"amused",
-"Ez nem köszönet, ez csak a leghosszabb szavunk."
+"tsukkomi",
+"A fürdőben voltál, nem a fürdőszobában!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"gentle",
-"De hibátlanul kimondta."
-],
-[
-"cheerful",
-"Ötös!"
+"teasing",
+"Semmi baj. Házi feladat: fürdő és fürdőszoba, öt mondat."
 ]
 ]
 }

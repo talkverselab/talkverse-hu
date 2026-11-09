@@ -7,121 +7,116 @@
 "1": {
 "segs": [
 [
-"gentle",
-"Hideg van itt fent. Miért nem maradsz bent?"
+"surprised",
+"Még fent vagy? Már éjfél van."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"sad",
-"Utoljára akarom látni a várost. Holnapután már nem leszek itt."
+"worried",
+"Holnap vizsgázom. Még két fejezet van hátra."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"sad",
-"Tudom. Összepakoltál már?"
+"gentle",
+"Én is. Hoztam teát, kérsz?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"gentle",
-"Igen, a szótárt itt hagyom neked. Már tudom a ragokat."
+"cheerful",
+"Köszi, jólesik. Milyen tea ez?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"teasing",
-"Mindet? Na jó, akkor egy kis vizsga: szeret, én téged."
+"amused",
+"Kamilla. Állítólag nyugtat, de nem altat."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"amused",
-"Várj, ez könnyű."
-],
-[
-"shy",
-"Szeretlek."
+"cheerful",
+"Kikérdezel? Itt vannak a kérdések."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"gentle",
-"Jó. Még egyszer, lassabban."
+"teasing",
+"Na, lássuk. Mikor egyesült Budapest?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shy",
-"Anna... ez most tényleg vizsga?",
-"Anna, ez most tényleg vizsga?"
+"excited",
+"Ezernyolcszázhetvenháromban. Buda, Pest és Óbuda."
 ]
 ]
 },
 "9": {
 "segs": [
 [
+"cheerful",
+"Ügyes!"
+],
+[
 "shy",
-"Nem tudom. Te mondd meg."
+"Jaj, bocsi, ásítok."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"gentle",
-"Szeretlek. És ez nem nyelvtan."
+"teasing",
+"Szerintem a kamilla mégis altat."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"shy",
-"Ötös."
+"gentle",
+"Lehet. Még tíz kérdés, aztán alszunk."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"sad",
-"De holnapután megyek. {country} nagyon messze van."
+"cheerful",
+"Rendben. Holnap hánykor van a vizsgád?"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"sad",
-"Tudom."
-],
-[
-"gentle",
-"Nézd, a vázlatfüzetem, neked adom."
+"neutral",
+"Kilenckor. A tiéd?"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"surprised",
-"Mi ez a papír a lapok között?"
+"shy",
+"Tízkor. Utána együtt ebédelünk?"
 ]
 ]
 },
@@ -129,11 +124,11 @@
 "segs": [
 [
 "gentle",
-"Repülőjegy, júniusra."
+"Igen."
 ],
 [
-"teasing",
-"Ott is vannak múzeumok, ugye?"
+"shy",
+"Ha ötös lesz, meghívlak. Ha nem, akkor is."
 ]
 ]
 }

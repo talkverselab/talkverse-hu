@@ -7,70 +7,72 @@
 "1": {
 "segs": [
 [
-"excited",
-"Boldog új évet! 🎆",
-"Boldog új évet!"
+"sad",
+"Elfogytak a jegyek a koncertre! 😭",
+"Elfogytak a jegyek a koncertre!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Neked is! Mit eszel?"
+"surprised",
+"Jaj, ne! Mind?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Halat. Finom!"
+"sad",
+"Mind. Két perc alatt."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Halat?!"
-],
-[
-"shout",
-"Ne már!"
+"gentle",
+"Durva. Sajnálom."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Mi van?"
+"sad",
+"Mindegy, majd jövőre. 😔",
+"Mindegy, majd jövőre."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"worried",
-"A hal elúszik a szerencsével!"
+"amused",
+"Várj... nekem van kettő. 🎫",
+"Várj, nekem van kettő."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Jaj. Három halat ettem."
+"shout",
+"MI VAN?!"
+],
+[
+"surprised",
+"Komolyan?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"teasing",
-"Akkor idén ne ülj mellém. 😅",
-"Akkor idén ne ülj mellém."
+"cheerful",
+"Meglepetés lett volna. Boldog szülinapot előre! 🎂",
+"Meglepetés lett volna. Boldog szülinapot előre!"
 ]
 ]
 }

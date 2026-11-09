@@ -10,58 +10,64 @@
  "domain": [
   "travel"
  ],
- "title": "로자 민박",
- "emoji": "🏡",
- "scene": "에게르 근처 마을, 밤 10시. 민박을 찾던 {name} 이 불 켜진 집 문을 두드린다",
+ "title": "일요일엔 안 다녀요",
+ "emoji": "⛴️",
+ "scene": "센텐드레 골목. 비셰그라드행 버스를 타려고 할머니에게 정류장을 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Néni"
  },
- "register": "mixed",
- "twist": 10,
+ "register": "polite",
+ "twist": 12,
  "twist_type": "reveal",
  "flags": [],
- "goal": "어른께 인사하기(Csókolom)와 숙소·계산 묻기",
+ "goal": "길 안내 따라 말하기(-ig, jobbra, balra)와 시간표 묻기",
  "expressions": [
-  "Csókolom",
-  "ugye",
-  "Hát persze",
-  "Hogyhogy",
-  "Úristen",
-  "Jaj"
+  "Elnézést",
+  "Várjon csak",
+  "Ugye"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Csókolom, elnézést a késésért! Ez a Rózsa panzió, ugye?",
-   "rd": "초콜롬, 엘네제슈트 어 케세세르트! 에즈 어 로져 펀지오, 우제?",
-   "ko": "안녕하세요, 할머니, 늦어서 죄송해요! 여기 로자 민박 맞죠?",
-   "note": "csókolom = 어른께 드리는 인사",
+   "hu": "Elnézést, meg tudná mondani, hol van a buszmegálló?",
+   "rd": "엘네제슈트, 멕 투드나 몬더니, 홀 번 어 부쓰메갈로?",
+   "ko": "실례합니다, 버스 정류장이 어디인지 알려 주시겠어요?",
+   "note": "meg tudná mondani = 말씀해 주실 수 있을까요",
    "tags": [
-    "expr:Csókolom",
-    "expr:ugye"
+    "expr:Elnézést"
    ],
    "emotion": "polite",
    "lemmas": [
     [
-     "Csókolom",
-     "csókol",
-     ""
-    ],
-    [
-     "elnézést",
+     "Elnézést",
      "elnézés",
      "엘네제시"
     ],
     [
-     "késésért",
-     "késés",
-     ""
+     "tudná",
+     "tud",
+     "투드"
     ],
     [
-     "panzió",
-     "panzió",
+     "mondani",
+     "mond",
+     "몬드"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "buszmegálló",
+     "buszmegálló",
      ""
     ]
    ]
@@ -69,38 +75,26 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Gyere be, gyere be! Jaj, de sovány vagy!",
-   "rd": "제레 베, 제레 베! 여이, 데 쇼바니 버지!",
-   "ko": "들어와, 들어와! 아이고, 왜 이렇게 말랐어!",
-   "note": "sovány = 마른",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Gyere be, gyere be!"
-    ],
-    [
-     "worried",
-     "Jaj, de sovány vagy!"
-    ]
-   ],
+   "hu": "Melyik busz kell, kedvesem?",
+   "rd": "메익 부쓰 켈, 케드베셈?",
+   "ko": "어떤 버스 타요, 얘야?",
+   "note": "kedvesem = 얘야(다정한 호칭)",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Gyere",
-     "jön",
-     "왼"
+     "busz",
+     "busz",
+     ""
     ],
     [
-     "be",
-     "be",
-     "베"
+     "kell",
+     "kell",
+     "켈"
     ],
     [
-     "sovány",
-     "sovány",
+     "kedvesem",
+     "kedvesem",
      ""
     ]
    ]
@@ -108,430 +102,54 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Köszönöm. Tudom, hogy késő van, de van még vacsora?",
-   "rd": "쾨쐬뇜. 투돔, 호지 케쇠 번, 데 번 멕 버초러?",
-   "ko": "고맙습니다. 늦은 거 아는데, 저녁 아직 있나요?",
-   "note": "késő = 늦은",
+   "hu": "A visegrádi. Fél ötkor indul, ha jól tudom.",
+   "rd": "어 비섹라디. 펠 외트코르 인둘, 허 욜 투돔.",
+   "ko": "비셰그라드 가는 거요. 제가 알기론 4시 반에 출발해요.",
+   "note": "fél öt = 4시 반",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "visegrádi",
+     "visegrád",
+     ""
     ],
     [
-     "késő",
-     "késik",
-     "케시크"
+     "indul",
+     "indul",
+     "인둘"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "jól",
+     "jól",
+     "욜"
     ],
     [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "vacsora",
-     "vacsora",
-     "버초라"
+     "tudom",
+     "tud",
+     "투드"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Hát persze! Húsleves, töltött káposzta, és ülj már le!",
-   "rd": "하트 페르쎄! 후슐레베시, 퇼퇴트 카포쓰터, 에시 윌이 마르 레!",
-   "ko": "당연하지! 고깃국, 양배추말이, 얼른 앉아!",
-   "note": "hát persze = 당연하지",
-   "tags": [
-    "expr:Hát persze"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Hát",
-     "hát",
-     "핫"
-    ],
-    [
-     "persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "töltött",
-     "tölt",
-     "퇼트"
-    ],
-    [
-     "káposzta",
-     "káposzta",
-     ""
-    ],
-    [
-     "ülj",
-     "ülj",
-     "위이"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
-     "le",
-     "le",
-     "레"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Hű, ez nagyon finom! A neten nem írták, hogy itt ilyen jó.",
-   "rd": "휘, 에즈 너죤 피놈! 어 네텐 넴 이르탁, 호지 이트 이옌 요.",
-   "ko": "와, 아주 맛있어요! 인터넷에 이렇게 좋다고는 안 쓰여 있었는데.",
-   "note": "a neten = 인터넷에",
+   "hu": "Fél ötkor? Akkor siessen, most négy húsz van!",
+   "rd": "펠 외트코르? 어꼬르 시에쎈, 모슈트 네지 후쓰 번!",
+   "ko": "4시 반? 그럼 서둘러요, 지금 4시 20분이에요!",
+   "note": "siessen = 서두르세요",
    "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Hű",
-     "hű",
-     ""
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "finom",
-     "finom",
-     "피놈"
-    ],
-    [
-     "neten",
-     "net",
-     ""
-    ],
-    [
-     "írták",
-     "ír",
-     "이르"
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "jó",
-     "jó",
-     "요"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Egyél még! Aztán alhatsz a kisszobában.",
-   "rd": "에젤 멕! 어즈탄 얼허트쓰 어 키쏘바번.",
-   "ko": "더 먹어! 그다음엔 작은방에서 자면 돼.",
-   "note": "egyél = 먹어",
-   "tags": [],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "Egyél",
-     "eszik",
-     "에식"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "alhatsz",
-     "alszik",
-     "얼루시크"
-    ],
-    [
-     "kisszobában",
-     "kisszobába",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Jó reggelt! Hol lehet fizetni, kártyával vagy készpénzzel?",
-   "rd": "요 렉겔트! 홀 레헤트 피제트니, 카르탸벌 버지 케쓰펜젤?",
-   "ko": "(다음 날 아침) 안녕하세요! 어디서 계산해요, 카드요 현금이요?",
-   "note": "készpénz = 현금",
-   "tags": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "reggelt",
-     "reggel",
-     "렉겔"
-    ],
-    [
-     "lehet",
-     "lehet",
-     "레헤트"
-    ],
-    [
-     "fizetni",
-     "fizet",
-     "피제트"
-    ],
-    [
-     "kártyával",
-     "kár",
-     "카르"
-    ],
-    [
-     "készpénzzel",
-     "készpénz",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "hu": "Fizetni? Hát ez nem hotel, egyél még egy kicsit!",
-   "rd": "피제트니? 하트 에즈 넴 호텔, 에젤 멕 에지 키치트!",
-   "ko": "돈을? 여기 호텔 아니야, 조금 더 먹어!",
-   "note": "fizetni = 돈 내기",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Fizetni?"
-    ],
-    [
-     "gentle",
-     "Hát ez nem hotel, egyél még egy kicsit!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Fizetni",
-     "fizet",
-     "피제트"
-    ],
-    [
-     "hotel",
-     "hotel",
-     "호텔"
-    ],
-    [
-     "egyél",
-     "eszik",
-     "에식"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ],
-    [
-     "kicsit",
-     "kicsi",
-     "키치"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "hu": "Hogyhogy nem hotel? Ez nem a Rózsa panzió?",
-   "rd": "호지호지 넴 호텔? 에즈 넴 어 로져 펀지오?",
-   "ko": "호텔이 아니라니요? 여기 로자 민박 아니에요?",
-   "note": "hogyhogy = 어째서",
-   "tags": [
-    "expr:Hogyhogy"
-   ],
    "emotion": "worried",
    "lemmas": [
     [
-     "Hogyhogy",
-     "hogyhogy",
-     ""
+     "Fél",
+     "fél",
+     "펠"
     ],
     [
-     "hotel",
-     "hotel",
-     "호텔"
-    ],
-    [
-     "panzió",
-     "panzió",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "hu": "Rózsa én vagyok. A panzió a szomszéd faluban van.",
-   "rd": "로져 엔 버죡. 어 펀지오 어 쏨쎄드 펄루번 번.",
-   "ko": "로자는 나야. 민박은 옆 마을에 있어.",
-   "note": "szomszéd = 이웃",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Rózsa",
-     "rózsa",
-     ""
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
-    ],
-    [
-     "panzió",
-     "panzió",
-     ""
-    ],
-    [
-     "szomszéd",
-     "szomszéd",
-     "쏨세드"
-    ],
-    [
-     "faluban",
-     "falu",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "A",
-   "hu": "Úristen! Akkor miért engedett be?",
-   "rd": "우리슈텐! 어꼬르 미에르트 엔게데트 베?",
-   "ko": "세상에! 그럼 왜 저를 들여보내셨어요?",
-   "note": "beenged = 들여보내다",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Úristen!"
-    ],
-    [
-     "flustered",
-     "Akkor miért engedett be?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
-    ],
-    [
-     "miért",
-     "miért",
-     "미에르트"
-    ],
-    [
-     "engedett",
-     "enged",
-     "엔게드"
-    ],
-    [
-     "be",
-     "be",
-     "베"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "B",
-   "hu": "Azt hittem, az unokámhoz jöttél.",
-   "rd": "어즈트 히뗌, 어즈 우노캄호즈 요뗄.",
-   "ko": "우리 손주 보러 온 줄 알았지.",
-   "note": "unoka = 손주",
-   "tags": [],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "hittem",
-     "hitt",
-     ""
-    ],
-    [
-     "unokámhoz",
-     "un",
-     ""
-    ],
-    [
-     "jöttél",
-     "jön",
-     "왼"
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "A",
-   "hu": "Jaj, nagyon sajnálom! Akkor én most megyek.",
-   "rd": "여이, 너죤 셔이날롬! 어꼬르 엔 모슈트 메젝.",
-   "ko": "아이고, 정말 죄송해요! 그럼 저 이제 갈게요.",
-   "note": "sajnálom = 죄송해요",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "emotion": "flustered",
-   "segs": [
-    [
-     "flustered",
-     "Jaj, nagyon sajnálom!"
-    ],
-    [
-     "polite",
-     "Akkor én most megyek."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "sajnálom",
-     "sajnál",
-     "셔이날"
+     "siessen",
+     "siet",
+     "시에트"
     ],
     [
      "most",
@@ -539,97 +157,381 @@
      "모슈트"
     ],
     [
-     "megyek",
-     "megye",
-     "메예"
+     "húsz",
+     "húsz",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Messze van?",
+   "rd": "메쎄 번?",
+   "ko": "멀어요?",
+   "note": "messze = 멀리",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Messze",
+     "messze",
+     "메쎄"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Nem. Menjen le a templomig, ott jobbra.",
+   "rd": "넴. 멘옌 레 어 템플로믹, 오트 요브러.",
+   "ko": "아니요. 교회까지 내려가서 거기서 오른쪽.",
+   "note": "-ig = ~까지",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "le",
+     "le",
+     "레"
+    ],
+    [
+     "templomig",
+     "templom",
+     "템플롬"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
+    ],
+    [
+     "jobbra",
+     "jobb",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "A templomig, aztán jobbra. És utána?",
+   "rd": "어 템플로믹, 어즈탄 요브러. 에시 우타너?",
+   "ko": "교회까지, 그다음 오른쪽. 그다음엔요?",
+   "note": "utána = 그 후에",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "templomig",
+     "templom",
+     "템플롬"
+    ],
+    [
+     "aztán",
+     "aztán",
+     "어스탄"
+    ],
+    [
+     "jobbra",
+     "jobb",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Utána a cukrászdánál balra. A megálló a pékség előtt van.",
+   "rd": "우타너 어 축라쓰다날 벌러. 어 메갈로 어 펙섹 엘뢰트 번.",
+   "ko": "그다음 제과점에서 왼쪽. 정류장은 빵집 앞이에요.",
+   "note": "cukrászda = 제과점",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "cukrászdánál",
+     "cukrászda",
+     ""
+    ],
+    [
+     "balra",
+     "bal",
+     "벌"
+    ],
+    [
+     "megálló",
+     "megáll",
+     "메갈"
+    ],
+    [
+     "pékség",
+     "pékség",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Cukrászda, balra, pékség. Köszönöm szépen!",
+   "rd": "축라쓰더, 벌러, 펙섹. 쾨쐬뇜 쎄펜!",
+   "ko": "제과점, 왼쪽, 빵집. 정말 감사합니다!",
+   "note": "pékség = 빵집",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Cukrászda",
+     "cukrászda",
+     ""
+    ],
+    [
+     "balra",
+     "bal",
+     "벌"
+    ],
+    [
+     "pékség",
+     "pékség",
+     ""
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Várjon csak! Ma milyen nap van?",
+   "rd": "바르욘 척! 머 미옌 너프 번?",
+   "ko": "잠깐만요! 오늘 무슨 요일이죠?",
+   "note": "milyen nap = 무슨 요일",
+   "tags": [
+    "expr:Várjon csak"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Várjon",
+     "vár",
+     "바르"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "nap",
+     "nap",
+     "넙"
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "hu": "Vasárnap. Miért?",
+   "rd": "버샤르너프. 미에르트?",
+   "ko": "일요일요. 왜요?",
+   "note": "vasárnap = 일요일",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Vasárnap",
+     "vasárnap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "hu": "Vasárnap az a busz nem jár, csak hétköznap.",
+   "rd": "버샤르너프 어즈 어 부쓰 넴 야르, 척 헤트쾨즈너프.",
+   "ko": "일요일엔 그 버스 안 다녀요, 평일에만요.",
+   "note": "hétköznap = 평일",
+   "tags": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Vasárnap",
+     "vasárnap",
+     ""
+    ],
+    [
+     "busz",
+     "busz",
+     ""
+    ],
+    [
+     "jár",
+     "jár",
+     "야르"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "hétköznap",
+     "hétköznap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "hu": "Jaj, ne! Akkor itt ragadtam?",
+   "rd": "여이, 네! 어꼬르 이트 러거드텀?",
+   "ko": "아이고, 이런! 그럼 저 여기서 꼼짝 못 하는 거예요?",
+   "note": "itt ragad = 발이 묶이다",
+   "tags": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "ragadtam",
+     "ragad",
+     ""
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "B",
-   "hu": "Hova mész? Az unokám úgyse jön, ebédre meg rakott krumpli lesz.",
-   "rd": "호버 메쓰? 어즈 우노캄 우지세 욘, 에베드레 멕 러코트 크룸플리 레쓰.",
-   "ko": "어딜 가? 손주는 어차피 안 와, 점심은 감자 그라탱이야.",
-   "note": "úgyse = 어차피 ~ 않다",
+   "hu": "Dehogy. Hajóval is mehet, fél hatkor indul a kikötőből.",
+   "rd": "데호지. 허요벌 이시 메헤트, 펠 허트코르 인둘 어 키쾨퇴뵐.",
+   "ko": "아니에요. 배로도 가요, 5시 반에 선착장에서 떠나요.",
+   "note": "kikötő = 선착장",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "Hova",
-     "hova",
-     "호버"
+     "Dehogy",
+     "dehogy",
+     "데허고"
     ],
     [
-     "mész",
-     "mész",
-     "메쓰"
+     "mehet",
+     "mehet",
+     "메헤트"
     ],
     [
-     "unokám",
-     "unokám",
+     "fél",
+     "fél",
+     "펠"
+    ],
+    [
+     "indul",
+     "indul",
+     "인둘"
+    ],
+    [
+     "kikötőből",
+     "kikötő",
      ""
-    ],
-    [
-     "úgyse",
-     "úgysem",
-     ""
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
-    ],
-    [
-     "ebédre",
-     "ebéd",
-     ""
-    ],
-    [
-     "rakott",
-     "rak",
-     "러크"
-    ],
-    [
-     "krumpli",
-     "krumpli",
-     ""
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
     ]
    ]
   },
   {
    "num": 15,
    "speaker": "A",
-   "hu": "Rózsa néni, és holnap mit főz?",
-   "rd": "로져 네니, 에시 홀너프 미트 푀즈?",
-   "ko": "로자 할머니, 내일은 뭐 만드세요?",
-   "note": "főz = 요리하다",
+   "hu": "Hajóval? Az még jobb!",
+   "rd": "허요벌? 어즈 멕 요브!",
+   "ko": "배로요? 그게 더 좋네요!",
+   "note": "még jobb = 더 좋은",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "excited",
    "lemmas": [
     [
-     "Rózsa",
-     "rózsa",
+     "Hajóval",
+     "hajó",
+     "허요"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "jobb",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "hu": "Ugye? És addig megehet egy krémest a cukrászdában.",
+   "rd": "우제? 에시 어딕 메게헤트 에지 크레메슈트 어 축라쓰다번.",
+   "ko": "그렇죠? 그동안 제과점에서 크렘레시 하나 먹으면 되고요.",
+   "note": "krémes = 크림 케이크",
+   "tags": [
+    "expr:Ugye"
+   ],
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Ugye?"
+    ],
+    [
+     "teasing",
+     "És addig megehet egy krémest a cukrászdában."
+    ]
+   ],
+   "lemmas": [
+    [
+     "megehet",
+     "megehet",
      ""
     ],
     [
-     "néni",
-     "néni",
+     "krémest",
+     "krémes",
      ""
     ],
     [
-     "holnap",
-     "holnap",
-     "홀넙"
-    ],
-    [
-     "főz",
-     "főz",
+     "cukrászdában",
+     "cukrászda",
      ""
     ]
    ]

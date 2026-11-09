@@ -8,9 +8,8 @@
 "1": {
 "segs": [
 [
-"cheerful",
-"Szia, {name}! Dávid anyukája vagyok. 😊",
-"Szia, {name}! Dávid anyukája vagyok."
+"worried",
+"Szia, Dávid anyukája vagyok. Jól van Dávid?"
 ]
 ]
 },
@@ -18,43 +17,44 @@
 "segs": [
 [
 "polite",
-"Csókolom! Honnan van meg a számom?"
+"Csókolom! Jól van, ne aggódjon."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"gentle",
-"Dávid telefonjából."
-],
-[
 "worried",
-"Eszik rendesen?"
+"Két napja nem veszi fel a telefont. 😟",
+"Két napja nem veszi fel a telefont."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Igen, azt hiszem. Miért?"
+"gentle",
+"Itthon van, csak lenémította a telefonját."
 ]
 ]
 },
 "5": {
 "segs": [
 [
+"annoyed",
+"Jaj, az a gyerek."
+],
+[
 "worried",
-"Nem válaszol. Küldtem neki kolbászt."
+"És eszik rendesen?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"polite",
-"De jó! Mennyit?"
+"amused",
+"Hát, sokat eszik. Főleg virslit."
 ]
 ]
 },
@@ -62,15 +62,15 @@
 "segs": [
 [
 "gentle",
-"Tíz kilót, neked is. Dávid mondta, hogy itt nincs családod."
+"Tudtam. És te is így eszel?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Tényleg ezt mondta?"
+"shy",
+"Hát, néha."
 ]
 ]
 },
@@ -78,32 +78,25 @@
 "segs": [
 [
 "gentle",
-"Igen. Azt mondta, te vagy itt a családja."
+"Szombaton küldök nektek töltött káposztát. Puszi!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"flustered",
-"Anya írt neked?! Ne olvasd el!"
+"shy",
+"Köszönöm szépen! 🥹",
+"Köszönöm szépen!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"gentle",
-"Már késő. 🥹",
-"Már késő."
-]
-]
-},
-"12": {
-"segs": [
-[
-"shy",
-"Na jó. De a kolbász az enyém."
+"flustered",
+"Bocsi, anya! Most hívlak. 🙈",
+"Bocsi, anya! Most hívlak."
 ]
 ]
 }

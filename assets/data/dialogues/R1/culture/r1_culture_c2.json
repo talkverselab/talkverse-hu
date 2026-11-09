@@ -11,62 +11,68 @@
  "domain": [
   "culture"
  ],
- "title": "예쁜 감자, 또",
- "emoji": "🥔",
- "scene": "Anna 가 새 그림을 올렸다. 댓글 창이 시끄러워진다",
+ "title": "그림 댓글",
+ "emoji": "🎨",
+ "scene": "Anna 가 새 그림을 올렸다. 댓글을 서둘러 달았다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
-  "C": "Réka",
-  "D": "Réka anyukája"
+  "C": "Réka"
  },
  "register": "chat",
- "twist": 6,
+ "twist": 7,
  "twist_type": "chaos",
- "flags": [],
- "goal": "댓글에 쓰는 짧은 칭찬과 사과",
+ "flags": [
+  "romance"
+ ],
+ "goal": "댓글에 쓰는 짧은 칭찬과 수습하기",
  "expressions": [
   "Hű",
-  "Bocsi",
-  "Mi van"
+  "Jaj",
+  "Aha"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Új rajzom! 🎨",
-   "rd": "우이 러이좀! 🎨",
-   "ko": "새 그림! 🎨",
-   "note": "rajz = 그림",
+   "hu": "Kész az új képem! 🎨",
+   "rd": "케쓰 어즈 우이 케펨! 🎨",
+   "ko": "새 그림 완성! 🎨",
+   "note": "kép = 그림",
    "tags": [],
    "at": "19:02",
-   "emotion": "cheerful",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Új",
+     "Kész",
+     "kész",
+     "케스"
+    ],
+    [
+     "új",
      "új",
      "우이"
     ],
     [
-     "rajzom",
-     "rajzom",
+     "képem",
+     "képem",
      ""
     ]
    ]
   },
   {
    "num": 2,
-   "speaker": "A",
-   "hu": "Hű! Szép krumpli! 😄",
-   "rd": "휘! 쎄프 크룸플리! 😄",
-   "ko": "와! 예쁜 감자! 😄",
-   "note": "krumpli = 감자",
+   "speaker": "C",
+   "hu": "Hű, de jó! Ez a Duna?",
+   "rd": "휘, 데 요! 에즈 어 두너?",
+   "ko": "와, 좋다! 이거 도나우강이야?",
+   "note": "de jó = 정말 좋다",
    "tags": [
     "expr:Hű"
    ],
-   "at": "19:05",
-   "emotion": "amused",
+   "at": "19:03",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
@@ -75,157 +81,156 @@
      ""
     ],
     [
-     "krumpli",
-     "krumpli",
-     ""
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "C",
-   "hu": "Krumpli?!",
-   "rd": "크룸플리?!",
-   "ko": "감자?!",
-   "note": "?! = 황당할 때",
+   "speaker": "B",
+   "hu": "Igen, este. 🌙",
+   "rd": "이겐, 에슈테. 🌙",
+   "ko": "응, 저녁의. 🌙",
+   "note": "este = 저녁",
    "tags": [],
-   "at": "19:05",
-   "emotion": "shout",
+   "at": "19:03",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Krumpli",
-     "krumpli",
-     ""
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "este",
+     "este",
+     "에슈테"
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "B",
-   "hu": "Jaj. {name}, ez Réka.",
-   "rd": "여이. {name}, 에즈 레커.",
-   "ko": "아이고. {name}, 이거 레카야.",
-   "note": "ez = 이것, 이 사람",
+   "speaker": "A",
+   "hu": "Nagyon szép vagy! 😍",
+   "rd": "너죤 쎄프 버지! 😍",
+   "ko": "너 정말 예뻐! 😍",
+   "note": "szép vagy = 너는 예쁘다",
    "tags": [],
-   "at": "19:06",
-   "emotion": "annoyed",
+   "at": "19:05",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "szép",
+     "szép",
+     "쎕"
     ]
    ]
   },
   {
    "num": 5,
+   "speaker": "C",
+   "hu": "Ó-ó! 😏",
+   "rd": "오-오! 😏",
+   "ko": "오호! 😏",
+   "note": "ó-ó = 오호",
+   "tags": [],
+   "at": "19:05",
+   "emotion": "teasing",
+   "ui": "bubble",
+   "lemmas": []
+  },
+  {
+   "num": 6,
    "speaker": "A",
-   "hu": "Bocsi! Szép Réka!",
-   "rd": "보치! 쎄프 레커!",
-   "ko": "미안! 예쁜 레카!",
-   "note": "bocsi = 미안",
+   "hu": "Jaj, a kép! A kép szép!",
+   "rd": "여이, 어 케프! 어 케프 쎄프!",
+   "ko": "아, 그림! 그림이 예쁘다고!",
+   "note": "a kép szép = 그림이 예쁘다",
    "tags": [
-    "expr:Bocsi"
+    "expr:Jaj"
    ],
    "at": "19:06",
    "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Bocsi",
-     "bocsi",
-     "보치"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "D",
-   "hu": "Réka, mi van az arcoddal?",
-   "rd": "레커, 미 번 어즈 어르초덜?",
-   "ko": "레카, 얼굴이 왜 그러니?",
-   "note": "mi van …-val? = ~가 왜 그래?",
-   "tags": [
-    "expr:Mi van"
-   ],
-   "at": "19:20",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Réka",
-     "réka",
-     ""
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "kép",
+     "kép",
+     "켑"
     ],
     [
-     "arcoddal",
-     "arcod",
-     ""
+     "szép",
+     "szép",
+     "쎕"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "C",
-   "hu": "Anyu! Ne írj ide!",
-   "rd": "어뉴! 네 이르이 이데!",
-   "ko": "엄마! 여기 쓰지 마!",
-   "note": "ne írj = 쓰지 마",
-   "tags": [],
-   "at": "19:20",
-   "emotion": "shout",
+   "hu": "Aha. Már tizenöt lájk van rajta. 😂",
+   "rd": "어허. 마르 티제뇌트 라익 번 러이터. 😂",
+   "ko": "아하. 벌써 좋아요 열다섯 개 달렸어. 😂",
+   "note": "lájk = 좋아요",
+   "tags": [
+    "expr:Aha"
+   ],
+   "at": "19:12",
+   "emotion": "amused",
    "ui": "bubble",
    "lemmas": [
     [
-     "Anyu",
-     "anyu",
-     "어뉴"
+     "Aha",
+     "aha",
+     "어허"
     ],
     [
-     "írj",
-     "írj",
+     "tizenöt",
+     "tizenöt",
      ""
     ],
     [
-     "ide",
-     "ide",
-     "이데"
+     "lájk",
+     "lájk",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "D",
-   "hu": "Szerintem szép krumpli vagy, kicsim.",
-   "rd": "쎄린템 쎄프 크룸플리 버지, 키침.",
-   "ko": "엄마 생각엔 넌 예쁜 감자야, 아가.",
-   "note": "kicsim = 우리 아가",
+   "speaker": "B",
+   "hu": "Köszi. Mindkettőt. 😘",
+   "rd": "쾨씨. 민드케뙤트. 😘",
+   "ko": "고마워. 둘 다. 😘",
+   "note": "mindkettőt = 둘 다(를)",
    "tags": [],
-   "at": "19:21",
-   "emotion": "gentle",
+   "at": "19:08",
+   "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
     [
-     "szép",
-     "szép",
-     "쎕"
-    ],
-    [
-     "krumpli",
-     "krumpli",
-     ""
-    ],
-    [
-     "kicsim",
-     "kicsi",
-     "키치"
+     "Köszi",
+     "köszi",
+     "쾨씨"
     ]
    ]
   }

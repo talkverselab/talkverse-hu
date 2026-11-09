@@ -2,15 +2,14 @@
 "ep": "r3_work_b2",
 "cast": {
 "B": "bence",
-"C": "woman_o",
-"D": "woman_m"
+"C": "man_m"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"surprised",
-"Miért kap ma mindenki virágot? Mi történt?"
+"polite",
+"Jövő héten tartunk egy rövid megbeszélést a karácsonyi beosztásról. Mikor érnek rá?"
 ]
 ]
 },
@@ -18,55 +17,47 @@
 "segs": [
 [
 "cheerful",
-"Ma van Anna névnapja. Itt minden névnek van napja."
+"Nekem a hétfő délelőtt jó."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Minden névnek? Akkor nekem mikor van?"
+"polite",
+"Hétfőn délelőtt nyelvórám van. Mit szól a keddhez?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Várj, megnézem."
-],
-[
-"sad",
-"Sajnos a te neved nincs a naptárban."
+"stiff",
+"Kedden egész nap a könyvelővel vagyok."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"sad",
-"Jaj, de kár. Nekem soha nem lesz virágom?"
+"cheerful",
+"Szerda délután? Háromkor kevesebb a vendég."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"tsukkomi",
-"Ne már!"
-],
-[
-"excited",
-"Nézd, felírom a táblára: ma {name} névnapja van."
+"flustered",
+"Szerdán háromkor fogorvoshoz megyek. Bocsánat!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"flustered",
-"Bence, ezt nem lehet! Ez nem igaz!"
+"tsukkomi",
+"Na, ez így nehéz lesz. Te mikor érsz rá egyáltalán?"
 ]
 ]
 },
@@ -74,60 +65,59 @@
 "segs": [
 [
 "cheerful",
-"Boldog névnapot, kedves! Hoztam egy rétest."
+"Csütörtökön bármikor. Az a szabadnapom."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"flustered",
-"Köszönöm, néni, de... igazából nem...",
-"Köszönöm, néni, de, igazából nem"
+"polite",
+"Csütörtök négy óra? Ott leszek."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"excited",
-"Figyelj, már az egész utca tudja. Nézd, mennyi ember!"
+"cheerful",
+"Nekem is jó. Felírom a táblára."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"polite",
-"Elnézést, elfogyott az összes virágom. Ki ez a híres {name}?"
+"cheerful",
+"Szuper. Szóval csütörtök négy, karácsonyi beosztás."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"shy",
-"Én vagyok."
-],
-[
-"tsukkomi",
-"De ez nem is ünnep!"
+"teasing",
+"Igen. És aki nem jön el, az dolgozik szenteste."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"teasing",
-"Már igen. A polgármester is ide jön, és beszédet mond."
+"flustered",
+"Várjunk, csütörtök négykor van a nyelvvizsgám! Teljesen elfelejtettem."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"shout",
-"Bence! Mi lesz holnap?"
+"teasing",
+"Jól van, akkor szenteste együtt dolgozunk."
+],
+[
+"cheerful",
+"Hozok bejglit!"
 ]
 ]
 },
@@ -135,7 +125,11 @@
 "segs": [
 [
 "amused",
-"Szerintem semmi. A jövő évi naptárba már beírták a neved."
+"Csak vicceltem."
+],
+[
+"gentle",
+"Ötkor kezdünk, sok sikert a vizsgához!"
 ]
 ]
 }

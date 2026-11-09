@@ -7,62 +7,64 @@
 "1": {
 "segs": [
 [
-"excited",
-"Nézd! Új biciklim van!"
+"cheerful",
+"Szia! Megvan a házi?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"cheerful",
-"Szép! Hol vetted?"
+"surprised",
+"Milyen házi?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"A piacon, csak ötezer. Jó, ugye?"
+"surprised",
+"A tizedik oldal! Három feladat."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
-"Várj...",
-"Várj"
-],
-[
-"shout",
-"ez az én biciklim!"
+"flustered",
+"Jaj, elfelejtettem! Teljesen."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"surprised",
-"Na ne! Komolyan?"
+"worried",
+"Gyorsan, még öt perc van."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"annoyed",
-"Igen! Tegnap ellopták!"
+"worried",
+"Nem megy, nehéz. Segítesz?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"teasing",
-"Hát... neked hatezer.",
-"Hát, neked hatezer."
+"surprised",
+"Várj, üzenet a tanártól. Ma nincs óra."
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Komolyan? Akkor megyünk kávézni?"
 ]
 ]
 }

@@ -1,19 +1,19 @@
 === r1_friends_a5
 kind: short
-title: 안 매워
-emoji: 🌶️
-scene: 시장 파프리카 가판대. Réka 의 「안 매워」는 믿으면 안 된다
+title: 뭔가 달라졌는데
+emoji: 💇
+scene: 카페에서 만난 Réka 가 「나 뭐 달라진 거 없어?」 하고 묻는다
 b: Réka
 register: casual
-twist: 7 chaos
+twist: 5 slip
 purpose: making_friends
-goal: 권하고 되묻기, 급할 때 쓰는 말(gyorsan)
-expressions: Tényleg; Persze; Mi van?; Tessék
-B | Kérsz paprikát? Nem erős. | 파프리카 먹을래? 안 매워. | erős = 매운(강한) | emotion=teasing
-A | Tényleg nem erős? | 진짜 안 매워? | tényleg = 진짜로 | emotion=worried
-B | Persze! Én is eszem. | 당연하지! 나도 먹잖아. | persze = 당연하지 | emotion=cheerful
-A | Na jó. Jaj, jaj, jaj! | 그래 좋아. 으, 으, 으악! | na jó = 그래 좋아 | emotion=neutral+shout
-B | Mi van? Nem erős! | 뭐야? 안 맵다니까! | Mi van? = 뭐야? | emotion=teasing
-A | Vizet! Gyorsan, vizet! | 물! 빨리, 물! | vizet = 물을(víz 의 목적격) | emotion=shout
-B | Tessék, igyál! Ja, várj, ez nem víz. | 자, 마셔! 아, 잠깐, 이거 물 아니다. | igyál = 마셔 | emotion=cheerful+flustered
-A | Hát akkor mi?! Jaj! | 그럼 뭔데?! 으악! | hát akkor = 그럼 | emotion=shout
+goal: 칭찬하기(Jól áll) · látsz/látom 구별
+expressions: Na; Jól áll; Tényleg
+B | Na? Nem látsz rajtam valamit? | 어때? 나한테 뭐 안 보여? | látsz = 보인다(부정 활용) | emotion=teasing
+A | Valamit? Hm, új a táskád? | 뭘? 음, 가방 새 거야? | új = 새 | emotion=neutral
+B | Nem, ez régi. | 아니, 이건 옛날 거야. | régi = 오래된 | emotion=annoyed
+A | Akkor új a pulóvered! | 그럼 스웨터가 새 거구나! | pulóver = 스웨터 | emotion=cheerful
+B | Nem! A hajam, {name}, levágattam! | 아니! 내 머리, {name}! 잘랐어. | levágattam = (미용실에서) 잘랐다 | emotion=tsukkomi
+A | Ja, tényleg! Nagyon jól áll! | 아, 진짜네! 진짜 잘 어울려! | jól áll = 잘 어울린다 | emotion=flustered
+B | Tényleg? Tíz centit vágtak le. | 진짜? 10센티 잘랐어. | levágtak = 잘라 냈다 | emotion=shy
+A | Tíz? Akkor most már látom! | 10센티? 그럼 이제 보인다! | látom = (그것이) 보인다(정 활용) | emotion=amused

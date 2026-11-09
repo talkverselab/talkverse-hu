@@ -10,9 +10,9 @@
  "domain": [
   "life"
  ],
- "title": "집주인은 어디에",
+ "title": "온수가 안 나와요",
  "emoji": "🚿",
- "scene": "한겨울에 온수가 끊겨 집주인 Laci 아저씨에게 전화한다. 아저씨 뒤로 물소리가 난다",
+ "scene": "아침에 샤워하려는데 찬물만 나온다. 집주인 Laci 아저씨에게 전화한다",
  "speakers": {
   "A": "{name}",
   "B": "Laci bácsi"
@@ -21,27 +21,52 @@
  "twist": 8,
  "twist_type": "reveal",
  "flags": [],
- "goal": "집 문제 말하기(Nincs …)와 Ön 으로 묻기",
+ "goal": "전화로 집 문제 말하기(Nincs meleg víz) · Ön 으로 묻기",
  "expressions": [
-  "Tényleg?",
-  "Hát",
-  "Jaj",
-  "Persze"
+  "Halló",
+  "Nincs meleg víz",
+  "Egy pillanat"
  ],
  "turns": [
   {
    "num": 1,
+   "speaker": "B",
+   "hu": "Halló, tessék!",
+   "rd": "헐로, 테쎅!",
+   "ko": "여보세요, 네!",
+   "note": "tessék = (전화 받을 때) 네, 말씀하세요",
+   "tags": [
+    "expr:Halló"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Halló",
+     "hall",
+     "헐"
+    ],
+    [
+     "tessék",
+     "tessék",
+     "테셰크"
+    ]
+   ]
+  },
+  {
+   "num": 2,
    "speaker": "A",
-   "hu": "Jó napot! Nincs meleg víz.",
-   "rd": "요 너포트! 닌치 멜렉 비즈.",
-   "ko": "안녕하세요! 온수가 안 나와요.",
+   "hu": "Jó reggelt, Laci bácsi! Nincs meleg víz.",
+   "rd": "요 렉겔트, 러치 바치! 닌치 멜렉 비즈.",
+   "ko": "안녕하세요, 라치 아저씨! 온수가 안 나와요.",
    "note": "meleg víz = 더운물",
-   "tags": [],
+   "tags": [
+    "expr:Nincs meleg víz"
+   ],
    "emotion": "polite",
    "segs": [
     [
      "polite",
-     "Jó napot!"
+     "Jó reggelt, Laci bácsi!"
     ],
     [
      "worried",
@@ -55,9 +80,14 @@
      "요"
     ],
     [
-     "napot",
-     "nap",
-     "넙"
+     "reggelt",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "bácsi",
+     "bácsi",
+     ""
     ],
     [
      "meleg",
@@ -68,68 +98,94 @@
      "víz",
      "víz",
      "비즈"
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "B",
-   "hu": "Tényleg? Hát, most tél van.",
-   "rd": "테닐렉? 하트, 모슈트 텔 번.",
-   "ko": "그래요? 뭐, 지금 겨울이잖아요.",
-   "note": "tél = 겨울",
-   "tags": [
-    "expr:Tényleg?",
-    "expr:Hát"
-   ],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "most",
-     "most",
-     "모슈트"
-    ],
-    [
-     "tél",
-     "tél",
-     "텔"
-    ],
-    [
-     "van",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 3,
-   "speaker": "A",
-   "hu": "Igen, és nagyon hideg van!",
-   "rd": "이겐, 에시 너죤 히덱 번!",
-   "ko": "네, 그래서 엄청 추워요!",
-   "note": "hideg van = 춥다",
+   "speaker": "B",
+   "hu": "A bojleren ég a piros lámpa?",
+   "rd": "어 보일레렌 엑 어 피로시 람퍼?",
+   "ko": "온수기에 빨간 불 켜져 있어요?",
+   "note": "bojler = 온수기",
    "tags": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "bojleren",
+     "bojler",
+     ""
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
+     "ég",
+     "ég",
+     "에그"
     ],
     [
-     "hideg",
-     "hideg",
-     "히데그"
+     "piros",
+     "piros",
+     ""
+    ],
+    [
+     "lámpa",
+     "lámpa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Egy pillanat, megnézem. Nem ég.",
+   "rd": "에지 필러너트, 멕네젬. 넴 엑.",
+   "ko": "잠깐만요, 볼게요. 안 켜져 있어요.",
+   "note": "megnézem = 확인할게요",
+   "tags": [
+    "expr:Egy pillanat"
+   ],
+   "emotion": "polite",
+   "segs": [
+    [
+     "polite",
+     "Egy pillanat, megnézem."
+    ],
+    [
+     "worried",
+     "Nem ég."
+    ]
+   ],
+   "lemmas": [
+    [
+     "pillanat",
+     "pillanat",
+     "필러넛"
+    ],
+    [
+     "megnézem",
+     "megnéz",
+     "메그네즈"
+    ],
+    [
+     "ég",
+     "ég",
+     "에그"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "És a konnektorban benne van?",
+   "rd": "에시 어 콘넥토르번 벤네 번?",
+   "ko": "콘센트에는 꽂혀 있어요?",
+   "note": "konnektor = 콘센트",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "konnektorban",
+     "konnektor",
+     ""
     ],
     [
      "van",
@@ -139,77 +195,19 @@
    ]
   },
   {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Jaj. Menjen a fürdőbe!",
-   "rd": "여이. 멘옌 어 퓌르되베!",
-   "ko": "아이고. 온천에 가세요!",
-   "note": "fürdő = 온천, 목욕탕",
-   "tags": [
-    "expr:Jaj"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Jaj",
-     "jaj",
-     "야이"
-    ],
-    [
-     "fürdőbe",
-     "fürdőbe",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "A fürdőbe? Ez komoly?",
-   "rd": "어 퓌르되베? 에즈 코모이?",
-   "ko": "온천요? 진심이세요?",
-   "note": "komoly = 진지한",
-   "tags": [],
-   "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "fürdőbe",
-     "fürdőbe",
-     ""
-    ],
-    [
-     "komoly",
-     "komoly",
-     "코모이"
-    ]
-   ]
-  },
-  {
    "num": 6,
-   "speaker": "B",
-   "hu": "Persze! Ott sok meleg víz van.",
-   "rd": "페르쎄! 오트 쇽 멜렉 비즈 번.",
-   "ko": "그럼요! 거긴 더운물이 많아요.",
-   "note": "ott = 거기",
-   "tags": [
-    "expr:Persze"
-   ],
-   "emotion": "cheerful",
+   "speaker": "A",
+   "hu": "Konnektor? Hol van az?",
+   "rd": "콘넥토르? 홀 번 어즈?",
+   "ko": "콘센트요? 그게 어디 있죠?",
+   "note": "hol van? = 어디 있어요?",
+   "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "meleg",
-     "meleg",
-     "멜레그"
-    ],
-    [
-     "víz",
-     "víz",
-     "비즈"
+     "Konnektor",
+     "konnektor",
+     ""
     ],
     [
      "van",
@@ -220,50 +218,65 @@
   },
   {
    "num": 7,
-   "speaker": "A",
-   "hu": "Ön most hol van?",
-   "rd": "왼 모슈트 홀 번?",
-   "ko": "지금 어디 계세요?",
-   "note": "Ön = 당신(존댓말)",
+   "speaker": "B",
+   "hu": "A bojler mellett, lent.",
+   "rd": "어 보일레르 멜레트, 렌트.",
+   "ko": "온수기 옆, 아래쪽에요.",
+   "note": "mellett = ~옆에",
    "tags": [],
-   "emotion": "stiff",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "most",
-     "most",
-     "모슈트"
+     "bojler",
+     "bojler",
+     ""
     ],
     [
-     "hol",
-     "hol",
-     "홀"
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "lent",
+     "len",
+     "렌"
     ]
    ]
   },
   {
    "num": 8,
-   "speaker": "B",
-   "hu": "Én? A fürdőben, három hete.",
-   "rd": "엔? 어 퓌르되벤, 하롬 헤테.",
-   "ko": "저요? 온천이요, 3주째요.",
-   "note": "három hete = 3주 전부터 쭉",
+   "speaker": "A",
+   "hu": "Jaj, Dávid kihúzta! Ott tölti a telefonját.",
+   "rd": "여이, 다비드 키후즈터! 오트 퇼티 어 텔레폰야트.",
+   "ko": "아, 다비드가 뽑았네요! 거기서 폰을 충전해요.",
+   "note": "kihúzta = 뽑았다",
    "tags": [],
-   "emotion": "amused",
+   "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj, Dávid kihúzta!"
+    ],
+    [
+     "annoyed",
+     "Ott tölti a telefonját."
+    ]
+   ],
    "lemmas": [
     [
-     "fürdőben",
-     "fürdő",
+     "Jaj",
+     "jaj",
+     "야이"
+    ],
+    [
+     "kihúzta",
+     "kihúz",
      ""
     ],
     [
-     "hete",
-     "hét",
-     "헤트"
+     "tölti",
+     "tölt",
+     "퇼트"
+    ],
+    [
+     "telefonját",
+     "telefon",
+     "텔레폰"
     ]
    ]
   }

@@ -8,68 +8,65 @@
 "1": {
 "segs": [
 [
-"worried",
-"Mi ez a szag? Mit csinálsz?"
+"neutral",
+"Dávid, ez a doboz hova megy?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"excited",
-"Gulyást főzök! Kóstold meg!"
+"cheerful",
+"A papír a kékbe megy."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"surprised",
-"Hű, de piros!"
-],
-[
-"shout",
-"Úristen, víz!"
+"neutral",
+"És a műanyag üveg?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"flustered",
-"Mi van? A recept szerint csináltam!"
+"gentle",
+"Az a sárgába. Figyelj, előbb lapítsd össze!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"worried",
-"Mutasd! Mennyi paprikát tettél bele?"
+"neutral",
+"És a pizzás doboz? Az is papír, nem?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"neutral",
-"Egy kk. Az egy kiló, nem?"
+"gentle",
+"Nem, az zsíros. Az a szürkébe megy."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"shout",
-"Kávéskanál! A kk kávéskanál!"
+"stiff",
+"Jó estét! Ki tette tegnap a pizzás dobozt a kékbe?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"worried",
-"Gyerekek, miért sír az egész ház?"
+"flustered",
+"Hát, izé... én.",
+"Hát, izé, én."
 ]
 ]
 }

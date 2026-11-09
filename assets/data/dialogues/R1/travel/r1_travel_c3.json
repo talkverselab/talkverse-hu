@@ -11,111 +11,79 @@
  "domain": [
   "travel"
  ],
- "title": "곧 도착해",
- "emoji": "🚄",
- "scene": "Dávid 를 만나러 기차를 탔다. 무슨 기차인지는 모른다",
+ "title": "체크인은 3시부터",
+ "emoji": "🧳",
+ "scene": "아침에 호텔에 도착했는데 방은 오후부터. Dávid 에게 캐리어를 어쩔지 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid"
  },
  "register": "chat",
  "twist": 7,
- "twist_type": "chaos",
+ "twist_type": "slip",
  "flags": [],
- "goal": "채팅으로 위치 알리기(-ban/-ben)",
+ "goal": "짐 맡기기 묻기(Hol hagyjam? · megőriz)",
  "expressions": [
-  "Mindjárt",
-  "Nem tudom",
-  "Mi van?",
-  "Figyelj",
-  "Király"
+  "Na",
+  "Kérdezd meg",
+  "Nem baj"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Mindjárt ott vagyok! 🚆",
-   "rd": "민드야르트 오트 버죡! 🚆",
-   "ko": "곧 도착해! 🚆",
-   "note": "mindjárt = 곧",
-   "tags": [
-    "expr:Mindjárt"
+   "hu": "Megérkeztem! De a szobát csak háromtól kapom.",
+   "rd": "메게르케즈템! 데 어 쏘바트 척 하롬톨 커폼.",
+   "ko": "도착! 근데 방은 3시부터래.",
+   "note": "háromtól = 3시부터",
+   "tags": [],
+   "at": "10:15",
+   "emotion": "cheerful",
+   "segs": [
+    [
+     "cheerful",
+     "Megérkeztem!"
+    ],
+    [
+     "annoyed",
+     "De a szobát csak háromtól kapom."
+    ]
    ],
-   "at": "10:02",
-   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Mindjárt",
-     "mindjárt",
-     "민드야르트"
+     "Megérkeztem",
+     "megérkezik",
+     "메게르케직"
     ],
     [
-     "ott",
-     "ott",
-     "오트"
+     "szobát",
+     "szoba",
+     "서버"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kapom",
+     "kap",
+     "커프"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Szuper. Melyik vonat?",
-   "rd": "쑤페르. 메익 보너트?",
-   "ko": "좋아. 어느 기차?",
-   "note": "melyik = 어느",
-   "tags": [],
-   "at": "10:03",
-   "emotion": "neutral",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Szuper",
-     "szuper",
-     "쑤페르"
-    ],
-    [
-     "vonat",
-     "vonat",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "hu": "Nem tudom. Gyors. 😄",
-   "rd": "넴 투돔. 죠르시. 😄",
-   "ko": "몰라. 빨라. 😄",
-   "note": "gyors = 빠른",
+   "hu": "Na és a bőrönd?",
+   "rd": "너 에시 어 뵈뢴드?",
+   "ko": "그럼 캐리어는?",
+   "note": "bőrönd = 여행 가방",
    "tags": [
-    "expr:Nem tudom"
+    "expr:Na"
    ],
-   "at": "10:03",
-   "emotion": "cheerful",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "tudom",
-     "tud",
-     "투드"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Na, hol vagy?",
-   "rd": "너, 홀 버지?",
-   "ko": "그래서, 어디야?",
-   "note": "na = 그래서, 자",
-   "tags": [],
-   "at": "11:15",
+   "at": "10:16",
    "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
@@ -125,33 +93,78 @@
      "너"
     ],
     [
-     "hol",
-     "hol",
-     "홀"
+     "bőrönd",
+     "bőrönd",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Az a gond. Hol hagyjam?",
+   "rd": "어즈 어 곤드. 홀 허지염?",
+   "ko": "그게 문제야. 어디 두지?",
+   "note": "hagyjam = 내가 둘까(가정법)",
+   "tags": [],
+   "at": "10:16",
+   "emotion": "worried",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "gond",
+     "gond",
+     "곤드"
+    ],
+    [
+     "hagyjam",
+     "hagy",
+     "허지"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "A szállodában megőrzik. Kérdezd meg!",
+   "rd": "어 쌀로다번 메괴르직. 케르데즈드 멕!",
+   "ko": "호텔에서 맡아 줘. 물어봐!",
+   "note": "megőriz = 보관하다",
+   "tags": [
+    "expr:Kérdezd meg"
+   ],
+   "at": "10:17",
+   "emotion": "gentle",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "szállodában",
+     "szálloda",
+     ""
+    ],
+    [
+     "megőrzik",
+     "megőrzik",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Itt minden németül van.",
-   "rd": "이트 민덴 네메튈 번.",
-   "ko": "여기 전부 독일어로 돼 있어.",
-   "note": "németül = 독일어로",
+   "hu": "Megkérdeztem. Ingyen van! 😊",
+   "rd": "멕케르데즈템. 인젠 번! 😊",
+   "ko": "물어봤어. 무료래! 😊",
+   "note": "ingyen = 무료로",
    "tags": [],
-   "at": "12:38",
-   "emotion": "worried",
+   "at": "10:25",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "németül",
-     "német",
-     ""
+     "Megkérdeztem",
+     "megkérdez",
+     "메그케르데즈"
     ],
     [
      "van",
@@ -163,73 +176,104 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Mi van?",
-   "rd": "미 번?",
-   "ko": "뭐?",
-   "note": "mi van? = 뭐?, 뭐야?",
-   "tags": [
-    "expr:Mi van?"
-   ],
-   "at": "12:38",
-   "emotion": "surprised",
+   "hu": "Szuper. Akkor gyere ebédelni!",
+   "rd": "쑤페르. 어꼬르 제레 에베델니!",
+   "ko": "좋아. 그럼 점심 먹으러 와!",
+   "note": "ebédelni = 점심 먹으러",
+   "tags": [],
+   "at": "10:26",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "Szuper",
+     "szuper",
+     "쑤페르"
+    ],
+    [
+     "gyere",
+     "jön",
+     "왼"
+    ],
+    [
+     "ebédelni",
+     "ebédel",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Figyelj, Bécsben vagyok.",
-   "rd": "피젤이, 베치벤 버죡.",
-   "ko": "있잖아, 나 빈이야.",
-   "note": "Bécs = 빈(오스트리아)",
-   "tags": [
-    "expr:Figyelj"
+   "hu": "Megyek! Jaj, a pénztárcám a bőröndben maradt.",
+   "rd": "메젝! 여이, 어 펜즈타르참 어 뵈뢴드벤 머러드트.",
+   "ko": "갈게! 아이고, 지갑을 캐리어에 두고 왔다.",
+   "note": "pénztárca = 지갑",
+   "tags": [],
+   "at": "10:31",
+   "emotion": "excited",
+   "segs": [
+    [
+     "excited",
+     "Megyek!"
+    ],
+    [
+     "flustered",
+     "Jaj, a pénztárcám a bőröndben maradt."
+    ]
    ],
-   "at": "12:41",
-   "emotion": "flustered",
    "ui": "bubble",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Megyek",
+     "megye",
+     "메예"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
+     "pénztárcám",
+     "pénztár",
+     ""
+    ],
+    [
+     "bőröndben",
+     "bőrönd",
+     ""
+    ],
+    [
+     "maradt",
+     "marad",
+     "머러드"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Király. Hozz csokit!",
-   "rd": "키라이. 호즈 초키트!",
-   "ko": "대박. 초콜릿 사 와!",
-   "note": "király = 끝내준다(글자 뜻: 왕)",
+   "hu": "Nem baj, ma én fizetek. 😄",
+   "rd": "넴 버이, 머 엔 피제텍. 😄",
+   "ko": "괜찮아, 오늘은 내가 살게. 😄",
+   "note": "én fizetek = 내가 낸다",
    "tags": [
-    "expr:Király"
+    "expr:Nem baj"
    ],
-   "at": "12:42",
-   "emotion": "amused",
+   "at": "10:32",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Király",
-     "király",
-     "키라이"
+     "baj",
+     "baj",
+     "버이"
     ],
     [
-     "csokit",
-     "csoki",
-     ""
+     "ma",
+     "ma",
+     "머"
+    ],
+    [
+     "fizetek",
+     "fizet",
+     "피제트"
     ]
    ]
   }

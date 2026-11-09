@@ -10,119 +10,35 @@
  "domain": [
   "friends"
  ],
- "title": "안 매워",
- "emoji": "🌶️",
- "scene": "시장 파프리카 가판대. Réka 의 「안 매워」는 믿으면 안 된다",
+ "title": "뭔가 달라졌는데",
+ "emoji": "💇",
+ "scene": "카페에서 만난 Réka 가 「나 뭐 달라진 거 없어?」 하고 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
  },
  "register": "casual",
- "twist": 7,
- "twist_type": "chaos",
+ "twist": 5,
+ "twist_type": "slip",
  "flags": [],
- "goal": "권하고 되묻기, 급할 때 쓰는 말(gyorsan)",
+ "goal": "칭찬하기(Jól áll) · látsz/látom 구별",
  "expressions": [
-  "Tényleg",
-  "Persze",
-  "Mi van?",
-  "Tessék"
+  "Na",
+  "Jól áll",
+  "Tényleg"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Kérsz paprikát? Nem erős.",
-   "rd": "케르쓰 퍼프리카트? 넴 에뢰시.",
-   "ko": "파프리카 먹을래? 안 매워.",
-   "note": "erős = 매운(강한)",
-   "tags": [],
+   "hu": "Na? Nem látsz rajtam valamit?",
+   "rd": "너? 넴 라트쓰 러이텀 벌러미트?",
+   "ko": "어때? 나한테 뭐 안 보여?",
+   "note": "látsz = 보인다(부정 활용)",
+   "tags": [
+    "expr:Na"
+   ],
    "emotion": "teasing",
-   "lemmas": [
-    [
-     "Kérsz",
-     "kér",
-     "께르"
-    ],
-    [
-     "paprikát",
-     "paprika",
-     ""
-    ],
-    [
-     "erős",
-     "erős",
-     "에뢰시"
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "hu": "Tényleg nem erős?",
-   "rd": "테닐렉 넴 에뢰시?",
-   "ko": "진짜 안 매워?",
-   "note": "tényleg = 진짜로",
-   "tags": [
-    "expr:Tényleg"
-   ],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "erős",
-     "erős",
-     "에뢰시"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "hu": "Persze! Én is eszem.",
-   "rd": "페르쎄! 엔 이시 에쎔.",
-   "ko": "당연하지! 나도 먹잖아.",
-   "note": "persze = 당연하지",
-   "tags": [
-    "expr:Persze"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Persze",
-     "persze",
-     "페르쎄"
-    ],
-    [
-     "eszem",
-     "eszem",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Na jó. Jaj, jaj, jaj!",
-   "rd": "너 요. 여이, 여이, 여이!",
-   "ko": "그래 좋아. 으, 으, 으악!",
-   "note": "na jó = 그래 좋아",
-   "tags": [],
-   "emotion": "neutral",
-   "segs": [
-    [
-     "neutral",
-     "Na jó."
-    ],
-    [
-     "shout",
-     "Jaj, jaj, jaj!"
-    ]
-   ],
    "lemmas": [
     [
      "Na",
@@ -130,121 +46,196 @@
      "너"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "látsz",
+     "lát",
+     "라트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "hu": "Valamit? Hm, új a táskád?",
+   "rd": "벌러미트? 흠, 우이 어 타슈카드?",
+   "ko": "뭘? 음, 가방 새 거야?",
+   "note": "új = 새",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "új",
+     "új",
+     "우이"
     ],
     [
-     "jaj",
-     "jaj",
-     "야이"
+     "táskád",
+     "táskád",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "hu": "Nem, ez régi.",
+   "rd": "넴, 에즈 레기.",
+   "ko": "아니, 이건 옛날 거야.",
+   "note": "régi = 오래된",
+   "tags": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "régi",
+     "régi",
+     "레기"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Akkor új a pulóvered!",
+   "rd": "어꼬르 우이 어 풀로베레드!",
+   "ko": "그럼 스웨터가 새 거구나!",
+   "note": "pulóver = 스웨터",
+   "tags": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "új",
+     "új",
+     "우이"
+    ],
+    [
+     "pulóvered",
+     "pulóver",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Mi van? Nem erős!",
-   "rd": "미 번? 넴 에뢰시!",
-   "ko": "뭐야? 안 맵다니까!",
-   "note": "Mi van? = 뭐야?",
+   "hu": "Nem! A hajam, {name}, levágattam!",
+   "rd": "넴! 어 허염, {name}, 레바거떰!",
+   "ko": "아니! 내 머리, {name}! 잘랐어.",
+   "note": "levágattam = (미용실에서) 잘랐다",
    "tags": [
-    "expr:Mi van?"
+    "expr:Na"
    ],
-   "emotion": "teasing",
+   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "hajam",
+     "hajam",
+     ""
     ],
     [
-     "erős",
-     "erős",
-     "에뢰시"
+     "levágattam",
+     "levág",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Vizet! Gyorsan, vizet!",
-   "rd": "비제트! 죠르션, 비제트!",
-   "ko": "물! 빨리, 물!",
-   "note": "vizet = 물을(víz 의 목적격)",
-   "tags": [],
-   "emotion": "shout",
+   "hu": "Ja, tényleg! Nagyon jól áll!",
+   "rd": "여, 테닐렉! 너죤 욜 알!",
+   "ko": "아, 진짜네! 진짜 잘 어울려!",
+   "note": "jól áll = 잘 어울린다",
+   "tags": [
+    "expr:Na",
+    "expr:Jól áll",
+    "expr:Tényleg"
+   ],
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Vizet",
-     "vize",
-     "비제"
+     "Ja",
+     "ja",
+     "여"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
+    ],
+    [
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Tessék, igyál! Ja, várj, ez nem víz.",
-   "rd": "테쎅, 이잘! 여, 바르이, 에즈 넴 비즈.",
-   "ko": "자, 마셔! 아, 잠깐, 이거 물 아니다.",
-   "note": "igyál = 마셔",
+   "hu": "Tényleg? Tíz centit vágtak le.",
+   "rd": "테닐렉? 티즈 첸티트 박턱 레.",
+   "ko": "진짜? 10센티 잘랐어.",
+   "note": "levágtak = 잘라 냈다",
    "tags": [
-    "expr:Tessék"
+    "expr:Tényleg"
    ],
-   "emotion": "cheerful",
-   "segs": [
-    [
-     "cheerful",
-     "Tessék, igyál!"
-    ],
-    [
-     "flustered",
-     "Ja, várj, ez nem víz."
-    ]
-   ],
+   "emotion": "shy",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
+     "Tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "igyál",
-     "iszik",
-     "이식"
+     "centit",
+     "centi",
+     ""
     ],
     [
-     "várj",
-     "vár",
-     "바르"
+     "vágtak",
+     "vág",
+     "바그"
     ],
     [
-     "víz",
-     "víz",
-     "비즈"
+     "le",
+     "le",
+     "레"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Hát akkor mi?! Jaj!",
-   "rd": "하트 어꼬르 미?! 여이!",
-   "ko": "그럼 뭔데?! 으악!",
-   "note": "hát akkor = 그럼",
+   "hu": "Tíz? Akkor most már látom!",
+   "rd": "티즈? 어꼬르 모슈트 마르 라톰!",
+   "ko": "10센티? 그럼 이제 보인다!",
+   "note": "látom = (그것이) 보인다(정 활용)",
    "tags": [],
-   "emotion": "shout",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "most",
+     "most",
+     "모슈트"
     ],
     [
-     "akkor",
-     "akkor",
-     "어꼬르"
+     "már",
+     "már",
+     "마르"
+    ],
+    [
+     "látom",
+     "lát",
+     "라트"
     ]
    ]
   }

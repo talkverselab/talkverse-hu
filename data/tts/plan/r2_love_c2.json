@@ -7,25 +7,25 @@
 "1": {
 "segs": [
 [
-"shy",
-"Szia! Pénteken kiállításom lesz, nem nagy. 😊",
-"Szia! Pénteken kiállításom lesz, nem nagy."
+"cheerful",
+"Szia! Holnap is jössz a rajzórára?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"excited",
-"Hű, de jó! Hol?"
+"cheerful",
+"Igen, persze! Hozok neked kávét."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Az egyetemen. De csak húsz jegy van."
+"cheerful",
+"Jaj, köszi! Tejjel, cukor nélkül. ☕",
+"Jaj, köszi! Tejjel, cukor nélkül."
 ]
 ]
 },
@@ -33,67 +33,58 @@
 "segs": [
 [
 "cheerful",
-"Akkor nekem is jut?"
+"Rendben, akkor holnap. Puszi!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"teasing",
-"Csak egy maradt. Kinek adjam?"
+"flustered",
+"Úristen, bocsi! Nem úgy értettem!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"cheerful",
-"Csók nekem! 😄",
-"Csók nekem!"
+"amused",
+"Mit? 😄",
+"Mit?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Tessék? 😳",
-"Tessék?"
+"worried",
+"A puszit. Az túl sok volt, ugye?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Jaj, bocsi! Csak nekem, nem csók!"
+"amused",
+"Nyugi, itt mindenki puszit küld. Még a fogorvosom is. 😂",
+"Nyugi, itt mindenki puszit küld. Még a fogorvosom is."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"teasing",
-"Aha. Szóval csók nincs."
+"cheerful",
+"Tényleg? Akkor jó, megnyugodtam."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"flustered",
-"Izé... nem így értettem!",
-"Izé, nem így értettem!"
-]
-]
-},
-"11": {
-"segs": [
-[
-"teasing",
-"A jegy a tiéd. A másikról pénteken beszélünk. 😇",
-"A jegy a tiéd. A másikról pénteken beszélünk."
+"shy",
+"De a tiéd jobban esett, mint a fogorvosé. 🙈",
+"De a tiéd jobban esett, mint a fogorvosé."
 ]
 ]
 }

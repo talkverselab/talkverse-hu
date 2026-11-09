@@ -1,19 +1,19 @@
 === r1_love_c1
 kind: chat
-title: 레테시 때문에 읽씹
+title: 충전기 먹은 강아지
 emoji: 📱
-scene: 데이팅앱에서 매칭된 Anna 와 첫 채팅. 약속을 물었더니 답이 없다
+scene: 데이팅앱에서 매칭된 Anna 가 먼저 말을 건다. 산책을 제안했더니 답이 없다
 b: Anna
 register: chat
 twist: 5 ignore
 flags: romance
 purpose: love
-goal: 채팅에서 쓰는 짧은 답과 약속 묻기
-expressions: Bocsi; ráérsz; Na
-B | Szia! Te is szereted a rétest? 😄 | 안녕! 너도 레테시 좋아해? 😄 | szereted = 네가 그걸 좋아한다 | emotion=cheerful at=21:03
-A | Igen! Nagyon szeretem. | 응! 엄청 좋아해. | nagyon = 아주 | emotion=cheerful at=21:04
-B | Na, melyik a kedvenced? | 그래서 제일 좋아하는 건? | kedvenc = 좋아하는 것 | emotion=teasing at=21:05
-A | A túrós. Holnap ráérsz? | 코티지치즈 맛. 내일 시간 돼? | ráérsz = 너 시간 있어? | emotion=cheerful+shy at=21:06
-A | Bocsi, túl gyors vagyok? | 미안, 내가 너무 빨랐나? | túl = 너무 | emotion=worried at=21:40
-A | Jaj. Felejtsd el. | 아이고. 잊어 줘. | felejtsd el = 잊어 줘 | emotion=sad at=23:12
-B | Bocsi, rétest sütöttem. Holnap hozok neked. 😇 | 미안, 레테시 굽고 있었어. 내일 갖다 줄게. 😇 | neked = 너에게 | emotion=gentle at=23:40 stamp=😇
+goal: 채팅에서 약속 묻기(Ráérsz?)와 사과하기(Bocsi)
+expressions: Bocsi; ráérsz
+B | Szia! Láttam, hogy te is szereted a kutyákat. 🐶 | 안녕! 너도 강아지 좋아하더라. 🐶 | láttam = 봤다 | emotion=cheerful at=21:03
+A | Igen! Neked van kutyád? | 응! 너 강아지 있어? | neked van = 너에게 있다 | emotion=excited at=21:05
+B | Van, Bodri. Kicsit buta, de cuki. | 있어, 보드리. 좀 바보인데 귀여워. | buta = 바보 같은 | emotion=amused at=21:06
+A | Hétvégén ráérsz? Sétálhatunk vele. | 주말에 시간 돼? 같이 산책해도 좋고. | ráérsz? = 시간 돼? | emotion=shy at=21:08
+A | Jaj, bocsi, túl gyors vagyok? 😅 | 아이고, 미안, 내가 너무 빨랐나? 😅 | túl = 너무 | emotion=worried at=22:30
+B | Bocsi, csak most láttam! Bodri szétrágta a töltőmet. | 미안, 이제 봤어! 보드리가 충전기를 다 씹어 놨어. | töltő = 충전기 | emotion=flustered at=23:15
+B | Szombaton? Bodri is jön. 🐾 | 토요일 어때? 보드리도 같이. 🐾 | szombaton = 토요일에 | emotion=cheerful at=23:16 stamp=🐾

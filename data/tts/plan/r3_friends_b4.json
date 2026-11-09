@@ -2,23 +2,22 @@
 "ep": "r3_friends_b4",
 "cast": {
 "B": "reka",
-"C": "bence",
-"D": "man_m"
+"C": "bence"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"annoyed",
-"Réka, két hete kerülöd a kávézót. Miattad otthon iszom rossz kávét."
+"teasing",
+"Na, ma csak magyarul rendelsz. Egy szó angolul se!"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"sad",
-"Nem megyek oda többet. Az a madár mindent elrontott."
+"excited",
+"Jó, menni fog. Gyakoroltam otthon."
 ]
 ]
 },
@@ -26,7 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Na, gyere már! Hozd a madarat is, és essünk túl rajta."
+"Hello! What can I get you?"
 ]
 ]
 },
@@ -34,63 +33,63 @@
 "segs": [
 [
 "cheerful",
-"Hű, Réka, de rég láttalak! Add ide egy pillanatra azt a madarat."
+"Szia, Bence! Egy nagy tejeskávét kérek, zabtejjel."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"worried",
-"Miért? Mit akarsz vele?"
+"cheerful",
+"Okay, large latte with oat milk. Anything else?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Várj, ezt a foltot ismerem. Pityu, te vagy az?"
+"annoyed",
+"Bence, kérlek, magyarul! Gyakorolni szeretnék."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"excited",
-"Bence, szeretlek! Bence, szeretlek!"
+"flustered",
+"Bocsi, bocsi. Mást is kérsz?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Úristen, ez tényleg ő! A nagymamám madara, tíz éve elveszett."
+"cheerful",
+"Igen, egy pogácsát is. Mennyi lesz?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"Mi van? Akkor ki tanította neki ezt a mondatot?"
+"neutral",
+"Kétezer-háromszáz. Kártyával vagy készpénzzel?"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"gentle",
-"A nagymamám. Minden reggel ezt mondta nekem, a madár meg hallotta."
+"excited",
+"Kártyával, tessék. Látod, Réka, egy angol szó se!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"excited",
-"Réka, hallod? Szóval nem tőled tanulta!"
+"amused",
+"Ügyes vagy! De Bence, te miért váltasz mindig angolra?"
 ]
 ]
 },
@@ -98,39 +97,39 @@
 "segs": [
 [
 "shy",
-"Ja, azt hittem, te tanítottad neki. Kár, már örültem."
+"Igazából jövő héten angol vizsgám van."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"sad",
-"Nem, nem én tanítottam."
+"tsukkomi",
+"Szóval rajtam gyakoroltál?!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"sad",
-"Értem. Hát, jó."
+"teasing",
+"Pontosan: te magyarul gyakorolsz, én angolul. Jó üzlet, nem?"
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"shy",
-"De attól még igaz."
+"amused",
+"Rendben. De akkor a pogácsa ingyen van."
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"cheerful",
-"Bence, szeretlek!"
+"shy",
+"Neked holnap is ingyen van. Gyere vissza."
 ]
 ]
 }

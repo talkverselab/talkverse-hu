@@ -1,20 +1,20 @@
 === r1_love_a5
 kind: short
-title: 꿈에서는
-emoji: 💭
-scene: 미술관 앞 계단. Anna 가 A 의 이름을 자꾸 말해 보라고 한다
+title: 하루 일찍
+emoji: 🎂
+scene: 아침 어학원 앞. A 가 작은 케이크를 들고 Anna 를 기다렸다
 b: Anna
 register: casual
-twist: 5 emotion
+twist: 6 reveal
 flags: romance
 purpose: love
-goal: 이유 묻기(Miért?)와 '~해야 해'(mennem kell)
-expressions: Miért?; Jaj; Várj
-B | Mondd még egyszer a neved! | 네 이름 한 번 더 말해 봐! | még egyszer = 한 번 더 | emotion=cheerful
-A | {name}. Miért? | {name}. 왜? | miért? = 왜? | emotion=neutral
-B | {name}... Jaj, nem jó. | {name}… 아이고, 안 되네. | nem jó = 안 좋아 | emotion=gentle+flustered
-A | De, jó. Nagyon jól mondod. | 아니야, 좋아. 아주 잘 말해. | de = 아니야(부정에 반박) | emotion=gentle
-B | Hát, álmomban jobban ment. | 음, 꿈에서는 더 잘됐는데. | álmomban = 내 꿈에서 | emotion=shy
-A | Álmodban? Milyen álmodban? | 네 꿈에서? 무슨 꿈? | milyen = 어떤 | emotion=surprised
-B | Jaj, semmi! Mennem kell! | 아이고, 아무것도 아냐! 나 가야 해! | mennem kell = 나 가야 해 | emotion=flustered
-A | Várj! Mit csináltam az álmodban? | 잠깐! 꿈에서 내가 뭐 했는데? | csináltam = 내가 했다 | emotion=shout+teasing
+goal: 생일 축하하기(Boldog születésnapot!)와 눈 감으라고 하기
+expressions: Na; Igazából; Ne már
+A | Szia, Anna! Csukd be a szemed! | 안녕, 언너! 눈 감아 봐! | csukd be = 감아 | emotion=excited
+B | Mi az? Na, becsuktam. | 뭔데? 자, 감았어. | becsuktam = 감았다 | emotion=cheerful
+A | Boldog születésnapot! Ez a tiéd. | 생일 축하해! 이거 네 거야. | születésnap = 생일 | emotion=excited
+B | Hű, torta! Nagyon kedves vagy. | 와, 케이크! 너 정말 다정하다. | kedves = 다정한 | emotion=surprised
+A | Réka mondta, hogy ma van. | 레카가 오늘이라고 했어. | hogy = ~라고 | emotion=cheerful
+B | Hát... igazából holnap van. | 음… 사실은 내일이야. | igazából = 사실은 | emotion=amused
+A | Jaj, ne már! Akkor holnap hozok egy másikat. | 아이고, 말도 안 돼! 그럼 내일 하나 더 가져올게. | egy másikat = 다른 하나를 | emotion=flustered
+B | Torta nem kell. Holnap is gyere, az elég. | 케이크는 필요 없어. 내일도 와, 그거면 돼. | elég = 충분하다 | emotion=shy

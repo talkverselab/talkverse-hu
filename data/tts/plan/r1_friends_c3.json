@@ -7,8 +7,8 @@
 "1": {
 "segs": [
 [
-"sad",
-"Réka, beteg vagyok."
+"worried",
+"Mi van veled? Nem vagy órán."
 ]
 ]
 },
@@ -16,7 +16,8 @@
 "segs": [
 [
 "sad",
-"Nagyon fáj a fejem."
+"Beteg vagyok. Fáj a torkom. 🤒",
+"Beteg vagyok. Fáj a torkom."
 ]
 ]
 },
@@ -24,51 +25,49 @@
 "segs": [
 [
 "worried",
-"Látod? Olvastad?"
+"Jaj, szegény! Lázas vagy?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"annoyed",
-"Hé! Nem válaszolsz?"
+"sad",
+"Egy kicsit. Egész nap alszom."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"sad",
-"Jó, akkor meghalok. Szia."
+"gentle",
+"Van otthon tea? Méz?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"annoyed",
-"Na, nyisd ki az ajtót."
+"amused",
+"Nincs semmi. Csak víz. 😅",
+"Nincs semmi. Csak víz."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"surprised",
-"Mi? Hol vagy?"
+"gentle",
+"Óra után viszek levest. Jobbulást!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"gentle",
-"Itt, levessel."
-],
-[
-"tsukkomi",
-"Egy órája csengetek."
+"shy",
+"Komolyan? Te vagy a legjobb. 🥹",
+"Komolyan? Te vagy a legjobb."
 ]
 ]
 }

@@ -8,71 +8,63 @@
 "segs": [
 [
 "teasing",
-"Kérsz paprikát? Nem erős."
+"Na? Nem látsz rajtam valamit?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"worried",
-"Tényleg nem erős?"
+"neutral",
+"Valamit? Hm, új a táskád?"
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Persze! Én is eszem."
+"annoyed",
+"Nem, ez régi."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"neutral",
-"Na jó."
-],
-[
-"shout",
-"Jaj, jaj, jaj!"
+"cheerful",
+"Akkor új a pulóvered!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"teasing",
-"Mi van? Nem erős!"
+"tsukkomi",
+"Nem! A hajam, {name}, levágattam!"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shout",
-"Vizet! Gyorsan, vizet!"
+"flustered",
+"Ja, tényleg! Nagyon jól áll!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"cheerful",
-"Tessék, igyál!"
-],
-[
-"flustered",
-"Ja, várj, ez nem víz."
+"shy",
+"Tényleg? Tíz centit vágtak le."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"Hát akkor mi?! Jaj!"
+"amused",
+"Tíz? Akkor most már látom!"
 ]
 ]
 }

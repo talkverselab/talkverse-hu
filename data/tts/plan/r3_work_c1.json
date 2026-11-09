@@ -2,80 +2,80 @@
 "ep": "r3_work_c1",
 "cast": {
 "B": "man_m",
-"C": "man_m",
-"D": "man_m"
+"C": "man_m"
 },
 "turns": {
 "1": {
 "segs": [
 [
-"cheerful",
-"A konyhában van egy almás rétes. Kié? 😄",
-"A konyhában van egy almás rétes. Kié?"
+"polite",
+"Kedves Kollégák! Hétfőn reggel nyolckor csapatmegbeszélés lesz."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"surprised",
-"Hé, ez a Mindenki csoport! Ezer ember látja ezt."
+"polite",
+"Rendben, ott leszek."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"flustered",
-"Jaj! Bocsánat, mindenki, rossz helyre írtam."
+"polite",
+"Köszönöm, ott leszek."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"stiff",
-"Jó napot, itt a bécsi iroda. Miért kaptunk üzenetet egy rétesről?"
+"annoyed",
+"Komolyan, hétfőn nyolckor? Akkor én még alszom. 😴",
+"Komolyan, hétfőn nyolckor? Akkor én még alszom."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"worried",
-"Figyelj, már harminc válasz van. Mindenki azt írja, hogy ne írjunk ide."
+"teasing",
+"Haha. Ezt nekem írtad, vagy a csoportba?"
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"flustered",
-"Kérem, ne írjanak ide!"
+"cheerful",
+"Neked, persze. Miért?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"tsukkomi",
-"Te is ide írtad."
+"amused",
+"Mert a csoportban látom. Az igazgató is olvasta. 👀",
+"Mert a csoportban látom. Az igazgató is olvasta."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"sad",
-"Bocsi."
+"flustered",
+"Úristen. Hogy lehet törölni?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"tsukkomi",
-"Ezt is."
+"teasing",
+"Már késő. Szerintem írj valamit gyorsan."
 ]
 ]
 },
@@ -83,47 +83,48 @@
 "segs": [
 [
 "stiff",
-"Itt az igazgató. Kérem, mindenki hagyja abba."
+"Elnézést kérek, rossz helyre írtam. Természetesen ott leszek hétfőn."
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"stiff",
-"A levelezőnk leállt a rétes miatt."
-],
-[
-"annoyed",
-"Ez komoly?"
+"amused",
+"Semmi baj. Igazság szerint nyolckor én is alszom."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"amused",
-"Most ötven ember áll a konyhában. Mind a rétest nézi."
+"cheerful",
+"Ki szeretne inkább tízkor kezdeni? Szavazzunk!"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"sad",
-"Nem írok többet. Soha."
+"excited",
+"Én! És a könyvelés is, mind a hatan. 😂",
+"Én! És a könyvelés is, mind a hatan."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"stiff",
-"Még valami: az a rétes az enyém."
-],
+"gentle",
+"Akkor tízkor kezdünk. A kávét én hozom."
+]
+]
+},
+"15": {
+"segs": [
 [
-"shout",
-"Ne nyúljanak hozzá!"
+"teasing",
+"Hősünk vagy! Legközelebb is panaszkodj a csoportba."
 ]
 ]
 }

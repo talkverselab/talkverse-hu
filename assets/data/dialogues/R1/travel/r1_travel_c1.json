@@ -11,9 +11,9 @@
  "domain": [
   "travel"
  ],
- "title": "싸게 샀지",
- "emoji": "💡",
- "scene": "벼룩시장에서 산 램프 사진을 Réka 에게 자랑한다",
+ "title": "엄마 선물",
+ "emoji": "🌶️",
+ "scene": "기념품 가게에서 엄마 선물을 고르며 Réka 에게 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
@@ -22,55 +22,163 @@
  "twist": 8,
  "twist_type": "reveal",
  "flags": [],
- "goal": "산 물건 이야기하기(hol, mennyiért)",
+ "goal": "채팅으로 물건 고르기(Mit vegyek? · Hol vetted?)",
  "expressions": [
-  "Nézd",
-  "ugye",
-  "Durva"
+  "Szerintem",
+  "Te jó ég",
+  "Oké"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Nézd, mit vettem! 📷",
-   "rd": "네즈드, 미트 베뗌! 📷",
-   "ko": "봐, 뭐 샀게!",
-   "note": "vettem = 내가 샀다",
-   "tags": [
-    "expr:Nézd"
-   ],
-   "at": "11:20",
-   "emotion": "excited",
+   "hu": "Ajándékot veszek anyukámnak. Mit vegyek?",
+   "rd": "어얀데코트 베쎅 어뉴캄넉. 미트 베젝?",
+   "ko": "엄마 선물 사. 뭐 살까?",
+   "note": "ajándék = 선물",
+   "tags": [],
+   "at": "15:10",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Nézd",
-     "néz",
-     "네즈"
+     "Ajándékot",
+     "ajándék",
+     "어얀데크"
     ],
     [
-     "vettem",
-     "vett",
-     "벳트"
+     "veszek",
+     "veszik",
+     "베세크"
+    ],
+    [
+     "anyukámnak",
+     "anyu",
+     "어뉴"
+    ],
+    [
+     "vegyek",
+     "vesz",
+     "베쓰"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Hű! Hol vetted?",
-   "rd": "휘! 홀 베떼드?",
-   "ko": "와! 어디서 샀어?",
-   "note": "hol = 어디서",
+   "hu": "Paprikát! Az mindig jó.",
+   "rd": "퍼프리카트! 어즈 민딕 요.",
+   "ko": "파프리카 가루! 그건 늘 좋아.",
+   "note": "mindig = 언제나",
    "tags": [],
-   "at": "11:21",
+   "at": "15:11",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Hű",
-     "hű",
+     "Paprikát",
+     "paprika",
      ""
+    ],
+    [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Édeset vagy csípőset?",
+   "rd": "에데세트 버지 치푀세트?",
+   "ko": "단 거, 매운 거?",
+   "note": "csípős = 매운",
+   "tags": [],
+   "at": "15:11",
+   "emotion": "neutral",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Édeset",
+     "édes",
+     "에데시"
+    ],
+    [
+     "csípőset",
+     "csípős",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Szerintem csípőset.",
+   "rd": "쎄린템 치푀세트.",
+   "ko": "내 생각엔 매운 거.",
+   "note": "szerintem = 내 생각엔",
+   "tags": [
+    "expr:Szerintem"
+   ],
+   "at": "15:12",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "csípőset",
+     "csípős",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "hu": "Oké, megvan! 🌶️",
+   "rd": "오케, 멕번! 🌶️",
+   "ko": "오케이, 샀다! 🌶️",
+   "note": "megvan = 됐다, 구했다",
+   "tags": [
+    "expr:Oké"
+   ],
+   "at": "15:20",
+   "emotion": "excited",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Oké",
+     "oké",
+     "오케"
+    ],
+    [
+     "megvan",
+     "megvan",
+     "메그번"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "hu": "Hol vetted?",
+   "rd": "홀 베떼드?",
+   "ko": "어디서 샀어?",
+   "note": "vetted = 네가 샀다",
+   "tags": [],
+   "at": "15:21",
+   "emotion": "neutral",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Hol",
+     "hol",
+     "홀"
     ],
     [
      "vetted",
@@ -80,151 +188,57 @@
    ]
   },
   {
-   "num": 3,
+   "num": 7,
    "speaker": "A",
-   "hu": "A bolhapiacon. Szép, ugye?",
-   "rd": "어 볼허피어촌. 쎄프, 우제?",
-   "ko": "벼룩시장에서. 예쁘지?",
-   "note": "bolhapiac = 벼룩시장",
-   "tags": [
-    "expr:ugye"
-   ],
-   "at": "11:21",
+   "hu": "A Váci utcában. Négyezer forint.",
+   "rd": "어 바치 우트차번. 네제제르 포린트.",
+   "ko": "바치 거리에서. 4천 포린트.",
+   "note": "négyezer = 4000",
+   "tags": [],
+   "at": "15:21",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "bolhapiacon",
-     "bolhapiac",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "hu": "Szép. Mennyiért?",
-   "rd": "쎄프. 메니에르트?",
-   "ko": "예쁘네. 얼마에?",
-   "note": "mennyiért = 얼마에",
-   "tags": [],
-   "at": "11:22",
-   "emotion": "neutral",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Szép",
-     "szép",
-     "쎕"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "hu": "Ötezer forint. Olcsó!",
-   "rd": "외테제르 포린트. 올초!",
-   "ko": "5천 포린트. 싸지!",
-   "note": "olcsó = 싼",
-   "tags": [],
-   "at": "11:22",
-   "emotion": "excited",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Ötezer",
-     "ötezer",
-     ""
+     "utcában",
+     "utca",
+     "우트처"
     ],
     [
      "forint",
      "forint",
      ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "hu": "Durva.",
-   "rd": "두르버.",
-   "ko": "대박.",
-   "note": "durva = 대박, 심하다",
-   "tags": [
-    "expr:Durva"
-   ],
-   "at": "11:23",
-   "emotion": "surprised",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Durva",
-     "durva",
-     "두르버"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Miért?",
-   "rd": "미에르트?",
-   "ko": "왜?",
-   "note": "miért = 왜",
-   "tags": [],
-   "at": "11:23",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Miért",
-     "miért",
-     "미에르트"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "A régi lámpám! Kétezerért adtam el.",
-   "rd": "어 레기 람팜! 케테제레르트 어드텀 엘.",
-   "ko": "내 옛날 램프야! 2천에 팔았어.",
-   "note": "eladtam = 팔았다",
-   "tags": [],
-   "at": "11:24",
-   "stamp": "😂",
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "A régi lámpám!"
-    ],
-    [
-     "teasing",
-     "Kétezerért adtam el."
-    ]
+   "hu": "Te jó ég! A piacon ezer. 😅",
+   "rd": "테 요 엑! 어 피어촌 에제르. 😅",
+   "ko": "세상에! 시장에선 천 포린트야. 😅",
+   "note": "te jó ég = 세상에",
+   "tags": [
+    "expr:Te jó ég"
    ],
+   "at": "15:22",
+   "emotion": "surprised",
    "ui": "bubble",
    "lemmas": [
     [
-     "régi",
-     "régi",
-     "레기"
+     "jó",
+     "jó",
+     "요"
     ],
     [
-     "lámpám",
-     "lámpám",
+     "ég",
+     "ég",
+     "에그"
+    ],
+    [
+     "piacon",
+     "piac",
      ""
-    ],
-    [
-     "adtam",
-     "ad",
-     "어드"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
     ]
    ]
   }

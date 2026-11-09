@@ -7,105 +7,92 @@
 "1": {
 "segs": [
 [
-"worried",
-"Anna, kölcsönadod a füzeted? Holnap vizsga."
+"shy",
+"Bocsi, szabad ez a hely?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"shy",
-"A füzetem? Hát, nem tudom."
+"gentle",
+"Igen, szabad. Tessék."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"tsukkomi",
-"Ne már! Te mindig írsz az órán."
+"gentle",
+"Köszi. Te is vizsgára tanulsz?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"shy",
-"Igazából nem írok. Rajzolok."
+"worried",
+"Igen, holnap lesz a történelemvizsgám. Te?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"cheerful",
-"Mindegy, add ide. Légyszi!"
+"worried",
+"Művészettörténet. Háromszáz kép, és mindet tudni kell."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"shy",
-"Jól van. De ne nézd sokáig."
+"cheerful",
+"Durva. Segítsek kikérdezni?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"cheerful",
-"Nézzük, ez az első óra."
+"excited",
+"Az jó lenne!"
 ],
 [
-"surprised",
-"Ki ez?"
+"shy",
+"De csak halkan."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shy",
-"Hát... te.",
-"Hát, te."
+"cheerful",
+"Ez a kép melyik században készült?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"Itt is én? Itt alszom!"
+"cheerful",
+"A tizenkilencedikben. Látod, ezt tudom."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"gentle",
-"Szépen alszol."
-],
-[
-"shy",
-"Tudod, egész félévben csak téged rajzoltalak."
+"surprised",
+"Szuper. És ez a rajz a füzeted hátulján?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"worried",
-"És holnap a vizsga?"
-]
-]
-},
-"12": {
-"segs": [
-[
-"gentle",
-"Megbukom. Megéri."
+"shy",
+"Az a huszonegyedik század. Ma rajzoltalak le."
 ]
 ]
 }

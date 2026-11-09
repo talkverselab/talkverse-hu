@@ -8,63 +8,65 @@
 "segs": [
 [
 "polite",
-"Jó napot! Itt vagyok a kapunál."
+"Jó napot! A csomagot az ajtó elé tettem."
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"polite",
-"Jó napot! Nem látom."
+"worried",
+"Köszönöm! De itt nincs semmi."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"neutral",
-"Zöld kapu, nagy kutya."
+"surprised",
+"Biztos? Harmadik emelet, tizenkettes ajtó."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"stiff",
-"Itt nincs kutya."
+"annoyed",
+"Én a huszonegyesben lakom!"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"polite",
-"Akkor rossz ház. Bocsánat."
+"flustered",
+"Elnézést! Átmegyek érte."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"worried",
-"És a lángosom?"
+"surprised",
+"A csomag már nincs ott. 😳",
+"A csomag már nincs ott."
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"polite",
-"Sajnos a kutya megette."
+"worried",
+"Jaj, a tizenkettesben Feri bácsi lakik. Megkérdezem."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"tsukkomi",
-"Akkor jó étvágyat neki."
+"amused",
+"Feri bácsi azt hitte, az övé. Már ki is bontotta. 🙃",
+"Feri bácsi azt hitte, az övé. Már ki is bontotta."
 ]
 ]
 }

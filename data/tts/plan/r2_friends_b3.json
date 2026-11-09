@@ -1,111 +1,106 @@
 {
 "ep": "r2_friends_b3",
 "cast": {
-"B": "reka",
-"C": "man_m"
+"B": "reka"
 },
 "turns": {
 "1": {
 "segs": [
 [
 "cheerful",
-"Vigyázol a dolgaimra tíz percig, légyszi? Mindjárt jövök."
+"Hoztál mindent? Törölközőt, papucsot?"
 ]
 ]
 },
 "2": {
 "segs": [
 [
-"neutral",
-"Oké, nyugi. Mi mennyibe kerül?"
+"cheerful",
+"Persze: fürdőruha, törölköző, papucs. Minden megvan."
 ]
 ]
 },
 "3": {
 "segs": [
 [
-"cheerful",
-"Minden ezer forint. Ne gondolkodj!"
+"neutral",
+"És úszósapka?"
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"polite",
-"Elnézést, ez a szék is ezer forint?"
+"surprised",
+"Sapka? Nem hideg a víz, nem?"
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"polite",
-"Igen, kérem. Minden ezer forint."
+"amused",
+"Nem a hideg miatt. Itt kötelező."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"polite",
-"És a lámpa? És az a bicikli ott?"
+"worried",
+"Komolyan? Nálunk nem kell, most mit csináljak?"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"cheerful",
-"Hát, minden ezer. Tessék, vigye!"
+"gentle",
+"Várj, nekem van kettő."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"cheerful",
-"Na, hogy ment?"
-],
-[
-"worried",
-"Hol a biciklim?"
+"excited",
+"Szuper! Köszi, Réka!"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"excited",
-"Jó hírem van: mindent eladtam! Négyezer forint!"
+"teasing",
+"Tessék. Remélem, szereted a rózsaszínt."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shout",
-"Ezer forintért eladtad a biciklimet?!"
+"surprised",
+"Rózsaszín, virágokkal?!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"tsukkomi",
-"Te mondtad: minden ezer. Ne gondolkodj!"
+"amused",
+"A nagymamámé volt. Nagyon jól áll!"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"annoyed",
-"Jól van."
+"tsukkomi",
+"Ne már!"
 ],
 [
-"shout",
-"Ki kér egy barátot ezer forintért?"
+"amused",
+"Na jó, gyorsan a vízbe."
 ]
 ]
 }

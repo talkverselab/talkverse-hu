@@ -1,24 +1,23 @@
 === r2_friends_b3
 kind: long
-title: 전부 천 포린트
-emoji: 🏷️
-scene: Réka 의 벼룩시장 매대를 10분만 봐주기로 했다. 규칙은 하나, 전부 천 포린트
+title: 수영모 없어?
+emoji: 🏊
+scene: 일 끝나고 Réka 와 동네 수영장에 왔다. 입구에서 수영모 이야기가 나온다
 b: Réka
-c: Vevő
-register: mixed
-twist: 9 chaos
+register: casual
+twist: 9 reveal
 purpose: making_friends
-goal: 값 말하기와 -ért(~에)로 값 표현
-expressions: légyszi; Mindjárt; Oké; nyugi; Tessék
-B | Vigyázol a dolgaimra tíz percig, légyszi? Mindjárt jövök. | 내 물건 10분만 봐줄래? 금방 올게. | vigyáz = 돌보다, 조심하다 | emotion=cheerful
-A | Oké, nyugi. Mi mennyibe kerül? | 알았어, 걱정 마. 뭐가 얼마야? | mennyibe kerül = 얼마예요 | emotion=neutral
-B | Minden ezer forint. Ne gondolkodj! | 전부 천 포린트. 생각하지 마! | minden = 전부 | emotion=cheerful
-C | Elnézést, ez a szék is ezer forint? | 실례합니다, 이 의자도 천 포린트예요? | szék = 의자 | emotion=polite
-A | Igen, kérem. Minden ezer forint. | 네. 전부 천 포린트예요. | kérem = 네(정중히) | emotion=polite
-C | És a lámpa? És az a bicikli ott? | 그럼 램프는요? 저기 저 자전거는요? | az a bicikli ott = 저기 저 자전거 | emotion=polite
-A | Hát, minden ezer. Tessék, vigye! | 음, 전부 천이에요. 여기요, 가져가세요! | vigye = 가져가세요 | emotion=cheerful
-B | Na, hogy ment? Hol a biciklim? | 자, 어땠어? 내 자전거 어디 있어? | hogy ment? = 어땠어? | emotion=cheerful+worried
-A | Jó hírem van: mindent eladtam! Négyezer forint! | 좋은 소식이야: 다 팔았어! 4천 포린트! | eladtam = 팔았다 | emotion=excited
-B | Ezer forintért eladtad a biciklimet?! | 내 자전거를 천 포린트에 팔았다고?! | -ért = ~에(값) | emotion=shout
-A | Te mondtad: minden ezer. Ne gondolkodj! | 네가 그랬잖아: 전부 천. 생각하지 마! | te mondtad = 네가 말했다 | emotion=tsukkomi
-B | Jól van. Ki kér egy barátot ezer forintért? | 좋아. 친구 하나 천 포린트에 사실 분? | jól van = 좋아, 알았어 | emotion=annoyed+shout
+goal: 준비물 확인(Hoztál…?)과 규칙 표현(kötelező)
+expressions: Hoztál; kötelező; Ne már
+B | Hoztál mindent? Törölközőt, papucsot? | 다 챙겼어? 수건, 슬리퍼? | papucs = 슬리퍼 | emotion=cheerful
+A | Persze: fürdőruha, törölköző, papucs. Minden megvan. | 당연하지. 수영복, 수건, 슬리퍼. 다 있어. | fürdőruha = 수영복 | emotion=cheerful
+B | És úszósapka? | 그럼 수영모는? | úszósapka = 수영모 | emotion=neutral
+A | Sapka? Nem hideg a víz, nem? | 모자? 물 안 차갑잖아, 아니야? | sapka = 모자 | emotion=surprised
+B | Nem a hideg miatt. Itt kötelező. | 추워서가 아니야. 여기선 필수야. | kötelező = 의무인, 필수인 | emotion=amused
+A | Komolyan? Nálunk nem kell, most mit csináljak? | 진짜? 우리 나라에선 안 써도 되는데, 이제 어떡하지? | mit csináljak = 어떡하지 | emotion=worried
+B | Várj, nekem van kettő. | 잠깐, 나 두 개 있어. | kettő = 두 개 | emotion=gentle
+A | Szuper! Köszi, Réka! | 좋다! 고마워, 레카! | szuper = 최고 | emotion=excited
+B | Tessék. Remélem, szereted a rózsaszínt. | 자. 분홍색 좋아하면 좋겠다. | rózsaszín = 분홍색 | emotion=teasing
+A | Rózsaszín, virágokkal?! | 분홍에, 꽃무늬까지?! | virágokkal = 꽃들과 함께 | emotion=surprised
+B | A nagymamámé volt. Nagyon jól áll! | 우리 할머니 거였어. 완전 잘 어울려! | nagymamámé = 할머니의 것 | emotion=amused
+A | Ne már! Na jó, gyorsan a vízbe. | 아 진짜! 알았어, 빨리 물속으로. | gyorsan = 빨리 | emotion=tsukkomi+amused

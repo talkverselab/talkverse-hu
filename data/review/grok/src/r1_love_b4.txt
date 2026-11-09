@@ -1,21 +1,20 @@
 === r1_love_b4
 kind: long
-title: 서른 개의 감자
+title: 뭐라고 보내지?
 emoji: 📓
-scene: 벤치에서 주운 Anna 의 스케치북. Réka 가 열지 말라는데 이미 열었다
+scene: 벼룩시장. A 가 Réka 에게 휴대폰을 내밀며 Anna 에게 보낼 메시지를 봐 달라고 한다
 b: Réka
-c: Anna
 register: casual
 twist: 6 reveal
 flags: romance
 purpose: love
-goal: 금지 명령(Ne nyisd ki!)과 '벌써 ~했어'
-expressions: Komolyan; Hű; Szóval; Várj
-A | Réka, nézd, ezt a padon találtam. Anna rajzfüzete? | 레카, 봐, 이거 벤치에서 찾았어. 언너 스케치북이야? | pad = 벤치 | emotion=neutral
-B | Igen, az övé. Ne nyisd ki, komolyan mondom! | 응, 걔 거야. 열지 마, 진심이야! | ne nyisd ki = 열지 마 | emotion=neutral+worried
-A | Már kinyitottam. Hű, itt nagyon sok krumpli van. | 벌써 열었어. 와, 여기 감자가 엄청 많아. | már = 벌써 | emotion=neutral+surprised
-B | Ja, azok? Azok nem krumplik. | 아, 그거? 그거 감자 아니야. | ja = 아 | emotion=amused
-A | Várj. Ennek a krumplinak az én orrom van. | 잠깐. 이 감자, 내 코를 하고 있어. | orr = 코 | emotion=surprised
-B | Mind te vagy. Harminc oldal, csupa te. | 전부 너야. 서른 쪽이 다 너. | csupa = 온통 | emotion=gentle
-A | Harminc? Szóval Anna engem... | 서른 쪽? 그러니까 언너가 나를… | szóval = 그러니까 | emotion=surprised+shy
-C | Sziasztok! Nem láttátok a füzetemet? | 얘들아 안녕! 내 공책 못 봤어? | láttátok = 너희가 그걸 봤다 | emotion=cheerful
+goal: 조언 구하기(Mit írjak?)와 불러내기(Hívd el!)
+expressions: Figyelj; Mizu; Na ne; Nézd
+A | Réka, figyelj. Mit írjak Annának? | 레카, 있잖아. 언너한테 뭐라고 쓰지? | írjak = 내가 쓸까 | emotion=worried
+B | Mutasd. „Szia, mizu?” Ennyi? | 보여 줘. "안녕, 뭐 해?" 이게 다야? | ennyi = 이만큼 | emotion=amused
+A | Jó, de unalmas, ugye? | 괜찮은데, 좀 지루하지, 그렇지? | unalmas = 지루한 | emotion=worried
+B | Kicsit. Hívd el valahová! | 좀. 어디 같이 가자고 해! | hívd el = 불러내 | emotion=teasing
+A | Moziba? Nem túl gyors? | 영화? 너무 빠르지 않아? | túl gyors = 너무 빠른 | emotion=worried
+B | Na ne. Ma reggel Anna ugyanezt kérdezte tőlem. | 에이. 오늘 아침에 언너도 똑같은 걸 나한테 물었어. | ugyanezt = 바로 이것을 | emotion=amused
+A | Tényleg? És mit mondtál neki? | 진짜? 그래서 뭐라고 했어? | mit mondtál? = 뭐라고 했어? | emotion=excited
+B | Azt, hogy ne várjon rád. Nézd, már írt. | 너 기다리지 말라고. 봐, 벌써 보냈네. | ne várjon = 기다리지 말라 | emotion=teasing

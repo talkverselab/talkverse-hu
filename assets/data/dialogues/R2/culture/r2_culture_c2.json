@@ -11,354 +11,346 @@
  "domain": [
   "culture"
  ],
- "title": "어미 하나 차이",
- "emoji": "💬",
- "scene": "Anna 가 그림을 올렸다. 「그림 마음에 들어」를 쓰려다 어미 하나를 틀렸다. 그것도 공개 댓글에",
+ "title": "첫 헝가리어 글",
+ "emoji": "📝",
+ "scene": "처음으로 SNS 에 헝가리어로 글을 올렸다. Anna 와 Réka 가 댓글을 단다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
   "C": "Réka"
  },
  "register": "chat",
- "twist": 11,
+ "twist": 12,
  "twist_type": "emotion",
  "flags": [
   "romance"
  ],
- "goal": "tetszik(그것이 마음에 든다) / tetszel(네가 마음에 든다) 구별",
+ "goal": "헝가리어 배우는 이야기와 틀린 곳 묻기(Volt benne hiba?)",
  "expressions": [
-  "Úristen",
-  "Mi van",
-  "Bocsi"
+  "Ügyes",
+  "Szerintem",
+  "Nem baj"
  ],
  "turns": [
   {
    "num": 1,
-   "speaker": "B",
-   "hu": "Kész az új rajzom! Mit szóltok? 🎨",
-   "rd": "케쓰 어즈 우이 러이좀! 미트 쏠톡? 🎨",
-   "ko": "새 그림 완성! 어때? 🎨",
-   "note": "mit szóltok? = 너희 생각은?",
+   "speaker": "A",
+   "hu": "Ma írtam az első magyar posztomat! 📝",
+   "rd": "머 이르텀 어즈 엘쇠 머져르 포쓰토머트! 📝",
+   "ko": "오늘 첫 헝가리어 게시물 올렸어! 📝",
+   "note": "poszt = 게시물",
    "tags": [],
-   "at": "20:10",
+   "at": "21:03",
    "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Kész",
-     "kész",
-     "케스"
-    ],
-    [
-     "új",
-     "új",
-     "우이"
-    ],
-    [
-     "rajzom",
-     "rajzom",
-     ""
-    ],
-    [
-     "szóltok",
-     "szól",
-     "쏠"
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "hu": "Hű, nagyon tetszel!",
-   "rd": "휘, 너죤 테트쎌!",
-   "ko": "와, 네가 정말 마음에 들어!",
-   "note": "tetszel = 네가 마음에 든다",
-   "tags": [],
-   "at": "20:12",
-   "emotion": "excited",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Hű",
-     "hű",
-     ""
-    ],
-    [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "tetszel",
-     "tetszik",
-     "테트씨크"
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "C",
-   "hu": "Úristen, {name}! Ezt mindenki látja! 😂",
-   "rd": "우리슈텐, {name}! 에즈트 민덴키 라트여! 😂",
-   "ko": "세상에, {name}! 이거 다 보고 있어! 😂",
-   "note": "mindenki látja = 다들 그걸 본다",
-   "tags": [
-    "expr:Úristen"
-   ],
-   "at": "20:12",
-   "emotion": "amused",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
-    ],
-    [
-     "látja",
-     "lát",
-     "라트"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Mi van? Mit írtam?",
-   "rd": "미 번? 미트 이르텀?",
-   "ko": "왜? 내가 뭐라고 썼어?",
-   "note": "írtam = 내가 썼다",
-   "tags": [
-    "expr:Mi van"
-   ],
-   "at": "20:13",
-   "emotion": "worried",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
+     "Ma",
+     "ma",
+     "머"
     ],
     [
      "írtam",
      "írt",
      ""
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
+    ],
+    [
+     "posztomat",
+     "poszt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "hu": "Láttam! Nagyon ügyes vagy. 👏",
+   "rd": "라떰! 너죤 위제시 버지. 👏",
+   "ko": "봤어! 정말 잘했어. 👏",
+   "note": "ügyes = 잘하는, 솜씨 좋은",
+   "tags": [
+    "expr:Ügyes"
+   ],
+   "at": "21:05",
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Láttam",
+     "lát",
+     "라트"
+    ],
+    [
+     "ügyes",
+     "ügyes",
+     "위계시"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "hu": "Volt benne hiba? Őszintén.",
+   "rd": "볼트 벤네 히버? 외씬텐.",
+   "ko": "틀린 거 있었어? 솔직하게.",
+   "note": "őszintén = 솔직하게",
+   "tags": [],
+   "at": "21:05",
+   "emotion": "worried",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Volt",
+     "van",
+     "번"
+    ],
+    [
+     "hiba",
+     "hiba",
+     "히버"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "hu": "Csak egy kicsi. Szerintem nem baj.",
+   "rd": "척 에지 키치. 쎄린템 넴 버이.",
+   "ko": "아주 조금. 괜찮은 것 같아.",
+   "note": "szerintem = 내 생각엔",
+   "tags": [
+    "expr:Szerintem",
+    "expr:Nem baj"
+   ],
+   "at": "21:06",
+   "emotion": "gentle",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "kicsi",
+     "kicsi",
+     "키치"
+    ],
+    [
+     "baj",
+     "baj",
+     "버이"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Olvasd el még egyszer. Lassan.",
-   "rd": "올버슈드 엘 멕 에지쎄르. 러쎤.",
-   "ko": "다시 읽어 봐. 천천히.",
-   "note": "olvasd el = 읽어 봐",
+   "hu": "Egy? Inkább három. 😂",
+   "rd": "에지? 인카브 하롬. 😂",
+   "ko": "하나? 세 개는 되지. 😂",
+   "note": "inkább = 오히려",
    "tags": [],
-   "at": "20:13",
+   "at": "21:07",
    "emotion": "teasing",
    "ui": "bubble",
-   "lemmas": [
-    [
-     "Olvasd",
-     "olvas",
-     "올버스"
-    ],
-    [
-     "el",
-     "el",
-     "엘"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
-    ]
-   ]
+   "lemmas": []
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Jaj, ne! A rajz tetszik!",
-   "rd": "여이, 네! 어 러이즈 테트씩!",
-   "ko": "안 돼! 그림이 마음에 든다고!",
-   "note": "tetszik = 그것이 마음에 든다",
+   "hu": "Réka! Melyik három?",
+   "rd": "레커! 메익 하롬?",
+   "ko": "레카! 어떤 세 개?",
+   "note": "melyik = 어느",
    "tags": [],
-   "at": "20:14",
-   "emotion": "flustered",
+   "at": "21:07",
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Réka",
+     "réka",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "hu": "„Budapestben” helyett „Budapesten”. Ez az első.",
+   "rd": "„부더페슈트벤” 헤예트 „부더페슈텐”. 에즈 어즈 엘쇠.",
+   "ko": "\"Budapestben\" 말고 \"Budapesten\". 이게 첫째.",
+   "note": "helyett = ~대신",
+   "tags": [],
+   "at": "21:08",
+   "emotion": "amused",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "Budapestben",
+     "budapest",
+     "부더페슈트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Jaj. És a másik kettő?",
+   "rd": "여이. 에시 어 마식 케뙤?",
+   "ko": "아. 그럼 나머지 두 개는?",
+   "note": "a másik kettő = 나머지 둘",
+   "tags": [],
+   "at": "21:08",
+   "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
     [
      "Jaj",
      "jaj",
      "야이"
-    ],
-    [
-     "rajz",
-     "rajz",
-     ""
-    ],
-    [
-     "tetszik",
-     "tetszik",
-     "테트씨크"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "Bocsi, töröltem! Ez csak egy rag volt!",
-   "rd": "보치, 퇴뢸템! 에즈 척 에지 럭 볼트!",
-   "ko": "미안, 지웠어! 어미 하나 틀린 거야!",
-   "note": "töröltem = 지웠다",
-   "tags": [
-    "expr:Bocsi"
-   ],
-   "at": "20:14",
-   "emotion": "flustered",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Bocsi",
-     "bocsi",
-     "보치"
-    ],
-    [
-     "töröltem",
-     "töröl",
-     ""
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "rag",
-     "rag",
-     ""
-    ],
-    [
-     "volt",
-     "van",
-     "번"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "C",
-   "hu": "Anna látta. Sok sikert. 😇",
-   "rd": "언너 라떠. 쇽 시케르트. 😇",
-   "ko": "안나가 봤어. 행운을 빌어. 😇",
-   "note": "sok sikert = 행운을 빌어",
-   "tags": [],
-   "at": "20:15",
-   "emotion": "teasing",
-   "ui": "bubble",
-   "lemmas": [
-    [
-     "Anna",
-     "anna",
-     ""
-    ],
-    [
-     "látta",
-     "lát",
-     "라트"
-    ],
-    [
-     "sikert",
-     "siker",
-     "시케르"
     ]
    ]
   },
   {
    "num": 9,
-   "speaker": "A",
-   "hu": "Anna? Ott vagy?",
-   "rd": "언너? 오트 버지?",
-   "ko": "안나? 거기 있어?",
-   "note": "ott vagy? = 거기 있어?",
+   "speaker": "C",
+   "hu": "Majd holnap, egy kávé mellett. ☕",
+   "rd": "머이드 홀너프, 에지 카베 멜레트. ☕",
+   "ko": "내일 커피 마시면서 알려 줄게. ☕",
+   "note": "mellett = ~곁들여",
    "tags": [],
-   "at": "21:30",
-   "emotion": "worried",
+   "at": "21:09",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Anna",
-     "anna",
-     ""
+     "Majd",
+     "majd",
+     "머이드"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
+    ],
+    [
+     "kávé",
+     "kávé",
+     "카베"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Itt vagyok. Csak olvastam, sokszor.",
-   "rd": "이트 버죡. 척 올버슈텀, 쇽쏘르.",
-   "ko": "여기 있어. 읽고 있었어, 여러 번.",
-   "note": "sokszor = 여러 번",
+   "hu": "Én is szívesen segítek. Csak szólj.",
+   "rd": "엔 이시 씨베센 세기텍. 척 쏠이.",
+   "ko": "나도 기꺼이 도와줄게. 말만 해.",
+   "note": "szólj = 말해",
    "tags": [],
-   "at": "21:52",
-   "emotion": "shy",
+   "at": "21:12",
+   "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Itt",
-     "itt",
-     "이트"
+     "szívesen",
+     "szíves",
+     "시베시"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
+     "segítek",
+     "segít",
+     "셰기트"
     ],
     [
-     "olvastam",
-     "olvas",
-     "올버스"
+     "szólj",
+     "szól",
+     "쏠"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Kár, hogy törölted. Az első változat jobban tetszett.",
-   "rd": "카르, 호지 퇴뢸테드. 어즈 엘쇠 발토저트 요번 테트쎄트.",
-   "ko": "지워서 아쉽다. 첫 번째 게 더 마음에 들었는데.",
-   "note": "kár = 아쉽다",
+   "hu": "Amúgy az utolsó mondatod volt a legszebb. 🙂",
+   "rd": "어무지 어즈 우톨쇼 몬더토드 볼트 어 렉쎄브. 🙂",
+   "ko": "그런데 네 마지막 문장이 제일 예뻤어. 🙂",
+   "note": "mondat = 문장",
    "tags": [],
-   "at": "21:53",
+   "at": "21:13",
    "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "Kár",
-     "kár",
-     "카르"
+     "Amúgy",
+     "amúgy",
+     "어무지"
     ],
     [
-     "törölted",
-     "töröl",
+     "utolsó",
+     "utolsó",
+     "우톨쇼"
+    ],
+    [
+     "mondatod",
+     "mondatod",
      ""
     ],
     [
-     "változat",
-     "változat",
-     ""
+     "volt",
+     "van",
+     "번"
     ],
     [
-     "jobban",
-     "jobb",
-     ""
+     "legszebb",
+     "szép",
+     "쎕"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "hu": "Az, hogy „jó itt lenni”? Azt rád gondolva írtam. 😳",
+   "rd": "어즈, 호지 „요 이트 렌니”? 어즈트 라드 곤돌버 이르텀. 😳",
+   "ko": "\"여기 있어서 좋다\"? 그거 너 생각하면서 썼어. 😳",
+   "note": "rád gondolva = 너를 생각하며",
+   "tags": [],
+   "at": "21:20",
+   "emotion": "shy",
+   "ui": "bubble",
+   "lemmas": [
+    [
+     "jó",
+     "jó",
+     "요"
     ],
     [
-     "tetszett",
-     "tetszik",
-     "테트씨크"
+     "itt",
+     "itt",
+     "이트"
+    ],
+    [
+     "lenni",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "gondolva",
+     "gondol",
+     "곤돌"
+    ],
+    [
+     "írtam",
+     "írt",
+     ""
     ]
    ]
   }

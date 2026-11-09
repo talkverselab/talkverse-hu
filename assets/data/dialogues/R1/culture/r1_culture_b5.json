@@ -10,205 +10,132 @@
  "domain": [
   "culture"
  ],
- "title": "제일 긴 낱말, 두 개요",
+ "title": "랑고시에 우유?",
  "emoji": "🥖",
- "scene": "빵집 줄. 일주일 외운 헝가리어 최장 낱말을 Réka 에게 자랑하려 한다",
+ "scene": "시장에서 Réka 가 랑고시를 먹어 보라고 추천한다. 직접 주문해 본다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
   "C": "Eladó"
  },
  "register": "mixed",
- "twist": 7,
+ "twist": 5,
  "twist_type": "slip",
  "flags": [],
- "goal": "Mit jelent? 로 뜻 묻기, 가게에서 수량 답하기",
+ "goal": "음식 추천받고 주문하기(Mit ajánlasz? · …-val kérek)",
  "expressions": [
-  "Figyelj",
-  "Ne már",
-  "Hát"
+  "Mit ajánlasz",
+  "Bocsánat",
+  "Szóval"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Mit tanulsz? Mi ez a hosszú szó?",
-   "rd": "미트 터눌쓰? 미 에즈 어 호쑤 쏘?",
-   "ko": "뭐 배워? 이 긴 낱말은 뭐야?",
-   "note": "hosszú = 긴",
+   "hu": "Itt a legjobb lángos a piacon.",
+   "rd": "이트 어 렉요브 란고시 어 피어촌.",
+   "ko": "여기가 시장에서 제일 맛있는 랑고시야.",
+   "note": "lángos = 튀긴 빵",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "excited",
    "lemmas": [
     [
-     "tanulsz",
-     "tanul",
-     "타눌"
+     "Itt",
+     "itt",
+     "이트"
     ],
     [
-     "hosszú",
-     "hosszú",
-     "호쑤"
+     "legjobb",
+     "jó",
+     "요"
     ],
     [
-     "szó",
-     "szó",
-     "쏘"
+     "lángos",
+     "lángos",
+     ""
+    ],
+    [
+     "piacon",
+     "piac",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "A leghosszabb magyar szó. Figyelj, mondom!",
-   "rd": "어 렉호써브 머져르 쏘. 피젤이, 몬돔!",
-   "ko": "헝가리어에서 제일 긴 낱말이야. 들어 봐, 말한다!",
-   "note": "leg-…-bb = 가장 ~한",
+   "hu": "Mit ajánlasz? Először eszem lángost.",
+   "rd": "미트 어얀러쓰? 엘뢰쐬르 에쎔 란고슈트.",
+   "ko": "뭐 추천해? 랑고시 처음 먹어 봐.",
+   "note": "Mit ajánlasz? = 뭐 추천해?",
    "tags": [
-    "expr:Figyelj"
+    "expr:Mit ajánlasz"
    ],
-   "emotion": "excited",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "leghosszabb",
-     "hosszú",
-     "호쑤"
+     "ajánlasz",
+     "ajánl",
+     "어야안"
     ],
     [
-     "magyar",
-     "magyar",
+     "eszem",
+     "eszem",
      ""
     ],
     [
-     "szó",
-     "szó",
-     "쏘"
-    ],
-    [
-     "mondom",
-     "mond",
-     "몬드"
+     "lángost",
+     "lángos",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Ne már! Itt, a pékségben?",
-   "rd": "네 마르! 이트, 어 펙섹벤?",
-   "ko": "에이! 여기, 빵집에서?",
-   "note": "pékség = 빵집",
-   "tags": [
-    "expr:Ne már"
-   ],
-   "emotion": "tsukkomi",
+   "hu": "Sajtos-tejfölöset. Az a klasszikus.",
+   "rd": "셔이토시-테이푈뢰세트. 어즈 어 클러씨쿠시.",
+   "ko": "치즈 사워크림. 그게 기본이야.",
+   "note": "tejföl = 사워크림",
+   "tags": [],
+   "emotion": "gentle",
    "lemmas": [
     [
-     "már",
-     "már",
-     "마르"
+     "Sajtos",
+     "sajtos",
+     ""
     ],
     [
-     "pékségben",
-     "pékség",
+     "tejfölöset",
+     "tejföl",
+     ""
+    ],
+    [
+     "klasszikus",
+     "klasszikus",
      ""
     ]
    ]
   },
   {
    "num": 4,
-   "speaker": "A",
-   "hu": "Igen! Megszentségteleníthetetlenségeskedéseitekért!",
-   "rd": "이겐! 멕쎈트섹텔레니트헤테틀렌세게슈케데세이테케르트!",
-   "ko": "응! 메그센트셰그텔레니트헤테틀렌셰게시케데셰이테케르트!",
-   "note": "헝가리어 최장 낱말로 유명한 장난말",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Igen",
-     "igen",
-     "이겐"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "hu": "Úristen! És mit jelent?",
-   "rd": "우리슈텐! 에시 미트 옐렌트?",
-   "ko": "세상에! 그래서 무슨 뜻이야?",
-   "note": "mit jelent? = 무슨 뜻이야?",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Úristen!"
-    ],
-    [
-     "amused",
-     "És mit jelent?"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
-    ],
-    [
-     "jelent",
-     "jelen",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Nem tudom. Egy hétig tanultam.",
-   "rd": "넴 투돔. 에지 헤틱 터눌텀.",
-   "ko": "몰라. 일주일 동안 외웠어.",
-   "note": "egy hétig = 일주일 동안",
-   "tags": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "tudom",
-     "tud",
-     "투드"
-    ],
-    [
-     "hétig",
-     "hét",
-     "헤트"
-    ],
-    [
-     "tanultam",
-     "tanult",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
    "speaker": "C",
-   "hu": "Tessék. Hány darabot kér?",
-   "rd": "테쎅. 하니 더러보트 케르?",
-   "ko": "네. 몇 개 드릴까요?",
-   "note": "hány darabot? = 몇 개를?",
+   "hu": "Jó napot! Mit kér?",
+   "rd": "요 너포트! 미트 케르?",
+   "ko": "안녕하세요! 뭐 드릴까요?",
+   "note": "Mit kér? = 뭐 드릴까요?",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Tessék",
-     "tessék",
-     "테셰크"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "darabot",
-     "darab",
-     "더럽"
+     "napot",
+     "nap",
+     "넙"
     ],
     [
      "kér",
@@ -218,21 +145,139 @@
    ]
   },
   {
-   "num": 8,
+   "num": 5,
    "speaker": "A",
-   "hu": "Hát... kettőt.",
-   "rd": "하트... 케뙤트.",
-   "ko": "음… 두 개요.",
-   "note": "kettőt = 둘을(목적격)",
-   "tags": [
-    "expr:Hát"
-   ],
-   "emotion": "flustered",
+   "hu": "Egy lángost kérek, sajttal és tejjel.",
+   "rd": "에지 란고슈트 케렉, 셔이떨 에시 테옐.",
+   "ko": "랑고시 하나 주세요, 치즈랑 우유 올려서요.",
+   "note": "tej = 우유",
+   "tags": [],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "lángost",
+     "lángos",
+     ""
+    ],
+    [
+     "kérek",
+     "kér",
+     "께르"
+    ],
+    [
+     "sajttal",
+     "sajt",
+     ""
+    ],
+    [
+     "tejjel",
+     "tej",
+     "테이"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Tejjel? A lángosra?",
+   "rd": "테옐? 어 란고슈러?",
+   "ko": "우유요? 랑고시 위에요?",
+   "note": "-ra = ~위에",
+   "tags": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Tejjel",
+     "tej",
+     "테이"
+    ],
+    [
+     "lángosra",
+     "lángos",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "hu": "Tejföllel! Bocsánat, még tanul.",
+   "rd": "테이푈렐! 보차너트, 멕 터눌.",
+   "ko": "사워크림이요! 죄송해요, 아직 배우는 중이라서요.",
+   "note": "még tanul = 아직 배우는 중",
+   "tags": [
+    "expr:Bocsánat"
+   ],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Tejföllel!"
+    ],
+    [
+     "polite",
+     "Bocsánat, még tanul."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Tejföllel",
+     "tejföl",
+     ""
+    ],
+    [
+     "még",
+     "még",
+     "메그"
+    ],
+    [
+     "tanul",
+     "tan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "hu": "Szóval a tejföl nem tej? Mindegy, finom!",
+   "rd": "쏘벌 어 테이푈 넴 테이? 민데지, 피놈!",
+   "ko": "그러니까 tejföl 은 우유가 아니야? 아무튼, 맛있다!",
+   "note": "mindegy = 아무래도 좋아",
+   "tags": [
+    "expr:Szóval"
+   ],
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Szóval a tejföl nem tej?"
+    ],
+    [
+     "cheerful",
+     "Mindegy, finom!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Szóval",
+     "szó",
+     "쏘"
+    ],
+    [
+     "tejföl",
+     "tejföl",
+     ""
+    ],
+    [
+     "tej",
+     "tej",
+     "테이"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
     ]
    ]
   }

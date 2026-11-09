@@ -10,231 +10,239 @@
  "domain": [
   "life"
  ],
- "title": "레테시 어디 갔어",
- "emoji": "🥮",
- "scene": "Dávid 가 냉장고의 레테시를 찾는다. 채팅으로 범인을 묻는데…",
+ "title": "다 떨어졌대",
+ "emoji": "🧺",
+ "scene": "Dávid 가 마트에서 채팅한다. 부탁한 게 하나씩 없어서 대신 산 게 줄줄이 바뀐다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid"
  },
  "register": "chat",
  "twist": 7,
- "twist_type": "reveal",
+ "twist_type": "chaos",
  "flags": [],
- "goal": "「누가 ~했어?」 묻기와 채팅 맞장구",
+ "goal": "채팅으로 대신할 것 정하기(Nincs … · Akkor …)",
  "expressions": [
-  "Amúgy",
-  "Aha",
-  "Izé",
-  "Nem baj"
+  "Nincs",
+  "Akkor",
+  "Mindegy"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ki ette meg a rétesemet?",
-   "rd": "키 에떼 멕 어 레테세메트?",
-   "ko": "누가 내 레테시 먹었어?",
-   "note": "ki ette meg? = 누가 먹어 치웠어?",
-   "tags": [],
-   "at": "18:02",
-   "emotion": "annoyed",
+   "hu": "Nincs fehér kenyér. 😕",
+   "rd": "닌치 페헤르 케네르. 😕",
+   "ko": "흰 빵이 없어. 😕",
+   "note": "nincs = 없다",
+   "tags": [
+    "expr:Nincs"
+   ],
+   "at": "18:05",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "Ki",
-     "ki",
-     "키"
+     "Nincs",
+     "nincs",
+     "닌치"
     ],
     [
-     "ette",
-     "eszik",
-     "에식"
+     "fehér",
+     "fehér",
+     "페헤르"
     ],
     [
-     "rétesemet",
-     "rétes",
-     "레테시"
+     "kenyér",
+     "kenyér",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Nem én! Miért?",
-   "rd": "넴 엔! 미에르트?",
-   "ko": "나 아니야! 왜?",
-   "note": "nem én = 나 아니야",
-   "tags": [],
-   "at": "18:03",
-   "emotion": "flustered",
+   "hu": "Akkor barnát.",
+   "rd": "어꼬르 버르나트.",
+   "ko": "그럼 갈색 빵.",
+   "note": "akkor = 그럼",
+   "tags": [
+    "expr:Akkor"
+   ],
+   "at": "18:06",
+   "emotion": "neutral",
    "ui": "bubble",
-   "lemmas": []
+   "lemmas": [
+    [
+     "Akkor",
+     "akkor",
+     "어꼬르"
+    ],
+    [
+     "barnát",
+     "barna",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Semmi. Csak kérdezem.",
-   "rd": "셈미. 척 케르데젬.",
-   "ko": "아무것도. 그냥 물어보는 거야.",
-   "note": "kérdezem = 내가 그걸 묻는다",
+   "hu": "Tej sincs. Kakaó jó?",
+   "rd": "테이 신치. 커커오 요?",
+   "ko": "우유도 없어. 코코아 괜찮아?",
+   "note": "sincs = ~도 없다",
    "tags": [],
-   "at": "18:03",
-   "emotion": "teasing",
+   "at": "18:08",
+   "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "kérdezem",
-     "kérdez",
-     "케르데즈"
+     "Tej",
+     "tej",
+     "테이"
+    ],
+    [
+     "sincs",
+     "sincs",
+     "신치"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Amúgy finom volt.",
-   "rd": "어무지 피놈 볼트.",
-   "ko": "근데 맛있더라.",
-   "note": "amúgy = 근데, 그나저나",
+   "hu": "Mindegy, valamit.",
+   "rd": "민데지, 벌러미트.",
+   "ko": "아무거나, 뭐라도.",
+   "note": "mindegy = 상관없어",
    "tags": [
-    "expr:Amúgy"
+    "expr:Mindegy"
    ],
-   "at": "18:04",
-   "emotion": "cheerful",
+   "at": "18:08",
+   "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
-     "Amúgy",
-     "amúgy",
-     "어무지"
-    ],
-    [
-     "finom",
-     "finom",
-     "피놈"
-    ],
-    [
-     "volt",
-     "van",
-     "번"
+     "Mindegy",
+     "mindegy",
+     "민데지"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Aha! 😏",
-   "rd": "어허! 😏",
-   "ko": "아하! 😏",
-   "note": "aha = 아하",
-   "tags": [
-    "expr:Aha"
-   ],
-   "at": "18:04",
-   "emotion": "teasing",
+   "hu": "Oké! És tojás? 🥚",
+   "rd": "오케! 에시 토야시? 🥚",
+   "ko": "오케이! 달걀은? 🥚",
+   "note": "tojás = 달걀",
+   "tags": [],
+   "at": "18:10",
+   "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Aha",
-     "aha",
-     "어허"
+     "Oké",
+     "oké",
+     "오케"
+    ],
+    [
+     "tojás",
+     "tojás",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Jaj. Izé, bocsi.",
-   "rd": "여이. 이제, 보치.",
-   "ko": "아이고. 저기… 미안.",
-   "note": "izé = 저기, 그거(말 막힐 때)",
-   "tags": [
-    "expr:Izé"
-   ],
-   "at": "18:05",
-   "emotion": "flustered",
+   "hu": "Hat darabot, légyszi.",
+   "rd": "허트 더러보트, 레지씨.",
+   "ko": "여섯 개, 부탁해.",
+   "note": "légyszi = 부탁해",
+   "tags": [],
+   "at": "18:11",
+   "emotion": "polite",
    "ui": "bubble",
    "lemmas": [
     [
-     "Jaj",
-     "jaj",
-     "야이"
+     "darabot",
+     "darab",
+     "더럽"
     ],
     [
-     "bocsi",
-     "bocsi",
-     "보치"
+     "légyszi",
+     "légyszi",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Nem baj. Az szappan volt.",
-   "rd": "넴 버이. 어즈 써뻔 볼트.",
-   "ko": "괜찮아. 그거 비누였어.",
-   "note": "szappan = 비누",
-   "tags": [
-    "expr:Nem baj"
-   ],
-   "at": "18:05",
-   "emotion": "gentle",
-   "segs": [
-    [
-     "gentle",
-     "Nem baj."
-    ],
-    [
-     "teasing",
-     "Az szappan volt."
-    ]
-   ],
+   "hu": "Csak harmincas van. Megvan, viszem! 🛒",
+   "rd": "척 허르민처시 번. 멕번, 비쎔! 🛒",
+   "ko": "30개짜리밖에 없어. 샀어, 간다! 🛒",
+   "note": "harmincas = 30개짜리",
+   "tags": [],
+   "at": "18:24",
+   "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "Csak",
+     "csak",
+     "촉"
     ],
     [
-     "szappan",
-     "szappan",
+     "harmincas",
+     "harmincas",
      ""
     ],
     [
-     "volt",
+     "van",
      "van",
      "번"
+    ],
+    [
+     "viszem",
+     "visz",
+     "비스"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Ja... ezért volt olyan tiszta.",
-   "rd": "여... 에제르트 볼트 오연 티쓰터.",
-   "ko": "아… 어쩐지 깔끔하더라.",
-   "note": "ezért = 그래서",
+   "hu": "Harminc tojás és kakaó?! Dávid!",
+   "rd": "허르민츠 토야시 에시 커커오?! 다비드!",
+   "ko": "달걀 30개에 코코아?! 다비드!",
+   "note": "és = 그리고",
    "tags": [],
-   "at": "18:07",
-   "emotion": "sad",
+   "at": "18:25",
+   "emotion": "tsukkomi",
    "ui": "bubble",
    "lemmas": [
     [
-     "Ja",
-     "ja",
-     "여"
+     "Harminc",
+     "harminc",
+     ""
     ],
     [
-     "volt",
-     "van",
-     "번"
+     "tojás",
+     "tojás",
+     ""
     ],
     [
-     "tiszta",
-     "tiszta",
-     "티스터"
+     "kakaó",
+     "kakaó",
+     ""
     ]
    ]
   }

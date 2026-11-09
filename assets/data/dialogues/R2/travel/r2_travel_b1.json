@@ -11,60 +11,50 @@
  "domain": [
   "travel"
  ],
- "title": "온천의 고수",
- "emoji": "♟️",
- "scene": "온천 물속 체스판. 말 움직이는 법도 모르는 {name} 이 한 판만 두기로 한다",
+ "title": "매일 아침 7시",
+ "emoji": "♨️",
+ "scene": "온천 제일 뜨거운 탕. Dávid 와 들어갔더니 단골 할아버지가 말을 건다",
  "speakers": {
   "A": "{name}",
   "B": "Bácsi",
   "C": "Dávid"
  },
  "register": "mixed",
- "twist": 7,
- "twist_type": "chaos",
+ "twist": 10,
+ "twist_type": "reveal",
  "flags": [],
- "goal": "할 줄 아는 정도 말하기(tudok + 동사원형)",
+ "goal": "온천에서 묻고 답하기(Hány fokos? · Meddig lehet?)",
  "expressions": [
-  "Figyelj",
+  "Gyere",
   "Komolyan",
-  "Durva",
-  "rendben",
-  "egy pillanat",
-  "Úristen",
-  "Naná"
+  "jót tesz"
  ],
  "turns": [
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Figyelj, ezek a bácsik a vízben sakkoznak. Komolyan.",
-   "rd": "피젤이, 에젝 어 바칙 어 비즈벤 셔꼬즈넉. 코모연.",
-   "ko": "야, 저 할아버지들 물속에서 체스 둔다. 진짜로.",
-   "note": "sakkozik = 체스를 두다",
+   "hu": "Gyere, ez a legmelegebb medence!",
+   "rd": "제레, 에즈 어 렉멜레게브 메덴체!",
+   "ko": "와, 여기가 제일 뜨거운 탕이야!",
+   "note": "legmelegebb = 가장 따뜻한",
    "tags": [
-    "expr:Figyelj",
-    "expr:Komolyan"
+    "expr:Gyere"
    ],
    "emotion": "excited",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Gyere",
+     "jön",
+     "왼"
     ],
     [
-     "bácsik",
-     "bácsi",
-     ""
+     "legmelegebb",
+     "meleg",
+     "멜레그"
     ],
     [
-     "vízben",
-     "víz",
-     "비즈"
-    ],
-    [
-     "sakkoznak",
-     "sakkozik",
+     "medence",
+     "medence",
      ""
     ]
    ]
@@ -72,38 +62,31 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Durva. Én csak egy kicsit tudok sakkozni.",
-   "rd": "두르버. 엔 척 에지 키치트 투독 셔꼬즈니.",
-   "ko": "대박. 난 체스 조금밖에 못 둬.",
-   "note": "tudok + 동사원형 = ~할 줄 안다",
-   "tags": [
-    "expr:Durva"
-   ],
-   "emotion": "amused",
+   "hu": "Hű, ez tényleg meleg. Hány fokos?",
+   "rd": "휘, 에즈 테닐렉 멜렉. 하니 포코시?",
+   "ko": "와, 진짜 뜨겁다. 몇 도야?",
+   "note": "hány fokos? = 몇 도?",
+   "tags": [],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Durva",
-     "durva",
-     "두르버"
+     "Hű",
+     "hű",
+     ""
     ],
     [
-     "csak",
-     "csak",
-     "촉"
+     "tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
-     "kicsit",
-     "kicsi",
-     "키치"
+     "meleg",
+     "meleg",
+     "멜레그"
     ],
     [
-     "tudok",
-     "tud",
-     "투드"
-    ],
-    [
-     "sakkozni",
-     "sakkozik",
+     "fokos",
+     "fokos",
      ""
     ]
    ]
@@ -111,27 +94,248 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Na, ülj ide! Harminc éve senki nem győzött le engem.",
-   "rd": "너, 윌이 이데! 허르민츠 에베 센키 넴 죄죄트 레 엔겜.",
-   "ko": "자, 여기 앉아! 30년째 나를 이긴 사람이 없어.",
-   "note": "legyőz = 이기다",
+   "hu": "Harmincnyolc. Először vannak itt?",
+   "rd": "허르민츠뇰츠. 엘뢰쐬르 번넉 이트?",
+   "ko": "38도요. 여기 처음 왔어요?",
+   "note": "vannak = 있다(Önök)",
    "tags": [],
-   "emotion": "cheerful",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "Na",
-     "na",
-     "너"
+     "Harmincnyolc",
+     "harmincnyolc",
+     ""
     ],
     [
-     "ülj",
-     "ülj",
-     "위이"
+     "vannak",
+     "van",
+     "번"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "hu": "Igen. Ön gyakran jár ide?",
+   "rd": "이겐. 왼 젹런 야르 이데?",
+   "ko": "네. 자주 오세요?",
+   "note": "jár ide = 여기 다니다",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Igen",
+     "igen",
+     "이겐"
+    ],
+    [
+     "gyakran",
+     "gyakran",
+     "저크런"
+    ],
+    [
+     "jár",
+     "jár",
+     "야르"
     ],
     [
      "ide",
      "ide",
      "이데"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "hu": "Minden reggel, hétkor. Ez a gyógyvíz jót tesz.",
+   "rd": "민덴 렉겔, 헤트코르. 에즈 어 죠지비즈 요트 테쓰.",
+   "ko": "매일 아침 7시에요. 이 온천수가 몸에 좋아요.",
+   "note": "jót tesz = 이롭다",
+   "tags": [
+    "expr:jót tesz"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "hétkor",
+     "hétkor",
+     ""
+    ],
+    [
+     "gyógyvíz",
+     "gyógyvíz",
+     ""
+    ],
+    [
+     "jót",
+     "jó",
+     "요"
+    ],
+    [
+     "tesz",
+     "tesz",
+     "테스"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "hu": "Mondtam! A térdemnek is segít.",
+   "rd": "몬드텀! 어 테르뎀넥 이시 세기트.",
+   "ko": "내가 말했지! 내 무릎에도 좋아.",
+   "note": "térd = 무릎",
+   "tags": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Mondtam",
+     "mond",
+     "몬드"
+    ],
+    [
+     "térdemnek",
+     "térd",
+     ""
+    ],
+    [
+     "segít",
+     "segít",
+     "셰기트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Meddig lehet bent maradni?",
+   "rd": "메딕 레헤트 벤트 머러드니?",
+   "ko": "얼마나 오래 들어가 있어도 돼요?",
+   "note": "meddig = 언제까지",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Meddig",
+     "meddig",
+     "메디그"
+    ],
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
+    ],
+    [
+     "bent",
+     "bent",
+     "벤트"
+    ],
+    [
+     "maradni",
+     "marad",
+     "머러드"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "hu": "Húsz percig, aztán pihenjenek egy kicsit.",
+   "rd": "후쓰 페르칙, 어즈탄 피헨예넥 에지 키치트.",
+   "ko": "20분까지요, 그다음엔 좀 쉬세요.",
+   "note": "pihenjenek = 쉬세요(Önök)",
+   "tags": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Húsz",
+     "húsz",
+     ""
+    ],
+    [
+     "percig",
+     "perc",
+     "페르츠"
+    ],
+    [
+     "aztán",
+     "aztán",
+     "어스탄"
+    ],
+    [
+     "pihenjenek",
+     "pihen",
+     "피헨"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "hu": "Köszönjük! És Ön mióta jár ide?",
+   "rd": "쾨쐰윅! 에시 왼 미오터 야르 이데?",
+   "ko": "감사합니다! 그런데 언제부터 다니셨어요?",
+   "note": "mióta = 언제부터",
+   "tags": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Köszönjük",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
+     "jár",
+     "jár",
+     "야르"
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "hu": "Hatvan éve. Kilencvenkét éves vagyok.",
+   "rd": "허트번 에베. 킬렌츠벤케트 에베시 버죡.",
+   "ko": "60년째요. 아흔둘이에요.",
+   "note": "hatvan éve = 60년째",
+   "tags": [],
+   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Hatvan éve."
+    ],
+    [
+     "cheerful",
+     "Kilencvenkét éves vagyok."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Hatvan",
+     "hatvan",
+     ""
     ],
     [
      "éve",
@@ -139,327 +343,58 @@
      "에브"
     ],
     [
-     "győzött",
-     "győz",
-     "죄즈"
+     "éves",
+     "éves",
+     "에베슈"
     ],
     [
-     "le",
-     "le",
-     "레"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "hu": "Jól van, de csak egy partit, rendben?",
-   "rd": "욜 번, 데 척 에지 퍼르티트, 렌드벤?",
-   "ko": "좋아요, 그런데 한 판만요, 괜찮죠?",
-   "note": "parti = (체스) 한 판",
-   "tags": [
-    "expr:rendben"
-   ],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "van",
+     "vagyok",
      "van",
      "번"
-    ],
-    [
-     "csak",
-     "csak",
-     "촉"
-    ],
-    [
-     "partit",
-     "parti",
-     "퍼르티"
-    ],
-    [
-     "rendben",
-     "rend",
-     "렌드"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "C",
-   "hu": "Mit csinálsz? Ezt a lovat miért oda tetted?",
-   "rd": "미트 치날쓰? 에즈트 어 로버트 미에르트 오더 테떼드?",
-   "ko": "뭐 해? 왜 그 말을 저기 놨어?",
-   "note": "ló → lovat = 말을",
-   "tags": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "csinálsz",
-     "csinál",
-     "치날"
-    ],
-    [
-     "lovat",
-     "lova",
-     ""
-    ],
-    [
-     "miért",
-     "miért",
-     "미에르트"
-    ],
-    [
-     "oda",
-     "oda",
-     "오더"
-    ],
-    [
-     "tetted",
-     "tetted",
-     "테테드"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "hu": "Nem tudom. Szép volt ott.",
-   "rd": "넴 투돔. 쎄프 볼트 오트.",
-   "ko": "몰라. 거기가 예뻐서.",
-   "note": "volt = ~였다",
-   "tags": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "tudom",
-     "tud",
-     "투드"
-    ],
-    [
-     "volt",
-     "van",
-     "번"
-    ],
-    [
-     "ott",
-     "ott",
-     "오트"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "hu": "Várj, egy pillanat, ez matt! Úristen, harminc év!",
-   "rd": "바르이, 에지 필러너트, 에즈 머트! 우리슈텐, 허르민츠 에브!",
-   "ko": "잠깐, 잠깐만, 이거 외통이야! 세상에, 30년인데!",
-   "note": "matt = 외통수",
-   "tags": [
-    "expr:egy pillanat",
-    "expr:Úristen"
-   ],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Várj, egy pillanat, ez matt!"
-    ],
-    [
-     "shout",
-     "Úristen, harminc év!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Várj",
-     "vár",
-     "바르"
-    ],
-    [
-     "pillanat",
-     "pillanat",
-     "필러넛"
-    ],
-    [
-     "matt",
-     "matt",
-     ""
-    ],
-    [
-     "harminc",
-     "harminc",
-     ""
-    ],
-    [
-     "év",
-     "év",
-     "에브"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "C",
-   "hu": "Az egész fürdő ide jön! Mindenki téged néz!",
-   "rd": "어즈 에게쓰 퓌르되 이데 욘! 민덴키 테게드 네즈!",
-   "ko": "온천 사람들 다 이쪽으로 와! 다들 널 보고 있어!",
-   "note": "az egész = 전체",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "egész",
-     "egész",
-     "에게쓰"
-    ],
-    [
-     "fürdő",
-     "fürdő",
-     ""
-    ],
-    [
-     "ide",
-     "ide",
-     "이데"
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
-    ],
-    [
-     "néz",
-     "néz",
-     "네즈"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "B",
-   "hu": "Holnap jön a másik fürdő csapata. Te játszol helyettem!",
-   "rd": "홀너프 욘 어 마식 퓌르되 처퍼터. 테 야트쏠 헤예뗌!",
-   "ko": "내일 다른 온천 팀이 와. 네가 나 대신 둬!",
-   "note": "helyettem = 나 대신",
-   "tags": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "Holnap",
-     "holnap",
-     "홀넙"
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
-    ],
-    [
-     "fürdő",
-     "fürdő",
-     ""
-    ],
-    [
-     "csapata",
-     "csapat",
-     "처펏"
-    ],
-    [
-     "játszol",
-     "játszik",
-     "야찍"
-    ],
-    [
-     "helyettem",
-     "helyette",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "A",
-   "hu": "Mi van? Azt se tudom, hogyan lép a ló!",
-   "rd": "미 번? 어즈트 세 투돔, 호젼 레프 어 로!",
-   "ko": "네? 저는 말이 어떻게 움직이는지도 몰라요!",
-   "note": "azt se tudom = 그것조차 모른다",
-   "tags": [],
-   "emotion": "surprised",
-   "segs": [
-    [
-     "surprised",
-     "Mi van?"
-    ],
-    [
-     "flustered",
-     "Azt se tudom, hogyan lép a ló!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "tudom",
-     "tud",
-     "투드"
-    ],
-    [
-     "hogyan",
-     "hogyan",
-     "호전"
-    ],
-    [
-     "lép",
-     "lép",
-     "렙"
-    ],
-    [
-     "ló",
-     "ló",
-     "로"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "B",
-   "hu": "Naná. Ezért nem látja senki, mit fogsz lépni.",
-   "rd": "너나. 에제르트 넴 라트여 센키, 미트 폭쓰 레프니.",
-   "ko": "당연하지. 그래서 아무도 네 수를 못 읽는 거야.",
-   "note": "fogsz + 동사원형 = ~할 것이다",
+   "speaker": "C",
+   "hu": "Komolyan? Na, holnaptól én is jövök hétre!",
+   "rd": "코모연? 너, 홀너프톨 엔 이시 요뵉 헤트레!",
+   "ko": "진짜요? 자, 내일부터 나도 7시에 온다!",
+   "note": "holnaptól = 내일부터",
    "tags": [
-    "expr:Naná"
+    "expr:Komolyan"
    ],
-   "emotion": "amused",
+   "emotion": "surprised",
+   "segs": [
+    [
+     "surprised",
+     "Komolyan?"
+    ],
+    [
+     "excited",
+     "Na, holnaptól én is jövök hétre!"
+    ]
+   ],
    "lemmas": [
     [
-     "Naná",
-     "naná",
-     ""
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
-     "látja",
-     "lát",
-     "라트"
+     "holnaptól",
+     "holnap",
+     "홀넙"
     ],
     [
-     "fogsz",
-     "fog",
-     "포그"
+     "jövök",
+     "jön",
+     "왼"
     ],
     [
-     "lépni",
-     "lép",
-     "렙"
+     "hétre",
+     "hét",
+     "헤트"
     ]
    ]
   }
