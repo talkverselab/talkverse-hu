@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 /// 헝가리어 격 접미사 — UX 시안 01(사용자 통과 2026-11-03)의 「접미사 색칠·분해 시트·접미사 지도」용 고정 표.
 /// 회화 데이터는 바꾸지 않고, 문장의 낱말 끝을 이 표로 맞춰 「어간 | 접미사」로 나눈다(규칙 기반 — 틀릴 수 있는 짧은 낱말은 건너뜀).
@@ -76,10 +76,10 @@ class HuSuffixes {
   static const _kSeen = 'hu_suffix_seen';
   static final ValueNotifier<Set<String>> seen = ValueNotifier(const {});
   static Future<void> load() async =>
-      seen.value = {...?(await SharedPreferences.getInstance()).getStringList(_kSeen)};
+      seen.value = {...?(await Prefs.getInstance()).getStringList(_kSeen)};
   static Future<void> markSeen(HuSuffix s) async {
     if (seen.value.contains(s.back)) return;
     seen.value = {...seen.value, s.back};
-    (await SharedPreferences.getInstance()).setStringList(_kSeen, seen.value.toList());
+    (await Prefs.getInstance()).setStringList(_kSeen, seen.value.toList());
   }
 }

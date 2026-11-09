@@ -315,6 +315,8 @@ const Map<String, String> kDictEn = {
   '저': 'Low',
   '라이선스': 'Licenses',
   '사용한 그림·라이브러리': 'Images and libraries used',
+  '다른 언어 배우기': 'Learn another language',
+  'Talkverse 의 다른 언어로 이동': 'Go to another language in Talkverse',
 };
 
 const Map<String, String> kDictJa = {
@@ -618,6 +620,8 @@ const Map<String, String> kDictJa = {
   '저': '低',
   '라이선스': 'ライセンス',
   '사용한 그림·라이브러리': '使用した図・ライブラリ',
+  '다른 언어 배우기': '他の言語を学ぶ',
+  'Talkverse 의 다른 언어로 이동': 'Talkverse の他の言語へ',
 };
 
 const Map<String, String> kDictZh = {
@@ -921,4 +925,6 @@ const Map<String, String> kDictZh = {
   '저': '低',
   '라이선스': '许可',
   '사용한 그림·라이브러리': '使用的图片与库',
+  '다른 언어 배우기': '学习其他语言',
+  'Talkverse 의 다른 언어로 이동': '前往 Talkverse 的其他语言',
 };

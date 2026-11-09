@@ -1,4 +1,5 @@
 import 'dart:convert';
+import '../core/embed_env.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -48,7 +49,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
   }
 
   Future<List<Map<String, dynamic>>> _read(String asset) async {
-    final j = json.decode(await rootBundle.loadString(asset)) as Map<String, dynamic>;
+    final j = json.decode(await rootBundle.loadString(assetPath(asset))) as Map<String, dynamic>;
     return (j['words'] as List).cast<Map<String, dynamic>>();
   }
 

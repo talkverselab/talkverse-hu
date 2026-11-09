@@ -5,11 +5,10 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:hungarian_universe/core/l10n.dart';
 import 'package:hungarian_universe/data/db/app_database.dart';
 import 'package:hungarian_universe/data/db/seed_loader.dart';
-import 'package:hungarian_universe/main.dart';
+import 'package:hungarian_universe/embed.dart';
 import 'package:hungarian_universe/services/achievement_service.dart';
 import 'package:hungarian_universe/services/hu_suffix.dart';
 import 'package:hungarian_universe/services/ko_reading.dart';
-import 'package:hungarian_universe/services/learner_prefs.dart';
 import 'package:integration_test/integration_test.dart';
 
 void main() {
@@ -34,14 +33,8 @@ void main() {
   Finder rail(String label) => find.descendant(of: find.byType(NavigationRail), matching: find.text(label));
 
   testWidgets('dialogue pane', timeout: const Timeout(Duration(minutes: 10)), (t) async {
-    appDb = AppDatabase();
-    await SeedLoader(appDb).seedIfNeeded();
-    await KoReadingPrefs.load();
-    await AppLangPrefs.load();
-    await LearnerPrefs.load();
-    await HuSuffixes.load();
-    await AchievementService.instance.load();
-    await t.pumpWidget(const HungarianUniverseApp());
+    await embedInit(standalone: true);
+    await t.pumpWidget(embedApp());
     await wait(t, 1500);
     await shot(t, '01_home_wide');
 

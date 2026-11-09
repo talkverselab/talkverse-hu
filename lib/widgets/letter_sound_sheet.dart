@@ -1,4 +1,5 @@
 import 'dart:async';
+import '../core/embed_env.dart';
 
 import 'package:flutter/material.dart';
 
@@ -114,7 +115,7 @@ class _SheetState extends State<_Sheet> {
               if (_chart) ...[
                 ClipRRect( // 임시 그림 — 출시 전에 Grok 그림으로 교체(사용자 지시 2026-11-08)
                   borderRadius: BorderRadius.circular(8),
-                  child: Container(color: Colors.white, padding: const EdgeInsets.all(8), child: Image.asset('assets/images/ipa/places_of_articulation.png', fit: BoxFit.contain)),
+                  child: Container(color: Colors.white, padding: const EdgeInsets.all(8), child: Image.asset(assetPath('assets/images/ipa/places_of_articulation.png'), fit: BoxFit.contain)),
                 ),
               ],
             ],

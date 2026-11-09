@@ -1,4 +1,5 @@
 import 'dart:convert';
+import '../core/embed_env.dart';
 
 import 'package:flutter/services.dart' show rootBundle;
 
@@ -20,7 +21,7 @@ class LexiconService {
   Future<void> _ensure() => _loading ??= () async {
         final out = <String, LexEntry>{};
         try {
-          final j = json.decode(await rootBundle.loadString('assets/data/vocab/lexicon_hu.json')) as Map<String, dynamic>;
+          final j = json.decode(await rootBundle.loadString(assetPath('assets/data/vocab/lexicon_hu.json'))) as Map<String, dynamic>;
           for (final e in (j['words'] as Map<String, dynamic>).entries) {
             final m = e.value as Map<String, dynamic>;
             out[e.key] = LexEntry(e.key, '${m['ko'] ?? ''}', '${m['rd'] ?? ''}', '${m['en'] ?? ''}', '${m['pos'] ?? ''}', (m['rank'] as num?)?.toInt() ?? 0, '${m['lv'] ?? ''}');
