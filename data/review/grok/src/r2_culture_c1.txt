@@ -1,0 +1,24 @@
+=== r2_culture_c1
+kind: chat
+title: 베이글리 열네 개
+emoji: 🥮
+scene: 크리스마스 파티 단체방. 누가 뭘 가져올지 정하는 중이다
+b: Anna
+c: Réka
+d: Bence
+register: chat
+twist: 11 chaos
+purpose: media making_friends
+goal: 단체방에서 Ki mit hoz? 로 역할 나누기
+expressions: Sziasztok; Szuper; Izé
+B | Sziasztok! Szombaton buli nálam, ki mit hoz? | 얘들아! 토요일에 우리 집에서 파티, 누가 뭐 가져올래? | ki mit hoz? = 누가 뭘 가져와? | emotion=cheerful at=18:00
+C | Én bejglit hozok. | 나는 베이글리 가져갈게. | bejgli = 크리스마스 양귀비씨·호두 말이빵 | emotion=cheerful at=18:03
+A | Mi az a bejgli? | 베이글리가 뭐야? | mi az a …? = ~가 뭐야? | emotion=neutral at=18:05
+B | Mákos vagy diós sütemény. Mindenki szereti. | 양귀비씨나 호두 케이크야. 다들 좋아해. | diós = 호두가 든 | emotion=cheerful at=18:05
+A | Szuper! Akkor én is hozok. | 좋다! 그럼 나도 가져갈게. | akkor = 그럼 | emotion=cheerful at=18:06
+D | Én is bejglit hozok. | 나도 베이글리 가져갈게. | én is = 나도 | emotion=neutral at=18:20
+C | Itt vagyok. Már tizennégy bejgli van az asztalon. | 나 왔어. 탁자에 벌써 베이글리가 열네 개야. | asztal = 탁자 | emotion=neutral+surprised at=19:30
+A | Tizennégy?! Én még hozok hatot. | 열네 개?! 나 여섯 개 더 가져가는데. | hatot = 여섯을 | emotion=surprised+worried at=19:31
+B | És ital? Ki hozott italt? | 그럼 음료는? 누가 음료 가져왔어? | ital = 음료 | emotion=worried at=19:33
+D | Izé... mindenki azt hitte, hogy valaki hoz. | 어… 다들 누가 가져오겠지 했어. | azt hitte = 그렇게 생각했다 | emotion=flustered at=19:34
+C | Csengetnek. A szomszéd néni kérdezi, kérünk-e bejglit. 😂 | 초인종이다. 옆집 할머니가 베이글리 필요하냐고 물으셔. 😂 | -e = ~인지(간접의문) | emotion=amused at=19:40 stamp=😂

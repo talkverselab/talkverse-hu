@@ -1,0 +1,23 @@
+=== r2_study_b3
+kind: long
+title: 잘 본 구술시험
+emoji: 📝
+scene: 구술시험 날. 떨면서 들어간 강의실에서 카드를 뽑았는데 공부한 적 없는 문제다
+b: Tanár
+c: Réka
+register: mixed
+twist: 10 reveal
+purpose: study_abroad
+goal: 구술시험 말(Húzzon egy tételt)과 Mit tud …-ról/-ről?
+expressions: Hát; Szóval; Igazából; Mi van
+B | Jó napot! Húzzon egy tételt. | 안녕하세요! 문제 카드를 뽑으세요. | tétel = 구술시험 문제 | emotion=polite
+A | Jó napot. Hát, a tizenhármas. | 안녕하세요. 음, 13번이요. | tizenhármas = 13번 | emotion=worried
+B | Szóval, a szív. Mit tud a szívről? | 자, 심장. 심장에 대해 뭘 아시죠? | -ról/-ről = ~에 대해 | emotion=stiff
+A | A szívről? Hát, ha szeretünk, gyorsabban ver. | 심장이요? 음, 사랑하면 더 빨리 뜁니다. | ver = (심장이) 뛴다 | emotion=worried
+B | Érdekes. És most hogy ver az Öné? | 흥미롭군요. 지금 당신 심장은 어때요? | az Öné = 당신의 것 | emotion=amused
+A | Nagyon gyorsan. Igazából ezt nem tanultam. | 아주 빨라요. 사실 이건 공부 안 했어요. | igazából = 사실은 | emotion=flustered
+B | Őszinte válasz. Négyes, a következő! | 솔직한 답이군요. 4점, 다음 분! | négyes = 4점 | emotion=amused+stiff
+C | Hol voltál? A te vizsgád a földszinten van, már elkezdődött! | 어디 있었어? 네 시험 1층에서 벌써 시작했어! | földszint = 1층(지상층) | emotion=worried
+A | Mi van? Akkor ez milyen vizsga volt? | 뭐? 그럼 이건 무슨 시험이었어? | milyen = 어떤 | emotion=surprised
+C | Ez? Orvosi, harmadéveseknek. | 이거? 의대 3학년 시험이야. | orvosi = 의학의 | emotion=amused
+A | Négyest kaptam. | 나 4점 받았어. | kaptam = 내가 받았다 | emotion=surprised

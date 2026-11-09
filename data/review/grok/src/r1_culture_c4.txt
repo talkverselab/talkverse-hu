@@ -1,0 +1,19 @@
+=== r1_culture_c4
+kind: chat
+title: 새해 첫 생선
+emoji: 🐟
+scene: 12월 31일 자정이 막 지났다. A 는 맛있게 먹는 중이다
+b: Réka
+register: chat
+twist: 6 reveal
+purpose: media making_friends
+goal: 새해 인사와 음식 미신
+expressions: Ne már; Mi van; Jaj
+A | Boldog új évet! 🎆 | 새해 복 많이! 🎆 | boldog új évet = 새해 복 많이 | emotion=excited at=00:03
+B | Neked is! Mit eszel? | 너도! 뭐 먹어? | neked is = 너도 | emotion=cheerful at=00:04
+A | Halat. Finom! | 생선. 맛있어! | hal = 생선 | emotion=cheerful at=00:04
+B | Halat?! Ne már! | 생선?! 아 안 돼! | ne már! = 아 좀! | emotion=surprised+shout at=00:04
+A | Mi van? | 왜? | mi van? = 왜? | emotion=surprised at=00:05
+B | A hal elúszik a szerencsével! | 생선이 운을 달고 헤엄쳐 가잖아! | elúszik = 헤엄쳐 가 버리다 | emotion=worried at=00:05
+A | Jaj. Három halat ettem. | 아이고. 세 마리 먹었어. | ettem = 먹었다 | emotion=flustered at=00:06
+B | Akkor idén ne ülj mellém. 😅 | 그럼 올해 내 옆에 앉지 마. 😅 | mellém = 내 옆으로 | emotion=teasing at=00:06

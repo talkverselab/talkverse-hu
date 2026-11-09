@@ -1,0 +1,25 @@
+=== r2_love_b1
+kind: long
+title: 안개 속 고백
+emoji: ♨️
+scene: 온천 첫 데이트. Anna 가 A 의 안경을 받아 들고 잠깐 자리를 비운다. 김이 자욱해서 앞이 안 보인다
+b: Anna
+c: Feri bácsi
+register: casual
+twist: 7 chaos
+flags: romance
+purpose: love
+goal: 마음 말하기(Tetszel nekem)와 '~ 없이'(nélkül)
+expressions: Nem baj; Egy pillanat; Mindjárt; Figyelj; Légyszi
+B | Gyere a meleg vízbe! És add ide a szemüveged. | 따뜻한 물로 와! 안경은 이리 줘. | add ide = 이리 줘 | emotion=cheerful
+A | Jó, de szemüveg nélkül semmit nem látok. | 그래, 근데 안경 없으면 아무것도 안 보여. | nélkül = ~ 없이 | emotion=worried
+B | Nem baj, pont ez a terv. Egy pillanat, mindjárt jövök. | 괜찮아, 바로 그게 계획이야. 잠깐만, 금방 올게. | mindjárt = 금방 | emotion=teasing
+A | Figyelj, Anna, régóta mondani akarok valamit. | 있잖아 언너, 오래전부터 하고 싶은 말이 있어. | régóta = 오래전부터 | emotion=shy
+C | Mondjad csak, hallgatlak. | 말해 봐, 듣고 있어. | hallgatlak = 내가 네 말을 듣고 있다 | emotion=gentle
+A | Nagyon tetszel nekem. Szép vagy, és jó az illatod. | 네가 정말 좋아. 예쁘고 향기도 좋아. | tetszel nekem = 네가 내 마음에 들어 | emotion=shy
+C | Köszönöm. A feleségem is ezt mondja. | 고맙네. 내 아내도 그렇게 말하지. | feleség = 아내 | emotion=gentle+amused
+A | Mi van?! Ki maga? | 뭐야?! 누구세요? | ki maga? = 누구세요?(존대) | emotion=shout+flustered
+C | Feri bácsi. A barátaim is hallották, nagyon tetszett nekik. | 페리 아저씨야. 내 친구들도 들었는데, 아주 좋아하더군. | hallották = 그들이 그걸 들었다 | emotion=amused
+B | Mi történt? Miért tapsol mindenki? | 무슨 일이야? 왜 다들 박수 쳐? | tapsol = 박수 친다 | emotion=surprised
+A | Semmi. Add vissza a szemüvegem, légyszi. | 아무것도 아니야. 안경 돌려줘, 제발. | add vissza = 돌려줘 | emotion=flustered
+B | Nem. Előbb mondd el nekem is, amit neki mondtál. | 싫어. 먼저 저분한테 한 말, 나한테도 해 줘. | előbb = 먼저 | emotion=teasing

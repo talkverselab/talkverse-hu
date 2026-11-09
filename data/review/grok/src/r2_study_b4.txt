@@ -1,0 +1,24 @@
+=== r2_study_b4
+kind: long
+title: 언너의 공책
+emoji: 📓
+scene: 시험 전날 도서관. 항상 뭔가 쓰고 있던 Anna 의 공책을 빌리려고 한다
+b: Anna
+register: casual
+twist: 10 emotion
+flags: romance
+purpose: study_abroad love
+goal: 빌려 달라는 말(kölcsönadod?)과 -lak/-alak 어미
+expressions: Hát; Ne már; Igazából; Mindegy; Légyszi; Jól van; Tudod
+A | Anna, kölcsönadod a füzeted? Holnap vizsga. | 언너, 공책 빌려줄래? 내일 시험이야. | kölcsönad = 빌려주다 | emotion=worried
+B | A füzetem? Hát, nem tudom. | 내 공책? 음, 글쎄. | füzet = 공책 | emotion=shy
+A | Ne már! Te mindig írsz az órán. | 에이! 너 수업 때 맨날 쓰잖아. | az órán = 수업 시간에 | emotion=tsukkomi
+B | Igazából nem írok. Rajzolok. | 사실 쓰는 게 아니라 그려. | rajzolok = 내가 그린다 | emotion=shy
+A | Mindegy, add ide. Légyszi! | 상관없어, 줘 봐. 제발! | add ide = 이리 줘 | emotion=cheerful
+B | Jól van. De ne nézd sokáig. | 알았어. 근데 오래 보지 마. | ne nézd = 보지 마 | emotion=shy
+A | Nézzük, ez az első óra. Ki ez? | 어디 보자, 첫 수업이네. 이거 누구야? | nézzük = 보자 | emotion=cheerful+surprised
+B | Hát... te. | 음… 너. | te = 너 | emotion=shy
+A | Itt is én? Itt alszom! | 여기도 나야? 여기선 자고 있네! | alszom = 내가 잔다 | emotion=surprised
+B | Szépen alszol. Tudod, egész félévben csak téged rajzoltalak. | 예쁘게 자더라. 있지, 한 학기 내내 너만 그렸어. | rajzoltalak = 내가 너를 그렸다(-alak) | emotion=gentle+shy
+A | És holnap a vizsga? | 그럼 내일 시험은? | vizsga = 시험 | emotion=worried
+B | Megbukom. Megéri. | 떨어지겠지. 그래도 괜찮아. | megéri = 그럴 만하다 | emotion=gentle

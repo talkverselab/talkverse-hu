@@ -1,0 +1,27 @@
+=== r3_study_c1
+kind: chat
+title: 답 없는 교수님
+emoji: 📩
+scene: 코바치 교수에게 시험 날짜를 물었다. 읽음 표시는 뜨는데 답이 없다. 메시지만 길어진다
+b: Kovács
+register: chat
+twist: 12 ignore
+purpose: study_abroad
+goal: 격식 있게 재촉하기(조건법 lenne, 존댓말 명령형)
+expressions: Tisztelt; Elnézést; Tudom; Szerintem; Sajnos; Mindegy; Úristen
+A | Tisztelt Professzor Úr! Mikor lesz a vizsga? | 존경하는 교수님께! 시험이 언제인가요? | mikor = 언제 | emotion=polite at=09:00
+A | Elnézést, újra én vagyok. Megkapta az üzenetemet? | 죄송합니다, 또 저입니다. 제 메시지 받으셨나요? | újra = 다시 | emotion=polite at=12:30
+A | A dátum sajnos nagyon fontos lenne nekem. | 날짜가 제게 아주 중요해서요. | lenne = ~일 텐데(조건법) | emotion=worried at=15:10
+A | Tudom, hogy sok a dolga, de egy szó is elég lenne. | 바쁘신 건 알지만, 한마디만 주셔도 충분합니다. | elég = 충분한 | emotion=polite at=18:45
+A | Ha nem írhat, kérem, küldjön egy pontot. | 쓰기 어려우시면 마침표 하나만 보내 주세요. | pont = 점, 마침표 | emotion=worried at=20:20
+A | A dolgozatom is kész, ha ez érdekli. | 제 보고서도 끝났습니다, 궁금하시면요. | érdekli = 관심 있으시다 | emotion=shy at=21:05
+A | Szerintem látta az üzeneteimet, mert a rendszer azt mutatja: olvasva. | 제 메시지를 보신 것 같습니다, 시스템에 「읽음」이라고 나와서요. | olvasva = 읽음 | emotion=stiff at=21:40
+A | Ha egy szót sem ír, azt fogom gondolni, hogy rosszul írtam valamit. | 한마디도 없으시면 제가 뭔가 잘못 썼다고 생각하겠습니다. | azt fogom gondolni = 그렇게 생각할 것이다 | emotion=sad at=22:15
+A | Professzor Úr, él még? Bocsánat, ezt nem akartam elküldeni. | 교수님, 살아 계세요? 죄송합니다, 이건 보내려던 게 아닙니다. | él = 살아 있다 | emotion=annoyed+flustered at=23:02
+A | Ha a múltkori puszi miatt haragszik, azt Réka írta. | 지난번 「쪽」 때문에 화나신 거라면, 그건 레카가 쓴 겁니다. | haragszik = 화나 있다 | emotion=flustered at=23:30
+A | Úristen. Mindegy, jó éjszakát, holnap is írok. | 세상에. 아무튼 안녕히 주무세요, 내일도 쓰겠습니다. | jó éjszakát = 안녕히 주무세요 | emotion=flustered+polite at=23:58
+B | Kedves {name}! Mind a tizenegyet elolvastam. | {name} 씨! 열한 통 다 읽었습니다. | mind a tizenegyet = 열한 개 전부를 | emotion=stiff at=00:10
+B | Szándékosan nem válaszoltam: egyre jobban írt magyarul. | 일부러 답을 안 했어요. 갈수록 헝가리어를 잘 쓰시더군요. | szándékosan = 일부러 | emotion=gentle at=00:10
+B | A feltételes mód már szinte tökéletes. | 조건법은 이제 거의 완벽합니다. | feltételes mód = 조건법 | emotion=gentle at=00:11
+A | És a vizsga mikor lesz? | 그럼 시험은 언제인가요? | vizsga = 시험 | emotion=worried at=00:11
+B | Ez volt a vizsga, ötös. Puszi, Kovács | 이게 시험이었습니다, 5점. 쪽, 코바치 | ötös = 5점(최고 점수) | emotion=amused+teasing at=00:12 stamp=😇

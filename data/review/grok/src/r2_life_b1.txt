@@ -1,0 +1,23 @@
+=== r2_life_b1
+kind: long
+title: 12번 서류
+emoji: 🗂️
+scene: 구청 창구. 주소 카드(lakcímkártya)를 받으려면 서류가, 서류를 받으려면 카드가 필요하다
+b: Ügyintéző
+register: polite
+twist: 10 reveal
+purpose: study_abroad
+goal: 관공서에서 서류 요청하고 따지기
+expressions: Jó napot; Rendben; Tessék; Hát igen; Tényleg?
+A | Jó napot! Lakcímkártyát szeretnék kérni. | 안녕하세요! 주소 카드를 받고 싶어요. | lakcímkártya = 주소 카드 | emotion=polite
+B | Rendben. Kérem a szerződést a lakásról. | 네. 집 계약서 주세요. | szerződés = 계약서 | emotion=polite
+A | Tessék. Az útlevelem is itt van. | 여기요. 제 여권도 여기 있어요. | útlevél = 여권 | emotion=polite
+B | Szép. De hiányzik a tizenkettes papír. | 좋아요. 그런데 12번 서류가 없네요. | hiányzik = 빠져 있다 | emotion=stiff
+A | Hol kapok ilyet? | 그런 건 어디서 받아요? | ilyet = 이런 것을 | emotion=neutral
+B | A harmadik emeleten, a nyolcas ablaknál. | 3층 8번 창구에서요. | emelet = 층 | emotion=stiff
+A | Most jövök onnan! Azt mondták, oda lakcímkártya kell. | 방금 거기서 왔어요! 거기엔 주소 카드가 필요하대요. | onnan = 거기서부터 | emotion=annoyed
+B | Igen, a tizenkettes papírhoz kell lakcímkártya. Ez így van. | 네, 12번 서류에는 주소 카드가 필요해요. 원래 그래요. | -hoz = ~에(필요한 대상) | emotion=stiff
+A | De a kártyához kell a papír! Ez egy kör! | 그런데 카드에 서류가 필요하잖아요! 이건 뺑뺑이예요! | kör = 원 | emotion=annoyed+tsukkomi
+B | Hát igen. Nekem sincs kártyám, pedig húsz éve itt dolgozom. | 그러게요. 저도 카드가 없어요, 여기서 20년 일했는데요. | nekem sincs = 나도 없다 | emotion=stiff+sad
+A | Tényleg? Akkor hol lakik Ön hivatalosan? | 정말요? 그럼 공식적으로는 어디 사세요? | hivatalosan = 공식적으로 | emotion=surprised
+B | Hivatalosan sehol. Ne mondja el senkinek! | 공식적으로는 아무 데도요. 아무한테도 말하지 마세요! | sehol = 아무 데도 | emotion=sad+worried

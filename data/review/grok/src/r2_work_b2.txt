@@ -1,0 +1,24 @@
+=== r2_work_b2
+kind: long
+title: 빨간 버튼
+emoji: 🔴
+scene: 카페 첫 출근. Bence 가 규칙은 딱 하나라고 한다. 규칙이 하나면 지키기 쉬울 텐데
+b: Bence
+c: Néni
+register: mixed
+twist: 7 chaos
+purpose: work_hungary
+goal: 금지하는 말(ne + 명령형)과 과거형으로 일 따지기
+expressions: Na; Jól van; Nem tudom; Úristen; Elnézést
+B | Na, első nap! Ma csak egy szabály van. | 자, 첫날! 오늘 규칙은 딱 하나야. | szabály = 규칙 | emotion=cheerful
+A | Jól van. Mi az? | 알았어. 뭔데? | jól van = 알았어, 좋아 | emotion=neutral
+B | A piros gombot ne nyomd meg. | 빨간 버튼은 누르지 마. | ne nyomd meg = 누르지 마(정활용 명령) | emotion=stiff
+A | Miért? Mit csinál? | 왜? 그거 뭐 하는 건데? | mit csinál? = 뭘 하는데? | emotion=neutral
+B | Nem tudom. Nekem is ezt mondták. | 몰라. 나도 그렇게 들었어. | mondták = 그들이 말했다 | emotion=amused
+C | Jó napot! Egy teát kérek. | 안녕하세요! 차 한 잔 주세요. | teát = 차를(-t 목적격) | emotion=polite
+A | Bence, egy kérdés. A kávégép miért nem áll le? | 벤체, 질문 하나. 커피 머신이 왜 안 멈춰? | nem áll le = 안 멈춘다 | emotion=neutral+worried
+B | Mit nyomtál meg? | 뭐 눌렀어? | nyomtál = 네가 눌렀다 | emotion=worried
+A | A pirosat. Kíváncsi voltam. | 빨간 거. 궁금했어. | kíváncsi = 궁금한 | emotion=shy
+B | Úristen! Hozz még csészéket, gyorsan! | 세상에! 컵 더 가져와, 빨리! | hozz = 가져와 | emotion=shout
+A | Már harminc csésze tele van, és a padlón is folyik! | 벌써 서른 잔이 찼고, 바닥에도 흘러! | folyik = 흐른다 | emotion=flustered
+C | Elnézést... én teát kértem. | 저기요… 저는 차를 시켰는데요. | kértem = 내가 주문했다 | emotion=polite

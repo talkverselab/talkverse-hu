@@ -1,0 +1,29 @@
+=== r3_life_c1
+kind: chat
+title: 사라진 치르미
+emoji: 🐈
+scene: 건물 단톡방. Marika 아주머니의 고양이 Cirmi 가 사라졌다고 하자 모두 고양이를 찾아 나선다
+b: Dávid
+c: Marika néni
+d: Feri bácsi
+register: chat
+twist: 9 chaos
+purpose: study_abroad
+goal: 단톡방 공지·개수 말하기, 2인칭 복수 명령
+expressions: Jaj; Szuper; Amúgy; Szívesen; Puszi
+C | Emberek, eltűnt Cirmi! Reggel óta nem láttam. | 여러분, 치르미가 없어졌어요! 아침부터 못 봤어요. | eltűnt = 사라졌다 | emotion=worried at=18:05
+A | Jaj, milyen macska? Segítek keresni. | 어머, 어떤 고양이요? 찾는 거 도울게요. | keresni = 찾기 | emotion=worried at=18:06
+C | Szürke, kövér, mindenkire mérges. | 회색이고, 뚱뚱하고, 누구한테나 화나 있어. | mérges = 화난 | emotion=amused at=18:07
+D | Találtam egy szürke macskát a kapu előtt! | 대문 앞에서 회색 고양이 찾았어요! | találtam = 찾았다 | emotion=excited at=18:15
+B | Én is, a kukánál! Ez is szürke. | 나도, 쓰레기통 옆에서! 이것도 회색이야. | kuka = 쓰레기통 | emotion=excited at=18:17
+A | Várjatok! Hány macskája van Marika néninek? | 잠깐만요! 아주머니 고양이가 몇 마리예요? | várjatok = 기다려(여럿에게) | emotion=worried at=18:20
+C | Egy! De hozzátok ide, megnézem. | 한 마리! 그래도 가져와 봐, 내가 볼게. | hozzátok = 그걸 가져와(여럿에게) | emotion=neutral at=18:21
+A | Már négy macska van nálunk. Az egyik a kanapén alszik. | 벌써 우리 집에 고양이 네 마리예요. 한 마리는 소파에서 자요. | nálunk = 우리 집에 | emotion=flustered at=18:40
+B | Hat. Az egyik megette a kolbászt. | 여섯. 한 마리는 소시지 먹었어. | megette = 먹어 치웠다 | emotion=annoyed at=18:52
+D | Hoztam még kettőt a pincéből. Szívesen! | 지하실에서 두 마리 더 데려왔어요. 천만에요! | pince = 지하실 | emotion=cheerful at=19:03
+B | Amúgy most jut eszembe: allergiás vagyok a macskára. 🤧 | 근데 지금 생각났는데, 나 고양이 알레르기 있어. 🤧 | most jut eszembe = 지금 생각났다 | emotion=worried at=19:04
+C | Megvan Cirmi! A szekrényben aludt a lépcsőn. | 치르미 찾았어요! 계단의 옷장에서 자고 있었어. | megvan = 찾았다 | emotion=cheerful at=19:20
+A | Szuper. És most kié ez a nyolc macska? | 좋네요. 그럼 이 고양이 여덟 마리는 누구 거예요? | kié? = 누구 것? | emotion=tsukkomi at=19:21
+D | Nem az enyém. Jó éjszakát. | 내 건 아니에요. 잘 자요. | jó éjszakát = 잘 자요 | emotion=stiff at=19:22
+C | Nekem csak Cirmi kell. Puszi! | 나는 치르미만 있으면 돼. 쪽! | puszi = 쪽(볼 뽀뽀, 끝인사) | emotion=cheerful at=19:22
+A | Eladó egy szekrény. Nyolc macska ingyen jár hozzá. | 옷장 팝니다. 고양이 여덟 마리 무료 증정. | ingyen = 공짜로 | emotion=amused at=19:25

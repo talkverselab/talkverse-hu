@@ -1,0 +1,23 @@
+=== r2_friends_b2
+kind: long
+title: 글자 하나 차이
+emoji: 💋
+scene: Réka 네 집에 처음 가는 날. 어머니께 드릴 인사를 현관 앞에서 연습했는데
+b: Réka
+c: Réka anyukája
+register: mixed
+twist: 6 slip
+purpose: making_friends media
+goal: 어른께 드리는 인사 csókolom 과 -lom/-lak 구별
+expressions: Figyelj; Nyugi; Oké; ugye; Semmi baj; izé
+B | Figyelj, anyámnak azt mondod: csókolom. Ez fontos. | 야, 우리 엄마한테는 「초콜롬」이라고 해. 이거 중요해. | csókolom = 어른께 드리는 인사 | emotion=worried
+A | Csókolom? De az nem azt jelenti, hogy csók? | 초콜롬? 근데 그거 「키스」라는 뜻 아니야? | csók = 키스 | emotion=surprised
+B | De igen, de így köszönünk a néniknek. Nyugi, ne gondolkodj! | 맞아, 근데 어른들께 그렇게 인사해. 진정해, 생각하지 마! | köszön = 인사하다 | emotion=gentle
+A | Oké. Csókolom, csókolom, csókolom. | 알았어. 초콜롬, 초콜롬, 초콜롬. | 외워 두기 | emotion=worried
+C | Jaj, de jó, hogy jöttél! Te vagy {name}, ugye? | 어머, 와 줘서 반갑다! 네가 {name}, 맞지? | de jó = 참 잘됐다 | emotion=cheerful
+A | Igen! Csókollak! | 네! 키스할게! | csókollak = 내가 너에게 키스한다 | emotion=excited
+C | Hű. Hát, köszönöm? | 어머. 음, 고마워? | hát = 음 | emotion=surprised
+B | Jaj, ne! Csókolom, nem csókollak! | 아이고, 안 돼! 초콜롬이지, 초콜라크가 아니고! | -lak = 내가 너를 | emotion=shout
+A | Mi a különbség? Csak egy betű! | 뭐가 달라? 글자 하나인데! | betű = 글자 | emotion=flustered
+C | Semmi baj. De a férjem most jön, neki ezt ne mondd! | 괜찮아. 근데 남편이 지금 오니까, 그이한텐 하지 마! | férj = 남편 | emotion=gentle+teasing
+A | Jó, rendben. Csók, izé, jó napot! | 네, 알겠어요. 초… 어, 안녕하세요! | rendben = 알겠습니다 | emotion=flustered

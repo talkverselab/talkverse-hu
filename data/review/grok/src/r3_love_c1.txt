@@ -1,0 +1,29 @@
+=== r3_love_c1
+kind: chat
+title: 마흔일곱 매칭
+emoji: 🔥
+scene: 셋이 있는 단톡방. Anna 가 데이팅앱에서 A 의 프로필을 찾았다. A 는 그런 앱을 깐 적이 없다
+b: Anna
+c: Dávid
+register: chat
+twist: 9 chaos
+flags: romance jealousy
+purpose: love
+goal: 해명하기, 놀랄 때 쓰는 말, '이미 가는 중'(úton vagyok)
+expressions: Várj; Úristen; Aha; Király; Egyébként; Légyszi
+B | Szia, kérdezhetek valamit? Ez itt te vagy? | 안녕, 뭐 좀 물어봐도 돼? 여기 이거 너야? | kérdezhetek = 물어봐도 돼 | emotion=stiff at=21:10
+A | Hol? Várj, nézem. | 어디? 잠깐, 볼게. | nézem = 내가 그걸 본다 | emotion=neutral at=21:11
+B | Az appon találtam. „Szeretem a krumplit és a hosszú sétákat.” | 앱에서 찾았어. "감자와 긴 산책을 좋아합니다." | séta = 산책 | emotion=stiff at=21:11
+A | Úristen, ezt nem én írtam! Nekem nincs is ilyen appom. | 세상에, 이거 내가 쓴 거 아니야! 나 그런 앱도 없어. | nincs is = 아예 없다 | emotion=surprised+flustered at=21:12
+B | Aha. És az „egyedül vagyok, de csak hétfőn” is hazugság? 😐 | 아하. 그럼 "혼자예요, 근데 월요일만요"도 거짓말이야? 😐 | hazugság = 거짓말 | emotion=annoyed at=21:13
+A | Ezt csak egy ember csinálhatta. Dávid!!! | 이건 한 사람밖에 없어. 다비드!!! | csinálhatta = 했을 수 있다 | emotion=annoyed+shout at=21:13
+C | Szívesen. Már negyvenhét találatod van, király vagy. 😎 | 천만에. 벌써 매칭이 마흔일곱이야, 너 대단해. 😎 | találat = 매칭, 검색 결과 | emotion=teasing at=21:20
+A | Negyvenhét?! Törölj mindent, de most azonnal! | 마흔일곱?! 다 지워, 지금 당장! | töröl = 지운다 | emotion=surprised+shout at=21:20
+C | Nem lehet. Hárman ma este jönnek hozzánk rétessel. | 안 돼. 세 명이 오늘 저녁 우리 집에 레테시 들고 와. | hozzánk = 우리 집으로 | emotion=amused at=21:21
+A | MI VAN? Dávid, te hány embert hívtál meg? | 뭐?! 다비드, 너 몇 명을 부른 거야? | hívtál meg = 초대했다 | emotion=shout at=21:21
+C | Én senkit, te hívtad őket. Egyébként jól írsz. 😇 | 난 아무도, 네가 부른 거지. 그나저나 글 잘 쓰더라. 😇 | egyébként = 그나저나 | emotion=teasing at=21:22
+B | Ez komoly? Emberek mennek hozzád rétessel? | 이거 진짜야? 사람들이 네 집에 레테시 들고 가? | komoly = 진지한 | emotion=worried at=21:23
+A | Anna, semmit nem tudok! Segíts, légyszi. | 언너, 난 아무것도 몰라! 도와줘, 제발. | semmit nem tudok = 아무것도 몰라 | emotion=worried at=21:24
+B | Jól van. Már úton vagyok. | 알았어. 벌써 가는 중이야. | úton vagyok = 가는 중이야 | emotion=gentle at=21:26
+A | Jössz? Miért? | 온다고? 왜? | jössz = 네가 온다 | emotion=surprised at=21:26
+B | Mert te csak az én rétesemet eszed. 😌 | 너는 내 레테시만 먹는 거니까. 😌 | rétesemet = 내 레테시를 | emotion=gentle at=21:27 stamp=😌

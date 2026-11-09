@@ -1,0 +1,19 @@
+=== r1_friends_c1
+kind: chat
+title: 반 일곱 시
+emoji: 🕡
+scene: Réka 와 저녁 약속 채팅. 시간을 정했는데, 헝가리어의 「반」은 방향이 반대다
+b: Réka
+register: chat
+twist: 6 slip
+purpose: making_friends
+goal: 시각 표현 fél hét = 6시 반
+expressions: Szia; Oké; Hol vagy?; Jaj
+B | Szia! Ma vacsora fél hétkor? | 안녕! 오늘 6시 반에 저녁? | fél hét = 6시 반(7시로 가는 절반) | emotion=cheerful at=16:02
+A | Oké, jó! | 좋아! | oké = 좋아 | emotion=cheerful at=16:05
+B | Hol vagy? Itt vagyok. | 어디야? 나 왔어. | Hol vagy? = 어디야? | emotion=neutral at=18:40
+A | Mi? Még korán van! | 뭐? 아직 이르잖아! | korán = 일찍 | emotion=surprised at=18:41
+B | Már elmúlt fél hét! | 벌써 6시 반 지났어! | elmúlt = 지났다 | emotion=annoyed at=18:41
+A | Fél hét? Hét és fél, nem? | 반 일곱? 일곱 시 반 아니야? | hét és fél = 일곱과 반 | emotion=flustered at=18:42
+B | Nem! Az hat harminc! | 아니! 6시 30분이야! | hat harminc = 6시 30분 | emotion=annoyed at=18:42
+B | Jaj. Megettem a vacsorádat is. 😇 | 아이고. 네 저녁도 내가 먹었어. 😇 | megettem = 다 먹었다 | emotion=teasing at=19:05 stamp=😇

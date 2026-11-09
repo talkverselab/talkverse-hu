@@ -1,0 +1,22 @@
+=== r1_love_b3
+kind: long
+title: 언너가 너무 많아
+emoji: 💐
+scene: 7월의 이름의 날. A 가 꽃을 잔뜩 들고 Bence 의 카페에 왔는데, 오늘 이곳엔 언너가 한 명이 아니다
+b: Anna
+c: Bence
+d: Anna néni
+register: casual
+twist: 5 chaos
+flags: romance
+purpose: love media
+goal: 이름의 날 축하하기(Boldog névnapot!)
+expressions: Hű; Mi van?; De hát; Szóval
+C | Hű, de sok virág! Mi van ma? | 와, 꽃 많다! 오늘 뭐 있어? | virág = 꽃 | emotion=amused
+A | Ma van Anna névnapja, de nem látom. | 오늘 언너 이름의 날인데, 안 보여. | névnap = 이름의 날 | emotion=worried
+C | Hát szólj neki hangosan! Kicsi a kávézó. | 그럼 크게 불러! 카페 작잖아. | szólj = 불러 | emotion=amused
+A | Boldog névnapot, Anna! Ez a tiéd! | 이름의 날 축하해, 언너! 이거 네 거야! | a tiéd = 네 것 | emotion=excited
+D | Köszönöm, drágám! Honnan tudod a nevem? | 고맙구나, 얘야! 내 이름은 어떻게 알았니? | honnan = 어디서 | emotion=gentle+surprised
+C | Jaj, ma itt mindenki Anna. Már hárman állnak mögötted. | 아이고, 오늘 여기 다 언너야. 벌써 세 명이 네 뒤에 서 있어. | mögötted = 네 뒤에 | emotion=amused
+A | Mi van? De hát nekem csak egy Annám van! | 뭐? 근데 나한테 언너는 한 명뿐인데! | Annám = 나의 언너 | emotion=surprised+flustered
+B | Hallottam. Szóval van egy Annád? | 들었어. 그러니까… 너한테 언너가 있다는 거네? | Annád = 너의 언너 | emotion=shy+teasing

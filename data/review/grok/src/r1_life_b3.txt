@@ -1,0 +1,19 @@
+=== r1_life_b3
+kind: long
+title: 분홍색 팀
+emoji: 🩷
+scene: 빨래를 도와줬다. Dávid 의 빨간 재킷과 흰 옷을 한꺼번에
+b: Dávid
+register: casual
+twist: 8 chaos
+purpose: study_abroad
+goal: 색깔 말과 소유 접미사(-m, -d)
+expressions: Köszi; Várj; Bocsi; Nézd
+B | Szia, hol a fehér pólóm? Edzésre megyek. | 야! 내 흰 티 어디 있어? 훈련 가. | pólóm = 내 티셔츠 | emotion=neutral
+A | Kimostam mindent. Nézd, tiszta! | 전부 빨았어. 봐, 깨끗해! | kimostam = 다 빨았다 | emotion=cheerful
+B | Köszi! Várj, ez miért rózsaszín? | 고마워! 잠깐… 이거 왜 분홍색이야? | rózsaszín = 분홍색 | emotion=cheerful+surprised
+A | Hát... a piros kabátod is ott volt. | 음… 네 빨간 재킷도 거기 있었거든. | kabátod = 네 재킷 | emotion=flustered
+B | És a törölközőm? A zoknim? | 내 수건은? 양말은? | törölköző = 수건 | emotion=annoyed
+A | Minden rózsaszín. Bocsi. | 전부 분홍색이야. 미안. | minden = 전부 | emotion=flustered
+A | Na, milyen volt a meccs? | (경기 뒤) 그래서 경기는 어땠어? | meccs = 경기 | emotion=worried
+B | Nyertünk! Holnap jön a csapat a ruhákkal. | 이겼어! 내일 팀 전체가 옷 들고 온대. | ruhákkal = 옷들을 가지고 | emotion=excited+teasing

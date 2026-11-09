@@ -1,0 +1,23 @@
+=== r2_life_c1
+kind: chat
+title: 옷장 팝니다
+emoji: 🏷️
+scene: 계단에 낀 옷장을 중고 장터에 올렸다. 구매자 쪽지가 왔는데 뭔가 이상하다
+b: Vevő
+register: chat
+twist: 11 reveal
+purpose: study_abroad
+goal: 중고 거래 문자(Mennyibe kerül? Hol lehet megnézni?)
+expressions: Jó napot; Mennyibe kerül; Szuper; Hát; Hogyhogy; Igazából
+B | Jó napot! Még eladó a szekrény? | 안녕하세요! 옷장 아직 파시나요? | eladó = 판매 중인 | emotion=polite at=20:14
+A | Jó napot! Igen, még eladó. | 안녕하세요! 네, 아직 팔아요. | még = 아직 | emotion=polite at=20:15
+B | Mennyibe kerül? Jó állapotban van? | 얼마예요? 상태는 좋아요? | mennyibe kerül? = 얼마예요? | emotion=polite at=20:15
+A | Húszezer forint. Nagyon jó állapotban van. | 2만 포린트요. 상태 아주 좋아요. | állapot = 상태 | emotion=cheerful at=20:16
+B | Szuper. Hol lehet megnézni? | 좋네요. 어디서 볼 수 있어요? | lehet = ~할 수 있다 | emotion=cheerful at=20:16
+A | Hát... a lépcsőn. | 음… 계단에서요. | lépcső = 계단 | emotion=flustered at=20:18
+B | A lépcsőn? Hogyhogy? | 계단에서요? 어째서요? | hogyhogy? = 어째서? | emotion=surprised at=20:18
+A | Igazából beragadt. Már három hete ott van. | 사실 끼었어요. 벌써 3주째 거기 있어요. | beragadt = 끼어서 안 움직인다 | emotion=flustered at=20:19
+B | Várjon. Zöld kapu, második emelet? | 잠깐만요. 초록 대문, 2층이요? | várjon = 기다리세요 | emotion=stiff at=20:20
+A | Igen! Honnan tudja? | 네! 어떻게 아세요? | honnan = 어디서부터 | emotion=surprised at=20:20
+B | Én adtam el Dávidnak. Ezért volt olyan olcsó. | 제가 다비드한테 판 거예요. 그래서 그렇게 쌌던 거고요. | adtam el = 내가 팔았다 | emotion=amused at=20:21
+B | Az én lépcsőmön is beragadt. 😅 | 우리 계단에서도 끼었거든요. 😅 | lépcsőmön = 내 계단에서 | emotion=amused at=20:21

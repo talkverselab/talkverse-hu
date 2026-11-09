@@ -1,0 +1,19 @@
+=== r1_travel_c3
+kind: chat
+title: 곧 도착해
+emoji: 🚄
+scene: Dávid 를 만나러 기차를 탔다. 무슨 기차인지는 모른다
+b: Dávid
+register: chat
+twist: 7 chaos
+purpose: travel making_friends
+goal: 채팅으로 위치 알리기(-ban/-ben)
+expressions: Mindjárt; Nem tudom; Mi van?; Figyelj; Király
+A | Mindjárt ott vagyok! 🚆 | 곧 도착해! 🚆 | mindjárt = 곧 | emotion=excited at=10:02
+B | Szuper. Melyik vonat? | 좋아. 어느 기차? | melyik = 어느 | emotion=neutral at=10:03
+A | Nem tudom. Gyors. 😄 | 몰라. 빨라. 😄 | gyors = 빠른 | emotion=cheerful at=10:03
+B | Na, hol vagy? | 그래서, 어디야? | na = 그래서, 자 | emotion=neutral at=11:15
+A | Itt minden németül van. | 여기 전부 독일어로 돼 있어. | németül = 독일어로 | emotion=worried at=12:38
+B | Mi van? | 뭐? | mi van? = 뭐?, 뭐야? | emotion=surprised at=12:38
+A | Figyelj, Bécsben vagyok. | 있잖아, 나 빈이야. | Bécs = 빈(오스트리아) | emotion=flustered at=12:41
+B | Király. Hozz csokit! | 대박. 초콜릿 사 와! | király = 끝내준다(글자 뜻: 왕) | emotion=amused at=12:42

@@ -1,0 +1,23 @@
+=== r2_culture_b3
+kind: long
+title: 「ő」는 누구야
+emoji: 🕵️
+scene: Anna 가 어떤 사람 얘기를 꺼낸다. 헝가리어 ő 는 그도 그녀도 된다
+b: Anna
+register: casual
+twist: 11 emotion
+flags: romance jealousy
+purpose: media love
+goal: 3인칭 ő 와 과거형으로 이야기하기
+expressions: Figyelj; De jó; Aha; Hát
+B | Figyelj, találkoztam valakivel. Nagyon aranyos. | 있잖아, 어떤 사람을 만났어. 엄청 귀여워. | aranyos = 귀여운 | emotion=shy
+A | De jó... Fiú vagy lány? | 좋겠네… 남자야, 여자야? | de jó = 좋다 | emotion=stiff
+B | Magyarul csak annyit mondok: ő. | 헝가리어로는 그냥 「ő」라고만 해. | ő = 그, 그녀(성 구별 없음) | emotion=amused
+A | Nagyszerű. És mit csinál ez az ő? | 잘됐네. 그 「ő」는 뭐 하는 사람인데? | nagyszerű = 훌륭한 | emotion=annoyed
+B | Nyelvet tanul. Mindig rossz ragot használ, de szépen nevet. | 언어를 배워. 어미를 맨날 틀리는데, 웃는 게 예뻐. | rag = 어미, 접미사 | emotion=gentle
+A | Aha. És hol találkoztatok? | 아하. 어디서 만났어? | találkoztatok = 너희가 만났다 | emotion=stiff
+B | A múzeum előtt. Azt mondta, hogy a rajzom krumpli. | 미술관 앞에서. 내 그림이 감자래. | előtt = ~앞에서 | emotion=teasing
+A | Szemtelen ember. És mit akarsz tőle? | 건방진 사람이네. 그래서 뭘 바라는데? | szemtelen = 건방진 | emotion=annoyed
+B | Hát... azt akarom, hogy végre rájöjjön. | 음… 이제 좀 눈치챘으면 좋겠어. | rájön = 알아차리다 | emotion=shy
+A | Mire? Várj, hány ember mondta ezt neked? | 뭘? 잠깐, 너한테 그 말 한 사람이 몇 명이야? | hány ember = 몇 사람 | emotion=surprised
+B | Egy. És most éppen mellettem ül. | 한 명. 지금 내 옆에 앉아 있어. | éppen = 바로 지금 | emotion=gentle

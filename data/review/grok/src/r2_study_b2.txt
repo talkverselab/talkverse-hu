@@ -1,0 +1,24 @@
+=== r2_study_b2
+kind: long
+title: 파프리카 한 봉지
+emoji: 🌶️
+scene: 기숙사 공용 부엌. Réka 와 파프리카 감자를 끓인다. 양을 물어봤는데 Réka 는 자전거를 묶으러 나갔다
+b: Réka
+c: Tűzoltó
+register: mixed
+twist: 9 chaos
+purpose: study_abroad
+goal: 요리하며 양 묻기(Mennyi kell bele?)
+expressions: Szuper; Szerintem; Mindegy; Mindjárt; Ne már; Bocsánat
+B | Éhes vagyok. Mit főzünk ma este? | 배고파. 오늘 저녁 뭐 해 먹지? | főzünk = 우리가 요리한다 | emotion=neutral
+A | Paprikás krumplit! Anna adott nekem paprikát. | 파프리카 감자! 언너가 파프리카 줬어. | paprikás krumpli = 파프리카 감자 스튜 | emotion=cheerful
+B | Szuper. Mennyi paprika kell bele? | 좋아. 파프리카 얼마나 넣어? | bele = 그 안에 | emotion=cheerful
+A | Szerintem egy kanál. Vagy egy zacskó? | 한 숟갈? 아니면 한 봉지? | zacskó = 봉지 | emotion=worried
+B | Mindegy, mindjárt jövök. Csak lerakom a biciklit. | 상관없어, 금방 올게. 자전거만 세워 두고. | lerak = 내려놓다 | emotion=neutral
+A | Kész! De miért sírok? | 됐다! 근데 왜 눈물이 나지? | sírok = 내가 운다 | emotion=cheerful+surprised
+B | Jaj, ne már! Mennyit tettél bele? | 아이고, 아 좀! 얼마나 넣었어? | tettél = 네가 넣었다(tesz) | emotion=shout
+A | Az egészet. Miért, mi ez a hang? | 전부. 왜, 이 소리 뭐야? | az egészet = 전부를 | emotion=neutral+worried
+B | A riasztó! Az egész emelet köhög a folyosón! | 경보기야! 층 전체가 복도에서 기침해! | köhög = 기침한다 | emotion=shout
+C | Tűzoltóság! Mi ez a szag? | 소방대입니다! 이 냄새 뭐죠? | szag = 냄새 | emotion=shout+stiff
+A | Bocsánat! Ez csak paprikás krumpli. | 죄송해요! 그냥 파프리카 감자예요. | csak = 그냥, ~만 | emotion=flustered
+C | Hű, ez nagyon jó! Van még hat tányér? | 오, 이거 맛있네요! 여섯 그릇 더 있어요? | tányér = 접시 | emotion=excited

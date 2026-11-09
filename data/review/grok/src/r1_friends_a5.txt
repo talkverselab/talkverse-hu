@@ -1,0 +1,19 @@
+=== r1_friends_a5
+kind: short
+title: 안 매워
+emoji: 🌶️
+scene: 시장 파프리카 가판대. Réka 의 「안 매워」는 믿으면 안 된다
+b: Réka
+register: casual
+twist: 7 chaos
+purpose: making_friends
+goal: 권하고 되묻기, 급할 때 쓰는 말(gyorsan)
+expressions: Tényleg; Persze; Mi van?; Tessék
+B | Kérsz paprikát? Nem erős. | 파프리카 먹을래? 안 매워. | erős = 매운(강한) | emotion=teasing
+A | Tényleg nem erős? | 진짜 안 매워? | tényleg = 진짜로 | emotion=worried
+B | Persze! Én is eszem. | 당연하지! 나도 먹잖아. | persze = 당연하지 | emotion=cheerful
+A | Na jó. Jaj, jaj, jaj! | 그래 좋아. 으, 으, 으악! | na jó = 그래 좋아 | emotion=neutral+shout
+B | Mi van? Nem erős! | 뭐야? 안 맵다니까! | Mi van? = 뭐야? | emotion=teasing
+A | Vizet! Gyorsan, vizet! | 물! 빨리, 물! | vizet = 물을(víz 의 목적격) | emotion=shout
+B | Tessék, igyál! Ja, várj, ez nem víz. | 자, 마셔! 아, 잠깐, 이거 물 아니다. | igyál = 마셔 | emotion=cheerful+flustered
+A | Hát akkor mi?! Jaj! | 그럼 뭔데?! 으악! | hát akkor = 그럼 | emotion=shout

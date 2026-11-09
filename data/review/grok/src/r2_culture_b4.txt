@@ -1,0 +1,24 @@
+=== r2_culture_b4
+kind: long
+title: 빈 사탕 트리
+emoji: 🎄
+scene: 크리스마스이브의 Anna 네 집. 트리에 걸린 하얀 사탕을 만져 봤는데 가볍다
+b: Anna
+c: Anna apukája
+register: mixed
+twist: 11 reveal
+purpose: media
+goal: 금지 표현(tilos, ne nyúlj)과 크리스마스 풍습
+expressions: Gyere; Nézd; Jól van; Várj
+B | Gyere, nézd a fát! Az a fehér cukorka a szaloncukor. | 와서 트리 봐! 저 하얀 사탕이 살론추코르야. | szaloncukor = 트리에 거는 사탕 | emotion=cheerful
+A | Szép. Ehetek egyet? | 예쁘다. 하나 먹어도 돼? | ehetek = 먹어도 된다 | emotion=cheerful
+B | Nem! Karácsonyig tilos, ez a szabály. | 안 돼! 크리스마스까지 금지, 규칙이야. | tilos = 금지된 | emotion=teasing
+A | Jól van, jól van. Csak megnézem. | 알았어, 알았어. 구경만 할게. | megnézem = 살펴본다 | emotion=amused
+B | Ne nyúlj hozzá, apa számolja őket! | 손대지 마, 아빠가 세고 계셔! | számol = 세다 | emotion=worried
+A | Várj... ez üres, ez is, ez is! | 잠깐… 이거 비었어. 이것도. 이것도! | üres = 빈 | emotion=surprised
+B | Az nem lehet! Hadd nézzem! | 말도 안 돼! 나 좀 보자! | hadd = ~하게 해 줘 | emotion=surprised
+C | Mi folyik itt? Ki nyúlt a fához? | 무슨 일이니? 누가 트리 건드렸어? | mi folyik itt? = 무슨 일이야? | emotion=stiff
+A | Jó estét, nem én! Az összes cukorka üres. | 안녕하세요, 저 아니에요! 사탕이 전부 비었어요. | az összes = 전부 | emotion=flustered
+C | Hát... tudod, ez egy nagyon régi magyar szokás. | 음… 있잖니, 이건 아주 오래된 헝가리 풍습이란다. | szokás = 풍습 | emotion=flustered
+B | Apa, mi van a szádban? | 아빠, 입에 뭐 있어요? | száj → szád = 네 입 | emotion=tsukkomi
+C | Semmi. A papírokat meg szépen visszaakasztottam. | 아무것도. 포장지는 곱게 다시 걸어 놨다. | visszaakaszt = 도로 걸다 | emotion=flustered+amused

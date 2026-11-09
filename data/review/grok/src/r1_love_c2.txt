@@ -1,0 +1,20 @@
+=== r1_love_c2
+kind: chat
+title: 나 언너인데
+emoji: 📲
+scene: Réka 에게 보낸 줄 알았던 메시지가 Anna 에게 갔다. 그리고 또 갔다
+b: Anna
+register: chat
+twist: 6 chaos
+flags: romance
+purpose: love
+goal: 도움 청하기(Segíts!)와 채팅에서 놀랄 때
+expressions: Úristen; Segíts; Ne már
+A | Réka, Anna nagyon cuki! | 레카, 언너 너무 귀여워! | cuki = 귀여운 | emotion=excited at=20:10
+A | Mit írjak neki? | 뭐라고 쓰지? | írjak = 내가 쓸까 | emotion=shy at=20:10
+B | Szia. Anna vagyok. 😄 | 안녕. 나 언너인데. 😄 | … vagyok = 나는 …야 | emotion=teasing at=20:12
+A | Úristen. Rossz chat! | 세상에. 방을 잘못 왔어! | rossz = 잘못된 | emotion=flustered at=20:12
+A | Réka, segíts! Mit mondjak? | 레카, 도와줘! 뭐라고 하지? | segíts = 도와줘 | emotion=flustered at=20:13
+B | Még mindig én vagyok. | 아직도 나야. | még mindig = 아직도 | emotion=tsukkomi at=20:13
+A | Jó. Elköltözöm. | 알았어. 나 이사 갈게. | elköltözöm = 이사 간다 | emotion=sad at=20:14
+B | Ne már! Holnap is cuki leszek. | 에이 왜 그래! 내일도 귀여울게. | ne már = 에이, 그러지 마 | emotion=teasing+gentle at=20:15 stamp=😇

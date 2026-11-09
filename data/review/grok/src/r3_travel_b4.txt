@@ -1,0 +1,26 @@
+=== r3_travel_b4
+kind: long
+title: 돌려줘야 하는데
+emoji: ❄️
+scene: 1월 밤 야외 온천. 머리카락이 어는 추위 속에서 드디어 목도리를 돌려받는 날
+b: Zsófi
+register: casual
+twist: 9 emotion
+flags: romance
+purpose: travel love
+goal: 조건 말하기(ha …)와 마음을 돌려 말하기
+expressions: Na végre; Bocsi; Szóval; Jaj; Tudod; Hát
+B | Na végre, már azt hittem, nem jössz! A hajam megfagyott. | 드디어, 안 오는 줄 알았어! 머리카락이 얼었어. | megfagyott = 얼었다 | emotion=teasing
+A | Bocsi, a villamos megint késett. Hű, kint mínusz öt, a víz meg forró! | 미안, 트램이 또 늦었어. 와, 밖은 영하 5도인데 물은 뜨겁네! | forró = 뜨거운 | emotion=neutral+excited
+B | Ez a tél legjobb része. Csak az arcod fázik, a többi nem. | 이게 겨울의 제일 좋은 점이야. 얼굴만 춥고, 나머지는 안 추워. | fázik = 춥다(사람이) | emotion=cheerful
+A | Szóval hoztad a sálamat? Balaton, Eger, Pécs: sokat látott már. | 그래서 내 목도리 가져왔어? 발라톤, 에게르, 페치, 많이도 봤네. | hoztad = 네가 가져왔다(정활용) | emotion=teasing
+B | Hoztam. Ott van a táskámban, az öltözőben. | 가져왔어. 탈의실 내 가방에 있어. | hoztam = 내가 가져왔다 | emotion=neutral
+A | Akkor vége a kalandnak. Visszakapom, és kész. | 그럼 모험도 끝이네. 돌려받으면 끝이지. | kaland = 모험 | emotion=sad
+B | Igen. Csak van egy gondom. | 응. 그런데 문제가 하나 있어. | gond = 걱정, 문제 | emotion=worried
+A | Mi az? Megint fél egyedül? | 뭔데? 또 혼자 무서워해? | megint = 또 | emotion=teasing
+B | Nem ő. Ha visszaadom, nincs több okod írni nekem. | 목도리 말고. 돌려주면 너 나한테 연락할 이유가 없잖아. | ok = 이유 | emotion=shy
+A | Jaj, Zsófi. Tudod, hány sálam van otthon? | 아이고, 소피. 나 집에 목도리 몇 개 있는지 알아? | otthon = 집에 | emotion=gentle
+B | Hány? Mondd! | 몇 개? 말해 봐! | hány = 몇 | emotion=shy
+A | Négy. És tudtam, hogy elvetted. | 네 개. 그리고 네가 가져간 거 알고 있었어. | tudtam = 알고 있었다 | emotion=gentle
+B | Tudtad? Akkor miért nem szóltál? | 알았어? 그럼 왜 말 안 했어? | szóltál = 네가 말했다 | emotion=surprised
+A | Hát... a kesztyűmet is ott akartam hagyni. | 음… 장갑도 두고 올 참이었거든. | kesztyű = 장갑 | emotion=shy

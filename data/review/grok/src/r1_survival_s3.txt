@@ -1,0 +1,19 @@
+=== r1_survival_s3
+kind: survival
+title: 세 번째 뵙네요
+emoji: 🏥
+scene: 다리를 절며 병원을 찾는 길. 할머니가 알려 준 대로 걷고 또 걷는다
+b: Néni
+register: polite
+twist: 8 reveal
+purpose: travel
+goal: 길 묻기(Hol van …?)와 길 안내(menjen, balra) 알아듣기
+expressions: Elnézést; Hol van; Menjen; sajnos
+A | Elnézést! Hol van a kórház? | 실례합니다! 병원이 어디예요? | kórház = 병원 | emotion=polite
+B | A kórház? Menjen egyenesen, aztán balra! | 병원이요? 쭉 가서 왼쪽이요! | menjen = 가세요(존댓말), balra = 왼쪽으로 | emotion=polite
+A | Köszönöm! Nagyon fáj a lábam. | 감사합니다! 다리가 너무 아파서요. | láb = 다리, 발 | emotion=polite+sad
+B | Nincs messze, csak öt perc. | 안 멀어요, 5분밖에 안 걸려요. | messze = 멀리 | emotion=gentle
+A | Elnézést, hol van a... Jaj, megint maga? | 실례합니다! 병원이 어… 어머, 또 뵙네요? | megint = 또 | emotion=polite+surprised
+B | Már harmadszor jön erre! | 벌써 세 번째 이쪽으로 오시네요! | harmadszor = 세 번째로 | emotion=surprised
+A | Igen, sajnos. Most már nagyon fáj a lábam. | 네, 안타깝게도요. 이제 다리가 정말 아파요. | sajnos = 안타깝게도 | emotion=sad
+B | Hát nézze! A kórház ott van, maga mögött. | 아이고 보세요! 병원은 저기, 바로 뒤에 있어요. | maga mögött = 당신 뒤에 | emotion=tsukkomi+amused

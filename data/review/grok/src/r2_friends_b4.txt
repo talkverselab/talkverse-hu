@@ -1,0 +1,23 @@
+=== r2_friends_b4
+kind: long
+title: 실수 공책
+emoji: 📓
+scene: Réka 의 가방에서 내 이름이 적힌 공책이 떨어졌다. 안에는 내 실수가 빽빽하다
+b: Réka
+register: casual
+twist: 9 emotion
+purpose: making_friends
+goal: 속마음을 들켰을 때의 말과 hiányzik(그립다)
+expressions: Jaj; Várj; Hát; Komolyan; Persze; Na jó
+A | Mi ez a füzet? Az én nevem van rajta. | 이 공책 뭐야? 내 이름이 써 있네. | füzet = 공책 | emotion=surprised
+B | Jaj, add vissza! Az nem a tiéd. | 아이고, 돌려줘! 네 거 아니야. | add vissza = 돌려줘 | emotion=flustered
+A | Várj, „Meleg vagyok.” Ezt én mondtam! | 잠깐, 「나 게이야.」 이거 내가 한 말이잖아! | ezt = 이것을 | emotion=surprised
+B | Hát igen. Minden hibádat leírom. | 뭐, 그렇지. 네 실수는 전부 적어. | hiba = 실수 | emotion=amused
+A | Komolyan? Még a fél hetet is? | 진짜? 그 6시 반까지도? | még … is = ~까지도 | emotion=surprised+annoyed
+B | Persze, az a kedvencem. | 당연하지, 그게 내 최애야. | kedvenc = 가장 좋아하는 것 | emotion=teasing
+A | Ez nagyon gonosz, Réka. Csak nevetsz rajtam? | 이건 너무 못됐어, 레카. 나 비웃기만 하는 거야? | nevet = 웃다 | emotion=sad
+B | Olvasd el az utolsó oldalt. | 마지막 쪽 읽어 봐. | olvasd el = 읽어 봐 | emotion=shy
+A | „Ma {name} egy hibát sem csinált. Kicsit hiányzik.” | 「오늘 {name} 실수 0개. 조금 허전하다.」 | hiányzik = 그립다, 허전하다 | emotion=gentle
+B | Na jó, elég. Add már vissza! | 그래, 됐어. 이제 돌려줘! | elég = 충분한, 됐어 | emotion=shy
+A | Réka, te sírsz? | 레카, 너 울어? | sírsz = 너 운다 | emotion=gentle
+B | Dehogy! Csak erős volt a paprika. | 아니거든! 파프리카가 매웠을 뿐이야. | dehogy = 천만에 | emotion=flustered+shy

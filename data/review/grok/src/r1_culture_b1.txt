@@ -1,0 +1,20 @@
+=== r1_culture_b1
+kind: long
+title: 이미 팔린 점심
+emoji: 🖼️
+scene: 현대미술 전시실. 먹던 레테시를 받침대에 잠깐 올려 뒀을 뿐이다
+b: Anna
+c: Teremőr
+register: mixed
+twist: 7 chaos
+purpose: media
+goal: 전시장에서 쓰는 말과 존댓말 금지 표현(ne nyúljon)
+expressions: Gyere; egy pillanat; Mindegy; Mindjárt
+B | Gyere, ez a kedvenc termem a múzeumban. | 이리 와, 미술관에서 내가 제일 좋아하는 전시실이야. | kedvenc = 가장 좋아하는 | emotion=cheerful
+A | Várj, egy pillanat. Hova teszem a rétesemet? | 잠깐만. 내 레테시 어디 두지? | hova = 어디로 | emotion=neutral
+B | Mindegy, tedd oda! Mindjárt visszajövünk. | 아무 데나, 거기 둬! 금방 돌아올 거야. | tedd oda = 거기 놔 | emotion=cheerful
+A | Nézd, mennyi ember áll ott! | 봐, 저기 사람 엄청 많이 서 있어! | mennyi + 단수 = 얼마나 많은 | emotion=cheerful
+B | Mit néznek? Új mű? | 뭘 보는 거지? 새 작품인가? | mű = 작품 | emotion=neutral
+A | Jaj. Az ott az én rétesem! | 아이고. 저거 내 레테시야! | az ott = 저기 저것 | emotion=surprised+shout
+C | Kérem, ne nyúljon hozzá! Egy úr már megvette. | 손대지 마세요! 어떤 분이 벌써 사 가셨습니다. | ne nyúljon hozzá = 손대지 마세요 | emotion=stiff+polite
+B | Szóval gratulálok. Művész vagy. | 그러니까… 축하해. 너 예술가야. | gratulálok = 축하해 | emotion=amused

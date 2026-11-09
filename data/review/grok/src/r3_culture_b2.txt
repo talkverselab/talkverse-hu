@@ -1,0 +1,28 @@
+=== r3_culture_b2
+kind: long
+title: 안나의 첫 비명
+emoji: 😱
+scene: Anna 의 첫 개인전 개막식. A 가 축사 세 문장을 맡았다. kiállítás(전시)와 kiáltás(비명)는 글자 두 개 차이다
+b: Anna
+c: Réka
+d: Igazgató
+register: mixed
+twist: 10 chaos
+purpose: media love
+goal: 공식 자리의 인사말(üdvözlöm Önöket)과 비슷한 낱말 구별
+expressions: Nyugi; Ne már; Semmi baj; Úristen; Bocsi
+B | Jaj, remegek. Ma este megnyitó, az első saját kiállításom! | 아, 떨려. 오늘 밤 개막이야, 내 첫 개인전! | kiállítás = 전시회 | emotion=worried+excited
+A | Nyugi, minden rendben lesz. Hányan jönnek? | 진정해, 다 잘될 거야. 몇 명 와? | hányan? = 몇 명이서? | emotion=gentle
+B | Legalább ötvenen. És az igazgató azt szeretné, ha te mondanál pár szót. | 적어도 쉰 명. 그리고 관장님이 네가 몇 마디 해 줬으면 하셔. | azt szeretné, ha = ~하면 좋겠다고 한다 | emotion=cheerful
+A | Én, magyarul? Ne már, Anna, én még a kenyeret is rosszul kérem! | 나? 헝가리어로? 에이, 안나, 난 빵도 제대로 못 시켜! | még … is = ~조차 | emotion=surprised+flustered
+C | Semmi baj, három mondat: üdvözlöm Önöket, ez Anna kiállítása, köszönöm. | 괜찮아, 세 문장이야. 환영합니다, 안나의 전시입니다, 감사합니다. | üdvözlöm Önöket = 여러분을 환영합니다 | emotion=cheerful
+A | Kiállítása, kiállítása... Oké, ez nem lehet nehéz. | 전시, 전시… 좋아, 이게 어려울 리 없지. | nem lehet = ~일 리 없다 | emotion=worried
+D | Hölgyeim és uraim, kérem, figyeljenek! Most {name} szól néhány szót. | 신사 숙녀 여러분, 주목해 주십시오! 이제 {name} 님이 몇 마디 하겠습니다. | hölgyeim és uraim = 신사 숙녀 여러분 | emotion=polite
+A | Üdvözlöm Önöket! Ez Anna első kiáltása! | 여러분을 환영합니다! 이것은 안나의 첫 비명입니다! | kiáltás = 비명, 외침 | emotion=stiff
+C | Úristen, kiáltása! Nem kiállítása! | 세상에, 「비명」이래! 「전시」가 아니라! | -a/-e = 그의 | emotion=shout
+D | Milyen bátor! Kérem, mindenki kiáltson Annával együtt! | 참 대담하군요! 여러분, 다 같이 안나와 함께 외칩시다! | kiáltson = 외치십시오 | emotion=excited
+B | Várjatok, ne! Miért kiabál ötven ember? | 잠깐, 안 돼! 왜 쉰 명이 소리를 질러? | kiabál = 소리 지르다 | emotion=shout
+A | Bocsi, Anna! Csak két betű volt a különbség. | 미안, 안나! 글자 두 개 차이였어. | különbség = 차이 | emotion=flustered
+C | Hé, a rendőrök is itt vannak! A szomszédok hívták őket. | 야, 경찰도 왔어! 이웃들이 불렀대. | rendőr = 경찰 | emotion=worried
+D | Csodálatos, minden képet eladtunk! Holnap megismételjük? | 훌륭합니다! 그림이 다 팔렸어요. 내일 또 할까요? | megismétel = 되풀이하다 | emotion=excited
+B | Minden képet? {name}, jövőre is te beszélsz, és addig ne tanulj meg magyarul. | 그림을 다? {name}, 내년에도 네가 말해, 그때까지 헝가리어 배우지 마. | addig = 그때까지 | emotion=surprised+teasing

@@ -1,0 +1,21 @@
+=== r1_travel_b3
+kind: long
+title: 황소의 피
+emoji: 🍷
+scene: 에게르의 포도주 저장고. Dávid 가 이 동네 명물을 마시자고 한다. 이름이 수상하다
+b: Dávid
+c: Pincemester
+register: mixed
+twist: 6 slip
+flags: alcohol
+purpose: travel making_friends
+goal: 되묻기(Mit?)와 거절하기(nem iszom)
+expressions: Komolyan?; Naná; Mi van?; Persze; Jól van; Tessék
+B | Itt vagyunk Egerben! Most bikavért iszunk. | 에게르 도착! 이제 비커베르 마시자. | bikavér = 에게르 붉은 포도주(글자 뜻: 황소 피) | emotion=excited+teasing
+A | Vért iszunk? Komolyan? | 피를 마신다고? 진심이야? | vért = 피를(vér + -t) | emotion=worried
+B | Naná, friss. Reggel még itt volt a bika. | 당연하지, 신선해. 아침까지 여기 있던 황소야. | naná = 당연하지 | emotion=teasing
+A | Mi van? Én nem iszom vért! | 뭐라고? 난 피 안 마셔! | nem iszom = 안 마셔 | emotion=surprised+shout
+C | Tessék, két pohár. Egészségükre! | 자, 두 잔이요. 건배! | egészségükre = 두 분 건강을 위해 | emotion=polite+cheerful
+A | Hű, ez bor? | 어라, 이거 와인이야? | bor = 포도주 | emotion=surprised
+B | Persze, hogy bor! Csak így hívják. | 당연히 와인이지! 그냥 그렇게 부르는 거야. | így hívják = 이렇게 부른다 | emotion=tsukkomi
+A | Jól van. Kérek még egy pohár bikát. | 알았어. 황소 한 잔 더 주세요. | még egy = 하나 더 | emotion=amused

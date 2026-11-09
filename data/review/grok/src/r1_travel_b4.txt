@@ -1,0 +1,20 @@
+=== r1_travel_b4
+kind: long
+title: 자리 양보
+emoji: 🚋
+scene: 만원 트램. 친절하게 자리를 양보했을 뿐인데 차 안이 시끄러워진다
+b: Néni
+c: Bácsi
+register: polite
+twist: 5 chaos
+purpose: travel
+goal: 자리 양보하기와 존댓말 명령형(üljön le)
+expressions: Tessék; Elnézést; Mi van?; Nem baj
+A | Tessék, néni, üljön le! | 여기요, 할머니, 앉으세요! | üljön le = 앉으세요 | emotion=polite
+B | Néni? Hány évesnek néz engem? | 할머니요? 내가 몇 살로 보여요? | hány évesnek = 몇 살로 | emotion=annoyed
+A | Elnézést, én csak kedves akartam lenni. | 죄송해요, 그냥 친절하게 하려던 거예요. | akartam = ~하려고 했다 | emotion=flustered
+C | Ha ő nem akar, leülök én. | 저분이 싫으면 내가 앉지요. | ha = 만약 | emotion=teasing
+B | Maga csak álljon ott! | 당신은 거기 그냥 서 있어요! | maga = 당신, álljon = 서 계세요 | emotion=annoyed
+C | Mi van? Ki maga, hogy ezt mondja? | 뭐요? 당신이 뭔데 그런 말을 해요? | ki maga = 당신이 뭔데 | emotion=shout
+A | Elnézést... én itt inkább leszállok. | 죄송해요… 저는 여기서 그냥 내릴게요. | leszállok = 내린다 | emotion=flustered
+B | Nem baj, ő a férjem. Mindig ilyen. | 괜찮아요, 내 남편이에요. 늘 이래요. | a férjem = 내 남편 | emotion=amused

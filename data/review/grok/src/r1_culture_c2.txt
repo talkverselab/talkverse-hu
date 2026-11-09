@@ -1,0 +1,21 @@
+=== r1_culture_c2
+kind: chat
+title: 예쁜 감자, 또
+emoji: 🥔
+scene: Anna 가 새 그림을 올렸다. 댓글 창이 시끄러워진다
+b: Anna
+c: Réka
+d: Réka anyukája
+register: chat
+twist: 6 chaos
+purpose: media making_friends
+goal: 댓글에 쓰는 짧은 칭찬과 사과
+expressions: Hű; Bocsi; Mi van
+B | Új rajzom! 🎨 | 새 그림! 🎨 | rajz = 그림 | emotion=cheerful at=19:02
+A | Hű! Szép krumpli! 😄 | 와! 예쁜 감자! 😄 | krumpli = 감자 | emotion=amused at=19:05
+C | Krumpli?! | 감자?! | ?! = 황당할 때 | emotion=shout at=19:05
+B | Jaj. {name}, ez Réka. | 아이고. {name}, 이거 레카야. | ez = 이것, 이 사람 | emotion=annoyed at=19:06
+A | Bocsi! Szép Réka! | 미안! 예쁜 레카! | bocsi = 미안 | emotion=flustered at=19:06
+D | Réka, mi van az arcoddal? | 레카, 얼굴이 왜 그러니? | mi van …-val? = ~가 왜 그래? | emotion=worried at=19:20
+C | Anyu! Ne írj ide! | 엄마! 여기 쓰지 마! | ne írj = 쓰지 마 | emotion=shout at=19:20
+D | Szerintem szép krumpli vagy, kicsim. | 엄마 생각엔 넌 예쁜 감자야, 아가. | kicsim = 우리 아가 | emotion=gentle at=19:21

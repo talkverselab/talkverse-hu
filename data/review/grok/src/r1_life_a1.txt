@@ -1,0 +1,19 @@
+=== r1_life_a1
+kind: short
+title: 우유 많이
+emoji: 🥛
+scene: 룸메이트 Dávid 가 장 보러 나가는 길에 우유를 부탁한다. 얼마나? 그냥 많이.
+b: Dávid
+register: casual
+twist: 7 chaos
+purpose: making_friends
+goal: 필요한 것 묻기(Mi kell?)와 mindegy 쓰기
+expressions: Mi kell?; Mindegy; Tessék; Úristen
+B | Szia! Mész a boltba? | 야! 가게 가? | a boltba = 가게로(-ba 안으로) | emotion=cheerful
+A | Igen, most megyek. Mi kell? | 응, 지금 가. 뭐 필요해? | kell = 필요하다 | emotion=neutral
+B | Csak tej. | 우유만. | csak = ~만 | emotion=neutral
+A | Mennyi tej? | 우유 얼마나? | mennyi = 얼마나 | emotion=neutral
+B | Mindegy. Sok. | 아무거나. 많이. | mindegy = 상관없어 | emotion=amused
+A | Itt vagyok! Tessék, a tej. | 왔어! 자, 우유. | tessék = 여기 있어 | emotion=cheerful
+B | Úristen! Ez húsz liter! | 세상에! 이거 20리터잖아! | úristen = 세상에 | emotion=shout
+A | Azt mondtad: sok. | 네가 많이라고 했잖아. | azt mondtad = 네가 그렇게 말했다 | emotion=tsukkomi

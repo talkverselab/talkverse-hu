@@ -1,0 +1,28 @@
+=== r3_travel_b1
+kind: long
+title: 오늘의 검표원
+emoji: 🧥
+scene: 한겨울 온천 탈의실. 옷이 사라지고 사물함에 낯선 제복만 남았다
+b: Dávid
+c: Néni
+d: Ellenőr
+register: mixed
+twist: 9 chaos
+purpose: travel making_friends
+goal: 없어진 물건 설명하기와 검표 상황 표현
+expressions: Hogyhogy; Viccelsz; Gyere; Izé; Nézd; Hát
+A | Dávid, baj van. Az öltözőben valaki elvitte a ruhámat. | 다비드, 큰일이야. 탈의실에서 누가 내 옷을 가져갔어. | öltöző = 탈의실 | emotion=worried
+B | Hogyhogy elvitte? Mi maradt a szekrényben? | 어떻게 가져가? 사물함에 뭐가 남았어? | szekrény = 사물함, 장 | emotion=surprised
+A | Csak ez a sötétkék kabát, egy sapka meg egy kis gép. | 이 남색 재킷이랑 모자, 작은 기계뿐이야. | gép = 기계 | emotion=neutral
+B | Várj, ez egy ellenőr egyenruhája! Legalább meleg. | 잠깐, 이거 검표원 제복이잖아! 적어도 따뜻하네. | egyenruha = 제복 | emotion=surprised+amused
+A | Viccelsz? Ebben menjek haza a villamossal? | 농담해? 이거 입고 트램 타고 집에 가라고? | ebben = 이것을 입고 | emotion=tsukkomi
+B | Nincs más, kint mínusz tíz fok van. Gyere! | 다른 수 없어, 밖은 영하 10도야. 와! | fok = 도 | emotion=neutral
+C | Jó napot! Tessék, itt a bérletem, érvényes! | 안녕하세요! 여기 제 정기권요, 유효해요! | érvényes = 유효한 | emotion=polite
+A | Izé... köszönöm, jó. | 저… 고맙습니다, 됐습니다. | izé = 저, 그 | emotion=flustered
+B | Nézd! Mindenki előveszi a jegyét, és neked adja. | 봐! 다들 표를 꺼내서 너한테 줘. | előveszi = 꺼낸다 | emotion=excited
+C | Az a bácsi ott nem mutatta meg a jegyét! Büntesse meg! | 저 할아버지 표 안 보여 줬어요! 벌금 물리세요! | büntesse meg = 벌을 주세요 | emotion=annoyed
+A | Hát... elnézést, van jegye? | 저기… 실례합니다, 표 있으세요? | van jegye? = 표 있으세요? | emotion=stiff
+B | Várj, ott jön valaki. Az a te pulcsid! | 잠깐, 저기 누가 와. 저거 네 후드티야! | pulcsi = 스웨터, 후드티 | emotion=surprised
+D | Jó napot! Jegyeket, bérleteket kérek! | 안녕하세요! 표, 정기권 보여 주세요! | 검표원의 정해진 말 | emotion=polite
+A | Jó napot, kolléga! Az a pulcsi az enyém. | 안녕하세요, 동료분! 그 후드티 제 겁니다. | kolléga = 동료 | emotion=polite+stiff
+D | És az a kabát az enyém. De tartsa meg estig, én visszamegyek a fürdőbe. | 그 재킷은 제 거고요. 그래도 저녁까지 입고 계세요, 저는 온천으로 돌아갑니다. | tartsa meg = 갖고 계세요 | emotion=neutral+amused

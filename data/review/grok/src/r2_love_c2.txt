@@ -1,0 +1,23 @@
+=== r2_love_c2
+kind: chat
+title: 글자 하나
+emoji: 💋
+scene: Anna 가 자기 작은 전시에 A 를 먼저 초대한다. A 의 엄지가 모음 하나를 틀린다
+b: Anna
+register: chat
+twist: 6 slip
+flags: romance
+purpose: love
+goal: 초대 주고받기, csak(~만)과 csók(키스) 구별
+expressions: Hű; Tessék?; Bocsi; Aha; Izé
+B | Szia! Pénteken kiállításom lesz, nem nagy. 😊 | 안녕! 금요일에 내 전시 있어, 크진 않아. 😊 | kiállítás = 전시 | emotion=shy at=19:20
+A | Hű, de jó! Hol? | 와, 좋다! 어디서? | de jó = 정말 좋다 | emotion=excited at=19:21
+B | Az egyetemen. De csak húsz jegy van. | 대학교에서. 근데 표가 스무 장뿐이야. | jegy = 표 | emotion=neutral at=19:21
+A | Akkor nekem is jut? | 그럼 나도 받을 수 있어? | jut = 돌아온다 | emotion=cheerful at=19:22
+B | Csak egy maradt. Kinek adjam? | 한 장 남았어. 누구 줄까? | kinek adjam? = 누구에게 줄까? | emotion=teasing at=19:22
+A | Csók nekem! 😄 | 나한테 키스! 😄 | csók = 키스(csak = ~만) | emotion=cheerful at=19:23
+B | Tessék? 😳 | 뭐라고? 😳 | tessék? = 뭐라고? | emotion=surprised at=19:23
+A | Jaj, bocsi! Csak nekem, nem csók! | 아이고, 미안! 나한테'만', 키스 말고! | csak = ~만 | emotion=flustered at=19:24
+B | Aha. Szóval csók nincs. | 아하. 그러니까 키스는 없다는 거네. | nincs = 없다 | emotion=teasing at=19:25
+A | Izé... nem így értettem! | 어… 그런 뜻이 아니었어! | nem így értettem = 그런 뜻 아니었어 | emotion=flustered at=19:25
+B | A jegy a tiéd. A másikról pénteken beszélünk. 😇 | 표는 네 거야. 나머지는 금요일에 얘기하자. 😇 | a másikról = 다른 것에 대해 | emotion=teasing at=19:27

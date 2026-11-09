@@ -1,0 +1,19 @@
+=== r1_friends_b4
+kind: long
+title: 듣고 있어?
+emoji: 🎧
+scene: 공원 벤치. 큰맘 먹고 진심을 말하는데 Réka 는 이어폰을 끼고 있다
+b: Réka
+register: casual
+twist: 8 ignore
+purpose: making_friends
+goal: 맞장구(aha, persze)와 hogy 절로 마음 말하기
+expressions: figyelj; Aha; Persze; Szóval
+A | Réka, figyelj, fontos dolgot mondok. | 레카, 들어 봐, 중요한 얘기야. | fontos = 중요한 | emotion=gentle
+B | Aha. Mondd csak. | 응. 말해 봐. | aha = 응, 그래 | emotion=neutral
+A | Te vagy az első barátom itt. | 네가 여기서 내 첫 친구야. | első = 첫 | emotion=shy
+B | Aha, jó. Persze. | 응, 그래. 당연하지. | persze = 당연하지 | emotion=neutral
+A | Nagyon örülök, hogy itt vagy. | 네가 있어서 정말 기뻐. | örülök = 기뻐 | emotion=gentle
+B | Aha. Ja, igen. | 응. 아, 그래. | ja = 아 | emotion=neutral
+A | Szóval a biciklid mostantól az enyém. | 그러니까 네 자전거는 이제부터 내 거야. | mostantól = 이제부터 | emotion=teasing
+B | Na, azt hallottam! | 야, 그건 들었어! | hallottam = 들었다 | emotion=shout

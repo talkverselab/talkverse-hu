@@ -1,0 +1,24 @@
+=== r2_travel_c1
+kind: chat
+title: 셋이서 가자더니
+emoji: 🚌
+scene: 에게르 주말 여행 단체 채팅방. 차 한 대로 셋이 가기로 했는데 인원이 불어난다
+b: Réka
+c: Dávid
+register: chat
+twist: 10 chaos
+purpose: travel making_friends
+goal: 채팅으로 인원·계획 맞추기(hányan, hárman)
+expressions: Oké; nem baj; Várjatok; Mi van?; Szuper; Király
+A | Hétvégén Eger? Hárman, Dávid kocsijával? | 주말에 에게르? 셋이서, 다비드 차로? | hárman = 셋이서 | emotion=cheerful at=09:02
+C | Oké! Jön az öcsém is, ha nem baj. | 좋아! 내 남동생도 가, 괜찮으면. | öcs = 남동생 | emotion=cheerful at=09:03
+B | Jó, akkor én hozom Annát meg Bencét. | 그래, 그럼 난 언너랑 벤체 데려올게. | meg = ~랑 | emotion=cheerful at=09:05
+A | Várjatok, az már hat ember! Öt hely van! | 잠깐, 벌써 여섯 명이야! 자리는 다섯 개야! | várjatok = 너희 기다려 | emotion=worried at=09:06
+C | Nem baj. Szóltam a focicsapatnak is. ⚽ | 괜찮아. 축구팀한테도 말했어. | szóltam = 말해 뒀다 | emotion=cheerful at=09:20
+B | Hányan vannak? | 몇 명인데? | hányan = 몇 명이서 | emotion=neutral at=09:21
+C | Tizenegyen. Plusz az edző. | 열한 명. 코치까지. | edző = 코치 | emotion=cheerful at=09:21
+A | Mi van, tizennyolc ember? Mivel megyünk? | 뭐, 열여덟 명? 뭘 타고 가? | mivel = 무엇으로 | emotion=surprised+worried at=09:22
+B | Nyugi, megoldom. | 진정해, 내가 해결할게. | megoldom = 내가 해결한다 | emotion=gentle at=09:30
+B | Szuper hír! Vettem egy buszt a bolhapiacon. 🚌 | 좋은 소식! 벼룩시장에서 버스 샀어. 🚌 | hír = 소식 | emotion=excited at=15:10
+C | Király! Jár is? | 대박! 움직이긴 해? | jár = (기계가) 돌아간다 | emotion=excited+neutral at=15:11
+B | Nem tudom. Szép. | 몰라. 예뻐. | 짧을수록 웃긴 답 | emotion=amused at=15:11

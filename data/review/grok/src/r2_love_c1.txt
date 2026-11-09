@@ -1,0 +1,26 @@
+=== r2_love_c1
+kind: chat
+title: 단톡방의 어머니
+emoji: 👩‍👧
+scene: Réka 가 Anna 와 A 를 이어 주겠다며 단톡방을 만들었다. 그리고 한 명을 더 초대했다
+b: Réka
+c: Anna
+d: Anna anyukája
+register: chat
+twist: 8 chaos
+flags: romance
+purpose: love
+goal: 단톡방 말투, '~가 ~에게 마음에 든다'(tetszik neked)
+expressions: Jaj; Bocsi; Várj; Légyszi
+B | Csináltam egy csoportot. Sziasztok! 😎 | 방 하나 만들었어. 얘들아 안녕! 😎 | csoport = 그룹 | emotion=cheerful at=19:00
+A | Réka, ez mi? Miért vagyunk csak hárman? | 레카, 이게 뭐야? 왜 우리 셋뿐이야? | hárman = 셋이서 | emotion=tsukkomi at=19:01
+C | Szia! Réka azt mondta, te akarsz kérdezni valamit. 😳 | 안녕! 레카가 네가 뭐 물어볼 거라던데. 😳 | valamit = 뭔가를 | emotion=shy at=19:02
+A | Én? Nekem azt mondta, hogy te akarsz. | 내가? 나한테는 네가 그런다고 했는데. | azt mondta = 그렇게 말했다 | emotion=flustered at=19:02
+B | Jaj, de lassúak vagytok. Anna tetszik neked, te tetszel neki. | 아이고, 둘 다 진짜 느려. 넌 언너가 좋고, 언너는 네가 좋아. | lassú = 느린 | emotion=annoyed+teasing at=19:03
+C | RÉKA!!! | 레카!!! | 큰 글자 = 소리치기 | emotion=shout at=19:03
+A | Várj, ez igaz? | 잠깐, 그거 진짜야? | igaz = 사실인 | emotion=surprised at=19:04
+B | Bocsi, Anna anyukáját is hozzáadtam. Véletlenül. 😇 | 미안, 언너 엄마도 넣어 버렸어. 실수로. 😇 | hozzáadtam = 추가했다 | emotion=teasing at=19:05
+D | Szervusztok! Ki ez a {name}, aki tetszik? | 안녕들! 마음에 든다는 그 {name}은 누구니? | szervusztok = 안녕(여럿에게) | emotion=cheerful at=19:06
+C | ANYA, NE! 😱 | 엄마, 안 돼! 😱 | ne = 안 돼, 하지 마 | emotion=shout at=19:06
+D | Akkor vasárnap ebéd nálunk. Hoztok rétest? | 그럼 일요일 점심은 우리 집에서. 레테시 가져올래? | nálunk = 우리 집에서 | emotion=cheerful at=19:07
+C | Gyere, légyszi. Melléd ülök. 🙈 | 와 줘, 제발. 네 옆에 앉을게. 🙈 | melléd = 네 옆으로 | emotion=shy at=19:08

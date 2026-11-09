@@ -1,0 +1,19 @@
+=== r1_life_a4
+kind: short
+title: 딱 랑고시 하나
+emoji: 🤢
+scene: 병원. 의사가 어제 뭘 먹었는지 묻는다. 대답이 점점 늘어난다
+b: Orvos
+register: polite
+twist: 7 reveal
+purpose: study_abroad
+goal: 아픈 곳 말하기(Fáj a …)
+expressions: Fáj a hasam; Hát; Jaj
+A | Jó napot! Jaj, fáj a hasam. | 안녕하세요! 아이고, 배가 아파요. | fáj a hasam = 배가 아파요 | emotion=polite+sad
+B | Mit evett tegnap? | 어제 뭘 드셨어요? | evett = 드셨다(eszik 의 과거) | emotion=polite
+A | Csak egy lángost. | 랑고시 하나만요. | lángos = 튀긴 빵, 랑고시 | emotion=shy
+B | Egyet? Biztos? | 하나요? 확실해요? | biztos = 확실한 | emotion=stiff
+A | Hát... egyet reggel. | 음… 아침에 하나요. | reggel = 아침에 | emotion=flustered
+B | És este? | 저녁에는요? | este = 저녁에 | emotion=stiff
+A | Este hatot. | 저녁엔 여섯 개요. | hatot = 여섯 개를(hat 의 목적격) | emotion=shy
+B | Hatot? Hű, hol vette? | 여섯 개요? 와, 어디서 사셨어요? | hol vette? = 어디서 사셨어요? | emotion=surprised+excited

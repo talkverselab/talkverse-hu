@@ -1,0 +1,23 @@
+=== r2_travel_b2
+kind: long
+title: 못생겼다고 해
+emoji: 🕰️
+scene: 벼룩시장. Réka 가 흥정 비법을 알려 주는데, 낱말 하나가 어긋난다
+b: Réka
+c: Eladó
+register: mixed
+twist: 6 slip
+purpose: travel making_friends
+goal: 값 묻기(Mennyibe kerül?)와 흥정하기
+expressions: Figyelj; Mennyibe kerül; Hát; Úristen; Nem baj; Na, látod?
+B | Figyelj, a bolhapiacon sose mondd, hogy valami szép! | 야, 벼룩시장에서는 절대 뭐가 예쁘다고 하지 마! | sose = 절대 ~ 않다 | emotion=excited
+A | Miért? Akkor mit mondjak? | 왜? 그럼 뭐라고 해? | mondjak = 내가 말할까 | emotion=neutral
+B | Mondd, hogy csúnya, akkor olcsóbb lesz. Na, menj! | 못생겼다고 해, 그럼 싸져. 자, 가! | csúnya = 못생긴 | emotion=cheerful
+A | Jó napot! Mennyibe kerül ez a régi óra? | 안녕하세요! 이 오래된 시계 얼마예요? | mennyibe kerül? = 얼마예요? | emotion=polite
+C | Tizenötezer. Nagyon szép darab. | 1만 5천이요. 아주 좋은 물건이에요. | darab = 한 점, 개 | emotion=polite
+A | Hát... Ön nagyon csúnya. | 음… 선생님은 아주 못생기셨네요. | Ön = 당신(ez = 이것 이라고 해야 했다) | emotion=stiff
+B | Úristen, nem ő, az óra! Az óra csúnya! | 세상에, 그분 말고 시계! 시계가 못생겼다고! | az óra = 시계 | emotion=shout
+C | Hát, igaza van. A feleségem is ezt mondja. | 음, 맞는 말씀이에요. 제 아내도 그렇게 말해요. | igaza van = 말씀이 맞다 | emotion=sad
+A | Jaj, bocsánat! Én csak az órát... | 아이고, 죄송해요! 저는 그냥 시계를… | bocsánat = 죄송합니다 | emotion=flustered
+C | Nem baj, legyen kétezer. Végre valaki őszinte velem. | 괜찮아요, 2천으로 하죠. 드디어 제게 솔직한 분이 나타났네요. | legyen = ~로 하죠 | emotion=gentle
+B | Na, látod? Mondtam, hogy működik. | 봐? 통한다고 했지. | működik = 작동하다, 통하다 | emotion=amused

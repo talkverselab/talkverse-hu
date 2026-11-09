@@ -1,0 +1,28 @@
+=== r3_life_b4
+kind: long
+title: 말 놓자
+emoji: 🎂
+scene: 겨울 밤, 아무한테도 말 안 한 내 생일. 국을 받으러 안 내려가자 Marika 아주머니가 올라온다
+b: Marika néni
+c: Dávid
+register: mixed
+twist: 13 emotion
+purpose: study_abroad
+goal: 말 놓는 장면(Tegeződjünk)과 Ön→te 전환
+expressions: Csókolom; Aha; Semmi baj; Hát; Na; Szóval
+B | Háromszor csengettem. Nem jöttél a levesért, jól vagy? | 벨을 세 번 눌렀어. 국 받으러 안 왔던데, 괜찮니? | csengettem = 벨을 눌렀다 | emotion=worried
+A | Csókolom. Jól vagyok, csak fáradt. | 안녕하세요. 괜찮아요, 그냥 피곤해서요. | fáradt = 피곤한 | emotion=sad
+B | Aha. Akkor miért piros a szemed? | 그래. 그럼 눈은 왜 빨갛니? | szemed = 네 눈 | emotion=gentle
+A | Semmi baj, csak a paprika. | 별일 아니에요, 그냥 파프리카 때문에요. | semmi baj = 별일 없어 | emotion=sad
+B | Ma nem főztél semmit, nem éreztem szagot. | 오늘 아무것도 안 끓였잖아, 냄새가 안 났어. | éreztem = 느꼈다 | emotion=gentle
+A | Hát, ma van a születésnapom, és {country} nagyon messze van. | 사실 오늘 제 생일이에요, {country}는 너무 멀고요. | messze = 멀리 | emotion=sad
+B | Tudom, hogy ma van. Ebben a házban mindent tudok. | 오늘인 거 안다. 이 건물 일은 내가 다 알아. | ebben a házban = 이 건물에서 | emotion=gentle
+A | Honnan...? Jaj, nem akartam gondot csinálni. | 어떻게…? 아이고, 폐 끼치기 싫었어요. | gond = 걱정거리 | emotion=surprised+flustered
+B | Na, idefigyelj. Hány éve lakunk egy házban? | 자, 잘 들어. 우리 한 건물에 산 지 몇 년이지? | idefigyelj = 여기 잘 들어 | emotion=gentle
+A | Majdnem két éve. Miért? | 거의 2년이요. 왜요? | majdnem = 거의 | emotion=neutral
+B | Akkor elég a csókolomból. Marika vagyok, tegeződjünk! | 그럼 「초콜롬」은 그만하자. 난 마리카야, 말 놓자! | tegeződjünk = 말 놓자 | emotion=gentle+cheerful
+A | Csak így, Marika? Jaj, ezt nem tudom kimondani. | 이렇게 그냥, 마리카? 아이고, 이 말 못 하겠어요. | csak így = 이렇게 그냥 | emotion=shy
+B | A fiam Kanadában él, ő sem hív. Szóval most te eszed a levest. | 내 아들은 캐나다에 사는데, 걔도 전화 안 해. 그러니까 이젠 네가 그 국을 먹는 거야. | te eszed = 네가 그걸 먹는다 | emotion=sad+gentle
+A | Ezért hozott... ezért hoztál mindig levest? | 그래서 가져오셨… 그래서 늘 국을 가져왔구나? | hozott → hoztál = 존댓말에서 반말로 | emotion=gentle
+B | Ezért. Na, nyisd ki az ajtót. | 그래서지. 자, 문 열어. | nyisd ki = 열어 | emotion=gentle
+C | Meglepetés, boldog szülinapot! Hoztam húsz liter tejet. | 깜짝이야, 생일 축하해! 우유 20리터 가져왔어. | szülinap = 생일(구어) | emotion=excited

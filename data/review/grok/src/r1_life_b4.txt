@@ -1,0 +1,18 @@
+=== r1_life_b4
+kind: long
+title: 8시 반은 7시 반
+emoji: 🕢
+scene: 병원 접수처. fél nyolc 를 8시 반으로 알고 한 시간 늦게 왔다
+b: Asszisztens
+register: polite
+twist: 4 slip
+purpose: study_abroad
+goal: 시각 말하기 fél·negyed·háromnegyed
+expressions: Jó napot; Hát; Kérem
+A | Jó napot! Fél nyolcra jöttem az orvoshoz. | 안녕하세요! 「반 여덟 시」로 진료 왔어요. | fél nyolc = 7시 반(8시로 가는 중의 반) | emotion=polite
+B | Fél nyolcra? Most fél kilenc van! | 「반 여덟 시」요? 지금 「반 아홉 시」예요! | fél kilenc = 8시 반 | emotion=surprised
+A | Igen, fél nyolc. Nyolc és fél, nem? | 네, 「반 여덟」이요. 8시 반 아니에요? | ..., nem? = ~지요? | emotion=worried
+B | Nem. A fél nyolc az hét harminc. | 아니요. 「반 여덟」은 7시 30분이에요. | hét harminc = 7시 30분 | emotion=polite
+A | Hét harminc? De ott van a nyolc! | 7시 30분요? 그런데 8이 들어 있잖아요! | de = 하지만 | emotion=surprised+tsukkomi
+B | Hát igen, ez magyar idő. Jöjjön holnap háromnegyed nyolcra! | 네, 이게 헝가리 시간이에요. 내일 「4분의 3 여덟 시」에 오세요! | háromnegyed nyolc = 7시 45분 | emotion=amused+polite
+A | Háromnegyed?! Kérem, mondja számmal! | 4분의 3이요?! 제발 숫자로 말해 주세요! | számmal = 숫자로 | emotion=surprised+worried

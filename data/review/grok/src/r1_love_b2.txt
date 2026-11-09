@@ -1,0 +1,19 @@
+=== r1_love_b2
+kind: long
+title: 네 쓰레기가 예뻐
+emoji: 🗑️
+scene: 강변 벤치. A 가 몰래 연습한 칭찬 한 문장을 드디어 꺼낸다
+b: Anna
+register: casual
+twist: 4 slip
+flags: romance
+purpose: love
+goal: 소유 접미사(szemed 네 눈 / szemeted 네 쓰레기)
+expressions: Na; Várj; Köszi; Jaj
+B | Olyan csendes vagy ma. Mire gondolsz? | 오늘 왜 이렇게 조용해. 무슨 생각해? | mire gondolsz? = 무슨 생각해? | emotion=gentle
+A | Semmire. Csak gyakorlok egy mondatot neked. | 아무것도. 그냥 너한테 할 문장을 연습해. | mondat = 문장 | emotion=shy
+B | Egy mondatot? Na, mondd, nagyon kíváncsi vagyok! | 문장? 자, 말해 봐, 엄청 궁금해! | kíváncsi = 궁금한 | emotion=excited
+A | Várj... Anna, neked nagyon szép szemeted van. | 잠깐… 언너, 너 정말 예쁜 쓰레기가 있어. | szemeted = 네 쓰레기(szemed = 네 눈) | emotion=shy
+B | Szemetem? Köszi, minden kedden viszik el. | 내 쓰레기? 고마워, 매주 화요일에 수거해 가. | kedden = 화요일에 | emotion=surprised+teasing
+A | Jaj, nem! A szemed szép, nem a szemeted! | 아이고, 아니! 네 눈이 예쁘다고, 쓰레기 말고! | szem = 눈 | emotion=flustered
+B | Tudom. Csak még egyszer akartam hallani. | 알아. 그냥 한 번 더 듣고 싶었어. | akartam = 하고 싶었다 | emotion=gentle

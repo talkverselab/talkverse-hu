@@ -1,0 +1,19 @@
+=== r1_friends_c2
+kind: chat
+title: 공짜는 싸다는 뜻 아니야?
+emoji: 📢
+scene: 자전거를 대신 팔아 준다고 중고 앱에 글을 올렸다. Réka 의 전화가 불난다
+b: Réka
+register: chat
+twist: 8 chaos
+purpose: making_friends
+goal: 채팅으로 상황 묻기, ingyen(공짜) 구별
+expressions: Figyelj; Nem tudom; Jaj
+B | Figyelj, miért hívnak engem? | 야, 왜 사람들이 나한테 전화해? | hívnak = (사람들이) 전화한다 | emotion=annoyed at=10:12
+A | Kik? Nem tudom. | 누가? 몰라. | kik = 누구들 | emotion=flustered at=10:13
+B | Már tíz ember! Kérik a biciklimet. | 벌써 10명! 내 자전거 달래. | kérik = 그들이 그걸 달라고 한다 | emotion=shout+annoyed at=10:13
+A | Jaj. Az a hirdetés... | 아이고. 그 광고… | hirdetés = 광고 | emotion=worried at=10:14
+B | Milyen hirdetés?! Mit írtál? | 무슨 광고?! 뭐라고 썼어? | milyen = 어떤 | emotion=shout at=10:14
+A | Olcsó bicikli: ingyen. Ez olcsó, nem? | 싼 자전거: 공짜. 이게 싸다는 뜻 아니야? | ingyen = 공짜로 | emotion=flustered at=10:15
+B | Nem! Az nulla! | 아니! 그건 0이야! | nulla = 0 | emotion=tsukkomi at=10:15
+B | Most száz ember áll a háznál. 😱 | 지금 백 명이 집 앞에 서 있어. 😱 | száz = 백 | emotion=annoyed at=10:31 stamp=😱

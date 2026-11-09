@@ -1,0 +1,27 @@
+=== r3_study_b4
+kind: long
+title: 옥상의 시험 한 문제
+emoji: 🌙
+scene: 어학 과정 마지막 날 밤, 기숙사 옥상. A 는 모레 {country} 로 돌아간다. Anna 가 스케치북을 들고 올라왔다
+b: Anna
+register: casual
+twist: 15 emotion
+flags: romance
+purpose: study_abroad love
+goal: 동사 활용 -lek 과 헤어짐 앞에서 하는 말
+expressions: Tudom; Na jó; Várj; Tényleg; Nézd; ugye
+B | Hideg van itt fent. Miért nem maradsz bent? | 위는 춥다. 왜 안에 안 있어? | fent = 위에, bent = 안에 | emotion=gentle
+A | Utoljára akarom látni a várost. Holnapután már nem leszek itt. | 마지막으로 도시를 보고 싶어서. 모레면 난 여기 없잖아. | holnapután = 모레 | emotion=sad
+B | Tudom. Összepakoltál már? | 알아. 짐은 다 쌌어? | összepakol = 짐을 싸다 | emotion=sad
+A | Igen, a szótárt itt hagyom neked. Már tudom a ragokat. | 응, 사전은 너한테 두고 갈게. 이제 격 어미 다 알아. | szótár = 사전 | emotion=gentle
+B | Mindet? Na jó, akkor egy kis vizsga: szeret, én téged. | 전부? 그래, 그럼 시험 한 문제. 「사랑하다」, 내가 너를. | téged = 너를 | emotion=teasing
+A | Várj, ez könnyű. Szeretlek. | 잠깐, 이건 쉽지. 사랑해. | szeretlek = 내가 너를 사랑한다(-lek) | emotion=amused+shy
+B | Jó. Még egyszer, lassabban. | 좋아. 한 번 더, 천천히. | lassabban = 더 천천히 | emotion=gentle
+A | Anna... ez most tényleg vizsga? | 언너… 이거 진짜 시험이야? | tényleg = 정말 | emotion=shy
+B | Nem tudom. Te mondd meg. | 몰라. 네가 말해 봐. | mondd meg = 말해 줘 | emotion=shy
+A | Szeretlek. És ez nem nyelvtan. | 사랑해. 이건 문법 아니야. | nyelvtan = 문법 | emotion=gentle
+B | Ötös. | 5점. | ötös = 5점(최고 점수) | emotion=shy
+A | De holnapután megyek. {country} nagyon messze van. | 근데 나 모레 가. {country}, 너무 멀어. | messze = 멀리 | emotion=sad
+B | Tudom. Nézd, a vázlatfüzetem, neked adom. | 알아. 봐, 내 스케치북, 너 줄게. | vázlatfüzet = 스케치북 | emotion=sad+gentle
+A | Mi ez a papír a lapok között? | 페이지 사이에 이 종이는 뭐야? | között = 사이에 | emotion=surprised
+B | Repülőjegy, júniusra. Ott is vannak múzeumok, ugye? | 비행기표, 6월 거. 거기도 미술관 있지? | júniusra = 6월로 | emotion=gentle+teasing

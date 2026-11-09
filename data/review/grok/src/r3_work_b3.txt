@@ -1,0 +1,26 @@
+=== r3_work_b3
+kind: long
+title: 말 놓으라기에
+emoji: 🤝
+scene: 회사 이사가 이제 말을 놓자고 한다. 말을 놓으니 입도 같이 풀렸다
+b: Igazgató
+register: mixed
+twist: 8 slip
+purpose: work_hungary
+goal: Tegeződjünk? 존댓말에서 반말로 바꾸는 장면
+expressions: Tényleg; Látod; Persze; Figyelj; Amúgy; Várj
+B | Már fél éve itt dolgozik, és jól dolgozik. Tegeződjünk? | 여기서 일한 지 벌써 반년이고, 일도 잘하세요. 말 놓을까요? | tegeződjünk = 서로 말 놓자 | emotion=polite+cheerful
+A | Tényleg? Ez nagy megtiszteltetés, igazgató úr! | 정말요? 큰 영광입니다, 이사님! | megtiszteltetés = 영광 | emotion=surprised+polite
+B | Na, hagyjuk az igazgató urat. Laci vagyok. | 자, 「이사님」은 그만. 나는 러치야. | hagyjuk = 그만두자 | emotion=cheerful
+A | Jó, akkor szia, Laci. Furcsa, de jó érzés. | 좋아, 그럼 안녕, 러치. 이상한데 기분 좋다. | furcsa = 이상한 | emotion=shy
+B | Látod, nem fáj. És hogy tetszik az új terv? | 봐, 안 아프지. 그래서 새 계획은 어때? | hogy tetszik? = 어때, 마음에 들어? | emotion=amused
+A | Mondjam őszintén, Laci? | 솔직히 말해 줄까, 러치? | őszintén = 솔직하게 | emotion=cheerful
+B | Persze, most már tegeződünk. | 그럼, 이제 말 놓는 사이잖아. | most már = 이제는 | emotion=cheerful
+A | Figyelj, ez a terv borzalmas. Ki írta, egy krumpli? | 야, 이 계획 끔찍해. 누가 쓴 거야, 감자가? | borzalmas = 끔찍한 | emotion=annoyed
+B | Hát... én írtam. | 음… 내가 썼어. | én írtam = 내가 썼다(주어 강조) | emotion=stiff
+A | Nem baj. Amúgy a nyakkendőd is csúnya, ha már tegeződünk. | 괜찮아. 그나저나 네 넥타이도 별로야, 말 놓은 김에. | ha már = ~한 김에 | emotion=cheerful
+B | A nyakkendőmet a feleségem vette. | 그 넥타이는 아내가 사 줬어. | vette = 그것을 샀다 | emotion=stiff
+A | Tudod, mi még rossz, Laci? A fizetésem. | 또 뭐가 별로인 줄 알아, 러치? 내 월급. | fizetés = 월급 | emotion=annoyed
+B | Várj, azt mondtam, tegeződjünk. Nem azt, hogy mondj el mindent! | 잠깐, 말을 놓자고 했지. 다 말하라고는 안 했어! | mondj el = 말해 버려 | emotion=annoyed+shout
+A | Akkor... visszamagázhatom, igazgató úr? | 그럼… 다시 존댓말 써도 될까요, 이사님? | magáz = 존댓말을 쓰다 | emotion=flustered
+B | Igen, kérem. Holnaptól Ön lesz az új terv felelőse. | 네, 그러시죠. 내일부터 새 계획 담당은 그쪽입니다. | felelős = 담당자 | emotion=stiff

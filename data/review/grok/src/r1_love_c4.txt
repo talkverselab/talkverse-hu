@@ -1,0 +1,20 @@
+=== r1_love_c4
+kind: chat
+title: 고양이가 썼어
+emoji: 🐈
+scene: 밤 11시, Anna 가 먼저 메시지를 보낸다. A 는 자고 있고, Anna 혼자 초조해진다
+b: Anna
+register: chat
+twist: 5 ignore
+flags: romance
+purpose: love
+goal: 데이트 제안하기, 사과하기(Bocsi)
+expressions: Bocsi; Mindegy; Jaj
+B | Szia! Alszol? | 안녕! 자? | alszol = 너 잔다 | emotion=gentle at=23:01
+B | Csak egy kérdés. | 그냥 질문 하나. | kérdés = 질문 | emotion=shy at=23:02
+B | Holnap múzeum? Velem? | 내일 미술관? 나랑? | múzeum = 박물관·미술관 | emotion=shy at=23:04
+B | Jaj. Túl sokat írok? | 아이고. 내가 너무 많이 쓰나? | túl sokat = 너무 많이 | emotion=worried at=23:20
+B | Mindegy. Felejtsd el. 😅 | 됐어. 잊어 줘. 😅 | mindegy = 상관없어 | emotion=sad at=23:48
+A | Bocsi, elaludtam! Igen, múzeum! | 미안, 잠들었어! 응, 미술관! | elaludtam = 잠들었다 | emotion=flustered+excited at=07:15
+B | Nem én írtam. A macskám volt. 😳 | 나 아니야. 우리 고양이가 쓴 거야. 😳 | macska = 고양이 | emotion=flustered at=07:16
+A | A macskád cuki. Ő is jön? | 네 고양이 귀엽다. 걔도 와? | ő = 그 사람, 그것 | emotion=teasing at=07:17

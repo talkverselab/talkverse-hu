@@ -1,0 +1,20 @@
+=== r1_friends_b5
+kind: long
+title: 말하는 새
+emoji: 🦜
+scene: Réka 가 벼룩시장에서 앵무새를 사 왔다. 집에서 들은 말을 뭐든 따라 한다는데
+b: Réka
+c: Papagáj
+register: casual
+twist: 6 reveal
+purpose: making_friends
+goal: 놀람 표현과 -lak(너를 ~한다) 알아듣기
+expressions: Nézd; Komolyan?; Látod; Király
+B | Nézd, mit vettem a piacon! Ez a madár beszél! | 봐, 시장에서 뭐 샀게! 이 새 말해! | madár = 새 | emotion=excited
+A | Komolyan? Szia, madár! | 진짜? 안녕, 새야! | komolyan? = 진짜? | emotion=surprised+cheerful
+C | Szia, madár! Szia, madár! | 안녕, 새야! 안녕, 새야! | szia = 안녕 | emotion=cheerful
+B | Látod? Mindent mond, amit otthon hall. | 봤지? 집에서 듣는 건 다 말해. | látod = 봤지 | emotion=cheerful
+A | Király! Mit tud még? | 끝내준다! 또 뭐 할 줄 알아? | király = 끝내준다(원뜻은 왕) | emotion=excited
+C | Bence, szeretlek! Bence, szeretlek! | 벤체, 사랑해! 벤체, 사랑해! | szeretlek = 널 사랑해 | emotion=gentle
+A | Várj, melyik Bence? A kávézóból? | 잠깐… 어느 벤체? 카페 그 벤체? | kávézó = 카페 | emotion=surprised
+C | A kávézóból! Bence, szeretlek! | 카페 그 벤체! 벤체, 사랑해! | -ból/-ből = ~에서 | emotion=teasing+gentle

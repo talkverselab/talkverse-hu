@@ -1,0 +1,30 @@
+=== r3_culture_c1
+kind: chat
+title: 판매 중인 사람
+emoji: 🏷️
+scene: 토요일에 Réka 의 벼룩시장 일을 돕는다고 올렸다. 그런데 eladó 는 「판매원」이기도 「판매 중」이기도 하다
+b: Réka
+c: Anna
+d: Margit néni
+register: chat
+twist: 12 chaos
+flags: romance
+purpose: media love
+goal: 낱말 하나의 두 뜻(eladó)과 값 흥정 말
+expressions: Úristen; Mi a baj; Ne már; Mi van; Várjatok
+A | Szombaton Rékánál segítek a bolhapiacon. Eladó vagyok! 😄 | 토요일에 레카네 벼룩시장에서 도와! 나 eladó 야! 😄 | eladó = 판매원 / 팔려고 내놓은 | emotion=excited at=19:00
+B | Úristen, tényleg ezt írtad ki? 😂 | 세상에, 진짜 그렇게 올렸어? 😂 | kiír = 써서 올리다 | emotion=amused at=19:01
+A | Igen, miért? Mi a baj? | 응, 왜? 뭐가 문제야? | mi a baj? = 뭐가 문제야? | emotion=surprised at=19:01
+B | Eladó az, aki árul, de az is, amit el lehet adni. | eladó 는 파는 사람이기도 하지만, 팔 수 있는 물건이기도 해. | el lehet adni = 팔 수 있다 | emotion=amused at=19:02
+D | Mennyibe kerül, kedvesem? Tud krumplit pucolni? | 얼마유, 얘야? 감자 깎을 줄 아나? | mennyibe kerül? = 얼마예요? | emotion=cheerful at=19:04
+A | Margit néni! Nem, én nem vagyok eladó! | 머르기트 할머니! 아뇨, 저 안 팔아요! | nem vagyok eladó = 안 판다 | emotion=flustered at=19:04
+B | Ötezer! De biciklit nem tud szerelni. | 5천! 근데 자전거는 못 고쳐. | szerel = 고치다 | emotion=teasing at=19:05
+D | Hatezer, és adok hozzá bejglit. | 6천, 베이글리도 얹어 주지. | hozzá = 거기에 더해 | emotion=teasing at=19:06
+A | Ne már! Várjatok, törlöm! | 아 좀! 잠깐만, 지울게! | várjatok = 너희 기다려 | emotion=flustered at=19:07
+B | Késő, már negyvenen nézik. Béla bácsi hétezret ad. | 늦었어. 벌써 마흔 명이 보고 있어. 벨러 할아버지가 7천 낸대. | késő = 늦은 | emotion=teasing at=19:08
+A | Béla bácsi?! Mi van itt? | 벨러 할아버지?! 여기 뭐야? | bácsi = 아저씨, 할아버지 | emotion=surprised at=19:08
+C | Ötvenezer. | 5만. | ötvenezer = 5만 | emotion=stiff at=23:11
+A | Anna?! | 안나?! | ?! = 깜짝 놀랄 때 | emotion=surprised at=23:12
+C | Mi van? Eladtam egy rétest. | 왜? 레테시 하나 팔았거든. | eladtam = 내가 팔았다 | emotion=amused at=23:12
+B | Eladva! Szombaton viheted. 😘 | 낙찰! 토요일에 가져가. 😘 | eladva = 팔렸음 | emotion=excited at=23:13
+C | Csak szépen csomagold be. 🎁 | 예쁘게 포장해 줘. 🎁 | csomagold be = 포장해 줘 | emotion=gentle at=23:14

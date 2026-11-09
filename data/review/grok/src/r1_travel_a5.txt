@@ -1,0 +1,18 @@
+=== r1_travel_a5
+kind: short
+title: 세케시페헤르바르
+emoji: 🎫
+scene: 기차역 매표소. 도시 이름이 너무 길다
+b: Pénztáros
+register: polite
+twist: 6 reveal
+purpose: travel
+goal: 기차표 사기(-ra/-re, -ba/-be 가는 곳)
+expressions: Jó napot; izé; Sajnos; Ja
+A | Jó napot! Egy jegyet kérek Széke, Székes... | 안녕하세요! 표 한 장 주세요, 세케, 세케시… | jegyet = 표를 | emotion=polite+flustered
+B | Szegedre megy? | 세게드 가세요? | -re = ~로(도시) | emotion=polite
+A | Nem, nem. Székes, izé, fehér... | 아니요, 아니요. 세케시, 그, 페헤르… | izé = 그거, 뭐더라 | emotion=flustered
+B | Ja, Székesfehérvárra kéri? | 아, 세케시페헤르바르요? | ja = 아(알았을 때) | emotion=polite
+A | Igen, oda! Mikor indul a vonat? | 네, 거기요! 기차 언제 출발해요? | indul = 출발하다 | emotion=cheerful+polite
+B | Sajnos most ment el. Amíg mondta. | 아쉽지만 방금 떠났어요. 말씀하시는 동안에요. | amíg = ~하는 동안 | emotion=polite+amused
+A | Jaj! Akkor egy jegyet kérek Győrbe. | 아이고! 그럼 죄르 표로 주세요. | Győrbe = 죄르로 | emotion=flustered+polite

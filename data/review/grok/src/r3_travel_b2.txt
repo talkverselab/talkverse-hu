@@ -1,0 +1,26 @@
+=== r3_travel_b2
+kind: long
+title: 로자 민박
+emoji: 🏡
+scene: 에게르 근처 마을, 밤 10시. 민박을 찾던 {name} 이 불 켜진 집 문을 두드린다
+b: Néni
+register: mixed
+twist: 10 reveal
+purpose: travel
+goal: 어른께 인사하기(Csókolom)와 숙소·계산 묻기
+expressions: Csókolom; ugye; Hát persze; Hogyhogy; Úristen; Jaj
+A | Csókolom, elnézést a késésért! Ez a Rózsa panzió, ugye? | 안녕하세요, 할머니, 늦어서 죄송해요! 여기 로자 민박 맞죠? | csókolom = 어른께 드리는 인사 | emotion=polite
+B | Gyere be, gyere be! Jaj, de sovány vagy! | 들어와, 들어와! 아이고, 왜 이렇게 말랐어! | sovány = 마른 | emotion=cheerful+worried
+A | Köszönöm. Tudom, hogy késő van, de van még vacsora? | 고맙습니다. 늦은 거 아는데, 저녁 아직 있나요? | késő = 늦은 | emotion=polite
+B | Hát persze! Húsleves, töltött káposzta, és ülj már le! | 당연하지! 고깃국, 양배추말이, 얼른 앉아! | hát persze = 당연하지 | emotion=cheerful
+A | Hű, ez nagyon finom! A neten nem írták, hogy itt ilyen jó. | 와, 아주 맛있어요! 인터넷에 이렇게 좋다고는 안 쓰여 있었는데. | a neten = 인터넷에 | emotion=excited
+B | Egyél még! Aztán alhatsz a kisszobában. | 더 먹어! 그다음엔 작은방에서 자면 돼. | egyél = 먹어 | emotion=gentle
+A | Jó reggelt! Hol lehet fizetni, kártyával vagy készpénzzel? | (다음 날 아침) 안녕하세요! 어디서 계산해요, 카드요 현금이요? | készpénz = 현금 | emotion=polite
+B | Fizetni? Hát ez nem hotel, egyél még egy kicsit! | 돈을? 여기 호텔 아니야, 조금 더 먹어! | fizetni = 돈 내기 | emotion=surprised+gentle
+A | Hogyhogy nem hotel? Ez nem a Rózsa panzió? | 호텔이 아니라니요? 여기 로자 민박 아니에요? | hogyhogy = 어째서 | emotion=worried
+B | Rózsa én vagyok. A panzió a szomszéd faluban van. | 로자는 나야. 민박은 옆 마을에 있어. | szomszéd = 이웃 | emotion=amused
+A | Úristen! Akkor miért engedett be? | 세상에! 그럼 왜 저를 들여보내셨어요? | beenged = 들여보내다 | emotion=surprised+flustered
+B | Azt hittem, az unokámhoz jöttél. | 우리 손주 보러 온 줄 알았지. | unoka = 손주 | emotion=gentle
+A | Jaj, nagyon sajnálom! Akkor én most megyek. | 아이고, 정말 죄송해요! 그럼 저 이제 갈게요. | sajnálom = 죄송해요 | emotion=flustered+polite
+B | Hova mész? Az unokám úgyse jön, ebédre meg rakott krumpli lesz. | 어딜 가? 손주는 어차피 안 와, 점심은 감자 그라탱이야. | úgyse = 어차피 ~ 않다 | emotion=gentle
+A | Rózsa néni, és holnap mit főz? | 로자 할머니, 내일은 뭐 만드세요? | főz = 요리하다 | emotion=cheerful

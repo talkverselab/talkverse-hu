@@ -1,0 +1,29 @@
+=== r3_life_b3
+kind: long
+title: 뇌진탕 검사
+emoji: 🏥
+scene: 온천에서 미끄러져 머리를 찧고 응급실에 왔다. 날짜도 모르는데, 내기로 외운 헝가리어 최장 단어는 안다
+b: Dávid
+c: Orvos
+d: Nővér
+register: mixed
+twist: 11 chaos
+purpose: study_abroad
+goal: 병원에서 다친 경위 말하기, 긴 단어 농담
+expressions: Hát; Izé; Rendben; Figyelj; Úristen
+C | Jó napot, mi történt? Hol fáj? | 안녕하세요! 무슨 일이에요? 어디가 아파요? | mi történt? = 무슨 일이에요? | emotion=polite
+A | Jó napot! Elcsúsztam a fürdőben, és megütöttem a fejem. | 안녕하세요! 온천에서 미끄러져서 머리를 부딪쳤어요. | elcsúsztam = 미끄러졌다 | emotion=polite
+B | Én hoztam be. Azóta furcsákat mond, doktor úr. | 제가 데려왔어요. 그 뒤로 이상한 말을 해요, 의사 선생님. | furcsa = 이상한 | emotion=worried
+C | Rendben, ellenőrizzük. Milyen nap van ma? | 네, 확인해 봅시다. 오늘 무슨 요일이죠? | ellenőrizzük = 확인합시다 | emotion=polite
+A | Hát, izé... hétfő vagy szombat? | 음, 저기… 월요일이나 토요일? | izé = 저기, 그거 | emotion=flustered
+C | Szerda. Hogy hívják a szobatársát? | 수요일이에요. 룸메이트 이름이 뭐죠? | hogy hívják? = 이름이 뭐예요? | emotion=stiff
+A | Őt? Hát, ő az, aki sokat eszik. | 쟤요? 음… 많이 먹는 애요. | aki = ~하는 사람 | emotion=flustered
+B | Jaj, ne már. Doktor úr, ez komoly? | 아 좀. 의사 선생님, 심각한 거예요? | komoly = 심각한 | emotion=annoyed+worried
+C | Még egy teszt. Mondjon nekem egy hosszú magyar szót. | 검사 하나 더요. 긴 헝가리어 단어 하나 말해 보세요. | mondjon = 말하세요(존댓말) | emotion=polite
+A | Megszentségteleníthetetlenségeskedéseitekért. | (헝가리어에서 가장 길다는 그 단어.) | 뜻은 몰라도 된다: 농담으로 쓰는 긴 단어 | emotion=cheerful
+C | Tessék?! Ezt még egyszer, lassan! | 네?! 다시 한번, 천천히요! | még egyszer = 한 번 더 | emotion=surprised+excited
+D | Mi történt, doktor úr? Rosszul van a beteg? | 무슨 일이에요, 선생님? 환자가 안 좋아요? | rosszul van = 몸이 안 좋다 | emotion=worried
+C | Hallgassa! Ezt húsz éve nem tudom kimondani. | 들어 보세요! 나는 이걸 20년째 못 말해요. | kimondani = 말로 내뱉다 | emotion=excited
+A | Megszentségteleníthetetlenségeskedéseitekért. Mehetek már? | (또 그 단어.) 이제 가도 돼요? | mehetek = 가도 돼요? | emotion=cheerful+polite
+D | Úristen! Hívom a főorvost és az egész osztályt! | 세상에! 과장님이랑 병동 전체를 부를게요! | főorvos = 과장 의사 | emotion=shout+excited
+B | Figyelj, nem tudod a nevemet, de ezt tudod? Akkor te mosogatsz. | 야, 내 이름은 몰라도 그건 안다고? 그럼 설거지는 네가 해. | mosogatsz = 네가 설거지한다 | emotion=tsukkomi

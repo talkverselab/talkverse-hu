@@ -1,0 +1,21 @@
+=== r1_love_b4
+kind: long
+title: 서른 개의 감자
+emoji: 📓
+scene: 벤치에서 주운 Anna 의 스케치북. Réka 가 열지 말라는데 이미 열었다
+b: Réka
+c: Anna
+register: casual
+twist: 6 reveal
+flags: romance
+purpose: love
+goal: 금지 명령(Ne nyisd ki!)과 '벌써 ~했어'
+expressions: Komolyan; Hű; Szóval; Várj
+A | Réka, nézd, ezt a padon találtam. Anna rajzfüzete? | 레카, 봐, 이거 벤치에서 찾았어. 언너 스케치북이야? | pad = 벤치 | emotion=neutral
+B | Igen, az övé. Ne nyisd ki, komolyan mondom! | 응, 걔 거야. 열지 마, 진심이야! | ne nyisd ki = 열지 마 | emotion=neutral+worried
+A | Már kinyitottam. Hű, itt nagyon sok krumpli van. | 벌써 열었어. 와, 여기 감자가 엄청 많아. | már = 벌써 | emotion=neutral+surprised
+B | Ja, azok? Azok nem krumplik. | 아, 그거? 그거 감자 아니야. | ja = 아 | emotion=amused
+A | Várj. Ennek a krumplinak az én orrom van. | 잠깐. 이 감자, 내 코를 하고 있어. | orr = 코 | emotion=surprised
+B | Mind te vagy. Harminc oldal, csupa te. | 전부 너야. 서른 쪽이 다 너. | csupa = 온통 | emotion=gentle
+A | Harminc? Szóval Anna engem... | 서른 쪽? 그러니까 언너가 나를… | szóval = 그러니까 | emotion=surprised+shy
+C | Sziasztok! Nem láttátok a füzetemet? | 얘들아 안녕! 내 공책 못 봤어? | láttátok = 너희가 그걸 봤다 | emotion=cheerful

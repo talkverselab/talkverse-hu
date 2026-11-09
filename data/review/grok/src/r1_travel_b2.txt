@@ -1,0 +1,18 @@
+=== r1_travel_b2
+kind: long
+title: 웨이터 하나 주세요
+emoji: 🍲
+scene: 식당. 메뉴에서 외운 말을 자신 있게 말했는데 웨이터 표정이 이상하다
+b: Pincér
+register: polite
+twist: 7 slip
+purpose: travel
+goal: 식당 주문(… kérek)과 비슷한 낱말 구별
+expressions: Mit hozhatok?; ugye; Hát; Jaj
+B | Jó estét! Mit hozhatok? | 안녕하세요! 뭘 가져다 드릴까요? | hozhatok = 가져올 수 있다 | emotion=polite
+A | Egy pincért kérek, nokedlivel és tejföllel. | 웨이터 하나 주세요, 노케들리랑 사워크림 곁들여서요. | tejföl = 사워크림 | emotion=cheerful
+B | Egy pincért? Nokedlivel? | 웨이터요? 노케들리랑요? | pincér = 웨이터 | emotion=surprised
+A | Igen! Nagyon finom, ugye? | 네! 아주 맛있죠? | ugye = ~죠? | emotion=excited
+B | Hát, ezt még senki nem mondta. Pörköltet kér? | 글쎄요, 그런 말은 처음 듣네요. 푀르쾰트 말씀이세요? | pörkölt = 파프리카 고기 스튜 | emotion=amused+polite
+A | Jaj, igen, pörköltet! És mi a pincér? | 아이고, 네, 푀르쾰트요! 그럼 웨이터가 뭐예요? | mi = 무엇 | emotion=flustered+neutral
+B | Én vagyok az. De tejföl nélkül olcsóbb vagyok. | 저예요. 그래도 사워크림 없으면 더 쌉니다. | olcsóbb = 더 싼 | emotion=polite+teasing

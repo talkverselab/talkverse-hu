@@ -1,0 +1,28 @@
+=== r3_work_b4
+kind: long
+title: 매일 오는 할머니
+emoji: 🏠
+scene: 임대료를 세 배로 올린다는 편지가 왔다. 카페가 문을 닫게 생겼는데, 오늘도 그 할머니가 커피를 드시러 온다
+b: Bence
+c: Néni
+register: mixed
+twist: 14 reveal
+purpose: work_hungary
+goal: 걱정 나누기와 어르신께 말하기(3인칭 존댓말)
+expressions: Hát; Sajnos; Szerintem; Mindegy; Figyelj; Ne már; Tessék
+B | Olvastad a levelet? A tulajdonos háromszor annyit kér a helyért. | 편지 읽었어? 건물주가 임대료를 세 배로 달래. | tulajdonos = 주인 | emotion=worried
+A | Háromszor annyit? Hát ezt nem tudjuk kifizetni! | 세 배? 그건 못 내지! | kifizetni = 다 내다 | emotion=surprised
+B | Sajnos nem. Szerintem egy hónap múlva bezárunk. | 못 내지. 내 생각엔 한 달 뒤면 문 닫아. | egy hónap múlva = 한 달 뒤에 | emotion=sad
+A | Ki ez a tulajdonos? Még sosem láttuk. | 건물주가 누군데? 한 번도 못 봤잖아. | még sosem = 아직 한 번도 안 | emotion=annoyed
+B | Senki sem tudja. Csak a levelei jönnek. | 아무도 몰라. 편지만 와. | levelei = 그의 편지들 | emotion=sad
+A | Mindegy. Jön a néni, legalább ő ne tudja meg. | 아무튼. 할머니 오신다, 저분은 모르시게 하자. | legalább = 적어도 | emotion=sad+worried
+C | Csókollak, kedves! Mi van, miért ilyen szomorú? | 뽀뽀할게요! 무슨 일이에요, 왜 이렇게 시무룩해요? | csókollak = 그때 그 실수를 놀리는 말 | emotion=cheerful+worried
+A | Semmi, néni. Tessék, a kávéja, ma is ingyen van. | 아무것도 아니에요, 할머니. 여기 커피요, 오늘도 공짜예요. | ingyen = 공짜로 | emotion=gentle
+B | Figyelj, már egy éve ingyen iszik. Ezért nincs pénzünk! | 야, 벌써 1년째 공짜로 드시잖아. 그러니까 돈이 없지! | ezért = 그래서 | emotion=annoyed
+A | Egy nyugdíjas néni? Ne már, egy kávé nem gond. | 연금으로 사시는 할머니인데? 에이, 커피 한 잔이 뭐라고. | nyugdíjas = 연금 생활자 | emotion=gentle
+C | Milyen levél? Mutassa csak! | 무슨 편지요? 어디 봐요! | mutassa = 보여 주세요(존댓말) | emotion=surprised
+C | Jaj, ezt az unokám írta. Szólok neki, hogy ne írjon többet. | 아이고, 이건 내 손주가 썼네. 더 쓰지 말라고 일러야겠어요. | unoka = 손주 | emotion=amused
+B | Az unokája? Ezt hogy érti, néni? | 손주분이요? 그게 무슨 말씀이세요, 할머니? | hogy érti? = 무슨 뜻이에요? | emotion=surprised
+C | A ház az enyém, kedves. Az egész utca is. | 이 건물 내 거예요. 이 거리 전체도요. | az enyém = 내 것 | emotion=gentle
+A | És én egy éve ingyen adok Önnek kávét? | 그럼 저는 1년째 공짜 커피를 드린 거예요? | Önnek = 당신께(존댓말) | emotion=surprised
+C | Igen. Holnap is jövök, csókollak! | 그래요. 내일도 올게요, 뽀뽀! | -lak = 내가 너를 ~한다 | emotion=amused+cheerful

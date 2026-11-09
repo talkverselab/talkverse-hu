@@ -1,0 +1,29 @@
+=== r3_love_b1
+kind: long
+title: 가장 긴 단어
+emoji: 🍽️
+scene: 식당 데이트. Anna 가 헝가리어에서 가장 긴 단어를 말해 보라며 내기를 건다. 이 식당에 전통이 있는 줄은 몰랐다
+b: Anna
+c: Pincér
+register: mixed
+twist: 11 chaos
+flags: romance
+purpose: love
+goal: 내기·조건문, 식당에서의 존댓말, 긴 낱말을 끊어 읽기
+expressions: Figyelj; Naná; Komolyan?; Mi van?; Tudod
+B | Figyelj, ismered a leghosszabb magyar szót? Ha kimondod, a következő randit én fizetem. | 있잖아, 헝가리어에서 제일 긴 단어 알아? 말하면 다음 데이트는 내가 낼게. | leghosszabb = 가장 긴 | emotion=teasing
+A | Naná. Tegnap éjjel három óráig gyakoroltam, mert tudtam, hogy ezzel jössz. | 당연하지. 어젯밤 세 시까지 연습했어, 네가 이걸로 나올 줄 알았거든. | ezzel jössz = 이걸로 나온다 | emotion=amused
+B | Komolyan? Na, halljuk, de lassan, hogy élvezzem! | 진짜? 자, 들어 보자, 대신 천천히, 내가 즐길 수 있게! | halljuk = 들어 보자 | emotion=surprised+teasing
+A | Megszentségtelenít... izé, hol tartottam? | 메그센트셰그텔레니트… 어, 어디까지 했지? | hol tartottam? = 어디까지 했지? | emotion=flustered
+C | Elnézést, jól hallom? Itt valaki a nagy szót próbálja kimondani? | 실례합니다, 제가 제대로 들었나요? 여기 누가 그 큰 단어를 시도하시나요? | próbál = 시도한다 | emotion=polite
+A | Igen, de ez csak kettőnk között van. Nem kell semmit csinálni. | 네, 근데 이건 저희 둘 사이 일이에요. 아무것도 안 하셔도 돼요. | kettőnk között = 우리 둘 사이 | emotion=flustered
+C | Hölgyeim és uraim, figyelem! A kettes asztal most elmondja a leghosszabb magyar szót! | 신사 숙녀 여러분, 주목! 2번 테이블이 지금 가장 긴 헝가리어 단어를 말합니다! | figyelem = 주목 | emotion=excited
+A | Mi van? Anna, miért áll fel mindenki? | 뭐야? 언너, 왜 다들 일어나? | feláll = 일어선다 | emotion=surprised+worried
+B | Ja, tudod, ez itt szokás. Ha sikerül, ingyen vacsorázunk. | 아, 있잖아, 여기 풍습이야. 성공하면 저녁이 공짜야. | szokás = 풍습 | emotion=teasing
+A | És ha nem sikerül? | 실패하면? | sikerül = 성공한다 | emotion=worried
+C | Akkor a vendég mosogat. Tessék, mindenki figyel! | 그럼 손님이 설거지합니다. 자, 다들 듣고 있습니다! | mosogat = 설거지한다 | emotion=stiff+excited
+A | Megszentségteleníthetetlen... jaj, ez már nem magyar. | 메그센트셰그텔레니트헤테틀렌… 아이고, 이건 이제 헝가리어가 아니야. | már nem = 더는 아닌 | emotion=flustered
+C | Sajnálom. A konyha arra van, a kötényt megtalálja a széken. | 유감입니다. 주방은 저쪽이고, 앞치마는 의자에 있습니다. | kötény = 앞치마 | emotion=polite
+B | Hé, várjon! Két kötényt kérek. | 저기요, 잠깐만요! 앞치마 두 개 주세요. | várjon = 기다리세요 | emotion=cheerful
+A | Te miért jössz? Te nem hibáztál. | 넌 왜 와? 넌 틀리지 않았잖아. | hibázik = 실수한다 | emotion=surprised
+B | Mert még nem akarok hazamenni. Te mosol, én törölök. | 아직 집에 가기 싫으니까. 네가 씻어, 내가 닦을게. | hazamenni = 집에 가다 | emotion=shy+gentle

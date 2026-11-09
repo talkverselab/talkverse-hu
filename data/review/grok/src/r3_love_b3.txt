@@ -1,0 +1,29 @@
+=== r3_love_b3
+kind: long
+title: 사흘째 읽씹
+emoji: 📵
+scene: Anna 가 사흘째 답이 없다. A 는 룸메이트 Dávid 에게 대화창을 보여 준다
+b: Dávid
+c: Anna
+register: casual
+twist: 10 reveal
+flags: romance
+purpose: love making_friends
+goal: 조언 구하기(Szerinted mit csináljak?)와 말리는 말(Ne …!)
+expressions: Figyelj; Te jó ég; Ne már; Oké; Úristen
+A | Figyelj, Anna három napja nem válaszol. Szerinted most mit csináljak? | 있잖아, 언너가 사흘째 답이 없어. 어떻게 하면 좋을까? | három napja = 사흘째 | emotion=worried
+B | Mutasd! Hány üzenetet küldtél neki? | 보여 줘! 몇 통 보냈어? | üzenet = 메시지 | emotion=neutral
+A | Csak tizennégyet. Az utolsó egy krumpli volt, szívvel. | 겨우 열네 통. 마지막은 하트 붙인 감자였어. | szívvel = 하트와 함께 | emotion=shy
+B | Te jó ég. Nem akarok semmit mondani, de ez durva. | 맙소사. 뭐라 하고 싶진 않은데, 이건 심하다. | durva = 심한 | emotion=tsukkomi
+A | Ne már! Először ő írt, és ő sütött nekem rétest. | 에이! 처음엔 걔가 먼저 썼고, 걔가 나한테 레테시도 구워 줬어. | először = 처음에 | emotion=annoyed
+B | Oké, nyugodj meg, és legalább ma estig ne írj semmit. | 알았어, 진정해, 그리고 적어도 오늘 저녁까진 아무것도 쓰지 마. | nyugodj meg = 진정해 | emotion=gentle
+A | Nem bírom. Már megírtam egy új üzenetet, hosszú és őszinte. | 못 참겠어. 벌써 새 메시지 썼어, 길고 솔직하게. | őszinte = 솔직한 | emotion=worried
+B | Add ide a telefont! Várj, te kinek írsz? | 전화기 이리 줘! 잠깐, 너 누구한테 쓰는 거야? | kinek = 누구에게 | emotion=shout+surprised
+A | Annának. Itt van a neve, nézd. | 언너한테. 여기 이름 있잖아, 봐. | itt van = 여기 있다 | emotion=neutral
+B | Figyelj, ez nem a te Annád. Ez a szomszéd Anna néni száma! | 있잖아, 이건 네 언너가 아니야. 옆집 언너 아주머니 번호야! | szomszéd = 이웃 | emotion=surprised
+A | Mi van? A szomszédnak küldtem a krumplit is? | 뭐? 옆집에 감자까지 보냈다고? | a szomszédnak = 이웃에게 | emotion=flustered
+B | Várj, most jött válasz: „Köszönöm a krumplit, de nekem már van férjem.” | 잠깐, 지금 답 왔어. "감자 고마워요, 그런데 나는 남편이 있어요." | férj = 남편 | emotion=amused
+A | Úristen! Akkor az igazi Anna mit gondol rólam? | 세상에! 그럼 진짜 언너는 나를 뭐라고 생각할까? | igazi = 진짜 | emotion=flustered
+B | Azt nem tudom, de valaki csenget. Kinyitom. | 그건 모르겠고, 누가 벨을 눌렀어. 내가 열게. | csenget = 벨을 누른다 | emotion=neutral
+C | Három napja várom, hogy írj. Azt hittem, már nem tetszem neked. | 사흘째 네 메시지만 기다렸어. 내가 이제 마음에 안 드는 줄 알았어. | várom, hogy írj = 네가 쓰길 기다린다 | emotion=sad
+A | Anna, mindjárt mindent elmondok. Csak előbb bocsánatot kérek egy nénitől. | 언너, 금방 다 말해 줄게. 먼저 어떤 아주머니께 사과부터 하고. | bocsánatot kérek = 사과한다 | emotion=gentle+flustered

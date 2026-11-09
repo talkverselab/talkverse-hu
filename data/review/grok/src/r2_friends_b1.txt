@@ -1,0 +1,26 @@
+=== r2_friends_b1
+kind: long
+title: 가방 속 고백
+emoji: 🦜
+scene: 맡아 둔 앵무새를 집에 못 두고 카페까지 데려왔다. 하필 Bence 의 카페다
+b: Réka
+c: Papagáj
+d: Bence
+register: casual
+twist: 8 chaos
+flags: romance
+purpose: making_friends
+goal: 당황할 때 쓰는 말과 남에게 떠넘기기
+expressions: Mi van; Nyugi; Nézd; Sziasztok; Tessék; ne már
+B | Mi van a táskádban? Miért mozog? | 네 가방에 뭐야? 왜 움직여? | mozog = 움직인다 | emotion=worried
+A | A madarad. Otthon egész nap sírt, ezért elhoztam. | 네 새야. 집에서 종일 울어서 데려왔어. | ezért = 그래서 | emotion=worried
+B | Mi?! Ide hoztad, Bence kávézójába?! | 뭐?! 여길 데려왔어, 벤체 카페에?! | ide = 여기로 | emotion=shout
+A | Nyugi, alszik. Nézd, egy szót sem mond. | 진정해, 자고 있어. 봐, 한마디도 안 하잖아. | nyugi = 진정해 | emotion=cheerful
+D | Sziasztok! Mit kértek, friss rétest? | 안녕! 뭐 줄까, 갓 구운 레테시? | sziasztok = 안녕(여럿에게) | emotion=cheerful
+C | Bence, szeretlek! Bence, szeretlek! | 벤체, 사랑해! 벤체, 사랑해! | szeretlek = 널 사랑해 | emotion=excited
+D | Tessék? Ki mondta ezt? | 뭐? 누가 그랬어? | tessék? = 뭐라고? | emotion=surprised
+B | Nem én! Izé, {name} mondta! | 나 아냐! 어, {name} 쟤가 그랬어! | izé = 어, 그게(말 막힐 때) | emotion=flustered
+A | Én?! Réka, ne már! | 내가?! 레카, 그러지 마! | ne már = 그러지 마 | emotion=tsukkomi
+D | Hű. Figyelj, ez kedves, de én csak kávét tudok adni. | 와. 야, 고맙긴 한데 내가 줄 수 있는 건 커피뿐이야. | kedves = 다정한 | emotion=gentle
+C | Kávét! Bence, szeretlek! | 커피! 벤체, 사랑해! | kávét = 커피를 | emotion=excited
+B | Holnap eladom ezt a madarat. Olcsón. | 내일 이 새 판다. 싸게. | olcsón = 싸게 | emotion=annoyed

@@ -1,0 +1,25 @@
+=== r2_study_c1
+kind: chat
+title: 물음표 하나
+emoji: ❓
+scene: 수업 단톡방. Réka 의 물음표 하나가 저녁 내내 커진다
+b: Réka
+c: Anna
+d: Tanárnő
+register: chat
+twist: 7 chaos
+purpose: study_abroad
+goal: 소문 전하기(Azt hallottam, hogy…)와 단톡방 반응
+expressions: Nem tudom; Szerintem; Tényleg; Szuper; Komolyan; Durva
+B | Holnap elmarad az óra? | 내일 휴강이야? | elmarad = 취소된다 | emotion=neutral at=18:02
+A | Nem tudom. Szerintem igen. | 몰라. 아마 그럴걸. | szerintem = 내 생각엔 | emotion=neutral at=18:03
+C | Tényleg elmarad? Szuper! | 진짜 휴강이야? 좋다! | tényleg = 정말 | emotion=excited at=18:05
+B | Azt hallottam, hogy egész héten elmarad. | 이번 주 내내 휴강이라고 들었어. | azt hallottam = 그렇게 들었다 | emotion=excited at=18:11
+A | Komolyan? Ki mondta? | 진짜? 누가 그랬어? | komolyan? = 진짜? | emotion=surprised at=18:12
+B | Te mondtad. | 네가 그랬잖아. | te mondtad = 네가 말했다 | emotion=tsukkomi at=18:12
+C | Úristen, azt írják, hogy bezár az egyetem! 😱 | 세상에, 학교가 문 닫는대! 😱 | bezár = 문을 닫다 | emotion=surprised at=18:20
+A | Durva. Akkor már veszem is a repülőjegyet. | 대박. 그럼 비행기표 바로 산다. | veszem = 내가 그것을 산다 | emotion=amused at=18:31
+B | Én meg eladtam a tankönyvemet. | 난 교재 팔았어. | eladtam = 내가 팔았다 | emotion=neutral at=18:33
+D | Jó estét! Holnap nyolckor dolgozat lesz. | 좋은 저녁이에요! 내일 8시에 쪽지시험 봅니다. | dolgozat = 쪽지시험, 보고서 | emotion=polite at=18:40
+C | Tanárnő, Ön is itt van?! | 선생님, 여기 계셨어요?! | Ön is = 당신도(존댓말) | emotion=flustered at=18:41
+D | Mindig itt voltam. A repülőjegy visszaváltható? 😇 | 전 항상 있었어요. 비행기표는 환불되나요? 😇 | visszaváltható = 환불할 수 있는 | emotion=teasing at=18:42 stamp=😇

@@ -1,0 +1,19 @@
+=== r1_life_b2
+kind: long
+title: 이름의 날이 없는 사람
+emoji: 💐
+scene: 집 안이 꽃투성이다. Dávid 의 이름의 날(névnap)인데, 내 이름은 달력에 없다
+b: Dávid
+register: casual
+twist: 8 emotion
+purpose: study_abroad
+goal: 이름의 날 문화와 「그건 또 뭐야?」 묻기
+expressions: Az meg mi?; Hát; Sajnos; Nézd
+A | Miért van itt ennyi virág? | 왜 여기 꽃이 이렇게 많아? | ennyi = 이만큼 | emotion=surprised
+B | Ma van a névnapom! Marika néni hozta. | 오늘 내 이름의 날이야! 마리카 아주머니가 갖다주셨어. | névnap = 이름의 날 | emotion=cheerful
+A | Névnap? Az meg mi, születésnap? | 이름의 날? 그건 또 뭐야? 생일이야? | az meg mi? = 그건 또 뭐야? | emotion=surprised
+B | Nem. Minden névnek van egy napja. | 아니. 이름마다 자기 날이 있어. | névnek ... napja = 이름의 날 | emotion=neutral
+A | És az én nevemnek? | 내 이름은? | nevemnek = 내 이름에게 | emotion=excited
+B | Hát... sajnos az nincs a naptárban. | 음… 아쉽지만 그건 달력에 없어. | naptár = 달력 | emotion=sad
+A | Jaj. Szóval nekem soha nincs névnapom. | 아이고. 그럼 나는 이름의 날이 영영 없네. | soha nincs = 절대 없다 | emotion=sad
+B | Nézd, beleírtam: holnap van. Te hozod a tortát! | 봐, 써 넣었어. 내일이야. 케이크는 네가 가져와! | beleírtam = 안에 적어 넣었다 | emotion=gentle+teasing

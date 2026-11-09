@@ -1,0 +1,25 @@
+=== r2_travel_b3
+kind: long
+title: 6번 방 손님
+emoji: 💒
+scene: 에게르 호텔 복도. 방을 찾아가는데 연회장 결혼식 하객이 {name} 을 끌고 들어간다
+b: Bácsi
+c: Vőfély
+register: mixed
+twist: 12 chaos
+flags: alcohol
+purpose: travel
+goal: 상황 설명하기와 긴 낱말 알아듣기
+expressions: Na végre; Persze; Elnézést; izé; Mi van?; Nyugi
+B | Na végre, hol voltál? Mindenki téged vár! | 드디어, 어디 있었어? 다들 너 기다려! | na végre = 드디어 | emotion=excited
+A | Elnézést, én csak a szobámba megyek. A hatos szobába. | 죄송해요, 저는 제 방에 가는 건데요. 6번 방이요. | a szobámba = 내 방으로 | emotion=polite
+B | Persze, persze. Gyere, előbb egy pohár pálinka! | 그래, 그래. 와, 먼저 팔린카 한 잔! | előbb = 먼저 | emotion=cheerful
+A | De én nem ismerem a menyasszonyt! | 그런데 저 신부를 몰라요! | menyasszony = 신부 | emotion=flustered
+B | Én sem! Én a vőlegény nagybátyja vagyok. | 나도 몰라! 나는 신랑 삼촌이야. | vőlegény = 신랑 | emotion=amused
+C | Csendet kérek! Most a vendégünk mond pár szót! | 조용히 해 주세요! 이제 우리 손님이 한 말씀 하십니다! | pár szó = 몇 마디 | emotion=shout+excited
+A | Izé, jó estét. Magyarul tanulok, és sok boldogságot! | 저기, 안녕하세요. 헝가리어 배우는 중이고요, 행복하세요! | sok boldogságot = 행복하세요 | emotion=flustered
+B | Hű, de szép volt! Most jön a menyasszonytánc! | 와, 정말 멋졌어! 이제 신부 춤이야! | tánc = 춤 | emotion=excited
+A | Mi az a menyasszonytánc? | 그게 뭐예요? | mi az a …? = …가 뭐야? | emotion=worried
+B | Fizetsz, és táncolsz a menyasszonnyal. Ötezer forint. | 돈 내고 신부랑 춤추는 거야. 5천 포린트. | menyasszonnyal = 신부와 | emotion=cheerful
+A | Mi van? Még a szobámat se láttam! | 네? 저 아직 제 방도 못 봤어요! | se = ~조차 아니다 | emotion=tsukkomi
+B | Nyugi, a hatos szobában most a torta van. | 진정해, 지금 6번 방에는 케이크가 있어. | torta = 케이크 | emotion=amused

@@ -1,0 +1,23 @@
+=== r2_work_b1
+kind: long
+title: 20분짜리 면접
+emoji: 🪑
+scene: 카페 아르바이트 면접 날. 창가에 앉은 남자가 앉으라고 해서 열심히 자기소개를 했다
+b: Férfi
+c: Bence
+register: mixed
+twist: 10 reveal
+purpose: work_hungary
+goal: 일자리 찾아온 용건 말하기와 할 수 있는 일 말하기(tudok + 동사원형)
+expressions: Elnézést; Tessék; Szóval; bocsi; Na jó
+A | Elnézést, az állás miatt jöttem. | 실례합니다, 일자리 때문에 왔어요. | miatt = ~ 때문에 | emotion=polite
+B | Az állás miatt? Tessék, üljön le. | 일자리요? 네, 앉으세요. | üljön le = 앉으세요(존댓말) | emotion=surprised+polite
+A | Köszönöm. Nagyon szeretem a kávét, és gyorsan tanulok. | 감사합니다. 커피를 정말 좋아하고, 빨리 배워요. | gyorsan = 빨리 | emotion=polite
+B | Értem. És mit tud még? | 그렇군요. 또 뭘 할 수 있어요? | mit tud? = 뭘 할 수 있어요?(존댓말) | emotion=stiff
+A | Hétvégén is tudok dolgozni. Reggel hatkor is! | 주말에도 일할 수 있어요. 아침 여섯 시에도요! | -kor = ~시에 | emotion=excited
+B | Hatkor? Hű, az durva. | 여섯 시에요? 와, 그건 세네요. | durva = 심하다, 장난 아니다 | emotion=surprised
+A | Szóval... megkaptam az állást? | 그래서… 저 붙었나요? | megkaptam = 받아 냈다(정활용) | emotion=shy
+C | Szia, bocsi a késésért! Te jöttél az állás miatt? | 안녕, 늦어서 미안! 일자리 때문에 온 사람이 너야? | a késésért = 늦은 것에 대해 | emotion=cheerful
+A | Igen, de már beszéltem a főnökkel. Ő az, ugye? | 네, 근데 사장님이랑 벌써 얘기했어요. 이분 맞죠? | ő az = 저분이 그 사람이다 | emotion=polite+worried
+B | Én csak egy kávét szeretnék. Húsz perce várok. | 저는 그냥 커피 한 잔 마시고 싶은데요. 20분째 기다리고 있어요. | húsz perce = 20분째 | emotion=stiff+annoyed
+C | Na jó, fel vagy véve. Vidd neki a kávét! | 좋아, 합격. 저분한테 커피 갖다 드려! | fel vagy véve = 너 채용됐어 | emotion=amused+teasing

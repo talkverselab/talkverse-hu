@@ -1,0 +1,23 @@
+=== r2_work_b4
+kind: long
+title: 월급 10퍼센트
+emoji: 🔑
+scene: 용기를 내서 사장에게 월급 인상을 말했다. 사장이 너무 쉽게 좋다고 한다
+b: Főnök
+register: mixed
+twist: 10 chaos
+purpose: work_hungary
+goal: 윗사람에게 말 꺼내기와 조건 듣기(De akkor…)
+expressions: Persze; Komolyan; Jól van; Rendben; Hát; Tessék
+A | Főnök úr, van egy perce? | 사장님, 잠깐 시간 있으세요? | van egy perce? = 1분 있으세요? | emotion=polite
+B | Persze. Mi a baj? | 그럼. 무슨 일이야? | mi a baj? = 무슨 문제야? | emotion=neutral
+A | Szeretnék több pénzt. Tíz százalékkal többet. | 돈을 더 받고 싶어요. 10퍼센트 더요. | -kal/-kel = ~만큼 | emotion=shy
+B | Tízet? Nem, adok harmincat. | 10? 아니, 30 줄게. | adok = 내가 준다 | emotion=surprised+cheerful
+A | Komolyan? Köszönöm, főnök úr! | 정말요? 감사합니다, 사장님! | komolyan? = 진심이에요? | emotion=surprised+excited
+B | De akkor szombaton is te nyitsz. | 대신 토요일에도 네가 문 열어. | nyitsz = 네가 연다 | emotion=teasing
+A | Jól van. Rendben. | 네. 알겠습니다. | rendben = 알겠다, 좋다 | emotion=polite
+B | És vasárnap is. És te rendeled a poharakat. | 일요일도. 컵 주문도 네가 해. | rendeled = 네가 그것을 주문한다(정활용) | emotion=teasing
+A | Hát, oké. Még valami? | 음, 네. 또 있어요? | még valami? = 또 뭐 있어요? | emotion=worried
+B | Igen, itt a kulcs. Holnaptól te vagy a főnök. | 응, 여기 열쇠. 내일부터 네가 사장이야. | holnaptól = 내일부터 | emotion=cheerful
+A | Tessék?! És Ön hova megy? | 네?! 그럼 사장님은 어디 가시는데요? | Ön = 당신(존댓말) | emotion=shout+flustered
+B | A Balatonra. Harminc éve várok erre! | 벌러톤에. 30년을 기다렸어! | erre = 이것을(vár + -ra) | emotion=excited

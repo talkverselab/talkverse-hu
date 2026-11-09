@@ -1,0 +1,23 @@
+=== r2_work_b3
+kind: long
+title: 할머니께 드린 인사
+emoji: 👵
+scene: Bence 가 어르신께 쓰는 인사를 가르쳐 준다. 어미 하나만 틀리면 뜻이 완전히 달라진다
+b: Bence
+c: Néni
+register: mixed
+twist: 6 slip
+purpose: work_hungary
+goal: 어르신 인사 csókolom 과 어미 -om / -lak 의 차이
+expressions: Figyelj; Igazából; Durva; Tessék; Ne már
+B | Figyelj, a néniknek itt azt mondjuk: csókolom. | 잘 들어, 여기선 할머니들한테 「초콜롬」이라고 해. | csókolom = 어르신께 드리는 인사 | emotion=cheerful
+A | Csókolom? Az mit jelent? | 초콜롬? 그게 무슨 뜻이야? | jelent = 뜻하다 | emotion=neutral
+B | Igazából azt, hogy kezét csókolom. De ez csak köszönés. | 사실은 「손에 입 맞춥니다」라는 말이야. 그래도 그냥 인사야. | köszönés = 인사 | emotion=neutral
+A | Durva. És mindig így kell mondani? | 세다. 항상 이렇게 말해야 해? | így = 이렇게 | emotion=surprised
+B | Csak az idősebb néniknek. Na, jön egy! | 나이 드신 할머니들한테만. 자, 한 분 오신다! | idősebb = 나이가 더 많은 | emotion=neutral+excited
+A | Csókollak, néni! Mit kér? | 너한테 뽀뽀할게요, 할머니! 뭐 드릴까요? | csókollak = 내가 너에게 입 맞춘다(-lak) | emotion=cheerful
+C | Tessék? Mit mondott, kedves? | 네? 뭐라고 했어요? | kedves = 어른이 젊은이를 부르는 말 | emotion=surprised
+B | Jaj, ne már! Csókolom, nem csókollak! | 아이고, 아 좀! 초콜롬이지, 초콜러크가 아니야! | ne már = 아 좀, 그러지 마 | emotion=tsukkomi
+A | Bocsánat, néni! Nem akarom megcsókolni! | 죄송해요, 할머니! 입 맞출 생각 없어요! | nem akarom = 원하지 않는다 | emotion=flustered
+C | Kár. Ezt negyven éve nem mondta nekem senki. | 아쉽네. 그 말을 40년째 아무도 안 해 줬는데. | kár = 아쉽다 | emotion=gentle
+B | Na, ő holnap is itt lesz. | 자, 저분 내일도 오시겠다. | lesz = ~일 것이다 | emotion=teasing

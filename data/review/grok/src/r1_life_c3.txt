@@ -1,0 +1,19 @@
+=== r1_life_c3
+kind: chat
+title: 초록 대문, 큰 개
+emoji: 🛵
+scene: 랑고시 배달. 기사가 집 앞에 왔다는데 아무도 안 보인다
+b: Futár
+register: chat
+twist: 7 reveal
+purpose: study_abroad
+goal: 배달 기사와 문자로 위치 맞추기
+expressions: Jó napot; Bocsánat; Sajnos
+B | Jó napot! Itt vagyok a kapunál. | 안녕하세요! 대문 앞이에요. | kapunál = 대문 옆에 | emotion=polite at=12:30
+A | Jó napot! Nem látom. | 안녕하세요! 안 보이는데요. | nem látom = 그게 안 보여요 | emotion=polite at=12:31
+B | Zöld kapu, nagy kutya. | 초록 대문, 큰 개요. | zöld = 초록색 | emotion=neutral at=12:31
+A | Itt nincs kutya. | 여긴 개가 없는데요. | nincs = 없다 | emotion=stiff at=12:32
+B | Akkor rossz ház. Bocsánat. | 그럼 다른 집이네요. 죄송해요. | rossz ház = 틀린 집 | emotion=polite at=12:34
+A | És a lángosom? | 제 랑고시는요? | lángosom = 내 랑고시 | emotion=worried at=12:34
+B | Sajnos a kutya megette. | 안타깝게도 개가 먹었어요. | megette = 먹어 치웠다 | emotion=polite at=12:36
+A | Akkor jó étvágyat neki. | 그럼 개한테 맛있게 먹으라고 해 주세요. | jó étvágyat = 맛있게 드세요 | emotion=tsukkomi at=12:37

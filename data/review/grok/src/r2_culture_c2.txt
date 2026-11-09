@@ -1,0 +1,24 @@
+=== r2_culture_c2
+kind: chat
+title: 어미 하나 차이
+emoji: 💬
+scene: Anna 가 그림을 올렸다. 「그림 마음에 들어」를 쓰려다 어미 하나를 틀렸다. 그것도 공개 댓글에
+b: Anna
+c: Réka
+register: chat
+twist: 11 emotion
+flags: romance
+purpose: media love
+goal: tetszik(그것이 마음에 든다) / tetszel(네가 마음에 든다) 구별
+expressions: Úristen; Mi van; Bocsi
+B | Kész az új rajzom! Mit szóltok? 🎨 | 새 그림 완성! 어때? 🎨 | mit szóltok? = 너희 생각은? | emotion=excited at=20:10
+A | Hű, nagyon tetszel! | 와, 네가 정말 마음에 들어! | tetszel = 네가 마음에 든다 | emotion=excited at=20:12
+C | Úristen, {name}! Ezt mindenki látja! 😂 | 세상에, {name}! 이거 다 보고 있어! 😂 | mindenki látja = 다들 그걸 본다 | emotion=amused at=20:12
+A | Mi van? Mit írtam? | 왜? 내가 뭐라고 썼어? | írtam = 내가 썼다 | emotion=worried at=20:13
+C | Olvasd el még egyszer. Lassan. | 다시 읽어 봐. 천천히. | olvasd el = 읽어 봐 | emotion=teasing at=20:13
+A | Jaj, ne! A rajz tetszik! | 안 돼! 그림이 마음에 든다고! | tetszik = 그것이 마음에 든다 | emotion=flustered at=20:14
+A | Bocsi, töröltem! Ez csak egy rag volt! | 미안, 지웠어! 어미 하나 틀린 거야! | töröltem = 지웠다 | emotion=flustered at=20:14
+C | Anna látta. Sok sikert. 😇 | 안나가 봤어. 행운을 빌어. 😇 | sok sikert = 행운을 빌어 | emotion=teasing at=20:15
+A | Anna? Ott vagy? | 안나? 거기 있어? | ott vagy? = 거기 있어? | emotion=worried at=21:30
+B | Itt vagyok. Csak olvastam, sokszor. | 여기 있어. 읽고 있었어, 여러 번. | sokszor = 여러 번 | emotion=shy at=21:52
+B | Kár, hogy törölted. Az első változat jobban tetszett. | 지워서 아쉽다. 첫 번째 게 더 마음에 들었는데. | kár = 아쉽다 | emotion=gentle at=21:53

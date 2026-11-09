@@ -1,0 +1,19 @@
+=== r1_friends_b2
+kind: long
+title: 이름의 날 반반
+emoji: 💐
+scene: 꽃다발을 잔뜩 든 Réka 를 만났다. 오늘이 Réka 의 이름의 날이란다
+b: Réka
+register: casual
+twist: 6 emotion
+purpose: making_friends media
+goal: 헝가리 이름의 날(névnap)과 소유 표현(az enyém, a tiéd)
+expressions: Hű; Tényleg?; Várj; Komolyan?
+A | Hű, mi ez a sok virág? | 와, 이 꽃 다 뭐야? | virág = 꽃 | emotion=surprised
+B | Ma van a névnapom! Minden névnek van egy napja. | 오늘 내 이름의 날이야! 이름마다 자기 날이 있어. | névnap = 이름의 날 | emotion=excited
+A | Tényleg? És az én nevemnek mikor van? | 진짜? 그럼 내 이름은 언제야? | mikor = 언제 | emotion=surprised+cheerful
+B | Várj, megnézem. Sajnos nincs. | 잠깐, 찾아볼게. 안타깝지만 없네. | megnézem = 찾아볼게 | emotion=neutral+sad
+A | Szóval nekem soha nincs névnapom? | 그러니까 나는 이름의 날이 영영 없다고? | soha = 절대, 한 번도 | emotion=sad
+B | Hát legyen az enyém a tiéd is. Fele-fele. | 그럼 내 거를 네 것도 하자. 반반. | fele-fele = 반반 | emotion=gentle
+A | Komolyan? Nekem adod a fél névnapodat? | 진짜? 네 이름의 날 절반을 나 주는 거야? | adod = 네가 그걸 준다 | emotion=surprised+shy
+B | Igen. De a virág az enyém! | 응. 근데 꽃은 내 거야! | az enyém = 내 것 | emotion=gentle+teasing

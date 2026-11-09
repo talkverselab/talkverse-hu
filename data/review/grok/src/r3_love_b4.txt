@@ -1,0 +1,29 @@
+=== r3_love_b4
+kind: long
+title: 따님 말고 랑고시
+emoji: 🫓
+scene: 일요일 점심, Anna 어머니 댁. 존댓말이 어려운데 끝소리 하나가 더 어렵다
+b: Anna
+c: Anna anyukája
+register: mixed
+twist: 9 slip
+flags: romance
+purpose: love media
+goal: 어른과의 존댓말(maga·3인칭 동사)과 말 놓기(Tegeződjünk!)
+expressions: Figyelj; Hű; Tényleg?; Aha; Izé
+C | Jó napot, üljön le, kérem. Anna sokat mesélt magáról. | 어서 와요, 앉으세요. 언너가 당신 얘기를 많이 했어요. | üljön le = 앉으세요 | emotion=stiff
+A | Csókolom! Remélem, nem csak rosszat mesélt. | 안녕하세요! 나쁜 얘기만 한 건 아니면 좋겠네요. | remélem = 바란다 | emotion=polite
+B | Figyelj, ne izgulj. Anyukám nem harap, csak minden kérdést kétszer tesz fel. | 있잖아, 긴장하지 마. 우리 엄마 안 물어, 그냥 뭐든 두 번씩 물어봐. | kétszer = 두 번 | emotion=gentle
+C | Szóval maga az a híres krumpli? | 그러니까 당신이 그 유명한 감자군요? | híres = 유명한 | emotion=teasing
+A | Igen, sajnos én vagyok az. Nagyon finom az illat, ez mi? | 네, 안타깝게도 저예요. 냄새가 정말 좋네요, 이게 뭐예요? | sajnos = 안타깝게도 | emotion=shy+polite
+C | Lángos, a férjem anyjának a receptje. Kóstolja meg, de vigyázzon, forró. | 랑고시예요, 시어머니 레시피죠. 드셔 보세요, 근데 조심해요, 뜨거워요. | kóstolja meg = 맛보세요 | emotion=polite
+A | Hű, ez fantasztikus! Még soha nem ettem ilyen jót. | 와, 이거 최고예요! 이렇게 맛있는 건 처음 먹어 봐요. | még soha = 아직 한 번도 | emotion=excited
+C | Tényleg ízlik? Anna szerint a vendégek inkább a rétest szeretik. | 정말 입에 맞아요? 언너 말로는 손님들은 레테시를 더 좋아한다던데요. | ízlik = 입에 맞다 | emotion=stiff
+A | Nem, nem, őszintén mondom: nagyon szeretem a lányát! | 아니요, 아니요, 솔직히 말씀드리면, 따님을 정말 사랑해요! | a lányát = 따님을(a lángosát = 랑고시를) | emotion=excited
+B | {name}, te most mit mondtál? | {name}, 너 방금 뭐라고 했어? | most = 방금 | emotion=surprised
+C | Hát, ez gyors volt. Ebéd előtt még senki nem mondta ezt. | 음, 빠르네요. 점심 전에 그런 말을 한 사람은 없었어요. | ebéd előtt = 점심 전에 | emotion=amused
+A | Jaj, nem, a lángosát! A lányát, izé, nem úgy értettem. | 아이고, 아니요, 랑고시를요! 따님은, 어, 그런 뜻이 아니에요. | izé = 어, 그거 | emotion=flustered
+C | Aha, szóval a lányomat nem szereti? Anna, hallod ezt? | 아하, 그러니까 내 딸은 사랑하지 않는다? 언너, 들었니? | hallod = 너 듣고 있지 | emotion=teasing
+B | Hallom, anya. Kíváncsi vagyok, mit felel. | 들었어, 엄마. 뭐라고 대답할지 궁금하네. | felel = 대답한다 | emotion=teasing
+A | Hát... a lángost is szeretem. | 음… 랑고시'도' 사랑해요. | is = ~도 | emotion=shy
+C | Na jó, tegeződjünk! Éva vagyok, és még van lángos. | 좋아요, 우리 말 놓자! 나는 에바야, 랑고시 더 있어. | tegeződjünk = 서로 말 놓자 | emotion=cheerful

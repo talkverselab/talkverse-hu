@@ -1,0 +1,23 @@
+=== r2_study_b1
+kind: long
+title: 제일 정중한 감사 인사
+emoji: 🙇
+scene: 어학원 마지막 수업 전날. 선생님께 제대로 감사하고 싶다고 하자 Réka 가 특별한 단어를 가르쳐 준다
+b: Réka
+c: Tanárnő
+register: mixed
+twist: 10 slip
+purpose: study_abroad
+goal: 감사 인사 묻기와 긴 단어 농담
+expressions: Figyelj; Tényleg; Naná; Úristen; Persze; Te jó ég; Hogyhogy
+A | Réka, holnap utolsó óra. Hogy köszönjem meg a tanárnak? | 레카, 내일 마지막 수업이야. 선생님께 어떻게 감사 인사하지? | megköszön = 감사를 표하다 | emotion=worried
+B | Figyelj, van egy különleges szó. Megtanítom neked. | 들어 봐, 특별한 단어가 있어. 가르쳐 줄게. | különleges = 특별한 | emotion=teasing
+A | Tényleg? Hosszú? | 정말? 길어? | hosszú = 긴 | emotion=surprised
+B | Naná. Megszentségteleníthetetlenségeskedéseitekért. | 당연하지. (헝가리어에서 제일 길다는 그 단어) | naná = 당연하지 | emotion=teasing
+A | Úristen! Ez tényleg azt jelenti, hogy köszönöm? | 세상에! 이게 정말 「감사합니다」라는 뜻이야? | azt jelenti = 그런 뜻이다 | emotion=surprised+worried
+B | Persze. Nagyon udvarias! | 그럼. 아주 정중해! | udvarias = 정중한 | emotion=teasing
+A | Tanárnő, egy pillanat. Megszentségteleníthetetlenségeskedéseitekért! | 선생님, 잠깐만요. (그 긴 단어)! | egy pillanat = 잠깐만 | emotion=polite
+C | Te jó ég! Hogyhogy ezt tudja? | 세상에! 그걸 어떻게 아세요? | te jó ég = 맙소사 | emotion=surprised
+A | Réka tanította meg. Ez azt jelenti: köszönöm, ugye? | 레카가 가르쳐 줬어요. 「감사합니다」라는 뜻 맞죠? | ugye? = 그렇죠? | emotion=polite+worried
+C | Nem. Ez nem köszönet, ez csak a leghosszabb szavunk. | 아뇨. 감사 인사가 아니라, 그냥 우리말에서 제일 긴 단어예요. | leghosszabb = 가장 긴 | emotion=stiff+amused
+C | De hibátlanul kimondta. Ötös! | 그래도 틀리지 않고 말했네요. 5점! | ötös = 5점(최고 점수) | emotion=gentle+cheerful

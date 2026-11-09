@@ -1,0 +1,28 @@
+=== r3_travel_c1
+kind: chat
+title: 월요일부터 시간표
+emoji: 🚌
+scene: Réka 가 벼룩시장에서 산 버스가 드디어 출발했다. 단체 채팅방은 시골길 위에서 이어진다
+b: Réka
+c: Dávid
+register: chat
+twist: 11 chaos
+purpose: travel making_friends
+goal: 채팅으로 상황 전하기와 놀라는 말
+expressions: Komolyan; Naná; Mi van?; izé; Bocsi; Figyeljetek; Úristen
+B | Figyelem! A busz elindult! 🚌 | 알립니다! 버스 출발했어! 🚌 | figyelem = 주목 | emotion=excited at=08:03
+A | Komolyan? És a fék működik? | 진짜? 브레이크는 돼? | fék = 브레이크 | emotion=worried at=08:04
+B | Naná. Legtöbbször. | 당연하지. 대부분은. | legtöbbször = 대부분 | emotion=teasing at=08:04
+C | Várjatok, most miért álltunk meg? | 잠깐, 지금 왜 섰어? | álltunk meg = 우리가 멈췄다 | emotion=worried at=09:10
+B | Egy néni integetett a megállóban. Felszállt. | 정류장에서 할머니가 손을 흔들었어. 탔어. | integet = 손을 흔들다 | emotion=neutral at=09:11
+A | Mi van? De ez nem, izé, menetrendes busz! | 뭐? 근데 이건, 그, 노선버스가 아니잖아! | menetrend = 시간표 | emotion=surprised+tsukkomi at=09:11
+B | Ő nem tudja. És már nyolcan szálltak fel. | 할머니는 모르지. 그리고 벌써 여덟 명이 탔어. | nyolcan = 여덟 명이서 | emotion=amused at=09:30
+C | Az egyik bácsi kérdezi, mennyibe kerül a jegy. | 어떤 할아버지가 표 얼마냐고 물어봐. | kérdezi = 물어본다(정활용) | emotion=neutral at=09:31
+A | Hát mondd neki, hogy ingyen van! | 그럼 공짜라고 말해! | ingyen = 공짜로 | emotion=cheerful at=09:31
+B | Bocsi, már mondtam: háromszáz forint. 😇 | 미안, 이미 말했어. 300포린트. 😇 | háromszáz = 300 | emotion=teasing at=09:32
+C | Figyeljetek, most már harmincan vagyunk. Egy néni kolbászt oszt. | 얘들아, 이제 서른 명이야. 어떤 할머니가 소시지 나눠 줘. | harmincan = 서른 명이서 | emotion=amused at=10:05
+A | Úristen, a következő megállóban is sokan várnak! | 세상에, 다음 정류장에도 사람이 많아! | következő = 다음 | emotion=surprised at=10:12
+B | Igen, a néni mindenkit felhívott. | 응, 할머니가 다들 불렀거든. | felhív = 전화하다 | emotion=cheerful at=10:12
+C | Itt a polgármester. Kezet fog Rékával. | 시장님 왔어. 레카랑 악수해. | kezet fog = 악수하다 | emotion=surprised at=10:40
+A | Mi van? Mit akar? | 뭐? 뭘 원한대? | akar = 원하다 | emotion=surprised+worried at=10:41
+B | Semmi. Hétfőtől menetrendünk van. 🚌 | 별거 아니야. 월요일부터 시간표가 있대. 🚌 | hétfőtől = 월요일부터 | emotion=cheerful at=10:48

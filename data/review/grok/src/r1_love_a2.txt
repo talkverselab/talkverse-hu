@@ -1,0 +1,20 @@
+=== r1_love_a2
+kind: short
+title: 감자 경매
+emoji: 🖼️
+scene: 다음 날 벤치. Anna 가 A 를 그린 감자 그림을 인터넷에 올렸더니 일이 커졌다
+b: Anna
+register: casual
+twist: 5 chaos
+flags: romance
+purpose: love
+goal: 놀라서 되묻기(Komolyan? Mi van?)와 '내 것' 말하기
+expressions: Figyelj; Komolyan?; Úristen; Mi van?
+B | Figyelj, feltettem a krumplit a netre. | 있잖아, 그 감자를 인터넷에 올렸어. | feltettem = 올렸다 | emotion=excited
+A | Engem? Komolyan? | 나를? 진짜? | engem = 나를 | emotion=surprised
+B | Már ezer ember szereti. | 벌써 천 명이 좋아해. | ezer = 천, 수사 뒤 명사는 단수 | emotion=cheerful
+A | Ezer? Úristen! | 천 명? 세상에! | úristen = 세상에 | emotion=surprised
+B | Egy néni meg akar venni. | 어떤 할머니가 널 사고 싶대. | megvesz = 사다 | emotion=teasing
+A | Mi van? És eladsz? | 뭐? 그래서 날 팔 거야? | eladsz = 네가 (나를) 판다 | emotion=surprised+worried
+B | Nem. Ez a krumpli az enyém. | 아니. 이 감자는 내 거야. | az enyém = 내 것 | emotion=teasing+gentle
+A | Jaj. Most piros krumpli vagyok. | 아이고. 나 지금 빨간 감자야. | piros = 빨간 | emotion=shy

@@ -1,0 +1,20 @@
+=== r1_love_c3
+kind: chat
+title: 뒤돌아봐
+emoji: 👀
+scene: 앱에서 매칭되자마자 Anna 가 먼저 말을 건다. 그런데 뭔가 너무 잘 안다
+b: Anna
+register: chat
+twist: 5 reveal
+flags: romance
+purpose: love
+goal: 지금 뭐 하는지 묻기, '어떻게 알았어?'
+expressions: Köszi; Mi van?; Honnan tudod?
+B | Szia! Tetszik a képed. 😊 | 안녕! 네 사진 마음에 들어. 😊 | tetszik = 마음에 든다 | emotion=cheerful at=16:02
+A | Köszi! Mit csinálsz? | 고마워! 뭐 해? | mit csinálsz? = 뭐 해? | emotion=cheerful at=16:03
+B | Kávézom. Te? | 커피 마셔. 너는? | kávézom = 커피 마신다 | emotion=neutral at=16:03
+A | Én is. | 나도. | én is = 나도 | emotion=neutral at=16:04
+B | Szép a kék pulóvered. | 파란 스웨터 예쁘다. | pulóver = 스웨터 | emotion=teasing at=16:04
+A | Mi van? Honnan tudod? | 뭐야? 어떻게 알아? | honnan tudod? = 어떻게 알아? | emotion=surprised at=16:05
+B | Nézz hátra. 😄 | 뒤돌아봐. 😄 | nézz hátra = 뒤돌아봐 | emotion=teasing at=16:05
+B | Ne mozogj! Még rajzollak. | 움직이지 마! 아직 그리는 중이야. | még = 아직 | emotion=teasing at=16:05

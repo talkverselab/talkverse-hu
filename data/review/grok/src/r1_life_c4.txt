@@ -1,0 +1,18 @@
+=== r1_life_c4
+kind: chat
+title: 읽고 답 없는 집주인
+emoji: 💧
+scene: 수도관이 터졌다. 집주인 Laci 아저씨에게 문자를 보내는데, 읽기만 하고 답이 없다
+b: Laci bácsi
+register: chat
+twist: 6 ignore
+purpose: study_abroad
+goal: 상황이 번지는 것을 문자로 알리기(Most már …)
+expressions: Kérem; Most már; Nem baj; Bocsánat
+A | Jó napot! Folyik a víz. | 안녕하세요! 물이 새요. | folyik = 흐른다 | emotion=polite+worried at=08:10
+A | A konyhában. | 부엌에서요. | konyha = 부엌 | emotion=worried at=08:40
+A | Most már a szobában is. | 이제 방에서도요. | most már = 이제는 | emotion=worried at=09:15
+A | Dávid úszik. 😅 | 다비드가 수영해요. 😅 | úszik = 수영한다 | emotion=flustered at=09:50
+A | Kérem, válaszoljon! | 제발 답 좀 해 주세요! | válaszoljon = 답하세요(존댓말) | emotion=shout at=10:30
+B | Jó napot! Bocsánat, fürdőben voltam. | 안녕하세요! 죄송해요, 온천에 있었어요. | fürdőben = 온천에 | emotion=polite at=15:12
+A | Nem baj. Most már itt is fürdő van. | 괜찮아요. 이제 여기도 온천이에요. | itt is = 여기도 | emotion=tsukkomi at=15:13

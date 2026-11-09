@@ -1,0 +1,26 @@
+=== r3_work_b1
+kind: long
+title: 더운 날의 면접
+emoji: 🥵
+scene: 한여름 회사 면접. 에어컨이 고장 난 방에서 「덥다」고 말했는데 면접관의 표정이 묘하다
+b: Igazgató
+register: polite
+twist: 8 slip
+purpose: work_hungary
+goal: 면접 질문에 답하기와 melegem van / meleg vagyok 구분
+expressions: Semmi baj; Szóval; Igazából; Tényleg; Várjon
+B | Jó napot, foglaljon helyet! Sajnos ma nem működik a légkondi. | 안녕하세요, 앉으세요! 아쉽게도 오늘 에어컨이 안 돼요. | foglaljon helyet = 앉으세요(격식) | emotion=polite
+A | Semmi baj. Köszönöm, hogy behívott. | 괜찮습니다. 불러 주셔서 감사합니다. | behívott = 불렀다 | emotion=polite
+B | Szóval, miért szeretne nálunk dolgozni? | 그래서, 왜 저희 회사에서 일하고 싶으세요? | nálunk = 우리 쪽에서 | emotion=stiff
+A | Mert szeretek emberekkel beszélni, és tavaly óta magyarul is tudok. | 사람들과 이야기하는 걸 좋아하고, 작년부터 헝가리어도 할 줄 알아서요. | tavaly óta = 작년부터 | emotion=polite
+B | Nagyszerű. Mi a legnagyobb gyengesége? | 훌륭하네요. 가장 큰 약점이 뭔가요? | gyengeség = 약점 | emotion=stiff
+A | Hát, igazából a ragok. Néha rosszul mondom őket. | 음, 사실 격 어미요. 가끔 틀리게 말해요. | rag = 격 어미 | emotion=shy
+B | Így is jól beszél. De piros az arca, minden rendben? | 그래도 잘하시는데요. 근데 얼굴이 빨개요, 괜찮으세요? | minden rendben? = 다 괜찮아요? | emotion=polite+worried
+A | Elnézést, nagyon meleg vagyok. | 죄송합니다, 저는 아주 게이입니다.(「덥다」고 말하려던 것) | meleg vagyok = 나는 게이다(덥다는 melegem van) | emotion=polite
+B | Ó, köszönöm, hogy elmondta. Nálunk ez nem probléma. | 아, 말씀해 주셔서 감사합니다. 저희는 전혀 문제없습니다. | elmondta = 말해 주었다 | emotion=surprised+polite
+A | Tényleg? Pedig reggel óta nagyon meleg vagyok, nyáron mindig. | 정말요? 그런데 아침부터 아주 그래요, 여름엔 항상요. | pedig = 그런데, 하지만 | emotion=surprised+neutral
+B | Nyáron? És télen nem? | 여름에요? 겨울엔 아니고요? | télen = 겨울에 | emotion=stiff
+A | Télen nem. Télen nagyon hideg vagyok. | 겨울엔 아니에요. 겨울엔 아주 차가운 사람이에요. | hideg vagyok = 나는 차갑다(춥다는 fázom) | emotion=neutral
+B | Várjon... Ön azt akarja mondani, hogy melege van? | 잠깐만요… 덥다는 말씀이세요? | melege van = (그분이) 덥다 | emotion=surprised
+A | Igen, melegem van! Miért, mit mondtam? | 네, 더워요! 왜요, 제가 뭐라고 했나요? | melegem van = 나는 덥다 | emotion=cheerful+worried
+B | Semmit. Holnap kezdhet, a gyengeségét már ismerjük. | 아무 말도요. 내일부터 나오세요, 약점은 이제 잘 알겠네요. | kezdhet = 시작해도 된다 | emotion=amused

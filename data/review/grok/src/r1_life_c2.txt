@@ -1,0 +1,21 @@
+=== r1_life_c2
+kind: chat
+title: 건물 단톡방
+emoji: 🏢
+scene: Dávid 에게 보낸 줄 알았는데, 아주머니가 있는 건물 전체 단톡방이었다
+b: Dávid
+c: Marika néni
+d: Feri bácsi
+register: chat
+twist: 5 chaos
+purpose: study_abroad
+goal: 짧은 명령·경고 문자(Ne nyisd ki!)
+expressions: Figyelj; Jaj; Szép volt
+A | Figyelj, jön a néni! | 야, 아주머니 온다! | figyelj = 야, 들어 봐 | emotion=worried at=19:10
+A | Ne nyisd ki az ajtót! | 문 열지 마! | ne nyisd ki = 열지 마 | emotion=worried at=19:10
+A | Megint leves! | 또 국이야! | megint = 또 | emotion=annoyed at=19:11
+C | Kivel beszélsz? | 누구랑 얘기하니? | kivel = 누구와 | emotion=stiff at=19:12
+A | Jaj... ez a ház csoportja?! | 어머… 여기 건물 단톡방이에요?! | csoport = 그룹 | emotion=flustered at=19:12
+D | Igen. Én is kérek levest! | 응. 나도 국 줘! | én is = 나도 | emotion=amused at=19:13
+B | Szép volt. 👏 | 잘했다. 👏 | szép volt = 잘했다(비꼬는 말로도) | emotion=teasing at=19:13
+C | Holnap mindenkinek. Tíz liter. | 내일 전부 다 준다. 10리터. | mindenkinek = 모두에게 | emotion=stiff at=19:15

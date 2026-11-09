@@ -1,0 +1,28 @@
+=== r3_study_b1
+kind: long
+title: 보내기 버튼
+emoji: 📧
+scene: 기숙사 방. 코바치 교수에게 마감을 늘려 달라는 메일을 쓴다. Réka 가 옆에서 거든다
+b: Réka
+c: Kovács
+register: casual
+twist: 15 slip
+purpose: study_abroad
+goal: 교수에게 쓰는 격식 표현(Tisztelt…, Kérem szépen)과 반말 표현의 차이
+expressions: Figyelj; Nem baj; Tisztelt; Kérem szépen; Várj; Puszi; Durva
+A | Figyelj, segíts. Kovács professzornak kell írnom egy e-mailt. | 야, 좀 도와줘. 코바치 교수님께 메일 써야 해. | kell írnom = 내가 써야 한다 | emotion=worried
+B | Miért? Mit csináltál? | 왜? 뭐 했는데? | csináltál = 네가 했다 | emotion=teasing
+A | Semmit, és ez a baj. A dolgozat péntekre kell, és még nincs kész. | 아무것도. 그게 문제야. 보고서가 금요일까지인데 아직 안 끝났어. | péntekre = 금요일까지 | emotion=worried
+B | Nem baj. Kérj még egy hetet. | 괜찮아. 일주일 더 달라고 해. | kérj = 부탁해 | emotion=gentle
+A | De hogy kezdjem? Szia, tanár úr? | 근데 어떻게 시작하지? 야, 교수님? | hogy kezdjem? = 어떻게 시작할까? | emotion=worried
+B | Jaj, ne! Úgy kell: Tisztelt Professzor Úr! | 아이고, 안 돼! 이렇게 해야지: 존경하는 교수님께! | tisztelt = 존경하는(편지 첫머리) | emotion=tsukkomi
+A | Tisztelt Professzor Úr! Kérem szépen, adjon még egy hetet. | 존경하는 교수님께! 부디 일주일만 더 주세요. | kérem szépen = 부디 | emotion=polite
+B | Várj, add ide, én is írok egyet. Csak viccből. | 잠깐, 줘 봐, 나도 하나 써 볼게. 장난으로. | viccből = 장난으로 | emotion=teasing
+A | Mit írtál? Mutasd! | 뭐 썼어? 보여 줘! | mutasd = 보여 줘 | emotion=cheerful
+B | Szia Kovács, ne már, adj még egy hetet! Puszi! | 안녕 코바치, 아 좀, 일주일만 더 줘! 쪽! | puszi = 쪽(친구끼리 끝인사) | emotion=teasing
+A | Haha, durva! Na, add vissza, küldöm az enyémet. | 하하, 대박! 자, 돌려줘, 내 거 보낼게. | add vissza = 돌려줘 | emotion=amused
+B | Jó, tessék. Küldd el! | 그래, 여기. 보내! | küldd el = 보내 버려 | emotion=cheerful
+A | Elküldtem. | 보냈어. | elküldtem = 내가 보냈다 | emotion=neutral
+B | Várj. Melyiket küldted el? | 잠깐. 어느 걸 보냈어? | melyiket = 어느 것을 | emotion=worried
+A | Úristen. A tiédet. | 세상에. 네 거. | a tiédet = 네 것을 | emotion=flustered
+C | Szia, nem adok. Puszi, Kovács | 안녕, 안 줍니다. 쪽, 코바치 | nem adok = 안 준다 | emotion=stiff

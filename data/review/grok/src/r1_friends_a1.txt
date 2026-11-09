@@ -1,0 +1,19 @@
+=== r1_friends_a1
+kind: short
+title: 너도 잘하네!
+emoji: 🚲
+scene: 자전거에 부딪힐 뻔한 Réka 와 처음 말을 튼다. 칭찬을 받아 기뻐서 그대로 돌려줬는데…
+b: Réka
+register: casual
+twist: 6 slip
+purpose: making_friends
+goal: 자기소개(… vagyok)와 칭찬 주고받기
+expressions: Bocsi; Jól vagy?; Köszi; Hát
+B | Bocsi! Jól vagy? | 미안! 괜찮아? | bocsi = 미안(가벼운 말) | emotion=worried
+A | Igen, jól vagyok. Ez a te biciklid? | 응, 괜찮아. 이거 네 자전거야? | jól vagyok = 괜찮아 | emotion=neutral
+B | Réka vagyok. És te? | 나는 레카야. 너는? | és te? = 너는? | emotion=cheerful
+A | {name} vagyok. Magyarul tanulok. | 나는 {name}. 헝가리어 배워. | magyarul = 헝가리어로 | emotion=cheerful
+B | Hű, de jól beszélsz! | 와, 말 진짜 잘한다! | de + 형용사/부사 = 정말 ~하다 | emotion=excited
+A | Köszi! Te is jól beszélsz magyarul! | 고마워! 너도 헝가리어 잘하네! | köszi = 고마워(köszönöm 의 줄임) | emotion=cheerful
+B | Hát... én magyar vagyok. | 음… 나 헝가리 사람인데. | hát = 음, 글쎄(말 꺼낼 때) | emotion=amused
+A | Jaj. Ja, persze. | 아이고. 아, 그렇지. | persze = 물론, 그렇지 | emotion=flustered

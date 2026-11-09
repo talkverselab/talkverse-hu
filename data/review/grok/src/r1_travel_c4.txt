@@ -1,0 +1,20 @@
+=== r1_travel_c4
+kind: chat
+title: 목도리
+emoji: 🧣
+scene: 어제 기차 옆자리였던 사람에게서 메시지가 왔다
+b: Zsófi
+register: chat
+twist: 7 emotion
+flags: romance
+purpose: travel love
+goal: 모르는 사람 메시지에 답하기와 시간 묻기
+expressions: Tényleg; Jaj; köszi; ráérsz
+B | Szia! Tegnap a vonaton melletted ültem. 😊 | 안녕! 어제 기차에서 네 옆에 앉았어. 😊 | melletted = 네 옆에 | emotion=cheerful at=22:10
+A | Tényleg? Ki vagy? | 정말? 누구야? | tényleg? = 정말? | emotion=surprised at=22:12
+B | Zsófi. Aki az ablaknál ült. | 소피. 창가에 앉아 있던. | ablak = 창문 | emotion=gentle at=22:12
+A | Ó, igen! Hogy találtál meg? | 아, 맞아! 어떻게 찾았어? | hogy = 어떻게 | emotion=surprised+cheerful at=22:13
+B | A sálad nálam van. | 네 목도리 나한테 있어. | sál = 목도리 | emotion=gentle at=22:14
+A | Jaj, köszi! Hol kapom vissza? | 아이고, 고마워! 어디서 돌려받아? | visszakap = 돌려받다 | emotion=cheerful at=22:14
+B | Nem hagytad ott. Én vettem el. | 네가 두고 간 게 아니야. 내가 가져왔어. | én vettem el = 내가 가져왔다(én 이 초점) | emotion=shy at=22:20
+B | Holnap ráérsz? 😇 | 내일 시간 돼? 😇 | ráérsz = 너 시간 있어? | emotion=teasing at=22:20

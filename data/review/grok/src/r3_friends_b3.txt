@@ -1,0 +1,28 @@
+=== r3_friends_b3
+kind: long
+title: 파프리카 500킬로
+emoji: 🚚
+scene: 굴라시 하려고 앱으로 파프리카를 주문했다. 다음 날 아침 트럭이 왔다
+b: Réka
+c: Sofőr
+d: Néni
+register: mixed
+twist: 11 chaos
+purpose: making_friends
+goal: 수량 말하기와 잘못된 주문 따지기
+expressions: Figyelj; Úristen; Várj; Hallod; király
+B | Figyelj, mit rendeltél tegnap? Egy teherautó áll a ház előtt. | 야, 어제 뭐 주문했어? 트럭이 집 앞에 서 있어. | teherautó = 트럭 | emotion=worried
+A | Csak paprikát a gulyáshoz. Öt kilót, ha jól emlékszem. | 굴라시에 넣을 파프리카만. 내 기억에 5킬로. | ha jól emlékszem = 내 기억이 맞다면 | emotion=neutral
+C | Jó napot! Hová tegyem az ötszáz kilót? | 안녕하세요! 500킬로 어디 둘까요? | hová tegyem = 어디에 둘까요 | emotion=polite
+A | Mennyit?! Nem, nem, öt kilót kértem! | 얼마요?! 아니, 아니, 5킬로 주문했어요! | mennyit = 얼마를 | emotion=surprised+flustered
+C | Itt az áll, hogy ötszáz. Maga rendelte, maga fizette. | 여기 500이라고 돼 있어요. 주문도 결제도 손님이 하셨어요. | maga = 당신(존댓말) | emotion=stiff
+B | Úristen, {name}! Ez hova fér el? | 세상에, {name}! 이걸 어디다 둬? | elfér = 들어가다 | emotion=surprised+worried
+A | A szobámba nem. Oda még a kanapé sem fért be. | 내 방은 안 돼. 거긴 소파도 안 들어갔어. | még … sem = ~조차 안 | emotion=flustered
+C | Engem ez nem érdekel. A lépcsőre teszem, aztán megyek. | 저는 상관없어요. 계단에 놓고 갑니다. | nem érdekel = 상관없다 | emotion=annoyed
+D | Már megint maguk? Mi ez a szag, ez paprika? | 또 자네들이야? 이 냄새 뭐야, 파프리카야? | szag = 냄새 | emotion=annoyed
+B | Néni, nem kér véletlenül paprikát? Egy kiló csak ezer forint. | 할머니, 혹시 파프리카 안 사세요? 1킬로에 천 포린트예요. | véletlenül = 혹시 | emotion=cheerful
+D | Ezer? Hívom a lányomat, a szomszédokat, az egész utcát! | 천? 딸이랑 이웃이랑 온 동네를 부를게! | szomszéd = 이웃 | emotion=excited
+A | Várj, miért állnak sorban a lépcsőn? Ki ez a sok ember? | 잠깐, 왜 계단에 줄을 서? 이 많은 사람 다 누구야? | sorban áll = 줄 서다 | emotion=surprised
+B | Az egész utca gulyást főz. Hallod, ez király! | 온 동네가 굴라시 끓여. 들리지, 끝내준다! | főz = 끓이다 | emotion=excited
+A | Réka, mindent eladtunk! Még pénzünk is maradt! | 레카, 다 팔았어! 돈도 남았어! | maradt = 남았다 | emotion=excited
+B | Tudom. Ezért rendeltem ötszáz kiló hagymát. | 알아. 그래서 양파 500킬로 주문했어. | hagyma = 양파 | emotion=amused

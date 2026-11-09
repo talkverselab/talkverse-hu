@@ -1,0 +1,21 @@
+=== r2_travel_b4
+kind: long
+title: 포가차 두 개 남았어
+emoji: 🥐
+scene: 발라톤행 완행이 밭 한가운데 멈춘 지 40분. 옆자리 아저씨는 태평하다
+b: Tamás
+register: mixed
+twist: 10 reveal
+purpose: travel making_friends
+goal: 존댓말에서 반말로 바꾸기(Tegeződjünk)와 시간 묻기
+expressions: Elnézést; szívesen; Tegeződjünk; Figyelj; Szerintem
+A | Elnézést, tudja, miért állunk már negyven perce? | 실례합니다, 왜 40분째 서 있는지 아세요? | negyven perce = 40분째 | emotion=polite
+B | Nem baj, ráérünk. Kér egy pogácsát? | 괜찮아요, 시간 많아요. 포가차 하나 드실래요? | pogácsa = 짭짤한 작은 빵 | emotion=gentle
+A | Köszönöm, szívesen. Hű, ez nagyon finom! | 감사합니다, 좋아요. 와, 아주 맛있네요! | szívesen = 기꺼이 | emotion=polite+excited
+B | A feleségem süti. Tegeződjünk, ha már itt ülünk! | 아내가 구운 거예요. 여기 앉은 김에 말 놓을까요? | tegeződjünk = 말 놓자 | emotion=cheerful
+A | Jó, persze, {name} vagyok. Te hova mész? | 좋아, 그래, 나는 {name}. 넌 어디 가? | te = 너(이제 반말) | emotion=cheerful
+B | Tamás. Fonyódra megyek, de előbb megeszem ezt a pogácsát. | 타마시. 폰요드 가는데, 먼저 이 포가차부터 먹고. | megeszem = 다 먹는다(정활용) | emotion=amused
+A | Figyelj, szerinted mikor indul a vonat? | 있잖아, 네 생각엔 기차 언제 출발할 것 같아? | szerinted = 네 생각에 | emotion=worried
+B | Szerintem mindjárt. Még két pogácsa van. | 내 생각엔 곧. 포가차 두 개 남았어. | még = 아직 | emotion=amused
+A | Mi köze a pogácsának a vonathoz? | 포가차가 기차랑 무슨 상관이야? | mi köze? = 무슨 상관이야? | emotion=tsukkomi
+B | Hát, én vezetem a vonatot. Ebédszünet van. | 음, 내가 이 기차 기관사야. 점심시간이거든. | vezetem = 내가 운전한다(정활용) | emotion=teasing

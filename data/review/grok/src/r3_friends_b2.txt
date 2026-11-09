@@ -1,0 +1,28 @@
+=== r3_friends_b2
+kind: long
+title: 소파 속 편지
+emoji: 💌
+scene: 계단에서 고생한 그 소파 쿠션 틈에서 옛날 편지가 나왔다. 그때 그 할머니가 다시 찾아온다
+b: Réka
+c: Néni
+register: mixed
+twist: 13 emotion
+purpose: making_friends media
+goal: 옛일 말하기(과거형)와 어른께 쓰는 말(üljön le)
+expressions: nézd; Hű; Elnézést; Csókolom; Tessék; Sajnos
+A | Réka, nézd, mit találtam a kanapéban! Egy régi levél. | 레카, 봐, 소파에서 뭐 찾았게! 옛날 편지야. | levél = 편지 | emotion=excited
+B | Pénz van benne? Mert ha igen, a fele az enyém. | 안에 돈 있어? 있으면 반은 내 거야. | a fele = 그 절반 | emotion=teasing
+A | Nincs pénz. „Drága Ilonka, szombaton várlak a hídnál.” | 돈은 없어. 「사랑하는 일론커, 토요일에 다리에서 기다릴게.」 | várlak = 내가 널 기다린다 | emotion=neutral+gentle
+B | Hű, mikori ez? Nézd meg a dátumot! | 와, 언제 거야? 날짜 봐 봐! | mikori = 언제 적 | emotion=excited
+A | Ezerkilencszázhatvannyolc. Ez a szó hosszabb, mint a levél. | 천구백육십팔. 이 낱말이 편지보다 길어. | hosszabb = 더 긴 | emotion=amused
+B | És mi lett? Eljött Ilonka a hídhoz, vagy nem? | 그래서 어떻게 됐어? 일론커가 다리에 왔어, 안 왔어? | mi lett? = 어떻게 됐어? | emotion=worried
+A | Honnan tudnám? A kanapét te vetted, kitől volt? | 내가 어떻게 알아? 소파는 네가 샀잖아, 누구 거였어? | honnan tudnám = 내가 어떻게 알겠어 | emotion=tsukkomi+neutral
+B | Egy bácsitól a piacon. Már nem tudjuk meg, sajnos. | 시장에서 어떤 할아버지한테. 이젠 못 알아내지, 아쉽게도. | sajnos = 아쉽게도 | emotion=sad
+C | Elnézést, ott van még a kanapé? Olyan jól ültem rajta. | 실례해요, 그 소파 아직 있나요? 앉기 참 좋았는데. | rajta = 그 위에 | emotion=polite
+A | Csókolom! Tessék, üljön le, ezt most találtuk benne. | 안녕하세요! 여기 앉으세요, 방금 이걸 안에서 찾았어요. | benne = 그 안에 | emotion=polite
+C | Várjanak... ez Pista írása. | 잠깐만요… 이건 피슈터 글씨인데. | írás = 글씨 | emotion=surprised
+B | Ismeri Pistát? És ki az az Ilonka? | 피슈터를 아세요? 그럼 일론커는 누구예요? | ismeri = 아세요(존댓말) | emotion=surprised
+C | Én vagyok Ilonka. Pista a férjem. | 내가 일론커예요. 피슈터는 내 남편이고. | férj = 남편 | emotion=gentle
+A | Úristen! És elment a hídhoz? | 세상에! 그래서 다리에 가셨어요? | elment = 갔다 | emotion=surprised+excited
+C | Nem kaptam meg. Hatvan éve mondja, hogy írt, és nem hittem neki. | 못 받았어요. 60년째 썼다고 하는데, 안 믿었어요. | hatvan éve = 60년째 | emotion=sad
+C | Jaj, most bocsánatot kell kérnem tőle. De csak holnap! | 아이고, 이제 사과해야겠네. 근데 내일 할래요! | bocsánatot kér = 사과하다 | emotion=sad+amused

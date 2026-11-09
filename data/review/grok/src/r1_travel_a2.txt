@@ -1,0 +1,19 @@
+=== r1_travel_a2
+kind: short
+title: 다비드가 아니었다
+emoji: ♨️
+scene: 온천 김 속. 안경을 벗은 {name} 이 옆 사람을 룸메이트 Dávid 로 알고 말을 건다
+b: Bácsi
+register: mixed
+twist: 6 slip
+purpose: travel
+goal: 편한 말로 부탁하기와 사람을 잘못 봤을 때 사과하기
+expressions: Figyelj; Mennyi kell?; Tessék; Nem baj
+A | Dávid, jó a víz? | 다비드, 물 좋아? | víz = 물 | emotion=cheerful
+B | Jó, jó. Nagyon meleg. | 좋아, 좋아. 아주 따뜻해. | meleg = 따뜻한 | emotion=gentle
+A | Figyelj, éhes vagyok. Van pénzed? | 야, 나 배고파. 돈 있어? | figyelj = 야, 있잖아(말 꺼낼 때) | emotion=cheerful
+B | Van. Mennyi kell? | 있지. 얼마 필요해? | mennyi kell? = 얼마 필요해? | emotion=amused
+A | Ezer forint. Lángosra. | 천 포린트. 랑고시 사 먹게. | -ra = ~에(쓸 곳) | emotion=neutral+cheerful
+B | Tessék. De ki az a Dávid? | 여기. 그런데 다비드가 누구야? | ki = 누구 | emotion=gentle+amused
+A | Jaj, elnézést! Hol a szemüvegem? | 아이고, 죄송합니다! 제 안경 어디 있지? | szemüveg = 안경 | emotion=flustered
+B | Nem baj. Nekem is hozz egy lángost! | 괜찮아. 나도 랑고시 하나 갖다 줘! | hozz = 가져와 | emotion=amused

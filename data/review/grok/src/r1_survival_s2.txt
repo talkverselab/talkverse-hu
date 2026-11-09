@@ -1,0 +1,19 @@
+=== r1_survival_s2
+kind: survival
+title: 그 이가 아니라고요
+emoji: 🦷
+scene: 이가 아파 치과에 왔다. 입을 벌린 채로는 「거기 말고요」를 말할 수가 없다
+b: Orvos
+register: polite
+twist: 7 chaos
+purpose: travel
+goal: 아픈 곳 말하기(fáj a …)와 fog 두 가지 뜻 구별
+expressions: Mi a baj?; fáj a fogam; Nyissa ki; Tessék
+B | Jó napot! Mi a baj? | 안녕하세요! 어디가 불편하세요? | Mi a baj? = 무슨 일이에요? | emotion=polite
+A | Jó napot! Nagyon fáj a fogam. | 안녕하세요! 이가 많이 아파요. | fáj a fogam = 이가 아파요 | emotion=polite+worried
+B | Melyik fog? Nyissa ki a száját! | 어느 이요? 입 벌리세요! | nyissa ki = 여세요(존댓말 명령) | emotion=polite
+A | Aaa... ott, hátul! | 아아… 저기, 뒤쪽이요! | hátul = 뒤쪽에 | emotion=worried
+B | Aha, ez az. Nem fog fájni. | 아, 이거네요. 안 아플 거예요. | fog + 동사 = ~할 것이다(fog 는 「이」라는 뜻도) | emotion=gentle
+A | Jaj! Mit csinál? | 아악! 뭐 하세요? | Mit csinál? = 뭐 하세요?(존댓말) | emotion=shout
+B | Kész! Tessék, itt a foga. | 다 됐어요! 여기요, 뽑은 이. | foga = 당신의 이(존댓말 소유) | emotion=cheerful
+A | De hát ez a jó fogam volt! | 아니 이건 멀쩡한 이였잖아요! | de hát = 아니 근데 | emotion=shout

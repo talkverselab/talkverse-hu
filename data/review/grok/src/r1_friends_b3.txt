@@ -1,0 +1,20 @@
+=== r1_friends_b3
+kind: long
+title: 온천의 열쇠
+emoji: ♨️
+scene: 뜨끈한 온천. 라커 열쇠가 사라지자 탕 전체가 나선다
+b: Réka
+c: Bácsi
+register: mixed
+twist: 7 chaos
+purpose: making_friends travel
+goal: 소재 묻기(Hol a …?)와 함께하자는 말(keressük meg)
+expressions: figyelj; Nem tudom; Úristen; Elnézést; légyszi
+B | Jaj, figyelj! Hol a szekrény kulcsa? | 아이고, 야! 라커 열쇠 어디 있어? | kulcs = 열쇠 | emotion=worried
+A | Nem tudom. Nálad volt, nem? | 몰라. 너한테 있었잖아? | nálad = 너한테 | emotion=neutral
+B | Nem, nálam nincs! Biztos a vízben van. | 아니, 나한테 없어! 분명 물속에 있어. | biztos = 분명 | emotion=worried
+A | Úristen! Akkor keressük meg! | 세상에! 그럼 찾자! | keressük meg = 찾아보자 | emotion=surprised
+C | Elnézést, mit keresnek a lábam alatt? | 실례지만, 내 발밑에서 뭘 찾으세요? | a lábam alatt = 내 발밑에서 | emotion=stiff
+B | Egy kulcsot! Bácsi, segítsen, légyszi! | 열쇠요! 할아버지, 좀 도와주세요! | segítsen = 도와주세요(존댓말) | emotion=worried
+C | Emberek, mindenki keresse a kulcsot! | 여러분, 다들 열쇠 찾아요! | mindenki = 모두 | emotion=shout
+A | Réka... az ott a kezeden nem kulcs? | 레카… 네 손에 그거 열쇠 아니야? | kezeden = 네 손에 | emotion=tsukkomi

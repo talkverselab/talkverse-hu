@@ -1,0 +1,19 @@
+=== r1_friends_c3
+kind: chat
+title: 읽고 안 읽씹
+emoji: 🍲
+scene: 몸살이 났다. Réka 에게 보낸 메시지가 읽혔는데 답이 없다
+b: Réka
+register: chat
+twist: 6 ignore
+purpose: making_friends
+goal: 아프다고 말하기와 채팅 혼잣말
+expressions: Hé; Na; nyisd ki
+A | Réka, beteg vagyok. | 레카, 나 아파. | beteg = 아픈 | emotion=sad at=10:02
+A | Nagyon fáj a fejem. | 머리 너무 아파. | fej = 머리 | emotion=sad at=10:03
+A | Látod? Olvastad? | 봤어? 읽었어? | olvastad = 네가 그걸 읽었다 | emotion=worried at=10:40
+A | Hé! Nem válaszolsz? | 야! 답 안 해? | válaszolsz = 네가 답한다 | emotion=annoyed at=11:15
+A | Jó, akkor meghalok. Szia. | 그래, 그럼 나 죽는다. 안녕. | meghalok = 나 죽는다 | emotion=sad at=12:30
+B | Na, nyisd ki az ajtót. | 야, 문 열어. | nyisd ki = 열어 | emotion=annoyed at=12:41
+A | Mi? Hol vagy? | 뭐? 어디야? | hol vagy? = 어디야? | emotion=surprised at=12:41
+B | Itt, levessel. Egy órája csengetek. | 여기, 수프 들고. 한 시간째 초인종 눌러. | egy órája = 한 시간째 | emotion=gentle+tsukkomi at=12:42

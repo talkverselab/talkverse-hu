@@ -1,0 +1,26 @@
+=== r3_friends_c1
+kind: chat
+title: 쓰레기만 버리려고
+emoji: 🚒
+scene: 밤 11시 41분, 잠옷 차림으로 문이 잠겼다. Réka 가 도와주겠단다
+b: Réka
+register: chat
+twist: 10 chaos
+purpose: making_friends
+goal: 긴급 상황을 채팅으로 설명하기
+expressions: Mi van; mindjárt; Nyugi; Szuper; Hát
+A | Réka, ébren vagy? | 레카, 깨어 있어? | ébren = 깨어 있는 | emotion=worried at=23:41
+B | Most már igen. Mi van? | 이제 깼어. 무슨 일이야? | most már = 이제는 | emotion=annoyed at=23:43
+A | Kizártam magam. Pizsamában vagyok a lépcsőházban. | 문이 잠겼어. 잠옷 입고 계단에 있어. | kizártam magam = 문이 잠겨 못 들어간다 | emotion=flustered at=23:43
+A | Csak a szemetet akartam levinni. | 쓰레기만 버리려고 했어. | szemét = 쓰레기 | emotion=sad at=23:44
+B | Hol a kulcsod? | 열쇠는 어디 있어? | kulcsod = 네 열쇠 | emotion=neutral at=23:44
+A | Bent. A telefonom is mindjárt meghal. | 안에. 폰도 곧 꺼져. | mindjárt = 곧 | emotion=worried at=23:45
+B | Nyugi, írtam a ház csoportjába. | 진정해, 건물 단톡에 썼어. | csoport = 그룹 | emotion=gentle at=23:49
+A | Mit írtál?! | 뭐라고 썼어?! | írtál = 네가 썼다 | emotion=shout at=23:49
+B | Hogy valaki bent ragadt, és segítség kell. 😇 | 누가 안에 갇혔고, 도움이 필요하다고. 😇 | bent ragadt = 안에 갇혔다 | emotion=teasing at=23:50
+A | Réka. Itt állnak a tűzoltók. | 레카. 소방관들이 여기 서 있어. | tűzoltó = 소방관 | emotion=flustered at=23:58
+A | Most törik be az ajtót. | 지금 문 부수고 있어. | betör = 부수다 | emotion=flustered at=23:59
+B | Szuper! Akkor be tudsz menni. 😎 | 좋아! 그럼 들어갈 수 있네. 😎 | szuper = 좋아 | emotion=cheerful at=23:59
+A | Az nem az én ajtóm. | 그거 내 문이 아니야. | az én ajtóm = 내 문 | emotion=tsukkomi at=00:01
+B | Hát akkor kié? | 그럼 누구 건데? | kié = 누구의 | emotion=surprised at=00:01
+A | A nénié. Most kávét főz nekik. | 할머니 거. 지금 그분들한테 커피 끓여 주셔. | a nénié = 할머니의 것 | emotion=sad+amused at=00:03

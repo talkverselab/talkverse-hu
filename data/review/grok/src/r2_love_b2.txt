@@ -1,0 +1,23 @@
+=== r2_love_b2
+kind: long
+title: 레카의 면접
+emoji: 📋
+scene: 벼룩시장 뒤편. 토요일 데이트를 앞둔 A 를 Réka 가 불러 앉히고 질문을 쏟아낸다
+b: Réka
+register: casual
+twist: 9 reveal
+flags: romance
+purpose: love making_friends
+goal: 순서 말하기(első, második, utolsó)와 '~하면'(ha)
+expressions: Persze; Izé; Figyelj; Szóval
+B | Ülj le. Hallom, hogy szombaton találkozol Annával. | 앉아. 토요일에 언너 만난다며. | hallom, hogy = ~라고 들었어 | emotion=stiff
+A | Igen, de ez mi? Ez egy interjú? | 응, 근데 이게 뭐야? 면접이야? | interjú = 면접 | emotion=tsukkomi
+B | Pontosan. Első kérdés: túrós vagy mákos rétes? | 맞아. 첫 질문, 코티지치즈야 양귀비씨야? | mákos = 양귀비씨를 넣은 | emotion=stiff
+A | Túrós, persze. Ez tényleg ilyen fontos? | 코티지치즈지, 당연히. 이게 그렇게 중요해? | ilyen = 이렇게 | emotion=tsukkomi
+B | Nagyon. Második: melyik a kedvenc múzeumod? | 아주. 둘째, 제일 좋아하는 미술관은? | második = 둘째 | emotion=stiff
+A | Izé... amelyikben Anna van. | 어… 언너가 있는 곳. | amelyikben = ~가 있는 그곳에 | emotion=shy
+B | Jó válasz. Utolsó: ha késik, hány percet vársz? | 좋은 답이야. 마지막, 걔가 늦으면 몇 분 기다려? | hány = 몇 | emotion=amused+stiff
+A | Amennyit kell. De figyelj, kié ez a lista? | 필요한 만큼. 근데 있잖아, 이 목록 누구 거야? | kié = 누구의 것 | emotion=gentle+neutral
+B | Anna írta. Tizenkét oldal, éjjel kettőkor küldte. | 언너가 썼어. 열두 쪽, 새벽 두 시에 보냈더라. | küldte = 그걸 보냈다 | emotion=amused
+A | Anna írta? Szóval ő is izgul? | 언너가 썼다고? 그럼 언너도 떨려? | izgul = 긴장한다 | emotion=surprised+shy
+B | Izgul? Már négyszer átöltözött, pedig még csak szerda van. | 떨리냐고? 벌써 옷을 네 번 갈아입었어, 아직 수요일인데. | átöltözött = 옷을 갈아입었다 | emotion=teasing

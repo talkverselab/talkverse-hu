@@ -1,0 +1,19 @@
+=== r1_love_c1
+kind: chat
+title: 레테시 때문에 읽씹
+emoji: 📱
+scene: 데이팅앱에서 매칭된 Anna 와 첫 채팅. 약속을 물었더니 답이 없다
+b: Anna
+register: chat
+twist: 5 ignore
+flags: romance
+purpose: love
+goal: 채팅에서 쓰는 짧은 답과 약속 묻기
+expressions: Bocsi; ráérsz; Na
+B | Szia! Te is szereted a rétest? 😄 | 안녕! 너도 레테시 좋아해? 😄 | szereted = 네가 그걸 좋아한다 | emotion=cheerful at=21:03
+A | Igen! Nagyon szeretem. | 응! 엄청 좋아해. | nagyon = 아주 | emotion=cheerful at=21:04
+B | Na, melyik a kedvenced? | 그래서 제일 좋아하는 건? | kedvenc = 좋아하는 것 | emotion=teasing at=21:05
+A | A túrós. Holnap ráérsz? | 코티지치즈 맛. 내일 시간 돼? | ráérsz = 너 시간 있어? | emotion=cheerful+shy at=21:06
+A | Bocsi, túl gyors vagyok? | 미안, 내가 너무 빨랐나? | túl = 너무 | emotion=worried at=21:40
+A | Jaj. Felejtsd el. | 아이고. 잊어 줘. | felejtsd el = 잊어 줘 | emotion=sad at=23:12
+B | Bocsi, rétest sütöttem. Holnap hozok neked. 😇 | 미안, 레테시 굽고 있었어. 내일 갖다 줄게. 😇 | neked = 너에게 | emotion=gentle at=23:40 stamp=😇

@@ -1,0 +1,19 @@
+=== r1_travel_a1
+kind: short
+title: 어제 표, 다른 트램
+emoji: 🚋
+scene: 부다페스트 트램 안 검표. 표를 내밀었는데 문제가 하나가 아니다
+b: Ellenőr
+register: polite
+twist: 7 reveal
+purpose: travel
+goal: 표 검사에 답하기와 어디 가는지 말하기
+expressions: Jó napot; Tessék; bocsánat
+B | Jó napot! Jegyeket, bérleteket kérek! | 안녕하세요! 표, 정기권 보여 주세요! | 검표원의 정해진 말 | emotion=polite
+A | Tessék, itt a jegyem. | 여기요, 제 표요. | a jegyem = 내 표 | emotion=polite
+B | Ez a jegy tegnapi. | 이 표는 어제 거예요. | tegnapi = 어제의 | emotion=stiff
+A | Tegnapi? Jaj, bocsánat! | 어제 거요? 아이고, 죄송해요! | bocsánat = 죄송합니다 | emotion=surprised+flustered
+B | Hova megy? | 어디 가세요? | hova = 어디로 | emotion=stiff
+A | A Parlamenthez megyek. | 국회의사당에 가요. | -hoz/-hez/-höz = ~쪽으로 | emotion=polite
+B | Akkor rossz villamoson ül. | 그럼 트램 잘못 타셨어요. | rossz = 나쁜, 틀린 | emotion=stiff
+A | Hát most hova megyek? | 그럼 저 이제 어디로 가죠? | hát = 그럼, 음 | emotion=worried

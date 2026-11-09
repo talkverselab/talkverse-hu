@@ -1,0 +1,21 @@
+=== r1_travel_a3
+kind: short
+title: 시식만 했을 뿐인데
+emoji: 🧀
+scene: 시장 통로. 소시지 한 점을 맛봤더니 옆 가게들이 줄줄이 달려든다
+b: Eladó
+c: Néni
+d: Bácsi
+register: polite
+twist: 5 chaos
+purpose: travel
+goal: 맛보기 권유에 답하기와 배부르다고 말하기
+expressions: Hű; de finom; Várjon; Tessék; Hát
+B | Jó napot! Kóstolja meg a kolbászt! | 안녕하세요! 소시지 맛보세요! | kóstolja meg = 맛보세요(존댓말) | emotion=cheerful
+A | Köszönöm. Hű, de finom! | 고맙습니다. 와, 정말 맛있네요! | de finom = 정말 맛있다 | emotion=polite+excited
+C | Várjon! Az enyémet is kóstolja meg! | 잠깐만요! 내 것도 맛보세요! | az enyém = 내 것 | emotion=excited
+A | Hm, ez is nagyon finom. | 음, 이것도 아주 맛있네요. | ez is = 이것도 | emotion=polite
+D | Itt a szalámi! Tessék, tessék! | 여기 살라미요! 자, 자! | tessék = 자, 드세요 | emotion=excited
+A | Jaj, köszönöm, de már jóllaktam. | 아이고, 고맙습니다만 이제 배불러요. | jóllaktam = 배불러요 | emotion=flustered
+B | Na, és mit vesz? | 그래서, 뭘 사시겠어요? | vesz = 사다 | emotion=polite
+A | Hát... egy vizet kérek. | 그게… 물 한 병 주세요. | hát = 그게, 음 | emotion=shy

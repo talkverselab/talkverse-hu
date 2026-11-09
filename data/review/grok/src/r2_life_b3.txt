@@ -1,0 +1,24 @@
+=== r2_life_b3
+kind: long
+title: 빠른 아주머니
+emoji: 🏊
+scene: 온천 수영장. Dávid 가 수영 실력을 뽐내는데 수영모 쓴 Marika 아주머니가 지나간다
+b: Dávid
+c: Marika néni
+register: mixed
+twist: 11 reveal
+purpose: study_abroad
+goal: 어르신께 쓰는 tetszik 말투(Hogy tetszik lenni?)
+expressions: Gyere; Persze; Csókolom; Hogy tetszik lenni?; Ne már
+B | Gyere, megmutatom, hogy kell gyorsan úszni. Nézd! | 와, 빨리 수영하는 법 보여 줄게. 봐! | megmutatom = 내가 보여 줄게 | emotion=excited
+A | Hű, te tényleg gyors vagy! | 와, 너 진짜 빠르다! | gyors = 빠른 | emotion=surprised
+C | Bocsánat, kisfiam, mehetek? | 미안하다 얘야, 지나가도 되니? | kisfiam = 얘야(어린 남자에게) | emotion=gentle
+B | Persze, tessék. Várj, ez Marika néni? | 그럼요, 가세요. 잠깐, 이거 마리카 아주머니야? | várj = 잠깐 | emotion=polite+surprised
+A | Csókolom! Hogy tetszik lenni? | 안녕하세요! 잘 지내세요? | hogy tetszik lenni? = 어르신께 쓰는 안부 | emotion=polite
+C | Jól, csak ez a fiú lassú. Nem baj, még fiatal. | 잘 지내지, 이 청년이 느릴 뿐. 괜찮아, 아직 젊으니까. | lassú = 느린 | emotion=teasing
+B | Lassú?! Na, jöjjön, két hossz! | 느리다고요?! 자, 오세요, 두 바퀴요! | jöjjön = 오세요(존댓말) | emotion=annoyed
+A | Dávid, ne már! Nyolcvan éves! | 다비드, 아 좀! 여든이시잖아! | ne már = 아 좀 | emotion=tsukkomi
+C | Nyolcvankettő. Mehetünk? | 여든둘이다. 갈까? | mehetünk = 우리 가도 된다 | emotion=amused
+B | Ez nem lehet! Hogy csinálta?! | 말도 안 돼! 어떻게 하신 거예요?! | nem lehet = 그럴 리 없어 | emotion=shout
+C | Régen az olimpián úsztam, kisfiam. Ne siess, még fiatal vagy. | 옛날에 올림픽에서 수영했단다, 얘야. 서두르지 마, 아직 젊잖니. | régen = 옛날에 | emotion=gentle
+B | Marika néni... nem edzene engem? | 아주머니… 저 좀 훈련시켜 주시면 안 될까요? | edzene = 훈련시켜 주실 텐데(조건법) | emotion=shy

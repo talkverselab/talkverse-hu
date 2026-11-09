@@ -1,0 +1,21 @@
+=== r1_culture_a5
+kind: short
+title: 맥주잔은 부딪치지 마
+emoji: 🍻
+scene: 동네 술집에서 첫 건배. 맥주잔을 부딪치려는 순간 온 술집이 쳐다본다
+b: Réka
+c: Pincér
+register: mixed
+twist: 7 chaos
+flags: alcohol
+purpose: media making_friends
+goal: 건배사 egészségedre 와 헝가리의 맥주 건배 풍습
+expressions: Na; Ne már; Nézd; Semmi baj
+B | Na, egészségedre! | 자, 건배! | egészségedre = 네 건강을 위해(건배) | emotion=cheerful
+A | Egészségedre! Gyere, koccintsunk! | 건배! 자, 잔 부딪치자! | koccintsunk = 잔을 부딪치자 | emotion=excited
+B | Ne már! Sörrel nem koccintunk! | 아 좀! 맥주로는 안 부딪쳐! | sörrel = 맥주로 | emotion=shout
+A | Miért nem? Mi van? | 왜 안 돼? 뭐야? | miért = 왜 | emotion=flustered
+B | Régi szokás. Nézd, mindenki minket néz. | 옛날 풍습이야. 봐, 다들 우리 쳐다봐. | szokás = 풍습 | emotion=neutral+worried
+A | Jaj, bocsánat! Most mit csináljak? | 아이고, 죄송해요! 이제 어떡하죠? | mit csináljak? = 어떡하지? | emotion=flustered
+C | Semmi baj! Mindenkinek egy pálinka, és ön fizet. | 괜찮아요! 다들 팔린카 한 잔씩, 손님이 내시고요. | mindenkinek = 모두에게 | emotion=polite+teasing
+A | Mindenkinek? Hány ember van itt? | 모두요? 여기 몇 명이나 있는데요? | hány = 몇 | emotion=surprised

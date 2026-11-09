@@ -1,0 +1,19 @@
+=== r1_life_b5
+kind: long
+title: 안 먹으면 의사 부른다
+emoji: 🍲
+scene: 고장 난 전구 때문에 잠깐 들렀을 뿐인데, Marika 아주머니의 식탁에서 나갈 수가 없다
+b: Marika néni
+register: mixed
+twist: 7 chaos
+purpose: study_abroad
+goal: 음식 사양하기(Elég, tele vagyok)와 Nem ízlik?
+expressions: Gyere be; Tessék; Nem ízlik?; Dehogy
+B | Gyere be, éhes vagy? Főztem egy kis levest. | 들어와! 배고프니? 국 좀 끓였어. | gyere be = 들어와 | emotion=gentle
+A | Köszönöm, nem vagyok éhes. | 고맙습니다, 배 안 고파요. | éhes = 배고픈 | emotion=polite
+B | Egy kicsit! Tessék, itt a leves és a hús. | 조금만! 자, 국이랑 고기. | hús = 고기 | emotion=cheerful
+A | Nagyon finom! De most már elég. | 정말 맛있어요! 그런데 이제 됐어요. | elég = 충분해 | emotion=cheerful+polite
+B | Elég? Nem ízlik? | 됐다고? 맛이 없니? | nem ízlik? = 입에 안 맞아? | emotion=surprised+sad
+A | Dehogy! Csak tele vagyok. | 아니에요! 그냥 배불러요. | dehogy = 천만에, 전혀 아니야 | emotion=flustered
+B | Nem eszel? Hívom az orvost! | 안 먹어? 의사 부른다! | hívom = 내가 그를 부른다 | emotion=worried+shout
+A | Jaj, ne! Jól van, kérek még. | 아이고, 안 돼요! 알겠어요, 더 주세요. | jól van = 알겠어 | emotion=flustered+sad

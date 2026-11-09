@@ -1,0 +1,27 @@
+=== r3_work_c1
+kind: chat
+title: 전 직원 방의 레테시
+emoji: 🥧
+scene: 회사 메신저. 옆자리 동료에게 물어본다는 게 전 직원 방에 올라갔다
+b: Kolléga
+c: Igazgató
+d: Bécsi iroda
+register: chat
+twist: 11 chaos
+purpose: work_hungary
+goal: 회사 메신저에서 사과하고 부탁하기(ne + 명령형, 존댓말)
+expressions: Hé; Bocsánat; Figyelj; Bocsi; Jaj
+A | A konyhában van egy almás rétes. Kié? 😄 | 부엌에 사과 레테시가 있어요. 누구 거예요? 😄 | kié? = 누구 것? | emotion=cheerful at=11:02
+B | Hé, ez a Mindenki csoport! Ezer ember látja ezt. | 야, 여기 「전 직원」 방이야! 천 명이 보고 있어. | csoport = 그룹 | emotion=surprised at=11:03
+A | Jaj! Bocsánat, mindenki, rossz helyre írtam. | 앗! 여러분 죄송합니다, 잘못 올렸어요. | rossz helyre = 틀린 곳으로 | emotion=flustered at=11:04
+D | Jó napot, itt a bécsi iroda. Miért kaptunk üzenetet egy rétesről? | 안녕하세요, 빈 지사입니다. 왜 레테시 메시지가 왔죠? | üzenet = 메시지 | emotion=stiff at=11:06
+B | Figyelj, már harminc válasz van. Mindenki azt írja, hogy ne írjunk ide. | 야, 답글이 벌써 서른 개야. 다들 여기 쓰지 말자고 쓰고 있어. | ne írjunk = 쓰지 말자 | emotion=worried at=11:08
+A | Kérem, ne írjanak ide! | 제발 여기 쓰지 말아 주세요! | ne írjanak = 쓰지 마세요(여러분, 존댓말) | emotion=flustered at=11:09
+B | Te is ide írtad. | 너도 여기 썼잖아. | ide = 여기로 | emotion=tsukkomi at=11:09
+A | Bocsi. | 미안. | bocsi = 미안(가벼운 말) | emotion=sad at=11:10
+B | Ezt is. | 그것도. | ezt is = 이것도 | emotion=tsukkomi at=11:10
+C | Itt az igazgató. Kérem, mindenki hagyja abba. | 이사입니다. 모두 그만하세요. | hagyja abba = 그만두세요 | emotion=stiff at=11:20
+D | A levelezőnk leállt a rétes miatt. Ez komoly? | 저희 메일이 레테시 때문에 멈췄습니다. 이게 진심입니까? | leállt = 멈췄다 | emotion=stiff+annoyed at=11:31
+B | Most ötven ember áll a konyhában. Mind a rétest nézi. | 지금 부엌에 쉰 명이 서 있어. 다들 레테시를 보고 있어. | mind = 모두 | emotion=amused at=11:40
+A | Nem írok többet. Soha. | 이제 안 쓰겠습니다. 영원히. | többet = 더 | emotion=sad at=11:41
+C | Még valami: az a rétes az enyém. Ne nyúljanak hozzá! | 하나 더요. 그 레테시 제 겁니다. 손대지 마세요! | ne nyúljanak hozzá = 손대지 마세요 | emotion=stiff+shout at=11:45 stamp=😇

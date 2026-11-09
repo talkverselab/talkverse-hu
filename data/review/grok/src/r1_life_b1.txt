@@ -1,0 +1,20 @@
+=== r1_life_b1
+kind: long
+title: 파프리카 1 kk
+emoji: 🌶️
+scene: 부엌. 레시피를 보고 처음 끓인 굴라시. 냄새가 건물을 타고 올라간다
+b: Dávid
+c: Marika néni
+register: casual
+twist: 8 chaos
+purpose: study_abroad
+goal: 요리 재촉·권유(Kóstold meg! Mutasd!)
+expressions: Kóstold meg; Mi van?; Úristen; Mutasd
+B | Mi ez a szag? Mit csinálsz? | 이 냄새 뭐야? 뭐 해? | szag = 냄새 | emotion=worried
+A | Gulyást főzök! Kóstold meg! | 굴라시 끓여! 맛봐! | kóstold meg = 맛봐 | emotion=excited
+B | Hű, de piros! Úristen, víz! | 와, 진짜 빨갛다! 세상에, 물! | de + 형용사 = 정말 ~하다 | emotion=surprised+shout
+A | Mi van? A recept szerint csináltam! | 왜? 레시피대로 했는데! | szerint = ~에 따라 | emotion=flustered
+B | Mutasd! Mennyi paprikát tettél bele? | 보여 줘! 파프리카 얼마나 넣었어? | tettél bele = 네가 안에 넣었다 | emotion=worried
+A | Egy kk. Az egy kiló, nem? | 1 kk. 그거 1킬로잖아, 아니야? | ..., nem? = ~지, 아니야? | emotion=neutral
+B | Kávéskanál! A kk kávéskanál! | 찻숟갈! kk 는 찻숟갈이라고! | kávéskanál = 찻숟갈(요리책의 kk) | emotion=shout
+C | Gyerekek, miért sír az egész ház? | 얘들아, 왜 온 건물이 울고 있니? | sír = 운다 | emotion=worried

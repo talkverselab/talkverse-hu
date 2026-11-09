@@ -1,0 +1,25 @@
+=== r2_life_b2
+kind: long
+title: 건배사는 천천히
+emoji: 🥂
+scene: Dávid 의 부모님이 오는 날. 긴 단어 egészségedre 를 연습하는데 자꾸 다른 말이 된다
+b: Dávid
+c: Dávid apja
+register: mixed
+twist: 8 slip
+flags: alcohol profanity_mild
+purpose: study_abroad
+goal: 건배 인사 egészségedre 와 말 놓기 Tegeződjünk
+expressions: Figyelj; Persze; Jól van; Tessék?; Ne már
+B | Figyelj, ma este jönnek a szüleim. Tudsz koccintani? | 야, 오늘 저녁에 우리 부모님 오셔. 건배할 줄 알아? | koccint = 잔을 부딪치다 | emotion=neutral
+A | Persze! Mit kell mondani? | 당연하지! 뭐라고 해야 돼? | mit kell mondani? = 뭐라고 해야 해? | emotion=cheerful
+B | Azt, hogy „egészségedre”. Lassan mondd! | 「에게세게드레」라고 해. 천천히 말해 봐! | egészségedre = 건배(네 건강을 위해) | emotion=neutral
+A | Egész... seggedre? | 전체… 네 엉덩이에? | 띄어 말하면 뜻이 달라진다 | emotion=worried
+B | Nem, az mást jelent! Ne mondd apámnak! | 아니, 그건 뜻이 달라! 우리 아빠한테 하지 마! | segg = 엉덩이(거친 말) | emotion=shout+worried
+A | Jól van, értem. Egészségedre, egészségedre! | 알겠어, 이해했어. 건배, 건배! | jól van = 알겠어 | emotion=cheerful
+C | Szia, {name}! Tegeződjünk, és igyunk egyet! | 안녕, {name}! 말 놓고 한잔하자! | tegeződjünk = 말 놓자 | emotion=cheerful
+A | Köszönöm! Egész seggedre! | 고맙습니다! 당신 엉덩이 전체를 위해! | egész seggedre = 네 엉덩이 전체에 | emotion=excited
+C | Tessék? | 뭐라고? | tessék? = 뭐라고? | emotion=surprised
+B | Úristen. Apa, még tanulja a nyelvet. | 세상에. 아빠, 아직 말 배우는 중이야. | tanulja = 그걸 배운다 | emotion=flustered
+C | Hát ez remek! Mostantól így mondjuk a családban. | 이거 최고다! 앞으로 우리 집은 이렇게 말한다. | mostantól = 이제부터 | emotion=excited
+B | Ne már! Karácsonykor nagymama is ezt fogja mondani. | 아 좀! 크리스마스엔 할머니도 이 말 하시겠네. | fogja mondani = 말할 것이다 | emotion=tsukkomi

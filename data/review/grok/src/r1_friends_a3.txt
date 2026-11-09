@@ -1,0 +1,19 @@
+=== r1_friends_a3
+kind: short
+title: 덥다고 했을 뿐인데
+emoji: 🥵
+scene: 땡볕 벼룩시장. 덥다고 말하려다 헝가리어 학습자가 꼭 한 번 밟는 함정을 밟는다
+b: Réka
+register: casual
+twist: 6 slip
+purpose: making_friends
+goal: 「덥다」는 melegem van — 몸 상태를 말하는 틀 익히기
+expressions: Na; Tényleg?; semmi baj; Na ne
+B | Na, jól vagy? | 야, 괜찮아? | na = 자, 야(말 꺼낼 때) | emotion=neutral
+A | Jaj, nagyon meleg vagyok! | 아이고, 나 완전 게이야! | meleg vagyok = 나 게이야(덥다는 melegem van) | emotion=annoyed
+B | Tényleg? Jó, semmi baj. | 진짜? 그래, 아무 문제 없어. | semmi baj = 아무 문제 없어 | emotion=surprised+gentle
+A | Igen, nagyon! És te? | 응, 완전! 너는? | és te? = 너는? | emotion=cheerful
+B | Én? Hát, én nem. | 나? 음, 난 아니야. | hát = 음, 글쎄 | emotion=flustered
+A | Na ne! Ma mindenki meleg! | 에이! 오늘은 다들 게이지! | na ne = 에이, 설마 | emotion=cheerful
+B | Hű. Melegem van, ezt akarod mondani? | 어휴. 「더워」라고 하려던 거지? | melegem van = 나 더워 | emotion=amused
+A | Jaj. Ezt mondtam a tanáromnak is! | 아이고. 선생님한테도 그렇게 말했어! | tanár = 선생님 | emotion=flustered

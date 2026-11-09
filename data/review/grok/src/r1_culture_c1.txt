@@ -1,0 +1,20 @@
+=== r1_culture_c1
+kind: chat
+title: 새벽 세 시의 좋아요
+emoji: ❤️
+scene: 밤중에 Anna 의 옛날 사진을 구경하다 손가락이 미끄러졌다
+b: Anna
+register: chat
+twist: 8 emotion
+flags: romance
+purpose: media love
+goal: 채팅의 짧은 대답과 véletlenül(실수로)
+expressions: Aha; Jaj; Nem baj
+B | Szia! Ébren vagy? 😄 | 안녕! 안 자? 😄 | ébren = 깨어 있는 | emotion=cheerful at=02:41
+A | Igen. Miért? | 응. 왜? | miért? = 왜? | emotion=neutral at=02:42
+B | Most lájkoltad a képemet. | 방금 내 사진에 좋아요 눌렀어. | lájkol = 좋아요를 누르다 | emotion=teasing at=02:42
+A | Melyiket? | 어떤 거? | melyiket? = 어느 것을? | emotion=worried at=02:43
+B | A régit. Nyolcéves vagyok rajta. | 옛날 거. 거기서 나 여덟 살이야. | rajta = 그 위에(사진 속에) | emotion=teasing at=02:43
+A | Jaj. Véletlenül. | 아이고. 실수로. | véletlenül = 실수로 | emotion=flustered at=02:45
+B | Aha. Véletlenül. | 아하. 실수로. | aha = 아하 | emotion=teasing at=02:45
+B | Nem baj. Van még száz kép. 😏 | 괜찮아. 사진 백 장 더 있어. 😏 | nem baj = 괜찮아 | emotion=teasing at=02:46

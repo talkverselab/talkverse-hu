@@ -1,0 +1,23 @@
+=== r2_travel_b1
+kind: long
+title: 온천의 고수
+emoji: ♟️
+scene: 온천 물속 체스판. 말 움직이는 법도 모르는 {name} 이 한 판만 두기로 한다
+b: Bácsi
+c: Dávid
+register: mixed
+twist: 7 chaos
+purpose: travel making_friends
+goal: 할 줄 아는 정도 말하기(tudok + 동사원형)
+expressions: Figyelj; Komolyan; Durva; rendben; egy pillanat; Úristen; Naná
+C | Figyelj, ezek a bácsik a vízben sakkoznak. Komolyan. | 야, 저 할아버지들 물속에서 체스 둔다. 진짜로. | sakkozik = 체스를 두다 | emotion=excited
+A | Durva. Én csak egy kicsit tudok sakkozni. | 대박. 난 체스 조금밖에 못 둬. | tudok + 동사원형 = ~할 줄 안다 | emotion=amused
+B | Na, ülj ide! Harminc éve senki nem győzött le engem. | 자, 여기 앉아! 30년째 나를 이긴 사람이 없어. | legyőz = 이기다 | emotion=cheerful
+A | Jól van, de csak egy partit, rendben? | 좋아요, 그런데 한 판만요, 괜찮죠? | parti = (체스) 한 판 | emotion=polite
+C | Mit csinálsz? Ezt a lovat miért oda tetted? | 뭐 해? 왜 그 말을 저기 놨어? | ló → lovat = 말을 | emotion=surprised
+A | Nem tudom. Szép volt ott. | 몰라. 거기가 예뻐서. | volt = ~였다 | emotion=amused
+B | Várj, egy pillanat, ez matt! Úristen, harminc év! | 잠깐, 잠깐만, 이거 외통이야! 세상에, 30년인데! | matt = 외통수 | emotion=surprised+shout
+C | Az egész fürdő ide jön! Mindenki téged néz! | 온천 사람들 다 이쪽으로 와! 다들 널 보고 있어! | az egész = 전체 | emotion=excited
+B | Holnap jön a másik fürdő csapata. Te játszol helyettem! | 내일 다른 온천 팀이 와. 네가 나 대신 둬! | helyettem = 나 대신 | emotion=excited
+A | Mi van? Azt se tudom, hogyan lép a ló! | 네? 저는 말이 어떻게 움직이는지도 몰라요! | azt se tudom = 그것조차 모른다 | emotion=surprised+flustered
+B | Naná. Ezért nem látja senki, mit fogsz lépni. | 당연하지. 그래서 아무도 네 수를 못 읽는 거야. | fogsz + 동사원형 = ~할 것이다 | emotion=amused

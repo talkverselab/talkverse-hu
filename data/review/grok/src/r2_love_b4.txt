@@ -1,0 +1,24 @@
+=== r2_love_b4
+kind: long
+title: 끈 없는 부츠
+emoji: 🌉
+scene: 영하의 밤, 마지막 트램을 향해 뛰는데 Anna 가 신발끈을 묶겠다며 멈춘다
+b: Anna
+register: casual
+twist: 9 reveal
+flags: romance
+purpose: love
+goal: 재촉하기와 '일부러'(direkt), 날씨 말하기
+expressions: Várj; Nem baj; Nézd; Tényleg?
+A | Futás, ott jön az utolsó villamos! | 뛰어, 저기 마지막 트램 온다! | futás = 뛰어(구호) | emotion=shout
+B | Várj, bekötöm a cipőfűzőmet! | 잠깐, 신발끈 좀 묶을게! | cipőfűző = 신발끈 | emotion=flustered
+A | Anna, elment! Most mi lesz ebben a hidegben? | 언너, 가 버렸어! 이 추위에 이제 어떡해? | mi lesz? = 어떻게 돼? | emotion=shout+worried
+B | Hát, akkor gyalogolunk. Csak negyven perc a hídon át. | 음, 그럼 걷지 뭐. 다리 건너서 사십 분밖에 안 돼. | a hídon át = 다리를 건너 | emotion=cheerful
+A | Negyven perc? Itt mínusz öt fok van! | 사십 분? 여기 영하 5도야! | mínusz öt fok = 영하 5도 | emotion=surprised+annoyed
+B | Nem baj, nézd, milyen szép éjjel a Duna. | 괜찮아, 봐, 밤의 두너강 얼마나 예뻐. | milyen szép = 얼마나 예쁜지 | emotion=gentle
+A | Szép, de már nem érzem a lábam. | 예뻐, 근데 벌써 발에 감각이 없어. | nem érzem = 못 느낀다 | emotion=sad
+B | Gyere közelebb, mindjárt melegebb lesz. | 더 가까이 와, 금방 따뜻해져. | közelebb = 더 가까이 | emotion=gentle
+A | Várj... a csizmádon nincs is cipőfűző. | 잠깐… 네 부츠엔 끈이 없잖아. | nincs is = 아예 없다 | emotion=surprised
+B | Tényleg? Hát ez furcsa. | 진짜? 거참 이상하네. | furcsa = 이상한 | emotion=flustered
+A | Anna. Te direkt lekésted a villamost? | 언너. 너 일부러 트램 놓친 거야? | direkt = 일부러 | emotion=teasing
+B | Csak még negyven percet akartam veled lenni. | 그냥 너랑 사십 분만 더 있고 싶었어. | akartam = 하고 싶었다 | emotion=shy

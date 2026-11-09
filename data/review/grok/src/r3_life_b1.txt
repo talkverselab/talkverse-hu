@@ -1,0 +1,29 @@
+=== r3_life_b1
+kind: long
+title: 모든 다비드를 환영합니다
+emoji: 🎉
+scene: Dávid 몰래 이름의 날 파티를 준비한다. 초대 글에서 낱말 하나를 빠뜨렸다
+b: Dávid
+c: Másik Dávid
+d: Marika néni
+register: mixed
+twist: 9 chaos
+purpose: study_abroad
+goal: 목적격과 소유 표현(minden Dávidot / Dávid minden barátját) 구별
+expressions: Persze; ugye; Úristen; Figyelj; Jaj
+A | Marika néni, tetszik jönni este? Meglepetésbulit csinálok Dávid névnapjára. | 아주머니, 오늘 저녁에 오실래요? 다비드 이름의 날에 깜짝 파티 해요. | tetszik jönni? = 오시겠어요?(어르신께) | emotion=polite+excited
+D | Persze, hozok levest. Hányan lesztek? | 그럼, 국 가져갈게. 몇 명이나 되니? | hányan? = 몇 명이서? | emotion=gentle
+A | Talán tízen. Kiírtam a netre: „Várunk minden Dávidot”, ugye jó? | 열 명쯤요. 인터넷에 「모든 다비드를 기다립니다」라고 썼어요, 괜찮죠? | kiírtam = 올렸다 | emotion=cheerful
+D | Minden Dávidot? Nem „Dávid minden barátját”? | 모든 다비드를? 「다비드의 모든 친구를」이 아니고? | barátját = 그의 친구를 | emotion=worried
+A | Jaj... az nem ugyanaz? | 아이고… 그거 같은 말 아니에요? | ugyanaz = 같은 것 | emotion=flustered
+C | Szia, Dávid vagyok. Itt van a buli? | 안녕, 나 다비드야. 파티 여기야? | buli = 파티 | emotion=cheerful
+A | Szia! Te Dávid barátja vagy? | 안녕! 너 다비드 친구야? | barátja = 그의 친구 | emotion=cheerful
+C | Nem, én csak egy másik Dávid vagyok. Lent jön még harminc. | 아니, 난 그냥 다른 다비드야. 아래에 서른 명 더 와. | másik = 다른 | emotion=neutral
+A | Harminc?! Marika néni, harminc Dávid jön fel a lépcsőn! | 서른?! 아주머니, 다비드 서른 명이 계단으로 올라와요! | jön fel = 올라온다 | emotion=surprised+flustered
+D | Mondtam. Megyek, főzök még levest. | 내가 말했지. 가서 국 더 끓일게. | mondtam = 내가 말했다 | emotion=tsukkomi+gentle
+B | Megjöttem! Ki ez a sok ember a lakásomban? | 나 왔어! 내 집에 이 많은 사람들 누구야? | lakásomban = 내 집 안에 | emotion=cheerful+surprised
+A | Boldog névnapot! Ők mind Dávidok. | 이름의 날 축하해! 이 사람들 다 다비드야. | ők mind = 그들 모두 | emotion=excited+flustered
+B | Mind?! Negyven Dávid van a konyhámban, és egyiket sem ismerem! | 다?! 우리 부엌에 다비드가 마흔 명인데 한 명도 몰라! | egyiket sem = 하나도 ~않다 | emotion=surprised+annoyed
+C | Figyelj, egy rendőr van a lépcsőn. Panasz jött a zaj miatt. | 야, 계단에 경찰 왔어. 시끄럽다고 신고 들어왔대. | panasz = 민원 | emotion=worried
+A | Úristen! Mit akar? | 세상에! 뭐래? | mit akar? = 뭘 원해? | emotion=flustered
+C | Azt mondja, ő is Dávid. És hol a leves? | 자기도 다비드래. 그리고 국 어디 있냐는데? | azt mondja = 그렇게 말한다 | emotion=amused

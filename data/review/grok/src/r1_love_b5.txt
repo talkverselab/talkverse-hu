@@ -1,0 +1,21 @@
+=== r1_love_b5
+kind: long
+title: 하트냐 감자냐
+emoji: ☕
+scene: Bence 의 카페. A 의 커피에 그려진 하트를 Anna 가 보고 말았다
+b: Anna
+c: Bence
+register: casual
+twist: 5 chaos
+flags: romance jealousy
+purpose: love
+goal: 누가 했는지 묻기(Ki …?)와 어느 쪽인지 묻기(melyik)
+expressions: Tessék; Figyelj; Jól van; Hát
+B | Ki rajzolt szívet a kávédba? | 누가 네 커피에 하트 그렸어? | szív = 하트, 심장 | emotion=annoyed
+A | Bence. Mindenkinek rajzol, ez a munkája. | 벤체. 다들 그려 줘, 그게 일이잖아. | mindenkinek = 모두에게 | emotion=neutral
+B | Nekem soha nem rajzol szívet. Bence! | 나한텐 하트 그려 준 적 없어. 벤체! | soha nem = 절대 안 | emotion=annoyed+shout
+C | Tessék, Anna. Mit kérsz? | 응, 언너. 뭐 줄까? | mit kérsz? = 뭘 원해? | emotion=cheerful
+B | Figyelj: mostantól a kávéjába én rajzolok. | 잘 들어. 이제부터 얘 커피엔 내가 그려. | mostantól = 이제부터 | emotion=stiff
+C | Jól van, tessék, itt a tej. | 알았어, 자, 우유 여기. | tej = 우유 | emotion=amused
+A | Anna, ez szív vagy krumpli? | 언너, 이거 하트야 감자야? | vagy = 또는 | emotion=teasing
+B | Hát... te melyiket szeretnéd? | 음… 넌 어느 쪽이면 좋겠어? | melyik = 어느 것 | emotion=shy

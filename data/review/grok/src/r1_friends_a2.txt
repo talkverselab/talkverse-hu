@@ -1,0 +1,20 @@
+=== r1_friends_a2
+kind: short
+title: 손 흔들었을 뿐인데
+emoji: 🪑
+scene: 벼룩시장 경매 한복판. 멀리 있는 Réka 를 보고 손을 흔든다
+b: Réka
+c: Eladó
+register: mixed
+twist: 6 chaos
+purpose: making_friends
+goal: 숫자·값 알아듣기, 부정 명령 ne ~ 익히기
+expressions: Hé; Jaj; Mi van?; Szuper
+C | Ki ad ezer forintot? | 천 포린트 내실 분? | ezer = 천 | emotion=excited
+A | Réka! Hé, itt vagyok! | 레카! 야, 나 여기 있어! | hé = 야, 저기 | emotion=shout
+C | Ezer forint! Ki ad többet? | 천 포린트! 더 내실 분? | többet = 더 많이 | emotion=excited
+B | Jaj, ne integess! | 아이고, 손 흔들지 마! | ne integess = 손 흔들지 마 | emotion=worried
+A | Mi van? Hol vagy? | 뭐? 어디 있어? | Mi van? = 뭐?, 뭐야? | emotion=surprised
+C | Kétezer! Szuper, köszönöm! | 이천! 좋습니다, 감사합니다! | kétezer = 이천 | emotion=excited
+A | Mi? Mi az a kétezer? | 뭐? 이천이 뭔데? | mi az = 그게 뭐야 | emotion=flustered
+B | Gratulálok! A szék a tiéd. | 축하해! 의자는 네 거야. | a tiéd = 네 것 | emotion=teasing

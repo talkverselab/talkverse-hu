@@ -1,0 +1,19 @@
+=== r1_survival_s1
+kind: survival
+title: 「네」만 했을 뿐인데
+emoji: ☕
+scene: 카페에서 커피 한 잔을 주문하는데, 다 못 알아듣고 「네」만 하다가 일이 커진다
+b: Bence
+register: polite
+twist: 6 chaos
+purpose: travel
+goal: 주문 표현 kérek 과 멈춰 세우는 말 익히기
+expressions: Jó napot; kérek; várjon
+B | Jó napot! Mit kér? | 안녕하세요! 뭐 드릴까요? | Mit kér? = 뭐 드릴까요?(존댓말) | emotion=polite
+A | Jó napot! Egy kávét kérek. | 안녕하세요! 커피 한 잔 주세요. | kávét kérek = 커피 주세요(-t 목적격) | emotion=polite
+B | Tejjel és cukorral? | 우유랑 설탕 넣어 드려요? | -val/-vel = ~와 함께 | emotion=polite
+A | Igen, köszönöm. | 네, 감사합니다. | köszönöm = 감사합니다 | emotion=polite
+B | Süteményt is kér? | 케이크도 드릴까요? | is = ~도 | emotion=polite
+A | Igen, igen. | 네, 네. | 못 알아들어도 일단 igen | emotion=worried
+B | Akkor egy kávé, három sütemény és egy rétes! | 그럼 커피 하나, 케이크 셋, 레테시 하나요! | három = 셋 | emotion=cheerful
+A | Jaj, várjon! Csak egy kávét kérek! | 아, 잠깐만요! 커피 한 잔만 주세요! | várjon = 기다리세요(존댓말), csak = ~만 | emotion=flustered

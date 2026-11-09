@@ -1,0 +1,19 @@
+=== r1_culture_a4
+kind: short
+title: 네 비계 예쁘다
+emoji: 💇
+scene: Réka 가 머리를 짧게 잘랐다. 칭찬을 하려는데 모음 길이가 말썽이다
+b: Réka
+register: casual
+twist: 6 slip
+purpose: media making_friends
+goal: 긴 모음과 짧은 모음 구별(haj/háj)
+expressions: Nézd; Ja, persze; Bocsi
+B | Szia! Nézd, mit csináltam! | 안녕! 봐, 내가 뭘 했게! | nézd = 봐 | emotion=cheerful
+A | Mit? A biciklidet? | 뭘? 자전거? | biciklidet = 네 자전거를 | emotion=neutral
+B | Nem! A fejemet nézd! | 아니! 내 머리를 봐! | fej = 머리(신체) | emotion=annoyed
+A | Ja, persze! Rövid! | 아, 그렇네! 짧다! | rövid = 짧은 | emotion=flustered
+B | Na, és? Szép? | 그래서? 예뻐? | na, és? = 그래서? | emotion=teasing
+A | Nagyon szép a hájad! | 네 비계 참 예쁘다! | háj = 비계(haj = 머리카락) | emotion=gentle
+B | A mim? Haj, rövid a-val! | 내 뭐? 「허이」, 짧은 a 로! | a mim? = 내 뭐? | emotion=surprised+tsukkomi
+A | Bocsi! A hajad is szép. | 미안! 머리도 예뻐. | is = ~도(그럼 앞의 말은…) | emotion=flustered+shy

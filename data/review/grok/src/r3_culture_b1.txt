@@ -1,0 +1,27 @@
+=== r3_culture_b1
+kind: long
+title: 할머니 이름은 István
+emoji: 📦
+scene: Réka 가 이웃 할머니 소포를 맡겼다. 이름은 성부터 쓴다는 건 안다. 그런데 Istvánné 는 뭘까
+b: Réka
+c: Néni
+register: mixed
+twist: 13 reveal
+purpose: media
+goal: 이름 순서(성 + 이름)와 옛 호칭 -né 이해하기
+expressions: Figyelj; Persze; Hát; Csókolom; Hogyhogy
+B | Figyelj, ezt a csomagot vidd el a szomszédba, a harmadik emeletre. | 들어 봐, 이 소포 3층 이웃집에 좀 갖다 줘. | vidd el = 가져가 | emotion=neutral
+A | Persze, kinek szól? Itt az áll, hogy Szabó Istvánné. | 그래. 누구 앞이야? 여기 Szabó Istvánné 라고 돼 있어. | az áll = 그렇게 쓰여 있다 | emotion=cheerful
+B | Igen, ő a néni. Előbb a családnév, aztán a keresztnév, ezt már tudod, ugye? | 응, 그 할머니야. 먼저 성, 그다음 이름, 이건 알지? | családnév = 성 | emotion=neutral+teasing
+A | Tudom, tudom. Szóval Szabó a családnév, és István a néni neve. | 알아, 알아. 그러니까 Szabó 가 성이고, István 이 할머니 이름이네. | keresztnév = 이름 | emotion=amused
+B | Hát... nem egészen, de menj csak, majd meglátod! | 음… 꼭 그렇진 않아. 일단 가 봐, 보면 알아! | nem egészen = 꼭 그렇진 않다 | emotion=teasing
+A | Csókolom! Szabó István nénit keresem. | 안녕하세요! Szabó István 할머니를 찾는데요. | keresem = 그 사람을 찾는다 | emotion=polite
+C | Kit? István, a férjem, már harminc éve nem lakik itt. | 누구? 내 남편 István 은 30년 전부터 여기 안 살아. | harminc éve = 30년 전부터 | emotion=surprised+sad
+A | Bocsánat, de a csomagon ez áll: Szabó Istvánné. Ez nem Ön? | 죄송한데 소포에 이렇게 써 있어요. Szabó Istvánné. 할머니 아니세요? | a csomagon = 소포 위에 | emotion=flustered
+C | Dehogynem! Az annyit tesz: István felesége, így írtuk régen. | 맞고말고! 그건 István 의 아내라는 뜻이야. 옛날엔 그렇게 썼지. | -né = ~의 아내 | emotion=amused+gentle
+A | És az Ön neve? Az igazi neve? | 그럼 할머니 성함은요? 진짜 이름이요. | igazi = 진짜의 | emotion=gentle
+C | Margit. Ezt ötven éve nem kérdezte meg senki. | 머르기트. 그걸 50년 동안 아무도 안 물어봤어. | senki + nem = 아무도 ~않다 | emotion=shy+sad
+A | Margit néni, akkor ez Önnek szól. A feladó: Kiss Béla. | 머르기트 할머니, 그럼 이거 할머니 거예요. 보낸 분은 Kiss Béla 네요. | feladó = 보낸 사람 | emotion=gentle
+C | Jaj, ne szólj Rékának! Béla a barátom, nyolcvankét éves. | 어머, 레카한테 말하지 마! 벨러는 내 남자친구야, 여든두 살이고. | ne szólj = 말하지 마 | emotion=flustered+shy
+B | Na, megvan a néni? Hogyhogy ilyen sokáig tartott? | 그래, 할머니 찾았어? 왜 이렇게 오래 걸렸어? | hogyhogy = 어째서 | emotion=cheerful+surprised
+A | Megvan. De ha megkérdezed, ki az a Béla, én semmit sem tudok. | 찾았어. 근데 Béla 가 누구냐고 물어보면, 난 아무것도 몰라. | semmit sem = 아무것도 ~않다 | emotion=amused+teasing

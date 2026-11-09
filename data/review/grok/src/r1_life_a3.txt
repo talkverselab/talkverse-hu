@@ -1,0 +1,18 @@
+=== r1_life_a3
+kind: short
+title: 저 몇 살로 보이세요?
+emoji: 🥖
+scene: 빵집. 아주머니께 배운 공손한 인사를 스물두 살 점원에게 그대로 써 본다
+b: Eladó
+register: polite
+twist: 5 slip
+purpose: study_abroad
+goal: 빵 주문하기, 인사는 상대 나이에 맞게
+expressions: Csókolom; Tessék?; kérek; Bocsánat
+A | Csókolom! Egy kenyeret kérek. | 안녕하세요! 빵 하나 주세요. | kenyeret = 빵을(kenyér 의 목적격) | emotion=polite
+B | Tessék? Hogy mondta? | 네? 뭐라고 하셨어요? | hogy mondta? = 뭐라고 하셨어요? | emotion=surprised
+A | Csókolom. Ez nem jó? | 「초콜롬」이요. 이 말 틀려요? | csókolom = 어르신께만 쓰는 인사(글자 뜻: 입 맞춥니다) | emotion=flustered
+B | Hány évesnek néz engem? | 저를 몇 살로 보세요? | hány éves = 몇 살 | emotion=annoyed
+A | Hát, nem tudom. Hatvan? | 음… 모르겠어요. 예순? | hatvan = 60 | emotion=flustered
+B | Huszonkét éves vagyok! | 저 스물두 살이에요! | huszonkét = 22 | emotion=shout
+A | Jaj, bocsánat! Akkor szia? | 아이고, 죄송해요! 그럼 안녕? | szia = 안녕(친구끼리) | emotion=flustered+shy

@@ -1,0 +1,19 @@
+=== r1_culture_b2
+kind: long
+title: 혼자 친 박수
+emoji: 🎻
+scene: 클래식 콘서트. 음악이 멈춘 줄 알고 A 가 손을 든다
+b: Anna
+register: casual
+twist: 8 chaos
+purpose: media
+goal: 말리는 표현(ne + 명령형)과 szerintem
+expressions: Szerintem; Várj; Úristen
+A | Ez nagyon szép. Vége van? | 이거 너무 좋다. 끝났어? | vége van = 끝났다 | emotion=gentle+neutral
+B | Nem tudom. Szerintem még nincs vége. | 몰라. 내 생각엔 아직 안 끝났어. | szerintem = 내 생각엔 | emotion=worried
+A | Csend van. Akkor most tapsolok! | 조용하네. 그럼 이제 박수 친다! | taps = 박수, tapsolok = 박수 친다 | emotion=neutral+excited
+B | Ne! Várj, {name}, ne tapsolj! | 안 돼! 잠깐, {name}, 박수 치지 마! | ne tapsolj = 박수 치지 마 | emotion=shout
+A | Jaj. Mindenki engem néz. | 아이고. 다들 나만 봐. | engem = 나를 | emotion=flustered
+B | Várj... most mindenki tapsol! | 잠깐… 이제 다 박수 쳐! | mindenki = 모두(동사는 단수) | emotion=surprised
+A | A karmester is meghajol. Mi van? | 지휘자도 인사하네. 뭐야? | karmester = 지휘자 | emotion=neutral+surprised
+B | Úristen, hazamegy! Ennyi volt a koncert. | 세상에, 집에 간다! 콘서트 이걸로 끝이야. | ennyi volt = 이게 다였다 | emotion=surprised+amused

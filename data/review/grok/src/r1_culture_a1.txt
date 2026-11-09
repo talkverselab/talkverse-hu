@@ -1,0 +1,18 @@
+=== r1_culture_a1
+kind: short
+title: 이에 낀 행운
+emoji: 🍰
+scene: 빵집의 마지막 양귀비씨 레테시를 손에 넣었다. Anna 가 「너 양귀비씨 있다」고 한다
+b: Anna
+register: casual
+twist: 4 slip
+purpose: media making_friends
+goal: 관용구 mákod van 과 되묻는 말 익히기
+expressions: Nézd; Tessék?; Hát
+B | Nézd! Az utolsó mákos rétes. | 봐! 마지막 양귀비씨 레테시야. | mákos = 양귀비씨가 든 | emotion=excited
+A | Gyorsan! Egyet kérek! | 빨리! 하나 주세요! | egyet kérek = 하나 주세요 | emotion=excited
+B | Hű, mákod van! | 와, 너 운 좋다! | mákod van = 운이 좋다(직역: 네게 양귀비씨가 있다) | emotion=cheerful
+A | Tessék? A fogamon? | 뭐라고? 내 이에? | fog = 이, -on = ~위에 | emotion=flustered
+B | Nem, nem! Szerencséd van. | 아니, 아니! 운이 좋다고. | szerencse = 운 | emotion=amused
+A | Jaj, értem. Na, együnk! | 아, 알겠어. 자, 먹자! | együnk = 먹자 | emotion=shy+cheerful
+B | Hát... most már tényleg mákos a fogad. | 음… 이제는 진짜 네 이에 양귀비씨 꼈어. | most már = 이제는 | emotion=teasing

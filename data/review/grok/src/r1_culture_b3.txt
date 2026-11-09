@@ -1,0 +1,20 @@
+=== r1_culture_b3
+kind: long
+title: 양동이 하나
+emoji: 🪣
+scene: 부활절 월요일, Anna 네 시골집. 물 뿌리는 풍습에 Dávid 말만 믿고 왔다
+b: Anna
+c: Nagymama
+register: mixed
+twist: 8 chaos
+purpose: media
+goal: 부활절 인사와 Szabad …? 로 허락 구하기
+expressions: Hát; Jaj; Csókolom; Jól van
+B | Boldog húsvétot! Hoztál kölnit a locsoláshoz? | 부활절 잘 보내! 물 뿌리기용 향수 가져왔어? | locsolás = 부활절에 물·향수 뿌리는 풍습 | emotion=cheerful
+A | Kölnit? Dávid azt mondta, vizet kell hozni. | 향수? Dávid 가 물 가져오라던데. | víz → vizet = 물을 | emotion=surprised+neutral
+B | Hát régen vizet hoztak. Mennyi vizet hoztál? | 옛날엔 물을 가져왔지. 얼마나 가져왔어? | régen = 옛날에 | emotion=amused+worried
+A | Nem sokat, csak egy vödröt. | 많이는 아니고, 양동이 하나. | vödör → vödröt = 양동이를 | emotion=neutral
+B | Egy vödröt? Jaj, jön a nagymamám! | 양동이?! 아이고, 우리 할머니 오셔! | jön = 온다 | emotion=surprised+flustered
+A | Csókolom! Szabad locsolni? | 안녕하세요! 뿌려도 되나요? | csókolom = 어르신께 하는 인사 | emotion=polite+cheerful
+C | Szabad, szabad... Jaj, jaj, jaj! | 되지, 되지… 어머, 어머, 어머! | szabad = 해도 된다 | emotion=gentle+shout
+C | Jól van, most én jövök. Hol a vödröm? | 좋아. 이제 내 차례다. 내 양동이 어디 있지? | most én jövök = 이제 내 차례 | emotion=teasing+excited

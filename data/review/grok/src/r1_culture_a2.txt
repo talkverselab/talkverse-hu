@@ -1,0 +1,20 @@
+=== r1_culture_a2
+kind: short
+title: 달력에 없는 이름
+emoji: 📅
+scene: Anna 가 꽃다발을 안고 있다. 헝가리에는 생일 말고 이름의 날이 또 있다
+b: Anna
+register: casual
+twist: 8 emotion
+flags: romance
+purpose: media love
+goal: 이름의 날(névnap) 묻기와 mindegy 쓰기
+expressions: Várj; Sajnos; Mindegy
+A | Miért kapsz virágot? | 왜 꽃 받아? | kapsz = 네가 받는다 | emotion=neutral
+B | Ma van a névnapom. | 오늘 내 이름의 날이야. | névnap = 이름의 날 | emotion=cheerful
+A | Névnap? Az mi? | 이름의 날? 그게 뭐야? | az mi? = 그게 뭐야? | emotion=surprised
+B | Minden névnek van egy napja. | 이름마다 날이 하나 있어. | -nak/-nek van = ~에게 있다 | emotion=gentle
+A | És az én nevem? | 그럼 내 이름은? | név → nevem = 내 이름 | emotion=excited
+B | Várj... Sajnos nincs a naptárban. | 잠깐… 아쉽게도 달력에 없어. | naptár = 달력 | emotion=neutral+sad
+A | Hát, mindegy. | 뭐, 상관없어. | mindegy = 상관없어 | emotion=sad
+B | Nekem nem mindegy. Beírtam: holnap a te napod. | 나한테는 상관있어. 적어 놨어. 내일이 네 날이야. | beírtam = 써넣었다 | emotion=gentle
