@@ -152,8 +152,8 @@ expressions: Figyelj; Tényleg; Hány éves
 B | Figyelj, holnap lesz a szülinapom! | 있잖아, 내일 내 생일이야! | szülinap = 생일 | emotion=excited
 A | Tényleg? Boldog szülinapot előre! | 진짜? 미리 생일 축하해! | előre = 미리 | emotion=cheerful
 B | Köszi! Huszonhárom leszek. | 고마워! 스물셋 돼. | leszek = (내가) ~가 된다 | emotion=shy
-A | Szuper! Csinálsz bulit? | 좋다! 파티해? | bulit = 파티를 | emotion=excited
-B | Csak egy kis vacsorát. És te hány éves vagy? | 그냥 조촐한 저녁. 근데 너는 몇 살이야? | hány éves = 몇 살 | emotion=cheerful
+A | Szuper! Lesz buli? | 좋다! 파티 할 거야? | buli = 파티 | emotion=excited
+B | Csak egy kis vacsora. És te hány éves vagy? | 그냥 조촐한 저녁. 너는 몇 살이야? | hány éves = 몇 살 | emotion=cheerful
 A | Én huszonöt éhes vagyok. | 나는 스물다섯 배고파. | éhes = 배고픈(éves = ~살) | emotion=neutral
 B | Éhes? Huszonöt? | 배고프다고? 스물다섯 번? | éhes ≠ éves | emotion=amused
 A | Jaj, éves! De éhes is vagyok. | 아, 살! 근데 배도 고파. | is = ~도 | emotion=flustered+amused
@@ -323,7 +323,7 @@ A | Igen, a kedvenc magyar szavaim. Te tanítottad őket. | 응, 내가 좋아�
 B | Nézzük: "pogácsa", "mindjárt", "ne már"... | 어디 보자, 「포가차」, 「금방」, 「아 진짜」… | nézzük = 보자 | emotion=amused
 A | Mind a te szavaid. Mindig ezeket mondod. | 전부 네 말이야. 맨날 이 말들 하잖아. | mindig = 늘 | emotion=teasing
 B | És az utolsó oldal? "Barát"? | 그럼 마지막 쪽은? 「친구」? | utolsó = 마지막 | emotion=gentle
-A | Igen. Az első szavam itt Budapesten. | 응. 부다페스트에서 배운 내 첫 단어. | első = 첫 | emotion=gentle
+A | Igen. Az első szavam itt, Budapesten. | 응. 부다페스트에서 배운 내 첫 단어. | első = 첫 | emotion=gentle
 B | {name}, most sírni fogok. Ne nézz rám! | {name}, 나 울 것 같아. 쳐다보지 마! | sírni fogok = 울 것이다 | emotion=shy
 
 === r2_friends_b3

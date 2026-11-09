@@ -72,7 +72,7 @@ expressions: Fáj a torkom; Mióta?; Nem baj
 B | Jó napot! Mi a panasza? | 안녕하세요! 어디가 불편하세요? | panasz = 불편(증상) | emotion=polite
 A | Fáj a torkom, és köhögök. | 목이 아프고 기침이 나요. | köhögök = 기침한다 | emotion=worried
 B | Mióta? Van láza? | 언제부터요? 열은 있어요? | láz = 열 | emotion=neutral
-A | Hát, két napja. Láz nincs. | 음, 이틀 됐어요. 열은 없어요. | két napja = 이틀 전부터 | emotion=worried
+A | Hát, két napja. Lázam nincs. | 음, 이틀 됐어요. 열은 없어요. | két napja = 이틀 전부터 | emotion=worried
 B | Rendben. Kérem a TAJ-kártyáját. | 네. 건강보험 카드 주세요. | TAJ-kártya = 건강보험 카드 | emotion=polite
 A | Jaj, otthon felejtettem. | 아이고, 집에 두고 왔어요. | felejtettem = 잊어버렸다 | emotion=flustered
 B | Nem baj, a száma is jó. Tudja? | 괜찮아요, 번호만 알아도 돼요. 아세요? | a száma = 그 번호 | emotion=gentle
@@ -93,7 +93,7 @@ B | Halló, tessék! | 여보세요, 네! | tessék = (전화 받을 때) 네, �
 A | Jó reggelt, Laci bácsi! Nincs meleg víz. | 안녕하세요, 라치 아저씨! 온수가 안 나와요. | meleg víz = 더운물 | emotion=polite+worried
 B | A bojleren ég a piros lámpa? | 온수기에 빨간 불 켜져 있어요? | bojler = 온수기 | emotion=neutral
 A | Egy pillanat, megnézem. Nem ég. | 잠깐만요, 볼게요. 안 켜져 있어요. | megnézem = 확인할게요 | emotion=polite+worried
-B | És a konnektorban benne van? | 콘센트에는 꽂혀 있어요? | konnektor = 콘센트 | emotion=neutral
+B | A konnektorban benne van a dugó? | 콘센트에 플러그가 꽂혀 있나요? | konnektor = 콘센트 | emotion=neutral
 A | Konnektor? Hol van az? | 콘센트요? 그게 어디 있죠? | hol van? = 어디 있어요? | emotion=surprised
 B | A bojler mellett, lent. | 온수기 옆, 아래쪽에요. | mellett = ~옆에 | emotion=gentle
 A | Jaj, Dávid kihúzta! Ott tölti a telefonját. | 아, 다비드가 뽑았네요! 거기서 폰을 충전해요. | kihúzta = 뽑았다 | emotion=flustered+annoyed
@@ -112,7 +112,7 @@ goal: 「이거 어디에 넣어?」 묻기(Hova megy?)와 색 이름
 expressions: Hova megy?; Figyelj; Izé
 A | Dávid, ez a doboz hova megy? | 다비드, 이 상자는 어디에 넣어? | hova = 어디로 | emotion=neutral
 B | A papír a kékbe megy. | 종이는 파란 통에 넣어. | kékbe = 파란 것 안으로(-be) | emotion=cheerful
-A | És a műanyag üveg? | 그럼 플라스틱 병은? | műanyag = 플라스틱 | emotion=neutral
+A | És a műanyag palack? | 그럼 플라스틱 병은? | műanyag = 플라스틱 | emotion=neutral
 B | Az a sárgába. Figyelj, előbb lapítsd össze! | 그건 노란 통. 잘 봐, 먼저 납작하게 눌러! | lapítsd össze = 납작하게 눌러 | emotion=gentle
 A | És a pizzás doboz? Az is papír, nem? | 피자 상자는? 그것도 종이잖아, 아니야? | ..., nem? = ~잖아? | emotion=neutral
 B | Nem, az zsíros. Az a szürkébe megy. | 아니, 그건 기름 묻었잖아. 그건 회색 통. | zsíros = 기름진 | emotion=gentle
@@ -151,7 +151,7 @@ purpose: study_abroad
 goal: 물건 찾기(Nem látod …? · Megnézted?)
 expressions: Nem látod; Mi van; Mindjárt
 A | Dávid, nem látod a kulcsomat? | 다비드, 내 열쇠 못 봤어? | látod = 보이니(정활용, 목적어 있음) | emotion=worried
-B | Nem. Megnézted a kabátodban? | 아니. 외투 안에 봤어? | kabát = 외투 | emotion=neutral
+B | Nem. Megnézted a kabátzsebedben? | 아니. 외투 주머니 봤어? | kabát = 외투 | emotion=neutral
 A | Igen, ott nincs. A táskámban sincs. | 응, 거기 없어. 가방에도 없고. | sincs = ~도 없다 | emotion=worried
 B | A konyhában? Az asztalon? | 부엌에? 식탁 위에? | asztal = 탁자 | emotion=gentle
 A | Nincs! Jaj, elkések! | 없어! 아, 늦겠다! | elkések = 지각한다 | emotion=shout+worried
@@ -172,7 +172,7 @@ goal: 전화로 예약하기(Időpontot szeretnék kérni)와 요일·시간
 expressions: Időpontot szeretnék; Megfelel; Legyen szíves
 B | Rendelő, jó napot kívánok! | 병원입니다, 안녕하세요! | rendelő = 진료소 | emotion=polite
 A | Jó napot! Időpontot szeretnék kérni. | 안녕하세요! 진료 예약하고 싶어요. | időpont = 약속 시간 | emotion=polite
-B | Csütörtök tíz óra megfelel? | 목요일 10시 괜찮으세요? | megfelel = 맞는다, 괜찮다 | emotion=polite
+B | Csütörtök tíz óra megfelel Önnek? | 목요일 10시 괜찮으세요? | megfelel = 괜찮다 | emotion=polite
 A | Igen, megfelel. | 네, 괜찮아요. | igen = 네 | emotion=cheerful
 B | A neve? Betűzze, legyen szíves. | 성함이요? 철자 불러 주세요. | betűzze = 철자를 불러 주세요(Ön) | emotion=polite
 A | Hát, izé, nehéz. E-mailben megírhatom? | 음, 저기, 어려워요. 이메일로 보내도 될까요? | megírhatom = 써 보내도 된다 | emotion=flustered+polite
@@ -190,9 +190,9 @@ twist: 7 chaos
 purpose: study_abroad
 goal: 부탁 들어주기(Szívesen · Még valami?) · Ön 명령형 알아듣기
 expressions: Szívesen; Persze; Ugye
-B | Kedves, megkérhetem valamire? | 저기, 부탁 하나 해도 될까요? | megkérhetem = 부탁해도 될까요 | emotion=polite
+B | Kedvesem, megkérhetem valamire? | 저기, 부탁 하나 해도 될까요? | megkérhetem = 부탁해도 될까요 | emotion=polite
 A | Persze, Marika néni. Mi az? | 그럼요, 아주머니. 뭔데요? | mi az? = 뭔데요? | emotion=cheerful
-B | Hétvégén a lányomnál leszek. Meglocsolja a virágaimat? | 주말에 딸네 가 있어요. 꽃에 물 좀 줄래요? | meglocsolja = 물을 주다(Ön) | emotion=gentle
+B | Hétvégén a lányomnál leszek. Meglocsolná a virágaimat? | 주말에 딸네 가 있어요. 꽃에 물 좀 줄래요? | meglocsolná = 물을 주다(정중) | emotion=gentle
 A | Szívesen! Hány virága van? | 기꺼이요! 화분이 몇 개예요? | hány = 몇 | emotion=cheerful
 B | Tizenkettő. És Cirminek is adjon enni, reggel és este. | 열두 개요. 그리고 치르미 밥도 줘요, 아침저녁으로. | adjon = 주세요(Ön 명령) | emotion=neutral
 A | Rendben. Még valami? | 네. 또 있어요? | még valami? = 또 뭐가? | emotion=polite
@@ -321,7 +321,7 @@ B | Fel tudod venni? Zuhanyozom! | 좀 받아 줄래? 나 샤워 중이야! | fe
 A | Halló, Dávid telefonja. | 여보세요, 다비드 폰입니다. | Dávid telefonja = 다비드의 전화 | emotion=polite
 C | Jó napot, itt Dávid apja. Ki beszél? | 안녕하세요, 다비드 아빠예요. 누구세요? | ki beszél? = 누구세요(전화) | emotion=stiff
 A | A lakótársa, {name}. Dávid most zuhanyozik. | 룸메이트 {name}입니다. 다비드는 지금 샤워 중이에요. | lakótárs = 룸메이트 | emotion=polite
-C | Értem. Mondja meg neki, hogy hétvégén jövünk. | 알겠어요. 주말에 우리가 간다고 전해 줘요. | mondja meg = 전해 주세요(Ön) | emotion=neutral
+C | Értem. Mondja meg neki, hogy hétvégén jövünk. | 알겠어요. 주말에 우리가 간다고 전해 주세요. | mondja meg = 전해 주세요(Ön) | emotion=neutral
 A | Rendben, megmondom. Ön és Dávid anyukája? | 네, 전할게요. 아버님하고 어머님이요? | anyukája = 그의 엄마 | emotion=polite
 C | Igen, és a nagymama is. Három napra. | 네, 할머니도요. 사흘 동안이에요. | három napra = 사흘 예정으로 | emotion=cheerful
 A | Egy pillanat, szólok neki. Dávid, apukád! | 잠깐만요, 말할게요. 다비드, 아빠셔! | szólok = 말을 건넨다 | emotion=polite+shout
@@ -416,7 +416,7 @@ expressions: Csókolom; Ne aggódjon; Puszi
 B | Szia, Dávid anyukája vagyok. Jól van Dávid? | 안녕, 다비드 엄마야. 다비드 잘 있니? | jól van = 잘 있다 | emotion=worried at=19:02
 A | Csókolom! Jól van, ne aggódjon. | 안녕하세요! 잘 지내요, 걱정 마세요. | ne aggódjon = 걱정 마세요(Ön) | emotion=polite at=19:04
 B | Két napja nem veszi fel a telefont. 😟 | 이틀째 전화를 안 받아. 😟 | felveszi = (전화를) 받는다 | emotion=worried at=19:05
-A | Itthon van, csak lenémította a telefonját. | 집에 있어요, 휴대폰을 무음으로 해 둔 것뿐이에요. | lenémította = 무음으로 했다 | emotion=gentle at=19:06
+A | Itthon van, csak némára tette a telefonját. | 집에 있어요, 휴대폰을 무음으로 해 둔 거예요. | némára tette = 무음으로 했다 | emotion=gentle at=19:06
 B | Jaj, az a gyerek. És eszik rendesen? | 아이고, 얘는 참. 밥은 잘 먹니? | rendesen = 제대로 | emotion=annoyed+worried at=19:06
 A | Hát, sokat eszik. Főleg virslit. | 음, 많이 먹어요. 주로 소시지요. | virsli = 프랑크 소시지 | emotion=amused at=19:08
 B | Tudtam. És te is így eszel? | 그럴 줄 알았다. 너도 그렇게 먹니? | így = 이렇게 | emotion=gentle at=19:09

@@ -34,10 +34,10 @@ expressions: Bocsi; ráérsz
 B | Szia! Láttam, hogy te is szereted a kutyákat. 🐶 | 안녕! 너도 강아지 좋아하더라. 🐶 | láttam = 봤다 | emotion=cheerful at=21:03
 A | Igen! Neked van kutyád? | 응! 너 강아지 있어? | neked van = 너에게 있다 | emotion=excited at=21:05
 B | Van, Bodri. Kicsit buta, de cuki. | 있어, 보드리. 좀 바보인데 귀여워. | buta = 바보 같은 | emotion=amused at=21:06
-A | Hétvégén ráérsz? Sétálhatunk vele. | 주말에 시간 돼? 같이 산책해도 좋고. | ráérsz? = 시간 돼? | emotion=shy at=21:08
-A | Jaj, bocsi, túl gyors vagyok? 😅 | 아이고, 미안, 내가 너무 빨랐나? 😅 | túl = 너무 | emotion=worried at=22:30
+A | Hétvégén ráérsz? Sétálhatnánk vele. | 주말에 시간 돼? 같이 산책해도 되고. | ráérsz = 시간 돼 | emotion=shy at=21:08
+A | Jaj, bocsi, túl gyors voltam? 😅 | 아이고, 미안, 내가 너무 빨랐나? 😅 | bocsi = 미안 | emotion=worried at=22:30
 B | Bocsi, csak most láttam! Bodri szétrágta a töltőmet. | 미안, 이제 봤어! 보드리가 충전기를 다 씹어 놨어. | töltő = 충전기 | emotion=flustered at=23:15
-B | Szombaton? Bodri is jön. 🐾 | 토요일 어때? 보드리도 같이. 🐾 | szombaton = 토요일에 | emotion=cheerful at=23:16 stamp=🐾
+B | Szombaton jó? Bodri is jön. 🐾 | 토요일 어때? 보드리도 같이. 🐾 | szombaton = 토요일에 | emotion=cheerful at=23:16 stamp=🐾
 
 === r1_love_a2
 kind: short
@@ -72,13 +72,13 @@ flags: romance
 purpose: love
 goal: 계산하기(Én fizetek · Felezzük?)
 expressions: Várj; Tessék?; Hát
-C | Kétezer-négyszáz lesz. | 2,400포린트야. | kétezer-négyszáz = 2,400 | emotion=polite
+C | Kétezer-négyszáz forint lesz. | 2,400포린트입니다. | kétezer-négyszáz = 2,400 | emotion=polite
 A | Várj, ma én fizetek. | 잠깐, 오늘은 내가 낼게. | fizetek = 내가 낸다 | emotion=cheerful
 B | Nem, nem. Én hívtalak meg. | 아니, 아니. 내가 초대했잖아. | meghívtalak = 내가 너를 초대했다 | emotion=gentle
 A | Akkor felezzük, jó? | 그럼 반반 하자, 응? | felezzük = 반으로 나누자 | emotion=polite
-C | Már ki van fizetve. | 이미 계산돼 있어. | ki van fizetve = 계산되어 있다 | emotion=amused
-A | Tessék? Ki fizette? | 응? 누가 냈어? | ki fizette? = 누가 그걸 냈어? | emotion=surprised
-C | A hölgy, amikor bejött. | 이분이, 들어올 때. | amikor bejött = 들어왔을 때 | emotion=teasing
+C | Már ki van fizetve. | 이미 계산돼 있습니다. | ki van fizetve = 계산되어 있다 | emotion=amused
+A | Tessék? Ki fizette ki? | 네? 누가 냈어요? | ki fizette? = 누가 냈어? | emotion=surprised
+C | A hölgy, amikor bejött. | 이 분이, 들어오실 때요. | amikor bejött = 들어왔을 때 | emotion=teasing
 B | Hát... a következő randi a tiéd. | 음… 다음 데이트는 네 차례야. | a tiéd = 네 것 | emotion=shy
 
 === r1_love_a4
@@ -117,7 +117,7 @@ A | Szia, Anna! Csukd be a szemed! | 안녕, 언너! 눈 감아 봐! | csukd be 
 B | Mi az? Na, becsuktam. | 뭔데? 자, 감았어. | becsuktam = 감았다 | emotion=cheerful
 A | Boldog születésnapot! Ez a tiéd. | 생일 축하해! 이거 네 거야. | születésnap = 생일 | emotion=excited
 B | Hű, torta! Nagyon kedves vagy. | 와, 케이크! 너 정말 다정하다. | kedves = 다정한 | emotion=surprised
-A | Réka mondta, hogy ma van. | 레카가 오늘이라고 했어. | hogy = ~라고 | emotion=cheerful
+A | Réka mondta, hogy ma van a szülinapod. | 레카가 오늘 생일이라고 했어. | szülinapod = 네 생일 | emotion=cheerful
 B | Hát... igazából holnap van. | 음… 사실은 내일이야. | igazából = 사실은 | emotion=amused
 A | Jaj, ne már! Akkor holnap hozok egy másikat. | 아이고, 말도 안 돼! 그럼 내일 하나 더 가져올게. | egy másikat = 다른 하나를 | emotion=flustered
 B | Torta nem kell. Holnap is gyere, az elég. | 케이크는 필요 없어. 내일도 와, 그거면 돼. | elég = 충분하다 | emotion=shy
@@ -205,7 +205,7 @@ B | Kicsit. Hívd el valahová! | 좀. 어디 같이 가자고 해! | hívd el =
 A | Moziba? Nem túl gyors? | 영화? 너무 빠르지 않아? | túl gyors = 너무 빠른 | emotion=worried
 B | Na ne. Ma reggel Anna ugyanezt kérdezte tőlem. | 에이. 오늘 아침에 언너도 똑같은 걸 나한테 물었어. | ugyanezt = 바로 이것을 | emotion=amused
 A | Tényleg? És mit mondtál neki? | 진짜? 그래서 뭐라고 했어? | mit mondtál? = 뭐라고 했어? | emotion=excited
-B | Azt, hogy ne várjon rád. Nézd, már írt. | 너 기다리지 말라고. 봐, 벌써 보냈네. | ne várjon = 기다리지 말라 | emotion=teasing
+B | Azt mondtam, ne várjon rád. Nézd, már írt is. | 너 기다리지 말라고 했어. 봐, 벌써 보냈네. | Nézd = 봐 | emotion=teasing
 
 === r1_love_b5
 kind: long
@@ -308,7 +308,7 @@ B | Komolyan? Otthon hagytad? | 진짜? 집에 두고 왔어? | otthon hagytad =
 A | Úgy tűnik. Reggel csak a törölközőre figyeltem. | 그런가 봐. 아침에 수건만 챙겼어. | figyel = 신경 쓰다 | emotion=flustered
 B | Semmi baj. Kérdezzük meg a pénztárnál. | 괜찮아. 매표소에 물어보자. | kérdezzük meg = 물어보자 | emotion=gentle
 A | Elnézést, lehet itt fürdőruhát bérelni? | 실례합니다, 여기서 수영복 빌릴 수 있나요? | bérel = 빌리다 | emotion=polite
-C | Bérelni nem, de venni lehet. Ott vannak a polcon. | 대여는 안 되고 구매는 돼요. 저기 선반에 있어요. | polc = 선반 | emotion=polite
+C | Bérelni nem lehet, de venni igen. Ott a polcon. | 대여는 안 되고 구매는 돼요. 저기 선반에 있어요. | polc = 선반 | emotion=polite
 A | Köszönöm. Anna, segítesz választani? | 감사합니다. 언너, 고르는 거 도와줄래? | választani = 고르다 | emotion=cheerful
 B | Naná. Ez a sárga, kis kacsákkal, tökéletes. | 당연하지. 이 노란 거, 작은 오리 그려진 거, 완벽해. | naná = 당연하지 | emotion=teasing
 A | Kacsákkal? Ezt nem veszem fel, mindenki nevetni fog. | 오리? 이건 안 입어, 다들 웃을 거야. | nevetni fog = 웃을 것이다 | emotion=flustered

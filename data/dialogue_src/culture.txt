@@ -91,7 +91,7 @@ twist: 7 slip
 purpose: media making_friends
 goal: 식당에서 추천받기(Mit ajánl? · … kérek)
 expressions: Mit ajánl; Nem baj; Hű
-C | Jó estét! Mit hozhatok? | 안녕하세요! 뭘 가져다드릴까요? | Mit hozhatok? = 뭘 드릴까요? | emotion=polite
+C | Jó estét! Mit hozhatok önöknek? | 안녕하세요! 뭘 가져다드릴까요? | Mit hozhatok? = 뭘 드릴까요? | emotion=polite
 A | Mit ajánl? Először vagyok itt. | 뭘 추천하세요? 여기 처음이에요. | Mit ajánl? = 뭘 추천하세요? | emotion=polite
 C | A halászlé nagyon finom. | 생선 수프가 아주 맛있어요. | halászlé = 헝가리식 생선 수프 | emotion=cheerful
 B | Igen, de csípős. Vigyázz! | 응, 근데 매워. 조심해! | csípős = 매운 | emotion=worried
@@ -198,7 +198,7 @@ expressions: Mit ajánlasz; Bocsánat; Szóval
 B | Itt a legjobb lángos a piacon. | 여기가 시장에서 제일 맛있는 랑고시야. | lángos = 튀긴 빵 | emotion=excited
 A | Mit ajánlasz? Először eszem lángost. | 뭐 추천해? 랑고시 처음 먹어 봐. | Mit ajánlasz? = 뭐 추천해? | emotion=cheerful
 B | Sajtos-tejfölöset. Az a klasszikus. | 치즈 사워크림. 그게 기본이야. | tejföl = 사워크림 | emotion=gentle
-C | Jó napot! Mit kér? | 안녕하세요! 뭐 드릴까요? | Mit kér? = 뭐 드릴까요? | emotion=polite
+C | Jó napot! Mit kérnek? | 안녕하세요! 뭐 드릴까요? | Mit kér? = 뭐 드릴까요? | emotion=polite
 A | Egy lángost kérek, sajttal és tejjel. | 랑고시 하나 주세요, 치즈랑 우유 올려서요. | tej = 우유 | emotion=polite
 C | Tejjel? A lángosra? | 우유요? 랑고시 위에요? | -ra = ~위에 | emotion=surprised
 B | Tejföllel! Bocsánat, még tanul. | 사워크림이요! 죄송해요, 아직 배우는 중이라서요. | még tanul = 아직 배우는 중 | emotion=amused+polite
@@ -223,7 +223,7 @@ A | Ne! Ne mondd el! 🙉 | 안 돼! 말하지 마! 🙉 | ne mondd el = 말하�
 B | Jó, jó. Bocsi! 😅 | 알았어, 알았어. 미안! 😅 | bocsi = 미안 | emotion=flustered at=20:16
 A | Mikor megy a moziban? | 영화관에서 언제 해? | mozi = 영화관 | emotion=cheerful at=20:17
 B | Szombaton este. De én már láttam. | 토요일 저녁. 근데 난 이미 봤어. | már = 이미 | emotion=neutral+teasing at=20:18
-B | De szívesen megnézem még egyszer. Veled. 😊 | 근데 한 번 더 볼래. 너랑. 😊 | még egyszer = 한 번 더 | emotion=gentle+shy at=20:19
+B | De szívesen megnézném még egyszer. Veled. 😊 | 근데 한 번 더 보고 싶어. 너랑. 😊 | még egyszer = 한 번 더 | emotion=gentle+shy at=20:19
 
 === r1_culture_c2
 kind: chat
@@ -300,7 +300,7 @@ purpose: media
 goal: 처음 소개받는 말과 존댓말·반말 전환(Nyugodtan tegezz)
 expressions: Nem baj; Nyugodtan; Bocsi; Na
 B | Ez a nyelvcsere-est. Itt mindenki gyakorol. | 여기가 언어교환 모임이야. 여기선 다들 연습해. | nyelvcsere = 언어교환 | emotion=cheerful
-A | Hű, sok ember van. Kicsit izgulok. | 와, 사람 많다. 좀 떨려. | izgulok = 떨린다 | emotion=worried
+A | Hú, sokan vannak. Kicsit izgulok. | 와, 사람 많다. 좀 떨려. | izgulok = 떨린다 | emotion=worried
 B | Nem baj, gyere. Bemutatlak Bencének. | 괜찮아, 와. 벤체한테 소개해 줄게. | bemutatlak = 너를 소개한다 | emotion=gentle
 C | Szia, Bence vagyok! Te mit tanulsz? | 안녕, 나 벤체야! 너는 뭐 배워? | Te mit tanulsz? = 너는 뭐 배워? | emotion=cheerful
 A | Jó estét kívánok! Örülök, hogy megismerhetem. | 안녕하십니까! 만나 뵙게 되어 반갑습니다. | megismerhetem = 당신을 알게 되다(존댓말) | emotion=stiff

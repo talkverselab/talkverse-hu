@@ -53,7 +53,7 @@ A | Jó napot! Mennyibe kerül ez? | 안녕하세요! 이거 얼마예요? | men
 B | A mágnes? Ezerkétszáz forint. | 자석요? 1200포린트예요. | mágnes = 자석 | emotion=polite
 A | És a paprika? | 그리고 파프리카 가루는요? | paprika = 파프리카 가루 | emotion=cheerful
 B | Kétezer. Nagyon finom. | 2천이요. 아주 맛있어요. | finom = 맛있는 | emotion=cheerful
-A | Akkor kettőt kérek, kártyával. | 그럼 두 개씩 주세요, 카드로요. | kettőt = 두 개를 | emotion=cheerful
+A | Akkor mindkettőből kettőt kérek, kártyával. | 그럼 둘 다 두 개씩 주세요, 카드로요. | kettőt = 두 개를 | emotion=cheerful
 B | Sajnos csak készpénzt fogadunk. | 죄송하지만 현금만 받아요. | készpénz = 현금 | emotion=polite
 A | Jaj! Van itt bankautomata? | 아이고! 이 근처에 ATM 있어요? | bankautomata = 현금인출기 | emotion=flustered
 B | Van, a sarkon. Addig félreteszem. | 있어요, 모퉁이에. 그동안 따로 빼 둘게요. | félretesz = 따로 챙겨 두다 | emotion=gentle
@@ -70,7 +70,7 @@ purpose: travel
 goal: 체크인하기(Foglalásom van · Milyen névre?)
 expressions: Jó estét; Nem baj; Tényleg
 B | Jó estét! Segíthetek? | 안녕하세요! 도와드릴까요? | segíthetek = 도와드릴까요 | emotion=polite
-A | Jó estét! Foglalásom van. | 안녕하세요! 예약했어요. | foglalás = 예약 | emotion=cheerful
+A | Jó estét! Van foglalásom. | 안녕하세요! 예약이 있어요. | foglalás = 예약 | emotion=cheerful
 B | Milyen névre? | 어떤 이름으로요? | névre = 이름으로 | emotion=polite
 A | {name} néven. Tessék, itt van. | {name}(으)로요. 여기 있어요. | néven = ~라는 이름으로 | emotion=neutral
 B | Hm. Ez a foglalás holnapra szól. | 음. 이 예약은 내일 날짜인데요. | holnapra szól = 내일 것이다 | emotion=worried
@@ -92,7 +92,7 @@ expressions: legyen szíves; oda-vissza; Tessék
 A | Jó napot! Egy jegyet kérek Egerbe. | 안녕하세요! 에게르 표 한 장 주세요. | Egerbe = 에게르로 | emotion=polite
 B | Csak oda, vagy oda-vissza? | 편도요, 왕복이요? | oda-vissza = 왕복 | emotion=polite
 A | Oda-vissza, légyszi... izé, legyen szíves. | 왕복이요, 부탁해… 아니, 부탁드려요. | legyen szíves = 부탁드립니다(Ön) | emotion=flustered
-B | Hatezer-négyszáz forint. | 6400포린트예요. | hatezer-négyszáz = 6400 | emotion=amused
+B | Hatezer-négyszáz forint lesz. | 6400포린트입니다. | hatezer-négyszáz = 6400 | emotion=amused
 A | Tessék. Mikor indul? | 여기요. 언제 출발해요? | indul = 출발하다 | emotion=neutral
 B | Három perc múlva, a hatos vágányról. | 3분 뒤에요, 6번 선로에서. | vágány = 선로 | emotion=polite
 A | Három perc? Futok! | 3분요? 뛰어야겠다! | futok = 내가 뛴다 | emotion=surprised+flustered
@@ -172,7 +172,7 @@ expressions: Elnézést; Majd szólok; ugye
 A | Elnézést, ez a villamos megy a Parlamenthez? | 실례합니다, 이 트램 국회의사당 가요? | megy = 가다 | emotion=polite
 B | Igen, kedvesem. Négy megálló. | 네, 얘야. 네 정거장이에요. | kedvesem = 얘야(다정한 호칭) | emotion=gentle
 A | Köszönöm! Honnan tudom, hogy hol kell leszállni? | 감사합니다! 어디서 내려야 하는지 어떻게 알아요? | leszáll = 내리다 | emotion=worried
-B | Majd szólok. Turista? | 내가 말해 줄게요. 관광객이에요? | majd szólok = 나중에 말해 줄게요 | emotion=gentle+cheerful
+B | Majd szólok. Turista vagy? | 내가 말해 줄게요. 관광객이에요? | majd szólok = 나중에 말해 줄게요 | emotion=gentle+cheerful
 A | Igen, {country}ból jöttem. | 네, {country}에서 왔어요. | -ból/-ből = ~에서 | emotion=shy
 B | Ó, messziről! Szép Budapest, ugye? | 아, 멀리서 왔네요! 부다페스트 예쁘죠? | ugye = 그렇죠? | emotion=cheerful
 A | Nagyon szép, főleg a Duna. | 아주 예뻐요, 특히 도나우강요. | főleg = 특히 | emotion=cheerful
@@ -231,13 +231,13 @@ purpose: travel making_friends
 goal: 채팅으로 위치 알리기와 재촉하기(Hol vagy? · alatt)
 expressions: Bocsi; Ne már
 A | Megérkeztem a Keletibe. Te hol vagy? | 동역 도착했어. 너 어디야? | Keleti = 동역(켈레티) | emotion=cheerful at=09:40 read=false
-A | A nagy óra alatt várok. | 큰 시계 밑에서 기다릴게. | alatt = ~ 아래 | emotion=neutral at=09:41 read=false
+A | A nagy óra alatt várlak. | 큰 시계 밑에서 기다릴게. | alatt = ~아래 | emotion=neutral at=09:41 read=false
 A | Réka? Tíz perc múlva indul a vonat! | 레카? 10분 뒤에 기차 출발해! | múlva = ~ 후에 | emotion=worried at=09:50 read=false
 A | Hívlak! 📞 | 전화할게! 📞 | hívlak = 너한테 전화할게 | emotion=worried at=09:52 read=false
 B | Bocsi! A metróban nincs térerő. | 미안! 지하철에선 신호가 안 터져. | térerő = (휴대폰) 신호 | emotion=flustered at=09:56
 A | Hol vagy most? | 지금 어디야? | most = 지금 | emotion=annoyed at=09:56
 B | A Nyugatiban, az óra alatt. 😅 | 서역에, 시계 밑에. 😅 | Nyugati = 서역(뉘거티) | emotion=flustered at=09:57
-A | Ne már! A vonat innen megy! | 아이 참! 기차는 여기서 출발한다고! | innen = 여기서부터 | emotion=tsukkomi at=09:57
+A | Ne már! A vonat innen indul! | 아이 참! 기차는 여기서 출발한다고! | innen = 여기서부터 | emotion=tsukkomi at=09:57
 
 === r1_travel_c3
 kind: chat

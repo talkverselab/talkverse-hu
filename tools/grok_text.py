@@ -38,7 +38,7 @@ def main():
         text, out, atts = opt['-m'], a[0], a[1:]
     else:
         text, out, atts = open(a[0], encoding='utf-8').read().strip(), a[1], a[2:]
-    wait = int(opt.get('--wait', 400))
+    wait = int(opt.get('--wait', 180))  # 사용자 지시 2026-11-10 "그록 3분만, 넘어가면 대화방 중지 — 토큰 낭비"
     remote = []
     if atts:
         subprocess.run(['ssh', 'pc', 'cmd /c if not exist D:\\grok_att\\hu mkdir D:\\grok_att\\hu'], check=False, capture_output=True)
@@ -82,7 +82,7 @@ def main():
         if left and left > 0:
             c.ev("(()=>{const b=[...document.querySelectorAll('button')].find(x=>/제출|Submit/.test(x.getAttribute('aria-label')||''));if(b){b.click();return 1}return 0})()")
             time.sleep(3)
-        t0 = time.time(); last = ''; same = 0
+        t0 = time.time(); last = ''; same = 0; done = False
         while time.time() - t0 < wait:
             time.sleep(8)
             if (c.ev("(document.body.innerText.match(/한도에 도달|limit reached/g)||[]).length") or 0) > lim0:
@@ -93,12 +93,22 @@ def main():
             if n >= n0 + 2 and len(cur) > 60 and cur == last and not busy:
                 same += 1
                 if same >= 2:
+                    done = True
                     break
             else:
                 same = 0
             last = cur
-        reply = c.ev(REPLY) or ''
         href = c.ev('location.href')
+        if not done:  # 3분 넘김 → 생성 중지, 답은 버리고 표시 파일만
+            hit = c.ev("""(()=>{const b=[...document.querySelectorAll('button')].find(e=>/중지|stop/i.test((e.getAttribute('aria-label')||'')+' '+e.innerText));if(b){b.click();return 1}return 0})()""")
+            if not hit:
+                for typ in ('keyDown', 'keyUp'):
+                    c.call('Input.dispatchKeyEvent', type=typ, key='Escape', code='Escape', windowsVirtualKeyCode=27, nativeVirtualKeyCode=27)
+            open(out[:-3] + '.timeout', 'w').write(href + '\n')
+            print('TIMEOUT 3분 — 생성 중지', 'button' if hit else 'escape')
+            print('CHAT', href)
+            sys.exit(4)
+        reply = c.ev(REPLY) or ''
         open(out, 'w', encoding='utf-8').write(reply + '\n')
         print('저장', out, len(reply), '자')
         print('CHAT', href)
