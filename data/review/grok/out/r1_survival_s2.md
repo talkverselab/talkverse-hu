@@ -1,0 +1,19 @@
+=== r1_survival_s2
+kind: survival
+title: 머리가 아파요
+emoji: 🩺
+scene: 동네 병원 진료실. 어디가 아픈지 말하는데 단어 하나를 헷갈렸다
+b: Orvos
+register: polite
+twist: 5 slip
+purpose: travel
+goal: 아픈 곳 말하기(Fáj a …)와 fej(머리)·fog(이) 구별
+expressions: Mi a panasza; Fáj a fejem; Tessék
+B | Jó napot, tessék, üljön le! Mi a panasza? | 안녕하세요! 앉으세요. 어디가 불편하세요? | panasz = 증상, 불편 | emotion=polite
+A | Jó napot! Két napja nagyon fáj a fogam. | 안녕하세요! 이틀째 이가 너무 아파요. | fogam = 내 이 | emotion=worried
+B | A foga? Akkor nyissa ki a száját! | 이요? 그럼 입 벌려 보세요! | nyissa ki = 여세요 | emotion=surprised
+A | Nem a szám. Itt fáj, a homlokom! | 입 말고요. 여기가 아파요, 이마요! | homlok = 이마 | emotion=flustered
+B | De hát az a feje, nem a foga! | 아니 그건 머리잖아요, 이가 아니라! | feje = (당신의) 머리 | emotion=amused
+A | Jaj, bocsánat! Fáj a fejem, nem a fogam. | 아, 죄송해요! 머리가 아파요, 이가 아니라요. | Fáj a fejem = 머리가 아파요 | emotion=flustered
+B | Semmi baj, gyakori hiba. Lázas is? | 괜찮아요, 흔한 실수예요. 열도 있어요? | lázas = 열이 있는 | emotion=gentle
+A | Nem, csak nagyon fáradt vagyok. | 아니요, 그냥 많이 피곤해요. | fáradt = 피곤한 | emotion=sad

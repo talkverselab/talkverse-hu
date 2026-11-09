@@ -1,0 +1,20 @@
+=== r1_culture_a5
+kind: short
+title: 추천 메뉴
+emoji: 🍲
+scene: Réka 와 헝가리 식당에 처음 왔다. 종업원에게 추천을 부탁한다
+b: Réka
+c: Pincér
+register: mixed
+twist: 7 slip
+purpose: media making_friends
+goal: 식당에서 추천받기(Mit ajánl? · … kérek)
+expressions: Mit ajánl; Nem baj; Hű
+C | Jó estét! Mit hozhatok önöknek? | 안녕하세요! 뭘 가져다드릴까요? | Mit hozhatok? = 뭘 드릴까요? | emotion=polite
+A | Mit ajánl? Még soha nem voltam itt. | 뭘 추천하세요? 여기 처음이에요. | Mit ajánl? = 뭘 추천하세요? | emotion=polite
+C | A halászlé nagyon finom ma. | 생선 수프가 오늘 아주 맛있어요. | halászlé = 헝가리식 생선 수프 | emotion=cheerful
+B | De nagyon csípős. Vigyázz! | 근데 엄청 매워. 조심해! | csípős = 매운 | emotion=worried
+A | Nem baj. Szeretem a csípőset. | 괜찮아. 매운 거 좋아해. | nem baj = 괜찮아 | emotion=cheerful
+C | Tessék. A halászlé. Jó étvágyat! | 여기요. 생선 수프입니다. 맛있게 드세요! | Jó étvágyat! = 맛있게 드세요 | emotion=polite
+A | Hű! Egy pohár vizet kérek! | 와! 물 한 잔 주세요! | egy pohár víz = 물 한 잔 | emotion=surprised+shout
+B | Na, szereted akkor? | 자, 매운 거 좋아한다며? | na = 자, 거 봐 | emotion=teasing

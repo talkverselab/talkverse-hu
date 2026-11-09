@@ -1,0 +1,19 @@
+=== r1_friends_a2
+kind: short
+title: 내일 같이 뛸래?
+emoji: 🏃
+scene: 어학원 앞에서 Réka 가 내일 같이 달리기를 하자고 한다
+b: Réka
+register: casual
+twist: 7 reveal
+purpose: making_friends
+goal: 제안하고 받기(Jössz? · Persze, megyek)와 시간 묻기
+expressions: Jössz; Persze; Hánykor
+B | Holnap futok a Margitszigeten. Jössz? | 내일 머르기트섬에서 뛴다. 올래? | jössz? = 너 올래? | emotion=cheerful
+A | Persze, megyek! Szeretek futni. | 당연하지, 갈게! 나 달리기 좋아해. | szeretek futni = 달리기를 좋아한다 | emotion=excited
+B | Szuper! Mennyit futsz általában? | 좋다! 보통 얼마나 뛰어? | általában = 보통 | emotion=cheerful
+A | Hát, öt kilométert, lassan. | 음, 5킬로, 천천히. | lassan = 천천히 | emotion=shy
+B | Nem baj, én is lassú vagyok. | 괜찮아, 나도 느려. | nem baj = 괜찮아 | emotion=gentle
+A | Oké. Hánykor találkozunk? | 오케이. 몇 시에 만나? | Hánykor? = 몇 시에? | emotion=cheerful
+B | Hatkor, a hídnál. Reggel. | 여섯 시, 다리 앞에서. 아침. | reggel = 아침(에) | emotion=cheerful
+A | Reggel hatkor? Ne már, Réka! | 아침 여섯 시? 아 진짜, 레카! | ne már = 아 진짜 | emotion=tsukkomi

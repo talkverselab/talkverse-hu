@@ -1,0 +1,19 @@
+=== r1_life_b5
+kind: long
+title: 화분에 물만 주면 돼요
+emoji: 🪴
+scene: 아래층 Marika 아주머니가 주말에 딸네 집에 간다. 화분 부탁이 점점 늘어난다
+b: Marika néni
+register: polite
+twist: 7 chaos
+purpose: study_abroad
+goal: 부탁 들어주기(Szívesen · Még valami?) · Ön 명령형 알아듣기
+expressions: Szívesen; Persze; Ugye
+B | Kedvesem, megkérhetem valamire? | 저기, 부탁 하나 해도 될까요? | megkérhetem = 부탁해도 될까요 | emotion=polite
+A | Persze, Marika néni. Mi az? | 그럼요, 아주머니. 뭔데요? | mi az? = 뭔데요 | emotion=cheerful
+B | Hétvégén a lányomnál leszek. Meglocsolná a virágaimat? | 주말에 딸네 가 있어요. 꽃에 물 좀 줄래요? | meglocsolná = 물을 주다(정중) | emotion=gentle
+A | Szívesen! Hány virága van? | 기꺼이요! 화분이 몇 개예요? | hány = 몇 | emotion=cheerful
+B | Tizenkettő. És Cirminek is adjon enni, reggel és este. | 열두 개요. 그리고 치르미 밥도 줘요, 아침저녁으로. | adjon = 주세요(명령) | emotion=neutral
+A | Rendben. Még valami? | 네. 또 있어요? | még valami? = 또 뭐가 | emotion=polite
+B | A postát is hozza fel. Vasárnap jön a gázos. | 우편물도 올려다 줘요. 일요일엔 가스 검침원이 와요. | gázos = 가스 검침원 | emotion=cheerful
+A | Ugye csak két napig lesz távol, Marika néni? | 이틀만 비우시는 거죠, 아주머니? | ugye = ~죠? | emotion=worried

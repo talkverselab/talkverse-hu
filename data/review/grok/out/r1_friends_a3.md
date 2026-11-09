@@ -1,0 +1,19 @@
+=== r1_friends_a3
+kind: short
+title: 초콜릿 하나만
+emoji: 🍫
+scene: 쉬는 시간, 어학원 앞 가게에서 Réka 와 간식을 고른다
+b: Réka
+register: casual
+twist: 6 slip
+purpose: making_friends
+goal: 간식 고르기·부탁하기(Kérsz? · Adsz egyet?)
+expressions: Kérsz; Adsz; Jaj
+B | Éhes vagyok, veszek egy pogácsát. Kérsz? | 배고파. 포가차 하나 살게. 너도 먹을래? | kérsz? = 너 먹을래? | emotion=cheerful
+A | Nem, köszi. Én csokit szeretnék. | 아니, 고마워. 나는 초콜릿 먹고 싶어. | csoki = 초콜릿 | emotion=cheerful
+B | Ott van, a pult mellett. | 저기 있어, 계산대 옆에. | mellett = 옆에 | emotion=gentle
+A | Jaj, nincs nálam pénz. | 아, 나 돈이 없네. | nincs nálam = 나한테 없다 | emotion=flustered
+B | Semmi baj, van kártyám. | 괜찮아, 나 카드 있어. | semmi baj = 괜찮아 | emotion=gentle
+A | Köszi! Akkor adsz egy csókot? | 고마워! 그럼 뽀뽀 하나 줄래? | csók = 뽀뽀 | emotion=cheerful
+B | Egy csókot? Itt, a boltban? | 뽀뽀? 여기, 가게에서? | csókot = 뽀뽀를 | emotion=amused
+A | Csokit! Csokit akartam mondani! | 초콜릿! 초콜릿이라고 하려 했어! | akartam mondani = 말하려고 했다 | emotion=flustered

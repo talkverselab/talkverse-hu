@@ -1,0 +1,22 @@
+=== r2_life_c1
+kind: chat
+title: 책상 팝니다
+emoji: 🏷️
+scene: 중고 사이트에 책상을 올렸다. 산다는 사람이 메시지를 보낸다
+b: Vevő
+register: chat
+twist: 9 reveal
+purpose: study_abroad
+goal: 중고 거래 채팅(Megvan még? · Lehet alkudni? · Hol lehet átvenni?)
+expressions: Megvan még; Alkudni; Rendben
+B | Jó napot! Megvan még az íróasztal? | 안녕하세요! 책상 아직 있나요? | íróasztal = 책상 | emotion=polite at=20:10
+A | Jó napot! Igen, megvan. | 안녕하세요! 네, 있어요. | megvan = 있다 | emotion=cheerful at=20:12
+B | Lehet alkudni? Nyolcezer jó lenne? | 깎을 수 있나요? 8천이면 될까요? | alkudni = 흥정하다 | emotion=polite at=20:13
+A | Tízezer volt... Legyen kilenc. | 만 포린트였는데… 9천으로 하죠. | legyen = ~로 하자 | emotion=neutral at=20:15
+B | Rendben! Hol lehet átvenni? | 좋아요! 어디서 받을 수 있죠? | átvenni = 받아 가다 | emotion=cheerful at=20:16
+A | A Kossuth utcában, a harmadik emeleten. Sajnos nincs lift. | 코슈트 거리, 3층이에요. 아쉽게도 엘리베이터가 없어요. | sajnos = 아쉽게도 | emotion=worried at=20:18
+B | Nem baj. Hányas ajtó? | 괜찮아요. 몇 호예요? | hányas = 몇 번 | emotion=neutral at=20:19
+A | Huszonegy. Mikor jön? | 21호요. 언제 오세요? | mikor = 언제 | emotion=polite at=20:20
+B | Most. A huszonkettesben lakom. 😄 | 지금요. 저 22호 살아요. 😄 | -ben = ~안에 | emotion=amused at=20:20
+A | Komolyan? Akkor maga a szomszéd! | 진짜요? 그럼 옆집이시네요! | szomszéd = 이웃 | emotion=surprised at=20:21
+B | Igen. Már rég meg akartam szólítani. | 네. 사실 진작 말 걸고 싶었어요. | megszólítani = 말을 걸다 | emotion=shy at=20:22

@@ -1,0 +1,19 @@
+=== r1_life_b4
+kind: long
+title: 진료 예약 전화
+emoji: ☎️
+scene: 병원에 전화해서 진료 예약을 잡는다. 접수 직원이 이름 철자를 불러 달라고 한다
+b: Asszisztens
+register: polite
+twist: 7 reveal
+purpose: study_abroad
+goal: 전화로 예약하기(Időpontot szeretnék kérni)와 요일·시간
+expressions: Időpontot szeretnék; Megfelel; Legyen szíves
+B | Rendelő, jó napot! | 병원입니다, 안녕하세요! | rendelő = 진료소 | emotion=polite
+A | Jó napot! Időpontot szeretnék kérni. | 안녕하세요! 진료 예약하고 싶어요. | időpont = 약속 시간 | emotion=polite
+B | Csütörtök tíz óra megfelel Önnek? | 목요일 10시 괜찮으세요? | megfelel = 괜찮다 | emotion=polite
+A | Igen, megfelel. | 네, 괜찮아요. | igen = 네 | emotion=cheerful
+B | A neve? Betűzze, legyen szíves. | 성함이요? 철자 불러 주세요. | betűzze = 철자를 불러 주세요 | emotion=polite
+A | Hát, izé, nehéz. E-mailben megírhatom? | 음, 저기, 어려워요. 이메일로 보내도 될까요? | megírhatom = 써 보내도 된다 | emotion=flustered+polite
+B | Persze. Akkor betűzöm az e-mail címünket. | 그럼요. 그럼 저희 이메일 주소 철자를 불러 드릴게요. | betűzöm = 철자를 불러 드린다 | emotion=cheerful
+A | Jaj, ne! Inkább betűzöm a nevemet. | 아, 아니에요! 차라리 제 이름 철자 부를게요. | inkább = 차라리 | emotion=flustered+amused

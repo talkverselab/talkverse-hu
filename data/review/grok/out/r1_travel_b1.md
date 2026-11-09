@@ -1,0 +1,19 @@
+=== r1_travel_b1
+kind: long
+title: 10분 동안 선 줄
+emoji: 🫓
+scene: 중앙시장 2층 랑고시 가게. Réka 가 주문법을 알려 준다
+b: Réka
+register: casual
+twist: 7 chaos
+purpose: travel making_friends
+goal: 음식 고르기와 주문 준비(Mit kérsz rá? · én is azt kérek)
+expressions: Na; Komolyan; Nem tudom
+B | Na, itt a híres lángos! Mit kérsz rá? | 자, 여기가 유명한 랑고시야! 위에 뭐 올릴래? | rá = 그 위에 | emotion=excited
+A | Nem tudom. Te mit szoktál kérni? | 모르겠어. 너는 보통 뭐 시켜? | szoktál = 보통 ~하곤 해 | emotion=neutral
+B | Tejfölt meg sajtot. Fokhagyma is kell rá! | 사워크림이랑 치즈. 마늘도 꼭 올려! | tejföl = 사워크림 | emotion=cheerful
+A | Oké, akkor én is azt kérek. | 오케이, 그럼 나도 그거로. | azt = 그것을 | emotion=cheerful
+B | Akkor állj be a sorba, én foglalok asztalt. | 그럼 줄 서, 나는 자리 잡을게. | foglal = 맡다, 잡다 | emotion=cheerful
+A | Réka, ez a sor nagyon lassú. | 레카, 이 줄 진짜 느려. | sor = 줄 | emotion=annoyed
+B | Az a mosdó sora! És a lángosos bezárt. | 그건 화장실 줄이야! 그리고 랑고시 가게 문 닫았어. | mosdó = 화장실 | emotion=tsukkomi+surprised
+A | Komolyan? Már tíz perce állok itt! | 진짜? 벌써 10분째 서 있었는데! | tíz perce = 10분째 | emotion=flustered

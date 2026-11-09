@@ -1,0 +1,20 @@
+=== r1_friends_c2
+kind: chat
+title: 누구 영화 볼 사람?
+emoji: 🎬
+scene: 어학원 반 단톡방에 「오늘 영화 볼 사람?」이라고 올렸더니 사람이 자꾸 는다
+b: Réka
+c: Tanár
+register: chat
+twist: 7 chaos
+purpose: making_friends study_abroad
+goal: 단체방에 제안하기(Ki jön…?)와 시간 알리기
+expressions: Ki jön; Sziasztok; Szuper
+A | Sziasztok! Ki jön ma moziba? 🎬 | 얘들아! 오늘 누구 영화 보러 갈래? 🎬 | sziasztok = 얘들아 | emotion=excited at=18:02
+B | Én! Hánykor? | 나! 몇 시? | hánykor = 몇 시에 | emotion=excited at=18:03
+A | Hétkor kezdődik a film. | 7시에 영화 시작해. | kezdődik = 시작한다 | emotion=cheerful at=18:04
+B | Szuper! Hozom Bencét is. | 좋아! 벤체도 데려갈게. | hozom = 데려간다 | emotion=cheerful at=18:05
+B | És Annát meg Petit. 😄 | 그리고 안나랑 페티도. 😄 | meg = ~랑 | emotion=excited at=18:07
+A | Hű, már öt jegy kell! | 와, 벌써 표 다섯 장이네! | jegy = 표 | emotion=surprised at=18:08
+C | Én is megyek! Jó gyakorlás. 😊 | 나도 갈게! 좋은 연습이야. 😊 | gyakorlás = 연습 | emotion=cheerful at=18:10
+A | Úristen, a tanár is jön?! 😳 | 세상에, 선생님도 와?! 😳 | úristen = 세상에 | emotion=flustered at=18:10

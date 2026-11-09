@@ -1,0 +1,19 @@
+=== r1_friends_b1
+kind: long
+title: 도와줄 사람 데려왔어
+emoji: 📦
+scene: 이삿날. 상자 나르는 걸 도와 달라고 했더니 Réka 가 친구들을 줄줄이 데려왔다
+b: Réka
+register: casual
+twist: 8 chaos
+purpose: making_friends
+goal: 도움 주고받기(Köszi, hogy jöttél · Hoztam segítséget)
+expressions: Hoztam segítséget; Szuper; rendeljünk
+A | Köszi, hogy jöttél! Csak tíz doboz van. | 와 줘서 고마워! 상자 열 개뿐이야. | doboz = 상자 | emotion=cheerful
+B | Szívesen! Hoztam segítséget is. | 천만에! 도와줄 사람도 데려왔어. | segítség = 도움 | emotion=cheerful
+A | Bencét? Szuper! | 벤체? 좋다! | Bencét = 벤체를 | emotion=excited
+B | És Dávidot, Annát, meg Petit. | 그리고 다비드, 안나, 페티도. | meg = 그리고 | emotion=excited
+A | Hű, öt ember tíz dobozra? | 와, 상자 열 개에 다섯 명? | -ra/-re = ~에 | emotion=surprised
+B | Persze, gyorsan kész leszünk! Hol a lift? | 그럼, 금방 끝날 거야! 엘리베이터 어디 있어? | kész leszünk = 끝날 것이다 | emotion=cheerful
+A | Nincs lift. Ötödik emelet. | 엘리베이터 없어. 5층이야. | emelet = 층 | emotion=flustered
+B | Akkor előbb rendeljünk pizzát. Hat nagyot. | 그럼 먼저 피자부터 시키자. 큰 거 여섯 판. | rendeljünk = 주문하자 | emotion=amused

@@ -1,0 +1,21 @@
+=== r1_life_c2
+kind: chat
+title: 단톡방에 잘못 보냄
+emoji: 🏢
+scene: Dávid 에게 보낼 메시지를 건물 단톡방에 보냈다. 이웃들이 하나둘 주문을 얹는다
+b: Dávid
+c: Marika néni
+d: Feri bácsi
+register: chat
+twist: 6 chaos
+purpose: study_abroad
+goal: 채팅 부탁(Hozol …?)과 사과(Bocsánat, rossz csoport)
+expressions: Hozol; Bocsánat; Semmi baj
+A | Hozol kenyeret a boltból hazafelé? 🍞 | 집에 오는 길에 빵 사 올래? 🍞 | hazafelé = 집 오는 길에 | emotion=cheerful at=17:40
+D | Ez a ház csoportja. 🙂 | 여기 건물 단톡방이에요. 🙂 | csoport = 그룹 | emotion=amused at=17:42
+A | Jaj! Bocsánat, rossz csoport! | 아이고! 죄송해요, 방을 잘못 골랐어요! | rossz = 잘못된 | emotion=flustered at=17:42
+C | Semmi baj. Fehéret vagy barnát? | 괜찮아요. 흰 빵? 갈색 빵? | barna = 갈색 | emotion=teasing at=17:43
+A | Marika néni, nem kell! 😅 | 아주머니, 안 사 오셔도 돼요! 😅 | nem kell = 필요 없다 | emotion=flustered at=17:43
+C | Már a boltban vagyok. Feri, magának is? | 벌써 가게예요. 페리 씨도 하나? | magának = 당신에게 | emotion=cheerful at=17:44
+D | Egy kiflit kérek. Köszönöm! | 저는 키플리 하나요. 고마워요! | kifli = 키플리 | emotion=cheerful at=17:45
+B | Mi történt itt? Én is kérek kiflit. | 여기 무슨 일이야? 나도 키플리 줘. | én is = 나도 | emotion=surprised+amused at=17:50

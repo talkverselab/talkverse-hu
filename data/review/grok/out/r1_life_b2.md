@@ -1,0 +1,19 @@
+=== r1_life_b2
+kind: long
+title: 전기 요금 반반
+emoji: 💡
+scene: 전기 요금 고지서가 왔다. Dávid 와 반씩 나누려다 누가 더 썼는지 따지기 시작한다
+b: Dávid
+register: casual
+twist: 7 chaos
+purpose: study_abroad
+goal: 돈 나누기(Felezzük? · Mennyi?)
+expressions: Felezzük?; Komolyan?; Mennyi
+B | Na, megjött a villanyszámla. Felezzük? | 어, 전기 요금 왔어. 반반 할까? | felezzük = 반으로 나누자 | emotion=neutral
+A | Persze, mennyi? | 그래, 얼마야? | mennyi = 얼마 | emotion=cheerful
+B | Huszonnégyezer. Múlt hónapban csak tizenkettő volt. | 2만 4천. 지난달엔 만 2천이었는데. | múlt hónapban = 지난달에 | emotion=worried
+A | Komolyan? Mi fogyaszt ennyit? | 진짜? 뭐가 이렇게 많이 먹어? | fogyaszt = 소비한다 | emotion=surprised
+B | A te hősugárzód. Egész nap megy. | 네 전기 히터. 하루 종일 돌아가잖아. | hősugárzó = 전기 히터 | emotion=teasing
+A | És a te géped? Meg a mosógép éjszaka? | 그럼 네 컴퓨터는? 밤에 돌리는 세탁기는? | meg = 그리고 | emotion=annoyed
+B | Jó, akkor a wifit is számoljuk. Te többet netezel. | 좋아, 그럼 와이파이도 따지자. 인터넷은 네가 더 써. | netezel = 인터넷 한다 | emotion=annoyed
+A | Várj, csak a villanyról volt szó! Felezzük? | 잠깐, 전기 요금 얘기였잖아! 반반 할까? | szó volt róla = 그 얘기였다 | emotion=tsukkomi+amused

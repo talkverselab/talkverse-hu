@@ -1,0 +1,23 @@
+=== r2_culture_b2
+kind: long
+title: 구경만 하려고 했는데
+emoji: 💃
+scene: Réka가 민속춤 모임(táncház)에 가자고 한다. 구경만 할 생각이었다
+b: Réka
+c: Tánctanár
+register: casual
+twist: 10 chaos
+purpose: media making_friends
+goal: 거절하기·설득당하기와 방향 말(jobbra · balra)
+expressions: Jaj; Semmi baj; Hát
+B | Este táncház van. Eljössz? | 오늘 저녁 민속춤 모임 있어. 올래? | táncház = 민속춤 모임 | emotion=excited
+A | Táncház? Én nem tudok táncolni. | 민속춤? 나 춤 못 춰. | nem tudok = 못 한다 | emotion=worried
+B | Senki sem tud. Azért megyünk, hogy tanuljunk. | 아무도 못 춰. 배우려고 가는 거야. | azért … hogy = ~하려고 | emotion=gentle
+A | Jó, de csak nézni megyek. | 좋아, 근데 구경만 하러 가는 거야. | csak nézni = 보기만 | emotion=stiff
+C | Sziasztok! Álljatok körbe! | 안녕, 여러분! 둥글게 서세요! | körbe = 둥글게 | emotion=cheerful
+A | Réka, én csak nézni jöttem! | 레카, 나 구경만 하러 왔다니까! | jöttem = 왔다 | emotion=flustered
+B | Késő. Fogd meg a kezem! | 늦었어. 내 손 잡아! | fogd meg = 잡아 | emotion=teasing
+C | Most két lépés jobbra, egy balra! | 이제 오른쪽으로 두 걸음, 왼쪽으로 한 걸음! | jobbra = 오른쪽으로 | emotion=cheerful
+A | Jobbra, balra... Jaj, bocsánat! | 오른쪽, 왼쪽… 아, 죄송해요! | bocsánat = 죄송해요 | emotion=flustered
+C | Semmi baj! Gyere középre, mutassuk meg együtt! | 괜찮아요! 가운데로 나와요, 같이 시범 보여 줘요! | mutassuk meg = 보여 주자 | emotion=cheerful
+A | Hát... én tényleg csak nézni jöttem. | 음… 나 정말 구경만 하러 왔는데. | tényleg = 정말 | emotion=flustered

@@ -1,0 +1,24 @@
+=== r2_love_b3
+kind: long
+title: 2킬로 말고 두 개
+emoji: 🫑
+scene: 토요일 아침 중앙시장. 소풍 샌드위치에 넣을 파프리카를 산다. A 가 직접 주문해 보겠다고 한다
+b: Anna
+c: Eladó
+register: mixed
+twist: 6 chaos
+flags: romance
+purpose: love
+goal: 시장에서 수량 말하기(két darab · egy kiló)
+expressions: Nézd; Bocsánat; Semmi baj; Komolyan?
+B | Nézd, milyen szép paprikák! Veszünk kettőt a szendvicsbe? | 봐, 파프리카 진짜 예쁘다! 샌드위치에 넣게 두 개 살까? | kettőt = 두 개를 | emotion=excited
+A | Jó ötlet. Én kérem, gyakorolni akarok. | 좋은 생각. 내가 주문할게, 연습하고 싶어. | gyakorolni = 연습하다 | emotion=cheerful
+C | Jó napot! Mit adhatok? | 안녕하세요! 뭘 드릴까요? | mit adhatok = 뭘 드릴까요 | emotion=polite
+A | Jó napot! Két kiló paprikát kérek. | 안녕하세요! 파프리카 2킬로 주세요. | kiló = 킬로 | emotion=polite
+C | Két kilót? Rendben, az körülbelül tizenöt darab. | 2킬로요? 알겠어요, 대략 열다섯 개예요. | körülbelül = 대략 | emotion=surprised
+A | Tizenöt? Nem, nem, két darabot, bocsánat! | 열다섯 개요? 아니요, 두 개요, 죄송해요! | bocsánat = 죄송해요 | emotion=flustered
+C | Semmi baj, gyakran mondják. Két darab, tessék. | 괜찮아요, 자주들 그래요. 두 개, 여기요. | semmi baj = 괜찮아요 | emotion=amused
+B | Kár. Tizenöt paprikából jó lecsó lett volna. | 아쉽다. 파프리카 열다섯 개면 레초 맛있게 됐을 텐데. | lett volna = 됐을 텐데 | emotion=teasing
+A | Lecsó? Én még soha nem ettem lecsót. | 레초? 나 레초 한 번도 안 먹어 봤어. | lecsó = 레초 | emotion=surprised
+B | Komolyan? Akkor mégis kérünk egy kilót, vasárnap főzök neked. | 진짜? 그럼 결국 1킬로 사자, 일요일에 해 줄게. | komolyan = 진짜 | emotion=surprised+gentle
+A | Nekem? Akkor az egy kiló nem túl kevés? | 나한테? 그럼 1킬로는 너무 적지 않아? | túl kevés = 너무 적은 | emotion=surprised+teasing

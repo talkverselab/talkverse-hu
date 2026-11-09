@@ -1,0 +1,19 @@
+=== r1_survival_s1
+kind: survival
+title: 커피 한 잔이요
+emoji: ☕
+scene: 처음 가 본 카페. 직원이 묻는 말마다 「네」라고 했더니 커피가 점점 커진다
+b: Bence
+register: polite
+twist: 7 chaos
+purpose: travel
+goal: 주문하기(…kérek)와 추가 질문(Tejjel kéri? · … is kér?) 알아듣기
+expressions: Jó napot; kérek; Tessék
+B | Jó napot! Mit kér? | 안녕하세요! 뭐 드릴까요? | Mit kér = 뭐 드릴까요 | emotion=polite
+A | Jó napot! Egy kávét kérek. | 안녕하세요! 커피 한 잔 주세요. | kérek = 주세요 | emotion=cheerful
+B | Tejjel kéri? | 우유 넣어 드릴까요? | tejjel = 우유와 함께 | emotion=polite
+A | Igen, köszönöm. | 네, 감사합니다. | köszönöm = 감사합니다 | emotion=polite
+B | Szirupot és tejszínhabot is kér? | 시럽이랑 휘핑크림도 드릴까요? | is = ~도 | emotion=cheerful
+A | Igen, igen. | 네, 네. | igen = 네 | emotion=flustered
+B | Tessék: nagy karamellás kávé tejszínhabbal. Kétezer forint. | 여기요, 휘핑크림 올린 캐러멜 커피 큰 거요. 2천 포린트입니다. | Tessék = 여기 있어요 | emotion=cheerful
+A | Kétezer? Jaj, csak egy sima kávét akartam! | 2천이요? 아, 그냥 기본 커피를 원했는데! | sima = 기본의, 그냥 | emotion=surprised+flustered

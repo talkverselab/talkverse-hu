@@ -1,0 +1,23 @@
+=== r2_life_b1
+kind: long
+title: 계좌 만들기
+emoji: 🏦
+scene: 은행 창구에서 계좌를 연다. 마지막에 휴대폰으로 인증 문자가 와야 하는데…
+b: Ügyintéző
+register: polite
+twist: 11 slip
+purpose: study_abroad
+goal: 은행에서 쓰는 말(számla · lakcímkártya · kód)과 Ön 으로 대답하기
+expressions: Bankszámlát szeretnék nyitni; Rendben; Egy pillanat
+B | Jó napot kívánok! Miben segíthetek? | 안녕하세요! 무엇을 도와드릴까요? | miben segíthetek? = 무엇을 도와드릴까요 | emotion=polite
+A | Jó napot! Bankszámlát szeretnék nyitni. | 안녕하세요! 계좌를 열고 싶어요. | bankszámla = 은행 계좌 | emotion=polite
+B | Rendben. Kérem az útlevelét és a lakcímkártyáját. | 네. 여권과 주소 카드를 주세요. | lakcímkártya = 주소 카드 | emotion=polite
+A | Tessék, itt vannak. | 여기 있습니다. | tessék = 여기 있어요 | emotion=neutral
+B | Köszönöm. Van magyar telefonszáma? | 감사합니다. 헝가리 전화번호가 있으세요? | telefonszám = 전화번호 | emotion=polite
+A | Igen, itt van, felírtam. | 네, 여기 적어 왔습니다. | felírtam = 적어 두었다 | emotion=cheerful
+B | Rendben. Most küldök egy kódot SMS-ben. | 네. 지금 문자로 코드를 보내 드릴게요. | kód = 코드 | emotion=polite
+A | Még semmi nem jött meg. | 아직 아무것도 안 왔어요. | megjött = 도착했다 | emotion=worried
+B | Egy pillanat, újra küldöm. Most már? | 잠깐만요, 다시 보내 드릴게요. 지금은요? | újra = 다시 | emotion=neutral
+A | Semmi. Pedig a telefonom rendben van. | 아무것도요. 폰은 문제없는데. | pedig = 그런데도 | emotion=worried
+B | A telefonja repülő üzemmódban van. Innen is látom. | 휴대폰이 비행기 모드입니다. 여기서도 보여요. | repülő üzemmód = 비행기 모드 | emotion=amused
+A | Jaj, reggel óta! Ezért volt ilyen csendes a napom. | 아, 아침부터요! 어쩐지 하루가 조용하더라. | ezért = 그래서 | emotion=flustered+amused

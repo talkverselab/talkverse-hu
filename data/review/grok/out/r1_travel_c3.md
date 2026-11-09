@@ -1,0 +1,19 @@
+=== r1_travel_c3
+kind: chat
+title: 체크인은 3시부터
+emoji: 🧳
+scene: 아침에 호텔에 도착했는데 방은 오후부터. Dávid에게 캐리어를 어쩔지 묻는다
+b: Dávid
+register: chat
+twist: 7 slip
+purpose: travel making_friends
+goal: 짐 맡기기 묻기(Hol hagyjam? · megőriz)
+expressions: Na; Kérdezd meg; Nem baj
+A | Megjöttem! De a szobát csak háromtól kapom. | 도착했어! 근데 방은 3시부터래. | háromtól = 3시부터 | emotion=cheerful+annoyed at=10:15
+B | Na és a bőrönd? | 그럼 캐리어는? | bőrönd = 여행 가방 | emotion=neutral at=10:16
+A | Hát az a gond. Hol hagyjam? | 그게 문제야. 어디 두지? | hagyjam = 내가 둘까 | emotion=worried at=10:16
+B | Megőrzik a szállodában. Kérdezd meg! | 호텔에서 맡아 줘. 물어봐! | megőriz = 보관하다 | emotion=gentle at=10:17
+A | Megkérdeztem. Ingyen van! 😊 | 물어봤어. 무료래! 😊 | ingyen = 무료로 | emotion=excited at=10:25
+B | Szuper. Akkor gyere ebédelni! | 좋아. 그럼 점심 먹으러 와! | ebédelni = 점심 먹으러 | emotion=cheerful at=10:26
+A | Megyek! Jaj, a pénztárcám a bőröndben maradt. | 갈게! 아이고, 지갑을 캐리어에 두고 왔다. | pénztárca = 지갑 | emotion=excited+flustered at=10:31
+B | Nem baj, ma én fizetek. 😄 | 괜찮아, 오늘은 내가 살게. 😄 | én fizetek = 내가 낸다 | emotion=gentle at=10:32

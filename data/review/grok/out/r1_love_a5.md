@@ -1,0 +1,20 @@
+=== r1_love_a5
+kind: short
+title: 하루 일찍
+emoji: 🎂
+scene: 아침 어학원 앞. A 가 작은 케이크를 들고 Anna 를 기다렸다
+b: Anna
+register: casual
+twist: 6 reveal
+flags: romance
+purpose: love
+goal: 생일 축하하기(Boldog születésnapot!)와 눈 감으라고 하기
+expressions: Na; Igazából; Ne már
+A | Szia, Anna! Csukd be a szemed! | 안녕, 언너! 눈 감아 봐! | csukd be = 감아 | emotion=excited
+B | Mi ez? Na, becsuktam. | 이게 뭐야? 자, 감았어. | becsuktam = 감았다 | emotion=cheerful
+A | Boldog születésnapot! Ez a tiéd. | 생일 축하해! 이거 네 거야. | születésnap = 생일 | emotion=excited
+B | Hű, torta! Nagyon aranyos vagy. | 와, 케이크! 너 정말 다정하다. | aranyos = 다정한 | emotion=surprised
+A | Réka mondta, hogy ma van a szülinapod. | 레카가 오늘 생일이라고 했어. | szülinapod = 네 생일 | emotion=cheerful
+B | Hát... igazából holnap van. | 음… 사실은 내일이야. | igazából = 사실은 | emotion=amused
+A | Jaj, ne már! Akkor holnap hozok még egyet. | 아이고, 말도 안 돼! 그럼 내일 하나 더 가져올게. | még egyet = 하나 더 | emotion=flustered
+B | Torta nem kell. Holnap is gyere, az elég. | 케이크는 필요 없어. 내일도 와, 그거면 돼. | elég = 충분하다 | emotion=shy

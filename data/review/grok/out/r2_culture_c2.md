@@ -1,0 +1,25 @@
+=== r2_culture_c2
+kind: chat
+title: 첫 헝가리어 글
+emoji: 📝
+scene: 처음으로 SNS에 헝가리어로 글을 올렸다. Anna와 Réka가 댓글을 단다
+b: Anna
+c: Réka
+register: chat
+twist: 12 emotion
+flags: romance
+purpose: media love
+goal: 헝가리어 배우는 이야기와 틀린 곳 묻기(Volt benne hiba?)
+expressions: Ügyes; Szerintem; Nem baj
+A | Ma írtam az első magyar posztomat! 📝 | 오늘 첫 헝가리어 게시물 올렸어! 📝 | poszt = 게시물 | emotion=excited at=21:03
+B | Láttam! Nagyon ügyes vagy. 👏 | 봤어! 정말 잘했어. 👏 | ügyes = 잘하는, 솜씨 좋은 | emotion=cheerful at=21:05
+A | Volt benne hiba? Őszintén. | 틀린 거 있었어? 솔직하게. | őszintén = 솔직하게 | emotion=worried at=21:05
+B | Csak egy kicsi. Szerintem nem baj. | 아주 조금. 괜찮은 것 같아. | szerintem = 내 생각엔 | emotion=gentle at=21:06
+C | Egy? Inkább három. 😂 | 하나? 세 개는 되지. 😂 | inkább = 오히려 | emotion=teasing at=21:07
+A | Réka! Melyik három? | 레카! 어떤 세 개? | melyik = 어느 | emotion=annoyed at=21:07
+C | „Budapestben” helyett „Budapesten”. Ez az első. | "Budapestben" 말고 "Budapesten". 이게 첫째. | helyett = ~대신 | emotion=amused at=21:08
+A | Jaj. És a másik kettő? | 아. 그럼 나머지 두 개는? | a másik kettő = 나머지 둘 | emotion=sad at=21:08
+C | Majd holnap, egy kávé mellett. ☕ | 내일 커피 마시면서 알려 줄게. ☕ | mellett = ~곁들여 | emotion=cheerful at=21:09
+B | Én is szívesen segítek. Csak szólj. | 나도 기꺼이 도와줄게. 말만 해. | szólj = 말해 | emotion=gentle at=21:12
+B | Amúgy az utolsó mondatod volt a legszebb. 🙂 | 그런데 네 마지막 문장이 제일 예뻤어. 🙂 | mondat = 문장 | emotion=gentle at=21:13
+A | Az, hogy „jó itt lenni”? Azt rád gondolva írtam. 😳 | "여기 있어서 좋다"? 그거 너 생각하면서 썼어. 😳 | rád gondolva = 너를 생각하며 | emotion=shy at=21:20

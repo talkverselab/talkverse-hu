@@ -1,0 +1,19 @@
+=== r1_life_a2
+kind: short
+title: 대신 받아 둔 택배
+emoji: 📦
+scene: 계단에서 아래층 Marika 아주머니를 만난다. 어제 온 택배를 대신 받아 두셨다
+b: Marika néni
+register: polite
+twist: 8 reveal
+purpose: study_abroad
+goal: 이웃 어른께 인사·감사하기(Csókolom · Köszönöm szépen)
+expressions: Csókolom; Köszönöm szépen; Tényleg
+A | Csókolom, Marika néni! | 안녕하세요, 마리카 아주머니! | csókolom = 어르신께 하는 인사 | emotion=polite
+B | Jó napot! Tessék, itt egy csomag magának. | 안녕하세요! 자, 택배 왔어요. | magának = 당신에게 | emotion=cheerful
+A | Nekem? Tényleg? | 저한테요? 정말요? | nekem = 나에게 | emotion=surprised
+B | Tegnap jött, nem volt otthon senki. | 어제 왔는데 집에 아무도 없었어요. | senki = 아무도 | emotion=gentle
+A | Köszönöm szépen! Mit adhatok érte? | 정말 고맙습니다! 뭘 드리면 될까요? | érte = 그것에 대해 | emotion=polite
+B | Semmit. Csak a dobozt kérem majd. | 아무것도요. 상자만 나중에 줘요. | a dobozt = 상자를 | emotion=gentle
+A | A dobozt? Minek? | 상자요? 뭐 하시게요? | minek? = 뭐 하러? | emotion=surprised
+B | Cirminek. Ő csak az új dobozokat szereti. | 치르미 주려고요. 걔는 새 상자만 좋아해요. | Cirmi = 아주머니네 고양이 | emotion=amused

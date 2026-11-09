@@ -1,0 +1,21 @@
+=== r1_culture_c2
+kind: chat
+title: 그림 댓글
+emoji: 🎨
+scene: Anna 가 새 그림을 올렸다. 댓글을 서둘러 달았다
+b: Anna
+c: Réka
+register: chat
+twist: 7 chaos
+flags: romance
+purpose: media making_friends
+goal: 댓글에 쓰는 짧은 칭찬과 수습하기
+expressions: Hű; Jaj; Aha
+B | Kész az új képem! 🎨 | 새 그림 다 그렸어! 🎨 | kép = 그림 | emotion=excited at=19:02
+C | Hű, de jó! Ez a Duna? | 와, 대박! 이거 도나우야? | de jó = 정말 좋다 | emotion=excited at=19:03
+B | Igen, este. 🌙 | 응, 저녁 때. 🌙 | este = 저녁 | emotion=cheerful at=19:03
+A | Nagyon szép vagy! 😍 | 너 진짜 예뻐! 😍 | szép vagy = 너는 예쁘다 | emotion=excited at=19:05
+C | Ó-ó! 😏 | 오호! 😏 | ó-ó = 오호 | emotion=teasing at=19:05
+A | Jaj, a kép! A kép szép! | 아, 그림! 그림이 예쁜 거야! | a kép szép = 그림이 예쁘다 | emotion=flustered at=19:06
+C | Aha. Már tizenöt lájk van rajta. 😂 | 아하. 벌써 좋아요 열다섯 개야. 😂 | lájk = 좋아요 | emotion=amused at=19:12
+B | Köszi. Mindkettőt. 😘 | 고마워. 둘 다. 😘 | mindkettőt = 둘 다(를) | emotion=shy at=19:08
