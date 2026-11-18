@@ -1,0 +1,1386 @@
+{
+ "title": "언어감각 익히기",
+ "subtitle": "L1 장소 어미부터 L10 존댓말까지 · 대화 통째로 외우기",
+ "levels": [
+  {
+   "id": "L1",
+   "title": "안쪽 장소 — -ban · -ba · -ból",
+   "lessons": [
+    {
+     "id": "L1-1",
+     "title": "어디에 · 어디로 · 어디에서 (안쪽)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "Anna",
+       "hu": "Hol vagy? Már a kávézó{ban|1} ülök.",
+       "rd": "홀 버지? 마르 어 카베조번 윌뢱.",
+       "ko": "어디야? 난 벌써 카페{에|1} 앉아 있어."
+      },
+      {
+       "who": "나",
+       "hu": "Bocsi, még a metró{ban|1} vagyok.",
+       "rd": "보치, 멕 어 메트로번 버죡.",
+       "ko": "미안, 아직 지하철{에|1} 있어."
+      },
+      {
+       "who": "Anna",
+       "hu": "Ugye ide jössz, a sarki kávézó{ba|2}?",
+       "rd": "우제 이데 요쓰, 어 셔르키 카베조버?",
+       "ko": "여기 모퉁이 카페{로|2} 오는 거 맞지?"
+      },
+      {
+       "who": "나",
+       "hu": "Igen. Öt perc múlva kiszállok a metró{ból|3}.",
+       "rd": "이겐. 외트 페르츠 물버 키쌀록 어 메트로볼.",
+       "ko": "응. 5분 뒤에 지하철{에서|3} 내려."
+      },
+      {
+       "who": "Anna",
+       "hu": "Van esernyő a táskád{ban|1}? Esik.",
+       "rd": "번 에세르뇌 어 타슈카드번? 에식.",
+       "ko": "가방{에|1} 우산 있어? 비 와."
+      },
+      {
+       "who": "나",
+       "hu": "Nincs. Otthon hagytam, a szobám{ban|1}.",
+       "rd": "닌치. 오트혼 허지텀, 어 쏘밤번.",
+       "ko": "없어. 집에, 내 방{에|1} 두고 왔어."
+      },
+      {
+       "who": "Anna",
+       "hu": "Akkor fuss be az üzlet{be|2}, ott vehetsz egyet.",
+       "rd": "어꼬르 푸시 베 어즈 위즐레트베, 오트 베헤트쓰 에제트.",
+       "ko": "그럼 가게{로|2} 뛰어 들어가, 거기서 하나 살 수 있어."
+      },
+      {
+       "who": "나",
+       "hu": "Jó ötlet. Már bent vagyok a bolt{ban|1}.",
+       "rd": "요 외틀레트. 마르 벤트 버죡 어 볼트번.",
+       "ko": "좋은 생각. 벌써 가게 안{에|1} 들어왔어."
+      },
+      {
+       "who": "나",
+       "hu": "Kijöttem a bolt{ból|3} egy új esernyővel.",
+       "rd": "키요뗌 어 볼트볼 에지 우이 에세르뇌벨.",
+       "ko": "새 우산 들고 가게{에서|3} 나왔어."
+      },
+      {
+       "who": "Anna",
+       "hu": "Végre! Gyere be a kávézó{ba|2}, már kihűl a kávéd.",
+       "rd": "벡레! 제레 베 어 카베조버, 마르 키휠 어 카베드.",
+       "ko": "드디어! 카페{로|2} 들어와, 네 커피 벌써 식는다."
+      }
+     ],
+     "footnotes": [
+      "-ban·-ben — 「안에 있다」. 단어 모음이 a·o·u 쪽이면 -ban, e·i·ö·ü 쪽이면 -ben (모음조화).",
+      "-ba·-be — 「안으로 간다」. 한국어는 「카페에 있어 / 카페에 가」 둘 다 「에」지만 헝가리어는 갈라요.",
+      "-ból·-ből — 「안에서 밖으로」. 지하철에서 내리다 = metróból kiszáll."
+     ]
+    },
+    {
+     "id": "L1-ref",
+     "kind": "ref",
+     "title": "안쪽 장소 한눈에",
+     "points": [
+      {
+       "head": "-ban / -ben  ~안에",
+       "tip": "있는 곳(안쪽). 뒷모음(a·á·o·ó·u·ú) 단어는 -ban, 앞모음(e·é·i·í·ö·ő·ü·ű)은 -ben.",
+       "sentences": [
+        {
+         "hu": "A könyv a táskában van.",
+         "rd": "어 쾨니브 어 타슈카번 번.",
+         "ko": "책은 가방 안에 있어요."
+        },
+        {
+         "hu": "A gyerekek a kertben játszanak.",
+         "rd": "어 제레켁 어 케르트벤 야트써넉.",
+         "ko": "아이들이 정원에서 놀아요."
+        }
+       ]
+      },
+      {
+       "head": "-ba / -be  ~안으로",
+       "tip": "들어가는 곳. 「어디로?」= Hová?",
+       "sentences": [
+        {
+         "hu": "Bemegyek a boltba.",
+         "rd": "베메젝 어 볼트버.",
+         "ko": "가게에 들어가요."
+        },
+        {
+         "hu": "Tedd a tejet a hűtőbe!",
+         "rd": "테드 어 테예트 어 휘퇴베!",
+         "ko": "우유를 냉장고에 넣어!"
+        }
+       ]
+      },
+      {
+       "head": "-ból / -ből  ~안에서 (밖으로) · ~로 만든",
+       "tip": "나오는 곳. 재료에도 써요.",
+       "sentences": [
+        {
+         "hu": "Most jöttem ki a moziból.",
+         "rd": "모슈트 요뗌 키 어 모지볼.",
+         "ko": "방금 영화관에서 나왔어요."
+        },
+        {
+         "hu": "Ez a pohár üvegből van.",
+         "rd": "에즈 어 포하르 위벡뵐 번.",
+         "ko": "이 컵은 유리로 돼 있어요."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "겉면·사람 곁 — -on · -ra · -ról · -nál · -hoz · -tól",
+   "lessons": [
+    {
+     "id": "L2-1",
+     "title": "위에 · 위로 · 위에서 · 사람 곁",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "hu": "A kulcs az asztal{on|1} van?",
+       "rd": "어 쿨치 어즈 어쓰털론 번?",
+       "ko": "열쇠 책상 위{에|1} 있어?"
+      },
+      {
+       "who": "Bence",
+       "hu": "Nem, a polc{on|1}. Tedd az asztal{ra|2}, jó?",
+       "rd": "넴, 어 폴촌. 테드 어즈 어쓰털러, 요?",
+       "ko": "아니, 선반 위{에|1}. 책상{에|2} 올려 둘래?"
+      },
+      {
+       "who": "나",
+       "hu": "Leveszem a polc{ról|3}... megvan!",
+       "rd": "레베쎔 어 폴츠롤... 멕번!",
+       "ko": "선반{에서|3} 내릴게... 찾았다!"
+      },
+      {
+       "who": "Bence",
+       "hu": "Ma este Anná{nál|4} vacsorázunk.",
+       "rd": "머 에슈테 언나날 버초라준크.",
+       "ko": "오늘 저녁은 Anna {네서|4} 먹어."
+      },
+      {
+       "who": "나",
+       "hu": "Anná{hoz|5}? Mikor indulunk?",
+       "rd": "언나호즈? 미코르 인둘룬크?",
+       "ko": "Anna {네로|5}? 언제 출발해?"
+      },
+      {
+       "who": "Bence",
+       "hu": "Hétkor. Előtte elmegyek az orvos{hoz|5}.",
+       "rd": "헤트코르. 엘뢰떼 엘메젝 어즈 오르보슈호즈.",
+       "ko": "7시에. 그 전에 의사{한테|5} 다녀올게."
+      },
+      {
+       "who": "나",
+       "hu": "Én addig a postá{ra|2} megyek.",
+       "rd": "엔 어딕 어 포슈타러 메젝.",
+       "ko": "나는 그동안 우체국{에|2} 갈게."
+      },
+      {
+       "who": "Bence",
+       "hu": "Az orvos{tól|6} egyenesen Anná{hoz|5} megyek.",
+       "rd": "어즈 오르보슈톨 에제네센 언나호즈 메젝.",
+       "ko": "의사{한테서|6} 곧장 Anna {네로|5} 갈게."
+      },
+      {
+       "who": "나",
+       "hu": "Rendben. Hallottál már Anna új lakásá{ról|3}?",
+       "rd": "렌드벤. 헐로딸 마르 언너 우이 러카샤롤?",
+       "ko": "좋아. Anna 새 집{에 대해|3} 들었어?"
+      },
+      {
+       "who": "Bence",
+       "hu": "Igen, a tizedik emelet{en|1} van, csodás a kilátás.",
+       "rd": "이겐, 어 티제딕 에멜레텐 번, 초다시 어 킬라타시.",
+       "ko": "응, 10층{에|1} 있대. 전망이 끝내준대."
+      }
+     ],
+     "footnotes": [
+      "헝가리어의 「에」는 세 묶음 — 안(-ban), 위·겉(-on), 사람·가게 곁(-nál). 셋 다 「있다 / 가다 / 오다」로 또 갈려요.",
+      "-on 은 앞 소리에 맞춰 -n·-on·-en·-ön (asztalon, emeleten). 헝가리 도시도 대개 -on 쪽 (Budapesten).",
+      "우체국·시장처럼 늘 -ra 를 쓰는 곳이 있어요 (postára, piacra) — 외워 두면 돼요.",
+      "사람한테 갈 때 -hoz·-hez·-höz (세 가지), 사람한테서 -tól·-től."
+     ]
+    },
+    {
+     "id": "L2-ref",
+     "kind": "ref",
+     "title": "겉면·사람 곁 한눈에",
+     "points": [
+      {
+       "head": "-n / -on / -en / -ön  ~위에 · 겉에",
+       "tip": "붙어 있는 곳. 도시·층에도.",
+       "sentences": [
+        {
+         "hu": "A kép a falon van.",
+         "rd": "어 케프 어 펄론 번.",
+         "ko": "그림이 벽에 걸려 있어요."
+        },
+        {
+         "hu": "Budapesten lakom.",
+         "rd": "부더페슈텐 러콤.",
+         "ko": "부다페스트에 살아요."
+        }
+       ]
+      },
+      {
+       "head": "-ra / -re  ~위로 · ~에 (가다)",
+       "tip": "올려놓는 곳, 가는 곳.",
+       "sentences": [
+        {
+         "hu": "Felteszem a polcra.",
+         "rd": "펠테쎔 어 폴츠러.",
+         "ko": "선반에 올려요."
+        },
+        {
+         "hu": "Holnap a piacra megyek.",
+         "rd": "홀너프 어 피어츠러 메젝.",
+         "ko": "내일 시장에 가요."
+        }
+       ]
+      },
+      {
+       "head": "-ról / -ről  ~위에서 · ~에 대해",
+       "tip": "떨어지는 곳, 이야기의 주제.",
+       "sentences": [
+        {
+         "hu": "Leesett a pohár az asztalról.",
+         "rd": "레에세트 어 포하르 어즈 어쓰털롤.",
+         "ko": "컵이 책상에서 떨어졌어요."
+        },
+        {
+         "hu": "Miről beszéltek?",
+         "rd": "미뢸 베쎌텍?",
+         "ko": "너희 뭐에 대해 얘기해?"
+        }
+       ]
+      },
+      {
+       "head": "-nál · -hoz · -tól  사람 곁",
+       "tip": "~네 집에서 / ~한테 / ~한테서.",
+       "sentences": [
+        {
+         "hu": "Péternél alszom.",
+         "rd": "페테르넬 얼쏨.",
+         "ko": "페테르네 집에서 자요."
+        },
+        {
+         "hu": "Holnap megyek a fogorvoshoz.",
+         "rd": "홀너프 메젝 어 포고르보슈호즈.",
+         "ko": "내일 치과에 가요."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "목적어 -t 와 관사 a·az",
+   "lessons": [
+    {
+     "id": "L3-1",
+     "title": "을/를 = -t",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "점원",
+       "hu": "Jó napot! Mit kér?",
+       "rd": "요 너포트! 미트 케르?",
+       "ko": "안녕하세요! 뭐 드릴까요?"
+      },
+      {
+       "who": "나",
+       "hu": "Egy kenyer{et|1} és két kifli{t|1} kérek.",
+       "rd": "에지 케네레트 에시 케트 키플리트 케렉.",
+       "ko": "빵{을|1} 하나, 키플리{를|1} 두 개 주세요."
+      },
+      {
+       "who": "점원",
+       "hu": "Kér almá{t|1} is? Ma nagyon édes.",
+       "rd": "케르 얼마트 이시? 머 너죤 에데시.",
+       "ko": "사과{도|1} 드릴까요? 오늘 아주 달아요."
+      },
+      {
+       "who": "나",
+       "hu": "Igen, egy kiló{t|1}... vagyis fél kilót.",
+       "rd": "이겐, 에지 킬로트... 버지시 펠 킬로트.",
+       "ko": "네, 1킬로{를|1}... 아니 반 킬로요."
+      },
+      {
+       "who": "점원",
+       "hu": "Tessék. Mást?",
+       "rd": "테쎅. 마슈트?",
+       "ko": "여기요. 다른 건요?"
+      },
+      {
+       "who": "나",
+       "hu": "Van tej? Nem látom a tej{et|1}.",
+       "rd": "번 테이? 넴 라톰 어 테예트.",
+       "ko": "우유 있어요? 우유{가|1} 안 보여요."
+      },
+      {
+       "who": "점원",
+       "hu": "Ott van, a hűtő mellett.",
+       "rd": "오트 번, 어 휘퇴 멜레트.",
+       "ko": "저기 냉장고 옆에 있어요."
+      },
+      {
+       "who": "나",
+       "hu": "Megvan. Elfogadnak kártyá{t|1}?",
+       "rd": "멕번. 엘포거드넉 카르탸트?",
+       "ko": "찾았어요. 카드{도|1} 받으세요?"
+      },
+      {
+       "who": "점원",
+       "hu": "Persze. Kér szatyr{ot|1}?",
+       "rd": "페르쎄. 케르 써티로트?",
+       "ko": "그럼요. 봉투{를|1} 드릴까요?"
+      },
+      {
+       "who": "나",
+       "hu": "Nem kell, hoztam táská{t|1}. Köszönöm!",
+       "rd": "넴 켈, 호즈텀 타슈카트. 쾨쐬뇜!",
+       "ko": "괜찮아요, 가방{을|1} 가져왔어요. 감사합니다!"
+      }
+     ],
+     "footnotes": [
+      "목적어 끝에 -t. 한국어는 「을/를」을 자주 빼거나 「가·도」로 바꾸지만 헝가리어는 꼭 -t 를 붙여요 (우유가 안 보여요 = Nem látom a tejet).",
+      "-t 앞에 모음이 끼거나 줄기가 바뀌어요: kenyér→kenyeret, szatyor→szatyrot. a·e 로 끝나면 길어져요: alma→almát.",
+      "관사는 자음 앞 a, 모음 앞 az (a tej / az alma)."
+     ]
+    },
+    {
+     "id": "L3-ref",
+     "kind": "ref",
+     "title": "목적어 -t 와 관사 a·az 한눈에",
+     "points": [
+      {
+       "head": "-t  ~을/를",
+       "tip": "모음으로 끝나면 바로 -t, 자음 뒤에는 -ot·-et·-öt·-at 이 붙기도.",
+       "sentences": [
+        {
+         "hu": "Kávét kérek.",
+         "rd": "카베트 케렉.",
+         "ko": "커피 주세요."
+        },
+        {
+         "hu": "Látod a házat?",
+         "rd": "라토드 어 하저트?",
+         "ko": "그 집 보여?"
+        }
+       ]
+      },
+      {
+       "head": "a / az  그 (정관사)",
+       "tip": "자음 앞 a, 모음 앞 az. 「그」라고 옮기지 않아도 돼요.",
+       "sentences": [
+        {
+         "hu": "A busz késik.",
+         "rd": "어 부쓰 케식.",
+         "ko": "버스가 늦어요."
+        },
+        {
+         "hu": "Az étterem zárva van.",
+         "rd": "어즈 에떼렘 자르버 번.",
+         "ko": "식당이 문을 닫았어요."
+        }
+       ]
+      },
+      {
+       "head": "egy  하나 · 어떤 (부정관사)",
+       "tip": "「하나」이기도 하고 그냥 「어떤」이기도.",
+       "sentences": [
+        {
+         "hu": "Egy kérdésem van.",
+         "rd": "에지 케르데셈 번.",
+         "ko": "질문이 하나 있어요."
+        },
+        {
+         "hu": "Láttam egy jó filmet.",
+         "rd": "라떰 에지 요 필메트.",
+         "ko": "좋은 영화를 하나 봤어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "정·부정 활용 — látok / látom",
+   "lessons": [
+    {
+     "id": "L4-1",
+     "title": "「그것」을 알면 다른 어미",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "Anna",
+       "hu": "Mit néz{el|1}?",
+       "rd": "미트 네젤?",
+       "ko": "뭐{를|1} 봐?"
+      },
+      {
+       "who": "나",
+       "hu": "Egy régi filmet néz{ek|1}.",
+       "rd": "에지 레기 필메트 네젝.",
+       "ko": "옛날 영화{를|1} 하나 봐."
+      },
+      {
+       "who": "Anna",
+       "hu": "Melyiket? Ismer{em|2}?",
+       "rd": "메이케트? 이슈메렘?",
+       "ko": "어떤 거? 나도 {그거|2} 알아?"
+      },
+      {
+       "who": "나",
+       "hu": "Biztos ismer{ed|2}, apa kedvence.",
+       "rd": "비즈토시 이슈메레드, 어퍼 케드벤체.",
+       "ko": "분명 {그거|2} 알 거야, 아빠가 제일 좋아하는 거."
+      },
+      {
+       "who": "Anna",
+       "hu": "Ja, azt! Én is szeret{em|2}.",
+       "rd": "여, 어즈트! 엔 이시 쎄레템.",
+       "ko": "아, {그거|2}! 나도 좋아해."
+      },
+      {
+       "who": "나",
+       "hu": "Kérsz popcornt? Most csinál{ok|1} egy kicsit.",
+       "rd": "케르쓰 포프초른트? 모슈트 치날록 에지 키치트.",
+       "ko": "팝콘 먹을래? 지금 {조금|1} 만들게."
+      },
+      {
+       "who": "Anna",
+       "hu": "Kér{ek|1}! És hoz{ok|1} két kólát.",
+       "rd": "케렉! 에시 호족 케트 콜라트.",
+       "ko": "{먹을래|1}! 콜라도 {두 개|1} 가져올게."
+      },
+      {
+       "who": "나",
+       "hu": "A kólát a hűtőben talál{od|2}.",
+       "rd": "어 콜라트 어 휘퇴벤 털랄로드.",
+       "ko": "{그 콜라|2}는 냉장고에 있어."
+      },
+      {
+       "who": "Anna",
+       "hu": "Megvan. Elindít{od|2} a filmet?",
+       "rd": "멕번. 엘린디토드 어 필메트?",
+       "ko": "찾았어. {영화|2} 틀어 줄래?"
+      },
+      {
+       "who": "나",
+       "hu": "Elindít{om|2}. Csend legyen!",
+       "rd": "엘린디톰. 첸드 레젠!",
+       "ko": "{틀게|2}. 이제 조용!"
+      }
+     ],
+     "footnotes": [
+      "목적어가 「정해진 것」(a·az 이 붙은 것, 그것·이름)이면 정활용 -om·-od·-ja, 아니면(뭔가·하나·없음) 부정활용 -ok·-sz.",
+      "한국어에는 없는 구분이라 처음엔 낯설어요. 빨강(아무거나)과 파랑(그것)을 견줘 보세요."
+     ]
+    },
+    {
+     "id": "L4-ref",
+     "kind": "ref",
+     "title": "정·부정 활용 한눈에",
+     "points": [
+      {
+       "head": "부정활용  nézek · nézel · néz",
+       "tip": "목적어가 없거나 「하나·뭔가·무엇」일 때.",
+       "sentences": [
+        {
+         "hu": "Mit olvasol?",
+         "rd": "미트 올버숄?",
+         "ko": "뭐 읽어?"
+        },
+        {
+         "hu": "Egy levelet írok.",
+         "rd": "에지 레벨레트 이록.",
+         "ko": "편지를 한 통 써."
+        }
+       ]
+      },
+      {
+       "head": "정활용  nézem · nézed · nézi",
+       "tip": "목적어가 「그것」일 때 — a/az 이 붙은 말, 이름, azt.",
+       "sentences": [
+        {
+         "hu": "Olvasod a levelet?",
+         "rd": "올버쇼드 어 레벨레트?",
+         "ko": "그 편지 읽고 있어?"
+        },
+        {
+         "hu": "Ismerem Pétert.",
+         "rd": "이슈메렘 페테르트.",
+         "ko": "페테르를 알아요."
+        }
+       ]
+      },
+      {
+       "head": "-lak / -lek  나 → 너",
+       "tip": "「내가 너를」만 따로 있는 꼴.",
+       "sentences": [
+        {
+         "hu": "Szeretlek.",
+         "rd": "쎄레틀렉.",
+         "ko": "사랑해."
+        },
+        {
+         "hu": "Holnap felhívlak.",
+         "rd": "홀너프 펠히블럭.",
+         "ko": "내일 전화할게."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "소유 — 내·네·그의를 끝에",
+   "lessons": [
+    {
+     "id": "L5-1",
+     "title": "családom = 내 가족",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "hu": "Ez a család{om|1}.",
+       "rd": "에즈 어 철라돔.",
+       "ko": "이건 {우리|1} 가족이야."
+      },
+      {
+       "who": "Anna",
+       "hu": "Ki ez? A testvér{ed|2}?",
+       "rd": "키 에즈? 어 테슈트베레드?",
+       "ko": "이 사람 누구야? {네|2} 형제야?"
+      },
+      {
+       "who": "나",
+       "hu": "Igen, a bátyá{m|1}. Ő Péter.",
+       "rd": "이겐, 어 바턈. 외 페테르.",
+       "ko": "응, {우리|1} 형. 페테르야."
+      },
+      {
+       "who": "Anna",
+       "hu": "És ez az ő kutyá{ja|3}?",
+       "rd": "에시 에즈 어즈 외 쿠탸여?",
+       "ko": "그럼 이건 {그 사람|3} 강아지야?"
+      },
+      {
+       "who": "나",
+       "hu": "Nem, ez a mi kutyá{nk|4}, Bodri.",
+       "rd": "넴, 에즈 어 미 쿠탼크, 보드리.",
+       "ko": "아니, {우리 집|4} 개야. 보드리."
+      },
+      {
+       "who": "Anna",
+       "hu": "Nekem nincs kutyá{m|1}, csak egy macská{m|1}.",
+       "rd": "네켐 닌치 쿠턈, 척 에지 머치캄.",
+       "ko": "{난|1} 개는 없고 고양이만 한 마리 있어."
+      },
+      {
+       "who": "나",
+       "hu": "Hogy hívják a macská{d|2}at?",
+       "rd": "호지 히브약 어 머치카더트?",
+       "ko": "{네|2} 고양이 이름이 뭐야?"
+      },
+      {
+       "who": "Anna",
+       "hu": "Cirmi. A szüle{im|5} adták nekem.",
+       "rd": "치르미. 어 쓀레임 어드탁 네켐.",
+       "ko": "치르미. {우리|5} 부모님이 주셨어."
+      },
+      {
+       "who": "나",
+       "hu": "Van fénykép{ed|2} róla?",
+       "rd": "번 페니케페드 롤러?",
+       "ko": "{너|2} 걔 사진 있어?"
+      },
+      {
+       "who": "Anna",
+       "hu": "Persze, a telefon{om|1}on van vagy száz.",
+       "rd": "페르쎄, 어 텔레포노몬 번 버지 싸즈.",
+       "ko": "당연하지, {내|1} 폰에 백 장쯤 있어."
+      }
+     ],
+     "footnotes": [
+      "헝가리어는 「내·네·그의」를 명사 끝에 붙여요 — családom 내 가족, testvéred 네 형제, kutyája 그의 개.",
+      "「~가 있다」= Van + 소유 어미 (Van kutyám = 나는 개가 있어), 없으면 Nincs.",
+      "소유 어미 뒤에 다른 어미가 또 붙어요: macskád + at → macskádat, telefonom + on → telefonomon."
+     ]
+    },
+    {
+     "id": "L5-ref",
+     "kind": "ref",
+     "title": "소유 한눈에",
+     "points": [
+      {
+       "head": "-m · -d · -a/-e  내 · 네 · 그의",
+       "tip": "모음 뒤엔 바로, 자음 뒤엔 -om·-em·-öm 처럼 모음을 끼워요.",
+       "sentences": [
+        {
+         "hu": "Hol a kulcsom?",
+         "rd": "홀 어 쿨촘?",
+         "ko": "내 열쇠 어디 있지?"
+        },
+        {
+         "hu": "Szép a lakásod.",
+         "rd": "쎄프 어 러카쇼드.",
+         "ko": "네 집 예쁘다."
+        }
+       ]
+      },
+      {
+       "head": "-nk · -tok · -uk  우리 · 너희 · 그들의",
+       "tip": "여럿이 가진 것.",
+       "sentences": [
+        {
+         "hu": "Ez a házunk.",
+         "rd": "에즈 어 하준크.",
+         "ko": "이게 우리 집이에요."
+        },
+        {
+         "hu": "Hol van az autótok?",
+         "rd": "홀 번 어즈 어우토톡?",
+         "ko": "너희 차 어디 있어?"
+        }
+       ]
+      },
+      {
+       "head": "Van … -m / Nincs … -m  가지고 있다 / 없다",
+       "tip": "「갖다」 동사 대신 「있다」+소유 어미.",
+       "sentences": [
+        {
+         "hu": "Van egy ötletem.",
+         "rd": "번 에지 외틀레템.",
+         "ko": "나한테 생각이 하나 있어."
+        },
+        {
+         "hu": "Nincs időm.",
+         "rd": "닌치 이됨.",
+         "ko": "시간이 없어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "과거 — -t / -tt 하나로",
+   "lessons": [
+    {
+     "id": "L6-1",
+     "title": "과거는 하나뿐",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "hu": "Mit csinál{tál|1} hétvégén?",
+       "rd": "미트 치날탈 헤트베겐?",
+       "ko": "주말에 뭐 {했어|1}?"
+      },
+      {
+       "who": "Bence",
+       "hu": "Szombaton kirándul{tam|1} a Mátrában.",
+       "rd": "쏨버톤 키란둘텀 어 마트라번.",
+       "ko": "토요일엔 마트라 산에 하이킹 {갔어|1}."
+      },
+      {
+       "who": "나",
+       "hu": "Egyedül men{tél|1}?",
+       "rd": "에제뒬 멘텔?",
+       "ko": "혼자 {갔어|1}?"
+      },
+      {
+       "who": "Bence",
+       "hu": "Nem, a barátaimmal. Sokat nevet{tünk|1}.",
+       "rd": "넴, 어 버라터임멀. 쇼커트 네베뛴크.",
+       "ko": "아니, 친구들이랑. 많이 {웃었어|1}."
+      },
+      {
+       "who": "나",
+       "hu": "És vasárnap?",
+       "rd": "에시 버샤르너프?",
+       "ko": "일요일은?"
+      },
+      {
+       "who": "Bence",
+       "hu": "Vasárnap csak alud{tam|1} és főz{tem|1}.",
+       "rd": "버샤르너프 척 얼루드텀 에시 푀즈템.",
+       "ko": "일요일엔 그냥 {잤고|1} 요리{했어|1}."
+      },
+      {
+       "who": "나",
+       "hu": "Mit főz{tél|1}?",
+       "rd": "미트 푀즈텔?",
+       "ko": "뭘 요리{했어|1}?"
+      },
+      {
+       "who": "Bence",
+       "hu": "Gulyást. Most főz{tem|1} először egyedül.",
+       "rd": "구야슈트. 모슈트 푀즈템 엘뢰쐬르 에제뒬.",
+       "ko": "굴라시. 이번에 처음 혼자 {만들었어|1}."
+      },
+      {
+       "who": "나",
+       "hu": "És sikerül{t|1}?",
+       "rd": "에시 시케륄트?",
+       "ko": "그래서 잘 {됐어|1}?"
+      },
+      {
+       "who": "Bence",
+       "hu": "Majdnem. Kicsit sós lett, de mindet megett{ük|1}.",
+       "rd": "머이드넴. 키치트 쇼시 레트, 데 민데트 메게뛱.",
+       "ko": "거의. 좀 짰는데 다 {먹었어|1}."
+      }
+     ],
+     "footnotes": [
+      "헝가리어 과거는 하나 — -t- 나 -tt- 를 넣고 그 뒤에 인칭 어미 (csináltam, nevettünk).",
+      "-t 인지 -tt 인지는 끝소리에 따라: kirándult·aludt / nevetett·főzött. 외운 문장으로 감을 잡으세요."
+     ]
+    },
+    {
+     "id": "L6-ref",
+     "kind": "ref",
+     "title": "과거 한눈에",
+     "points": [
+      {
+       "head": "-t-  (자음 l·r·n·j 뒤 등)",
+       "tip": "대개 짧은 -t-.",
+       "sentences": [
+        {
+         "hu": "Tegnap moziba mentem.",
+         "rd": "텍너프 모지버 멘템.",
+         "ko": "어제 영화관에 갔어요."
+        },
+        {
+         "hu": "Kértem egy kávét.",
+         "rd": "케르템 에지 카베트.",
+         "ko": "커피 한 잔 시켰어요."
+        }
+       ]
+      },
+      {
+       "head": "-tt-  (-t 로 끝나는 동사·두 자음 뒤 등)",
+       "tip": "모음을 끼운 -ott·-ett·-ött.",
+       "sentences": [
+        {
+         "hu": "Sokat nevettünk.",
+         "rd": "쇼커트 네베뛴크.",
+         "ko": "많이 웃었어요."
+        },
+        {
+         "hu": "Ki főzött ma?",
+         "rd": "키 푀죄트 머?",
+         "ko": "오늘 누가 요리했어?"
+        }
+       ]
+      },
+      {
+       "head": "volt  있었다 · ~였다",
+       "tip": "van 의 과거.",
+       "sentences": [
+        {
+         "hu": "Jó volt a koncert.",
+         "rd": "요 볼트 어 콘체르트.",
+         "ko": "콘서트 좋았어."
+        },
+        {
+         "hu": "Otthon voltam.",
+         "rd": "오트혼 볼텀.",
+         "ko": "집에 있었어요."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "title": "동사 접두사 — el- · be- · ki- · fel- · meg- · le-",
+   "lessons": [
+    {
+     "id": "L7-1",
+     "title": "접두사가 뒤로 떨어질 때",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "hu": "{El|1}megyek a boltba, kérsz valamit?",
+       "rd": "엘메젝 어 볼트버, 케르쓰 벌러미트?",
+       "ko": "가게 {다녀|1}올게, 뭐 필요해?"
+      },
+      {
+       "who": "Anna",
+       "hu": "Igen! Vegyél tejet, és {be|2}dobnád a levelet a postaládába?",
+       "rd": "이겐! 베젤 테예트, 에시 베도브나드 어 레벨레트 어 포슈털라다버?",
+       "ko": "응! 우유 사 오고, 편지 좀 우체통에 {넣어|2} 줄래?"
+      },
+      {
+       "who": "나",
+       "hu": "Persze. Hol van a levél?",
+       "rd": "페르쎄. 홀 번 어 레벨?",
+       "ko": "그래. 편지 어디 있어?"
+      },
+      {
+       "who": "Anna",
+       "hu": "Az asztalon. Ja, és {ki|3}vinnéd a szemetet is?",
+       "rd": "어즈 어쓰털론. 여, 에시 키빈네드 어 쎄메테트 이시?",
+       "ko": "책상 위에. 아, 쓰레기도 {내다|3} 버려 줄래?"
+      },
+      {
+       "who": "나",
+       "hu": "Jó, de akkor te {fel|4}mosod a konyhát.",
+       "rd": "요, 데 어꼬르 테 펠모쇼드 어 코니하트.",
+       "ko": "알았어, 그럼 넌 부엌 바닥을 {닦아|4}."
+      },
+      {
+       "who": "Anna",
+       "hu": "Rendben, mindjárt {meg|5}csinálom.",
+       "rd": "렌드벤, 민드야르트 멕치날롬.",
+       "ko": "좋아, 금방 {해 놓을|5}게."
+      },
+      {
+       "who": "나",
+       "hu": "Nem találom a kulcsot... ja, {meg|5}van!",
+       "rd": "넴 털랄롬 어 쿨초트... 여, 멕번!",
+       "ko": "열쇠가 안 보이네... 아, {찾았다|5}!"
+      },
+      {
+       "who": "Anna",
+       "hu": "Ne felejtsd {el|1} a tejet!",
+       "rd": "네 펠레이트슈드 엘 어 테예트!",
+       "ko": "우유 {잊지|1} 마!"
+      },
+      {
+       "who": "나",
+       "hu": "Nem felejtem {el|1}. Fél óra múlva jövök.",
+       "rd": "넴 펠레이템 엘. 펠 오러 물버 요뵉.",
+       "ko": "안 {잊어|1}. 30분 뒤에 올게."
+      },
+      {
+       "who": "Anna",
+       "hu": "Ha {le|6}mész, nézd {meg|5} a postaládát is!",
+       "rd": "허 레메쓰, 네즈드 멕 어 포슈털라다트 이시!",
+       "ko": "{내려|6}가면 우편함도 {봐|5} 줘!"
+      }
+     ],
+     "footnotes": [
+      "접두사는 방향·끝맺음을 더해요: el- 떠나다, be- 안으로, ki- 밖으로, fel- 위로, le- 아래로, meg- 끝까지.",
+      "부정(nem·ne)·명령·강조가 오면 접두사가 동사 뒤로 떨어져요: elfelejt → Ne felejtsd el! / megnéz → Nézd meg!"
+     ]
+    },
+    {
+     "id": "L7-ref",
+     "kind": "ref",
+     "title": "동사 접두사 한눈에",
+     "points": [
+      {
+       "head": "el-  떠나 · 다 해 버리다",
+       "tip": "멀어지는 쪽. 끝까지 해 버리는 느낌도.",
+       "sentences": [
+        {
+         "hu": "Elmegyek.",
+         "rd": "엘메젝.",
+         "ko": "나 갈게."
+        },
+        {
+         "hu": "Elfelejtettem a nevét.",
+         "rd": "엘펠레이테뗌 어 네베트.",
+         "ko": "이름을 잊어버렸어."
+        }
+       ]
+      },
+      {
+       "head": "be- / ki-  안으로 / 밖으로",
+       "tip": "-ba·-ból 과 짝을 이뤄요.",
+       "sentences": [
+        {
+         "hu": "Gyere be!",
+         "rd": "제레 베!",
+         "ko": "들어와!"
+        },
+        {
+         "hu": "Kimegyek a teraszra.",
+         "rd": "키메젝 어 테러쓰러.",
+         "ko": "테라스로 나갈게."
+        }
+       ]
+      },
+      {
+       "head": "meg-  끝까지 · 해냈다",
+       "tip": "완료. 뜻을 「다」로 옮기면 쉬워요.",
+       "sentences": [
+        {
+         "hu": "Megettem a levest.",
+         "rd": "메게뗌 어 레베슈트.",
+         "ko": "수프를 다 먹었어."
+        },
+        {
+         "hu": "Megírtad a házit?",
+         "rd": "메기르터드 어 하지트?",
+         "ko": "숙제 다 했어?"
+        }
+       ]
+      },
+      {
+       "head": "떨어지는 자리",
+       "tip": "nem·ne, 명령, 초점(L8) 다음엔 「동사 + 접두사」.",
+       "sentences": [
+        {
+         "hu": "Nem megyek el.",
+         "rd": "넴 메젝 엘.",
+         "ko": "안 갈래."
+        },
+        {
+         "hu": "Hívj fel holnap!",
+         "rd": "히브이 펠 홀너프!",
+         "ko": "내일 전화해!"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "title": "어순·초점 — 강조는 동사 바로 앞",
+   "lessons": [
+    {
+     "id": "L8-1",
+     "title": "누가 먹었어?",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "hu": "{Ki|1} ette meg a tortát?",
+       "rd": "키 에떼 멕 어 토르타트?",
+       "ko": "{누가|1} 케이크 먹었어?"
+      },
+      {
+       "who": "Bence",
+       "hu": "Nem {én|1} ettem meg! {Péter|1} ette meg.",
+       "rd": "넴 엔 에뗌 멕! 페테르 에떼 멕.",
+       "ko": "{내가|1} 먹은 거 아니야! {페테르가|1} 먹었어."
+      },
+      {
+       "who": "나",
+       "hu": "Péter? Ő {tegnap|1} volt itt, nem ma.",
+       "rd": "페테르? 외 텍너프 볼트 이트, 넴 머.",
+       "ko": "페테르? 걔는 {어제|1} 왔었지, 오늘이 아니라."
+      },
+      {
+       "who": "Bence",
+       "hu": "Akkor {a kutya|1} ette meg.",
+       "rd": "어꼬르 어 쿠텨 에떼 멕.",
+       "ko": "그럼 {개가|1} 먹었나 봐."
+      },
+      {
+       "who": "나",
+       "hu": "A kutya {nem|2} eszik tortát.",
+       "rd": "어 쿠텨 넴 에씩 토르타트.",
+       "ko": "개는 케이크 {안|2} 먹어."
+      },
+      {
+       "who": "Bence",
+       "hu": "Én csak {egy szeletet|1} ettem.",
+       "rd": "엔 척 에지 쎌레테트 에뗌.",
+       "ko": "나는 {한 조각만|1} 먹었어."
+      },
+      {
+       "who": "나",
+       "hu": "Egy szeletet? Az egész torta eltűnt!",
+       "rd": "에지 쎌레테트? 어즈 에게쓰 토르터 엘튄트!",
+       "ko": "한 조각? 케이크가 통째로 사라졌는데!"
+      },
+      {
+       "who": "Bence",
+       "hu": "Jó, jó... {kettőt|1} ettem.",
+       "rd": "요, 요... 케뙤트 에뗌.",
+       "ko": "알았어, 알았어... {두 조각|1} 먹었어."
+      },
+      {
+       "who": "나",
+       "hu": "És a maradékot?",
+       "rd": "에시 어 머러데코트?",
+       "ko": "그럼 나머지는?"
+      },
+      {
+       "who": "Bence",
+       "hu": "A maradékot {nem én|1} ettem meg, hanem a bátyám.",
+       "rd": "어 머러데코트 넴 엔 에뗌 멕, 허넴 어 바턈.",
+       "ko": "나머지는 {내가|1} 아니라 우리 형이 먹었어."
+      }
+     ],
+     "footnotes": [
+      "헝가리어는 강조하고 싶은 말(새 정보·대답)을 동사 바로 앞에 둬요. 의문사(ki, mit, hol)도 그 자리.",
+      "그 자리에 무엇이 오면 접두사가 동사 뒤로: Megette. → Péter ette meg.",
+      "「A가 아니라 B」= nem A …, hanem B."
+     ]
+    },
+    {
+     "id": "L8-ref",
+     "kind": "ref",
+     "title": "어순·초점 한눈에",
+     "points": [
+      {
+       "head": "초점 자리  [강조할 말] + 동사",
+       "tip": "대답이 되는 말을 동사 앞에.",
+       "sentences": [
+        {
+         "hu": "Holnap jövök.",
+         "rd": "홀너프 요뵉.",
+         "ko": "(오늘 말고) 내일 와요."
+        },
+        {
+         "hu": "Anna hívott, nem Péter.",
+         "rd": "언너 히보트, 넴 페테르.",
+         "ko": "전화한 건 페테르가 아니라 안나야."
+        }
+       ]
+      },
+      {
+       "head": "의문사 + 동사 + 접두사",
+       "tip": "의문사도 초점 자리라 접두사가 떨어져요.",
+       "sentences": [
+        {
+         "hu": "Mikor jössz haza?",
+         "rd": "미코르 요쓰 허저?",
+         "ko": "언제 집에 와?"
+        },
+        {
+         "hu": "Ki hívott fel?",
+         "rd": "키 히보트 펠?",
+         "ko": "누가 전화했어?"
+        }
+       ]
+      },
+      {
+       "head": "nem 의 자리",
+       "tip": "부정하는 말 바로 앞. 동사를 부정하면 동사 앞.",
+       "sentences": [
+        {
+         "hu": "Nem értem.",
+         "rd": "넴 에르템.",
+         "ko": "이해가 안 돼요."
+        },
+        {
+         "hu": "Nem ma, hanem holnap.",
+         "rd": "넴 머, 허넴 홀너프.",
+         "ko": "오늘이 아니라 내일."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "title": "가능·조건 — -hat/-het · -na/-ne",
+   "lessons": [
+    {
+     "id": "L9-1",
+     "title": "~해도 돼 · ~할 텐데",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "hu": "Bejö{het|1}ek?",
+       "rd": "베요헤텍?",
+       "ko": "들어가도 {돼|1}?"
+      },
+      {
+       "who": "Anna",
+       "hu": "Persze. Leül{het|1}sz ide.",
+       "rd": "페르쎄. 레윌헤트쓰 이데.",
+       "ko": "그럼. 여기 앉아도 {돼|1}."
+      },
+      {
+       "who": "나",
+       "hu": "Ha len{ne|2} időd, segíte{nél|2} nekem?",
+       "rd": "허 렌네 이되드, 세기테넬 네켐?",
+       "ko": "시간 {있으면|2} 나 좀 도와{줄래|2}?"
+      },
+      {
+       "who": "Anna",
+       "hu": "Szívesen segíte{nék|2}, de most dolgozom.",
+       "rd": "씨베센 세기테넥, 데 모슈트 돌고좀.",
+       "ko": "기꺼이 도와{주고 싶은데|2}, 지금 일하는 중이야."
+      },
+      {
+       "who": "나",
+       "hu": "És holnap ráér{nél|2}?",
+       "rd": "에시 홀너프 라에르넬?",
+       "ko": "그럼 내일은 시간 {될까|2}?"
+      },
+      {
+       "who": "Anna",
+       "hu": "Holnap igen. Mit kell csinálni?",
+       "rd": "홀너프 이겐. 미트 켈 치날니?",
+       "ko": "내일은 돼. 뭘 해야 돼?"
+      },
+      {
+       "who": "나",
+       "hu": "Ki ké{ne|2} festeni a szobát.",
+       "rd": "키 케네 페슈테니 어 쏘바트.",
+       "ko": "방을 칠해야 {할 텐데|2}."
+      },
+      {
+       "who": "Anna",
+       "hu": "Hoz{hat|1}ok festéket is.",
+       "rd": "호즈허톡 페슈테케트 이시.",
+       "ko": "페인트도 가져올 {수 있어|1}."
+      },
+      {
+       "who": "나",
+       "hu": "Az nagyszerű len{ne|2}!",
+       "rd": "어즈 너지쎄뤼 렌네!",
+       "ko": "그럼 정말 좋{겠다|2}!"
+      },
+      {
+       "who": "Anna",
+       "hu": "De a pizzát te fizeted, rendben?",
+       "rd": "데 어 피자트 테 피제테드, 렌드벤?",
+       "ko": "근데 피자는 네가 사는 거다, 알았지?"
+      }
+     ],
+     "footnotes": [
+      "-hat·-het = 「~해도 돼 / ~할 수 있어」 (허락·가능). Bejöhetek? 들어가도 돼요?",
+      "-na·-ne = 「~할 텐데 / ~하겠다」 (조건·공손한 부탁). Ha … -na = 만약 ~라면.",
+      "kéne = kellene(해야 할 텐데)의 입말."
+     ]
+    },
+    {
+     "id": "L9-ref",
+     "kind": "ref",
+     "title": "가능·조건 한눈에",
+     "points": [
+      {
+       "head": "-hat / -het  ~해도 된다 · ~할 수 있다",
+       "tip": "동사 줄기 뒤, 인칭 어미 앞.",
+       "sentences": [
+        {
+         "hu": "Itt fizethetek kártyával?",
+         "rd": "이트 피제트헤텍 카르탸벌?",
+         "ko": "여기서 카드로 계산해도 돼요?"
+        },
+        {
+         "hu": "Nem mehetsz el.",
+         "rd": "넴 메헤트쓰 엘.",
+         "ko": "너 가면 안 돼."
+        }
+       ]
+      },
+      {
+       "head": "-na / -ne  ~할 텐데",
+       "tip": "바람·조건. 부탁을 부드럽게.",
+       "sentences": [
+        {
+         "hu": "Innék egy kávét.",
+         "rd": "인넥 에지 카베트.",
+         "ko": "커피 한 잔 마시고 싶다."
+        },
+        {
+         "hu": "Segítenél?",
+         "rd": "세기테넬?",
+         "ko": "도와줄래?"
+        }
+       ]
+      },
+      {
+       "head": "Ha … -na  만약 ~라면",
+       "tip": "두 쪽 다 -na/-ne.",
+       "sentences": [
+        {
+         "hu": "Ha gazdag lennék, utaznék.",
+         "rd": "허 거즈덕 렌넥, 우터즈넥.",
+         "ko": "부자라면 여행 다닐 텐데."
+        },
+        {
+         "hu": "Ha esne, otthon maradnánk.",
+         "rd": "허 에슈네, 오트혼 머러드난크.",
+         "ko": "비가 오면 집에 있을 텐데."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "title": "존댓말 Ön · 부탁과 명령 -j",
+   "lessons": [
+    {
+     "id": "L10-1",
+     "title": "손님에게 말하기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "직원",
+       "hu": "Jó napot kívánok! Miben segíthetek?",
+       "rd": "요 너포트 키바녹! 미벤 세기트헤텍?",
+       "ko": "안녕하세요! 무엇을 도와드릴까요?"
+      },
+      {
+       "who": "나",
+       "hu": "Jó napot! Szobát foglaltam Kim néven.",
+       "rd": "요 너포트! 쏘바트 폭럴텀 킴 네벤.",
+       "ko": "안녕하세요! 김 이름으로 방을 예약했어요."
+      },
+      {
+       "who": "직원",
+       "hu": "Igen, megvan. Kitölte{né|1} ezt a lapot?",
+       "rd": "이겐, 멕번. 키퇼테네 에즈트 어 러포트?",
+       "ko": "네, 확인됐습니다. 이 종이 좀 작성해 {주시겠어요|1}?"
+      },
+      {
+       "who": "나",
+       "hu": "Persze. Hol ír{jam|2} alá?",
+       "rd": "페르쎄. 홀 이르염 얼라?",
+       "ko": "물론이죠. 어디에 서명{할까요|2}?"
+      },
+      {
+       "who": "직원",
+       "hu": "Itt ír{ja|2} alá, kérem.",
+       "rd": "이트 이르여 얼라, 케렘.",
+       "ko": "여기에 서명해 {주세요|2}."
+      },
+      {
+       "who": "직원",
+       "hu": "{Ön|3} is kér reggelit?",
+       "rd": "왼 이시 케르 렉겔리트?",
+       "ko": "{손님|3}도 조식 드시겠어요?"
+      },
+      {
+       "who": "나",
+       "hu": "Igen, kérek. Hánykor van a reggeli?",
+       "rd": "이겐, 케렉. 하니코르 번 어 렉겔리?",
+       "ko": "네, 주세요. 조식은 몇 시예요?"
+      },
+      {
+       "who": "직원",
+       "hu": "Héttől tízig. Pihen{jen|2} jól!",
+       "rd": "헤뙬 티직. 피헨옌 욜!",
+       "ko": "7시부터 10시까지요. 푹 {쉬세요|2}!"
+      },
+      {
+       "who": "나",
+       "hu": "Köszönöm. Fel tud{ná|1} vinni a bőröndömet?",
+       "rd": "쾨쐬뇜. 펠 투드나 빈니 어 뵈뢴되메트?",
+       "ko": "감사합니다. 제 캐리어 좀 올려다 {주실 수 있어요|1}?"
+      },
+      {
+       "who": "직원",
+       "hu": "Természetesen. Köves{sen|2}, kérem!",
+       "rd": "테르메쎄테센. 쾨베쎈, 케렘!",
+       "ko": "물론이죠. {따라오세요|2}!"
+      }
+     ],
+     "footnotes": [
+      "모르는 어른·손님에게는 Ön(당신)을 쓰고 동사는 3인칭(그·그녀) 꼴 — kér, írja, pihenjen. 친구에겐 te — kérsz, írd, pihenj.",
+      "부탁을 부드럽게 할 땐 -ná·-né (Kitöltené? = 작성해 주시겠어요?).",
+      "명령·「~할까요」는 -j 꼴 (írjam, pihenjen, kövessen)."
+     ]
+    },
+    {
+     "id": "L10-ref",
+     "kind": "ref",
+     "title": "존댓말 Ön · 부탁과 명령 -j 한눈에",
+     "points": [
+      {
+       "head": "Ön + 3인칭  존댓말",
+       "tip": "「당신」이지만 동사는 「그」와 같은 꼴.",
+       "sentences": [
+        {
+         "hu": "Ön honnan jön?",
+         "rd": "왼 혼넌 욘?",
+         "ko": "어디서 오셨어요?"
+        },
+        {
+         "hu": "Mit parancsol?",
+         "rd": "미트 퍼런촐?",
+         "ko": "무엇을 드릴까요?"
+        }
+       ]
+      },
+      {
+       "head": "-j  명령 · ~할까요",
+       "tip": "te: írj! / Ön: írjon! 정활용이면 írd! / írja!",
+       "sentences": [
+        {
+         "hu": "Várjon egy percet!",
+         "rd": "바르욘 에지 페르체트!",
+         "ko": "잠깐만 기다리세요!"
+        },
+        {
+         "hu": "Mit csináljak?",
+         "rd": "미트 치날역?",
+         "ko": "내가 뭘 할까?"
+        }
+       ]
+      },
+      {
+       "head": "-ná / -né  공손한 부탁",
+       "tip": "조건법 3인칭 = 손님에게 부탁하는 꼴.",
+       "sentences": [
+        {
+         "hu": "Megmondaná, hány óra van?",
+         "rd": "멕몬더나, 하니 오러 번?",
+         "ko": "지금 몇 시인지 알려 주시겠어요?"
+        },
+        {
+         "hu": "Becsukná az ablakot?",
+         "rd": "베축나 어즈 어블러코트?",
+         "ko": "창문 좀 닫아 주시겠어요?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

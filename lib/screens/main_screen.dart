@@ -7,6 +7,8 @@ import '../embed.dart';
 import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
 import 'alphabet_screen.dart';
+import 'sense_course_screen.dart';
+import 'word_quiz_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
@@ -392,6 +394,10 @@ class _MenuGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     // 묶음 순서 = 일본어앱 배우기(2026-11-07): 기초 → 문법 → 회화 → 단어 → 참고. 에피소드는 「학습」 탭.
     final sections = <(String, List<_MenuItem>)>[
+      (tr('정규과정'), [
+        _MenuItem(label: tr('언어감각 익히기'), sub: 'Nyelvérzék', badge: 'L', color: AppColors.ai, // 일본어앱 정규과정(빌드 96~112, 2026-11-18 전달)
+          builder: (_) => const SenseCourseScreen()),
+      ]),
       (tr('기초'), [
         _MenuItem(label: tr('알파벳과 발음'), sub: 'Ábécé', badge: 'gy', color: AppColors.magyar, // 일본어앱 「50음도와 발음」 자리(2026-11-08)
           builder: (_) => const AlphabetScreen()),
@@ -417,6 +423,8 @@ class _MenuGrid extends StatelessWidget {
           builder: (_) => const WordFreqScreen()),
         _MenuItem(label: tr('단어 카드'), sub: 'Kártyák', badge: 'R', color: AppColors.gualdaDeep,
           builder: (_) => const WordFlashcardScreen()),
+        _MenuItem(label: tr('단어 퀴즈'), sub: 'Kvíz', badge: '?', color: AppColors.beni, // 일본어앱 퀴즈 복습(빌드 110) — 3단계·4지선다
+          builder: (_) => const WordQuizHomeScreen()),
         _MenuItem(label: tr('단어'), sub: 'Szókincs', badge: 'W', color: AppColors.oliva,
           builder: (_) => const TopicVocabScreen()),
         _MenuItem(label: tr('표현'), sub: 'Kifejezés', badge: 'E', color: AppColors.rojoLight,

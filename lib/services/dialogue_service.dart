@@ -1,16 +1,18 @@
 import 'dart:convert';
 import '../core/embed_env.dart';
 
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/foundation.dart' show ValueNotifier;
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import '../core/prefs.dart';
 
 import 'learner_prefs.dart';
+import 'script_sync.dart';
 
 /// 회화 리더(일본어앱 시안 02 「만화책 읽기형」)용 회화 모델 — 2026-11-02, 일본어앱 `dialogue_service.dart` 를 옮김.
 ///
-/// 인도네시아어앱 lib/services/dialogue_service.dart 에서 옮김. 지금 데이터는 옛 `assets/data/dialogues/L1.json`(5편 × 8턴) 하나뿐이라 그것을 그대로 읽어 이 모양으로 바꾼다.
-/// 회화 콘텐츠는 바꾸지 않는다(사용자 지시 2026-11-02 "회화는 아직 하지마") — 새 구조(R0~R4·주제별 편 파일)는 회화 작성이 풀리면.
-/// 칸: tl = 헝가리어(옛 칸 이름 `es`), gloss = 단어별 뜻(지금 없음), rd = 한글 독음, ko = 한국어, note = 핵심 표현 한 줄.
+/// 편 파일 `assets/data/dialogues/R1~R3/<주제>/<id>.json`(일상회화 150편, 2026-11-10)을 읽는다 — 원고는 서버 판이 있으면 그것([ScriptSync], 2026-11-18 일본어앱 빌드 113·114 와 같게).
+/// 편 파일이 하나도 안 읽히면 옛 `L1.json`(5편 × 8턴)으로 돈다.
+/// 칸: tl = 헝가리어(편 파일 `hu`, 옛 L1 `es`), gloss = 단어별 뜻(지금 없음), rd = 한글 독음, ko = 한국어, note = 핵심 표현 한 줄.
 /// 문장 내용어 한 개: 표면형(문장 속)·기본형·읽기(한글 독음, 없으면 빈 값) — 일본어앱과 같은 모양(2026-11-04).
 class Lemma {
   final String surface, base, reading;
@@ -44,7 +46,7 @@ class DialogueTurn {
   factory DialogueTurn.fromL1(Map<String, dynamic> j) => DialogueTurn(
         num: j['num'] as int? ?? 0,
         speaker: j['speaker'] as String? ?? 'A',
-        tl: j['es'] as String? ?? '',
+        tl: (j['hu'] ?? j['es']) as String? ?? '',
         gloss: j['gloss'] as String? ?? '',
         rd: j['rd'] as String? ?? '',
         ko: j['ko'] as String? ?? '',
@@ -86,6 +88,9 @@ class Dialogue {
     required this.turns,
     this.art,
   });
+
+  /// 화면에 보일 장면 설명 — 원고의 「A」(학습자)를 이름(없으면 「나」)으로(일본어앱 빌드 111, 2026-11-18 전달).
+  String get sceneShown => scene.replaceAllMapped(RegExp(r'(?<![A-Za-z])A(?![A-Za-z]) ?(?=[가-힣])'), (_) => speakerName('A'));
 
   /// 화자 표시 이름. `{name}` 자리는 학습자 이름(없으면 「나」).
   String speakerName(String sp) {
@@ -138,8 +143,62 @@ class DialogueService {
   /// 넓은 화면에서는 탭 두 개가 동시에 불러서 목록이 두 번 찰 수 있다 — 한 번만 읽도록 Future 를 나눠 쓴다.
   Future<void> ensureLoaded() => _loading ??= _load();
 
+  /// 원고가 서버 판으로 바뀌어 다시 읽힐 때마다 오른다.
+  final ValueNotifier<int> revision = ValueNotifier(0);
+
   Future<void> _load() async {
     _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
+    await _readAll();
+    // 서버에 더 새 원고가 있으면 뒤에서 받아 다시 읽는다(없거나 실패하면 그대로)
+    ScriptSync.instance.refresh().then((changed) async {
+      if (!changed) return;
+      await _readAll();
+      revision.value++;
+    });
+  }
+
+  /// 앱 안 편 + 서버에서 받은 새 편 − 서버에서 뺀 편. 각 파일은 덮어쓴 판이 있으면 그것.
+  Future<void> _readAll() async {
+    final next = <Dialogue>[];
+    try {
+      final sync = ScriptSync.instance;
+      await sync.init();
+      final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+      final pat = RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$');
+      final rels = <String>{
+        for (final p in manifest.listAssets().map(stripAssetPrefix).where(pat.hasMatch)) p.substring('assets/data/'.length),
+        ...sync.added.where((p) => pat.hasMatch('assets/data/$p')),
+      }..removeAll(sync.removed);
+      for (final rel in rels) {
+        try {
+          final m = json.decode(await sync.load(rel)) as Map<String, dynamic>;
+          final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
+          if (turns.isEmpty) continue;
+          next.add(Dialogue(
+            id: m['id'] as String,
+            region: m['region'] as String? ?? rel.split('/')[1],
+            topic: m['island'] as String? ?? rel.split('/')[2],
+            title: m['title'] as String? ?? m['id'] as String,
+            emoji: m['emoji'] as String? ?? '💬',
+            scene: m['scene'] as String? ?? '',
+            speakers: ((m['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v')),
+            genders: ((m['genders'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v')),
+            expressions: ((m['expressions'] as List?) ?? const []).map((e) => '$e').toList(),
+            turns: turns,
+          ));
+        } catch (_) {}
+      }
+    } catch (_) {}
+    next.sort((a, b) => a.id.compareTo(b.id));
+    if (next.isEmpty) next.addAll(await _readL1());
+    _all
+      ..clear()
+      ..addAll(next);
+  }
+
+  /// 옛 L1.json(편 파일이 없을 때만).
+  Future<List<Dialogue>> _readL1() async {
+    final out = <Dialogue>[];
     try {
       final j = json.decode(await rootBundle.loadString(assetPath('assets/data/dialogues/L1.json'))) as Map<String, dynamic>;
       final chars = (j['characters'] as Map<String, dynamic>? ?? const {});
@@ -150,10 +209,10 @@ class DialogueService {
         final m = e as Map<String, dynamic>;
         final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
         if (turns.isEmpty) continue;
-        _all.add(Dialogue(
+        out.add(Dialogue(
           id: '${level}_${m['id']}',
           region: level,
-          topic: 'love', // 옛 L1 = 언어교환 앱에서 시작하는 연애 이야기(원칙: 기존 연애 서사는 love 주제)
+          topic: 'love',
           title: m['title'] as String? ?? m['id'] as String,
           emoji: m['emoji'] as String? ?? '💬',
           scene: m['scenario'] as String? ?? '',
@@ -164,11 +223,12 @@ class DialogueService {
         ));
       }
     } catch (_) {}
+    return out;
   }
 
   Dialogue? byId(String id) => _all.where((d) => d.id == id).firstOrNull;
   List<Dialogue> get all => List.unmodifiable(_all);
-  List<String> get regions => _all.map((d) => d.region).toSet().toList();
+  List<String> get regions => (_all.map((d) => d.region).toSet().toList())..sort();
 
   List<Dialogue> list({String? region, String? topic}) =>
       _all.where((d) => (region == null || d.region == region) && (topic == null || d.topic == topic)).toList();

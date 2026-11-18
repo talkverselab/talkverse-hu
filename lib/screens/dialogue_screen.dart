@@ -86,7 +86,7 @@ class _TodayCut extends StatelessWidget {
       const SizedBox(height: 2),
       Text('${tr(DialogueService.levelKo[d.region] ?? d.region)} · ${tr(DialogueService.topicKo[d.topic] ?? d.topic)} · ${trf('{0}턴', [d.turns.length])}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
       const SizedBox(height: 6),
-      Text(d.scene, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
+      Text(d.sceneShown, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
       const SizedBox(height: 10),
       FilledButton.icon(
         onPressed: () => openPane(context, (_) => DialogueScreen(dialogue: d)),
@@ -175,7 +175,7 @@ class DialogueListScreen extends StatelessWidget {
                 onTap: () => openPane(context, (_) => DialogueScreen(dialogue: d)),
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
-                subtitle: Text(d.scene, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
+                subtitle: Text(d.sceneShown, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
                 trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
               ),
             ),
@@ -251,7 +251,7 @@ class _DialogueScreenState extends State<DialogueScreen> {
               ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(20, 4, 20, 4),
-                child: Text(d.scene, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
+                child: Text(d.sceneShown, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
               ),
               const BrushDivider(height: 2),
               Expanded(
