@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Tisztelt Professzor Asszony! Szeretnék időpontot kérni konzultációra.",
-   "rd": "티쓰텔트 프로페쏘르 어쏘니! 쎄레트넥 이되폰토트 케르니 콘줄타치오러.",
-   "ko": "존경하는 (여)교수님께! 면담 시간을 요청드리고 싶습니다.",
+   "hu": "Tisztelt Professzor Asszony! Időpontot szeretnék kérni a konzultációra.",
+   "rd": "티쓰텔트 프로페쏘르 어쏘니! 이되폰토트 쎄레트넥 케르니 어 콘줄타치오러.",
+   "ko": "존경하는 교수님! 면담 시간을 잡고 싶어요.",
    "note": "időpont = 약속 시간",
    "tags": [],
    "at": "09:12",
@@ -47,9 +47,9 @@
      ""
     ],
     [
-     "időpontot",
-     "időpont",
-     ""
+     "szeretnék",
+     "szeret",
+     "쎄레트"
     ],
     [
      "kérni",
@@ -66,9 +66,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "A szakdolgozatom témájáról szeretnék beszélni.",
-   "rd": "어 썩돌고저톰 테마야롤 쎄레트넥 베쎌니.",
-   "ko": "제 졸업 논문 주제에 대해 말씀드리고 싶습니다.",
+   "hu": "A szakdolgozatom témáját szeretném megbeszélni Önnel.",
+   "rd": "어 썩돌고저톰 테마야트 쎄레트넴 멕베쎌니 왼넬.",
+   "ko": "졸업논문 주제를 교수님과 상의하고 싶어서요.",
    "note": "szakdolgozat = 졸업 논문",
    "tags": [],
    "at": "09:13",
@@ -81,19 +81,19 @@
      ""
     ],
     [
-     "témájáról",
+     "témáját",
      "témája",
      ""
     ],
     [
-     "szeretnék",
+     "szeretném",
      "szeret",
      "쎄레트"
     ],
     [
-     "beszélni",
-     "beszél",
-     "베쎌"
+     "megbeszélni",
+     "megbeszél",
+     "메그베셀"
     ]
    ]
   },
@@ -103,7 +103,7 @@
    "hu": "Jó napot! Szerdán tízkor vagy csütörtökön kettőkor jó Önnek?",
    "rd": "요 너포트! 쎄르단 티즈코르 버지 취퇴르퇴쾬 케뙤코르 요 왼넥?",
    "ko": "안녕하세요! 수요일 10시나 목요일 2시 괜찮으세요?",
-   "note": "Önnek = 당신에게(존댓말)",
+   "note": "Önnek = 당신께(존댓말)",
    "tags": [],
    "at": "11:40",
    "emotion": "polite",
@@ -134,39 +134,49 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Köszönöm, a csütörtök kettő tökéletes!",
-   "rd": "쾨쐬뇜, 어 취퇴르퇵 케뙤 퇴켈레테시!",
-   "ko": "감사합니다, 목요일 2시가 딱 좋습니다!",
-   "note": "tökéletes = 완벽한",
+   "hu": "Nagyon köszönöm, a csütörtöki kettő az pont jó.",
+   "rd": "너죤 쾨쐬뇜, 어 취퇴르퇴키 케뙤 어즈 폰트 요.",
+   "ko": "정말 감사합니다, 목요일 2시가 딱 좋아요.",
+   "note": "pont jó = 딱 좋다",
    "tags": [],
    "at": "11:42",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Köszönöm",
+     "Nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "köszönöm",
      "köszön",
      "쾨쇠니"
     ],
     [
-     "csütörtök",
-     "csütörtök",
+     "csütörtöki",
+     "csütörtöki",
      ""
     ],
     [
-     "tökéletes",
-     "tökéletes",
-     "퇴켈레시"
+     "pont",
+     "pont",
+     "폰트"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Rendben. A 312-es irodában leszek.",
-   "rd": "렌드벤. 어 312-에시 이로다번 레쎅.",
-   "ko": "좋습니다. 312호 연구실에 있겠습니다.",
-   "note": "iroda = 사무실, 연구실",
+   "hu": "Rendben. Akkor a 312-es irodában leszek.",
+   "rd": "렌드벤. 어꼬르 어 312-에시 이로다번 레쎅.",
+   "ko": "알겠습니다. 그럼 312호 연구실에 있을게요.",
+   "note": "iroda = 연구실",
    "tags": [
     "expr:Rendben"
    ],
@@ -199,10 +209,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Köszönöm szépen, Professzor Asszony! Ott leszek.",
-   "rd": "쾨쐬뇜 쎄펜, 프로페쏘르 어쏘니! 오트 레쎅.",
-   "ko": "정말 감사합니다, 교수님! 가겠습니다.",
-   "note": "ott leszek = 가겠다",
+   "hu": "Köszönöm szépen, Professzor Asszony! Ott leszek időben.",
+   "rd": "쾨쐬뇜 쎄펜, 프로페쏘르 어쏘니! 오트 레쎅 이되벤.",
+   "ko": "정말 감사합니다, 교수님! 시간에 맞춰 갈게요.",
+   "note": "ott leszek = 가겠습니다",
    "tags": [],
    "at": "11:46",
    "emotion": "cheerful",
@@ -222,15 +232,20 @@
      "leszek",
      "lesz",
      "레쓰"
+    ],
+    [
+     "időben",
+     "idő",
+     "이뢰"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Még valami.",
-   "rd": "멕 벌러미.",
-   "ko": "하나 더요.",
+   "hu": "Még valami fontos.",
+   "rd": "멕 벌러미 폰토시.",
+   "ko": "하나 더 중요한 게 있어요.",
    "note": "még valami = 하나 더",
    "tags": [],
    "at": "11:50",
@@ -241,15 +256,20 @@
      "Még",
      "még",
      "메그"
+    ],
+    [
+     "fontos",
+     "fontos",
+     "폰토슈"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Professzor úr vagyok, nem asszony. Kovács Gábor. 🙂",
-   "rd": "프로페쏘르 우르 버죡, 넴 어쏘니. 코바치 가보르. 🙂",
-   "ko": "저는 「여」교수가 아니라 남자입니다. 코바치 가보르예요. 🙂",
+   "hu": "Én professzor úr vagyok, nem asszony. Kovács Gábor vagyok. 🙂",
+   "rd": "엔 프로페쏘르 우르 버죡, 넴 어쏘니. 코바치 가보르 버죡. 🙂",
+   "ko": "저 남자 교수예요, 여교수 아니고요. 코바치 가보르예요. 🙂",
    "note": "Gábor = 남자 이름",
    "tags": [],
    "at": "11:50",
@@ -257,7 +277,7 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Professzor",
+     "professzor",
      "professzor",
      ""
     ],
@@ -281,10 +301,10 @@
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Úristen, elnézést! A rendszerben csak annyi áll: Dr. Kovács G.",
-   "rd": "우리슈텐, 엘네제슈트! 어 렌드쎄르벤 척 어니 알: 드르. 코바치 그.",
-   "ko": "세상에, 죄송합니다! 시스템에는 「Dr. Kovács G.」라고만 나와서요.",
-   "note": "annyi áll = 그만큼만 적혀 있다",
+   "hu": "Úristen, elnézést! A rendszerben csak annyi van: Dr. Kovács G.",
+   "rd": "우리슈텐, 엘네제슈트! 어 렌드쎄르벤 척 어니 번: 드르. 코바치 그.",
+   "ko": "세상에, 죄송합니다! 시스템에 그냥 Dr. Kovács G.만 있어서요.",
+   "note": "annyi van = 그만큼만 있다",
    "tags": [
     "expr:Elnézést",
     "expr:Úristen"
@@ -314,17 +334,17 @@
      "촉"
     ],
     [
-     "áll",
-     "áll",
-     "알"
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Semmi baj. Néztek már Gizellának is.",
-   "rd": "셈미 버이. 네즈텍 마르 기젤라넉 이시.",
+   "hu": "Semmi baj. Volt, aki Gizellának is nézett.",
+   "rd": "셈미 버이. 볼트, 어키 기젤라넉 이시 네제트.",
    "ko": "괜찮아요. 기젤라로 착각한 사람도 있었어요.",
    "note": "néz vminek = ~로 착각하다",
    "tags": [
@@ -340,9 +360,9 @@
      "버이"
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "nézett",
+     "nézet",
+     "네제트"
     ]
    ]
   },
@@ -351,7 +371,7 @@
    "speaker": "A",
    "hu": "Akkor csütörtökön kettőkor, Professzor Úr. Most már biztosan.",
    "rd": "어꼬르 취퇴르퇴쾬 케뙤코르, 프로페쏘르 우르. 모슈트 마르 비즈토션.",
-   "ko": "그럼 목요일 2시에 뵙겠습니다, 교수님. 이번엔 확실히요.",
+   "ko": "그럼 목요일 2시에, 교수님. 이번엔 확실히요.",
    "note": "biztosan = 확실히",
    "tags": [],
    "at": "11:56",
@@ -388,9 +408,9 @@
   {
    "num": 12,
    "speaker": "B",
-   "hu": "Várom. És hozza a témavázlatot is!",
-   "rd": "바롬. 에시 호저 어 테머바즐러토트 이시!",
-   "ko": "기다리겠습니다. 주제 개요도 가져오세요!",
+   "hu": "Várom Önt. És hozza a témavázlatot is, legyen szíves!",
+   "rd": "바롬 왼트. 에시 호저 어 테머바즐러토트 이시, 레젠 씨베시!",
+   "ko": "기다리겠습니다. 주제 개요도 가져와 주세요!",
    "note": "témavázlat = 주제 개요",
    "tags": [],
    "at": "11:57",
@@ -411,15 +431,25 @@
      "témavázlatot",
      "témavázlat",
      ""
+    ],
+    [
+     "legyen",
+     "lesz",
+     "레쓰"
+    ],
+    [
+     "szíves",
+     "szíves",
+     "시베시"
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Hozom. Ezúttal a helyes megszólítással. 😅",
-   "rd": "호좀. 에주떨 어 헤예시 멕쏠리타쎨. 😅",
-   "ko": "가져가겠습니다. 이번엔 호칭도 제대로요. 😅",
+   "hu": "Viszem, ígérem. Ezúttal a helyes megszólítással. 😅",
+   "rd": "비쎔, 이게렘. 에주떨 어 헤예시 멕쏠리타쎨. 😅",
+   "ko": "가져갈게요, 약속해요. 이번엔 호칭도 제대로요. 😅",
    "note": "megszólítás = 호칭",
    "tags": [],
    "at": "11:58",
@@ -428,9 +458,14 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Hozom",
-     "hoz",
-     "호즈"
+     "Viszem",
+     "visz",
+     "비스"
+    ],
+    [
+     "ígérem",
+     "ígér",
+     "이게르"
     ],
     [
      "helyes",

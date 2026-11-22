@@ -1,0 +1,27 @@
+=== r3_life_b4
+kind: long
+title: 수프 더 먹어야 말 놓아줘
+emoji: 🍲
+scene: 일요일 점심, Dávid 와 함께 Marika 아주머니 댁에 초대받았다. 수프를 자꾸 더 권하신다
+b: Marika néni
+c: Dávid
+register: mixed
+twist: 12 emotion
+purpose: study_abroad
+goal: 식사 자리 표현(Nagyon finom · Még egy kicsit? · Tegeződjünk)
+expressions: Nagyon finom; Még egy kicsit; Tegeződjünk
+B | Tessék, üljenek le! Van húsleves, aztán rántott hús. | 자, 앉아요! 고기 수프 있고, 다음엔 슈니첼이에요. | húsleves = 고기 수프 | emotion=cheerful
+A | Köszönjük szépen a meghívást, Marika néni! | 초대해 주셔서 정말 감사해요, 아주머니! | meghívás = 초대 | emotion=polite
+C | Marika néni levese a legfinomabb az egész házban. | 마리카 아주머니 수프가 이 건물에서 제일 맛있어. | legfinomabb = 가장 맛있는 | emotion=cheerful
+A | Tényleg! Nagyon finom. | 진짜요! 정말 맛있어요. | finom = 맛있는 | emotion=cheerful
+B | Még egy kicsit? Maga túl sovány. | 조금 더 줄까요? 너무 말랐어요. | sovány = 마른 | emotion=gentle
+A | Jaj, köszönöm, de már a másodikat eszem. | 아이고, 고맙지만 벌써 두 그릇째예요. | másodikat = 두 번째 것을 | emotion=flustered
+C | Ne is próbáld visszautasítani. Itt nincs nem. | 거절은 생각도 하지 마. 여기선 「아니요」가 없어. | visszautasítani = 거절하다 | emotion=teasing
+B | Na, tessék, csak egy fél tányért. | 자, 반 그릇만. | tányér = 접시 | emotion=cheerful
+A | Jól van, de tényleg csak felet! | 좋아요, 근데 진짜 반만요! | felet = 반(목적격) | emotion=amused
+B | Maga már fél éve itt lakik, ugye? | 여기 산 지 반년 됐죠? | fél éve = 반년 전부터 | emotion=gentle
+A | Igen, tavasz óta. | 네, 봄부터요. | tavasz óta = 봄부터 | emotion=polite
+B | Akkor elég a magázásból: tegeződjünk! Marika vagyok. | 그럼 존댓말은 그만해요. 우리 말 놓자! 나는 마리카야. | magázás = 존댓말 쓰기 | emotion=gentle+cheerful
+A | Komolyan? Akkor szia, Marika! | 진짜요? 그럼… 안녕, 마리카! | szia = 안녕(반말) | emotion=surprised+shy
+C | Hé! Én három év után kaptam meg! | 야! 난 3년 걸려서 받은 건데! | kaptam meg = 받았다 | emotion=shout
+B | Mert te sose kérsz még levest. Ez a titok. | 너는 수프를 더 달라고 한 적이 없잖아. 그게 비결이야. | titok = 비밀 | emotion=teasing

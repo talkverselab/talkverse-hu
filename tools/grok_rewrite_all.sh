@@ -5,6 +5,7 @@ ids=($(ls data/review/grok/src | sed 's/.txt$//' | sort))
 todo=(); for i in $ids; do [[ -s data/review/grok/out/$i.md ]] || todo+=$i; done
 echo "남은 편 ${#todo}"
 for ((k = 1; k <= ${#todo}; k += 3)); do
-  zsh tools/grok_rewrite_run.sh ${todo[k,k+2]} || { echo "멈춤(한도 등)"; exit 3; }
+  zsh tools/grok_rewrite_run.sh ${todo[k,k+2]}; [[ $? -eq 3 ]] && { echo "멈춤(한도)"; exit 3; }
 done
-echo "전부 끝"
+left=0; for i in $ids; do [[ -s data/review/grok/out/$i.md ]] || ((left++)); done
+echo "이번 회차 끝 — 남은 편 $left"

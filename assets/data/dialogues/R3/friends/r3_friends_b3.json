@@ -35,7 +35,7 @@
    "speaker": "B",
    "hu": "Bírod még? Már csak tíz perc a kilátóig.",
    "rd": "비로드 멕? 마르 척 티즈 페르츠 어 킬라토익.",
-   "ko": "아직 할 만해? 전망대까지 10분 남았어.",
+   "ko": "아직 할 만해? 전망대까지 10분이야.",
    "note": "bírod még? = 아직 버틸 만해?",
    "tags": [
     "expr:Bírod még"
@@ -72,9 +72,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Bírom, bírom. De miért ilyen nehéz a te táskád?",
-   "rd": "비롬, 비롬. 데 미에르트 이옌 네헤즈 어 테 타슈카드?",
-   "ko": "버틸 만해, 버틸 만해. 근데 네 가방은 왜 그렇게 무거워?",
+   "hu": "Bírom, bírom. De miért ilyen nehéz a táskád?",
+   "rd": "비롬, 비롬. 데 미에르트 이옌 네헤즈 어 타슈카드?",
+   "ko": "버틸 만해. 근데 네 가방 왜 이렇게 무거워?",
    "note": "nehéz = 무거운",
    "tags": [],
    "emotion": "worried",
@@ -104,10 +104,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Csak víz meg szendvics. Semmi különös.",
-   "rd": "척 비즈 멕 쎈드비치. 셈미 퀼뢰뇌시.",
+   "hu": "Csak víz meg szendvics. Semmi extra.",
+   "rd": "척 비즈 멕 쎈드비치. 셈미 엑쓰트러.",
    "ko": "그냥 물이랑 샌드위치. 별거 없어.",
-   "note": "különös = 특별한",
+   "note": "extra = 특별한",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
@@ -127,9 +127,9 @@
      ""
     ],
     [
-     "különös",
-     "különös",
-     "퀼뢰뫼시"
+     "extra",
+     "extra",
+     ""
     ]
    ]
   },
@@ -138,7 +138,7 @@
    "speaker": "A",
    "hu": "Gyanús vagy ma. Egész reggel mosolyogsz.",
    "rd": "져누시 버지 머. 에게쓰 렉겔 모쇼욕쓰.",
-   "ko": "너 오늘 수상해. 아침 내내 웃고 있잖아.",
+   "ko": "너 오늘 수상해. 아침부터 계속 웃고 있잖아.",
    "note": "gyanús = 수상한",
    "tags": [],
    "emotion": "teasing",
@@ -170,7 +170,7 @@
    "speaker": "B",
    "hu": "Én? Nézd inkább, ott a Duna!",
    "rd": "엔? 네즈드 인카브, 오트 어 두너!",
-   "ko": "내가? 저기나 봐, 도나우강이야!",
+   "ko": "내가? 저기 봐, 도나우강이야!",
    "note": "inkább = 차라리",
    "tags": [],
    "emotion": "flustered",
@@ -190,7 +190,7 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Hű, gyönyörű! Innen az egész város látszik.",
+   "hu": "Hű, Gyönyörű! Innen az egész város látszik.",
    "rd": "휘, 죄뇌뤼! 인넨 어즈 에게쓰 바로시 라트씩.",
    "ko": "와, 진짜 멋지다! 여기서 도시 전체가 보여.",
    "note": "látszik = 보인다",
@@ -203,11 +203,6 @@
      "Hű",
      "hű",
      ""
-    ],
-    [
-     "gyönyörű",
-     "gyönyörű",
-     "죠뇌루"
     ],
     [
      "egész",
@@ -229,9 +224,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Emlékszel? Tavaly ilyenkor még mindenhol a térképet nézted.",
-   "rd": "엠렉쎌? 터버이 이옌코르 멕 민덴홀 어 테르케페트 네즈테드.",
-   "ko": "기억나? 작년 이맘때 넌 어디서나 지도만 봤잖아.",
+   "hu": "Emlékszel? Tavaly ilyenkor még mindig a térképet nézted.",
+   "rd": "엠렉쎌? 터버이 이옌코르 멕 민딕 어 테르케페트 네즈테드.",
+   "ko": "기억나? 작년 이맘땐 아직도 지도만 봤잖아.",
    "note": "ilyenkor = 이맘때",
    "tags": [
     "expr:Emlékszel"
@@ -249,9 +244,9 @@
      "메그"
     ],
     [
-     "mindenhol",
-     "mindenhol",
-     ""
+     "mindig",
+     "mindig",
+     "민딕"
     ],
     [
      "térképet",
@@ -295,9 +290,9 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Most meg te mutatod nekem az utat.",
-   "rd": "모슈트 멕 테 무터토드 네켐 어즈 우터트.",
-   "ko": "근데 지금은 네가 나한테 길을 알려 주잖아.",
+   "hu": "Most meg te mutatod az utat.",
+   "rd": "모슈트 멕 테 무터토드 어즈 우터트.",
+   "ko": "근데 지금은 네가 길을 알려 주잖아.",
    "note": "mutatod = 보여 준다",
    "tags": [],
    "emotion": "gentle",
@@ -356,7 +351,7 @@
    "speaker": "B",
    "hu": "Persze. Várj, csukd be a szemed!",
    "rd": "페르쎄. 바르이, 축드 베 어 쎄메드!",
-   "ko": "그럼. 잠깐, 눈 감아 봐!",
+   "ko": "그럼. 잠깐, 눈 감아!",
    "note": "csukd be = 감아",
    "tags": [],
    "emotion": "excited",
@@ -389,7 +384,7 @@
    "hu": "Miért? Mit csinálsz?",
    "rd": "미에르트? 미트 치날쓰?",
    "ko": "왜? 뭐 하는데?",
-   "note": "csinálsz = 너 하다",
+   "note": "csinálsz = 하다",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -408,7 +403,7 @@
   {
    "num": 13,
    "speaker": "B",
-   "hu": "Most nyisd ki! Ma pont egy éve vagy Budapesten.",
+   "hu": "Most nyisd ki! Ma pont Egy éve vagy Budapesten.",
    "rd": "모슈트 니슈드 키! 머 폰트 에지 에베 버지 부더페슈텐.",
    "ko": "이제 떠! 오늘이 너 부다페스트 온 지 딱 1년이야.",
    "note": "egy éve = 1년째",

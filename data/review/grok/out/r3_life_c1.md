@@ -1,0 +1,29 @@
+=== r3_life_c1
+kind: chat
+title: 물 없는 아침의 대참사
+emoji: 🚱
+scene: 건물 단톡방. 어제 Feri 아저씨가 올린 단수 공지를 깜빡하고 아침에 샤워를 시작했다
+b: Dávid
+c: Marika néni
+d: Feri bácsi
+register: chat
+twist: 14 chaos
+purpose: study_abroad
+goal: 단톡방 공지 읽기(Nem lesz víz · …-tól …-ig) · 이웃에게 부탁하기
+expressions: Nem lesz víz; Mi van; Tényleg
+D | Kedves lakók! Holnap kilenctől egyig nem lesz víz a házban. | 주민 여러분! 내일 9시부터 1시까지 건물에 물이 안 나옵니다. | -tól … -ig = ~부터 ~까지 | emotion=polite at=20:15
+C | Köszönjük szépen, Feri! | 정말 고마워요, 페리 씨! | köszönjük = 우리가 고마워한다 | emotion=polite at=20:17
+A | Köszönjük az infót! 👍 | 알려 주셔서 고마워요! 👍 | infó = 정보 | emotion=cheerful at=20:20
+A | Dávid, otthon vagy? 😰 | 다비드, 집이야? 😰 | otthon = 집에 | emotion=worried at=09:12
+B | Nem, edzésen vagyok. Mi van? | 아니, 운동 중이야. 왜? | edzés = 운동 | emotion=neutral at=09:20
+A | Nincs víz! És a hajam tele van samponnal. | 물이 안 나와! 머리가 샴푸 범벅이야. | samponnal = 샴푸로 | emotion=shout+worried at=09:20
+B | Feri bácsi tegnap írta: kilenctől egyig nincs víz. | 페리 아저씨가 어제 썼잖아. 9시부터 1시까지 물 안 나온다고. | írta = 그걸 썼다 | emotion=neutral at=09:21
+A | Tegnap? Semmit se láttam. | 어제? 아무것도 못 봤는데. | semmit = 아무것도 | emotion=surprised at=09:21
+B | Te válaszoltál rá: „Köszönjük az infót!” 😂 | 네가 답장했잖아. 「알려 주셔서 고마워요!」 😂 | válaszoltál rá = 거기에 답했다 | emotion=teasing at=09:22
+A | Jaj, tényleg! Valaki tud adni egy kis vizet? | 아, 맞다! 누가 물 좀 주실 수 있나요? | tud adni = 줄 수 있다 | emotion=flustered+polite at=09:23
+C | Viszek egy fazék vizet, kedves! | 물 한 냄비 갖다줄게요! | fazék = 냄비 | emotion=gentle at=09:23
+D | Én két vödröt hozok a pincéből. | 나는 지하실에서 양동이 두 개 갖다줄게요. | vödör = 양동이 | emotion=cheerful at=09:24
+A | Köszönöm! Egy pohár is elég! | 고맙습니다! 한 컵이면 충분해요! | elég = 충분한 | emotion=flustered at=09:24
+C | Már úton vagyunk. A negyedikről is jönnek. | 벌써 가는 중이에요. 4층 사람들도 와요. | úton = 가는 길에 | emotion=cheerful at=09:26
+A | Hat fazék víz áll az ajtóm előtt. És most jött vissza a víz. 🚿 | 문 앞에 냄비 여섯 개가 서 있어요. 그리고 방금 물이 다시 나와요. 🚿 | visszajött = 돌아왔다 | emotion=amused at=09:40
+B | Most mindenkinek vissza kell vinni a fazekát. 😂 | 이제 냄비 다 돌려드려야겠네. 😂 | visszavinni = 돌려 가져가다 | emotion=teasing at=09:41

@@ -33,8 +33,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Na, még három doboz, és kész vagyunk.",
-   "rd": "너, 멕 하롬 도보즈, 에시 케쓰 버쥰크.",
+   "hu": "Na, még három doboz van, aztán kész.",
+   "rd": "너, 멕 하롬 도보즈 번, 어즈탄 케쓰.",
    "ko": "자, 상자 세 개만 더 하면 끝이야.",
    "note": "kész = 끝난",
    "tags": [
@@ -58,27 +58,30 @@
      "도보즈"
     ],
     [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "aztán",
+     "aztán",
+     "어스탄"
+    ],
+    [
      "kész",
      "kész",
      "케스"
-    ],
-    [
-     "vagyunk",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó, de mi van ebben a dobozban? Nagyon nehéz!",
-   "rd": "요, 데 미 번 에벤 어 도보즈번? 너죤 네헤즈!",
-   "ko": "좋아, 근데 이 상자엔 뭐가 들었어? 엄청 무거워!",
+   "hu": "Jó, de mi van ebben? Annyira nehéz!",
+   "rd": "요, 데 미 번 에벤? 어니러 네헤즈!",
+   "ko": "좋아, 근데 여기 뭐가 들었어? 진짜 무거워!",
    "note": "ebben = 이 안에",
-   "tags": [
-    "expr:Na"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -92,11 +95,6 @@
      "번"
     ],
     [
-     "dobozban",
-     "doboz",
-     "도보즈"
-    ],
-    [
      "nehéz",
      "nehéz",
      "네헤즈"
@@ -106,9 +104,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Régi tányérok és lábasok. Vigyázz vele!",
-   "rd": "레기 타네록 에시 라버쇽. 비자즈 벨레!",
-   "ko": "오래된 접시랑 냄비. 조심해!",
+   "hu": "Régi tányérok meg lábasok. Vigyázz!",
+   "rd": "레기 타네록 멕 라버쇽. 비자즈!",
+   "ko": "오래된 접시랑 냄비야. 조심해!",
    "note": "vigyázz = 조심해",
    "tags": [],
    "emotion": "worried",
@@ -133,13 +131,11 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Vigyázok. Remélem, a szomszédok nem alszanak.",
-   "rd": "비자족. 레멜렘, 어 쏨쎄독 넴 얼써넉.",
-   "ko": "조심할게. 이웃들이 자고 있지 않으면 좋겠다.",
+   "hu": "Vigyázok. Remélem, nem ébresztünk fel senkit.",
+   "rd": "비자족. 레멜렘, 넴 에브레쓰튄크 펠 센키트.",
+   "ko": "조심할게. 누구 안 깨우면 좋겠다.",
    "note": "szomszéd = 이웃",
-   "tags": [
-    "expr:Na"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -148,34 +144,27 @@
      "비거즈"
     ],
     [
-     "szomszédok",
-     "szomszéd",
-     "쏨세드"
+     "ébresztünk",
+     "ébreszt",
+     ""
     ],
     [
-     "alszanak",
-     "alszik",
-     "얼루시크"
+     "fel",
+     "fel",
+     "펠"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Mi ez a nagy zaj egész délelőtt?",
-   "rd": "미 에즈 어 너지 저이 에게쓰 델렐뢰트?",
-   "ko": "오전 내내 이게 무슨 소리야?",
+   "hu": "Mi ez a zaj egész délelőtt?",
+   "rd": "미 에즈 어 저이 에게쓰 델렐뢰트?",
+   "ko": "오전 내내 이게 무슨 소음이야?",
    "note": "zaj = 소음",
-   "tags": [
-    "expr:Na"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
-    [
-     "nagy",
-     "nagy",
-     "너지"
-    ],
     [
      "zaj",
      "zaj",
@@ -260,9 +249,9 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Ide költözöl? Melyik lakásba?",
-   "rd": "이데 쾰퇴죌? 메익 러카슈버?",
-   "ko": "여기로 이사 온다고? 어느 집으로?",
+   "hu": "Ide költözik? Melyik lakásba?",
+   "rd": "이데 쾰퇴직? 메익 러카슈버?",
+   "ko": "여기로 이사 오신다고요? 어느 집으로요?",
    "note": "költözöl = 이사한다",
    "tags": [],
    "emotion": "stiff",
@@ -273,7 +262,7 @@
      "이데"
     ],
     [
-     "költözöl",
+     "költözik",
      "költözik",
      "쾰퇴직"
     ],
@@ -309,9 +298,9 @@
   {
    "num": 10,
    "speaker": "C",
-   "hu": "A tizenkettesbe? Ott a barátnőm lakott negyven évig.",
-   "rd": "어 티젠케떼슈베? 오트 어 버라트뇜 러코트 네지벤 에빅.",
-   "ko": "12호? 거기 내 친구가 40년 살았는데.",
+   "hu": "A tizenkettesbe? Ott lakott a barátnőm negyven évig.",
+   "rd": "어 티젠케떼슈베? 오트 러코트 어 버라트뇜 네지벤 에빅.",
+   "ko": "12호요? 거기 내 친구가 40년 살았는데.",
    "note": "negyven évig = 40년 동안",
    "tags": [],
    "emotion": "surprised",
@@ -322,14 +311,14 @@
      ""
     ],
     [
-     "barátnőm",
-     "barátnőm",
-     ""
-    ],
-    [
      "lakott",
      "lakik",
      "러키크"
+    ],
+    [
+     "barátnőm",
+     "barátnőm",
+     ""
     ],
     [
      "negyven",
@@ -417,8 +406,8 @@
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Szóval a nagymamád lakása? Ezt nem is mondtad!",
-   "rd": "쏘벌 어 너지머마드 러카셔? 에즈트 넴 이시 몬드터드!",
+   "hu": "Szóval a nagymamád lakása? Ezt nem mondtad!",
+   "rd": "쏘벌 어 너지머마드 러카셔? 에즈트 넴 몬드터드!",
    "ko": "그러니까 너희 할머니 집이야? 그런 말 안 했잖아!",
    "note": "szóval = 그러니까",
    "tags": [
@@ -452,8 +441,8 @@
   {
    "num": 14,
    "speaker": "B",
-   "hu": "Nem kérdezted. És ezek a tányérok is az övéi.",
-   "rd": "넴 케르데즈테드. 에시 에젝 어 타네록 이시 어즈 외베이.",
+   "hu": "Nem kérdezted. Ezek a tányérok is az övéi.",
+   "rd": "넴 케르데즈테드. 에젝 어 타네록 이시 어즈 외베이.",
    "ko": "안 물어봤잖아. 이 접시들도 할머니 거야.",
    "note": "az övéi = 그분의 것들",
    "tags": [],
@@ -479,8 +468,8 @@
   {
    "num": 15,
    "speaker": "C",
-   "hu": "Na, gyertek le hozzám. Van friss pogácsa.",
-   "rd": "너, 제르텍 레 호잠. 번 프리시 포가처.",
+   "hu": "Na, gyertek le. Van friss pogácsa.",
+   "rd": "너, 제르텍 레. 번 프리시 포가처.",
    "ko": "자, 우리 집으로 내려와. 갓 구운 포가차 있어.",
    "note": "gyertek = 너희 와(명령)",
    "tags": [

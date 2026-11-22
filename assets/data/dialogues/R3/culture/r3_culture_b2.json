@@ -36,8 +36,8 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Na, mindenki itt van? Mindjárt kezdődik a koncert!",
-   "rd": "너, 민덴키 이트 번? 민드야르트 케즈되딕 어 콘체르트!",
+   "hu": "Na, mindenki itt van már? Mindjárt kezdődik!",
+   "rd": "너, 민덴키 이트 번 마르? 민드야르트 케즈되딕!",
    "ko": "자, 다 왔어? 곧 콘서트 시작해!",
    "note": "mindjárt = 곧",
    "tags": [],
@@ -59,22 +59,22 @@
      "번"
     ],
     [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
      "kezdődik",
      "kezdődik",
      "케즈되디크"
-    ],
-    [
-     "koncert",
-     "koncert",
-     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Itt vagyok! Hoztam vizet és pokrócot.",
-   "rd": "이트 버죡! 호즈텀 비제트 에시 폭로초트.",
+   "hu": "Itt vagyok! Hoztam vizet meg egy pokrócot.",
+   "rd": "이트 버죡! 호즈텀 비제트 멕 에지 폭로초트.",
    "ko": "나 왔어! 물이랑 돗자리 가져왔어.",
    "note": "pokróc = 담요, 돗자리",
    "tags": [],
@@ -105,9 +105,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Bocsi a késésért. Lassú volt a villamos.",
-   "rd": "보치 어 케세세르트. 러쓔 볼트 어 빌러모시.",
-   "ko": "늦어서 미안. 트램이 느렸어.",
+   "hu": "Bocsi a késésért. A villamos nagyon lassú volt.",
+   "rd": "보치 어 케세세르트. 어 빌러모시 너죤 러쓔 볼트.",
+   "ko": "늦어서 미안. 트램이 엄청 느렸어.",
    "note": "késés = 늦음",
    "tags": [],
    "emotion": "flustered",
@@ -123,14 +123,24 @@
      ""
     ],
     [
-     "volt",
-     "van",
-     "번"
-    ],
-    [
      "villamos",
      "villamos",
      ""
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
+     "lassú",
+     "lassú",
+     ""
+    ],
+    [
+     "volt",
+     "van",
+     "번"
     ]
    ]
   },
@@ -139,7 +149,7 @@
    "speaker": "C",
    "hu": "Semmi baj. A jegyek nálad vannak, ugye?",
    "rd": "셈미 버이. 어 예젝 날러드 번넉, 우제?",
-   "ko": "괜찮아. 표는 너한테 있지, 그렇지?",
+   "ko": "괜찮아. 표는 너한테 있지, 맞지?",
    "note": "nálad = 너한테",
    "tags": [
     "expr:Semmi baj"
@@ -166,8 +176,8 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Persze, a telefonomon. Mindhárom.",
-   "rd": "페르쎄, 어 텔레포노몬. 민드하롬.",
+   "hu": "Persze, a telefonomon. Mindhárom jegy.",
+   "rd": "페르쎄, 어 텔레포노몬. 민드하롬 예지.",
    "ko": "물론, 내 폰에. 세 장 다.",
    "note": "mindhárom = 셋 다",
    "tags": [],
@@ -182,15 +192,20 @@
      "telefonomon",
      "telefon",
      "텔레폰"
+    ],
+    [
+     "jegy",
+     "jegy",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "D",
-   "hu": "Jó estét! A jegyeket kérem.",
-   "rd": "요 에슈테트! 어 예제케트 케렘.",
-   "ko": "안녕하세요! 표 보여 주세요.",
+   "hu": "Jó estét! Kérem a jegyeket.",
+   "rd": "요 에슈테트! 케렘 어 예제케트.",
+   "ko": "안녕하세요! 표를 보여 주세요.",
    "note": "a jegyeket kérem = 표 주세요",
    "tags": [],
    "emotion": "polite",
@@ -209,19 +224,14 @@
      "jegyeket",
      "jegy",
      ""
-    ],
-    [
-     "kérem",
-     "kér",
-     "께르"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Egy pillanat... Jaj, ne. Lemerült a telefonom.",
-   "rd": "에지 필러너트... 여이, 네. 레메륄트 어 텔레포놈.",
+   "hu": "Egy pillanat... Jaj, ne. A telefonom lemerült.",
+   "rd": "에지 필러너트... 여이, 네. 어 텔레포놈 레메륄트.",
    "ko": "잠시만요… 아, 안 돼. 폰 배터리가 나갔어.",
    "note": "lemerült = 배터리가 다 됐다",
    "tags": [
@@ -235,7 +245,7 @@
     ],
     [
      "flustered",
-     "Jaj, ne. Lemerült a telefonom."
+     "Jaj, ne. A telefonom lemerült."
     ]
    ],
    "lemmas": [
@@ -248,6 +258,11 @@
      "telefonom",
      "telefon",
      "텔레폰"
+    ],
+    [
+     "lemerült",
+     "lemerül",
+     ""
     ]
    ]
   },
@@ -256,7 +271,7 @@
    "speaker": "C",
    "hu": "Komolyan? Pont most?",
    "rd": "코모연? 폰트 모슈트?",
-   "ko": "진짜? 하필 지금?",
+   "ko": "진짜? 하필 지금이야?",
    "note": "pont most = 하필 지금",
    "tags": [
     "expr:Komolyan"
@@ -278,8 +293,8 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Nyugi. Réka, van töltőd?",
-   "rd": "뉴기. 레커, 번 퇼퇴드?",
+   "hu": "Nyugi. Réka, van nálad töltő?",
+   "rd": "뉴기. 레커, 번 날러드 퇼퇴?",
    "ko": "진정해. 레카, 충전기 있어?",
    "note": "töltő = 충전기",
    "tags": [],
@@ -296,17 +311,17 @@
      "번"
     ],
     [
-     "töltőd",
-     "töltőd",
-     ""
+     "töltő",
+     "tölt",
+     "퇼트"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "C",
-   "hu": "Van, de konnektor nincs. Ez egy park.",
-   "rd": "번, 데 콘넥토르 닌치. 에즈 에지 퍼륵.",
+   "hu": "Van, de konnektor nincs itt. Ez egy park.",
+   "rd": "번, 데 콘넥토르 닌치 이트. 에즈 에지 퍼륵.",
    "ko": "있어, 근데 콘센트가 없잖아. 여긴 공원이야.",
    "note": "konnektor = 콘센트",
    "tags": [],
@@ -326,6 +341,11 @@
      "nincs",
      "nincs",
      "닌치"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
     ],
     [
      "park",
@@ -428,8 +448,8 @@
   {
    "num": 14,
    "speaker": "A",
-   "hu": "Anna, miért fényképezted le őket?",
-   "rd": "언너, 미에르트 페니케페즈테드 레 외케트?",
+   "hu": "Anna, miért fényképezted le a jegyeket?",
+   "rd": "언너, 미에르트 페니케페즈테드 레 어 예제케트?",
    "ko": "안나, 왜 그걸 찍어 둔 거야?",
    "note": "miért = 왜",
    "tags": [],
@@ -454,14 +474,19 @@
      "le",
      "le",
      "레"
+    ],
+    [
+     "jegyeket",
+     "jegy",
+     ""
     ]
    ]
   },
   {
    "num": 15,
    "speaker": "B",
-   "hu": "Mert ismerlek. A te telefonod mindig lemerül. 😊",
-   "rd": "메르트 이슈메를렉. 어 테 텔레포노드 민딕 레메륄. 😊",
+   "hu": "Mert ismerlek. A telefonod mindig lemerül. 😊",
+   "rd": "메르트 이슈메를렉. 어 텔레포노드 민딕 레메륄. 😊",
    "ko": "너를 아니까. 네 폰은 늘 배터리가 나가잖아. 😊",
    "note": "ismerlek = 너를 안다",
    "tags": [],
@@ -473,7 +498,7 @@
     ],
     [
      "gentle",
-     "A te telefonod mindig lemerül. 😊"
+     "A telefonod mindig lemerül. 😊"
     ]
    ],
    "lemmas": [

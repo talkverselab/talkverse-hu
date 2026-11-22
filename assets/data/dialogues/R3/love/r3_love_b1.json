@@ -35,13 +35,18 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ez a kedvenc helyem. Nem elegáns, de itt főznek a legjobban a városban.",
-   "rd": "에즈 어 케드벤츠 헤옘. 넴 엘레간시, 데 이트 푀즈넥 어 렉요번 어 바로슈번.",
-   "ko": "여기가 내 최애 식당이야. 고급스럽진 않은데, 이 도시에서 제일 맛있게 해.",
+   "hu": "Na, ez a kedvenc helyem. Nem elegáns, de itt főznek a legjobban a városban.",
+   "rd": "너, 에즈 어 케드벤츠 헤옘. 넴 엘레간시, 데 이트 푀즈넥 어 렉요번 어 바로슈번.",
+   "ko": "나, 여기가 내 최애 식당이야. 고급스럽진 않은데, 이 도시에서 제일 맛있게 해.",
    "note": "a legjobban = 가장 잘",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
     [
      "kedvenc",
      "kedvenc",
@@ -82,9 +87,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Tetszik, olyan, mint egy nagymama konyhája. Mit ajánlasz?",
-   "rd": "테트씩, 오연, 민트 에지 너지머머 코니하여. 미트 어얀러쓰?",
-   "ko": "마음에 들어, 할머니 부엌 같아. 뭐 추천해?",
+   "hu": "Tetszik, tényleg. Olyan, mint egy nagymama konyhája. Mit ajánlasz?",
+   "rd": "테트씩, 테닐렉. 오연, 민트 에지 너지머머 코니하여. 미트 어얀러쓰?",
+   "ko": "진짜 마음에 들어. 할머니 부엌 같아. 뭐 추천해?",
    "note": "ajánlasz = 네가 추천한다",
    "tags": [],
    "emotion": "cheerful",
@@ -93,6 +98,11 @@
      "Tetszik",
      "tetszik",
      "테트씨크"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
      "nagymama",
@@ -114,10 +124,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "A töltött káposzta itt fantasztikus, azt kóstold meg.",
-   "rd": "어 퇼퇴트 카포쓰터 이트 펀터쓰티쿠시, 어즈트 코슈톨드 멕.",
-   "ko": "여기 양배추 롤이 최고야, 그거 먹어 봐.",
-   "note": "töltött káposzta = 양배추 롤",
+   "hu": "A töltött káposzta itt durván jó, azt kóstold meg.",
+   "rd": "어 퇼퇴트 카포쓰터 이트 두르반 요, 어즈트 코슈톨드 멕.",
+   "ko": "여기 양배추 롤이 진짜 최고야, 그거 먹어 봐.",
+   "note": "durván jó = 진짜 좋다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -137,9 +147,14 @@
      "이트"
     ],
     [
-     "fantasztikus",
-     "fantasztikus",
-     "펀터스티쿠시"
+     "durván",
+     "durva",
+     "두르버"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
     ],
     [
      "kóstold",
@@ -151,9 +166,9 @@
   {
    "num": 4,
    "speaker": "C",
-   "hu": "Jó estét, már választottak?",
-   "rd": "요 에슈테트, 마르 발러쓰토떡?",
-   "ko": "안녕하세요, 고르셨어요?",
+   "hu": "Jó estét! Már választottak?",
+   "rd": "요 에슈테트! 마르 발러쓰토떡?",
+   "ko": "안녕하세요! 고르셨어요?",
    "note": "választottak = (두 분이) 고르셨다",
    "tags": [],
    "emotion": "polite",
@@ -169,11 +184,6 @@
      "에슈테"
     ],
     [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
      "választottak",
      "választott",
      ""
@@ -183,9 +193,9 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Igen. Én egy töltött káposztát kérek, és egy ásványvizet.",
-   "rd": "이겐. 엔 에지 퇼퇴트 카포쓰타트 케렉, 에시 에지 아슈바니비제트.",
-   "ko": "네. 저는 양배추 롤 하나랑 생수 하나 주세요.",
+   "hu": "Igen. Egy töltött káposztát kérek, meg egy ásványvizet.",
+   "rd": "이겐. 에지 퇼퇴트 카포쓰타트 케렉, 멕 에지 아슈바니비제트.",
+   "ko": "네. 양배추 롤 하나랑 생수 하나 주세요.",
    "note": "ásványvíz = 생수",
    "tags": [],
    "emotion": "polite",
@@ -242,10 +252,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Izé... a buborékosat.",
-   "rd": "이제... 어 부보레코셔트.",
+   "hu": "Izé... a buborékosat kérem.",
+   "rd": "이제... 어 부보레코셔트 케렘.",
    "ko": "어… 거품 있는 걸로요.",
-   "note": "buborékos = 거품 있는(szénsavas 를 몰라서)",
+   "note": "buborékos = 거품 있는",
    "tags": [
     "expr:Izé"
    ],
@@ -260,6 +270,11 @@
      "buborékosat",
      "buborékos",
      ""
+    ],
+    [
+     "kérem",
+     "kér",
+     "께르"
     ]
    ]
   },
@@ -268,7 +283,7 @@
    "speaker": "C",
    "hu": "Értem, szénsavasat. És a hölgy?",
    "rd": "에르템, 쎈셔버셔트. 에시 어 횔지?",
-   "ko": "알겠습니다, 탄산수요. 그리고 숙녀분은요?",
+   "ko": "알겠어요, 탄산수네요. 그리고 숙녀분은요?",
    "note": "a hölgy = 숙녀분",
    "tags": [],
    "emotion": "amused",
@@ -295,8 +310,8 @@
    "speaker": "B",
    "hu": "Én egy paprikás csirkét kérek, galuskával.",
    "rd": "엔 에지 퍼프리카시 치르케트 케렉, 걸루슈카벌.",
-   "ko": "저는 닭고기 파프리카 스튜요, 갈루슈카 곁들여서.",
-   "note": "galuska = 갈루슈카(작은 수제비)",
+   "ko": "저는 파프리카 치킨 스튜요, 갈루슈카랑.",
+   "note": "galuska = 갈루슈카",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -325,9 +340,9 @@
   {
    "num": 10,
    "speaker": "C",
-   "hu": "Tessék, a töltött káposzta és a paprikás csirke. Jó étvágyat!",
-   "rd": "테쎅, 어 퇼퇴트 카포쓰터 에시 어 퍼프리카시 치르케. 요 에트바져트!",
-   "ko": "여기 양배추 롤과 닭고기 파프리카 스튜 나왔습니다. 맛있게 드세요!",
+   "hu": "Tessék, a töltött káposzta meg a paprikás csirke. Jó étvágyat!",
+   "rd": "테쎅, 어 퇼퇴트 카포쓰터 멕 어 퍼프리카시 치르케. 요 에트바져트!",
+   "ko": "여기요, 양배추 롤이랑 파프리카 치킨요. 맛있게 드세요!",
    "note": "jó étvágyat = 맛있게 드세요",
    "tags": [
     "expr:Tessék"
@@ -369,10 +384,10 @@
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Köszönöm, egészségére!",
-   "rd": "쾨쐬뇜, 에게쓰세게레!",
+   "hu": "Köszönöm szépen, egészségére!",
+   "rd": "쾨쐬뇜 쎄펜, 에게쓰세게레!",
    "ko": "감사합니다, 건강을 위하여!",
-   "note": "egészségére = (건배·재채기 때) 건강을 위하여",
+   "note": "egészségére = 건강을 위하여",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -380,6 +395,11 @@
      "Köszönöm",
      "köszön",
      "쾨쇠니"
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
     ],
     [
      "egészségére",
@@ -391,39 +411,39 @@
   {
    "num": 12,
    "speaker": "C",
-   "hu": "Én nem iszom, de köszönöm.",
-   "rd": "엔 넴 이쏨, 데 쾨쐬뇜.",
-   "ko": "저는 안 마시지만, 감사합니다.",
+   "hu": "Köszönöm, de én nem iszom.",
+   "rd": "쾨쐬뇜, 데 엔 넴 이쏨.",
+   "ko": "감사합니다, 근데 저는 안 마셔요.",
    "note": "nem iszom = 안 마신다",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
+     "Köszönöm",
+     "köszön",
+     "쾨쇠니"
+    ],
+    [
      "iszom",
      "iszom",
      ""
-    ],
-    [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "B",
-   "hu": "Ha valaki azt mondja, jó étvágyat, akkor azt feleled: köszönöm, viszont.",
-   "rd": "허 벌러키 어즈트 몬드여, 요 에트바져트, 어꼬르 어즈트 펠렐레드: 쾨쐬뇜, 비쏜트.",
-   "ko": "누가 \"맛있게 드세요\" 하면, \"감사합니다, 당신도요\" 라고 대답해.",
+   "hu": "Figyelj, ha jó étvágyat mondanak, akkor köszönöm, viszont a válasz.",
+   "rd": "피젤이, 허 요 에트바져트 몬더넉, 어꼬르 쾨쐬뇜, 비쏜트 어 발러쓰.",
+   "ko": "있잖아, 누가 \"맛있게 드세요\" 하면 \"감사합니다, 당신도요\"라고 해.",
    "note": "viszont = (답례로) 당신도요",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "mondja",
-     "mond",
-     "몬드"
+     "Figyelj",
+     "figyel",
+     "피겔"
     ],
     [
      "jó",
@@ -436,27 +456,32 @@
      ""
     ],
     [
+     "mondanak",
+     "monda",
+     "몬더"
+    ],
+    [
      "akkor",
      "akkor",
      "어꼬르"
     ],
     [
-     "feleled",
-     "felel",
-     ""
-    ],
-    [
      "köszönöm",
      "köszön",
      "쾨쇠니"
+    ],
+    [
+     "válasz",
+     "válasz",
+     "바라스"
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "A",
-   "hu": "Szóval az egészségedre csak koccintáshoz kell?",
-   "rd": "쏘벌 어즈 에게쓰세게드레 척 코찐타슈호즈 켈?",
+   "hu": "Szóval az egészségedre csak koccintásnál mondják?",
+   "rd": "쏘벌 어즈 에게쓰세게드레 척 코찐타슈날 몬드약?",
    "ko": "그러니까 \"건강을 위하여\"는 건배할 때만 하는 거야?",
    "note": "koccintás = 건배",
    "tags": [
@@ -480,23 +505,23 @@
      "촉"
     ],
     [
-     "koccintáshoz",
+     "koccintásnál",
      "koccint",
      ""
     ],
     [
-     "kell",
-     "kell",
-     "켈"
+     "mondják",
+     "mond",
+     "몬드"
     ]
    ]
   },
   {
    "num": 15,
    "speaker": "B",
-   "hu": "Pontosan, meg ha valaki tüsszent. De a pincér arca megérte.",
-   "rd": "폰토션, 멕 허 벌러키 튀쎈트. 데 어 핀체르 어르처 메게르테.",
-   "ko": "정확해, 아니면 누가 재채기할 때. 근데 웨이터 표정은 볼 만했어.",
+   "hu": "Pontosan. Meg ha valaki tüsszent. De a pincér arca megérte.",
+   "rd": "폰토션. 멕 허 벌러키 튀쎈트. 데 어 핀체르 어르처 메게르테.",
+   "ko": "정확해. 아니면 누가 재채기할 때. 근데 웨이터 표정은 볼 만했어.",
    "note": "tüsszent = 재채기한다",
    "tags": [
     "expr:Pontosan"
@@ -505,11 +530,11 @@
    "segs": [
     [
      "amused",
-     "Pontosan, meg ha valaki tüsszent."
+     "Pontosan."
     ],
     [
      "teasing",
-     "De a pincér arca megérte."
+     "Meg ha valaki tüsszent. De a pincér arca megérte."
     ]
    ],
    "lemmas": [
@@ -543,17 +568,22 @@
   {
    "num": 16,
    "speaker": "A",
-   "hu": "Jó. De legalább nevettél, akkor megérte hibázni.",
-   "rd": "요. 데 레걸라브 네베뗄, 어꼬르 메게르테 히바즈니.",
-   "ko": "알았어. 그래도 네가 웃었으니 틀린 보람이 있네.",
+   "hu": "Jól van. De legalább nevettél, akkor megérte a hiba.",
+   "rd": "욜 번. 데 레걸라브 네베뗄, 어꼬르 메게르테 어 히버.",
+   "ko": "그래. 그래도 네가 웃었으니 틀린 보람이 있네.",
    "note": "megérte = 그럴 가치가 있었다",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ],
     [
      "legalább",
@@ -576,9 +606,9 @@
      ""
     ],
     [
-     "hibázni",
-     "hibáz",
-     ""
+     "hiba",
+     "hiba",
+     "히버"
     ]
    ]
   }

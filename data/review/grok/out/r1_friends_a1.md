@@ -1,19 +1,19 @@
 === r1_friends_a1
 kind: short
-title: 너도 잘하네!
-emoji: 🚲
-scene: 자전거에 부딪힐 뻔한 Réka와 처음 말을 튼다. 칭찬을 받아 기뻐서 그대로 돌려줬는데…
+title: 수업 끝나고
+emoji: ☕
+scene: 어학원 수업이 끝나고 옆자리 Réka 가 말을 건다
 b: Réka
 register: casual
-twist: 6 slip
-purpose: making_friends
-goal: 자기소개(… vagyok)와 칭찬 주고받기
-expressions: Bocsi; Jól vagy?; Köszi; Hát
-B | Bocsi, na! Jól vagy? | 미안, 나! 괜찮아? | bocsi = 미안 | emotion=worried
-A | Ja, jól vagyok. Ez a te biciklid? | 응, 괜찮아. 이거 네 자전거야? | jól vagyok = 괜찮아 | emotion=neutral
-B | Réka vagyok. Te? | 나는 레카야. 너는? | te? = 너는? | emotion=cheerful
-A | {name} vagyok. Most magyarul tanulok. | 나는 {name}. 지금 헝가리어 배워. | magyarul = 헝가리어로 | emotion=cheerful
-B | Hűha! De jól beszélsz! | 와! 말 진짜 잘한다! | de = 정말 | emotion=excited
-A | Köszi! Te is nagyon jól beszélsz! | 고마워! 너도 진짜 잘하네! | köszi = 고마워 | emotion=cheerful
-B | Hát... magyar vagyok, na. | 음… 나 헝가리 사람인데. | hát = 음 | emotion=amused
-A | Jaj, tényleg. Persze. | 아이고, 진짜. 그렇지. | persze = 물론 | emotion=flustered
+twist: 7 emotion
+purpose: making_friends study_abroad
+goal: 처음 말 트기 — 이름·어디서 왔는지·커피 제안
+expressions: Szia; Na; Szuper
+B | Szia! Új vagy itt? | 안녕! 여기 처음이야? | új = 새로운 | emotion=cheerful
+A | Igen, ez az első hetem. | 응, 이번이 첫 주야. | első = 첫 | emotion=shy
+B | Réka vagyok. Te? | 나는 레카야. 너는? | Te? = 너는? | emotion=cheerful
+A | {name}. {country}ból jöttem. | {name}. {country}에서 왔어. | -ból/-ből = ~에서 | emotion=neutral
+B | Szuper! Hogy tetszik Budapest? | 좋다! 부다페스트 어때? | Hogy tetszik? = 마음에 들어? | emotion=excited
+A | Nagyon. De a nyelv nehéz. | 아주 좋아. 근데 말이 어려워. | nehéz = 어려운 | emotion=worried
+B | Na, gyere, igyunk egy kávét. Segítek. | 자, 가자, 커피 한잔하자. 도와줄게. | segítek = 내가 도와줄게 | emotion=gentle
+A | Tényleg? Köszi, Réka. | 진짜? 고마워, 레카. | tényleg = 정말 | emotion=shy

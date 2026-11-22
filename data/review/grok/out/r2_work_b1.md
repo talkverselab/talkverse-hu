@@ -1,0 +1,23 @@
+=== r2_work_b1
+kind: long
+title: 카페 아르바이트 면접
+emoji: 🪑
+scene: 동네 카페 아르바이트 면접. 사장님이 경험·주말 근무·시작 날짜를 묻는다
+b: Férfi
+c: Bence
+register: mixed
+twist: 10 reveal
+purpose: work_hungary
+goal: 면접에서 할 수 있는 일·시간 되는 날 말하기(tud + 동사원형, ráérek)
+expressions: Tessék; Persze; Szuper; Szóval
+B | Jó napot! Ön az állás miatt jött? | 안녕하세요! 일자리 때문에 오신 분이죠? | az állás miatt = 일자리 때문에 | emotion=polite
+A | Igen, jó napot. {name} vagyok. | 네, 안녕하세요. {name}입니다. | jó napot = 안녕하세요 | emotion=stiff
+B | Tessék, foglaljon helyet. Dolgozott már kávézóban? | 앉으세요. 카페에서 일해 본 적 있어요? | dolgozott már = 일해 본 적 있다 | emotion=polite
+A | Kávézóban még soha. De gyorsan tanulok. | 카페에서는 아직 없어요. 그래도 빨리 배워요. | soha = 전혀/아직 | emotion=flustered+cheerful
+B | Értem. Hétvégén is tudna dolgozni? | 그렇군요. 주말에도 일할 수 있어요? | hétvégén = 주말에 | emotion=polite
+A | Persze! Szombaton meg vasárnap is ráérek. | 그럼요! 토요일도 일요일도 돼요. | ráérek = 시간이 된다 | emotion=cheerful
+B | Szuper! És mikor tudna kezdeni? | 좋네요! 언제부터 시작할 수 있어요? | kezdeni = 시작하다 | emotion=cheerful
+A | Akár holnap is. Szóval felvesz engem? | 내일이라도요. 그럼… 채용하시는 건가요? | felvesz = 채용하다 | emotion=excited+shy
+B | Felveszem. Bence, gyere ide, itt az új kolléga! | 채용할게요. 벤체, 이리 와, 새 동료야! | kolléga = 동료 | emotion=cheerful
+C | Szia! Te vagy az, aki tegnap háromszor kérte a cukrot? | 안녕! 어제 설탕 세 번 달라던 사람이 너구나? | háromszor = 세 번 | emotion=surprised
+A | Jaj, igen. Nagyon finom volt. | 아이고, 맞아. 커피가 너무 맛있어서. | finom = 맛있는 | emotion=flustered

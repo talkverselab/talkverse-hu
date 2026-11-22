@@ -1,0 +1,24 @@
+=== r2_work_b2
+kind: long
+title: 첫 출근, 첫 손님
+emoji: ☕
+scene: 카페 첫 출근. Bence 가 계산대와 주문 받는 말을 가르쳐 주고, 곧 단골 할머니가 들어온다
+b: Bence
+c: Néni
+register: mixed
+twist: 8 slip
+purpose: work_hungary
+goal: 주문 받는 말(Mit adhatok? · elvitelre)과 adhatok / adhat 구분
+expressions: Na; Jól van; Jaj; Hát
+B | Na, első napod! Először a kasszát mutatom, figyelj. | 자, 첫날이야! 먼저 계산대부터 보여줄게, 봐. | kassza = 계산대 | emotion=cheerful
+A | Oké. A vendégnek mit mondok? | 오케이. 손님한테 뭐라고 해? | vendég = 손님 | emotion=worried
+B | Csak annyit: Jó napot, mit adhatok? | 이것만: 안녕하세요, 뭘 드릴까요? | mit adhatok? = 뭘 드릴까요? | emotion=gentle
+A | Mit adhatok. Jó, megvan. | 뭘 드릴까요. 좋아, 외웠어. | megvan = 기억해 뒀다 | emotion=cheerful
+B | Ha elvitelre kérik, papírpohár. Alul van. | 포장해 달라고 하면 종이컵. 아래에 있어. | elvitelre = 포장으로 | emotion=gentle
+A | Jól van. Jaj, jön valaki! | 알았어. 아이고, 누가 온다! | jön = 온다 | emotion=neutral+flustered
+C | Jó napot kívánok! | 안녕하세요! | jó napot kívánok = 안녕하세요(정중) | emotion=cheerful
+A | Jó napot! Mit adhat? | 안녕하세요! 뭘 주실 수 있어요? | adhat = (당신이) 줄 수 있다 | emotion=flustered
+C | Én? Hát, egy mosolyt adhatok, kedvesem. | 내가요? 글쎄, 미소 하나 드릴 수 있지, 얘야. | kedvesem = 얘야 | emotion=surprised+amused
+B | Mit adhatok, nem mit adhat! | 「뭘 드릴까요」지, 「뭘 주실래요」가 아니라! | nem = ~가 아니라 | emotion=tsukkomi
+A | Bocsánat! Mit adhatok? | 죄송해요! 뭘 드릴까요? | bocsánat = 죄송합니다 | emotion=flustered+polite
+C | Egy hosszú kávét kérek. A mosoly ingyen volt. | 롱 커피 하나요. 미소는 공짜였어요. | hosszú kávé = 롱 커피 | emotion=teasing

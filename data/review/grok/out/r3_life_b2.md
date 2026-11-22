@@ -1,0 +1,26 @@
+=== r3_life_b2
+kind: long
+title: 우체국 쪽지
+emoji: ✉️
+scene: 우편함에 부재중 쪽지(értesítő)가 꽂혀 있다. 계단에서 Marika 아주머니한테 어떻게 하는지 물어본다
+b: Marika néni
+register: polite
+twist: 13 reveal
+purpose: study_abroad
+goal: 우체국에서 소포 찾는 법(értesítő · útlevél · nyitvatartás) 묻고 알아듣기
+expressions: Mit jelent; Értem; Ugye
+A | Csókolom, Marika néni! Megkérdezhetek valamit? | 안녕하세요, 아주머니! 뭐 좀 여쭤봐도 될까요? | megkérdezhetek = 물어봐도 된다 | emotion=polite
+B | Persze, kedves. Mi a baj? | 그럼요, 얘야. 무슨 일이에요? | mi a baj = 무슨 일이에요 | emotion=gentle
+A | Ezt a papírt találtam a postaládában. Mit jelent? | 우편함에서 이 종이를 찾았어요. 무슨 뜻이에요? | postaláda = 우편함 | emotion=worried
+B | Ez értesítő. A postás hozott egy csomagot, de nem volt otthon senki. | 부재중 쪽지예요. 집배원이 소포를 가져왔는데 집에 아무도 없었던 거예요. | értesítő = 통지서 | emotion=neutral
+A | És most mit csináljak? | 그럼 이제 어떻게 해야 해요? | csináljak = 내가 해야 할까 | emotion=worried
+B | Vigye el ezt a postára, a Petőfi utcába. Öt napig ott van. | 이걸 우체국에 가져가세요, 페퇴피 거리요. 닷새 동안 거기 있어요. | vigye el = 가져가세요(Ön) | emotion=gentle
+A | Mit vigyek még? Az útlevelet? | 그 밖에 뭘 가져가야 해요? 여권? | vigyek = 가져가야 할까 | emotion=neutral
+B | Igen, az útlevelét vagy a lakcímkártyáját. | 네, 여권이나 주소 카드요. | lakcímkártya = 주소 카드 | emotion=polite
+A | Értem. Mikor van nyitva? | 알겠어요. 언제 열어요? | nyitva = 열려 있는 | emotion=neutral
+B | Hétköznap nyolctól hatig, szombaton délig. | 평일 8시부터 6시까지, 토요일은 정오까지요. | -tól … -ig = ~부터 ~까지 | emotion=polite
+A | Köszönöm szépen. Ugye a postán sokat kell várni? | 정말 고맙습니다. 우체국은 오래 기다려야 하죠? | ugye = ~죠 | emotion=worried
+B | Hát, néha egy órát is. Vigyen egy könyvet. | 글쎄요, 가끔은 한 시간도요. 책 한 권 가져가세요. | vigyen = 가져가세요 | emotion=amused
+A | Várjon, ez a név nem az enyém! | 잠깐만요, 이 이름 제 게 아니에요! | az enyém = 내 것 | emotion=surprised
+B | Mutassa! Jaj, Kovács Mária, ez az enyém! | 보여 줘요! 어머, 코바치 마리아, 이거 내 거네! | Mária = 마리카의 본이름 | emotion=surprised+cheerful
+A | Akkor a könyvet Ön viszi a postára. | 그럼 책은 아주머니가 우체국에 가져가셔야겠네요. | viszi = 가져간다 | emotion=teasing

@@ -1,0 +1,28 @@
+=== r3_love_c1
+kind: chat
+title: 시험 통과?
+emoji: 🍕
+scene: 밤, Anna 가 먼저 토요일 저녁 시간 있냐고 묻는다. 장소는 A 가 고르라는데 내놓는 곳마다 퇴짜다
+b: Anna
+register: chat
+twist: 13 reveal
+flags: romance
+purpose: love
+goal: 장소 제안하기(Mit szólnál …-hoz?)와 거절·이유 말하기(…, de …)
+expressions: Mit szólnál; Igazából; Mindegy; Oké
+B | Szia! Szombat este ráérsz? 😊 | 안녕! 토요일 저녁 시간 돼? 😊 | szabad = 비어 있는, 한가한 | emotion=cheerful at=21:10
+A | Szia! Igen, teljesen szabad vagyok. Mit tervezel? | 안녕! 응, 완전 비어 있어. 뭐 계획해? | tervezel = 계획한다 | emotion=excited at=21:12
+B | Még semmit. Arra gondoltam, hogy te válassz helyet. 😇 | 아직 아무것도. 네가 장소를 고르면 어떨까 했어. 😇 | arra gondoltam = ~라고 생각했다 | emotion=teasing at=21:12
+A | Mit szólnál egy pizzához a belvárosban? | 시내에서 피자 어때? | mit szólnál …-hoz? = ~ 어때? | emotion=cheerful at=21:14
+B | A pizza jó lenne, de múlt héten már háromszor ettem. 🍕 | 피자 괜찮은데, 지난주에 벌써 세 번 먹었어. 🍕 | háromszor = 세 번 | emotion=amused at=21:15
+A | Akkor egy kis vendéglő? Van egy jó hely a Ráday utcában. | 그럼 작은 식당? 라다이 거리에 괜찮은 데 있어. | vendéglő = 식당 | emotion=cheerful at=21:17
+B | Hallottam róla, de oda előre kell foglalni. Szombatra már tuti nincs hely. | 들어 봤는데, 거긴 미리 예약해야 해. 토요일은 분명 자리 없을 거야. | foglalni = 예약하다 | emotion=worried at=21:18
+A | Jaj, igaz. Akkor mozi, vagy séta a Duna-parton? | 아, 맞다. 그럼 영화, 아니면 두너강변 산책? | séta = 산책 | emotion=worried at=21:20
+B | Novemberben a Duna-parton? Megfagyunk. 🥶 | 11월에 강변? 얼어 죽어. 🥶 | megfagyunk = 우리가 언다 | emotion=tsukkomi at=21:21
+A | Oké, feladom. 😅 Te mit szeretnél igazából? | 오케이, 포기. 😅 넌 사실 뭐 하고 싶어? | feladom = 포기한다 | emotion=flustered at=21:30
+B | Igazából... nekem mindegy, hol. | 사실… 난 어디든 상관없어. | mindegy = 상관없어 | emotion=shy at=21:34
+A | Mindegy? Akkor miért mondtál nemet mindenre? 😂 | 상관없다고? 그럼 왜 다 싫다고 했어? 😂 | nemet mond = 거절하다 | emotion=amused at=21:34
+B | Mert csak tudni akartam, meddig próbálkozol. | 네가 언제까지 애쓰나 보고 싶었거든. | próbálkozol = 애쓴다 | emotion=teasing at=21:35
+A | És? Átmentem a vizsgán? | 그래서? 시험 통과했어? | átmentem = 통과했다 | emotion=excited at=21:36
+B | Át. Szombaton hétkor nálam, én főzök. 😊 | 통과. 토요일 7시 우리 집, 내가 요리할게. 😊 | nálam = 우리 집에서 | emotion=gentle at=21:37
+A | Ott leszek hétkor. Nem fél hétkor, azt már megtanultam. 😄 | 7시에 갈게. 반 일곱 시 말고, 그건 이제 알아. 😄 | fél hét = 6시 반 | emotion=amused at=21:37 stamp=😄

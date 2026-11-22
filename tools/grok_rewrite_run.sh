@@ -14,9 +14,17 @@ for id in "$@"; do
     r=$(python3 tools/grok_text.py -m "$id.txt" $out data/review/grok/src/$id.txt --chat "$chat" 2>&1)
   fi
   rc=$?
+  # 「파일 입력 없음」(페이지가 덜 뜸)·밖에서 끊김(143) 은 30초 뒤 같은 편을 한 번 더
+  if [[ $rc -eq 1 || $rc -eq 143 ]]; then
+    sleep 30
+    if [[ -z $chat ]]; then r=$(python3 tools/grok_text.py /tmp/grok_hu_first.txt $out tools/prompts/rewrite_grok_hu.md data/review/grok/src/$id.txt 2>&1)
+    else r=$(python3 tools/grok_text.py -m "$id.txt" $out data/review/grok/src/$id.txt --chat "$chat" 2>&1); fi
+    rc=$?
+  fi
   echo "$(date +%H:%M) $id rc=$rc $(echo $r | grep -E "저장|LIMIT|빠른|TIMEOUT" | tr '\n' ' ')"
   [[ $rc -eq 3 ]] && { echo "LIMIT — 멈춤"; exit 3; }
   c=$(echo $r | grep '^CHAT ' | awk '{print $2}' | sed 's/?.*//'); [[ -n $c ]] && chat=$c
   sleep 20
 done
 echo "끝 $chat"
+exit 0

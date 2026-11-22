@@ -10,7 +10,7 @@
  "domain": [
   "life"
  ],
- "title": "이제 말 놓을까요",
+ "title": "수프 더 먹어야 말 놓아줘",
  "emoji": "🍲",
  "scene": "일요일 점심, Dávid 와 함께 Marika 아주머니 댁에 초대받았다. 수프를 자꾸 더 권하신다",
  "speakers": {
@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Tessék, üljenek le! Húsleves van, utána rántott hús.",
-   "rd": "테쎅, 윌예넥 레! 후슐레베시 번, 우타너 란토트 후시.",
-   "ko": "자, 앉아요! 고기 수프 먹고, 다음엔 슈니첼이에요.",
+   "hu": "Tessék, üljenek le! Van húsleves, aztán rántott hús.",
+   "rd": "테쎅, 윌예넥 레! 번 후슐레베시, 어즈탄 란토트 후시.",
+   "ko": "자, 앉아요! 고기 수프 있고, 다음엔 슈니첼이에요.",
    "note": "húsleves = 고기 수프",
    "tags": [],
    "emotion": "cheerful",
@@ -55,9 +55,14 @@
      "레"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "húsleves",
+     "húsleves",
+     ""
+    ],
+    [
+     "aztán",
+     "aztán",
+     "어스탄"
     ],
     [
      "rántott",
@@ -74,9 +79,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Köszönjük a meghívást, Marika néni!",
-   "rd": "쾨쐰윅 어 멕히바슈트, 머리커 네니!",
-   "ko": "초대해 주셔서 감사해요, 아주머니!",
+   "hu": "Köszönjük szépen a meghívást, Marika néni!",
+   "rd": "쾨쐰윅 쎄펜 어 멕히바슈트, 머리커 네니!",
+   "ko": "초대해 주셔서 정말 감사해요, 아주머니!",
    "note": "meghívás = 초대",
    "tags": [],
    "emotion": "polite",
@@ -85,6 +90,11 @@
      "Köszönjük",
      "köszön",
      "쾨쇠니"
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
     ],
     [
      "meghívást",
@@ -101,10 +111,10 @@
   {
    "num": 3,
    "speaker": "C",
-   "hu": "Marika néni levese a legjobb a házban.",
-   "rd": "머리커 네니 레베세 어 렉요브 어 하즈번.",
-   "ko": "마리카 아주머니 수프가 건물에서 제일 맛있어.",
-   "note": "a legjobb = 최고",
+   "hu": "Marika néni levese a legfinomabb az egész házban.",
+   "rd": "머리커 네니 레베세 어 렉피노머브 어즈 에게쓰 하즈번.",
+   "ko": "마리카 아주머니 수프가 이 건물에서 제일 맛있어.",
+   "note": "legfinomabb = 가장 맛있는",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -124,9 +134,14 @@
      ""
     ],
     [
-     "legjobb",
-     "jó",
-     "요"
+     "legfinomabb",
+     "finom",
+     "피놈"
+    ],
+    [
+     "egész",
+     "egész",
+     "에게쓰"
     ],
     [
      "házban",
@@ -140,7 +155,7 @@
    "speaker": "A",
    "hu": "Tényleg! Nagyon finom.",
    "rd": "테닐렉! 너죤 피놈.",
-   "ko": "정말이에요! 아주 맛있어요.",
+   "ko": "진짜요! 정말 맛있어요.",
    "note": "finom = 맛있는",
    "tags": [
     "expr:Nagyon finom"
@@ -162,8 +177,8 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Még egy kicsit? Maga nagyon sovány.",
-   "rd": "멕 에지 키치트? 머거 너죤 쇼바니.",
+   "hu": "Még egy kicsit? Maga túl sovány.",
+   "rd": "멕 에지 키치트? 머거 툴 쇼바니.",
    "ko": "조금 더 줄까요? 너무 말랐어요.",
    "note": "sovány = 마른",
    "tags": [
@@ -182,9 +197,9 @@
      "키치"
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
+     "túl",
+     "túl",
+     "툴"
     ],
     [
      "sovány",
@@ -233,10 +248,10 @@
   {
    "num": 7,
    "speaker": "C",
-   "hu": "Ne is próbáld. Itt nincs olyan, hogy nem.",
-   "rd": "네 이시 프로발드. 이트 닌치 오연, 호지 넴.",
-   "ko": "거절은 시도도 하지 마. 여기선 「아니요」가 없어.",
-   "note": "ne is próbáld = 시도도 하지 마",
+   "hu": "Ne is próbáld visszautasítani. Itt nincs nem.",
+   "rd": "네 이시 프로발드 비써우터시터니. 이트 닌치 넴.",
+   "ko": "거절은 생각도 하지 마. 여기선 「아니요」가 없어.",
+   "note": "visszautasítani = 거절하다",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
@@ -244,6 +259,11 @@
      "próbáld",
      "próbál",
      "프로발"
+    ],
+    [
+     "visszautasítani",
+     "visszautasít",
+     ""
     ],
     [
      "nincs",
@@ -255,8 +275,8 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Na tessék, csak egy fél tányért.",
-   "rd": "너 테쎅, 척 에지 펠 타네르트.",
+   "hu": "Na, tessék, csak egy fél tányért.",
+   "rd": "너, 테쎅, 척 에지 펠 타네르트.",
    "ko": "자, 반 그릇만.",
    "note": "tányér = 접시",
    "tags": [],
@@ -292,17 +312,22 @@
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Rendben, de tényleg csak felet!",
-   "rd": "렌드벤, 데 테닐렉 척 펠레트!",
+   "hu": "Jól van, de tényleg csak felet!",
+   "rd": "욜 번, 데 테닐렉 척 펠레트!",
    "ko": "좋아요, 근데 진짜 반만요!",
    "note": "felet = 반(목적격)",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "Rendben",
-     "rend",
-     "렌드"
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ],
     [
      "tényleg",
@@ -432,16 +457,16 @@
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Tényleg? Akkor szia, Marika!",
-   "rd": "테닐렉? 어꼬르 씨어, 머리커!",
-   "ko": "정말요? 그럼… 안녕, 마리카!",
+   "hu": "Komolyan? Akkor szia, Marika!",
+   "rd": "코모연? 어꼬르 씨어, 머리커!",
+   "ko": "진짜요? 그럼… 안녕, 마리카!",
    "note": "szia = 안녕(반말)",
    "tags": [],
    "emotion": "surprised",
    "segs": [
     [
      "surprised",
-     "Tényleg?"
+     "Komolyan?"
     ],
     [
      "shy",
@@ -450,9 +475,9 @@
    ],
    "lemmas": [
     [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
      "szia",
@@ -464,8 +489,8 @@
   {
    "num": 14,
    "speaker": "C",
-   "hu": "Hé! Én három év után kaptam ezt meg!",
-   "rd": "헤! 엔 하롬 에브 우탄 커프텀 에즈트 멕!",
+   "hu": "Hé! Én három év után kaptam meg!",
+   "rd": "헤! 엔 하롬 에브 우탄 커프텀 멕!",
    "ko": "야! 난 3년 걸려서 받은 건데!",
    "note": "kaptam meg = 받았다",
    "tags": [],
@@ -491,15 +516,15 @@
   {
    "num": 15,
    "speaker": "B",
-   "hu": "Mert te sosem kérsz még levest. Ez a titok.",
-   "rd": "메르트 테 쇼셈 케르쓰 멕 레베슈트. 에즈 어 티톡.",
+   "hu": "Mert te sose kérsz még levest. Ez a titok.",
+   "rd": "메르트 테 쇼세 케르쓰 멕 레베슈트. 에즈 어 티톡.",
    "ko": "너는 수프를 더 달라고 한 적이 없잖아. 그게 비결이야.",
    "note": "titok = 비밀",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "sosem",
+     "sose",
      "sohasem",
      "쇼허셈"
     ],

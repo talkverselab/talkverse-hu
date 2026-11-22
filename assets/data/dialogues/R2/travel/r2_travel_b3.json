@@ -31,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó napot! Ön {name}, ugye?",
-   "rd": "요 너포트! 왼 {name}, 우제?",
-   "ko": "안녕하세요! {name} 씨 맞죠?",
-   "note": "ugye = 그렇죠?",
+   "hu": "Jó napot! Ön {name}, igaz?",
+   "rd": "요 너포트! 왼 {name}, 이거즈?",
+   "ko": "안녕하세요! {name} 씨 맞으시죠?",
+   "note": "igaz = 맞죠",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -47,16 +47,21 @@
      "napot",
      "nap",
      "넙"
+    ],
+    [
+     "igaz",
+     "igaz",
+     "이거즈"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen, jó napot! Bocsánat, késtem.",
-   "rd": "이겐, 요 너포트! 보차너트, 케슈템.",
-   "ko": "네, 안녕하세요! 죄송해요, 늦었어요.",
-   "note": "késtem = 내가 늦었다",
+   "hu": "Igen, jó napot! Bocsánat, egy kicsit késtem.",
+   "rd": "이겐, 요 너포트! 보차너트, 에지 키치트 케슈템.",
+   "ko": "네, 안녕하세요! 죄송해요, 조금 늦었어요.",
+   "note": "késtem = 늦었어요",
    "tags": [],
    "emotion": "cheerful",
    "segs": [
@@ -66,7 +71,7 @@
     ],
     [
      "shy",
-     "Bocsánat, késtem."
+     "Bocsánat, egy kicsit késtem."
     ]
    ],
    "lemmas": [
@@ -86,6 +91,11 @@
      "넙"
     ],
     [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ],
+    [
      "késtem",
      "késik",
      "케시크"
@@ -95,9 +105,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Semmi baj. Itt a kulcsok: ez a kapué, ez a szobáé.",
-   "rd": "셈미 버이. 이트 어 쿨촉: 에즈 어 커푸에, 에즈 어 쏘바에.",
-   "ko": "괜찮아요. 열쇠 여기요: 이건 대문 거, 이건 방 거.",
+   "hu": "Semmi baj. Itt vannak a kulcsok: ez a kapué, ez a szobáé.",
+   "rd": "셈미 버이. 이트 번넉 어 쿨촉: 에즈 어 커푸에, 에즈 어 쏘바에.",
+   "ko": "괜찮아요. 열쇠 여기 있어요: 이건 대문 거, 이건 방 거.",
    "note": "-é = ~의 것",
    "tags": [
     "expr:Semmi baj"
@@ -108,6 +118,11 @@
      "baj",
      "baj",
      "버이"
+    ],
+    [
+     "vannak",
+     "van",
+     "번"
     ],
     [
      "kulcsok",
@@ -129,9 +144,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Köszönöm. Mikor van reggeli?",
-   "rd": "쾨쐬뇜. 미코르 번 렉겔리?",
-   "ko": "감사합니다. 아침은 언제예요?",
+   "hu": "Köszönöm szépen. Mikor van a reggeli?",
+   "rd": "쾨쐬뇜 쎄펜. 미코르 번 어 렉겔리?",
+   "ko": "감사합니다. 아침 식사는 언제예요?",
    "note": "reggeli = 아침 식사",
    "tags": [],
    "emotion": "polite",
@@ -140,6 +155,11 @@
      "Köszönöm",
      "köszön",
      "쾨쇠니"
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
     ],
     [
      "van",
@@ -156,13 +176,18 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Nyolctól tízig, a teraszon.",
-   "rd": "뇰츠톨 티직, 어 테러쏜.",
-   "ko": "8시부터 10시까지, 테라스에서요.",
+   "hu": "Nyolctól tízig, kint a teraszon.",
+   "rd": "뇰츠톨 티직, 킨트 어 테러쏜.",
+   "ko": "8시부터 10시까지, 밖에 테라스에서요.",
    "note": "-tól ... -ig = ~부터 ~까지",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
+    [
+     "kint",
+     "kint",
+     "킨트"
+    ],
     [
      "teraszon",
      "terasz",
@@ -173,15 +198,15 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "És van wifi? Mi a jelszó?",
-   "rd": "에시 번 비피? 미 어 옐쏘?",
-   "ko": "그리고 와이파이 있어요? 비밀번호가 뭐예요?",
+   "hu": "Van wifi? És mi a jelszó?",
+   "rd": "번 비피? 에시 미 어 옐쏘?",
+   "ko": "와이파이 있어요? 비밀번호가 뭐예요?",
    "note": "jelszó = 비밀번호",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "van",
+     "Van",
      "van",
      "번"
     ],
@@ -202,8 +227,8 @@
    "speaker": "B",
    "hu": "Van. A jelszó: egészségedre.",
    "rd": "번. 어 옐쏘: 에게쓰세게드레.",
-   "ko": "있어요. 비밀번호는 「에게세게드레」.",
-   "note": "egészségedre = 건배(네 건강을 위해)",
+   "ko": "있어요. 비밀번호는 「에게세게드레」예요.",
+   "note": "egészségedre = 건배",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
@@ -230,7 +255,7 @@
    "hu": "Egészsé... Hogy kell írni?",
    "rd": "에게쓰세... 호지 켈 이르니?",
    "ko": "에게세… 어떻게 써요?",
-   "note": "írni = 쓰다",
+   "note": "Hogy kell írni = 어떻게 써요",
    "tags": [
     "expr:Hogy kell írni"
    ],
@@ -256,10 +281,10 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Lassan mondom: e-gész-sé-ged-re. Kis betűkkel.",
-   "rd": "러쎤 몬돔: 에-게쓰-세-게드-레. 키시 베튀껠.",
-   "ko": "천천히 말할게요: 에-게스-세-게드-레. 소문자로요.",
-   "note": "kis betű = 소문자",
+   "hu": "Lassan: e-gész-sé-ged-re. Mind kisbetű.",
+   "rd": "러쎤: 에-게쓰-세-게드-레. 민드 키슈베튀.",
+   "ko": "천천히요: 에-게스-세-게드-레. 전부 소문자.",
+   "note": "kisbetű = 소문자",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -269,11 +294,6 @@
      "러셔느"
     ],
     [
-     "mondom",
-     "mond",
-     "몬드"
-    ],
-    [
      "gész",
      "gész",
      ""
@@ -294,8 +314,8 @@
      ""
     ],
     [
-     "betűkkel",
-     "betű",
+     "kisbetű",
+     "kisbetű",
      ""
     ]
    ]
@@ -303,9 +323,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Megvan, működik!",
-   "rd": "멕번, 뮈쾨딕!",
-   "ko": "됐다, 연결됐어요!",
+   "hu": "Megvan, már működik!",
+   "rd": "멕번, 마르 뮈쾨딕!",
+   "ko": "됐어요, 이제 연결됐어요!",
    "note": "működik = 작동하다",
    "tags": [],
    "emotion": "excited",
@@ -314,6 +334,11 @@
      "Megvan",
      "megvan",
      "메그번"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ],
     [
      "működik",
@@ -325,10 +350,10 @@
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Na látja! Ezt a szót Egerben sokat fogja hallani.",
-   "rd": "너 라트여! 에즈트 어 쏘트 에게르벤 쇼커트 폭여 헐러니.",
+   "hu": "Na látja! Egerben ezt a szót sokat fogja hallani.",
+   "rd": "너 라트여! 에게르벤 에즈트 어 쏘트 쇼커트 폭여 헐러니.",
    "ko": "거 봐요! 에게르에선 이 말 많이 듣게 될 거예요.",
-   "note": "fogja hallani = 듣게 될 것이다",
+   "note": "Na látja = 거 봐요",
    "tags": [
     "expr:Na látja"
    ],

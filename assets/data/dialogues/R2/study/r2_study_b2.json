@@ -10,9 +10,9 @@
  "domain": [
   "study"
  ],
- "title": "기숙사 냉장고의 요거트",
+ "title": "기숙사 냉장고 요거트 실종",
  "emoji": "🥛",
- "scene": "기숙사 공용 주방. Réka 가 냉장고에 둔 요거트가 없어졌다고 한다. 아침에 먹은 요거트가 떠오른다",
+ "scene": "기숙사 공용 주방. Réka가 자기 요거트가 사라졌다고 한다. 아침에 먹은 게 갑자기 생각난다.",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Figyelj, láttad a joghurtomat? Itt volt a hűtőben.",
-   "rd": "피젤이, 라떠드 어 욕후르토머트? 이트 볼트 어 휘퇴벤.",
-   "ko": "있잖아, 내 요거트 봤어? 냉장고에 있었는데.",
+   "hu": "Figyelj, a joghurtom eltűnt a hűtőből! Láttad valahol?",
+   "rd": "피젤이, 어 욕후르톰 엘튄트 어 휘퇴뵐! 라떠드 벌러홀?",
+   "ko": "있잖아, 내 요거트가 냉장고에서 사라졌어! 어디 봤어?",
    "note": "hűtő = 냉장고",
    "tags": [
     "expr:Figyelj"
@@ -47,39 +47,39 @@
      "피겔"
     ],
     [
-     "láttad",
-     "lát",
-     "라트"
-    ],
-    [
-     "joghurtomat",
+     "joghurtom",
      "joghurt",
      ""
     ],
     [
-     "volt",
-     "van",
-     "번"
+     "eltűnt",
+     "eltűnik",
+     "엘튀니크"
     ],
     [
-     "hűtőben",
+     "hűtőből",
      "hűtő",
      ""
+    ],
+    [
+     "valahol",
+     "valahol",
+     "벌러홀"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Milyen joghurtot?",
-   "rd": "미옌 욕후르토트?",
+   "hu": "Milyen joghurt?",
+   "rd": "미옌 욕후르트?",
    "ko": "무슨 요거트?",
    "note": "milyen = 어떤",
    "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "joghurtot",
+     "joghurt",
      "joghurt",
      ""
     ]
@@ -88,26 +88,26 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Epreset, kicsit, a felső polcon. Ráírtam a nevemet is.",
-   "rd": "에프레세트, 키치트, 어 펠쇠 폴촌. 라이르텀 어 네베메트 이시.",
-   "ko": "딸기 맛, 작은 거, 맨 위 칸. 이름도 써 놨어.",
-   "note": "polc = 선반, 칸",
+   "hu": "Epres, kicsi, fent a polcon. Ráírtam a nevemet is.",
+   "rd": "에프레시, 키치, 펜트 어 폴촌. 라이르텀 어 네베메트 이시.",
+   "ko": "딸기, 작은 거, 위쪽 칸. 이름도 써놨어.",
+   "note": "polc = 선반",
    "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
-     "Epreset",
-     "epreset",
+     "Epres",
+     "epres",
      ""
     ],
     [
-     "kicsit",
+     "kicsi",
      "kicsi",
      "키치"
     ],
     [
-     "felső",
-     "felső",
+     "fent",
+     "fen",
      ""
     ],
     [
@@ -125,12 +125,22 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Hát, én ma reggel ettem egy epres joghurtot.",
-   "rd": "하트, 엔 머 렉겔 에뗌 에지 에프레시 욕후르토트.",
-   "ko": "음, 나 오늘 아침에 딸기 요거트 하나 먹었는데.",
+   "hu": "Hát, ma reggel ettem egy epreset. Nem tudtam, kinek a.",
+   "rd": "하트, 머 렉겔 에뗌 에지 에프레세트. 넴 투드텀, 키넥 어.",
+   "ko": "음, 오늘 아침에 딸기 하나 먹었는데. 누구 건지 몰랐어.",
    "note": "ettem = 먹었다",
    "tags": [],
    "emotion": "worried",
+   "segs": [
+    [
+     "worried",
+     "Hát, ma reggel ettem egy epreset."
+    ],
+    [
+     "flustered",
+     "Nem tudtam, kinek a."
+    ]
+   ],
    "lemmas": [
     [
      "Hát",
@@ -153,28 +163,43 @@
      ""
     ],
     [
-     "epres",
-     "epres",
+     "epreset",
+     "epreset",
      ""
     ],
     [
-     "joghurtot",
-     "joghurt",
-     ""
+     "tudtam",
+     "tud",
+     "투드"
+    ],
+    [
+     "kinek",
+     "ki",
+     "키"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Ne már! Nem láttad a nevemet?",
-   "rd": "네 마르! 넴 라떠드 어 네베메트?",
-   "ko": "아 진짜! 내 이름 못 봤어?",
-   "note": "ne már = 아 좀, 설마",
+   "hu": "Ne már! Tényleg nem láttad a nevemet rajta?",
+   "rd": "네 마르! 테닐렉 넴 라떠드 어 네베메트 러이터?",
+   "ko": "아 진짜! 이름 진짜 못 봤어?",
+   "note": "ne már = 설마",
    "tags": [
     "expr:Ne már"
    ],
    "emotion": "annoyed",
+   "segs": [
+    [
+     "annoyed",
+     "Ne már!"
+    ],
+    [
+     "shout",
+     "Tényleg nem láttad a nevemet rajta?"
+    ]
+   ],
    "lemmas": [
     [
      "már",
@@ -196,22 +221,27 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Nem volt rajta név. Az enyém volt, tegnap vettem.",
-   "rd": "넴 볼트 러이터 네브. 어즈 에넴 볼트, 텍너프 베뗌.",
-   "ko": "이름 없었어. 내 거였어, 어제 샀거든.",
+   "hu": "Semmi név nem volt. Az enyémnek hittem, tegnap vettem.",
+   "rd": "셈미 네브 넴 볼트. 어즈 에넴넥 히뗌, 텍너프 베뗌.",
+   "ko": "아무 이름도 없었어. 내 거라고 생각했지, 어제 샀거든.",
    "note": "az enyém = 내 것",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
+    [
+     "név",
+     "név",
+     "네브"
+    ],
     [
      "volt",
      "van",
      "번"
     ],
     [
-     "név",
-     "név",
-     "네브"
+     "hittem",
+     "hitt",
+     ""
     ],
     [
      "tegnap",
@@ -228,9 +258,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Biztos? Akkor hol van az enyém?",
-   "rd": "비즈토시? 어꼬르 홀 번 어즈 에넴?",
-   "ko": "확실해? 그럼 내 건 어디 있어?",
+   "hu": "Biztos vagy benne? Akkor hol a francban van az enyém?",
+   "rd": "비즈토시 버지 벤네? 어꼬르 홀 어 프런츠번 번 어즈 에넴?",
+   "ko": "확실해? 그럼 내 건 대체 어디 있어?",
    "note": "biztos = 확실한",
    "tags": [],
    "emotion": "worried",
@@ -246,6 +276,11 @@
      "홀"
     ],
     [
+     "francban",
+     "franc",
+     "프런츠"
+    ],
+    [
      "van",
      "van",
      "번"
@@ -255,10 +290,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Várj, nézzük meg. Mi ez itt hátul?",
-   "rd": "바르이, 네쥑 멕. 미 에즈 이트 하툴?",
-   "ko": "잠깐, 보자. 여기 뒤에 이건 뭐야?",
-   "note": "hátul = 뒤쪽에",
+   "hu": "Várj, nézzünk bele együtt. Mi ez itt hátul?",
+   "rd": "바르이, 네쥔크 벨레 에쥐트. 미 에즈 이트 하툴?",
+   "ko": "잠깐, 같이 보자. 여기 뒤에 이건 뭐야?",
+   "note": "hátul = 뒤에",
    "tags": [
     "expr:Várj"
    ],
@@ -270,9 +305,19 @@
      "바르"
     ],
     [
-     "nézzük",
+     "nézzünk",
      "néz",
      "네즈"
+    ],
+    [
+     "bele",
+     "bél",
+     "벨"
+    ],
+    [
+     "együtt",
+     "együtt",
+     "에듀트"
     ],
     [
      "itt",
@@ -323,8 +368,8 @@
    "speaker": "A",
    "hu": "Akkor reggel kinek a joghurtját ettem meg?",
    "rd": "어꼬르 렉겔 키넥 어 욕후르트야트 에뗌 멕?",
-   "ko": "그럼 아침에 내가 누구 요거트를 먹은 거지?",
-   "note": "kinek a…? = 누구의?",
+   "ko": "그럼 아침에 내가 누구 요거트를 먹은 거야?",
+   "note": "kinek a = 누구의",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
@@ -361,11 +406,21 @@
    "hu": "Szerintem Dávidé volt. Ő pedig mindent megszámol.",
    "rd": "쎄린템 다비데 볼트. 외 페딕 민덴트 멕싸몰.",
    "ko": "다비드 거였을걸. 걔는 뭐든 다 세어 봐.",
-   "note": "megszámol = 세어 보다",
+   "note": "megszámol = 세다",
    "tags": [
     "expr:Szerintem"
    ],
    "emotion": "teasing",
+   "segs": [
+    [
+     "teasing",
+     "Szerintem Dávidé volt."
+    ],
+    [
+     "amused",
+     "Ő pedig mindent megszámol."
+    ]
+   ],
    "lemmas": [
     [
      "volt",

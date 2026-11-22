@@ -13,7 +13,7 @@
  ],
  "title": "파란 염소는 두 곳",
  "emoji": "🍽️",
- "scene": "Dávid 가 저녁 식당을 예약했다. 셋이 단톡방에서 각자 찾아가기로 한다",
+ "scene": "Dávid가 저녁 식당 예약했다. 셋이 단톡에서 각자 찾아가기로 한다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
@@ -62,9 +62,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Szuper! Hol van?",
-   "rd": "쑤페르! 홀 번?",
-   "ko": "좋아! 어디야?",
+   "hu": "Szuper! Hol van pontosan?",
+   "rd": "쑤페르! 홀 번 폰토션?",
+   "ko": "좋아! 정확히 어디야?",
    "note": "hol van? = 어디 있어?",
    "tags": [],
    "at": "17:31",
@@ -80,6 +80,11 @@
      "van",
      "van",
      "번"
+    ],
+    [
+     "pontosan",
+     "pontos",
+     "폰토시"
     ]
    ]
   },
@@ -141,18 +146,18 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Én meg biciklivel. Ott találkozunk!",
-   "rd": "엔 멕 비칙리벨. 오트 털랄코준크!",
+   "hu": "Én meg bringával. Ott találkozunk!",
+   "rd": "엔 멕 브린가벌. 오트 털랄코준크!",
    "ko": "나는 자전거로. 거기서 만나!",
-   "note": "meg = 그리고(대조)",
+   "note": "bringa = 자전거",
    "tags": [],
    "at": "17:41",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "biciklivel",
-     "bicikli",
+     "bringával",
+     "bringa",
      ""
     ],
     [
@@ -271,9 +276,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Itt csak egy bácsi integet, piros pulcsiban. 😅",
-   "rd": "이트 척 에지 바치 인테게트, 피로시 풀치번. 😅",
-   "ko": "여기 빨간 스웨터 입은 할아버지 한 분만 손 흔드는데. 😅",
+   "hu": "Itt csak egy bácsi integet piros pulcsiban. 😅",
+   "rd": "이트 척 에지 바치 인테게트 피로시 풀치번. 😅",
+   "ko": "여기 빨간 스웨터 입은 할아버지 한 분만 손 흔드시는데. 😅",
    "note": "pulcsiban = 스웨터를 입고",
    "tags": [],
    "at": "19:00",

@@ -34,13 +34,18 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Mindent bepakoltál? Útlevél, telefon, töltő?",
-   "rd": "민덴트 베퍼콜탈? 우틀레벨, 텔레폰, 퇼퇴?",
-   "ko": "다 챙겼어? 여권, 휴대폰, 충전기?",
+   "hu": "Na, mindent bepakoltál? Útlevél, telefon, töltő?",
+   "rd": "너, 민덴트 베퍼콜탈? 우틀레벨, 텔레폰, 퇼퇴?",
+   "ko": "나, 다 챙겼어? 여권, 휴대폰, 충전기?",
    "note": "bepakoltál = 짐을 쌌다",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
     [
      "bepakoltál",
      "bepakolt",
@@ -242,7 +247,7 @@
    "hu": "Akkor ezt vidd magaddal. Én kötöttem, de ne nézd meg közelről.",
    "rd": "어꼬르 에즈트 비드 머거덜. 엔 쾨퇴뗌, 데 네 네즈드 멕 쾨젤뢸.",
    "ko": "그럼 이거 가져가. 내가 떴는데, 가까이서 보진 마.",
-   "note": "kötöttem = 내가 떴다(뜨개질)",
+   "note": "kötöttem = 내가 떴다",
    "tags": [
     "expr:Nézd"
    ],
@@ -591,7 +596,7 @@
    "hu": "Nem veszem le. Január hetedikén is ebben jövök.",
    "rd": "넴 베쎔 레. 여누아르 헤테디켄 이시 에벤 요뵉.",
    "ko": "안 벗을게. 1월 7일에도 이거 하고 올게.",
-   "note": "ebben = 이것을 하고(입고)",
+   "note": "ebben = 이것을 하고",
    "tags": [],
    "emotion": "shy",
    "lemmas": [

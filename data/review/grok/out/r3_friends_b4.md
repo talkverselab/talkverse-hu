@@ -1,0 +1,29 @@
+=== r3_friends_b4
+kind: long
+title: 헝가리어로 주문하기
+emoji: ☕
+scene: Bence 의 카페. Réka 가 지켜보는 가운데 처음부터 끝까지 헝가리어로만 주문해 보기로 했다
+b: Réka
+c: Bence
+register: casual
+twist: 12 reveal
+flags: romance
+purpose: making_friends
+goal: 카페 주문 전 과정(… kérek · Mennyi lesz? · Kártyával)과 「헝가리어로 해 줘」
+expressions: Na; Szóval; Mennyi lesz; Igazából
+B | Na, ma csak magyarul rendelsz. Egy szó angolul se! | 자, 오늘은 헝가리어로만 주문해. 영어 한 마디도 안 돼! | se = ~도 안 | emotion=teasing
+A | Oké, menni fog. Otthon gyakoroltam. | 좋아, 할 수 있어. 집에서 연습했어. | gyakoroltam = 연습했다 | emotion=excited
+C | Hello! What can I get you? | 안녕! 뭐 줄까?(영어로) | 외국인이면 영어로 바꿔 말하는 가게가 많다 | emotion=cheerful
+A | Szia, Bence! Egy nagy tejeskávét kérek zabtejjel. | 안녕, 벤체! 큰 라테 하나, 귀리 우유로. | zabtej = 귀리 우유 | emotion=cheerful
+C | Okay, large oat latte. Anything else? | 오케이, 귀리 라테 큰 거. 또?(또 영어) | 끝까지 영어 | emotion=cheerful
+A | Bence, kérlek, magyarul! Gyakorolni akarok. | 벤체, 제발 헝가리어로! 연습하고 싶어. | gyakorolni = 연습하다 | emotion=annoyed
+C | Bocsi, bocsi. Mást is kérsz? | 미안, 미안. 다른 것도 줄까? | mást is = 다른 것도 | emotion=flustered
+A | Igen, egy pogácsát is. Mennyi lesz? | 응, 포가차도 하나. 얼마야? | mennyi lesz? = 얼마야? | emotion=cheerful
+C | Kétezer-háromszáz. Kártyával vagy készpénzzel? | 2300. 카드야, 현금이야? | készpénz = 현금 | emotion=neutral
+A | Kártyával, tessék. Látod, Réka, egy angol szó se! | 카드로, 여기. 봤지, 레카, 영어 한 마디도 없어! | látod = 봤지 | emotion=excited
+B | Ügyes! De Bence, te miért váltasz mindig angolra? | 잘했어! 근데 벤체, 너는 왜 맨날 영어로 바꿔? | váltasz = 바꾼다 | emotion=amused
+C | Igazából jövő héten angol vizsgám van. | 사실 다음 주에 영어 시험이 있어. | vizsga = 시험 | emotion=shy
+A | Szóval rajtam gyakoroltál?! | 그러니까 나를 상대로 연습한 거야?! | rajtam = 나에게 | emotion=tsukkomi
+C | Pontosan. Te magyarul, én angolul. Jó üzlet, nem? | 바로 그거. 너는 헝가리어, 나는 영어. 괜찮은 거래지? | üzlet = 거래 | emotion=teasing
+A | Rendben. De akkor a pogácsa ingyen. | 좋아. 대신 포가차는 공짜다. | ingyen = 공짜로 | emotion=amused
+C | Neked holnap is ingyen. Gyere vissza. | 너한텐 내일도 공짜야. 또 와. | gyere vissza = 다시 와 | emotion=shy

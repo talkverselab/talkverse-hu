@@ -432,16 +432,16 @@ flags: romance
 purpose: love
 goal: 채팅 인사 puszi(볼뽀뽀, 흔한 끝인사)와 주문 말하기(…-val, … nélkül)
 expressions: Persze; Bocsi; Nyugi; Tényleg?
-B | Szia! Holnap is jössz a rajzórára? | 안녕! 내일도 드로잉 수업 와? | rajzóra = 드로잉 수업 | emotion=cheerful at=20:05
-A | Igen, persze! Hozok neked kávét. | 응, 당연하지! 커피 가져다줄게. | hozok = 가져간다 | emotion=cheerful at=20:06
-B | Jaj, köszi! Tejjel, cukor nélkül. ☕ | 아, 고마워! 우유 넣고 설탕은 빼고. ☕ | nélkül = ~없이 | emotion=cheerful at=20:06
-A | Rendben, akkor holnap. Puszi! | 알았어, 그럼 내일. 뽀뽀! | puszi = 볼뽀뽀(끝인사) | emotion=cheerful at=20:07
-A | Úristen, bocsi! Nem úgy értettem! | 세상에, 미안! 그런 뜻 아니었어! | nem úgy értettem = 그런 뜻이 아니었어 | emotion=flustered at=20:07
-B | Mit? 😄 | 뭘? 😄 | mit? = 뭘? | emotion=amused at=20:09
-A | A puszit. Az túl sok volt, ugye? | 뽀뽀 말이야. 너무 갔지, 그렇지? | túl sok = 너무 많은 | emotion=worried at=20:09
-B | Nyugi, itt mindenki puszit küld. Még a fogorvosom is. 😂 | 진정해, 여기선 다들 뽀뽀 보내. 내 치과 의사도. 😂 | nyugi = 진정해 | emotion=amused at=20:10
-A | Tényleg? Akkor jó, megnyugodtam. | 진짜? 그럼 다행이다, 안심했어. | megnyugodtam = 안심했다 | emotion=cheerful at=20:11
-B | De a tiéd jobban esett, mint a fogorvosé. 🙈 | 근데 네 건 치과 의사 거보다 더 좋았어. 🙈 | jól esik = 기분 좋다 | emotion=shy at=20:13 stamp=🙈
+B | Na, holnap is jössz a rajzórára? | 나, 내일도 드로잉 수업 와? | rajzóra = 드로잉 수업 | emotion=cheerful at=20:05
+A | Persze! Hozok neked kávét. | 당연하지! 커피 가져다줄게. | hozok = 가져간다 | emotion=cheerful at=20:06
+B | Jaj, köszi nagyon! Tejjel, cukor nélkül. ☕ | 아, 진짜 고마워! 우유 넣고 설탕 없이. ☕ | nélkül = ~없이 | emotion=cheerful at=20:06
+A | Jó, akkor holnap. Puszi! | 좋아, 그럼 내일. 뽀뽀! | puszi = 볼뽀뽀(끝인사) | emotion=cheerful at=20:07
+A | Bocsi, úristen! Nem úgy gondoltam! | 미안, 세상에! 그런 뜻 아니었어! | nem úgy gondoltam = 그런 뜻이 아니었어 | emotion=flustered at=20:07
+B | Hogy mit? 😄 | 뭘 말이야? 😄 | hogy mit? = 뭘 말이야? | emotion=amused at=20:09
+A | A puszit. Túl sok volt, ugye? | 뽀뽀 말이야. 너무 갔지, 그렇지? | túl sok = 너무 많은 | emotion=worried at=20:09
+B | Nyugi, mindenki puszit küld itt. Még a fogorvosom is. 😂 | 진정해, 여기선 다들 뽀뽀 보내. 내 치과 의사도. 😂 | nyugi = 진정해 | emotion=amused at=20:10
+A | Tényleg? Akkor oké, megnyugodtam. | 진짜? 그럼 괜찮아, 안심했어. | megnyugodtam = 안심했다 | emotion=cheerful at=20:11
+B | De a tiéd sokkal jobban esett, mint a fogorvosé. 🙈 | 근데 네 건 치과 의사 거보다 훨씬 더 좋았어. 🙈 | jól esik = 기분 좋다 | emotion=shy at=20:13 stamp=🙈
 
 === r3_love_b1
 kind: long
@@ -456,22 +456,23 @@ flags: romance
 purpose: love
 goal: 식당 주문(…-t kérek · szénsavas/mentes)과 답례 인사(Jó étvágyat! — Köszönöm, viszont)
 expressions: Izé; Tessék; Szóval; Pontosan
-B | Ez a kedvenc helyem. Nem elegáns, de itt főznek a legjobban a városban. | 여기가 내 최애 식당이야. 고급스럽진 않은데, 이 도시에서 제일 맛있게 해. | a legjobban = 가장 잘 | emotion=excited
-A | Tetszik, olyan, mint egy nagymama konyhája. Mit ajánlasz? | 마음에 들어, 할머니 부엌 같아. 뭐 추천해? | ajánlasz = 네가 추천한다 | emotion=cheerful
-B | A töltött káposzta itt fantasztikus, azt kóstold meg. | 여기 양배추 롤이 최고야, 그거 먹어 봐. | töltött káposzta = 양배추 롤 | emotion=cheerful
-C | Jó estét, már választottak? | 안녕하세요, 고르셨어요? | választottak = (두 분이) 고르셨다 | emotion=polite
-A | Igen. Én egy töltött káposztát kérek, és egy ásványvizet. | 네. 저는 양배추 롤 하나랑 생수 하나 주세요. | ásványvíz = 생수 | emotion=polite
+B | Na, ez a kedvenc helyem. Nem elegáns, de itt főznek a legjobban a városban. | 나, 여기가 내 최애 식당이야. 고급스럽진 않은데, 이 도시에서 제일 맛있게 해. | a legjobban = 가장 잘 | emotion=excited
+A | Tetszik, tényleg. Olyan, mint egy nagymama konyhája. Mit ajánlasz? | 진짜 마음에 들어. 할머니 부엌 같아. 뭐 추천해? | ajánlasz = 네가 추천한다 | emotion=cheerful
+B | A töltött káposzta itt durván jó, azt kóstold meg. | 여기 양배추 롤이 진짜 최고야, 그거 먹어 봐. | durván jó = 진짜 좋다 | emotion=cheerful
+C | Jó estét! Már választottak? | 안녕하세요! 고르셨어요? | választottak = (두 분이) 고르셨다 | emotion=polite
+A | Igen. Egy töltött káposztát kérek, meg egy ásványvizet. | 네. 양배추 롤 하나랑 생수 하나 주세요. | ásványvíz = 생수 | emotion=polite
 C | Szénsavasat vagy mentest? | 탄산이요, 무탄산이요? | szénsavas = 탄산이 든 | emotion=polite
-A | Izé... a buborékosat. | 어… 거품 있는 걸로요. | buborékos = 거품 있는(szénsavas 를 몰라서) | emotion=flustered
-C | Értem, szénsavasat. És a hölgy? | 알겠습니다, 탄산수요. 그리고 숙녀분은요? | a hölgy = 숙녀분 | emotion=amused
-B | Én egy paprikás csirkét kérek, galuskával. | 저는 닭고기 파프리카 스튜요, 갈루슈카 곁들여서. | galuska = 갈루슈카(작은 수제비) | emotion=polite
-C | Tessék, a töltött káposzta és a paprikás csirke. Jó étvágyat! | 여기 양배추 롤과 닭고기 파프리카 스튜 나왔습니다. 맛있게 드세요! | jó étvágyat = 맛있게 드세요 | emotion=polite
-A | Köszönöm, egészségére! | 감사합니다, 건강을 위하여! | egészségére = (건배·재채기 때) 건강을 위하여 | emotion=cheerful
-C | Én nem iszom, de köszönöm. | 저는 안 마시지만, 감사합니다. | nem iszom = 안 마신다 | emotion=amused
-B | Ha valaki azt mondja, jó étvágyat, akkor azt feleled: köszönöm, viszont. | 누가 "맛있게 드세요" 하면, "감사합니다, 당신도요" 라고 대답해. | viszont = (답례로) 당신도요 | emotion=amused
-A | Szóval az egészségedre csak koccintáshoz kell? | 그러니까 "건강을 위하여"는 건배할 때만 하는 거야? | koccintás = 건배 | emotion=surprised
-B | Pontosan, meg ha valaki tüsszent. De a pincér arca megérte. | 정확해, 아니면 누가 재채기할 때. 근데 웨이터 표정은 볼 만했어. | tüsszent = 재채기한다 | emotion=amused+teasing
-A | Jó. De legalább nevettél, akkor megérte hibázni. | 알았어. 그래도 네가 웃었으니 틀린 보람이 있네. | megérte = 그럴 가치가 있었다 | emotion=gentle
+A | Izé... a buborékosat kérem. | 어… 거품 있는 걸로요. | buborékos = 거품 있는 | emotion=flustered
+C | Értem, szénsavasat. És a hölgy? | 알겠어요, 탄산수네요. 그리고 숙녀분은요? | a hölgy = 숙녀분 | emotion=amused
+B | Én egy paprikás csirkét kérek, galuskával. | 저는 파프리카 치킨 스튜요, 갈루슈카랑. | galuska = 갈루슈카 | emotion=polite
+C | Tessék, a töltött káposzta meg a paprikás csirke. Jó étvágyat! | 여기요, 양배추 롤이랑 파프리카 치킨요. 맛있게 드세요! | jó étvágyat = 맛있게 드세요 | emotion=polite
+A | Köszönöm szépen, egészségére! | 감사합니다, 건강을 위하여! | egészségére = 건강을 위하여 | emotion=cheerful
+C | Köszönöm, de én nem iszom. | 감사합니다, 근데 저는 안 마셔요. | nem iszom = 안 마신다 | emotion=amused
+B | Figyelj, ha jó étvágyat mondanak, akkor köszönöm, viszont a válasz. | 있잖아, 누가 "맛있게 드세요" 하면 "감사합니다, 당신도요"라고 해. | viszont = (답례로) 당신도요 | emotion=amused
+A | Szóval az egészségedre csak koccintásnál mondják? | 그러니까 "건강을 위하여"는 건배할 때만 하는 거야? | koccintás = 건배 | emotion=surprised
+B | Pontosan. Meg ha valaki tüsszent. De a pincér arca megérte. | 정확해. 아니면 누가 재채기할 때. 근데 웨이터 표정은 볼 만했어. | tüsszent = 재채기한다 | emotion=amused+teasing
+A | Jól van. De legalább nevettél, akkor megérte a hiba. | 그래. 그래도 네가 웃었으니 틀린 보람이 있네. | megérte = 그럴 가치가 있었다 | emotion=gentle
+
 === r3_love_b2
 kind: long
 title: 구멍 난 목도리
@@ -484,13 +485,13 @@ flags: romance
 purpose: love
 goal: 날짜·기간 말하기(január hetedikén · két hét)와 '도착하면 연락해'(Írj, ha megérkeztél)
 expressions: Persze; Amúgy; Igazából; Nézd
-B | Mindent bepakoltál? Útlevél, telefon, töltő? | 다 챙겼어? 여권, 휴대폰, 충전기? | bepakoltál = 짐을 쌌다 | emotion=worried
+B | Na, mindent bepakoltál? Útlevél, telefon, töltő? | 나, 다 챙겼어? 여권, 휴대폰, 충전기? | bepakoltál = 짐을 쌌다 | emotion=worried
 A | Igen, háromszor is megnéztem. Az útlevél itt van a zsebemben. | 응, 세 번이나 확인했어. 여권은 여기 주머니에 있어. | zsebemben = 내 주머니에 | emotion=cheerful
 B | És mikor jössz vissza pontosan? | 그래서 정확히 언제 돌아와? | pontosan = 정확히 | emotion=gentle
 A | Január hetedikén. Csak két hét, nem olyan sok. | 1월 7일. 2주뿐이야, 그렇게 길지 않아. | hetedikén = 7일에 | emotion=gentle
 B | Persze, két hét semmi. Amúgy otthon most hideg van? | 그럼, 2주는 아무것도 아니지. 그나저나 거기 지금 추워? | amúgy = 그나저나 | emotion=stiff+cheerful
 A | Nagyon. Még hidegebb, mint itt. | 엄청. 여기보다 더 추워. | hidegebb = 더 추운 | emotion=amused
-B | Akkor ezt vidd magaddal. Én kötöttem, de ne nézd meg közelről. | 그럼 이거 가져가. 내가 떴는데, 가까이서 보진 마. | kötöttem = 내가 떴다(뜨개질) | emotion=shy
+B | Akkor ezt vidd magaddal. Én kötöttem, de ne nézd meg közelről. | 그럼 이거 가져가. 내가 떴는데, 가까이서 보진 마. | kötöttem = 내가 떴다 | emotion=shy
 A | Egy sál! Hű, de szép, de ez itt egy lyuk? | 목도리! 와, 예쁘다, 근데 여기 이거 구멍이야? | lyuk = 구멍 | emotion=surprised+teasing
 B | Az nem lyuk, hanem dizájn. Három hétig kötöttem. | 그건 구멍이 아니라 디자인이야. 3주 동안 떴어. | három hétig = 3주 동안 | emotion=flustered
 A | Három hétig? De hát csak két hete mondtam, hogy hazamegyek. | 3주? 근데 집에 간다고 말한 건 겨우 2주 전인데. | két hete = 2주 전에 | emotion=surprised
@@ -499,7 +500,7 @@ A | És kinek kezdted? | 그럼 누구 주려고 시작했는데? | kinek = 누�
 B | Magamnak, de rajtad jobban áll. Nézd, jön a buszod! | 나한테, 근데 너한테 더 잘 어울려. 봐, 네 버스 온다! | rajtad jobban áll = 너한테 더 어울린다 | emotion=gentle+surprised
 A | Jaj, már? Jó, akkor mennem kell. | 아, 벌써? 그래, 그럼 가야겠다. | mennem kell = 나 가야 해 | emotion=sad
 B | Írj, ha megérkeztél. És ne vedd le a sálat a képeken. | 도착하면 문자해. 그리고 사진에서 목도리 벗지 마. | megérkeztél = 도착했다 | emotion=gentle+teasing
-A | Nem veszem le. Január hetedikén is ebben jövök. | 안 벗을게. 1월 7일에도 이거 하고 올게. | ebben = 이것을 하고(입고) | emotion=shy
+A | Nem veszem le. Január hetedikén is ebben jövök. | 안 벗을게. 1월 7일에도 이거 하고 올게. | ebben = 이것을 하고 | emotion=shy
 
 === r3_love_b3
 kind: long
@@ -530,6 +531,7 @@ A | Úristen, hét üzenet jött tőle, és most hív! | 세상에, 걔한테 �
 B | Akkor vedd fel! Mire vársz? | 그럼 받아! 뭘 기다려? | vedd fel = 받아 | emotion=shout
 C | Végre! Azt hittem, baj van, és már indultam hozzád. | 드디어! 무슨 일 생긴 줄 알고 너한테 가려던 참이었어. | indultam = 출발했다 | emotion=surprised+worried
 A | Bocsi, repülő üzemmód. De ha már elindultál, igyunk egy kávét lent? | 미안, 비행기 모드였어. 근데 이미 나섰으면, 아래에서 커피 한잔할까? | ha már = 이왕 ~했으니 | emotion=flustered+shy
+
 === r3_love_b4
 kind: long
 title: 잘 지내요, 배불러요
@@ -543,22 +545,22 @@ flags: romance
 purpose: love media
 goal: 어른과의 존댓말(maga·3인칭 동사), 배부르다(jóllaktam)와 잘 지낸다(jól vagyok) 구별, 말 놓기(Tegeződjünk)
 expressions: Jaj; Persze; Izé; Semmi baj; Tudod mit
-C | Jó napot! Jöjjön be, érezze magát otthon. | 어서 와요! 들어와요, 편하게 있어요. | érezze magát otthon = 편히 계세요 | emotion=polite
-A | Csókolom! Köszönöm a meghívást, hoztam egy kis virágot. | 안녕하세요! 초대해 주셔서 감사해요, 꽃 조금 가져왔어요. | csókolom = 어른께 하는 인사 | emotion=stiff
-C | Jaj, de szép! Anna, tedd vízbe, légyszi. | 어머, 예뻐라! 언너, 물에 꽂아 줘. | tedd vízbe = 물에 꽂아 | emotion=cheerful
-B | Persze. Ne izgulj, anyukám nem harap. | 그래. 긴장하지 마, 우리 엄마 안 물어. | ne izgulj = 긴장하지 마 | emotion=teasing
-C | Üljön le, kérem. Remélem, éhes, mert sokat főztem. | 앉으세요. 배고프면 좋겠네요, 많이 했거든요. | üljön le = 앉으세요 | emotion=cheerful
-A | Nagyon, és milyen finom illat! Ez gulyás? | 엄청요, 냄새 정말 좋네요! 이거 굴라시예요? | illat = 향기 | emotion=excited
-C | Igen, a nagymamám receptje. Kóstolja meg, de vigyázzon, forró. | 네, 우리 할머니 레시피예요. 드셔 봐요, 뜨거우니 조심하고요. | kóstolja meg = 맛보세요 | emotion=gentle
-A | Hű, ez nagyon finom! Még soha nem ettem ilyen jót. | 와, 정말 맛있어요! 이렇게 맛있는 건 처음이에요. | még soha = 아직 한 번도 | emotion=excited
-C | Örülök. Kér még egy tányérral? | 다행이네요. 한 그릇 더 드릴까요? | kér = (존대) 원하세요 | emotion=cheerful
+C | Jó napot, jöjjön csak be! Érezze magát otthon. | 안녕하세요, 들어오세요! 편히 계세요. | érezze magát otthon = 편히 계세요 | emotion=polite
+A | Csókolom! Köszönöm szépen a meghívást, hoztam virágot. | 안녕하세요! 초대해 주셔서 정말 감사해요, 꽃 가져왔어요. | csókolom = 어른께 하는 인사 | emotion=stiff
+C | Jaj, de kedves! Anna, tedd be vízbe, légyszi. | 어머, 고마워요! 안나, 물에 꽂아 줘. | tedd be vízbe = 물에 꽂아 | emotion=cheerful
+B | Persze. Nyugi, anya tényleg nem harap. | 그래. 진정해, 우리 엄마 진짜 안 물어. | ne izgulj = 긴장하지 마 | emotion=teasing
+C | Üljön le nyugodtan. Remélem éhes, mert sokat főztem. | 편하게 앉으세요. 배고프면 좋겠네요, 많이 했거든요. | üljön le = 앉으세요 | emotion=cheerful
+A | Nagyon! Milyen jó illata van. Ez gulyás? | 엄청요! 냄새 정말 좋네요. 이거 굴라시예요? | illat = 향기 | emotion=excited
+C | Igen, a nagymamám receptje. Kóstolja meg, de vigyázzon, forró. | 네, 우리 할머니 레시피예요. 드셔 봐요, 뜨거우니 조심하세요. | kóstolja meg = 맛보세요 | emotion=gentle
+A | Hú, ez isteni! Még soha nem ettem ilyen finomat. | 와, 진짜 맛있어요! 이렇게 맛있는 건 처음이에요. | még soha = 아직 한 번도 | emotion=excited
+C | Örülök neki. Kér még egy tányérral? | 다행이네요. 한 그릇 더 드릴까요? | kér = (존대) 원하세요 | emotion=cheerful
 A | Nem, köszönöm, jól vagyok. | 아니요, 감사해요, 저 잘 지내요. | jól vagyok = 잘 지내요(배불러요 = jóllaktam) | emotion=polite
-C | Annak örülök. De kér még levest, vagy nem? | 그거 다행이네요. 근데 국 더 드실 거예요, 말 거예요? | annak örülök = 그거 다행이다 | emotion=amused
+C | Annak örülök. De a levesből kér még, vagy nem? | 그거 다행이네요. 근데 국은 더 드실 거예요? | annak örülök = 그거 다행이다 | emotion=amused
 B | Anya, azt akarta mondani, hogy jóllakott. | 엄마, 배부르다는 말이었어. | jóllakott = 배불렀다 | emotion=amused
-A | Igen, jóllaktam! Bocsánat, ez a két szó még összekeveredik. | 네, 배불러요! 죄송해요, 이 두 말이 아직 헷갈려요. | összekeveredik = 섞인다 | emotion=flustered
-C | Semmi baj. Tudod mit, tegeződjünk, Éva vagyok. | 괜찮아요. 그럼 우리 말 놓자, 나는 에바야. | tegeződjünk = 서로 말 놓자 | emotion=gentle
-A | Rendben, Éva! Akkor kér, izé, kérsz egy kis kenyeret? | 알겠어요, 에바! 그럼 빵 좀 드… 어, 먹을래? | kérsz = (반말) 원해 | emotion=flustered
-B | Látod, anya? Két perc, és már ő kínál minket a saját asztalunknál. | 봐, 엄마? 2분 만에 벌써 우리 식탁에서 우리한테 음식을 권해. | kínál = 권한다 | emotion=amused+teasing
+A | Igen, jóllaktam! Bocs, ez a két szó még mindig összekeveredik. | 네, 배불러요! 죄송해요, 이 두 말이 아직도 헷갈려요. | összekeveredik = 섞인다 | emotion=flustered
+C | Semmi baj. Tudod mit, tegeződjünk, Éva vagyok. | 괜찮아요. 있잖아, 우리 말 놓자, 나는 에바야. | tegeződjünk = 서로 말 놓자 | emotion=gentle
+A | Rendben, Éva! Akkor kérsz, izé, egy kis kenyeret? | 알겠어요, 에바! 그럼 빵 좀, 어, 먹을래? | kérsz = (반말) 원해 | emotion=flustered
+B | Látod, anya? Két perc alatt már ő kínál minket a saját asztalunknál. | 봐, 엄마? 2분 만에 벌써 우리 식탁에서 우리한테 권해. | kínál = 권한다 | emotion=amused+teasing
 
 === r3_love_c1
 kind: chat
@@ -572,13 +574,13 @@ flags: romance
 purpose: love
 goal: 장소 제안하기(Mit szólnál …-hoz?)와 거절·이유 말하기(…, de …)
 expressions: Mit szólnál; Igazából; Mindegy; Oké
-B | Szia! Szombat este szabad vagy? 😊 | 안녕! 토요일 저녁 시간 돼? 😊 | szabad = 비어 있는, 한가한 | emotion=cheerful at=21:10
-A | Szia! Igen, teljesen szabad. Mit tervezel? | 안녕! 응, 완전 비어 있어. 뭐 계획해? | tervezel = 계획한다 | emotion=excited at=21:12
-B | Még semmit. Arra gondoltam, hogy te választasz helyet. 😇 | 아직 아무것도. 네가 장소를 고르면 어떨까 했어. 😇 | arra gondoltam = ~라고 생각했다 | emotion=teasing at=21:12
+B | Szia! Szombat este ráérsz? 😊 | 안녕! 토요일 저녁 시간 돼? 😊 | szabad = 비어 있는, 한가한 | emotion=cheerful at=21:10
+A | Szia! Igen, teljesen szabad vagyok. Mit tervezel? | 안녕! 응, 완전 비어 있어. 뭐 계획해? | tervezel = 계획한다 | emotion=excited at=21:12
+B | Még semmit. Arra gondoltam, hogy te válassz helyet. 😇 | 아직 아무것도. 네가 장소를 고르면 어떨까 했어. 😇 | arra gondoltam = ~라고 생각했다 | emotion=teasing at=21:12
 A | Mit szólnál egy pizzához a belvárosban? | 시내에서 피자 어때? | mit szólnál …-hoz? = ~ 어때? | emotion=cheerful at=21:14
-B | A pizza jó, de múlt héten háromszor ettem. 🍕 | 피자 좋은데, 지난주에 세 번 먹었어. 🍕 | háromszor = 세 번 | emotion=amused at=21:15
-A | Akkor egy kis vendéglő? Van egy jó hely a Ráday utcában. | 그럼 작은 식당? 라다이 거리에 좋은 데 있어. | vendéglő = 식당 | emotion=cheerful at=21:17
-B | Hallottam róla, de oda előre kell foglalni. Szombatra már biztos nincs hely. | 들어 봤는데, 거긴 미리 예약해야 해. 토요일은 분명 자리 없을 거야. | foglalni = 예약하다 | emotion=worried at=21:18
+B | A pizza jó lenne, de múlt héten már háromszor ettem. 🍕 | 피자 괜찮은데, 지난주에 벌써 세 번 먹었어. 🍕 | háromszor = 세 번 | emotion=amused at=21:15
+A | Akkor egy kis vendéglő? Van egy jó hely a Ráday utcában. | 그럼 작은 식당? 라다이 거리에 괜찮은 데 있어. | vendéglő = 식당 | emotion=cheerful at=21:17
+B | Hallottam róla, de oda előre kell foglalni. Szombatra már tuti nincs hely. | 들어 봤는데, 거긴 미리 예약해야 해. 토요일은 분명 자리 없을 거야. | foglalni = 예약하다 | emotion=worried at=21:18
 A | Jaj, igaz. Akkor mozi, vagy séta a Duna-parton? | 아, 맞다. 그럼 영화, 아니면 두너강변 산책? | séta = 산책 | emotion=worried at=21:20
 B | Novemberben a Duna-parton? Megfagyunk. 🥶 | 11월에 강변? 얼어 죽어. 🥶 | megfagyunk = 우리가 언다 | emotion=tsukkomi at=21:21
 A | Oké, feladom. 😅 Te mit szeretnél igazából? | 오케이, 포기. 😅 넌 사실 뭐 하고 싶어? | feladom = 포기한다 | emotion=flustered at=21:30

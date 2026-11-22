@@ -1,0 +1,28 @@
+=== r3_friends_b1
+kind: long
+title: 아래층 할머니
+emoji: 🏠
+scene: Réka 의 이사를 돕는 날. 무거운 상자를 나르다 계단에서 아래층 할머니와 마주친다
+b: Réka
+c: Néni
+register: mixed
+twist: 11 reveal
+purpose: making_friends
+goal: 이웃에게 정중히 사과·인사하기(Elnézést a zajért · Csókolom), 친구와는 반말
+expressions: Elnézést; Csókolom; Szóval; Na
+B | Na, még három doboz van, aztán kész. | 자, 상자 세 개만 더 하면 끝이야. | kész = 끝난 | emotion=cheerful
+A | Jó, de mi van ebben? Annyira nehéz! | 좋아, 근데 여기 뭐가 들었어? 진짜 무거워! | ebben = 이 안에 | emotion=annoyed
+B | Régi tányérok meg lábasok. Vigyázz! | 오래된 접시랑 냄비야. 조심해! | vigyázz = 조심해 | emotion=worried
+A | Vigyázok. Remélem, nem ébresztünk fel senkit. | 조심할게. 누구 안 깨우면 좋겠다. | szomszéd = 이웃 | emotion=worried
+C | Mi ez a zaj egész délelőtt? | 오전 내내 이게 무슨 소음이야? | zaj = 소음 | emotion=annoyed
+B | Csókolom! Elnézést, ma költözöm ide. | 안녕하세요! 죄송해요, 오늘 여기로 이사 와요. | csókolom = (어르신께) 안녕하세요 | emotion=polite
+A | Elnézést a zajért. Mindjárt végzünk. | 시끄럽게 해서 죄송합니다. 곧 끝나요. | a zajért = 소음에 대해 | emotion=polite
+C | Ide költözik? Melyik lakásba? | 여기로 이사 오신다고요? 어느 집으로요? | költözöl = 이사한다 | emotion=stiff
+B | A negyedikre, a tizenkettesbe. | 4층, 12호로요. | tizenkettes = 12호 | emotion=polite
+C | A tizenkettesbe? Ott lakott a barátnőm negyven évig. | 12호요? 거기 내 친구가 40년 살았는데. | negyven évig = 40년 동안 | emotion=surprised
+B | Ilona nénire gondol? Ő a nagymamám! | 일로너 할머니 말씀이세요? 우리 할머니예요! | gondol = 생각하다(존댓말 3인칭) | emotion=excited
+C | Te vagy a kis Réka?! Úristen, mekkora lettél! | 네가 꼬마 레카구나?! 세상에, 이렇게 컸네! | mekkora = 얼마나 큰 | emotion=surprised+excited
+A | Szóval a nagymamád lakása? Ezt nem mondtad! | 그러니까 너희 할머니 집이야? 그런 말 안 했잖아! | szóval = 그러니까 | emotion=surprised
+B | Nem kérdezted. Ezek a tányérok is az övéi. | 안 물어봤잖아. 이 접시들도 할머니 거야. | az övéi = 그분의 것들 | emotion=teasing
+C | Na, gyertek le. Van friss pogácsa. | 자, 우리 집으로 내려와. 갓 구운 포가차 있어. | gyertek = 너희 와(명령) | emotion=gentle
+A | Köszönjük! A dobozok várhatnak, ugye? | 감사합니다! 상자는 좀 기다려도 되지, 그치? | várhatnak = 기다릴 수 있다 | emotion=cheerful

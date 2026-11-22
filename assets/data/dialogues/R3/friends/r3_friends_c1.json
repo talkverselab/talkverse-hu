@@ -11,9 +11,9 @@
  "domain": [
   "friends"
  ],
- "title": "읽고 답이 없네",
+ "title": "읽씹만 뜨네",
  "emoji": "🏠",
- "scene": "집을 구하는 중. Réka 에게 하소연했는데 「읽음」만 뜨고 답이 없다",
+ "scene": "집 구하다 Réka한테 징징댔는데 읽음만 뜨고 답이 없다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
@@ -32,10 +32,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Figyelj, megint nem kaptam meg a lakást. 😩",
-   "rd": "피젤이, 메긴트 넴 커프텀 멕 어 러카슈트. 😩",
-   "ko": "있잖아, 또 그 집 못 구했어. 😩",
-   "note": "megkaptam = 받았다, 얻었다",
+   "hu": "Figyelj, na megint nem jött össze a lakás. 😩",
+   "rd": "피젤이, 너 메긴트 넴 요트 외쎄 어 러카시. 😩",
+   "ko": "있잖아, 또 집 안 됐어. 😩",
+   "note": "nem jött össze = 안 됐어",
    "tags": [
     "expr:Figyelj"
    ],
@@ -49,17 +49,27 @@
      "피겔"
     ],
     [
+     "na",
+     "na",
+     "너"
+    ],
+    [
      "megint",
      "megint",
      "메긴트"
     ],
     [
-     "kaptam",
-     "kap",
-     "커프"
+     "jött",
+     "jön",
+     "왼"
     ],
     [
-     "lakást",
+     "össze",
+     "össze",
+     "외쎄"
+    ],
+    [
+     "lakás",
      "lakás",
      "러카시"
     ]
@@ -68,10 +78,10 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Jaj, ne! Mi a baj ezúttal?",
-   "rd": "여이, 네! 미 어 버이 에주떨?",
-   "ko": "아이고, 안 돼! 이번엔 뭐가 문제야?",
-   "note": "ezúttal = 이번에는",
+   "hu": "Jaj, ne már! Mi a baj?",
+   "rd": "여이, 네 마르! 미 어 버이?",
+   "ko": "아이고, 또? 뭐가 문제야?",
+   "note": "Mi a baj = 뭐가 문제야",
    "tags": [
     "expr:Mi a baj"
    ],
@@ -85,23 +95,23 @@
      "야이"
     ],
     [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
      "baj",
      "baj",
      "버이"
-    ],
-    [
-     "ezúttal",
-     "ezúttal",
-     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Túl drága. A rezsi is, a kaució is.",
-   "rd": "툴 드라거. 어 레지 이시, 어 커우치오 이시.",
-   "ko": "너무 비싸. 공과금도, 보증금도.",
+   "hu": "Durván drága. A rezsi is, a kaució is.",
+   "rd": "두르반 드라거. 어 레지 이시, 어 커우치오 이시.",
+   "ko": "완전 비싸. 공과금도, 보증금도.",
    "note": "rezsi = 공과금, kaució = 보증금",
    "tags": [],
    "at": "21:06",
@@ -109,9 +119,9 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Túl",
-     "túl",
-     "툴"
+     "Durván",
+     "durva",
+     "두르버"
     ],
     [
      "drága",
@@ -133,15 +143,20 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "És a főbérlő csak magyarul beszél, nagyon gyorsan.",
-   "rd": "에시 어 푀베를뢰 척 머져룰 베쎌, 너죤 죠르션.",
-   "ko": "그리고 집주인이 헝가리어만 해, 엄청 빨리.",
+   "hu": "Plusz a főbérlő csak magyarul beszél, nagyon gyorsan.",
+   "rd": "플루쓰 어 푀베를뢰 척 머져룰 베쎌, 너죤 죠르션.",
+   "ko": "게다가 집주인이 헝가리어만 엄청 빨리 해.",
    "note": "főbérlő = 집주인",
    "tags": [],
    "at": "21:06",
    "emotion": "sad",
    "ui": "bubble",
    "lemmas": [
+    [
+     "Plusz",
+     "plusz",
+     ""
+    ],
     [
      "főbérlő",
      "főbérlő",
@@ -177,22 +192,17 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Hány négyzetméter kellene? Melyik kerületben?",
-   "rd": "하니 네지제트메테르 켈레네? 메익 케륄레트벤?",
+   "hu": "Mennyi m2 kéne? Melyik kerületben?",
+   "rd": "메니 므2 케네? 메익 케륄레트벤?",
    "ko": "몇 제곱미터 필요해? 어느 구에서?",
-   "note": "kerület = 구(부다페스트 행정구)",
+   "note": "kerület = 구",
    "tags": [],
    "at": "21:08",
    "emotion": "neutral",
    "ui": "bubble",
    "lemmas": [
     [
-     "négyzetméter",
-     "négyzetméter",
-     ""
-    ],
-    [
-     "kellene",
+     "kéne",
      "kell",
      "켈"
     ],
@@ -206,9 +216,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Elég egy kis szoba. Mindegy, csak ne legyen messze az iskolától.",
-   "rd": "엘렉 에지 키시 쏘버. 민데지, 척 네 레젠 메쎄 어즈 이슈콜라톨.",
-   "ko": "작은 방이면 돼. 아무 데나, 학원에서만 안 멀면.",
+   "hu": "Kis szoba is elég. Mindegy, csak ne legyen messze az iskolától.",
+   "rd": "키시 쏘버 이시 엘렉. 민데지, 척 네 레젠 메쎄 어즈 이슈콜라톨.",
+   "ko": "작은 방이어도 돼. 상관없어, 학원만 안 멀면.",
    "note": "mindegy = 상관없다",
    "tags": [],
    "at": "21:09",
@@ -216,12 +226,7 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Elég",
-     "elég",
-     "엘렉"
-    ],
-    [
-     "kis",
+     "Kis",
      "kis",
      "키시"
     ],
@@ -229,6 +234,11 @@
      "szoba",
      "szoba",
      "서버"
+    ],
+    [
+     "elég",
+     "elég",
+     "엘렉"
     ],
     [
      "csak",
@@ -276,8 +286,8 @@
    "speaker": "A",
    "hu": "Haragszol? Bocsi, hogy mindig panaszkodom.",
    "rd": "허럭쏠? 보치, 호지 민딕 퍼너쓰코돔.",
-   "ko": "화났어? 맨날 투덜거려서 미안.",
-   "note": "haragszol = 너 화났어",
+   "ko": "화났어? 맨날 징징대서 미안.",
+   "note": "Haragszol = 너 화났어",
    "tags": [
     "expr:Haragszol"
    ],
@@ -358,9 +368,9 @@
   {
    "num": 11,
    "speaker": "B",
-   "hu": "A szomszédom elköltözik, és szabad lesz egy szoba a házunkban.",
-   "rd": "어 쏨쎄돔 엘쾰퇴직, 에시 써버드 레쓰 에지 쏘버 어 하준크번.",
-   "ko": "우리 옆집이 이사 가서, 우리 건물에 방 하나가 비어.",
+   "hu": "A szomszéd elköltözik, szabad lesz egy szoba nálunk.",
+   "rd": "어 쏨쎄드 엘쾰퇴직, 써버드 레쓰 에지 쏘버 날룬크.",
+   "ko": "옆집이 이사 가서 우리 쪽에 빈 방 생겨.",
    "note": "szabad = 빈",
    "tags": [],
    "at": "22:31",
@@ -368,7 +378,7 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "szomszédom",
+     "szomszéd",
      "szomszéd",
      "쏨세드"
     ],
@@ -391,11 +401,6 @@
      "szoba",
      "szoba",
      "서버"
-    ],
-    [
-     "házunkban",
-     "házunk",
-     ""
     ]
    ]
   },
@@ -431,9 +436,9 @@
   {
    "num": 13,
    "speaker": "B",
-   "hu": "Megbeszéltem a főbérlővel. Olcsó, és lassan beszél. 😄",
-   "rd": "멕베쎌템 어 푀베를뢰벨. 올초, 에시 러쎤 베쎌. 😄",
-   "ko": "집주인이랑 얘기했어. 싸고, 천천히 말해. 😄",
+   "hu": "Már megbeszéltem a főbérlővel. Olcsó lesz, és lassan beszél. 😄",
+   "rd": "마르 멕베쎌템 어 푀베를뢰벨. 올초 레쓰, 에시 러쎤 베쎌. 😄",
+   "ko": "이미 집주인이랑 얘기했어. 싸게 되고 천천히 말해. 😄",
    "note": "megbeszéltem = 얘기를 나눴다",
    "tags": [],
    "at": "22:33",
@@ -441,7 +446,12 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Megbeszéltem",
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "megbeszéltem",
      "megbeszél",
      "메그베셀"
     ],
@@ -449,6 +459,11 @@
      "főbérlővel",
      "főbérlővel",
      ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
     ],
     [
      "lassan",
@@ -465,10 +480,10 @@
   {
    "num": 14,
    "speaker": "A",
-   "hu": "Réka, te vagy a legjobb szomszéd. Már most!",
-   "rd": "레커, 테 버지 어 렉요브 쏨쎄드. 마르 모슈트!",
-   "ko": "레카, 너 최고의 이웃이야. 벌써부터!",
-   "note": "szomszéd = 이웃",
+   "hu": "Réka, te vagy a legjobb. Már most is!",
+   "rd": "레커, 테 버지 어 렉요브. 마르 모슈트 이시!",
+   "ko": "레카, 너 최고야. 벌써부터!",
+   "note": "legjobb = 최고",
    "tags": [],
    "at": "22:33",
    "emotion": "excited",
@@ -483,11 +498,6 @@
      "legjobb",
      "jó",
      "요"
-    ],
-    [
-     "szomszéd",
-     "szomszéd",
-     "쏨세드"
     ],
     [
      "most",

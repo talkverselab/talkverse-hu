@@ -33,8 +33,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó napot! Ön jött az állás miatt?",
-   "rd": "요 너포트! 왼 요트 어즈 알라시 미어트?",
+   "hu": "Jó napot! Ön az állás miatt jött?",
+   "rd": "요 너포트! 왼 어즈 알라시 미어트 요트?",
    "ko": "안녕하세요! 일자리 때문에 오신 분이죠?",
    "note": "az állás miatt = 일자리 때문에",
    "tags": [],
@@ -51,24 +51,24 @@
      "넙"
     ],
     [
-     "jött",
-     "jön",
-     "왼"
-    ],
-    [
      "állás",
      "állás",
      "알라시"
+    ],
+    [
+     "jött",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen, jó napot kívánok. {name} vagyok.",
-   "rd": "이겐, 요 너포트 키바녹. {name} 버죡.",
+   "hu": "Igen, jó napot. {name} vagyok.",
+   "rd": "이겐, 요 너포트. {name} 버죡.",
    "ko": "네, 안녕하세요. {name}입니다.",
-   "note": "jó napot kívánok = 안녕하세요(정중)",
+   "note": "jó napot = 안녕하세요",
    "tags": [],
    "emotion": "stiff",
    "lemmas": [
@@ -88,11 +88,6 @@
      "넙"
     ],
     [
-     "kívánok",
-     "kíván",
-     "키반"
-    ],
-    [
      "vagyok",
      "van",
      "번"
@@ -102,8 +97,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Tessék, üljön le. Dolgozott már kávézóban?",
-   "rd": "테쎅, 윌욘 레. 돌고조트 마르 카베조번?",
+   "hu": "Tessék, foglaljon helyet. Dolgozott már kávézóban?",
+   "rd": "테쎅, 폭럴욘 헤예트. 돌고조트 마르 카베조번?",
    "ko": "앉으세요. 카페에서 일해 본 적 있어요?",
    "note": "dolgozott már = 일해 본 적 있다",
    "tags": [
@@ -117,14 +112,14 @@
      "테셰크"
     ],
     [
-     "üljön",
-     "ül",
-     "위일"
+     "foglaljon",
+     "foglal",
+     "포글럴"
     ],
     [
-     "le",
-     "le",
-     "레"
+     "helyet",
+     "hely",
+     "헤이"
     ],
     [
      "már",
@@ -141,16 +136,16 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Kávézóban még nem. De gyorsan tanulok.",
-   "rd": "카베조번 멕 넴. 데 죠르션 터눌록.",
-   "ko": "카페에서는 아직요. 그래도 빨리 배워요.",
-   "note": "gyorsan = 빨리",
+   "hu": "Kávézóban még soha. De gyorsan tanulok.",
+   "rd": "카베조번 멕 쇼허. 데 죠르션 터눌록.",
+   "ko": "카페에서는 아직 없어요. 그래도 빨리 배워요.",
+   "note": "soha = 전혀/아직",
    "tags": [],
    "emotion": "flustered",
    "segs": [
     [
      "flustered",
-     "Kávézóban még nem."
+     "Kávézóban még soha."
     ],
     [
      "cheerful",
@@ -169,6 +164,11 @@
      "메그"
     ],
     [
+     "soha",
+     "soha",
+     "쇼허"
+    ],
+    [
      "gyorsan",
      "gyors",
      "죠르시"
@@ -183,8 +183,8 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Értem. Hétvégén is tud dolgozni?",
-   "rd": "에르템. 헤트베겐 이시 투드 돌고즈니?",
+   "hu": "Értem. Hétvégén is tudna dolgozni?",
+   "rd": "에르템. 헤트베겐 이시 투드너 돌고즈니?",
    "ko": "그렇군요. 주말에도 일할 수 있어요?",
    "note": "hétvégén = 주말에",
    "tags": [],
@@ -196,7 +196,7 @@
      "에르트"
     ],
     [
-     "tud",
+     "tudna",
      "tud",
      "투드"
     ],
@@ -210,10 +210,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Persze, szombaton és vasárnap is ráérek.",
-   "rd": "페르쎄, 쏨버톤 에시 버샤르너프 이시 라에렉.",
-   "ko": "그럼요, 토요일도 일요일도 돼요.",
-   "note": "ráérek = (내가) 시간이 된다",
+   "hu": "Persze! Szombaton meg vasárnap is ráérek.",
+   "rd": "페르쎄! 쏨버톤 멕 버샤르너프 이시 라에렉.",
+   "ko": "그럼요! 토요일도 일요일도 돼요.",
+   "note": "ráérek = 시간이 된다",
    "tags": [
     "expr:Persze"
    ],
@@ -223,11 +223,6 @@
      "Persze",
      "persze",
      "페르쎄"
-    ],
-    [
-     "szombaton",
-     "szombat",
-     "솜바트"
     ],
     [
      "vasárnap",
@@ -244,9 +239,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Szuper. És mikor tud kezdeni?",
-   "rd": "쑤페르. 에시 미코르 투드 케즈데니?",
-   "ko": "좋네요. 언제부터 시작할 수 있어요?",
+   "hu": "Szuper! És mikor tudna kezdeni?",
+   "rd": "쑤페르! 에시 미코르 투드너 케즈데니?",
+   "ko": "좋네요! 언제부터 시작할 수 있어요?",
    "note": "kezdeni = 시작하다",
    "tags": [
     "expr:Szuper"
@@ -259,7 +254,7 @@
      "쑤페르"
     ],
     [
-     "tud",
+     "tudna",
      "tud",
      "투드"
     ],
@@ -273,8 +268,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Akár holnap. Szóval felvesz?",
-   "rd": "어카르 홀너프. 쏘벌 펠베쓰?",
+   "hu": "Akár holnap is. Szóval felvesz engem?",
+   "rd": "어카르 홀너프 이시. 쏘벌 펠베쓰 엔겜?",
    "ko": "내일이라도요. 그럼… 채용하시는 건가요?",
    "note": "felvesz = 채용하다",
    "tags": [
@@ -284,11 +279,11 @@
    "segs": [
     [
      "excited",
-     "Akár holnap."
+     "Akár holnap is."
     ],
     [
      "shy",
-     "Szóval felvesz?"
+     "Szóval felvesz engem?"
     ]
    ],
    "lemmas": [
@@ -307,8 +302,8 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Felveszem. Bence, gyere, itt az új kolléga!",
-   "rd": "펠베쎔. 벤체, 제레, 이트 어즈 우이 콜레거!",
+   "hu": "Felveszem. Bence, gyere ide, itt az új kolléga!",
+   "rd": "펠베쎔. 벤체, 제레 이데, 이트 어즈 우이 콜레거!",
    "ko": "채용할게요. 벤체, 이리 와, 새 동료야!",
    "note": "kolléga = 동료",
    "tags": [],
@@ -323,6 +318,11 @@
      "gyere",
      "jön",
      "왼"
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
     ],
     [
      "itt",
@@ -344,9 +344,9 @@
   {
    "num": 10,
    "speaker": "C",
-   "hu": "Szia! Ó, te vagy az, aki tegnap háromszor kért cukrot?",
-   "rd": "씨어! 오, 테 버지 어즈, 어키 텍너프 하롬쏘르 케르트 축로트?",
-   "ko": "안녕! 어, 어제 설탕 세 번 달라던 사람이 너구나?",
+   "hu": "Szia! Te vagy az, aki tegnap háromszor kérte a cukrot?",
+   "rd": "씨어! 테 버지 어즈, 어키 텍너프 하롬쏘르 케르테 어 축로트?",
+   "ko": "안녕! 어제 설탕 세 번 달라던 사람이 너구나?",
    "note": "háromszor = 세 번",
    "tags": [],
    "emotion": "surprised",
@@ -362,7 +362,7 @@
      "테그너프"
     ],
     [
-     "kért",
+     "kérte",
      "kér",
      "께르"
     ],
@@ -376,8 +376,8 @@
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Jaj, igen. Nagyon finom volt a kávé.",
-   "rd": "여이, 이겐. 너죤 피놈 볼트 어 카베.",
+   "hu": "Jaj, igen. Nagyon finom volt.",
+   "rd": "여이, 이겐. 너죤 피놈 볼트.",
    "ko": "아이고, 맞아. 커피가 너무 맛있어서.",
    "note": "finom = 맛있는",
    "tags": [],
@@ -402,11 +402,6 @@
      "volt",
      "van",
      "번"
-    ],
-    [
-     "kávé",
-     "kávé",
-     "카베"
     ]
    ]
   }

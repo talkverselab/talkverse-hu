@@ -33,10 +33,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ideges vagy?",
-   "rd": "이데게시 버지?",
-   "ko": "긴장돼?",
-   "note": "ideges = 긴장한, 초조한",
+   "hu": "Ideges vagy kicsit?",
+   "rd": "이데게시 버지 키치트?",
+   "ko": "좀 긴장돼?",
+   "note": "ideges = 긴장한",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -44,15 +44,20 @@
      "Ideges",
      "ideges",
      "이데게시"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Egy kicsit. Hármas lett a dolgozatom, és nem értem, miért.",
-   "rd": "에지 키치트. 하르머시 레트 어 돌고저톰, 에시 넴 에르템, 미에르트.",
-   "ko": "조금. 보고서가 3점인데 왜인지 모르겠어.",
+   "hu": "Egy kicsit igen. Hármas lett a dolgozatom, nem értem miért.",
+   "rd": "에지 키치트 이겐. 하르머시 레트 어 돌고저톰, 넴 에르템 미에르트.",
+   "ko": "응 조금. 보고서가 3점인데 왜인지 모르겠어.",
    "note": "hármas = 3점",
    "tags": [],
    "emotion": "worried",
@@ -61,6 +66,11 @@
      "kicsit",
      "kicsi",
      "키치"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
     ],
     [
      "lett",
@@ -87,26 +97,26 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Kérdezd meg nyugodtan. A professzor kedves, csak szigorú.",
-   "rd": "케르데즈드 멕 뉴고드턴. 어 프로페쏘르 케드베시, 척 씨고루.",
-   "ko": "편하게 물어봐. 교수님 친절해, 엄격할 뿐이지.",
+   "hu": "Nyugodtan kérdezd meg. A prof kedves, csak szigorú kicsit.",
+   "rd": "뉴고드턴 케르데즈드 멕. 어 프로프 케드베시, 척 씨고루 키치트.",
+   "ko": "편하게 물어봐. 교수님 친절해, 그냥 좀 엄격할 뿐.",
    "note": "szigorú = 엄격한",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "Kérdezd",
-     "kérdez",
-     "케르데즈"
-    ],
-    [
-     "nyugodtan",
+     "Nyugodtan",
      "nyugodt",
      "뉴고트"
     ],
     [
-     "professzor",
-     "professzor",
+     "kérdezd",
+     "kérdez",
+     "케르데즈"
+    ],
+    [
+     "prof",
+     "prof",
      ""
     ],
     [
@@ -123,14 +133,19 @@
      "szigorú",
      "szigorú",
      ""
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Jó, bemegyek. Várj meg, légyszi!",
-   "rd": "요, 베메젝. 바르이 멕, 레지씨!",
+   "hu": "Oké, bemegyek. Várj meg, légyszi!",
+   "rd": "오케, 베메젝. 바르이 멕, 레지씨!",
    "ko": "알았어, 들어간다. 기다려 줘, 제발!",
    "note": "várj meg = 기다려 줘",
    "tags": [
@@ -139,9 +154,9 @@
    "emotion": "worried",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
      "bemegyek",
@@ -222,10 +237,10 @@
   {
    "num": 7,
    "speaker": "C",
-   "hu": "Persze. Mi a probléma?",
-   "rd": "페르쎄. 미 어 프로블레머?",
+   "hu": "Persze. Mi a gond?",
+   "rd": "페르쎄. 미 어 곤드?",
    "ko": "그럼요. 뭐가 문제죠?",
-   "note": "probléma = 문제",
+   "note": "gond = 문제",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -235,19 +250,19 @@
      "페르쎄"
     ],
     [
-     "probléma",
-     "probléma",
-     "프로블레머"
+     "gond",
+     "gond",
+     "곤드"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "A listán hármas áll a nevem mellett.",
-   "rd": "어 리슈탄 하르머시 알 어 네벰 멜레트.",
-   "ko": "명단에 제 이름 옆에 3점이라고 적혀 있어서요.",
-   "note": "áll = (적혀) 있다",
+   "hu": "A listán hármas van a nevem mellett.",
+   "rd": "어 리슈탄 하르머시 번 어 네벰 멜레트.",
+   "ko": "명단에 제 이름 옆에 3점이라고 적혀 있어요.",
+   "note": "áll = 적혀 있다",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
@@ -262,9 +277,9 @@
      ""
     ],
     [
-     "áll",
-     "áll",
-     "알"
+     "van",
+     "van",
+     "번"
     ],
     [
      "nevem",
@@ -305,8 +320,8 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Szerintem a ragok miatt. Mindig rosszul rakom őket.",
-   "rd": "쎄린템 어 러곡 미어트. 민딕 로쑬 러콤 외케트.",
+   "hu": "Szerintem a ragok miatt. Mindig elrontom őket.",
+   "rd": "쎄린템 어 러곡 미어트. 민딕 엘론톰 외케트.",
    "ko": "제 생각엔 격 어미 때문이에요. 늘 틀리게 붙여요.",
    "note": "rag = 격 어미",
    "tags": [
@@ -320,14 +335,9 @@
      ""
     ],
     [
-     "rosszul",
-     "rossz",
-     "로쓰"
-    ],
-    [
-     "rakom",
-     "rak",
-     "러크"
+     "elrontom",
+     "elront",
+     ""
     ]
    ]
   },
@@ -375,7 +385,7 @@
    "hu": "Az a szomszédja. Ön a negyedik sorban van: ötös.",
    "rd": "어즈 어 쏨쎄드여. 왼 어 네제딕 쇼르번 번: 외퇴시.",
    "ko": "그건 옆 사람이에요. {name} 씨는 네 번째 줄, 5점이에요.",
-   "note": "ötös = 5점(최고 점수)",
+   "note": "ötös = 5점",
    "tags": [],
    "emotion": "amused",
    "segs": [
@@ -451,7 +461,7 @@
    "hu": "Na? Mi volt?",
    "rd": "너? 미 볼트?",
    "ko": "어때? 어떻게 됐어?",
-   "note": "mi volt? = 어땠어?",
+   "note": "mi volt = 어땠어",
    "tags": [],
    "emotion": "worried",
    "lemmas": [

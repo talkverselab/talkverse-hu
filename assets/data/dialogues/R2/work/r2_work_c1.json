@@ -10,9 +10,9 @@
  "domain": [
   "work"
  ],
- "title": "「fél nyolc」 의 함정",
+ "title": "「fél nyolc」 함정",
  "emoji": "⏰",
- "scene": "내일 아침 카페 재고 조사. Bence 와 메신저로 몇 시에 만날지 정한다",
+ "scene": "내일 아침 카페 재고 조사. Bence와 메신저로 몇 시에 만날지 정한다",
  "speakers": {
   "A": "{name}",
   "B": "Bence"
@@ -31,8 +31,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Holnap leltár van a kávézóban. Mikor érsz rá?",
-   "rd": "씨어! 홀너프 렐타르 번 어 카베조번. 미코르 에르쓰 라?",
+   "hu": "Szia! Holnap leltár a kávézóban. Mikor érsz rá?",
+   "rd": "씨어! 홀너프 렐타르 어 카베조번. 미코르 에르쓰 라?",
    "ko": "안녕! 내일 카페 재고 조사야. 언제 돼?",
    "note": "leltár = 재고 조사",
    "tags": [],
@@ -51,11 +51,6 @@
      ""
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
      "kávézóban",
      "kávézó",
      ""
@@ -70,10 +65,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Reggel jó. Fél nyolc?",
-   "rd": "렉겔 요. 펠 뇰츠?",
-   "ko": "아침 좋아. 8시 반?",
-   "note": "fél nyolc = 7시 반(!)",
+   "hu": "Reggel oké. Fél nyolc jó?",
+   "rd": "렉겔 오케. 펠 뇰츠 요?",
+   "ko": "아침 괜찮아. 7시 반?",
+   "note": "fél nyolc = 7시 반",
    "tags": [],
    "at": "18:05",
    "emotion": "cheerful",
@@ -85,6 +80,11 @@
      "렉겔"
     ],
     [
+     "oké",
+     "oké",
+     "오케"
+    ],
+    [
      "jó",
      "jó",
      "요"
@@ -94,9 +94,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Fél nyolc? Hű, korán. De oké!",
-   "rd": "펠 뇰츠? 휘, 코란. 데 오케!",
-   "ko": "7시 반? 와, 이르네. 그래도 오케이!",
+   "hu": "Fél nyolc? Hú, korán van. De jó, legyen.",
+   "rd": "펠 뇰츠? 후, 코란 번. 데 요, 레젠.",
+   "ko": "7시 반? 와, 이르네. 그래도 좋아.",
    "note": "korán = 일찍",
    "tags": [],
    "at": "18:06",
@@ -114,9 +114,19 @@
      "코르"
     ],
     [
-     "oké",
-     "oké",
-     "오케"
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
+    ],
+    [
+     "legyen",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
@@ -126,7 +136,7 @@
    "hu": "Hozok pogácsát is.",
    "rd": "호족 포가차트 이시.",
    "ko": "포가차도 사 갈게.",
-   "note": "pogácsa = 짭짤한 작은 빵",
+   "note": "pogácsa = 작은 짭짤빵",
    "tags": [],
    "at": "18:07",
    "emotion": "cheerful",
@@ -150,7 +160,7 @@
    "hu": "Naná! Akkor holnap. 👍",
    "rd": "너나! 어꼬르 홀너프. 👍",
    "ko": "당연하지! 그럼 내일. 👍",
-   "note": "naná = 당연하지",
+   "note": "Naná = 당연하지",
    "tags": [
     "expr:Naná"
    ],
@@ -173,9 +183,9 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Itt vagyok. Te hol vagy?",
-   "rd": "이트 버죡. 테 홀 버지?",
-   "ko": "나 왔어. 너 어디야?",
+   "hu": "Megjöttem. Te hol vagy?",
+   "rd": "멕요뗌. 테 홀 버지?",
+   "ko": "나 도착했어. 너 어디야?",
    "note": "hol vagy? = 어디야?",
    "tags": [],
    "at": "07:31",
@@ -183,14 +193,9 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Itt",
-     "itt",
-     "이트"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
+     "Megjöttem",
+     "megjön",
+     ""
     ],
     [
      "hol",
@@ -202,9 +207,9 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Még ágyban vagyok. Még csak hét harminc van!",
-   "rd": "멕 아지번 버죡. 멕 척 헤트 허르민츠 번!",
-   "ko": "아직 침대야. 아직 7시 반밖에 안 됐잖아!",
+   "hu": "Még ágyban. Még csak hét harminc!",
+   "rd": "멕 아지번. 멕 척 헤트 허르민츠!",
+   "ko": "아직 침대야. 아직 7시 반밖에!",
    "note": "még csak = 아직 겨우",
    "tags": [],
    "at": "07:33",
@@ -220,11 +225,6 @@
      "ágyban",
      "ágy",
      "아지"
-    ],
-    [
-     "vagyok",
-     "van",
-     "번"
     ],
     [
      "csak",
@@ -248,8 +248,8 @@
    "speaker": "B",
    "hu": "Pont. Fél nyolcat mondtál.",
    "rd": "폰트. 펠 뇰처트 몬드탈.",
-   "ko": "바로 그거. 네가 「fél nyolc」라고 했잖아.",
-   "note": "pont = 바로, 딱",
+   "ko": "바로 그거. 네가 7시 반이라고 했잖아.",
+   "note": "pont = 바로",
    "tags": [],
    "at": "07:33",
    "emotion": "annoyed",
@@ -272,7 +272,7 @@
    "speaker": "A",
    "hu": "Várj, a fél nyolc nem nyolc harminc?",
    "rd": "바르이, 어 펠 뇰츠 넴 뇰츠 허르민츠?",
-   "ko": "잠깐, 「fél nyolc」가 8시 반 아니야?",
+   "ko": "잠깐, 7시 반이 8시 반 아니야?",
    "note": "nyolc harminc = 8시 30분",
    "tags": [
     "expr:Várj"
@@ -303,8 +303,8 @@
    "speaker": "B",
    "hu": "Nem! A fél nyolc az hét harminc. 😂",
    "rd": "넴! 어 펠 뇰츠 어즈 헤트 허르민츠. 😂",
-   "ko": "아니! 「fél nyolc」는 7시 반이야. 😂",
-   "note": "fél = 반(다음 시를 향한)",
+   "ko": "아니! 7시 반은 7시 30분이야. 😂",
+   "note": "fél nyolc = 7시 반",
    "tags": [],
    "at": "07:34",
    "emotion": "amused",
@@ -333,7 +333,7 @@
    "hu": "Úristen. Húsz perc, és ott vagyok!",
    "rd": "우리슈텐. 후쓰 페르츠, 에시 오트 버죡!",
    "ko": "세상에. 20분이면 갈게!",
-   "note": "ott vagyok = 거기 간다",
+   "note": "Úristen = 세상에",
    "tags": [
     "expr:Úristen"
    ],
@@ -366,9 +366,9 @@
   {
    "num": 12,
    "speaker": "B",
-   "hu": "Akkor három pogácsa jár. Siess!",
-   "rd": "어꼬르 하롬 포가처 야르. 시에시!",
-   "ko": "그럼 포가차 세 개다. 서둘러!",
+   "hu": "Akkor három pogácsa. Siess!",
+   "rd": "어꼬르 하롬 포가처. 시에시!",
+   "ko": "그럼 포가차 세 개. 서둘러!",
    "note": "siess = 서둘러",
    "tags": [],
    "at": "07:35",
@@ -385,11 +385,6 @@
      "pogácsa",
      "pogácsa",
      ""
-    ],
-    [
-     "jár",
-     "jár",
-     "야르"
     ]
    ]
   }

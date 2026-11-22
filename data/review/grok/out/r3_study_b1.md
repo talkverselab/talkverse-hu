@@ -1,0 +1,28 @@
+=== r3_study_b1
+kind: long
+title: 교수님께 메일 쓰기
+emoji: 📧
+scene: 아파서 보고서를 못 냈다. Réka 와 함께 코바치 교수님께 기한 연장을 부탁하는 메일을 쓴다
+b: Réka
+c: Kovács
+register: mixed
+twist: 15 chaos
+purpose: study_abroad
+goal: 격식 있는 메일 쓰기(Tisztelt … Úr! · kaphatnék-e · Tisztelettel)
+expressions: Persze; Ne már; Naná; Úristen
+A | Réka, segítesz? Levelet kell írnom Kovács professzornak. | 레카, 도와줄래? 코바치 교수님께 메일 써야 해. | levél = 편지, 메일 | emotion=worried
+B | Persze. Mit akarsz tőle kérni? | 물론. 뭘 부탁하려고? | tőle = 그에게서 | emotion=gentle
+A | Egy hét haladékot a dolgozatra. Beteg voltam. | 보고서 일주일 연장. 아팠거든. | haladék = 유예, 연장 | emotion=sad
+B | Oké. Hogyan kezdted el? | 오케이. 어떻게 시작했어? | hogyan = 어떻게 | emotion=cheerful
+A | Szia, Tanár Úr! | 안녕, 교수님! | szia = 안녕(친구끼리) | emotion=cheerful
+B | Szia? Ne már, írd azt: Tisztelt Kovács Professzor Úr! | 「안녕」? 아 좀, 이렇게 써: 존경하는 코바치 교수님께! | tisztelt = 존경하는 | emotion=tsukkomi
+A | Jó. Aztán: Kérem, adjon egy hetet. | 알았어. 그다음: 일주일 주세요. | adjon = 주세요(격식) | emotion=neutral
+B | Túl rövid. Inkább: Szeretném megkérdezni, kaphatnék-e egy hét haladékot. | 너무 짧아. 차라리: 일주일 연장을 받을 수 있을지 여쭙고 싶습니다. | kaphatnék-e = 받을 수 있을까요 | emotion=gentle
+A | Hű, ez nagyon udvarias. És a végén? | 와, 엄청 정중하다. 그리고 끝에는? | udvarias = 정중한 | emotion=surprised
+B | Tisztelettel, és a neved. Puszit ne írj! | 「경의를 표하며」, 그리고 네 이름. 「쪽」은 쓰지 마! | tisztelettel = 경의를 담아 | emotion=teasing
+A | Naná. Na, elküldtem! | 당연하지. 자, 보냈다! | elküldtem = 보냈다 | emotion=excited
+B | Csatoltad az orvosi igazolást is? | 진단서도 첨부했어? | orvosi igazolás = 진단서 | emotion=neutral
+A | Persze, a levél alján van. | 물론, 메일 맨 밑에 있어. | alján = 바닥에, 밑에 | emotion=cheerful
+B | Mutasd. Ez nem igazolás, ez egy lista. | 보여 줘. 이거 진단서가 아니라 목록인데. | lista = 목록 | emotion=worried
+A | Úristen. Ez a bevásárlólistám: tojás, tej, paprika. | 세상에. 내 장보기 목록이야. 달걀, 우유, 파프리카. | bevásárlólista = 장보기 목록 | emotion=flustered
+C | Kedves {name}, megkapja a haladékot. És ne felejtse el a tojást! | {name} 씨, 연장해 드리겠습니다. 그리고 달걀 잊지 마세요! | ne felejtse el = 잊지 마세요(격식) | emotion=gentle+teasing

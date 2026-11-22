@@ -429,7 +429,7 @@ C | Bocsi, anya! Most rögtön hívlak. 🙈 | 미안, 엄마! 지금 바로 전
 kind: long
 title: 새벽 3시의 삑 소리
 emoji: 🔋
-scene: 며칠째 새벽마다 어디선가 「삑」 소리가 난다. Dávid 와 둘이 범인을 찾다가 아래층에 물어본다
+scene: 며칠째 새벽마다 「삑」 소리가 난다. Dávid와 범인을 찾다가 아래층 아주머니한테 물어본다
 b: Dávid
 c: Marika néni
 register: mixed
@@ -437,27 +437,27 @@ twist: 14 reveal
 purpose: study_abroad
 goal: 소리·원인 말하기(Hallod? · Honnan jön?) · 추측(Lehet, hogy …)
 expressions: Hallod; Honnan jön; Lehet, hogy
-A | Dávid, ébren vagy? Hallod ezt? | 다비드, 깨 있어? 이거 들려? | ébren = 깨어 있는 | emotion=worried
-B | Mit? Hajnali három van. | 뭘? 새벽 3시야. | hajnal = 새벽 | emotion=annoyed
-A | Ezt a csipogást. Minden éjjel hallom. | 이 삑삑 소리. 매일 밤 들려. | csipogás = 삑삑 소리 | emotion=worried
-B | Ja, tényleg. Honnan jön? | 아, 진짜네. 어디서 나는 거지? | honnan = 어디에서 | emotion=surprised
-A | Szerintem a falon túlról. Lehet, hogy a szomszéd órája. | 내 생각엔 벽 너머야. 옆집 시계일 수도 있어. | lehet, hogy = ~일 수도 있다 | emotion=neutral+worried
-B | Vagy Marika néni mosógépe. Holnap megkérdezzük. | 아니면 마리카 아주머니네 세탁기. 내일 물어보자. | megkérdezzük = 우리가 물어본다 | emotion=neutral
-A | Csókolom, Marika néni! Éjjel hallja a csipogást? | 안녕하세요, 아주머니! 밤에 삑 소리 들리세요? | hallja = 들리세요(Ön, 정활용) | emotion=polite
-C | Csipogást? Nem, én jól alszom. | 삑 소리요? 아니요, 난 잘 자요. | jól alszom = 잘 잔다 | emotion=surprised+gentle
-B | Pedig a mi falunk közös a magáéval. | 그래도 우리 벽이 아주머니 댁 벽이랑 붙어 있는데요. | a magáé = 당신의 것 | emotion=neutral
-C | Nálam semmi nem csipog. És a maguk füstjelzője? | 우리 집엔 삑 소리 나는 게 없어요. 그 집 화재경보기는요? | füstjelző = 화재경보기 | emotion=neutral
-A | Füstjelző? Nálunk van ilyen? | 화재경보기요? 우리 집에 그런 게 있어요? | ilyen = 이런 것 | emotion=surprised
-C | Persze, az előszobában. Ha lemerül az elem, csipog. | 그럼요, 현관에요. 건전지가 닳으면 삑삑대요. | elem = 건전지 | emotion=gentle
-B | Úristen. Az a kis fehér izé a plafonon? | 세상에. 천장에 있는 그 하얀 거? | izé = 그거(이름이 안 떠오를 때) | emotion=surprised
-C | Az. Már három hete szóltam magának, Dávid. | 그거요. 다비드, 3주 전에 벌써 말했잖아요. | szóltam = 알려 줬다 | emotion=amused
-A | Dávid! Három hete? | 다비드! 3주 전에? | három hete = 3주 전에 | emotion=tsukkomi
+A | Na, Dávid, ébren vagy? Hallod? | 있잖아 다비드, 깨 있어? 들려? | ébren = 깨어 있는 | emotion=worried
+B | Hát mit? Hajnali három van. | 뭘? 새벽 3시야. | hajnal = 새벽 | emotion=annoyed
+A | Ezt a csipogást. Minden éjjel szól. | 이 삑삑 소리. 매일 밤 나. | csipogás = 삑삑 소리 | emotion=worried
+B | Tényleg. Honnan jön? | 진짜네. 어디서 나는 거야? | honnan = 어디에서 | emotion=surprised
+A | Szerintem a fal mögül. Lehet, hogy a szomszéd órája. | 내 생각엔 벽 너머. 옆집 시계일 수도 있어. | lehet, hogy = ~일 수도 있다 | emotion=neutral+worried
+B | Vagy Marika néni mosógépe. Holnap megkérdezzük. | 아니면 마리카 아주머니 세탁기. 내일 물어보자. | megkérdezzük = 우리가 물어본다 | emotion=neutral
+A | Csókolom, Marika néni! Hallja éjjel a csipogást? | 안녕하세요, 아주머니! 밤에 삑 소리 들리세요? | hallja = 들리세요(Ön) | emotion=polite
+C | Milyen csipogást? Én jól alszom. | 무슨 삑 소리요? 난 잘 자요. | jól alszom = 잘 잔다 | emotion=surprised+gentle
+B | Pedig a falunk közös a magáéval. | 그래도 우리 벽이 아주머니 벽이랑 붙어 있는데요. | a magáé = 당신의 것 | emotion=neutral
+C | Nálam semmi nem csipog. És a maguk füstjelzője? | 우리 집엔 아무것도 안 삐요. 그 집 화재경보기는요? | füstjelző = 화재경보기 | emotion=neutral
+A | Füstjelző? Van nálunk ilyen? | 화재경보기요? 우리 집에 그런 거 있어요? | ilyen = 이런 것 | emotion=surprised
+C | Persze, az előszobában. Ha lemerül az elem, csipog. | 그럼요, 현관에 있어요. 건전지 닳으면 삐요. | elem = 건전지 | emotion=gentle
+B | Úristen. Az a kis fehér izé a plafonon? | 세상에. 천장에 있는 그 하얀 거? | izé = 그거 | emotion=surprised
+C | Az. Már három hete szóltam magának, Dávid. | 그거요. 다비드, 3주 전에 이미 말했잖아요. | szóltam = 알려 줬다 | emotion=amused
+A | Dávid! Három hete már? | 다비드! 3주 전이라고? | három hete = 3주 전에 | emotion=tsukkomi
 
 === r3_life_b2
 kind: long
 title: 우체국 쪽지
 emoji: ✉️
-scene: 우편함에 부재중 배달 쪽지(értesítő)가 꽂혀 있다. 계단에서 Marika 아주머니에게 어떻게 하는지 묻는다
+scene: 우편함에 부재중 쪽지(értesítő)가 꽂혀 있다. 계단에서 Marika 아주머니한테 어떻게 하는지 물어본다
 b: Marika néni
 register: polite
 twist: 13 reveal
@@ -465,16 +465,16 @@ purpose: study_abroad
 goal: 우체국에서 소포 찾는 법(értesítő · útlevél · nyitvatartás) 묻고 알아듣기
 expressions: Mit jelent; Értem; Ugye
 A | Csókolom, Marika néni! Megkérdezhetek valamit? | 안녕하세요, 아주머니! 뭐 좀 여쭤봐도 될까요? | megkérdezhetek = 물어봐도 된다 | emotion=polite
-B | Persze, kedves. Mi a baj? | 그럼요. 무슨 일이에요? | mi a baj? = 무슨 일이에요? | emotion=gentle
+B | Persze, kedves. Mi a baj? | 그럼요, 얘야. 무슨 일이에요? | mi a baj = 무슨 일이에요 | emotion=gentle
 A | Ezt a papírt találtam a postaládában. Mit jelent? | 우편함에서 이 종이를 찾았어요. 무슨 뜻이에요? | postaláda = 우편함 | emotion=worried
 B | Ez értesítő. A postás hozott egy csomagot, de nem volt otthon senki. | 부재중 쪽지예요. 집배원이 소포를 가져왔는데 집에 아무도 없었던 거예요. | értesítő = 통지서 | emotion=neutral
-A | És most mit csináljak? | 그럼 이제 어떻게 해요? | csináljak = 내가 해야 할까(접속법) | emotion=worried
+A | És most mit csináljak? | 그럼 이제 어떻게 해야 해요? | csináljak = 내가 해야 할까 | emotion=worried
 B | Vigye el ezt a postára, a Petőfi utcába. Öt napig ott van. | 이걸 우체국에 가져가세요, 페퇴피 거리요. 닷새 동안 거기 있어요. | vigye el = 가져가세요(Ön) | emotion=gentle
-A | Mit vigyek még? Útlevelet? | 그 밖에 뭘 가져가요? 여권? | vigyek = 가져가야 할까 | emotion=neutral
+A | Mit vigyek még? Az útlevelet? | 그 밖에 뭘 가져가야 해요? 여권? | vigyek = 가져가야 할까 | emotion=neutral
 B | Igen, az útlevelét vagy a lakcímkártyáját. | 네, 여권이나 주소 카드요. | lakcímkártya = 주소 카드 | emotion=polite
 A | Értem. Mikor van nyitva? | 알겠어요. 언제 열어요? | nyitva = 열려 있는 | emotion=neutral
 B | Hétköznap nyolctól hatig, szombaton délig. | 평일 8시부터 6시까지, 토요일은 정오까지요. | -tól … -ig = ~부터 ~까지 | emotion=polite
-A | Köszönöm szépen. Ugye a postán sokat kell várni? | 정말 고맙습니다. 우체국은 오래 기다려야 하죠? | ugye = ~죠? | emotion=worried
+A | Köszönöm szépen. Ugye a postán sokat kell várni? | 정말 고맙습니다. 우체국은 오래 기다려야 하죠? | ugye = ~죠 | emotion=worried
 B | Hát, néha egy órát is. Vigyen egy könyvet. | 글쎄요, 가끔은 한 시간도요. 책 한 권 가져가세요. | vigyen = 가져가세요 | emotion=amused
 A | Várjon, ez a név nem az enyém! | 잠깐만요, 이 이름 제 게 아니에요! | az enyém = 내 것 | emotion=surprised
 B | Mutassa! Jaj, Kovács Mária, ez az enyém! | 보여 줘요! 어머, 코바치 마리아, 이거 내 거네! | Mária = 마리카의 본이름 | emotion=surprised+cheerful
@@ -482,9 +482,9 @@ A | Akkor a könyvet Ön viszi a postára. | 그럼 책은 아주머니가 우�
 
 === r3_life_b3
 kind: long
-title: 축구하다 다친 발목
+title: 축구가 더 멋있잖아
 emoji: 🦶
-scene: Dávid 가 발목을 다쳐 같이 야간 진료소(ügyelet)에 왔다. Dávid 는 의사에게 축구하다 다쳤다고 말하고 싶다
+scene: Dávid 가 발목을 다쳐 같이 야간 진료소에 왔다. Dávid 는 의사에게 축구하다 다쳤다고 말하고 싶다
 b: Dávid
 c: Orvos
 d: Nővér
@@ -493,25 +493,25 @@ twist: 13 reveal
 purpose: study_abroad
 goal: 병원에서 다친 경위 말하기(Hogy történt? · Megrándult)
 expressions: Hogy történt; Megrándult; Szerencsére
-D | Jó estét! Ki a beteg, és mi történt? | 안녕하세요! 환자분이 누구고, 어떻게 오셨어요? | beteg = 환자 | emotion=polite
-B | Én. Fáj a bokám, nem tudok rálépni. | 저요. 발목이 아파서 디딜 수가 없어요. | rálépni = 위에 디디다 | emotion=sad
-A | Tegnap este megcsúszott a lépcsőn. Itt a TAJ-kártyája. | 어제 저녁에 계단에서 미끄러졌어요. 여기 보험 카드요. | megcsúszott = 미끄러졌다 | emotion=polite
-D | Köszönöm, felírtam. Üljenek le, mindjárt hívják. | 고맙습니다, 적어 뒀어요. 앉으세요, 곧 불러요. | üljenek le = 앉으세요(여럿, Ön) | emotion=polite
-A | Nagyon fáj? Hozzak vizet? | 많이 아파? 물 갖다줄까? | hozzak = 내가 가져올까 | emotion=worried
-B | Nem kell. De az orvosnak mondjuk azt, hogy focizás közben történt. | 괜찮아. 근데 의사한테는 축구하다 다쳤다고 하자. | focizás közben = 축구하는 도중 | emotion=stiff
-A | Miért? A lépcső nem elég jó? | 왜? 계단은 별로야? | elég jó = 충분히 좋은 | emotion=teasing
-B | Psszt! A lépcső ciki, a foci menő. | 쉿! 계단은 창피하고, 축구는 멋있잖아. | ciki = 창피한, menő = 멋진 | emotion=flustered
-C | Dávid, jöjjön be! Hogy történt? | 다비드 씨, 들어오세요! 어떻게 된 거예요? | hogy történt? = 어떻게 일어났어요 | emotion=polite+neutral
-B | Meccsen, a kapu előtt. Egy nagy szerelés volt. | 경기 중에, 골문 앞에서요. 큰 태클이 들어왔어요. | szerelés = 태클 | emotion=stiff
-C | Értem. Szerencsére nem tört el, csak megrándult. | 알겠어요. 다행히 부러지진 않았고, 삔 거예요. | megrándult = 삐었다 | emotion=neutral+gentle
-B | Látod? Mondtam, hogy nem komoly. | 봐? 별거 아니라고 했잖아. | mondtam = 내가 말했다 | emotion=cheerful
-C | Egy hétig pihenjen. De a lapon az áll: lépcső. | 일주일 쉬세요. 근데 차트엔 「계단」이라고 적혀 있네요. | az áll = 그렇게 적혀 있다 | emotion=gentle+amused
-B | Ki mondta ezt?! | 누가 그런 말을 했어요?! | ki = 누가 | emotion=shout
-A | Hát, én. Bocsi, nem tudtam, hogy a foci menőbb. | 음, 나. 미안, 축구가 더 멋있는 줄 몰랐지. | menőbb = 더 멋진 | emotion=shy+amused
+D | Jó estét! Ki a páciens, és mi a probléma? | 안녕하세요! 환자분이 누구고, 무슨 일이세요? | páciens = 환자 | emotion=polite
+B | Én. A bokám fáj, nem bírok rálépni. | 저요. 발목이 아파서 디딜 수가 없어요. | rálépni = 위에 디디다 | emotion=sad
+A | Tegnap este elcsúszott a lépcsőn. Itt a TAJ-kártyája. | 어제 저녁에 계단에서 미끄러졌어요. 여기 보험 카드요. | elcsúszott = 미끄러졌다 | emotion=polite
+D | Rendben, feljegyeztem. Üljenek le, mindjárt szólítják. | 알겠습니다, 적어 뒀어요. 앉으세요, 곧 불러요. | üljenek le = 앉으세요(여럿, Ön) | emotion=polite
+A | Nagyon fáj? Hozzak valamit inni? | 많이 아파? 뭐 좀 갖다줄까? | hozzak = 내가 가져올까 | emotion=worried
+B | Nem kell, köszi. De az orvosnak azt mondjuk, hogy foci közben történt. | 괜찮아, 고마워. 근데 의사한테는 축구하다 다쳤다고 하자. | foci közben = 축구하는 도중 | emotion=stiff
+A | Miért? A lépcső nem elég menő? | 왜? 계단은 별로야? | menő = 멋진 | emotion=teasing
+B | Psszt! A lépcső ciki, a foci meg menő, na. | 쉿! 계단은 창피하고, 축구가 더 멋있잖아. | ciki = 창피한 | emotion=flustered
+C | Dávid, jöjjön be! Szóval, hogy történt? | 다비드 씨, 들어오세요! 그래서, 어떻게 된 거예요? | hogy történt? = 어떻게 일어났어요 | emotion=polite+neutral
+B | Meccsen, a kapu előtt. Durva szerelés jött. | 경기 중에, 골문 앞에서요. 강한 태클이 들어왔어요. | szerelés = 태클 | emotion=stiff
+C | Értem. Szerencsére nem tört el, csak megrándult a bokája. | 알겠어요. 다행히 부러지진 않았고, 발목만 삔 거예요. | megrándult = 삐었다 | emotion=neutral+gentle
+B | Na látod? Mondtam, hogy nem vészes. | 봐? 별거 아니라고 했잖아. | vészes = 심각한 | emotion=cheerful
+C | Egy hétig pihenjen. De a papíron az áll: lépcső. | 일주일 쉬세요. 근데 차트엔 「계단」이라고 적혀 있네요. | az áll = 그렇게 적혀 있다 | emotion=gentle+amused
+B | Ki mondta ezt?! Komolyan? | 누가 그런 말을 했어요?! 진짜? | komolyan? = 진짜? | emotion=shout
+A | Hát, én voltam. Bocsi, nem gondoltam, hogy a foci menőbb. | 음, 나. 미안, 축구가 더 멋있는 줄 몰랐지. | menőbb = 더 멋진 | emotion=shy+amused
 
 === r3_life_b4
 kind: long
-title: 이제 말 놓을까요
+title: 수프 더 먹어야 말 놓아줘
 emoji: 🍲
 scene: 일요일 점심, Dávid 와 함께 Marika 아주머니 댁에 초대받았다. 수프를 자꾸 더 권하신다
 b: Marika néni
@@ -521,25 +521,25 @@ twist: 12 emotion
 purpose: study_abroad
 goal: 식사 자리 표현(Nagyon finom · Még egy kicsit? · Tegeződjünk)
 expressions: Nagyon finom; Még egy kicsit; Tegeződjünk
-B | Tessék, üljenek le! Húsleves van, utána rántott hús. | 자, 앉아요! 고기 수프 먹고, 다음엔 슈니첼이에요. | húsleves = 고기 수프 | emotion=cheerful
-A | Köszönjük a meghívást, Marika néni! | 초대해 주셔서 감사해요, 아주머니! | meghívás = 초대 | emotion=polite
-C | Marika néni levese a legjobb a házban. | 마리카 아주머니 수프가 건물에서 제일 맛있어. | a legjobb = 최고 | emotion=cheerful
-A | Tényleg! Nagyon finom. | 정말이에요! 아주 맛있어요. | finom = 맛있는 | emotion=cheerful
-B | Még egy kicsit? Maga nagyon sovány. | 조금 더 줄까요? 너무 말랐어요. | sovány = 마른 | emotion=gentle
+B | Tessék, üljenek le! Van húsleves, aztán rántott hús. | 자, 앉아요! 고기 수프 있고, 다음엔 슈니첼이에요. | húsleves = 고기 수프 | emotion=cheerful
+A | Köszönjük szépen a meghívást, Marika néni! | 초대해 주셔서 정말 감사해요, 아주머니! | meghívás = 초대 | emotion=polite
+C | Marika néni levese a legfinomabb az egész házban. | 마리카 아주머니 수프가 이 건물에서 제일 맛있어. | legfinomabb = 가장 맛있는 | emotion=cheerful
+A | Tényleg! Nagyon finom. | 진짜요! 정말 맛있어요. | finom = 맛있는 | emotion=cheerful
+B | Még egy kicsit? Maga túl sovány. | 조금 더 줄까요? 너무 말랐어요. | sovány = 마른 | emotion=gentle
 A | Jaj, köszönöm, de már a másodikat eszem. | 아이고, 고맙지만 벌써 두 그릇째예요. | másodikat = 두 번째 것을 | emotion=flustered
-C | Ne is próbáld. Itt nincs olyan, hogy nem. | 거절은 시도도 하지 마. 여기선 「아니요」가 없어. | ne is próbáld = 시도도 하지 마 | emotion=teasing
-B | Na tessék, csak egy fél tányért. | 자, 반 그릇만. | tányér = 접시 | emotion=cheerful
-A | Rendben, de tényleg csak felet! | 좋아요, 근데 진짜 반만요! | felet = 반(목적격) | emotion=amused
+C | Ne is próbáld visszautasítani. Itt nincs nem. | 거절은 생각도 하지 마. 여기선 「아니요」가 없어. | visszautasítani = 거절하다 | emotion=teasing
+B | Na, tessék, csak egy fél tányért. | 자, 반 그릇만. | tányér = 접시 | emotion=cheerful
+A | Jól van, de tényleg csak felet! | 좋아요, 근데 진짜 반만요! | felet = 반(목적격) | emotion=amused
 B | Maga már fél éve itt lakik, ugye? | 여기 산 지 반년 됐죠? | fél éve = 반년 전부터 | emotion=gentle
 A | Igen, tavasz óta. | 네, 봄부터요. | tavasz óta = 봄부터 | emotion=polite
 B | Akkor elég a magázásból: tegeződjünk! Marika vagyok. | 그럼 존댓말은 그만해요. 우리 말 놓자! 나는 마리카야. | magázás = 존댓말 쓰기 | emotion=gentle+cheerful
-A | Tényleg? Akkor szia, Marika! | 정말요? 그럼… 안녕, 마리카! | szia = 안녕(반말) | emotion=surprised+shy
-C | Hé! Én három év után kaptam ezt meg! | 야! 난 3년 걸려서 받은 건데! | kaptam meg = 받았다 | emotion=shout
-B | Mert te sosem kérsz még levest. Ez a titok. | 너는 수프를 더 달라고 한 적이 없잖아. 그게 비결이야. | titok = 비밀 | emotion=teasing
+A | Komolyan? Akkor szia, Marika! | 진짜요? 그럼… 안녕, 마리카! | szia = 안녕(반말) | emotion=surprised+shy
+C | Hé! Én három év után kaptam meg! | 야! 난 3년 걸려서 받은 건데! | kaptam meg = 받았다 | emotion=shout
+B | Mert te sose kérsz még levest. Ez a titok. | 너는 수프를 더 달라고 한 적이 없잖아. 그게 비결이야. | titok = 비밀 | emotion=teasing
 
 === r3_life_c1
 kind: chat
-title: 단수 공지
+title: 물 없는 아침의 대참사
 emoji: 🚱
 scene: 건물 단톡방. 어제 Feri 아저씨가 올린 단수 공지를 깜빡하고 아침에 샤워를 시작했다
 b: Dávid
@@ -551,18 +551,18 @@ purpose: study_abroad
 goal: 단톡방 공지 읽기(Nem lesz víz · …-tól …-ig) · 이웃에게 부탁하기
 expressions: Nem lesz víz; Mi van; Tényleg
 D | Kedves lakók! Holnap kilenctől egyig nem lesz víz a házban. | 주민 여러분! 내일 9시부터 1시까지 건물에 물이 안 나옵니다. | -tól … -ig = ~부터 ~까지 | emotion=polite at=20:15
-C | Köszönjük, Feri! | 고마워요, 페리 씨! | köszönjük = 우리가 고마워한다 | emotion=polite at=20:17
+C | Köszönjük szépen, Feri! | 정말 고마워요, 페리 씨! | köszönjük = 우리가 고마워한다 | emotion=polite at=20:17
 A | Köszönjük az infót! 👍 | 알려 주셔서 고마워요! 👍 | infó = 정보 | emotion=cheerful at=20:20
 A | Dávid, otthon vagy? 😰 | 다비드, 집이야? 😰 | otthon = 집에 | emotion=worried at=09:12
-B | Nem, edzésen vagyok. Mi van? | 아니, 운동 중이야. 왜? | edzés = 운동, 훈련 | emotion=neutral at=09:20
-A | Nincs víz! És tele van samponnal a hajam. | 물이 안 나와! 머리가 샴푸 범벅이야. | samponnal = 샴푸로 | emotion=shout+worried at=09:20
+B | Nem, edzésen vagyok. Mi van? | 아니, 운동 중이야. 왜? | edzés = 운동 | emotion=neutral at=09:20
+A | Nincs víz! És a hajam tele van samponnal. | 물이 안 나와! 머리가 샴푸 범벅이야. | samponnal = 샴푸로 | emotion=shout+worried at=09:20
 B | Feri bácsi tegnap írta: kilenctől egyig nincs víz. | 페리 아저씨가 어제 썼잖아. 9시부터 1시까지 물 안 나온다고. | írta = 그걸 썼다 | emotion=neutral at=09:21
-A | Tegnap? Nem láttam semmit. | 어제? 아무것도 못 봤는데. | semmit = 아무것도 | emotion=surprised at=09:21
+A | Tegnap? Semmit se láttam. | 어제? 아무것도 못 봤는데. | semmit = 아무것도 | emotion=surprised at=09:21
 B | Te válaszoltál rá: „Köszönjük az infót!” 😂 | 네가 답장했잖아. 「알려 주셔서 고마워요!」 😂 | válaszoltál rá = 거기에 답했다 | emotion=teasing at=09:22
 A | Jaj, tényleg! Valaki tud adni egy kis vizet? | 아, 맞다! 누가 물 좀 주실 수 있나요? | tud adni = 줄 수 있다 | emotion=flustered+polite at=09:23
 C | Viszek egy fazék vizet, kedves! | 물 한 냄비 갖다줄게요! | fazék = 냄비 | emotion=gentle at=09:23
-D | Én két vödröt viszek a pincéből. | 나는 지하실에서 양동이 두 개 갖다줄게요. | vödör = 양동이 | emotion=cheerful at=09:24
-A | Köszönöm! Egy pohár is elég lesz! | 고맙습니다! 한 컵이면 충분해요! | elég = 충분한 | emotion=flustered at=09:24
+D | Én két vödröt hozok a pincéből. | 나는 지하실에서 양동이 두 개 갖다줄게요. | vödör = 양동이 | emotion=cheerful at=09:24
+A | Köszönöm! Egy pohár is elég! | 고맙습니다! 한 컵이면 충분해요! | elég = 충분한 | emotion=flustered at=09:24
 C | Már úton vagyunk. A negyedikről is jönnek. | 벌써 가는 중이에요. 4층 사람들도 와요. | úton = 가는 길에 | emotion=cheerful at=09:26
 A | Hat fazék víz áll az ajtóm előtt. És most jött vissza a víz. 🚿 | 문 앞에 냄비 여섯 개가 서 있어요. 그리고 방금 물이 다시 나와요. 🚿 | visszajött = 돌아왔다 | emotion=amused at=09:40
 B | Most mindenkinek vissza kell vinni a fazekát. 😂 | 이제 냄비 다 돌려드려야겠네. 😂 | visszavinni = 돌려 가져가다 | emotion=teasing at=09:41

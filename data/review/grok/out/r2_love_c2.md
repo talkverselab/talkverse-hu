@@ -1,0 +1,22 @@
+=== r2_love_c2
+kind: chat
+title: 뽀뽀 하나에 식은땀
+emoji: 💋
+scene: Anna 가 먼저 내일 드로잉 수업에 오냐고 묻는다. A 가 인사 끝에 한 단어를 붙인다
+b: Anna
+register: chat
+twist: 8 reveal
+flags: romance
+purpose: love
+goal: 채팅 인사 puszi(볼뽀뽀, 흔한 끝인사)와 주문 말하기(…-val, … nélkül)
+expressions: Persze; Bocsi; Nyugi; Tényleg?
+B | Na, holnap is jössz a rajzórára? | 나, 내일도 드로잉 수업 와? | rajzóra = 드로잉 수업 | emotion=cheerful at=20:05
+A | Persze! Hozok neked kávét. | 당연하지! 커피 가져다줄게. | hozok = 가져간다 | emotion=cheerful at=20:06
+B | Jaj, köszi nagyon! Tejjel, cukor nélkül. ☕ | 아, 진짜 고마워! 우유 넣고 설탕 없이. ☕ | nélkül = ~없이 | emotion=cheerful at=20:06
+A | Jó, akkor holnap. Puszi! | 좋아, 그럼 내일. 뽀뽀! | puszi = 볼뽀뽀(끝인사) | emotion=cheerful at=20:07
+A | Bocsi, úristen! Nem úgy gondoltam! | 미안, 세상에! 그런 뜻 아니었어! | nem úgy gondoltam = 그런 뜻이 아니었어 | emotion=flustered at=20:07
+B | Hogy mit? 😄 | 뭘 말이야? 😄 | hogy mit? = 뭘 말이야? | emotion=amused at=20:09
+A | A puszit. Túl sok volt, ugye? | 뽀뽀 말이야. 너무 갔지, 그렇지? | túl sok = 너무 많은 | emotion=worried at=20:09
+B | Nyugi, mindenki puszit küld itt. Még a fogorvosom is. 😂 | 진정해, 여기선 다들 뽀뽀 보내. 내 치과 의사도. 😂 | nyugi = 진정해 | emotion=amused at=20:10
+A | Tényleg? Akkor oké, megnyugodtam. | 진짜? 그럼 괜찮아, 안심했어. | megnyugodtam = 안심했다 | emotion=cheerful at=20:11
+B | De a tiéd sokkal jobban esett, mint a fogorvosé. 🙈 | 근데 네 건 치과 의사 거보다 훨씬 더 좋았어. 🙈 | jól esik = 기분 좋다 | emotion=shy at=20:13 stamp=🙈

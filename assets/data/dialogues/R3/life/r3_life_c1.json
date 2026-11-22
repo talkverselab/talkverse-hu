@@ -10,7 +10,7 @@
  "domain": [
   "life"
  ],
- "title": "단수 공지",
+ "title": "물 없는 아침의 대참사",
  "emoji": "🚱",
  "scene": "건물 단톡방. 어제 Feri 아저씨가 올린 단수 공지를 깜빡하고 아침에 샤워를 시작했다",
  "speakers": {
@@ -79,9 +79,9 @@
   {
    "num": 2,
    "speaker": "C",
-   "hu": "Köszönjük, Feri!",
-   "rd": "쾨쐰윅, 페리!",
-   "ko": "고마워요, 페리 씨!",
+   "hu": "Köszönjük szépen, Feri!",
+   "rd": "쾨쐰윅 쎄펜, 페리!",
+   "ko": "정말 고마워요, 페리 씨!",
    "note": "köszönjük = 우리가 고마워한다",
    "tags": [],
    "at": "20:17",
@@ -92,6 +92,11 @@
      "Köszönjük",
      "köszön",
      "쾨쇠니"
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
     ]
    ]
   },
@@ -149,7 +154,7 @@
    "hu": "Nem, edzésen vagyok. Mi van?",
    "rd": "넴, 에제센 버죡. 미 번?",
    "ko": "아니, 운동 중이야. 왜?",
-   "note": "edzés = 운동, 훈련",
+   "note": "edzés = 운동",
    "tags": [
     "expr:Mi van"
    ],
@@ -172,8 +177,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Nincs víz! És tele van samponnal a hajam.",
-   "rd": "닌치 비즈! 에시 텔레 번 셤폰널 어 허염.",
+   "hu": "Nincs víz! És a hajam tele van samponnal.",
+   "rd": "닌치 비즈! 에시 어 허염 텔레 번 셤폰널.",
    "ko": "물이 안 나와! 머리가 샴푸 범벅이야.",
    "note": "samponnal = 샴푸로",
    "tags": [],
@@ -186,7 +191,7 @@
     ],
     [
      "worried",
-     "És tele van samponnal a hajam."
+     "És a hajam tele van samponnal."
     ]
    ],
    "ui": "bubble",
@@ -202,6 +207,11 @@
      "비즈"
     ],
     [
+     "hajam",
+     "hajam",
+     ""
+    ],
+    [
      "tele",
      "tél",
      "텔"
@@ -214,11 +224,6 @@
     [
      "samponnal",
      "sampon",
-     ""
-    ],
-    [
-     "hajam",
-     "hajam",
      ""
     ]
    ]
@@ -275,8 +280,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Tegnap? Nem láttam semmit.",
-   "rd": "텍너프? 넴 라떰 셈미트.",
+   "hu": "Tegnap? Semmit se láttam.",
+   "rd": "텍너프? 셈미트 세 라떰.",
    "ko": "어제? 아무것도 못 봤는데.",
    "note": "semmit = 아무것도",
    "tags": [],
@@ -413,8 +418,8 @@
   {
    "num": 12,
    "speaker": "D",
-   "hu": "Én két vödröt viszek a pincéből.",
-   "rd": "엔 케트 뵈드뢰트 비쎅 어 핀체뵐.",
+   "hu": "Én két vödröt hozok a pincéből.",
+   "rd": "엔 케트 뵈드뢰트 호족 어 핀체뵐.",
    "ko": "나는 지하실에서 양동이 두 개 갖다줄게요.",
    "note": "vödör = 양동이",
    "tags": [],
@@ -428,9 +433,9 @@
      ""
     ],
     [
-     "viszek",
-     "visz",
-     "비스"
+     "hozok",
+     "hoz",
+     "호즈"
     ],
     [
      "pincéből",
@@ -442,8 +447,8 @@
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Köszönöm! Egy pohár is elég lesz!",
-   "rd": "쾨쐬뇜! 에지 포하르 이시 엘렉 레쓰!",
+   "hu": "Köszönöm! Egy pohár is elég!",
+   "rd": "쾨쐬뇜! 에지 포하르 이시 엘렉!",
    "ko": "고맙습니다! 한 컵이면 충분해요!",
    "note": "elég = 충분한",
    "tags": [],
@@ -465,11 +470,6 @@
      "elég",
      "elég",
      "엘렉"
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
     ]
    ]
   },

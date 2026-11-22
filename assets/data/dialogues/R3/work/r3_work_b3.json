@@ -10,9 +10,9 @@
  "domain": [
   "work"
  ],
- "title": "첫 출근, 말 놓기",
+ "title": "첫 출근에 말 놓기",
  "emoji": "🤝",
- "scene": "회사 첫 출근. 팀장이 자리·비밀번호·주방을 안내하더니 여기선 다들 말을 놓는다고 한다",
+ "scene": "회사 첫 출근. 팀장이 자리·비번·주방을 안내하고 여기선 다들 말 놓는다고 한다",
  "speakers": {
   "A": "{name}",
   "B": "Igazgató"
@@ -31,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó reggelt! Üdvözöljük a cégnél. Jól odatalált?",
-   "rd": "요 렉겔트! 위드뵈죌윅 어 첵넬. 욜 오더털랄트?",
-   "ko": "좋은 아침이에요! 회사에 오신 걸 환영해요. 잘 찾아오셨어요?",
-   "note": "odatalál = 찾아오다",
+   "hu": "Jó reggelt! Üdvözlünk a csapatban. Könnyen megtaláltad?",
+   "rd": "요 렉겔트! 위드뵈즐륀크 어 처퍼트번. 쾨넨 멕털랄터드?",
+   "ko": "좋은 아침! 팀에 오신 걸 환영해요. 잘 찾아오셨어요?",
+   "note": "megtalál = 찾아오다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -49,23 +49,23 @@
      "렉겔"
     ],
     [
-     "cégnél",
-     "cég",
-     "체그"
+     "csapatban",
+     "csapat",
+     "처펏"
     ],
     [
-     "odatalált",
-     "odatalál",
-     ""
+     "megtaláltad",
+     "megtalál",
+     "메그털랄"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó reggelt! Igen, de a portán egy kicsit eltévedtem.",
-   "rd": "요 렉겔트! 이겐, 데 어 포르탄 에지 키치트 엘테베드템.",
-   "ko": "좋은 아침입니다! 네, 근데 안내 데스크에서 조금 헤맸어요.",
+   "hu": "Jó reggelt! Igen, csak a portán kicsit eltévedtem.",
+   "rd": "요 렉겔트! 이겐, 척 어 포르탄 키치트 엘테베드템.",
+   "ko": "좋은 아침입니다! 네, 근데 안내 데스크에서 좀 헤맸어요.",
    "note": "porta = 안내 데스크",
    "tags": [],
    "emotion": "shy",
@@ -79,6 +79,11 @@
      "reggelt",
      "reggel",
      "렉겔"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
     ],
     [
      "portán",
@@ -100,22 +105,22 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Mindenki eltéved az első napon. Ez lesz az asztala, az ablak mellett.",
-   "rd": "민덴키 엘테베드 어즈 엘쇠 너폰. 에즈 레쓰 어즈 어쓰털러, 어즈 어블럭 멜레트.",
+   "hu": "Az első napon mindenki eltéved. Ez lesz az asztalod, az ablak mellett.",
+   "rd": "어즈 엘쇠 너폰 민덴키 엘테베드. 에즈 레쓰 어즈 어쓰털로드, 어즈 어블럭 멜레트.",
    "ko": "첫날엔 다 헤매요. 여기가 자리예요, 창가.",
    "note": "asztal = 책상",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "eltéved",
-     "eltéved",
-     ""
-    ],
-    [
      "napon",
      "nap",
      "넙"
+    ],
+    [
+     "eltéved",
+     "eltéved",
+     ""
     ],
     [
      "lesz",
@@ -123,9 +128,9 @@
      "레쓰"
     ],
     [
-     "asztala",
-     "asztal",
-     "어슬러"
+     "asztalod",
+     "asztalod",
+     ""
     ],
     [
      "ablak",
@@ -137,9 +142,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Nagyon szép! És a jelszót kitől kapom meg?",
-   "rd": "너죤 쎄프! 에시 어 옐쏘트 키퇼 커폼 멕?",
-   "ko": "아주 좋네요! 비밀번호는 누구한테 받나요?",
+   "hu": "Nagyon szép hely! A jelszót kitől kapom?",
+   "rd": "너죤 쎄프 헤이! 어 옐쏘트 키퇼 커폼?",
+   "ko": "자리 정말 좋네요! 비밀번호는 누구한테 받나요?",
    "note": "jelszó = 비밀번호",
    "tags": [],
    "emotion": "cheerful",
@@ -153,6 +158,11 @@
      "szép",
      "szép",
      "쎕"
+    ],
+    [
+     "hely",
+     "hely",
+     "헤이"
     ],
     [
      "jelszót",
@@ -174,17 +184,22 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Az informatikustól, kilenckor jön. Addig megmutatom a konyhát.",
-   "rd": "어즈 인포르머티쿠슈톨, 킬렌츠코르 욘. 어딕 멕무터톰 어 코니하트.",
-   "ko": "전산 담당자한테요, 아홉 시에 와요. 그동안 주방 보여 드릴게요.",
+   "hu": "Az informatikus adja, kilenckor érkezik. Addig megmutatom a konyhát.",
+   "rd": "어즈 인포르머티쿠시 어드여, 킬렌츠코르 에르케직. 어딕 멕무터톰 어 코니하트.",
+   "ko": "전산 담당자가 줘요, 아홉 시에 와요. 그동안 주방 보여 드릴게요.",
    "note": "addig = 그때까지",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "informatikustól",
+     "informatikus",
      "informatikus",
      ""
+    ],
+    [
+     "adja",
+     "ad",
+     "어드"
     ],
     [
      "kilenckor",
@@ -192,9 +207,9 @@
      ""
     ],
     [
-     "jön",
-     "jön",
-     "왼"
+     "érkezik",
+     "érkezik",
+     "에르께직"
     ],
     [
      "megmutatom",
@@ -211,9 +226,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Köszönöm. Hol lehet itt ebédelni?",
-   "rd": "쾨쐬뇜. 홀 레헤트 이트 에베델니?",
-   "ko": "감사합니다. 점심은 어디서 먹을 수 있어요?",
+   "hu": "Köszönöm. Hol szoktak itt ebédelni?",
+   "rd": "쾨쐬뇜. 홀 쏙턱 이트 에베델니?",
+   "ko": "감사합니다. 점심은 보통 어디서 드세요?",
    "note": "ebédelni = 점심 먹다",
    "tags": [],
    "emotion": "polite",
@@ -224,9 +239,9 @@
      "쾨쇠니"
     ],
     [
-     "lehet",
-     "lehet",
-     "레헤트"
+     "szoktak",
+     "szokik",
+     "서키크"
     ],
     [
      "itt",
@@ -243,10 +258,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Itt a konyhában, vagy a sarkon van egy menüs hely. A kávé ingyen van.",
-   "rd": "이트 어 코니하번, 버지 어 셔르콘 번 에지 메뉘시 헤이. 어 카베 인젠 번.",
-   "ko": "여기 주방이나, 모퉁이에 정식집이 있어요. 커피는 무료예요.",
-   "note": "menüs hely = 정식 파는 곳",
+   "hu": "Itt a konyhában, vagy a sarkon van egy menüs hely. A kávé ingyenes.",
+   "rd": "이트 어 코니하번, 버지 어 셔르콘 번 에지 메뉘시 헤이. 어 카베 인제네시.",
+   "ko": "여기 주방이나 모퉁이 정식집. 커피는 공짜예요.",
+   "note": "menüs hely = 정식집",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -286,8 +301,8 @@
      "카베"
     ],
     [
-     "ingyen",
-     "ingyen",
+     "ingyenes",
+     "ingyenes",
      ""
     ]
    ]
@@ -295,17 +310,17 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Ez nagyon jó hír!",
-   "rd": "에즈 너죤 요 히르!",
-   "ko": "그거 정말 좋은 소식이네요!",
+   "hu": "Ez tényleg jó hír!",
+   "rd": "에즈 테닐렉 요 히르!",
+   "ko": "진짜 좋은 소식이네요!",
    "note": "hír = 소식",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
-     "nagyon",
-     "nagyon",
-     "너존"
+     "tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
      "jó",
@@ -322,10 +337,10 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Még valami: nálunk mindenki tegeződik. Péter vagyok.",
-   "rd": "멕 벌러미: 날룬크 민덴키 테게죄딕. 페테르 버죡.",
-   "ko": "하나 더요. 우리는 다 말 놓아요. 저는 페테르예요.",
-   "note": "tegeződik = 서로 te 로 말하다",
+   "hu": "Még egy dolog: nálunk mindenki tegeződik. Péter vagyok.",
+   "rd": "멕 에지 돌록: 날룬크 민덴키 테게죄딕. 페테르 버죡.",
+   "ko": "하나 더. 여기선 다 말 놓아요. 저는 페테르예요.",
+   "note": "tegeződik = 서로 반말하다",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -333,6 +348,11 @@
      "Még",
      "még",
      "메그"
+    ],
+    [
+     "dolog",
+     "dolog",
+     "돌록"
     ],
     [
      "tegeződik",
@@ -352,7 +372,7 @@
    "hu": "Rendben, örülök, Péter úr! Ön nagyon kedves.",
    "rd": "렌드벤, 외륄뢱, 페테르 우르! 왼 너죤 케드베시.",
    "ko": "알겠습니다, 반갑습니다, 페테르 님! 정말 친절하시네요.",
-   "note": "Péter úr = 페테르 님(격식)",
+   "note": "Péter úr = 페테르 님",
    "tags": [
     "expr:Rendben"
    ],
@@ -390,7 +410,7 @@
    "speaker": "B",
    "hu": "Csak Péter. És nem Ön, hanem te.",
    "rd": "척 페테르. 에시 넴 왼, 허넴 테.",
-   "ko": "그냥 페테르. 그리고 「당신」 말고 「너」.",
+   "ko": "그냥 페테르. 「당신」 말고 「너」.",
    "note": "nem… hanem = ~가 아니라 ~",
    "tags": [],
    "emotion": "amused",
@@ -451,7 +471,7 @@
    "speaker": "B",
    "hu": "Na látod, megy ez. Kérsz egy kávét?",
    "rd": "너 라토드, 메지 에즈. 케르쓰 에지 카베트?",
-   "ko": "거 봐, 되잖아. 커피 마실래?",
+   "ko": "거 봐, 되잖아. 커피 한 잔 할래?",
    "note": "megy ez = 잘 되네",
    "tags": [
     "expr:Na látod"
@@ -483,10 +503,10 @@
   {
    "num": 14,
    "speaker": "A",
-   "hu": "Köszönöm szépen, nagyon szívesen. Izé, kösz, kérek!",
-   "rd": "쾨쐬뇜 쎄펜, 너죤 씨베센. 이제, 쾨쓰, 케렉!",
-   "ko": "정말 감사합니다, 기꺼이요. 아니, 고마워, 마실래!",
-   "note": "izé = 어, 그거(말 막힐 때)",
+   "hu": "Köszönöm szépen, nagyon szívesen. Izé… kösz, kérek!",
+   "rd": "쾨쐬뇜 쎄펜, 너죤 씨베센. 이제… 쾨쓰, 케렉!",
+   "ko": "정말 감사해요, 기꺼이요. 아니… 고마워, 마실게!",
+   "note": "izé = 어, 그…",
    "tags": [],
    "emotion": "polite",
    "segs": [
@@ -496,7 +516,7 @@
     ],
     [
      "flustered",
-     "Izé, kösz, kérek!"
+     "Izé… kösz, kérek!"
     ]
    ],
    "lemmas": [
@@ -537,7 +557,7 @@
    "speaker": "B",
    "hu": "Egy hét, és megszokod. A kávét viszont már ma.",
    "rd": "에지 헤트, 에시 멕쏘코드. 어 카베트 비쏜트 마르 머.",
-   "ko": "일주일이면 익숙해질 거야. 커피는 오늘부터 익숙해지겠지만.",
+   "ko": "일주일만 있으면 익숙해질 거야. 커피는 오늘부터 익숙해지겠지.",
    "note": "viszont = 반면",
    "tags": [],
    "emotion": "teasing",

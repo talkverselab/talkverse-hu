@@ -1,23 +1,23 @@
-=== r2_friends_c1
+=== r2_friends_c2
 kind: chat
-title: 비밀 파티
-emoji: 🤫
-scene: Réka 의 깜짝 생일 파티를 친구들에게 알리는 중. 그런데 이 채팅방은…
+title: 또 5분?!
+emoji: ⏰
+scene: 영화 시작 15분 전, 극장 앞. Réka는 계속 「5분!」만 한다
 b: Réka
 register: chat
 twist: 9 chaos
 purpose: making_friends
-goal: 약속 알리기(시간·장소)와 Ne szólj neki
-expressions: Figyelj; Ne szólj; Úristen
-A | Figyelj, szombaton meglepetésbuli Rékának! | 있잖아, 토요일에 레카 깜짝 파티 해! | meglepetésbuli = 깜짝 파티 | emotion=excited at=17:10
-A | Nyolckor nálam. Ne szólj neki! 🤫 | 8시에 우리 집에서. 레카한테 말하지 마! 🤫 | ne szólj = 말하지 마 | emotion=teasing at=17:10
-B | Aha. Milyen buli? | 응. 무슨 파티? | buli = 파티 | emotion=neutral at=17:12
-A | Hát Réka szülinapja! Elfelejtetted? | 레카 생일이잖아! 잊었어? | elfelejtetted = 너 잊었어 | emotion=surprised at=17:12
-B | Ja, persze. És mit veszünk neki? | 아, 맞다. 뭐 사 주는데? | veszünk = 우리가 산다 | emotion=amused at=17:13
-A | Új biciklis sisakot. A régi nagyon csúnya. | 새 자전거 헬멧. 지금 건 너무 못생겼어. | sisak = 헬멧 | emotion=cheerful at=17:13
-B | Csúnya? 🙂 | 못생겼다고? 🙂 | csúnya = 못생긴 | emotion=teasing at=17:14
-A | Nagyon! De ő szereti, szegény. | 엄청! 근데 본인은 좋아해, 불쌍하게. | szegény = 가엾은 | emotion=amused at=17:14
-B | {name}. Nézd meg, kinek írsz. 😇 | {name}. 누구한테 보내는지 봐. 😇 | kinek = 누구에게 | emotion=teasing at=17:15
-A | Úristen, Réka?! Bocsi! | 세상에, 레카?! 미안! | úristen = 세상에 | emotion=flustered at=17:15
-B | Semmi baj. Szombaton nagyon meglepődöm. 😄 | 괜찮아. 토요일에 엄청 놀라 줄게. 😄 | meglepődöm = 놀란다 | emotion=amused at=17:16
-B | De a sisakom marad. | 근데 내 헬멧은 그대로야. | marad = 남는다 | emotion=teasing at=17:16
+goal: 늦음 알리기·재촉하기(Hol tartasz? · Siess)
+expressions: Hol tartasz; Mindjárt; Siess
+A | Na, itt vagyok a mozi előtt. Hol tartasz? | 나 영화관 앞이야. 어디쯤이야? | Hol tartasz? = 어디쯤이야? | emotion=cheerful at=19:45
+B | Mindjárt ott vagyok! Öt perc, komolyan! | 금방 갈게! 5분, 진짜! | mindjárt = 곧 | emotion=cheerful at=19:46
+A | Oké, akkor megveszem a jegyeket. | 오케이, 그럼 표 살게. | jegy = 표 | emotion=neutral at=19:47
+A | Megvannak a jegyek. Hol vagy már? 🎟️ | 표 다 샀어. 지금 어디야? 🎟️ | megvannak = 다 있다 | emotion=cheerful at=19:55
+B | Öt perc, ígérem, ne már! | 5분, 약속해, 제발! | ígérem = 약속한다 | emotion=flustered at=19:56
+A | Már megy a reklám. Siess már! | 벌써 광고 나와. 서둘러! | siess = 서둘러 | emotion=worried at=20:02
+B | Futok, eskü! A villamoson vagyok. | 뛰는 중, 진짜! 트램 탔어. | villamos = 트램 | emotion=flustered at=20:03
+A | Melyik megállónál? Mondd már! | 어느 정류장이야? 말해! | megálló = 정류장 | emotion=annoyed at=20:05
+B | Hát, igazából még csak most léptem ki a házból. | 음, 사실 지금 막 집에서 나왔어. | igazából = 사실은 | emotion=flustered at=20:06
+A | Most indulsz?! És a villamos? | 지금 출발한다고?! 트램은? | indulsz = 출발한다 | emotion=shout at=20:06
+B | Bocsi! A megállóban vagyok, az már majdnem villamos. 😅 | 미안! 정류장에 있으니까 거의 트램이지. 😅 | majdnem = 거의 | emotion=amused at=20:07
+A | Na jó. A popcornod az enyém. 🍿 | 알았어. 네 팝콘은 내 거야. 🍿 | az enyém = 내 것 | emotion=teasing at=20:08

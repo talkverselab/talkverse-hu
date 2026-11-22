@@ -1,0 +1,28 @@
+=== r3_love_b2
+kind: long
+title: 구멍 난 목도리
+emoji: 🧣
+scene: 12월, A 가 2주 동안 고향에 간다. Anna 가 공항버스 정류장까지 따라 나왔다
+b: Anna
+register: casual
+twist: 11 emotion
+flags: romance
+purpose: love
+goal: 날짜·기간 말하기(január hetedikén · két hét)와 '도착하면 연락해'(Írj, ha megérkeztél)
+expressions: Persze; Amúgy; Igazából; Nézd
+B | Na, mindent bepakoltál? Útlevél, telefon, töltő? | 나, 다 챙겼어? 여권, 휴대폰, 충전기? | bepakoltál = 짐을 쌌다 | emotion=worried
+A | Igen, háromszor is megnéztem. Az útlevél itt van a zsebemben. | 응, 세 번이나 확인했어. 여권은 여기 주머니에 있어. | zsebemben = 내 주머니에 | emotion=cheerful
+B | És mikor jössz vissza pontosan? | 그래서 정확히 언제 돌아와? | pontosan = 정확히 | emotion=gentle
+A | Január hetedikén. Csak két hét, nem olyan sok. | 1월 7일. 2주뿐이야, 그렇게 길지 않아. | hetedikén = 7일에 | emotion=gentle
+B | Persze, két hét semmi. Amúgy otthon most hideg van? | 그럼, 2주는 아무것도 아니지. 그나저나 거기 지금 추워? | amúgy = 그나저나 | emotion=stiff+cheerful
+A | Nagyon. Még hidegebb, mint itt. | 엄청. 여기보다 더 추워. | hidegebb = 더 추운 | emotion=amused
+B | Akkor ezt vidd magaddal. Én kötöttem, de ne nézd meg közelről. | 그럼 이거 가져가. 내가 떴는데, 가까이서 보진 마. | kötöttem = 내가 떴다 | emotion=shy
+A | Egy sál! Hű, de szép, de ez itt egy lyuk? | 목도리! 와, 예쁘다, 근데 여기 이거 구멍이야? | lyuk = 구멍 | emotion=surprised+teasing
+B | Az nem lyuk, hanem dizájn. Három hétig kötöttem. | 그건 구멍이 아니라 디자인이야. 3주 동안 떴어. | három hétig = 3주 동안 | emotion=flustered
+A | Három hétig? De hát csak két hete mondtam, hogy hazamegyek. | 3주? 근데 집에 간다고 말한 건 겨우 2주 전인데. | két hete = 2주 전에 | emotion=surprised
+B | Igazából nem neked kezdtem. Aztán menet közben a tiéd lett. | 사실 너 주려고 시작한 건 아니었어. 그러다 뜨는 동안 네 것이 됐어. | menet közben = 하는 도중에 | emotion=shy
+A | És kinek kezdted? | 그럼 누구 주려고 시작했는데? | kinek = 누구에게 | emotion=teasing
+B | Magamnak, de rajtad jobban áll. Nézd, jön a buszod! | 나한테, 근데 너한테 더 잘 어울려. 봐, 네 버스 온다! | rajtad jobban áll = 너한테 더 어울린다 | emotion=gentle+surprised
+A | Jaj, már? Jó, akkor mennem kell. | 아, 벌써? 그래, 그럼 가야겠다. | mennem kell = 나 가야 해 | emotion=sad
+B | Írj, ha megérkeztél. És ne vedd le a sálat a képeken. | 도착하면 문자해. 그리고 사진에서 목도리 벗지 마. | megérkeztél = 도착했다 | emotion=gentle+teasing
+A | Nem veszem le. Január hetedikén is ebben jövök. | 안 벗을게. 1월 7일에도 이거 하고 올게. | ebben = 이것을 하고 | emotion=shy

@@ -1,0 +1,23 @@
+=== r2_travel_b2
+kind: long
+title: 700 아니고 7천
+emoji: 🧵
+scene: 중앙시장 2층 기념품 가판. Réka 와 자수 식탁보를 본다
+b: Réka
+c: Eladó
+register: mixed
+twist: 6 slip
+purpose: travel making_friends
+goal: 값 묻기와 깎아 달라고 하기(Lehet egy kicsit olcsóbban?)
+expressions: Nézd; Kérdezd meg; Lehet
+B | Nézd, ezek a hímzett terítők nagyon szépek! | 봐, 이 자수 식탁보들 진짜 예쁘다! | hímzett = 수놓은 | emotion=excited
+A | Tényleg szép. Anyukámnak tetszene. | 진짜 예쁘다. 엄마가 좋아할 거야. | tetszene = 좋아할 것 같다 | emotion=cheerful
+B | Kérdezd meg az árát, te beszélsz! | 값 물어봐, 네가 말해! | ár = 값 | emotion=teasing
+A | Jó napot! Mennyibe kerül ez a kicsi? | 안녕하세요! 이 작은 거 얼마예요? | kicsi = 작은 것 | emotion=stiff
+C | Hétezer forint. Kézzel készült. | 7천 포린트요. 손으로 만든 거예요. | kézzel készült = 손으로 만들었다 | emotion=polite
+A | Hétszáz? Az olcsó, tessék! | 700요? 싸네요, 여기요! | hétszáz = 700 | emotion=surprised+excited
+C | Nem hétszáz, kedves. Hétezer. | 700 아니에요, 손님. 7천이요. | hétezer = 7000 | emotion=amused+polite
+B | Jaj, ezt mindig összekeverik. | 아이고, 그거 다들 헷갈려. | összekever = 헷갈리다 | emotion=amused
+A | Bocsánat! Lehet egy kicsit olcsóbban? | 죄송해요! 조금 싸게 해 주실 수 있어요? | olcsóbban = 더 싸게 | emotion=shy+polite
+C | Ha kettőt vesz, a másodikat fél áron adom. | 두 개 사시면 두 번째는 반값에 드릴게요. | fél áron = 반값에 | emotion=polite
+A | Réka, kell neked is egy? | 레카, 너도 하나 필요해? | neked = 너에게 | emotion=teasing

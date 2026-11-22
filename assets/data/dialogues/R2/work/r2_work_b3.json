@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Éhes vagy? Gyere, ebédeljünk együtt!",
-   "rd": "에헤시 버지? 제레, 에베델윈크 에쥐트!",
-   "ko": "배고파? 가자, 같이 점심 먹자!",
+   "hu": "Éhes vagy már? Gyere, ebédeljünk valahol!",
+   "rd": "에헤시 버지 마르? 제레, 에베델윈크 벌러홀!",
+   "ko": "배고파? 가자, 어디 가서 점심 먹자!",
    "note": "ebédeljünk = 점심 먹자",
    "tags": [
     "expr:Gyere"
@@ -47,23 +47,28 @@
      "에헤시"
     ],
     [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
      "ebédeljünk",
      "ebédel",
      ""
     ],
     [
-     "együtt",
-     "együtt",
-     "에듀트"
+     "valahol",
+     "valahol",
+     "벌러홀"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Szívesen. Hova megyünk?",
-   "rd": "씨베센. 호버 메쥔크?",
-   "ko": "좋아. 어디 가?",
+   "hu": "Szívesen! Hova viszel?",
+   "rd": "씨베센! 호버 비쎌?",
+   "ko": "좋아! 어디 가?",
    "note": "hova = 어디로",
    "tags": [],
    "emotion": "cheerful",
@@ -74,18 +79,18 @@
      "시베시"
     ],
     [
-     "megyünk",
-     "megy",
-     "메지"
+     "viszel",
+     "visz",
+     "비스"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "A sarki főzelékezőbe. Olcsó és gyors.",
-   "rd": "어 셔르키 푀젤레케죄베. 올초 에시 죠르시.",
-   "ko": "모퉁이 푀젤레크 집. 싸고 빨라.",
+   "hu": "A sarki főzelékezőbe. Olcsó, gyors, és finom.",
+   "rd": "어 셔르키 푀젤레케죄베. 올초, 죠르시, 에시 피놈.",
+   "ko": "모퉁이 푀젤레크 집이야. 싸고 빠르고 맛있어.",
    "note": "sarki = 모퉁이의",
    "tags": [],
    "emotion": "gentle",
@@ -104,16 +109,21 @@
      "gyors",
      "gyors",
      "죠르시"
+    ],
+    [
+     "finom",
+     "finom",
+     "피놈"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Főzelék? Az meg mi?",
-   "rd": "푀젤렉? 어즈 멕 미?",
-   "ko": "푀젤레크? 그건 또 뭐야?",
-   "note": "az meg mi? = 그건 또 뭐야?",
+   "hu": "Főzelék? Az meg mi az?",
+   "rd": "푀젤렉? 어즈 멕 미 어즈?",
+   "ko": "푀젤레크? 그게 뭐야?",
+   "note": "az meg mi = 그건 또 뭐야",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -127,9 +137,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Sűrű zöldségétel. Tökfőzelék, borsófőzelék, ilyenek.",
-   "rd": "쉬뤼 죌드세게텔. 퇵푀젤렉, 보르쇼푀젤렉, 이예넥.",
-   "ko": "걸쭉한 채소 요리야. 호박, 완두콩 같은 거.",
+   "hu": "Sűrű zöldségpüré. Tök, borsó, ilyesmi.",
+   "rd": "쉬뤼 죌드섹퓌레. 퇵, 보르쇼, 이예슈미.",
+   "ko": "걸쭉한 채소 죽 같은 거야. 호박, 완두, 그런 거.",
    "note": "sűrű = 걸쭉한",
    "tags": [],
    "emotion": "gentle",
@@ -140,13 +150,13 @@
      ""
     ],
     [
-     "zöldségétel",
+     "zöldségpüré",
      "zöldség",
      ""
     ],
     [
-     "borsófőzelék",
-     "borsófőzelék",
+     "borsó",
+     "borsó",
      ""
     ]
    ]
@@ -154,9 +164,9 @@
   {
    "num": 6,
    "speaker": "C",
-   "hu": "Mit kértek, fiatalok?",
-   "rd": "미트 케르텍, 피어털록?",
-   "ko": "뭐 줄까, 젊은이들?",
+   "hu": "Mit kértek, fiúk?",
+   "rd": "미트 케르텍, 피욱?",
+   "ko": "뭐 드릴까, 얘들아?",
    "note": "kértek = 너희가 주문한다",
    "tags": [],
    "emotion": "cheerful",
@@ -167,9 +177,9 @@
      ""
     ],
     [
-     "fiatalok",
-     "fiatal",
-     "피어털"
+     "fiúk",
+     "fiú",
+     "피우"
     ]
    ]
   },
@@ -178,7 +188,7 @@
    "speaker": "A",
    "hu": "Egy tökfőzeléket kérek, fasírttal.",
    "rd": "에지 퇵푀젤레케트 케렉, 퍼시르떨.",
-   "ko": "호박 푀젤레크 하나 주세요, 고기 완자랑.",
+   "ko": "호박 푀젤레크 하나 주세요, 완자랑요.",
    "note": "fasírt = 다진 고기 완자",
    "tags": [],
    "emotion": "polite",
@@ -203,16 +213,16 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "És te, Bence? Megint krumplifőzelék, hús nélkül?",
-   "rd": "에시 테, 벤체? 메긴트 크룸플리푀젤렉, 후시 넬퀼?",
-   "ko": "너는, 벤체? 또 고기 없이 감자 푀젤레크?",
+   "hu": "És te, Bence? Megint krumpli, hús nélkül?",
+   "rd": "에시 테, 벤체? 메긴트 크룸플리, 후시 넬퀼?",
+   "ko": "너는 벤체? 또 고기 없이 감자?",
    "note": "hús nélkül = 고기 없이",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "krumplifőzelék",
-     "krumplifőzelék",
+     "krumpli",
+     "krumpli",
      ""
     ],
     [
@@ -249,9 +259,9 @@
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Hát, ő az anyukám. Ezért olcsó.",
-   "rd": "하트, 외 어즈 어뉴캄. 에제르트 올초.",
-   "ko": "음, 우리 엄마야. 그래서 싼 거야.",
+   "hu": "Hát, ő az anyukám. Ezért olcsó itt.",
+   "rd": "하트, 외 어즈 어뉴캄. 에제르트 올초 이트.",
+   "ko": "음, 우리 엄마야. 그래서 싼 거지.",
    "note": "anyukám = 우리 엄마",
    "tags": [
     "expr:Hát"
@@ -264,7 +274,7 @@
     ],
     [
      "amused",
-     "Ezért olcsó."
+     "Ezért olcsó itt."
     ]
    ],
    "lemmas": [
@@ -282,6 +292,11 @@
      "olcsó",
      "olcsó",
      ""
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
     ]
    ]
   },

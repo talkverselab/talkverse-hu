@@ -34,9 +34,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Holnap is jössz a rajzórára?",
-   "rd": "씨어! 홀너프 이시 요쓰 어 러이조라러?",
-   "ko": "안녕! 내일도 드로잉 수업 와?",
+   "hu": "Na, holnap is jössz a rajzórára?",
+   "rd": "너, 홀너프 이시 요쓰 어 러이조라러?",
+   "ko": "나, 내일도 드로잉 수업 와?",
    "note": "rajzóra = 드로잉 수업",
    "tags": [],
    "at": "20:05",
@@ -44,9 +44,14 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Szia",
-     "szia",
-     "씨어"
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "holnap",
+     "holnap",
+     "홀넙"
     ],
     [
      "jössz",
@@ -63,9 +68,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen, persze! Hozok neked kávét.",
-   "rd": "이겐, 페르쎄! 호족 네케드 카베트.",
-   "ko": "응, 당연하지! 커피 가져다줄게.",
+   "hu": "Persze! Hozok neked kávét.",
+   "rd": "페르쎄! 호족 네케드 카베트.",
+   "ko": "당연하지! 커피 가져다줄게.",
    "note": "hozok = 가져간다",
    "tags": [
     "expr:Persze"
@@ -75,12 +80,7 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
-    ],
-    [
-     "persze",
+     "Persze",
      "persze",
      "페르쎄"
     ],
@@ -94,9 +94,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Jaj, köszi! Tejjel, cukor nélkül. ☕",
-   "rd": "여이, 쾨씨! 테옐, 추코르 넬퀼. ☕",
-   "ko": "아, 고마워! 우유 넣고 설탕은 빼고. ☕",
+   "hu": "Jaj, köszi nagyon! Tejjel, cukor nélkül. ☕",
+   "rd": "여이, 쾨씨 너죤! 테옐, 추코르 넬퀼. ☕",
+   "ko": "아, 진짜 고마워! 우유 넣고 설탕 없이. ☕",
    "note": "nélkül = ~없이",
    "tags": [],
    "at": "20:06",
@@ -114,6 +114,11 @@
      "쾨씨"
     ],
     [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
      "cukor",
      "cukor",
      ""
@@ -123,9 +128,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Rendben, akkor holnap. Puszi!",
-   "rd": "렌드벤, 어꼬르 홀너프. 푸씨!",
-   "ko": "알았어, 그럼 내일. 뽀뽀!",
+   "hu": "Jó, akkor holnap. Puszi!",
+   "rd": "요, 어꼬르 홀너프. 푸씨!",
+   "ko": "좋아, 그럼 내일. 뽀뽀!",
    "note": "puszi = 볼뽀뽀(끝인사)",
    "tags": [],
    "at": "20:07",
@@ -133,9 +138,9 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Rendben",
-     "rend",
-     "렌드"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
      "akkor",
@@ -152,10 +157,10 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Úristen, bocsi! Nem úgy értettem!",
-   "rd": "우리슈텐, 보치! 넴 우지 에르테뗌!",
-   "ko": "세상에, 미안! 그런 뜻 아니었어!",
-   "note": "nem úgy értettem = 그런 뜻이 아니었어",
+   "hu": "Bocsi, úristen! Nem úgy gondoltam!",
+   "rd": "보치, 우리슈텐! 넴 우지 곤돌텀!",
+   "ko": "미안, 세상에! 그런 뜻 아니었어!",
+   "note": "nem úgy gondoltam = 그런 뜻이 아니었어",
    "tags": [
     "expr:Bocsi"
    ],
@@ -164,14 +169,14 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Úristen",
-     "úristen",
-     "우리슈텐"
-    ],
-    [
-     "bocsi",
+     "Bocsi",
      "bocsi",
      "보치"
+    ],
+    [
+     "úristen",
+     "úristen",
+     "우리슈텐"
     ],
     [
      "úgy",
@@ -179,8 +184,8 @@
      "우지"
     ],
     [
-     "értettem",
-     "értett",
+     "gondoltam",
+     "gondolt",
      ""
     ]
    ]
@@ -188,10 +193,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Mit? 😄",
-   "rd": "미트? 😄",
-   "ko": "뭘? 😄",
-   "note": "mit? = 뭘?",
+   "hu": "Hogy mit? 😄",
+   "rd": "호지 미트? 😄",
+   "ko": "뭘 말이야? 😄",
+   "note": "hogy mit? = 뭘 말이야?",
    "tags": [],
    "at": "20:09",
    "emotion": "amused",
@@ -201,8 +206,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "A puszit. Az túl sok volt, ugye?",
-   "rd": "어 푸씨트. 어즈 툴 쇽 볼트, 우제?",
+   "hu": "A puszit. Túl sok volt, ugye?",
+   "rd": "어 푸씨트. 툴 쇽 볼트, 우제?",
    "ko": "뽀뽀 말이야. 너무 갔지, 그렇지?",
    "note": "túl sok = 너무 많은",
    "tags": [],
@@ -216,11 +221,6 @@
      ""
     ],
     [
-     "túl",
-     "túl",
-     "툴"
-    ],
-    [
      "volt",
      "van",
      "번"
@@ -230,8 +230,8 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Nyugi, itt mindenki puszit küld. Még a fogorvosom is. 😂",
-   "rd": "뉴기, 이트 민덴키 푸씨트 퀼드. 멕 어 포고르보숌 이시. 😂",
+   "hu": "Nyugi, mindenki puszit küld itt. Még a fogorvosom is. 😂",
+   "rd": "뉴기, 민덴키 푸씨트 퀼드 이트. 멕 어 포고르보숌 이시. 😂",
    "ko": "진정해, 여기선 다들 뽀뽀 보내. 내 치과 의사도. 😂",
    "note": "nyugi = 진정해",
    "tags": [
@@ -247,11 +247,6 @@
      "니우기"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
      "puszit",
      "puszi",
      ""
@@ -260,6 +255,11 @@
      "küld",
      "küld",
      "퀼드"
+    ],
+    [
+     "itt",
+     "itt",
+     "이트"
     ],
     [
      "fogorvosom",
@@ -271,9 +271,9 @@
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Tényleg? Akkor jó, megnyugodtam.",
-   "rd": "테닐렉? 어꼬르 요, 멕뉴고드텀.",
-   "ko": "진짜? 그럼 다행이다, 안심했어.",
+   "hu": "Tényleg? Akkor oké, megnyugodtam.",
+   "rd": "테닐렉? 어꼬르 오케, 멕뉴고드텀.",
+   "ko": "진짜? 그럼 괜찮아, 안심했어.",
    "note": "megnyugodtam = 안심했다",
    "tags": [
     "expr:Tényleg?"
@@ -288,9 +288,9 @@
      "테니렉"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "oké",
+     "oké",
+     "오케"
     ],
     [
      "megnyugodtam",
@@ -302,9 +302,9 @@
   {
    "num": 10,
    "speaker": "B",
-   "hu": "De a tiéd jobban esett, mint a fogorvosé. 🙈",
-   "rd": "데 어 티에드 요번 에세트, 민트 어 포고르보세. 🙈",
-   "ko": "근데 네 건 치과 의사 거보다 더 좋았어. 🙈",
+   "hu": "De a tiéd sokkal jobban esett, mint a fogorvosé. 🙈",
+   "rd": "데 어 티에드 쇼껄 요번 에세트, 민트 어 포고르보세. 🙈",
+   "ko": "근데 네 건 치과 의사 거보다 훨씬 더 좋았어. 🙈",
    "note": "jól esik = 기분 좋다",
    "tags": [],
    "at": "20:13",
@@ -312,6 +312,11 @@
    "emotion": "shy",
    "ui": "bubble",
    "lemmas": [
+    [
+     "sokkal",
+     "sokk",
+     ""
+    ],
     [
      "jobban",
      "jobb",

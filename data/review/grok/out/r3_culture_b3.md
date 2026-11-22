@@ -1,0 +1,29 @@
+=== r3_culture_b3
+kind: long
+title: 아빠의 이름의 날
+emoji: 🍷
+scene: Réka 아빠의 이름의 날 저녁에 초대받았다. 가기 전에 축하 인사를 배운다
+b: Réka
+c: Réka apukája
+register: mixed
+twist: 9 slip
+flags: alcohol
+purpose: media making_friends
+goal: 이름의 날 축하(Isten éltesse!)와 존댓말·반말 실수 수습
+expressions: Jól van; Nyugodtan; Ugye; Jaj
+B | Ma van apu névnapja. Este nálunk vacsorázunk. | 오늘 아빠 이름의 날이야. 저녁에 우리 집에서 먹어. | nálunk = 우리 집에서 | emotion=cheerful
+A | Hozzak valamit? Virágot vagy bort? | 뭐 가져갈까? 꽃, 아니면 와인? | hoz zak = 가져갈까 | emotion=gentle
+B | Egy üveg bor elég lesz. Apa a vöröset szereti. | 와인 한 병이면 돼. 아빠는 레드를 좋아해. | vörös = 레드 와인 | emotion=cheerful
+A | És mit mondjak neki? Boldog névnapot? | 그리고 뭐라고 해야 해? 이름의 날 축하해요? | mit kell mondani? = 뭐라고 해야 해? | emotion=worried
+B | Az is jó, vagy „Isten éltesse”, magázva. | 그것도 좋고, 아니면 존댓말로 "Isten éltesse". | Isten éltesse = 만수무강하세요(존댓말) | emotion=gentle
+A | Isten éltesse. Oké, megjegyeztem. | Isten éltesse. 오케이, 외웠어. | megjegyez = 외워 두다 | emotion=cheerful
+C | Sziasztok, gyertek be! Hideg van kint. | 얘들아, 들어와! 밖에 춥지. | gyertek be = 들어와 | emotion=cheerful
+C | Ó, vörösbor! Köszönöm, nagyon kedves tőled. | 오, 레드 와인! 고맙구나, 정말 고마워. | kedves = 친절한 | emotion=gentle
+A | Szívesen. És... Isten éltessen! | 천만에요. 그리고… Isten éltessen! | éltessen = 만수무강해(반말) | emotion=cheerful
+C | Hű, már tegeződünk? Jól van, László vagyok! 😄 | 오, 벌써 말 놓는 거야? 좋아, 나 라슬로다! 😄 | tegeződünk = 서로 반말한다 | emotion=amused
+A | Jaj, bocsánat! „Éltesse”, azt akartam mondani. | 아, 죄송해요! "éltesse" 라고 하려던 거예요. | akartam mondani = 말하려고 했다 | emotion=flustered
+B | Túl késő. Apa már nagyon örül neki. 😂 | 너무 늦었어. 아빠 벌써 엄청 좋아하셔. 😂 | örül = 기뻐하다 | emotion=teasing
+C | Komolyan, nyugodtan tegezz. Kérsz egy kis pálinkát? | 진짜로, 편하게 말 놔. 팔린카 좀 할래? | pálinka = 과일 증류주 | emotion=gentle
+A | Csak egy kicsit. Egészségére! | 조금만요. 건배!(존댓말) | Egészségére! = 건배(존댓말) | emotion=polite
+C | Egészségedre! Ugye mondtam: tegezz! | 건배! 말 놓으라고 했지! | Egészségedre! = 건배(반말) | emotion=tsukkomi
+B | Ma már kétszer. Holnapra megtanulja, apa. | 오늘만 벌써 두 번. 내일이면 배울 거야, 아빠. | holnapra = 내일까지 | emotion=amused

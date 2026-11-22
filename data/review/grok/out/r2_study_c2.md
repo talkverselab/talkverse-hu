@@ -1,0 +1,23 @@
+=== r2_study_c2
+kind: chat
+title: 숙제가 몇 쪽이었더라
+emoji: 📖
+scene: 아파서 수업에 못 간 날. Réka 에게 숙제를 물어서 저녁 내내 했다
+b: Réka
+register: chat
+twist: 10 chaos
+purpose: study_abroad
+goal: 결석 뒤 숙제 묻기(Mi a házi feladat? · Melyik oldal?)와 서수
+expressions: Jaj; Úristen; Ne már; Bocsi
+A | Szia! Ma beteg voltam, nem tudtam menni órára. 🤒 | 안녕! 오늘 아팠어, 수업 못 갔어. 🤒 | órára = 수업에 | emotion=sad at=17:10
+B | Jaj, szegény! Jobban vagy már? | 아이고, 저런! 이제 좀 괜찮아? | jobban vagy? = 좀 나아? | emotion=worried at=17:12
+A | Már jobban, köszi. Mi a házi feladat? | 이제 좀 나아, 고마워. 숙제가 뭐야? | házi feladat = 숙제 | emotion=gentle at=17:12
+B | A harmincnegyedik oldal, mindent meg kell csinálni. | 34쪽, 다 해야 해. | oldal = 쪽 | emotion=neutral at=17:15
+A | Mindet? Az tíz gyakorlat! | 다? 그거 열 문제야! | gyakorlat = 연습 문제 | emotion=surprised at=17:16
+B | Tudom. Sok sikert! 💪 | 알아. 잘해봐! 💪 | sok sikert = 잘해 봐 | emotion=teasing at=17:16
+A | Kész! Három órán át csináltam. 😵 | 끝! 세 시간 동안 했어. 😵 | három órán át = 세 시간 동안 | emotion=excited at=21:40
+B | Ügyes vagy! Melyik oldalt csináltad? | 잘했어! 몇 쪽 했어? | ügyes = 잘한다 | emotion=cheerful at=21:45
+A | Hát a harmincnegyediket. Te mondtad. | 당연히 34쪽. 네가 말했잖아. | te mondtad = 네가 말했다 | emotion=surprised at=21:45
+B | Úristen, bocsi! A negyvenharmadik volt. 🙈 | 세상에, 미안! 43쪽이었어. 🙈 | negyvenharmadik = 43번째 | emotion=flustered at=21:47
+A | Ne már. És ott hány gyakorlat van? | 아 진짜. 거기엔 몇 문제 있어? | hány = 몇 개 | emotion=annoyed at=21:47
+B | Csak egy fogalmazás, öt mondat. A harmincnegyediket holnap kérdezi. 😅 | 작문 하나, 다섯 문장. 34쪽은 내일 물어보신대. 😅 | fogalmazás = 작문 | emotion=amused at=21:48 stamp=😅

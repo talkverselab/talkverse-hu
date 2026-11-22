@@ -10,9 +10,9 @@
  "domain": [
   "work"
  ],
- "title": "토요일 근무 바꿔 줘",
+ "title": "토요일 근무 스왑",
  "emoji": "📵",
- "scene": "토요일에 병원에 가야 한다. Bence 에게 근무를 바꿔 달라고 했는데 읽기만 하고 답이 없다",
+ "scene": "토요일에 병원 가야 한다. Bence에게 근무 바꿔 달라고 했는데 읽기만 하고 답이 없다",
  "speakers": {
   "A": "{name}",
   "B": "Bence"
@@ -33,7 +33,7 @@
    "speaker": "A",
    "hu": "Szia! Kérdezhetek valamit?",
    "rd": "씨어! 케르데즈헤텍 벌러미트?",
-   "ko": "안녕! 뭐 하나 물어봐도 돼?",
+   "ko": "안녕! 뭐 좀 물어봐도 돼?",
    "note": "kérdezhetek = 물어봐도 될까",
    "tags": [],
    "at": "10:02",
@@ -50,10 +50,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Szombaton cserélnél velem műszakot? Orvoshoz megyek.",
-   "rd": "쏨버톤 체렐넬 벨렘 뮈써코트? 오르보슈호즈 메젝.",
+   "hu": "Szombaton cserélnél velem? Orvoshoz kell mennem.",
+   "rd": "쏨버톤 체렐넬 벨렘? 오르보슈호즈 켈 멘넴.",
    "ko": "토요일에 나랑 근무 바꿔 줄래? 병원 가야 해서.",
-   "note": "cserélnél = 바꿔 줄래(조건법)",
+   "note": "cserélnél = 바꿔 줄래",
    "tags": [],
    "at": "10:03",
    "emotion": "worried",
@@ -70,14 +70,14 @@
      ""
     ],
     [
-     "műszakot",
-     "műszak",
-     ""
+     "kell",
+     "kell",
+     "켈"
     ],
     [
-     "megyek",
-     "megye",
-     "메예"
+     "mennem",
+     "megy",
+     "메지"
     ]
    ]
   },
@@ -86,8 +86,8 @@
    "speaker": "A",
    "hu": "Bence? Látom, hogy olvastad. 👀",
    "rd": "벤체? 라톰, 호지 올버슈터드. 👀",
-   "ko": "벤체? 읽은 거 다 보여. 👀",
-   "note": "olvastad = 네가 그걸 읽었다",
+   "ko": "벤체? 읽은 거 보이는데. 👀",
+   "note": "olvastad = 읽었어",
    "tags": [],
    "at": "11:40",
    "emotion": "teasing",
@@ -111,7 +111,7 @@
    "hu": "Légyszi! Hozok rétest is.",
    "rd": "레지씨! 호족 레테슈트 이시.",
    "ko": "제발! 레테시도 사 갈게.",
-   "note": "légyszi = 제발, 부탁이야",
+   "note": "Légyszi = 제발",
    "tags": [
     "expr:Légyszi"
    ],
@@ -146,8 +146,8 @@
    "speaker": "A",
    "hu": "Na jó, két rétest. Utolsó ajánlat.",
    "rd": "너 요, 케트 레테슈트. 우톨쇼 어얀러트.",
-   "ko": "알았어, 레테시 두 개. 마지막 제안이야.",
-   "note": "utolsó ajánlat = 마지막 제안",
+   "ko": "알았어, 레테시 두 개. 마지막 제안.",
+   "note": "Na jó = 알았어",
    "tags": [
     "expr:Na jó"
    ],
@@ -180,10 +180,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Bocsi! Olvastam, de egész délelőtt sorban álltak a vendégek.",
-   "rd": "보치! 올버슈텀, 데 에게쓰 델렐뢰트 쇼르번 알턱 어 벤데겍.",
-   "ko": "미안! 읽긴 했는데 오전 내내 손님이 줄 서 있었어.",
-   "note": "sorban állnak = 줄 서다",
+   "hu": "Bocsi! Olvastam, de egész délelőtt jöttek a vendégek.",
+   "rd": "보치! 올버슈텀, 데 에게쓰 델렐뢰트 요떽 어 벤데겍.",
+   "ko": "미안! 읽긴 했는데 오전 내내 손님 왔었어.",
+   "note": "egész délelőtt = 오전 내내",
    "tags": [],
    "at": "14:05",
    "emotion": "flustered",
@@ -205,14 +205,9 @@
      ""
     ],
     [
-     "sorban",
-     "sor",
-     "쇼르"
-    ],
-    [
-     "álltak",
-     "állt",
-     ""
+     "jöttek",
+     "jön",
+     "왼"
     ],
     [
      "vendégek",
@@ -224,8 +219,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Semmi baj. Szóval cserélünk?",
-   "rd": "셈미 버이. 쏘벌 체렐륀크?",
+   "hu": "Semmi gond. Szóval cserélünk?",
+   "rd": "셈미 곤드. 쏘벌 체렐륀크?",
    "ko": "괜찮아. 그래서 바꿔 줄 거야?",
    "note": "szóval = 그래서",
    "tags": [],
@@ -234,9 +229,9 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "baj",
-     "baj",
-     "버이"
+     "gond",
+     "gond",
+     "곤드"
     ],
     [
      "cserélünk",
@@ -248,9 +243,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Persze. De szombaton én amúgy is ott vagyok.",
-   "rd": "페르쎄. 데 쏨버톤 엔 어무지 이시 오트 버죡.",
-   "ko": "물론. 근데 토요일엔 나 어차피 거기 있어.",
+   "hu": "Persze. De szombaton én amúgy is bent vagyok.",
+   "rd": "페르쎄. 데 쏨버톤 엔 어무지 이시 벤트 버죡.",
+   "ko": "물론. 근데 토요일엔 나 어차피 나가 있어.",
    "note": "amúgy is = 어차피",
    "tags": [],
    "at": "14:07",
@@ -273,9 +268,9 @@
      "어무지"
     ],
     [
-     "ott",
-     "ott",
-     "오트"
+     "bent",
+     "bent",
+     "벤트"
     ],
     [
      "vagyok",
@@ -290,7 +285,7 @@
    "hu": "Hogyhogy?",
    "rd": "호지호지?",
    "ko": "어째서?",
-   "note": "hogyhogy? = 어째서?",
+   "note": "Hogyhogy = 어째서",
    "tags": [
     "expr:Hogyhogy"
    ],
@@ -308,10 +303,10 @@
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Szombaton ketten vagyunk beosztva. Nyugodtan menj, egyedül is megoldom.",
-   "rd": "쏨버톤 케뗀 버쥰크 베오쓰트버. 뉴고드턴 멘이, 에제뒬 이시 메골돔.",
-   "ko": "토요일엔 우리 둘이 근무야. 맘 편히 가, 혼자서도 돼.",
-   "note": "beosztva = (근무표에) 배정된",
+   "hu": "Szombaton ketten vagyunk. Nyugodtan menj, egyedül is megy.",
+   "rd": "쏨버톤 케뗀 버쥰크. 뉴고드턴 멘이, 에제뒬 이시 메지.",
+   "ko": "토요일엔 우리 둘이야. 맘 편히 가, 혼자서도 돼.",
+   "note": "egyedül = 혼자",
    "tags": [],
    "at": "14:08",
    "emotion": "gentle",
@@ -328,11 +323,6 @@
      "번"
     ],
     [
-     "beosztva",
-     "beosztva",
-     ""
-    ],
-    [
      "menj",
      "megy",
      "메지"
@@ -341,11 +331,6 @@
      "egyedül",
      "egyed",
      "에제드"
-    ],
-    [
-     "megoldom",
-     "megold",
-     "메그올드"
     ]
    ]
   },
@@ -355,7 +340,7 @@
    "hu": "Te vagy a legjobb! Három rétes jár.",
    "rd": "테 버지 어 렉요브! 하롬 레테시 야르.",
    "ko": "너 최고야! 레테시 세 개 쏜다.",
-   "note": "jár = (마땅히) 받을 만하다",
+   "note": "jár = 줘야 한다",
    "tags": [],
    "at": "14:09",
    "emotion": "excited",
@@ -381,10 +366,10 @@
   {
    "num": 12,
    "speaker": "B",
-   "hu": "Kettőt ígértél. Kettőt kérek. 😇",
-   "rd": "케뙤트 이게르텔. 케뙤트 케렉. 😇",
-   "ko": "두 개 약속했잖아. 두 개면 돼. 😇",
-   "note": "ígértél = 네가 약속했다",
+   "hu": "Kettőt ígértél. Kettő elég. 😇",
+   "rd": "케뙤트 이게르텔. 케뙤 엘렉. 😇",
+   "ko": "두 개 약속했잖아. 두 개면 충분. 😇",
+   "note": "ígértél = 약속했어",
    "tags": [],
    "at": "14:09",
    "stamp": "😇",
@@ -397,9 +382,9 @@
      "이게르"
     ],
     [
-     "kérek",
-     "kér",
-     "께르"
+     "elég",
+     "elég",
+     "엘렉"
     ]
    ]
   }

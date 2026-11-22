@@ -1,0 +1,23 @@
+=== r2_study_b1
+kind: long
+title: 주말에 뭐 했어요?
+emoji: 🛁
+scene: 어학원 월요일 수업. 숙제 검사 뒤 선생님이 주말 이야기를 시킨다
+b: Réka
+c: Tanárnő
+register: mixed
+twist: 7 slip
+purpose: study_abroad
+goal: 주말에 한 일 과거형으로 말하기와 fürdő(온천) / fürdőszoba(욕실) 구분
+expressions: Jaj; Na jó; Semmi baj
+C | Jó reggelt mindenkinek! Ki hozta meg a házit? | 모두 좋은 아침이에요! 숙제 해 온 사람? | házi feladat = 숙제 | emotion=cheerful
+A | Jaj, a füzetemet otthon hagytam. | 아이고, 공책을 집에 두고 왔어요. | otthon hagytam = 집에 두고 왔다 | emotion=worried
+B | Én is. Igazából el se kezdtem. | 나도. 사실은 시작도 안 했어. | el sem kezdtem = 시작도 안 했다 | emotion=teasing
+C | Na jó, akkor meséljünk. Réka, mit csinált a hétvégén? | 좋아요, 그럼 이야기해 봐요. 레카, 주말에 뭐 했어요? | hétvégén = 주말에 | emotion=amused
+B | Kirándultam a hegyekben. Jéghideg volt. | 산에 하이킹 갔어요. 엄청 추웠어요. | kirándultam = 소풍 갔다 | emotion=cheerful
+C | Szép. És Ön, {name}? | 좋네요. {name} 씨는요? | Ön = 당신(존댓말) | emotion=gentle
+A | Én szombaton egész délután a fürdőszobában ültem. | 저는 토요일에 오후 내내 욕실에 앉아 있었어요. | fürdőszoba = 욕실 | emotion=cheerful
+C | Egész délután? Jaj, beteg volt? | 오후 내내요? 어머, 아팠어요? | beteg = 아픈 | emotion=worried
+A | Nem, dehogyis! Meleg víz meg szauna, tökéletes volt. | 아뇨, 전혀요! 따뜻한 물이랑 사우나, 완전 좋았어요. | dehogy = 천만에 | emotion=excited
+B | A fürdőben voltál, nem a fürdőszobában! | 온천에 간 거지, 욕실이 아니라! | fürdő = 온천 | emotion=tsukkomi
+C | Semmi baj. Házi feladat: fürdő és fürdőszoba, öt mondat. | 괜찮아요. 숙제: 「온천」이랑 「욕실」로 다섯 문장. | mondat = 문장 | emotion=teasing

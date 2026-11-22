@@ -1,0 +1,28 @@
+=== r3_study_b3
+kind: long
+title: 교수님 면담 시간
+emoji: 🎓
+scene: 보고서 점수가 3점이라 교수님 면담 시간에 찾아간다. Anna 가 문 앞에서 기다려 준다
+b: Anna
+c: Professzor
+register: mixed
+twist: 13 reveal
+purpose: study_abroad
+goal: 면담에서 점수 묻기(A dolgozatomról szeretnék kérdezni · Miben segíthetek?)
+expressions: Légyszi; Egy pillanat; Szerintem; Tényleg
+B | Ideges vagy kicsit? | 좀 긴장돼? | ideges = 긴장한 | emotion=gentle
+A | Egy kicsit igen. Hármas lett a dolgozatom, nem értem miért. | 응 조금. 보고서가 3점인데 왜인지 모르겠어. | hármas = 3점 | emotion=worried
+B | Nyugodtan kérdezd meg. A prof kedves, csak szigorú kicsit. | 편하게 물어봐. 교수님 친절해, 그냥 좀 엄격할 뿐. | szigorú = 엄격한 | emotion=gentle
+A | Oké, bemegyek. Várj meg, légyszi! | 알았어, 들어간다. 기다려 줘, 제발! | várj meg = 기다려 줘 | emotion=worried
+C | Jöjjön be! Miben segíthetek? | 들어오세요! 무엇을 도와드릴까요? | miben = 무엇에서 | emotion=polite
+A | Jó napot, Professzor Úr. A dolgozatomról szeretnék kérdezni. | 안녕하세요, 교수님. 제 보고서에 대해 여쭙고 싶어서요. | dolgozat = 보고서 | emotion=polite
+C | Persze. Mi a gond? | 그럼요. 뭐가 문제죠? | gond = 문제 | emotion=gentle
+A | A listán hármas van a nevem mellett. | 명단에 제 이름 옆에 3점이라고 적혀 있어요. | áll = 적혀 있다 | emotion=worried
+C | Hármas? Egy pillanat, megnézem. | 3점이요? 잠깐만요, 볼게요. | egy pillanat = 잠깐만요 | emotion=surprised
+A | Szerintem a ragok miatt. Mindig elrontom őket. | 제 생각엔 격 어미 때문이에요. 늘 틀리게 붙여요. | rag = 격 어미 | emotion=sad
+C | Melyik sort nézte a listán? | 명단에서 어느 줄을 보셨어요? | sor = 줄 | emotion=neutral
+A | Ezt, a harmadikat. | 이거요, 세 번째 줄. | harmadik = 세 번째 | emotion=polite
+C | Az a szomszédja. Ön a negyedik sorban van: ötös. | 그건 옆 사람이에요. {name} 씨는 네 번째 줄, 5점이에요. | ötös = 5점 | emotion=amused+gentle
+A | Tényleg ötös? Köszönöm szépen! | 정말 5점이요? 정말 감사합니다! | tényleg = 정말 | emotion=excited
+B | Na? Mi volt? | 어때? 어떻게 됐어? | mi volt = 어땠어 | emotion=worried
+A | Ötös lett! Csak rossz sort néztem. | 5점이었어! 그냥 엉뚱한 줄을 봤던 거야. | rossz sor = 잘못된 줄 | emotion=excited

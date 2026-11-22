@@ -31,10 +31,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Elnézést, meg tudná mondani, hol van a buszmegálló?",
-   "rd": "엘네제슈트, 멕 투드나 몬더니, 홀 번 어 부쓰메갈로?",
-   "ko": "실례합니다, 버스 정류장이 어디인지 알려 주시겠어요?",
-   "note": "meg tudná mondani = 말씀해 주실 수 있을까요",
+   "hu": "Elnézést, a visegrádi buszmegálló merre van?",
+   "rd": "엘네제슈트, 어 비섹라디 부쓰메갈로 메레 번?",
+   "ko": "실례합니다, 비셰그라드 버스 정류장이 어느 쪽이에요?",
+   "note": "Elnézést = 실례합니다",
    "tags": [
     "expr:Elnézést"
    ],
@@ -46,51 +46,46 @@
      "엘네제시"
     ],
     [
-     "tudná",
-     "tud",
-     "투드"
-    ],
-    [
-     "mondani",
-     "mond",
-     "몬드"
-    ],
-    [
-     "hol",
-     "hol",
-     "홀"
-    ],
-    [
-     "van",
-     "van",
-     "번"
+     "visegrádi",
+     "visegrád",
+     ""
     ],
     [
      "buszmegálló",
      "buszmegálló",
      ""
+    ],
+    [
+     "merre",
+     "merre",
+     "메레"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Melyik busz kell, kedvesem?",
-   "rd": "메익 부쓰 켈, 케드베셈?",
-   "ko": "어떤 버스 타요, 얘야?",
-   "note": "kedvesem = 얘야(다정한 호칭)",
+   "hu": "Melyik járatra szállna, kedvesem?",
+   "rd": "메익 야러트러 쌀너, 케드베셈?",
+   "ko": "어떤 버스 타시려고요, 얘야?",
+   "note": "kedvesem = 얘야",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "busz",
-     "busz",
+     "járatra",
+     "járat",
      ""
     ],
     [
-     "kell",
-     "kell",
-     "켈"
+     "szállna",
+     "száll",
+     "쌀"
     ],
     [
      "kedvesem",
@@ -102,15 +97,15 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "A visegrádi. Fél ötkor indul, ha jól tudom.",
-   "rd": "어 비섹라디. 펠 외트코르 인둘, 허 욜 투돔.",
-   "ko": "비셰그라드 가는 거요. 제가 알기론 4시 반에 출발해요.",
+   "hu": "A visegrádit. Fél ötkor indul, igaz?",
+   "rd": "어 비섹라디트. 펠 외트코르 인둘, 이거즈?",
+   "ko": "비셰그라드 가는 거요. 4시 반에 출발하죠?",
    "note": "fél öt = 4시 반",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "visegrádi",
+     "visegrádit",
      "visegrád",
      ""
     ],
@@ -120,23 +115,18 @@
      "인둘"
     ],
     [
-     "jól",
-     "jól",
-     "욜"
-    ],
-    [
-     "tudom",
-     "tud",
-     "투드"
+     "igaz",
+     "igaz",
+     "이거즈"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Fél ötkor? Akkor siessen, most négy húsz van!",
-   "rd": "펠 외트코르? 어꼬르 시에쎈, 모슈트 네지 후쓰 번!",
-   "ko": "4시 반? 그럼 서둘러요, 지금 4시 20분이에요!",
+   "hu": "Fél öt? Akkor siessen, már négy húsz!",
+   "rd": "펠 외트? 어꼬르 시에쎈, 마르 네지 후쓰!",
+   "ko": "4시 반? 그럼 서둘러요, 벌써 4시 20분이에요!",
    "note": "siessen = 서두르세요",
    "tags": [],
    "emotion": "worried",
@@ -152,28 +142,23 @@
      "시에트"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
+     "már",
+     "már",
+     "마르"
     ],
     [
      "húsz",
      "húsz",
      ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Messze van?",
-   "rd": "메쎄 번?",
-   "ko": "멀어요?",
+   "hu": "Messze van innen?",
+   "rd": "메쎄 번 인넨?",
+   "ko": "여기서 멀어요?",
    "note": "messze = 멀리",
    "tags": [],
    "emotion": "worried",
@@ -187,15 +172,20 @@
      "van",
      "van",
      "번"
+    ],
+    [
+     "innen",
+     "innen",
+     "인넨"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Nem. Menjen le a templomig, ott jobbra.",
-   "rd": "넴. 멘옌 레 어 템플로믹, 오트 요브러.",
-   "ko": "아니요. 교회까지 내려가서 거기서 오른쪽.",
+   "hu": "Nem. Menjen le a templomig, aztán jobbra.",
+   "rd": "넴. 멘옌 레 어 템플로믹, 어즈탄 요브러.",
+   "ko": "아니요. 교회까지 내려가서 오른쪽.",
    "note": "-ig = ~까지",
    "tags": [],
    "emotion": "gentle",
@@ -205,33 +195,6 @@
      "le",
      "레"
     ],
-    [
-     "templomig",
-     "templom",
-     "템플롬"
-    ],
-    [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "jobbra",
-     "jobb",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "hu": "A templomig, aztán jobbra. És utána?",
-   "rd": "어 템플로믹, 어즈탄 요브러. 에시 우타너?",
-   "ko": "교회까지, 그다음 오른쪽. 그다음엔요?",
-   "note": "utána = 그 후에",
-   "tags": [],
-   "emotion": "neutral",
-   "lemmas": [
     [
      "templomig",
      "templom",
@@ -250,11 +213,33 @@
    ]
   },
   {
+   "num": 7,
+   "speaker": "A",
+   "hu": "Templomig, jobbra. És utána?",
+   "rd": "템플로믹, 요브러. 에시 우타너?",
+   "ko": "교회까지, 오른쪽. 그다음엔요?",
+   "note": "utána = 그 후에",
+   "tags": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Templomig",
+     "templom",
+     "템플롬"
+    ],
+    [
+     "jobbra",
+     "jobb",
+     ""
+    ]
+   ]
+  },
+  {
    "num": 8,
    "speaker": "B",
-   "hu": "Utána a cukrászdánál balra. A megálló a pékség előtt van.",
-   "rd": "우타너 어 축라쓰다날 벌러. 어 메갈로 어 펙섹 엘뢰트 번.",
-   "ko": "그다음 제과점에서 왼쪽. 정류장은 빵집 앞이에요.",
+   "hu": "A cukrászdánál balra. A megálló a pékség előtt van.",
+   "rd": "어 축라쓰다날 벌러. 어 메갈로 어 펙섹 엘뢰트 번.",
+   "ko": "제과점에서 왼쪽. 정류장은 빵집 앞이에요.",
    "note": "cukrászda = 제과점",
    "tags": [],
    "emotion": "gentle",
@@ -323,8 +308,8 @@
    "speaker": "B",
    "hu": "Várjon csak! Ma milyen nap van?",
    "rd": "바르욘 척! 머 미옌 너프 번?",
-   "ko": "잠깐만요! 오늘 무슨 요일이죠?",
-   "note": "milyen nap = 무슨 요일",
+   "ko": "잠깐만요! 오늘 무슨 요일이에요?",
+   "note": "Várjon csak = 잠깐만요",
    "tags": [
     "expr:Várjon csak"
    ],
@@ -357,7 +342,7 @@
    "speaker": "A",
    "hu": "Vasárnap. Miért?",
    "rd": "버샤르너프. 미에르트?",
-   "ko": "일요일요. 왜요?",
+   "ko": "일요일이요. 왜요?",
    "note": "vasárnap = 일요일",
    "tags": [],
    "emotion": "worried",
@@ -409,9 +394,9 @@
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Jaj, ne! Akkor itt ragadtam?",
-   "rd": "여이, 네! 어꼬르 이트 러거드텀?",
-   "ko": "아이고, 이런! 그럼 저 여기서 꼼짝 못 하는 거예요?",
+   "hu": "Jaj, ne már! Akkor itt ragadtam?",
+   "rd": "여이, 네 마르! 어꼬르 이트 러거드텀?",
+   "ko": "아이고, 안 돼! 그럼 여기서 발이 묶인 거예요?",
    "note": "itt ragad = 발이 묶이다",
    "tags": [],
    "emotion": "flustered",
@@ -420,6 +405,11 @@
      "Jaj",
      "jaj",
      "야이"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ],
     [
      "itt",
@@ -436,9 +426,9 @@
   {
    "num": 14,
    "speaker": "B",
-   "hu": "Dehogy. Hajóval is mehet, fél hatkor indul a kikötőből.",
-   "rd": "데호지. 허요벌 이시 메헤트, 펠 허트코르 인둘 어 키쾨퇴뵐.",
-   "ko": "아니에요. 배로도 가요, 5시 반에 선착장에서 떠나요.",
+   "hu": "Dehogy. Hajóval is mehet, fél hatkor a kikötőből.",
+   "rd": "데호지. 허요벌 이시 메헤트, 펠 허트코르 어 키쾨퇴뵐.",
+   "ko": "아니에요. 배로도 가요, 5시 반에 선착장에서.",
    "note": "kikötő = 선착장",
    "tags": [],
    "emotion": "gentle",
@@ -457,11 +447,6 @@
      "fél",
      "fél",
      "펠"
-    ],
-    [
-     "indul",
-     "indul",
-     "인둘"
     ],
     [
      "kikötőből",
@@ -500,10 +485,10 @@
   {
    "num": 16,
    "speaker": "B",
-   "hu": "Ugye? És addig megehet egy krémest a cukrászdában.",
-   "rd": "우제? 에시 어딕 메게헤트 에지 크레메슈트 어 축라쓰다번.",
-   "ko": "그렇죠? 그동안 제과점에서 크렘레시 하나 먹으면 되고요.",
-   "note": "krémes = 크림 케이크",
+   "hu": "Ugye? Addig egyen egy krémest a cukrászdában.",
+   "rd": "우제? 어딕 에젠 에지 크레메슈트 어 축라쓰다번.",
+   "ko": "그렇죠? 그동안 제과점에서 크렘레시 하나 드세요.",
+   "note": "Ugye = 그렇죠",
    "tags": [
     "expr:Ugye"
    ],
@@ -515,13 +500,13 @@
     ],
     [
      "teasing",
-     "És addig megehet egy krémest a cukrászdában."
+     "Addig egyen egy krémest a cukrászdában."
     ]
    ],
    "lemmas": [
     [
-     "megehet",
-     "megehet",
+     "egyen",
+     "egyen",
      ""
     ],
     [

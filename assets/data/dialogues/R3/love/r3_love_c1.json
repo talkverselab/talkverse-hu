@@ -34,8 +34,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Szombat este szabad vagy? 😊",
-   "rd": "씨어! 쏨버트 에슈테 써버드 버지? 😊",
+   "hu": "Szia! Szombat este ráérsz? 😊",
+   "rd": "씨어! 쏨버트 에슈테 라에르쓰? 😊",
    "ko": "안녕! 토요일 저녁 시간 돼? 😊",
    "note": "szabad = 비어 있는, 한가한",
    "tags": [],
@@ -54,17 +54,17 @@
      "에슈테"
     ],
     [
-     "szabad",
-     "szabad",
-     "써버드"
+     "ráérsz",
+     "ráérik",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Szia! Igen, teljesen szabad. Mit tervezel?",
-   "rd": "씨어! 이겐, 텔예센 써버드. 미트 테르베젤?",
+   "hu": "Szia! Igen, teljesen szabad vagyok. Mit tervezel?",
+   "rd": "씨어! 이겐, 텔예센 써버드 버죡. 미트 테르베젤?",
    "ko": "안녕! 응, 완전 비어 있어. 뭐 계획해?",
    "note": "tervezel = 계획한다",
    "tags": [],
@@ -88,6 +88,11 @@
      "써버드"
     ],
     [
+     "vagyok",
+     "van",
+     "번"
+    ],
+    [
      "tervezel",
      "tervez",
      "테르베즈"
@@ -97,8 +102,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Még semmit. Arra gondoltam, hogy te választasz helyet. 😇",
-   "rd": "멕 셈미트. 어러 곤돌텀, 호지 테 발러쓰터쓰 헤예트. 😇",
+   "hu": "Még semmit. Arra gondoltam, hogy te válassz helyet. 😇",
+   "rd": "멕 셈미트. 어러 곤돌텀, 호지 테 발러쓰 헤예트. 😇",
    "ko": "아직 아무것도. 네가 장소를 고르면 어떨까 했어. 😇",
    "note": "arra gondoltam = ~라고 생각했다",
    "tags": [],
@@ -117,7 +122,7 @@
      ""
     ],
     [
-     "választasz",
+     "válassz",
      "választ",
      "발라쓰트"
     ],
@@ -162,9 +167,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "A pizza jó, de múlt héten háromszor ettem. 🍕",
-   "rd": "어 피저 요, 데 물트 헤텐 하롬쏘르 에뗌. 🍕",
-   "ko": "피자 좋은데, 지난주에 세 번 먹었어. 🍕",
+   "hu": "A pizza jó lenne, de múlt héten már háromszor ettem. 🍕",
+   "rd": "어 피저 요 렌네, 데 물트 헤텐 마르 하롬쏘르 에뗌. 🍕",
+   "ko": "피자 괜찮은데, 지난주에 벌써 세 번 먹었어. 🍕",
    "note": "háromszor = 세 번",
    "tags": [],
    "at": "21:15",
@@ -182,6 +187,11 @@
      "요"
     ],
     [
+     "lenne",
+     "lesz",
+     "레쓰"
+    ],
+    [
      "múlt",
      "múlt",
      "물트"
@@ -190,6 +200,11 @@
      "héten",
      "hét",
      "헤트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ],
     [
      "ettem",
@@ -203,7 +218,7 @@
    "speaker": "A",
    "hu": "Akkor egy kis vendéglő? Van egy jó hely a Ráday utcában.",
    "rd": "어꼬르 에지 키시 벤덱뢰? 번 에지 요 헤이 어 라더이 우트차번.",
-   "ko": "그럼 작은 식당? 라다이 거리에 좋은 데 있어.",
+   "ko": "그럼 작은 식당? 라다이 거리에 괜찮은 데 있어.",
    "note": "vendéglő = 식당",
    "tags": [],
    "at": "21:17",
@@ -245,8 +260,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Hallottam róla, de oda előre kell foglalni. Szombatra már biztos nincs hely.",
-   "rd": "헐로떰 롤러, 데 오더 엘뢰레 켈 폭럴니. 쏨버트러 마르 비즈토시 닌치 헤이.",
+   "hu": "Hallottam róla, de oda előre kell foglalni. Szombatra már tuti nincs hely.",
+   "rd": "헐로떰 롤러, 데 오더 엘뢰레 켈 폭럴니. 쏨버트러 마르 투티 닌치 헤이.",
    "ko": "들어 봤는데, 거긴 미리 예약해야 해. 토요일은 분명 자리 없을 거야.",
    "note": "foglalni = 예약하다",
    "tags": [],
@@ -285,9 +300,9 @@
      "마르"
     ],
     [
-     "biztos",
-     "biztos",
-     "비즈토슈"
+     "tuti",
+     "tuti",
+     "투티"
     ],
     [
      "nincs",

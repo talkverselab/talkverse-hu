@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Na, első nap! Először megmutatom a kasszát.",
-   "rd": "너, 엘쇠 너프! 엘뢰쐬르 멕무터톰 어 커싸트.",
-   "ko": "자, 첫날! 먼저 계산대부터 보여 줄게.",
+   "hu": "Na, első napod! Először a kasszát mutatom, figyelj.",
+   "rd": "너, 엘쇠 너포드! 엘뢰쐬르 어 커싸트 무터톰, 피젤이.",
+   "ko": "자, 첫날이야! 먼저 계산대부터 보여줄게, 봐.",
    "note": "kassza = 계산대",
    "tags": [
     "expr:Na"
@@ -48,27 +48,32 @@
      "너"
     ],
     [
-     "nap",
-     "nap",
-     "넙"
-    ],
-    [
-     "megmutatom",
-     "megmutat",
-     "메그무타트"
+     "napod",
+     "napod",
+     ""
     ],
     [
      "kasszát",
      "kassza",
      ""
+    ],
+    [
+     "mutatom",
+     "mutat",
+     "무타트"
+    ],
+    [
+     "figyelj",
+     "figyel",
+     "피겔"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Oké. Mit mondok a vendégnek?",
-   "rd": "오케. 미트 몬독 어 벤덱넥?",
+   "hu": "Oké. A vendégnek mit mondok?",
+   "rd": "오케. 어 벤덱넥 미트 몬독?",
    "ko": "오케이. 손님한테 뭐라고 해?",
    "note": "vendég = 손님",
    "tags": [],
@@ -80,14 +85,14 @@
      "오케"
     ],
     [
-     "mondok",
-     "mond",
-     "몬드"
-    ],
-    [
      "vendégnek",
      "vendég",
      "벤데그"
+    ],
+    [
+     "mondok",
+     "mond",
+     "몬드"
     ]
    ]
   },
@@ -123,10 +128,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Mit adhatok. Jó, megjegyeztem.",
-   "rd": "미트 어드허톡. 요, 멕예제즈템.",
+   "hu": "Mit adhatok. Jó, megvan.",
+   "rd": "미트 어드허톡. 요, 멕번.",
    "ko": "뭘 드릴까요. 좋아, 외웠어.",
-   "note": "megjegyeztem = 기억해 뒀다",
+   "note": "megvan = 기억해 뒀다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -136,17 +141,17 @@
      ""
     ],
     [
-     "megjegyeztem",
-     "megjegyez",
-     ""
+     "megvan",
+     "megvan",
+     "메그번"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Ha elvitelre kérik, papírpohár. Itt van alul.",
-   "rd": "허 엘비텔레 케릭, 퍼피르포하르. 이트 번 얼룰.",
+   "hu": "Ha elvitelre kérik, papírpohár. Alul van.",
+   "rd": "허 엘비텔레 케릭, 퍼피르포하르. 얼룰 번.",
    "ko": "포장해 달라고 하면 종이컵. 아래에 있어.",
    "note": "elvitelre = 포장으로",
    "tags": [],
@@ -171,11 +176,6 @@
      "van",
      "van",
      "번"
-    ],
-    [
-     "alul",
-     "alul",
-     ""
     ]
    ]
   },
@@ -282,8 +282,8 @@
    "speaker": "C",
    "hu": "Én? Hát, egy mosolyt adhatok, kedvesem.",
    "rd": "엔? 하트, 에지 모쇼이트 어드허톡, 케드베셈.",
-   "ko": "내가요? 글쎄, 미소 하나 줄 수 있지, 얘야.",
-   "note": "kedvesem = 얘야, 자기",
+   "ko": "내가요? 글쎄, 미소 하나 드릴 수 있지, 얘야.",
+   "note": "kedvesem = 얘야",
    "tags": [
     "expr:Hát"
    ],
@@ -363,7 +363,7 @@
    "hu": "Egy hosszú kávét kérek. A mosoly ingyen volt.",
    "rd": "에지 호쑤 카베트 케렉. 어 모쇼이 인젠 볼트.",
    "ko": "롱 커피 하나요. 미소는 공짜였어요.",
-   "note": "hosszú kávé = 롱 커피(물 탄 에스프레소)",
+   "note": "hosszú kávé = 롱 커피",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [

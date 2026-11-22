@@ -36,7 +36,7 @@
    "hu": "Sziasztok! Mikor tanulunk együtt a vizsgára?",
    "rd": "씨어쓰톡! 미코르 터눌룬크 에쥐트 어 비지가러?",
    "ko": "얘들아! 시험공부 같이 언제 해?",
-   "note": "sziasztok = 안녕, 얘들아",
+   "note": "Sziasztok = 안녕, 얘들아",
    "tags": [
     "expr:Sziasztok"
    ],
@@ -69,9 +69,9 @@
   {
    "num": 2,
    "speaker": "C",
-   "hu": "Nekem holnap délután jó.",
-   "rd": "네켐 홀너프 델루탄 요.",
-   "ko": "난 내일 오후 좋아.",
+   "hu": "Holnap délután nekem jó.",
+   "rd": "홀너프 델루탄 네켐 요.",
+   "ko": "내일 오후가 나 좋아.",
    "note": "délután = 오후",
    "tags": [],
    "at": "20:03",
@@ -79,7 +79,7 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "holnap",
+     "Holnap",
      "holnap",
      "홀넙"
     ],
@@ -120,7 +120,7 @@
    "hu": "Oké! Hozom a jegyzeteimet.",
    "rd": "오케! 호좀 어 예지제테이메트.",
    "ko": "오케이! 내 필기 가져갈게.",
-   "note": "jegyzet = 필기",
+   "note": "Oké = 오케이",
    "tags": [
     "expr:Oké"
    ],
@@ -143,10 +143,10 @@
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Én pedig pogácsát. 😋",
-   "rd": "엔 페딕 포가차트. 😋",
+   "hu": "Én meg pogácsát. 😋",
+   "rd": "엔 멕 포가차트. 😋",
    "ko": "난 포가차. 😋",
-   "note": "pedig = 그리고(나는)",
+   "note": "meg = 그리고",
    "tags": [],
    "at": "20:05",
    "emotion": "teasing",
@@ -191,10 +191,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Mi is a második emeleten vagyunk. Nem látunk. 🤔",
-   "rd": "미 이시 어 마쇼딕 에멜레텐 버쥰크. 넴 라툰크. 🤔",
-   "ko": "우리도 2층인데. 안 보여. 🤔",
-   "note": "nem látunk = (너를) 못 보겠다",
+   "hu": "Mi is a második emeleten. Nem látunk. 🤔",
+   "rd": "미 이시 어 마쇼딕 에멜레텐. 넴 라툰크. 🤔",
+   "ko": "우리도 2층이야. 안 보여. 🤔",
+   "note": "nem látunk = 못 보겠다",
    "tags": [],
    "at": "16:04",
    "emotion": "surprised",
@@ -206,11 +206,6 @@
      ""
     ],
     [
-     "vagyunk",
-     "van",
-     "번"
-    ],
-    [
      "látunk",
      "lát",
      "라트"
@@ -220,9 +215,9 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Melyik könyvtárban vagy?",
-   "rd": "메익 쾨니브타르번 버지?",
-   "ko": "너 어느 도서관이야?",
+   "hu": "Melyik könyvtárban vagy pontosan?",
+   "rd": "메익 쾨니브타르번 버지 폰토션?",
+   "ko": "너 정확히 어느 도서관이야?",
    "note": "melyik = 어느",
    "tags": [],
    "at": "16:04",
@@ -233,15 +228,20 @@
      "könyvtárban",
      "könyvtár",
      ""
+    ],
+    [
+     "pontosan",
+     "pontos",
+     "폰토시"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Hát az egyetemiben. Ti nem?",
-   "rd": "하트 어즈 에제테미벤. 티 넴?",
-   "ko": "당연히 대학 도서관이지. 너넨 아니야?",
+   "hu": "Az egyetemi könyvtárban. Ti nem?",
+   "rd": "어즈 에제테미 쾨니브타르번. 티 넴?",
+   "ko": "대학 도서관이야. 너넨 아니야?",
    "note": "egyetemi = 대학의",
    "tags": [],
    "at": "16:05",
@@ -249,13 +249,13 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Hát",
-     "hát",
-     "핫"
+     "egyetemi",
+     "egyetemi",
+     ""
     ],
     [
-     "egyetemiben",
-     "egyetemi",
+     "könyvtárban",
+     "könyvtár",
      ""
     ]
    ]
@@ -263,10 +263,10 @@
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Mi a kerületiben vagyunk, a kollégium mellett. Anna most indul hozzád. 😂",
-   "rd": "미 어 케륄레티벤 버쥰크, 어 콜레기움 멜레트. 언너 모슈트 인둘 호자드. 😂",
-   "ko": "우린 기숙사 옆 구립 도서관이야. 언너가 지금 너한테 출발했어. 😂",
-   "note": "kerületi = 구(區)의",
+   "hu": "Mi a kerületiben, a kollégium mellett. Anna most indul hozzád. 😂",
+   "rd": "미 어 케륄레티벤, 어 콜레기움 멜레트. 언너 모슈트 인둘 호자드. 😂",
+   "ko": "우린 기숙사 옆 구립 도서관. 언너가 지금 출발했어. 😂",
+   "note": "kerületi = 구의",
    "tags": [],
    "at": "16:05",
    "emotion": "amused",
@@ -276,11 +276,6 @@
      "kerületiben",
      "kerületi",
      ""
-    ],
-    [
-     "vagyunk",
-     "van",
-     "번"
     ],
     [
      "kollégium",
@@ -302,10 +297,10 @@
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Jaj, ne! Én is mindjárt indulok hozzátok!",
-   "rd": "여이, 네! 엔 이시 민드야르트 인둘록 호자톡!",
+   "hu": "Jaj, ne már! Én is mindjárt indulok hozzátok!",
+   "rd": "여이, 네 마르! 엔 이시 민드야르트 인둘록 호자톡!",
    "ko": "아, 안 돼! 나도 금방 너네한테 출발하는데!",
-   "note": "hozzátok = 너희에게로",
+   "note": "Jaj = 아, 안 돼",
    "tags": [
     "expr:Mindjárt",
     "expr:Jaj"
@@ -318,6 +313,11 @@
      "Jaj",
      "jaj",
      "야이"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ],
     [
      "mindjárt",

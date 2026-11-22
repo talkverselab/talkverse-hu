@@ -34,19 +34,29 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Leszállt a géped? ✈️",
-   "rd": "레쌀트 어 게페드? ✈️",
-   "ko": "비행기 내렸어? ✈️",
-   "note": "leszáll = 착륙하다",
+   "hu": "Na, leszállt már a géped? ✈️",
+   "rd": "너, 레쌀트 마르 어 게페드? ✈️",
+   "ko": "비행기 이미 내렸어? ✈️",
+   "note": "leszállt = 착륙했다",
    "tags": [],
    "at": "14:05",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "Leszállt",
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "leszállt",
      "leszáll",
      ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ],
     [
      "géped",
@@ -58,10 +68,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen! Most várom a bőröndöt.",
-   "rd": "이겐! 모슈트 바롬 어 뵈뢴되트.",
-   "ko": "응! 지금 캐리어 기다려.",
-   "note": "várom = 내가 그것을 기다린다",
+   "hu": "Igen! Most a bőröndömre várok.",
+   "rd": "이겐! 모슈트 어 뵈뢴됨레 바록.",
+   "ko": "응! 지금 캐리어 기다리고 있어.",
+   "note": "várok = 기다린다",
    "tags": [],
    "at": "14:07",
    "emotion": "cheerful",
@@ -73,58 +83,53 @@
      "이겐"
     ],
     [
-     "várom",
-     "vár",
-     "바르"
-    ],
-    [
-     "bőröndöt",
+     "bőröndömre",
      "bőrönd",
      ""
+    ],
+    [
+     "várok",
+     "vár",
+     "바르"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "A városba a 100E busszal gyere, az a leggyorsabb.",
-   "rd": "어 바로슈버 어 100에 부썰 제레, 어즈 어 레죠르셔브.",
-   "ko": "시내는 100E 버스로 와, 그게 제일 빨라.",
-   "note": "leggyorsabb = 가장 빠른",
+   "hu": "100E busszal a legjobb a városba.",
+   "rd": "100에 부썰 어 렉요브 어 바로슈버.",
+   "ko": "시내는 100E 버스가 제일 좋아.",
+   "note": "legjobb = 가장 좋은",
    "tags": [],
    "at": "14:08",
    "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "városba",
-     "város",
-     "버로슈"
-    ],
-    [
      "busszal",
      "busz",
      ""
     ],
     [
-     "gyere",
-     "jön",
-     "왼"
+     "legjobb",
+     "jó",
+     "요"
     ],
     [
-     "leggyorsabb",
-     "gyors",
-     "죠르시"
+     "városba",
+     "város",
+     "버로슈"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Hol veszek rá jegyet?",
-   "rd": "홀 베쎅 라 예제트?",
-   "ko": "그 표는 어디서 사?",
-   "note": "rá = 그것용으로",
+   "hu": "Hol veszek jegyet rá?",
+   "rd": "홀 베쎅 예제트 라?",
+   "ko": "그거 표는 어디서 사?",
+   "note": "rá = 그것용",
    "tags": [],
    "at": "14:08",
    "emotion": "neutral",
@@ -150,9 +155,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Az automatánál, a megállóban. Kártyával is lehet.",
-   "rd": "어즈 어우토머타날, 어 메갈로번. 카르탸벌 이시 레헤트.",
-   "ko": "정류장 자동판매기에서. 카드도 돼.",
+   "hu": "Megállóban automata van. Kártya is megy.",
+   "rd": "메갈로번 어우토머터 번. 카르텨 이시 메지.",
+   "ko": "정류장에 자동판매기 있어. 카드도 돼.",
    "note": "automata = 자동판매기",
    "tags": [],
    "at": "14:09",
@@ -160,28 +165,33 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "automatánál",
-     "automata",
-     ""
-    ],
-    [
-     "megállóban",
+     "Megállóban",
      "megálló",
      ""
     ],
     [
-     "lehet",
-     "lehet",
-     "레헤트"
+     "automata",
+     "automata",
+     ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "megy",
+     "megy",
+     "메지"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Megvan a bőrönd! Hol a kijárat? 😅",
-   "rd": "멕번 어 뵈뢴드! 홀 어 키야러트? 😅",
-   "ko": "캐리어 찾았다! 출구가 어디야? 😅",
+   "hu": "Megvan a bőrönd! Merre a kijárat? 😅",
+   "rd": "멕번 어 뵈뢴드! 메레 어 키야러트? 😅",
+   "ko": "캐리어 찾았어! 출구 어디야? 😅",
    "note": "kijárat = 출구",
    "tags": [],
    "at": "14:20",
@@ -193,7 +203,7 @@
     ],
     [
      "flustered",
-     "Hol a kijárat? 😅"
+     "Merre a kijárat? 😅"
     ]
    ],
    "ui": "bubble",
@@ -218,10 +228,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Egyenesen, aztán jobbra. Ne siess.",
-   "rd": "에제네센, 어즈탄 요브러. 네 시에시.",
-   "ko": "쭉 가서 오른쪽. 서두르지 마.",
-   "note": "ne siess = 서두르지 마",
+   "hu": "Egyenesen menj, aztán jobbra. Ne siess.",
+   "rd": "에제네센 멘이, 어즈탄 요브러. 네 시에시.",
+   "ko": "쭉 가다가 오른쪽. 서두르지 마.",
+   "note": "Ne siess = 서두르지 마",
    "tags": [
     "expr:Ne siess"
    ],
@@ -233,6 +243,11 @@
      "Egyenesen",
      "egyenes",
      "에제녜시"
+    ],
+    [
+     "menj",
+     "megy",
+     "메지"
     ],
     [
      "aztán",
@@ -257,7 +272,7 @@
    "hu": "Miért? Lekésem a buszt!",
    "rd": "미에르트? 레케셈 어 부쓰트!",
    "ko": "왜? 버스 놓친다고!",
-   "note": "lekés = 놓치다",
+   "note": "lekésem = 놓칠 거야",
    "tags": [],
    "at": "14:21",
    "emotion": "worried",
@@ -281,7 +296,7 @@
    "hu": "Nem baj. Nézz balra. 🌷",
    "rd": "넴 버이. 네즈 벌러. 🌷",
    "ko": "괜찮아. 왼쪽 봐. 🌷",
-   "note": "nézz = 봐",
+   "note": "Nem baj = 괜찮아",
    "tags": [
     "expr:Nem baj"
    ],
@@ -304,10 +319,10 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Zsófi?! Te kijöttél értem?",
-   "rd": "죠피?! 테 키요뗄 에르템?",
-   "ko": "소피?! 나 데리러 나온 거야?",
-   "note": "értem = 나 때문에(데리러)",
+   "hu": "Zsófi?! Te jöttél értem?",
+   "rd": "죠피?! 테 요뗄 에르템?",
+   "ko": "소피?! 나 데리러 온 거야?",
+   "note": "értem = 나 때문에",
    "tags": [],
    "at": "14:22",
    "emotion": "surprised",
@@ -318,7 +333,7 @@
     ],
     [
      "shy",
-     "Te kijöttél értem?"
+     "Te jöttél értem?"
     ]
    ],
    "ui": "bubble",
@@ -329,9 +344,9 @@
      ""
     ],
     [
-     "kijöttél",
-     "kijön",
-     "키왼"
+     "jöttél",
+     "jön",
+     "왼"
     ],
     [
      "értem",
@@ -345,8 +360,8 @@
    "speaker": "B",
    "hu": "Hát... véletlenül erre jártam. 😊",
    "rd": "하트... 벨레틀레뉠 에레 야르텀. 😊",
-   "ko": "음… 우연히 이 근처를 지나가던 길이야. 😊",
-   "note": "véletlenül = 우연히",
+   "ko": "음… 우연히 이 근처 지나던 길이야. 😊",
+   "note": "Hát = 음",
    "tags": [
     "expr:Hát"
    ],

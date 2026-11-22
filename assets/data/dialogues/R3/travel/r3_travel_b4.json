@@ -13,7 +13,7 @@
  ],
  "title": "30분 지연",
  "emoji": "📢",
- "scene": "기차역 대합실. Zsófi 와 함께 기다리는데 안내 방송이 나온다",
+ "scene": "기차역 대합실. Zsófi와 기다리는데 안내 방송이 나온다",
  "speakers": {
   "A": "{name}",
   "B": "Zsófi"
@@ -34,10 +34,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Hallod? Most mondták be a vonatunkat.",
-   "rd": "헐로드? 모슈트 몬드탁 베 어 보너툰커트.",
-   "ko": "들려? 방금 우리 기차 방송했어.",
-   "note": "bemond = 방송으로 알리다",
+   "hu": "Hallod? Most szóltak a vonatunkról.",
+   "rd": "헐로드? 모슈트 쏠턱 어 보너툰크롤.",
+   "ko": "들려? 방금 우리 기차 얘기했어.",
+   "note": "szól = 말하다/알리다",
    "tags": [
     "expr:Hallod"
    ],
@@ -49,18 +49,13 @@
      "헐"
     ],
     [
-     "mondták",
-     "mond",
-     "몬드"
+     "szóltak",
+     "szólt",
+     ""
     ],
     [
-     "be",
-     "be",
-     "베"
-    ],
-    [
-     "vonatunkat",
-     "vonat",
+     "vonatunkról",
+     "vonatunk.",
      ""
     ]
    ]
@@ -68,9 +63,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hallom, de nem értem. Túl gyorsan beszél.",
-   "rd": "헐롬, 데 넴 에르템. 툴 죠르션 베쎌.",
-   "ko": "들리는데 못 알아듣겠어. 너무 빨리 말해.",
+   "hu": "Hallom, de semmit se értek. Túl gyorsan beszél.",
+   "rd": "헐롬, 데 셈미트 세 에르텍. 툴 죠르션 베쎌.",
+   "ko": "들리는데 하나도 못 알아듣겠어. 너무 빨라.",
    "note": "értem = 이해한다",
    "tags": [],
    "emotion": "worried",
@@ -81,9 +76,9 @@
      "헐"
     ],
     [
-     "értem",
-     "ért",
-     "에르트"
+     "értek",
+     "érik",
+     "에릭"
     ],
     [
      "gyorsan",
@@ -100,9 +95,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Azt mondta, a vonat körülbelül harminc percet késik.",
-   "rd": "어즈트 몬드터, 어 보너트 쾨륄벨륄 허르민츠 페르체트 케식.",
-   "ko": "기차가 30분쯤 늦는대.",
+   "hu": "Azt mondta, kb. harminc percet késik.",
+   "rd": "어즈트 몬드터, 크브. 허르민츠 페르체트 케식.",
+   "ko": "30분쯤 늦는대.",
    "note": "késik = 늦다",
    "tags": [],
    "emotion": "annoyed",
@@ -113,13 +108,8 @@
      "몬드"
     ],
     [
-     "vonat",
-     "vonat",
-     ""
-    ],
-    [
-     "körülbelül",
-     "körülbelül",
+     "kb",
+     "kb",
      ""
     ],
     [
@@ -142,9 +132,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Harminc percet? Akkor lekéssük a csatlakozást?",
-   "rd": "허르민츠 페르체트? 어꼬르 레케쒹 어 처틀러코자슈트?",
-   "ko": "30분? 그럼 갈아탈 기차 놓쳐?",
+   "hu": "Harminc percet? Akkor a csatlakozást is lekéssük?",
+   "rd": "허르민츠 페르체트? 어꼬르 어 처틀러코자슈트 이시 레케쒹?",
+   "ko": "30분? 그럼 갈아타는 것도 놓쳐?",
    "note": "csatlakozás = 연결편",
    "tags": [],
    "emotion": "worried",
@@ -160,13 +150,13 @@
      ""
     ],
     [
-     "lekéssük",
-     "lekésik",
+     "csatlakozást",
+     "csatlakozás",
      ""
     ],
     [
-     "csatlakozást",
-     "csatlakozás",
+     "lekéssük",
+     "lekésik",
      ""
     ]
    ]
@@ -174,10 +164,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Nem, az is késik. Itt ez normális.",
-   "rd": "넴, 어즈 이시 케식. 이트 에즈 노르말리시.",
-   "ko": "아니, 그것도 늦어. 여기선 흔한 일이야.",
-   "note": "normális = 보통인",
+   "hu": "Nem, az is késik. Itt ez sima.",
+   "rd": "넴, 어즈 이시 케식. 이트 에즈 시머.",
+   "ko": "아니, 그것도 늦어. 여긴 보통이야.",
+   "note": "sima = 보통인/흔한",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
@@ -187,9 +177,9 @@
      "케시크"
     ],
     [
-     "normális",
-     "normális",
-     "노르말리시"
+     "sima",
+     "sima",
+     ""
     ]
    ]
   },
@@ -198,7 +188,7 @@
    "speaker": "A",
    "hu": "És mit mondott még? Valami vágányt hallottam.",
    "rd": "에시 미트 몬도트 멕? 벌러미 바가니트 헐로떰.",
-   "ko": "그리고 또 뭐래? 선로 얘기를 들은 것 같은데.",
+   "ko": "그리고 또 뭐래? 선로 얘기 들은 것 같은데.",
    "note": "vágány = 선로",
    "tags": [],
    "emotion": "worried",
@@ -228,9 +218,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Igen, nem a hetesről indul, hanem a kilencesről.",
-   "rd": "이겐, 넴 어 헤테슈뢸 인둘, 허넴 어 킬렌체슈뢸.",
-   "ko": "응, 7번이 아니라 9번 선로에서 출발한대.",
+   "hu": "Igen, nem a hetesről, hanem a kilencesről indul.",
+   "rd": "이겐, 넴 어 헤테슈뢸, 허넴 어 킬렌체슈뢸 인둘.",
+   "ko": "응, 7번이 아니라 9번에서 출발한대.",
    "note": "nem ... hanem = ~가 아니라 ~",
    "tags": [],
    "emotion": "gentle",
@@ -246,24 +236,24 @@
      ""
     ],
     [
-     "indul",
-     "indul",
-     "인둘"
-    ],
-    [
      "kilencesről",
      "kilences",
      ""
+    ],
+    [
+     "indul",
+     "indul",
+     "인둘"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Jó, hogy itt vagy. Egyedül most rossz vonaton ülnék.",
-   "rd": "요, 호지 이트 버지. 에제뒬 모슈트 로쓰 보너톤 윌넥.",
-   "ko": "네가 있어서 다행이야. 혼자였으면 지금쯤 엉뚱한 기차에 앉아 있었을 거야.",
-   "note": "ülnék = 앉아 있을 것이다",
+   "hu": "Jó, hogy itt vagy. Egyedül most már rossz vonaton lennék.",
+   "rd": "요, 호지 이트 버지. 에제뒬 모슈트 마르 로쓰 보너톤 렌넥.",
+   "ko": "네가 있어서 다행이야. 혼자였으면 지금쯤 엉뚱한 기차에 타고 있었을 거야.",
+   "note": "lennék = 있을 것이다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -283,6 +273,11 @@
      "모슈트"
     ],
     [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
      "rossz",
      "rossz",
      "로쓰"
@@ -293,9 +288,9 @@
      ""
     ],
     [
-     "ülnék",
-     "ül",
-     "위일"
+     "lennék",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
@@ -334,10 +329,10 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Jó ötlet. Ezúttal én fizetek.",
-   "rd": "요 외틀레트. 에주떨 엔 피제텍.",
+   "hu": "Jó ötlet. Most én fizetek.",
+   "rd": "요 외틀레트. 모슈트 엔 피제텍.",
    "ko": "좋아. 이번엔 내가 낼게.",
-   "note": "ezúttal = 이번에는",
+   "note": "fizetek = 내가 내다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -361,10 +356,10 @@
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Rendben. Két kávé és egy pogácsa?",
-   "rd": "렌드벤. 케트 카베 에시 에지 포가처?",
+   "hu": "Rendben. Két kávé meg egy pogácsa?",
+   "rd": "렌드벤. 케트 카베 멕 에지 포가처?",
    "ko": "좋아. 커피 두 잔이랑 포가차 하나?",
-   "note": "pogácsa = 포가차(짭짤한 빵)",
+   "note": "pogácsa = 포가차",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -390,7 +385,7 @@
    "speaker": "A",
    "hu": "Kettő. Egy nem elég.",
    "rd": "케뙤. 에지 넴 엘렉.",
-   "ko": "두 개. 하나로는 모자라.",
+   "ko": "두 개. 하나로는 부족해.",
    "note": "elég = 충분한",
    "tags": [],
    "emotion": "amused",
@@ -407,7 +402,7 @@
    "speaker": "B",
    "hu": "Figyelj... én nem bánom ezt a késést.",
    "rd": "피젤이... 엔 넴 바놈 에즈트 어 케세슈트.",
-   "ko": "있잖아… 나 이번 지연 싫지 않아.",
+   "ko": "있잖아… 나 이번 지연 별로 안 싫어.",
    "note": "nem bánom = 개의치 않는다",
    "tags": [
     "expr:Figyelj"

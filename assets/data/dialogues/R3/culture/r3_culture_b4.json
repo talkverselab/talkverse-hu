@@ -35,15 +35,20 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ma felirat nélkül nézzük a sorozatot?",
-   "rd": "머 펠리러트 넬퀼 네쥑 어 쇼로저토트?",
-   "ko": "오늘은 자막 없이 드라마 볼까?",
+   "hu": "Na, ma felirat nélkül nézzük a sorozatot?",
+   "rd": "너, 머 펠리러트 넬퀼 네쥑 어 쇼로저토트?",
+   "ko": "자, 오늘은 자막 없이 드라마 볼까?",
    "note": "felirat = 자막",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Ma",
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "ma",
      "ma",
      "머"
     ],
@@ -67,10 +72,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Felirat nélkül? Hű, ez bátor ötlet.",
-   "rd": "펠리러트 넬퀼? 휘, 에즈 바토르 외틀레트.",
-   "ko": "자막 없이? 와, 대담한 생각인데.",
-   "note": "bátor = 용감한",
+   "hu": "Felirat nélkül? Hű, te komolyan?",
+   "rd": "펠리러트 넬퀼? 휘, 테 코모연?",
+   "ko": "자막 없이? 와, 진심이야?",
+   "note": "komolyan = 진심",
    "tags": [
     "expr:Hű"
    ],
@@ -82,23 +87,18 @@
      ""
     ],
     [
-     "bátor",
-     "bátor",
-     "바토르"
-    ],
-    [
-     "ötlet",
-     "ötlet",
-     "외틀레트"
+     "komolyan",
+     "komoly",
+     "코모이"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Szerintem menni fog. Sokat fejlődtél.",
-   "rd": "쎄린템 멘니 폭. 쇼커트 페일뢰드텔.",
-   "ko": "내 생각엔 될 거야. 많이 늘었잖아.",
+   "hu": "Szerintem simán megy. Sokat fejlődtél már.",
+   "rd": "쎄린템 시만 메지. 쇼커트 페일뢰드텔 마르.",
+   "ko": "내 생각엔 쉽게 될 거야. 많이 늘었잖아.",
    "note": "fejlődtél = 늘었다",
    "tags": [
     "expr:Szerintem"
@@ -106,29 +106,34 @@
    "emotion": "gentle",
    "lemmas": [
     [
-     "menni",
-     "megy",
-     "메지"
+     "simán",
+     "simán",
+     ""
     ],
     [
-     "fog",
-     "fog",
-     "포그"
+     "megy",
+     "megy",
+     "메지"
     ],
     [
      "fejlődtél",
      "fejlődik",
      ""
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Jó, de ha nem értek valamit, megállítjuk.",
-   "rd": "요, 데 허 넴 에르텍 벌러미트, 메갈리트육.",
-   "ko": "좋아, 근데 내가 못 알아들으면 멈추는 거야.",
-   "note": "megállít = 멈추다",
+   "hu": "Jó, de ha elakadok, állítsuk meg.",
+   "rd": "요, 데 허 엘러커독, 알리트슉 멕.",
+   "ko": "좋아, 근데 막히면 멈추자.",
+   "note": "elakadok = 막히다",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
@@ -138,31 +143,31 @@
      "요"
     ],
     [
-     "értek",
-     "érik",
-     "에릭"
+     "elakadok",
+     "elakad",
+     ""
     ],
     [
-     "megállítjuk",
-     "megállít",
-     "메갈리트"
+     "állítsuk",
+     "állít",
+     "알리트"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Rendben. Hozok teát és pogácsát.",
-   "rd": "렌드벤. 호족 테아트 에시 포가차트.",
-   "ko": "좋아. 차랑 포가차 가져올게.",
+   "hu": "Oké. Hoztam teát meg pogácsát.",
+   "rd": "오케. 호즈텀 테아트 멕 포가차트.",
+   "ko": "오케이. 차랑 포가차 가져왔어.",
    "note": "pogácsa = 짭짤한 작은 빵",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Rendben",
-     "rend",
-     "렌드"
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
      "teát",
@@ -179,10 +184,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Várj, ki ez a férfi? Az apja?",
-   "rd": "바르이, 키 에즈 어 페르피? 어즈 어프여?",
+   "hu": "Várj, ki ez a csávó? Az apja?",
+   "rd": "바르이, 키 에즈 어 차보? 어즈 어프여?",
    "ko": "잠깐, 이 남자 누구야? 아빠야?",
-   "note": "ki ez? = 이 사람 누구야?",
+   "note": "csávó = 남자",
    "tags": [
     "expr:Várj"
    ],
@@ -199,9 +204,9 @@
      "키"
     ],
     [
-     "férfi",
-     "férfi",
-     "페르피"
+     "csávó",
+     "csávó",
+     ""
     ],
     [
      "apja",
@@ -213,9 +218,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Nem, a nagybátyja. És ő is hazudik.",
-   "rd": "넴, 어 너지바티여. 에시 외 이시 허주딕.",
-   "ko": "아니, 삼촌. 그리고 그 사람도 거짓말해.",
+   "hu": "Nem, a nagybátyja. És ő is hazudik ám.",
+   "rd": "넴, 어 너지바티여. 에시 외 이시 허주딕 암.",
+   "ko": "아니, 삼촌. 그 사람도 거짓말하는 거야.",
    "note": "hazudik = 거짓말하다",
    "tags": [],
    "emotion": "amused",
@@ -235,10 +240,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Mit mondott most? Túl gyorsan beszélt.",
-   "rd": "미트 몬도트 모슈트? 툴 죠르션 베쎌트.",
+   "hu": "Mit mondott az előbb? Túl gyorsan hadart.",
+   "rd": "미트 몬도트 어즈 엘뢰브? 툴 죠르션 허더르트.",
    "ko": "방금 뭐라고 했어? 너무 빨리 말했어.",
-   "note": "túl gyorsan = 너무 빨리",
+   "note": "hadart = 빨리 말하다",
    "tags": [],
    "emotion": "annoyed",
    "lemmas": [
@@ -248,9 +253,9 @@
      "몬드"
     ],
     [
-     "most",
-     "most",
-     "모슈트"
+     "előbb",
+     "előbb",
+     "엘뢰브"
     ],
     [
      "gyorsan",
@@ -258,29 +263,29 @@
      "죠르시"
     ],
     [
-     "beszélt",
-     "beszél",
-     "베쎌"
+     "hadart",
+     "hadar",
+     ""
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Azt mondta: „Holnap mindent elmondok.”",
-   "rd": "어즈트 몬드터: „홀너프 민덴트 엘몬독.”",
-   "ko": "\"내일 다 말할게\"라고 했어.",
-   "note": "elmondok = 말해 줄게",
+   "hu": "Azt, hogy holnap mindent elmond.",
+   "rd": "어즈트, 호지 홀너프 민덴트 엘몬드.",
+   "ko": "내일 다 말한다고.",
+   "note": "elmond = 말하다",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "mondta",
-     "mond",
-     "몬드"
+     "holnap",
+     "holnap",
+     "홀넙"
     ],
     [
-     "elmondok",
+     "elmond",
      "elmond",
      "엘몬드"
     ]
@@ -289,9 +294,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Aha! Szóval ő tudja, hol van a pénz.",
-   "rd": "어허! 쏘벌 외 투드여, 홀 번 어 펜즈.",
-   "ko": "아하! 그러니까 그 사람이 돈이 어디 있는지 아는구나.",
+   "hu": "Aha, szóval ő tudja, hol a pénz.",
+   "rd": "어허, 쏘벌 외 투드여, 홀 어 펜즈.",
+   "ko": "아하, 그러니까 그 사람이 돈이 어디 있는지 아는 거네.",
    "note": "szóval = 그러니까",
    "tags": [],
    "emotion": "excited",
@@ -300,6 +305,11 @@
      "Aha",
      "aha",
      "어허"
+    ],
+    [
+     "szóval",
+     "szó",
+     "쏘"
     ],
     [
      "tudja",
@@ -312,11 +322,6 @@
      "홀"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
      "pénz",
      "pénz",
      "펜즈"
@@ -326,9 +331,9 @@
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Te jó ég, tényleg mindent értesz!",
-   "rd": "테 요 엑, 테닐렉 민덴트 에르테쓰!",
-   "ko": "세상에, 너 진짜 다 알아듣는구나!",
+   "hu": "Te jó ég, tényleg érted az egészet!",
+   "rd": "테 요 엑, 테닐렉 에르테드 어즈 에게쎄트!",
+   "ko": "세상에, 진짜 다 알아듣네!",
    "note": "te jó ég = 세상에",
    "tags": [
     "expr:Te jó ég"
@@ -351,41 +356,46 @@
      "테니렉"
     ],
     [
-     "értesz",
+     "érted",
      "ért",
      "에르트"
+    ],
+    [
+     "egészet",
+     "egésze",
+     "에게세"
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "A",
-   "hu": "Nem mindent. Csak a fontos részeket. 😄",
-   "rd": "넴 민덴트. 척 어 폰토시 레쎄케트. 😄",
-   "ko": "다는 아니고. 중요한 부분만. 😄",
-   "note": "fontos = 중요한",
+   "hu": "Nem az egészet. Csak a lényeget. 😄",
+   "rd": "넴 어즈 에게쎄트. 척 어 레네게트. 😄",
+   "ko": "다는 아니고. 핵심만. 😄",
+   "note": "lényeg = 핵심",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "fontos",
-     "fontos",
-     "폰토슈"
+     "egészet",
+     "egésze",
+     "에게세"
     ],
     [
-     "részeket",
-     "rész",
-     "레스"
+     "lényeget",
+     "lényege",
+     ""
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "B",
-   "hu": "Emlékszel? Egy éve még a „szia” is nehéz volt.",
-   "rd": "엠렉쎌? 에지 에베 멕 어 „씨어” 이시 네헤즈 볼트.",
+   "hu": "Emlékszel? Egy éve a „szia” is nehéz volt.",
+   "rd": "엠렉쎌? 에지 에베 어 „씨어” 이시 네헤즈 볼트.",
    "ko": "기억나? 1년 전엔 \"szia\"도 어려웠잖아.",
-   "note": "emlékszel? = 기억나?",
+   "note": "emlékszel = 기억나?",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
@@ -398,11 +408,6 @@
      "éve",
      "év",
      "에브"
-    ],
-    [
-     "még",
-     "még",
-     "메그"
     ],
     [
      "szia",
@@ -426,7 +431,7 @@
    "speaker": "A",
    "hu": "Emlékszem. Az első magyar szavam a te neved volt.",
    "rd": "엠렉쎔. 어즈 엘쇠 머져르 써범 어 테 네베드 볼트.",
-   "ko": "기억나. 내 첫 헝가리어 단어가 네 이름이었어.",
+   "ko": "기억해. 내 첫 헝가리어가 네 이름이었지.",
    "note": "szavam = 내 단어",
    "tags": [],
    "emotion": "shy",

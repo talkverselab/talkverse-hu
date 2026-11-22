@@ -35,8 +35,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Még fent vagy? Már éjfél van.",
-   "rd": "멕 펜트 버지? 마르 에이펠 번.",
+   "hu": "Még nem alszol? Már éjfél van.",
+   "rd": "멕 넴 얼쏠? 마르 에이펠 번.",
    "ko": "아직 안 자? 벌써 자정이야.",
    "note": "fent vagy = 깨어 있다",
    "tags": [],
@@ -48,9 +48,9 @@
      "메그"
     ],
     [
-     "fent",
-     "fen",
-     ""
+     "alszol",
+     "alszik",
+     "얼루시크"
     ],
     [
      "éjfél",
@@ -67,8 +67,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Holnap vizsgázom. Még két fejezet van hátra.",
-   "rd": "홀너프 비지가좀. 멕 케트 페예제트 번 하트러.",
+   "hu": "Holnap vizsga van. Még két fejezet van hátra.",
+   "rd": "홀너프 비지거 번. 멕 케트 페예제트 번 하트러.",
    "ko": "내일 시험이야. 아직 두 장 남았어.",
    "note": "hátra van = 남아 있다",
    "tags": [
@@ -82,19 +82,19 @@
      "홀넙"
     ],
     [
-     "vizsgázom",
-     "vizsgázom",
-     ""
-    ],
-    [
-     "fejezet",
-     "fejezet",
+     "vizsga",
+     "vizsga",
      ""
     ],
     [
      "van",
      "van",
      "번"
+    ],
+    [
+     "fejezet",
+     "fejezet",
+     ""
     ],
     [
      "hátra",
@@ -106,10 +106,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Én is. Hoztam teát, kérsz?",
-   "rd": "엔 이시. 호즈텀 테아트, 케르쓰?",
+   "hu": "Nálam is. Hoztam teát, kérsz belőle?",
+   "rd": "날럼 이시. 호즈텀 테아트, 케르쓰 벨뢸레?",
    "ko": "나도. 차 가져왔는데, 마실래?",
-   "note": "kérsz? = 마실래?",
+   "note": "kérsz = 마실래",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -128,10 +128,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Köszi, jólesik. Milyen tea ez?",
-   "rd": "쾨씨, 욜레식. 미옌 테어 에즈?",
+   "hu": "Köszi, jól jön. Milyen tea ez?",
+   "rd": "쾨씨, 욜 욘. 미옌 테어 에즈?",
    "ko": "고마워, 딱 좋다. 이거 무슨 차야?",
-   "note": "jólesik = 반갑다, 기분 좋다",
+   "note": "jólesik = 반갑다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -141,9 +141,14 @@
      "쾨씨"
     ],
     [
-     "jólesik",
-     "jólesik",
-     ""
+     "jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
     ],
     [
      "tea",
@@ -182,13 +187,11 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Kikérdezel? Itt vannak a kérdések.",
-   "rd": "키케르데젤? 이트 번넉 어 케르데섹.",
+   "hu": "Kikérdezel egy kicsit? Itt a lista.",
+   "rd": "키케르데젤 에지 키치트? 이트 어 리슈터.",
    "ko": "문제 좀 내 줄래? 여기 질문들이야.",
    "note": "kikérdez = 물어보며 점검하다",
-   "tags": [
-    "expr:Na"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -197,14 +200,14 @@
      ""
     ],
     [
-     "vannak",
-     "van",
-     "번"
+     "kicsit",
+     "kicsi",
+     "키치"
     ],
     [
-     "kérdések",
-     "kérdése",
-     ""
+     "lista",
+     "lista",
+     "리슈터"
     ]
    ]
   },
@@ -240,8 +243,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Ezernyolcszázhetvenháromban. Buda, Pest és Óbuda.",
-   "rd": "에제르뇰치자즈헤트벤하롬번. 부더, 페슈트 에시 오부더.",
+   "hu": "Ezernyolcszázhetvenháromban. Buda, Pest meg Óbuda.",
+   "rd": "에제르뇰치자즈헤트벤하롬번. 부더, 페슈트 멕 오부더.",
    "ko": "1873년에. 부다, 페스트, 오부다.",
    "note": "-ban = ~년에",
    "tags": [],
@@ -257,8 +260,8 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Ügyes! Jaj, bocsi, ásítok.",
-   "rd": "위제시! 여이, 보치, 아시톡.",
+   "hu": "Ügyes vagy! Jaj, bocsi, ásítok.",
+   "rd": "위제시 버지! 여이, 보치, 아시톡.",
    "ko": "잘했어! 아, 미안, 하품 나와.",
    "note": "ásítok = 하품한다",
    "tags": [
@@ -268,7 +271,7 @@
    "segs": [
     [
      "cheerful",
-     "Ügyes!"
+     "Ügyes vagy!"
     ],
     [
      "shy",
@@ -296,8 +299,8 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Szerintem a kamilla mégis altat.",
-   "rd": "쎄린템 어 커밀러 메기시 얼터트.",
+   "hu": "Szerintem a kamilla mégis altat kicsit.",
+   "rd": "쎄린템 어 커밀러 메기시 얼터트 키치트.",
    "ko": "아무래도 캐모마일이 잠 오게 하나 봐.",
    "note": "mégis = 그래도 결국",
    "tags": [
@@ -319,14 +322,19 @@
      "altat",
      "altat",
      ""
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Lehet. Még tíz kérdés, aztán alszunk.",
-   "rd": "레헤트. 멕 티즈 케르데시, 어즈탄 얼쑨크.",
+   "hu": "Lehet. Még tíz kérdés, aztán alvás.",
+   "rd": "레헤트. 멕 티즈 케르데시, 어즈탄 얼바시.",
    "ko": "그럴지도. 열 문제만 더 하고 자자.",
    "note": "lehet = 그럴 수도",
    "tags": [],
@@ -348,9 +356,9 @@
      "어스탄"
     ],
     [
-     "alszunk",
-     "alszik",
-     "얼루시크"
+     "alvás",
+     "alvás",
+     ""
     ]
    ]
   },
@@ -387,9 +395,9 @@
   {
    "num": 13,
    "speaker": "B",
-   "hu": "Kilenckor. A tiéd?",
-   "rd": "킬렌츠코르. 어 티에드?",
-   "ko": "아홉 시. 네 건?",
+   "hu": "Kilenckor. A tiéd mikor?",
+   "rd": "킬렌츠코르. 어 티에드 미코르?",
+   "ko": "아홉 시. 네 건 몇 시야?",
    "note": "a tiéd = 네 것",
    "tags": [],
    "emotion": "neutral",
@@ -431,7 +439,7 @@
    "hu": "Igen. Ha ötös lesz, meghívlak. Ha nem, akkor is.",
    "rd": "이겐. 허 외퇴시 레쓰, 멕히블럭. 허 넴, 어꼬르 이시.",
    "ko": "응. 5점 나오면 내가 살게. 안 나와도 살 거고.",
-   "note": "meghívlak = 너를 초대한다(-lak)",
+   "note": "meghívlak = 너를 초대한다",
    "tags": [],
    "emotion": "gentle",
    "segs": [

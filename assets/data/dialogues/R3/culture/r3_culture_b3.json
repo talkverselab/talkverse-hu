@@ -36,9 +36,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ma van apukám névnapja. Este nálunk vacsorázunk.",
-   "rd": "머 번 어푸캄 네브너프여. 에슈테 날룬크 버초라준크.",
-   "ko": "오늘 우리 아빠 이름의 날이야. 저녁에 우리 집에서 먹어.",
+   "hu": "Ma van apu névnapja. Este nálunk vacsorázunk.",
+   "rd": "머 번 어푸 네브너프여. 에슈테 날룬크 버초라준크.",
+   "ko": "오늘 아빠 이름의 날이야. 저녁에 우리 집에서 먹어.",
    "note": "nálunk = 우리 집에서",
    "tags": [],
    "emotion": "cheerful",
@@ -54,9 +54,9 @@
      "번"
     ],
     [
-     "apukám",
-     "apukám",
-     ""
+     "apu",
+     "apu",
+     "어푸"
     ],
     [
      "névnapja",
@@ -73,17 +73,17 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Vigyek valamit? Virágot vagy bort?",
-   "rd": "비젝 벌러미트? 비라고트 버지 보르트?",
+   "hu": "Hozzak valamit? Virágot vagy bort?",
+   "rd": "호적 벌러미트? 비라고트 버지 보르트?",
    "ko": "뭐 가져갈까? 꽃, 아니면 와인?",
-   "note": "vigyek = 가져갈까",
+   "note": "hoz zak = 가져갈까",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "Vigyek",
-     "visz",
-     "비스"
+     "Hozzak",
+     "hoz",
+     "호즈"
     ],
     [
      "bort",
@@ -95,8 +95,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Egy üveg bor jó lesz. Apa a vöröset szereti.",
-   "rd": "에지 위벡 보르 요 레쓰. 어퍼 어 뵈뢰세트 쎄레티.",
+   "hu": "Egy üveg bor elég lesz. Apa a vöröset szereti.",
+   "rd": "에지 위벡 보르 엘렉 레쓰. 어퍼 어 뵈뢰세트 쎄레티.",
    "ko": "와인 한 병이면 돼. 아빠는 레드를 좋아해.",
    "note": "vörös = 레드 와인",
    "tags": [],
@@ -113,9 +113,9 @@
      "보르"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "elég",
+     "elég",
+     "엘렉"
     ],
     [
      "lesz",
@@ -137,20 +137,15 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "És mit kell mondani? Boldog névnapot?",
-   "rd": "에시 미트 켈 몬더니? 볼독 네브너포트?",
+   "hu": "És mit mondjak neki? Boldog névnapot?",
+   "rd": "에시 미트 몬드역 네키? 볼독 네브너포트?",
    "ko": "그리고 뭐라고 해야 해? 이름의 날 축하해요?",
    "note": "mit kell mondani? = 뭐라고 해야 해?",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "kell",
-     "kell",
-     "켈"
-    ],
-    [
-     "mondani",
+     "mondjak",
      "mond",
      "몬드"
     ],
@@ -220,7 +215,7 @@
    "speaker": "C",
    "hu": "Sziasztok, gyertek be! Hideg van kint.",
    "rd": "씨어쓰톡, 제르텍 베! 히덱 번 킨트.",
-   "ko": "얘들아, 들어와라! 밖에 춥지.",
+   "ko": "얘들아, 들어와! 밖에 춥지.",
    "note": "gyertek be = 들어와",
    "tags": [],
    "emotion": "cheerful",
@@ -255,8 +250,8 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Ó, vörösbor! Köszönöm, nagyon kedves.",
-   "rd": "오, 뵈뢰슈보르! 쾨쐬뇜, 너죤 케드베시.",
+   "hu": "Ó, vörösbor! Köszönöm, nagyon kedves tőled.",
+   "rd": "오, 뵈뢰슈보르! 쾨쐬뇜, 너죤 케드베시 퇼레드.",
    "ko": "오, 레드 와인! 고맙구나, 정말 고마워.",
    "note": "kedves = 친절한",
    "tags": [],

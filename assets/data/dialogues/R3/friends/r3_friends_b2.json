@@ -34,8 +34,8 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Boldog névnapot, Réka! Ezt neked hoztam.",
-   "rd": "볼독 네브너포트, 레커! 에즈트 네케드 호즈텀.",
+   "hu": "Boldog névnapot, Réka! Na, ezt neked hoztam.",
+   "rd": "볼독 네브너포트, 레커! 너, 에즈트 네케드 호즈텀.",
    "ko": "이름의 날 축하해, 레카! 이거 너 주려고 가져왔어.",
    "note": "névnap = 이름의 날",
    "tags": [
@@ -63,9 +63,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Jaj, de szép virág, köszönöm! Gyere be.",
-   "rd": "여이, 데 쎄프 비락, 쾨쐬뇜! 제레 베.",
-   "ko": "어머, 꽃 예쁘다! 고마워! 들어와.",
+   "hu": "Jaj, de cuki! Kösz, gyere csak be.",
+   "rd": "여이, 데 추키! 쾨쓰, 제레 척 베.",
+   "ko": "어머, 귀엽다! 고마워, 들어와.",
    "note": "gyere be = 들어와",
    "tags": [],
    "emotion": "excited",
@@ -76,19 +76,19 @@
      "야이"
     ],
     [
-     "szép",
-     "szép",
-     "쎕"
+     "cuki",
+     "cuki",
+     ""
     ],
     [
-     "virág",
-     "virág",
-     "비라그"
+     "gyere",
+     "jön",
+     "왼"
     ],
     [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "csak",
+     "csak",
+     "촉"
     ],
     [
      "be",
@@ -100,9 +100,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Hogyhogy ennyi ember van itt? Ez egy buli?",
-   "rd": "호지호지 에니 엠베르 번 이트? 에즈 에지 불리?",
-   "ko": "어떻게 사람이 이렇게 많아? 파티야?",
+   "hu": "Hogyhogy ennyi ember? Ez buli vagy mi?",
+   "rd": "호지호지 에니 엠베르? 에즈 불리 버지 미?",
+   "ko": "왜 사람이 이렇게 많아? 파티야 뭐야?",
    "note": "ennyi = 이만큼",
    "tags": [
     "expr:Hogyhogy"
@@ -125,16 +125,6 @@
      "엠베르"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "itt",
-     "itt",
-     "이트"
-    ],
-    [
      "buli",
      "buli",
      "불리"
@@ -144,22 +134,27 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Nálunk a névnap majdnem olyan fontos, mint a szülinap.",
-   "rd": "날룬크 어 네브너프 머이드넴 오연 폰토시, 민트 어 쓀리너프.",
-   "ko": "우리한텐 이름의 날이 생일만큼 중요해.",
+   "hu": "Figyelj, nálunk a névnap szinte olyan fontos, mint a szülinap.",
+   "rd": "피젤이, 날룬크 어 네브너프 씬테 오연 폰토시, 민트 어 쓀리너프.",
+   "ko": "있잖아, 우리한텐 이름의 날이 생일만큼 중요해.",
    "note": "olyan … mint = ~만큼",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
+    [
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
     [
      "névnap",
      "névnap",
      ""
     ],
     [
-     "majdnem",
-     "majdnem",
-     "머이드넴"
+     "szinte",
+     "szinte",
+     "씨테"
     ],
     [
      "fontos",
@@ -176,9 +171,9 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Tényleg? És honnan tudjátok, mikor van?",
-   "rd": "테닐렉? 에시 혼넌 투드야톡, 미코르 번?",
-   "ko": "진짜? 근데 그게 언제인지 어떻게 알아?",
+   "hu": "Tényleg? Honnan tudjátok, mikor kinek van?",
+   "rd": "테닐렉? 혼넌 투드야톡, 미코르 키넥 번?",
+   "ko": "진짜? 누구 언제인지 어떻게 알아?",
    "note": "honnan = 어디서",
    "tags": [],
    "emotion": "surprised",
@@ -189,14 +184,14 @@
      "테니렉"
     ],
     [
-     "honnan",
-     "honnan",
-     "혼넌"
-    ],
-    [
      "tudjátok",
      "tud",
      "투드"
+    ],
+    [
+     "kinek",
+     "ki",
+     "키"
     ],
     [
      "van",
@@ -245,10 +240,10 @@
   {
    "num": 7,
    "speaker": "C",
-   "hu": "Szervusz, te vagy {name}? Réka sokat mesél rólad.",
-   "rd": "쎄르부쓰, 테 버지 {name}? 레커 쇼커트 메셀 롤러드.",
-   "ko": "안녕! 네가 {name}구나? 레카가 네 얘기 많이 해.",
-   "note": "szervusz = 안녕(어른이 쓰는 인사)",
+   "hu": "Szervusz! Te vagy {name}? Réka sokat mesélt rólad.",
+   "rd": "쎄르부쓰! 테 버지 {name}? 레커 쇼커트 메셀트 롤러드.",
+   "ko": "안녕! 네가 {name}구나? 레카가 네 얘기 많이 했어.",
+   "note": "szervusz = 안녕",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -258,7 +253,7 @@
      ""
     ],
     [
-     "mesél",
+     "mesélt",
      "mesél",
      "메셸"
     ]
@@ -269,8 +264,8 @@
    "speaker": "A",
    "hu": "Csókolom! Örülök, hogy megismerhetem.",
    "rd": "초콜롬! 외륄뢱, 호지 메기슈메르헤템.",
-   "ko": "안녕하세요! 만나 뵙게 되어 반가워요.",
-   "note": "megismerhetem = (당신을) 알게 되다(존댓말)",
+   "ko": "안녕하세요! 뵙게 되어 반가워요.",
+   "note": "megismerhetem = 알게 되다",
    "tags": [
     "expr:Csókolom"
    ],
@@ -291,17 +286,17 @@
   {
    "num": 9,
    "speaker": "C",
-   "hu": "Milyen udvarias! Kérsz egy kis süteményt?",
-   "rd": "미옌 우드버리어시! 케르쓰 에지 키시 쉬테메니트?",
-   "ko": "정말 예의 바르네! 케이크 좀 먹을래?",
-   "note": "udvarias = 예의 바른",
+   "hu": "Milyen kedves! Kérsz egy kis süteményt?",
+   "rd": "미옌 케드베시! 케르쓰 에지 키시 쉬테메니트?",
+   "ko": "정말 착하네! 케이크 좀 먹을래?",
+   "note": "kedves = 착한",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "udvarias",
-     "udvarias",
-     ""
+     "kedves",
+     "kedves",
+     "케드베슈"
     ],
     [
      "kis",
@@ -374,8 +369,8 @@
    "speaker": "A",
    "hu": "Csókolom! Örülök, hogy megismerhetem.",
    "rd": "초콜롬! 외륄뢱, 호지 메기슈메르헤템.",
-   "ko": "안녕하세요! 만나 뵙게 되어 반가워요.",
-   "note": "또 어른께 하는 인사",
+   "ko": "안녕하세요! 뵙게 되어 반가워요.",
+   "note": "csókolom = 어른 인사",
    "tags": [
     "expr:Csókolom"
    ],
@@ -398,8 +393,8 @@
    "speaker": "D",
    "hu": "Csókolom? Huszonkét éves vagyok, nem nyolcvan!",
    "rd": "초콜롬? 후쏜케트 에베시 버죡, 넴 뇰츠번!",
-   "ko": "「안녕하세요」? 나 스물두 살이야, 여든이 아니라!",
-   "note": "csókolom = 어르신께만 쓰는 인사",
+   "ko": "Csókolom? 나 스물둘이야, 여든 아니거든!",
+   "note": "csókolom = 어르신 인사",
    "tags": [
     "expr:Csókolom"
    ],
@@ -432,8 +427,8 @@
    "speaker": "B",
    "hu": "Te jó ég! A csókolom csak az idősebbeknek jár, neki elég egy szia.",
    "rd": "테 요 엑! 어 초콜롬 척 어즈 이되세벡넥 야르, 네키 엘렉 에지 씨어.",
-   "ko": "세상에! Csókolom 은 어른한테만 해, 얘한텐 「안녕」이면 돼.",
-   "note": "idősebb = 나이가 더 많은",
+   "ko": "세상에! Csókolom은 어른한테만 해, 얘한텐 안녕이면 돼.",
+   "note": "idősebb = 더 나이 많은",
    "tags": [
     "expr:Csókolom",
     "expr:Te jó ég"
@@ -487,7 +482,7 @@
    "speaker": "A",
    "hu": "Bocsi, Peti! Akkor szia, és boldog névnapot neked is?",
    "rd": "보치, 페티! 어꼬르 씨어, 에시 볼독 네브너포트 네케드 이시?",
-   "ko": "미안, 페티! 그럼 안녕, 그리고 너도 이름의 날 축하해?",
+   "ko": "미안, 페티! 그럼 안녕, 너도 이름의 날 축하해?",
    "note": "neked is = 너에게도",
    "tags": [
     "expr:Boldog névnapot"

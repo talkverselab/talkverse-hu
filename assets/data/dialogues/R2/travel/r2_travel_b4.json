@@ -32,10 +32,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Elnézést, azt hiszem, ez az én helyem.",
-   "rd": "엘네제슈트, 어즈트 히쎔, 에즈 어즈 엔 헤옘.",
-   "ko": "실례합니다, 여기 제 자리 같은데요.",
-   "note": "azt hiszem = 제 생각엔",
+   "hu": "Elnézést, azt hiszem, ez a negyvenkettes az enyém.",
+   "rd": "엘네제슈트, 어즈트 히쎔, 에즈 어 네지벤케떼시 어즈 에넴.",
+   "ko": "실례합니다, 제 생각엔 이 42번이 제 자리인데요.",
+   "note": "enyém = 내 것",
    "tags": [
     "expr:Elnézést",
     "expr:azt hiszem"
@@ -53,8 +53,8 @@
      "히쓰"
     ],
     [
-     "helyem",
-     "helyem",
+     "negyvenkettes",
+     "negyven",
      ""
     ]
    ]
@@ -62,10 +62,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Tényleg? Nekem is ez van a jegyemen.",
-   "rd": "테닐렉? 네켐 이시 에즈 번 어 예제멘.",
-   "ko": "정말요? 제 표에도 이 자리예요.",
-   "note": "jegyemen = 내 표 위에",
+   "hu": "Tényleg? Az én jegyemen is pont ez a szám van.",
+   "rd": "테닐렉? 어즈 엔 예제멘 이시 폰트 에즈 어 쌈 번.",
+   "ko": "정말요? 제 표에도 정확히 이 번호예요.",
+   "note": "jegyemen = 내 표에",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -75,23 +75,33 @@
      "테니렉"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
      "jegyemen",
      "jegyemen",
      ""
+    ],
+    [
+     "pont",
+     "pont",
+     "폰트"
+    ],
+    [
+     "szám",
+     "száj",
+     "사이"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Melyik kocsi? Én a hatosban vagyok.",
-   "rd": "메익 코치? 엔 어 허토슈번 버죡.",
-   "ko": "몇 호차요? 저는 6호차예요.",
+   "hu": "Melyik kocsi van rajta? Én a hatosban utazom.",
+   "rd": "메익 코치 번 러이터? 엔 어 허토슈번 우터좀.",
+   "ko": "표에 몇 호차예요? 저는 6호차예요.",
    "note": "kocsi = 객차",
    "tags": [],
    "emotion": "polite",
@@ -102,23 +112,28 @@
      "코치"
     ],
     [
+     "van",
+     "van",
+     "번"
+    ],
+    [
      "hatosban",
      "hatos",
      ""
     ],
     [
-     "vagyok",
-     "van",
-     "번"
+     "utazom",
+     "utazom",
+     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Várjon... Hatos kocsi, negyvenkettes hely.",
-   "rd": "바르욘... 허토시 코치, 네지벤케떼시 헤이.",
-   "ko": "잠깐만요… 6호차, 42번 자리.",
+   "hu": "Várjon egy kicsit... Hatos kocsi, negyvenkettes hely.",
+   "rd": "바르욘 에지 키치트... 허토시 코치, 네지벤케떼시 헤이.",
+   "ko": "잠깐만 기다려 주세요... 6호차 42번 자리.",
    "note": "hely = 자리",
    "tags": [],
    "emotion": "flustered",
@@ -127,6 +142,11 @@
      "Várjon",
      "vár",
      "바르"
+    ],
+    [
+     "kicsit",
+     "kicsi",
+     "키치"
     ],
     [
      "kocsi",
@@ -150,8 +170,8 @@
    "speaker": "B",
    "hu": "Megnézhetem? Ez a jegy a debreceni vonatra szól.",
    "rd": "멕네즈헤템? 에즈 어 예지 어 데브레체니 보너트러 쏠.",
-   "ko": "봐도 될까요? 이 표는 데브레첸행 기차 거예요.",
-   "note": "szól = (표가) ~용이다",
+   "ko": "좀 봐도 될까요? 이 표는 데브레첸행 기차 거예요.",
+   "note": "szól = ~용이다",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -185,13 +205,18 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Mi? Ez nem Debrecenbe megy?",
-   "rd": "미? 에즈 넴 데브레첸베 메지?",
-   "ko": "네? 이거 데브레첸 안 가요?",
+   "hu": "Mi? Ez a vonat nem Debrecenbe megy?",
+   "rd": "미? 에즈 어 보너트 넴 데브레첸베 메지?",
+   "ko": "네? 이 기차 데브레첸으로 안 가요?",
    "note": "Debrecenbe = 데브레첸으로",
    "tags": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
+    [
+     "vonat",
+     "vonat",
+     ""
+    ],
     [
      "megy",
      "megy",
@@ -202,32 +227,22 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Nem, ez Szegedre megy. Az Ön vonata ott áll, a szomszéd vágányon.",
-   "rd": "넴, 에즈 쎄게드레 메지. 어즈 왼 보너터 오트 알, 어 쏨쎄드 바가뇬.",
-   "ko": "아니요, 이건 세게드행이에요. 손님 기차는 저기 옆 선로에 있어요.",
+   "hu": "Nem, Szegedre tart. Az Ön vonata a szomszéd vágányon áll.",
+   "rd": "넴, 쎄게드레 터르트. 어즈 왼 보너터 어 쏨쎄드 바가뇬 알.",
+   "ko": "아니요, 세게드로 가요. 손님 기차는 옆 선로에 서 있어요.",
    "note": "szomszéd = 옆의",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "megy",
-     "megy",
-     "메지"
+     "tart",
+     "tar",
+     "터르"
     ],
     [
      "vonata",
      "vonata",
      ""
-    ],
-    [
-     "ott",
-     "ott",
-     "오트"
-    ],
-    [
-     "áll",
-     "áll",
-     "알"
     ],
     [
      "szomszéd",
@@ -238,6 +253,11 @@
      "vágányon",
      "vágány",
      ""
+    ],
+    [
+     "áll",
+     "áll",
+     "알"
     ]
    ]
   },
@@ -250,6 +270,16 @@
    "note": "indul = 출발하다",
    "tags": [],
    "emotion": "flustered",
+   "segs": [
+    [
+     "flustered",
+     "Jaj!"
+    ],
+    [
+     "worried",
+     "Mikor indul?"
+    ]
+   ],
    "lemmas": [
     [
      "Jaj",
@@ -266,9 +296,9 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Két perc múlva. Segítek a bőrönddel!",
-   "rd": "케트 페르츠 물버. 세기텍 어 뵈뢴델!",
-   "ko": "2분 뒤에요. 캐리어 들어 드릴게요!",
+   "hu": "Két perc múlva. Segítek a bőröndjével!",
+   "rd": "케트 페르츠 물버. 세기텍 어 뵈뢴드예벨!",
+   "ko": "2분 뒤예요. 캐리어 들어 드릴게요!",
    "note": "bőrönd = 캐리어",
    "tags": [],
    "emotion": "worried",
@@ -279,7 +309,7 @@
     ],
     [
      "gentle",
-     "Segítek a bőrönddel!"
+     "Segítek a bőröndjével!"
     ]
    ],
    "lemmas": [
@@ -289,7 +319,7 @@
      "페르츠"
     ],
     [
-     "bőrönddel",
+     "bőröndjével",
      "bőrönd",
      ""
     ]

@@ -10,9 +10,9 @@
  "domain": [
   "work"
  ],
- "title": "휴가 신청",
+ "title": "휴가 한 방",
  "emoji": "📅",
- "scene": "사장님 사무실 문을 두드린다. 다음 주 금요일 하루만 쉬고 싶다",
+ "scene": "사장님 사무실 문을 살짝 두드린다. 다음 주 금요일 하루만 빠지고 싶다",
  "speakers": {
   "A": "{name}",
   "B": "Főnök"
@@ -31,10 +31,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Elnézést, van egy perce?",
-   "rd": "엘네제슈트, 번 에지 페르체?",
-   "ko": "실례합니다, 잠깐 시간 있으세요?",
-   "note": "van egy perce? = 1분 있으세요?",
+   "hu": "Elnézést, zavarhatom egy percre?",
+   "rd": "엘네제슈트, 저버르허톰 에지 페르츠레?",
+   "ko": "실례합니다, 잠깐 방해해도 될까요?",
+   "note": "zavarhatom = 방해해도 되나요",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -44,12 +44,12 @@
      "엘네제시"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "zavarhatom",
+     "zavar",
+     "저버르"
     ],
     [
-     "perce",
+     "percre",
      "perc",
      "페르츠"
     ]
@@ -58,10 +58,10 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Persze, jöjjön be. Mi a helyzet?",
-   "rd": "페르쎄, 요왼 베. 미 어 헤이제트?",
-   "ko": "그럼요, 들어와요. 무슨 일이에요?",
-   "note": "jöjjön be = 들어오세요",
+   "hu": "Persze, jöjjön be nyugodtan. Mi történt?",
+   "rd": "페르쎄, 요왼 베 뉴고드턴. 미 퇴르텐트?",
+   "ko": "그럼요, 편하게 들어오세요. 무슨 일이에요?",
+   "note": "Persze = 그럼요",
    "tags": [
     "expr:Persze"
    ],
@@ -83,56 +83,56 @@
      "베"
     ],
     [
-     "helyzet",
-     "helyzet",
-     "헤이젯"
+     "nyugodtan",
+     "nyugodt",
+     "뉴고트"
+    ],
+    [
+     "történt",
+     "történik",
+     "퇴르텐닉"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Szabadságot szeretnék kérni. Csak egy napot.",
-   "rd": "써버드샤고트 쎄레트넥 케르니. 척 에지 너포트.",
-   "ko": "휴가를 신청하고 싶어요. 하루만요.",
-   "note": "szabadság = 휴가",
+   "hu": "Szeretnék egy szabadnapot kérni. Csak egyet.",
+   "rd": "쎄레트넥 에지 써버드너포트 케르니. 척 에제트.",
+   "ko": "휴가를 하루만 신청하고 싶어요.",
+   "note": "szabadnap = 쉬는 날",
    "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
-     "Szabadságot",
-     "szabadság",
-     "써버드샤그"
-    ],
-    [
-     "szeretnék",
+     "Szeretnék",
      "szeret",
      "쎄레트"
+    ],
+    [
+     "szabadnapot",
+     "szabadnap",
+     ""
     ],
     [
      "kérni",
      "kér",
      "께르"
-    ],
-    [
-     "napot",
-     "nap",
-     "넙"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Melyik napot?",
-   "rd": "메익 너포트?",
+   "hu": "Melyik napra?",
+   "rd": "메익 너프러?",
    "ko": "어느 날이요?",
    "note": "melyik = 어느",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "napot",
+     "napra",
      "nap",
      "넙"
     ]
@@ -141,20 +141,20 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Jövő pénteket. A barátaim jönnek Budapestre.",
-   "rd": "요뵈 펜테케트. 어 버라터임 욘넥 부더페슈트레.",
-   "ko": "다음 주 금요일이요. 친구들이 부다페스트에 와요.",
+   "hu": "Jövő péntekre. A barátaim jönnek Pestre.",
+   "rd": "요뵈 펜텍레. 어 버라터임 욘넥 페슈트레.",
+   "ko": "다음 주 금요일이요. 친구들이 페스트에 와요.",
    "note": "jövő péntek = 다음 주 금요일",
    "tags": [],
    "emotion": "stiff",
    "segs": [
     [
      "stiff",
-     "Jövő pénteket."
+     "Jövő péntekre."
     ],
     [
      "cheerful",
-     "A barátaim jönnek Budapestre."
+     "A barátaim jönnek Pestre."
     ]
    ],
    "lemmas": [
@@ -164,7 +164,7 @@
      "요뵈"
     ],
     [
-     "pénteket",
+     "péntekre",
      "péntek",
      ""
     ],
@@ -183,10 +183,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Jövő péntek. Egy pillanat, megnézem a naptárt.",
-   "rd": "요뵈 펜텍. 에지 필러너트, 멕네젬 어 너프타르트.",
-   "ko": "다음 주 금요일이라. 잠깐만요, 달력 볼게요.",
-   "note": "naptár = 달력",
+   "hu": "Jövő péntek... Egy pillanat, megnézem a naptárt.",
+   "rd": "요뵈 펜텍... 에지 필러너트, 멕네젬 어 너프타르트.",
+   "ko": "다음 주 금요일이라... 잠깐만요, 달력 볼게요.",
+   "note": "Egy pillanat = 잠깐",
    "tags": [
     "expr:Egy pillanat"
    ],
@@ -222,22 +222,22 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Tudom, hogy sok a munka. Szombaton bejövök helyette.",
-   "rd": "투돔, 호지 쇽 어 문커. 쏨버톤 베요뵉 헤예떼.",
+   "hu": "Sok a munka, tudom. Szombaton bejövök helyette.",
+   "rd": "쇽 어 문커, 투돔. 쏨버톤 베요뵉 헤예떼.",
    "ko": "일 많은 거 알아요. 대신 토요일에 나올게요.",
    "note": "helyette = 대신",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "Tudom",
-     "tud",
-     "투드"
-    ],
-    [
      "munka",
      "munka",
      "문커"
+    ],
+    [
+     "tudom",
+     "tud",
+     "투드"
     ],
     [
      "bejövök",
@@ -249,13 +249,18 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Ugyan. Jövő péntek augusztus huszadika.",
-   "rd": "우젼. 요뵈 펜텍 어우구쓰투시 후써디커.",
-   "ko": "무슨요. 다음 주 금요일은 8월 20일이에요.",
-   "note": "ugyan = 별말을, 무슨",
+   "hu": "Ugyan, ne aggódjon. Jövő péntek augusztus huszadika.",
+   "rd": "우젼, 네 억고드욘. 요뵈 펜텍 어우구쓰투시 후써디커.",
+   "ko": "에이, 걱정 마세요. 다음 주 금요일은 8월 20일이요.",
+   "note": "ugyan = 에이",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
+    [
+     "aggódjon",
+     "aggódik",
+     "어거도지크"
+    ],
     [
      "péntek",
      "péntek",
@@ -276,26 +281,26 @@
   {
    "num": 9,
    "speaker": "A",
-   "hu": "És? Akkor mi van?",
-   "rd": "에시? 어꼬르 미 번?",
-   "ko": "그래서요? 그게 왜요?",
-   "note": "mi van? = 뭔데요?",
+   "hu": "És? Akkor mi a baj?",
+   "rd": "에시? 어꼬르 미 어 버이?",
+   "ko": "그래서요? 뭐가 문제예요?",
+   "note": "mi a baj = 뭐가 문제",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "van",
-     "van",
-     "번"
+     "baj",
+     "baj",
+     "버이"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Nemzeti ünnep. Mindenki szabadnapos, mi is zárva leszünk.",
-   "rd": "넴제티 윈네프. 민덴키 써버드너포시, 미 이시 자르버 레쒼크.",
-   "ko": "국경일이에요. 다들 쉬는 날이라 우리도 문 닫아요.",
+   "hu": "Nemzeti ünnep. Az egész ország szabadnapos, mi is bezárunk.",
+   "rd": "넴제티 윈네프. 어즈 에게쓰 오르싹 써버드너포시, 미 이시 베자룬크.",
+   "ko": "국경일이요. 온 나라가 쉬는 날이라 우리도 문 닫아요.",
    "note": "nemzeti ünnep = 국경일",
    "tags": [],
    "emotion": "amused",
@@ -311,29 +316,34 @@
      ""
     ],
     [
+     "egész",
+     "egész",
+     "에게쓰"
+    ],
+    [
+     "ország",
+     "ország",
+     "오르싸그"
+    ],
+    [
      "szabadnapos",
      "szabadnap",
      ""
     ],
     [
-     "zárva",
-     "zár",
-     "자르"
-    ],
-    [
-     "leszünk",
-     "lesz",
-     "레쓰"
+     "bezárunk",
+     "bezár",
+     "베자르"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Tényleg? Akkor visszavonom a kérést.",
-   "rd": "테닐렉? 어꼬르 비써보놈 어 케레슈트.",
-   "ko": "정말요? 그럼 신청 취소할게요.",
-   "note": "visszavonom = 취소한다",
+   "hu": "Tényleg? Akkor visszavonom.",
+   "rd": "테닐렉? 어꼬르 비써보놈.",
+   "ko": "정말요? 그럼 취소할게요.",
+   "note": "Tényleg = 정말",
    "tags": [
     "expr:Tényleg"
    ],
@@ -348,11 +358,6 @@
      "visszavonom",
      "visszavon",
      ""
-    ],
-    [
-     "kérést",
-     "kérés",
-     ""
     ]
    ]
   },
@@ -361,8 +366,8 @@
    "speaker": "B",
    "hu": "Ne vonja vissza. Kérjen inkább egy hétfőt.",
    "rd": "네 본여 비써. 케르옌 인카브 에지 헤트푀트.",
-   "ko": "취소하지 말고요. 대신 월요일 하루 신청하세요.",
-   "note": "inkább = 차라리, 대신",
+   "ko": "취소하지 마세요. 대신 월요일로 신청하세요.",
+   "note": "inkább = 차라리",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [

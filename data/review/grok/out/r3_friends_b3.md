@@ -1,0 +1,27 @@
+=== r3_friends_b3
+kind: long
+title: 정상에서
+emoji: ⛰️
+scene: 일요일, Réka 와 부다 언덕에 오른다. 오늘따라 Réka 의 배낭이 유난히 무겁다
+b: Réka
+register: casual
+twist: 13 emotion
+purpose: making_friends study_abroad
+goal: 경치·기분 말하기(Gyönyörű · Emlékszel?)와 기념일 축하
+expressions: Bírod még; Gyönyörű; Emlékszel; Egy éve
+B | Bírod még? Már csak tíz perc a kilátóig. | 아직 할 만해? 전망대까지 10분이야. | bírod még? = 아직 버틸 만해? | emotion=teasing
+A | Bírom, bírom. De miért ilyen nehéz a táskád? | 버틸 만해. 근데 네 가방 왜 이렇게 무거워? | nehéz = 무거운 | emotion=worried
+B | Csak víz meg szendvics. Semmi extra. | 그냥 물이랑 샌드위치. 별거 없어. | extra = 특별한 | emotion=flustered
+A | Gyanús vagy ma. Egész reggel mosolyogsz. | 너 오늘 수상해. 아침부터 계속 웃고 있잖아. | gyanús = 수상한 | emotion=teasing
+B | Én? Nézd inkább, ott a Duna! | 내가? 저기 봐, 도나우강이야! | inkább = 차라리 | emotion=flustered
+A | Hű, Gyönyörű! Innen az egész város látszik. | 와, 진짜 멋지다! 여기서 도시 전체가 보여. | látszik = 보인다 | emotion=excited
+B | Emlékszel? Tavaly ilyenkor még mindig a térképet nézted. | 기억나? 작년 이맘땐 아직도 지도만 봤잖아. | ilyenkor = 이맘때 | emotion=teasing
+A | Igen, és minden villamoson eltévedtem. | 응, 그리고 트램마다 길을 잃었지. | eltévedtem = 길을 잃었다 | emotion=amused
+B | Most meg te mutatod az utat. | 근데 지금은 네가 길을 알려 주잖아. | mutatod = 보여 준다 | emotion=gentle
+A | Na jó, néha. Leülünk egy kicsit? | 뭐, 가끔. 좀 앉을까? | leülünk = 우리 앉을까 | emotion=shy
+B | Persze. Várj, csukd be a szemed! | 그럼. 잠깐, 눈 감아! | csukd be = 감아 | emotion=excited
+A | Miért? Mit csinálsz? | 왜? 뭐 하는데? | csinálsz = 하다 | emotion=surprised
+B | Most nyisd ki! Ma pont Egy éve vagy Budapesten. | 이제 떠! 오늘이 너 부다페스트 온 지 딱 1년이야. | egy éve = 1년째 | emotion=excited
+A | Torta?! Ezt cipelted fel egész úton? | 케이크?! 이걸 내내 들고 올라온 거야? | cipelted = 들고 왔다 | emotion=surprised
+B | Naná! Na, fújd el a gyertyát, mielőtt elfújja a szél. | 당연하지! 자, 바람이 끄기 전에 촛불 불어. | fújd el = 불어서 꺼 | emotion=cheerful
+A | Réka, ez a legjobb nap egész évben. | 레카, 오늘이 올해 최고의 날이야. | a legjobb = 최고의 | emotion=gentle

@@ -34,15 +34,25 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Az első lecsóm! 🍅🌶️",
-   "rd": "어즈 엘쇠 레촘! 🍅🌶️",
-   "ko": "내 첫 레초! 🍅🌶️",
+   "hu": "Na, megvan az első lecsóm! 🍅🌶️",
+   "rd": "너, 멕번 어즈 엘쇠 레촘! 🍅🌶️",
+   "ko": "자, 내 첫 레초 완성! 🍅🌶️",
    "note": "lecsó = 파프리카 토마토 스튜",
    "tags": [],
    "at": "19:30",
    "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "megvan",
+     "megvan",
+     "메그번"
+    ],
     [
      "lecsóm",
      "lecsóm",
@@ -53,9 +63,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Hű! Kolbásszal vagy anélkül?",
-   "rd": "휘! 콜바썰 버지 어넬퀼?",
-   "ko": "와! 소시지 넣었어, 안 넣었어?",
+   "hu": "Hű! Kolbász benne van vagy nincs?",
+   "rd": "휘! 콜바쓰 벤네 번 버지 닌치?",
+   "ko": "와! 소시지 들어갔어, 안 들어갔어?",
    "note": "anélkül = 그것 없이",
    "tags": [
     "expr:Hű"
@@ -68,21 +78,36 @@
      "Hű",
      "hű",
      ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "nincs",
+     "nincs",
+     "닌치"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Anélkül. Kolbász nem volt itthon.",
-   "rd": "어넬퀼. 콜바쓰 넴 볼트 이트혼.",
-   "ko": "안 넣었어. 집에 소시지가 없었어.",
+   "hu": "Nincs. Nem volt itthon kolbász.",
+   "rd": "닌치. 넴 볼트 이트혼 콜바쓰.",
+   "ko": "없어. 집에 소시지가 없었어.",
    "note": "itthon = 집에",
    "tags": [],
    "at": "19:33",
    "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
+    [
+     "Nincs",
+     "nincs",
+     "닌치"
+    ],
     [
      "volt",
      "van",
@@ -92,6 +117,11 @@
      "itthon",
      "itthon",
      "이트혼"
+    ],
+    [
+     "kolbász",
+     "kolbász",
+     ""
     ]
    ]
   },
@@ -100,7 +130,7 @@
    "speaker": "B",
    "hu": "Akkor ez csak paprikás paradicsom. 😏",
    "rd": "어꼬르 에즈 척 퍼프리카시 퍼러디촘. 😏",
-   "ko": "그럼 이건 그냥 파프리카 넣은 토마토네. 😏",
+   "ko": "그럼 그냥 파프리카 토마토네. 😏",
    "note": "paradicsom = 토마토",
    "tags": [],
    "at": "19:33",
@@ -132,9 +162,9 @@
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Ne hallgass rá! Nagyon jól néz ki. 😍",
-   "rd": "네 헐거시 라! 너죤 욜 네즈 키. 😍",
-   "ko": "쟤 말 듣지 마! 정말 맛있어 보여. 😍",
+   "hu": "Hagyd őt! Nagyon jól néz ki. 😍",
+   "rd": "허지드 외트! 너죤 욜 네즈 키. 😍",
+   "ko": "저거 무시해! 정말 맛있어 보여. 😍",
    "note": "jól néz ki = 좋아 보인다",
    "tags": [],
    "at": "19:35",
@@ -142,9 +172,9 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "hallgass",
-     "hallgass",
-     "헐그어시"
+     "Hagyd",
+     "hagy",
+     "허지"
     ],
     [
      "jól",
@@ -166,9 +196,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Köszi, Anna! Legközelebb meghívlak.",
-   "rd": "쾨씨, 언너! 렉쾨젤레브 멕히블럭.",
-   "ko": "고마워, 안나! 다음엔 초대할게.",
+   "hu": "Köszi, Anna! Majd meghívlak.",
+   "rd": "쾨씨, 언너! 머이드 멕히블럭.",
+   "ko": "고마워, 안나! 나중에 초대할게.",
    "note": "meghívlak = 너를 초대한다",
    "tags": [],
    "at": "19:36",
@@ -190,8 +220,8 @@
   {
    "num": 7,
    "speaker": "D",
-   "hu": "NAGYON SZÉP LECSÓ, KEDVESEM!!!",
-   "rd": "너죤 쎄프 레초, 케드베셈!!!",
+   "hu": "NAGYON SZÉP EZ A LECSÓ, KEDVESEM!!!",
+   "rd": "너죤 쎄프 에즈 어 레초, 케드베셈!!!",
    "ko": "아주 멋진 레초구나, 얘야!!!",
    "note": "kedvesem = 얘야(다정하게)",
    "tags": [],
@@ -209,9 +239,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Köszönöm szépen! 😊",
-   "rd": "쾨쐬뇜 쎄펜! 😊",
-   "ko": "정말 감사합니다! 😊",
+   "hu": "Köszönöm szépen, Margit néni! 😊",
+   "rd": "쾨쐬뇜 쎄펜, 머르기트 네니! 😊",
+   "ko": "정말 감사합니다, 머르기트 할머니! 😊",
    "note": "köszönöm szépen = 정말 감사합니다",
    "tags": [],
    "at": "19:51",
@@ -227,15 +257,20 @@
      "szépen",
      "szép",
      "쎕"
+    ],
+    [
+     "néni",
+     "néni",
+     ""
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Miért kiabálsz? 😂",
-   "rd": "미에르트 키어발쓰? 😂",
-   "ko": "왜 소리 질러? 😂",
+   "hu": "Miért kiabálsz így? 😂",
+   "rd": "미에르트 키어발쓰 이지? 😂",
+   "ko": "왜 이렇게 소리 질러? 😂",
    "note": "kiabál = 소리 지르다",
    "tags": [],
    "at": "19:51",
@@ -251,15 +286,20 @@
      "kiabálsz",
      "kiabál",
      ""
+    ],
+    [
+     "így",
+     "így",
+     "이지"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "D",
-   "hu": "Nem kiabálok. A telefon csinálja.",
-   "rd": "넴 키어발록. 어 텔레폰 치날여.",
-   "ko": "소리 안 질러. 폰이 그러는 거야.",
+   "hu": "Nem én kiabálok. A telefon az.",
+   "rd": "넴 엔 키어발록. 어 텔레폰 어즈.",
+   "ko": "내가 소리 지르는 거 아냐. 폰이야.",
    "note": "csinálja = (그것을) 한다",
    "tags": [],
    "at": "19:55",
@@ -275,19 +315,14 @@
      "telefon",
      "telefon",
      "텔레폰"
-    ],
-    [
-     "csinálja",
-     "csinál",
-     "치날"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Réka, te ismered Margit nénit?",
-   "rd": "레커, 테 이슈메레드 머르기트 네니트?",
+   "hu": "Réka, ismered te Margit nénit?",
+   "rd": "레커, 이슈메레드 테 머르기트 네니트?",
    "ko": "레카, 너 머르기트 할머니 알아?",
    "note": "ismered = (그 사람을) 아니",
    "tags": [],
@@ -360,9 +395,9 @@
   {
    "num": 14,
    "speaker": "D",
-   "hu": "Tudom, kedvesem. Holnap átviszek egy kis kolbászt.",
-   "rd": "투돔, 케드베셈. 홀너프 아트비쎅 에지 키시 콜바쓰트.",
-   "ko": "알지, 얘야. 내일 소시지 좀 갖다줄게.",
+   "hu": "Tudom, kedvesem. Holnap viszek kolbászt.",
+   "rd": "투돔, 케드베셈. 홀너프 비쎅 콜바쓰트.",
+   "ko": "알지, 얘야. 내일 소시지 가져갈게.",
    "note": "átvisz = 건너가 갖다주다",
    "tags": [],
    "at": "20:01",
@@ -380,14 +415,9 @@
      ""
     ],
     [
-     "átviszek",
-     "átviszek",
-     ""
-    ],
-    [
-     "kis",
-     "kis",
-     "키시"
+     "viszek",
+     "visz",
+     "비스"
     ],
     [
      "kolbászt",
@@ -399,9 +429,9 @@
   {
    "num": 15,
    "speaker": "C",
-   "hu": "Akkor holnap igazi lecsó lesz? Megyek! 🙋",
-   "rd": "어꼬르 홀너프 이거지 레초 레쓰? 메젝! 🙋",
-   "ko": "그럼 내일 진짜 레초야? 나 갈래! 🙋",
+   "hu": "Akkor holnap igazi lecsó? Megyek! 🙋",
+   "rd": "어꼬르 홀너프 이거지 레초? 메젝! 🙋",
+   "ko": "그럼 내일 진짜 레초야? 나 갈게! 🙋",
    "note": "igazi = 진짜",
    "tags": [],
    "at": "20:02",
@@ -427,20 +457,15 @@
      "lecsó",
      "lecsó",
      ""
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
     ]
    ]
   },
   {
    "num": 16,
    "speaker": "B",
-   "hu": "Ne már! Akkor én is megyek, meg Bence is. 😂",
-   "rd": "네 마르! 어꼬르 엔 이시 메젝, 멕 벤체 이시. 😂",
-   "ko": "아 좀! 그럼 나도 가. 벤체도. 😂",
+   "hu": "Ne már! Akkor én is megyek, Bence is jön. 😂",
+   "rd": "네 마르! 어꼬르 엔 이시 메젝, 벤체 이시 욘. 😂",
+   "ko": "아 좀! 그럼 나도 가. 벤체도 온대. 😂",
    "note": "meg … is = ~도 또",
    "tags": [
     "expr:Ne már"
@@ -458,6 +483,11 @@
      "megyek",
      "megye",
      "메예"
+    ],
+    [
+     "jön",
+     "jön",
+     "왼"
     ]
    ]
   }

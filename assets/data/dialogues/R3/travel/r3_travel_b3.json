@@ -11,9 +11,9 @@
  "domain": [
   "travel"
  ],
- "title": "봉사료 포함",
+ "title": "봉사료 이미 포함",
  "emoji": "🧾",
- "scene": "세게드 식당에서 Réka 와 할라슬레를 먹고 계산한다",
+ "scene": "세게드 식당에서 Réka와 할라슬레 먹고 계산하기",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
@@ -33,22 +33,32 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ez a halászlé isteni volt. Kérjük a számlát?",
-   "rd": "에즈 어 헐라쓸레 이슈테니 볼트. 케르윅 어 쌈라트?",
-   "ko": "이 할라슬레 끝내줬다. 계산서 달라고 할까?",
-   "note": "számla = 계산서",
+   "hu": "Na, ez a halászlé durva jó volt. Kérjük a számlát?",
+   "rd": "너, 에즈 어 헐라쓸레 두르버 요 볼트. 케르윅 어 쌈라트?",
+   "ko": "나, 이 할라슬레 진짜 끝내줬다. 계산서 달라고 할까?",
+   "note": "durva = 진짜",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
     [
      "halászlé",
      "halászlé",
      ""
     ],
     [
-     "isteni",
-     "isteni",
-     ""
+     "durva",
+     "durva",
+     "두르버"
+    ],
+    [
+     "jó",
+     "jó",
+     "요"
     ],
     [
      "volt",
@@ -65,16 +75,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen, én hívom. Elnézést!",
-   "rd": "이겐, 엔 히봄. 엘네제슈트!",
+   "hu": "Jó, én szólok. Elnézést!",
+   "rd": "요, 엔 쏠록. 엘네제슈트!",
    "ko": "응, 내가 부를게. 저기요!",
-   "note": "elnézést = 실례합니다(부를 때)",
+   "note": "elnézést = 실례합니다",
    "tags": [],
    "emotion": "cheerful",
    "segs": [
     [
      "cheerful",
-     "Igen, én hívom."
+     "Jó, én szólok."
     ],
     [
      "polite",
@@ -83,14 +93,14 @@
    ],
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Jó",
+     "jó",
+     "요"
     ],
     [
-     "hívom",
-     "hív",
-     "히브"
+     "szólok",
+     "szól",
+     "쏠"
     ]
    ]
   },
@@ -119,31 +129,36 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Fizetni szeretnénk.",
-   "rd": "피제트니 쎄레트넨크.",
-   "ko": "계산할게요.",
+   "hu": "Szeretnénk fizetni, kérem.",
+   "rd": "쎄레트넨크 피제트니, 케렘.",
+   "ko": "계산하고 싶어요.",
    "note": "szeretnénk = 우리는 ~하고 싶다",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Fizetni",
+     "Szeretnénk",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "fizetni",
      "fizet",
      "피제트"
     ],
     [
-     "szeretnénk",
-     "szeret",
-     "쎄레트"
+     "kérem",
+     "kér",
+     "께르"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Együtt vagy külön?",
-   "rd": "에쥐트 버지 퀼뢴?",
-   "ko": "같이요, 따로요?",
+   "hu": "Együtt fizetnek, vagy külön?",
+   "rd": "에쥐트 피제트넥, 버지 퀼뢴?",
+   "ko": "같이 내시나요, 따로요?",
    "note": "külön = 따로",
    "tags": [],
    "emotion": "polite",
@@ -152,6 +167,11 @@
      "Együtt",
      "együtt",
      "에듀트"
+    ],
+    [
+     "fizetnek",
+     "fizet",
+     "피제트"
     ],
     [
      "külön",
@@ -163,22 +183,12 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Együtt. Ma én fizetek!",
-   "rd": "에쥐트. 머 엔 피제텍!",
+   "hu": "Együtt. Ma én állom!",
+   "rd": "에쥐트. 머 엔 알롬!",
    "ko": "같이요. 오늘은 내가 낼게!",
-   "note": "együtt = 함께",
+   "note": "állom = 내가 내다",
    "tags": [],
-   "emotion": "polite",
-   "segs": [
-    [
-     "polite",
-     "Együtt."
-    ],
-    [
-     "cheerful",
-     "Ma én fizetek!"
-    ]
-   ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Együtt",
@@ -186,9 +196,9 @@
      "에듀트"
     ],
     [
-     "fizetek",
-     "fizet",
-     "피제트"
+     "állom",
+     "áll",
+     "알"
     ]
    ]
   },
@@ -198,7 +208,7 @@
    "hu": "Ne már, tegnap is te fizettél!",
    "rd": "네 마르, 텍너프 이시 테 피제뗄!",
    "ko": "아이 참, 어제도 네가 냈잖아!",
-   "note": "tegnap is = 어제도",
+   "note": "Ne már = 아이 참",
    "tags": [
     "expr:Ne már"
    ],
@@ -224,8 +234,8 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Akkor holnap te. Kártyával lehet?",
-   "rd": "어꼬르 홀너프 테. 카르탸벌 레헤트?",
+   "hu": "Hát akkor holnap te. Kártyával lehet?",
+   "rd": "하트 어꼬르 홀너프 테. 카르탸벌 레헤트?",
    "ko": "그럼 내일은 네가. 카드 되죠?",
    "note": "holnap = 내일",
    "tags": [],
@@ -233,7 +243,7 @@
    "segs": [
     [
      "teasing",
-     "Akkor holnap te."
+     "Hát akkor holnap te."
     ],
     [
      "polite",
@@ -242,7 +252,12 @@
    ],
    "lemmas": [
     [
-     "Akkor",
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "akkor",
      "akkor",
      "어꼬르"
     ],
@@ -293,8 +308,8 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Réka, mennyi borravalót szoktak adni?",
-   "rd": "레커, 메니 보러벌로트 쏙턱 어드니?",
+   "hu": "Réka, mennyi borravalót szokás adni?",
+   "rd": "레커, 메니 보러벌로트 쏘카시 어드니?",
    "ko": "레카, 팁은 보통 얼마나 줘?",
    "note": "borravaló = 팁",
    "tags": [],
@@ -311,9 +326,9 @@
      ""
     ],
     [
-     "szoktak",
-     "szokik",
-     "서키크"
+     "szokás",
+     "szokás",
+     ""
     ],
     [
      "adni",
@@ -327,8 +342,8 @@
    "speaker": "B",
    "hu": "Általában tíz százalékot. Szóval kerekítsünk húszezerre!",
    "rd": "알털라번 티즈 싸절레코트. 쏘벌 케레키트쉰크 후쎄제레!",
-   "ko": "보통 10퍼센트. 그러니까 2만으로 맞춰 내자!",
-   "note": "kerekít = 어림수로 맞추다",
+   "ko": "보통 10퍼센트. 그러니까 2만으로 맞추자!",
+   "note": "Szóval = 그러니까",
    "tags": [
     "expr:Szóval"
    ],
@@ -396,10 +411,10 @@
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Tényleg? Hol?",
-   "rd": "테닐렉? 홀?",
+   "hu": "Tényleg? Hol van?",
+   "rd": "테닐렉? 홀 번?",
    "ko": "정말요? 어디요?",
-   "note": "hol = 어디에",
+   "note": "Tényleg = 정말",
    "tags": [
     "expr:Tényleg"
    ],
@@ -409,6 +424,11 @@
      "Tényleg",
      "tényleg",
      "테니렉"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
@@ -452,27 +472,27 @@
   {
    "num": 15,
    "speaker": "B",
-   "hu": "Nahát, észre sem vettem! Akkor maradt egy fagyira.",
-   "rd": "너하트, 에쓰레 셈 베뗌! 어꼬르 머러드트 에지 퍼지러.",
-   "ko": "어머, 못 봤네! 그럼 아이스크림 값 남았다.",
+   "hu": "Jaj, észre se vettem! Akkor marad egy fagyira.",
+   "rd": "여이, 에쓰레 세 베뗌! 어꼬르 머러드 에지 퍼지러.",
+   "ko": "어머, 못 봤네! 그럼 아이스크림 값 남았네.",
    "note": "fagyi = 아이스크림",
    "tags": [],
    "emotion": "surprised",
    "segs": [
     [
      "surprised",
-     "Nahát, észre sem vettem!"
+     "Jaj, észre se vettem!"
     ],
     [
      "cheerful",
-     "Akkor maradt egy fagyira."
+     "Akkor marad egy fagyira."
     ]
    ],
    "lemmas": [
     [
-     "Nahát",
-     "nahát",
-     ""
+     "Jaj",
+     "jaj",
+     "야이"
     ],
     [
      "észre",
@@ -485,9 +505,9 @@
      "벳트"
     ],
     [
-     "maradt",
      "marad",
-     "머러드"
+     "távol",
+     "타볼"
     ],
     [
      "fagyira",

@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Jó napot! Mit adhatok?",
-   "rd": "요 너포트! 미트 어드허톡?",
-   "ko": "안녕하세요! 뭘 드릴까요?",
+   "hu": "Szép napot! Mit adhatok Önnek?",
+   "rd": "쎄프 너포트! 미트 어드허톡 왼넥?",
+   "ko": "좋은 하루 되세요! 뭘 드릴까요?",
    "note": "Mit adhatok? = 뭘 드릴까요?",
    "tags": [
     "expr:Na"
@@ -42,9 +42,9 @@
    "emotion": "polite",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Szép",
+     "szép",
+     "쎕"
     ],
     [
      "napot",
@@ -61,8 +61,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó napot kívánok! Egy kiló almát kérek.",
-   "rd": "요 너포트 키바녹! 에지 킬로 얼마트 케렉.",
+   "hu": "Jó napot! Egy kiló almát szeretnék, kérem.",
+   "rd": "요 너포트! 에지 킬로 얼마트 쎄레트넥, 케렘.",
    "ko": "안녕하세요! 사과 1킬로 주세요.",
    "note": "egy kiló = 1킬로",
    "tags": [
@@ -81,11 +81,6 @@
      "넙"
     ],
     [
-     "kívánok",
-     "kíván",
-     "키반"
-    ],
-    [
      "kiló",
      "kiló",
      ""
@@ -96,7 +91,12 @@
      ""
     ],
     [
-     "kérek",
+     "szeretnék",
+     "szeret",
+     "쎄레트"
+    ],
+    [
+     "kérem",
      "kér",
      "께르"
     ]
@@ -105,10 +105,10 @@
   {
    "num": 3,
    "speaker": "C",
-   "hu": "Hű, milyen szépen beszél magyarul!",
-   "rd": "휘, 미옌 쎄펜 베쎌 머져룰!",
-   "ko": "어머, 헝가리어를 참 잘하시네!",
-   "note": "szépen = 예쁘게, 잘",
+   "hu": "Hű, de szépen beszél magyarul!",
+   "rd": "휘, 데 쎄펜 베쎌 머져룰!",
+   "ko": "와, 헝가리어를 참 잘하시네요!",
+   "note": "Hű = 와",
    "tags": [
     "expr:Hű"
    ],
@@ -139,9 +139,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Köszönöm, de még csak tanulok. Fél éve.",
-   "rd": "쾨쐬뇜, 데 멕 척 터눌록. 펠 에베.",
-   "ko": "감사해요, 근데 아직 배우는 중이에요. 반년 됐어요.",
+   "hu": "Köszönöm, de még csak tanulok. Fél éve kezdtem.",
+   "rd": "쾨쐬뇜, 데 멕 척 터눌록. 펠 에베 케즈드템.",
+   "ko": "감사해요, 근데 아직 배우는 중이에요. 반년 전에 시작했어요.",
    "note": "fél éve = 반년 전부터",
    "tags": [],
    "emotion": "shy",
@@ -170,16 +170,21 @@
      "éve",
      "év",
      "에브"
+    ],
+    [
+     "kezdtem",
+     "kezd",
+     "케즈드"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Szerintem nagyon jól megy neki. Én is segítek.",
-   "rd": "쎄린템 너죤 욜 메지 네키. 엔 이시 세기텍.",
-   "ko": "제가 보기엔 아주 잘해요. 저도 도와주고요.",
-   "note": "jól megy = 잘 되다",
+   "hu": "Szerintem nagyon jól megy neki. Én is segítek neki.",
+   "rd": "쎄린템 너죤 욜 메지 네키. 엔 이시 세기텍 네키.",
+   "ko": "제가 보기엔 아주 잘해요. 저도 도와줘요.",
+   "note": "Szerintem = 내가 보기에",
    "tags": [
     "expr:Szerintem",
     "expr:Na"
@@ -211,17 +216,24 @@
   {
    "num": 6,
    "speaker": "C",
-   "hu": "És mi a legnehezebb?",
-   "rd": "에시 미 어 렉네헤제브?",
+   "hu": "És mi a legnehezebb magának?",
+   "rd": "에시 미 어 렉네헤제브 머가넉?",
    "ko": "그럼 뭐가 제일 어려워요?",
    "note": "legnehezebb = 가장 어려운",
-   "tags": [],
+   "tags": [
+    "expr:Na"
+   ],
    "emotion": "gentle",
    "lemmas": [
     [
      "legnehezebb",
      "nehéz",
      "네헤즈"
+    ],
+    [
+     "magának",
+     "magán",
+     ""
     ]
    ]
   },
@@ -260,17 +272,17 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Az nem olyan nehéz. Mit lát most?",
-   "rd": "어즈 넴 오연 네헤즈. 미트 라트 모슈트?",
-   "ko": "그건 그렇게 어렵지 않아요. 지금 뭐가 보여요?",
+   "hu": "Az nem olyan vészes. Mit lát most?",
+   "rd": "어즈 넴 오연 베쎄시. 미트 라트 모슈트?",
+   "ko": "그건 그렇게 심각하지 않아요. 지금 뭐가 보여요?",
    "note": "Mit lát? = 뭐가 보이세요?",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "nehéz",
-     "nehéz",
-     "네헤즈"
+     "vészes",
+     "vészes",
+     ""
     ],
     [
      "lát",
@@ -287,9 +299,9 @@
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Látok egy almát.",
-   "rd": "라톡 에지 얼마트.",
-   "ko": "사과 하나가 보여요.",
+   "hu": "Látok egy szép almát.",
+   "rd": "라톡 에지 쎄프 얼마트.",
+   "ko": "예쁜 사과 하나가 보여요.",
    "note": "látok = (무언가) 보인다",
    "tags": [],
    "emotion": "neutral",
@@ -298,6 +310,11 @@
      "Látok",
      "lát",
      "라트"
+    ],
+    [
+     "szép",
+     "szép",
+     "쎕"
     ],
     [
      "almát",
@@ -309,8 +326,8 @@
   {
    "num": 10,
    "speaker": "C",
-   "hu": "Jó! És ezt az almát?",
-   "rd": "요! 에시 에즈트 어즈 얼마트?",
+   "hu": "Jó van! És ezt az almát?",
+   "rd": "요 번! 에시 에즈트 어즈 얼마트?",
    "ko": "좋아요! 그럼 이 사과는?",
    "note": "ezt az almát = 이 사과를",
    "tags": [],
@@ -320,6 +337,11 @@
      "Jó",
      "jó",
      "요"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ],
     [
      "almát",
@@ -333,7 +355,7 @@
    "speaker": "A",
    "hu": "Ezt az almát... látom!",
    "rd": "에즈트 어즈 얼마트... 라톰!",
-   "ko": "이 사과를… 본다(látom)!",
+   "ko": "이 사과를… 봐요(látom)!",
    "note": "látom = (그것을) 본다",
    "tags": [],
    "emotion": "excited",
@@ -353,9 +375,9 @@
   {
    "num": 12,
    "speaker": "C",
-   "hu": "Tökéletes. Ötös!",
-   "rd": "퇴켈레테시. 외퇴시!",
-   "ko": "완벽해요. 5점!",
+   "hu": "Tökéletes! Ötös jár.",
+   "rd": "퇴켈레테시! 외퇴시 야르.",
+   "ko": "완벽해요! 5점이에요.",
    "note": "ötös = 5점(헝가리 학교 만점)",
    "tags": [],
    "emotion": "excited",
@@ -364,6 +386,11 @@
      "Tökéletes",
      "tökéletes",
      "퇴켈레시"
+    ],
+    [
+     "jár",
+     "jár",
+     "야르"
     ]
    ]
   },
@@ -402,10 +429,10 @@
   {
    "num": 14,
    "speaker": "C",
-   "hu": "Negyven évig tanítottam magyart. Na, a szép válaszért egy alma ajándék.",
-   "rd": "네지벤 에빅 터니토떰 머져르트. 너, 어 쎄프 발러쎄르트 에지 얼머 어얀덱.",
-   "ko": "40년 동안 국어를 가르쳤지. 자, 대답 잘했으니 사과 하나는 선물.",
-   "note": "ajándék = 선물",
+   "hu": "Negyven évig tanítottam a magyart. Na, a szép válaszért egy alma ajándék.",
+   "rd": "네지벤 에빅 터니토떰 어 머져르트. 너, 어 쎄프 발러쎄르트 에지 얼머 어얀덱.",
+   "ko": "40년 동안 국어를 가르쳤어. 자, 대답 잘했으니 사과 하나는 선물.",
+   "note": "Na = 자",
    "tags": [
     "expr:Na"
    ],
@@ -413,7 +440,7 @@
    "segs": [
     [
      "amused",
-     "Negyven évig tanítottam magyart."
+     "Negyven évig tanítottam a magyart."
     ],
     [
      "gentle",
@@ -466,9 +493,9 @@
   {
    "num": 15,
    "speaker": "A",
-   "hu": "Köszönöm! Holnap is jövök gyakorolni.",
-   "rd": "쾨쐬뇜! 홀너프 이시 요뵉 져코롤니.",
-   "ko": "감사합니다! 내일도 연습하러 올게요.",
+   "hu": "Köszönöm szépen! Holnap is jövök gyakorolni.",
+   "rd": "쾨쐬뇜 쎄펜! 홀너프 이시 요뵉 져코롤니.",
+   "ko": "정말 감사합니다! 내일도 연습하러 올게요.",
    "note": "gyakorolni = 연습하러",
    "tags": [
     "expr:Na"
@@ -479,6 +506,11 @@
      "Köszönöm",
      "köszön",
      "쾨쇠니"
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
     ],
     [
      "jövök",

@@ -33,10 +33,10 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Jó estét! A szokásosat kérem.",
-   "rd": "요 에슈테트! 어 쏘카쇼셔트 케렘.",
-   "ko": "안녕하세요! 늘 먹던 걸로 주세요.",
-   "note": "a szokásos = 늘 먹던 것",
+   "hu": "Jó estét! A szokásosat kérem, ha lehet.",
+   "rd": "요 에슈테트! 어 쏘카쇼셔트 케렘, 허 레헤트.",
+   "ko": "안녕하세요! 늘 먹던 걸로 주세요, 가능하면요.",
+   "note": "a szokásosat = 늘 먹던 것을",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -59,16 +59,21 @@
      "kérem",
      "kér",
      "께르"
+    ],
+    [
+     "lehet",
+     "lehet",
+     "레헤트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó estét! Elnézést, új vagyok. Mi a szokásos?",
-   "rd": "요 에슈테트! 엘네제슈트, 우이 버죡. 미 어 쏘카쇼시?",
-   "ko": "안녕하세요! 죄송해요, 제가 새로 와서요. 늘 드시는 게 뭔가요?",
-   "note": "új vagyok = 새로 왔다",
+   "hu": "Jó estét! Elnézést, új vagyok. Mi a szokásos Önnek?",
+   "rd": "요 에슈테트! 엘네제슈트, 우이 버죡. 미 어 쏘카쇼시 왼넥?",
+   "ko": "안녕하세요! 죄송해요, 저 새로 왔어요. 늘 드시는 게 뭐예요?",
+   "note": "új vagyok = 새로 왔어요",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -102,10 +107,10 @@
   {
    "num": 3,
    "speaker": "C",
-   "hu": "Bence tudja. Ő hol van?",
-   "rd": "벤체 투드여. 외 홀 번?",
-   "ko": "벤체가 알아요. 벤체는 어디 있어요?",
-   "note": "hol van? = 어디 있어요?",
+   "hu": "Bence tudja azt. Hol van most?",
+   "rd": "벤체 투드여 어즈트. 홀 번 모슈트?",
+   "ko": "벤체가 알아요. 지금 어디 있어요?",
+   "note": "hol van = 어디 있어요",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -120,22 +125,22 @@
      "투드"
     ],
     [
-     "hol",
-     "hol",
-     "홀"
-    ],
-    [
      "van",
      "van",
      "번"
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Hátul van, mindjárt jön. Addig segíthetek?",
-   "rd": "하툴 번, 민드야르트 욘. 어딕 세기트헤텍?",
+   "hu": "Hátul van, mindjárt jön. Segíthetek addig?",
+   "rd": "하툴 번, 민드야르트 욘. 세기트헤텍 어딕?",
    "ko": "뒤에 있어요, 금방 와요. 그동안 제가 도와드릴까요?",
    "note": "mindjárt = 금방",
    "tags": [
@@ -163,20 +168,15 @@
      "jön",
      "jön",
      "왼"
-    ],
-    [
-     "segíthetek",
-     "segít",
-     "셰기트"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Hát, próbáljuk meg. Kávé, de nem túl erős.",
-   "rd": "하트, 프로발육 멕. 카베, 데 넴 툴 에뢰시.",
-   "ko": "글쎄, 해 보죠. 커피인데 너무 진하지 않게.",
+   "hu": "Hát, próbáljuk meg. Egy kávét, de ne legyen erős.",
+   "rd": "하트, 프로발육 멕. 에지 카베트, 데 네 레젠 에뢰시.",
+   "ko": "글쎄요, 해 보죠. 커피 하나, 근데 진하지 않게.",
    "note": "próbáljuk meg = 해 보자",
    "tags": [
     "expr:Hát"
@@ -194,9 +194,14 @@
      "프로발"
     ],
     [
-     "túl",
-     "túl",
-     "툴"
+     "kávét",
+     "kávé",
+     "카베"
+    ],
+    [
+     "legyen",
+     "lesz",
+     "레쓰"
     ],
     [
      "erős",
@@ -208,20 +213,15 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Akkor egy hosszú kávé? Tejjel?",
-   "rd": "어꼬르 에지 호쑤 카베? 테옐?",
+   "hu": "Hosszú kávé akkor? Tejjel?",
+   "rd": "호쑤 카베 어꼬르? 테옐?",
    "ko": "그럼 롱 커피요? 우유 넣어서요?",
    "note": "tejjel = 우유를 넣어",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Akkor",
-     "akkor",
-     "어꼬르"
-    ],
-    [
-     "hosszú",
+     "Hosszú",
      "hosszú",
      "호쑤"
     ],
@@ -229,28 +229,33 @@
      "kávé",
      "kávé",
      "카베"
+    ],
+    [
+     "akkor",
+     "akkor",
+     "어꼬르"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "C",
-   "hu": "Tejjel, igen. De nem tehéntejjel.",
-   "rd": "테옐, 이겐. 데 넴 테헨테옐.",
-   "ko": "우유 넣어서요, 네. 근데 소젖 말고요.",
-   "note": "tehéntej = 소젖 우유",
+   "hu": "Igen, tejjel. De nem tehéntejjel.",
+   "rd": "이겐, 테옐. 데 넴 테헨테옐.",
+   "ko": "네, 우유요. 근데 소젖 말고요.",
+   "note": "tehéntejjel = 소젖으로",
    "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Tejjel",
-     "tej",
-     "테이"
-    ],
-    [
-     "igen",
+     "Igen",
      "igen",
      "이겐"
+    ],
+    [
+     "tejjel",
+     "tej",
+     "테이"
     ],
     [
      "tehéntejjel",
@@ -284,16 +289,16 @@
   {
    "num": 9,
    "speaker": "C",
-   "hu": "Zab, egy kanál mézzel. És egy kis fahéj a tetejére.",
-   "rd": "저브, 에지 커날 메젤. 에시 에지 키시 퍼헤이 어 테테예레.",
-   "ko": "귀리요, 꿀 한 스푼 넣어서. 위에 시나몬 조금이요.",
+   "hu": "Zabtej, egy kanál mézzel. Fahéj is a tetejére.",
+   "rd": "저브테이, 에지 커날 메젤. 퍼헤이 이시 어 테테예레.",
+   "ko": "귀리 우유요, 꿀 한 스푼. 시나몬도 위에 조금.",
    "note": "fahéj = 시나몬",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Zab",
-     "zab",
+     "Zabtej",
+     "zabtej",
      ""
     ],
     [
@@ -304,16 +309,6 @@
     [
      "mézzel",
      "méz",
-     ""
-    ],
-    [
-     "kis",
-     "kis",
-     "키시"
-    ],
-    [
-     "fahéj",
-     "fahéj",
      ""
     ],
     [
@@ -328,8 +323,8 @@
    "speaker": "A",
    "hu": "Rendben. Tessék, zabtejes hosszú kávé mézzel és fahéjjal.",
    "rd": "렌드벤. 테쎅, 저브테예시 호쑤 카베 메젤 에시 퍼헤열.",
-   "ko": "알겠습니다. 여기요, 꿀과 시나몬 올린 귀리 우유 롱 커피예요.",
-   "note": "fahéjjal = 시나몬과 함께",
+   "ko": "알겠습니다. 여기요, 꿀이랑 시나몬 올린 귀리 우유 롱 커피예요.",
+   "note": "Tessék = 여기요",
    "tags": [
     "expr:Tessék",
     "expr:Rendben"
@@ -371,10 +366,10 @@
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Jó estét, Erzsi néni! Jaj, mit iszik ma?",
-   "rd": "요 에슈테트, 에르지 네니! 여이, 미트 이씩 머?",
-   "ko": "안녕하세요, 에르지 아주머니! 어, 오늘은 뭘 드세요?",
-   "note": "mit iszik? = 뭘 드세요?(존댓말)",
+   "hu": "Jó estét, Erzsi néni! Mit iszik ma?",
+   "rd": "요 에슈테트, 에르지 네니! 미트 이씩 머?",
+   "ko": "안녕하세요, 에르지 아주머니! 오늘 뭘 드세요?",
+   "note": "mit iszik = 뭘 드세요",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -425,9 +420,9 @@
   {
    "num": 13,
    "speaker": "B",
-   "hu": "A szokásos egy kamillatea. Már tíz éve.",
-   "rd": "어 쏘카쇼시 에지 커밀러테어. 마르 티즈 에베.",
-   "ko": "늘 드시는 건 캐모마일 차야. 벌써 10년째.",
+   "hu": "A szokásos kamillatea. Már tíz éve iszik.",
+   "rd": "어 쏘카쇼시 커밀러테어. 마르 티즈 에베 이씩.",
+   "ko": "늘 드시는 건 캐모마일 차야. 벌써 10년째 드셔.",
    "note": "kamillatea = 캐모마일 차",
    "tags": [],
    "emotion": "amused",
@@ -446,14 +441,19 @@
      "éve",
      "év",
      "에브"
+    ],
+    [
+     "iszik",
+     "iszik",
+     "이식"
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "C",
-   "hu": "Tudom, kedvesem. Csak kíváncsi voltam az új kollégára.",
-   "rd": "투돔, 케드베셈. 척 키반치 볼텀 어즈 우이 콜레가러.",
+   "hu": "Tudom, kedvesem. Csak kíváncsi voltam az újra.",
+   "rd": "투돔, 케드베셈. 척 키반치 볼텀 어즈 우이러.",
    "ko": "알아요, 얘야. 새 직원이 궁금했을 뿐이에요.",
    "note": "kíváncsi = 궁금한",
    "tags": [],
@@ -480,24 +480,19 @@
      "볼트"
     ],
     [
-     "új",
-     "új",
-     "우이"
-    ],
-    [
-     "kollégára",
-     "kolléga",
-     ""
+     "újra",
+     "újra",
+     "우이러"
     ]
    ]
   },
   {
    "num": 15,
    "speaker": "C",
-   "hu": "Finom. Holnap is ezt kérem, ez az új szokásos.",
-   "rd": "피놈. 홀너프 이시 에즈트 케렘, 에즈 어즈 우이 쏘카쇼시.",
-   "ko": "맛있네요. 내일도 이걸로 줘요, 이게 새 「늘 먹던 거」예요.",
-   "note": "szokásos = 늘 먹는 것",
+   "hu": "Finom ez. Holnap is ezt kérem. Új szokásos.",
+   "rd": "피놈 에즈. 홀너프 이시 에즈트 케렘. 우이 쏘카쇼시.",
+   "ko": "이거 맛있네요. 내일도 이걸로 주세요. 이게 새 늘 먹던 거예요.",
+   "note": "új szokásos = 새 늘 먹는 것",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -510,11 +505,6 @@
      "kérem",
      "kér",
      "께르"
-    ],
-    [
-     "új",
-     "új",
-     "우이"
     ],
     [
      "szokásos",

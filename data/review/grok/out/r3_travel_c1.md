@@ -1,0 +1,28 @@
+=== r3_travel_c1
+kind: chat
+title: 파란 염소는 두 곳
+emoji: 🍽️
+scene: Dávid가 저녁 식당 예약했다. 셋이 단톡에서 각자 찾아가기로 한다
+b: Réka
+c: Dávid
+register: chat
+twist: 11 chaos
+purpose: travel making_friends
+goal: 채팅으로 만날 곳 확인하기(Hol ültök? · Nem látlak)
+expressions: ugye; Hogyhogy; Ne már
+C | Foglaltam asztalt hétre a Kék Kecskében. 🍽️ | 7시에 「파란 염소」에 테이블 예약했어. 🍽️ | asztalt foglal = 테이블을 예약하다 | emotion=cheerful at=17:30
+B | Szuper! Hol van pontosan? | 좋아! 정확히 어디야? | hol van? = 어디 있어? | emotion=excited at=17:31
+C | A Király utcában. Megtaláljátok, ugye? 😄 | 키라이 거리. 찾을 수 있지? 😄 | megtaláljátok = 너희가 찾는다 | emotion=teasing at=17:31
+A | Persze. Én a múzeumból megyek, villamossal. | 그럼. 나는 박물관에서 트램 타고 갈게. | villamossal = 트램으로 | emotion=cheerful at=17:40
+B | Én meg bringával. Ott találkozunk! | 나는 자전거로. 거기서 만나! | bringa = 자전거 | emotion=cheerful at=17:41
+A | Megérkeztem, szép hely! Hol ültök? | 도착, 예쁜 곳이다! 너희 어디 앉았어? | ültök = 너희가 앉아 있다 | emotion=excited at=18:58
+B | A terasz mellett. Te? | 테라스 옆. 너는? | mellett = ~ 옆에 | emotion=neutral at=18:59
+A | Én is a terasznál vagyok. Nem látlak. | 나도 테라스야. 너 안 보이는데. | látlak = 내가 너를 본다 | emotion=worried at=18:59
+C | Integetek! 👋 Piros pulcsi. | 손 흔들고 있어! 👋 빨간 스웨터. | integet = 손을 흔들다 | emotion=cheerful at=19:00
+A | Itt csak egy bácsi integet piros pulcsiban. 😅 | 여기 빨간 스웨터 입은 할아버지 한 분만 손 흔드시는데. 😅 | pulcsiban = 스웨터를 입고 | emotion=amused at=19:00
+B | Várj, te melyik Kék Kecskében vagy? | 잠깐, 너 어느 「파란 염소」에 있어? | melyik = 어느 | emotion=surprised at=19:01
+A | Hogyhogy melyik? Kettő van? | 어느 거라니? 두 군데야? | hogyhogy = 어째서 | emotion=surprised at=19:01
+C | Igen, a budai és a pesti. Mi Pesten vagyunk. | 응, 부다 쪽이랑 페스트 쪽. 우리는 페스트에 있어. | Pesten = 페스트에 | emotion=flustered at=19:02
+A | Én meg Budán. A bácsi viszont hív, hogy üljek le. 😂 | 나는 부다야. 근데 그 할아버지가 앉으라고 부르셔. 😂 | viszont = 그런데 | emotion=amused at=19:03
+B | Na, akkor jó étvágyat a bácsival! 😂 | 자, 그럼 할아버지랑 맛있게 먹어! 😂 | jó étvágyat = 맛있게 드세요 | emotion=teasing at=19:03
+C | Ne már! Várj, taxival tíz perc, és ott vagyunk. | 아이 참! 기다려, 택시로 10분이면 거기 가. | taxival = 택시로 | emotion=tsukkomi+gentle at=19:04

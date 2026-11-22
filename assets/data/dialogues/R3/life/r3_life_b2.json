@@ -12,7 +12,7 @@
  ],
  "title": "우체국 쪽지",
  "emoji": "✉️",
- "scene": "우편함에 부재중 배달 쪽지(értesítő)가 꽂혀 있다. 계단에서 Marika 아주머니에게 어떻게 하는지 묻는다",
+ "scene": "우편함에 부재중 쪽지(értesítő)가 꽂혀 있다. 계단에서 Marika 아주머니한테 어떻게 하는지 물어본다",
  "speakers": {
   "A": "{name}",
   "B": "Marika néni"
@@ -55,8 +55,8 @@
    "speaker": "B",
    "hu": "Persze, kedves. Mi a baj?",
    "rd": "페르쎄, 케드베시. 미 어 버이?",
-   "ko": "그럼요. 무슨 일이에요?",
-   "note": "mi a baj? = 무슨 일이에요?",
+   "ko": "그럼요, 얘야. 무슨 일이에요?",
+   "note": "mi a baj = 무슨 일이에요",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -158,8 +158,8 @@
    "speaker": "A",
    "hu": "És most mit csináljak?",
    "rd": "에시 모슈트 미트 치날역?",
-   "ko": "그럼 이제 어떻게 해요?",
-   "note": "csináljak = 내가 해야 할까(접속법)",
+   "ko": "그럼 이제 어떻게 해야 해요?",
+   "note": "csináljak = 내가 해야 할까",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
@@ -225,9 +225,9 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Mit vigyek még? Útlevelet?",
-   "rd": "미트 비젝 멕? 우틀레벨레트?",
-   "ko": "그 밖에 뭘 가져가요? 여권?",
+   "hu": "Mit vigyek még? Az útlevelet?",
+   "rd": "미트 비젝 멕? 어즈 우틀레벨레트?",
+   "ko": "그 밖에 뭘 가져가야 해요? 여권?",
    "note": "vigyek = 가져가야 할까",
    "tags": [],
    "emotion": "neutral",
@@ -241,6 +241,11 @@
      "még",
      "még",
      "메그"
+    ],
+    [
+     "útlevelet",
+     "útlevél",
+     ""
     ]
    ]
   },
@@ -333,7 +338,7 @@
    "hu": "Köszönöm szépen. Ugye a postán sokat kell várni?",
    "rd": "쾨쐬뇜 쎄펜. 우제 어 포슈탄 쇼커트 켈 바르니?",
    "ko": "정말 고맙습니다. 우체국은 오래 기다려야 하죠?",
-   "note": "ugye = ~죠?",
+   "note": "ugye = ~죠",
    "tags": [
     "expr:Ugye"
    ],

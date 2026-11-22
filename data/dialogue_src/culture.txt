@@ -448,21 +448,21 @@ twist: 13 reveal
 purpose: media
 goal: 시장에서 사기와 헝가리어 배우는 이야기(látok/látom)
 expressions: Hű; Szerintem; Na
-C | Jó napot! Mit adhatok? | 안녕하세요! 뭘 드릴까요? | Mit adhatok? = 뭘 드릴까요? | emotion=polite
-A | Jó napot kívánok! Egy kiló almát kérek. | 안녕하세요! 사과 1킬로 주세요. | egy kiló = 1킬로 | emotion=polite
-C | Hű, milyen szépen beszél magyarul! | 어머, 헝가리어를 참 잘하시네! | szépen = 예쁘게, 잘 | emotion=surprised
-A | Köszönöm, de még csak tanulok. Fél éve. | 감사해요, 근데 아직 배우는 중이에요. 반년 됐어요. | fél éve = 반년 전부터 | emotion=shy
-B | Szerintem nagyon jól megy neki. Én is segítek. | 제가 보기엔 아주 잘해요. 저도 도와주고요. | jól megy = 잘 되다 | emotion=cheerful
-C | És mi a legnehezebb? | 그럼 뭐가 제일 어려워요? | legnehezebb = 가장 어려운 | emotion=gentle
+C | Szép napot! Mit adhatok Önnek? | 좋은 하루 되세요! 뭘 드릴까요? | Mit adhatok? = 뭘 드릴까요? | emotion=polite
+A | Jó napot! Egy kiló almát szeretnék, kérem. | 안녕하세요! 사과 1킬로 주세요. | egy kiló = 1킬로 | emotion=polite
+C | Hű, de szépen beszél magyarul! | 와, 헝가리어를 참 잘하시네요! | Hű = 와 | emotion=surprised
+A | Köszönöm, de még csak tanulok. Fél éve kezdtem. | 감사해요, 근데 아직 배우는 중이에요. 반년 전에 시작했어요. | fél éve = 반년 전부터 | emotion=shy
+B | Szerintem nagyon jól megy neki. Én is segítek neki. | 제가 보기엔 아주 잘해요. 저도 도와줘요. | Szerintem = 내가 보기에 | emotion=cheerful
+C | És mi a legnehezebb magának? | 그럼 뭐가 제일 어려워요? | legnehezebb = 가장 어려운 | emotion=gentle
 A | A ragozás. Látok, látom... mindig keverem. | 활용이요. látok, látom… 맨날 헷갈려요. | ragozás = 동사 활용 | emotion=worried
-C | Az nem olyan nehéz. Mit lát most? | 그건 그렇게 어렵지 않아요. 지금 뭐가 보여요? | Mit lát? = 뭐가 보이세요? | emotion=gentle
-A | Látok egy almát. | 사과 하나가 보여요. | látok = (무언가) 보인다 | emotion=neutral+cheerful
-C | Jó! És ezt az almát? | 좋아요! 그럼 이 사과는? | ezt az almát = 이 사과를 | emotion=cheerful
-A | Ezt az almát... látom! | 이 사과를… 본다(látom)! | látom = (그것을) 본다 | emotion=excited
-C | Tökéletes. Ötös! | 완벽해요. 5점! | ötös = 5점(헝가리 학교 만점) | emotion=excited
+C | Az nem olyan vészes. Mit lát most? | 그건 그렇게 심각하지 않아요. 지금 뭐가 보여요? | Mit lát? = 뭐가 보이세요? | emotion=gentle
+A | Látok egy szép almát. | 예쁜 사과 하나가 보여요. | látok = (무언가) 보인다 | emotion=neutral+cheerful
+C | Jó van! És ezt az almát? | 좋아요! 그럼 이 사과는? | ezt az almát = 이 사과를 | emotion=cheerful
+A | Ezt az almát... látom! | 이 사과를… 봐요(látom)! | látom = (그것을) 본다 | emotion=excited
+C | Tökéletes! Ötös jár. | 완벽해요! 5점이에요. | ötös = 5점(헝가리 학교 만점) | emotion=excited
 B | Ötös? Néni, tanár tetszett lenni? | 5점이요? 할머니, 선생님이셨어요? | tetszett lenni = ~이셨어요(어른께) | emotion=surprised
-C | Negyven évig tanítottam magyart. Na, a szép válaszért egy alma ajándék. | 40년 동안 국어를 가르쳤지. 자, 대답 잘했으니 사과 하나는 선물. | ajándék = 선물 | emotion=amused+gentle
-A | Köszönöm! Holnap is jövök gyakorolni. | 감사합니다! 내일도 연습하러 올게요. | gyakorolni = 연습하러 | emotion=cheerful
+C | Negyven évig tanítottam a magyart. Na, a szép válaszért egy alma ajándék. | 40년 동안 국어를 가르쳤어. 자, 대답 잘했으니 사과 하나는 선물. | Na = 자 | emotion=amused+gentle
+A | Köszönöm szépen! Holnap is jövök gyakorolni. | 정말 감사합니다! 내일도 연습하러 올게요. | gyakorolni = 연습하러 | emotion=cheerful
 
 === r3_culture_b2
 kind: long
@@ -478,21 +478,21 @@ flags: romance
 purpose: media love
 goal: 공연장 입구에서 표 보여 주기와 곤란할 때 말(Egy pillanat · Sajnos)
 expressions: Semmi baj; Egy pillanat; Komolyan
-C | Na, mindenki itt van? Mindjárt kezdődik a koncert! | 자, 다 왔어? 곧 콘서트 시작해! | mindjárt = 곧 | emotion=excited
-B | Itt vagyok! Hoztam vizet és pokrócot. | 나 왔어! 물이랑 돗자리 가져왔어. | pokróc = 담요, 돗자리 | emotion=cheerful
-A | Bocsi a késésért. Lassú volt a villamos. | 늦어서 미안. 트램이 느렸어. | késés = 늦음 | emotion=flustered
-C | Semmi baj. A jegyek nálad vannak, ugye? | 괜찮아. 표는 너한테 있지, 그렇지? | nálad = 너한테 | emotion=gentle
-A | Persze, a telefonomon. Mindhárom. | 물론, 내 폰에. 세 장 다. | mindhárom = 셋 다 | emotion=cheerful
-D | Jó estét! A jegyeket kérem. | 안녕하세요! 표 보여 주세요. | a jegyeket kérem = 표 주세요 | emotion=polite
-A | Egy pillanat... Jaj, ne. Lemerült a telefonom. | 잠시만요… 아, 안 돼. 폰 배터리가 나갔어. | lemerült = 배터리가 다 됐다 | emotion=worried+flustered
-C | Komolyan? Pont most? | 진짜? 하필 지금? | pont most = 하필 지금 | emotion=annoyed
-B | Nyugi. Réka, van töltőd? | 진정해. 레카, 충전기 있어? | töltő = 충전기 | emotion=gentle
-C | Van, de konnektor nincs. Ez egy park. | 있어, 근데 콘센트가 없잖아. 여긴 공원이야. | konnektor = 콘센트 | emotion=tsukkomi
+C | Na, mindenki itt van már? Mindjárt kezdődik! | 자, 다 왔어? 곧 콘서트 시작해! | mindjárt = 곧 | emotion=excited
+B | Itt vagyok! Hoztam vizet meg egy pokrócot. | 나 왔어! 물이랑 돗자리 가져왔어. | pokróc = 담요, 돗자리 | emotion=cheerful
+A | Bocsi a késésért. A villamos nagyon lassú volt. | 늦어서 미안. 트램이 엄청 느렸어. | késés = 늦음 | emotion=flustered
+C | Semmi baj. A jegyek nálad vannak, ugye? | 괜찮아. 표는 너한테 있지, 맞지? | nálad = 너한테 | emotion=gentle
+A | Persze, a telefonomon. Mindhárom jegy. | 물론, 내 폰에. 세 장 다. | mindhárom = 셋 다 | emotion=cheerful
+D | Jó estét! Kérem a jegyeket. | 안녕하세요! 표를 보여 주세요. | a jegyeket kérem = 표 주세요 | emotion=polite
+A | Egy pillanat... Jaj, ne. A telefonom lemerült. | 잠시만요… 아, 안 돼. 폰 배터리가 나갔어. | lemerült = 배터리가 다 됐다 | emotion=worried+flustered
+C | Komolyan? Pont most? | 진짜? 하필 지금이야? | pont most = 하필 지금 | emotion=annoyed
+B | Nyugi. Réka, van nálad töltő? | 진정해. 레카, 충전기 있어? | töltő = 충전기 | emotion=gentle
+C | Van, de konnektor nincs itt. Ez egy park. | 있어, 근데 콘센트가 없잖아. 여긴 공원이야. | konnektor = 콘센트 | emotion=tsukkomi
 D | Sajnos jegy nélkül nem engedhetem be önöket. | 죄송하지만 표 없이는 들여보내 드릴 수 없습니다. | nélkül = ~없이 | emotion=stiff
 B | Várjon! Tegnap lefényképeztem a jegyeket. Itt vannak. | 잠깐만요! 어제 표를 찍어 뒀어요. 여기 있어요. | lefényképez = 사진 찍어 두다 | emotion=excited
 D | Rendben, mehetnek. Jó szórakozást! | 좋습니다, 들어가세요. 즐거운 시간 되세요! | Jó szórakozást! = 즐거운 시간 되세요 | emotion=polite
-A | Anna, miért fényképezted le őket? | 안나, 왜 그걸 찍어 둔 거야? | miért = 왜 | emotion=surprised
-B | Mert ismerlek. A te telefonod mindig lemerül. 😊 | 너를 아니까. 네 폰은 늘 배터리가 나가잖아. 😊 | ismerlek = 너를 안다 | emotion=teasing+gentle
+A | Anna, miért fényképezted le a jegyeket? | 안나, 왜 그걸 찍어 둔 거야? | miért = 왜 | emotion=surprised
+B | Mert ismerlek. A telefonod mindig lemerül. 😊 | 너를 아니까. 네 폰은 늘 배터리가 나가잖아. 😊 | ismerlek = 너를 안다 | emotion=teasing+gentle
 
 === r3_culture_b3
 kind: long
@@ -507,14 +507,14 @@ flags: alcohol
 purpose: media making_friends
 goal: 이름의 날 축하(Isten éltesse!)와 존댓말·반말 실수 수습
 expressions: Jól van; Nyugodtan; Ugye; Jaj
-B | Ma van apukám névnapja. Este nálunk vacsorázunk. | 오늘 우리 아빠 이름의 날이야. 저녁에 우리 집에서 먹어. | nálunk = 우리 집에서 | emotion=cheerful
-A | Vigyek valamit? Virágot vagy bort? | 뭐 가져갈까? 꽃, 아니면 와인? | vigyek = 가져갈까 | emotion=gentle
-B | Egy üveg bor jó lesz. Apa a vöröset szereti. | 와인 한 병이면 돼. 아빠는 레드를 좋아해. | vörös = 레드 와인 | emotion=cheerful
-A | És mit kell mondani? Boldog névnapot? | 그리고 뭐라고 해야 해? 이름의 날 축하해요? | mit kell mondani? = 뭐라고 해야 해? | emotion=worried
+B | Ma van apu névnapja. Este nálunk vacsorázunk. | 오늘 아빠 이름의 날이야. 저녁에 우리 집에서 먹어. | nálunk = 우리 집에서 | emotion=cheerful
+A | Hozzak valamit? Virágot vagy bort? | 뭐 가져갈까? 꽃, 아니면 와인? | hoz zak = 가져갈까 | emotion=gentle
+B | Egy üveg bor elég lesz. Apa a vöröset szereti. | 와인 한 병이면 돼. 아빠는 레드를 좋아해. | vörös = 레드 와인 | emotion=cheerful
+A | És mit mondjak neki? Boldog névnapot? | 그리고 뭐라고 해야 해? 이름의 날 축하해요? | mit kell mondani? = 뭐라고 해야 해? | emotion=worried
 B | Az is jó, vagy „Isten éltesse”, magázva. | 그것도 좋고, 아니면 존댓말로 "Isten éltesse". | Isten éltesse = 만수무강하세요(존댓말) | emotion=gentle
 A | Isten éltesse. Oké, megjegyeztem. | Isten éltesse. 오케이, 외웠어. | megjegyez = 외워 두다 | emotion=cheerful
-C | Sziasztok, gyertek be! Hideg van kint. | 얘들아, 들어와라! 밖에 춥지. | gyertek be = 들어와 | emotion=cheerful
-C | Ó, vörösbor! Köszönöm, nagyon kedves. | 오, 레드 와인! 고맙구나, 정말 고마워. | kedves = 친절한 | emotion=gentle
+C | Sziasztok, gyertek be! Hideg van kint. | 얘들아, 들어와! 밖에 춥지. | gyertek be = 들어와 | emotion=cheerful
+C | Ó, vörösbor! Köszönöm, nagyon kedves tőled. | 오, 레드 와인! 고맙구나, 정말 고마워. | kedves = 친절한 | emotion=gentle
 A | Szívesen. És... Isten éltessen! | 천만에요. 그리고… Isten éltessen! | éltessen = 만수무강해(반말) | emotion=cheerful
 C | Hű, már tegeződünk? Jól van, László vagyok! 😄 | 오, 벌써 말 놓는 거야? 좋아, 나 라슬로다! 😄 | tegeződünk = 서로 반말한다 | emotion=amused
 A | Jaj, bocsánat! „Éltesse”, azt akartam mondani. | 아, 죄송해요! "éltesse" 라고 하려던 거예요. | akartam mondani = 말하려고 했다 | emotion=flustered
@@ -536,20 +536,20 @@ flags: romance
 purpose: media love
 goal: 드라마 보며 묻고 답하기(Mit mondott? · Túl gyorsan beszélt)
 expressions: Hű; Szerintem; Várj; Te jó ég
-B | Ma felirat nélkül nézzük a sorozatot? | 오늘은 자막 없이 드라마 볼까? | felirat = 자막 | emotion=cheerful
-A | Felirat nélkül? Hű, ez bátor ötlet. | 자막 없이? 와, 대담한 생각인데. | bátor = 용감한 | emotion=surprised
-B | Szerintem menni fog. Sokat fejlődtél. | 내 생각엔 될 거야. 많이 늘었잖아. | fejlődtél = 늘었다 | emotion=gentle
-A | Jó, de ha nem értek valamit, megállítjuk. | 좋아, 근데 내가 못 알아들으면 멈추는 거야. | megállít = 멈추다 | emotion=worried
-B | Rendben. Hozok teát és pogácsát. | 좋아. 차랑 포가차 가져올게. | pogácsa = 짭짤한 작은 빵 | emotion=cheerful
-A | Várj, ki ez a férfi? Az apja? | 잠깐, 이 남자 누구야? 아빠야? | ki ez? = 이 사람 누구야? | emotion=surprised
-B | Nem, a nagybátyja. És ő is hazudik. | 아니, 삼촌. 그리고 그 사람도 거짓말해. | hazudik = 거짓말하다 | emotion=amused
-A | Mit mondott most? Túl gyorsan beszélt. | 방금 뭐라고 했어? 너무 빨리 말했어. | túl gyorsan = 너무 빨리 | emotion=annoyed
-B | Azt mondta: „Holnap mindent elmondok.” | "내일 다 말할게"라고 했어. | elmondok = 말해 줄게 | emotion=gentle
-A | Aha! Szóval ő tudja, hol van a pénz. | 아하! 그러니까 그 사람이 돈이 어디 있는지 아는구나. | szóval = 그러니까 | emotion=excited
-B | Te jó ég, tényleg mindent értesz! | 세상에, 너 진짜 다 알아듣는구나! | te jó ég = 세상에 | emotion=surprised
-A | Nem mindent. Csak a fontos részeket. 😄 | 다는 아니고. 중요한 부분만. 😄 | fontos = 중요한 | emotion=amused
-B | Emlékszel? Egy éve még a „szia” is nehéz volt. | 기억나? 1년 전엔 "szia"도 어려웠잖아. | emlékszel? = 기억나? | emotion=teasing
-A | Emlékszem. Az első magyar szavam a te neved volt. | 기억나. 내 첫 헝가리어 단어가 네 이름이었어. | szavam = 내 단어 | emotion=shy
+B | Na, ma felirat nélkül nézzük a sorozatot? | 자, 오늘은 자막 없이 드라마 볼까? | felirat = 자막 | emotion=cheerful
+A | Felirat nélkül? Hű, te komolyan? | 자막 없이? 와, 진심이야? | komolyan = 진심 | emotion=surprised
+B | Szerintem simán megy. Sokat fejlődtél már. | 내 생각엔 쉽게 될 거야. 많이 늘었잖아. | fejlődtél = 늘었다 | emotion=gentle
+A | Jó, de ha elakadok, állítsuk meg. | 좋아, 근데 막히면 멈추자. | elakadok = 막히다 | emotion=worried
+B | Oké. Hoztam teát meg pogácsát. | 오케이. 차랑 포가차 가져왔어. | pogácsa = 짭짤한 작은 빵 | emotion=cheerful
+A | Várj, ki ez a csávó? Az apja? | 잠깐, 이 남자 누구야? 아빠야? | csávó = 남자 | emotion=surprised
+B | Nem, a nagybátyja. És ő is hazudik ám. | 아니, 삼촌. 그 사람도 거짓말하는 거야. | hazudik = 거짓말하다 | emotion=amused
+A | Mit mondott az előbb? Túl gyorsan hadart. | 방금 뭐라고 했어? 너무 빨리 말했어. | hadart = 빨리 말하다 | emotion=annoyed
+B | Azt, hogy holnap mindent elmond. | 내일 다 말한다고. | elmond = 말하다 | emotion=gentle
+A | Aha, szóval ő tudja, hol a pénz. | 아하, 그러니까 그 사람이 돈이 어디 있는지 아는 거네. | szóval = 그러니까 | emotion=excited
+B | Te jó ég, tényleg érted az egészet! | 세상에, 진짜 다 알아듣네! | te jó ég = 세상에 | emotion=surprised
+A | Nem az egészet. Csak a lényeget. 😄 | 다는 아니고. 핵심만. 😄 | lényeg = 핵심 | emotion=amused
+B | Emlékszel? Egy éve a „szia” is nehéz volt. | 기억나? 1년 전엔 "szia"도 어려웠잖아. | emlékszel = 기억나? | emotion=teasing
+A | Emlékszem. Az első magyar szavam a te neved volt. | 기억해. 내 첫 헝가리어가 네 이름이었지. | szavam = 내 단어 | emotion=shy
 
 === r3_culture_c1
 kind: chat
@@ -564,19 +564,19 @@ twist: 16 chaos
 purpose: media love
 goal: 음식 사진 댓글 주고받기(Jól néz ki · Kolbásszal vagy anélkül?)
 expressions: Hű; Hát; Ne már
-A | Az első lecsóm! 🍅🌶️ | 내 첫 레초! 🍅🌶️ | lecsó = 파프리카 토마토 스튜 | emotion=excited at=19:30
-B | Hű! Kolbásszal vagy anélkül? | 와! 소시지 넣었어, 안 넣었어? | anélkül = 그것 없이 | emotion=cheerful at=19:32
-A | Anélkül. Kolbász nem volt itthon. | 안 넣었어. 집에 소시지가 없었어. | itthon = 집에 | emotion=gentle at=19:33
-B | Akkor ez csak paprikás paradicsom. 😏 | 그럼 이건 그냥 파프리카 넣은 토마토네. 😏 | paradicsom = 토마토 | emotion=teasing at=19:33
-C | Ne hallgass rá! Nagyon jól néz ki. 😍 | 쟤 말 듣지 마! 정말 맛있어 보여. 😍 | jól néz ki = 좋아 보인다 | emotion=gentle at=19:35
-A | Köszi, Anna! Legközelebb meghívlak. | 고마워, 안나! 다음엔 초대할게. | meghívlak = 너를 초대한다 | emotion=shy at=19:36
-D | NAGYON SZÉP LECSÓ, KEDVESEM!!! | 아주 멋진 레초구나, 얘야!!! | kedvesem = 얘야(다정하게) | emotion=shout at=19:50
-A | Köszönöm szépen! 😊 | 정말 감사합니다! 😊 | köszönöm szépen = 정말 감사합니다 | emotion=polite at=19:51
-B | Miért kiabálsz? 😂 | 왜 소리 질러? 😂 | kiabál = 소리 지르다 | emotion=amused at=19:51
-D | Nem kiabálok. A telefon csinálja. | 소리 안 질러. 폰이 그러는 거야. | csinálja = (그것을) 한다 | emotion=annoyed at=19:55
-A | Réka, te ismered Margit nénit? | 레카, 너 머르기트 할머니 알아? | ismered = (그 사람을) 아니 | emotion=surprised at=19:56
+A | Na, megvan az első lecsóm! 🍅🌶️ | 자, 내 첫 레초 완성! 🍅🌶️ | lecsó = 파프리카 토마토 스튜 | emotion=excited at=19:30
+B | Hű! Kolbász benne van vagy nincs? | 와! 소시지 들어갔어, 안 들어갔어? | anélkül = 그것 없이 | emotion=cheerful at=19:32
+A | Nincs. Nem volt itthon kolbász. | 없어. 집에 소시지가 없었어. | itthon = 집에 | emotion=gentle at=19:33
+B | Akkor ez csak paprikás paradicsom. 😏 | 그럼 그냥 파프리카 토마토네. 😏 | paradicsom = 토마토 | emotion=teasing at=19:33
+C | Hagyd őt! Nagyon jól néz ki. 😍 | 저거 무시해! 정말 맛있어 보여. 😍 | jól néz ki = 좋아 보인다 | emotion=gentle at=19:35
+A | Köszi, Anna! Majd meghívlak. | 고마워, 안나! 나중에 초대할게. | meghívlak = 너를 초대한다 | emotion=shy at=19:36
+D | NAGYON SZÉP EZ A LECSÓ, KEDVESEM!!! | 아주 멋진 레초구나, 얘야!!! | kedvesem = 얘야(다정하게) | emotion=shout at=19:50
+A | Köszönöm szépen, Margit néni! 😊 | 정말 감사합니다, 머르기트 할머니! 😊 | köszönöm szépen = 정말 감사합니다 | emotion=polite at=19:51
+B | Miért kiabálsz így? 😂 | 왜 이렇게 소리 질러? 😂 | kiabál = 소리 지르다 | emotion=amused at=19:51
+D | Nem én kiabálok. A telefon az. | 내가 소리 지르는 거 아냐. 폰이야. | csinálja = (그것을) 한다 | emotion=annoyed at=19:55
+A | Réka, ismered te Margit nénit? | 레카, 너 머르기트 할머니 알아? | ismered = (그 사람을) 아니 | emotion=surprised at=19:56
 B | Hát... ő a nagymamám. 🙈 | 음… 우리 할머니야. 🙈 | nagymama = 할머니 | emotion=flustered at=19:57
 A | Mi?! Ő a szomszédom! | 뭐?! 우리 옆집 분인데! | szomszéd = 이웃 | emotion=surprised at=19:57
-D | Tudom, kedvesem. Holnap átviszek egy kis kolbászt. | 알지, 얘야. 내일 소시지 좀 갖다줄게. | átvisz = 건너가 갖다주다 | emotion=gentle at=20:01
-C | Akkor holnap igazi lecsó lesz? Megyek! 🙋 | 그럼 내일 진짜 레초야? 나 갈래! 🙋 | igazi = 진짜 | emotion=excited at=20:02
-B | Ne már! Akkor én is megyek, meg Bence is. 😂 | 아 좀! 그럼 나도 가. 벤체도. 😂 | meg … is = ~도 또 | emotion=tsukkomi at=20:03
+D | Tudom, kedvesem. Holnap viszek kolbászt. | 알지, 얘야. 내일 소시지 가져갈게. | átvisz = 건너가 갖다주다 | emotion=gentle at=20:01
+C | Akkor holnap igazi lecsó? Megyek! 🙋 | 그럼 내일 진짜 레초야? 나 갈게! 🙋 | igazi = 진짜 | emotion=excited at=20:02
+B | Ne már! Akkor én is megyek, Bence is jön. 😂 | 아 좀! 그럼 나도 가. 벤체도 온대. 😂 | meg … is = ~도 또 | emotion=tsukkomi at=20:03

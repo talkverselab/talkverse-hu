@@ -339,17 +339,17 @@ twist: 7 reveal
 purpose: travel
 goal: 숙소에서 묻기(Mikor van reggeli? · Mi a jelszó?)
 expressions: Semmi baj; Hogy kell írni; Na látja
-B | Jó napot! Ön {name}, ugye? | 안녕하세요! {name} 씨 맞죠? | ugye = 그렇죠? | emotion=cheerful
-A | Igen, jó napot! Bocsánat, késtem. | 네, 안녕하세요! 죄송해요, 늦었어요. | késtem = 내가 늦었다 | emotion=cheerful+shy
-B | Semmi baj. Itt a kulcsok: ez a kapué, ez a szobáé. | 괜찮아요. 열쇠 여기요: 이건 대문 거, 이건 방 거. | -é = ~의 것 | emotion=gentle
-A | Köszönöm. Mikor van reggeli? | 감사합니다. 아침은 언제예요? | reggeli = 아침 식사 | emotion=polite
-B | Nyolctól tízig, a teraszon. | 8시부터 10시까지, 테라스에서요. | -tól ... -ig = ~부터 ~까지 | emotion=polite
-A | És van wifi? Mi a jelszó? | 그리고 와이파이 있어요? 비밀번호가 뭐예요? | jelszó = 비밀번호 | emotion=polite
-B | Van. A jelszó: egészségedre. | 있어요. 비밀번호는 「에게세게드레」. | egészségedre = 건배(네 건강을 위해) | emotion=amused
-A | Egészsé... Hogy kell írni? | 에게세… 어떻게 써요? | írni = 쓰다 | emotion=flustered
-B | Lassan mondom: e-gész-sé-ged-re. Kis betűkkel. | 천천히 말할게요: 에-게스-세-게드-레. 소문자로요. | kis betű = 소문자 | emotion=gentle
-A | Megvan, működik! | 됐다, 연결됐어요! | működik = 작동하다 | emotion=excited
-B | Na látja! Ezt a szót Egerben sokat fogja hallani. | 거 봐요! 에게르에선 이 말 많이 듣게 될 거예요. | fogja hallani = 듣게 될 것이다 | emotion=teasing
+B | Jó napot! Ön {name}, igaz? | 안녕하세요! {name} 씨 맞으시죠? | igaz = 맞죠 | emotion=cheerful
+A | Igen, jó napot! Bocsánat, egy kicsit késtem. | 네, 안녕하세요! 죄송해요, 조금 늦었어요. | késtem = 늦었어요 | emotion=cheerful+shy
+B | Semmi baj. Itt vannak a kulcsok: ez a kapué, ez a szobáé. | 괜찮아요. 열쇠 여기 있어요: 이건 대문 거, 이건 방 거. | -é = ~의 것 | emotion=gentle
+A | Köszönöm szépen. Mikor van a reggeli? | 감사합니다. 아침 식사는 언제예요? | reggeli = 아침 식사 | emotion=polite
+B | Nyolctól tízig, kint a teraszon. | 8시부터 10시까지, 밖에 테라스에서요. | -tól ... -ig = ~부터 ~까지 | emotion=polite
+A | Van wifi? És mi a jelszó? | 와이파이 있어요? 비밀번호가 뭐예요? | jelszó = 비밀번호 | emotion=polite
+B | Van. A jelszó: egészségedre. | 있어요. 비밀번호는 「에게세게드레」예요. | egészségedre = 건배 | emotion=amused
+A | Egészsé... Hogy kell írni? | 에게세… 어떻게 써요? | Hogy kell írni = 어떻게 써요 | emotion=flustered
+B | Lassan: e-gész-sé-ged-re. Mind kisbetű. | 천천히요: 에-게스-세-게드-레. 전부 소문자. | kisbetű = 소문자 | emotion=gentle
+A | Megvan, már működik! | 됐어요, 이제 연결됐어요! | működik = 작동하다 | emotion=excited
+B | Na látja! Egerben ezt a szót sokat fogja hallani. | 거 봐요! 에게르에선 이 말 많이 듣게 될 거예요. | Na látja = 거 봐요 | emotion=teasing
 
 === r2_travel_b4
 kind: long
@@ -362,15 +362,15 @@ twist: 6 chaos
 purpose: travel making_friends
 goal: 좌석 확인하기(Ez az én helyem · Melyik kocsi?)
 expressions: Elnézést; azt hiszem; Szívesen
-B | Elnézést, azt hiszem, ez az én helyem. | 실례합니다, 여기 제 자리 같은데요. | azt hiszem = 제 생각엔 | emotion=polite
-A | Tényleg? Nekem is ez van a jegyemen. | 정말요? 제 표에도 이 자리예요. | jegyemen = 내 표 위에 | emotion=surprised
-B | Melyik kocsi? Én a hatosban vagyok. | 몇 호차요? 저는 6호차예요. | kocsi = 객차 | emotion=polite
-A | Várjon... Hatos kocsi, negyvenkettes hely. | 잠깐만요… 6호차, 42번 자리. | hely = 자리 | emotion=flustered
-B | Megnézhetem? Ez a jegy a debreceni vonatra szól. | 봐도 될까요? 이 표는 데브레첸행 기차 거예요. | szól = (표가) ~용이다 | emotion=surprised
-A | Mi? Ez nem Debrecenbe megy? | 네? 이거 데브레첸 안 가요? | Debrecenbe = 데브레첸으로 | emotion=flustered
-B | Nem, ez Szegedre megy. Az Ön vonata ott áll, a szomszéd vágányon. | 아니요, 이건 세게드행이에요. 손님 기차는 저기 옆 선로에 있어요. | szomszéd = 옆의 | emotion=polite
-A | Jaj! Mikor indul? | 아이고! 언제 출발해요? | indul = 출발하다 | emotion=flustered
-B | Két perc múlva. Segítek a bőrönddel! | 2분 뒤에요. 캐리어 들어 드릴게요! | bőrönd = 캐리어 | emotion=worried+gentle
+B | Elnézést, azt hiszem, ez a negyvenkettes az enyém. | 실례합니다, 제 생각엔 이 42번이 제 자리인데요. | enyém = 내 것 | emotion=polite
+A | Tényleg? Az én jegyemen is pont ez a szám van. | 정말요? 제 표에도 정확히 이 번호예요. | jegyemen = 내 표에 | emotion=surprised
+B | Melyik kocsi van rajta? Én a hatosban utazom. | 표에 몇 호차예요? 저는 6호차예요. | kocsi = 객차 | emotion=polite
+A | Várjon egy kicsit... Hatos kocsi, negyvenkettes hely. | 잠깐만 기다려 주세요... 6호차 42번 자리. | hely = 자리 | emotion=flustered
+B | Megnézhetem? Ez a jegy a debreceni vonatra szól. | 좀 봐도 될까요? 이 표는 데브레첸행 기차 거예요. | szól = ~용이다 | emotion=surprised
+A | Mi? Ez a vonat nem Debrecenbe megy? | 네? 이 기차 데브레첸으로 안 가요? | Debrecenbe = 데브레첸으로 | emotion=flustered+surprised
+B | Nem, Szegedre tart. Az Ön vonata a szomszéd vágányon áll. | 아니요, 세게드로 가요. 손님 기차는 옆 선로에 서 있어요. | szomszéd = 옆의 | emotion=polite
+A | Jaj! Mikor indul? | 아이고! 언제 출발해요? | indul = 출발하다 | emotion=flustered+worried
+B | Két perc múlva. Segítek a bőröndjével! | 2분 뒤예요. 캐리어 들어 드릴게요! | bőrönd = 캐리어 | emotion=worried+gentle
 A | Köszönöm! Ön nagyon kedves. | 감사합니다! 정말 친절하시네요. | kedves = 친절한 | emotion=cheerful
 B | Szívesen. Siessen, a kalauz már sípol! | 천만에요. 서두르세요, 차장이 벌써 호루라기 불어요! | kalauz = 차장 | emotion=gentle+shout
 
@@ -386,17 +386,17 @@ twist: 10 chaos
 purpose: travel making_friends
 goal: 채팅으로 약속 시간 정하기(negyed kilenc · Melyik napra?)
 expressions: Oké; ugye; Király
-B | Holnap Szentendre? Ki jön? ☀️ | 내일 센텐드레? 누구 와? ☀️ | Szentendre = 센텐드레(근교 도시) | emotion=excited at=20:01
-C | Én! Mikor indulunk? | 나! 언제 출발해? | indulunk = 우리가 출발한다 | emotion=cheerful at=20:02
-A | Kilenckor? A HÉV a Batthyány térről megy. | 9시? 헤브는 바차니 광장에서 가. | HÉV = 교외 전철 | emotion=cheerful at=20:03
-B | Oké, találkozunk ott negyed kilenckor. | 오케이, 거기서 8시 15분에 만나. | negyed kilenc = 8시 15분 | emotion=cheerful at=20:04
-C | Negyed kilenc? Az nyolc óra tizenöt, ugye? | 너지 킬렌츠? 8시 15분 맞지? | negyed = 4분의 1 | emotion=worried at=20:04
-B | Igen, Dávid. 😅 | 응, 다비드. 😅 | igen = 응 | emotion=amused at=20:05
-A | A jegyeket én veszem meg az appban. | 표는 내가 앱에서 살게. | megveszem = 내가 그것을 산다 | emotion=cheerful at=20:10
-A | Kész! Három napijegy. 🎫 | 끝! 일일권 세 장. 🎫 | napijegy = 일일권 | emotion=excited at=20:18
-C | Király! Melyik napra? | 끝내준다! 어느 날짜로? | melyik napra = 어느 날로 | emotion=cheerful at=20:19
-A | Ma... Jaj, mára vettem! | 오늘… 아이고, 오늘 날짜로 샀다! | mára = 오늘로 | emotion=flustered at=20:21
-B | Hát, akkor menjünk most! 😂 | 그럼 지금 가자! 😂 | menjünk = 가자 | emotion=teasing at=20:21
+B | Na, holnap Szentendrére? Ki jön? ☀️ | 내일 센텐드레 갈래? 누구 와? ☀️ | Szentendre = 센텐드레 | emotion=excited at=20:01
+C | Én is! Mikor megyünk? | 나도! 언제 가? | megyünk = 우리가 간다 | emotion=cheerful at=20:02
+A | Kilenckor? HÉV Batthyány térről indul. | 9시? 헤브는 바차니 광장에서 출발해. | HÉV = 교외 전철 | emotion=cheerful at=20:03
+B | Oké, akkor negyed kilenckor a téren. | 오케이, 그럼 8시 15분에 광장에서. | negyed kilenc = 8시 15분 | emotion=cheerful at=20:04
+C | Negyed kilenc? Az 8:15, ugye? | 너지 킬렌츠? 8시 15분 맞지? | ugye = 맞지 | emotion=worried at=20:04
+B | Igen, pontosan. 😅 | 응, 정확해. 😅 | igen = 응 | emotion=amused at=20:05
+A | Én veszem a jegyeket az appban. | 표는 내가 앱에서 살게. | veszem = 내가 산다 | emotion=cheerful at=20:10
+A | Kész! Három napijegy megvan. 🎫 | 끝! 일일권 세 장 샀어. 🎫 | napijegy = 일일권 | emotion=excited at=20:18
+C | Király! Melyik napra? | 대박! 어느 날짜로? | Király = 최고 | emotion=cheerful at=20:19
+A | Ma... Jaj, mára! | 오늘… 아이고, 오늘 날짜로! | mára = 오늘로 | emotion=flustered at=20:21
+B | Hát, akkor most megyünk! 😂 | 그럼 지금 가자! 😂 | megyünk = 가자 | emotion=teasing at=20:21
 
 === r2_travel_c2
 kind: chat
@@ -410,17 +410,17 @@ flags: romance
 purpose: travel love
 goal: 공항에서 시내 가는 법 묻기(Hol veszek jegyet? · kijárat)
 expressions: Ne siess; Nem baj; Hát
-B | Leszállt a géped? ✈️ | 비행기 내렸어? ✈️ | leszáll = 착륙하다 | emotion=cheerful at=14:05
-A | Igen! Most várom a bőröndöt. | 응! 지금 캐리어 기다려. | várom = 내가 그것을 기다린다 | emotion=cheerful at=14:07
-B | A városba a 100E busszal gyere, az a leggyorsabb. | 시내는 100E 버스로 와, 그게 제일 빨라. | leggyorsabb = 가장 빠른 | emotion=gentle at=14:08
-A | Hol veszek rá jegyet? | 그 표는 어디서 사? | rá = 그것용으로 | emotion=neutral at=14:08
-B | Az automatánál, a megállóban. Kártyával is lehet. | 정류장 자동판매기에서. 카드도 돼. | automata = 자동판매기 | emotion=gentle at=14:09
-A | Megvan a bőrönd! Hol a kijárat? 😅 | 캐리어 찾았다! 출구가 어디야? 😅 | kijárat = 출구 | emotion=excited+flustered at=14:20
-B | Egyenesen, aztán jobbra. Ne siess. | 쭉 가서 오른쪽. 서두르지 마. | ne siess = 서두르지 마 | emotion=gentle at=14:21
-A | Miért? Lekésem a buszt! | 왜? 버스 놓친다고! | lekés = 놓치다 | emotion=worried at=14:21
-B | Nem baj. Nézz balra. 🌷 | 괜찮아. 왼쪽 봐. 🌷 | nézz = 봐 | emotion=shy at=14:22
-A | Zsófi?! Te kijöttél értem? | 소피?! 나 데리러 나온 거야? | értem = 나 때문에(데리러) | emotion=surprised+shy at=14:22
-B | Hát... véletlenül erre jártam. 😊 | 음… 우연히 이 근처를 지나가던 길이야. 😊 | véletlenül = 우연히 | emotion=shy at=14:23
+B | Na, leszállt már a géped? ✈️ | 비행기 이미 내렸어? ✈️ | leszállt = 착륙했다 | emotion=cheerful at=14:05
+A | Igen! Most a bőröndömre várok. | 응! 지금 캐리어 기다리고 있어. | várok = 기다린다 | emotion=cheerful at=14:07
+B | 100E busszal a legjobb a városba. | 시내는 100E 버스가 제일 좋아. | legjobb = 가장 좋은 | emotion=gentle at=14:08
+A | Hol veszek jegyet rá? | 그거 표는 어디서 사? | rá = 그것용 | emotion=neutral at=14:08
+B | Megállóban automata van. Kártya is megy. | 정류장에 자동판매기 있어. 카드도 돼. | automata = 자동판매기 | emotion=gentle at=14:09
+A | Megvan a bőrönd! Merre a kijárat? 😅 | 캐리어 찾았어! 출구 어디야? 😅 | kijárat = 출구 | emotion=excited+flustered at=14:20
+B | Egyenesen menj, aztán jobbra. Ne siess. | 쭉 가다가 오른쪽. 서두르지 마. | Ne siess = 서두르지 마 | emotion=gentle at=14:21
+A | Miért? Lekésem a buszt! | 왜? 버스 놓친다고! | lekésem = 놓칠 거야 | emotion=worried at=14:21
+B | Nem baj. Nézz balra. 🌷 | 괜찮아. 왼쪽 봐. 🌷 | Nem baj = 괜찮아 | emotion=shy at=14:22
+A | Zsófi?! Te jöttél értem? | 소피?! 나 데리러 온 거야? | értem = 나 때문에 | emotion=surprised+shy at=14:22
+B | Hát... véletlenül erre jártam. 😊 | 음… 우연히 이 근처 지나던 길이야. 😊 | Hát = 음 | emotion=shy at=14:23
 
 === r3_travel_b1
 kind: long
@@ -462,28 +462,28 @@ twist: 12 reveal
 purpose: travel
 goal: 길 안내 따라 말하기(-ig, jobbra, balra)와 시간표 묻기
 expressions: Elnézést; Várjon csak; Ugye
-A | Elnézést, meg tudná mondani, hol van a buszmegálló? | 실례합니다, 버스 정류장이 어디인지 알려 주시겠어요? | meg tudná mondani = 말씀해 주실 수 있을까요 | emotion=polite
-B | Melyik busz kell, kedvesem? | 어떤 버스 타요, 얘야? | kedvesem = 얘야(다정한 호칭) | emotion=gentle
-A | A visegrádi. Fél ötkor indul, ha jól tudom. | 비셰그라드 가는 거요. 제가 알기론 4시 반에 출발해요. | fél öt = 4시 반 | emotion=polite
-B | Fél ötkor? Akkor siessen, most négy húsz van! | 4시 반? 그럼 서둘러요, 지금 4시 20분이에요! | siessen = 서두르세요 | emotion=worried
-A | Messze van? | 멀어요? | messze = 멀리 | emotion=worried
-B | Nem. Menjen le a templomig, ott jobbra. | 아니요. 교회까지 내려가서 거기서 오른쪽. | -ig = ~까지 | emotion=gentle
-A | A templomig, aztán jobbra. És utána? | 교회까지, 그다음 오른쪽. 그다음엔요? | utána = 그 후에 | emotion=neutral
-B | Utána a cukrászdánál balra. A megálló a pékség előtt van. | 그다음 제과점에서 왼쪽. 정류장은 빵집 앞이에요. | cukrászda = 제과점 | emotion=gentle
+A | Elnézést, a visegrádi buszmegálló merre van? | 실례합니다, 비셰그라드 버스 정류장이 어느 쪽이에요? | Elnézést = 실례합니다 | emotion=polite
+B | Melyik járatra szállna, kedvesem? | 어떤 버스 타시려고요, 얘야? | kedvesem = 얘야 | emotion=gentle
+A | A visegrádit. Fél ötkor indul, igaz? | 비셰그라드 가는 거요. 4시 반에 출발하죠? | fél öt = 4시 반 | emotion=polite
+B | Fél öt? Akkor siessen, már négy húsz! | 4시 반? 그럼 서둘러요, 벌써 4시 20분이에요! | siessen = 서두르세요 | emotion=worried
+A | Messze van innen? | 여기서 멀어요? | messze = 멀리 | emotion=worried
+B | Nem. Menjen le a templomig, aztán jobbra. | 아니요. 교회까지 내려가서 오른쪽. | -ig = ~까지 | emotion=gentle
+A | Templomig, jobbra. És utána? | 교회까지, 오른쪽. 그다음엔요? | utána = 그 후에 | emotion=neutral
+B | A cukrászdánál balra. A megálló a pékség előtt van. | 제과점에서 왼쪽. 정류장은 빵집 앞이에요. | cukrászda = 제과점 | emotion=gentle
 A | Cukrászda, balra, pékség. Köszönöm szépen! | 제과점, 왼쪽, 빵집. 정말 감사합니다! | pékség = 빵집 | emotion=cheerful
-B | Várjon csak! Ma milyen nap van? | 잠깐만요! 오늘 무슨 요일이죠? | milyen nap = 무슨 요일 | emotion=surprised
-A | Vasárnap. Miért? | 일요일요. 왜요? | vasárnap = 일요일 | emotion=worried
+B | Várjon csak! Ma milyen nap van? | 잠깐만요! 오늘 무슨 요일이에요? | Várjon csak = 잠깐만요 | emotion=surprised
+A | Vasárnap. Miért? | 일요일이요. 왜요? | vasárnap = 일요일 | emotion=worried
 B | Vasárnap az a busz nem jár, csak hétköznap. | 일요일엔 그 버스 안 다녀요, 평일에만요. | hétköznap = 평일 | emotion=worried
-A | Jaj, ne! Akkor itt ragadtam? | 아이고, 이런! 그럼 저 여기서 꼼짝 못 하는 거예요? | itt ragad = 발이 묶이다 | emotion=flustered
-B | Dehogy. Hajóval is mehet, fél hatkor indul a kikötőből. | 아니에요. 배로도 가요, 5시 반에 선착장에서 떠나요. | kikötő = 선착장 | emotion=gentle
+A | Jaj, ne már! Akkor itt ragadtam? | 아이고, 안 돼! 그럼 여기서 발이 묶인 거예요? | itt ragad = 발이 묶이다 | emotion=flustered
+B | Dehogy. Hajóval is mehet, fél hatkor a kikötőből. | 아니에요. 배로도 가요, 5시 반에 선착장에서. | kikötő = 선착장 | emotion=gentle
 A | Hajóval? Az még jobb! | 배로요? 그게 더 좋네요! | még jobb = 더 좋은 | emotion=excited
-B | Ugye? És addig megehet egy krémest a cukrászdában. | 그렇죠? 그동안 제과점에서 크렘레시 하나 먹으면 되고요. | krémes = 크림 케이크 | emotion=cheerful+teasing
+B | Ugye? Addig egyen egy krémest a cukrászdában. | 그렇죠? 그동안 제과점에서 크렘레시 하나 드세요. | Ugye = 그렇죠 | emotion=cheerful+teasing
 
 === r3_travel_b3
 kind: long
-title: 봉사료 포함
+title: 봉사료 이미 포함
 emoji: 🧾
-scene: 세게드 식당에서 Réka 와 할라슬레를 먹고 계산한다
+scene: 세게드 식당에서 Réka와 할라슬레 먹고 계산하기
 b: Réka
 c: Pincérnő
 register: mixed
@@ -491,28 +491,28 @@ twist: 12 reveal
 purpose: travel making_friends
 goal: 계산하기(Fizetni szeretnénk · Együtt vagy külön? · borravaló)
 expressions: Ne már; Szóval; Tényleg
-B | Ez a halászlé isteni volt. Kérjük a számlát? | 이 할라슬레 끝내줬다. 계산서 달라고 할까? | számla = 계산서 | emotion=cheerful
-A | Igen, én hívom. Elnézést! | 응, 내가 부를게. 저기요! | elnézést = 실례합니다(부를 때) | emotion=cheerful+polite
+B | Na, ez a halászlé durva jó volt. Kérjük a számlát? | 나, 이 할라슬레 진짜 끝내줬다. 계산서 달라고 할까? | durva = 진짜 | emotion=cheerful
+A | Jó, én szólok. Elnézést! | 응, 내가 부를게. 저기요! | elnézést = 실례합니다 | emotion=cheerful+polite
 C | Igen, tessék? | 네, 말씀하세요? | tessék? = 네?(듣고 있어요) | emotion=polite
-A | Fizetni szeretnénk. | 계산할게요. | szeretnénk = 우리는 ~하고 싶다 | emotion=polite
-C | Együtt vagy külön? | 같이요, 따로요? | külön = 따로 | emotion=polite
-B | Együtt. Ma én fizetek! | 같이요. 오늘은 내가 낼게! | együtt = 함께 | emotion=polite+cheerful
-A | Ne már, tegnap is te fizettél! | 아이 참, 어제도 네가 냈잖아! | tegnap is = 어제도 | emotion=tsukkomi
-B | Akkor holnap te. Kártyával lehet? | 그럼 내일은 네가. 카드 되죠? | holnap = 내일 | emotion=teasing+polite
+A | Szeretnénk fizetni, kérem. | 계산하고 싶어요. | szeretnénk = 우리는 ~하고 싶다 | emotion=polite
+C | Együtt fizetnek, vagy külön? | 같이 내시나요, 따로요? | külön = 따로 | emotion=polite
+B | Együtt. Ma én állom! | 같이요. 오늘은 내가 낼게! | állom = 내가 내다 | emotion=cheerful
+A | Ne már, tegnap is te fizettél! | 아이 참, 어제도 네가 냈잖아! | Ne már = 아이 참 | emotion=tsukkomi
+B | Hát akkor holnap te. Kártyával lehet? | 그럼 내일은 네가. 카드 되죠? | holnap = 내일 | emotion=teasing+polite
 C | Persze. Összesen tizennyolcezer-négyszáz forint. | 물론이죠. 합계 18,400포린트입니다. | összesen = 합계 | emotion=polite
-A | Réka, mennyi borravalót szoktak adni? | 레카, 팁은 보통 얼마나 줘? | borravaló = 팁 | emotion=worried
-B | Általában tíz százalékot. Szóval kerekítsünk húszezerre! | 보통 10퍼센트. 그러니까 2만으로 맞춰 내자! | kerekít = 어림수로 맞추다 | emotion=cheerful
+A | Réka, mennyi borravalót szokás adni? | 레카, 팁은 보통 얼마나 줘? | borravaló = 팁 | emotion=worried
+B | Általában tíz százalékot. Szóval kerekítsünk húszezerre! | 보통 10퍼센트. 그러니까 2만으로 맞추자! | Szóval = 그러니까 | emotion=cheerful
 C | Köszönöm, de a szervizdíj már benne van a számlában. | 감사하지만, 봉사료가 이미 계산서에 들어 있어요. | szervizdíj = 봉사료 | emotion=polite
-A | Tényleg? Hol? | 정말요? 어디요? | hol = 어디에 | emotion=surprised
+A | Tényleg? Hol van? | 정말요? 어디요? | Tényleg = 정말 | emotion=surprised
 C | Itt, alul: tizenkét és fél százalék. | 여기 아래요: 12.5퍼센트. | alul = 아래에 | emotion=polite
-B | Nahát, észre sem vettem! Akkor maradt egy fagyira. | 어머, 못 봤네! 그럼 아이스크림 값 남았다. | fagyi = 아이스크림 | emotion=surprised+cheerful
+B | Jaj, észre se vettem! Akkor marad egy fagyira. | 어머, 못 봤네! 그럼 아이스크림 값 남았네. | fagyi = 아이스크림 | emotion=surprised+cheerful
 A | De azt már én fizetem! | 그건 내가 낼 거야! | azt = 그것을 | emotion=teasing
 
 === r3_travel_b4
 kind: long
 title: 30분 지연
 emoji: 📢
-scene: 기차역 대합실. Zsófi 와 함께 기다리는데 안내 방송이 나온다
+scene: 기차역 대합실. Zsófi와 기다리는데 안내 방송이 나온다
 b: Zsófi
 register: casual
 twist: 13 emotion
@@ -520,19 +520,19 @@ flags: romance
 purpose: travel love
 goal: 안내 방송 알아듣기(késik · nem ... hanem)와 기다리며 주문하기
 expressions: Hallod; Figyelj; Hogyhogy
-B | Hallod? Most mondták be a vonatunkat. | 들려? 방금 우리 기차 방송했어. | bemond = 방송으로 알리다 | emotion=excited
-A | Hallom, de nem értem. Túl gyorsan beszél. | 들리는데 못 알아듣겠어. 너무 빨리 말해. | értem = 이해한다 | emotion=worried
-B | Azt mondta, a vonat körülbelül harminc percet késik. | 기차가 30분쯤 늦는대. | késik = 늦다 | emotion=annoyed
-A | Harminc percet? Akkor lekéssük a csatlakozást? | 30분? 그럼 갈아탈 기차 놓쳐? | csatlakozás = 연결편 | emotion=worried
-B | Nem, az is késik. Itt ez normális. | 아니, 그것도 늦어. 여기선 흔한 일이야. | normális = 보통인 | emotion=amused
-A | És mit mondott még? Valami vágányt hallottam. | 그리고 또 뭐래? 선로 얘기를 들은 것 같은데. | vágány = 선로 | emotion=worried
-B | Igen, nem a hetesről indul, hanem a kilencesről. | 응, 7번이 아니라 9번 선로에서 출발한대. | nem ... hanem = ~가 아니라 ~ | emotion=gentle
-A | Jó, hogy itt vagy. Egyedül most rossz vonaton ülnék. | 네가 있어서 다행이야. 혼자였으면 지금쯤 엉뚱한 기차에 앉아 있었을 거야. | ülnék = 앉아 있을 것이다 | emotion=cheerful
+B | Hallod? Most szóltak a vonatunkról. | 들려? 방금 우리 기차 얘기했어. | szól = 말하다/알리다 | emotion=excited
+A | Hallom, de semmit se értek. Túl gyorsan beszél. | 들리는데 하나도 못 알아듣겠어. 너무 빨라. | értem = 이해한다 | emotion=worried
+B | Azt mondta, kb. harminc percet késik. | 30분쯤 늦는대. | késik = 늦다 | emotion=annoyed
+A | Harminc percet? Akkor a csatlakozást is lekéssük? | 30분? 그럼 갈아타는 것도 놓쳐? | csatlakozás = 연결편 | emotion=worried
+B | Nem, az is késik. Itt ez sima. | 아니, 그것도 늦어. 여긴 보통이야. | sima = 보통인/흔한 | emotion=amused
+A | És mit mondott még? Valami vágányt hallottam. | 그리고 또 뭐래? 선로 얘기 들은 것 같은데. | vágány = 선로 | emotion=worried
+B | Igen, nem a hetesről, hanem a kilencesről indul. | 응, 7번이 아니라 9번에서 출발한대. | nem ... hanem = ~가 아니라 ~ | emotion=gentle
+A | Jó, hogy itt vagy. Egyedül most már rossz vonaton lennék. | 네가 있어서 다행이야. 혼자였으면 지금쯤 엉뚱한 기차에 타고 있었을 거야. | lennék = 있을 것이다 | emotion=cheerful
 B | Gyere, addig igyunk egy kávét a büfében. | 와, 그동안 매점에서 커피 한잔하자. | büfé = 매점 | emotion=cheerful
-A | Jó ötlet. Ezúttal én fizetek. | 좋아. 이번엔 내가 낼게. | ezúttal = 이번에는 | emotion=cheerful
-B | Rendben. Két kávé és egy pogácsa? | 좋아. 커피 두 잔이랑 포가차 하나? | pogácsa = 포가차(짭짤한 빵) | emotion=cheerful
-A | Kettő. Egy nem elég. | 두 개. 하나로는 모자라. | elég = 충분한 | emotion=amused
-B | Figyelj... én nem bánom ezt a késést. | 있잖아… 나 이번 지연 싫지 않아. | nem bánom = 개의치 않는다 | emotion=shy
+A | Jó ötlet. Most én fizetek. | 좋아. 이번엔 내가 낼게. | fizetek = 내가 내다 | emotion=cheerful
+B | Rendben. Két kávé meg egy pogácsa? | 좋아. 커피 두 잔이랑 포가차 하나? | pogácsa = 포가차 | emotion=cheerful
+A | Kettő. Egy nem elég. | 두 개. 하나로는 부족해. | elég = 충분한 | emotion=amused
+B | Figyelj... én nem bánom ezt a késést. | 있잖아… 나 이번 지연 별로 안 싫어. | nem bánom = 개의치 않는다 | emotion=shy
 A | Hogyhogy? Hiszen utálsz várni. | 어째서? 기다리는 거 싫어하잖아. | utál = 몹시 싫어하다 | emotion=surprised
 B | Igen. De így fél órával többet lehetek veled. | 응. 근데 덕분에 너랑 30분 더 있을 수 있잖아. | veled = 너와 함께 | emotion=shy
 A | Akkor remélem, még egyszer bemondják, hogy késik. | 그럼 한 번 더 늦는다고 방송했으면 좋겠다. | remél = 바라다 | emotion=shy
@@ -541,7 +541,7 @@ A | Akkor remélem, még egyszer bemondják, hogy késik. | 그럼 한 번 더 �
 kind: chat
 title: 파란 염소는 두 곳
 emoji: 🍽️
-scene: Dávid 가 저녁 식당을 예약했다. 셋이 단톡방에서 각자 찾아가기로 한다
+scene: Dávid가 저녁 식당 예약했다. 셋이 단톡에서 각자 찾아가기로 한다
 b: Réka
 c: Dávid
 register: chat
@@ -550,15 +550,15 @@ purpose: travel making_friends
 goal: 채팅으로 만날 곳 확인하기(Hol ültök? · Nem látlak)
 expressions: ugye; Hogyhogy; Ne már
 C | Foglaltam asztalt hétre a Kék Kecskében. 🍽️ | 7시에 「파란 염소」에 테이블 예약했어. 🍽️ | asztalt foglal = 테이블을 예약하다 | emotion=cheerful at=17:30
-B | Szuper! Hol van? | 좋아! 어디야? | hol van? = 어디 있어? | emotion=excited at=17:31
+B | Szuper! Hol van pontosan? | 좋아! 정확히 어디야? | hol van? = 어디 있어? | emotion=excited at=17:31
 C | A Király utcában. Megtaláljátok, ugye? 😄 | 키라이 거리. 찾을 수 있지? 😄 | megtaláljátok = 너희가 찾는다 | emotion=teasing at=17:31
 A | Persze. Én a múzeumból megyek, villamossal. | 그럼. 나는 박물관에서 트램 타고 갈게. | villamossal = 트램으로 | emotion=cheerful at=17:40
-B | Én meg biciklivel. Ott találkozunk! | 나는 자전거로. 거기서 만나! | meg = 그리고(대조) | emotion=cheerful at=17:41
+B | Én meg bringával. Ott találkozunk! | 나는 자전거로. 거기서 만나! | bringa = 자전거 | emotion=cheerful at=17:41
 A | Megérkeztem, szép hely! Hol ültök? | 도착, 예쁜 곳이다! 너희 어디 앉았어? | ültök = 너희가 앉아 있다 | emotion=excited at=18:58
 B | A terasz mellett. Te? | 테라스 옆. 너는? | mellett = ~ 옆에 | emotion=neutral at=18:59
 A | Én is a terasznál vagyok. Nem látlak. | 나도 테라스야. 너 안 보이는데. | látlak = 내가 너를 본다 | emotion=worried at=18:59
 C | Integetek! 👋 Piros pulcsi. | 손 흔들고 있어! 👋 빨간 스웨터. | integet = 손을 흔들다 | emotion=cheerful at=19:00
-A | Itt csak egy bácsi integet, piros pulcsiban. 😅 | 여기 빨간 스웨터 입은 할아버지 한 분만 손 흔드는데. 😅 | pulcsiban = 스웨터를 입고 | emotion=amused at=19:00
+A | Itt csak egy bácsi integet piros pulcsiban. 😅 | 여기 빨간 스웨터 입은 할아버지 한 분만 손 흔드시는데. 😅 | pulcsiban = 스웨터를 입고 | emotion=amused at=19:00
 B | Várj, te melyik Kék Kecskében vagy? | 잠깐, 너 어느 「파란 염소」에 있어? | melyik = 어느 | emotion=surprised at=19:01
 A | Hogyhogy melyik? Kettő van? | 어느 거라니? 두 군데야? | hogyhogy = 어째서 | emotion=surprised at=19:01
 C | Igen, a budai és a pesti. Mi Pesten vagyunk. | 응, 부다 쪽이랑 페스트 쪽. 우리는 페스트에 있어. | Pesten = 페스트에 | emotion=flustered at=19:02

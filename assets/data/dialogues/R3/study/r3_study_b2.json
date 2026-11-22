@@ -32,10 +32,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Réka, nálad is ilyen hideg van?",
-   "rd": "레커, 날러드 이시 이옌 히덱 번?",
+   "hu": "Réka, nálad is ennyire hideg van?",
+   "rd": "레커, 날러드 이시 에니레 히덱 번?",
    "ko": "레카, 네 방도 이렇게 추워?",
-   "note": "nálad = 너한테(네 방에)",
+   "note": "nálad = 너한테",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
@@ -43,6 +43,11 @@
      "Réka",
      "réka",
      ""
+    ],
+    [
+     "ennyire",
+     "ennyi",
+     "엔니"
     ],
     [
      "hideg",
@@ -59,8 +64,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Nem, nálam meleg van. Miért, nálad nincs fűtés?",
-   "rd": "넴, 날럼 멜렉 번. 미에르트, 날러드 닌치 퓌테시?",
+   "hu": "Nem, nálam meleg. Miért, nálad nem megy a fűtés?",
+   "rd": "넴, 날럼 멜렉. 미에르트, 날러드 넴 메지 어 퓌테시?",
    "ko": "아니, 내 방은 따뜻해. 왜, 네 방은 난방 안 돼?",
    "note": "fűtés = 난방",
    "tags": [],
@@ -72,14 +77,9 @@
      "멜레그"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "nincs",
-     "nincs",
-     "닌치"
+     "megy",
+     "megy",
+     "메지"
     ],
     [
      "fűtés",
@@ -91,15 +91,15 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "A radiátor meleg, de a szoba hideg. Három pulóverben alszom.",
-   "rd": "어 러디아토르 멜렉, 데 어 쏘버 히덱. 하롬 풀로베르벤 얼쏨.",
+   "hu": "Radiátor meleg, de a szoba hideg. Három pulóverben alszom.",
+   "rd": "러디아토르 멜렉, 데 어 쏘버 히덱. 하롬 풀로베르벤 얼쏨.",
    "ko": "라디에이터는 따뜻한데 방이 추워. 스웨터 세 겹 입고 자.",
    "note": "pulóver = 스웨터",
    "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
-     "radiátor",
+     "Radiátor",
      "radiátor",
      ""
     ],
@@ -133,8 +133,8 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Te jó ég. Szólj a gondnoknak, ő megnézi.",
-   "rd": "테 요 엑. 쏠이 어 곤드녹넉, 외 멕네지.",
+   "hu": "Te jó ég. Szólj a gondnoknak, majd megnézi.",
+   "rd": "테 요 엑. 쏠이 어 곤드녹넉, 머이드 멕네지.",
    "ko": "세상에. 관리인한테 말해, 봐 줄 거야.",
    "note": "szólj = 말해",
    "tags": [
@@ -158,6 +158,11 @@
      ""
     ],
     [
+     "majd",
+     "majd",
+     "머이드"
+    ],
+    [
      "megnézi",
      "megnéz",
      "메그네즈"
@@ -167,10 +172,10 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Jó napot, a 214-es szobából jöttem. Nagyon hideg van nálam.",
-   "rd": "요 너포트, 어 214-에시 쏘바볼 요뗌. 너죤 히덱 번 날럼.",
+   "hu": "Jó napot, a 214-esből jöttem. Nagyon hideg van nálam.",
+   "rd": "요 너포트, 어 214-에슈뵐 요뗌. 너죤 히덱 번 날럼.",
    "ko": "안녕하세요, 214호에서 왔어요. 제 방이 너무 추워요.",
-   "note": "214-es = 214번",
+   "note": "nálam = 나한테",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -185,14 +190,9 @@
      "넙"
     ],
     [
-     "es",
-     "es",
+     "esből",
+     "esből",
      ""
-    ],
-    [
-     "szobából",
-     "szoba",
-     "서버"
     ],
     [
      "jöttem",
@@ -214,9 +214,9 @@
   {
    "num": 6,
    "speaker": "C",
-   "hu": "Jó napot. A radiátor működik?",
-   "rd": "요 너포트. 어 러디아토르 뮈쾨딕?",
-   "ko": "안녕하세요. 라디에이터는 작동해요?",
+   "hu": "Jó napot. Működik a radiátor?",
+   "rd": "요 너포트. 뮈쾨딕 어 러디아토르?",
+   "ko": "안녕하세요. 라디에이터 작동해요?",
    "note": "működik = 작동한다",
    "tags": [],
    "emotion": "neutral",
@@ -235,21 +235,16 @@
      "radiátor",
      "radiátor",
      ""
-    ],
-    [
-     "működik",
-     "működik",
-     "뮈쾨딕"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Igen, meleg. De mégis fázom.",
-   "rd": "이겐, 멜렉. 데 메기시 파좀.",
-   "ko": "네, 따뜻해요. 그런데도 추워요.",
-   "note": "fázom = (나는) 춥다",
+   "hu": "Igen, meleg van. De fázom.",
+   "rd": "이겐, 멜렉 번. 데 파좀.",
+   "ko": "네, 따뜻해요. 그런데 추워요.",
+   "note": "fázom = 춥다",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
@@ -264,9 +259,9 @@
      "멜레그"
     ],
     [
-     "mégis",
-     "mégis",
-     "메기슈"
+     "van",
+     "van",
+     "번"
     ],
     [
      "fázom",
@@ -278,9 +273,9 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Furcsa. Menjünk, megnézem.",
-   "rd": "푸르처. 멘윈크, 멕네젬.",
-   "ko": "이상하네요. 갑시다, 봐 드릴게요.",
+   "hu": "Furcsa dolog. Menjünk, megnézem.",
+   "rd": "푸르처 돌록. 멘윈크, 멕네젬.",
+   "ko": "이상하군요. 갑시다, 봐 드릴게요.",
    "note": "furcsa = 이상한",
    "tags": [],
    "emotion": "neutral",
@@ -289,6 +284,11 @@
      "Furcsa",
      "furcsa",
      "푸르처"
+    ],
+    [
+     "dolog",
+     "dolog",
+     "돌록"
     ],
     [
      "megnézem",
@@ -300,17 +300,17 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Én is jövök. Kíváncsi vagyok.",
-   "rd": "엔 이시 요뵉. 키반치 버죡.",
-   "ko": "나도 갈래. 궁금해.",
+   "hu": "Én is megyek. Kíváncsi vagyok.",
+   "rd": "엔 이시 메젝. 키반치 버죡.",
+   "ko": "나도 갈게. 궁금해.",
    "note": "kíváncsi = 궁금한",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "jövök",
-     "jön",
-     "왼"
+     "megyek",
+     "megye",
+     "메예"
     ],
     [
      "vagyok",
@@ -322,9 +322,9 @@
   {
    "num": 10,
    "speaker": "C",
-   "hu": "Radiátor rendben, ajtó rendben. És az ablak?",
-   "rd": "러디아토르 렌드벤, 어이토 렌드벤. 에시 어즈 어블럭?",
-   "ko": "라디에이터 괜찮고, 문 괜찮고. 창문은요?",
+   "hu": "Radiátor rendben, ajtó is. És az ablak?",
+   "rd": "러디아토르 렌드벤, 어이토 이시. 에시 어즈 어블럭?",
+   "ko": "라디에이터 괜찮고, 문도. 창문은요?",
    "note": "rendben = 괜찮다",
    "tags": [],
    "emotion": "neutral",
@@ -354,8 +354,8 @@
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Az ablak csukva van. Mindig csukva tartom.",
-   "rd": "어즈 어블럭 축버 번. 민딕 축버 터르톰.",
+   "hu": "Az ablak csukva. Mindig csukva tartom.",
+   "rd": "어즈 어블럭 축버. 민딕 축버 터르톰.",
    "ko": "창문은 닫혀 있어요. 항상 닫아 둬요.",
    "note": "csukva = 닫힌 채",
    "tags": [],
@@ -372,11 +372,6 @@
      ""
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
      "tartom",
      "tart",
      "터르트"
@@ -386,10 +381,10 @@
   {
    "num": 12,
    "speaker": "C",
-   "hu": "Nem egészen: nézze, felül nyitva van, bukóra állította.",
-   "rd": "넴 에게쎈: 네제, 펠륄 니트버 번, 부코러 알리토떠.",
-   "ko": "꼭 그렇진 않네요. 보세요, 위가 열려 있어요, 틸트로 해 두셨어요.",
-   "note": "bukó = 위로 젖혀 여는 창",
+   "hu": "Nem egészen. Nézze, felül nyitva, bukóra állította.",
+   "rd": "넴 에게쎈. 네제, 펠륄 니트버, 부코러 알리토떠.",
+   "ko": "꼭 그렇진 않아요. 보세요, 위가 열려 있어요, 틸트로 해 두셨어요.",
+   "note": "bukó = 틸트 창",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
@@ -397,11 +392,6 @@
      "egészen",
      "egésze",
      "에게세"
-    ],
-    [
-     "nézze",
-     "néz",
-     "네즈"
     ],
     [
      "felül",
@@ -412,11 +402,6 @@
      "nyitva",
      "nyit",
      "니트"
-    ],
-    [
-     "van",
-     "van",
-     "번"
     ],
     [
      "bukóra",
@@ -433,8 +418,8 @@
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Bukóra? Azt hittem, így van becsukva!",
-   "rd": "부코러? 어즈트 히뗌, 이지 번 베축버!",
+   "hu": "Bukóra? Azt hittem, hogy így csukva van!",
+   "rd": "부코러? 어즈트 히뗌, 호지 이지 축버 번!",
    "ko": "틸트요? 이게 닫힌 건 줄 알았어요!",
    "note": "azt hittem = ~인 줄 알았다",
    "tags": [],
@@ -456,23 +441,23 @@
      "이지"
     ],
     [
+     "csukva",
+     "csuk",
+     ""
+    ],
+    [
      "van",
      "van",
      "번"
-    ],
-    [
-     "becsukva",
-     "becsuk",
-     ""
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "B",
-   "hu": "Két hónapig az udvart fűtötted. Szuper.",
-   "rd": "케트 호너픽 어즈 우드버르트 퓌퇴떼드. 쑤페르.",
-   "ko": "두 달 동안 마당을 데웠네. 대단하다.",
+   "hu": "Két hónapig az udvart fűtötted te. Szuper.",
+   "rd": "케트 호너픽 어즈 우드버르트 퓌퇴떼드 테. 쑤페르.",
+   "ko": "두 달 동안 마당을 데웠구나. 대단하다.",
    "note": "udvar = 마당",
    "tags": [
     "expr:Szuper"

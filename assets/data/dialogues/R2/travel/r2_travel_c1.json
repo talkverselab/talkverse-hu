@@ -33,17 +33,22 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Holnap Szentendre? Ki jön? ☀️",
-   "rd": "홀너프 쎈텐드레? 키 욘? ☀️",
-   "ko": "내일 센텐드레? 누구 와? ☀️",
-   "note": "Szentendre = 센텐드레(근교 도시)",
+   "hu": "Na, holnap Szentendrére? Ki jön? ☀️",
+   "rd": "너, 홀너프 쎈텐드레레? 키 욘? ☀️",
+   "ko": "내일 센텐드레 갈래? 누구 와? ☀️",
+   "note": "Szentendre = 센텐드레",
    "tags": [],
    "at": "20:01",
    "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Holnap",
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "holnap",
      "holnap",
      "홀넙"
     ],
@@ -57,28 +62,28 @@
   {
    "num": 2,
    "speaker": "C",
-   "hu": "Én! Mikor indulunk?",
-   "rd": "엔! 미코르 인둘룬크?",
-   "ko": "나! 언제 출발해?",
-   "note": "indulunk = 우리가 출발한다",
+   "hu": "Én is! Mikor megyünk?",
+   "rd": "엔 이시! 미코르 메쥔크?",
+   "ko": "나도! 언제 가?",
+   "note": "megyünk = 우리가 간다",
    "tags": [],
    "at": "20:02",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "indulunk",
-     "indul",
-     "인둘"
+     "megyünk",
+     "megy",
+     "메지"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Kilenckor? A HÉV a Batthyány térről megy.",
-   "rd": "킬렌츠코르? 어 헤브 어 버트히아니 테뢸 메지.",
-   "ko": "9시? 헤브는 바차니 광장에서 가.",
+   "hu": "Kilenckor? HÉV Batthyány térről indul.",
+   "rd": "킬렌츠코르? 헤브 버트히아니 테뢸 인둘.",
+   "ko": "9시? 헤브는 바차니 광장에서 출발해.",
    "note": "HÉV = 교외 전철",
    "tags": [],
    "at": "20:03",
@@ -96,18 +101,18 @@
      "테르"
     ],
     [
-     "megy",
-     "megy",
-     "메지"
+     "indul",
+     "indul",
+     "인둘"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Oké, találkozunk ott negyed kilenckor.",
-   "rd": "오케, 털랄코준크 오트 네제드 킬렌츠코르.",
-   "ko": "오케이, 거기서 8시 15분에 만나.",
+   "hu": "Oké, akkor negyed kilenckor a téren.",
+   "rd": "오케, 어꼬르 네제드 킬렌츠코르 어 테렌.",
+   "ko": "오케이, 그럼 8시 15분에 광장에서.",
    "note": "negyed kilenc = 8시 15분",
    "tags": [
     "expr:Oké"
@@ -122,14 +127,9 @@
      "오케"
     ],
     [
-     "találkozunk",
-     "találkozik",
-     "털랄코지크"
-    ],
-    [
-     "ott",
-     "ott",
-     "오트"
+     "akkor",
+     "akkor",
+     "어꼬르"
     ],
     [
      "negyed",
@@ -140,16 +140,21 @@
      "kilenckor",
      "kilenc",
      ""
+    ],
+    [
+     "téren",
+     "tér",
+     "테르"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Negyed kilenc? Az nyolc óra tizenöt, ugye?",
-   "rd": "네제드 킬렌츠? 어즈 뇰츠 오러 티제뇌트, 우제?",
+   "hu": "Negyed kilenc? Az 8:15, ugye?",
+   "rd": "네제드 킬렌츠? 어즈 8:15, 우제?",
    "ko": "너지 킬렌츠? 8시 15분 맞지?",
-   "note": "negyed = 4분의 1",
+   "note": "ugye = 맞지",
    "tags": [
     "expr:ugye"
    ],
@@ -166,20 +171,15 @@
      "kilenc",
      "kilenc",
      ""
-    ],
-    [
-     "tizenöt",
-     "tizenöt",
-     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Igen, Dávid. 😅",
-   "rd": "이겐, 다비드. 😅",
-   "ko": "응, 다비드. 😅",
+   "hu": "Igen, pontosan. 😅",
+   "rd": "이겐, 폰토션. 😅",
+   "ko": "응, 정확해. 😅",
    "note": "igen = 응",
    "tags": [],
    "at": "20:05",
@@ -190,30 +190,35 @@
      "Igen",
      "igen",
      "이겐"
+    ],
+    [
+     "pontosan",
+     "pontos",
+     "폰토시"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "A jegyeket én veszem meg az appban.",
-   "rd": "어 예제케트 엔 베쎔 멕 어즈 어프번.",
+   "hu": "Én veszem a jegyeket az appban.",
+   "rd": "엔 베쎔 어 예제케트 어즈 어프번.",
    "ko": "표는 내가 앱에서 살게.",
-   "note": "megveszem = 내가 그것을 산다",
+   "note": "veszem = 내가 산다",
    "tags": [],
    "at": "20:10",
    "emotion": "cheerful",
    "ui": "bubble",
    "lemmas": [
     [
-     "jegyeket",
-     "jegy",
-     ""
-    ],
-    [
      "veszem",
      "veszik",
      "베세크"
+    ],
+    [
+     "jegyeket",
+     "jegy",
+     ""
     ],
     [
      "appban",
@@ -225,9 +230,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Kész! Három napijegy. 🎫",
-   "rd": "케쓰! 하롬 너피예지. 🎫",
-   "ko": "끝! 일일권 세 장. 🎫",
+   "hu": "Kész! Három napijegy megvan. 🎫",
+   "rd": "케쓰! 하롬 너피예지 멕번. 🎫",
+   "ko": "끝! 일일권 세 장 샀어. 🎫",
    "note": "napijegy = 일일권",
    "tags": [],
    "at": "20:18",
@@ -243,6 +248,11 @@
      "napijegy",
      "napijegy",
      ""
+    ],
+    [
+     "megvan",
+     "megvan",
+     "메그번"
     ]
    ]
   },
@@ -251,8 +261,8 @@
    "speaker": "C",
    "hu": "Király! Melyik napra?",
    "rd": "키라이! 메익 너프러?",
-   "ko": "끝내준다! 어느 날짜로?",
-   "note": "melyik napra = 어느 날로",
+   "ko": "대박! 어느 날짜로?",
+   "note": "Király = 최고",
    "tags": [
     "expr:Király"
    ],
@@ -275,9 +285,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Ma... Jaj, mára vettem!",
-   "rd": "머... 여이, 마러 베뗌!",
-   "ko": "오늘… 아이고, 오늘 날짜로 샀다!",
+   "hu": "Ma... Jaj, mára!",
+   "rd": "머... 여이, 마러!",
+   "ko": "오늘… 아이고, 오늘 날짜로!",
    "note": "mára = 오늘로",
    "tags": [],
    "at": "20:21",
@@ -288,21 +298,16 @@
      "Ma",
      "ma",
      "머"
-    ],
-    [
-     "vettem",
-     "vett",
-     "벳트"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Hát, akkor menjünk most! 😂",
-   "rd": "하트, 어꼬르 멘윈크 모슈트! 😂",
+   "hu": "Hát, akkor most megyünk! 😂",
+   "rd": "하트, 어꼬르 모슈트 메쥔크! 😂",
    "ko": "그럼 지금 가자! 😂",
-   "note": "menjünk = 가자",
+   "note": "megyünk = 가자",
    "tags": [],
    "at": "20:21",
    "emotion": "teasing",
@@ -319,14 +324,14 @@
      "어꼬르"
     ],
     [
-     "menjünk",
-     "megy",
-     "메지"
-    ],
-    [
      "most",
      "most",
      "모슈트"
+    ],
+    [
+     "megyünk",
+     "megy",
+     "메지"
     ]
    ]
   }

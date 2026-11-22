@@ -13,7 +13,7 @@
  ],
  "title": "도서관 옆자리",
  "emoji": "📚",
- "scene": "시험 기간의 대학 도서관. Anna 가 옆자리가 비었냐고 묻고, 서로 문제를 내 주기로 한다",
+ "scene": "시험 기간의 대학 도서관. Anna가 옆자리 비었냐고 묻고, 서로 문제 내 주다가 공책 그림으로 반전",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
@@ -35,9 +35,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Bocsi, szabad ez a hely?",
-   "rd": "보치, 써버드 에즈 어 헤이?",
-   "ko": "저기, 이 자리 비었어?",
+   "hu": "Hát, bocsi, ez a hely szabad?",
+   "rd": "하트, 보치, 에즈 어 헤이 써버드?",
+   "ko": "저기, 이 자리 비어 있어?",
    "note": "szabad = 비어 있는",
    "tags": [
     "expr:Bocsi"
@@ -45,53 +45,68 @@
    "emotion": "shy",
    "lemmas": [
     [
-     "Bocsi",
-     "bocsi",
-     "보치"
+     "Hát",
+     "hát",
+     "핫"
     ],
     [
-     "szabad",
-     "szabad",
-     "써버드"
+     "bocsi",
+     "bocsi",
+     "보치"
     ],
     [
      "hely",
      "hely",
      "헤이"
+    ],
+    [
+     "szabad",
+     "szabad",
+     "써버드"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen, szabad. Tessék.",
-   "rd": "이겐, 써버드. 테쎅.",
-   "ko": "응, 비었어. 앉아.",
-   "note": "tessék = 자, 여기(권할 때)",
+   "hu": "Ja, szabad. Tessék, ülj ide.",
+   "rd": "여, 써버드. 테쎅, 윌이 이데.",
+   "ko": "응, 비어 있어. 여기 앉아.",
+   "note": "Tessék = 자, 여기",
    "tags": [
     "expr:Tessék"
    ],
    "emotion": "gentle",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Ja",
+     "ja",
+     "여"
     ],
     [
      "szabad",
      "szabad",
      "써버드"
+    ],
+    [
+     "ülj",
+     "ülj",
+     "위이"
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Köszi. Te is vizsgára tanulsz?",
-   "rd": "쾨씨. 테 이시 비지가러 터눌쓰?",
-   "ko": "고마워. 너도 시험공부해?",
-   "note": "vizsgára = 시험을 위해",
+   "hu": "Köszi. Te is vizsgára készülsz?",
+   "rd": "쾨씨. 테 이시 비지가러 케쓀쓰?",
+   "ko": "고마워. 너도 시험 준비해?",
+   "note": "vizsgára = 시험 위해",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -106,18 +121,18 @@
      ""
     ],
     [
-     "tanulsz",
-     "tanul",
-     "타눌"
+     "készülsz",
+     "készül",
+     "케쓸"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Igen, holnap lesz a történelemvizsgám. Te?",
-   "rd": "이겐, 홀너프 레쓰 어 퇴르테넬렘비지감. 테?",
-   "ko": "응, 내일 역사 시험이야. 너는?",
+   "hu": "Igen, holnap történelem. Te?",
+   "rd": "이겐, 홀너프 퇴르테넬렘. 테?",
+   "ko": "응, 내일 역사. 너는?",
    "note": "történelem = 역사",
    "tags": [],
    "emotion": "worried",
@@ -133,13 +148,8 @@
      "홀넙"
     ],
     [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
-     "történelemvizsgám",
-     "történelemvizsgám",
+     "történelem",
+     "történelem",
      ""
     ]
    ]
@@ -147,10 +157,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Művészettörténet. Háromszáz kép, és mindet tudni kell.",
-   "rd": "뮈베쎄뙤르테네트. 하롬싸즈 케프, 에시 민데트 투드니 켈.",
-   "ko": "미술사. 그림 300장인데 다 알아야 해.",
-   "note": "mindet = 전부를",
+   "hu": "Művészettörténet. Háromszáz kép, mindet fejből kell.",
+   "rd": "뮈베쎄뙤르테네트. 하롬싸즈 케프, 민데트 페이뵐 켈.",
+   "ko": "미술사. 그림 300장, 다 외워야 해.",
+   "note": "mindet = 전부",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
@@ -165,9 +175,9 @@
      "켑"
     ],
     [
-     "tudni",
-     "tud",
-     "투드"
+     "fejből",
+     "fej",
+     "페이"
     ],
     [
      "kell",
@@ -181,8 +191,8 @@
    "speaker": "A",
    "hu": "Durva. Segítsek kikérdezni?",
    "rd": "두르버. 세기트섹 키케르데즈니?",
-   "ko": "장난 아니다. 문제 내 줄까?",
-   "note": "kikérdez = 물어보며 점검하다",
+   "ko": "장난 아니네. 문제 내 줄까?",
+   "note": "Durva = 장난 아니다",
    "tags": [
     "expr:Durva"
    ],
@@ -203,9 +213,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Az jó lenne! De csak halkan.",
-   "rd": "어즈 요 렌네! 데 척 헐컨.",
-   "ko": "그럼 좋겠다! 근데 조용히.",
+   "hu": "Az jó lenne! De csak halkan, oké?",
+   "rd": "어즈 요 렌네! 데 척 헐컨, 오케?",
+   "ko": "그럼 좋지! 근데 조용히, 알겠지?",
    "note": "halkan = 조용히",
    "tags": [],
    "emotion": "excited",
@@ -216,7 +226,7 @@
     ],
     [
      "shy",
-     "De csak halkan."
+     "De csak halkan, oké?"
     ]
    ],
    "lemmas": [
@@ -239,50 +249,50 @@
      "halkan",
      "halk",
      ""
+    ],
+    [
+     "oké",
+     "oké",
+     "오케"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Ez a kép melyik században készült?",
-   "rd": "에즈 어 케프 메익 싸저드번 케쓀트?",
-   "ko": "이 그림은 몇 세기에 그려졌어?",
+   "hu": "Rendben. Ez a kép melyik század?",
+   "rd": "렌드벤. 에즈 어 케프 메익 싸저드?",
+   "ko": "알겠어. 이 그림 몇 세기야?",
    "note": "század = 세기",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
+     "Rendben",
+     "rend",
+     "렌드"
+    ],
+    [
      "kép",
      "kép",
      "켑"
-    ],
-    [
-     "században",
-     "század",
-     ""
-    ],
-    [
-     "készült",
-     "készül",
-     "케쓸"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "hu": "A tizenkilencedikben. Látod, ezt tudom.",
-   "rd": "어 티젠킬렌체딕벤. 라토드, 에즈트 투돔.",
+   "hu": "A tizenkilencedik. Látod, ezt tudom.",
+   "rd": "어 티젠킬렌체딕. 라토드, 에즈트 투돔.",
    "ko": "19세기. 봐, 이건 알아.",
-   "note": "látod = 봐, 거 봐",
+   "note": "Látod = 봐",
    "tags": [
     "expr:Látod"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "tizenkilencedikben",
+     "tizenkilencedik",
      "tizenkilencedik",
      ""
     ],
@@ -298,8 +308,8 @@
    "speaker": "A",
    "hu": "Szuper. És ez a rajz a füzeted hátulján?",
    "rd": "쑤페르. 에시 에즈 어 러이즈 어 퓌제테드 하툴얀?",
-   "ko": "좋아. 그럼 네 공책 뒤에 있는 이 그림은?",
-   "note": "rajz = 소묘, 그림",
+   "ko": "잘했어. 그럼 공책 뒤에 있는 이 그림은?",
+   "note": "rajz = 그림",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -330,8 +340,8 @@
    "speaker": "B",
    "hu": "Az a huszonegyedik század. Ma rajzoltalak le.",
    "rd": "어즈 어 후쏘네제딕 싸저드. 머 러이졸털럭 레.",
-   "ko": "그건 21세기. 오늘 너 그렸어.",
-   "note": "lerajzoltalak = 너를 그렸다(-lak)",
+   "ko": "그건 21세기. 오늘 너를 그렸어.",
+   "note": "lerajzoltalak = 너를 그렸다",
    "tags": [],
    "emotion": "shy",
    "lemmas": [

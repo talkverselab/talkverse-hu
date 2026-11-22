@@ -10,9 +10,9 @@
  "domain": [
   "life"
  ],
- "title": "축구하다 다친 발목",
+ "title": "축구가 더 멋있잖아",
  "emoji": "🦶",
- "scene": "Dávid 가 발목을 다쳐 같이 야간 진료소(ügyelet)에 왔다. Dávid 는 의사에게 축구하다 다쳤다고 말하고 싶다",
+ "scene": "Dávid 가 발목을 다쳐 같이 야간 진료소에 왔다. Dávid 는 의사에게 축구하다 다쳤다고 말하고 싶다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid",
@@ -33,10 +33,10 @@
   {
    "num": 1,
    "speaker": "D",
-   "hu": "Jó estét! Ki a beteg, és mi történt?",
-   "rd": "요 에슈테트! 키 어 베텍, 에시 미 퇴르텐트?",
-   "ko": "안녕하세요! 환자분이 누구고, 어떻게 오셨어요?",
-   "note": "beteg = 환자",
+   "hu": "Jó estét! Ki a páciens, és mi a probléma?",
+   "rd": "요 에슈테트! 키 어 파치엔시, 에시 미 어 프로블레머?",
+   "ko": "안녕하세요! 환자분이 누구고, 무슨 일이세요?",
+   "note": "páciens = 환자",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -51,22 +51,22 @@
      "에슈테"
     ],
     [
-     "beteg",
-     "beteg",
-     "베테그"
+     "páciens",
+     "páciens",
+     ""
     ],
     [
-     "történt",
-     "történik",
-     "퇴르텐닉"
+     "probléma",
+     "probléma",
+     "프로블레머"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Én. Fáj a bokám, nem tudok rálépni.",
-   "rd": "엔. 파이 어 보캄, 넴 투독 랄레프니.",
+   "hu": "Én. A bokám fáj, nem bírok rálépni.",
+   "rd": "엔. 어 보캄 파이, 넴 비록 랄레프니.",
    "ko": "저요. 발목이 아파서 디딜 수가 없어요.",
    "note": "rálépni = 위에 디디다",
    "tags": [],
@@ -78,9 +78,14 @@
      ""
     ],
     [
-     "tudok",
-     "tud",
-     "투드"
+     "fáj",
+     "fáj",
+     "파이"
+    ],
+    [
+     "bírok",
+     "bír",
+     "비르"
     ],
     [
      "rálépni",
@@ -92,10 +97,10 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Tegnap este megcsúszott a lépcsőn. Itt a TAJ-kártyája.",
-   "rd": "텍너프 에슈테 멕추쏘트 어 레프쵠. 이트 어 터이-카르탸여.",
+   "hu": "Tegnap este elcsúszott a lépcsőn. Itt a TAJ-kártyája.",
+   "rd": "텍너프 에슈테 엘추쏘트 어 레프쵠. 이트 어 터이-카르탸여.",
    "ko": "어제 저녁에 계단에서 미끄러졌어요. 여기 보험 카드요.",
-   "note": "megcsúszott = 미끄러졌다",
+   "note": "elcsúszott = 미끄러졌다",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -110,8 +115,8 @@
      "에슈테"
     ],
     [
-     "megcsúszott",
-     "megcsúszik",
+     "elcsúszott",
+     "elcsúszik",
      ""
     ],
     [
@@ -129,21 +134,21 @@
   {
    "num": 4,
    "speaker": "D",
-   "hu": "Köszönöm, felírtam. Üljenek le, mindjárt hívják.",
-   "rd": "쾨쐬뇜, 펠리르텀. 윌예넥 레, 민드야르트 히브약.",
-   "ko": "고맙습니다, 적어 뒀어요. 앉으세요, 곧 불러요.",
+   "hu": "Rendben, feljegyeztem. Üljenek le, mindjárt szólítják.",
+   "rd": "렌드벤, 펠예제즈템. 윌예넥 레, 민드야르트 쏠리트약.",
+   "ko": "알겠습니다, 적어 뒀어요. 앉으세요, 곧 불러요.",
    "note": "üljenek le = 앉으세요(여럿, Ön)",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "Rendben",
+     "rend",
+     "렌드"
     ],
     [
-     "felírtam",
-     "felírt",
+     "feljegyeztem",
+     "feljegyez",
      ""
     ],
     [
@@ -157,18 +162,18 @@
      "민드야르트"
     ],
     [
-     "hívják",
-     "hív",
-     "히브"
+     "szólítják",
+     "szólít",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Nagyon fáj? Hozzak vizet?",
-   "rd": "너죤 파이? 호적 비제트?",
-   "ko": "많이 아파? 물 갖다줄까?",
+   "hu": "Nagyon fáj? Hozzak valamit inni?",
+   "rd": "너죤 파이? 호적 벌러미트 인니?",
+   "ko": "많이 아파? 뭐 좀 갖다줄까?",
    "note": "hozzak = 내가 가져올까",
    "tags": [],
    "emotion": "worried",
@@ -184,19 +189,19 @@
      "파이"
     ],
     [
-     "vizet",
-     "vize",
-     "비제"
+     "inni",
+     "iszik",
+     "이식"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Nem kell. De az orvosnak mondjuk azt, hogy focizás közben történt.",
-   "rd": "넴 켈. 데 어즈 오르보슈넉 몬드육 어즈트, 호지 포치자시 쾨즈벤 퇴르텐트.",
-   "ko": "괜찮아. 근데 의사한테는 축구하다 다쳤다고 하자.",
-   "note": "focizás közben = 축구하는 도중",
+   "hu": "Nem kell, köszi. De az orvosnak azt mondjuk, hogy foci közben történt.",
+   "rd": "넴 켈, 쾨씨. 데 어즈 오르보슈넉 어즈트 몬드육, 호지 포치 쾨즈벤 퇴르텐트.",
+   "ko": "괜찮아, 고마워. 근데 의사한테는 축구하다 다쳤다고 하자.",
+   "note": "foci közben = 축구하는 도중",
    "tags": [],
    "emotion": "stiff",
    "lemmas": [
@@ -204,6 +209,11 @@
      "kell",
      "kell",
      "켈"
+    ],
+    [
+     "köszi",
+     "köszi",
+     "쾨씨"
     ],
     [
      "orvosnak",
@@ -216,8 +226,8 @@
      "몬드"
     ],
     [
-     "focizás",
-     "focizik",
+     "foci",
+     "foci",
      ""
     ],
     [
@@ -235,10 +245,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Miért? A lépcső nem elég jó?",
-   "rd": "미에르트? 어 레프최 넴 엘렉 요?",
+   "hu": "Miért? A lépcső nem elég menő?",
+   "rd": "미에르트? 어 레프최 넴 엘렉 메뇌?",
    "ko": "왜? 계단은 별로야?",
-   "note": "elég jó = 충분히 좋은",
+   "note": "menő = 멋진",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
@@ -258,19 +268,19 @@
      "엘렉"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "menő",
+     "menő",
+     ""
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Psszt! A lépcső ciki, a foci menő.",
-   "rd": "프쓰트! 어 레프최 치키, 어 포치 메뇌.",
-   "ko": "쉿! 계단은 창피하고, 축구는 멋있잖아.",
-   "note": "ciki = 창피한, menő = 멋진",
+   "hu": "Psszt! A lépcső ciki, a foci meg menő, na.",
+   "rd": "프쓰트! 어 레프최 치키, 어 포치 멕 메뇌, 너.",
+   "ko": "쉿! 계단은 창피하고, 축구가 더 멋있잖아.",
+   "note": "ciki = 창피한",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
@@ -298,15 +308,20 @@
      "menő",
      "menő",
      ""
+    ],
+    [
+     "na",
+     "na",
+     "너"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "C",
-   "hu": "Dávid, jöjjön be! Hogy történt?",
-   "rd": "다비드, 요왼 베! 호지 퇴르텐트?",
-   "ko": "다비드 씨, 들어오세요! 어떻게 된 거예요?",
+   "hu": "Dávid, jöjjön be! Szóval, hogy történt?",
+   "rd": "다비드, 요왼 베! 쏘벌, 호지 퇴르텐트?",
+   "ko": "다비드 씨, 들어오세요! 그래서, 어떻게 된 거예요?",
    "note": "hogy történt? = 어떻게 일어났어요",
    "tags": [
     "expr:Hogy történt"
@@ -319,7 +334,7 @@
     ],
     [
      "neutral",
-     "Hogy történt?"
+     "Szóval, hogy történt?"
     ]
    ],
    "lemmas": [
@@ -348,9 +363,9 @@
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Meccsen, a kapu előtt. Egy nagy szerelés volt.",
-   "rd": "메쩬, 어 커푸 엘뢰트. 에지 너지 쎄렐레시 볼트.",
-   "ko": "경기 중에, 골문 앞에서요. 큰 태클이 들어왔어요.",
+   "hu": "Meccsen, a kapu előtt. Durva szerelés jött.",
+   "rd": "메쩬, 어 커푸 엘뢰트. 두르버 쎄렐레시 요트.",
+   "ko": "경기 중에, 골문 앞에서요. 강한 태클이 들어왔어요.",
    "note": "szerelés = 태클",
    "tags": [],
    "emotion": "stiff",
@@ -366,28 +381,23 @@
      "커푸"
     ],
     [
-     "nagy",
-     "nagy",
-     "너지"
-    ],
-    [
      "szerelés",
      "szerelés",
      ""
     ],
     [
-     "volt",
-     "van",
-     "번"
+     "jött",
+     "jön",
+     "왼"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "C",
-   "hu": "Értem. Szerencsére nem tört el, csak megrándult.",
-   "rd": "에르템. 쎄렌체레 넴 퇴르트 엘, 척 멕란둘트.",
-   "ko": "알겠어요. 다행히 부러지진 않았고, 삔 거예요.",
+   "hu": "Értem. Szerencsére nem tört el, csak megrándult a bokája.",
+   "rd": "에르템. 쎄렌체레 넴 퇴르트 엘, 척 멕란둘트 어 보카여.",
+   "ko": "알겠어요. 다행히 부러지진 않았고, 발목만 삔 거예요.",
    "note": "megrándult = 삐었다",
    "tags": [
     "expr:Megrándult",
@@ -401,7 +411,7 @@
     ],
     [
      "gentle",
-     "Szerencsére nem tört el, csak megrándult."
+     "Szerencsére nem tört el, csak megrándult a bokája."
     ]
    ],
    "lemmas": [
@@ -429,36 +439,46 @@
      "megrándult",
      "megrándul",
      ""
+    ],
+    [
+     "bokája",
+     "boka",
+     ""
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "hu": "Látod? Mondtam, hogy nem komoly.",
-   "rd": "라토드? 몬드텀, 호지 넴 코모이.",
+   "hu": "Na látod? Mondtam, hogy nem vészes.",
+   "rd": "너 라토드? 몬드텀, 호지 넴 베쎄시.",
    "ko": "봐? 별거 아니라고 했잖아.",
-   "note": "mondtam = 내가 말했다",
+   "note": "vészes = 심각한",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Látod",
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "látod",
      "lát",
      "라트"
     ],
     [
-     "komoly",
-     "komoly",
-     "코모이"
+     "vészes",
+     "vészes",
+     ""
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "C",
-   "hu": "Egy hétig pihenjen. De a lapon az áll: lépcső.",
-   "rd": "에지 헤틱 피헨옌. 데 어 러폰 어즈 알: 레프최.",
+   "hu": "Egy hétig pihenjen. De a papíron az áll: lépcső.",
+   "rd": "에지 헤틱 피헨옌. 데 어 퍼피론 어즈 알: 레프최.",
    "ko": "일주일 쉬세요. 근데 차트엔 「계단」이라고 적혀 있네요.",
    "note": "az áll = 그렇게 적혀 있다",
    "tags": [],
@@ -470,7 +490,7 @@
     ],
     [
      "amused",
-     "De a lapon az áll: lépcső."
+     "De a papíron az áll: lépcső."
     ]
    ],
    "lemmas": [
@@ -485,9 +505,9 @@
      "피헨"
     ],
     [
-     "lapon",
-     "lap",
-     ""
+     "papíron",
+     "papír",
+     "퍼피르"
     ],
     [
      "áll",
@@ -504,10 +524,10 @@
   {
    "num": 14,
    "speaker": "B",
-   "hu": "Ki mondta ezt?!",
-   "rd": "키 몬드터 에즈트?!",
-   "ko": "누가 그런 말을 했어요?!",
-   "note": "ki = 누가",
+   "hu": "Ki mondta ezt?! Komolyan?",
+   "rd": "키 몬드터 에즈트?! 코모연?",
+   "ko": "누가 그런 말을 했어요?! 진짜?",
+   "note": "komolyan? = 진짜?",
    "tags": [],
    "emotion": "shout",
    "lemmas": [
@@ -526,8 +546,8 @@
   {
    "num": 15,
    "speaker": "A",
-   "hu": "Hát, én. Bocsi, nem tudtam, hogy a foci menőbb.",
-   "rd": "하트, 엔. 보치, 넴 투드텀, 호지 어 포치 메뇌브.",
+   "hu": "Hát, én voltam. Bocsi, nem gondoltam, hogy a foci menőbb.",
+   "rd": "하트, 엔 볼텀. 보치, 넴 곤돌텀, 호지 어 포치 메뇌브.",
    "ko": "음, 나. 미안, 축구가 더 멋있는 줄 몰랐지.",
    "note": "menőbb = 더 멋진",
    "tags": [],
@@ -535,11 +555,11 @@
    "segs": [
     [
      "shy",
-     "Hát, én."
+     "Hát, én voltam."
     ],
     [
      "amused",
-     "Bocsi, nem tudtam, hogy a foci menőbb."
+     "Bocsi, nem gondoltam, hogy a foci menőbb."
     ]
    ],
    "lemmas": [
@@ -549,9 +569,14 @@
      "핫"
     ],
     [
-     "tudtam",
-     "tud",
-     "투드"
+     "voltam",
+     "volt",
+     "볼트"
+    ],
+    [
+     "gondoltam",
+     "gondolt",
+     ""
     ],
     [
      "foci",

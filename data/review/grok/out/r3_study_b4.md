@@ -1,0 +1,27 @@
+=== r3_study_b4
+kind: long
+title: 시험 전날 밤 공부방
+emoji: 🌙
+scene: 시험 전날 자정, 기숙사 공부방. Anna 가 차를 들고 와서 서로 문제를 내 준다
+b: Anna
+register: casual
+twist: 15 emotion
+flags: romance
+purpose: study_abroad love
+goal: 밤샘 공부하며 문제 내 주기(Kikérdezel? · Hánykor van a vizsgád?)
+expressions: Na; Jaj; Szerintem; Rendben
+B | Még nem alszol? Már éjfél van. | 아직 안 자? 벌써 자정이야. | fent vagy = 깨어 있다 | emotion=surprised
+A | Holnap vizsga van. Még két fejezet van hátra. | 내일 시험이야. 아직 두 장 남았어. | hátra van = 남아 있다 | emotion=worried
+B | Nálam is. Hoztam teát, kérsz belőle? | 나도. 차 가져왔는데, 마실래? | kérsz = 마실래 | emotion=gentle
+A | Köszi, jól jön. Milyen tea ez? | 고마워, 딱 좋다. 이거 무슨 차야? | jólesik = 반갑다 | emotion=cheerful
+B | Kamilla. Állítólag nyugtat, de nem altat. | 캐모마일. 마음은 진정되는데 잠은 안 온대. | állítólag = ~라고들 한다 | emotion=amused
+A | Kikérdezel egy kicsit? Itt a lista. | 문제 좀 내 줄래? 여기 질문들이야. | kikérdez = 물어보며 점검하다 | emotion=cheerful
+B | Na, lássuk. Mikor egyesült Budapest? | 자, 보자. 부다페스트는 언제 합쳐졌어? | egyesült = 하나로 합쳐졌다 | emotion=teasing
+A | Ezernyolcszázhetvenháromban. Buda, Pest meg Óbuda. | 1873년에. 부다, 페스트, 오부다. | -ban = ~년에 | emotion=excited
+B | Ügyes vagy! Jaj, bocsi, ásítok. | 잘했어! 아, 미안, 하품 나와. | ásítok = 하품한다 | emotion=cheerful+shy
+A | Szerintem a kamilla mégis altat kicsit. | 아무래도 캐모마일이 잠 오게 하나 봐. | mégis = 그래도 결국 | emotion=teasing
+B | Lehet. Még tíz kérdés, aztán alvás. | 그럴지도. 열 문제만 더 하고 자자. | lehet = 그럴 수도 | emotion=gentle
+A | Rendben. Holnap hánykor van a vizsgád? | 좋아. 내일 시험 몇 시야? | hánykor = 몇 시에 | emotion=cheerful
+B | Kilenckor. A tiéd mikor? | 아홉 시. 네 건 몇 시야? | a tiéd = 네 것 | emotion=neutral
+A | Tízkor. Utána együtt ebédelünk? | 열 시. 끝나고 같이 점심 먹을까? | utána = 그 후에 | emotion=shy
+B | Igen. Ha ötös lesz, meghívlak. Ha nem, akkor is. | 응. 5점 나오면 내가 살게. 안 나와도 살 거고. | meghívlak = 너를 초대한다 | emotion=gentle+shy

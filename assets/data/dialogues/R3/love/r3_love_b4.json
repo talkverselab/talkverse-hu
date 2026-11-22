@@ -37,9 +37,9 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Jó napot! Jöjjön be, érezze magát otthon.",
-   "rd": "요 너포트! 요왼 베, 에레제 머가트 오트혼.",
-   "ko": "어서 와요! 들어와요, 편하게 있어요.",
+   "hu": "Jó napot, jöjjön csak be! Érezze magát otthon.",
+   "rd": "요 너포트, 요왼 척 베! 에레제 머가트 오트혼.",
+   "ko": "안녕하세요, 들어오세요! 편히 계세요.",
    "note": "érezze magát otthon = 편히 계세요",
    "tags": [],
    "emotion": "polite",
@@ -55,14 +55,19 @@
      "넙"
     ],
     [
+     "jöjjön",
+     "jön",
+     "왼"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
      "be",
      "be",
      "베"
-    ],
-    [
-     "érezze",
-     "érez",
-     "에레즈"
     ],
     [
      "otthon",
@@ -74,9 +79,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Csókolom! Köszönöm a meghívást, hoztam egy kis virágot.",
-   "rd": "초콜롬! 쾨쐬뇜 어 멕히바슈트, 호즈텀 에지 키시 비라고트.",
-   "ko": "안녕하세요! 초대해 주셔서 감사해요, 꽃 조금 가져왔어요.",
+   "hu": "Csókolom! Köszönöm szépen a meghívást, hoztam virágot.",
+   "rd": "초콜롬! 쾨쐬뇜 쎄펜 어 멕히바슈트, 호즈텀 비라고트.",
+   "ko": "안녕하세요! 초대해 주셔서 정말 감사해요, 꽃 가져왔어요.",
    "note": "csókolom = 어른께 하는 인사",
    "tags": [],
    "emotion": "stiff",
@@ -85,6 +90,11 @@
      "Csókolom",
      "csókol",
      ""
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
     ],
     [
      "meghívást",
@@ -97,11 +107,6 @@
      "호즈"
     ],
     [
-     "kis",
-     "kis",
-     "키시"
-    ],
-    [
      "virágot",
      "virág",
      "비라그"
@@ -111,10 +116,10 @@
   {
    "num": 3,
    "speaker": "C",
-   "hu": "Jaj, de szép! Anna, tedd vízbe, légyszi.",
-   "rd": "여이, 데 쎄프! 언너, 테드 비즈베, 레지씨.",
-   "ko": "어머, 예뻐라! 언너, 물에 꽂아 줘.",
-   "note": "tedd vízbe = 물에 꽂아",
+   "hu": "Jaj, de kedves! Anna, tedd be vízbe, légyszi.",
+   "rd": "여이, 데 케드베시! 언너, 테드 베 비즈베, 레지씨.",
+   "ko": "어머, 고마워요! 안나, 물에 꽂아 줘.",
+   "note": "tedd be vízbe = 물에 꽂아",
    "tags": [
     "expr:Jaj"
    ],
@@ -126,14 +131,19 @@
      "야이"
     ],
     [
-     "szép",
-     "szép",
-     "쎕"
+     "kedves",
+     "kedves",
+     "케드베슈"
     ],
     [
      "tedd",
      "tesz",
      "테스"
+    ],
+    [
+     "be",
+     "be",
+     "베"
     ],
     [
      "vízbe",
@@ -150,9 +160,9 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Persze. Ne izgulj, anyukám nem harap.",
-   "rd": "페르쎄. 네 이즈굴이, 어뉴캄 넴 허러프.",
-   "ko": "그래. 긴장하지 마, 우리 엄마 안 물어.",
+   "hu": "Persze. Nyugi, anya tényleg nem harap.",
+   "rd": "페르쎄. 뉴기, 어녀 테닐렉 넴 허러프.",
+   "ko": "그래. 진정해, 우리 엄마 진짜 안 물어.",
    "note": "ne izgulj = 긴장하지 마",
    "tags": [
     "expr:Persze"
@@ -165,14 +175,14 @@
      "페르쎄"
     ],
     [
-     "izgulj",
-     "izgulj",
-     ""
+     "anya",
+     "anya",
+     "어니어"
     ],
     [
-     "anyukám",
-     "anyukám",
-     ""
+     "tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
      "harap",
@@ -184,9 +194,9 @@
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Üljön le, kérem. Remélem, éhes, mert sokat főztem.",
-   "rd": "윌욘 레, 케렘. 레멜렘, 에헤시, 메르트 쇼커트 푀즈템.",
-   "ko": "앉으세요. 배고프면 좋겠네요, 많이 했거든요.",
+   "hu": "Üljön le nyugodtan. Remélem éhes, mert sokat főztem.",
+   "rd": "윌욘 레 뉴고드턴. 레멜렘 에헤시, 메르트 쇼커트 푀즈템.",
+   "ko": "편하게 앉으세요. 배고프면 좋겠네요, 많이 했거든요.",
    "note": "üljön le = 앉으세요",
    "tags": [],
    "emotion": "cheerful",
@@ -202,9 +212,9 @@
      "레"
     ],
     [
-     "kérem",
-     "kér",
-     "께르"
+     "nyugodtan",
+     "nyugodt",
+     "뉴고트"
     ],
     [
      "éhes",
@@ -221,9 +231,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Nagyon, és milyen finom illat! Ez gulyás?",
-   "rd": "너죤, 에시 미옌 피놈 일러트! 에즈 구야시?",
-   "ko": "엄청요, 냄새 정말 좋네요! 이거 굴라시예요?",
+   "hu": "Nagyon! Milyen jó illata van. Ez gulyás?",
+   "rd": "너죤! 미옌 요 일러터 번. 에즈 구야시?",
+   "ko": "엄청요! 냄새 정말 좋네요. 이거 굴라시예요?",
    "note": "illat = 향기",
    "tags": [],
    "emotion": "excited",
@@ -234,14 +244,19 @@
      "너존"
     ],
     [
-     "finom",
-     "finom",
-     "피놈"
+     "jó",
+     "jó",
+     "요"
     ],
     [
-     "illat",
+     "illata",
      "illat",
      ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ],
     [
      "gulyás",
@@ -255,7 +270,7 @@
    "speaker": "C",
    "hu": "Igen, a nagymamám receptje. Kóstolja meg, de vigyázzon, forró.",
    "rd": "이겐, 어 너지머맘 레체프트예. 코슈톨여 멕, 데 비자존, 포로.",
-   "ko": "네, 우리 할머니 레시피예요. 드셔 봐요, 뜨거우니 조심하고요.",
+   "ko": "네, 우리 할머니 레시피예요. 드셔 봐요, 뜨거우니 조심하세요.",
    "note": "kóstolja meg = 맛보세요",
    "tags": [],
    "emotion": "gentle",
@@ -290,27 +305,22 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Hű, ez nagyon finom! Még soha nem ettem ilyen jót.",
-   "rd": "휘, 에즈 너죤 피놈! 멕 쇼허 넴 에뗌 이옌 요트.",
-   "ko": "와, 정말 맛있어요! 이렇게 맛있는 건 처음이에요.",
+   "hu": "Hú, ez isteni! Még soha nem ettem ilyen finomat.",
+   "rd": "후, 에즈 이슈테니! 멕 쇼허 넴 에뗌 이옌 피노머트.",
+   "ko": "와, 진짜 맛있어요! 이렇게 맛있는 건 처음이에요.",
    "note": "még soha = 아직 한 번도",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
-     "Hű",
-     "hű",
+     "Hú",
+     "hú",
      ""
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "finom",
-     "finom",
-     "피놈"
+     "isteni",
+     "isteni",
+     ""
     ],
     [
      "soha",
@@ -323,17 +333,17 @@
      ""
     ],
     [
-     "jót",
-     "jó",
-     "요"
+     "finomat",
+     "finom",
+     "피놈"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "C",
-   "hu": "Örülök. Kér még egy tányérral?",
-   "rd": "외륄뢱. 케르 멕 에지 타네럴?",
+   "hu": "Örülök neki. Kér még egy tányérral?",
+   "rd": "외륄뢱 네키. 케르 멕 에지 타네럴?",
    "ko": "다행이네요. 한 그릇 더 드릴까요?",
    "note": "kér = (존대) 원하세요",
    "tags": [],
@@ -386,9 +396,9 @@
   {
    "num": 11,
    "speaker": "C",
-   "hu": "Annak örülök. De kér még levest, vagy nem?",
-   "rd": "언넉 외륄뢱. 데 케르 멕 레베슈트, 버지 넴?",
-   "ko": "그거 다행이네요. 근데 국 더 드실 거예요, 말 거예요?",
+   "hu": "Annak örülök. De a levesből kér még, vagy nem?",
+   "rd": "언넉 외륄뢱. 데 어 레베슈뵐 케르 멕, 버지 넴?",
+   "ko": "그거 다행이네요. 근데 국은 더 드실 거예요?",
    "note": "annak örülök = 그거 다행이다",
    "tags": [],
    "emotion": "amused",
@@ -399,6 +409,11 @@
      "외뢰"
     ],
     [
+     "levesből",
+     "leves",
+     ""
+    ],
+    [
      "kér",
      "kér",
      "께르"
@@ -407,11 +422,6 @@
      "még",
      "még",
      "메그"
-    ],
-    [
-     "levest",
-     "leves",
-     ""
     ]
    ]
   },
@@ -450,9 +460,9 @@
   {
    "num": 13,
    "speaker": "A",
-   "hu": "Igen, jóllaktam! Bocsánat, ez a két szó még összekeveredik.",
-   "rd": "이겐, 욜럭텀! 보차너트, 에즈 어 케트 쏘 멕 외쎄케베레딕.",
-   "ko": "네, 배불러요! 죄송해요, 이 두 말이 아직 헷갈려요.",
+   "hu": "Igen, jóllaktam! Bocs, ez a két szó még mindig összekeveredik.",
+   "rd": "이겐, 욜럭텀! 보치, 에즈 어 케트 쏘 멕 민딕 외쎄케베레딕.",
+   "ko": "네, 배불러요! 죄송해요, 이 두 말이 아직도 헷갈려요.",
    "note": "összekeveredik = 섞인다",
    "tags": [],
    "emotion": "flustered",
@@ -478,6 +488,11 @@
      "메그"
     ],
     [
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
      "összekeveredik",
      "összekeveredik",
      ""
@@ -489,7 +504,7 @@
    "speaker": "C",
    "hu": "Semmi baj. Tudod mit, tegeződjünk, Éva vagyok.",
    "rd": "셈미 버이. 투도드 미트, 테게죄드윈크, 에버 버죡.",
-   "ko": "괜찮아요. 그럼 우리 말 놓자, 나는 에바야.",
+   "ko": "괜찮아요. 있잖아, 우리 말 놓자, 나는 에바야.",
    "note": "tegeződjünk = 서로 말 놓자",
    "tags": [
     "expr:Semmi baj",
@@ -517,9 +532,9 @@
   {
    "num": 15,
    "speaker": "A",
-   "hu": "Rendben, Éva! Akkor kér, izé, kérsz egy kis kenyeret?",
-   "rd": "렌드벤, 에버! 어꼬르 케르, 이제, 케르쓰 에지 키시 케네레트?",
-   "ko": "알겠어요, 에바! 그럼 빵 좀 드… 어, 먹을래?",
+   "hu": "Rendben, Éva! Akkor kérsz, izé, egy kis kenyeret?",
+   "rd": "렌드벤, 에버! 어꼬르 케르쓰, 이제, 에지 키시 케네레트?",
+   "ko": "알겠어요, 에바! 그럼 빵 좀, 어, 먹을래?",
    "note": "kérsz = (반말) 원해",
    "tags": [
     "expr:Izé"
@@ -532,7 +547,7 @@
      "렌드"
     ],
     [
-     "kér",
+     "kérsz",
      "kér",
      "께르"
     ],
@@ -556,9 +571,9 @@
   {
    "num": 16,
    "speaker": "B",
-   "hu": "Látod, anya? Két perc, és már ő kínál minket a saját asztalunknál.",
-   "rd": "라토드, 어녀? 케트 페르츠, 에시 마르 외 키날 민케트 어 셔야트 어쓰털룬크날.",
-   "ko": "봐, 엄마? 2분 만에 벌써 우리 식탁에서 우리한테 음식을 권해.",
+   "hu": "Látod, anya? Két perc alatt már ő kínál minket a saját asztalunknál.",
+   "rd": "라토드, 어녀? 케트 페르츠 얼러트 마르 외 키날 민케트 어 셔야트 어쓰털룬크날.",
+   "ko": "봐, 엄마? 2분 만에 벌써 우리 식탁에서 우리한테 권해.",
    "note": "kínál = 권한다",
    "tags": [],
    "emotion": "amused",
@@ -569,7 +584,7 @@
     ],
     [
      "teasing",
-     "Két perc, és már ő kínál minket a saját asztalunknál."
+     "Két perc alatt már ő kínál minket a saját asztalunknál."
     ]
    ],
    "lemmas": [

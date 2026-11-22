@@ -10,9 +10,9 @@
  "domain": [
   "study"
  ],
- "title": "시험 보러 왔는데",
+ "title": "시험인 줄 알고 뛰어왔는데",
  "emoji": "📝",
- "scene": "밤새 공부하고 헐레벌떡 강의실에 들어왔다. 선생님 표정이 이상하다",
+ "scene": "밤새 문법만 파고 헐레벌떡 강의실에 들어왔다. 선생님 표정이 영 이상하다",
  "speakers": {
   "A": "{name}",
   "B": "Tanár",
@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Elnézést a késésért! Elkezdődött már a vizsga?",
-   "rd": "엘네제슈트 어 케세세르트! 엘케즈되되트 마르 어 비지거?",
-   "ko": "늦어서 죄송합니다! 시험 벌써 시작했나요?",
+   "hu": "Elnézést a késésért! Már elkezdődött a vizsga?",
+   "rd": "엘네제슈트 어 케세세르트! 마르 엘케즈되되트 어 비지거?",
+   "ko": "늦어서 죄송해요! 시험 벌써 시작했어요?",
    "note": "késés = 늦음",
    "tags": [
     "expr:Elnézést"
@@ -52,9 +52,9 @@
      ""
     ],
     [
-     "már",
-     "már",
-     "마르"
+     "elkezdődött",
+     "elkezdődik",
+     ""
     ],
     [
      "vizsga",
@@ -66,9 +66,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Jó reggelt. Milyen vizsga?",
-   "rd": "요 렉겔트. 미옌 비지거?",
-   "ko": "좋은 아침이에요. 무슨 시험이요?",
+   "hu": "Jó reggelt. Milyen vizsgáról beszél?",
+   "rd": "요 렉겔트. 미옌 비지가롤 베쎌?",
+   "ko": "좋은 아침입니다. 무슨 시험을 말씀하시는 거죠?",
    "note": "milyen = 어떤",
    "tags": [],
    "emotion": "surprised",
@@ -84,24 +84,29 @@
      "렉겔"
     ],
     [
-     "vizsga",
+     "vizsgáról",
      "vizsga",
      ""
+    ],
+    [
+     "beszél",
+     "beszél",
+     "베쎌"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "A nyelvtanvizsga. Egész éjjel tanultam!",
-   "rd": "어 넬브턴비지거. 에게쓰 에옐 터눌텀!",
-   "ko": "문법 시험이요. 밤새 공부했어요!",
+   "hu": "A nyelvtanvizsgáról! Egész éjjel tanultam rá.",
+   "rd": "어 넬브턴비지가롤! 에게쓰 에옐 터눌텀 라.",
+   "ko": "문법 시험이요! 밤새 공부했어요.",
    "note": "egész éjjel = 밤새",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "nyelvtanvizsga",
+     "nyelvtanvizsgáról",
      "nyelvtanvizsga",
      ""
     ],
@@ -120,9 +125,9 @@
   {
    "num": 4,
    "speaker": "C",
-   "hu": "Szia! Miért vagy ilyen sápadt?",
-   "rd": "씨어! 미에르트 버지 이옌 샤퍼드트?",
-   "ko": "안녕! 왜 이렇게 창백해?",
+   "hu": "Szia! Miért vagy ilyen sápadt, komolyan?",
+   "rd": "씨어! 미에르트 버지 이옌 샤퍼드트, 코모연?",
+   "ko": "안녕! 진짜 왜 이렇게 창백해?",
    "note": "sápadt = 창백한",
    "tags": [],
    "emotion": "surprised",
@@ -136,15 +141,20 @@
      "sápadt",
      "sápad",
      ""
+    ],
+    [
+     "komolyan",
+     "komoly",
+     "코모이"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Három órát aludtam. Te nem izgulsz?",
-   "rd": "하롬 오라트 얼루드텀. 테 넴 이즈굴쓰?",
-   "ko": "세 시간 잤어. 넌 안 떨려?",
+   "hu": "Három órát aludtam csak. Te nem izgulsz?",
+   "rd": "하롬 오라트 얼루드텀 척. 테 넴 이즈굴쓰?",
+   "ko": "세 시간밖에 못 잤어. 넌 안 떨려?",
    "note": "izgulsz = 떨린다",
    "tags": [],
    "emotion": "worried",
@@ -160,6 +170,11 @@
      ""
     ],
     [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
      "izgulsz",
      "izgul",
      ""
@@ -169,10 +184,10 @@
   {
    "num": 6,
    "speaker": "C",
-   "hu": "Miért izgulnék? Ma csak olvasás lesz.",
-   "rd": "미에르트 이즈굴넥? 머 척 올버샤시 레쓰.",
-   "ko": "내가 왜 떨려? 오늘은 그냥 읽기 수업인데.",
-   "note": "izgulnék = 떨릴까(조건법)",
+   "hu": "Miért izgulnék? Ma csak olvasás van, mindegy.",
+   "rd": "미에르트 이즈굴넥? 머 척 올버샤시 번, 민데지.",
+   "ko": "내가 왜 떨려? 오늘은 그냥 읽기 수업인데, 상관없어.",
+   "note": "izgulnék = 떨릴까",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
@@ -197,9 +212,14 @@
      ""
     ],
     [
-     "lesz",
-     "lesz",
-     "레쓰"
+     "van",
+     "van",
+     "번"
+    ],
+    [
+     "mindegy",
+     "mindegy",
+     "민데지"
     ]
    ]
   },
@@ -208,7 +228,7 @@
    "speaker": "B",
    "hu": "A nyelvtanvizsga jövő kedden lesz, {name}.",
    "rd": "어 넬브턴비지거 요뵈 케덴 레쓰, {name}.",
-   "ko": "문법 시험은 다음 주 화요일이에요, {name} 씨.",
+   "ko": "문법 시험은 다음 주 화요일입니다, {name} 씨.",
    "note": "jövő kedd = 다음 주 화요일",
    "tags": [],
    "emotion": "gentle",
@@ -275,9 +295,9 @@
   {
    "num": 9,
    "speaker": "C",
-   "hu": "Mutasd. Ez a jövő heti oldal, nem a mostani!",
-   "rd": "무터슈드. 에즈 어 요뵈 헤티 올덜, 넴 어 모슈터니!",
-   "ko": "보여 줘. 이거 다음 주 페이지야, 이번 주가 아니라!",
+   "hu": "Mutasd már. Ez a jövő heti oldal, nem a mostani!",
+   "rd": "무터슈드 마르. 에즈 어 요뵈 헤티 올덜, 넴 어 모슈터니!",
+   "ko": "보여 줘 봐. 이거 다음 주 페이지야, 이번 주가 아니라!",
    "note": "jövő heti = 다음 주의",
    "tags": [],
    "emotion": "tsukkomi",
@@ -286,6 +306,11 @@
      "Mutasd",
      "mutasd",
      "무터슈트"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ],
     [
      "jövő",
@@ -363,7 +388,7 @@
    "speaker": "B",
    "hu": "Szuper. Akkor ma Ön olvas fel elsőként.",
    "rd": "쑤페르. 어꼬르 머 왼 올버시 펠 엘쇠켄트.",
-   "ko": "좋아요. 그럼 오늘은 {name} 씨가 제일 먼저 낭독해요.",
+   "ko": "좋아요. 그럼 오늘은 {name} 씨가 제일 먼저 낭독하세요.",
    "note": "felolvas = 소리 내어 읽다",
    "tags": [
     "expr:Szuper"

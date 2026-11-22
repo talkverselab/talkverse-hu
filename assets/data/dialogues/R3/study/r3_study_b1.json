@@ -70,8 +70,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Persze. Mit akarsz kérni tőle?",
-   "rd": "페르쎄. 미트 어커르쓰 케르니 퇼레?",
+   "hu": "Persze. Mit akarsz tőle kérni?",
+   "rd": "페르쎄. 미트 어커르쓰 퇼레 케르니?",
    "ko": "물론. 뭘 부탁하려고?",
    "note": "tőle = 그에게서",
    "tags": [
@@ -131,8 +131,8 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Oké. Hogyan kezdted?",
-   "rd": "오케. 호젼 케즈드테드?",
+   "hu": "Oké. Hogyan kezdted el?",
+   "rd": "오케. 호젼 케즈드테드 엘?",
    "ko": "오케이. 어떻게 시작했어?",
    "note": "hogyan = 어떻게",
    "tags": [],
@@ -147,6 +147,11 @@
      "kezdted",
      "kezd",
      "케즈드"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
     ]
    ]
   },

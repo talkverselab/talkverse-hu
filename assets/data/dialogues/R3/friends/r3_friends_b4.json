@@ -84,17 +84,17 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó, menni fog. Gyakoroltam otthon.",
-   "rd": "요, 멘니 폭. 져코롤텀 오트혼.",
+   "hu": "Oké, menni fog. Otthon gyakoroltam.",
+   "rd": "오케, 멘니 폭. 오트혼 져코롤텀.",
    "ko": "좋아, 할 수 있어. 집에서 연습했어.",
    "note": "gyakoroltam = 연습했다",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
      "menni",
@@ -107,9 +107,9 @@
      "포그"
     ],
     [
-     "otthon",
-     "otthon",
-     "오트혼"
+     "gyakoroltam",
+     "gyakorol",
+     ""
     ]
    ]
   },
@@ -148,9 +148,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Szia, Bence! Egy nagy tejeskávét kérek, zabtejjel.",
-   "rd": "씨어, 벤체! 에지 너지 테예슈카베트 케렉, 저브테옐.",
-   "ko": "안녕, 벤체! 큰 라테 하나 줘, 귀리 우유로.",
+   "hu": "Szia, Bence! Egy nagy tejeskávét kérek zabtejjel.",
+   "rd": "씨어, 벤체! 에지 너지 테예슈카베트 케렉 저브테옐.",
+   "ko": "안녕, 벤체! 큰 라테 하나, 귀리 우유로.",
    "note": "zabtej = 귀리 우유",
    "tags": [
     "expr:Na"
@@ -187,9 +187,9 @@
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Okay, large latte with oat milk. Anything else?",
-   "rd": "오커이, 러르게 러떼 비트흐 오어트 밀크. 어니트힌그 엘세?",
-   "ko": "오케이, 귀리 라테 큰 거. 또 필요한 거?(또 영어)",
+   "hu": "Okay, large oat latte. Anything else?",
+   "rd": "오커이, 러르게 오어트 러떼. 어니트힌그 엘세?",
+   "ko": "오케이, 귀리 라테 큰 거. 또?(또 영어)",
    "note": "끝까지 영어",
    "tags": [],
    "emotion": "cheerful",
@@ -205,23 +205,13 @@
      ""
     ],
     [
-     "latte",
-     "latte",
-     ""
-    ],
-    [
-     "with",
-     "with",
-     ""
-    ],
-    [
      "oat",
      "oat",
      ""
     ],
     [
-     "milk",
-     "milk",
+     "latte",
+     "latte",
      ""
     ],
     [
@@ -234,8 +224,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Bence, kérlek, magyarul! Gyakorolni szeretnék.",
-   "rd": "벤체, 케를렉, 머져룰! 져코롤니 쎄레트넥.",
+   "hu": "Bence, kérlek, magyarul! Gyakorolni akarok.",
+   "rd": "벤체, 케를렉, 머져룰! 져코롤니 어커록.",
    "ko": "벤체, 제발 헝가리어로! 연습하고 싶어.",
    "note": "gyakorolni = 연습하다",
    "tags": [],
@@ -257,9 +247,9 @@
      ""
     ],
     [
-     "szeretnék",
-     "szeret",
-     "쎄레트"
+     "akarok",
+     "akar",
+     "어커르"
     ]
    ]
   },
@@ -376,8 +366,8 @@
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Ügyes vagy! De Bence, te miért váltasz mindig angolra?",
-   "rd": "위제시 버지! 데 벤체, 테 미에르트 발터쓰 민딕 언골러?",
+   "hu": "Ügyes! De Bence, te miért váltasz mindig angolra?",
+   "rd": "위제시! 데 벤체, 테 미에르트 발터쓰 민딕 언골러?",
    "ko": "잘했어! 근데 벤체, 너는 왜 맨날 영어로 바꿔?",
    "note": "váltasz = 바꾼다",
    "tags": [],
@@ -460,7 +450,7 @@
    "hu": "Szóval rajtam gyakoroltál?!",
    "rd": "쏘벌 러이텀 져코롤탈?!",
    "ko": "그러니까 나를 상대로 연습한 거야?!",
-   "note": "rajtam = 나에게(나를 상대로)",
+   "note": "rajtam = 나에게",
    "tags": [
     "expr:Szóval"
    ],
@@ -481,8 +471,8 @@
   {
    "num": 14,
    "speaker": "C",
-   "hu": "Pontosan: te magyarul gyakorolsz, én angolul. Jó üzlet, nem?",
-   "rd": "폰토션: 테 머져룰 져코롤쓰, 엔 언골룰. 요 위즐레트, 넴?",
+   "hu": "Pontosan. Te magyarul, én angolul. Jó üzlet, nem?",
+   "rd": "폰토션. 테 머져룰, 엔 언골룰. 요 위즐레트, 넴?",
    "ko": "바로 그거. 너는 헝가리어, 나는 영어. 괜찮은 거래지?",
    "note": "üzlet = 거래",
    "tags": [],
@@ -496,11 +486,6 @@
     [
      "magyarul",
      "magyar",
-     ""
-    ],
-    [
-     "gyakorolsz",
-     "gyakorol",
      ""
     ],
     [
@@ -518,8 +503,8 @@
   {
    "num": 15,
    "speaker": "A",
-   "hu": "Rendben. De akkor a pogácsa ingyen van.",
-   "rd": "렌드벤. 데 어꼬르 어 포가처 인젠 번.",
+   "hu": "Rendben. De akkor a pogácsa ingyen.",
+   "rd": "렌드벤. 데 어꼬르 어 포가처 인젠.",
    "ko": "좋아. 대신 포가차는 공짜다.",
    "note": "ingyen = 공짜로",
    "tags": [],
@@ -544,19 +529,14 @@
      "ingyen",
      "ingyen",
      ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
     ]
    ]
   },
   {
    "num": 16,
    "speaker": "C",
-   "hu": "Neked holnap is ingyen van. Gyere vissza.",
-   "rd": "네케드 홀너프 이시 인젠 번. 제레 비써.",
+   "hu": "Neked holnap is ingyen. Gyere vissza.",
+   "rd": "네케드 홀너프 이시 인젠. 제레 비써.",
    "ko": "너한텐 내일도 공짜야. 또 와.",
    "note": "gyere vissza = 다시 와",
    "tags": [
@@ -573,11 +553,6 @@
      "ingyen",
      "ingyen",
      ""
-    ],
-    [
-     "van",
-     "van",
-     "번"
     ],
     [
      "vissza",
