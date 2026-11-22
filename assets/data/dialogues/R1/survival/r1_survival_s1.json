@@ -34,7 +34,7 @@
    "hu": "Jó napot! Mit kér?",
    "rd": "요 너포트! 미트 케르?",
    "ko": "안녕하세요! 뭐 드릴까요?",
-   "note": "Mit kér? = 뭐 드릴까요?(존댓말)",
+   "note": "Mit kér = 뭐 드릴까요",
    "tags": [
     "expr:Jó napot"
    ],
@@ -63,7 +63,7 @@
    "hu": "Jó napot! Egy kávét kérek.",
    "rd": "요 너포트! 에지 카베트 케렉.",
    "ko": "안녕하세요! 커피 한 잔 주세요.",
-   "note": "kávét kérek = 커피 주세요(-t 목적격)",
+   "note": "kérek = 주세요",
    "tags": [
     "expr:Jó napot",
     "expr:kérek"
@@ -169,7 +169,7 @@
    "hu": "Igen, igen.",
    "rd": "이겐, 이겐.",
    "ko": "네, 네.",
-   "note": "못 알아들어도 일단 igen",
+   "note": "igen = 네",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
@@ -186,7 +186,7 @@
    "hu": "Tessék: nagy karamellás kávé tejszínhabbal. Kétezer forint.",
    "rd": "테쎅: 너지 커러멜라시 카베 테이씬허벌. 케테제르 포린트.",
    "ko": "여기요, 휘핑크림 올린 캐러멜 커피 큰 거요. 2천 포린트입니다.",
-   "note": "tessék = 여기 있어요",
+   "note": "Tessék = 여기 있어요",
    "tags": [
     "expr:Tessék"
    ],

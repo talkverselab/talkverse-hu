@@ -34,9 +34,9 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Kétezer-négyszáz lesz.",
-   "rd": "케테제르-네지싸즈 레쓰.",
-   "ko": "2,400포린트야.",
+   "hu": "Kétezer-négyszáz forint lesz.",
+   "rd": "케테제르-네지싸즈 포린트 레쓰.",
+   "ko": "2,400포린트입니다.",
    "note": "kétezer-négyszáz = 2,400",
    "tags": [],
    "emotion": "polite",
@@ -49,6 +49,11 @@
     [
      "négyszáz",
      "négyszáz",
+     ""
+    ],
+    [
+     "forint",
+     "forint",
      ""
     ],
     [
@@ -90,9 +95,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Nem, nem. Én hívtalak meg.",
-   "rd": "넴, 넴. 엔 히브털럭 멕.",
-   "ko": "아니, 아니. 내가 초대했잖아.",
+   "hu": "Nem, ne. Én hívtalak meg.",
+   "rd": "넴, 네. 엔 히브털럭 멕.",
+   "ko": "아니, 그러지 마. 내가 초대했잖아.",
    "note": "meghívtalak = 내가 너를 초대했다",
    "tags": [],
    "emotion": "gentle",
@@ -136,7 +141,7 @@
    "speaker": "C",
    "hu": "Már ki van fizetve.",
    "rd": "마르 키 번 피제트베.",
-   "ko": "이미 계산돼 있어.",
+   "ko": "이미 계산돼 있습니다.",
    "note": "ki van fizetve = 계산되어 있다",
    "tags": [],
    "emotion": "amused",
@@ -166,10 +171,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Tessék? Ki fizette?",
-   "rd": "테쎅? 키 피제떼?",
-   "ko": "응? 누가 냈어?",
-   "note": "ki fizette? = 누가 그걸 냈어?",
+   "hu": "Tessék? Ki fizette ki?",
+   "rd": "테쎅? 키 피제떼 키?",
+   "ko": "네? 누가 냈어요?",
+   "note": "ki fizette? = 누가 냈어?",
    "tags": [
     "expr:Tessék?"
    ],
@@ -184,6 +189,11 @@
      "fizette",
      "fizet",
      "피제트"
+    ],
+    [
+     "ki",
+     "ki",
+     "키"
     ]
    ]
   },
@@ -192,7 +202,7 @@
    "speaker": "C",
    "hu": "A hölgy, amikor bejött.",
    "rd": "어 횔지, 어미코르 베요트.",
-   "ko": "이분이, 들어올 때.",
+   "ko": "이 분이, 들어오실 때요.",
    "note": "amikor bejött = 들어왔을 때",
    "tags": [],
    "emotion": "teasing",

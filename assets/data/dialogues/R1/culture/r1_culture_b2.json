@@ -31,8 +31,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szombaton koncert lesz a koncertteremben. Eljössz?",
-   "rd": "쏨버톤 콘체르트 레쓰 어 콘체르떼렘벤. 엘요쓰?",
+   "hu": "Szombaton koncert a koncertteremben. Eljössz?",
+   "rd": "쏨버톤 콘체르트 어 콘체르떼렘벤. 엘요쓰?",
    "ko": "토요일에 콘서트홀에서 콘서트 있어. 올래?",
    "note": "Eljössz? = 올래?",
    "tags": [],
@@ -49,11 +49,6 @@
      ""
     ],
     [
-     "lesz",
-     "lesz",
-     "레쓰"
-    ],
-    [
      "koncertteremben",
      "koncertterem",
      ""
@@ -63,8 +58,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Szívesen! Milyen zene?",
-   "rd": "씨베센! 미옌 제네?",
+   "hu": "Szívesen! Milyen zene lesz?",
+   "rd": "씨베센! 미옌 제네 레쓰?",
    "ko": "좋지! 무슨 음악이야?",
    "note": "szívesen = 기꺼이",
    "tags": [
@@ -81,15 +76,20 @@
      "zene",
      "zene",
      "제네"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Klasszikus. Hegedű és zongora.",
-   "rd": "클러씨쿠시. 헤게뒤 에시 존고러.",
-   "ko": "클래식. 바이올린이랑 피아노.",
+   "hu": "Klasszikus zene. Hegedű, zongora.",
+   "rd": "클러씨쿠시 제네. 헤게뒤, 존고러.",
+   "ko": "클래식 음악. 바이올린, 피아노.",
    "note": "hegedű = 바이올린",
    "tags": [],
    "emotion": "gentle",
@@ -98,6 +98,11 @@
      "Klasszikus",
      "klasszikus",
      ""
+    ],
+    [
+     "zene",
+     "zene",
+     "제네"
     ],
     [
      "zongora",
@@ -109,10 +114,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Szuper. Megveszem a jegyeket online.",
-   "rd": "쑤페르. 멕베쎔 어 예제케트 온리네.",
-   "ko": "좋다. 내가 온라인으로 표 살게.",
-   "note": "megveszem = (그것을) 산다",
+   "hu": "Szuper. Én megveszem online.",
+   "rd": "쑤페르. 엔 멕베쎔 온리네.",
+   "ko": "좋다. 내가 온라인으로 살게.",
+   "note": "megveszem = 산다",
    "tags": [
     "expr:Szuper"
    ],
@@ -124,9 +129,9 @@
      "쑤페르"
     ],
     [
-     "jegyeket",
-     "jegy",
-     ""
+     "megveszem",
+     "megvesz",
+     "메그베스"
     ],
     [
      "online",
@@ -138,9 +143,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Siess, gyorsan elfogynak!",
-   "rd": "시에시, 죠르션 엘포지넉!",
-   "ko": "서둘러, 금방 매진돼!",
+   "hu": "Siess! Gyorsan elfogynak.",
+   "rd": "시에시! 죠르션 엘포지넉.",
+   "ko": "서둘러! 금방 매진돼.",
    "note": "elfogy = 다 떨어지다",
    "tags": [],
    "emotion": "worried",
@@ -149,11 +154,6 @@
      "Siess",
      "siet",
      "시에트"
-    ],
-    [
-     "gyorsan",
-     "gyors",
-     "죠르시"
     ],
     [
      "elfogynak",
@@ -165,9 +165,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Kész! Két jegy, harmadik sor, szombat.",
-   "rd": "케쓰! 케트 예지, 허르머딕 쇼르, 쏨버트.",
-   "ko": "됐다! 두 장, 셋째 줄, 토요일.",
+   "hu": "Kész! Két jegy a harmadik sorba.",
+   "rd": "케쓰! 케트 예지 어 허르머딕 쇼르버.",
+   "ko": "됐다! 두 장, 셋째 줄로.",
    "note": "sor = 줄",
    "tags": [],
    "emotion": "excited",
@@ -183,34 +183,29 @@
      ""
     ],
     [
-     "sor",
+     "sorba",
      "sor",
      "쇼르"
-    ],
-    [
-     "szombat",
-     "szombat",
-     "솜바트"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Ügyes! De várj, ez a jövő hónap!",
-   "rd": "위제시! 데 바르이, 에즈 어 요뵈 호너프!",
-   "ko": "잘했어! 근데 잠깐, 이거 다음 달이잖아!",
+   "hu": "Ügyes vagy! De várj, jövő hónap!",
+   "rd": "위제시 버지! 데 바르이, 요뵈 호너프!",
+   "ko": "잘했어! 근데 잠깐, 다음 달이야!",
    "note": "jövő hónap = 다음 달",
    "tags": [],
    "emotion": "cheerful",
    "segs": [
     [
      "cheerful",
-     "Ügyes!"
+     "Ügyes vagy!"
     ],
     [
      "surprised",
-     "De várj, ez a jövő hónap!"
+     "De várj, jövő hónap!"
     ]
    ],
    "lemmas": [
@@ -239,9 +234,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Jaj! Hát, legalább van időnk készülni.",
-   "rd": "여이! 하트, 레걸라브 번 이된크 케쓀니.",
-   "ko": "아! 음, 적어도 준비할 시간은 있네.",
+   "hu": "Jaj! Hát, legalább készülünk.",
+   "rd": "여이! 하트, 레걸라브 케쓀륀크.",
+   "ko": "아! 음, 적어도 준비할 수 있네.",
    "note": "legalább = 적어도",
    "tags": [
     "expr:Hát"
@@ -254,7 +249,7 @@
     ],
     [
      "amused",
-     "Hát, legalább van időnk készülni."
+     "Hát, legalább készülünk."
     ]
    ],
    "lemmas": [
@@ -269,17 +264,7 @@
      "레걸랍"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "időnk",
-     "időnk",
-     "이되크"
-    ],
-    [
-     "készülni",
+     "készülünk",
      "készül",
      "케쓸"
     ]

@@ -59,7 +59,7 @@
    "hu": "Igen, tej. Hozol egyet?",
    "rd": "이겐, 테이. 호졸 에제트?",
    "ko": "응, 우유. 하나 사다 줄래?",
-   "note": "hozol = 가져올래(사 올래)",
+   "note": "hozol = 사 올래",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -81,7 +81,7 @@
    "hu": "Persze. Zsíros vagy light?",
    "rd": "페르쎄. 지로시 버지 릭흐트?",
    "ko": "그럼. 일반 우유, 저지방?",
-   "note": "zsíros = 기름진(일반 우유)",
+   "note": "zsíros = 일반 우유",
    "tags": [
     "expr:Persze"
    ],

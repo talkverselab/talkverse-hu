@@ -35,10 +35,10 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Szia! Mit kérsz ma?",
-   "rd": "씨어! 미트 케르쓰 머?",
-   "ko": "안녕! 오늘 뭐 마실래?",
-   "note": "mit kérsz? = 뭐 줄까?",
+   "hu": "Szia! Mit kérsz?",
+   "rd": "씨어! 미트 케르쓰?",
+   "ko": "안녕! 뭐 마실래?",
+   "note": "mit kérsz = 뭐 줄까",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -51,19 +51,14 @@
      "kérsz",
      "kér",
      "께르"
-    ],
-    [
-     "ma",
-     "ma",
-     "머"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Egy kapucsínót, légyszi.",
-   "rd": "에지 커푸치노트, 레지씨.",
+   "hu": "Kapucsínót, légyszi.",
+   "rd": "커푸치노트, 레지씨.",
    "ko": "카푸치노 하나, 부탁해.",
    "note": "légyszi = 부탁해",
    "tags": [
@@ -72,7 +67,7 @@
    "emotion": "polite",
    "lemmas": [
     [
-     "kapucsínót",
+     "Kapucsínót",
      "kapucsínó",
      ""
     ],
@@ -86,9 +81,9 @@
   {
    "num": 3,
    "speaker": "C",
-   "hu": "És a barátnőd mit kér?",
-   "rd": "에시 어 버라트뇌드 미트 케르?",
-   "ko": "그리고 여자친구는 뭐 마셔?",
+   "hu": "A barátnőd mit kér?",
+   "rd": "어 버라트뇌드 미트 케르?",
+   "ko": "여자친구는 뭐 마셔?",
    "note": "barátnő = 여자친구",
    "tags": [],
    "emotion": "cheerful",
@@ -108,9 +103,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Izé... nem a barátnőm. Csak...",
-   "rd": "이제... 넴 어 버라트뇜. 척...",
-   "ko": "어… 여자친구 아니야. 그냥…",
+   "hu": "Izé... nem a barátnőm. Csak barát.",
+   "rd": "이제... 넴 어 버라트뇜. 척 버라트.",
+   "ko": "어… 여자친구 아니야. 그냥 친구.",
    "note": "izé = 어, 그게",
    "tags": [
     "expr:Izé"
@@ -126,15 +121,20 @@
      "barátnőm",
      "barátnőm",
      ""
+    ],
+    [
+     "barát",
+     "barát",
+     "버랏"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Bocsi, félreértettem.",
-   "rd": "보치, 펠레에르테뗌.",
-   "ko": "미안, 잘못 알았네.",
+   "hu": "Bocsi! Félreértettem.",
+   "rd": "보치! 펠레에르테뗌.",
+   "ko": "미안! 잘못 알았네.",
    "note": "félreértettem = 오해했다",
    "tags": [
     "expr:Bocsi"
@@ -145,11 +145,6 @@
      "Bocsi",
      "bocsi",
      "보치"
-    ],
-    [
-     "félreértettem",
-     "félreért",
-     ""
     ]
    ]
   },
@@ -164,6 +159,16 @@
     "expr:Semmi baj"
    ],
    "emotion": "shy",
+   "segs": [
+    [
+     "shy",
+     "Semmi baj."
+    ],
+    [
+     "gentle",
+     "Még nem."
+    ]
+   ],
    "lemmas": [
     [
      "baj",
@@ -175,10 +180,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Még? Mit jelent az, hogy még?",
-   "rd": "멕? 미트 옐렌트 어즈, 호지 멕?",
-   "ko": "아직? '아직'이 무슨 뜻이야?",
-   "note": "mit jelent? = 무슨 뜻이야?",
+   "hu": "Még? Az mit jelent?",
+   "rd": "멕? 어즈 미트 옐렌트?",
+   "ko": "아직? 그게 무슨 뜻이야?",
+   "note": "mit jelent = 무슨 뜻이야",
    "tags": [],
    "emotion": "surprised",
    "segs": [
@@ -188,7 +193,7 @@
     ],
     [
      "flustered",
-     "Mit jelent az, hogy még?"
+     "Az mit jelent?"
     ]
    ],
    "lemmas": [
@@ -207,15 +212,15 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Egy citromos teát kérek, Bence.",
-   "rd": "에지 치트로모시 테아트 케렉, 벤체.",
+   "hu": "Citromos teát kérek, Bence.",
+   "rd": "치트로모시 테아트 케렉, 벤체.",
    "ko": "레몬차 하나 줘, 벤체.",
    "note": "citromos = 레몬을 넣은",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "citromos",
+     "Citromos",
      "citromos",
      ""
     ],

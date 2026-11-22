@@ -100,9 +100,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Tejfölt és sajtot. Fokhagyma is kell!",
-   "rd": "테이푈트 에시 셔이토트. 폭허지머 이시 켈!",
-   "ko": "사워크림이랑 치즈. 마늘도 꼭!",
+   "hu": "Tejfölt meg sajtot. Fokhagyma is kell rá!",
+   "rd": "테이푈트 멕 셔이토트. 폭허지머 이시 켈 라!",
+   "ko": "사워크림이랑 치즈. 마늘도 꼭 올려!",
    "note": "tejföl = 사워크림",
    "tags": [],
    "emotion": "cheerful",
@@ -129,7 +129,7 @@
    "speaker": "A",
    "hu": "Oké, akkor én is azt kérek.",
    "rd": "오케, 어꼬르 엔 이시 어즈트 케렉.",
-   "ko": "오케이, 그럼 나도 그거.",
+   "ko": "오케이, 그럼 나도 그거로.",
    "note": "azt = 그것을",
    "tags": [],
    "emotion": "cheerful",
@@ -198,7 +198,7 @@
    "speaker": "A",
    "hu": "Réka, ez a sor nagyon lassú.",
    "rd": "레커, 에즈 어 쇼르 너죤 러쓔.",
-   "ko": "레카, 이 줄 엄청 느려.",
+   "ko": "레카, 이 줄 진짜 느려.",
    "note": "sor = 줄",
    "tags": [
     "expr:Na"

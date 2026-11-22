@@ -32,17 +32,22 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ajánlok egy sorozatot! Magyar krimi.",
-   "rd": "어얀록 에지 쇼로저토트! 머져르 크리미.",
-   "ko": "시리즈 하나 추천할게! 헝가리 범죄물.",
-   "note": "sorozat = 시리즈, 드라마",
+   "hu": "Figyelj, ajánlok egy sorozatot! Magyar krimi.",
+   "rd": "피젤이, 어얀록 에지 쇼로저토트! 머져르 크리미.",
+   "ko": "들어봐, 드라마 하나 추천할게! 헝가리 범죄물.",
+   "note": "sorozat = 시리즈",
    "tags": [],
    "at": "19:40",
    "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Ajánlok",
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "ajánlok",
      "ajánl",
      "어야안"
     ],
@@ -64,7 +69,7 @@
    "hu": "Hány rész?",
    "rd": "하니 레쓰?",
    "ko": "몇 화야?",
-   "note": "rész = 화, 편",
+   "note": "rész = 화",
    "tags": [],
    "at": "19:42",
    "emotion": "gentle",
@@ -82,7 +87,7 @@
    "speaker": "B",
    "hu": "Csak nyolc. Egy hétvége. 😄",
    "rd": "척 뇰츠. 에지 헤트베게. 😄",
-   "ko": "겨우 여덟 개. 주말 하나면 끝. 😄",
+   "ko": "겨우 여덟 편. 주말 하나면 끝. 😄",
    "note": "csak = 겨우",
    "tags": [],
    "at": "19:42",
@@ -107,7 +112,7 @@
    "hu": "Oké, ma elkezdem.",
    "rd": "오케, 머 엘케즈뎀.",
    "ko": "오케이, 오늘 시작할게.",
-   "note": "elkezdem = (그것을) 시작한다",
+   "note": "elkezdem = 시작할게",
    "tags": [
     "expr:Oké"
    ],
@@ -159,7 +164,7 @@
    "hu": "Hahó? 👀",
    "rd": "허호? 👀",
    "ko": "여보세요? 👀",
-   "note": "hahó = 여보세요, 저기요",
+   "note": "hahó = 여보세요",
    "tags": [],
    "at": "00:45",
    "emotion": "worried",

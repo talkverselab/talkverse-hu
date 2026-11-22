@@ -13,7 +13,7 @@
  ],
  "title": "구경만 하려고 했는데",
  "emoji": "💃",
- "scene": "Réka 가 민속춤 모임(táncház)에 가자고 한다. 구경만 할 생각이었다",
+ "scene": "Réka가 민속춤 모임(táncház)에 가자고 한다. 구경만 할 생각이었다",
  "speakers": {
   "A": "{name}",
   "B": "Réka",
@@ -33,20 +33,15 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ma este táncház van. Eljössz?",
-   "rd": "머 에슈테 탄츠하즈 번. 엘요쓰?",
+   "hu": "Este táncház van. Eljössz?",
+   "rd": "에슈테 탄츠하즈 번. 엘요쓰?",
    "ko": "오늘 저녁 민속춤 모임 있어. 올래?",
    "note": "táncház = 민속춤 모임",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
-     "Ma",
-     "ma",
-     "머"
-    ],
-    [
-     "este",
+     "Este",
      "este",
      "에슈테"
     ],

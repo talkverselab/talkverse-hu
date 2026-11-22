@@ -109,7 +109,7 @@
    "hu": "És Dávidot, Annát, meg Petit.",
    "rd": "에시 다비도트, 언나트, 멕 페티트.",
    "ko": "그리고 다비드, 안나, 페티도.",
-   "note": "meg = 그리고(구어)",
+   "note": "meg = 그리고",
    "tags": [],
    "emotion": "excited",
    "lemmas": []
@@ -120,7 +120,7 @@
    "hu": "Hű, öt ember tíz dobozra?",
    "rd": "휘, 외트 엠베르 티즈 도보즈러?",
    "ko": "와, 상자 열 개에 다섯 명?",
-   "note": "-ra/-re = ~에 대해",
+   "note": "-ra/-re = ~에",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [

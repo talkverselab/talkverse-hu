@@ -31,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó napot! Mi a panasza?",
-   "rd": "요 너포트! 미 어 퍼너써?",
-   "ko": "안녕하세요! 어디가 불편하세요?",
-   "note": "panasz = 불편(증상)",
+   "hu": "Jó napot! Miért jött, mi a panasza?",
+   "rd": "요 너포트! 미에르트 요트, 미 어 퍼너써?",
+   "ko": "안녕하세요! 왜 오셨어요, 어디가 불편하세요?",
+   "note": "panasz = 증상",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -49,6 +49,11 @@
      "넙"
     ],
     [
+     "jött",
+     "jön",
+     "왼"
+    ],
+    [
      "panasza",
      "panasza",
      ""
@@ -58,10 +63,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Fáj a torkom, és köhögök.",
-   "rd": "파이 어 토르콤, 에시 쾨회괵.",
-   "ko": "목이 아프고 기침이 나요.",
-   "note": "köhögök = 기침한다",
+   "hu": "Fáj a torkom, és sokat köhögök.",
+   "rd": "파이 어 토르콤, 에시 쇼커트 쾨회괵.",
+   "ko": "목이 아프고 많이 기침해요.",
+   "note": "köhögök = 기침해요",
    "tags": [
     "expr:Fáj a torkom"
    ],
@@ -87,9 +92,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Mióta? Van láza?",
-   "rd": "미오터? 번 라저?",
-   "ko": "언제부터요? 열은 있어요?",
+   "hu": "Mióta? Van láza is?",
+   "rd": "미오터? 번 라저 이시?",
+   "ko": "언제부터요? 열도 있어요?",
    "note": "láz = 열",
    "tags": [
     "expr:Mióta?"
@@ -106,8 +111,8 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Hát, két napja. Láz nincs.",
-   "rd": "하트, 케트 너프여. 라즈 닌치.",
+   "hu": "Hát két napja. Lázam nincs.",
+   "rd": "하트 케트 너프여. 라점 닌치.",
    "ko": "음, 이틀 됐어요. 열은 없어요.",
    "note": "két napja = 이틀 전부터",
    "tags": [],
@@ -155,10 +160,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Jaj, otthon felejtettem.",
-   "rd": "여이, 오트혼 펠레이테뗌.",
+   "hu": "Jaj, otthon hagytam.",
+   "rd": "여이, 오트혼 허지텀.",
    "ko": "아이고, 집에 두고 왔어요.",
-   "note": "felejtettem = 잊어버렸다",
+   "note": "hagytam = 두고 왔다",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
@@ -173,9 +178,9 @@
      "오트혼"
     ],
     [
-     "felejtettem",
-     "felejt",
-     "펠레이트"
+     "hagytam",
+     "hagy",
+     "허지"
     ]
    ]
   },
@@ -185,7 +190,7 @@
    "hu": "Nem baj, a száma is jó. Tudja?",
    "rd": "넴 버이, 어 싸머 이시 요. 투드여?",
    "ko": "괜찮아요, 번호만 알아도 돼요. 아세요?",
-   "note": "a száma = 그 번호",
+   "note": "száma = 번호",
    "tags": [
     "expr:Nem baj"
    ],
@@ -211,9 +216,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Igen! Az is otthon van, a kártyán.",
-   "rd": "이겐! 어즈 이시 오트혼 번, 어 카르탼.",
-   "ko": "네! 그것도 집에 있어요, 카드에요.",
+   "hu": "Igen! De az is otthon van a kártyán.",
+   "rd": "이겐! 데 어즈 이시 오트혼 번 어 카르탼.",
+   "ko": "네! 근데 그것도 집에 카드에 있어요.",
    "note": "az is = 그것도",
    "tags": [],
    "emotion": "cheerful",
@@ -224,7 +229,7 @@
     ],
     [
      "flustered",
-     "Az is otthon van, a kártyán."
+     "De az is otthon van a kártyán."
     ]
    ],
    "lemmas": [

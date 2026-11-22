@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Csókolom! Köszönöm a meghívást.",
-   "rd": "초콜롬! 쾨쐬뇜 어 멕히바슈트.",
-   "ko": "안녕하세요! 초대해 주셔서 감사합니다.",
+   "hu": "Csókolom! Nagyon köszönöm a meghívást.",
+   "rd": "초콜롬! 너죤 쾨쐬뇜 어 멕히바슈트.",
+   "ko": "안녕하세요! 초대해 주셔서 정말 감사합니다.",
    "note": "Csókolom = 어른께 하는 인사",
    "tags": [],
    "emotion": "polite",
@@ -43,6 +43,11 @@
      "Csókolom",
      "csókol",
      ""
+    ],
+    [
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
     ],
     [
      "meghívást",
@@ -54,9 +59,9 @@
   {
    "num": 2,
    "speaker": "C",
-   "hu": "Szervusz! Gyere, ülj le, kész az ebéd.",
-   "rd": "쎄르부쓰! 제레, 윌이 레, 케쓰 어즈 에베드.",
-   "ko": "어서 와! 와서 앉아, 점심 다 됐어.",
+   "hu": "Szervusz! Gyere, ülj le! Kész az ebéd.",
+   "rd": "쎄르부쓰! 제레, 윌이 레! 케쓰 어즈 에베드.",
+   "ko": "어서 와! 와서 앉아! 점심 다 됐어.",
    "note": "ülj le = 앉아",
    "tags": [
     "expr:Gyere"
@@ -79,11 +84,6 @@
      "레"
     ],
     [
-     "kész",
-     "kész",
-     "케스"
-    ],
-    [
      "ebéd",
      "ebéd",
      ""
@@ -93,8 +93,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Nagyi mindig sokat főz. Vigyázz!",
-   "rd": "너지 민딕 쇼커트 푀즈. 비자즈!",
+   "hu": "Nagyi mindig sokat csinál. Vigyázz!",
+   "rd": "너지 민딕 쇼커트 치날. 비자즈!",
    "ko": "할머니는 늘 많이 하셔. 조심해!",
    "note": "nagyi = 할머니(친근하게)",
    "tags": [],
@@ -111,18 +111,18 @@
      "민딕"
     ],
     [
-     "főz",
-     "főz",
-     ""
+     "csinál",
+     "csi",
+     "치"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "C",
-   "hu": "Egyél, egyél! Itt a sonka és a tojás.",
-   "rd": "에젤, 에젤! 이트 어 숀커 에시 어 토야시.",
-   "ko": "먹어, 먹어! 햄이랑 달걀 여기 있어.",
+   "hu": "Egyél, egyél! Sonka és tojás.",
+   "rd": "에젤, 에젤! 숀커 에시 토야시.",
+   "ko": "먹어, 먹어! 햄이랑 달걀.",
    "note": "egyél = 먹어",
    "tags": [
     "expr:Egyél"
@@ -135,11 +135,6 @@
      "에식"
     ],
     [
-     "sonka",
-     "sonka",
-     ""
-    ],
-    [
      "tojás",
      "tojás",
      ""
@@ -149,9 +144,9 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Nagyon finom! Köszönöm szépen.",
-   "rd": "너죤 피놈! 쾨쐬뇜 쎄펜.",
-   "ko": "정말 맛있어요! 정말 감사합니다.",
+   "hu": "Nagyon finom! Köszönöm.",
+   "rd": "너죤 피놈! 쾨쐬뇜.",
+   "ko": "정말 맛있어요! 감사합니다.",
    "note": "finom = 맛있는",
    "tags": [],
    "emotion": "polite",
@@ -165,19 +160,14 @@
      "finom",
      "finom",
      "피놈"
-    ],
-    [
-     "szépen",
-     "szép",
-     "쎕"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "C",
-   "hu": "Még egy kicsit? Alig ettél valamit!",
-   "rd": "멕 에지 키치트? 얼릭 에뗄 벌러미트!",
+   "hu": "Még egy kicsit? Alig ettél!",
+   "rd": "멕 에지 키치트? 얼릭 에뗄!",
    "ko": "조금 더? 거의 안 먹었잖아!",
    "note": "alig = 거의 ~ 않다",
    "tags": [],
@@ -203,9 +193,9 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Jaj, köszönöm, de már jóllaktam.",
-   "rd": "여이, 쾨쐬뇜, 데 마르 욜럭텀.",
-   "ko": "아, 감사하지만 벌써 배불러요.",
+   "hu": "Jaj, köszönöm, de jóllaktam.",
+   "rd": "여이, 쾨쐬뇜, 데 욜럭텀.",
+   "ko": "아, 감사하지만 배불러요.",
    "note": "jóllaktam = 배부르다",
    "tags": [
     "expr:Jaj"
@@ -223,11 +213,6 @@
      "쾨쇠니"
     ],
     [
-     "már",
-     "már",
-     "마르"
-    ],
-    [
      "jóllaktam",
      "jóllakik",
      ""
@@ -237,20 +222,15 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Jó, akkor most jön a sütemény!",
-   "rd": "요, 어꼬르 모슈트 욘 어 쉬테메니!",
-   "ko": "그래, 그럼 이제 케이크 나온다!",
+   "hu": "Akkor most a sütemény!",
+   "rd": "어꼬르 모슈트 어 쉬테메니!",
+   "ko": "그럼 이제 케이크!",
    "note": "sütemény = 케이크, 과자",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
-    ],
-    [
-     "akkor",
+     "Akkor",
      "akkor",
      "어꼬르"
     ],
@@ -258,11 +238,6 @@
      "most",
      "most",
      "모슈트"
-    ],
-    [
-     "jön",
-     "jön",
-     "왼"
     ],
     [
      "sütemény",

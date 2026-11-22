@@ -36,7 +36,7 @@
    "hu": "Sziasztok! Ki jön ma moziba? 🎬",
    "rd": "씨어쓰톡! 키 욘 머 모지버? 🎬",
    "ko": "얘들아! 오늘 누구 영화 보러 갈래? 🎬",
-   "note": "sziasztok = 얘들아(여럿에게 인사)",
+   "note": "sziasztok = 얘들아",
    "tags": [
     "expr:Ki jön",
     "expr:Sziasztok"
@@ -136,7 +136,7 @@
    "hu": "És Annát meg Petit. 😄",
    "rd": "에시 언나트 멕 페티트. 😄",
    "ko": "그리고 안나랑 페티도. 😄",
-   "note": "meg = ~랑(구어)",
+   "note": "meg = ~랑",
    "tags": [],
    "at": "18:07",
    "emotion": "excited",

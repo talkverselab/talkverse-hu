@@ -31,22 +31,27 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Van két jegyem egy koncertre.",
-   "rd": "번 케트 예젬 에지 콘체르트레.",
-   "ko": "콘서트 표가 두 장 있어.",
+   "hu": "Figyelj, két jegyem van koncertre.",
+   "rd": "피젤이, 케트 예젬 번 콘체르트레.",
+   "ko": "있어봐, 콘서트 표 두 장 있어.",
    "note": "jegy = 표",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Van",
-     "van",
-     "번"
+     "Figyelj",
+     "figyel",
+     "피겔"
     ],
     [
      "jegyem",
      "jegyem",
      ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ],
     [
      "koncertre",
@@ -58,9 +63,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Komolyan? Milyen koncert?",
-   "rd": "코모연? 미옌 콘체르트?",
-   "ko": "진짜? 무슨 콘서트?",
+   "hu": "Komolyan? Milyen zenekar?",
+   "rd": "코모연? 미옌 제네커르?",
+   "ko": "진짜? 무슨 밴드?",
    "note": "komolyan? = 진짜?",
    "tags": [
     "expr:Komolyan"
@@ -73,8 +78,8 @@
      "코모이"
     ],
     [
-     "koncert",
-     "koncert",
+     "zenekar",
+     "zenekar",
      ""
     ]
    ]
@@ -82,15 +87,15 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Egy magyar rockzenekar. Jössz?",
-   "rd": "에지 머져르 로측제네커르. 요쓰?",
-   "ko": "헝가리 록밴드. 올래?",
+   "hu": "Magyar rockzenekar. Jössz?",
+   "rd": "머져르 로측제네커르. 요쓰?",
+   "ko": "헝가리 록밴드야. 올래?",
    "note": "Jössz? = 올래?",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "magyar",
+     "Magyar",
      "magyar",
      ""
     ],
@@ -104,9 +109,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Naná! Mikor?",
-   "rd": "너나! 미코르?",
-   "ko": "당연하지! 언제?",
+   "hu": "Naná! Mikor van?",
+   "rd": "너나! 미코르 번?",
+   "ko": "당연하지! 언제야?",
    "note": "naná = 당연하지",
    "tags": [
     "expr:Naná"
@@ -117,26 +122,26 @@
      "Naná",
      "naná",
      ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Pénteken este nyolckor.",
-   "rd": "펜테켄 에슈테 뇰츠코르.",
-   "ko": "금요일 저녁 여덟 시.",
+   "hu": "Este nyolckor, pénteken.",
+   "rd": "에슈테 뇰츠코르, 펜테켄.",
+   "ko": "저녁 여덟 시, 금요일.",
    "note": "pénteken = 금요일에",
    "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Pénteken",
-     "péntek",
-     ""
-    ],
-    [
-     "este",
+     "Este",
      "este",
      "에슈테"
     ],
@@ -144,15 +149,20 @@
      "nyolckor",
      "nyolckor",
      ""
+    ],
+    [
+     "pénteken",
+     "péntek",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Mennyibe kerül a jegy?",
-   "rd": "메니베 케륄 어 예지?",
-   "ko": "표 얼마야?",
+   "hu": "Mennyibe kerül?",
+   "rd": "메니베 케륄?",
+   "ko": "얼마야?",
    "note": "Mennyibe kerül? = 얼마야?",
    "tags": [],
    "emotion": "gentle",
@@ -161,24 +171,24 @@
      "kerül",
      "kerül",
      "케륄"
-    ],
-    [
-     "jegy",
-     "jegy",
-     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Semmibe. A bátyám adta.",
-   "rd": "셈미베. 어 바턈 어드터.",
-   "ko": "공짜야. 우리 오빠가 줬어.",
-   "note": "semmibe = 공짜(아무 값도 아닌)",
+   "hu": "Semmibe kerül. A bátyám adta.",
+   "rd": "셈미베 케륄. 어 바턈 어드터.",
+   "ko": "공짜야. 오빠가 줬어.",
+   "note": "semmibe = 공짜",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
+    [
+     "kerül",
+     "kerül",
+     "케륄"
+    ],
     [
      "bátyám",
      "bátya",
@@ -194,9 +204,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Várj, ma péntek van! Már hét óra!",
-   "rd": "바르이, 머 펜텍 번! 마르 헤트 오러!",
-   "ko": "잠깐, 오늘 금요일이잖아! 벌써 일곱 시야!",
+   "hu": "Várj, ma van péntek! Már hét!",
+   "rd": "바르이, 머 번 펜텍! 마르 헤트!",
+   "ko": "잠깐, 오늘이 금요일이잖아! 벌써 일곱 시!",
    "note": "ma = 오늘",
    "tags": [
     "expr:Várj"
@@ -205,11 +215,11 @@
    "segs": [
     [
      "surprised",
-     "Várj, ma péntek van!"
+     "Várj, ma van péntek!"
     ],
     [
      "shout",
-     "Már hét óra!"
+     "Már hét!"
     ]
    ],
    "lemmas": [
@@ -224,14 +234,14 @@
      "머"
     ],
     [
-     "péntek",
-     "péntek",
-     ""
-    ],
-    [
      "van",
      "van",
      "번"
+    ],
+    [
+     "péntek",
+     "péntek",
+     ""
     ],
     [
      "hét",

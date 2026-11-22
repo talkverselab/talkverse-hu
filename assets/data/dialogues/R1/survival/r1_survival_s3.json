@@ -66,7 +66,7 @@
    "hu": "A patika? Menjen egyenesen, aztán balra.",
    "rd": "어 퍼티커? 멘옌 에제네센, 어즈탄 벌러.",
    "ko": "약국이요? 쭉 가다가 왼쪽이요.",
-   "note": "menjen = 가세요(존댓말), patika = 약국(구어)",
+   "note": "Menjen = 가세요",
    "tags": [
     "expr:Menjen"
    ],
@@ -100,7 +100,7 @@
    "hu": "Dehogy balra! Jobbra van, a posta mellett.",
    "rd": "데호지 벌러! 요브러 번, 어 포슈터 멜레트.",
    "ko": "무슨 왼쪽이야! 오른쪽이지, 우체국 옆.",
-   "note": "dehogy = 천만에, 아니지",
+   "note": "dehogy = 천만에",
    "tags": [],
    "emotion": "annoyed",
    "lemmas": [
@@ -132,7 +132,7 @@
    "hu": "Ugyan, Feri! Az a régi patika volt.",
    "rd": "우젼, 페리! 어즈 어 레기 퍼티커 볼트.",
    "ko": "아이고, 페리! 그건 옛날 약국이고.",
-   "note": "ugyan = 아이고, 무슨 소리",
+   "note": "ugyan = 아이고",
    "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
@@ -215,7 +215,7 @@
    "hu": "Jöjjön velünk, mi is oda megyünk.",
    "rd": "요왼 벨륀크, 미 이시 오더 메쥔크.",
    "ko": "우리랑 같이 가요, 우리도 거기 가요.",
-   "note": "jöjjön = 오세요(존댓말)",
+   "note": "jöjjön = 오세요",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [

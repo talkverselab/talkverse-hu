@@ -34,7 +34,7 @@
    "speaker": "B",
    "hu": "Elfogytak a jegyek a koncertre! 😭",
    "rd": "엘포지턱 어 예젝 어 콘체르트레! 😭",
-   "ko": "콘서트 표 매진됐어! 😭",
+   "ko": "콘서트 표 다 팔렸어! 😭",
    "note": "elfogytak = 다 떨어졌다",
    "tags": [],
    "at": "10:02",
@@ -102,7 +102,7 @@
    "hu": "Durva. Sajnálom.",
    "rd": "두르버. 셔이날롬.",
    "ko": "심하다. 안됐다.",
-   "note": "durva = 심하다, 대박",
+   "note": "durva = 심하다",
    "tags": [
     "expr:Durva"
    ],
@@ -177,7 +177,7 @@
    "speaker": "B",
    "hu": "MI VAN?! Komolyan?",
    "rd": "미 번?! 코모연?",
-   "ko": "뭐?! 진짜?",
+   "ko": "뭐라고?! 진짜?",
    "note": "mi van? = 뭐야?",
    "tags": [
     "expr:Mi van"

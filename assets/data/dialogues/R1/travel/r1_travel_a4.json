@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó estét! Segíthetek?",
-   "rd": "요 에슈테트! 세기트헤텍?",
-   "ko": "안녕하세요! 도와드릴까요?",
+   "hu": "Jó estét! Miben segíthetek?",
+   "rd": "요 에슈테트! 미벤 세기트헤텍?",
+   "ko": "안녕하세요! 무엇을 도와드릴까요?",
    "note": "segíthetek = 도와드릴까요",
    "tags": [
     "expr:Jó estét"
@@ -49,15 +49,20 @@
      "estét",
      "este",
      "에슈테"
+    ],
+    [
+     "segíthetek",
+     "segít",
+     "셰기트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó estét! Foglalásom van.",
-   "rd": "요 에슈테트! 폭럴라숌 번.",
-   "ko": "안녕하세요! 예약했어요.",
+   "hu": "Jó estét! Van foglalásom.",
+   "rd": "요 에슈테트! 번 폭럴라숌.",
+   "ko": "안녕하세요! 예약이 있어요.",
    "note": "foglalás = 예약",
    "tags": [
     "expr:Jó estét"
@@ -75,18 +80,18 @@
      "에슈테"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "foglalásom",
+     "foglalás",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Milyen névre?",
-   "rd": "미옌 네브레?",
-   "ko": "어떤 이름으로요?",
+   "hu": "Milyen névre van?",
+   "rd": "미옌 네브레 번?",
+   "ko": "어떤 이름으로 되어 있어요?",
    "note": "névre = 이름으로",
    "tags": [],
    "emotion": "polite",
@@ -95,14 +100,19 @@
      "névre",
      "név",
      "네브"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "{name} néven. Tessék, itt van.",
-   "rd": "{name} 네벤. 테쎅, 이트 번.",
+   "hu": "{name} néven. Tessék, itt a papír.",
+   "rd": "{name} 네벤. 테쎅, 이트 어 퍼피르.",
    "ko": "{name}(으)로요. 여기 있어요.",
    "note": "néven = ~라는 이름으로",
    "tags": [],
@@ -119,9 +129,9 @@
      "이트"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "papír",
+     "papír",
+     "퍼피르"
     ]
    ]
   },
@@ -130,7 +140,7 @@
    "speaker": "B",
    "hu": "Hm. Ez a foglalás holnapra szól.",
    "rd": "흠. 에즈 어 폭럴라시 홀너프러 쏠.",
-   "ko": "음. 이 예약은 내일 날짜인데요.",
+   "ko": "음. 이 예약은 내일 날짜네요.",
    "note": "holnapra szól = 내일 것이다",
    "tags": [],
    "emotion": "worried",

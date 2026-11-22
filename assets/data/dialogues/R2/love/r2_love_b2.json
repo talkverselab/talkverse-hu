@@ -38,8 +38,8 @@
    "speaker": "A",
    "hu": "Réka, jövő héten Anna születésnapja. Mit vegyek neki?",
    "rd": "레커, 요뵈 헤텐 언너 쓀레테슈너프여. 미트 베젝 네키?",
-   "ko": "레카, 다음 주 언너 생일이야. 뭘 사 주지?",
-   "note": "mit vegyek? = 뭘 살까?",
+   "ko": "레카, 다음 주 안나 생일이야. 뭘 사 주지?",
+   "note": "mit vegyek = 뭘 살까",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
@@ -73,9 +73,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Gyere, a bolhapiacon mindig van valami jó.",
-   "rd": "제레, 어 볼허피어촌 민딕 번 벌러미 요.",
-   "ko": "따라와, 벼룩시장엔 늘 뭔가 좋은 게 있어.",
+   "hu": "Gyere, a bolhapiacon mindig akad valami jó.",
+   "rd": "제레, 어 볼허피어촌 민딕 어커드 벌러미 요.",
+   "ko": "따라와, 벼룩시장엔 늘 괜찮은 게 있어.",
    "note": "bolhapiac = 벼룩시장",
    "tags": [],
    "emotion": "cheerful",
@@ -96,9 +96,9 @@
      "민딕"
     ],
     [
-     "van",
-     "van",
-     "번"
+     "akad",
+     "akad",
+     ""
     ],
     [
      "jó",
@@ -147,7 +147,7 @@
    "hu": "Virágot mindenki vesz. Nézd, ez a régi festékdoboz!",
    "rd": "비라고트 민덴키 베쓰. 네즈드, 에즈 어 레기 페슈텍도보즈!",
    "ko": "꽃은 다들 사. 봐, 이 오래된 물감 상자!",
-   "note": "festékdoboz = 물감 상자",
+   "note": "nézd = 봐",
    "tags": [
     "expr:Nézd"
    ],
@@ -181,7 +181,7 @@
    "hu": "Hű, de szép. Elnézést, mennyibe kerül?",
    "rd": "휘, 데 쎄프. 엘네제슈트, 메니베 케륄?",
    "ko": "와, 예쁘다. 실례합니다, 얼마예요?",
-   "note": "mennyibe kerül? = 얼마예요?",
+   "note": "mennyibe kerül = 얼마예요",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -207,8 +207,8 @@
    "speaker": "C",
    "hu": "Nyolcezer forint. Nagyon régi, a nagyapámé volt.",
    "rd": "뇰체제르 포린트. 너죤 레기, 어 너져파메 볼트.",
-   "ko": "8천 포린트요. 아주 오래된 거예요, 우리 할아버지 거였어요.",
-   "note": "a nagyapámé = 우리 할아버지의 것",
+   "ko": "8천 포린트요. 아주 오래된 거예요, 할아버지 거였어요.",
+   "note": "a nagyapámé = 할아버지의 것",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -245,7 +245,7 @@
    "hu": "Hát, kicsit drága. Nem lehetne hatezerért?",
    "rd": "하트, 키치트 드라거. 넴 레헤트네 허테제레르트?",
    "ko": "음, 좀 비싸네요. 6천에는 안 될까요?",
-   "note": "lehetne = 될 수 있을까",
+   "note": "hatezerért = 6천에",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -281,8 +281,8 @@
    "speaker": "C",
    "hu": "Hétezer, és csak azért, mert maga kedves.",
    "rd": "헤테제르, 에시 척 어제르트, 메르트 머거 케드베시.",
-   "ko": "7천이요, 손님이 친절하셔서 그런 거예요.",
-   "note": "maga = 당신(존대)",
+   "ko": "7천이요, 손님이 친절하셔서요.",
+   "note": "maga = 당신",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
@@ -308,7 +308,7 @@
    "speaker": "B",
    "hu": "Vedd meg, jó üzlet. Amúgy tudod, miért jó ez?",
    "rd": "베드 멕, 요 위즐레트. 어무지 투도드, 미에르트 요 에즈?",
-   "ko": "사, 좋은 거래야. 그나저나 이게 왜 좋은지 알아?",
+   "ko": "사, 괜찮은 거래야. 그나저나 이게 왜 좋은지 알아?",
    "note": "amúgy = 그나저나",
    "tags": [
     "expr:Amúgy"
@@ -347,8 +347,8 @@
    "speaker": "A",
    "hu": "Mert Anna szeret festeni?",
    "rd": "메르트 언너 쎄레트 페슈테니?",
-   "ko": "언너가 그림 그리는 걸 좋아해서?",
-   "note": "festeni = 그리다(물감으로)",
+   "ko": "안나가 그림 그리는 걸 좋아해서?",
+   "note": "festeni = 그리다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -369,7 +369,7 @@
    "speaker": "B",
    "hu": "Mert múlt héten Anna is ezt nézte itt, fél óráig.",
    "rd": "메르트 물트 헤텐 언너 이시 에즈트 네즈테 이트, 펠 오라익.",
-   "ko": "지난주에 언너도 여기서 이걸 30분 동안 봤거든.",
+   "ko": "지난주에 안나도 여기서 이걸 30분 동안 봤거든.",
    "note": "fél óráig = 30분 동안",
    "tags": [],
    "emotion": "amused",
@@ -412,7 +412,7 @@
    "hu": "Komolyan? Akkor jó, hogy nem vette meg.",
    "rd": "코모연? 어꼬르 요, 호지 넴 베떼 멕.",
    "ko": "진짜? 그럼 안 사서 다행이다.",
-   "note": "megvette = 그걸 샀다",
+   "note": "komolyan = 진짜",
    "tags": [
     "expr:Komolyan?"
    ],

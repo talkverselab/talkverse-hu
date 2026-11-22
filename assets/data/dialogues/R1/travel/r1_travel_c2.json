@@ -13,7 +13,7 @@
  ],
  "title": "시계 밑에서",
  "emoji": "🕰️",
- "scene": "동역에서 Réka 와 만나기로 했다. 기차 시간이 다가오는데 답이 없다",
+ "scene": "동역에서 Réka와 만나기로 했다. 기차 시간이 다가오는데 답이 없다",
  "speakers": {
   "A": "{name}",
   "B": "Réka"
@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Megérkeztem a Keletibe. Te hol vagy?",
-   "rd": "메게르케즈템 어 켈레티베. 테 홀 버지?",
-   "ko": "동역 도착했어. 너 어디야?",
+   "hu": "Na, megjöttem a Keletibe. Hol vagy te?",
+   "rd": "너, 멕요뗌 어 켈레티베. 홀 버지 테?",
+   "ko": "나, 동역 도착했어. 너 어디야?",
    "note": "Keleti = 동역(켈레티)",
    "tags": [],
    "at": "09:40",
@@ -42,24 +42,24 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Megérkeztem",
-     "megérkezik",
-     "메게르케직"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "hol",
-     "hol",
-     "홀"
+     "megjöttem",
+     "megjön",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "A nagy óra alatt várok.",
-   "rd": "어 너지 오러 얼러트 바록.",
+   "hu": "A nagy óra alatt várlak.",
+   "rd": "어 너지 오러 얼러트 바를럭.",
    "ko": "큰 시계 밑에서 기다릴게.",
-   "note": "alatt = ~ 아래",
+   "note": "alatt = ~아래",
    "tags": [],
    "at": "09:41",
    "read": false,
@@ -72,19 +72,19 @@
      "너지"
     ],
     [
-     "várok",
-     "vár",
-     "바르"
+     "várlak",
+     "várlak",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Réka? Tíz perc múlva indul a vonat!",
-   "rd": "레커? 티즈 페르츠 물버 인둘 어 보너트!",
-   "ko": "레카? 10분 뒤에 기차 출발해!",
-   "note": "múlva = ~ 후에",
+   "hu": "Figyelj, tíz perc múlva indul a vonat!",
+   "rd": "피젤이, 티즈 페르츠 물버 인둘 어 보너트!",
+   "ko": "있잖아, 10분 뒤에 기차 출발해!",
+   "note": "múlva = ~후에",
    "tags": [],
    "at": "09:50",
    "read": false,
@@ -92,9 +92,9 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Réka",
-     "réka",
-     ""
+     "Figyelj",
+     "figyel",
+     "피겔"
     ],
     [
      "perc",
@@ -116,10 +116,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Hívlak! 📞",
-   "rd": "히블럭! 📞",
-   "ko": "전화할게! 📞",
-   "note": "hívlak = 너한테 전화할게",
+   "hu": "Hívom is már! 📞",
+   "rd": "히봄 이시 마르! 📞",
+   "ko": "지금 전화할게! 📞",
+   "note": "hívom = 전화할게",
    "tags": [],
    "at": "09:52",
    "read": false,
@@ -127,18 +127,23 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Hívlak",
-     "hívlak",
-     ""
+     "Hívom",
+     "hív",
+     "히브"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Bocsi! A metróban nincs térerő.",
-   "rd": "보치! 어 메트로번 닌치 테레뢰.",
-   "ko": "미안! 지하철에선 신호가 안 터져.",
+   "hu": "Bocsi! A metróban nulla térerő.",
+   "rd": "보치! 어 메트로번 눌러 테레뢰.",
+   "ko": "미안! 지하철에 신호 완전 없어.",
    "note": "térerő = (휴대폰) 신호",
    "tags": [
     "expr:Bocsi"
@@ -158,9 +163,9 @@
      ""
     ],
     [
-     "nincs",
-     "nincs",
-     "닌치"
+     "nulla",
+     "nulla",
+     ""
     ],
     [
      "térerő",
@@ -172,8 +177,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Hol vagy most?",
-   "rd": "홀 버지 모슈트?",
+   "hu": "Most hol vagy?",
+   "rd": "모슈트 홀 버지?",
    "ko": "지금 어디야?",
    "note": "most = 지금",
    "tags": [],
@@ -182,14 +187,14 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Hol",
-     "hol",
-     "홀"
-    ],
-    [
-     "most",
+     "Most",
      "most",
      "모슈트"
+    ],
+    [
+     "hol",
+     "hol",
+     "홀"
     ]
    ]
   },
@@ -209,8 +214,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Ne már! A vonat innen megy!",
-   "rd": "네 마르! 어 보너트 인넨 메지!",
+   "hu": "Ne már! A vonat innen indul!",
+   "rd": "네 마르! 어 보너트 인넨 인둘!",
    "ko": "아이 참! 기차는 여기서 출발한다고!",
    "note": "innen = 여기서부터",
    "tags": [
@@ -236,9 +241,9 @@
      "인넨"
     ],
     [
-     "megy",
-     "megy",
-     "메지"
+     "indul",
+     "indul",
+     "인둘"
     ]
    ]
   }

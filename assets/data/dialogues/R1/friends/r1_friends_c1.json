@@ -62,9 +62,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen! Mikor?",
-   "rd": "이겐! 미코르?",
-   "ko": "응! 언제?",
+   "hu": "Igen! Mikor találkozunk?",
+   "rd": "이겐! 미코르 털랄코준크?",
+   "ko": "응! 언제 만날까?",
    "note": "mikor = 언제",
    "tags": [],
    "at": "13:24",
@@ -75,6 +75,11 @@
      "Igen",
      "igen",
      "이겐"
+    ],
+    [
+     "találkozunk",
+     "találkozik",
+     "털랄코지크"
     ]
    ]
   },
@@ -84,7 +89,7 @@
    "hu": "Fél hatkor a kávézóban?",
    "rd": "펠 허트코르 어 카베조번?",
    "ko": "반 여섯 시에 카페에서?",
-   "note": "fél hat = 5시 반(6시로 가는 절반)",
+   "note": "fél hat = 5시 반",
    "tags": [],
    "at": "13:25",
    "emotion": "cheerful",
@@ -167,8 +172,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Mi? Fél hat, az nem hat harminc?",
-   "rd": "미? 펠 허트, 어즈 넴 허트 허르민츠?",
+   "hu": "Mi? Fél hat az nem hat harminc?",
+   "rd": "미? 펠 허트 어즈 넴 허트 허르민츠?",
    "ko": "뭐? 반 여섯, 그거 6시 30분 아니야?",
    "note": "hat harminc = 6시 30분",
    "tags": [],

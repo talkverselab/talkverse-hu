@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Mi a kedvenc magyar ételed, kedvesem?",
-   "rd": "미 어 케드벤츠 머져르 에텔레드, 케드베셈?",
-   "ko": "제일 좋아하는 헝가리 음식이 뭐니, 얘야?",
+   "hu": "Mi a kedvenc ételed Magyarországról, kedvesem?",
+   "rd": "미 어 케드벤츠 에텔레드 머져로르싹롤, 케드베셈?",
+   "ko": "헝가리에서 제일 좋아하는 음식이 뭐니, 얘야?",
    "note": "kedvenc = 가장 좋아하는",
    "tags": [],
    "emotion": "gentle",
@@ -42,11 +42,6 @@
      "kedvenc",
      "kedvenc",
      "케드벤츠"
-    ],
-    [
-     "magyar",
-     "magyar",
-     ""
     ],
     [
      "ételed",
@@ -63,15 +58,15 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "A gulyás! Nagyon szeretem.",
-   "rd": "어 구야시! 너죤 쎄레템.",
+   "hu": "Gulyás! Nagyon szeretem.",
+   "rd": "구야시! 너죤 쎄레템.",
    "ko": "굴라시요! 정말 좋아해요.",
    "note": "gulyás = 굴라시",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
-     "gulyás",
+     "Gulyás",
      "gulyás",
      ""
     ],
@@ -85,10 +80,10 @@
   {
    "num": 3,
    "speaker": "C",
-   "hu": "Jó, holnap főzök gulyást. Gyertek ebédre!",
-   "rd": "요, 홀너프 푀죅 구야슈트. 제르텍 에베드레!",
+   "hu": "Jó, holnap gulyást főzök. Gyertek ebédre!",
+   "rd": "요, 홀너프 구야슈트 푀죅. 제르텍 에베드레!",
    "ko": "좋아, 내일 굴라시 끓일게. 점심 먹으러 오렴!",
-   "note": "gyertek = (너희) 와",
+   "note": "gyertek = 와",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -103,13 +98,13 @@
      "홀넙"
     ],
     [
-     "főzök",
-     "főz",
+     "gulyást",
+     "gulyás",
      ""
     ],
     [
-     "gulyást",
-     "gulyás",
+     "főzök",
+     "főz",
      ""
     ],
     [
@@ -122,9 +117,9 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Nagyi gulyása a legjobb a városban.",
-   "rd": "너지 구야셔 어 렉요브 어 바로슈번.",
-   "ko": "할머니 굴라시가 이 동네에서 제일 맛있어.",
+   "hu": "Nagyi gulyása a legjobb itt.",
+   "rd": "너지 구야셔 어 렉요브 이트.",
+   "ko": "할머니 굴라시가 여기 제일 맛있어.",
    "note": "a legjobb = 최고",
    "tags": [],
    "emotion": "cheerful",
@@ -145,31 +140,31 @@
      "요"
     ],
     [
-     "városban",
-     "város",
-     "버로슈"
+     "itt",
+     "itt",
+     "이트"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Hozok kenyeret. Vagy inkább rizst?",
-   "rd": "호족 케네레트. 버지 인카브 리지트?",
+   "hu": "Kenyeret hozok. Vagy inkább rizst?",
+   "rd": "케네레트 호족. 버지 인카브 리지트?",
    "ko": "빵 가져갈게요. 아니면 밥이 나을까?",
-   "note": "inkább = 차라리, 오히려",
+   "note": "inkább = 차라리",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
-     "Hozok",
-     "hoz",
-     "호즈"
-    ],
-    [
-     "kenyeret",
+     "Kenyeret",
      "kenyere",
      ""
+    ],
+    [
+     "hozok",
+     "hoz",
+     "호즈"
     ],
     [
      "inkább",
@@ -186,8 +181,8 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Rizst? Gulyáshoz? Miért?",
-   "rd": "리지트? 구야슈호즈? 미에르트?",
+   "hu": "Rizst gulyáshoz? Miért?",
+   "rd": "리지트 구야슈호즈? 미에르트?",
    "ko": "밥? 굴라시에? 왜?",
    "note": "-hoz = ~에 곁들여",
    "tags": [
@@ -199,15 +194,20 @@
      "Rizst",
      "rizs",
      ""
+    ],
+    [
+     "gulyáshoz",
+     "gulyás",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Hát, nálunk a gulyás sűrű, rizzsel esszük.",
-   "rd": "하트, 날룬크 어 구야시 쉬뤼, 리젤 에쒹.",
-   "ko": "음, 우리 쪽에선 굴라시가 걸쭉해서 밥이랑 먹어.",
+   "hu": "Hát, nálunk sűrű a gulyás, rizzsel.",
+   "rd": "하트, 날룬크 쉬뤼 어 구야시, 리젤.",
+   "ko": "음, 우리 쪽에선 굴라시가 걸쭉해서 밥이랑.",
    "note": "sűrű = 걸쭉한",
    "tags": [
     "expr:Hát"
@@ -220,33 +220,28 @@
      "핫"
     ],
     [
-     "gulyás",
-     "gulyás",
+     "sűrű",
+     "sűrű",
      ""
     ],
     [
-     "sűrű",
-     "sűrű",
+     "gulyás",
+     "gulyás",
      ""
     ],
     [
      "rizzsel",
      "rizs",
      ""
-    ],
-    [
-     "esszük",
-     "eszik",
-     "에식"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Az pörkölt, kedvesem! A gulyás leves, kanállal esszük.",
-   "rd": "어즈 푀르쾰트, 케드베셈! 어 구야시 레베시, 커날럴 에쒹.",
-   "ko": "그건 푀르쾰트란다, 얘야! 굴라시는 수프야, 숟가락으로 먹지.",
+   "hu": "Az pörkölt, kedvesem! Gulyás leves, kanállal esszük.",
+   "rd": "어즈 푀르쾰트, 케드베셈! 구야시 레베시, 커날럴 에쒹.",
+   "ko": "그건 푀르쾰트란다, 얘야! 굴라시는 수프야, 숟가락으로.",
    "note": "pörkölt = 걸쭉한 고기 스튜",
    "tags": [],
    "emotion": "amused",
@@ -259,11 +254,6 @@
     [
      "kedvesem",
      "kedvesem",
-     ""
-    ],
-    [
-     "gulyás",
-     "gulyás",
      ""
     ],
     [

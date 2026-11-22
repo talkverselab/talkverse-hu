@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Nincs fehér kenyér. 😕",
-   "rd": "닌치 페헤르 케네르. 😕",
-   "ko": "흰 빵이 없어. 😕",
+   "hu": "Nincs fehér kenyér sehol. 😕",
+   "rd": "닌치 페헤르 케네르 세홀. 😕",
+   "ko": "흰 빵이 어디에도 없어. 😕",
    "note": "nincs = 없다",
    "tags": [
     "expr:Nincs"
@@ -56,15 +56,20 @@
      "kenyér",
      "kenyér",
      ""
+    ],
+    [
+     "sehol",
+     "sehol",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Akkor barnát.",
-   "rd": "어꼬르 버르나트.",
-   "ko": "그럼 갈색 빵.",
+   "hu": "Akkor barnát vegyél.",
+   "rd": "어꼬르 버르나트 베젤.",
+   "ko": "그럼 갈색 빵 사.",
    "note": "akkor = 그럼",
    "tags": [
     "expr:Akkor"
@@ -82,15 +87,20 @@
      "barnát",
      "barna",
      ""
+    ],
+    [
+     "vegyél",
+     "vegyél",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Tej sincs. Kakaó jó?",
-   "rd": "테이 신치. 커커오 요?",
-   "ko": "우유도 없어. 코코아 괜찮아?",
+   "hu": "Tej sincs. Kakaó jó helyette?",
+   "rd": "테이 신치. 커커오 요 헤예떼?",
+   "ko": "우유도 없어. 대신 코코아 괜찮아?",
    "note": "sincs = ~도 없다",
    "tags": [],
    "at": "18:08",
@@ -117,9 +127,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Mindegy, valamit.",
-   "rd": "민데지, 벌러미트.",
-   "ko": "아무거나, 뭐라도.",
+   "hu": "Mindegy, valamit hozd.",
+   "rd": "민데지, 벌러미트 호즈드.",
+   "ko": "상관없어, 뭐라도 가져와.",
    "note": "mindegy = 상관없어",
    "tags": [
     "expr:Mindegy"
@@ -132,15 +142,20 @@
      "Mindegy",
      "mindegy",
      "민데지"
+    ],
+    [
+     "hozd",
+     "hoz",
+     "호즈"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Oké! És tojás? 🥚",
-   "rd": "오케! 에시 토야시? 🥚",
-   "ko": "오케이! 달걀은? 🥚",
+   "hu": "Oké! Tojás van? 🥚",
+   "rd": "오케! 토야시 번? 🥚",
+   "ko": "오케이! 달걀은 있어? 🥚",
    "note": "tojás = 달걀",
    "tags": [],
    "at": "18:10",
@@ -153,9 +168,9 @@
      "오케"
     ],
     [
-     "tojás",
-     "tojás",
-     ""
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
@@ -186,9 +201,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Csak harmincas van. Megvan, viszem! 🛒",
-   "rd": "척 허르민처시 번. 멕번, 비쎔! 🛒",
-   "ko": "30개짜리밖에 없어. 샀어, 간다! 🛒",
+   "hu": "Csak harmincas csomag van. Megvan, viszem! 🛒",
+   "rd": "척 허르민처시 초먹 번. 멕번, 비쎔! 🛒",
+   "ko": "30개 묶음밖에 없어. 샀어, 간다! 🛒",
    "note": "harmincas = 30개짜리",
    "tags": [],
    "at": "18:24",
@@ -206,6 +221,11 @@
      ""
     ],
     [
+     "csomag",
+     "csomag",
+     ""
+    ],
+    [
      "van",
      "van",
      "번"
@@ -220,10 +240,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Harminc tojás és kakaó?! Dávid!",
-   "rd": "허르민츠 토야시 에시 커커오?! 다비드!",
+   "hu": "Harminc tojás meg kakaó?! Dávid!",
+   "rd": "허르민츠 토야시 멕 커커오?! 다비드!",
    "ko": "달걀 30개에 코코아?! 다비드!",
-   "note": "és = 그리고",
+   "note": "meg = 그리고",
    "tags": [],
    "at": "18:25",
    "emotion": "tsukkomi",

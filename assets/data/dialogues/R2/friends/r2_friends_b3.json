@@ -33,7 +33,7 @@
    "speaker": "B",
    "hu": "Hoztál mindent? Törölközőt, papucsot?",
    "rd": "호즈탈 민덴트? 퇴뢸쾨죄트, 퍼푸초트?",
-   "ko": "다 챙겼어? 수건, 슬리퍼?",
+   "ko": "다 챙겼어? 수건이랑 슬리퍼?",
    "note": "papucs = 슬리퍼",
    "tags": [
     "expr:Hoztál"
@@ -55,8 +55,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Persze: fürdőruha, törölköző, papucs. Minden megvan.",
-   "rd": "페르쎄: 퓌르되루허, 퇴뢸쾨죄, 퍼푸치. 민덴 멕번.",
+   "hu": "Persze, fürdőruha, törölköző, papucs. Minden megvan.",
+   "rd": "페르쎄, 퓌르되루허, 퇴뢸쾨죄, 퍼푸치. 민덴 멕번.",
    "ko": "당연하지. 수영복, 수건, 슬리퍼. 다 있어.",
    "note": "fürdőruha = 수영복",
    "tags": [],
@@ -109,9 +109,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Sapka? Nem hideg a víz, nem?",
-   "rd": "셔프커? 넴 히덱 어 비즈, 넴?",
-   "ko": "모자? 물 안 차갑잖아, 아니야?",
+   "hu": "Sapka? A víz nem is hideg, nem?",
+   "rd": "셔프커? 어 비즈 넴 이시 히덱, 넴?",
+   "ko": "모자? 물 안 차갑잖아?",
    "note": "sapka = 모자",
    "tags": [],
    "emotion": "surprised",
@@ -122,14 +122,14 @@
      ""
     ],
     [
-     "hideg",
-     "hideg",
-     "히데그"
-    ],
-    [
      "víz",
      "víz",
      "비즈"
+    ],
+    [
+     "hideg",
+     "hideg",
+     "히데그"
     ]
    ]
   },
@@ -139,7 +139,7 @@
    "hu": "Nem a hideg miatt. Itt kötelező.",
    "rd": "넴 어 히덱 미어트. 이트 쾨텔레죄.",
    "ko": "추워서가 아니야. 여기선 필수야.",
-   "note": "kötelező = 의무인, 필수인",
+   "note": "kötelező = 필수인",
    "tags": [
     "expr:kötelező"
    ],
@@ -260,7 +260,7 @@
    "speaker": "A",
    "hu": "Rózsaszín, virágokkal?!",
    "rd": "로져씬, 비라고껄?!",
-   "ko": "분홍에, 꽃무늬까지?!",
+   "ko": "분홍에 꽃무늬까지?!",
    "note": "virágokkal = 꽃들과 함께",
    "tags": [],
    "emotion": "surprised",

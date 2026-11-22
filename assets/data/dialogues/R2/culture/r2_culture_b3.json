@@ -13,7 +13,7 @@
  ],
  "title": "두 시간 반짜리",
  "emoji": "🎞️",
- "scene": "Anna 와 영화관 매표소 앞. 무슨 영화를 볼지, 어디 앉을지 정한다",
+ "scene": "Anna와 영화관 매표소 앞. 무슨 영화를 볼지, 어디 앉을지 정한다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
@@ -63,8 +63,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Van egy magyar vígjáték és egy sci-fi.",
-   "rd": "번 에지 머져르 빅야텍 에시 에지 슈치-피.",
+   "hu": "Van egy magyar vígjáték meg egy sci-fi.",
+   "rd": "번 에지 머져르 빅야텍 멕 에지 슈치-피.",
    "ko": "헝가리 코미디 하나랑 SF 하나 있어.",
    "note": "vígjáték = 코미디",
    "tags": [],
@@ -318,7 +318,7 @@
    "hu": "Várj, te egyáltalán szereted a sci-fit?",
    "rd": "바르이, 테 에잘털란 쎄레테드 어 슈치-피트?",
    "ko": "잠깐, 너 SF 좋아하긴 해?",
-   "note": "egyáltalán = 도대체, 애초에",
+   "note": "egyáltalán = 도대체",
    "tags": [
     "expr:Várj"
    ],

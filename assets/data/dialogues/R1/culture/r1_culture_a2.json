@@ -34,9 +34,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Boldog névnapot, Anna!",
-   "rd": "볼독 네브너포트, 언너!",
-   "ko": "이름의 날 축하해, 안나!",
+   "hu": "Boldog névnapot neked!",
+   "rd": "볼독 네브너포트 네케드!",
+   "ko": "이름의 날 축하해!",
    "note": "névnap = 이름의 날",
    "tags": [],
    "emotion": "cheerful",
@@ -56,8 +56,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Jaj, köszi! Honnan tudtad?",
-   "rd": "여이, 쾨씨! 혼넌 투드터드?",
+   "hu": "Jaj, köszi! Na, honnan tudtad?",
+   "rd": "여이, 쾨씨! 너, 혼넌 투드터드?",
    "ko": "어머, 고마워! 어떻게 알았어?",
    "note": "Honnan tudtad? = 어떻게 알았어?",
    "tags": [
@@ -76,6 +76,11 @@
      "쾨씨"
     ],
     [
+     "honnan",
+     "honnan",
+     "혼넌"
+    ],
+    [
      "tudtad",
      "tud",
      "투드"
@@ -85,9 +90,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "A naptárban láttam.",
-   "rd": "어 너프타르번 라떰.",
-   "ko": "달력에서 봤어.",
+   "hu": "A naptárban volt ma.",
+   "rd": "어 너프타르번 볼트 머.",
+   "ko": "달력에 오늘이라고 나왔어.",
    "note": "naptár = 달력",
    "tags": [],
    "emotion": "amused",
@@ -98,35 +103,40 @@
      ""
     ],
     [
-     "láttam",
-     "lát",
-     "라트"
+     "volt",
+     "van",
+     "번"
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Milyen kedves! Virág is?",
-   "rd": "미옌 케드베시! 비락 이시?",
+   "hu": "De aranyos! Virág is?",
+   "rd": "데 어러뇨시! 비락 이시?",
    "ko": "정말 다정하다! 꽃도?",
    "note": "kedves = 다정한",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
-     "kedves",
-     "kedves",
-     "케드베슈"
+     "aranyos",
+     "aranyos",
+     "어러뇨시"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Igen, ez a tiéd.",
-   "rd": "이겐, 에즈 어 티에드.",
-   "ko": "응, 이거 네 거야.",
+   "hu": "Igen, neked.",
+   "rd": "이겐, 네케드.",
+   "ko": "응, 너 거야.",
    "note": "a tiéd = 네 것",
    "tags": [],
    "emotion": "shy",
@@ -141,8 +151,8 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Te vagy az első ma.",
-   "rd": "테 버지 어즈 엘쇠 머.",
+   "hu": "Te vagy ma az első.",
+   "rd": "테 버지 머 어즈 엘쇠.",
    "ko": "오늘 네가 처음이야.",
    "note": "első = 첫째",
    "tags": [],
@@ -158,8 +168,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Tényleg? Pedig már délután van.",
-   "rd": "테닐렉? 페딕 마르 델루탄 번.",
+   "hu": "Tényleg? Már délután van.",
+   "rd": "테닐렉? 마르 델루탄 번.",
    "ko": "진짜? 벌써 오후인데.",
    "note": "pedig = ~인데도",
    "tags": [
@@ -171,11 +181,6 @@
      "Tényleg",
      "tényleg",
      "테니렉"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
     ],
     [
      "délután",
@@ -192,9 +197,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Tudom. Igazából rád vártam.",
-   "rd": "투돔. 이거자볼 라드 바르텀.",
-   "ko": "알아. 사실은 너를 기다렸어.",
+   "hu": "Igen. Igazából rád vártam.",
+   "rd": "이겐. 이거자볼 라드 바르텀.",
+   "ko": "응. 사실은 너를 기다렸어.",
    "note": "rád vártam = 너를 기다렸다",
    "tags": [
     "expr:Igazából"
@@ -202,9 +207,9 @@
    "emotion": "shy",
    "lemmas": [
     [
-     "Tudom",
-     "tud",
-     "투드"
+     "Igen",
+     "igen",
+     "이겐"
     ],
     [
      "vártam",

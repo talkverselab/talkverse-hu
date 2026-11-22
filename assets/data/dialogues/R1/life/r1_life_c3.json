@@ -31,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó napot! A csomagot az ajtó elé tettem.",
-   "rd": "요 너포트! 어 초머고트 어즈 어이토 엘레 테뗌.",
-   "ko": "안녕하세요! 택배 문 앞에 두었습니다.",
-   "note": "elé = ~앞으로",
+   "hu": "Jó napot! Letettem a csomagját az ajtó elé.",
+   "rd": "요 너포트! 레테뗌 어 초먹야트 어즈 어이토 엘레.",
+   "ko": "안녕하세요! 택배를 문 앞에 두었습니다.",
+   "note": "letettem = 내려놓았다",
    "tags": [],
    "at": "11:20",
    "emotion": "polite",
@@ -51,29 +51,24 @@
      "넙"
     ],
     [
-     "csomagot",
-     "csomag",
+     "csomagját",
+     "csomagja",
      ""
     ],
     [
      "ajtó",
      "ajtó",
      "어이토"
-    ],
-    [
-     "tettem",
-     "tett",
-     "테트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Köszönöm! De itt nincs semmi.",
-   "rd": "쾨쐬뇜! 데 이트 닌치 셈미.",
-   "ko": "고맙습니다! 그런데 여기 아무것도 없는데요.",
-   "note": "semmi = 아무것도",
+   "hu": "Köszönöm szépen! De semmi sincs itt.",
+   "rd": "쾨쐬뇜 쎄펜! 데 셈미 신치 이트.",
+   "ko": "고맙습니다! 그런데 여기 아무것도 없어요.",
+   "note": "semmi sincs = 아무것도 없다",
    "tags": [],
    "at": "11:25",
    "emotion": "worried",
@@ -85,22 +80,27 @@
      "쾨쇠니"
     ],
     [
+     "szépen",
+     "szép",
+     "쎕"
+    ],
+    [
+     "sincs",
+     "sincs",
+     "신치"
+    ],
+    [
      "itt",
      "itt",
      "이트"
-    ],
-    [
-     "nincs",
-     "nincs",
-     "닌치"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Biztos? Harmadik emelet, tizenkettes ajtó.",
-   "rd": "비즈토시? 허르머딕 에멜레트, 티젠케떼시 어이토.",
+   "hu": "Biztos? A harmadik emeleten, tizenkettes ajtó.",
+   "rd": "비즈토시? 어 허르머딕 에멜레텐, 티젠케떼시 어이토.",
    "ko": "확실하세요? 3층 12호예요.",
    "note": "tizenkettes = 12번",
    "tags": [
@@ -116,7 +116,7 @@
      "비즈토슈"
     ],
     [
-     "emelet",
+     "emeleten",
      "emelet",
      ""
     ],
@@ -135,9 +135,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Én a huszonegyesben lakom!",
-   "rd": "엔 어 후쏘네제슈벤 러콤!",
-   "ko": "저는 21호에 살아요!",
+   "hu": "De én a huszonegyesben lakom!",
+   "rd": "데 엔 어 후쏘네제슈벤 러콤!",
+   "ko": "근데 저는 21호에 살아요!",
    "note": "huszonegyes = 21번",
    "tags": [],
    "at": "11:26",
@@ -159,10 +159,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Elnézést! Átmegyek érte.",
-   "rd": "엘네제슈트! 아트메젝 에르테.",
-   "ko": "죄송합니다! 가지러 건너갈게요.",
-   "note": "érte = 그것을 위해(가지러)",
+   "hu": "Elnézést! Rögtön átmegyek érte.",
+   "rd": "엘네제슈트! 뢱퇸 아트메젝 에르테.",
+   "ko": "죄송합니다! 바로 건너가서 가져올게요.",
+   "note": "érte = 그것을 위해",
    "tags": [
     "expr:Elnézést"
    ],
@@ -176,6 +176,11 @@
      "엘네제시"
     ],
     [
+     "átmegyek",
+     "átmegy",
+     ""
+    ],
+    [
      "érte",
      "ér",
      "에르"
@@ -185,9 +190,9 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "A csomag már nincs ott. 😳",
-   "rd": "어 초먹 마르 닌치 오트. 😳",
-   "ko": "택배가 벌써 없어요. 😳",
+   "hu": "Már nincs ott a csomag. 😳",
+   "rd": "마르 닌치 오트 어 초먹. 😳",
+   "ko": "택배가 이미 없어요. 😳",
    "note": "már nincs = 이제 없다",
    "tags": [],
    "at": "11:40",
@@ -195,12 +200,7 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "csomag",
-     "csomag",
-     ""
-    ],
-    [
-     "már",
+     "Már",
      "már",
      "마르"
     ],
@@ -213,6 +213,11 @@
      "ott",
      "ott",
      "오트"
+    ],
+    [
+     "csomag",
+     "csomag",
+     ""
     ]
    ]
   },
@@ -222,7 +227,7 @@
    "hu": "Jaj, a tizenkettesben Feri bácsi lakik. Megkérdezem.",
    "rd": "여이, 어 티젠케떼슈벤 페리 바치 러킥. 멕케르데젬.",
    "ko": "아이고, 12호엔 페리 아저씨가 살아요. 물어볼게요.",
-   "note": "megkérdezem = 물어볼게요",
+   "note": "Megkérdezem = 물어볼게요",
    "tags": [
     "expr:Megkérdezem"
    ],
@@ -255,9 +260,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Feri bácsi azt hitte, az övé. Már ki is bontotta. 🙃",
-   "rd": "페리 바치 어즈트 히떼, 어즈 외베. 마르 키 이시 본토떠. 🙃",
-   "ko": "페리 아저씨가 자기 건 줄 알았대요. 벌써 뜯었대요. 🙃",
+   "hu": "Feri bácsi komolyan azt hitte, az övé, és már ki is bontotta. 🙃",
+   "rd": "페리 바치 코모연 어즈트 히떼, 어즈 외베, 에시 마르 키 이시 본토떠. 🙃",
+   "ko": "페리 아저씨가 진짜 자기 건 줄 알고 벌써 뜯었대요. 🙃",
    "note": "kibontotta = 뜯었다",
    "tags": [],
    "at": "11:55",
@@ -275,6 +280,11 @@
      ""
     ],
     [
+     "komolyan",
+     "komoly",
+     "코모이"
+    ],
+    [
      "hitte",
      "hisz",
      "히쓰"
@@ -283,6 +293,11 @@
      "övé",
      "öv",
      "외브"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ],
     [
      "ki",

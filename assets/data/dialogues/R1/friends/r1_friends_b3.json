@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Figyelj, holnap lesz a szülinapom!",
-   "rd": "피젤이, 홀너프 레쓰 어 쓀리너폼!",
-   "ko": "있잖아, 내일 내 생일이야!",
+   "hu": "Na, figyelj! Holnap lesz a szülinapom.",
+   "rd": "너, 피젤이! 홀너프 레쓰 어 쓀리너폼.",
+   "ko": "야, 들어봐! 내일이 내 생일이야.",
    "note": "szülinap = 생일",
    "tags": [
     "expr:Figyelj"
@@ -41,14 +41,14 @@
    "emotion": "excited",
    "lemmas": [
     [
-     "Figyelj",
-     "figyel",
-     "피겔"
+     "Na",
+     "na",
+     "너"
     ],
     [
-     "holnap",
-     "holnap",
-     "홀넙"
+     "figyelj",
+     "figyel",
+     "피겔"
     ],
     [
      "lesz",
@@ -65,8 +65,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Tényleg? Boldog szülinapot előre!",
-   "rd": "테닐렉? 볼독 쓀리너포트 엘뢰레!",
+   "hu": "Tényleg? Boldog szülinapot előre is!",
+   "rd": "테닐렉? 볼독 쓀리너포트 엘뢰레 이시!",
    "ko": "진짜? 미리 생일 축하해!",
    "note": "előre = 미리",
    "tags": [
@@ -96,7 +96,7 @@
    "speaker": "B",
    "hu": "Köszi! Huszonhárom leszek.",
    "rd": "쾨씨! 후쏜하롬 레쎅.",
-   "ko": "고마워! 스물셋 돼.",
+   "ko": "고마워! 스물셋이 돼.",
    "note": "leszek = (내가) ~가 된다",
    "tags": [],
    "emotion": "shy",
@@ -116,10 +116,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Szuper! Csinálsz bulit?",
-   "rd": "쑤페르! 치날쓰 불리트?",
-   "ko": "좋다! 파티해?",
-   "note": "bulit = 파티를",
+   "hu": "Szuper! Lesz buli?",
+   "rd": "쑤페르! 레쓰 불리?",
+   "ko": "좋다! 파티 할 거야?",
+   "note": "buli = 파티",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
@@ -129,7 +129,7 @@
      "쑤페르"
     ],
     [
-     "bulit",
+     "buli",
      "buli",
      "불리"
     ]
@@ -138,9 +138,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Csak egy kis vacsorát. És te hány éves vagy?",
-   "rd": "척 에지 키시 버초라트. 에시 테 하니 에베시 버지?",
-   "ko": "그냥 조촐한 저녁. 근데 너는 몇 살이야?",
+   "hu": "Csak egy kis vacsora. És te hány éves vagy?",
+   "rd": "척 에지 키시 버초러. 에시 테 하니 에베시 버지?",
+   "ko": "그냥 조촐한 저녁. 너는 몇 살이야?",
    "note": "hány éves = 몇 살",
    "tags": [
     "expr:Hány éves"
@@ -158,7 +158,7 @@
      "키시"
     ],
     [
-     "vacsorát",
+     "vacsora",
      "vacsora",
      "버초라"
     ],
@@ -199,9 +199,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Éhes? Huszonöt?",
-   "rd": "에헤시? 후쏘뇌트?",
-   "ko": "배고프다고? 스물다섯 번?",
+   "hu": "Éhes? Huszonöt? Komolyan?",
+   "rd": "에헤시? 후쏘뇌트? 코모연?",
+   "ko": "배고프다고? 스물다섯? 진짜?",
    "note": "éhes ≠ éves",
    "tags": [],
    "emotion": "amused",

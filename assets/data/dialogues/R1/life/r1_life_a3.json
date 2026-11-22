@@ -31,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó napot! Tessék, mit kér?",
-   "rd": "요 너포트! 테쎅, 미트 케르?",
-   "ko": "안녕하세요! 네, 뭐 드릴까요?",
-   "note": "mit kér? = 뭘 원하세요(Ön)",
+   "hu": "Jó napot! Tessék, mit szeretne?",
+   "rd": "요 너포트! 테쎅, 미트 쎄레트네?",
+   "ko": "안녕하세요! 네, 뭘 원하세요?",
+   "note": "szeretne = 원하세요(정중)",
    "tags": [
     "expr:Tessék"
    ],
@@ -51,18 +51,18 @@
      "넙"
     ],
     [
-     "kér",
-     "kér",
-     "께르"
+     "szeretne",
+     "szeret",
+     "쎄레트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó napot! Ebből a sajtból kérek.",
-   "rd": "요 너포트! 에뵐 어 셔이트볼 케렉.",
-   "ko": "안녕하세요! 이 치즈로 주세요.",
+   "hu": "Jó napot! Szeretnék ebből a sajtból.",
+   "rd": "요 너포트! 쎄레트넥 에뵐 어 셔이트볼.",
+   "ko": "안녕하세요! 이 치즈 좀 주세요.",
    "note": "ebből = 이것에서",
    "tags": [],
    "emotion": "polite",
@@ -81,11 +81,6 @@
      "sajtból",
      "sajt",
      ""
-    ],
-    [
-     "kérek",
-     "kér",
-     "께르"
     ]
    ]
   },
@@ -94,8 +89,8 @@
    "speaker": "B",
    "hu": "Rendben. Mennyit kér?",
    "rd": "렌드벤. 메니트 케르?",
-   "ko": "네. 얼마나 드릴까요?",
-   "note": "mennyit = 얼마만큼을",
+   "ko": "알겠어요. 얼마나 드릴까요?",
+   "note": "mennyit = 얼마만큼",
    "tags": [
     "expr:Rendben"
    ],
@@ -145,10 +140,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Tíz kilót? Az egy egész sajt!",
-   "rd": "티즈 킬로트? 어즈 에지 에게쓰 셔이트!",
-   "ko": "10킬로요? 그거 치즈 한 덩이 통째예요!",
-   "note": "egész = 통째, 전체",
+   "hu": "Tíz kilót? Hát az rengeteg! Egy egész sajt!",
+   "rd": "티즈 킬로트? 하트 어즈 렌게텍! 에지 에게쓰 셔이트!",
+   "ko": "10킬로요? 헐, 그건 엄청나요! 치즈 한 통 통째예요!",
+   "note": "egész = 통째로",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -156,6 +151,11 @@
      "kilót",
      "kiló",
      ""
+    ],
+    [
+     "rengeteg",
+     "rengeteg",
+     "렌게테그"
     ],
     [
      "egész",
@@ -172,8 +172,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Jaj, bocsánat! Tíz dekát!",
-   "rd": "여이, 보차너트! 티즈 데카트!",
+   "hu": "Jaj, elnézést! Tíz dekát!",
+   "rd": "여이, 엘네제슈트! 티즈 데카트!",
    "ko": "아이고, 죄송해요! 10데카요!",
    "note": "deka = 10그램",
    "tags": [],
@@ -185,9 +185,9 @@
      "야이"
     ],
     [
-     "bocsánat",
-     "bocsánat",
-     "버치너트"
+     "elnézést",
+     "elnézés",
+     "엘네제시"
     ],
     [
      "dekát",
@@ -199,8 +199,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Jó, tíz deka. És kenyeret hány kilót kér?",
-   "rd": "요, 티즈 데커. 에시 케네레트 하니 킬로트 케르?",
+   "hu": "Jó, tíz deka. Kenyeret hány kilót kér?",
+   "rd": "요, 티즈 데커. 케네레트 하니 킬로트 케르?",
    "ko": "네, 10데카. 빵은 몇 킬로 드릴까요?",
    "note": "hány = 몇",
    "tags": [],
@@ -214,11 +214,6 @@
     [
      "deka",
      "deka",
-     ""
-    ],
-    [
-     "kenyeret",
-     "kenyere",
      ""
     ],
     [
@@ -236,10 +231,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Egyet! Egy darabot!",
-   "rd": "에제트! 에지 더러보트!",
-   "ko": "하나요! 한 개요!",
-   "note": "darab = 개(낱개)",
+   "hu": "Egyet! Csak egy darabot!",
+   "rd": "에제트! 척 에지 더러보트!",
+   "ko": "하나요! 한 개만요!",
+   "note": "darab = 개",
    "tags": [],
    "emotion": "flustered",
    "segs": [
@@ -249,7 +244,7 @@
     ],
     [
      "shy",
-     "Egy darabot!"
+     "Csak egy darabot!"
     ]
    ],
    "lemmas": [

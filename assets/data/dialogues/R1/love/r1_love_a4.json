@@ -104,8 +104,8 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Biztos? Nem félsz?",
-   "rd": "비즈토시? 넴 펠쓰?",
+   "hu": "Biztos vagy benne? Nem félsz?",
+   "rd": "비즈토시 버지 벤네? 넴 펠쓰?",
    "ko": "확실해? 안 무서워?",
    "note": "félsz = 너 무서워한다",
    "tags": [],
@@ -126,9 +126,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Én? Soha nem félek.",
-   "rd": "엔? 쇼허 넴 펠렉.",
-   "ko": "내가? 난 절대 안 무서워.",
+   "hu": "Én? Soha nem félek semmitől.",
+   "rd": "엔? 쇼허 넴 펠렉 셈미퇼.",
+   "ko": "내가? 난 절대 아무것도 안 무서워.",
    "note": "soha nem = 절대 안",
    "tags": [],
    "emotion": "stiff",
@@ -146,7 +146,7 @@
    "hu": "Még el sem kezdődött. Miért fogod a kezem?",
    "rd": "멕 엘 셈 케즈되되트. 미에르트 포고드 어 케젬?",
    "ko": "아직 시작도 안 했어. 왜 내 손 잡고 있어?",
-   "note": "fogod = 네가 그걸 잡고 있다",
+   "note": "fogod = 네가 잡고 있다",
    "tags": [],
    "emotion": "amused",
    "segs": [

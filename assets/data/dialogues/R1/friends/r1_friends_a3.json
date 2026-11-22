@@ -33,7 +33,7 @@
    "speaker": "B",
    "hu": "Éhes vagyok, veszek egy pogácsát. Kérsz?",
    "rd": "에헤시 버죡, 베쎅 에지 포가차트. 케르쓰?",
-   "ko": "배고파. 포가차 하나 살래. 너도 먹을래?",
+   "ko": "배고파. 포가차 하나 살게. 너도 먹을래?",
    "note": "kérsz? = 너 먹을래?",
    "tags": [
     "expr:Kérsz"
@@ -178,7 +178,7 @@
    "hu": "Köszi! Akkor adsz egy csókot?",
    "rd": "쾨씨! 어꼬르 어드쓰 에지 초코트?",
    "ko": "고마워! 그럼 뽀뽀 하나 줄래?",
-   "note": "csók = 뽀뽀(csoki = 초콜릿)",
+   "note": "csók = 뽀뽀",
    "tags": [
     "expr:Adsz"
    ],

@@ -31,10 +31,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Dávid, nem látod a kulcsomat?",
-   "rd": "다비드, 넴 라토드 어 쿨초머트?",
-   "ko": "다비드, 내 열쇠 못 봤어?",
-   "note": "látod = 보이니(정활용, 목적어 있음)",
+   "hu": "Dávid, nem látod sehol a kulcsomat?",
+   "rd": "다비드, 넴 라토드 세홀 어 쿨초머트?",
+   "ko": "다비드, 내 열쇠 어디 있는지 못 봤어?",
+   "note": "látod = 보이니",
    "tags": [
     "expr:Nem látod"
    ],
@@ -51,6 +51,11 @@
      "라트"
     ],
     [
+     "sehol",
+     "sehol",
+     ""
+    ],
+    [
      "kulcsomat",
      "kulcs",
      "쿨치"
@@ -60,16 +65,16 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Nem. Megnézted a kabátodban?",
-   "rd": "넴. 멕네즈테드 어 커바토드번?",
-   "ko": "아니. 외투 안에 봤어?",
+   "hu": "Nem. Megnézted a kabátzsebedben?",
+   "rd": "넴. 멕네즈테드 어 커바트제베드벤?",
+   "ko": "아니. 외투 주머니 봤어?",
    "note": "kabát = 외투",
    "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "kabátodban",
-     "kabát",
+     "kabátzsebedben",
+     "kabátzsebed",
      ""
     ]
    ]
@@ -77,10 +82,10 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Igen, ott nincs. A táskámban sincs.",
-   "rd": "이겐, 오트 닌치. 어 타슈캄번 신치.",
+   "hu": "Igen, ott nincs. A táskámban se.",
+   "rd": "이겐, 오트 닌치. 어 타슈캄번 세.",
    "ko": "응, 거기 없어. 가방에도 없고.",
-   "note": "sincs = ~도 없다",
+   "note": "se = ~도 없다",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
@@ -103,20 +108,15 @@
      "táskámban",
      "táskám.",
      ""
-    ],
-    [
-     "sincs",
-     "sincs",
-     "신치"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "A konyhában? Az asztalon?",
-   "rd": "어 코니하번? 어즈 어쓰털론?",
-   "ko": "부엌에? 식탁 위에?",
+   "hu": "A konyhában az asztalon?",
+   "rd": "어 코니하번 어즈 어쓰털론?",
+   "ko": "부엌 식탁 위에는?",
    "note": "asztal = 탁자",
    "tags": [],
    "emotion": "gentle",
@@ -207,10 +207,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "A telefonom... és a kulcsom.",
-   "rd": "어 텔레포놈... 에시 어 쿨촘.",
+   "hu": "A telefonom... meg a kulcsom.",
+   "rd": "어 텔레포놈... 멕 어 쿨촘.",
    "ko": "내 폰… 그리고 내 열쇠.",
-   "note": "és = 그리고",
+   "note": "meg = 그리고",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [

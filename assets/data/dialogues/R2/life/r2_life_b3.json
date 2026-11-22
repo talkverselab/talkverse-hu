@@ -113,9 +113,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Mit mondtál neki?",
-   "rd": "미트 몬드탈 네키?",
-   "ko": "뭐라고 했는데?",
+   "hu": "Mit mondtál neki pontosan?",
+   "rd": "미트 몬드탈 네키 폰토션?",
+   "ko": "정확히 뭐라고 했는데?",
    "note": "mondtál = 네가 말했다",
    "tags": [],
    "emotion": "teasing",
@@ -124,6 +124,11 @@
      "mondtál",
      "mond",
      "몬드"
+    ],
+    [
+     "pontosan",
+     "pontos",
+     "폰토시"
     ]
    ]
   },
@@ -159,18 +164,13 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "És pontosan hogy mondtad?",
-   "rd": "에시 폰토션 호지 몬드터드?",
-   "ko": "정확히 어떻게 말했는데?",
+   "hu": "És hogy mondtad neki?",
+   "rd": "에시 호지 몬드터드 네키?",
+   "ko": "어떻게 말했는데?",
    "note": "pontosan = 정확히",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
-    [
-     "pontosan",
-     "pontos",
-     "폰토시"
-    ],
     [
      "mondtad",
      "mond",
@@ -361,7 +361,7 @@
    "hu": "Na látod. Amúgy tényleg jól áll.",
    "rd": "너 라토드. 어무지 테닐렉 욜 알.",
    "ko": "거봐. 근데 진짜 잘 어울려.",
-   "note": "amúgy = 근데, 그나저나",
+   "note": "amúgy = 근데",
    "tags": [
     "expr:Jól áll"
    ],

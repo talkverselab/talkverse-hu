@@ -31,8 +31,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jó napot! Mit hozhatok?",
-   "rd": "요 너포트! 미트 호즈허톡?",
+   "hu": "Jó napot! Mit hozhatok önnek?",
+   "rd": "요 너포트! 미트 호즈허톡 왼넥?",
    "ko": "안녕하세요! 뭘 가져다드릴까요?",
    "note": "hozhatok = 가져올 수 있다",
    "tags": [
@@ -62,7 +62,7 @@
    "speaker": "A",
    "hu": "Egy gulyáslevest kérek.",
    "rd": "에지 구야슐레베슈트 케렉.",
-   "ko": "굴라시 수프 주세요.",
+   "ko": "굴라시 수프 하나 주세요.",
    "note": "gulyásleves = 굴라시 수프",
    "tags": [
     "expr:kérek"
@@ -84,8 +84,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Nagy adag vagy kicsi? Kenyeret is kér?",
-   "rd": "너지 어덕 버지 키치? 케네레트 이시 케르?",
+   "hu": "Nagy adag vagy kicsi? Kenyeret is kér hozzá?",
+   "rd": "너지 어덕 버지 키치? 케네레트 이시 케르 호자?",
    "ko": "큰 거요, 작은 거요? 빵도 드릴까요?",
    "note": "adag = 1인분",
    "tags": [],

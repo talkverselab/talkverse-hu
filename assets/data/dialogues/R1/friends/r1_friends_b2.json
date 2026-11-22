@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Jövő héten lesz Bence szülinapja. Mit vegyünk?",
-   "rd": "요뵈 헤텐 레쓰 벤체 쓀리너프여. 미트 베쥔크?",
-   "ko": "다음 주가 벤체 생일이야. 뭐 살까?",
+   "hu": "Na, figyelj! Jövő héten Bence szülinapja. Mit vegyünk?",
+   "rd": "너, 피젤이! 요뵈 헤텐 벤체 쓀리너프여. 미트 베쥔크?",
+   "ko": "야, 들어봐! 다음 주 벤체 생일이야. 뭐 살까?",
    "note": "Mit vegyünk? = 우리 뭐 살까?",
    "tags": [
     "expr:Mit vegyünk"
@@ -41,19 +41,19 @@
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Jövő",
-     "jövő",
-     "요뵈"
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "figyelj",
+     "figyel",
+     "피겔"
     ],
     [
      "héten",
      "hét",
      "헤트"
-    ],
-    [
-     "lesz",
-     "lesz",
-     "레쓰"
     ],
     [
      "szülinapja",
@@ -70,9 +70,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Szerintem kávét. Imádja a kávét, nem?",
-   "rd": "쎄린템 카베트. 이마드여 어 카베트, 넴?",
-   "ko": "커피 어때. 커피 엄청 좋아하잖아, 아니야?",
+   "hu": "Szerintem kávét vegyünk. Imádja, nem?",
+   "rd": "쎄린템 카베트 베쥔크. 이마드여, 넴?",
+   "ko": "나는 커피 사자. 엄청 좋아하잖아, 그렇지?",
    "note": "imádja = 엄청 좋아한다",
    "tags": [
     "expr:Szerintem"
@@ -83,15 +83,20 @@
      "kávét",
      "kávé",
      "카베"
+    ],
+    [
+     "vegyünk",
+     "vesz",
+     "베쓰"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Hát, nem tudom. Valami mást?",
-   "rd": "하트, 넴 투돔. 벌러미 마슈트?",
-   "ko": "글쎄, 모르겠어. 다른 거 없을까?",
+   "hu": "Hát, nem tudom. Valami mást inkább?",
+   "rd": "하트, 넴 투돔. 벌러미 마슈트 인카브?",
+   "ko": "글쎄, 모르겠어. 다른 거 하는 게 낫지?",
    "note": "valami más = 다른 무언가",
    "tags": [],
    "emotion": "worried",
@@ -110,15 +115,20 @@
      "mást",
      "más",
      "마시"
+    ],
+    [
+     "inkább",
+     "inkább",
+     "인깝"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Akkor egy szép bögrét?",
-   "rd": "어꼬르 에지 쎄프 뵉레트?",
-   "ko": "그럼 예쁜 머그컵?",
+   "hu": "Akkor egy csinos bögrét?",
+   "rd": "어꼬르 에지 치노시 뵉레트?",
+   "ko": "그럼 예쁜 머그컵은 어때?",
    "note": "bögre = 머그컵",
    "tags": [],
    "emotion": "neutral",
@@ -129,9 +139,9 @@
      "어꼬르"
     ],
     [
-     "szép",
-     "szép",
-     "쎕"
+     "csinos",
+     "csinos",
+     "치노시"
     ],
     [
      "bögrét",
@@ -143,13 +153,18 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Az jó! Ez a piros tetszik?",
-   "rd": "어즈 요! 에즈 어 피로시 테트씩?",
-   "ko": "그거 좋다! 이 빨간 거 마음에 들어?",
+   "hu": "Az tök jó! Ez a piros tetszik?",
+   "rd": "어즈 퇵 요! 에즈 어 피로시 테트씩?",
+   "ko": "그거 완전 좋다! 이 빨간 거 마음에 들어?",
    "note": "tetszik = 마음에 든다",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
+    [
+     "tök",
+     "tök",
+     "퇴크"
+    ],
     [
      "jó",
      "jó",
@@ -170,9 +185,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Igen, szép. És egy kis kávét bele.",
-   "rd": "이겐, 쎄프. 에시 에지 키시 카베트 벨레.",
-   "ko": "응, 예뻐. 그리고 안에 커피 조금.",
+   "hu": "Igen, nagyon szép. És tegyünk bele egy kis kávét.",
+   "rd": "이겐, 너죤 쎄프. 에시 테쥔크 벨레 에지 키시 카베트.",
+   "ko": "응, 진짜 예뻐. 그리고 커피도 조금 넣어.",
    "note": "bele = 안에(로)",
    "tags": [],
    "emotion": "cheerful",
@@ -183,9 +198,24 @@
      "이겐"
     ],
     [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
      "szép",
      "szép",
      "쎕"
+    ],
+    [
+     "tegyünk",
+     "tesz",
+     "테스"
+    ],
+    [
+     "bele",
+     "bél",
+     "벨"
     ],
     [
      "kis",
@@ -196,20 +226,15 @@
      "kávét",
      "kávé",
      "카베"
-    ],
-    [
-     "bele",
-     "bél",
-     "벨"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Kávét ne. Otthon csak teát iszik.",
-   "rd": "카베트 네. 오트혼 척 테아트 이씩.",
-   "ko": "커피는 말고. 집에서는 차만 마셔.",
+   "hu": "Kávét ne már. Otthon csak teát iszik.",
+   "rd": "카베트 네 마르. 오트혼 척 테아트 이씩.",
+   "ko": "커피는 안 돼. 집에서는 차만 마시거든.",
    "note": "csak teát = 차만",
    "tags": [],
    "emotion": "amused",
@@ -218,6 +243,11 @@
      "Kávét",
      "kávé",
      "카베"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ],
     [
      "csak",
@@ -239,9 +269,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Hogyhogy? Ja, a munkában elég kávét lát!",
-   "rd": "호지호지? 여, 어 문카번 엘렉 카베트 라트!",
-   "ko": "왜? 아, 일하면서 커피는 실컷 보는구나!",
+   "hu": "Hogyhogy? Ja, a munkahelyen elég kávét lát!",
+   "rd": "호지호지? 여, 어 문커헤옌 엘렉 카베트 라트!",
+   "ko": "왜 그래? 아, 직장에서 커피는 실컷 보는구나!",
    "note": "hogyhogy? = 어째서?",
    "tags": [
     "expr:Hogyhogy"
@@ -254,7 +284,7 @@
     ],
     [
      "amused",
-     "Ja, a munkában elég kávét lát!"
+     "Ja, a munkahelyen elég kávét lát!"
     ]
    ],
    "lemmas": [
@@ -264,9 +294,9 @@
      ""
     ],
     [
-     "munkában",
-     "munka",
-     "문커"
+     "munkahelyen",
+     "munkahely",
+     ""
     ],
     [
      "elég",

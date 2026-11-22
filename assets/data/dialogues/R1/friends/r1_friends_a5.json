@@ -34,7 +34,7 @@
    "hu": "Na? Nem látsz rajtam valamit?",
    "rd": "너? 넴 라트쓰 러이텀 벌러미트?",
    "ko": "어때? 나한테 뭐 안 보여?",
-   "note": "látsz = 보인다(부정 활용)",
+   "note": "látsz = 보인다",
    "tags": [
     "expr:Na"
    ],
@@ -124,7 +124,7 @@
    "hu": "Nem! A hajam, {name}, levágattam!",
    "rd": "넴! 어 허염, {name}, 레바거떰!",
    "ko": "아니! 내 머리, {name}! 잘랐어.",
-   "note": "levágattam = (미용실에서) 잘랐다",
+   "note": "levágattam = 잘랐다",
    "tags": [
     "expr:Na"
    ],
@@ -218,7 +218,7 @@
    "hu": "Tíz? Akkor most már látom!",
    "rd": "티즈? 어꼬르 모슈트 마르 라톰!",
    "ko": "10센티? 그럼 이제 보인다!",
-   "note": "látom = (그것이) 보인다(정 활용)",
+   "note": "látom = 보인다",
    "tags": [],
    "emotion": "amused",
    "lemmas": [

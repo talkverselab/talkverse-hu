@@ -13,7 +13,7 @@
  ],
  "title": "체크인은 3시부터",
  "emoji": "🧳",
- "scene": "아침에 호텔에 도착했는데 방은 오후부터. Dávid 에게 캐리어를 어쩔지 묻는다",
+ "scene": "아침에 호텔에 도착했는데 방은 오후부터. Dávid에게 캐리어를 어쩔지 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid"
@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Megérkeztem! De a szobát csak háromtól kapom.",
-   "rd": "메게르케즈템! 데 어 쏘바트 척 하롬톨 커폼.",
-   "ko": "도착! 근데 방은 3시부터래.",
+   "hu": "Megjöttem! De a szobát csak háromtól kapom.",
+   "rd": "멕요뗌! 데 어 쏘바트 척 하롬톨 커폼.",
+   "ko": "도착했어! 근데 방은 3시부터래.",
    "note": "háromtól = 3시부터",
    "tags": [],
    "at": "10:15",
@@ -42,7 +42,7 @@
    "segs": [
     [
      "cheerful",
-     "Megérkeztem!"
+     "Megjöttem!"
     ],
     [
      "annoyed",
@@ -52,9 +52,9 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Megérkeztem",
-     "megérkezik",
-     "메게르케직"
+     "Megjöttem",
+     "megjön",
+     ""
     ],
     [
      "szobát",
@@ -102,15 +102,20 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Az a gond. Hol hagyjam?",
-   "rd": "어즈 어 곤드. 홀 허지염?",
+   "hu": "Hát az a gond. Hol hagyjam?",
+   "rd": "하트 어즈 어 곤드. 홀 허지염?",
    "ko": "그게 문제야. 어디 두지?",
-   "note": "hagyjam = 내가 둘까(가정법)",
+   "note": "hagyjam = 내가 둘까",
    "tags": [],
    "at": "10:16",
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
+    [
+     "Hát",
+     "hát",
+     "핫"
+    ],
     [
      "gond",
      "gond",
@@ -126,8 +131,8 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "A szállodában megőrzik. Kérdezd meg!",
-   "rd": "어 쌀로다번 메괴르직. 케르데즈드 멕!",
+   "hu": "Megőrzik a szállodában. Kérdezd meg!",
+   "rd": "메괴르직 어 쌀로다번. 케르데즈드 멕!",
    "ko": "호텔에서 맡아 줘. 물어봐!",
    "note": "megőriz = 보관하다",
    "tags": [
@@ -138,13 +143,13 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "szállodában",
-     "szálloda",
+     "Megőrzik",
+     "megőrzik",
      ""
     ],
     [
-     "megőrzik",
-     "megőrzik",
+     "szállodában",
+     "szálloda",
      ""
     ]
    ]

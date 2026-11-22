@@ -31,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Halló, tessék!",
-   "rd": "헐로, 테쎅!",
-   "ko": "여보세요, 네!",
-   "note": "tessék = (전화 받을 때) 네, 말씀하세요",
+   "hu": "Halló, Laci vagyok, tessék!",
+   "rd": "헐로, 러치 버죡, 테쎅!",
+   "ko": "여보세요, 라치예요, 말씀하세요!",
+   "note": "tessék = 말씀하세요",
    "tags": [
     "expr:Halló"
    ],
@@ -44,6 +44,11 @@
      "Halló",
      "hall",
      "헐"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
     ],
     [
      "tessék",
@@ -58,7 +63,7 @@
    "hu": "Jó reggelt, Laci bácsi! Nincs meleg víz.",
    "rd": "요 렉겔트, 러치 바치! 닌치 멜렉 비즈.",
    "ko": "안녕하세요, 라치 아저씨! 온수가 안 나와요.",
-   "note": "meleg víz = 더운물",
+   "note": "meleg víz = 온수",
    "tags": [
     "expr:Nincs meleg víz"
    ],
@@ -106,7 +111,7 @@
    "speaker": "B",
    "hu": "A bojleren ég a piros lámpa?",
    "rd": "어 보일레렌 엑 어 피로시 람퍼?",
-   "ko": "온수기에 빨간 불 켜져 있어요?",
+   "ko": "온수기에 빨간 불 켜져 있나요?",
    "note": "bojler = 온수기",
    "tags": [],
    "emotion": "neutral",
@@ -175,9 +180,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "És a konnektorban benne van?",
-   "rd": "에시 어 콘넥토르번 벤네 번?",
-   "ko": "콘센트에는 꽂혀 있어요?",
+   "hu": "A konnektorban benne van a dugó?",
+   "rd": "어 콘넥토르번 벤네 번 어 두고?",
+   "ko": "콘센트에 플러그가 꽂혀 있나요?",
    "note": "konnektor = 콘센트",
    "tags": [],
    "emotion": "neutral",
@@ -191,6 +196,11 @@
      "van",
      "van",
      "번"
+    ],
+    [
+     "dugó",
+     "dug",
+     "둑"
     ]
    ]
   },
@@ -199,8 +209,8 @@
    "speaker": "A",
    "hu": "Konnektor? Hol van az?",
    "rd": "콘넥토르? 홀 번 어즈?",
-   "ko": "콘센트요? 그게 어디 있죠?",
-   "note": "hol van? = 어디 있어요?",
+   "ko": "콘센트요? 그게 어디 있어요?",
+   "note": "hol van = 어디 있어요",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -219,10 +229,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "A bojler mellett, lent.",
-   "rd": "어 보일레르 멜레트, 렌트.",
-   "ko": "온수기 옆, 아래쪽에요.",
-   "note": "mellett = ~옆에",
+   "hu": "A bojler mellett, lent a falon.",
+   "rd": "어 보일레르 멜레트, 렌트 어 펄론.",
+   "ko": "온수기 옆, 아래 벽에 있어요.",
+   "note": "mellett = 옆에",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -235,6 +245,11 @@
      "lent",
      "len",
      "렌"
+    ],
+    [
+     "falon",
+     "fal",
+     "펄"
     ]
    ]
   },
@@ -243,7 +258,7 @@
    "speaker": "A",
    "hu": "Jaj, Dávid kihúzta! Ott tölti a telefonját.",
    "rd": "여이, 다비드 키후즈터! 오트 퇼티 어 텔레폰야트.",
-   "ko": "아, 다비드가 뽑았네요! 거기서 폰을 충전해요.",
+   "ko": "아, 다비드가 뽑았네요! 거기서 폰 충전하고 있어요.",
    "note": "kihúzta = 뽑았다",
    "tags": [],
    "emotion": "flustered",

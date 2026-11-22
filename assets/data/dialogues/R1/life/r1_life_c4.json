@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Jó napot! Elküldtem a lakbért.",
-   "rd": "요 너포트! 엘퀼드템 어 럭베르트.",
-   "ko": "안녕하세요! 월세 보냈습니다.",
+   "hu": "Jó napot, Laci bácsi! Elküldtem a lakbért.",
+   "rd": "요 너포트, 러치 바치! 엘퀼드템 어 럭베르트.",
+   "ko": "안녕하세요, 라치 아저씨! 월세 보냈습니다.",
    "note": "lakbér = 월세",
    "tags": [
     "expr:Elküldtem"
@@ -53,6 +53,11 @@
      "넙"
     ],
     [
+     "bácsi",
+     "bácsi",
+     ""
+    ],
+    [
      "lakbért",
      "lakbér",
      ""
@@ -62,10 +67,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "És elromlott a mosógép. 😟",
-   "rd": "에시 엘롬로트 어 모쇼게프. 😟",
-   "ko": "그리고 세탁기가 고장 났어요. 😟",
-   "note": "elromlott = 고장 났다",
+   "hu": "A mosógép meg Elromlott. 😟",
+   "rd": "어 모쇼게프 멕 엘롬로트. 😟",
+   "ko": "세탁기도 고장 났어요. 😟",
+   "note": "Elromlott = 고장 났다",
    "tags": [
     "expr:Elromlott"
    ],
@@ -73,11 +78,6 @@
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
-    [
-     "elromlott",
-     "elromlik",
-     ""
-    ],
     [
      "mosógép",
      "mosógép",
@@ -88,10 +88,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Megkaptam, köszönöm! 👍",
-   "rd": "멕커프텀, 쾨쐬뇜! 👍",
-   "ko": "받았어요, 고마워요! 👍",
-   "note": "megkaptam = 받았다",
+   "hu": "Megkaptam, köszi szépen! 👍",
+   "rd": "멕커프텀, 쾨씨 쎄펜! 👍",
+   "ko": "받았어요, 정말 고마워요! 👍",
+   "note": "Megkaptam = 받았다",
    "tags": [
     "expr:Megkaptam"
    ],
@@ -105,38 +105,48 @@
      "메그커프"
     ],
     [
-     "köszönöm",
-     "köszön",
-     "쾨쇠니"
+     "köszi",
+     "köszi",
+     "쾨씨"
+    ],
+    [
+     "szépen",
+     "szép",
+     "쎕"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "És a mosógép?",
-   "rd": "에시 어 모쇼게프?",
-   "ko": "그럼 세탁기는요?",
-   "note": "és = 그리고",
+   "hu": "És a mosógéppel mi lesz?",
+   "rd": "에시 어 모쇼게뻴 미 레쓰?",
+   "ko": "세탁기는 어떻게 돼요?",
+   "note": "mi lesz = 어떻게 될 거야",
    "tags": [],
    "at": "09:31",
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
     [
-     "mosógép",
+     "mosógéppel",
      "mosógép",
      ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Laci bácsi? 🙂",
-   "rd": "러치 바치? 🙂",
-   "ko": "라치 아저씨? 🙂",
-   "note": "bácsi = 아저씨(손윗사람)",
+   "hu": "Laci bácsi, hallja? 🙂",
+   "rd": "러치 바치, 헐여? 🙂",
+   "ko": "라치 아저씨, 들리세요? 🙂",
+   "note": "bácsi = 아저씨",
    "tags": [],
    "at": "13:00",
    "emotion": "stiff",
@@ -151,16 +161,21 @@
      "bácsi",
      "bácsi",
      ""
+    ],
+    [
+     "hallja",
+     "hall",
+     "헐"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Bocsánat! Rúgjon bele egyszer, jobb oldalt.",
-   "rd": "보차너트! 룩욘 벨레 에지쎄르, 요브 올덜트.",
-   "ko": "미안해요! 오른쪽을 한 번 차 봐요.",
-   "note": "rúgjon bele = 한 번 차 보세요",
+   "hu": "Bocsánat! Rúgjon bele egyszer a jobb oldalára.",
+   "rd": "보차너트! 룩욘 벨레 에지쎄르 어 요브 올덜라러.",
+   "ko": "미안해요! 오른쪽을 한 번 차 보세요.",
+   "note": "rúgjon = 차 보세요",
    "tags": [],
    "at": "18:20",
    "emotion": "neutral",
@@ -182,7 +197,7 @@
      "요"
     ],
     [
-     "oldalt",
+     "oldalára",
      "oldal",
      "올덜"
     ]
@@ -210,17 +225,17 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Tényleg működik! Köszönöm, azt hiszem.",
-   "rd": "테닐렉 뮈쾨딕! 쾨쐬뇜, 어즈트 히쎔.",
-   "ko": "진짜 돌아가네요! 고마워요… 아마도.",
-   "note": "azt hiszem = 아마, 그런 것 같다",
+   "hu": "Tényleg beindult! Köszönöm, azt hiszem.",
+   "rd": "테닐렉 베인둘트! 쾨쐬뇜, 어즈트 히쎔.",
+   "ko": "진짜 돌아가네요! 고마워요… 그런 것 같아요.",
+   "note": "azt hiszem = 아마",
    "tags": [],
    "at": "18:26",
    "emotion": "surprised",
    "segs": [
     [
      "surprised",
-     "Tényleg működik!"
+     "Tényleg beindult!"
     ],
     [
      "stiff",
@@ -235,9 +250,9 @@
      "테니렉"
     ],
     [
-     "működik",
-     "működik",
-     "뮈쾨딕"
+     "beindult",
+     "beindul",
+     ""
     ],
     [
      "hiszem",

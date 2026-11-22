@@ -67,8 +67,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Nincs. A sofőrtől veszek.",
-   "rd": "닌치. 어 쇼푀르퇼 베쎅.",
+   "hu": "Nincs. A sofőrtől veszek egyet.",
+   "rd": "닌치. 어 쇼푀르퇼 베쎅 에제트.",
    "ko": "없어. 기사님한테 살게.",
    "note": "sofőr = 운전기사",
    "tags": [],
@@ -94,9 +94,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Az drágább, de oké.",
-   "rd": "어즈 드라가브, 데 오케.",
-   "ko": "그건 더 비싼데, 뭐 오케이.",
+   "hu": "Az drágább, de mindegy.",
+   "rd": "어즈 드라가브, 데 민데지.",
+   "ko": "그건 더 비싼데, 뭐 상관없어.",
    "note": "drágább = 더 비싼",
    "tags": [],
    "emotion": "amused",
@@ -107,9 +107,9 @@
      "드라가"
     ],
     [
-     "oké",
-     "oké",
-     "오케"
+     "mindegy",
+     "mindegy",
+     "민데지"
     ]
    ]
   },
@@ -222,9 +222,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Várj... Hát, nekem sincs.",
-   "rd": "바르이... 하트, 네켐 신치.",
-   "ko": "잠깐… 음, 나도 없어.",
+   "hu": "Várj... Hát, nekem sincs semmi.",
+   "rd": "바르이... 하트, 네켐 신치 셈미.",
+   "ko": "잠깐… 음, 나도 아무것도 없어.",
    "note": "sincs = ~도 없다",
    "tags": [
     "expr:Várj",

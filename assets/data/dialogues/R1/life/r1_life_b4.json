@@ -31,8 +31,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Rendelő, jó napot kívánok!",
-   "rd": "렌델뢰, 요 너포트 키바녹!",
+   "hu": "Rendelő, jó napot!",
+   "rd": "렌델뢰, 요 너포트!",
    "ko": "병원입니다, 안녕하세요!",
    "note": "rendelő = 진료소",
    "tags": [],
@@ -52,11 +52,6 @@
      "napot",
      "nap",
      "넙"
-    ],
-    [
-     "kívánok",
-     "kíván",
-     "키반"
     ]
    ]
   },
@@ -97,10 +92,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Csütörtök tíz óra megfelel?",
-   "rd": "취퇴르퇵 티즈 오러 멕펠렐?",
+   "hu": "Csütörtök tíz óra megfelel Önnek?",
+   "rd": "취퇴르퇵 티즈 오러 멕펠렐 왼넥?",
    "ko": "목요일 10시 괜찮으세요?",
-   "note": "megfelel = 맞는다, 괜찮다",
+   "note": "megfelel = 괜찮다",
    "tags": [
     "expr:Megfelel"
    ],
@@ -148,7 +143,7 @@
    "hu": "A neve? Betűzze, legyen szíves.",
    "rd": "어 네베? 베튀제, 레젠 씨베시.",
    "ko": "성함이요? 철자 불러 주세요.",
-   "note": "betűzze = 철자를 불러 주세요(Ön)",
+   "note": "betűzze = 철자를 불러 주세요",
    "tags": [
     "expr:Legyen szíves"
    ],

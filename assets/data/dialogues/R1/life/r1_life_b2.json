@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Megjött a villanyszámla. Felezzük?",
-   "rd": "멕요트 어 빌러니쌈러. 펠레쥑?",
-   "ko": "전기 요금 왔어. 반반 할까?",
+   "hu": "Na, megjött a villanyszámla. Felezzük?",
+   "rd": "너, 멕요트 어 빌러니쌈러. 펠레쥑?",
+   "ko": "어, 전기 요금 왔어. 반반 할까?",
    "note": "felezzük = 반으로 나누자",
    "tags": [
     "expr:Felezzük?"
@@ -41,7 +41,12 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "Megjött",
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "megjött",
      "megjön",
      ""
     ],
@@ -55,9 +60,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Persze. Mennyi?",
-   "rd": "페르쎄. 메니?",
-   "ko": "그래. 얼마야?",
+   "hu": "Persze, mennyi?",
+   "rd": "페르쎄, 메니?",
+   "ko": "그래, 얼마야?",
    "note": "mennyi = 얼마",
    "tags": [
     "expr:Mennyi"
@@ -74,9 +79,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Huszonnégyezer. Múlt hónapban tizenkétezer volt.",
-   "rd": "후쏜네제제르. 물트 호너프번 티젠케테제르 볼트.",
-   "ko": "2만 4천. 지난달엔 만 2천이었어.",
+   "hu": "Huszonnégyezer. Múlt hónapban csak tizenkettő volt.",
+   "rd": "후쏜네제제르. 물트 호너프번 척 티젠케뙤 볼트.",
+   "ko": "2만 4천. 지난달엔 만 2천이었는데.",
    "note": "múlt hónapban = 지난달에",
    "tags": [],
    "emotion": "worried",
@@ -92,8 +97,13 @@
      "호넙"
     ],
     [
-     "tizenkétezer",
-     "tizenkét",
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
+     "tizenkettő",
+     "tizenkettő",
      ""
     ],
     [
@@ -162,16 +172,16 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "És a te számítógéped? Meg a mosógép éjjel?",
-   "rd": "에시 어 테 싸미토게페드? 멕 어 모쇼게프 에옐?",
+   "hu": "És a te géped? Meg a mosógép éjszaka?",
+   "rd": "에시 어 테 게페드? 멕 어 모쇼게프 에이써커?",
    "ko": "그럼 네 컴퓨터는? 밤에 돌리는 세탁기는?",
    "note": "meg = 그리고",
    "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
-     "számítógéped",
-     "számítógép",
+     "géped",
+     "géped",
      ""
     ],
     [
@@ -180,9 +190,9 @@
      ""
     ],
     [
-     "éjjel",
-     "éj",
-     "에이"
+     "éjszaka",
+     "éjszak",
+     "에이써크"
     ]
    ]
   },
@@ -192,7 +202,7 @@
    "hu": "Jó, akkor a wifit is számoljuk. Te többet netezel.",
    "rd": "요, 어꼬르 어 비피트 이시 싸몰육. 테 퇴베트 네테젤.",
    "ko": "좋아, 그럼 와이파이도 따지자. 인터넷은 네가 더 써.",
-   "note": "netezel = 인터넷을 한다",
+   "note": "netezel = 인터넷 한다",
    "tags": [],
    "emotion": "annoyed",
    "lemmas": [

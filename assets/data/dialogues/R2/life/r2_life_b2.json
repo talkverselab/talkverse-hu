@@ -86,7 +86,7 @@
    "hu": "Jó napot, itt Dávid apja. Ki beszél?",
    "rd": "요 너포트, 이트 다비드 어프여. 키 베쎌?",
    "ko": "안녕하세요, 다비드 아빠예요. 누구세요?",
-   "note": "ki beszél? = 누구세요(전화)",
+   "note": "ki beszél? = 누구세요",
    "tags": [],
    "emotion": "stiff",
    "lemmas": [
@@ -149,8 +149,8 @@
    "speaker": "C",
    "hu": "Értem. Mondja meg neki, hogy hétvégén jövünk.",
    "rd": "에르템. 몬드여 멕 네키, 호지 헤트베겐 요뷘크.",
-   "ko": "알겠어요. 주말에 우리가 간다고 전해 줘요.",
-   "note": "mondja meg = 전해 주세요(Ön)",
+   "ko": "알겠어요. 주말에 우리가 간다고 전해 주세요.",
+   "note": "mondja meg = 전해 주세요",
    "tags": [],
    "emotion": "neutral",
    "lemmas": [
@@ -272,7 +272,7 @@
    "hu": "Mondd, hogy nem vagyok itthon!",
    "rd": "몬드, 호지 넴 버죡 이트혼!",
    "ko": "나 집에 없다고 해!",
-   "note": "itthon = (여기) 집에",
+   "note": "itthon = 집에",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
@@ -296,8 +296,8 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Hát... azt mondja, nincs itthon.",
-   "rd": "하트... 어즈트 몬드여, 닌치 이트혼.",
+   "hu": "Hát… azt mondja, nincs itthon.",
+   "rd": "하트… 어즈트 몬드여, 닌치 이트혼.",
    "ko": "음… 집에 없다고 하는데요.",
    "note": "azt mondja = 그렇게 말한다",
    "tags": [],

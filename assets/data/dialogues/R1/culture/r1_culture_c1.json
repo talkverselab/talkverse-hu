@@ -13,7 +13,7 @@
  ],
  "title": "스포 금지",
  "emoji": "🍿",
- "scene": "Anna 가 새 영화를 벌써 봤다며 메시지를 보낸다",
+ "scene": "Anna 가 새 영화 봤다고 메시지 보냄",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
@@ -33,17 +33,22 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Láttad már az új filmet? 🎬",
-   "rd": "라떠드 마르 어즈 우이 필메트? 🎬",
-   "ko": "그 새 영화 벌써 봤어? 🎬",
-   "note": "láttad = (그것을) 봤니",
+   "hu": "Na, láttad már azt az új filmet? 🎬",
+   "rd": "너, 라떠드 마르 어즈트 어즈 우이 필메트? 🎬",
+   "ko": "야, 그 새 영화 봤어? 🎬",
+   "note": "láttad már = 봤니",
    "tags": [],
    "at": "20:14",
    "emotion": "excited",
    "ui": "bubble",
    "lemmas": [
     [
-     "Láttad",
+     "Na",
+     "na",
+     "너"
+    ],
+    [
+     "láttad",
      "lát",
      "라트"
     ],
@@ -86,9 +91,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Nagyon! A végén a főszereplő...",
-   "rd": "너죤! 어 베겐 어 푀쎄레플뢰...",
-   "ko": "엄청! 마지막에 주인공이…",
+   "hu": "Nagyon! Figyelj, a végén a srác...",
+   "rd": "너죤! 피젤이, 어 베겐 어 슈라츠...",
+   "ko": "엄청! 들어봐, 마지막에 그 애...",
    "note": "a végén = 마지막에",
    "tags": [],
    "at": "20:15",
@@ -106,17 +111,17 @@
      "베그"
     ],
     [
-     "főszereplő",
-     "főszereplő",
-     ""
+     "srác",
+     "srác",
+     "슈라츠"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Ne! Ne mondd el! 🙉",
-   "rd": "네! 네 몬드 엘! 🙉",
+   "hu": "Ne már! Ne mondd el! 🙉",
+   "rd": "네 마르! 네 몬드 엘! 🙉",
    "ko": "안 돼! 말하지 마! 🙉",
    "note": "ne mondd el = 말하지 마",
    "tags": [],
@@ -124,6 +129,11 @@
    "emotion": "shout",
    "ui": "bubble",
    "lemmas": [
+    [
+     "már",
+     "már",
+     "마르"
+    ],
     [
      "mondd",
      "mond",
@@ -139,9 +149,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Jó, jó. Bocsi! 😅",
-   "rd": "요, 요. 보치! 😅",
-   "ko": "알았어, 알았어. 미안! 😅",
+   "hu": "Jól van, jól van. Bocsi! 😅",
+   "rd": "욜 번, 욜 번. 보치! 😅",
+   "ko": "알겠어, 알겠어. 미안! 😅",
    "note": "bocsi = 미안",
    "tags": [
     "expr:Bocsi"
@@ -151,9 +161,14 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
@@ -184,9 +199,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Szombaton este. De én már láttam.",
-   "rd": "쏨버톤 에슈테. 데 엔 마르 라떰.",
-   "ko": "토요일 저녁. 근데 난 이미 봤어.",
+   "hu": "Szombat este. Én már láttam.",
+   "rd": "쏨버트 에슈테. 엔 마르 라떰.",
+   "ko": "토요일 저녁. 난 이미 봤어.",
    "note": "már = 이미",
    "tags": [],
    "at": "20:18",
@@ -194,17 +209,17 @@
    "segs": [
     [
      "neutral",
-     "Szombaton este."
+     "Szombat este."
     ],
     [
      "teasing",
-     "De én már láttam."
+     "Én már láttam."
     ]
    ],
    "ui": "bubble",
    "lemmas": [
     [
-     "Szombaton",
+     "Szombat",
      "szombat",
      "솜바트"
     ],
@@ -228,9 +243,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "De szívesen megnézem még egyszer. Veled. 😊",
-   "rd": "데 씨베센 멕네젬 멕 에지쎄르. 벨레드. 😊",
-   "ko": "근데 한 번 더 볼래. 너랑. 😊",
+   "hu": "De szívesen megnézném még egyszer. Veled. 😊",
+   "rd": "데 씨베센 멕네즈넴 멕 에지쎄르. 벨레드. 😊",
+   "ko": "근데 한 번 더 보고 싶어. 너랑. 😊",
    "note": "még egyszer = 한 번 더",
    "tags": [
     "expr:Szívesen"
@@ -240,7 +255,7 @@
    "segs": [
     [
      "gentle",
-     "De szívesen megnézem még egyszer."
+     "De szívesen megnézném még egyszer."
     ],
     [
      "shy",
@@ -255,7 +270,7 @@
      "시베시"
     ],
     [
-     "megnézem",
+     "megnézném",
      "megnéz",
      "메그네즈"
     ],

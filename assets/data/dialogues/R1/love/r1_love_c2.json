@@ -36,7 +36,7 @@
    "hu": "Réka, mit vegyek fel szombatra? 😩",
    "rd": "레커, 미트 베젝 펠 쏨버트러? 😩",
    "ko": "레카, 토요일에 뭐 입지? 😩",
-   "note": "mit vegyek fel? = 뭘 입을까?",
+   "note": "mit vegyek fel = 뭘 입을까",
    "tags": [],
    "at": "20:10",
    "emotion": "worried",
@@ -67,10 +67,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Anna biztos szép lesz.",
-   "rd": "언너 비즈토시 쎄프 레쓰.",
+   "hu": "Anna biztosan szép lesz.",
+   "rd": "언너 비즈토션 쎄프 레쓰.",
    "ko": "언너는 분명 예쁠 거야.",
-   "note": "biztos = 분명",
+   "note": "biztosan = 분명",
    "tags": [],
    "at": "20:11",
    "emotion": "shy",
@@ -82,7 +82,7 @@
      ""
     ],
     [
-     "biztos",
+     "biztosan",
      "biztos",
      "비즈토슈"
     ],
@@ -101,10 +101,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Szia. Ez Anna. 😄",
-   "rd": "씨어. 에즈 언너. 😄",
+   "hu": "Szia. Ez Anna vagyok. 😄",
+   "rd": "씨어. 에즈 언너 버죡. 😄",
    "ko": "안녕. 나 언너야. 😄",
-   "note": "ez = 이것, 이 사람",
+   "note": "ez = 이 사람",
    "tags": [],
    "at": "20:13",
    "emotion": "amused",
@@ -114,6 +114,11 @@
      "Szia",
      "szia",
      "씨어"
+    ],
+    [
+     "vagyok",
+     "van",
+     "번"
     ]
    ]
   },

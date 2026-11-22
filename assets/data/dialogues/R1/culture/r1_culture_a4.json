@@ -32,20 +32,20 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Mióta tanulsz magyarul?",
-   "rd": "미오터 터눌쓰 머져룰?",
+   "hu": "Mióta tanulod a magyart?",
+   "rd": "미오터 터눌로드 어 머져르트?",
    "ko": "헝가리어 배운 지 얼마나 됐어?",
    "note": "mióta = 언제부터",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "tanulsz",
+     "tanulod",
      "tanul",
      "타눌"
     ],
     [
-     "magyarul",
+     "magyart",
      "magyar",
      ""
     ]
@@ -54,9 +54,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Négy hónapja. De nehéz.",
-   "rd": "네지 호너프여. 데 네헤즈.",
-   "ko": "넉 달. 근데 어려워.",
+   "hu": "Négy hónapja. Nehéz.",
+   "rd": "네지 호너프여. 네헤즈.",
+   "ko": "넉 달 됐어. 어려워.",
    "note": "négy hónapja = 넉 달 전부터",
    "tags": [
     "expr:Na"
@@ -67,20 +67,15 @@
      "hónapja",
      "hónap",
      "호넙"
-    ],
-    [
-     "nehéz",
-     "nehéz",
-     "네헤즈"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Mi a legnehezebb?",
-   "rd": "미 어 렉네헤제브?",
-   "ko": "제일 어려운 게 뭐야?",
+   "hu": "Mi a legnehezebb neked?",
+   "rd": "미 어 렉네헤제브 네케드?",
+   "ko": "너한테 제일 어려운 게 뭐야?",
    "note": "legnehezebb = 가장 어려운",
    "tags": [],
    "emotion": "gentle",
@@ -95,10 +90,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "A -lak és a -lek. Mindig keverem.",
-   "rd": "어 -럭 에시 어 -렉. 민딕 케베렘.",
-   "ko": "-lak 하고 -lek. 맨날 헷갈려.",
-   "note": "keverem = 섞는다, 헷갈린다",
+   "hu": "A -lak és a -lek. Keverem.",
+   "rd": "어 -럭 에시 어 -렉. 케베렘.",
+   "ko": "-lak이랑 -lek. 헷갈려.",
+   "note": "keverem = 헷갈린다",
    "tags": [],
    "emotion": "sad",
    "lemmas": [
@@ -111,20 +106,15 @@
      "lek",
      "lek",
      ""
-    ],
-    [
-     "keverem",
-     "kever",
-     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Na, gyakoroljunk. Ízlik a kávé?",
-   "rd": "너, 져코롤윤크. 이즐릭 어 카베?",
-   "ko": "자, 연습하자. 커피 맛있어?",
+   "hu": "Na, gyakoroljunk most. Ízlik a kávé?",
+   "rd": "너, 져코롤윤크 모슈트. 이즐릭 어 카베?",
+   "ko": "자, 지금 연습하자. 커피 맛있어?",
    "note": "Ízlik? = 입에 맞아?",
    "tags": [
     "expr:Na"
@@ -142,6 +132,11 @@
      ""
     ],
     [
+     "most",
+     "most",
+     "모슈트"
+    ],
+    [
      "kávé",
      "kávé",
      "카베"
@@ -151,10 +146,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Igen, nagyon szeretlek!",
-   "rd": "이겐, 너죤 쎄레틀렉!",
-   "ko": "응, 너무 사랑해!",
-   "note": "szeretlek = (내가) 너를 사랑해",
+   "hu": "Igen! Nagyon szeretlek.",
+   "rd": "이겐! 너죤 쎄레틀렉.",
+   "ko": "응! 너무 사랑해.",
+   "note": "szeretlek = 너를 사랑해",
    "tags": [
     "expr:Na"
    ],
@@ -166,11 +161,6 @@
      "이겐"
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
      "szeretlek",
      "szeret",
      "쎄레트"
@@ -180,9 +170,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Tessék? Engem vagy a kávét?",
-   "rd": "테쎅? 엔겜 버지 어 카베트?",
-   "ko": "뭐? 나를, 아니면 커피를?",
+   "hu": "Tessék? Engem szeretlek? Vagy a kávét?",
+   "rd": "테쎅? 엔겜 쎄레틀렉? 버지 어 카베트?",
+   "ko": "뭐라고? 나를 사랑해? 아니면 커피를?",
    "note": "Tessék? = 뭐라고?",
    "tags": [
     "expr:Tessék"
@@ -195,6 +185,11 @@
      "테셰크"
     ],
     [
+     "szeretlek",
+     "szeret",
+     "쎄레트"
+    ],
+    [
      "kávét",
      "kávé",
      "카베"
@@ -204,10 +199,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Jaj, a kávét! Szeretem!",
-   "rd": "여이, 어 카베트! 쎄레템!",
-   "ko": "아, 커피를! 좋아한다고!",
-   "note": "szeretem = (그것을) 좋아한다",
+   "hu": "Jaj, a kávét! Szeretem a kávét!",
+   "rd": "여이, 어 카베트! 쎄레템 어 카베트!",
+   "ko": "아, 커피를! 커피를 좋아해!",
+   "note": "szeretem = 그것을 좋아해",
    "tags": [
     "expr:Jaj"
    ],

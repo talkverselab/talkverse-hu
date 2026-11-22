@@ -31,8 +31,8 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Szia, Réka, megérkeztem! Te hol vagy?",
-   "rd": "씨어, 레커, 메게르케즈템! 테 홀 버지?",
+   "hu": "Szia, Réka! Megérkeztem. Te hol vagy?",
+   "rd": "씨어, 레커! 메게르케즈템. 테 홀 버지?",
    "ko": "안녕, 레카! 나 도착했어. 너 어디야?",
    "note": "megérkeztem = 도착했다",
    "tags": [],
@@ -42,11 +42,6 @@
      "Szia",
      "szia",
      "씨어"
-    ],
-    [
-     "megérkeztem",
-     "megérkezik",
-     "메게르케직"
     ],
     [
      "hol",
@@ -61,7 +56,7 @@
    "hu": "Én is itt vagyok, a Deáknál.",
    "rd": "엔 이시 이트 버죡, 어 데악날.",
    "ko": "나도 여기 있어, 데아크에.",
-   "note": "Deáknál = 데아크(광장)에",
+   "note": "Deáknál = 데아크에",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -80,10 +75,10 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Nem látlak. Hol vagy pontosan?",
-   "rd": "넴 라틀럭. 홀 버지 폰토션?",
-   "ko": "너 안 보여. 정확히 어디야?",
-   "note": "látlak = (내가) 너를 본다",
+   "hu": "Nem látlak sehol. Hol vagy pontosan?",
+   "rd": "넴 라틀럭 세홀. 홀 버지 폰토션?",
+   "ko": "너 어디에도 안 보여. 정확히 어디야?",
+   "note": "látlak = 너를 본다",
    "tags": [
     "expr:Hol vagy pontosan"
    ],
@@ -92,6 +87,11 @@
     [
      "látlak",
      "látlak",
+     ""
+    ],
+    [
+     "sehol",
+     "sehol",
      ""
     ],
     [
@@ -106,7 +106,7 @@
    "speaker": "B",
    "hu": "A metró kijáratánál, a fagyizó mellett.",
    "rd": "어 메트로 키야러타날, 어 퍼지조 멜레트.",
-   "ko": "지하철 출구, 아이스크림 가게 옆.",
+   "ko": "지하철 출구 쪽에, 아이스크림 가게 옆.",
    "note": "mellett = 옆에",
    "tags": [
     "expr:mellett"
@@ -133,8 +133,8 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Én is a kijáratnál vagyok. Fagyizó nincs itt.",
-   "rd": "엔 이시 어 키야러트날 버죡. 퍼지조 닌치 이트.",
+   "hu": "Én is a kijáratnál vagyok. Itt nincs fagyizó.",
+   "rd": "엔 이시 어 키야러트날 버죡. 이트 닌치 퍼지조.",
    "ko": "나도 출구에 있어. 여기 아이스크림 가게 없는데.",
    "note": "kijárat = 출구",
    "tags": [],
@@ -156,9 +156,9 @@
      "닌치"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "fagyizó",
+     "fagyizó",
+     ""
     ]
    ]
   },
@@ -194,9 +194,9 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Nem. Egy bankot látok és egy pékséget.",
-   "rd": "넴. 에지 번코트 라톡 에시 에지 펙세게트.",
-   "ko": "아니. 은행이랑 빵집이 보여.",
+   "hu": "Nem. Egy bankot látok meg egy pékséget.",
+   "rd": "넴. 에지 번코트 라톡 멕 에지 펙세게트.",
+   "ko": "아니. 은행이랑 빵집만 보여.",
    "note": "pékség = 빵집",
    "tags": [],
    "emotion": "worried",
@@ -265,10 +265,10 @@
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Én a pirossal! A Deáknak sok kijárata van, {name}.",
-   "rd": "엔 어 피로쎨! 어 데악넉 쇽 키야러터 번, {name}.",
+   "hu": "Én a pirossal! A Deáknak rengeteg kijárata van, {name}.",
+   "rd": "엔 어 피로쎨! 어 데악넉 렌게텍 키야러터 번, {name}.",
    "ko": "나는 빨간 선! 데아크는 출구가 엄청 많아, {name}.",
-   "note": "kijárata = 그곳의 출구",
+   "note": "kijárata = 출구들",
    "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
@@ -276,6 +276,11 @@
      "pirossal",
      "piros",
      ""
+    ],
+    [
+     "rengeteg",
+     "rengeteg",
+     "렌게테그"
     ],
     [
      "kijárata",
@@ -292,17 +297,17 @@
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Jó, maradj ott! Megyek a fagyizó felé.",
-   "rd": "요, 머러드이 오트! 메젝 어 퍼지조 펠레.",
+   "hu": "Oké, maradj ott! Megyek a fagyizó felé.",
+   "rd": "오케, 머러드이 오트! 메젝 어 퍼지조 펠레.",
    "ko": "알았어, 거기 있어! 아이스크림 가게 쪽으로 갈게.",
-   "note": "maradj = 있어(머물러)",
+   "note": "maradj = 머물러",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Oké",
+     "oké",
+     "오케"
     ],
     [
      "maradj",
@@ -324,9 +329,9 @@
   {
    "num": 12,
    "speaker": "B",
-   "hu": "Siess! Már veszek neked egyet.",
-   "rd": "시에시! 마르 베쎅 네케드 에제트.",
-   "ko": "빨리 와! 네 것도 하나 사 놓을게.",
+   "hu": "Siess már! Veszek neked is egyet.",
+   "rd": "시에시 마르! 베쎅 네케드 이시 에제트.",
+   "ko": "빨리 와! 네 것도 하나 사 둘게.",
    "note": "siess = 서둘러",
    "tags": [],
    "emotion": "cheerful",
@@ -337,9 +342,9 @@
      "시에트"
     ],
     [
-     "veszek",
-     "veszik",
-     "베세크"
+     "már",
+     "már",
+     "마르"
     ]
    ]
   }

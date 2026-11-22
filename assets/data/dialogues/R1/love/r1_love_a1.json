@@ -34,10 +34,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Te is mindig itt kávézol?",
-   "rd": "씨어! 테 이시 민딕 이트 카베졸?",
-   "ko": "안녕! 너도 늘 여기서 커피 마셔?",
-   "note": "kávézol = 커피 마신다",
+   "hu": "Szia! Te is mindig ide jársz reggel kávézni?",
+   "rd": "씨어! 테 이시 민딕 이데 야르쓰 렉겔 카베즈니?",
+   "ko": "안녕! 너도 아침마다 여기 와서 커피 마셔?",
+   "note": "kávézni = 커피 마시러 오다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -52,12 +52,22 @@
      "민딕"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "ide",
+     "ide",
+     "이데"
     ],
     [
-     "kávézol",
+     "jársz",
+     "jár",
+     "야르"
+    ],
+    [
+     "reggel",
+     "reggel",
+     "렉겔"
+    ],
+    [
+     "kávézni",
      "kávézik",
      ""
     ]
@@ -88,17 +98,17 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Igen. Mit kérsz ma?",
-   "rd": "이겐. 미트 케르쓰 머?",
+   "hu": "Ja. Mit kérsz ma?",
+   "rd": "여. 미트 케르쓰 머?",
    "ko": "응. 오늘은 뭐 시킬 거야?",
    "note": "mit kérsz? = 뭐 시킬래?",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Igen",
-     "igen",
-     "이겐"
+     "Ja",
+     "ja",
+     "여"
     ],
     [
      "kérsz",
@@ -115,10 +125,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Egy nagy lattét, mint mindig.",
-   "rd": "에지 너지 러떼트, 민트 민딕.",
-   "ko": "큰 라테, 늘 그렇듯.",
-   "note": "mint mindig = 늘 그렇듯",
+   "hu": "Egy nagy lattét, ahogy szoktam.",
+   "rd": "에지 너지 러떼트, 어호지 쏙텀.",
+   "ko": "큰 라테, 늘 그렇듯이.",
+   "note": "ahogy szoktam = 늘 하는 대로",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -133,9 +143,9 @@
      ""
     ],
     [
-     "mindig",
-     "mindig",
-     "민딕"
+     "szoktam",
+     "szokik",
+     "서키크"
     ]
    ]
   },
@@ -144,7 +154,7 @@
    "speaker": "B",
    "hu": "Tudom. Zabtejjel, ugye?",
    "rd": "투돔. 저브테옐, 우제?",
-   "ko": "알아. 귀리우유로, 맞지?",
+   "ko": "알아. 귀리 우유로, 맞지?",
    "note": "ugye = 그렇지?",
    "tags": [
     "expr:Ugye"
@@ -183,9 +193,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Hát... minden reggel mögötted állok.",
-   "rd": "하트... 민덴 렉겔 뫼괴떼드 알록.",
-   "ko": "음… 매일 아침 네 뒤에 서 있거든.",
+   "hu": "Hát... minden reggel mögötted állok a sorban.",
+   "rd": "하트... 민덴 렉겔 뫼괴떼드 알록 어 쇼르번.",
+   "ko": "음… 매일 아침 줄에서 네 뒤에 서 있거든.",
    "note": "mögötted = 네 뒤에",
    "tags": [
     "expr:Hát"
@@ -206,6 +216,11 @@
      "állok",
      "áll",
      "알"
+    ],
+    [
+     "sorban",
+     "sor",
+     "쇼르"
     ]
    ]
   },

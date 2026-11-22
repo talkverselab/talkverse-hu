@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Elnézést, segítene?",
-   "rd": "엘네제슈트, 세기테네?",
-   "ko": "실례합니다, 좀 도와주시겠어요?",
+   "hu": "Elnézést, segítene? A Nyugati pályaudvart keresem.",
+   "rd": "엘네제슈트, 세기테네? 어 뉴거티 파여우드버르트 케레셈.",
+   "ko": "실례합니다, 좀 도와주시겠어요? 서역(뉘거티) 찾고 있어요.",
    "note": "segítene = 도와주시겠어요(Ön)",
    "tags": [
     "expr:Elnézést"
@@ -49,15 +49,25 @@
      "segítene",
      "segít",
      "셰기트"
+    ],
+    [
+     "pályaudvart",
+     "pályaudvar",
+     ""
+    ],
+    [
+     "keresem",
+     "keres",
+     "케레시"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Persze. Mit keres?",
-   "rd": "페르쎄. 미트 케레시?",
-   "ko": "그럼요. 뭘 찾으세요?",
+   "hu": "Persze. Mondja csak, mit keres?",
+   "rd": "페르쎄. 몬드여 척, 미트 케레시?",
+   "ko": "그럼요. 말해 보세요, 뭘 찾으세요?",
    "note": "keres = 찾다",
    "tags": [
     "expr:Persze"
@@ -70,6 +80,11 @@
      "페르쎄"
     ],
     [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
      "keres",
      "keres",
      "케레시"
@@ -79,9 +94,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "A Nyugati pályaudvart. Messze van?",
-   "rd": "어 뉴거티 파여우드버르트. 메쎄 번?",
-   "ko": "서역(뉘거티)요. 멀어요?",
+   "hu": "A Nyugati pályaudvart. Messze van innen?",
+   "rd": "어 뉴거티 파여우드버르트. 메쎄 번 인넨?",
+   "ko": "서역이요. 여기서 멀어요?",
    "note": "pályaudvar = 기차역",
    "tags": [],
    "emotion": "worried",
@@ -95,15 +110,20 @@
      "van",
      "van",
      "번"
+    ],
+    [
+     "innen",
+     "innen",
+     "인넨"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Nem. Gyalog öt perc.",
-   "rd": "넴. 졀록 외트 페르츠.",
-   "ko": "아니요. 걸어서 5분이에요.",
+   "hu": "Nem. Gyalog öt perc, közel van.",
+   "rd": "넴. 졀록 외트 페르츠, 쾨젤 번.",
+   "ko": "아니요. 걸어서 5분, 가까워요.",
    "note": "gyalog = 걸어서",
    "tags": [],
    "emotion": "gentle",
@@ -112,6 +132,16 @@
      "perc",
      "perc",
      "페르츠"
+    ],
+    [
+     "közel",
+     "közel",
+     "쾨젤"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
@@ -120,7 +150,7 @@
    "speaker": "A",
    "hu": "Merre menjek?",
    "rd": "메레 멘옉?",
-   "ko": "어느 쪽으로 가요?",
+   "ko": "어느 쪽으로 가야 해요?",
    "note": "merre = 어느 쪽으로",
    "tags": [
     "expr:Merre menjek"
@@ -142,9 +172,9 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Egyenesen, aztán balra.",
-   "rd": "에제네센, 어즈탄 벌러.",
-   "ko": "쭉 가다가 왼쪽으로요.",
+   "hu": "Egyenesen előre, aztán balra.",
+   "rd": "에제네센 엘뢰레, 어즈탄 벌러.",
+   "ko": "똑바로 가다가 왼쪽으로요.",
    "note": "balra = 왼쪽으로",
    "tags": [],
    "emotion": "polite",
@@ -153,6 +183,11 @@
      "Egyenesen",
      "egyenes",
      "에제녜시"
+    ],
+    [
+     "előre",
+     "előre",
+     "엘뢰레"
     ],
     [
      "aztán",
@@ -191,9 +226,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Várjon! Rossz irányba megy.",
-   "rd": "바르욘! 로쓰 이라니버 메지.",
-   "ko": "잠깐요! 반대쪽으로 가시네요.",
+   "hu": "Várjon! Rossz irányba indult el.",
+   "rd": "바르욘! 로쓰 이라니버 인둘트 엘.",
+   "ko": "잠깐요! 반대쪽으로 가셨네요.",
    "note": "irány = 방향",
    "tags": [],
    "emotion": "surprised",
@@ -204,7 +239,7 @@
     ],
     [
      "amused",
-     "Rossz irányba megy."
+     "Rossz irányba indult el."
     ]
    ],
    "lemmas": [
@@ -219,9 +254,14 @@
      "이라니"
     ],
     [
-     "megy",
-     "megy",
-     "메지"
+     "indult",
+     "indul",
+     "인둘"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
     ]
    ]
   }

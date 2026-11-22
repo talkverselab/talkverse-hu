@@ -65,7 +65,7 @@
    "speaker": "A",
    "hu": "Jó napot! Bankszámlát szeretnék nyitni.",
    "rd": "요 너포트! 번크쌈라트 쎄레트넥 니트니.",
-   "ko": "안녕하세요! 계좌를 만들고 싶어요.",
+   "ko": "안녕하세요! 계좌를 열고 싶어요.",
    "note": "bankszámla = 은행 계좌",
    "tags": [
     "expr:Bankszámlát szeretnék nyitni"
@@ -99,7 +99,7 @@
    "speaker": "B",
    "hu": "Rendben. Kérem az útlevelét és a lakcímkártyáját.",
    "rd": "렌드벤. 케렘 어즈 우틀레벨레트 에시 어 럭침카르탸야트.",
-   "ko": "네. 여권하고 주소 카드 주세요.",
+   "ko": "네. 여권과 주소 카드를 주세요.",
    "note": "lakcímkártya = 주소 카드",
    "tags": [
     "expr:Rendben"
@@ -128,7 +128,7 @@
    "speaker": "A",
    "hu": "Tessék, itt vannak.",
    "rd": "테쎅, 이트 번넉.",
-   "ko": "여기 있어요.",
+   "ko": "여기 있습니다.",
    "note": "tessék = 여기 있어요",
    "tags": [],
    "emotion": "neutral",
@@ -155,7 +155,7 @@
    "speaker": "B",
    "hu": "Köszönöm. Van magyar telefonszáma?",
    "rd": "쾨쐬뇜. 번 머져르 텔레폰싸머?",
-   "ko": "고맙습니다. 헝가리 전화번호 있으세요?",
+   "ko": "감사합니다. 헝가리 전화번호가 있으세요?",
    "note": "telefonszám = 전화번호",
    "tags": [],
    "emotion": "polite",
@@ -182,7 +182,7 @@
    "speaker": "A",
    "hu": "Igen, itt van, felírtam.",
    "rd": "이겐, 이트 번, 펠리르텀.",
-   "ko": "네, 여기 적어 왔어요.",
+   "ko": "네, 여기 적어 왔습니다.",
    "note": "felírtam = 적어 두었다",
    "tags": [],
    "emotion": "cheerful",
@@ -214,7 +214,7 @@
    "speaker": "B",
    "hu": "Rendben. Most küldök egy kódot SMS-ben.",
    "rd": "렌드벤. 모슈트 퀼됙 에지 코도트 슘시-벤.",
-   "ko": "네. 지금 문자로 코드 보내 드릴게요.",
+   "ko": "네. 지금 문자로 코드를 보내 드릴게요.",
    "note": "kód = 코드",
    "tags": [
     "expr:Rendben"
@@ -246,8 +246,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Még nem jött meg semmi.",
-   "rd": "멕 넴 요트 멕 셈미.",
+   "hu": "Még semmi nem jött meg.",
+   "rd": "멕 셈미 넴 요트 멕.",
    "ko": "아직 아무것도 안 왔어요.",
    "note": "megjött = 도착했다",
    "tags": [],
@@ -268,9 +268,9 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Egy pillanat, újra küldöm. Most?",
-   "rd": "에지 필러너트, 우이러 퀼됨. 모슈트?",
-   "ko": "잠깐만요, 다시 보낼게요. 지금은요?",
+   "hu": "Egy pillanat, újra küldöm. Most már?",
+   "rd": "에지 필러너트, 우이러 퀼됨. 모슈트 마르?",
+   "ko": "잠깐만요, 다시 보내 드릴게요. 지금은요?",
    "note": "újra = 다시",
    "tags": [
     "expr:Egy pillanat"
@@ -291,17 +291,24 @@
      "küldöm",
      "küld",
      "퀼드"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Semmi. Pedig a telefonom jó.",
-   "rd": "셈미. 페딕 어 텔레포놈 요.",
-   "ko": "아무것도요. 폰은 멀쩡한데요.",
+   "hu": "Semmi. Pedig a telefonom rendben van.",
+   "rd": "셈미. 페딕 어 텔레포놈 렌드벤 번.",
+   "ko": "아무것도요. 폰은 문제없는데.",
    "note": "pedig = 그런데도",
-   "tags": [],
+   "tags": [
+    "expr:Rendben"
+   ],
    "emotion": "worried",
    "lemmas": [
     [
@@ -310,9 +317,14 @@
      "텔레폰"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "rendben",
+     "rend",
+     "렌드"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ]
    ]
   },
@@ -321,7 +333,7 @@
    "speaker": "B",
    "hu": "A telefonja repülő üzemmódban van. Innen is látom.",
    "rd": "어 텔레폰여 레퓔뢰 위젬모드번 번. 인넨 이시 라톰.",
-   "ko": "휴대폰이 비행기 모드예요. 여기서도 보여요.",
+   "ko": "휴대폰이 비행기 모드입니다. 여기서도 보여요.",
    "note": "repülő üzemmód = 비행기 모드",
    "tags": [],
    "emotion": "amused",

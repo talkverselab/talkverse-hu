@@ -34,9 +34,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Réka, figyelj. Mit írjak Annának?",
-   "rd": "레커, 피젤이. 미트 이르역 언나넉?",
-   "ko": "레카, 있잖아. 언너한테 뭐라고 쓰지?",
+   "hu": "Figyelj, Réka. Mit írjak Annának most?",
+   "rd": "피젤이, 레커. 미트 이르역 언나넉 모슈트?",
+   "ko": "있잖아, 레카. 지금 언너한테 뭐라고 쓰지?",
    "note": "írjak = 내가 쓸까",
    "tags": [
     "expr:Figyelj"
@@ -44,12 +44,7 @@
    "emotion": "worried",
    "lemmas": [
     [
-     "Réka",
-     "réka",
-     ""
-    ],
-    [
-     "figyelj",
+     "Figyelj",
      "figyel",
      "피겔"
     ],
@@ -57,16 +52,21 @@
      "írjak",
      "írja",
      ""
+    ],
+    [
+     "most",
+     "most",
+     "모슈트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Mutasd. „Szia, mizu?” Ennyi?",
-   "rd": "무터슈드. „씨어, 미주?” 에니?",
-   "ko": "보여 줘. \"안녕, 뭐 해?\" 이게 다야?",
-   "note": "ennyi = 이만큼",
+   "hu": "Mutasd. „Szia, mizu?” Ennyi? Komolyan?",
+   "rd": "무터슈드. „씨어, 미주?” 에니? 코모연?",
+   "ko": "보여 줘. \"안녕, 뭐 해?\" 이게 다야? 진짜?",
+   "note": "mizu = 뭐 해",
    "tags": [
     "expr:Mizu"
    ],
@@ -87,15 +87,20 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Jó, de unalmas, ugye?",
-   "rd": "요, 데 우널머시, 우제?",
-   "ko": "괜찮은데, 좀 지루하지, 그렇지?",
+   "hu": "Hát jó, de unalmas, nem?",
+   "rd": "하트 요, 데 우널머시, 넴?",
+   "ko": "음 괜찮은데, 지루하지 않아?",
    "note": "unalmas = 지루한",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "Jó",
+     "Hát",
+     "hát",
+     "핫"
+    ],
+    [
+     "jó",
      "jó",
      "요"
     ],
@@ -109,9 +114,9 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Kicsit. Hívd el valahová!",
-   "rd": "키치트. 히브드 엘 벌러호바!",
-   "ko": "좀. 어디 같이 가자고 해!",
+   "hu": "Kicsit az. Hívd el valahová!",
+   "rd": "키치트 어즈. 히브드 엘 벌러호바!",
+   "ko": "좀 그래. 어디 불러내!",
    "note": "hívd el = 불러내",
    "tags": [],
    "emotion": "teasing",
@@ -136,9 +141,9 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Moziba? Nem túl gyors?",
-   "rd": "모지버? 넴 툴 죠르시?",
-   "ko": "영화? 너무 빠르지 않아?",
+   "hu": "Moziba menjünk? Nem túl gyors ez?",
+   "rd": "모지버 멘윈크? 넴 툴 죠르시 에즈?",
+   "ko": "영화 보러 가자고? 이거 너무 빠르지 않아?",
    "note": "túl gyors = 너무 빠른",
    "tags": [],
    "emotion": "worried",
@@ -147,6 +152,11 @@
      "Moziba",
      "mozi",
      "모지"
+    ],
+    [
+     "menjünk",
+     "megy",
+     "메지"
     ],
     [
      "túl",
@@ -163,10 +173,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Na ne. Ma reggel Anna ugyanezt kérdezte tőlem.",
-   "rd": "너 네. 머 렉겔 언너 우져네즈트 케르데즈테 퇼렘.",
-   "ko": "에이. 오늘 아침에 언너도 똑같은 걸 나한테 물었어.",
-   "note": "ugyanezt = 바로 이것을",
+   "hu": "Na ne. Ma reggel Anna pont ugyanezt kérdezte tőlem.",
+   "rd": "너 네. 머 렉겔 언너 폰트 우져네즈트 케르데즈테 퇼렘.",
+   "ko": "에이. 오늘 아침 언너도 똑같은 걸 나한테 물어봤어.",
+   "note": "Na ne = 에이",
    "tags": [
     "expr:Na ne"
    ],
@@ -183,6 +193,11 @@
      "렉겔"
     ],
     [
+     "pont",
+     "pont",
+     "폰트"
+    ],
+    [
      "kérdezte",
      "kérdez",
      "케르데즈"
@@ -192,10 +207,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Tényleg? És mit mondtál neki?",
-   "rd": "테닐렉? 에시 미트 몬드탈 네키?",
-   "ko": "진짜? 그래서 뭐라고 했어?",
-   "note": "mit mondtál? = 뭐라고 했어?",
+   "hu": "Tényleg? Mit mondtál neki?",
+   "rd": "테닐렉? 미트 몬드탈 네키?",
+   "ko": "진짜? 뭐라고 말해줬어?",
+   "note": "mit mondtál = 뭐라고 했어",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
@@ -214,15 +229,20 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Azt, hogy ne várjon rád. Nézd, már írt.",
-   "rd": "어즈트, 호지 네 바르욘 라드. 네즈드, 마르 이르트.",
-   "ko": "너 기다리지 말라고. 봐, 벌써 보냈네.",
-   "note": "ne várjon = 기다리지 말라",
+   "hu": "Azt mondtam, ne várjon rád. Nézd, már írt is.",
+   "rd": "어즈트 몬드텀, 네 바르욘 라드. 네즈드, 마르 이르트 이시.",
+   "ko": "너 기다리지 말라고 했어. 봐, 벌써 보냈네.",
+   "note": "Nézd = 봐",
    "tags": [
     "expr:Nézd"
    ],
    "emotion": "teasing",
    "lemmas": [
+    [
+     "mondtam",
+     "mond",
+     "몬드"
+    ],
     [
      "várjon",
      "vár",

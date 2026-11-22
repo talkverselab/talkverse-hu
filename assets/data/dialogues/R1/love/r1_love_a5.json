@@ -62,9 +62,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Mi az? Na, becsuktam.",
-   "rd": "미 어즈? 너, 베축텀.",
-   "ko": "뭔데? 자, 감았어.",
+   "hu": "Mi ez? Na, becsuktam.",
+   "rd": "미 에즈? 너, 베축텀.",
+   "ko": "이게 뭐야? 자, 감았어.",
    "note": "becsuktam = 감았다",
    "tags": [
     "expr:Na"
@@ -105,10 +105,10 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Hű, torta! Nagyon kedves vagy.",
-   "rd": "휘, 토르터! 너죤 케드베시 버지.",
+   "hu": "Hű, torta! Nagyon aranyos vagy.",
+   "rd": "휘, 토르터! 너죤 어러뇨시 버지.",
    "ko": "와, 케이크! 너 정말 다정하다.",
-   "note": "kedves = 다정한",
+   "note": "aranyos = 다정한",
    "tags": [
     "expr:Na"
    ],
@@ -125,20 +125,22 @@
      ""
     ],
     [
-     "kedves",
-     "kedves",
-     "케드베슈"
+     "aranyos",
+     "aranyos",
+     "어러뇨시"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Réka mondta, hogy ma van.",
-   "rd": "레커 몬드터, 호지 머 번.",
-   "ko": "레카가 오늘이라고 했어.",
-   "note": "hogy = ~라고",
-   "tags": [],
+   "hu": "Réka mondta, hogy ma van a szülinapod.",
+   "rd": "레커 몬드터, 호지 머 번 어 쓀리너포드.",
+   "ko": "레카가 오늘 생일이라고 했어.",
+   "note": "szülinapod = 네 생일",
+   "tags": [
+    "expr:Na"
+   ],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -160,6 +162,11 @@
      "van",
      "van",
      "번"
+    ],
+    [
+     "szülinapod",
+     "szülinap",
+     "쓸리넙"
     ]
    ]
   },
@@ -201,10 +208,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Jaj, ne már! Akkor holnap hozok egy másikat.",
-   "rd": "여이, 네 마르! 어꼬르 홀너프 호족 에지 마시커트.",
+   "hu": "Jaj, ne már! Akkor holnap hozok még egyet.",
+   "rd": "여이, 네 마르! 어꼬르 홀너프 호족 멕 에제트.",
    "ko": "아이고, 말도 안 돼! 그럼 내일 하나 더 가져올게.",
-   "note": "egy másikat = 다른 하나를",
+   "note": "még egyet = 하나 더",
    "tags": [
     "expr:Na",
     "expr:Ne már"
@@ -230,6 +237,11 @@
      "hozok",
      "hoz",
      "호즈"
+    ],
+    [
+     "még",
+     "még",
+     "메그"
     ]
    ]
   },

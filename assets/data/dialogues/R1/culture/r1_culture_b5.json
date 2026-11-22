@@ -32,18 +32,13 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Itt a legjobb lángos a piacon.",
-   "rd": "이트 어 렉요브 란고시 어 피어촌.",
-   "ko": "여기가 시장에서 제일 맛있는 랑고시야.",
+   "hu": "Ez a legjobb lángos a piacon.",
+   "rd": "에즈 어 렉요브 란고시 어 피어촌.",
+   "ko": "이게 시장에서 제일 맛있는 랑고시야.",
    "note": "lángos = 튀긴 빵",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
-    [
-     "Itt",
-     "itt",
-     "이트"
-    ],
     [
      "legjobb",
      "jó",
@@ -64,9 +59,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Mit ajánlasz? Először eszem lángost.",
-   "rd": "미트 어얀러쓰? 엘뢰쐬르 에쎔 란고슈트.",
-   "ko": "뭐 추천해? 랑고시 처음 먹어 봐.",
+   "hu": "Mit ajánlasz? Még nem ettem lángost.",
+   "rd": "미트 어얀러쓰? 멕 넴 에뗌 란고슈트.",
+   "ko": "뭐 추천해? 랑고시 아직 안 먹어 봤어.",
    "note": "Mit ajánlasz? = 뭐 추천해?",
    "tags": [
     "expr:Mit ajánlasz"
@@ -79,8 +74,8 @@
      "어야안"
     ],
     [
-     "eszem",
-     "eszem",
+     "ettem",
+     "esz",
      ""
     ],
     [
@@ -93,8 +88,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Sajtos-tejfölöset. Az a klasszikus.",
-   "rd": "셔이토시-테이푈뢰세트. 어즈 어 클러씨쿠시.",
+   "hu": "Sajtos-tejfölöset. Az klasszikus.",
+   "rd": "셔이토시-테이푈뢰세트. 어즈 클러씨쿠시.",
    "ko": "치즈 사워크림. 그게 기본이야.",
    "note": "tejföl = 사워크림",
    "tags": [],
@@ -120,8 +115,8 @@
   {
    "num": 4,
    "speaker": "C",
-   "hu": "Jó napot! Mit kér?",
-   "rd": "요 너포트! 미트 케르?",
+   "hu": "Jó napot! Mit kérnek?",
+   "rd": "요 너포트! 미트 케르넥?",
    "ko": "안녕하세요! 뭐 드릴까요?",
    "note": "Mit kér? = 뭐 드릴까요?",
    "tags": [],
@@ -138,7 +133,7 @@
      "넙"
     ],
     [
-     "kér",
+     "kérnek",
      "kér",
      "께르"
     ]
@@ -147,9 +142,9 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Egy lángost kérek, sajttal és tejjel.",
-   "rd": "에지 란고슈트 케렉, 셔이떨 에시 테옐.",
-   "ko": "랑고시 하나 주세요, 치즈랑 우유 올려서요.",
+   "hu": "Egy lángost kérek sajttal és tejjel.",
+   "rd": "에지 란고슈트 케렉 셔이떨 에시 테옐.",
+   "ko": "랑고시 하나 주세요, 치즈랑 우유랑.",
    "note": "tej = 우유",
    "tags": [],
    "emotion": "polite",
@@ -179,8 +174,8 @@
   {
    "num": 6,
    "speaker": "C",
-   "hu": "Tejjel? A lángosra?",
-   "rd": "테옐? 어 란고슈러?",
+   "hu": "Tejjel? Lángosra?",
+   "rd": "테옐? 란고슈러?",
    "ko": "우유요? 랑고시 위에요?",
    "note": "-ra = ~위에",
    "tags": [],
@@ -190,19 +185,14 @@
      "Tejjel",
      "tej",
      "테이"
-    ],
-    [
-     "lángosra",
-     "lángos",
-     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Tejföllel! Bocsánat, még tanul.",
-   "rd": "테이푈렐! 보차너트, 멕 터눌.",
+   "hu": "Tejföllel! Bocsánat, még tanulja.",
+   "rd": "테이푈렐! 보차너트, 멕 터눌여.",
    "ko": "사워크림이요! 죄송해요, 아직 배우는 중이라서요.",
    "note": "még tanul = 아직 배우는 중",
    "tags": [
@@ -216,7 +206,7 @@
     ],
     [
      "polite",
-     "Bocsánat, még tanul."
+     "Bocsánat, még tanulja."
     ]
    ],
    "lemmas": [
@@ -231,18 +221,18 @@
      "메그"
     ],
     [
+     "tanulja",
      "tanul",
-     "tan",
-     ""
+     "타눌"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Szóval a tejföl nem tej? Mindegy, finom!",
-   "rd": "쏘벌 어 테이푈 넴 테이? 민데지, 피놈!",
-   "ko": "그러니까 tejföl 은 우유가 아니야? 아무튼, 맛있다!",
+   "hu": "Szóval tejföl nem tej? Mindegy, finom!",
+   "rd": "쏘벌 테이푈 넴 테이? 민데지, 피놈!",
+   "ko": "그러니까 tejföl은 우유가 아니야? 아무튼, 맛있다!",
    "note": "mindegy = 아무래도 좋아",
    "tags": [
     "expr:Szóval"
@@ -251,7 +241,7 @@
    "segs": [
     [
      "surprised",
-     "Szóval a tejföl nem tej?"
+     "Szóval tejföl nem tej?"
     ],
     [
      "cheerful",

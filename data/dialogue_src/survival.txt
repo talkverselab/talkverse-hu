@@ -9,13 +9,13 @@ twist: 7 chaos
 purpose: travel
 goal: 주문하기(…kérek)와 추가 질문(Tejjel kéri? · … is kér?) 알아듣기
 expressions: Jó napot; kérek; Tessék
-B | Jó napot! Mit kér? | 안녕하세요! 뭐 드릴까요? | Mit kér? = 뭐 드릴까요?(존댓말) | emotion=polite
-A | Jó napot! Egy kávét kérek. | 안녕하세요! 커피 한 잔 주세요. | kávét kérek = 커피 주세요(-t 목적격) | emotion=cheerful
+B | Jó napot! Mit kér? | 안녕하세요! 뭐 드릴까요? | Mit kér = 뭐 드릴까요 | emotion=polite
+A | Jó napot! Egy kávét kérek. | 안녕하세요! 커피 한 잔 주세요. | kérek = 주세요 | emotion=cheerful
 B | Tejjel kéri? | 우유 넣어 드릴까요? | tejjel = 우유와 함께 | emotion=polite
 A | Igen, köszönöm. | 네, 감사합니다. | köszönöm = 감사합니다 | emotion=polite
 B | Szirupot és tejszínhabot is kér? | 시럽이랑 휘핑크림도 드릴까요? | is = ~도 | emotion=cheerful
-A | Igen, igen. | 네, 네. | 못 알아들어도 일단 igen | emotion=flustered
-B | Tessék: nagy karamellás kávé tejszínhabbal. Kétezer forint. | 여기요, 휘핑크림 올린 캐러멜 커피 큰 거요. 2천 포린트입니다. | tessék = 여기 있어요 | emotion=cheerful
+A | Igen, igen. | 네, 네. | igen = 네 | emotion=flustered
+B | Tessék: nagy karamellás kávé tejszínhabbal. Kétezer forint. | 여기요, 휘핑크림 올린 캐러멜 커피 큰 거요. 2천 포린트입니다. | Tessék = 여기 있어요 | emotion=cheerful
 A | Kétezer? Jaj, csak egy sima kávét akartam! | 2천이요? 아, 그냥 기본 커피를 원했는데! | sima = 기본의, 그냥 | emotion=surprised+flustered
 
 === r1_survival_s2
@@ -30,11 +30,11 @@ purpose: travel
 goal: 아픈 곳 말하기(Fáj a …)와 fej(머리)·fog(이) 구별
 expressions: Mi a panasza; Fáj a fejem; Tessék
 B | Jó napot, tessék, üljön le! Mi a panasza? | 안녕하세요! 앉으세요. 어디가 불편하세요? | panasz = 증상, 불편 | emotion=polite
-A | Jó napot! Két napja nagyon fáj a fogam. | 안녕하세요! 이틀째 이가 너무 아파요. | fogam = 내 이(fejem = 내 머리) | emotion=worried
-B | A foga? Akkor nyissa ki a száját! | 이요? 그럼 입 벌려 보세요! | nyissa ki = 여세요(존댓말 명령) | emotion=surprised
+A | Jó napot! Két napja nagyon fáj a fogam. | 안녕하세요! 이틀째 이가 너무 아파요. | fogam = 내 이 | emotion=worried
+B | A foga? Akkor nyissa ki a száját! | 이요? 그럼 입 벌려 보세요! | nyissa ki = 여세요 | emotion=surprised
 A | Nem a szám. Itt fáj, a homlokom! | 입 말고요. 여기가 아파요, 이마요! | homlok = 이마 | emotion=flustered
 B | De hát az a feje, nem a foga! | 아니 그건 머리잖아요, 이가 아니라! | feje = (당신의) 머리 | emotion=amused
-A | Jaj, bocsánat! Fáj a fejem, nem a fogam. | 아, 죄송해요! 머리가 아파요, 이가 아니라요. | fáj a fejem = 머리가 아파요 | emotion=flustered
+A | Jaj, bocsánat! Fáj a fejem, nem a fogam. | 아, 죄송해요! 머리가 아파요, 이가 아니라요. | Fáj a fejem = 머리가 아파요 | emotion=flustered
 B | Semmi baj, gyakori hiba. Lázas is? | 괜찮아요, 흔한 실수예요. 열도 있어요? | lázas = 열이 있는 | emotion=gentle
 A | Nem, csak nagyon fáradt vagyok. | 아니요, 그냥 많이 피곤해요. | fáradt = 피곤한 | emotion=sad
 
@@ -51,10 +51,10 @@ purpose: travel
 goal: 길 묻기(Hol van …?)와 길 안내(menjen, balra, jobbra) 알아듣기
 expressions: Elnézést; Hol van; Menjen; sajnos
 A | Elnézést! Hol van a gyógyszertár? | 실례합니다! 약국이 어디예요? | gyógyszertár = 약국 | emotion=polite
-B | A patika? Menjen egyenesen, aztán balra. | 약국이요? 쭉 가다가 왼쪽이요. | menjen = 가세요(존댓말), patika = 약국(구어) | emotion=gentle
-C | Dehogy balra! Jobbra van, a posta mellett. | 무슨 왼쪽이야! 오른쪽이지, 우체국 옆. | dehogy = 천만에, 아니지 | emotion=annoyed
-B | Ugyan, Feri! Az a régi patika volt. | 아이고, 페리! 그건 옛날 약국이고. | ugyan = 아이고, 무슨 소리 | emotion=tsukkomi
+B | A patika? Menjen egyenesen, aztán balra. | 약국이요? 쭉 가다가 왼쪽이요. | Menjen = 가세요 | emotion=gentle
+C | Dehogy balra! Jobbra van, a posta mellett. | 무슨 왼쪽이야! 오른쪽이지, 우체국 옆. | dehogy = 천만에 | emotion=annoyed
+B | Ugyan, Feri! Az a régi patika volt. | 아이고, 페리! 그건 옛날 약국이고. | ugyan = 아이고 | emotion=tsukkomi
 C | Milyen régi? Tegnap is ott voltam! | 옛날은 무슨? 어제도 거기 갔었어! | tegnap is = 어제도 | emotion=annoyed
 A | Sajnos nem értem. Balra vagy jobbra? | 죄송한데 잘 모르겠어요. 왼쪽이에요, 오른쪽이에요? | sajnos = 안타깝게도 | emotion=worried
-B | Jöjjön velünk, mi is oda megyünk. | 우리랑 같이 가요, 우리도 거기 가요. | jöjjön = 오세요(존댓말) | emotion=cheerful
+B | Jöjjön velünk, mi is oda megyünk. | 우리랑 같이 가요, 우리도 거기 가요. | jöjjön = 오세요 | emotion=cheerful
 C | Igen. És majd meglátjuk, ki tudja jobban! | 그래요. 누가 더 잘 아는지 보자고! | meglátjuk = 두고 보자 | emotion=teasing

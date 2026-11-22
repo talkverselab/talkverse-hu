@@ -58,7 +58,7 @@
    "hu": "Jó napot! Tessék, itt egy csomag magának.",
    "rd": "요 너포트! 테쎅, 이트 에지 초먹 머가넉.",
    "ko": "안녕하세요! 자, 택배 왔어요.",
-   "note": "magának = 당신에게(Ön)",
+   "note": "magának = 당신에게",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -218,7 +218,7 @@
    "hu": "Cirminek. Ő csak az új dobozokat szereti.",
    "rd": "치르미넥. 외 척 어즈 우이 도보조커트 쎄레티.",
    "ko": "치르미 주려고요. 걔는 새 상자만 좋아해요.",
-   "note": "Cirmi = 아주머니네 고양이(-nek = ~에게)",
+   "note": "Cirmi = 아주머니네 고양이",
    "tags": [],
    "emotion": "amused",
    "lemmas": [

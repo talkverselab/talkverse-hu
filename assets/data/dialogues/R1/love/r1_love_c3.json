@@ -35,8 +35,8 @@
    "speaker": "A",
    "hu": "Itt vagyok a mozi előtt. Hol vagy?",
    "rd": "이트 버죡 어 모지 엘뢰트. 홀 버지?",
-   "ko": "영화관 앞 도착. 어디야?",
-   "note": "hol vagy? = 어디야?",
+   "ko": "영화관 앞 도착했어. 어디야?",
+   "note": "hol vagy = 어디야",
    "tags": [
     "expr:Hol vagy?"
    ],
@@ -64,10 +64,10 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Én is a mozi előtt vagyok. Nem látlak!",
-   "rd": "엔 이시 어 모지 엘뢰트 버죡. 넴 라틀럭!",
+   "hu": "Én is a mozi előtt. Nem látlak sehol!",
+   "rd": "엔 이시 어 모지 엘뢰트. 넴 라틀럭 세홀!",
    "ko": "나도 영화관 앞이야. 너 안 보여!",
-   "note": "nem látlak = 너를 못 본다",
+   "note": "nem látlak = 너를 못 봐",
    "tags": [],
    "at": "19:01",
    "emotion": "surprised",
@@ -79,13 +79,13 @@
      "모지"
     ],
     [
-     "vagyok",
-     "van",
-     "번"
+     "látlak",
+     "látlak",
+     ""
     ],
     [
-     "látlak",
-     "látlak",
+     "sehol",
+     "sehol",
      ""
     ]
    ]
@@ -173,9 +173,9 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "A kicsiben, a téren. Te nem? 😳",
-   "rd": "어 키치벤, 어 테렌. 테 넴? 😳",
-   "ko": "광장에 있는 작은 데. 너 아니야? 😳",
+   "hu": "A kicsiben, a téren. Te nem ott vagy? 😳",
+   "rd": "어 키치벤, 어 테렌. 테 넴 오트 버지? 😳",
+   "ko": "광장에 있는 작은 데. 너 거기 아니야? 😳",
    "note": "a téren = 광장에",
    "tags": [],
    "at": "19:03",
@@ -191,14 +191,19 @@
      "téren",
      "tér",
      "테르"
+    ],
+    [
+     "ott",
+     "ott",
+     "오트"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Én a nagyban, a pláza mellett. Futok!",
-   "rd": "엔 어 너지번, 어 플라저 멜레트. 푸톡!",
+   "hu": "Én a nagyban, a pláza mellett. Futok oda!",
+   "rd": "엔 어 너지번, 어 플라저 멜레트. 푸톡 오더!",
    "ko": "난 쇼핑몰 옆 큰 데. 뛰어갈게!",
    "note": "mellett = 옆에",
    "tags": [],
@@ -215,6 +220,11 @@
      "pláza",
      "pláza",
      ""
+    ],
+    [
+     "oda",
+     "oda",
+     "오더"
     ]
    ]
   },

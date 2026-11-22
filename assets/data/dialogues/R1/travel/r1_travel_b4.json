@@ -87,8 +87,8 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Köszönöm! Honnan tudom, hogy hol kell leszállni?",
-   "rd": "쾨쐬뇜! 혼넌 투돔, 호지 홀 켈 레쌀니?",
+   "hu": "Köszönöm! Honnan tudom, hol kell leszállni?",
+   "rd": "쾨쐬뇜! 혼넌 투돔, 홀 켈 레쌀니?",
    "ko": "감사합니다! 어디서 내려야 하는지 어떻게 알아요?",
    "note": "leszáll = 내리다",
    "tags": [],
@@ -124,8 +124,8 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Majd szólok. Turista?",
-   "rd": "머이드 쏠록. 투리슈터?",
+   "hu": "Majd szólok. Turista vagy?",
+   "rd": "머이드 쏠록. 투리슈터 버지?",
    "ko": "내가 말해 줄게요. 관광객이에요?",
    "note": "majd szólok = 나중에 말해 줄게요",
    "tags": [
@@ -139,7 +139,7 @@
     ],
     [
      "cheerful",
-     "Turista?"
+     "Turista vagy?"
     ]
    ],
    "lemmas": [

@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Jó napot! Mennyibe kerül ez?",
-   "rd": "요 너포트! 메니베 케륄 에즈?",
-   "ko": "안녕하세요! 이거 얼마예요?",
+   "hu": "Jó napot! Mennyibe kerül ez a mágnes?",
+   "rd": "요 너포트! 메니베 케륄 에즈 어 막네시?",
+   "ko": "안녕하세요! 이 자석 얼마예요?",
    "note": "mennyibe kerül? = 얼마예요?",
    "tags": [
     "expr:Mennyibe kerül"
@@ -54,24 +54,24 @@
      "kerül",
      "kerül",
      "케륄"
+    ],
+    [
+     "mágnes",
+     "mágnes",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "hu": "A mágnes? Ezerkétszáz forint.",
-   "rd": "어 막네시? 에제르케트싸즈 포린트.",
-   "ko": "자석요? 1200포린트예요.",
+   "hu": "Ez? Ezerkétszáz forint.",
+   "rd": "에즈? 에제르케트싸즈 포린트.",
+   "ko": "이거요? 1200포린트예요.",
    "note": "mágnes = 자석",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
-    [
-     "mágnes",
-     "mágnes",
-     ""
-    ],
     [
      "forint",
      "forint",
@@ -82,9 +82,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "És a paprika?",
-   "rd": "에시 어 퍼프리커?",
-   "ko": "그리고 파프리카 가루는요?",
+   "hu": "És a paprika? Az mennyi?",
+   "rd": "에시 어 퍼프리커? 어즈 메니?",
+   "ko": "파프리카 가루는요? 그건 얼마예요?",
    "note": "paprika = 파프리카 가루",
    "tags": [],
    "emotion": "cheerful",
@@ -101,7 +101,7 @@
    "speaker": "B",
    "hu": "Kétezer. Nagyon finom.",
    "rd": "케테제르. 너죤 피놈.",
-   "ko": "2천이요. 아주 맛있어요.",
+   "ko": "2천이요. 진짜 맛있어요.",
    "note": "finom = 맛있는",
    "tags": [],
    "emotion": "cheerful",
@@ -121,9 +121,9 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Akkor kettőt kérek, kártyával.",
-   "rd": "어꼬르 케뙤트 케렉, 카르탸벌.",
-   "ko": "그럼 두 개씩 주세요, 카드로요.",
+   "hu": "Akkor mindkettőből kettőt kérek, kártyával.",
+   "rd": "어꼬르 민드케뙤뵐 케뙤트 케렉, 카르탸벌.",
+   "ko": "그럼 둘 다 두 개씩 주세요, 카드로요.",
    "note": "kettőt = 두 개를",
    "tags": [
     "expr:kérek"
@@ -134,6 +134,11 @@
      "Akkor",
      "akkor",
      "어꼬르"
+    ],
+    [
+     "mindkettőből",
+     "mindkettő",
+     ""
     ],
     [
      "kérek",
@@ -184,8 +189,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Jaj! Van itt bankautomata?",
-   "rd": "여이! 번 이트 번커우토머터?",
+   "hu": "Jaj! Van itt valahol bankautomata?",
+   "rd": "여이! 번 이트 벌러홀 번커우토머터?",
    "ko": "아이고! 이 근처에 ATM 있어요?",
    "note": "bankautomata = 현금인출기",
    "tags": [],
@@ -202,6 +207,11 @@
      "이트"
     ],
     [
+     "valahol",
+     "valahol",
+     "벌러홀"
+    ],
+    [
      "bankautomata",
      "bankautomata",
      ""
@@ -211,8 +221,8 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Van, a sarkon. Addig félreteszem.",
-   "rd": "번, 어 셔르콘. 어딕 펠레테쎔.",
+   "hu": "Van, a sarkon. Addig félreteszem önnek.",
+   "rd": "번, 어 셔르콘. 어딕 펠레테쎔 왼넥.",
    "ko": "있어요, 모퉁이에. 그동안 따로 빼 둘게요.",
    "note": "félretesz = 따로 챙겨 두다",
    "tags": [],

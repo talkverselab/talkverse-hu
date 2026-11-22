@@ -32,13 +32,18 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Mit nézzünk ma este?",
-   "rd": "미트 네쥔크 머 에슈테?",
-   "ko": "오늘 저녁 뭐 볼까?",
+   "hu": "Na, mit nézzünk ma este?",
+   "rd": "너, 미트 네쥔크 머 에슈테?",
+   "ko": "자, 오늘 저녁 뭐 볼까?",
    "note": "Mit nézzünk? = 뭐 볼까?",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
+    [
+     "Na",
+     "na",
+     "너"
+    ],
     [
      "nézzünk",
      "néz",
@@ -59,9 +64,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Valami vígjátékot?",
-   "rd": "벌러미 빅야테코트?",
-   "ko": "코미디 같은 거?",
+   "hu": "Egy vígjátékot esetleg?",
+   "rd": "에지 빅야테코트 에세틀렉?",
+   "ko": "코미디 하나 어때?",
    "note": "vígjáték = 코미디",
    "tags": [],
    "emotion": "gentle",
@@ -70,26 +75,36 @@
      "vígjátékot",
      "vígjáték",
      ""
+    ],
+    [
+     "esetleg",
+     "esetleg",
+     "에셰틀렉"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Megint? Tegnap is azt néztük.",
-   "rd": "메긴트? 텍너프 이시 어즈트 네즈튁.",
-   "ko": "또? 어제도 그거 봤잖아.",
+   "hu": "Már megint? Tegnap is néztünk.",
+   "rd": "마르 메긴트? 텍너프 이시 네즈튄크.",
+   "ko": "또 또? 어제도 봤잖아.",
    "note": "megint = 또",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "Megint",
+     "Már",
+     "már",
+     "마르"
+    ],
+    [
+     "megint",
      "megint",
      "메긴트"
     ],
     [
-     "néztük",
+     "néztünk",
      "néz",
      "네즈"
     ]
@@ -98,17 +113,22 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Jó, akkor horror.",
-   "rd": "요, 어꼬르 호로르.",
-   "ko": "좋아, 그럼 공포.",
+   "hu": "Jól van, akkor horror.",
+   "rd": "욜 번, 어꼬르 호로르.",
+   "ko": "알았어, 그럼 공포.",
    "note": "akkor = 그럼",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Jó",
-     "jó",
-     "요"
+     "Jól",
+     "jól",
+     "욜"
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ],
     [
      "akkor",
@@ -125,17 +145,17 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Biztos? Múltkor egész éjjel égett a lámpád.",
-   "rd": "비즈토시? 물트코르 에게쓰 에옐 에게트 어 람파드.",
-   "ko": "확실해? 지난번에 밤새 네 방 불 켜져 있었잖아.",
+   "hu": "Komolyan? Múltkor egész éjjel égett a lámpád.",
+   "rd": "코모연? 물트코르 에게쓰 에옐 에게트 어 람파드.",
+   "ko": "진짜? 지난번에 밤새 불 켜져 있었잖아.",
    "note": "múltkor = 지난번에",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "Biztos",
-     "biztos",
-     "비즈토슈"
+     "Komolyan",
+     "komoly",
+     "코모이"
     ],
     [
      "egész",
@@ -162,13 +182,18 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Az... véletlen volt.",
-   "rd": "어즈... 벨레틀렌 볼트.",
-   "ko": "그건… 우연이었어.",
+   "hu": "Az csak véletlen volt...",
+   "rd": "어즈 척 벨레틀렌 볼트...",
+   "ko": "그건 그냥 우연이었어…",
    "note": "véletlen = 우연",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
     [
      "véletlen",
      "véletlen",
@@ -184,10 +209,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Persze. Szóval vígjáték?",
-   "rd": "페르쎄. 쏘벌 빅야텍?",
-   "ko": "그렇겠지. 그래서, 코미디?",
-   "note": "szóval = 그러니까, 그래서",
+   "hu": "Persze. Szóval mégis vígjáték?",
+   "rd": "페르쎄. 쏘벌 메기시 빅야텍?",
+   "ko": "그렇겠지. 그래서 그래도 코미디?",
+   "note": "szóval = 그래서",
    "tags": [
     "expr:Persze",
     "expr:Szóval"
@@ -200,6 +225,11 @@
      "페르쎄"
     ],
     [
+     "mégis",
+     "mégis",
+     "메기슈"
+    ],
+    [
      "vígjáték",
      "vígjáték",
      ""
@@ -209,8 +239,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Hát... legyen vígjáték.",
-   "rd": "하트... 레젠 빅야텍.",
+   "hu": "Hát... vígjáték legyen.",
+   "rd": "하트... 빅야텍 레젠.",
    "ko": "음… 코미디로 하자.",
    "note": "legyen = ~로 하자",
    "tags": [
@@ -224,14 +254,14 @@
      "핫"
     ],
     [
-     "legyen",
-     "lesz",
-     "레쓰"
-    ],
-    [
      "vígjáték",
      "vígjáték",
      ""
+    ],
+    [
+     "legyen",
+     "lesz",
+     "레쓰"
     ]
    ]
   }

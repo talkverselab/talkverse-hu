@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Réka, várj! Fáradt vagyok.",
-   "rd": "레커, 바르이! 파러드트 버죡.",
-   "ko": "레카, 기다려! 나 힘들어.",
+   "hu": "Réka, várj egy kicsit! Fáradt vagyok.",
+   "rd": "레커, 바르이 에지 키치트! 파러드트 버죡.",
+   "ko": "레카, 잠깐 기다려! 나 힘들어.",
    "note": "fáradt = 지친",
    "tags": [
     "expr:Várj"
@@ -51,6 +51,11 @@
      "바르"
     ],
     [
+     "kicsit",
+     "kicsi",
+     "키치"
+    ],
+    [
      "vagyok",
      "van",
      "번"
@@ -60,9 +65,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Gyere! Ismerek egy rövidebb utat.",
-   "rd": "제레! 이슈메렉 에지 뢰비데브 우터트.",
-   "ko": "이리 와! 더 빠른 길 알아.",
+   "hu": "Gyere már! Ismerek egy rövidebb utat.",
+   "rd": "제레 마르! 이슈메렉 에지 뢰비데브 우터트.",
+   "ko": "빨리 와! 더 짧은 길 알아.",
    "note": "rövidebb = 더 짧은",
    "tags": [],
    "emotion": "cheerful",
@@ -71,6 +76,11 @@
      "Gyere",
      "jön",
      "왼"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ],
     [
      "rövidebb",
@@ -87,26 +97,36 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Rövidebbet? Merre?",
-   "rd": "뢰비데베트? 메레?",
-   "ko": "더 짧은 길? 어느 쪽?",
+   "hu": "Rövidebb utat? Merre megyünk?",
+   "rd": "뢰비데브 우터트? 메레 메쥔크?",
+   "ko": "더 짧은 길? 어느 쪽으로 가?",
    "note": "merre = 어느 쪽으로",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
-     "Rövidebbet",
-     "rövidebb",
-     ""
+     "Rövidebb",
+     "rövid",
+     "뢰비드"
+    ],
+    [
+     "utat",
+     "út",
+     "우트"
+    ],
+    [
+     "megyünk",
+     "megy",
+     "메지"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Itt balra, az erdőn át.",
-   "rd": "이트 벌러, 어즈 에르된 아트.",
-   "ko": "여기서 왼쪽, 숲을 지나서.",
+   "hu": "Itt balra, át az erdőn.",
+   "rd": "이트 벌러, 아트 어즈 에르된.",
+   "ko": "여기서 왼쪽, 숲 지나서.",
    "note": "át = 지나서",
    "tags": [],
    "emotion": "cheerful",
@@ -122,23 +142,23 @@
      "벌"
     ],
     [
-     "erdőn",
-     "erdő",
-     "에르되"
-    ],
-    [
      "át",
      "át",
      "아트"
+    ],
+    [
+     "erdőn",
+     "erdő",
+     "에르되"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Réka, itt nagyon sáros az út!",
-   "rd": "레커, 이트 너죤 샤로시 어즈 우트!",
-   "ko": "레카, 여기 길이 너무 질척해!",
+   "hu": "Réka, itt nagyon sáros!",
+   "rd": "레커, 이트 너죤 샤로시!",
+   "ko": "레카, 여기 엄청 질척해!",
    "note": "sáros = 진흙투성이인",
    "tags": [],
    "emotion": "worried",
@@ -162,11 +182,6 @@
      "sáros",
      "sáros",
      ""
-    ],
-    [
-     "út",
-     "út",
-     "우트"
     ]
    ]
   },
@@ -208,8 +223,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Mindjárt? Már húsz perce mondod!",
-   "rd": "민드야르트? 마르 후쓰 페르체 몬도드!",
+   "hu": "Mindjárt? Már húsz perce ezt mondod!",
+   "rd": "민드야르트? 마르 후쓰 페르체 에즈트 몬도드!",
    "ko": "곧? 벌써 20분째 그 말이잖아!",
    "note": "húsz perce = 20분 전부터",
    "tags": [
@@ -242,9 +257,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Hát, azt hiszem, eltévedtünk.",
-   "rd": "하트, 어즈트 히쎔, 엘테베드튄크.",
-   "ko": "음, 우리 길 잃은 것 같아.",
+   "hu": "Hát… szerintem eltévedtünk.",
+   "rd": "하트… 쎄린템 엘테베드튄크.",
+   "ko": "음… 우리 길 잃은 것 같아.",
    "note": "eltévedtünk = 길을 잃었다",
    "tags": [],
    "emotion": "flustered",
@@ -253,11 +268,6 @@
      "Hát",
      "hát",
      "핫"
-    ],
-    [
-     "hiszem",
-     "hisz",
-     "히쓰"
     ],
     [
      "eltévedtünk",

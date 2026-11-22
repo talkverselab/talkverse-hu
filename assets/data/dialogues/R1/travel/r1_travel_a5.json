@@ -65,7 +65,7 @@
    "speaker": "B",
    "hu": "Csak oda, vagy oda-vissza?",
    "rd": "척 오더, 버지 오더-비써?",
-   "ko": "편도요, 왕복이요?",
+   "ko": "편도만요, 아니면 왕복이요?",
    "note": "oda-vissza = 왕복",
    "tags": [
     "expr:oda-vissza"
@@ -137,9 +137,9 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Hatezer-négyszáz forint.",
-   "rd": "허테제르-네지싸즈 포린트.",
-   "ko": "6400포린트예요.",
+   "hu": "Hatezer-négyszáz forint lesz.",
+   "rd": "허테제르-네지싸즈 포린트 레쓰.",
+   "ko": "6400포린트입니다.",
    "note": "hatezer-négyszáz = 6400",
    "tags": [],
    "emotion": "amused",
@@ -158,15 +158,20 @@
      "forint",
      "forint",
      ""
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Tessék. Mikor indul?",
-   "rd": "테쎅. 미코르 인둘?",
-   "ko": "여기요. 언제 출발해요?",
+   "hu": "Tessék. Mikor indul a vonat?",
+   "rd": "테쎅. 미코르 인둘 어 보너트?",
+   "ko": "여기요. 기차 언제 출발해요?",
    "note": "indul = 출발하다",
    "tags": [
     "expr:Tessék"
@@ -182,6 +187,11 @@
      "indul",
      "indul",
      "인둘"
+    ],
+    [
+     "vonat",
+     "vonat",
+     ""
     ]
    ]
   },
@@ -190,7 +200,7 @@
    "speaker": "B",
    "hu": "Három perc múlva, a hatos vágányról.",
    "rd": "하롬 페르츠 물버, 어 허토시 바가니롤.",
-   "ko": "3분 뒤에요, 6번 선로에서.",
+   "ko": "3분 뒤에요, 6번 선로에서요.",
    "note": "vágány = 선로",
    "tags": [],
    "emotion": "polite",

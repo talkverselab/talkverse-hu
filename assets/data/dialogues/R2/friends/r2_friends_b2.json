@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia! Gyere be, mindenki itt van már.",
-   "rd": "씨어! 제레 베, 민덴키 이트 번 마르.",
-   "ko": "안녕! 들어와, 다들 벌써 와 있어.",
+   "hu": "Szia! Gyere már be, mindenki vár bent.",
+   "rd": "씨어! 제레 마르 베, 민덴키 바르 벤트.",
+   "ko": "안녕! 어서 들어와, 다들 안에서 기다리고 있어.",
    "note": "gyere be = 들어와",
    "tags": [],
    "emotion": "cheerful",
@@ -44,24 +44,24 @@
      "씨어"
     ],
     [
+     "már",
+     "már",
+     "마르"
+    ],
+    [
      "be",
      "be",
      "베"
     ],
     [
-     "itt",
-     "itt",
-     "이트"
+     "vár",
+     "vár",
+     "바르"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "már",
-     "már",
-     "마르"
+     "bent",
+     "bent",
+     "벤트"
     ]
    ]
   },
@@ -70,7 +70,7 @@
    "speaker": "A",
    "hu": "Boldog szülinapot, Réka! Ez neked.",
    "rd": "볼독 쓀리너포트, 레커! 에즈 네케드.",
-   "ko": "생일 축하해, 레카! 이거 너 줄 거야.",
+   "ko": "생일 축하해, 레카! 이거 너 거야.",
    "note": "ez neked = 이거 너한테",
    "tags": [
     "expr:Boldog szülinapot",
@@ -93,10 +93,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Jaj, nem kellett volna! Mi ez?",
-   "rd": "여이, 넴 켈레트 볼너! 미 에즈?",
-   "ko": "어머, 이럴 필요 없었는데! 이게 뭐야?",
-   "note": "nem kellett volna = 안 그래도 됐는데",
+   "hu": "Jaj, tényleg nem kellett volna! Mi ez?",
+   "rd": "여이, 테닐렉 넴 켈레트 볼너! 미 에즈?",
+   "ko": "어머, 정말 안 해도 됐는데! 뭐야 이거?",
+   "note": "nem kellett volna = 안 해도 됐는데",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -104,6 +104,11 @@
      "Jaj",
      "jaj",
      "야이"
+    ],
+    [
+     "tényleg",
+     "tényleg",
+     "테니렉"
     ],
     [
      "kellett",
@@ -120,9 +125,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Nyisd ki! De ne nevess ki.",
-   "rd": "니슈드 키! 데 네 네베시 키.",
-   "ko": "열어 봐! 근데 비웃지 마.",
+   "hu": "Nyisd ki! Csak ne nevess ki.",
+   "rd": "니슈드 키! 척 네 네베시 키.",
+   "ko": "열어 봐! 그냥 비웃지만 마.",
    "note": "nyisd ki = 열어 봐",
    "tags": [
     "expr:Nyisd ki"
@@ -149,15 +154,15 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Egy kis könyv? Kézzel írtad?",
-   "rd": "에지 키시 쾨니브? 케젤 이르터드?",
-   "ko": "작은 책? 손으로 쓴 거야?",
+   "hu": "Kis könyv? Kézzel írtad az egészet?",
+   "rd": "키시 쾨니브? 케젤 이르터드 어즈 에게쎄트?",
+   "ko": "작은 책? 전부 손으로 쓴 거야?",
    "note": "kézzel = 손으로",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "kis",
+     "Kis",
      "kis",
      "키시"
     ],
@@ -170,16 +175,21 @@
      "írtad",
      "írt",
      ""
+    ],
+    [
+     "egészet",
+     "egésze",
+     "에게세"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Igen, a kedvenc magyar szavaim. Te tanítottad őket.",
-   "rd": "이겐, 어 케드벤츠 머져르 써버임. 테 터니토떠드 외케트.",
-   "ko": "응, 내가 좋아하는 헝가리어 단어들. 네가 가르쳐 준 거야.",
-   "note": "kedvenc = 가장 좋아하는",
+   "hu": "Igen, a kedvenc magyar szavaim. Te tanítottad mindet.",
+   "rd": "이겐, 어 케드벤츠 머져르 써버임. 테 터니토떠드 민데트.",
+   "ko": "응, 내가 제일 좋아하는 헝가리어 단어들. 네가 다 가르쳐 줬어.",
+   "note": "kedvenc = 제일 좋아하는",
    "tags": [],
    "emotion": "shy",
    "lemmas": [
@@ -213,8 +223,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Nézzük: \"pogácsa\", \"mindjárt\", \"ne már\"...",
-   "rd": "네쥑: \"포가처\", \"민드야르트\", \"네 마르\"...",
+   "hu": "Nézzük csak: \"pogácsa\", \"mindjárt\", \"ne már\"...",
+   "rd": "네쥑 척: \"포가처\", \"민드야르트\", \"네 마르\"...",
    "ko": "어디 보자, 「포가차」, 「금방」, 「아 진짜」…",
    "note": "nézzük = 보자",
    "tags": [],
@@ -224,6 +234,11 @@
      "Nézzük",
      "néz",
      "네즈"
+    ],
+    [
+     "csak",
+     "csak",
+     "촉"
     ],
     [
      "pogácsa",
@@ -245,9 +260,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Mind a te szavaid. Mindig ezeket mondod.",
-   "rd": "민드 어 테 써버이드. 민딕 에제케트 몬도드.",
-   "ko": "전부 네 말이야. 맨날 이 말들 하잖아.",
+   "hu": "Mind a te szavaid. Mindig ezt mondod nekem.",
+   "rd": "민드 어 테 써버이드. 민딕 에즈트 몬도드 네켐.",
+   "ko": "전부 네 말이야. 나한테 맨날 이 말 하잖아.",
    "note": "mindig = 늘",
    "tags": [],
    "emotion": "teasing",
@@ -269,7 +284,7 @@
    "speaker": "B",
    "hu": "És az utolsó oldal? \"Barát\"?",
    "rd": "에시 어즈 우톨쇼 올덜? \"버라트\"?",
-   "ko": "그럼 마지막 쪽은? 「친구」?",
+   "ko": "그리고 마지막 페이지는? 「친구」?",
    "note": "utolsó = 마지막",
    "tags": [],
    "emotion": "gentle",
@@ -289,9 +304,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Igen. Az első szavam itt Budapesten.",
-   "rd": "이겐. 어즈 엘쇠 써범 이트 부더페슈텐.",
-   "ko": "응. 부다페스트에서 배운 내 첫 단어.",
+   "hu": "Igen. Az első szavam itt, Budapesten.",
+   "rd": "이겐. 어즈 엘쇠 써범 이트, 부더페슈텐.",
+   "ko": "응. 여기 부다페스트에서 배운 내 첫 단어야.",
    "note": "első = 첫",
    "tags": [],
    "emotion": "gentle",
@@ -316,10 +331,10 @@
   {
    "num": 11,
    "speaker": "B",
-   "hu": "{name}, most sírni fogok. Ne nézz rám!",
-   "rd": "{name}, 모슈트 시르니 포곡. 네 네즈 람!",
-   "ko": "{name}, 나 울 것 같아. 쳐다보지 마!",
-   "note": "sírni fogok = 울 것이다",
+   "hu": "{name}, most sírni fogok. Ne nézz rám, légy szíves!",
+   "rd": "{name}, 모슈트 시르니 포곡. 네 네즈 람, 레지 씨베시!",
+   "ko": "{name}, 나 지금 울 것 같아. 제발 보지 마!",
+   "note": "sírni fogok = 울 것 같다",
    "tags": [],
    "emotion": "shy",
    "lemmas": [
@@ -342,6 +357,16 @@
      "nézz",
      "néz",
      "네즈"
+    ],
+    [
+     "légy",
+     "van",
+     "번"
+    ],
+    [
+     "szíves",
+     "szíves",
+     "시베시"
     ]
    ]
   }

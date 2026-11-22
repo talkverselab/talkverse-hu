@@ -32,8 +32,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Brr, nagyon hideg van ma!",
-   "rd": "브르, 너죤 히덱 번 머!",
+   "hu": "Brr, ma nagyon hideg van!",
+   "rd": "브르, 머 너죤 히덱 번!",
    "ko": "으, 오늘 진짜 춥다!",
    "note": "hideg van = 춥다",
    "tags": [
@@ -45,6 +45,11 @@
      "Brr",
      "brr",
      ""
+    ],
+    [
+     "ma",
+     "ma",
+     "머"
     ],
     [
      "nagyon",
@@ -60,11 +65,6 @@
      "van",
      "van",
      "번"
-    ],
-    [
-     "ma",
-     "ma",
-     "머"
     ]
    ]
   },
@@ -74,7 +74,7 @@
    "hu": "Igen. Otthon most nincs ilyen hideg.",
    "rd": "이겐. 오트혼 모슈트 닌치 이옌 히덱.",
    "ko": "응. 고향은 지금 이렇게 안 추워.",
-   "note": "otthon = 집에서, 고향에서",
+   "note": "otthon = 고향에서",
    "tags": [],
    "emotion": "sad",
    "lemmas": [
@@ -127,8 +127,8 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Néha. Főleg a család és az étel.",
-   "rd": "네허. 푈렉 어 철라드 에시 어즈 에텔.",
+   "hu": "Néha. Főleg a család meg az étel.",
+   "rd": "네허. 푈렉 어 철라드 멕 어즈 에텔.",
    "ko": "가끔. 특히 가족이랑 음식.",
    "note": "főleg = 특히",
    "tags": [],
@@ -156,8 +156,8 @@
    "speaker": "B",
    "hu": "Tudod mit? Szombaton főzz nekem valamit!",
    "rd": "투도드 미트? 쏨버톤 푀즈 네켐 벌러미트!",
-   "ko": "있잖아? 토요일에 나한테 뭐 만들어 줘!",
-   "note": "főzz = 요리해(명령)",
+   "ko": "있잖아? 토요일에 나한테 뭐 해 줘!",
+   "note": "főzz = 요리해",
    "tags": [
     "expr:Tudod"
    ],
@@ -180,7 +180,7 @@
    "speaker": "A",
    "hu": "Tényleg? De nálam kicsi a konyha.",
    "rd": "테닐렉? 데 날럼 키치 어 코니허.",
-   "ko": "진짜? 근데 우리 집 부엌 작아.",
+   "ko": "진짜? 근데 우리 집 부엌이 작아.",
    "note": "nálam = 우리 집에",
    "tags": [],
    "emotion": "surprised",

@@ -12,7 +12,7 @@
  ],
  "title": "언어교환 모임",
  "emoji": "🗣️",
- "scene": "Anna 가 언어교환 모임에 데려가 친구 Bence 를 소개해 준다",
+ "scene": "Anna가 언어교환 모임에 데려가 친구 Bence를 소개해 준다",
  "speakers": {
   "A": "{name}",
   "B": "Anna",
@@ -60,25 +60,22 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hű, sok ember van. Kicsit izgulok.",
-   "rd": "휘, 쇽 엠베르 번. 키치트 이즈굴록.",
+   "hu": "Hú, sokan vannak. Kicsit izgulok.",
+   "rd": "후, 쇼컨 번넉. 키치트 이즈굴록.",
    "ko": "와, 사람 많다. 좀 떨려.",
    "note": "izgulok = 떨린다",
-   "tags": [],
+   "tags": [
+    "expr:Na"
+   ],
    "emotion": "worried",
    "lemmas": [
     [
-     "Hű",
-     "hű",
+     "Hú",
+     "hú",
      ""
     ],
     [
-     "ember",
-     "ember",
-     "엠베르"
-    ],
-    [
-     "van",
+     "vannak",
      "van",
      "번"
     ],
@@ -146,7 +143,7 @@
    "hu": "Jó estét kívánok! Örülök, hogy megismerhetem.",
    "rd": "요 에슈테트 키바녹! 외륄뢱, 호지 메기슈메르헤템.",
    "ko": "안녕하십니까! 만나 뵙게 되어 반갑습니다.",
-   "note": "megismerhetem = 당신을 알게 되다(존댓말)",
+   "note": "megismerhetem = 당신을 알게 되다",
    "tags": [],
    "emotion": "stiff",
    "lemmas": [

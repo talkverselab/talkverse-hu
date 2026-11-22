@@ -34,7 +34,7 @@
    "hu": "Jó napot! Jegyeket, bérleteket kérek!",
    "rd": "요 너포트! 예제케트, 베를레테케트 케렉!",
    "ko": "안녕하세요! 표, 정기권 보여 주세요!",
-   "note": "검표원의 정해진 말",
+   "note": "kérek = 보여 주세요",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -66,7 +66,7 @@
    "hu": "Egy pillanat... Tessék.",
    "rd": "에지 필러너트... 테쎅.",
    "ko": "잠깐만요… 여기요.",
-   "note": "egy pillanat = 잠깐만요",
+   "note": "Egy pillanat = 잠깐만요",
    "tags": [
     "expr:Egy pillanat",
     "expr:Tessék"
@@ -130,7 +130,7 @@
    "hu": "Ezt nem lyukasztotta ki.",
    "rd": "에즈트 넴 유커쓰토떠 키.",
    "ko": "이건 개찰을 안 하셨네요.",
-   "note": "kilyukaszt = 펀칭하다(개찰)",
+   "note": "kilyukaszt = 펀칭하다",
    "tags": [],
    "emotion": "stiff",
    "lemmas": [
@@ -184,7 +184,7 @@
    "hu": "Jól van, ott a gép. Tetszett a múzeum?",
    "rd": "욜 번, 오트 어 게프. 테트쎄트 어 무제움?",
    "ko": "알겠어요, 저기 기계요. 박물관은 좋았어요?",
-   "note": "tetszett = 마음에 들었다",
+   "note": "Jól van = 알겠어요",
    "tags": [
     "expr:Jól van"
    ],

@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ez egy diákkiállítás. Gyere, nézd!",
-   "rd": "에즈 에지 디아끼알리타시. 제레, 네즈드!",
-   "ko": "이건 학생 전시회야. 와서 봐!",
+   "hu": "Nézd, ez egy diákkiállítás. Gyere!",
+   "rd": "네즈드, 에즈 에지 디아끼알리타시. 제레!",
+   "ko": "봐, 이건 학생 전시회야. 와!",
    "note": "kiállítás = 전시회",
    "tags": [
     "expr:Nézd"
@@ -43,23 +43,23 @@
    "emotion": "excited",
    "lemmas": [
     [
+     "Nézd",
+     "néz",
+     "네즈"
+    ],
+    [
      "diákkiállítás",
      "diákkiállítás",
      ""
-    ],
-    [
-     "nézd",
-     "néz",
-     "네즈"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hű, sok kép van. Melyik a legjobb?",
-   "rd": "휘, 쇽 케프 번. 메익 어 렉요브?",
-   "ko": "와, 그림 많다. 어느 게 제일 좋아?",
+   "hu": "Hű, sok kép! Melyik a legjobb?",
+   "rd": "휘, 쇽 케프! 메익 어 렉요브?",
+   "ko": "와, 그림 많아! 어느 게 제일 좋아?",
    "note": "Melyik? = 어느 것?",
    "tags": [],
    "emotion": "surprised",
@@ -75,11 +75,6 @@
      "켑"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
      "legjobb",
      "jó",
      "요"
@@ -89,9 +84,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Mondd te. Melyik tetszik?",
-   "rd": "몬드 테. 메익 테트씩?",
-   "ko": "네가 말해 봐. 어느 게 마음에 들어?",
+   "hu": "Mondd te. Melyik tetszik neked?",
+   "rd": "몬드 테. 메익 테트씩 네케드?",
+   "ko": "네가 말해. 어느 게 마음에 들어?",
    "note": "tetszik = 마음에 들다",
    "tags": [],
    "emotion": "gentle",
@@ -111,9 +106,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Ez a kék. A Duna, ugye?",
-   "rd": "에즈 어 켁. 어 두너, 우제?",
-   "ko": "이 파란 거. 도나우강이지, 그렇지?",
+   "hu": "Ez a kék. Ugye a Duna?",
+   "rd": "에즈 어 켁. 우제 어 두너?",
+   "ko": "이 파란 거. 도나우강이지?",
    "note": "ugye = 그렇지?",
    "tags": [
     "expr:Ugye"
@@ -130,8 +125,8 @@
   {
    "num": 5,
    "speaker": "C",
-   "hu": "Elnézést, ne menjen ilyen közel!",
-   "rd": "엘네제슈트, 네 멘옌 이옌 쾨젤!",
+   "hu": "Elnézést, ne menjen olyan közel!",
+   "rd": "엘네제슈트, 네 멘옌 오연 쾨젤!",
    "ko": "실례합니다, 그렇게 가까이 가지 마세요!",
    "note": "ne menjen = 가지 마세요",
    "tags": [],
@@ -157,8 +152,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Bocsánat! Csak nagyon szép.",
-   "rd": "보차너트! 척 너죤 쎄프.",
+   "hu": "Bocsánat! Csak szép.",
+   "rd": "보차너트! 척 쎄프.",
    "ko": "죄송해요! 너무 예뻐서요.",
    "note": "bocsánat = 죄송해요",
    "tags": [
@@ -172,11 +167,6 @@
      "버치너트"
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
      "szép",
      "szép",
      "쎕"
@@ -186,9 +176,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Tényleg tetszik? Komolyan?",
-   "rd": "테닐렉 테트씩? 코모연?",
-   "ko": "진짜 마음에 들어? 진심이야?",
+   "hu": "Tetszik? Komolyan?",
+   "rd": "테트씩? 코모연?",
+   "ko": "마음에 들어? 진심이야?",
    "note": "komolyan = 진심으로",
    "tags": [
     "expr:Komolyan"
@@ -196,12 +186,7 @@
    "emotion": "shy",
    "lemmas": [
     [
-     "Tényleg",
-     "tényleg",
-     "테니렉"
-    ],
-    [
-     "tetszik",
+     "Tetszik",
      "tetszik",
      "테트씨크"
     ]
@@ -210,18 +195,13 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Ezt egyébként a kisasszony festette.",
-   "rd": "에즈트 에제브켄트 어 키셔쏘니 페슈테떼.",
-   "ko": "그건 그렇고, 이건 이 아가씨가 그렸어요.",
-   "note": "festette = (그것을) 그렸다",
+   "hu": "Ezt a kisasszony festette.",
+   "rd": "에즈트 어 키셔쏘니 페슈테떼.",
+   "ko": "이건 이 아가씨가 그렸어요.",
+   "note": "festette = 그렸다",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
-    [
-     "egyébként",
-     "egyébként",
-     "에제브켄트"
-    ],
     [
      "kisasszony",
      "kisasszony",

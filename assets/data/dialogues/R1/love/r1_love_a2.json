@@ -33,20 +33,15 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Ráérsz holnap este? Elmegyünk moziba?",
-   "rd": "라에르쓰 홀너프 에슈테? 엘메쥔크 모지버?",
+   "hu": "Holnap este ráérsz? Elmegyünk moziba?",
+   "rd": "홀너프 에슈테 라에르쓰? 엘메쥔크 모지버?",
    "ko": "내일 저녁 시간 돼? 영화 보러 갈래?",
    "note": "moziba = 영화관으로",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Ráérsz",
-     "ráérik",
-     ""
-    ],
-    [
-     "holnap",
+     "Holnap",
      "holnap",
      "홀넙"
     ],
@@ -54,6 +49,11 @@
      "este",
      "este",
      "에슈테"
+    ],
+    [
+     "ráérsz",
+     "ráérik",
+     ""
     ],
     [
      "moziba",
@@ -113,7 +113,7 @@
    "speaker": "A",
    "hu": "Szuper. Fél hét, vagyis hét harminc.",
    "rd": "쑤페르. 펠 헤트, 버지시 헤트 허르민츠.",
-   "ko": "좋아. 반 일곱 시, 그러니까 7시 30분.",
+   "ko": "좋아. 반 일곱, 그러니까 7시 30분.",
    "note": "vagyis = 그러니까",
    "tags": [],
    "emotion": "cheerful",
@@ -140,7 +140,7 @@
    "speaker": "B",
    "hu": "Nem, nem! Fél hét az hat harminc.",
    "rd": "넴, 넴! 펠 헤트 어즈 허트 허르민츠.",
-   "ko": "아니, 아니! 반 일곱 시는 6시 30분이야.",
+   "ko": "아니 아니! 반 일곱 시는 6시 30분이야.",
    "note": "hat harminc = 6시 30분",
    "tags": [],
    "emotion": "surprised",
@@ -201,7 +201,7 @@
    "speaker": "B",
    "hu": "Semmi baj. Holnap hatkor felhívlak, biztos ami biztos.",
    "rd": "셈미 버이. 홀너프 허트코르 펠히블럭, 비즈토시 어미 비즈토시.",
-   "ko": "괜찮아. 내일 여섯 시에 전화할게, 혹시 모르니까.",
+   "ko": "괜찮아. 내일 여섯 시에 전화할게, 만일을 위해.",
    "note": "biztos ami biztos = 만일을 위해",
    "tags": [
     "expr:Semmi baj"

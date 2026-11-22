@@ -62,9 +62,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Nyolckor, nálam. Ne szólj neki! 🤫",
-   "rd": "뇰츠코르, 날럼. 네 쏠이 네키! 🤫",
-   "ko": "8시, 우리 집에서. 레카한테 말하지 마! 🤫",
+   "hu": "Nyolckor nálam. Ne szólj neki! 🤫",
+   "rd": "뇰츠코르 날럼. 네 쏠이 네키! 🤫",
+   "ko": "8시에 우리 집에서. 레카한테 말하지 마! 🤫",
    "note": "ne szólj = 말하지 마",
    "tags": [
     "expr:Ne szólj"
@@ -288,7 +288,7 @@
    "speaker": "A",
    "hu": "Úristen, Réka?! Bocsi!",
    "rd": "우리슈텐, 레커?! 보치!",
-   "ko": "세상에. 레카?! 미안!",
+   "ko": "세상에, 레카?! 미안!",
    "note": "úristen = 세상에",
    "tags": [
     "expr:Úristen"

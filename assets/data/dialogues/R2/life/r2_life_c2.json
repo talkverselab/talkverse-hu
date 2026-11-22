@@ -32,10 +32,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szia, Dávid anyukája vagyok. Jól van Dávid?",
-   "rd": "씨어, 다비드 어뉴카여 버죡. 욜 번 다비드?",
-   "ko": "안녕, 다비드 엄마야. 다비드 잘 있니?",
-   "note": "jól van = 잘 있다",
+   "hu": "Szia! Itt Dávid anyukája. Jól van a fiam?",
+   "rd": "씨어! 이트 다비드 어뉴카여. 욜 번 어 피엄?",
+   "ko": "안녕! 다비드 엄마야. 아들 잘 있니?",
+   "note": "fiam = 내 아들",
    "tags": [],
    "at": "19:02",
    "emotion": "worried",
@@ -52,19 +52,24 @@
      ""
     ],
     [
-     "vagyok",
+     "van",
      "van",
      "번"
+    ],
+    [
+     "fiam",
+     "fi",
+     "피"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Csókolom! Jól van, ne aggódjon.",
-   "rd": "초콜롬! 욜 번, 네 억고드욘.",
-   "ko": "안녕하세요! 잘 지내요, 걱정 마세요.",
-   "note": "ne aggódjon = 걱정 마세요(Ön)",
+   "hu": "Csókolom! Minden rendben van, ne aggódjon.",
+   "rd": "초콜롬! 민덴 렌드벤 번, 네 억고드욘.",
+   "ko": "안녕하세요! 다 괜찮아요, 걱정 마세요.",
+   "note": "ne aggódjon = 걱정 마세요",
    "tags": [
     "expr:Csókolom",
     "expr:Ne aggódjon"
@@ -77,6 +82,11 @@
      "Csókolom",
      "csókol",
      ""
+    ],
+    [
+     "rendben",
+     "rend",
+     "렌드"
     ],
     [
      "van",
@@ -93,15 +103,20 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Két napja nem veszi fel a telefont. 😟",
-   "rd": "케트 너프여 넴 베씨 펠 어 텔레폰트. 😟",
-   "ko": "이틀째 전화를 안 받아. 😟",
-   "note": "felveszi = (전화를) 받는다",
+   "hu": "Már két napja nem veszi fel a telefont. 😟",
+   "rd": "마르 케트 너프여 넴 베씨 펠 어 텔레폰트. 😟",
+   "ko": "벌써 이틀째 전화를 안 받아. 😟",
+   "note": "nem veszi fel = 안 받는다",
    "tags": [],
    "at": "19:05",
    "emotion": "worried",
    "ui": "bubble",
    "lemmas": [
+    [
+     "Már",
+     "már",
+     "마르"
+    ],
     [
      "napja",
      "nap",
@@ -127,10 +142,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Itthon van, csak lenémította a telefonját.",
-   "rd": "이트혼 번, 척 레네미토떠 어 텔레폰야트.",
-   "ko": "집에 있어요, 휴대폰을 무음으로 해 둔 것뿐이에요.",
-   "note": "lenémította = 무음으로 했다",
+   "hu": "Itthon van, csak némára tette a telefonját.",
+   "rd": "이트혼 번, 척 네마러 테떼 어 텔레폰야트.",
+   "ko": "집에 있어요, 휴대폰을 무음으로 해 둔 거예요.",
+   "note": "némára tette = 무음으로 했다",
    "tags": [],
    "at": "19:06",
    "emotion": "gentle",
@@ -152,9 +167,14 @@
      "촉"
     ],
     [
-     "lenémította",
-     "lenémította",
+     "némára",
+     "néma",
      ""
+    ],
+    [
+     "tette",
+     "tesz",
+     "테스"
     ],
     [
      "telefonját",
@@ -166,17 +186,17 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Jaj, az a gyerek. És eszik rendesen?",
-   "rd": "여이, 어즈 어 제렉. 에시 에씩 렌데센?",
-   "ko": "아이고, 얘는 참. 밥은 잘 먹니?",
-   "note": "rendesen = 제대로",
+   "hu": "Jaj, ez a gyerek... És eszik rendesen?",
+   "rd": "여이, 에즈 어 제렉... 에시 에씩 렌데센?",
+   "ko": "아이고, 이 녀석... 밥은 제대로 먹니?",
+   "note": "jaj = 아이고",
    "tags": [],
    "at": "19:06",
    "emotion": "annoyed",
    "segs": [
     [
      "annoyed",
-     "Jaj, az a gyerek."
+     "Jaj, ez a gyerek..."
     ],
     [
      "worried",
@@ -210,10 +230,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Hát, sokat eszik. Főleg virslit.",
-   "rd": "하트, 쇼커트 에씩. 푈렉 비르슐리트.",
-   "ko": "음, 많이 먹어요. 주로 소시지요.",
-   "note": "virsli = 프랑크 소시지",
+   "hu": "Hát, sokat. Főleg virslit eszik.",
+   "rd": "하트, 쇼커트. 푈렉 비르슐리트 에씩.",
+   "ko": "음, 많이요. 주로 소시지 먹어요.",
+   "note": "virsli = 소시지",
    "tags": [],
    "at": "19:08",
    "emotion": "amused",
@@ -225,24 +245,24 @@
      "핫"
     ],
     [
-     "eszik",
-     "eszik",
-     "에식"
-    ],
-    [
      "virslit",
      "virsli",
      ""
+    ],
+    [
+     "eszik",
+     "eszik",
+     "에식"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Tudtam. És te is így eszel?",
-   "rd": "투드텀. 에시 테 이시 이지 에쎌?",
-   "ko": "그럴 줄 알았다. 너도 그렇게 먹니?",
-   "note": "így = 이렇게",
+   "hu": "Tudtam. És te is virslit eszel?",
+   "rd": "투드텀. 에시 테 이시 비르슐리트 에쎌?",
+   "ko": "그럴 줄 알았어. 너도 소시지 먹니?",
+   "note": "te is = 너도",
    "tags": [],
    "at": "19:09",
    "emotion": "gentle",
@@ -254,9 +274,9 @@
      "투드"
     ],
     [
-     "így",
-     "így",
-     "이지"
+     "virslit",
+     "virsli",
+     ""
     ],
     [
      "eszel",
@@ -268,9 +288,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Hát, néha.",
-   "rd": "하트, 네허.",
-   "ko": "음, 가끔요.",
+   "hu": "Hát, néha én is.",
+   "rd": "하트, 네허 엔 이시.",
+   "ko": "음, 가끔 저도요.",
    "note": "néha = 가끔",
    "tags": [],
    "at": "19:09",
@@ -292,10 +312,10 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "Szombaton küldök nektek töltött káposztát. Puszi!",
-   "rd": "쏨버톤 퀼됙 넥텍 퇼퇴트 카포쓰타트. 푸씨!",
-   "ko": "토요일에 너희한테 양배추롤 보낼게. 쪽!",
-   "note": "töltött káposzta = 양배추롤",
+   "hu": "Szombaton küldök töltött káposztát nektek. Puszi!",
+   "rd": "쏨버톤 퀼됙 퇼퇴트 카포쓰타트 넥텍. 푸씨!",
+   "ko": "토요일에 양배추롤 보내줄게. 쪽!",
+   "note": "Puszi = 쪽",
    "tags": [
     "expr:Puszi"
    ],
@@ -328,9 +348,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Köszönöm szépen! 🥹",
-   "rd": "쾨쐬뇜 쎄펜! 🥹",
-   "ko": "정말 고맙습니다! 🥹",
+   "hu": "Köszönöm szépen, nagyon! 🥹",
+   "rd": "쾨쐬뇜 쎄펜, 너죤! 🥹",
+   "ko": "정말 감사합니다, 너무요! 🥹",
    "note": "köszönöm szépen = 정말 고맙습니다",
    "tags": [],
    "at": "19:11",
@@ -346,16 +366,21 @@
      "szépen",
      "szép",
      "쎕"
+    ],
+    [
+     "nagyon",
+     "nagyon",
+     "너존"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "C",
-   "hu": "Bocsi, anya! Most hívlak. 🙈",
-   "rd": "보치, 어녀! 모슈트 히블럭. 🙈",
-   "ko": "미안, 엄마! 지금 전화할게. 🙈",
-   "note": "hívlak = 너에게 전화한다(-lak)",
+   "hu": "Bocsi, anya! Most rögtön hívlak. 🙈",
+   "rd": "보치, 어녀! 모슈트 뢱퇸 히블럭. 🙈",
+   "ko": "미안, 엄마! 지금 바로 전화할게. 🙈",
+   "note": "hívlak = 전화할게",
    "tags": [],
    "at": "19:12",
    "emotion": "flustered",
@@ -370,6 +395,11 @@
      "anya",
      "anya",
      "어니어"
+    ],
+    [
+     "rögtön",
+     "rögtön",
+     "뢰그퇸"
     ],
     [
      "hívlak",

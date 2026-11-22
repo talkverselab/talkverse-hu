@@ -37,7 +37,7 @@
    "speaker": "B",
    "hu": "Nézd, milyen szép paprikák! Veszünk kettőt a szendvicsbe?",
    "rd": "네즈드, 미옌 쎄프 퍼프리칵! 베쒼크 케뙤트 어 쎈드비치베?",
-   "ko": "봐, 파프리카 예쁘다! 샌드위치에 넣게 두 개 살까?",
+   "ko": "봐, 파프리카 진짜 예쁘다! 샌드위치에 넣게 두 개 살까?",
    "note": "kettőt = 두 개를",
    "tags": [
     "expr:Nézd"
@@ -109,7 +109,7 @@
    "hu": "Jó napot! Mit adhatok?",
    "rd": "요 너포트! 미트 어드허톡?",
    "ko": "안녕하세요! 뭘 드릴까요?",
-   "note": "mit adhatok? = 뭘 드릴까요?",
+   "note": "mit adhatok = 뭘 드릴까요",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -205,7 +205,7 @@
    "hu": "Tizenöt? Nem, nem, két darabot, bocsánat!",
    "rd": "티제뇌트? 넴, 넴, 케트 더러보트, 보차너트!",
    "ko": "열다섯 개요? 아니요, 두 개요, 죄송해요!",
-   "note": "darab = 개",
+   "note": "bocsánat = 죄송해요",
    "tags": [
     "expr:Bocsánat"
    ],
@@ -234,7 +234,7 @@
    "hu": "Semmi baj, gyakran mondják. Két darab, tessék.",
    "rd": "셈미 버이, 젹런 몬드약. 케트 더러브, 테쎅.",
    "ko": "괜찮아요, 자주들 그래요. 두 개, 여기요.",
-   "note": "gyakran = 자주",
+   "note": "semmi baj = 괜찮아요",
    "tags": [
     "expr:Semmi baj"
    ],
@@ -315,7 +315,7 @@
    "hu": "Lecsó? Én még soha nem ettem lecsót.",
    "rd": "레초? 엔 멕 쇼허 넴 에뗌 레초트.",
    "ko": "레초? 나 레초 한 번도 안 먹어 봤어.",
-   "note": "még soha = 아직 한 번도",
+   "note": "lecsó = 레초",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -346,8 +346,8 @@
    "speaker": "B",
    "hu": "Komolyan? Akkor mégis kérünk egy kilót, vasárnap főzök neked.",
    "rd": "코모연? 어꼬르 메기시 케륀크 에지 킬로트, 버샤르너프 푀죅 네케드.",
-   "ko": "진짜? 그럼 1킬로 사자, 일요일에 해 줄게.",
-   "note": "mégis = 그래도, 결국",
+   "ko": "진짜? 그럼 결국 1킬로 사자, 일요일에 해 줄게.",
+   "note": "komolyan = 진짜",
    "tags": [
     "expr:Komolyan?"
    ],

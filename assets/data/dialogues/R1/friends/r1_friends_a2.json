@@ -33,7 +33,7 @@
    "speaker": "B",
    "hu": "Holnap futok a Margitszigeten. Jössz?",
    "rd": "홀너프 푸톡 어 머르기트씨게텐. 요쓰?",
-   "ko": "내일 머르기트섬에서 달리기해. 올래?",
+   "ko": "내일 머르기트섬에서 뛴다. 올래?",
    "note": "jössz? = 너 올래?",
    "tags": [
     "expr:Jössz"
@@ -209,7 +209,7 @@
    "hu": "Reggel hatkor? Ne már, Réka!",
    "rd": "렉겔 허트코르? 네 마르, 레커!",
    "ko": "아침 여섯 시? 아 진짜, 레카!",
-   "note": "ne már = 아 진짜(설마)",
+   "note": "ne már = 아 진짜",
    "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [

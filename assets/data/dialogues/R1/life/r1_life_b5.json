@@ -31,17 +31,17 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Kedves, megkérhetem valamire?",
-   "rd": "케드베시, 멕케르헤템 벌러미레?",
+   "hu": "Kedvesem, megkérhetem valamire?",
+   "rd": "케드베셈, 멕케르헤템 벌러미레?",
    "ko": "저기, 부탁 하나 해도 될까요?",
    "note": "megkérhetem = 부탁해도 될까요",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Kedves",
-     "kedves",
-     "케드베슈"
+     "Kedvesem",
+     "kedvesem",
+     ""
     ],
     [
      "megkérhetem",
@@ -56,7 +56,7 @@
    "hu": "Persze, Marika néni. Mi az?",
    "rd": "페르쎄, 머리커 네니. 미 어즈?",
    "ko": "그럼요, 아주머니. 뭔데요?",
-   "note": "mi az? = 뭔데요?",
+   "note": "mi az? = 뭔데요",
    "tags": [
     "expr:Persze"
    ],
@@ -77,10 +77,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Hétvégén a lányomnál leszek. Meglocsolja a virágaimat?",
-   "rd": "헤트베겐 어 라뇸날 레쎅. 멕로촐여 어 비라거이머트?",
+   "hu": "Hétvégén a lányomnál leszek. Meglocsolná a virágaimat?",
+   "rd": "헤트베겐 어 라뇸날 레쎅. 멕로촐나 어 비라거이머트?",
    "ko": "주말에 딸네 가 있어요. 꽃에 물 좀 줄래요?",
-   "note": "meglocsolja = 물을 주다(Ön)",
+   "note": "meglocsolná = 물을 주다(정중)",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -141,7 +141,7 @@
    "hu": "Tizenkettő. És Cirminek is adjon enni, reggel és este.",
    "rd": "티젠케뙤. 에시 치르미넥 이시 어드욘 엔니, 렉겔 에시 에슈테.",
    "ko": "열두 개요. 그리고 치르미 밥도 줘요, 아침저녁으로.",
-   "note": "adjon = 주세요(Ön 명령)",
+   "note": "adjon = 주세요(명령)",
    "tags": [],
    "emotion": "neutral",
    "lemmas": [
@@ -178,7 +178,7 @@
    "hu": "Rendben. Még valami?",
    "rd": "렌드벤. 멕 벌러미?",
    "ko": "네. 또 있어요?",
-   "note": "még valami? = 또 뭐가?",
+   "note": "még valami? = 또 뭐가",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -195,7 +195,7 @@
    "hu": "A postát is hozza fel. Vasárnap jön a gázos.",
    "rd": "어 포슈타트 이시 호저 펠. 버샤르너프 욘 어 가조시.",
    "ko": "우편물도 올려다 줘요. 일요일엔 가스 검침원이 와요.",
-   "note": "gázos = 가스 검침원(구어)",
+   "note": "gázos = 가스 검침원",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [

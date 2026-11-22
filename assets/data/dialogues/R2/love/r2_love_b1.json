@@ -34,8 +34,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Na, készen vagy? Kint mínusz két fok van, a víz meg harmincnyolc.",
-   "rd": "너, 케쎈 버지? 킨트 미누쓰 케트 폭 번, 어 비즈 멕 허르민츠뇰츠.",
+   "hu": "Na, készen vagy? Kint mínusz két fok, a víz meg harmincnyolc.",
+   "rd": "너, 케쎈 버지? 킨트 미누쓰 케트 폭, 어 비즈 멕 허르민츠뇰츠.",
    "ko": "자, 준비됐어? 밖은 영하 2도, 물은 38도야.",
    "note": "fok = 도",
    "tags": [],
@@ -62,11 +62,6 @@
      ""
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
      "víz",
      "víz",
      "비즈"
@@ -81,20 +76,20 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Igen, nagyon várom. Várj, hol a fürdőruhám?",
-   "rd": "이겐, 너죤 바롬. 바르이, 홀 어 퓌르되루함?",
-   "ko": "응, 엄청 기대돼. 잠깐, 내 수영복 어디 갔지?",
+   "hu": "Igen, nagyon. Várj… hol a fürdőruhám?",
+   "rd": "이겐, 너죤. 바르이… 홀 어 퓌르되루함?",
+   "ko": "응, 엄청. 잠깐… 내 수영복 어디 있지?",
    "note": "fürdőruha = 수영복",
    "tags": [],
    "emotion": "excited",
    "segs": [
     [
      "excited",
-     "Igen, nagyon várom."
+     "Igen, nagyon."
     ],
     [
      "worried",
-     "Várj, hol a fürdőruhám?"
+     "Várj… hol a fürdőruhám?"
     ]
    ],
    "lemmas": [
@@ -107,11 +102,6 @@
      "nagyon",
      "nagyon",
      "너존"
-    ],
-    [
-     "várom",
-     "vár",
-     "바르"
     ],
     [
      "hol",
@@ -152,10 +142,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Úgy tűnik. Reggel csak a törölközőre figyeltem.",
-   "rd": "우지 튀닉. 렉겔 척 어 퇴뢸쾨죄레 피젤템.",
+   "hu": "Úgy tűnik. Reggel csak a törölközőt raktam be.",
+   "rd": "우지 튀닉. 렉겔 척 어 퇴뢸쾨죄트 럭텀 베.",
    "ko": "그런가 봐. 아침에 수건만 챙겼어.",
-   "note": "figyel = 신경 쓰다",
+   "note": "törölköző = 수건",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
@@ -175,14 +165,19 @@
      "촉"
     ],
     [
-     "törölközőre",
-     "törölközőre",
+     "törölközőt",
+     "töröl",
      ""
     ],
     [
-     "figyeltem",
-     "figyelt",
-     ""
+     "raktam",
+     "rak",
+     "러크"
+    ],
+    [
+     "be",
+     "be",
+     "베"
     ]
    ]
   },
@@ -192,7 +187,7 @@
    "hu": "Semmi baj. Kérdezzük meg a pénztárnál.",
    "rd": "셈미 버이. 케르데쥑 멕 어 펜즈타르날.",
    "ko": "괜찮아. 매표소에 물어보자.",
-   "note": "kérdezzük meg = 물어보자",
+   "note": "semmi baj = 괜찮아",
    "tags": [
     "expr:Semmi baj"
    ],
@@ -216,7 +211,7 @@
    "hu": "Elnézést, lehet itt fürdőruhát bérelni?",
    "rd": "엘네제슈트, 레헤트 이트 퓌르되루하트 베렐니?",
    "ko": "실례합니다, 여기서 수영복 빌릴 수 있나요?",
-   "note": "bérel = 빌리다",
+   "note": "bérelni = 빌리다",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -250,8 +245,8 @@
   {
    "num": 7,
    "speaker": "C",
-   "hu": "Bérelni nem, de venni lehet. Ott vannak a polcon.",
-   "rd": "베렐니 넴, 데 벤니 레헤트. 오트 번넉 어 폴촌.",
+   "hu": "Bérelni nem lehet, de venni igen. Ott a polcon.",
+   "rd": "베렐니 넴 레헤트, 데 벤니 이겐. 오트 어 폴촌.",
    "ko": "대여는 안 되고 구매는 돼요. 저기 선반에 있어요.",
    "note": "polc = 선반",
    "tags": [],
@@ -263,19 +258,19 @@
      ""
     ],
     [
-     "venni",
-     "vesz",
-     "베쓰"
-    ],
-    [
      "lehet",
      "lehet",
      "레헤트"
     ],
     [
-     "vannak",
-     "van",
-     "번"
+     "venni",
+     "vesz",
+     "베쓰"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
     ],
     [
      "polcon",
@@ -289,7 +284,7 @@
    "speaker": "A",
    "hu": "Köszönöm. Anna, segítesz választani?",
    "rd": "쾨쐬뇜. 언너, 세기테쓰 발러쓰터니?",
-   "ko": "감사합니다. 언너, 고르는 거 도와줄래?",
+   "ko": "감사합니다. 안나, 고르는 거 도와줄래?",
    "note": "választani = 고르다",
    "tags": [],
    "emotion": "cheerful",
@@ -316,7 +311,7 @@
    "speaker": "B",
    "hu": "Naná. Ez a sárga, kis kacsákkal, tökéletes.",
    "rd": "너나. 에즈 어 샤르거, 키시 커차껄, 퇴켈레테시.",
-   "ko": "당연하지. 이 노란 거, 작은 오리 그려진 거, 완벽해.",
+   "ko": "당연하지. 이 노란 거, 작은 오리들, 완벽해.",
    "note": "naná = 당연하지",
    "tags": [
     "expr:Naná"
@@ -353,10 +348,10 @@
   {
    "num": 10,
    "speaker": "A",
-   "hu": "Kacsákkal? Ezt nem veszem fel, mindenki nevetni fog.",
-   "rd": "커차껄? 에즈트 넴 베쎔 펠, 민덴키 네베트니 폭.",
+   "hu": "Kacsákkal? Ezt nem veszem fel, mindenki nevet.",
+   "rd": "커차껄? 에즈트 넴 베쎔 펠, 민덴키 네베트.",
    "ko": "오리? 이건 안 입어, 다들 웃을 거야.",
-   "note": "nevetni fog = 웃을 것이다",
+   "note": "nevet = 웃다",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
@@ -376,14 +371,9 @@
      "펠"
     ],
     [
-     "nevetni",
      "nevet",
-     ""
-    ],
-    [
-     "fog",
-     "fog",
-     "포그"
+     "neve",
+     "네베"
     ]
    ]
   },
@@ -393,7 +383,7 @@
    "hu": "Jó, akkor én is ilyet veszek. Ha ketten vagyunk, már nem vicces.",
    "rd": "요, 어꼬르 엔 이시 이예트 베쎅. 허 케뗀 버쥰크, 마르 넴 비쩨시.",
    "ko": "좋아, 그럼 나도 이거 살게. 둘이면 이제 안 웃기지.",
-   "note": "ilyet = 이런 것을",
+   "note": "ilyet = 이런 거",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [

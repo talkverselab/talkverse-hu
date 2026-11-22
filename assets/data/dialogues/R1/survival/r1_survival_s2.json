@@ -79,7 +79,7 @@
    "hu": "Jó napot! Két napja nagyon fáj a fogam.",
    "rd": "요 너포트! 케트 너프여 너죤 파이 어 포검.",
    "ko": "안녕하세요! 이틀째 이가 너무 아파요.",
-   "note": "fogam = 내 이(fejem = 내 머리)",
+   "note": "fogam = 내 이",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
@@ -116,7 +116,7 @@
    "hu": "A foga? Akkor nyissa ki a száját!",
    "rd": "어 포거? 어꼬르 니쎠 키 어 싸야트!",
    "ko": "이요? 그럼 입 벌려 보세요!",
-   "note": "nyissa ki = 여세요(존댓말 명령)",
+   "note": "nyissa ki = 여세요",
    "tags": [],
    "emotion": "surprised",
    "lemmas": [
@@ -202,7 +202,7 @@
    "hu": "Jaj, bocsánat! Fáj a fejem, nem a fogam.",
    "rd": "여이, 보차너트! 파이 어 페옘, 넴 어 포검.",
    "ko": "아, 죄송해요! 머리가 아파요, 이가 아니라요.",
-   "note": "fáj a fejem = 머리가 아파요",
+   "note": "Fáj a fejem = 머리가 아파요",
    "tags": [
     "expr:Fáj a fejem"
    ],

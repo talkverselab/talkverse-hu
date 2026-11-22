@@ -35,7 +35,7 @@
    "hu": "Szia! Megvan a házi?",
    "rd": "씨어! 멕번 어 하지?",
    "ko": "안녕! 숙제 했어?",
-   "note": "házi = 숙제(házi feladat)",
+   "note": "házi = 숙제",
    "tags": [
     "expr:Megvan"
    ],
@@ -159,7 +159,7 @@
    "hu": "Nem megy, nehéz. Segítesz?",
    "rd": "넴 메지, 네헤즈. 세기테쓰?",
    "ko": "안 돼, 어려워. 도와줄래?",
-   "note": "nem megy = 안 돼(안 풀려)",
+   "note": "nem megy = 안 돼",
    "tags": [],
    "emotion": "worried",
    "lemmas": [
