@@ -95,9 +95,9 @@
 "dialogues/R2/love/r2_love_b2.json": "abff99486cff",
 "dialogues/R2/love/r2_love_b3.json": "147f41509b17",
 "dialogues/R2/love/r2_love_b4.json": "05ed4258265e",
-"dialogues/R2/love/r2_love_c1.json": "892cd176451f",
+"dialogues/R2/love/r2_love_c1.json": "3aa87d5788f9",
 "dialogues/R2/love/r2_love_c2.json": "e1fda659eeb4",
-"dialogues/R2/study/r2_study_b1.json": "7779152080c3",
+"dialogues/R2/study/r2_study_b1.json": "1f5bfc471afa",
 "dialogues/R2/study/r2_study_b2.json": "f99fa0ad5491",
 "dialogues/R2/study/r2_study_b3.json": "7f29790b1a79",
 "dialogues/R2/study/r2_study_b4.json": "f1caf6e947fb",
@@ -152,5 +152,5 @@
 "dialogues/R3/work/r3_work_c1.json": "eb3b8ea0ea02",
 "grammar/sense_course.json": "d437aeef222e"
 },
-"rev": 4
+"rev": 5
 }

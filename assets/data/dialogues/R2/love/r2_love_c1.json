@@ -35,9 +35,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Sziasztok! Szombaton piknik a Margitszigeten? 🧺",
-   "rd": "씨어쓰톡! 쏨버톤 픽닉 어 머르기트씨게텐? 🧺",
-   "ko": "얘들아! 토요일에 머르기트섬에서 피크닉 어때? 🧺",
+   "hu": "Hali! Szombaton piknikezünk a Margitszigeten? 🧺",
+   "rd": "헐리! 쏨버톤 픽니케쥔크 어 머르기트씨게텐? 🧺",
+   "ko": "안녕! 토요일에 머르기트섬에서 피크닉 할래? 🧺",
    "note": "piknik = 피크닉",
    "tags": [],
    "at": "19:00",
@@ -45,12 +45,12 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Sziasztok",
-     "sziasztok",
-     "씨어스톡"
+     "Hali",
+     "hali",
+     ""
     ],
     [
-     "piknik",
+     "piknikezünk",
      "piknik",
      ""
     ]
@@ -59,10 +59,10 @@
   {
    "num": 2,
    "speaker": "C",
-   "hu": "Igen! Én viszek pogácsát. 😋",
-   "rd": "이겐! 엔 비쎅 포가차트. 😋",
-   "ko": "좋아! 나 포가차 가져갈게. 😋",
-   "note": "pogácsa = 포가차(짭짤한 작은 빵)",
+   "hu": "Igen, mehet! Pogácsát is viszek. 😋",
+   "rd": "이겐, 메헤트! 포가차트 이시 비쎅. 😋",
+   "ko": "응, 가자! 포가차도 가져갈게. 😋",
+   "note": "pogácsa = 포가차",
    "tags": [],
    "at": "19:02",
    "emotion": "cheerful",
@@ -74,23 +74,23 @@
      "이겐"
     ],
     [
+     "mehet",
+     "mehet",
+     "메헤트"
+    ],
+    [
      "viszek",
      "visz",
      "비스"
-    ],
-    [
-     "pogácsát",
-     "pogácsa",
-     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Szuper! Én hozok gyümölcsöt meg pokrócot.",
-   "rd": "쑤페르! 엔 호족 쥐묄최트 멕 폭로초트.",
-   "ko": "좋아! 나는 과일이랑 담요 가져갈게.",
+   "hu": "Tökéletes! Gyümölcsöt meg pokrócot hozok én.",
+   "rd": "퇴켈레테시! 쥐묄최트 멕 폭로초트 호족 엔.",
+   "ko": "완벽해! 과일이랑 담요는 내가 챙길게.",
    "note": "pokróc = 담요",
    "tags": [],
    "at": "19:03",
@@ -98,33 +98,28 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Szuper",
-     "szuper",
-     "쑤페르"
-    ],
-    [
-     "hozok",
-     "hoz",
-     "호즈"
-    ],
-    [
-     "gyümölcsöt",
-     "gyümölcs",
-     ""
+     "Tökéletes",
+     "tökéletes",
+     "퇴켈레시"
     ],
     [
      "pokrócot",
      "pokróc",
      ""
+    ],
+    [
+     "hozok",
+     "hoz",
+     "호즈"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Tökéletes. Tizenegykor a hídnál?",
-   "rd": "퇴켈레테시. 티제네지코르 어 히드날?",
-   "ko": "완벽해. 11시에 다리 앞?",
+   "hu": "Szuper. Tizenegykor a hídnál?",
+   "rd": "쑤페르. 티제네지코르 어 히드날?",
+   "ko": "좋아. 11시에 다리 앞에서?",
    "note": "a hídnál = 다리 옆에서",
    "tags": [],
    "at": "19:04",
@@ -132,9 +127,9 @@
    "ui": "bubble",
    "lemmas": [
     [
-     "Tökéletes",
-     "tökéletes",
-     "퇴켈레시"
+     "Szuper",
+     "szuper",
+     "쑤페르"
     ],
     [
      "hídnál",
@@ -146,9 +141,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Jaj, bocsi... most jut eszembe, szombaton dolgozom. 😬",
-   "rd": "여이, 보치... 모슈트 유트 에쎔베, 쏨버톤 돌고좀. 😬",
-   "ko": "아이고, 미안… 이제 생각났는데, 토요일에 일해. 😬",
+   "hu": "Jaj, Bocsi... most jutott eszembe, hogy szombaton dolgozom. 😬",
+   "rd": "여이, 보치... 모슈트 유토트 에쎔베, 호지 쏨버톤 돌고좀. 😬",
+   "ko": "아, Bocsi... 방금 생각났는데 토요일에 일해. 😬",
    "note": "eszembe jut = 생각나다",
    "tags": [
     "expr:Bocsi"
@@ -163,17 +158,12 @@
      "야이"
     ],
     [
-     "bocsi",
-     "bocsi",
-     "보치"
-    ],
-    [
      "most",
      "most",
      "모슈트"
     ],
     [
-     "jut",
+     "jutott",
      "jut",
      "유트"
     ],
@@ -197,9 +187,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Komolyan? Akkor halasszuk el?",
-   "rd": "코모연? 어꼬르 헐러쑥 엘?",
-   "ko": "진짜? 그럼 미룰까?",
+   "hu": "Komolyan? Akkor halasszuk el inkább?",
+   "rd": "코모연? 어꼬르 헐러쑥 엘 인카브?",
+   "ko": "진짜? 그럼 차라리 미룰까?",
    "note": "elhalaszt = 미루다",
    "tags": [
     "expr:Komolyan?"
@@ -222,15 +212,20 @@
      "el",
      "el",
      "엘"
+    ],
+    [
+     "inkább",
+     "inkább",
+     "인깝"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Ne már, menjetek ketten! A pogácsa nem várhat. 😇",
-   "rd": "네 마르, 멘예텍 케뗀! 어 포가처 넴 바르허트. 😇",
-   "ko": "에이, 둘이 가! 포가차는 못 기다려. 😇",
+   "hu": "Ne már, menjetek csak ti ketten! A pogácsa nem vár. 😇",
+   "rd": "네 마르, 멘예텍 척 티 케뗀! 어 포가처 넴 바르. 😇",
+   "ko": "에이, 너희 둘이 가! 포가차는 못 기다려. 😇",
    "note": "menjetek = 너희가 가라",
    "tags": [
     "expr:Ne már"
@@ -250,14 +245,19 @@
      "메지"
     ],
     [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
      "pogácsa",
      "pogácsa",
      ""
     ],
     [
-     "várhat",
-     "várhat",
-     ""
+     "vár",
+     "vár",
+     "바르"
     ]
    ]
   },
@@ -266,7 +266,7 @@
    "speaker": "B",
    "hu": "Dávid, működik a terv! Hagyjuk őket kettesben. 😏",
    "rd": "다비드, 뮈쾨딕 어 테르브! 허지육 외케트 케떼슈벤. 😏",
-   "ko": "다비드, 계획 성공! 둘만 있게 두자. 😏",
+   "ko": "다비드, 계획 먹혔어! 둘만 있게 두자. 😏",
    "note": "kettesben = 둘이서만",
    "tags": [],
    "at": "21:32",
@@ -298,9 +298,9 @@
   {
    "num": 9,
    "speaker": "B",
-   "hu": "JAJ. Ez nem ide ment!!! 😱",
-   "rd": "여이. 에즈 넴 이데 멘트!!! 😱",
-   "ko": "으악. 이거 여기 보낼 게 아니었어!!! 😱",
+   "hu": "JAJ! Ez nem ide ment!!! 😱",
+   "rd": "여이! 에즈 넴 이데 멘트!!! 😱",
+   "ko": "으악! 여기로 보낸 게 아니야!!! 😱",
    "note": "ide = 여기로",
    "tags": [],
    "at": "21:32",
@@ -327,9 +327,9 @@
   {
    "num": 10,
    "speaker": "C",
-   "hu": "Réka... milyen terv? 🙄",
-   "rd": "레커... 미옌 테르브? 🙄",
-   "ko": "레카… 무슨 계획? 🙄",
+   "hu": "Réka... milyen tervről beszélsz? 🙄",
+   "rd": "레커... 미옌 테르브뢸 베쎌쓰? 🙄",
+   "ko": "레카… 무슨 계획 얘기야? 🙄",
    "note": "milyen = 어떤",
    "tags": [],
    "at": "21:33",
@@ -342,9 +342,14 @@
      ""
     ],
     [
-     "terv",
+     "tervről",
      "terv",
      "테르브"
+    ],
+    [
+     "beszélsz",
+     "beszél",
+     "베쎌"
     ]
    ]
   },
@@ -382,9 +387,9 @@
   {
    "num": 12,
    "speaker": "C",
-   "hu": "Úgy tűnik. Hozok több pogácsát. 😊",
-   "rd": "우지 튀닉. 호족 퇴브 포가차트. 😊",
-   "ko": "그런가 봐. 포가차 더 가져갈게. 😊",
+   "hu": "Úgy tűnik. Több pogácsát viszek majd. 😊",
+   "rd": "우지 튀닉. 퇴브 포가차트 비쎅 머이드. 😊",
+   "ko": "그런가 보네. 포가차 더 가져갈게. 😊",
    "note": "több = 더 많은",
    "tags": [],
    "at": "21:36",
@@ -402,14 +407,19 @@
      "튀닉"
     ],
     [
-     "több",
-     "több",
-     "퇴그"
-    ],
-    [
      "pogácsát",
      "pogácsa",
      ""
+    ],
+    [
+     "viszek",
+     "visz",
+     "비스"
+    ],
+    [
+     "majd",
+     "majd",
+     "머이드"
     ]
    ]
   }

@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Jó reggelt! Ki csinálta meg a házi feladatot?",
-   "rd": "요 렉겔트! 키 치날터 멕 어 하지 펠러더토트?",
-   "ko": "좋은 아침이에요! 숙제 해 온 사람?",
+   "hu": "Jó reggelt mindenkinek! Ki hozta meg a házit?",
+   "rd": "요 렉겔트 민덴키넥! 키 호즈터 멕 어 하지트?",
+   "ko": "모두 좋은 아침이에요! 숙제 해 온 사람?",
    "note": "házi feladat = 숙제",
    "tags": [],
    "emotion": "cheerful",
@@ -50,29 +50,24 @@
      "렉겔"
     ],
     [
-     "csinálta",
-     "csinál",
-     "치날"
+     "hozta",
+     "hoz",
+     "호즈"
     ],
     [
-     "házi",
+     "házit",
      "házi",
      ""
-    ],
-    [
-     "feladatot",
-     "feladat",
-     "펠러더트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jaj, otthon felejtettem a füzetemet.",
-   "rd": "여이, 오트혼 펠레이테뗌 어 퓌제테메트.",
+   "hu": "Jaj, a füzetemet otthon hagytam.",
+   "rd": "여이, 어 퓌제테메트 오트혼 허지텀.",
    "ko": "아이고, 공책을 집에 두고 왔어요.",
-   "note": "otthon felejtettem = 집에 두고 왔다",
+   "note": "otthon hagytam = 집에 두고 왔다",
    "tags": [
     "expr:Jaj"
    ],
@@ -84,28 +79,28 @@
      "야이"
     ],
     [
+     "füzetemet",
+     "füze",
+     ""
+    ],
+    [
      "otthon",
      "otthon",
      "오트혼"
     ],
     [
-     "felejtettem",
-     "felejt",
-     "펠레이트"
-    ],
-    [
-     "füzetemet",
-     "füze",
-     ""
+     "hagytam",
+     "hagy",
+     "허지"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Én is. Pontosabban: el sem kezdtem.",
-   "rd": "엔 이시. 폰토셔번: 엘 셈 케즈드템.",
-   "ko": "나도. 정확히는 시작도 안 했어.",
+   "hu": "Én is. Igazából el se kezdtem.",
+   "rd": "엔 이시. 이거자볼 엘 세 케즈드템.",
+   "ko": "나도. 사실은 시작도 안 했어.",
    "note": "el sem kezdtem = 시작도 안 했다",
    "tags": [],
    "emotion": "teasing",
@@ -125,8 +120,8 @@
   {
    "num": 4,
    "speaker": "C",
-   "hu": "Na jó, akkor beszélgessünk. Réka, mit csinált a hétvégén?",
-   "rd": "너 요, 어꼬르 베쎌게쒼크. 레커, 미트 치날트 어 헤트베겐?",
+   "hu": "Na jó, akkor meséljünk. Réka, mit csinált a hétvégén?",
+   "rd": "너 요, 어꼬르 메셀윈크. 레커, 미트 치날트 어 헤트베겐?",
    "ko": "좋아요, 그럼 이야기해 봐요. 레카, 주말에 뭐 했어요?",
    "note": "hétvégén = 주말에",
    "tags": [
@@ -150,9 +145,9 @@
      "어꼬르"
     ],
     [
-     "beszélgessünk",
-     "beszélges",
-     ""
+     "meséljünk",
+     "mesél",
+     "메셸"
     ],
     [
      "csinált",
@@ -169,10 +164,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Kirándultam a hegyekben. Nagyon hideg volt.",
-   "rd": "키란둘텀 어 헤젝벤. 너죤 히덱 볼트.",
+   "hu": "Kirándultam a hegyekben. Jéghideg volt.",
+   "rd": "키란둘텀 어 헤젝벤. 옉히덱 볼트.",
    "ko": "산에 하이킹 갔어요. 엄청 추웠어요.",
-   "note": "kirándultam = 소풍(하이킹) 갔다",
+   "note": "kirándultam = 소풍 갔다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -187,11 +182,6 @@
      ""
     ],
     [
-     "hideg",
-     "hideg",
-     "히데그"
-    ],
-    [
      "volt",
      "van",
      "번"
@@ -204,7 +194,7 @@
    "hu": "Szép. És Ön, {name}?",
    "rd": "쎄프. 에시 왼, {name}?",
    "ko": "좋네요. {name} 씨는요?",
-   "note": "és Ön? = 그쪽은요?(존댓말)",
+   "note": "Ön = 당신(존댓말)",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -218,10 +208,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Én szombaton egész délután a fürdőszobában voltam.",
-   "rd": "엔 쏨버톤 에게쓰 델루탄 어 퓌르되쏘바번 볼텀.",
-   "ko": "저는 토요일에 오후 내내 욕실에 있었어요.",
-   "note": "fürdőszoba = 욕실(!)",
+   "hu": "Én szombaton egész délután a fürdőszobában ültem.",
+   "rd": "엔 쏨버톤 에게쓰 델루탄 어 퓌르되쏘바번 윌템.",
+   "ko": "저는 토요일에 오후 내내 욕실에 앉아 있었어요.",
+   "note": "fürdőszoba = 욕실",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -246,9 +236,9 @@
      ""
     ],
     [
-     "voltam",
-     "volt",
-     "볼트"
+     "ültem",
+     "ül",
+     "위일"
     ]
    ]
   },
@@ -289,17 +279,17 @@
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Nem, dehogy! Meleg víz, szauna, nagyon jó volt.",
-   "rd": "넴, 데호지! 멜렉 비즈, 써우너, 너죤 요 볼트.",
-   "ko": "아뇨, 전혀요! 따뜻한 물, 사우나, 정말 좋았어요.",
-   "note": "dehogy = 천만에, 아니요",
+   "hu": "Nem, dehogyis! Meleg víz meg szauna, tökéletes volt.",
+   "rd": "넴, 데호지시! 멜렉 비즈 멕 써우너, 퇴켈레테시 볼트.",
+   "ko": "아뇨, 전혀요! 따뜻한 물이랑 사우나, 완전 좋았어요.",
+   "note": "dehogy = 천만에",
    "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
-     "dehogy",
-     "dehogy",
-     "데허고"
+     "dehogyis",
+     "dehogyis",
+     ""
     ],
     [
      "víz",
@@ -312,14 +302,9 @@
      ""
     ],
     [
-     "nagyon",
-     "nagyon",
-     "너존"
-    ],
-    [
-     "jó",
-     "jó",
-     "요"
+     "tökéletes",
+     "tökéletes",
+     "퇴켈레시"
     ],
     [
      "volt",
@@ -360,7 +345,7 @@
    "speaker": "C",
    "hu": "Semmi baj. Házi feladat: fürdő és fürdőszoba, öt mondat.",
    "rd": "셈미 버이. 하지 펠러더트: 퓌르되 에시 퓌르되쏘버, 외트 몬더트.",
-   "ko": "괜찮아요. 숙제: 「온천」과 「욕실」로 다섯 문장.",
+   "ko": "괜찮아요. 숙제: 「온천」이랑 「욕실」로 다섯 문장.",
    "note": "mondat = 문장",
    "tags": [
     "expr:Semmi baj"
