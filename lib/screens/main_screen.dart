@@ -8,6 +8,7 @@ import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
 import 'alphabet_screen.dart';
 import 'curriculum_screen.dart';
+import 'custom_script_screen.dart';
 import 'sense_course_screen.dart';
 import 'word_quiz_screen.dart';
 import 'chunk_search_screen.dart';
@@ -395,8 +396,6 @@ class _MenuGrid extends StatelessWidget {
     // 묶음 순서 = 일본어앱 배우기(2026-11-07): 기초 → 문법 → 회화 → 단어 → 참고. 에피소드는 「학습」 탭.
     final sections = <(String, List<_MenuItem>)>[
       (tr('정규과정'), [
-        _MenuItem(label: tr('토크버스 커리큘럼'), sub: 'Tanterv', badge: 'TC', color: AppColors.beni, // 전 언어 공통(uk 11-22, ~/talkverse/CURRICULUM_SPEC.md)
-          builder: (_) => const CurriculumScreen()),
         _MenuItem(label: tr('언어감각 익히기'), sub: 'Nyelvérzék', badge: 'L', color: AppColors.ai, // 일본어앱 정규과정(빌드 96~112, 2026-11-18 전달)
           builder: (_) => const SenseCourseScreen()),
       ]),
@@ -415,6 +414,10 @@ class _MenuGrid extends StatelessWidget {
       (tr('회화'), [
         _MenuItem(label: tr('회화'), sub: 'Beszélgetés', badge: 'Ch', color: AppColors.rojo,
           builder: (_) => const DialogueHomeScreen()),
+        // 맞춤 회화(AI 다이얼로그 작성, 일본어앱과 같게 — CURRICULUM_SPEC §11): 작성기가 켜지고 사용자가 정할 때까지 숨김(kCustomScriptLive=false)
+        if (kCustomScriptLive)
+          _MenuItem(label: tr('맞춤 회화 만들기'), sub: 'AI', badge: '✨', color: AppColors.kinDeep,
+            builder: (_) => const CustomScriptScreen()),
         _MenuItem(label: tr('문장 말하기'), sub: 'Beszéd', badge: '🎙', color: AppColors.rojo,
           builder: (_) => const SpeakingPracticeScreen()),
         _MenuItem(label: tr('문장 카드'), sub: 'Mondatok', badge: 'S', color: AppColors.tinta,
@@ -443,6 +446,13 @@ class _MenuGrid extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 토크버스 커리큘럼 — 전 언어 공통 메뉴, 홈 첫 칸(사용자 지시 2026-11-22, 기준 ~/talkverse/CURRICULUM_SPEC.md · 일본어앱 ceb91c3)
+        Padding(
+          padding: const EdgeInsets.only(top: 6, bottom: 8),
+          child: Text(tr('토크버스 커리큘럼'), style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.tintaLight)),
+        ),
+        const CurriculumHomeCard(),
+        const SizedBox(height: 10),
         for (final (title, items) in sections) ...[
           Padding(
             padding: const EdgeInsets.only(top: 6, bottom: 8),

@@ -89,6 +89,20 @@ class Dialogue {
     this.art,
   });
 
+  /// 편 JSON 한 개 → Dialogue(맞춤 회화 서버 응답 등 — 일본어앱 `Dialogue.fromJson` 과 같은 이름, 2026-11-22). 칸은 [DialogueService] 가 편 파일을 읽는 것과 같다.
+  factory Dialogue.fromJson(Map<String, dynamic> m) => Dialogue(
+        id: '${m['id']}',
+        region: m['region'] as String? ?? '',
+        topic: m['island'] as String? ?? m['topic'] as String? ?? '',
+        title: m['title'] as String? ?? '${m['id']}',
+        emoji: m['emoji'] as String? ?? '💬',
+        scene: m['scene'] as String? ?? '',
+        speakers: ((m['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v')),
+        genders: ((m['genders'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v')),
+        expressions: ((m['expressions'] as List?) ?? const []).map((e) => '$e').toList(),
+        turns: ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList(),
+      );
+
   /// 화면에 보일 장면 설명 — 원고의 「A」(학습자)를 이름(없으면 「나」)으로(일본어앱 빌드 111, 2026-11-18 전달).
   String get sceneShown => scene.replaceAllMapped(RegExp(r'(?<![A-Za-z])A(?![A-Za-z]) ?(?=[가-힣])'), (_) => speakerName('A'));
 
@@ -128,6 +142,7 @@ class DialogueService {
     'work': '💼',
     'study': '🎓',
   };
+  static const levels = ['R0', 'R1', 'R2', 'R3', 'R4', 'R5']; // 커리큘럼 레벨 순서(일본어앱과 같게)
   static const levelKo = {'L1': '이야기', 'R0': '왕초보', 'R1': '초보', 'R2': '중급', 'R3': '고급', 'R4': '최상급'};
   static const _prefLast = 'dialogue_last';
 
