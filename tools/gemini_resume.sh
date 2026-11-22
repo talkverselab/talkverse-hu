@@ -22,7 +22,13 @@ curl -s -m 3 127.0.0.1:9226/json/version >/dev/null || ssh -fN -L 9226:127.0.0.1
 # 뒤 순서(pl·hu)는 한 회차 20편까지(uk). 한도·모델 안내가 뜨면 보내지 않고 물러남.
 MAX=${HU_GEMINI_MAX:-20}
 todo=$(mktemp); while IFS=$'\t' read -r p d; do [[ -s $d ]] || print -r -- "$p	$d"; done < data/review/gemini_todo.tsv | head -$MAX > $todo
-r=$(/usr/bin/python3 tools/gemini_pick.py); echo "$(date +%H:%M) $r"
+# 로그아웃이면 물러남(11-23: 로그아웃이어도 gemini_pick 은 PICKED 를 낸다 — 「로그인」 단추 수로 확인)
+lo=$(/usr/bin/python3 -c "
+import sys,time; sys.path.insert(0,'/Users/talkverse/Hanja/tools'); import grok_cdp as g
+g.BASE='http://127.0.0.1:9226'; c=g.CDP(g.tab('gemini.google.com')); time.sleep(3)
+print(c.ev(\"[...document.querySelectorAll('a,button')].filter(b=>(b.innerText||'').trim()==='로그인').length\"))" 2>/dev/null)
+if [[ "$lo" != "0" ]]; then r="LOGGEDOUT 로그인 단추 $lo"; else r=$(/usr/bin/python3 tools/gemini_pick.py); fi
+echo "$(date +%H:%M) $r"
 if [[ $r == PICKED* ]]; then
   echo "$(date +%H:%M) Gemini 이번 회차 $(wc -l < $todo | tr -d ' ')편 — 전체 남은 $(left)"
   /usr/bin/python3 tools/gemini_batch.py $todo -j 1 --gap 60
