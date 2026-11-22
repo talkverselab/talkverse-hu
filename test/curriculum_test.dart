@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:hungarian_universe/screens/curriculum_screen.dart';
 import 'package:hungarian_universe/services/curriculum_service.dart';
 import 'package:hungarian_universe/services/dialogue_service.dart';
@@ -134,4 +135,20 @@ void main() {
     }
     expect(find.textContaining('100'), findsOneWidget);
   });
+
+  for (final w in const [360.0, 300.0]) {
+    testWidgets('코스 고르기 화면 넘침 없음 — 폭 $w', (t) async {
+      SharedPreferences.setMockInitialValues({'hu_curriculum_v1': '{"level":"R1","dailyGoal":2}', 'hu__migrated_v1': true});
+      t.view.physicalSize = Size(w, 900);
+      t.view.devicePixelRatio = 1;
+      addTearDown(t.view.reset);
+      await t.pumpWidget(const MaterialApp(home: CurriculumScreen()));
+      for (var i = 0; i < 60 && find.text('추천으로 채우기').evaluate().isEmpty; i++) {
+        await t.runAsync(() => Future.delayed(const Duration(milliseconds: 100)));
+        await t.pump();
+      }
+      expect(find.text('추천으로 채우기'), findsOneWidget);
+      expect(t.takeException(), isNull);
+    });
+  }
 }
