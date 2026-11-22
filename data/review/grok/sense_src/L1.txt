@@ -1,0 +1,15 @@
+=== L1
+title: 안쪽 장소 — -ban · -ba · -ból
+sub: 어디에 · 어디로 · 어디에서 (안쪽)
+target: -ban·-ben — 「안에 있다」. 단어 모음이 a·o·u 쪽이면 -ban, e·i·ö·ü 쪽이면 -ben (모음조화). / -ba·-be — 「안으로 간다」. 한국어는 「카페에 있어 / 카페에 가」 둘 다 「에」지만 헝가리어는 갈라요. / -ból·-ből — 「안에서 밖으로」. 지하철에서 내리다 = metróból kiszáll.
+lines: 10
+Anna | Hol vagy? Már a kávézó{ban|1} ülök. | 어디야? 난 벌써 카페{에|1} 앉아 있어.
+나 | Bocsi, még a metró{ban|1} vagyok. | 미안, 아직 지하철{에|1} 있어.
+Anna | Ugye ide jössz, a sarki kávézó{ba|2}? | 여기 모퉁이 카페{로|2} 오는 거 맞지?
+나 | Igen. Öt perc múlva kiszállok a metró{ból|3}. | 응. 5분 뒤에 지하철{에서|3} 내려.
+Anna | Van esernyő a táskád{ban|1}? Esik. | 가방{에|1} 우산 있어? 비 와.
+나 | Nincs. Otthon hagytam, a szobám{ban|1}. | 없어. 집에, 내 방{에|1} 두고 왔어.
+Anna | Akkor fuss be az üzlet{be|2}, ott vehetsz egyet. | 그럼 가게{로|2} 뛰어 들어가, 거기서 하나 살 수 있어.
+나 | Jó ötlet. Már bent vagyok a bolt{ban|1}. | 좋은 생각. 벌써 가게 안{에|1} 들어왔어.
+나 | Kijöttem a bolt{ból|3} egy új esernyővel. | 새 우산 들고 가게{에서|3} 나왔어.
+Anna | Végre! Gyere be a kávézó{ba|2}, már kihűl a kávéd. | 드디어! 카페{로|2} 들어와, 네 커피 벌써 식는다.

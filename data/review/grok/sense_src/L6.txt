@@ -1,0 +1,15 @@
+=== L6
+title: 과거 — -t / -tt 하나로
+sub: 과거는 하나뿐
+target: 헝가리어 과거는 하나 — -t- 나 -tt- 를 넣고 그 뒤에 인칭 어미 (csináltam, nevettünk). / -t 인지 -tt 인지는 끝소리에 따라: kirándult·aludt / nevetett·főzött. 외운 문장으로 감을 잡으세요.
+lines: 10
+나 | Mit csinál{tál|1} hétvégén? | 주말에 뭐 {했어|1}?
+Bence | Szombaton kirándul{tam|1} a Mátrában. | 토요일엔 마트라 산에 하이킹 {갔어|1}.
+나 | Egyedül men{tél|1}? | 혼자 {갔어|1}?
+Bence | Nem, a barátaimmal. Sokat nevet{tünk|1}. | 아니, 친구들이랑. 많이 {웃었어|1}.
+나 | És vasárnap? | 일요일은?
+Bence | Vasárnap csak alud{tam|1} és főz{tem|1}. | 일요일엔 그냥 {잤고|1} 요리{했어|1}.
+나 | Mit főz{tél|1}? | 뭘 요리{했어|1}?
+Bence | Gulyást. Most főz{tem|1} először egyedül. | 굴라시. 이번에 처음 혼자 {만들었어|1}.
+나 | És sikerül{t|1}? | 그래서 잘 {됐어|1}?
+Bence | Majdnem. Kicsit sós lett, de mindet megett{ük|1}. | 거의. 좀 짰는데 다 {먹었어|1}.

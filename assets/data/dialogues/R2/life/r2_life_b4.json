@@ -10,9 +10,9 @@
  "domain": [
   "life"
  ],
- "title": "관리비 냈는데요",
+ "title": "누구 거 낸 거지?",
  "emoji": "🧾",
- "scene": "Marika 아주머니가 건물 대표로 관리비(közös költség)를 받으러 왔다. Dávid 는 이미 냈다고 한다",
+ "scene": "Marika néni가 관리비 받으러 왔다. Dávid는 이미 냈다고 우긴다",
  "speakers": {
   "A": "{name}",
   "B": "Dávid",
@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Jó estét! A közös költség miatt jöttem.",
-   "rd": "요 에슈테트! 어 쾨죄시 쾰트섹 미어트 요뗌.",
-   "ko": "안녕하세요! 관리비 때문에 왔어요.",
+   "hu": "Jó estét! A közös költség miatt zavarok.",
+   "rd": "요 에슈테트! 어 쾨죄시 쾰트섹 미어트 저버록.",
+   "ko": "안녕하세요! 관리비 때문에 왔습니다.",
    "note": "közös költség = 공동 관리비",
    "tags": [
     "expr:Közös költség"
@@ -62,18 +62,18 @@
      ""
     ],
     [
-     "jöttem",
-     "jön",
-     "왼"
+     "zavarok",
+     "zavar",
+     "저버르"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Jó estét! Az mi, közös költség?",
-   "rd": "요 에슈테트! 어즈 미, 쾨죄시 쾰트섹?",
-   "ko": "안녕하세요! 관리비가 뭐예요?",
+   "hu": "Jó estét! Közös költség? Az pontosan mi?",
+   "rd": "요 에슈테트! 쾨죄시 쾰트섹? 어즈 폰토션 미?",
+   "ko": "안녕하세요! 관리비요? 그게 정확히 뭐예요?",
    "note": "az mi? = 그게 뭐예요?",
    "tags": [
     "expr:Közös költség"
@@ -86,7 +86,7 @@
     ],
     [
      "surprised",
-     "Az mi, közös költség?"
+     "Közös költség? Az pontosan mi?"
     ]
    ],
    "lemmas": [
@@ -101,23 +101,23 @@
      "에슈테"
     ],
     [
-     "közös",
-     "közös",
-     "쾨죄시"
-    ],
-    [
      "költség",
      "költség",
      ""
+    ],
+    [
+     "pontosan",
+     "pontos",
+     "폰토시"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Hát, a ház pénze: takarítás, villany a lépcsőházban.",
-   "rd": "하트, 어 하즈 펜제: 터커리타시, 빌러니 어 레프최하즈번.",
-   "ko": "음, 건물 돈이야. 청소, 계단 전기 같은 거.",
+   "hu": "Hát, a lépcsőház takarítása meg a villany, ilyenek.",
+   "rd": "하트, 어 레프최하즈 터커리타셔 멕 어 빌러니, 이예넥.",
+   "ko": "음, 계단 청소랑 전기 같은 거.",
    "note": "lépcsőház = 계단실",
    "tags": [],
    "emotion": "neutral",
@@ -128,17 +128,12 @@
      "핫"
     ],
     [
-     "ház",
-     "ház",
-     "하즈"
+     "lépcsőház",
+     "lépcsőház",
+     ""
     ],
     [
-     "pénze",
-     "pénz",
-     "펜즈"
-    ],
-    [
-     "takarítás",
+     "takarítása",
      "takarít",
      ""
     ],
@@ -146,20 +141,15 @@
      "villany",
      "villany",
      ""
-    ],
-    [
-     "lépcsőházban",
-     "lépcsőház",
-     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "C",
-   "hu": "Havonta tizenötezer forint, lakásonként.",
-   "rd": "허본터 티제뇌테제르 포린트, 러카숀켄트.",
-   "ko": "한 달에 집마다 만 5천 포린트예요.",
+   "hu": "Havonta tizenötezer forint, minden lakásra.",
+   "rd": "허본터 티제뇌테제르 포린트, 민덴 러카슈러.",
+   "ko": "매달 만 5천 포린트, 집마다요.",
    "note": "havonta = 매달",
    "tags": [],
    "emotion": "polite",
@@ -180,7 +170,7 @@
      ""
     ],
     [
-     "lakásonként",
+     "lakásra",
      "lakás",
      "러카시"
     ]
@@ -189,15 +179,20 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "De én már befizettem, Marika néni!",
-   "rd": "데 엔 마르 베피제뗌, 머리커 네니!",
-   "ko": "근데 저 이미 냈어요, 아주머니!",
+   "hu": "De Marika néni, én már befizettem!",
+   "rd": "데 머리커 네니, 엔 마르 베피제뗌!",
+   "ko": "근데 아주머니, 저 이미 냈어요!",
    "note": "befizettem = 납부했다",
    "tags": [
     "expr:Befizettem"
    ],
    "emotion": "surprised",
    "lemmas": [
+    [
+     "néni",
+     "néni",
+     ""
+    ],
     [
      "már",
      "már",
@@ -207,20 +202,15 @@
      "befizettem",
      "befizet",
      ""
-    ],
-    [
-     "néni",
-     "néni",
-     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "C",
-   "hu": "Melyik hónapot?",
-   "rd": "메익 호너포트?",
-   "ko": "어느 달 거요?",
+   "hu": "Melyik hónapot fizette?",
+   "rd": "메익 호너포트 피제떼?",
+   "ko": "어느 달 거 내셨어요?",
    "note": "melyik = 어느",
    "tags": [
     "expr:Melyik hónap"
@@ -231,19 +221,29 @@
      "hónapot",
      "hónap",
      "호넙"
+    ],
+    [
+     "fizette",
+     "fizet",
+     "피제트"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Mindet, átutalással. Tessék, itt van a telefonomon.",
-   "rd": "민데트, 아투털라쎨. 테쎅, 이트 번 어 텔레포노몬.",
-   "ko": "전부요, 계좌 이체로. 자, 제 폰에 있어요.",
+   "hu": "Az összeset, átutalással. Tessék, itt a telefonon.",
+   "rd": "어즈 외쎄세트, 아투털라쎨. 테쎅, 이트 어 텔레포논.",
+   "ko": "전부요, 계좌이체로. 자, 폰에 있어요.",
    "note": "átutalás = 계좌 이체",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
+    [
+     "összeset",
+     "összeset",
+     ""
+    ],
     [
      "átutalással",
      "átutal",
@@ -255,12 +255,7 @@
      "이트"
     ],
     [
-     "van",
-     "van",
-     "번"
-    ],
-    [
-     "telefonomon",
+     "telefonon",
      "telefon",
      "텔레폰"
     ]
@@ -269,20 +264,20 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Mutassa! Jaj, ez a tizenkettes lakás száma.",
-   "rd": "무터쎠! 여이, 에즈 어 티젠케떼시 러카시 싸머.",
-   "ko": "보여 줘요! 어머, 이건 12호 번호예요.",
+   "hu": "Mutassa csak! Jaj, ez a tizenkettes lakásé.",
+   "rd": "무터쎠 척! 여이, 에즈 어 티젠케떼시 러카세.",
+   "ko": "보여 주세요! 어머, 이건 12호예요.",
    "note": "tizenkettes = 12번",
    "tags": [],
    "emotion": "surprised",
    "segs": [
     [
      "surprised",
-     "Mutassa!"
+     "Mutassa csak!"
     ],
     [
      "worried",
-     "Jaj, ez a tizenkettes lakás száma."
+     "Jaj, ez a tizenkettes lakásé."
     ]
    ],
    "lemmas": [
@@ -292,18 +287,18 @@
      "무타트"
     ],
     [
+     "csak",
+     "csak",
+     "촉"
+    ],
+    [
      "tizenkettes",
      "tizenkettes",
      ""
     ],
     [
-     "lakás",
-     "lakás",
-     "러카시"
-    ],
-    [
-     "száma",
-     "szám",
+     "lakásé",
+     "lakásé",
      ""
     ]
    ]
@@ -311,9 +306,9 @@
   {
    "num": 9,
    "speaker": "A",
-   "hu": "A tizenkettes? Feri bácsié?",
-   "rd": "어 티젠케떼시? 페리 바치에?",
-   "ko": "12호요? 페리 아저씨네요?",
+   "hu": "A tizenkettes? Az Feri bácsié?",
+   "rd": "어 티젠케떼시? 어즈 페리 바치에?",
+   "ko": "12호요? 페리 아저씨 거네요?",
    "note": "Feri bácsié = 페리 아저씨의 것",
    "tags": [],
    "emotion": "surprised",
@@ -333,9 +328,9 @@
   {
    "num": 10,
    "speaker": "C",
-   "hu": "Igen! Ezért mondja mindig Feri, hogy ő időben fizet!",
-   "rd": "이겐! 에제르트 몬드여 민딕 페리, 호지 외 이되벤 피제트!",
-   "ko": "그래요! 그래서 페리 씨가 늘 자기는 제때 낸다고 했구나!",
+   "hu": "Igen! Ezért dicsekszik mindig Feri, hogy ő mindig időben fizet!",
+   "rd": "이겐! 에제르트 디첵씩 민딕 페리, 호지 외 민딕 이되벤 피제트!",
+   "ko": "그래요! 그래서 페리 씨가 늘 자기는 제때 낸다고 자랑했구나!",
    "note": "időben = 제때에",
    "tags": [],
    "emotion": "amused",
@@ -346,9 +341,9 @@
      "이겐"
     ],
     [
-     "mondja",
-     "mond",
-     "몬드"
+     "dicsekszik",
+     "dicsekszik",
+     ""
     ],
     [
      "mindig",
@@ -370,8 +365,8 @@
   {
    "num": 11,
    "speaker": "B",
-   "hu": "Akkor Feri bácsi tartozik nekem százhatvanötezerrel?",
-   "rd": "어꼬르 페리 바치 터르토직 네켐 싸즈허트버뇌테제렐?",
+   "hu": "Akkor Feri bácsi tartozik nekem százhatvanötezer forinttal?",
+   "rd": "어꼬르 페리 바치 터르토직 네켐 싸즈허트버뇌테제르 포린떨?",
    "ko": "그럼 페리 아저씨가 저한테 16만 5천 빚진 거예요?",
    "note": "tartozik = 빚지고 있다",
    "tags": [],
@@ -393,8 +388,13 @@
      "터르토직"
     ],
     [
-     "százhatvanötezerrel",
      "százhatvanötezer",
+     "százhatvanötezer",
+     ""
+    ],
+    [
+     "forinttal",
+     "forint",
      ""
     ]
    ]
@@ -402,10 +402,10 @@
   {
    "num": 12,
    "speaker": "C",
-   "hu": "Tartozik. De ezt maga mondja meg neki.",
-   "rd": "터르토직. 데 에즈트 머거 몬드여 멕 네키.",
+   "hu": "Tartozik, igen. De ezt maga mondja meg neki.",
+   "rd": "터르토직, 이겐. 데 에즈트 머거 몬드여 멕 네키.",
    "ko": "빚졌죠. 근데 그건 직접 말하세요.",
-   "note": "maga = 당신(Ön)",
+   "note": "maga = 당신",
    "tags": [],
    "emotion": "teasing",
    "lemmas": [
@@ -413,6 +413,11 @@
      "Tartozik",
      "tartozik",
      "터르토직"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
     ],
     [
      "mondja",

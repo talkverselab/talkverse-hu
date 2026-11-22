@@ -1,0 +1,15 @@
+=== L7
+title: 동사 접두사 — el- · be- · ki- · fel- · meg- · le-
+sub: 접두사가 뒤로 떨어질 때
+target: 접두사는 방향·끝맺음을 더해요: el- 떠나다, be- 안으로, ki- 밖으로, fel- 위로, le- 아래로, meg- 끝까지. / 부정(nem·ne)·명령·강조가 오면 접두사가 동사 뒤로 떨어져요: elfelejt → Ne felejtsd el! / megnéz → Nézd meg!
+lines: 10
+나 | {El|1}megyek a boltba, kérsz valamit? | 가게 {다녀|1}올게, 뭐 필요해?
+Anna | Igen! Vegyél tejet, és {be|2}dobnád a levelet a postaládába? | 응! 우유 사 오고, 편지 좀 우체통에 {넣어|2} 줄래?
+나 | Persze. Hol van a levél? | 그래. 편지 어디 있어?
+Anna | Az asztalon. Ja, és {ki|3}vinnéd a szemetet is? | 책상 위에. 아, 쓰레기도 {내다|3} 버려 줄래?
+나 | Jó, de akkor te {fel|4}mosod a konyhát. | 알았어, 그럼 넌 부엌 바닥을 {닦아|4}.
+Anna | Rendben, mindjárt {meg|5}csinálom. | 좋아, 금방 {해 놓을|5}게.
+나 | Nem találom a kulcsot... ja, {meg|5}van! | 열쇠가 안 보이네... 아, {찾았다|5}!
+Anna | Ne felejtsd {el|1} a tejet! | 우유 {잊지|1} 마!
+나 | Nem felejtem {el|1}. Fél óra múlva jövök. | 안 {잊어|1}. 30분 뒤에 올게.
+Anna | Ha {le|6}mész, nézd {meg|5} a postaládát is! | {내려|6}가면 우편함도 {봐|5} 줘!

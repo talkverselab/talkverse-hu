@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Gyere, ez a legmelegebb medence!",
-   "rd": "제레, 에즈 어 렉멜레게브 메덴체!",
-   "ko": "와, 여기가 제일 뜨거운 탕이야!",
+   "hu": "Gyere, ez a legmelegebb!",
+   "rd": "제레, 에즈 어 렉멜레게브!",
+   "ko": "와, 여기가 제일 뜨거워!",
    "note": "legmelegebb = 가장 따뜻한",
    "tags": [
     "expr:Gyere"
@@ -51,19 +51,14 @@
      "legmelegebb",
      "meleg",
      "멜레그"
-    ],
-    [
-     "medence",
-     "medence",
-     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hű, ez tényleg meleg. Hány fokos?",
-   "rd": "휘, 에즈 테닐렉 멜렉. 하니 포코시?",
+   "hu": "Hű, tényleg forró. Hány fokos?",
+   "rd": "휘, 테닐렉 포로. 하니 포코시?",
    "ko": "와, 진짜 뜨겁다. 몇 도야?",
    "note": "hány fokos? = 몇 도?",
    "tags": [],
@@ -80,9 +75,9 @@
      "테니렉"
     ],
     [
-     "meleg",
-     "meleg",
-     "멜레그"
+     "forró",
+     "forr",
+     ""
     ],
     [
      "fokos",
@@ -94,10 +89,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Harmincnyolc. Először vannak itt?",
-   "rd": "허르민츠뇰츠. 엘뢰쐬르 번넉 이트?",
-   "ko": "38도요. 여기 처음 왔어요?",
-   "note": "vannak = 있다(Önök)",
+   "hu": "Harmincnyolc. Először járnak itt?",
+   "rd": "허르민츠뇰츠. 엘뢰쐬르 야르넉 이트?",
+   "ko": "38도요. 여기 처음 오셨어요?",
+   "note": "járnak = 다니다(Önök)",
    "tags": [],
    "emotion": "gentle",
    "lemmas": [
@@ -107,9 +102,9 @@
      ""
     ],
     [
-     "vannak",
-     "van",
-     "번"
+     "járnak",
+     "jár",
+     "야르"
     ],
     [
      "itt",
@@ -121,10 +116,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Igen. Ön gyakran jár ide?",
-   "rd": "이겐. 왼 젹런 야르 이데?",
-   "ko": "네. 자주 오세요?",
-   "note": "jár ide = 여기 다니다",
+   "hu": "Igen. Ön gyakran jön ide?",
+   "rd": "이겐. 왼 젹런 욘 이데?",
+   "ko": "네. 자주 오시나요?",
+   "note": "jön ide = 여기 오다",
    "tags": [],
    "emotion": "polite",
    "lemmas": [
@@ -139,9 +134,9 @@
      "저크런"
     ],
     [
-     "jár",
-     "jár",
-     "야르"
+     "jön",
+     "jön",
+     "왼"
     ],
     [
      "ide",
@@ -153,9 +148,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Minden reggel, hétkor. Ez a gyógyvíz jót tesz.",
-   "rd": "민덴 렉겔, 헤트코르. 에즈 어 죠지비즈 요트 테쓰.",
-   "ko": "매일 아침 7시에요. 이 온천수가 몸에 좋아요.",
+   "hu": "Minden reggel hétkor. Ez a víz jót tesz.",
+   "rd": "민덴 렉겔 헤트코르. 에즈 어 비즈 요트 테쓰.",
+   "ko": "매일 아침 7시에요. 이 물이 몸에 좋아요.",
    "note": "jót tesz = 이롭다",
    "tags": [
     "expr:jót tesz"
@@ -173,9 +168,9 @@
      ""
     ],
     [
-     "gyógyvíz",
-     "gyógyvíz",
-     ""
+     "víz",
+     "víz",
+     "비즈"
     ],
     [
      "jót",
@@ -192,8 +187,8 @@
   {
    "num": 6,
    "speaker": "C",
-   "hu": "Mondtam! A térdemnek is segít.",
-   "rd": "몬드텀! 어 테르뎀넥 이시 세기트.",
+   "hu": "Mondtam neked! A térdemnek is jó.",
+   "rd": "몬드텀 네케드! 어 테르뎀넥 이시 요.",
    "ko": "내가 말했지! 내 무릎에도 좋아.",
    "note": "térd = 무릎",
    "tags": [],
@@ -210,9 +205,9 @@
      ""
     ],
     [
-     "segít",
-     "segít",
-     "셰기트"
+     "jó",
+     "jó",
+     "요"
     ]
    ]
   },
@@ -251,8 +246,8 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Húsz percig, aztán pihenjenek egy kicsit.",
-   "rd": "후쓰 페르칙, 어즈탄 피헨예넥 에지 키치트.",
+   "hu": "Húsz percig, aztán pihenjenek kicsit.",
+   "rd": "후쓰 페르칙, 어즈탄 피헨예넥 키치트.",
    "ko": "20분까지요, 그다음엔 좀 쉬세요.",
    "note": "pihenjenek = 쉬세요(Önök)",
    "tags": [],
@@ -288,9 +283,9 @@
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Köszönjük! És Ön mióta jár ide?",
-   "rd": "쾨쐰윅! 에시 왼 미오터 야르 이데?",
-   "ko": "감사합니다! 그런데 언제부터 다니셨어요?",
+   "hu": "Köszönjük! Ön mióta jár ide?",
+   "rd": "쾨쐰윅! 왼 미오터 야르 이데?",
+   "ko": "감사합니다! 언제부터 다니세요?",
    "note": "mióta = 언제부터",
    "tags": [],
    "emotion": "polite",

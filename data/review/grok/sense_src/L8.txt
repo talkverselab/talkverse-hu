@@ -1,0 +1,15 @@
+=== L8
+title: 어순·초점 — 강조는 동사 바로 앞
+sub: 누가 먹었어?
+target: 헝가리어는 강조하고 싶은 말(새 정보·대답)을 동사 바로 앞에 둬요. 의문사(ki, mit, hol)도 그 자리. / 그 자리에 무엇이 오면 접두사가 동사 뒤로: Megette. → Péter ette meg. / 「A가 아니라 B」= nem A …, hanem B.
+lines: 10
+나 | {Ki|1} ette meg a tortát? | {누가|1} 케이크 먹었어?
+Bence | Nem {én|1} ettem meg! {Péter|1} ette meg. | {내가|1} 먹은 거 아니야! {페테르가|1} 먹었어.
+나 | Péter? Ő {tegnap|1} volt itt, nem ma. | 페테르? 걔는 {어제|1} 왔었지, 오늘이 아니라.
+Bence | Akkor {a kutya|1} ette meg. | 그럼 {개가|1} 먹었나 봐.
+나 | A kutya {nem|2} eszik tortát. | 개는 케이크 {안|2} 먹어.
+Bence | Én csak {egy szeletet|1} ettem. | 나는 {한 조각만|1} 먹었어.
+나 | Egy szeletet? Az egész torta eltűnt! | 한 조각? 케이크가 통째로 사라졌는데!
+Bence | Jó, jó... {kettőt|1} ettem. | 알았어, 알았어... {두 조각|1} 먹었어.
+나 | És a maradékot? | 그럼 나머지는?
+Bence | A maradékot {nem én|1} ettem meg, hanem a bátyám. | 나머지는 {내가|1} 아니라 우리 형이 먹었어.

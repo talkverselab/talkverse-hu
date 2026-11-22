@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Szia! Ma beteg voltam, nem mentem órára. 🤒",
-   "rd": "씨어! 머 베텍 볼텀, 넴 멘템 오라러. 🤒",
-   "ko": "안녕! 오늘 아파서 수업 못 갔어. 🤒",
+   "hu": "Szia! Ma beteg voltam, nem tudtam menni órára. 🤒",
+   "rd": "씨어! 머 베텍 볼텀, 넴 투드텀 멘니 오라러. 🤒",
+   "ko": "안녕! 오늘 아팠어, 수업 못 갔어. 🤒",
    "note": "órára = 수업에",
    "tags": [],
    "at": "17:10",
@@ -57,9 +57,14 @@
      "볼트"
     ],
     [
-     "mentem",
-     "ment",
-     "멘트"
+     "tudtam",
+     "tud",
+     "투드"
+    ],
+    [
+     "menni",
+     "megy",
+     "메지"
     ],
     [
      "órára",
@@ -71,9 +76,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Jaj, szegény! Jobban vagy?",
-   "rd": "여이, 쎄게니! 요번 버지?",
-   "ko": "아이고, 저런! 좀 나아?",
+   "hu": "Jaj, szegény! Jobban vagy már?",
+   "rd": "여이, 쎄게니! 요번 버지 마르?",
+   "ko": "아이고, 저런! 이제 좀 괜찮아?",
    "note": "jobban vagy? = 좀 나아?",
    "tags": [
     "expr:Jaj"
@@ -91,15 +96,20 @@
      "szegény",
      "szegény",
      "쎄게니"
+    ],
+    [
+     "már",
+     "már",
+     "마르"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Már jobban. Mi a házi feladat?",
-   "rd": "마르 요번. 미 어 하지 펠러더트?",
-   "ko": "이제 좀 나아. 숙제가 뭐야?",
+   "hu": "Már jobban, köszi. Mi a házi feladat?",
+   "rd": "마르 요번, 쾨씨. 미 어 하지 펠러더트?",
+   "ko": "이제 좀 나아, 고마워. 숙제가 뭐야?",
    "note": "házi feladat = 숙제",
    "tags": [],
    "at": "17:12",
@@ -117,6 +127,11 @@
      ""
     ],
     [
+     "köszi",
+     "köszi",
+     "쾨씨"
+    ],
+    [
      "házi",
      "házi",
      ""
@@ -131,9 +146,9 @@
   {
    "num": 4,
    "speaker": "B",
-   "hu": "A harmincnegyedik oldal, az összes gyakorlat.",
-   "rd": "어 허르민츠네제딕 올덜, 어즈 외쎄시 져코를러트.",
-   "ko": "34쪽, 연습 문제 전부.",
+   "hu": "A harmincnegyedik oldal, mindent meg kell csinálni.",
+   "rd": "어 허르민츠네제딕 올덜, 민덴트 멕 켈 치날니.",
+   "ko": "34쪽, 다 해야 해.",
    "note": "oldal = 쪽",
    "tags": [],
    "at": "17:15",
@@ -151,18 +166,23 @@
      "올덜"
     ],
     [
-     "gyakorlat",
-     "gyakorlat",
-     ""
+     "kell",
+     "kell",
+     "켈"
+    ],
+    [
+     "csinálni",
+     "csinál",
+     "치날"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Az összes? Az tíz gyakorlat!",
-   "rd": "어즈 외쎄시? 어즈 티즈 져코를러트!",
-   "ko": "전부? 그거 열 문제야!",
+   "hu": "Mindet? Az tíz gyakorlat!",
+   "rd": "민데트? 어즈 티즈 져코를러트!",
+   "ko": "다? 그거 열 문제야!",
    "note": "gyakorlat = 연습 문제",
    "tags": [],
    "at": "17:16",
@@ -181,7 +201,7 @@
    "speaker": "B",
    "hu": "Tudom. Sok sikert! 💪",
    "rd": "투돔. 쇽 시케르트! 💪",
-   "ko": "알아. 화이팅! 💪",
+   "ko": "알아. 잘해봐! 💪",
    "note": "sok sikert = 잘해 봐",
    "tags": [],
    "at": "17:16",
@@ -203,9 +223,9 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Kész! Három órán át írtam. 😵",
-   "rd": "케쓰! 하롬 오란 아트 이르텀. 😵",
-   "ko": "끝! 세 시간 동안 썼어. 😵",
+   "hu": "Kész! Három órán át csináltam. 😵",
+   "rd": "케쓰! 하롬 오란 아트 치날텀. 😵",
+   "ko": "끝! 세 시간 동안 했어. 😵",
    "note": "három órán át = 세 시간 동안",
    "tags": [],
    "at": "21:40",
@@ -228,8 +248,8 @@
      "아트"
     ],
     [
-     "írtam",
-     "írt",
+     "csináltam",
+     "csinált",
      ""
     ]
    ]

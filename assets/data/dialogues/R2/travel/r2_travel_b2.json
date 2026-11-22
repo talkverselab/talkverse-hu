@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Nézd, ezek a hímzett terítők szépek!",
-   "rd": "네즈드, 에젝 어 힘제트 테리퇵 쎄펙!",
-   "ko": "봐, 이 자수 식탁보들 예쁘다!",
+   "hu": "Nézd, ezek a hímzett terítők nagyon szépek!",
+   "rd": "네즈드, 에젝 어 힘제트 테리퇵 너죤 쎄펙!",
+   "ko": "봐, 이 자수 식탁보들 진짜 예쁘다!",
    "note": "hímzett = 수놓은",
    "tags": [
     "expr:Nézd"
@@ -58,6 +58,11 @@
      ""
     ],
     [
+     "nagyon",
+     "nagyon",
+     "너존"
+    ],
+    [
      "szépek",
      "szép",
      "쎕"
@@ -67,10 +72,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Tényleg. Anyukámnak jó lenne.",
-   "rd": "테닐렉. 어뉴캄넉 요 렌네.",
-   "ko": "진짜. 엄마한테 좋겠다.",
-   "note": "jó lenne = 좋을 것 같다",
+   "hu": "Tényleg szép. Anyukámnak tetszene.",
+   "rd": "테닐렉 쎄프. 어뉴캄넉 테트쎄네.",
+   "ko": "진짜 예쁘다. 엄마가 좋아할 거야.",
+   "note": "tetszene = 좋아할 것 같다",
    "tags": [],
    "emotion": "cheerful",
    "lemmas": [
@@ -80,14 +85,14 @@
      "테니렉"
     ],
     [
-     "jó",
-     "jó",
-     "요"
+     "szép",
+     "szép",
+     "쎕"
     ],
     [
-     "lenne",
-     "lesz",
-     "레쓰"
+     "tetszene",
+     "tetszik",
+     "테트씨크"
     ]
    ]
   },
@@ -251,9 +256,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Jaj, ezt a kettőt mindenki összekeveri.",
-   "rd": "여이, 에즈트 어 케뙤트 민덴키 외쎄케베리.",
-   "ko": "아이고, 그 둘은 다들 헷갈려.",
+   "hu": "Jaj, ezt mindig összekeverik.",
+   "rd": "여이, 에즈트 민딕 외쎄케베릭.",
+   "ko": "아이고, 그거 다들 헷갈려.",
    "note": "összekever = 헷갈리다",
    "tags": [],
    "emotion": "amused",
@@ -264,7 +269,12 @@
      "야이"
     ],
     [
-     "összekeveri",
+     "mindig",
+     "mindig",
+     "민딕"
+    ],
+    [
+     "összekeverik",
      "összekever",
      ""
     ]
@@ -349,9 +359,9 @@
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Réka, kell neked terítő?",
-   "rd": "레커, 켈 네케드 테리퇴?",
-   "ko": "레카, 너 식탁보 필요해?",
+   "hu": "Réka, kell neked is egy?",
+   "rd": "레커, 켈 네케드 이시 에지?",
+   "ko": "레카, 너도 하나 필요해?",
    "note": "neked = 너에게",
    "tags": [],
    "emotion": "teasing",
@@ -365,11 +375,6 @@
      "kell",
      "kell",
      "켈"
-    ],
-    [
-     "terítő",
-     "terít",
-     ""
     ]
    ]
   }

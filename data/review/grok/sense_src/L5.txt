@@ -1,0 +1,15 @@
+=== L5
+title: 소유 — 내·네·그의를 끝에
+sub: családom = 내 가족
+target: 헝가리어는 「내·네·그의」를 명사 끝에 붙여요 — családom 내 가족, testvéred 네 형제, kutyája 그의 개. / 「~가 있다」= Van + 소유 어미 (Van kutyám = 나는 개가 있어), 없으면 Nincs. / 소유 어미 뒤에 다른 어미가 또 붙어요: macskád + at → macskádat, telefonom + on → telefonomon.
+lines: 10
+나 | Ez a család{om|1}. | 이건 {우리|1} 가족이야.
+Anna | Ki ez? A testvér{ed|2}? | 이 사람 누구야? {네|2} 형제야?
+나 | Igen, a bátyá{m|1}. Ő Péter. | 응, {우리|1} 형. 페테르야.
+Anna | És ez az ő kutyá{ja|3}? | 그럼 이건 {그 사람|3} 강아지야?
+나 | Nem, ez a mi kutyá{nk|4}, Bodri. | 아니, {우리 집|4} 개야. 보드리.
+Anna | Nekem nincs kutyá{m|1}, csak egy macská{m|1}. | {난|1} 개는 없고 고양이만 한 마리 있어.
+나 | Hogy hívják a macská{d|2}at? | {네|2} 고양이 이름이 뭐야?
+Anna | Cirmi. A szüle{im|5} adták nekem. | 치르미. {우리|5} 부모님이 주셨어.
+나 | Van fénykép{ed|2} róla? | {너|2} 걔 사진 있어?
+Anna | Persze, a telefon{om|1}on van vagy száz. | 당연하지, {내|1} 폰에 백 장쯤 있어.

@@ -1,0 +1,15 @@
+=== L3
+title: 목적어 -t 와 관사 a·az
+sub: 을/를 = -t
+target: 목적어 끝에 -t. 한국어는 「을/를」을 자주 빼거나 「가·도」로 바꾸지만 헝가리어는 꼭 -t 를 붙여요 (우유가 안 보여요 = Nem látom a tejet). / -t 앞에 모음이 끼거나 줄기가 바뀌어요: kenyér→kenyeret, szatyor→szatyrot. a·e 로 끝나면 길어져요: alma→almát. / 관사는 자음 앞 a, 모음 앞 az (a tej / az alma).
+lines: 10
+점원 | Jó napot! Mit kér? | 안녕하세요! 뭐 드릴까요?
+나 | Egy kenyer{et|1} és két kifli{t|1} kérek. | 빵{을|1} 하나, 키플리{를|1} 두 개 주세요.
+점원 | Kér almá{t|1} is? Ma nagyon édes. | 사과{도|1} 드릴까요? 오늘 아주 달아요.
+나 | Igen, egy kiló{t|1}... vagyis fél kilót. | 네, 1킬로{를|1}... 아니 반 킬로요.
+점원 | Tessék. Mást? | 여기요. 다른 건요?
+나 | Van tej? Nem látom a tej{et|1}. | 우유 있어요? 우유{가|1} 안 보여요.
+점원 | Ott van, a hűtő mellett. | 저기 냉장고 옆에 있어요.
+나 | Megvan. Elfogadnak kártyá{t|1}? | 찾았어요. 카드{도|1} 받으세요?
+점원 | Persze. Kér szatyr{ot|1}? | 그럼요. 봉투{를|1} 드릴까요?
+나 | Nem kell, hoztam táská{t|1}. Köszönöm! | 괜찮아요, 가방{을|1} 가져왔어요. 감사합니다!

@@ -1,0 +1,15 @@
+=== L10
+title: 존댓말 Ön · 부탁과 명령 -j
+sub: 손님에게 말하기
+target: 모르는 어른·손님에게는 Ön(당신)을 쓰고 동사는 3인칭(그·그녀) 꼴 — kér, írja, pihenjen. 친구에겐 te — kérsz, írd, pihenj. / 부탁을 부드럽게 할 땐 -ná·-né (Kitöltené? = 작성해 주시겠어요?). / 명령·「~할까요」는 -j 꼴 (írjam, pihenjen, kövessen).
+lines: 10
+직원 | Jó napot kívánok! Miben segíthetek? | 안녕하세요! 무엇을 도와드릴까요?
+나 | Jó napot! Szobát foglaltam Kim néven. | 안녕하세요! 김 이름으로 방을 예약했어요.
+직원 | Igen, megvan. Kitölte{né|1} ezt a lapot? | 네, 확인됐습니다. 이 종이 좀 작성해 {주시겠어요|1}?
+나 | Persze. Hol ír{jam|2} alá? | 물론이죠. 어디에 서명{할까요|2}?
+직원 | Itt ír{ja|2} alá, kérem. | 여기에 서명해 {주세요|2}.
+직원 | {Ön|3} is kér reggelit? | {손님|3}도 조식 드시겠어요?
+나 | Igen, kérek. Hánykor van a reggeli? | 네, 주세요. 조식은 몇 시예요?
+직원 | Héttől tízig. Pihen{jen|2} jól! | 7시부터 10시까지요. 푹 {쉬세요|2}!
+나 | Köszönöm. Fel tud{ná|1} vinni a bőröndömet? | 감사합니다. 제 캐리어 좀 올려다 {주실 수 있어요|1}?
+직원 | Természetesen. Köves{sen|2}, kérem! | 물론이죠. {따라오세요|2}!

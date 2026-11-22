@@ -1,0 +1,15 @@
+=== L2
+title: 겉면·사람 곁 — -on · -ra · -ról · -nál · -hoz · -tól
+sub: 위에 · 위로 · 위에서 · 사람 곁
+target: 헝가리어의 「에」는 세 묶음 — 안(-ban), 위·겉(-on), 사람·가게 곁(-nál). 셋 다 「있다 / 가다 / 오다」로 또 갈려요. / -on 은 앞 소리에 맞춰 -n·-on·-en·-ön (asztalon, emeleten). 헝가리 도시도 대개 -on 쪽 (Budapesten). / 우체국·시장처럼 늘 -ra 를 쓰는 곳이 있어요 (postára, piacra) — 외워 두면 돼요. / 사람한테 갈 때 -hoz·-hez·-höz (세 가지), 사람한테서 -tól·-től.
+lines: 10
+나 | A kulcs az asztal{on|1} van? | 열쇠 책상 위{에|1} 있어?
+Bence | Nem, a polc{on|1}. Tedd az asztal{ra|2}, jó? | 아니, 선반 위{에|1}. 책상{에|2} 올려 둘래?
+나 | Leveszem a polc{ról|3}... megvan! | 선반{에서|3} 내릴게... 찾았다!
+Bence | Ma este Anná{nál|4} vacsorázunk. | 오늘 저녁은 Anna {네서|4} 먹어.
+나 | Anná{hoz|5}? Mikor indulunk? | Anna {네로|5}? 언제 출발해?
+Bence | Hétkor. Előtte elmegyek az orvos{hoz|5}. | 7시에. 그 전에 의사{한테|5} 다녀올게.
+나 | Én addig a postá{ra|2} megyek. | 나는 그동안 우체국{에|2} 갈게.
+Bence | Az orvos{tól|6} egyenesen Anná{hoz|5} megyek. | 의사{한테서|6} 곧장 Anna {네로|5} 갈게.
+나 | Rendben. Hallottál már Anna új lakásá{ról|3}? | 좋아. Anna 새 집{에 대해|3} 들었어?
+Bence | Igen, a tizedik emelet{en|1} van, csodás a kilátás. | 응, 10층{에|1} 있대. 전망이 끝내준대.

@@ -3,7 +3,10 @@
 
 급마다 외울 대화 1회(kind memorize, 10줄) + 참고 1회(kind ref). 문장은 자체 제작.
 `{글자|번호}` = 어미·관사 자리 — 같은 번호는 헝가리어·한국어에서 같은 색. 한글 독음 rd 는 tools/rd_hu.py 로 만든다.
-  python3 tools/sense_course_hu.py      # JSON 다시 만들기 → 바뀌었으면 tools/script_publish.py --publish
+  python3 tools/sense_course_hu.py           # JSON 다시 만들기 → 바뀌었으면 tools/script_publish.py --publish
+  python3 tools/sense_course_hu.py --export  # Grok 초안 data/review/grok/sense_src/<급>.txt 쓰기(tools/grok_sense_run.sh 가 보냄)
+외울 대화 10줄은 Grok 대사(2026-11-22 사용자 지시 「그록을 무조건 거치도록」): data/review/grok/sense_out/<급>.md 가 있고
+줄 수·표시 번호가 맞으면 아래 Claude 초안 대신 그 줄을 그대로 쓴다(독음만 다시 만든다). 참고(ref) 칸은 초안 그대로.
 """
 import json
 import re
@@ -267,9 +270,52 @@ LEVELS = [
 ]
 
 
-def main():
-    levels = []
+GSRC = ROOT / 'data/review/grok/sense_src'
+GOUT = ROOT / 'data/review/grok/sense_out'
+GLINE = re.compile(r'^\s*([^|]+?)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*$')
+
+
+def export():
+    GSRC.mkdir(parents=True, exist_ok=True)
     for lid, title, sub, lines, foot, points in LEVELS:
+        body = [f'=== {lid}', f'title: {title}', f'sub: {sub}', 'target: ' + ' / '.join(foot), f'lines: {len(lines)}']
+        body += [f"{x['who']} | {x['hu']} | {x['ko']}" for x in lines]
+        (GSRC / f'{lid}.txt').write_text('\n'.join(body) + '\n', encoding='utf-8')
+    print(f'{GSRC.relative_to(ROOT)} — {len(LEVELS)}급')
+
+
+def grok_lines(lid, n):
+    """Grok 답 → S 줄 목록(없거나 어긋나면 None, 이유 출력)"""
+    p = GOUT / f'{lid}.md'
+    if not p.exists():
+        return None
+    t = p.read_text(encoding='utf-8')
+    m = re.search(r'```[a-z]*\n(.*?)```', t, re.S)
+    rows = [GLINE.match(l) for l in (m.group(1) if m else t).split('\n')]
+    rows = [r for r in rows if r and not r.group(1).startswith(('===', 'title', 'sub', 'target', 'lines'))]
+    out = []
+    for r in rows:
+        who, hu, ko = r.groups()
+        if {x.group(2) for x in MARK.finditer(hu)} != {x.group(2) for x in MARK.finditer(ko)}:
+            print(f'  ✗ {lid}: Grok 줄 표시 번호 어긋남 — {hu}')
+            return None
+        out.append(S(who, hu, ko))
+    if len(out) != n:
+        print(f'  ✗ {lid}: Grok 줄 수 {len(out)} ≠ {n} — 초안 사용')
+        return None
+    return out
+
+
+def main():
+    if '--export' in sys.argv:
+        return export()
+    levels = []
+    used = 0
+    for lid, title, sub, lines, foot, points in LEVELS:
+        g = grok_lines(lid, len(lines))
+        if g:
+            lines = g
+            used += 1
         for s in lines:  # 양쪽 표시 번호가 맞는지
             a = {m.group(2) for m in MARK.finditer(s['hu'])}
             b = {m.group(2) for m in MARK.finditer(s['ko'])}
@@ -281,6 +327,7 @@ def main():
         ]})
     data = {'title': '언어감각 익히기', 'subtitle': 'L1 장소 어미부터 L10 존댓말까지 · 대화 통째로 외우기', 'levels': levels}
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    print(f'Grok 대사 {used}/{len(LEVELS)}급')
     print(f'{OUT.relative_to(ROOT)} — 급 {len(levels)} · 외울 문장 {sum(len(l[3]) for l in LEVELS)} · 참고 문장 {sum(len(p["sentences"]) for l in LEVELS for p in l[5])}')
 
 

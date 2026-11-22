@@ -10,9 +10,9 @@
  "domain": [
   "love"
  ],
- "title": "우산 하나",
+ "title": "내일도 비 오면",
  "emoji": "☔",
- "scene": "영화 끝나고 나왔더니 비가 쏟아진다. 우산은 A 에게만 있다",
+ "scene": "영화 끝나고 나왔더니 비 쏟아진다. 우산은 A만 있는 줄 알았다",
  "speakers": {
   "A": "{name}",
   "B": "Anna"
@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "hu": "Hű, de esik! Szerencsére van esernyőm.",
-   "rd": "휘, 데 에식! 쎄렌체레 번 에세르뇜.",
-   "ko": "와, 비 엄청 온다! 다행히 우산 있어.",
+   "hu": "Hű, ez meg mi? De esik! Szerencsére nálam van esernyő.",
+   "rd": "휘, 에즈 멕 미? 데 에식! 쎄렌체레 날럼 번 에세르뇌.",
+   "ko": "와, 이게 뭐야? 비 엄청 온다! 다행히 나 우산 있어.",
    "note": "esernyő = 우산",
    "tags": [],
    "emotion": "surprised",
@@ -56,8 +56,8 @@
      "번"
     ],
     [
-     "esernyőm",
-     "esernyőm",
+     "esernyő",
+     "esernyő",
      ""
     ]
    ]
@@ -65,18 +65,13 @@
   {
    "num": 2,
    "speaker": "B",
-   "hu": "Nekem nincs. Reggel még sütött a nap.",
-   "rd": "네켐 닌치. 렉겔 멕 쉬퇴트 어 너프.",
-   "ko": "난 없어. 아침엔 해가 났었는데.",
+   "hu": "Nekem meg semmi. Reggel még sütött a nap, komolyan.",
+   "rd": "네켐 멕 셈미. 렉겔 멕 쉬퇴트 어 너프, 코모연.",
+   "ko": "난 없어. 아침엔 해 났었는데, 진짜.",
    "note": "sütött a nap = 해가 났다",
    "tags": [],
    "emotion": "sad",
    "lemmas": [
-    [
-     "nincs",
-     "nincs",
-     "닌치"
-    ],
     [
      "még",
      "még",
@@ -91,14 +86,19 @@
      "nap",
      "nap",
      "넙"
+    ],
+    [
+     "komolyan",
+     "komoly",
+     "코모이"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "hu": "Semmi baj, gyere alá. Hazakísérlek.",
-   "rd": "셈미 버이, 제레 얼라. 허저키세를렉.",
+   "hu": "Semmi baj, gyere ide alá. Hazakísérlek.",
+   "rd": "셈미 버이, 제레 이데 얼라. 허저키세를렉.",
    "ko": "괜찮아, 이 밑으로 와. 집까지 바래다줄게.",
    "note": "hazakísérlek = 너를 집에 바래다줄게",
    "tags": [
@@ -115,15 +115,20 @@
      "gyere",
      "jön",
      "왼"
+    ],
+    [
+     "ide",
+     "ide",
+     "이데"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "hu": "Tényleg? De te a másik irányba laksz.",
-   "rd": "테닐렉? 데 테 어 마식 이라니버 럭쓰.",
-   "ko": "진짜? 근데 너 반대 방향에 살잖아.",
+   "hu": "Tényleg? De te teljesen másik irányba laksz.",
+   "rd": "테닐렉? 데 테 텔예센 마식 이라니버 럭쓰.",
+   "ko": "진짜? 근데 너 완전 반대 방향에 살잖아.",
    "note": "irány = 방향",
    "tags": [
     "expr:Tényleg?"
@@ -134,6 +139,11 @@
      "Tényleg",
      "tényleg",
      "테니렉"
+    ],
+    [
+     "teljesen",
+     "teljes",
+     "텔예슈"
     ],
     [
      "irányba",
@@ -150,9 +160,9 @@
   {
    "num": 5,
    "speaker": "A",
-   "hu": "Nem baj, nem sietek.",
-   "rd": "넴 버이, 넴 시에텍.",
-   "ko": "괜찮아, 안 바빠.",
+   "hu": "Nem baj, ráérek. Nem sietek.",
+   "rd": "넴 버이, 라에렉. 넴 시에텍.",
+   "ko": "괜찮아, 시간 있어. 안 바빠.",
    "note": "nem sietek = 안 서두른다",
    "tags": [],
    "emotion": "gentle",
@@ -161,6 +171,11 @@
      "baj",
      "baj",
      "버이"
+    ],
+    [
+     "ráérek",
+     "ráér",
+     "라에르"
     ],
     [
      "sietek",
@@ -172,15 +187,20 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Közelebb jössz egy kicsit? Elázik a vállam.",
-   "rd": "쾨젤레브 요쓰 에지 키치트? 엘라직 어 발럼.",
-   "ko": "조금만 더 가까이 올래? 어깨 젖어.",
+   "hu": "Figyelj, közelebb jössz egy kicsit? Elázik a vállam.",
+   "rd": "피젤이, 쾨젤레브 요쓰 에지 키치트? 엘라직 어 발럼.",
+   "ko": "야, 조금만 더 가까이 올래? 어깨 젖어.",
    "note": "elázik = 젖는다",
    "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
-     "Közelebb",
+     "Figyelj",
+     "figyel",
+     "피겔"
+    ],
+    [
+     "közelebb",
      "közel",
      "쾨젤"
     ],
@@ -204,9 +224,9 @@
   {
    "num": 7,
    "speaker": "A",
-   "hu": "Bocsi. Így jó?",
-   "rd": "보치. 이지 요?",
-   "ko": "미안. 이러면 돼?",
+   "hu": "Bocsi, bocsi. Így jobb?",
+   "rd": "보치, 보치. 이지 요브?",
+   "ko": "미안, 미안. 이러면 나아?",
    "note": "így = 이렇게",
    "tags": [],
    "emotion": "flustered",
@@ -217,7 +237,7 @@
      "보치"
     ],
     [
-     "jó",
+     "jobb",
      "jó",
      "요"
     ]
@@ -226,9 +246,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "hu": "Így pont jó.",
-   "rd": "이지 폰트 요.",
-   "ko": "이러면 딱 좋아.",
+   "hu": "Így pont jó, igen.",
+   "rd": "이지 폰트 요, 이겐.",
+   "ko": "이러면 딱 좋아, 응.",
    "note": "pont = 딱",
    "tags": [],
    "emotion": "shy",
@@ -247,15 +267,20 @@
      "jó",
      "jó",
      "요"
+    ],
+    [
+     "igen",
+     "igen",
+     "이겐"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "hu": "Várj, mi lóg ki a táskádból?",
-   "rd": "바르이, 미 록 키 어 타슈카드볼?",
-   "ko": "잠깐, 네 가방에서 뭐가 삐져나와 있어?",
+   "hu": "Várj csak, mi az, ami kilóg a táskádból?",
+   "rd": "바르이 척, 미 어즈, 어미 킬록 어 타슈카드볼?",
+   "ko": "잠깐만, 네 가방에서 뭐가 삐져나와 있어?",
    "note": "kilóg = 삐져나오다",
    "tags": [],
    "emotion": "surprised",
@@ -266,14 +291,14 @@
      "바르"
     ],
     [
-     "lóg",
-     "lóg",
-     "로그"
+     "csak",
+     "csak",
+     "촉"
     ],
     [
-     "ki",
-     "ki",
-     "키"
+     "kilóg",
+     "kilóg",
+     ""
     ],
     [
      "táskádból",
@@ -285,13 +310,18 @@
   {
    "num": 10,
    "speaker": "B",
-   "hu": "Semmi! Az egy régi, rossz esernyő.",
-   "rd": "셈미! 어즈 에지 레기, 로쓰 에세르뇌.",
-   "ko": "아무것도! 그거 오래된 고장 난 우산이야.",
+   "hu": "Semmi, semmi! Az csak egy régi, rossz esernyő.",
+   "rd": "셈미, 셈미! 어즈 척 에지 레기, 로쓰 에세르뇌.",
+   "ko": "아무것도, 아무것도! 그거 그냥 오래된 고장 난 우산이야.",
    "note": "rossz = 고장 난",
    "tags": [],
    "emotion": "flustered",
    "lemmas": [
+    [
+     "csak",
+     "csak",
+     "촉"
+    ],
     [
      "régi",
      "régi",
@@ -312,8 +342,8 @@
   {
    "num": 11,
    "speaker": "A",
-   "hu": "Tényleg? Nekem elég újnak tűnik.",
-   "rd": "테닐렉? 네켐 엘렉 우이넉 튀닉.",
+   "hu": "Tényleg? Nekem elég újnak tűnik az.",
+   "rd": "테닐렉? 네켐 엘렉 우이넉 튀닉 어즈.",
    "ko": "진짜? 꽤 새것 같은데.",
    "note": "újnak tűnik = 새것처럼 보인다",
    "tags": [

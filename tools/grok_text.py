@@ -65,8 +65,8 @@ def main():
             time.sleep(4 + 2 * len(remote))
         model = c.ev("[...document.querySelectorAll('button')].map(b=>b.getAttribute('aria-label')||'').find(x=>/^모델/.test(x))||''")
         print(model)
-        if text is not None and '전문가' not in model:  # 사용자 지시: 전문가 모드로만(2026-11-09)
-            raise SystemExit('Grok 모델이 전문가가 아님: ' + model)
+        if text is not None and '빠른' not in model:  # 「빠른」 모드로만(사용자 지시 2026-11-18, uk 전달 — 11-09 의 전문가 규칙을 바꿈)
+            raise SystemExit('Grok 모델이 빠른이 아님: ' + model)
         if text is None:
             r = c.ev(REPLY) or ''
             open(out, 'w', encoding='utf-8').write(r + '\n'); print('저장', out, len(r), '자'); return

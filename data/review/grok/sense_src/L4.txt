@@ -1,0 +1,15 @@
+=== L4
+title: 정·부정 활용 — látok / látom
+sub: 「그것」을 알면 다른 어미
+target: 목적어가 「정해진 것」(a·az 이 붙은 것, 그것·이름)이면 정활용 -om·-od·-ja, 아니면(뭔가·하나·없음) 부정활용 -ok·-sz. / 한국어에는 없는 구분이라 처음엔 낯설어요. 빨강(아무거나)과 파랑(그것)을 견줘 보세요.
+lines: 10
+Anna | Mit néz{el|1}? | 뭐{를|1} 봐?
+나 | Egy régi filmet néz{ek|1}. | 옛날 영화{를|1} 하나 봐.
+Anna | Melyiket? Ismer{em|2}? | 어떤 거? 나도 {그거|2} 알아?
+나 | Biztos ismer{ed|2}, apa kedvence. | 분명 {그거|2} 알 거야, 아빠가 제일 좋아하는 거.
+Anna | Ja, azt! Én is szeret{em|2}. | 아, {그거|2}! 나도 좋아해.
+나 | Kérsz popcornt? Most csinál{ok|1} egy kicsit. | 팝콘 먹을래? 지금 {조금|1} 만들게.
+Anna | Kér{ek|1}! És hoz{ok|1} két kólát. | {먹을래|1}! 콜라도 {두 개|1} 가져올게.
+나 | A kólát a hűtőben talál{od|2}. | {그 콜라|2}는 냉장고에 있어.
+Anna | Megvan. Elindít{od|2} a filmet? | 찾았어. {영화|2} 틀어 줄래?
+나 | Elindít{om|2}. Csend legyen! | {틀게|2}. 이제 조용!
