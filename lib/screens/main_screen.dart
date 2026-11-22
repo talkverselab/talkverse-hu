@@ -10,7 +10,6 @@ import 'alphabet_screen.dart';
 import 'sense_course_screen.dart';
 import 'word_quiz_screen.dart';
 import 'chunk_search_screen.dart';
-import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
@@ -37,7 +36,7 @@ class _MainScreenState extends State<MainScreen> {
 
   static const List<Widget> _screens = [
     HomeScreen(),
-    ConversationScreen(),
+    DialogueHomeScreen(), // 회화 150편(R1~R3) — 옛 L1~L3 목록(ConversationScreen)은 5편·빈 급 「준비 중」이라 바꿈(2026-11-22 통합 앱 심사)
     ProgressScreen(),
     ProfileScreen(),
   ];
@@ -435,8 +434,6 @@ class _MenuGrid extends StatelessWidget {
       (tr('참고'), [
         _MenuItem(label: tr('청크 검색'), sub: 'Keresés', badge: '🔍', color: AppColors.gualdaDeep,
           builder: (_) => const ChunkSearchScreen()),
-        _MenuItem(label: tr('성·수'), sub: 'Nem', badge: 'a/az', color: AppColors.mar,
-          builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
       ]),
     ];
 
@@ -524,25 +521,6 @@ class _MenuTile extends StatelessWidget {
               ),
             ],
           ),
-        ),
-      ),
-    );
-  }
-}
-
-class _ComingSoon extends StatelessWidget {
-  final String title;
-  const _ComingSoon({required this.title});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text(title)),
-      body: Center(
-        child: Text(
-          tr('Hamarosan · 준비 중'),
-          style: TextStyle(color: AppColors.tintaLight, letterSpacing: 2),
         ),
       ),
     );
