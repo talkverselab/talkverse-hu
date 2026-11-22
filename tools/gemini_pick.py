@@ -15,9 +15,10 @@ r = 'NOBUTTON'
 try:
     c = g.CDP({'webSocketDebuggerUrl': f'ws://127.0.0.1:{P}/devtools/page/{tid}'})
     time.sleep(8)
-    if c.ev("(()=>{const b=[...document.querySelectorAll('button')].find(b=>/Flash|Pro|Argon|Lite/.test(b.innerText));if(b){b.click();return 1}return 0})()"):
+    # 2026-11-23 Gemini 화면이 바뀜: 단추 = 「모드 선택 도구 열기, 현재 … 모드」, 메뉴 = 자동 모드 · 일상생활 지원(Hydrogen) · 심층 분석(Neon) · 코드 및 복잡한 작업(카본) → 검수는 「심층 분석」
+    if c.ev("(()=>{const b=[...document.querySelectorAll('button')].find(b=>/Flash|Pro|Argon|Lite/.test(b.innerText)||(b.getAttribute('aria-label')||'').includes('모드 선택'));if(b){b.click();return 1}return 0})()"):
         time.sleep(2)
-        for name in ('Argon', 'Pro'):
+        for name in ('심층 분석', 'Neon', 'Argon', 'Pro'):
             st = c.ev("(()=>{const e=[...document.querySelectorAll('[role=menuitem],[role=menuitemradio],.mat-mdc-menu-item')].find(e=>e.innerText.includes('%s'));if(!e)return 'none';const t=e.innerText.replace(/\\s+/g,' ');if(/한도/.test(t))return 'LIMIT '+t;e.click();return 'PICKED '+t})()" % name)
             r = st
             if st.startswith('PICKED'): break

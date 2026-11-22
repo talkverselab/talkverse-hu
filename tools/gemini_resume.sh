@@ -17,7 +17,7 @@ if ssh macmini4 'curl -s -m 3 127.0.0.1:9226/json/version >/dev/null'; then
   echo "$(date +%H:%M) 9226 이 이미 켜져 있음(다른 세션 사용 중) — 건너뜀"; rm -f /tmp/hu_gemini_resume.pid; exit 0
 fi
 ssh macmini4 'nohup "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --remote-debugging-port=9226 --remote-debugging-address=127.0.0.1 --user-data-dir=/Users/talkverse/chrome-grok-vi --no-first-run https://gemini.google.com/app >/dev/null 2>&1 &'
-started=1; sleep 10
+started=1; sleep 25  # Gemini 화면이 다 뜰 때까지(10초는 NOBUTTON, 11-22 23:54)
 curl -s -m 3 127.0.0.1:9226/json/version >/dev/null || ssh -fN -L 9226:127.0.0.1:9226 macmini4
 # 뒤 순서(pl·hu)는 한 회차 20편까지(uk). 한도·모델 안내가 뜨면 보내지 않고 물러남.
 MAX=${HU_GEMINI_MAX:-20}
