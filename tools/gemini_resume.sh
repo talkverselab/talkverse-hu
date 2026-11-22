@@ -12,15 +12,15 @@ left() { local n=0; while IFS=$'\t' read -r p d; do [[ -s $d ]] || ((n++)); done
 # 부하·스왑 확인(크롬 규칙 — 부하 20 이상 또는 스왑 4GB 이상이면 켜지 않음)
 read l s <<< $(ssh macmini4 'sysctl -n vm.loadavg | awk "{print int(\$2)}"; sysctl vm.swapusage | sed -E "s/.*used = ([0-9.]+)M.*/\1/"' | tr '\n' ' ')
 if (( l >= 20 || ${s%.*} >= 4096 )); then echo "$(date +%H:%M) M4 부하 $l · 스왑 ${s}M — 다음에"; rm -f /tmp/hu_gemini_resume.pid; exit 0; fi
-# 9226 은 여섯 세션 공용(uk 11-22 23:1x 순서: kk → hi → fa → my → pl → hu, 한 번에 한 세션). 이미 켜져 있으면 남이 쓰는 중 → 이번 회차는 건너뜀(30분 뒤 예약이 다시).
-if ssh macmini4 'curl -s -m 3 127.0.0.1:9226/json/version >/dev/null'; then
-  echo "$(date +%H:%M) 9226 이 이미 켜져 있음(다른 세션 사용 중) — 건너뜀"; rm -f /tmp/hu_gemini_resume.pid; exit 0
+# 9226 은 uk 가 켜 두고 순서대로 넘긴다(11-23 02:5x: kk → hi → fa → my → mn → vi → pl → hu). hu 는 uk 의 「hu Gemini 차례」를 받은 뒤에만 이 스크립트를 돌린다.
+# 크롬을 켜고 끄지 않는다(로그인을 지키려고 — 탭만 닫음). 쿠키 복사 금지. 9226 이 꺼져 있으면 uk 에 알리고 멈춤.
+started=0
+if ! ssh macmini4 'curl -s -m 3 127.0.0.1:9226/json/version >/dev/null'; then
+  echo "$(date +%H:%M) 9226 꺼짐 — uk 에 알릴 것(hu 는 켜지 않음)"; rm -f /tmp/hu_gemini_resume.pid; exit 4
 fi
-ssh macmini4 'nohup "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --remote-debugging-port=9226 --remote-debugging-address=127.0.0.1 --user-data-dir=/Users/talkverse/chrome-grok-vi --no-first-run https://gemini.google.com/app >/dev/null 2>&1 &'
-started=1; sleep 25  # Gemini 화면이 다 뜰 때까지(10초는 NOBUTTON, 11-22 23:54)
 curl -s -m 3 127.0.0.1:9226/json/version >/dev/null || ssh -fN -L 9226:127.0.0.1:9226 macmini4
 # 뒤 순서(pl·hu)는 한 회차 20편까지(uk). 한도·모델 안내가 뜨면 보내지 않고 물러남.
-MAX=${HU_GEMINI_MAX:-20}
+MAX=${HU_GEMINI_MAX:-150}  # 차례가 오면 끝까지(이전 「회차 20편」은 순서 이전 규칙)
 todo=$(mktemp); while IFS=$'\t' read -r p d; do [[ -s $d ]] || print -r -- "$p	$d"; done < data/review/gemini_todo.tsv | head -$MAX > $todo
 # 로그아웃이면 물러남(11-23: 로그아웃이어도 gemini_pick 은 PICKED 를 낸다 — 「로그인」 단추 수로 확인)
 lo=$(/usr/bin/python3 -c "
