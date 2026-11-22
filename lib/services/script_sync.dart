@@ -55,6 +55,9 @@ class ScriptSync {
   /// 서버 판에서 빠진 앱 안 파일(회화 편을 숨길 때).
   Set<String> get removed => _removed;
 
+  /// 앱에 묶은 원고 파일 목록(`script_rev.json` 기준) — 문법 스텝처럼 목록을 데이터로 그릴 때.
+  Iterable<String> get baseFiles => _base.keys;
+
   /// 앱 안에 없는 새 파일(새 회화 편).
   Iterable<String> get added => _over.keys.where((p) => !_base.containsKey(p));
 

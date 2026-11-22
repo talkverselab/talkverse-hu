@@ -23,7 +23,25 @@ class SenseCourse {
   static Map<String, dynamic>? _cache;
   static Future<Map<String, dynamic>> load() async =>
       // loadString 은 큰 파일을 다른 isolate 에서 풀어 위젯 테스트가 멈춘다 — 바이트로 읽어 여기서 푼다.
-      _cache ??= json.decode(await ScriptSync.instance.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>;
+      _cache ??= prune(json.decode(await ScriptSync.instance.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>);
+
+  /// 빈 스텝은 숨긴다(사용자 지시 2026-11-23 — 스텝 10 까지 틀은 두고 내용은 서버 원고로 채움, 「준비 중」으로 보이지 않게).
+  /// 회차 = 외울 대화(lines)·설명(points)·영상(video)·다른 메뉴 버튼(open) 중 하나라도 있으면 내용 있음. 회차가 다 빈 급은 급째 숨긴다.
+  static bool hasContent(Map<String, dynamic> l) =>
+      l['open'] != null ||
+      ((l['lines'] as List?)?.isNotEmpty ?? false) ||
+      ((l['points'] as List?)?.isNotEmpty ?? false) ||
+      ((l['sentences'] as List?)?.isNotEmpty ?? false) ||
+      '${l['video'] ?? ''}'.isNotEmpty;
+
+  static Map<String, dynamic> prune(Map<String, dynamic> d) {
+    final levels = <Map<String, dynamic>>[];
+    for (final lv in ((d['levels'] as List?) ?? const []).cast<Map<String, dynamic>>()) {
+      final ls = ((lv['lessons'] as List?) ?? const []).cast<Map<String, dynamic>>().where(hasContent).toList();
+      if (ls.isNotEmpty) levels.add({...lv, 'lessons': ls});
+    }
+    return {...d, 'levels': levels};
+  }
 
   static Future<Set<String>> done() async => ((await Prefs.getInstance()).getStringList(_kDoneKey) ?? const []).toSet();
 

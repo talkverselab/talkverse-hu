@@ -1,8 +1,6 @@
 import 'dart:convert';
-import '../core/embed_env.dart';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 import '../core/theme.dart';
 import '../services/ko_reading.dart';
@@ -11,6 +9,7 @@ import '../widgets/spanish_decor.dart';
 import 'grammar_test_screen.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
+import '../services/script_sync.dart';
 
 /// 문법 강의 자산 — `assets/data/grammar/lessonN.json`
 /// `{lesson, title, subtitle, stages:[{stage,title}],
@@ -26,21 +25,32 @@ class GrammarLesson {
   int get exampleCount =>
       patterns.fold(0, (n, p) => n + ((p['examples'] as List?)?.length ?? 0));
 
-  static Future<List<GrammarLesson>> loadAll() async {
+  /// 문법 스텝 — 틀은 코드, 스텝 목록·순서·제목·내용은 데이터(사용자 지시 2026-11-23 「스텝 15까지 하자 내용이 없으면 자동으로 안나타나게」
+  /// 「DB가 업데이트되면 앱을 빌드안하고 스텝이 늘어날수도 줄어들수도 있어야 해」). 스텝 개수를 코드에 박지 않는다.
+  /// 목록 = 앱에 묶은 `grammar/lessonN.json` + 서버 원고에만 있는 것 − 서버 목록에서 뺀 것([ScriptSync]; 서버를 못 받았으면 묶음 목록 그대로), N 순서.
+  /// 내용(patterns)이 빈 스텝은 숨긴다(「준비 중」 칸 없음).
+  static Future<List<GrammarLesson>> loadAll({ScriptSync? sync}) async {
+    sync ??= ScriptSync.instance;
+    await sync.init();
+    final pat = RegExp(r'^grammar/lesson(\d+)\.json$');
+    final rels = <String>{...sync.baseFiles, ...sync.added}.where(pat.hasMatch).toSet()..removeAll(sync.removed);
+    final order = rels.toList()..sort((a, b) => int.parse(pat.firstMatch(a)!.group(1)!).compareTo(int.parse(pat.firstMatch(b)!.group(1)!)));
     final out = <GrammarLesson>[];
-    for (var i = 1; i <= 20; i++) {
+    for (final rel in order) {
+      final i = int.parse(pat.firstMatch(rel)!.group(1)!);
       try {
-        final raw = await rootBundle.loadString(assetPath('assets/data/grammar/lesson$i.json'));
-        final d = json.decode(raw) as Map<String, dynamic>;
+        final d = json.decode(await sync.load(rel)) as Map<String, dynamic>;
+        final patterns = [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)];
+        if (patterns.isEmpty) continue;
         out.add(GrammarLesson(
           (d['lesson'] as num?)?.toInt() ?? i,
           d['title'] as String? ?? trf('문법 {0}', [i]),
           d['subtitle'] as String? ?? '',
           [for (final s in (d['stages'] as List? ?? const [])) Map<String, dynamic>.from(s as Map)],
-          [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)],
+          patterns,
         ));
       } catch (_) {
-        break;
+        // 읽기 실패한 스텝은 건너뜀
       }
     }
     return out;
