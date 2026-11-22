@@ -7,6 +7,7 @@ import '../embed.dart';
 import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
 import 'alphabet_screen.dart';
+import 'curriculum_screen.dart';
 import 'sense_course_screen.dart';
 import 'word_quiz_screen.dart';
 import 'chunk_search_screen.dart';
@@ -394,6 +395,8 @@ class _MenuGrid extends StatelessWidget {
     // 묶음 순서 = 일본어앱 배우기(2026-11-07): 기초 → 문법 → 회화 → 단어 → 참고. 에피소드는 「학습」 탭.
     final sections = <(String, List<_MenuItem>)>[
       (tr('정규과정'), [
+        _MenuItem(label: tr('토크버스 커리큘럼'), sub: 'Tanterv', badge: 'TC', color: AppColors.beni, // 전 언어 공통(uk 11-22, ~/talkverse/CURRICULUM_SPEC.md)
+          builder: (_) => const CurriculumScreen()),
         _MenuItem(label: tr('언어감각 익히기'), sub: 'Nyelvérzék', badge: 'L', color: AppColors.ai, // 일본어앱 정규과정(빌드 96~112, 2026-11-18 전달)
           builder: (_) => const SenseCourseScreen()),
       ]),
