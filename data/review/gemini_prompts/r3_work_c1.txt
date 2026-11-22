@@ -1,0 +1,24 @@
+[r3_work_c1] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Kolléga, C=Igazgató. 장면: 회사 메신저. 이사님이 월요일 아침 8시 팀 회의를 공지한다. 동료에게만 보낸다는 불평이 단체방에 올라간다. 말투: chat. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(11 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 C: Sziasztok! Hétfőn reggel nyolckor lesz a csapatmegbeszélés. / 다들 안녕! 월요일 아침 8시에 팀 회의 있어요.
+2 B: Oké, ott leszek. / 오케이, 갈게요.
+3 A: Kösz, én is ott leszek. / 고마워요, 저도 갈게요.
+4 A: Komolyan, nyolckor? Akkor még alszom. 😴 / 진짜, 8시? 나 그때 아직 자는데. 😴
+5 B: Haha. Nekem írtad, vagy a csoportba? / ㅋㅋ 나한테 쓴 거야, 단체방에 쓴 거야?
+6 A: Neked, persze. Mi van? / 너한테지, 당연하지. 왜?
+7 B: Mert itt látom a csoportban. Az igazgató is látta. 👀 / 단체방에 보이거든. 이사님도 봤어. 👀
+8 A: Úristen. Hogy törlöm? / 세상에. 어떻게 지워?
+9 B: Már késő. Írj gyorsan valamit. / 이미 늦었어. 빨리 뭐라도 써.
+10 A: Elnézést kérek, rossz helyre írtam. Ott leszek hétfőn, persze. / 죄송합니다, 잘못 보냈습니다. 월요일에 갈게요, 당연히.
+11 C: Semmi baj. Én is alszom még nyolckor, őszintén. / 괜찮아요. 솔직히 저도 8시엔 아직 자요.
+12 C: Ki akar inkább tízkor kezdeni? Szavazzunk! / 10시가 더 좋은 사람? 투표하자!
+13 B: Én! A könyvelés is, mind a hatan. 😂 / 저요! 회계팀도, 여섯 명 다. 😂
+14 C: Akkor tízkor kezdünk. A kávét én hozom. / 그럼 10시에 시작해요. 커피는 제가 가져올게요.
+15 B: Te vagy a hősünk! Legközelebb is ide panaszkodj. / 네가 우리 영웅이야! 다음에도 여기 불평해.

@@ -1,0 +1,17 @@
+[r1_culture_b2] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Anna. 장면: Anna 가 클래식 콘서트에 가자고 한다. 표는 온라인으로 사기로 한다. 말투: casual. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(7 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 B: Szombaton koncert a koncertteremben. Eljössz? / 토요일에 콘서트홀에서 콘서트 있어. 올래?
+2 A: Szívesen! Milyen zene lesz? / 좋지! 무슨 음악이야?
+3 B: Klasszikus zene. Hegedű, zongora. / 클래식 음악. 바이올린, 피아노.
+4 A: Szuper. Én megveszem online. / 좋다. 내가 온라인으로 살게.
+5 B: Siess! Gyorsan elfogynak. / 서둘러! 금방 매진돼.
+6 A: Kész! Két jegy a harmadik sorba. / 됐다! 두 장, 셋째 줄로.
+7 B: Ügyes vagy! De várj, jövő hónap! / 잘했어! 근데 잠깐, 다음 달이야!
+8 A: Jaj! Hát, legalább készülünk. / 아! 음, 적어도 준비할 수 있네.

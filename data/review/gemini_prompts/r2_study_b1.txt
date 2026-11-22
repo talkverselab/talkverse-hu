@@ -1,0 +1,20 @@
+[r2_study_b1] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Réka, C=Tanárnő. 장면: 어학원 월요일 수업. 숙제 검사 뒤 선생님이 주말 이야기를 시킨다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(7 slip)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 C: Jó reggelt mindenkinek! Ki hozta meg a házit? / 모두 좋은 아침이에요! 숙제 해 온 사람?
+2 A: Jaj, a füzetemet otthon hagytam. / 아이고, 공책을 집에 두고 왔어요.
+3 B: Én is. Igazából el se kezdtem. / 나도. 사실은 시작도 안 했어.
+4 C: Na jó, akkor meséljünk. Réka, mit csinált a hétvégén? / 좋아요, 그럼 이야기해 봐요. 레카, 주말에 뭐 했어요?
+5 B: Kirándultam a hegyekben. Jéghideg volt. / 산에 하이킹 갔어요. 엄청 추웠어요.
+6 C: Szép. És Ön, {name}? / 좋네요. {name} 씨는요?
+7 A: Én szombaton egész délután a fürdőszobában ültem. / 저는 토요일에 오후 내내 욕실에 앉아 있었어요.
+8 C: Egész délután? Jaj, beteg volt? / 오후 내내요? 어머, 아팠어요?
+9 A: Nem, dehogyis! Meleg víz meg szauna, tökéletes volt. / 아뇨, 전혀요! 따뜻한 물이랑 사우나, 완전 좋았어요.
+10 B: A fürdőben voltál, nem a fürdőszobában! / 온천에 간 거지, 욕실이 아니라!
+11 C: Semmi baj. Házi feladat: fürdő és fürdőszoba, öt mondat. / 괜찮아요. 숙제: 「온천」이랑 「욕실」로 다섯 문장.

@@ -1,0 +1,25 @@
+[r3_love_b2] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Anna. 장면: 12월, A 가 2주 동안 고향에 간다. Anna 가 공항버스 정류장까지 따라 나왔다. 말투: casual. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(11 emotion)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 B: Na, mindent bepakoltál? Útlevél, telefon, töltő? / 나, 다 챙겼어? 여권, 휴대폰, 충전기?
+2 A: Igen, háromszor is megnéztem. Az útlevél itt van a zsebemben. / 응, 세 번이나 확인했어. 여권은 여기 주머니에 있어.
+3 B: És mikor jössz vissza pontosan? / 그래서 정확히 언제 돌아와?
+4 A: Január hetedikén. Csak két hét, nem olyan sok. / 1월 7일. 2주뿐이야, 그렇게 길지 않아.
+5 B: Persze, két hét semmi. Amúgy otthon most hideg van? / 그럼, 2주는 아무것도 아니지. 그나저나 거기 지금 추워?
+6 A: Nagyon. Még hidegebb, mint itt. / 엄청. 여기보다 더 추워.
+7 B: Akkor ezt vidd magaddal. Én kötöttem, de ne nézd meg közelről. / 그럼 이거 가져가. 내가 떴는데, 가까이서 보진 마.
+8 A: Egy sál! Hű, de szép, de ez itt egy lyuk? / 목도리! 와, 예쁘다, 근데 여기 이거 구멍이야?
+9 B: Az nem lyuk, hanem dizájn. Három hétig kötöttem. / 그건 구멍이 아니라 디자인이야. 3주 동안 떴어.
+10 A: Három hétig? De hát csak két hete mondtam, hogy hazamegyek. / 3주? 근데 집에 간다고 말한 건 겨우 2주 전인데.
+11 B: Igazából nem neked kezdtem. Aztán menet közben a tiéd lett. / 사실 너 주려고 시작한 건 아니었어. 그러다 뜨는 동안 네 것이 됐어.
+12 A: És kinek kezdted? / 그럼 누구 주려고 시작했는데?
+13 B: Magamnak, de rajtad jobban áll. Nézd, jön a buszod! / 나한테, 근데 너한테 더 잘 어울려. 봐, 네 버스 온다!
+14 A: Jaj, már? Jó, akkor mennem kell. / 아, 벌써? 그래, 그럼 가야겠다.
+15 B: Írj, ha megérkeztél. És ne vedd le a sálat a képeken. / 도착하면 문자해. 그리고 사진에서 목도리 벗지 마.
+16 A: Nem veszem le. Január hetedikén is ebben jövök. / 안 벗을게. 1월 7일에도 이거 하고 올게.

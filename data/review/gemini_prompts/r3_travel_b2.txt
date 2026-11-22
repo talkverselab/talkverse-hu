@@ -1,0 +1,25 @@
+[r3_travel_b2] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Néni. 장면: 센텐드레 골목. 비셰그라드행 버스를 타려고 할머니에게 정류장을 묻는다. 말투: polite. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(12 reveal)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 A: Elnézést, a visegrádi buszmegálló merre van? / 실례합니다, 비셰그라드 버스 정류장이 어느 쪽이에요?
+2 B: Melyik járatra szállna, kedvesem? / 어떤 버스 타시려고요, 얘야?
+3 A: A visegrádit. Fél ötkor indul, igaz? / 비셰그라드 가는 거요. 4시 반에 출발하죠?
+4 B: Fél öt? Akkor siessen, már négy húsz! / 4시 반? 그럼 서둘러요, 벌써 4시 20분이에요!
+5 A: Messze van innen? / 여기서 멀어요?
+6 B: Nem. Menjen le a templomig, aztán jobbra. / 아니요. 교회까지 내려가서 오른쪽.
+7 A: Templomig, jobbra. És utána? / 교회까지, 오른쪽. 그다음엔요?
+8 B: A cukrászdánál balra. A megálló a pékség előtt van. / 제과점에서 왼쪽. 정류장은 빵집 앞이에요.
+9 A: Cukrászda, balra, pékség. Köszönöm szépen! / 제과점, 왼쪽, 빵집. 정말 감사합니다!
+10 B: Várjon csak! Ma milyen nap van? / 잠깐만요! 오늘 무슨 요일이에요?
+11 A: Vasárnap. Miért? / 일요일이요. 왜요?
+12 B: Vasárnap az a busz nem jár, csak hétköznap. / 일요일엔 그 버스 안 다녀요, 평일에만요.
+13 A: Jaj, ne már! Akkor itt ragadtam? / 아이고, 안 돼! 그럼 여기서 발이 묶인 거예요?
+14 B: Dehogy. Hajóval is mehet, fél hatkor a kikötőből. / 아니에요. 배로도 가요, 5시 반에 선착장에서.
+15 A: Hajóval? Az még jobb! / 배로요? 그게 더 좋네요!
+16 B: Ugye? Addig egyen egy krémest a cukrászdában. / 그렇죠? 그동안 제과점에서 크렘레시 하나 드세요.

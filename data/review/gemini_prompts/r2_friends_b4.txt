@@ -1,0 +1,21 @@
+[r2_friends_b4] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Réka. 장면: Réka 와 데아크 광장 역에서 만나기로 했다. 둘 다 도착했다는데 서로 안 보인다. 말투: casual. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(10 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 A: Szia, Réka! Megérkeztem. Te hol vagy? / 안녕, 레카! 나 도착했어. 너 어디야?
+2 B: Én is itt vagyok, a Deáknál. / 나도 여기 있어, 데아크에.
+3 A: Nem látlak sehol. Hol vagy pontosan? / 너 어디에도 안 보여. 정확히 어디야?
+4 B: A metró kijáratánál, a fagyizó mellett. / 지하철 출구 쪽에, 아이스크림 가게 옆.
+5 A: Én is a kijáratnál vagyok. Itt nincs fagyizó. / 나도 출구에 있어. 여기 아이스크림 가게 없는데.
+6 B: Látod a nagy templomot? / 큰 성당 보여?
+7 A: Nem. Egy bankot látok meg egy pékséget. / 아니. 은행이랑 빵집만 보여.
+8 B: Várj, melyik metróval jöttél? / 잠깐, 어느 지하철 타고 왔어?
+9 A: A sárgával. Miért? / 노란 선. 왜?
+10 B: Én a pirossal! A Deáknak rengeteg kijárata van, {name}. / 나는 빨간 선! 데아크는 출구가 엄청 많아, {name}.
+11 A: Oké, maradj ott! Megyek a fagyizó felé. / 알았어, 거기 있어! 아이스크림 가게 쪽으로 갈게.
+12 B: Siess már! Veszek neked is egyet. / 빨리 와! 네 것도 하나 사 둘게.

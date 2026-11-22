@@ -1,0 +1,21 @@
+[r2_love_c1] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Réka, C=Anna. 장면: Réka 가 셋이서 피크닉 가자고 단톡방을 만들었다. 날짜가 잡히고 나서. 말투: chat. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(8 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 B: Hali! Szombaton piknikezünk a Margitszigeten? 🧺 / 안녕! 토요일에 머르기트섬에서 피크닉 할래? 🧺
+2 C: Igen, mehet! Pogácsát is viszek. 😋 / 응, 가자! 포가차도 가져갈게. 😋
+3 A: Tökéletes! Gyümölcsöt meg pokrócot hozok én. / 완벽해! 과일이랑 담요는 내가 챙길게.
+4 B: Szuper. Tizenegykor a hídnál? / 좋아. 11시에 다리 앞에서?
+5 B: Jaj, Bocsi... most jutott eszembe, hogy szombaton dolgozom. 😬 / 아, Bocsi... 방금 생각났는데 토요일에 일해. 😬
+6 A: Komolyan? Akkor halasszuk el inkább? / 진짜? 그럼 차라리 미룰까?
+7 B: Ne már, menjetek csak ti ketten! A pogácsa nem vár. 😇 / 에이, 너희 둘이 가! 포가차는 못 기다려. 😇
+8 B: Dávid, működik a terv! Hagyjuk őket kettesben. 😏 / 다비드, 계획 먹혔어! 둘만 있게 두자. 😏
+9 B: JAJ! Ez nem ide ment!!! 😱 / 으악! 여기로 보낸 게 아니야!!! 😱
+10 C: Réka... milyen tervről beszélsz? 🙄 / 레카… 무슨 계획 얘기야? 🙄
+11 A: Szóval szombaton csak mi ketten? / 그러니까 토요일엔 우리 둘만?
+12 C: Úgy tűnik. Több pogácsát viszek majd. 😊 / 그런가 보네. 포가차 더 가져갈게. 😊

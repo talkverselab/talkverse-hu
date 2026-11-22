@@ -1,0 +1,25 @@
+[r3_friends_b2] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Réka, C=Réka anyukája, D=Peti. 장면: 오늘은 Réka 의 이름의 날(névnap). 꽃을 들고 Réka 네 집에 가니 가족이 다 모여 있다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(12 slip)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 A: Boldog névnapot, Réka! Na, ezt neked hoztam. / 이름의 날 축하해, 레카! 이거 너 주려고 가져왔어.
+2 B: Jaj, de cuki! Kösz, gyere csak be. / 어머, 귀엽다! 고마워, 들어와.
+3 A: Hogyhogy ennyi ember? Ez buli vagy mi? / 왜 사람이 이렇게 많아? 파티야 뭐야?
+4 B: Figyelj, nálunk a névnap szinte olyan fontos, mint a szülinap. / 있잖아, 우리한텐 이름의 날이 생일만큼 중요해.
+5 A: Tényleg? Honnan tudjátok, mikor kinek van? / 진짜? 누구 언제인지 어떻게 알아?
+6 B: A naptárban minden napnak van neve. Nézd, ma Réka. / 달력에 날마다 이름이 있어. 봐, 오늘은 레카.
+7 C: Szervusz! Te vagy {name}? Réka sokat mesélt rólad. / 안녕! 네가 {name}구나? 레카가 네 얘기 많이 했어.
+8 A: Csókolom! Örülök, hogy megismerhetem. / 안녕하세요! 뵙게 되어 반가워요.
+9 C: Milyen kedves! Kérsz egy kis süteményt? / 정말 착하네! 케이크 좀 먹을래?
+10 A: Igen, köszönöm szépen. / 네, 정말 감사합니다.
+11 D: Szia! Peti vagyok, Réka unokatestvére. / 안녕! 나 페티야, 레카 사촌.
+12 A: Csókolom! Örülök, hogy megismerhetem. / 안녕하세요! 뵙게 되어 반가워요.
+13 D: Csókolom? Huszonkét éves vagyok, nem nyolcvan! / Csókolom? 나 스물둘이야, 여든 아니거든!
+14 B: Te jó ég! A csókolom csak az idősebbeknek jár, neki elég egy szia. / 세상에! Csókolom은 어른한테만 해, 얘한텐 안녕이면 돼.
+15 A: Bocsi, Peti! Akkor szia, és boldog névnapot neked is? / 미안, 페티! 그럼 안녕, 너도 이름의 날 축하해?
+16 D: Az enyém csak júniusban lesz. De köszi! / 내 건 6월에야. 그래도 고마워!

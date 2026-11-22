@@ -1,0 +1,21 @@
+[r2_study_c2] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Réka. 장면: 아파서 수업에 못 간 날. Réka 에게 숙제를 물어서 저녁 내내 했다. 말투: chat. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(10 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 A: Szia! Ma beteg voltam, nem tudtam menni órára. 🤒 / 안녕! 오늘 아팠어, 수업 못 갔어. 🤒
+2 B: Jaj, szegény! Jobban vagy már? / 아이고, 저런! 이제 좀 괜찮아?
+3 A: Már jobban, köszi. Mi a házi feladat? / 이제 좀 나아, 고마워. 숙제가 뭐야?
+4 B: A harmincnegyedik oldal, mindent meg kell csinálni. / 34쪽, 다 해야 해.
+5 A: Mindet? Az tíz gyakorlat! / 다? 그거 열 문제야!
+6 B: Tudom. Sok sikert! 💪 / 알아. 잘해봐! 💪
+7 A: Kész! Három órán át csináltam. 😵 / 끝! 세 시간 동안 했어. 😵
+8 B: Ügyes vagy! Melyik oldalt csináltad? / 잘했어! 몇 쪽 했어?
+9 A: Hát a harmincnegyediket. Te mondtad. / 당연히 34쪽. 네가 말했잖아.
+10 B: Úristen, bocsi! A negyvenharmadik volt. 🙈 / 세상에, 미안! 43쪽이었어. 🙈
+11 A: Ne már. És ott hány gyakorlat van? / 아 진짜. 거기엔 몇 문제 있어?
+12 B: Csak egy fogalmazás, öt mondat. A harmincnegyediket holnap kérdezi. 😅 / 작문 하나, 다섯 문장. 34쪽은 내일 물어보신대. 😅

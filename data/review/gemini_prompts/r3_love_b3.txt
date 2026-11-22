@@ -1,0 +1,25 @@
+[r3_love_b3] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Dávid, C=Anna. 장면: Anna 에게 콘서트를 제안했는데 다섯 시간째 답이 없다. A 가 룸메이트 Dávid 에게 털어놓는다. 말투: casual. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(13 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 A: Dávid, figyelj, Anna öt órája nem válaszol. Szerinted haragszik? / 다비드, 있잖아, 언너가 다섯 시간째 답이 없어. 화났을까?
+2 B: Mit írtál neki? Mutasd. / 뭐라고 보냈는데? 보여 줘.
+3 A: Csak annyit, hogy van-e kedve szombaton koncertre jönni. / 그냥 토요일에 콘서트 갈 생각 있냐고만.
+4 B: Ez normális kérdés. Ebben nincs semmi rossz. / 그건 평범한 질문이야. 아무 문제 없어.
+5 A: Akkor miért nem ír? Délben még online volt. / 그럼 왜 답이 없지? 점심때는 접속해 있었는데.
+6 B: Lehet, hogy dolgozik vagy alszik. Nyugi, ne idegeskedj. / 일하는 중이거나 자는 걸 수도 있어. 진정해, 초조해하지 마.
+7 A: Nem tudok nyugodni. Írjak még egy rövidet? / 진정이 안 돼. 짧게 하나 더 보낼까?
+8 B: Ne már! Ha most írsz, kétségbeesettnek tűnsz. / 에이! 지금 보내면 절박해 보여.
+9 A: Igazad van. Jó, leteszem a telefont, és nem nézem. / 네 말이 맞아. 좋아, 휴대폰 내려놓고 안 볼게.
+10 B: Várj, add ide egy pillanatra. Miért van egy repülő a képernyő tetején? / 잠깐, 잠깐만 줘 봐. 화면 위에 왜 비행기가 있어?
+11 A: Repülő? Jaj, délelőtt edzés előtt bekapcsoltam a repülő üzemmódot. / 비행기? 아이고, 오전에 운동 가기 전에 비행기 모드 켜 놨어.
+12 B: Te jó ég. Kapcsold ki, gyorsan! / 맙소사. 꺼, 빨리!
+13 A: Úristen, hét üzenet jött tőle, és most hív! / 세상에, 걔한테 메시지 일곱 개 왔어, 그리고 지금 전화 와!
+14 B: Akkor vedd fel! Mire vársz? / 그럼 받아! 뭘 기다려?
+15 C: Végre! Azt hittem, baj van, és már indultam hozzád. / 드디어! 무슨 일 생긴 줄 알고 너한테 가려던 참이었어.
+16 A: Bocsi, repülő üzemmód. De ha már elindultál, igyunk egy kávét lent? / 미안, 비행기 모드였어. 근데 이미 나섰으면, 아래에서 커피 한잔할까?

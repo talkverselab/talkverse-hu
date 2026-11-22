@@ -1,0 +1,20 @@
+[r2_work_b1] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Férfi, C=Bence. 장면: 동네 카페 아르바이트 면접. 사장님이 경험·주말 근무·시작 날짜를 묻는다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(10 reveal)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 B: Jó napot! Ön az állás miatt jött? / 안녕하세요! 일자리 때문에 오신 분이죠?
+2 A: Igen, jó napot. {name} vagyok. / 네, 안녕하세요. {name}입니다.
+3 B: Tessék, foglaljon helyet. Dolgozott már kávézóban? / 앉으세요. 카페에서 일해 본 적 있어요?
+4 A: Kávézóban még soha. De gyorsan tanulok. / 카페에서는 아직 없어요. 그래도 빨리 배워요.
+5 B: Értem. Hétvégén is tudna dolgozni? / 그렇군요. 주말에도 일할 수 있어요?
+6 A: Persze! Szombaton meg vasárnap is ráérek. / 그럼요! 토요일도 일요일도 돼요.
+7 B: Szuper! És mikor tudna kezdeni? / 좋네요! 언제부터 시작할 수 있어요?
+8 A: Akár holnap is. Szóval felvesz engem? / 내일이라도요. 그럼… 채용하시는 건가요?
+9 B: Felveszem. Bence, gyere ide, itt az új kolléga! / 채용할게요. 벤체, 이리 와, 새 동료야!
+10 C: Szia! Te vagy az, aki tegnap háromszor kérte a cukrot? / 안녕! 어제 설탕 세 번 달라던 사람이 너구나?
+11 A: Jaj, igen. Nagyon finom volt. / 아이고, 맞아. 커피가 너무 맛있어서.

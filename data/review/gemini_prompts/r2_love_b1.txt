@@ -1,0 +1,21 @@
+[r2_love_b1] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Anna, C=Pénztáros. 장면: 겨울 토요일, Anna 가 먼저 제안한 온천 데이트. 매표소 앞에서 A 가 가방을 연다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(9 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 B: Na, készen vagy? Kint mínusz két fok, a víz meg harmincnyolc. / 자, 준비됐어? 밖은 영하 2도, 물은 38도야.
+2 A: Igen, nagyon. Várj… hol a fürdőruhám? / 응, 엄청. 잠깐… 내 수영복 어디 있지?
+3 B: Komolyan? Otthon hagytad? / 진짜? 집에 두고 왔어?
+4 A: Úgy tűnik. Reggel csak a törölközőt raktam be. / 그런가 봐. 아침에 수건만 챙겼어.
+5 B: Semmi baj. Kérdezzük meg a pénztárnál. / 괜찮아. 매표소에 물어보자.
+6 A: Elnézést, lehet itt fürdőruhát bérelni? / 실례합니다, 여기서 수영복 빌릴 수 있나요?
+7 C: Bérelni nem lehet, de venni igen. Ott a polcon. / 대여는 안 되고 구매는 돼요. 저기 선반에 있어요.
+8 A: Köszönöm. Anna, segítesz választani? / 감사합니다. 안나, 고르는 거 도와줄래?
+9 B: Naná. Ez a sárga, kis kacsákkal, tökéletes. / 당연하지. 이 노란 거, 작은 오리들, 완벽해.
+10 A: Kacsákkal? Ezt nem veszem fel, mindenki nevet. / 오리? 이건 안 입어, 다들 웃을 거야.
+11 B: Jó, akkor én is ilyet veszek. Ha ketten vagyunk, már nem vicces. / 좋아, 그럼 나도 이거 살게. 둘이면 이제 안 웃기지.
+12 A: Tényleg? Akkor két kacsás fürdőruhát kérünk. / 진짜? 그럼 오리 수영복 두 벌 주세요.

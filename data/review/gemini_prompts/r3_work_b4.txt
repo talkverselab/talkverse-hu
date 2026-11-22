@@ -1,0 +1,24 @@
+[r3_work_b4] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Bence, C=Néni. 장면: 저녁 카페. Bence 가 창고에 간 사이 단골 할머니가 「늘 먹던 걸로」를 주문한다. 처음 보는 사람이라 뭔지 모른다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(13 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 C: Jó estét! A szokásosat kérem, ha lehet. / 안녕하세요! 늘 먹던 걸로 주세요, 가능하면요.
+2 A: Jó estét! Elnézést, új vagyok. Mi a szokásos Önnek? / 안녕하세요! 죄송해요, 저 새로 왔어요. 늘 드시는 게 뭐예요?
+3 C: Bence tudja azt. Hol van most? / 벤체가 알아요. 지금 어디 있어요?
+4 A: Hátul van, mindjárt jön. Segíthetek addig? / 뒤에 있어요, 금방 와요. 그동안 제가 도와드릴까요?
+5 C: Hát, próbáljuk meg. Egy kávét, de ne legyen erős. / 글쎄요, 해 보죠. 커피 하나, 근데 진하지 않게.
+6 A: Hosszú kávé akkor? Tejjel? / 그럼 롱 커피요? 우유 넣어서요?
+7 C: Igen, tejjel. De nem tehéntejjel. / 네, 우유요. 근데 소젖 말고요.
+8 A: Zabtej vagy mandulatej? / 귀리 우유요, 아몬드 우유요?
+9 C: Zabtej, egy kanál mézzel. Fahéj is a tetejére. / 귀리 우유요, 꿀 한 스푼. 시나몬도 위에 조금.
+10 A: Rendben. Tessék, zabtejes hosszú kávé mézzel és fahéjjal. / 알겠습니다. 여기요, 꿀이랑 시나몬 올린 귀리 우유 롱 커피예요.
+11 B: Jó estét, Erzsi néni! Mit iszik ma? / 안녕하세요, 에르지 아주머니! 오늘 뭘 드세요?
+12 A: A szokásosat. Nem ez az? / 늘 드시는 거. 이거 아니야?
+13 B: A szokásos kamillatea. Már tíz éve iszik. / 늘 드시는 건 캐모마일 차야. 벌써 10년째 드셔.
+14 C: Tudom, kedvesem. Csak kíváncsi voltam az újra. / 알아요, 얘야. 새 직원이 궁금했을 뿐이에요.
+15 C: Finom ez. Holnap is ezt kérem. Új szokásos. / 이거 맛있네요. 내일도 이걸로 주세요. 이게 새 늘 먹던 거예요.

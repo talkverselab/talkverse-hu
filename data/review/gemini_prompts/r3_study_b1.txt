@@ -1,0 +1,25 @@
+[r3_study_b1] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Réka, C=Kovács. 장면: 아파서 보고서를 못 냈다. Réka 와 함께 코바치 교수님께 기한 연장을 부탁하는 메일을 쓴다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(15 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 A: Réka, segítesz? Levelet kell írnom Kovács professzornak. / 레카, 도와줄래? 코바치 교수님께 메일 써야 해.
+2 B: Persze. Mit akarsz tőle kérni? / 물론. 뭘 부탁하려고?
+3 A: Egy hét haladékot a dolgozatra. Beteg voltam. / 보고서 일주일 연장. 아팠거든.
+4 B: Oké. Hogyan kezdted el? / 오케이. 어떻게 시작했어?
+5 A: Szia, Tanár Úr! / 안녕, 교수님!
+6 B: Szia? Ne már, írd azt: Tisztelt Kovács Professzor Úr! / 「안녕」? 아 좀, 이렇게 써: 존경하는 코바치 교수님께!
+7 A: Jó. Aztán: Kérem, adjon egy hetet. / 알았어. 그다음: 일주일 주세요.
+8 B: Túl rövid. Inkább: Szeretném megkérdezni, kaphatnék-e egy hét haladékot. / 너무 짧아. 차라리: 일주일 연장을 받을 수 있을지 여쭙고 싶습니다.
+9 A: Hű, ez nagyon udvarias. És a végén? / 와, 엄청 정중하다. 그리고 끝에는?
+10 B: Tisztelettel, és a neved. Puszit ne írj! / 「경의를 표하며」, 그리고 네 이름. 「쪽」은 쓰지 마!
+11 A: Naná. Na, elküldtem! / 당연하지. 자, 보냈다!
+12 B: Csatoltad az orvosi igazolást is? / 진단서도 첨부했어?
+13 A: Persze, a levél alján van. / 물론, 메일 맨 밑에 있어.
+14 B: Mutasd. Ez nem igazolás, ez egy lista. / 보여 줘. 이거 진단서가 아니라 목록인데.
+15 A: Úristen. Ez a bevásárlólistám: tojás, tej, paprika. / 세상에. 내 장보기 목록이야. 달걀, 우유, 파프리카.
+16 C: Kedves {name}, megkapja a haladékot. És ne felejtse el a tojást! / {name} 씨, 연장해 드리겠습니다. 그리고 달걀 잊지 마세요!

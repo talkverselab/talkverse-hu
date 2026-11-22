@@ -1,0 +1,22 @@
+[r3_study_c1] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Kovács. 장면: 학교 메신저로 지도 교수에게 논문 면담을 신청한다. 시스템에는 「Dr. Kovács G.」 라고만 나온다. 말투: chat. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(8 slip)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 A: Tisztelt Professzor Asszony! Időpontot szeretnék kérni a konzultációra. / 존경하는 교수님! 면담 시간을 잡고 싶어요.
+2 A: A szakdolgozatom témáját szeretném megbeszélni Önnel. / 졸업논문 주제를 교수님과 상의하고 싶어서요.
+3 B: Jó napot! Szerdán tízkor vagy csütörtökön kettőkor jó Önnek? / 안녕하세요! 수요일 10시나 목요일 2시 괜찮으세요?
+4 A: Nagyon köszönöm, a csütörtöki kettő az pont jó. / 정말 감사합니다, 목요일 2시가 딱 좋아요.
+5 B: Rendben. Akkor a 312-es irodában leszek. / 알겠습니다. 그럼 312호 연구실에 있을게요.
+6 A: Köszönöm szépen, Professzor Asszony! Ott leszek időben. / 정말 감사합니다, 교수님! 시간에 맞춰 갈게요.
+7 B: Még valami fontos. / 하나 더 중요한 게 있어요.
+8 B: Én professzor úr vagyok, nem asszony. Kovács Gábor vagyok. 🙂 / 저 남자 교수예요, 여교수 아니고요. 코바치 가보르예요. 🙂
+9 A: Úristen, elnézést! A rendszerben csak annyi van: Dr. Kovács G. / 세상에, 죄송합니다! 시스템에 그냥 Dr. Kovács G.만 있어서요.
+10 B: Semmi baj. Volt, aki Gizellának is nézett. / 괜찮아요. 기젤라로 착각한 사람도 있었어요.
+11 A: Akkor csütörtökön kettőkor, Professzor Úr. Most már biztosan. / 그럼 목요일 2시에, 교수님. 이번엔 확실히요.
+12 B: Várom Önt. És hozza a témavázlatot is, legyen szíves! / 기다리겠습니다. 주제 개요도 가져와 주세요!
+13 A: Viszem, ígérem. Ezúttal a helyes megszólítással. 😅 / 가져갈게요, 약속해요. 이번엔 호칭도 제대로요. 😅

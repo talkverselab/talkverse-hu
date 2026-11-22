@@ -1,0 +1,20 @@
+[r2_travel_b4] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Tamás. 장면: 기차에 올라 지정석에 앉았는데 Tamás 라는 승객이 자기 자리라고 한다. 말투: polite. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(6 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 B: Elnézést, azt hiszem, ez a negyvenkettes az enyém. / 실례합니다, 제 생각엔 이 42번이 제 자리인데요.
+2 A: Tényleg? Az én jegyemen is pont ez a szám van. / 정말요? 제 표에도 정확히 이 번호예요.
+3 B: Melyik kocsi van rajta? Én a hatosban utazom. / 표에 몇 호차예요? 저는 6호차예요.
+4 A: Várjon egy kicsit... Hatos kocsi, negyvenkettes hely. / 잠깐만 기다려 주세요... 6호차 42번 자리.
+5 B: Megnézhetem? Ez a jegy a debreceni vonatra szól. / 좀 봐도 될까요? 이 표는 데브레첸행 기차 거예요.
+6 A: Mi? Ez a vonat nem Debrecenbe megy? / 네? 이 기차 데브레첸으로 안 가요?
+7 B: Nem, Szegedre tart. Az Ön vonata a szomszéd vágányon áll. / 아니요, 세게드로 가요. 손님 기차는 옆 선로에 서 있어요.
+8 A: Jaj! Mikor indul? / 아이고! 언제 출발해요?
+9 B: Két perc múlva. Segítek a bőröndjével! / 2분 뒤예요. 캐리어 들어 드릴게요!
+10 A: Köszönöm! Ön nagyon kedves. / 감사합니다! 정말 친절하시네요.
+11 B: Szívesen. Siessen, a kalauz már sípol! / 천만에요. 서두르세요, 차장이 벌써 호루라기 불어요!

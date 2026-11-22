@@ -1,0 +1,21 @@
+[r2_work_c2] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Bence. 장면: 토요일에 병원 가야 한다. Bence에게 근무 바꿔 달라고 했는데 읽기만 하고 답이 없다. 말투: chat. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(6 ignore)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 A: Szia! Kérdezhetek valamit? / 안녕! 뭐 좀 물어봐도 돼?
+2 A: Szombaton cserélnél velem? Orvoshoz kell mennem. / 토요일에 나랑 근무 바꿔 줄래? 병원 가야 해서.
+3 A: Bence? Látom, hogy olvastad. 👀 / 벤체? 읽은 거 보이는데. 👀
+4 A: Légyszi! Hozok rétest is. / 제발! 레테시도 사 갈게.
+5 A: Na jó, két rétest. Utolsó ajánlat. / 알았어, 레테시 두 개. 마지막 제안.
+6 B: Bocsi! Olvastam, de egész délelőtt jöttek a vendégek. / 미안! 읽긴 했는데 오전 내내 손님 왔었어.
+7 A: Semmi gond. Szóval cserélünk? / 괜찮아. 그래서 바꿔 줄 거야?
+8 B: Persze. De szombaton én amúgy is bent vagyok. / 물론. 근데 토요일엔 나 어차피 나가 있어.
+9 A: Hogyhogy? / 어째서?
+10 B: Szombaton ketten vagyunk. Nyugodtan menj, egyedül is megy. / 토요일엔 우리 둘이야. 맘 편히 가, 혼자서도 돼.
+11 A: Te vagy a legjobb! Három rétes jár. / 너 최고야! 레테시 세 개 쏜다.
+12 B: Kettőt ígértél. Kettő elég. 😇 / 두 개 약속했잖아. 두 개면 충분. 😇

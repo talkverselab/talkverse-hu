@@ -1,0 +1,21 @@
+[r2_love_b2] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Réka, C=Eladó. 장면: 벼룩시장. 다음 주가 Anna 생일이라 A 가 Réka 에게 선물 고르기를 도와 달라고 했다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(11 reveal)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 A: Réka, jövő héten Anna születésnapja. Mit vegyek neki? / 레카, 다음 주 안나 생일이야. 뭘 사 주지?
+2 B: Gyere, a bolhapiacon mindig akad valami jó. / 따라와, 벼룩시장엔 늘 괜찮은 게 있어.
+3 A: Szerinted a virág nem jobb? Az biztos tetszik neki. / 꽃이 낫지 않을까? 그건 분명 좋아할 텐데.
+4 B: Virágot mindenki vesz. Nézd, ez a régi festékdoboz! / 꽃은 다들 사. 봐, 이 오래된 물감 상자!
+5 A: Hű, de szép. Elnézést, mennyibe kerül? / 와, 예쁘다. 실례합니다, 얼마예요?
+6 C: Nyolcezer forint. Nagyon régi, a nagyapámé volt. / 8천 포린트요. 아주 오래된 거예요, 할아버지 거였어요.
+7 A: Hát, kicsit drága. Nem lehetne hatezerért? / 음, 좀 비싸네요. 6천에는 안 될까요?
+8 C: Hétezer, és csak azért, mert maga kedves. / 7천이요, 손님이 친절하셔서요.
+9 B: Vedd meg, jó üzlet. Amúgy tudod, miért jó ez? / 사, 괜찮은 거래야. 그나저나 이게 왜 좋은지 알아?
+10 A: Mert Anna szeret festeni? / 안나가 그림 그리는 걸 좋아해서?
+11 B: Mert múlt héten Anna is ezt nézte itt, fél óráig. / 지난주에 안나도 여기서 이걸 30분 동안 봤거든.
+12 A: Komolyan? Akkor jó, hogy nem vette meg. / 진짜? 그럼 안 사서 다행이다.

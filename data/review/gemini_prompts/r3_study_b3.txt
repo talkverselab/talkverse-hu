@@ -1,0 +1,25 @@
+[r3_study_b3] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Anna, C=Professzor. 장면: 보고서 점수가 3점이라 교수님 면담 시간에 찾아간다. Anna 가 문 앞에서 기다려 준다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(13 reveal)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 B: Ideges vagy kicsit? / 좀 긴장돼?
+2 A: Egy kicsit igen. Hármas lett a dolgozatom, nem értem miért. / 응 조금. 보고서가 3점인데 왜인지 모르겠어.
+3 B: Nyugodtan kérdezd meg. A prof kedves, csak szigorú kicsit. / 편하게 물어봐. 교수님 친절해, 그냥 좀 엄격할 뿐.
+4 A: Oké, bemegyek. Várj meg, légyszi! / 알았어, 들어간다. 기다려 줘, 제발!
+5 C: Jöjjön be! Miben segíthetek? / 들어오세요! 무엇을 도와드릴까요?
+6 A: Jó napot, Professzor Úr. A dolgozatomról szeretnék kérdezni. / 안녕하세요, 교수님. 제 보고서에 대해 여쭙고 싶어서요.
+7 C: Persze. Mi a gond? / 그럼요. 뭐가 문제죠?
+8 A: A listán hármas van a nevem mellett. / 명단에 제 이름 옆에 3점이라고 적혀 있어요.
+9 C: Hármas? Egy pillanat, megnézem. / 3점이요? 잠깐만요, 볼게요.
+10 A: Szerintem a ragok miatt. Mindig elrontom őket. / 제 생각엔 격 어미 때문이에요. 늘 틀리게 붙여요.
+11 C: Melyik sort nézte a listán? / 명단에서 어느 줄을 보셨어요?
+12 A: Ezt, a harmadikat. / 이거요, 세 번째 줄.
+13 C: Az a szomszédja. Ön a negyedik sorban van: ötös. / 그건 옆 사람이에요. {name} 씨는 네 번째 줄, 5점이에요.
+14 A: Tényleg ötös? Köszönöm szépen! / 정말 5점이요? 정말 감사합니다!
+15 B: Na? Mi volt? / 어때? 어떻게 됐어?
+16 A: Ötös lett! Csak rossz sort néztem. / 5점이었어! 그냥 엉뚱한 줄을 봤던 거야.

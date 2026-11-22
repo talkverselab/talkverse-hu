@@ -1,0 +1,24 @@
+[r3_culture_b2] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Anna, C=Réka, D=Jegyellenőr. 장면: 여름 저녁 공원 야외 콘서트. 세 사람 표는 전부 내 폰에 있다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(11 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 C: Na, mindenki itt van már? Mindjárt kezdődik! / 자, 다 왔어? 곧 콘서트 시작해!
+2 B: Itt vagyok! Hoztam vizet meg egy pokrócot. / 나 왔어! 물이랑 돗자리 가져왔어.
+3 A: Bocsi a késésért. A villamos nagyon lassú volt. / 늦어서 미안. 트램이 엄청 느렸어.
+4 C: Semmi baj. A jegyek nálad vannak, ugye? / 괜찮아. 표는 너한테 있지, 맞지?
+5 A: Persze, a telefonomon. Mindhárom jegy. / 물론, 내 폰에. 세 장 다.
+6 D: Jó estét! Kérem a jegyeket. / 안녕하세요! 표를 보여 주세요.
+7 A: Egy pillanat... Jaj, ne. A telefonom lemerült. / 잠시만요… 아, 안 돼. 폰 배터리가 나갔어.
+8 C: Komolyan? Pont most? / 진짜? 하필 지금이야?
+9 B: Nyugi. Réka, van nálad töltő? / 진정해. 레카, 충전기 있어?
+10 C: Van, de konnektor nincs itt. Ez egy park. / 있어, 근데 콘센트가 없잖아. 여긴 공원이야.
+11 D: Sajnos jegy nélkül nem engedhetem be önöket. / 죄송하지만 표 없이는 들여보내 드릴 수 없습니다.
+12 B: Várjon! Tegnap lefényképeztem a jegyeket. Itt vannak. / 잠깐만요! 어제 표를 찍어 뒀어요. 여기 있어요.
+13 D: Rendben, mehetnek. Jó szórakozást! / 좋습니다, 들어가세요. 즐거운 시간 되세요!
+14 A: Anna, miért fényképezted le a jegyeket? / 안나, 왜 그걸 찍어 둔 거야?
+15 B: Mert ismerlek. A telefonod mindig lemerül. 😊 / 너를 아니까. 네 폰은 늘 배터리가 나가잖아. 😊

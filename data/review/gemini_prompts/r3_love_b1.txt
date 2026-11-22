@@ -1,0 +1,25 @@
+[r3_love_b1] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Anna, C=Pincér. 장면: Anna 가 아끼는 동네 식당에 데려갔다. A 는 처음부터 끝까지 헝가리어로 주문해 보겠다고 한다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(11 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 B: Na, ez a kedvenc helyem. Nem elegáns, de itt főznek a legjobban a városban. / 나, 여기가 내 최애 식당이야. 고급스럽진 않은데, 이 도시에서 제일 맛있게 해.
+2 A: Tetszik, tényleg. Olyan, mint egy nagymama konyhája. Mit ajánlasz? / 진짜 마음에 들어. 할머니 부엌 같아. 뭐 추천해?
+3 B: A töltött káposzta itt durván jó, azt kóstold meg. / 여기 양배추 롤이 진짜 최고야, 그거 먹어 봐.
+4 C: Jó estét! Már választottak? / 안녕하세요! 고르셨어요?
+5 A: Igen. Egy töltött káposztát kérek, meg egy ásványvizet. / 네. 양배추 롤 하나랑 생수 하나 주세요.
+6 C: Szénsavasat vagy mentest? / 탄산이요, 무탄산이요?
+7 A: Izé... a buborékosat kérem. / 어… 거품 있는 걸로요.
+8 C: Értem, szénsavasat. És a hölgy? / 알겠어요, 탄산수네요. 그리고 숙녀분은요?
+9 B: Én egy paprikás csirkét kérek, galuskával. / 저는 파프리카 치킨 스튜요, 갈루슈카랑.
+10 C: Tessék, a töltött káposzta meg a paprikás csirke. Jó étvágyat! / 여기요, 양배추 롤이랑 파프리카 치킨요. 맛있게 드세요!
+11 A: Köszönöm szépen, egészségére! / 감사합니다, 건강을 위하여!
+12 C: Köszönöm, de én nem iszom. / 감사합니다, 근데 저는 안 마셔요.
+13 B: Figyelj, ha jó étvágyat mondanak, akkor köszönöm, viszont a válasz. / 있잖아, 누가 "맛있게 드세요" 하면 "감사합니다, 당신도요"라고 해.
+14 A: Szóval az egészségedre csak koccintásnál mondják? / 그러니까 "건강을 위하여"는 건배할 때만 하는 거야?
+15 B: Pontosan. Meg ha valaki tüsszent. De a pincér arca megérte. / 정확해. 아니면 누가 재채기할 때. 근데 웨이터 표정은 볼 만했어.
+16 A: Jól van. De legalább nevettél, akkor megérte a hiba. / 그래. 그래도 네가 웃었으니 틀린 보람이 있네.

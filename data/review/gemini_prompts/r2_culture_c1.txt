@@ -1,0 +1,21 @@
+[r2_culture_c1] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Anna, C=Réka, D=Bence. 장면: 친구들 단톡방에서 토요일 사진전 개막에 같이 갈 시간을 정한다. 말투: chat. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(10 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 B: Szombaton nyílik a fotókiállítás. Ki jön? 📸 / 토요일에 사진전 개막해. 누구 올래? 📸
+2 C: Én! Hánykor? / 나! 몇 시?
+3 B: Hatkor kezdődik, ingyenes. / 여섯 시 시작, 무료야.
+4 D: Én csak hétre érek oda. Munka. 😩 / 난 일곱 시에야 도착해. 일 때문에. 😩
+5 A: Én is megyek! Hol találkozunk? / 나도 갈래! 어디서 만나?
+6 B: A bejáratnál, fél hatkor. / 입구에서, 다섯 시 반에.
+7 C: Bence, te ne késs megint! 😄 / 벤체, 너 또 늦지 마! 😄
+8 D: Én soha nem késem! / 나 절대 안 늦어!
+9 A: Szerintem nyolc előtt nem lesz ott. 😂 / 내 생각엔 여덟 시 전엔 안 올걸. 😂
+10 D: Ezt a csoportba írtad, {name}. 👀 / 이거 단톡방에 썼어, {name}. 👀
+11 A: Jaj! Bocsi, ezt Annának akartam írni! 🙈 / 아! 미안, 이거 안나한테 보내려던 거야! 🙈
+12 D: Hétkor ott leszek. Fogadjunk? 😏 / 일곱 시에 갈 거야. 내기할래? 😏

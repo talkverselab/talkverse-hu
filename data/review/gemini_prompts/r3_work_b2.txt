@@ -1,0 +1,24 @@
+[r3_work_b2] 아래는 한국인 학습자용 헝가리어 회화 1편입니다(부다페스트 일상 구어 기준). 인물: A=학습자({name}), B=Bence, C=Főnök. 장면: 사장님이 크리스마스 근무표 회의를 잡자고 한다. 셋이 시간을 맞추다 겨우 정한 시간이 또 꼬인다. 말투: mixed. 각 줄은 「줄번호 화자: 헝가리어 / 한국어 번역」입니다. 반전(13 chaos)은 일부러 넣은 것입니다.
+당신은 헝가리어 원어민 검수자입니다. **문장을 고쳐 쓰지 말고 지적만** 해 주세요. 항목마다 개수를 먼저 쓰고, 해당 줄 번호와 이유를 짧게:
+① 문법 오류(격 어미·모음조화·정관사·한정/비한정 활용·어순) — 개수·줄·틀린 부분→맞는 형태.
+② 헝가리 사람이 실제로 이렇게 말하지 않는 줄(교과서체·번역투·어색한 표현) — 개수·줄·이유.
+③ 존대(te/ön·magázás)·호칭(bácsi, néni 등)·인사(Szia/Csókolom/Jó napot)가 인물 관계에 맞지 않는 줄 — 개수·줄·이유.
+④ 한국어 번역이 뜻·어감과 어긋나는 줄 — 개수·줄·이유.
+⑤ 외국인이 그대로 쓰면 무례하거나 오해를 살 줄 — 개수·줄·이유.
+없으면 "0개". 답은 한국어로, 간결하게.
+
+1 C: Jövő héten egy rövid megbeszélés a karácsonyi beosztásról. Mikor érnek rá? / 다음 주에 크리스마스 근무표 짧은 회의 해요. 언제들 돼요?
+2 B: Nekem hétfő délelőtt tökéletes. / 저는 월요일 오전 딱 좋아요.
+3 A: Hétfő délelőtt nyelvórám van. Mit szól a keddhez? / 월요일 오전은 어학 수업 있어요. 화요일은 어때요?
+4 C: Kedden egész nap a könyvelővel leszek. / 화요일은 하루 종일 회계사랑 있어요.
+5 B: Szerda délután háromkor? Akkor kevesebb a vendég. / 수요일 오후 세 시요? 그때 손님 적어요.
+6 A: Szerda háromkor fogorvoshoz megyek. Bocsi! / 수요일 세 시는 치과예요. 죄송해요!
+7 B: Na, ez így tényleg nehéz. Te mikor érsz rá egyáltalán? / 아, 이러면 진짜 어렵네. 너 대체 언제 돼?
+8 A: Csütörtökön bármikor. Az a szabadnapom. / 목요일은 아무 때나 돼요. 그날 쉬는 날이에요.
+9 C: Csütörtök négy óra? Ott leszek. / 목요일 네 시? 저는 괜찮아요.
+10 B: Nekem is jó. Felírom a táblára. / 저도 좋아요. 칠판에 적어 둘게요.
+11 A: Szuper. Szóval csütörtök négy, karácsonyi beosztás. / 좋아요. 그러니까 목요일 네 시, 크리스마스 근무표.
+12 C: Igen. Aki nem jön, az szenteste dolgozik. / 네. 안 오는 사람은 이브에 근무예요.
+13 A: Várjatok, csütörtök négykor van a nyelvvizsgám! Teljesen elfelejtettem. / 잠깐요, 목요일 네 시에 어학 시험 있어요! 완전 까먹었어요.
+14 B: Jól van, akkor szenteste együtt dolgozunk. Hozok bejglit! / 됐어, 그럼 이브에 같이 일하자. 베이글리 가져올게!
+15 C: Csak vicceltem. Ötkor kezdjük, sok sikert a vizsgához! / 농담이었어요. 다섯 시에 해요, 시험 잘 보세요!
