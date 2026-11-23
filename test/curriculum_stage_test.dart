@@ -46,9 +46,9 @@ void main() {
     expect(svc.nextLevel('R1'), 'R2');
   });
 
-  test('저장: 단계 번호는 숫자로, 옛 R 값도 읽힘', () {
+  test('저장: 단계 번호는 문자열로, 숫자·옛 R 값도 읽힘', () {
     final s = CurriculumState(level: '2');
-    expect(s.toJson()['level'], 2);
+    expect(s.toJson()['level'], '2');
     expect(CurriculumState.fromJson({'level': 3}).level, '3');
     expect(CurriculumState.fromJson({'level': 'R2'}).level, 'R2');
   });

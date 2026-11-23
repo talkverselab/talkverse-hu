@@ -111,7 +111,7 @@ class CurriculumState {
     );
   }
   Map<String, dynamic> toJson() => {
-        'level': int.tryParse(level ?? '') ?? level, // 단계 번호(1~5, §12) — 옛 R 값은 그대로
+        'level': level, // 단계 번호를 문자열 '1'..'5' 로(§12 끝줄, ja 기준 — 읽을 때는 숫자도 받음)
         'dailyGoal': dailyGoal,
         'course': course?.toJson(),
         'passedDialogues': passedDialogues,
