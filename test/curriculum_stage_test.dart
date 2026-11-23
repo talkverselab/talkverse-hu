@@ -52,4 +52,19 @@ void main() {
     expect(CurriculumState.fromJson({'level': 3}).level, '3');
     expect(CurriculumState.fromJson({'level': 'R2'}).level, 'R2');
   });
+
+  test('단계 JSON 의 pick·pass·daily 를 읽고, 없으면 기본값', () {
+    svc.stagesForTest = [
+      {'n': 1, 'dialogueIds': <String>[], 'pick': [4, 8], 'pass': 70, 'daily': {'light': 2, 'normal': 3, 'focus': 5}},
+      {'n': 2, 'dialogueIds': <String>[]},
+    ];
+    expect(svc.pickFor('1'), [4, 8]);
+    expect(svc.passFor('1'), 70);
+    expect(svc.dailyFor('1'), {'light': 2, 'normal': 3, 'focus': 5});
+    expect(svc.pickFor('2'), [3, 5, 10]);
+    expect(svc.passFor('2'), 80);
+    expect(svc.dailyFor('2'), {'light': 1, 'normal': 2, 'focus': 3});
+    final st = CurriculumState(course: Course('c', ['a']));
+    expect(st.recordExam(7, 10, {}, '2026-11-23', passPercent: 70), isTrue);
+  });
 }

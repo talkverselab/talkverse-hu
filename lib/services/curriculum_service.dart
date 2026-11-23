@@ -185,12 +185,12 @@ class CurriculumState {
   }
 
   /// 코스 시험 결과. 통과면 코스 완료·통과 편 기록, 아니면 틀린 편의 연습 표시를 지워 다시 연습하게.
-  bool recordExam(int correct, int total, Set<String> wrongDialogues, String today) {
+  bool recordExam(int correct, int total, Set<String> wrongDialogues, String today, {int passPercent = kPassPercent}) {
     final c = course;
     if (c == null) return false;
     final s = scorePercent(correct, total);
     c.examScores.add(s);
-    if (s >= kPassPercent) {
+    if (s >= passPercent) {
       c.passedAt = today;
       for (final id in c.dialogueIds) {
         if (!passedDialogues.contains(id)) passedDialogues.add(id);
@@ -405,6 +405,25 @@ class CurriculumService {
       if ((s['dialogueIds'] as List? ?? const []).contains(d.id)) return levelList('${s['n']}');
     }
     return DialogueService.instance.list(region: d.region);
+  }
+
+  // 단계별 설정(§12 — 「내용은 모두 DB 에서」, uk 11-23): JSON 값이 있으면 그것, 없으면 기본값.
+  Map<String, dynamic>? _stage(String? lv) => stageMode ? _stages!.where((x) => '${x['n']}' == lv).firstOrNull : null;
+
+  /// 고를 편 수 선택지(기본 3·5·10).
+  List<int> pickFor(String? lv) {
+    final p = [for (final x in (_stage(lv)?['pick'] as List? ?? const [])) if (x is num && x > 0) x.toInt()];
+    return p.isEmpty ? const [3, 5, 10] : p;
+  }
+
+  /// 통과 점수(기본 80).
+  int passFor(String? lv) => (_stage(lv)?['pass'] as num?)?.toInt() ?? kPassPercent;
+
+  /// 하루 새 편 수 — 가볍게·보통·집중(기본 1·2·3).
+  Map<String, int> dailyFor(String? lv) {
+    final d = _stage(lv)?['daily'];
+    int v(String k, int def) => d is Map && d[k] is num ? (d[k] as num).toInt() : def;
+    return {'light': v('light', 1), 'normal': v('normal', 2), 'focus': v('focus', 3)};
   }
 
   /// 레벨(단계)의 편을 모두 통과했나.
