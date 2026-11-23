@@ -10,6 +10,8 @@ import collections, csv, json, os, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CAP = 1500
+# 12+ 등급: 단어 화면·퀴즈에서 비속어를 뺀다(uk 출시 점검 11-23)
+BAD = {'baszik', 'fasz', 'kibaszott', 'kurva', 'picsa', 'ribanc', 'seggfej', 'szar', 'geci', 'kurvára', 'elbasz', 'kibasz'}
 LEX = os.path.join(ROOT, 'assets/data/vocab/lexicon_hu.json')
 TOP = os.path.join(ROOT, 'assets/data/freq/cliff_words_hu.json')
 CONV = os.path.join(ROOT, 'assets/data/freq/conv_words_hu.json')
@@ -24,6 +26,7 @@ def dump(path, obj):
 
 def main():
     rows = list(csv.DictReader(open(sys.argv[1], encoding='utf-8')))
+    rows = [r for r in rows if r['word'].lower() not in BAD]
     meta = json.load(open(LEX, encoding='utf-8'))['_meta']
     words = {r['word'].lower(): {'ko': r['ko'], 'rd': r['reading'], 'en': r['en'], 'pos': r['pos'], 'rank': int(r['rank']), 'lv': r['level']}
              for r in rows if r['pos'] != 'suffix'}

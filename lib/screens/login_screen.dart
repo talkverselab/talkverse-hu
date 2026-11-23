@@ -91,7 +91,8 @@ class _LoginScreenState extends State<LoginScreen> {
                   if (providers == null)
                     const Center(child: Padding(padding: EdgeInsets.all(24), child: CircularProgressIndicator()))
                   else
-                    for (final p in const ['google', 'naver', 'kakao', 'apple']) Padding(padding: const EdgeInsets.only(bottom: 12), child: _button(p)),
+                    // 켜진 제공자만 보인다 — 누르면 「준비 중」인 버튼은 애플 2.1 거절 사유(uk 11-23). 순서·모양은 그대로.
+                    for (final p in const ['google', 'naver', 'kakao', 'apple']) if (_ready(p)) Padding(padding: const EdgeInsets.only(bottom: 12), child: _button(p)),
                   if (error != null) ...[
                     const SizedBox(height: 8),
                     Text(error!, textAlign: TextAlign.center, style: const TextStyle(color: Colors.redAccent, fontSize: 13)),
@@ -101,7 +102,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Center(
                     child: TextButton(
                       onPressed: () => setState(() => emailOpen = !emailOpen),
-                      child: Text(tr('이메일로 로그인 (심사·테스트용)'), style: const TextStyle(fontSize: 12.5, color: AppColors.tintaLight)),
+                      child: Text(tr('이메일로 로그인'), style: const TextStyle(fontSize: 12.5, color: AppColors.tintaLight)),
                     ),
                   ),
                   if (emailOpen) ...[

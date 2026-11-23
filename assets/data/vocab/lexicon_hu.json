@@ -3009,14 +3009,6 @@
 "rank": 493,
 "lv": "EXT"
 },
-"szar": {
-"ko": "똥, 형편없는(비속어)",
-"rd": "써르",
-"en": "shit",
-"pos": "noun",
-"rank": 494,
-"lv": "EXT"
-},
 "erős": {
 "ko": "강한",
 "rd": "에뢰시",
@@ -3071,14 +3063,6 @@
 "en": "sometimes",
 "pos": "adv",
 "rank": 501,
-"lv": "EXT"
-},
-"kurva": {
-"ko": "(욕설)",
-"rd": "쿠르버",
-"en": "whore",
-"pos": "noun",
-"rank": 503,
 "lv": "EXT"
 },
 "megnéz": {
@@ -4225,14 +4209,6 @@
 "rank": 674,
 "lv": "EXT"
 },
-"kibaszott": {
-"ko": "빌어먹을(욕설)",
-"rd": "키버솟트",
-"en": "damn",
-"pos": "adj",
-"rank": 675,
-"lv": "EXT"
-},
 "autó": {
 "ko": "자동차",
 "rd": "어우토",
@@ -5225,14 +5201,6 @@
 "rank": 819,
 "lv": "EXT"
 },
-"fasz": {
-"ko": "(비속어)",
-"rd": "퍼스",
-"en": "vulgar",
-"pos": "noun",
-"rank": 820,
-"lv": "EXT"
-},
 "különb": {
 "ko": "더 나은, 별개의 (사전형: különb)",
 "rd": "퀼룀브",
@@ -5247,14 +5215,6 @@
 "en": "to promise",
 "pos": "verb",
 "rank": 824,
-"lv": "EXT"
-},
-"baszik": {
-"ko": "성관계하다 (비속어)",
-"rd": "버스시크",
-"en": "to fuck",
-"pos": "verb",
-"rank": 827,
 "lv": "EXT"
 },
 "ellenség": {
@@ -6329,14 +6289,6 @@
 "rank": 984,
 "lv": "EXT"
 },
-"picsa": {
-"ko": "(비속어)",
-"rd": "피치어",
-"en": "vulgar term",
-"pos": "noun",
-"rank": 985,
-"lv": "EXT"
-},
 "számom": {
 "ko": "나에게는 (사전형: számomra)",
 "rd": "서몸",
@@ -6631,14 +6583,6 @@
 "en": "sorry",
 "pos": "interj",
 "rank": 1029,
-"lv": "EXT"
-},
-"seggfej": {
-"ko": "멍청이(욕)",
-"rd": "셰그페이",
-"en": "jerk",
-"pos": "noun",
-"rank": 1030,
 "lv": "EXT"
 },
 "ajánl": {
@@ -9671,14 +9615,6 @@
 "en": "calm down",
 "pos": "verb",
 "rank": 1451,
-"lv": "EXT"
-},
-"ribanc": {
-"ko": "걸레(욕)",
-"rd": "리번츠",
-"en": "slut",
-"pos": "noun",
-"rank": 1452,
 "lv": "EXT"
 },
 "édesanya": {

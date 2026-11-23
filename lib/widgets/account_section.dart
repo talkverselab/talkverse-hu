@@ -62,7 +62,7 @@ class AccountSection extends StatelessWidget {
             builder: (context, _, _) => ListTile(
               leading: const Icon(Icons.workspace_premium_outlined, color: AppColors.rojo),
               title: Text(tr('이용권')),
-              subtitle: Text(Entitlement.premium ? tr('이용 중') : tr('1개월 · 3개월 · 1년 · 평생'), style: const TextStyle(fontSize: 12)),
+              subtitle: Text(Entitlement.premium ? tr('이용 중') : tr('2단계 이상 회화·커리큘럼 · 문법·언어감각 전체'), style: const TextStyle(fontSize: 12)),
               trailing: const Icon(Icons.chevron_right),
               onTap: () => Entitlement.showPaywall(context),
             ),

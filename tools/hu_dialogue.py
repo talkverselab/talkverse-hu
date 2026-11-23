@@ -71,7 +71,7 @@ def to_json(e, lemmatize=None):
         if e.get(k):
             speakers[k.upper()] = e[k]
     exprs = [x.strip() for x in e.get('expressions', '').split(';') if x.strip()]
-    d = {'id': e['id'], 'region': region, 'island': island, 'kind': e.get('kind', 'short'), 'draft': True, 'purpose': e.get('purpose', '').split(), 'domain': [island],
+    d = {'id': e['id'], 'region': region, 'island': island, 'kind': e.get('kind', 'short'), 'purpose': e.get('purpose', '').split(), 'domain': [island],
          'title': e.get('title', ''), 'emoji': e.get('emoji', '💬'), 'scene': e.get('scene', ''), 'speakers': speakers, 'register': e.get('register', 'mixed'),
          'twist': int(tw[0]), 'twist_type': tw[1] if len(tw) > 1 else '', 'flags': e.get('flags', '').split(), 'goal': e.get('goal', ''), 'expressions': exprs, 'turns': []}
     pf = os.path.join(ROOT, 'data/tts/plan', e['id'] + '.json')
