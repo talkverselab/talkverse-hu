@@ -4,7 +4,7 @@ title: 쪽지는 어디에
 emoji: 🧳
 scene: 동역. 기차까지 네 시간이 남아 Dávid 와 짐을 자동 보관함에 맡기고 시내에 다녀온다
 b: Dávid
-c: Őr
+c: Biztonsági őr
 register: mixed
 twist: 15 chaos
 purpose: travel making_friends

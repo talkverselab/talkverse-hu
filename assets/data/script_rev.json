@@ -140,7 +140,7 @@
 "dialogues/R3/study/r3_study_b3.json": "5fe96bc7a1da",
 "dialogues/R3/study/r3_study_b4.json": "6f831d998114",
 "dialogues/R3/study/r3_study_c1.json": "7ffbece6fbdc",
-"dialogues/R3/travel/r3_travel_b1.json": "df543972c1f6",
+"dialogues/R3/travel/r3_travel_b1.json": "0bd4a0a05524",
 "dialogues/R3/travel/r3_travel_b2.json": "53265e984012",
 "dialogues/R3/travel/r3_travel_b3.json": "543c26efb9fd",
 "dialogues/R3/travel/r3_travel_b4.json": "8ebf0827cef9",
@@ -153,5 +153,5 @@
 "grammar/lesson1.json": "669c384fab3e",
 "grammar/sense_course.json": "d437aeef222e"
 },
-"rev": 7
+"rev": 8
 }
