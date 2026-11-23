@@ -4,6 +4,8 @@ import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
+import '../services/curriculum_service.dart';
 import '../services/dialogue_service.dart';
 import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
@@ -89,7 +91,7 @@ class _TodayCut extends StatelessWidget {
       Text(d.sceneShown, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
       const SizedBox(height: 10),
       FilledButton.icon(
-        onPressed: () => openPane(context, (_) => DialogueScreen(dialogue: d)),
+        onPressed: () => openDialogue(context, d),
         style: FilledButton.styleFrom(backgroundColor: AppColors.beni, foregroundColor: Colors.white, shape: const StadiumBorder(), visualDensity: VisualDensity.compact),
         icon: const Icon(Icons.menu_book_rounded, size: 18),
         label: Text(tr('읽기 시작'), style: const TextStyle(fontWeight: FontWeight.w800)),
@@ -147,6 +149,15 @@ class _TopicRow extends StatelessWidget {
 }
 
 /// 주제의 편 목록.
+/// 편 열기 — 2단계 이상(R2~) 편은 이용권이 있어야(PAYWALL_SPEC 11-23). 잠겼으면 결제 화면, 사고 오면 그대로 연다.
+Future<void> openDialogue(BuildContext context, Dialogue d) async {
+  if (CurriculumService.locked(CurriculumService.dialogueFree(d))) {
+    await Entitlement.showPaywall(context);
+    if (!context.mounted || CurriculumService.locked(CurriculumService.dialogueFree(d))) return;
+  }
+  await openPane(context, (_) => DialogueScreen(dialogue: d));
+}
+
 class DialogueListScreen extends StatelessWidget {
   final String region;
   final String topic;
@@ -172,11 +183,13 @@ class DialogueListScreen extends StatelessWidget {
             child: Material(
               color: Colors.transparent,
               child: ListTile(
-                onTap: () => openPane(context, (_) => DialogueScreen(dialogue: d)),
+                onTap: () => openDialogue(context, d),
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 subtitle: Text(d.sceneShown, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
-                trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+                trailing: CurriculumService.locked(CurriculumService.dialogueFree(d))
+                    ? const Icon(Icons.lock_outline, color: AppColors.muted, semanticLabel: '잠김')
+                    : Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
               ),
             ),
           );

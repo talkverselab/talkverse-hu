@@ -7,6 +7,7 @@ import 'package:flutter/services.dart' show rootBundle;
 
 import '../core/embed_env.dart';
 import '../core/prefs.dart';
+import '../data/entitlement.dart';
 import 'dialogue_service.dart';
 
 /// 토크버스 커리큘럼 — 전 언어 공통 기준(`~/talkverse/CURRICULUM_SPEC.md`, 2026-11-22).
@@ -345,6 +346,8 @@ class CurriculumService {
   }
 
   void _applyContent(Map<String, dynamic>? m) {
+    freeSteps = (m?['freeSteps'] as num?)?.toInt() ?? 2;
+    freeSenseLevels = (m?['freeSenseLevels'] as num?)?.toInt() ?? 1;
     final st = m?['stages'];
     if (st is! List || st.isEmpty) {
       _stages = null;
@@ -406,6 +409,24 @@ class CurriculumService {
     }
     return DialogueService.instance.list(region: d.region);
   }
+
+  // ── 이용권 잠금(PAYWALL_SPEC 11-23): 값은 커리큘럼 JSON(서버) — 없으면 기본(1단계·문법 2스텝·언어감각 1급 무료) ──
+  int freeSteps = 2;
+  int freeSenseLevels = 1;
+
+  /// 이 단계가 무료인가 — JSON 의 free, 없으면 첫 단계만. 옛 동작(R)이면 R0·R1 무료.
+  bool stageFree(String? lv) {
+    if (!stageMode) return lv == 'R0' || lv == 'R1';
+    final s = _stage(lv);
+    if (s != null && s['free'] is bool) return s['free'] as bool;
+    return _stages!.isNotEmpty && '${_stages!.first['n']}' == lv;
+  }
+
+  /// 회화 편이 무료인가 — 1단계(R0·R1) 편만.
+  static bool dialogueFree(Dialogue d) => d.region == 'R0' || d.region == 'R1' || d.region == 'L1';
+
+  /// 잠겼나 = 무료가 아니고 이용권도 없음. [premium] 은 시험용.
+  static bool locked(bool free, {bool? premium}) => !free && !(premium ?? Entitlement.premium);
 
   // 단계별 설정(§12 — 「내용은 모두 DB 에서」, uk 11-23): JSON 값이 있으면 그것, 없으면 기본값.
   Map<String, dynamic>? _stage(String? lv) => stageMode ? _stages!.where((x) => '${x['n']}' == lv).firstOrNull : null;

@@ -9,6 +9,8 @@ import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/prefs.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
+import '../services/curriculum_service.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 
@@ -51,6 +53,14 @@ class SenseCourse {
     await p.setStringList(_kDoneKey, s.toList());
   }
 
+  /// 이용권 잠금(PAYWALL_SPEC 11-23): 앞 freeSenseLevels 급(기본 1급)만 무료 — 값은 커리큘럼 JSON(서버).
+  static bool lockedAt(Map<String, dynamic> d, int index) {
+    final all = flat(d);
+    if (index < 0 || index >= all.length) return false;
+    final lvIdx = (d['levels'] as List).indexOf(all[index].$1);
+    return CurriculumService.locked(lvIdx < CurriculumService.instance.freeSenseLevels);
+  }
+
   /// 모든 회차를 순서대로 (레벨, 회차) 쌍으로.
   static List<(Map<String, dynamic>, Map<String, dynamic>)> flat(Map<String, dynamic> d) => [
         for (final lv in (d['levels'] as List).cast<Map<String, dynamic>>())
@@ -76,6 +86,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _load() async {
+    await CurriculumService.instance.ensureLoaded(); // 무료 급 수(freeSenseLevels)
     final d = await SenseCourse.load();
     final done = await SenseCourse.done();
     if (!mounted) return;
@@ -86,6 +97,10 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _open(int index) async {
+    if (SenseCourse.lockedAt(_data!, index)) {
+      await Entitlement.showPaywall(context);
+      if (!mounted || SenseCourse.lockedAt(_data!, index)) return;
+    }
     await openFull(context, (_) => SenseLessonScreen(index: index));
     _load();
   }
@@ -164,7 +179,9 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
                     child: Text(ls['title'] as String,
                         style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: AppColors.sumi)),
                   ),
-                  if (isDone)
+                  if (SenseCourse.lockedAt(d, idx))
+                    const Icon(Icons.lock_outline, color: AppColors.muted, size: 20, semanticLabel: '잠김')
+                  else if (isDone)
                     const Icon(Icons.check_circle, color: AppColors.matcha, size: 20)
                   else if (isNext)
                     Text(tr('다음'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.ai)),
@@ -213,7 +230,9 @@ class _SenseLessonScreenState extends State<SenseLessonScreen> {
     while (nextIdx < all.length && all[nextIdx].$2['kind'] == 'ref') {
       nextIdx++;
     }
-    if (nextIdx < all.length) {
+    final data = await SenseCourse.load();
+    if (!mounted) return;
+    if (nextIdx < all.length && !SenseCourse.lockedAt(data, nextIdx)) {
       Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (_) => SenseLessonScreen(index: nextIdx)));
     } else {

@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 
 import '../core/theme.dart';
+import '../data/entitlement.dart';
+import '../services/curriculum_service.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
@@ -68,10 +70,12 @@ class GrammarHubScreen extends StatefulWidget {
 class _GrammarHubScreenState extends State<GrammarHubScreen> {
   List<GrammarLesson>? _lessons;
 
+  bool _locked(int i) => CurriculumService.locked(i < CurriculumService.instance.freeSteps);
+
   @override
   void initState() {
     super.initState();
-    GrammarLesson.loadAll().then((l) {
+    CurriculumService.instance.ensureLoaded().then((_) => GrammarLesson.loadAll()).then((l) {
       if (mounted) setState(() => _lessons = l);
     });
   }
@@ -91,7 +95,7 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
               : ListView(
                   padding: const EdgeInsets.all(16),
                   children: [
-                    for (final l in lessons)
+                    for (final (i, l) in lessons.indexed)
                       Card(
                         color: Colors.white,
                         margin: const EdgeInsets.only(bottom: 10),
@@ -103,7 +107,7 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
                           subtitle: Text(
                               '${l.subtitle.isEmpty ? '' : '${l.subtitle}\n'}${trf('패턴 {0} · 예문 {1}', [l.patterns.length, l.exampleCount])}',
                               style: const TextStyle(fontSize: 12, height: 1.4)),
-                          trailing: IconButton(
+                          trailing: _locked(i) ? const Icon(Icons.lock_outline, color: AppColors.tintaLight, semanticLabel: '잠김') : IconButton(
                             tooltip: tr('테스트'),
                             icon: const Icon(Icons.quiz, color: AppColors.rojo),
                             onPressed: () => Navigator.push(
@@ -111,10 +115,16 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
                               MaterialPageRoute(builder: (_) => GrammarTestScreen(lesson: l)),
                             ),
                           ),
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => GrammarLessonScreen(lesson: l)),
-                          ),
+                          onTap: () async {
+                            // 앞 freeSteps 스텝(기본 2)만 무료 — 잠겼으면 결제 화면(PAYWALL_SPEC 11-23)
+                            if (_locked(i)) {
+                              await Entitlement.showPaywall(context);
+                              if (!context.mounted || _locked(i)) return;
+                              setState(() {});
+                            }
+                            if (!context.mounted) return;
+                            await Navigator.push(context, MaterialPageRoute(builder: (_) => GrammarLessonScreen(lesson: l)));
+                          },
                         ),
                       ),
                   ],

@@ -47,12 +47,12 @@ Future<void> embedInit({bool standalone = false}) async {
   Purchase.ownStream = standalone;
   // 가격표 = ~/talkverse/PRICING.md(사용자 확정 2026-11-09) — 앱 할인가(30%)·앱 정가.
   Purchase.configure('hu', const [
-    Plan('lang_hu_1m', 1, 3900, listKrw: 5500),
-    Plan('lang_hu_3m', 3, 9000, listKrw: 12900),
-    Plan('lang_hu_1y', 12, 19900, listKrw: 28500),
-    Plan('lang_hu_life', 0, 49000, listKrw: 69900),
-    Plan('all_1y', 12, 79000, listKrw: 112900, bundle: true),
-    Plan('all_life', 0, 329000, listKrw: 469000, bundle: true),
+    Plan('lang_hu_1m', 1),
+    Plan('lang_hu_3m', 3),
+    Plan('lang_hu_1y', 12),
+    Plan('lang_hu_life', 0),
+    Plan('all_1y', 12, bundle: true),
+    Plan('all_life', 0, bundle: true),
   ]);
   // 회화 원고는 켤 때마다 무조건 서버 판을 확인해 받는다 — 그림·음성 내려받기(선택·「나중에」)와 따로(일본어앱 빌드 114, 2026-11-18 전달).
   // 느린 망에서는 startupWait 까지만 기다리고 앱을 연다(받기는 뒤에서 이어지고, 끝나면 회화 목록을 다시 읽는다).
