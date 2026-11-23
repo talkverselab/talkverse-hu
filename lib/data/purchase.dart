@@ -77,8 +77,9 @@ class Purchase {
     }
     if (ownStream) _sub ??= InAppPurchase.instance.purchaseStream.listen(onPurchaseUpdates, onError: (_) => status.value = 'error');
     await loadProducts();
-    // 시작 때 복원 조회(PAYWALL_SPEC §4) — 다른 기기에서 산 것·재설치 뒤를 연다. 화면 안내는 하지 않는다.
-    if (ownStream) {
+    // 시작 때 조용한 복원 조회는 안드로이드만(uk 11-23 — iOS 는 restorePurchases 가 Apple ID 암호 창을 띄울 수 있어 「구매 복원」 단추로만,
+    // 미완료 거래는 purchaseStream 이 자동으로 받는다). 화면 안내는 하지 않는다.
+    if (ownStream && isAndroid) {
       _silent = true;
       try {
         await InAppPurchase.instance.restorePurchases();
