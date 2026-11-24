@@ -30,8 +30,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Na, figyelj! Jövő héten Bence szülinapja. Mit vegyünk?",
-   "rd": "너, 피젤이! 요뵈 헤텐 벤체 쓀리너프여. 미트 베쥔크?",
+   "hu": "Na, figyelj! Jövő héten lesz Bence szülinapja. Mit vegyünk?",
+   "rd": "너, 피젤이! 요뵈 헤텐 레쓰 벤체 쓀리너프여. 미트 베쥔크?",
    "ko": "야, 들어봐! 다음 주 벤체 생일이야. 뭐 살까?",
    "note": "Mit vegyünk? = 우리 뭐 살까?",
    "tags": [
@@ -53,6 +53,11 @@
      "héten",
      "hét",
      "헤트"
+    ],
+    [
+     "lesz",
+     "lesz",
+     "레쓰"
     ],
     [
      "szülinapja",
@@ -125,8 +130,8 @@
   {
    "num": 4,
    "speaker": "A",
-   "hu": "Akkor egy csinos bögrét?",
-   "rd": "어꼬르 에지 치노시 뵉레트?",
+   "hu": "Akkor egy szép bögrét?",
+   "rd": "어꼬르 에지 쎄프 뵉레트?",
    "ko": "그럼 예쁜 머그컵은 어때?",
    "note": "bögre = 머그컵",
    "tags": [],
@@ -138,9 +143,9 @@
      "어꼬르"
     ],
     [
-     "csinos",
-     "csinos",
-     "치노시"
+     "szép",
+     "szép",
+     "쎕"
     ],
     [
      "bögrét",
@@ -186,7 +191,7 @@
    "speaker": "A",
    "hu": "Igen, nagyon szép. És tegyünk bele egy kis kávét.",
    "rd": "이겐, 너죤 쎄프. 에시 테쥔크 벨레 에지 키시 카베트.",
-   "ko": "응, 진짜 예뻐. 그리고 커피도 조금 넣어.",
+   "ko": "응, 진짜 예뻐. 그리고 커피도 조금 넣자.",
    "note": "bele = 안에(로)",
    "tags": [],
    "emotion": "cheerful",
@@ -268,7 +273,7 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Hogyhogy? Ja, a munkahelyen elég kávét lát!",
+   "hu": "Hogyhogy? Ja, a munkahelyén elég kávét lát!",
    "rd": "호지호지? 여, 어 문커헤옌 엘렉 카베트 라트!",
    "ko": "왜 그래? 아, 직장에서 커피는 실컷 보는구나!",
    "note": "hogyhogy? = 어째서?",
@@ -283,7 +288,7 @@
     ],
     [
      "amused",
-     "Ja, a munkahelyen elég kávét lát!"
+     "Ja, a munkahelyén elég kávét lát!"
     ]
    ],
    "lemmas": [
@@ -293,7 +298,7 @@
      ""
     ],
     [
-     "munkahelyen",
+     "munkahelyén",
      "munkahely",
      ""
     ],

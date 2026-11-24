@@ -92,8 +92,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Nagyi mindig sokat csinál. Vigyázz!",
-   "rd": "너지 민딕 쇼커트 치날. 비자즈!",
+   "hu": "Nagyi mindig sokat főz. Vigyázz!",
+   "rd": "너지 민딕 쇼커트 푀즈. 비자즈!",
    "ko": "할머니는 늘 많이 하셔. 조심해!",
    "note": "nagyi = 할머니(친근하게)",
    "tags": [],
@@ -110,9 +110,9 @@
      "민딕"
     ],
     [
-     "csinál",
-     "csi",
-     "치"
+     "főz",
+     "főz",
+     ""
     ]
    ]
   },

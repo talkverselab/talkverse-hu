@@ -32,7 +32,7 @@
    "speaker": "B",
    "hu": "Figyelj, két jegyem van koncertre.",
    "rd": "피젤이, 케트 예젬 번 콘체르트레.",
-   "ko": "있어봐, 콘서트 표 두 장 있어.",
+   "ko": "있잖아, 콘서트 표 두 장 있어.",
    "note": "jegy = 표",
    "tags": [],
    "emotion": "cheerful",
@@ -132,26 +132,26 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Este nyolckor, pénteken.",
-   "rd": "에슈테 뇰츠코르, 펜테켄.",
-   "ko": "저녁 여덟 시, 금요일.",
-   "note": "pénteken = 금요일에",
+   "hu": "Péntek este nyolckor.",
+   "rd": "펜텍 에슈테 뇰츠코르.",
+   "ko": "금요일 저녁 여덟 시.",
+   "note": "péntek este = 금요일 저녁",
    "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Este",
+     "Péntek",
+     "péntek",
+     ""
+    ],
+    [
+     "este",
      "este",
      "에슈테"
     ],
     [
      "nyolckor",
      "nyolckor",
-     ""
-    ],
-    [
-     "pénteken",
-     "péntek",
      ""
     ]
    ]
@@ -176,10 +176,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Semmibe kerül. A bátyám adta.",
-   "rd": "셈미베 케륄. 어 바턈 어드터.",
+   "hu": "Nem kerül semmibe. A bátyám adta.",
+   "rd": "넴 케륄 셈미베. 어 바턈 어드터.",
    "ko": "공짜야. 오빠가 줬어.",
-   "note": "semmibe = 공짜",
+   "note": "nem kerül semmibe = 돈이 안 든다",
    "tags": [],
    "emotion": "amused",
    "lemmas": [

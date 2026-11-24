@@ -199,8 +199,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Meglepetés lett volna. Boldog szülinapot előre! 🎂",
-   "rd": "멕레페테시 레트 볼너. 볼독 쓀리너포트 엘뢰레! 🎂",
+   "hu": "Meglepetés lett volna. Előre is boldog szülinapot! 🎂",
+   "rd": "멕레페테시 레트 볼너. 엘뢰레 이시 볼독 쓀리너포트! 🎂",
    "ko": "서프라이즈였는데. 미리 생일 축하해! 🎂",
    "note": "lett volna = ~였을 텐데",
    "tags": [],
@@ -224,14 +224,14 @@
      "번"
     ],
     [
+     "boldog",
+     "boldog",
+     "볼도그"
+    ],
+    [
      "szülinapot",
      "szülinap",
      "쓸리넙"
-    ],
-    [
-     "előre",
-     "előre",
-     "엘뢰레"
     ]
    ]
   }

@@ -176,8 +176,8 @@
    "speaker": "A",
    "hu": "Köszi! Akkor adsz egy csókot?",
    "rd": "쾨씨! 어꼬르 어드쓰 에지 초코트?",
-   "ko": "고마워! 그럼 뽀뽀 하나 줄래?",
-   "note": "csók = 뽀뽀",
+   "ko": "고마워! 그럼 키스 하나 줄래?",
+   "note": "csók = 키스",
    "tags": [
     "expr:Adsz"
    ],
@@ -205,8 +205,8 @@
    "speaker": "B",
    "hu": "Egy csókot? Itt, a boltban?",
    "rd": "에지 초코트? 이트, 어 볼트번?",
-   "ko": "뽀뽀? 여기, 가게에서?",
-   "note": "csókot = 뽀뽀를",
+   "ko": "키스? 여기, 가게에서?",
+   "note": "csókot = 키스를",
    "tags": [],
    "emotion": "amused",
    "lemmas": [

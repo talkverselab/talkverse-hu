@@ -11,7 +11,7 @@ goal: 처음 말 트기 — 이름·어디서 왔는지·커피 제안
 expressions: Szia; Na; Szuper
 B | Szia! Új vagy itt? | 안녕! 여기 처음이야? | új = 새로운 | emotion=cheerful
 A | Igen, ez az első hetem. | 응, 이번이 첫 주야. | első = 첫 | emotion=shy
-B | Réka vagyok. Te? | 나는 레카야. 너는? | Te? = 너는? | emotion=cheerful
+B | Réka vagyok. És te? | 나는 레카야. 너는? | És te? = 너는? | emotion=cheerful
 A | {name}. {country}ból jöttem. | {name}. {country}에서 왔어. | -ból/-ből = ~에서 | emotion=neutral
 B | Szuper! Hogy tetszik Budapest? | 좋다! 부다페스트 어때? | Hogy tetszik? = 마음에 들어? | emotion=excited
 A | Nagyon. De a nyelv nehéz. | 아주 좋아. 근데 말이 어려워. | nehéz = 어려운 | emotion=worried
@@ -54,8 +54,8 @@ A | Nem, köszi. Én csokit szeretnék. | 아니, 고마워. 나는 초콜릿 �
 B | Ott van, a pult mellett. | 저기 있어, 계산대 옆에. | mellett = 옆에 | emotion=gentle
 A | Jaj, nincs nálam pénz. | 아, 나 돈이 없네. | nincs nálam = 나한테 없다 | emotion=flustered
 B | Semmi baj, van kártyám. | 괜찮아, 나 카드 있어. | semmi baj = 괜찮아 | emotion=gentle
-A | Köszi! Akkor adsz egy csókot? | 고마워! 그럼 뽀뽀 하나 줄래? | csók = 뽀뽀 | emotion=cheerful
-B | Egy csókot? Itt, a boltban? | 뽀뽀? 여기, 가게에서? | csókot = 뽀뽀를 | emotion=amused
+A | Köszi! Akkor adsz egy csókot? | 고마워! 그럼 키스 하나 줄래? | csók = 키스 | emotion=cheerful
+B | Egy csókot? Itt, a boltban? | 키스? 여기, 가게에서? | csókot = 키스를 | emotion=amused
 A | Csokit! Csokit akartam mondani! | 초콜릿! 초콜릿이라고 하려 했어! | akartam mondani = 말하려고 했다 | emotion=flustered
 
 === r1_friends_a4
@@ -110,7 +110,7 @@ purpose: making_friends
 goal: 도움 주고받기(Köszi, hogy jöttél · Hoztam segítséget)
 expressions: Hoztam segítséget; Szuper; rendeljünk
 A | Köszi, hogy jöttél! Csak tíz doboz van. | 와 줘서 고마워! 상자 열 개뿐이야. | doboz = 상자 | emotion=cheerful
-B | Szívesen! Hoztam segítséget is. | 천만에! 도와줄 사람도 데려왔어. | segítség = 도움 | emotion=cheerful
+B | Szívesen! Hoztam segítséget is. | 뭘! 도와줄 사람도 데려왔어. | segítség = 도움 | emotion=cheerful
 A | Bencét? Szuper! | 벤체? 좋다! | Bencét = 벤체를 | emotion=excited
 B | És Dávidot, Annát, meg Petit. | 그리고 다비드, 안나, 페티도. | meg = 그리고 | emotion=excited
 A | Hű, öt ember tíz dobozra? | 와, 상자 열 개에 다섯 명? | -ra/-re = ~에 | emotion=surprised
@@ -129,14 +129,14 @@ twist: 7 reveal
 purpose: making_friends
 goal: 선물 고르기(Mit vegyünk? · Szerintem…)
 expressions: Mit vegyünk; Szerintem; Hogyhogy
-B | Na, figyelj! Jövő héten Bence szülinapja. Mit vegyünk? | 야, 들어봐! 다음 주 벤체 생일이야. 뭐 살까? | Mit vegyünk? = 우리 뭐 살까? | emotion=cheerful
+B | Na, figyelj! Jövő héten lesz Bence szülinapja. Mit vegyünk? | 야, 들어봐! 다음 주 벤체 생일이야. 뭐 살까? | Mit vegyünk? = 우리 뭐 살까? | emotion=cheerful
 A | Szerintem kávét vegyünk. Imádja, nem? | 나는 커피 사자. 엄청 좋아하잖아, 그렇지? | imádja = 엄청 좋아한다 | emotion=cheerful
 B | Hát, nem tudom. Valami mást inkább? | 글쎄, 모르겠어. 다른 거 하는 게 낫지? | valami más = 다른 무언가 | emotion=worried
-A | Akkor egy csinos bögrét? | 그럼 예쁜 머그컵은 어때? | bögre = 머그컵 | emotion=neutral
+A | Akkor egy szép bögrét? | 그럼 예쁜 머그컵은 어때? | bögre = 머그컵 | emotion=neutral
 B | Az tök jó! Ez a piros tetszik? | 그거 완전 좋다! 이 빨간 거 마음에 들어? | tetszik = 마음에 든다 | emotion=excited
-A | Igen, nagyon szép. És tegyünk bele egy kis kávét. | 응, 진짜 예뻐. 그리고 커피도 조금 넣어. | bele = 안에(로) | emotion=cheerful
+A | Igen, nagyon szép. És tegyünk bele egy kis kávét. | 응, 진짜 예뻐. 그리고 커피도 조금 넣자. | bele = 안에(로) | emotion=cheerful
 B | Kávét ne már. Otthon csak teát iszik. | 커피는 안 돼. 집에서는 차만 마시거든. | csak teát = 차만 | emotion=amused
-A | Hogyhogy? Ja, a munkahelyen elég kávét lát! | 왜 그래? 아, 직장에서 커피는 실컷 보는구나! | hogyhogy? = 어째서? | emotion=surprised+amused
+A | Hogyhogy? Ja, a munkahelyén elég kávét lát! | 왜 그래? 아, 직장에서 커피는 실컷 보는구나! | hogyhogy? = 어째서? | emotion=surprised+amused
 
 === r1_friends_b3
 kind: long
@@ -196,7 +196,7 @@ A | Néha. Főleg a család meg az étel. | 가끔. 특히 가족이랑 음식. 
 B | Tudod mit? Szombaton főzz nekem valamit! | 있잖아? 토요일에 나한테 뭐 해 줘! | főzz = 요리해 | emotion=excited
 A | Tényleg? De nálam kicsi a konyha. | 진짜? 근데 우리 집 부엌이 작아. | nálam = 우리 집에 | emotion=surprised
 B | Akkor nálam. Én csinálok desszertet. | 그럼 우리 집에서. 디저트는 내가 할게. | desszert = 디저트 | emotion=cheerful
-A | Réka, így már nem is olyan hideg. | 레카, 이러니까 별로 안 춥네. | nem is olyan = 그렇게 ~하지도 않은 | emotion=gentle
+A | Réka, így már nincs is olyan hideg. | 레카, 이러니까 별로 안 춥네. | nincs is olyan = 그렇게 ~하지도 않은 | emotion=gentle
 
 === r1_friends_c1
 kind: chat

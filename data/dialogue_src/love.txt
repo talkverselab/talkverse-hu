@@ -57,7 +57,7 @@ B | Fél hétkor a mozi előtt. Jó? | 반 일곱 시에 영화관 앞. 괜찮�
 A | Szuper. Fél hét, vagyis hét harminc. | 좋아. 반 일곱, 그러니까 7시 30분. | vagyis = 그러니까 | emotion=cheerful
 B | Nem, nem! Fél hét az hat harminc. | 아니 아니! 반 일곱 시는 6시 30분이야. | hat harminc = 6시 30분 | emotion=surprised
 A | Komolyan? Jaj, ezért késtem tegnap! | 진짜? 아이고, 그래서 어제 늦었구나! | ezért = 그래서 | emotion=surprised+flustered
-B | Semmi baj. Holnap hatkor felhívlak, biztos ami biztos. | 괜찮아. 내일 여섯 시에 전화할게, 만일을 위해. | biztos ami biztos = 만일을 위해 | emotion=teasing
+B | Semmi baj. Holnap hatkor felhívlak, biztos ami biztos. | 괜찮아. 내일 여섯 시에 전화할게, 혹시 모르니까. | biztos ami biztos = 만일을 위해 | emotion=teasing
 
 === r1_love_a3
 kind: short
@@ -141,7 +141,7 @@ C | Együtt vagy külön fizetnek? | 같이 계산하세요, 따로 하세요? |
 A | Külön, persze. | 따로요, 당연히. | persze = 당연히 | emotion=cheerful
 B | Persze? Hát jó. | 당연히? 음, 그래. | hát jó = 음, 그래 | emotion=annoyed
 A | Várj, izé, együtt! Együtt fizetünk. | 잠깐, 어, 같이요! 같이 낼게요. | együtt = 같이 | emotion=flustered
-C | Szóval együtt. Sajnos a kártyája nem megy át. | 그러니까 같이요. 죄송한데 카드가 안 되네요. | nem megy át = (결제가) 안 된다 | emotion=polite
+C | Szóval együtt. Sajnos a kártyája nem megy át. | 그럼 같이요. 죄송한데 카드가 안 되네요. | nem megy át = (결제가) 안 된다 | emotion=polite
 B | Semmi baj, majd én. Te a mozit fizeted. | 괜찮아, 내가 낼게. 넌 영화 내. | majd én = 내가 할게 | emotion=teasing
 
 === r1_love_b2
@@ -244,7 +244,7 @@ goal: 무엇을 입을지 묻기(Mit vegyek fel?)와 채팅에서 놀랄 때
 expressions: Úristen; Bocsi; Segíts
 A | Réka, mit vegyek fel szombatra? 😩 | 레카, 토요일에 뭐 입지? 😩 | mit vegyek fel = 뭘 입을까 | emotion=worried at=20:10
 A | Anna biztosan szép lesz. | 언너는 분명 예쁠 거야. | biztosan = 분명 | emotion=shy at=20:11
-B | Szia. Ez Anna vagyok. 😄 | 안녕. 나 언너야. 😄 | ez = 이 사람 | emotion=amused at=20:13
+B | Szia. Én vagyok az Anna. 😄 | 안녕. 나 언너야. 😄 | én vagyok = 나야 | emotion=amused at=20:13
 A | Úristen. Bocsi, rossz chat! | 세상에. 미안, 방 잘못 골랐어! | rossz = 잘못된 | emotion=flustered at=20:13
 A | Réka, segíts! Anna mindent látott! 😱 | 레카, 도와줘! 언너가 다 봤어! 😱 | segíts = 도와줘 | emotion=shout at=20:14
 B | Még mindig én vagyok. 😂 | 아직도 나야. 😂 | még mindig = 아직도 | emotion=amused at=20:14
@@ -287,7 +287,7 @@ A | Szia! Szombaton koncert a parkban. Jössz? | 안녕! 토요일에 공원에�
 A | Ingyenes. 🎶 | 무료야. 🎶 | ingyenes = 무료의 | emotion=cheerful at=12:31
 A | Hahó? Látom, hogy olvastad. 😅 | 여보세요? 읽은 거 다 보여. 😅 | olvastad = 네가 읽었다 | emotion=worried at=14:40
 A | Mindegy, nem baj. | 상관없어, 괜찮아. | mindegy = 상관없어 | emotion=sad at=15:10
-B | Bocsi! Szombaton dolgozom, de kivettem szabadnapot. | 미안! 토요일에 일하는데, 쉬는 날로 뺐어. | szabadnap = 쉬는 날 | emotion=excited at=15:12
+B | Bocsi! Szombaton dolgozom, de kivettem egy szabadnapot. | 미안! 토요일에 일하는데, 쉬는 날로 뺐어. | szabadnap = 쉬는 날 | emotion=excited at=15:12
 B | Két órát vártam a főnökre. 😩 | 사장님을 두 시간 기다렸어. 😩 | főnök = 상사 | emotion=annoyed at=15:12
 A | Komolyan? Miattam? | 진짜? 나 때문에? | miattam = 나 때문에 | emotion=surprised at=15:13
 B | A koncert miatt. Meg egy kicsit miattad. | 콘서트 때문에. 그리고 조금은 너 때문에. | miattad = 너 때문에 | emotion=teasing+shy at=15:14

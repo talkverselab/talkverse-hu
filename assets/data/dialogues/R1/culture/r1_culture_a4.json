@@ -169,8 +169,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Tessék? Engem szeretlek? Vagy a kávét?",
-   "rd": "테쎅? 엔겜 쎄레틀렉? 버지 어 카베트?",
+   "hu": "Tessék? Engem szeretsz? Vagy a kávét?",
+   "rd": "테쎅? 엔겜 쎄레트쓰? 버지 어 카베트?",
    "ko": "뭐라고? 나를 사랑해? 아니면 커피를?",
    "note": "Tessék? = 뭐라고?",
    "tags": [
@@ -184,7 +184,7 @@
      "테셰크"
     ],
     [
-     "szeretlek",
+     "szeretsz",
      "szeret",
      "쎄레트"
     ],

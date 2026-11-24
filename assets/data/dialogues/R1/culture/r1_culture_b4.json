@@ -30,9 +30,9 @@
   {
    "num": 1,
    "speaker": "C",
-   "hu": "Mi a kedvenc ételed Magyarországról, kedvesem?",
-   "rd": "미 어 케드벤츠 에텔레드 머져로르싹롤, 케드베셈?",
-   "ko": "헝가리에서 제일 좋아하는 음식이 뭐니, 얘야?",
+   "hu": "Mi a kedvenc magyar ételed, kedvesem?",
+   "rd": "미 어 케드벤츠 머져르 에텔레드, 케드베셈?",
+   "ko": "제일 좋아하는 헝가리 음식이 뭐니, 얘야?",
    "note": "kedvenc = 가장 좋아하는",
    "tags": [],
    "emotion": "gentle",
@@ -41,6 +41,11 @@
      "kedvenc",
      "kedvenc",
      "케드벤츠"
+    ],
+    [
+     "magyar",
+     "magyar",
+     ""
     ],
     [
      "ételed",
@@ -238,8 +243,8 @@
   {
    "num": 8,
    "speaker": "C",
-   "hu": "Az pörkölt, kedvesem! Gulyás leves, kanállal esszük.",
-   "rd": "어즈 푀르쾰트, 케드베셈! 구야시 레베시, 커날럴 에쒹.",
+   "hu": "Az pörkölt, kedvesem! A gulyás leves, kanállal esszük.",
+   "rd": "어즈 푀르쾰트, 케드베셈! 어 구야시 레베시, 커날럴 에쒹.",
    "ko": "그건 푀르쾰트란다, 얘야! 굴라시는 수프야, 숟가락으로.",
    "note": "pörkölt = 걸쭉한 고기 스튜",
    "tags": [],
@@ -253,6 +258,11 @@
     [
      "kedvesem",
      "kedvesem",
+     ""
+    ],
+    [
+     "gulyás",
+     "gulyás",
      ""
     ],
     [

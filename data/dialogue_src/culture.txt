@@ -32,7 +32,7 @@ goal: 이름의 날 축하하기(Boldog névnapot!)
 expressions: Jaj; Tényleg; Igazából
 A | Boldog névnapot neked! | 이름의 날 축하해! | névnap = 이름의 날 | emotion=cheerful
 B | Jaj, köszi! Na, honnan tudtad? | 어머, 고마워! 어떻게 알았어? | Honnan tudtad? = 어떻게 알았어? | emotion=surprised
-A | A naptárban volt ma. | 달력에 오늘이라고 나왔어. | naptár = 달력 | emotion=amused
+A | Benne volt a naptárban. | 달력에 나와 있었어. | naptár = 달력 | emotion=amused
 B | De aranyos! Virág is? | 정말 다정하다! 꽃도? | kedves = 다정한 | emotion=excited
 A | Igen, neked. | 응, 너 거야. | a tiéd = 네 것 | emotion=shy
 B | Te vagy ma az első. | 오늘 네가 처음이야. | első = 첫째 | emotion=gentle
@@ -50,13 +50,13 @@ twist: 8 chaos
 purpose: media
 goal: 공연 묻기(Milyen koncert? · Mikor? · Mennyibe kerül?)
 expressions: Komolyan; Naná; Várj
-B | Figyelj, két jegyem van koncertre. | 있어봐, 콘서트 표 두 장 있어. | jegy = 표 | emotion=cheerful
+B | Figyelj, két jegyem van koncertre. | 있잖아, 콘서트 표 두 장 있어. | jegy = 표 | emotion=cheerful
 A | Komolyan? Milyen zenekar? | 진짜? 무슨 밴드? | komolyan? = 진짜? | emotion=excited
 B | Magyar rockzenekar. Jössz? | 헝가리 록밴드야. 올래? | Jössz? = 올래? | emotion=cheerful
 A | Naná! Mikor van? | 당연하지! 언제야? | naná = 당연하지 | emotion=excited
-B | Este nyolckor, pénteken. | 저녁 여덟 시, 금요일. | pénteken = 금요일에 | emotion=neutral+cheerful
+B | Péntek este nyolckor. | 금요일 저녁 여덟 시. | péntek este = 금요일 저녁 | emotion=neutral+cheerful
 A | Mennyibe kerül? | 얼마야? | Mennyibe kerül? = 얼마야? | emotion=gentle
-B | Semmibe kerül. A bátyám adta. | 공짜야. 오빠가 줬어. | semmibe = 공짜 | emotion=amused
+B | Nem kerül semmibe. A bátyám adta. | 공짜야. 오빠가 줬어. | nem kerül semmibe = 돈이 안 든다 | emotion=amused
 A | Várj, ma van péntek! Már hét! | 잠깐, 오늘이 금요일이잖아! 벌써 일곱 시! | ma = 오늘 | emotion=surprised+shout
 
 === r1_culture_a4
@@ -76,7 +76,7 @@ B | Mi a legnehezebb neked? | 너한테 제일 어려운 게 뭐야? | legneheze
 A | A -lak és a -lek. Keverem. | -lak이랑 -lek. 헷갈려. | keverem = 헷갈린다 | emotion=sad
 B | Na, gyakoroljunk most. Ízlik a kávé? | 자, 지금 연습하자. 커피 맛있어? | Ízlik? = 입에 맞아? | emotion=cheerful
 A | Igen! Nagyon szeretlek. | 응! 너무 사랑해. | szeretlek = 너를 사랑해 | emotion=cheerful
-B | Tessék? Engem szeretlek? Vagy a kávét? | 뭐라고? 나를 사랑해? 아니면 커피를? | Tessék? = 뭐라고? | emotion=teasing
+B | Tessék? Engem szeretsz? Vagy a kávét? | 뭐라고? 나를 사랑해? 아니면 커피를? | Tessék? = 뭐라고? | emotion=teasing
 A | Jaj, a kávét! Szeretem a kávét! | 아, 커피를! 커피를 좋아해! | szeretem = 그것을 좋아해 | emotion=flustered
 
 === r1_culture_a5
@@ -113,11 +113,11 @@ purpose: media
 goal: 전시장에서 그림 이야기하기(Melyik tetszik? · Ez a…)
 expressions: Nézd; Ugye; Bocsánat; Komolyan
 B | Nézd, ez egy diákkiállítás. Gyere! | 봐, 이건 학생 전시회야. 와! | kiállítás = 전시회 | emotion=excited
-A | Hű, sok kép! Melyik a legjobb? | 와, 그림 많아! 어느 게 제일 좋아? | Melyik? = 어느 것? | emotion=surprised
-B | Mondd te. Melyik tetszik neked? | 네가 말해. 어느 게 마음에 들어? | tetszik = 마음에 들다 | emotion=gentle
+A | Hű, de sok kép! Melyik a legjobb? | 와, 그림 많아! 어느 게 제일 좋아? | Melyik? = 어느 것? | emotion=surprised
+B | Mondd meg te. Melyik tetszik neked? | 네가 말해. 어느 게 마음에 들어? | tetszik = 마음에 들다 | emotion=gentle
 A | Ez a kék. Ugye a Duna? | 이 파란 거. 도나우강이지? | ugye = 그렇지? | emotion=cheerful
 C | Elnézést, ne menjen olyan közel! | 실례합니다, 그렇게 가까이 가지 마세요! | ne menjen = 가지 마세요 | emotion=stiff
-A | Bocsánat! Csak szép. | 죄송해요! 너무 예뻐서요. | bocsánat = 죄송해요 | emotion=flustered
+A | Bocsánat! Csak túl szép. | 죄송해요! 너무 예뻐서요. | bocsánat = 죄송해요 | emotion=flustered
 B | Tetszik? Komolyan? | 마음에 들어? 진심이야? | komolyan = 진심으로 | emotion=shy
 C | Ezt a kisasszony festette. | 이건 이 아가씨가 그렸어요. | festette = 그렸다 | emotion=gentle
 
@@ -132,14 +132,14 @@ twist: 7 chaos
 purpose: media
 goal: 공연 표 사기(Megveszem a jegyeket · Melyik sor?)
 expressions: Szívesen; Szuper; Hát
-B | Szombaton koncert a koncertteremben. Eljössz? | 토요일에 콘서트홀에서 콘서트 있어. 올래? | Eljössz? = 올래? | emotion=cheerful
+B | Szombaton koncert van a koncertteremben. Eljössz? | 토요일에 콘서트홀에서 콘서트 있어. 올래? | Eljössz? = 올래? | emotion=cheerful
 A | Szívesen! Milyen zene lesz? | 좋지! 무슨 음악이야? | szívesen = 기꺼이 | emotion=cheerful
 B | Klasszikus zene. Hegedű, zongora. | 클래식 음악. 바이올린, 피아노. | hegedű = 바이올린 | emotion=gentle
 A | Szuper. Én megveszem online. | 좋다. 내가 온라인으로 살게. | megveszem = 산다 | emotion=excited
 B | Siess! Gyorsan elfogynak. | 서둘러! 금방 매진돼. | elfogy = 다 떨어지다 | emotion=worried
 A | Kész! Két jegy a harmadik sorba. | 됐다! 두 장, 셋째 줄로. | sor = 줄 | emotion=excited
-B | Ügyes vagy! De várj, jövő hónap! | 잘했어! 근데 잠깐, 다음 달이야! | jövő hónap = 다음 달 | emotion=cheerful+surprised
-A | Jaj! Hát, legalább készülünk. | 아! 음, 적어도 준비할 수 있네. | legalább = 적어도 | emotion=flustered+amused
+B | Ügyes vagy! De várj, jövő hónapban! | 잘했어! 근데 잠깐, 다음 달이야! | jövő hónapban = 다음 달에 | emotion=cheerful+surprised
+A | Jaj! Hát, legalább készülhetünk. | 아! 음, 적어도 준비할 수 있네. | legalább = 적어도 | emotion=flustered+amused
 
 === r1_culture_b3
 kind: long
@@ -155,7 +155,7 @@ goal: 식사 초대에서 인사하고 사양하기(Csókolom · Jóllaktam)
 expressions: Gyere; Jaj; Egyél
 A | Csókolom! Nagyon köszönöm a meghívást. | 안녕하세요! 초대해 주셔서 정말 감사합니다. | Csókolom = 어른께 하는 인사 | emotion=polite
 C | Szervusz! Gyere, ülj le! Kész az ebéd. | 어서 와! 와서 앉아! 점심 다 됐어. | ülj le = 앉아 | emotion=cheerful
-B | Nagyi mindig sokat csinál. Vigyázz! | 할머니는 늘 많이 하셔. 조심해! | nagyi = 할머니(친근하게) | emotion=teasing
+B | Nagyi mindig sokat főz. Vigyázz! | 할머니는 늘 많이 하셔. 조심해! | nagyi = 할머니(친근하게) | emotion=teasing
 C | Egyél, egyél! Sonka és tojás. | 먹어, 먹어! 햄이랑 달걀. | egyél = 먹어 | emotion=cheerful
 A | Nagyon finom! Köszönöm. | 정말 맛있어요! 감사합니다. | finom = 맛있는 | emotion=polite
 C | Még egy kicsit? Alig ettél! | 조금 더? 거의 안 먹었잖아! | alig = 거의 ~ 않다 | emotion=worried
@@ -174,14 +174,14 @@ twist: 8 reveal
 purpose: media
 goal: 좋아하는 음식 말하기와 gulyás/pörkölt 구별
 expressions: Hát; Miért
-C | Mi a kedvenc ételed Magyarországról, kedvesem? | 헝가리에서 제일 좋아하는 음식이 뭐니, 얘야? | kedvenc = 가장 좋아하는 | emotion=gentle
+C | Mi a kedvenc magyar ételed, kedvesem? | 제일 좋아하는 헝가리 음식이 뭐니, 얘야? | kedvenc = 가장 좋아하는 | emotion=gentle
 A | Gulyás! Nagyon szeretem. | 굴라시요! 정말 좋아해요. | gulyás = 굴라시 | emotion=excited
 C | Jó, holnap gulyást főzök. Gyertek ebédre! | 좋아, 내일 굴라시 끓일게. 점심 먹으러 오렴! | gyertek = 와 | emotion=cheerful
 B | Nagyi gulyása a legjobb itt. | 할머니 굴라시가 여기 제일 맛있어. | a legjobb = 최고 | emotion=cheerful
 A | Kenyeret hozok. Vagy inkább rizst? | 빵 가져갈게요. 아니면 밥이 나을까? | inkább = 차라리 | emotion=gentle
 B | Rizst gulyáshoz? Miért? | 밥? 굴라시에? 왜? | -hoz = ~에 곁들여 | emotion=surprised
 A | Hát, nálunk sűrű a gulyás, rizzsel. | 음, 우리 쪽에선 굴라시가 걸쭉해서 밥이랑. | sűrű = 걸쭉한 | emotion=flustered
-C | Az pörkölt, kedvesem! Gulyás leves, kanállal esszük. | 그건 푀르쾰트란다, 얘야! 굴라시는 수프야, 숟가락으로. | pörkölt = 걸쭉한 고기 스튜 | emotion=amused
+C | Az pörkölt, kedvesem! A gulyás leves, kanállal esszük. | 그건 푀르쾰트란다, 얘야! 굴라시는 수프야, 숟가락으로. | pörkölt = 걸쭉한 고기 스튜 | emotion=amused
 
 === r1_culture_b5
 kind: long
@@ -202,7 +202,7 @@ C | Jó napot! Mit kérnek? | 안녕하세요! 뭐 드릴까요? | Mit kér? = �
 A | Egy lángost kérek sajttal és tejjel. | 랑고시 하나 주세요, 치즈랑 우유랑. | tej = 우유 | emotion=polite
 C | Tejjel? Lángosra? | 우유요? 랑고시 위에요? | -ra = ~위에 | emotion=surprised
 B | Tejföllel! Bocsánat, még tanulja. | 사워크림이요! 죄송해요, 아직 배우는 중이라서요. | még tanul = 아직 배우는 중 | emotion=amused+polite
-A | Szóval tejföl nem tej? Mindegy, finom! | 그러니까 tejföl은 우유가 아니야? 아무튼, 맛있다! | mindegy = 아무래도 좋아 | emotion=surprised+cheerful
+A | Szóval a tejföl nem tej? Mindegy, finom! | 그러니까 tejföl은 우유가 아니야? 아무튼, 맛있다! | mindegy = 아무래도 좋아 | emotion=surprised+cheerful
 
 === r1_culture_c1
 kind: chat
@@ -218,7 +218,7 @@ goal: 채팅으로 영화 이야기하기(Láttad már? · Ne mondd el!)
 expressions: Bocsi; Szívesen
 B | Na, láttad már azt az új filmet? 🎬 | 야, 그 새 영화 봤어? 🎬 | láttad már = 봤니 | emotion=excited at=20:14
 A | Még nem. Jó? | 아직. 재밌어? | még nem = 아직 | emotion=gentle at=20:15
-B | Nagyon! Figyelj, a végén a srác... | 엄청! 들어봐, 마지막에 그 애... | a végén = 마지막에 | emotion=excited at=20:15
+B | Nagyon! Figyelj, a végén a srác... | 엄청! 들어봐, 마지막에 그 남자애... | a végén = 마지막에 | emotion=excited at=20:15
 A | Ne már! Ne mondd el! 🙉 | 안 돼! 말하지 마! 🙉 | ne mondd el = 말하지 마 | emotion=shout at=20:15
 B | Jól van, jól van. Bocsi! 😅 | 알겠어, 알겠어. 미안! 😅 | bocsi = 미안 | emotion=flustered at=20:16
 A | Mikor megy a moziban? | 영화관에서 언제 해? | mozi = 영화관 | emotion=cheerful at=20:17
@@ -242,7 +242,7 @@ B | Kész az új képem! 🎨 | 새 그림 다 그렸어! 🎨 | kép = 그림 |
 C | Hű, de jó! Ez a Duna? | 와, 대박! 이거 도나우야? | de jó = 정말 좋다 | emotion=excited at=19:03
 B | Igen, este. 🌙 | 응, 저녁 때. 🌙 | este = 저녁 | emotion=cheerful at=19:03
 A | Nagyon szép vagy! 😍 | 너 진짜 예뻐! 😍 | szép vagy = 너는 예쁘다 | emotion=excited at=19:05
-C | Ó-ó! 😏 | 오호! 😏 | ó-ó = 오호 | emotion=teasing at=19:05
+C | Ó-ó! 😏 | 이런 이런! 😏 | ó-ó = 이런, 어라 | emotion=teasing at=19:05
 A | Jaj, a kép! A kép szép! | 아, 그림! 그림이 예쁜 거야! | a kép szép = 그림이 예쁘다 | emotion=flustered at=19:06
 C | Aha. Már tizenöt lájk van rajta. 😂 | 아하. 벌써 좋아요 열다섯 개야. 😂 | lájk = 좋아요 | emotion=amused at=19:12
 B | Köszi. Mindkettőt. 😘 | 고마워. 둘 다. 😘 | mindkettőt = 둘 다(를) | emotion=shy at=19:08
@@ -259,7 +259,7 @@ purpose: media making_friends
 goal: 드라마 추천 주고받기(Ajánlok… · Hány rész?)
 expressions: Oké; Na; Ugye
 B | Figyelj, ajánlok egy sorozatot! Magyar krimi. | 들어봐, 드라마 하나 추천할게! 헝가리 범죄물. | sorozat = 시리즈 | emotion=excited at=19:40
-A | Hány rész? | 몇 화야? | rész = 화 | emotion=gentle at=19:42
+A | Hány részes? | 몇 화야? | részes = ~부작 | emotion=gentle at=19:42
 B | Csak nyolc. Egy hétvége. 😄 | 겨우 여덟 편. 주말 하나면 끝. 😄 | csak = 겨우 | emotion=cheerful at=19:42
 A | Oké, ma elkezdem. | 오케이, 오늘 시작할게. | elkezdem = 시작할게 | emotion=cheerful at=19:45
 B | Na? Tetszik? | 어때? 재밌어? | na? = 어때? | emotion=cheerful at=23:30
@@ -285,7 +285,7 @@ A | Durva. Sajnálom. | 심하다. 안됐다. | durva = 심하다 | emotion=gent
 B | Mindegy, majd jövőre. 😔 | 됐어, 내년에 가지 뭐. 😔 | jövőre = 내년에 | emotion=sad at=10:05
 A | Várj... nekem van kettő. 🎫 | 잠깐… 나 두 장 있어. 🎫 | nekem van = 나에게 있다 | emotion=amused at=10:06
 B | MI VAN?! Komolyan? | 뭐라고?! 진짜? | mi van? = 뭐야? | emotion=shout+surprised at=10:06
-A | Meglepetés lett volna. Boldog szülinapot előre! 🎂 | 서프라이즈였는데. 미리 생일 축하해! 🎂 | lett volna = ~였을 텐데 | emotion=cheerful at=10:07
+A | Meglepetés lett volna. Előre is boldog szülinapot! 🎂 | 서프라이즈였는데. 미리 생일 축하해! 🎂 | lett volna = ~였을 텐데 | emotion=cheerful at=10:07
 
 === r2_culture_b1
 kind: long

@@ -30,8 +30,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "hu": "Szombaton koncert a koncertteremben. Eljössz?",
-   "rd": "쏨버톤 콘체르트 어 콘체르떼렘벤. 엘요쓰?",
+   "hu": "Szombaton koncert van a koncertteremben. Eljössz?",
+   "rd": "쏨버톤 콘체르트 번 어 콘체르떼렘벤. 엘요쓰?",
    "ko": "토요일에 콘서트홀에서 콘서트 있어. 올래?",
    "note": "Eljössz? = 올래?",
    "tags": [],
@@ -46,6 +46,11 @@
      "koncert",
      "koncert",
      ""
+    ],
+    [
+     "van",
+     "van",
+     "번"
     ],
     [
      "koncertteremben",
@@ -191,10 +196,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "hu": "Ügyes vagy! De várj, jövő hónap!",
-   "rd": "위제시 버지! 데 바르이, 요뵈 호너프!",
+   "hu": "Ügyes vagy! De várj, jövő hónapban!",
+   "rd": "위제시 버지! 데 바르이, 요뵈 호너프번!",
    "ko": "잘했어! 근데 잠깐, 다음 달이야!",
-   "note": "jövő hónap = 다음 달",
+   "note": "jövő hónapban = 다음 달에",
    "tags": [],
    "emotion": "cheerful",
    "segs": [
@@ -204,7 +209,7 @@
     ],
     [
      "surprised",
-     "De várj, jövő hónap!"
+     "De várj, jövő hónapban!"
     ]
    ],
    "lemmas": [
@@ -224,7 +229,7 @@
      "요뵈"
     ],
     [
-     "hónap",
+     "hónapban",
      "hónap",
      "호넙"
     ]
@@ -233,8 +238,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Jaj! Hát, legalább készülünk.",
-   "rd": "여이! 하트, 레걸라브 케쓀륀크.",
+   "hu": "Jaj! Hát, legalább készülhetünk.",
+   "rd": "여이! 하트, 레걸라브 케쓀헤튄크.",
    "ko": "아! 음, 적어도 준비할 수 있네.",
    "note": "legalább = 적어도",
    "tags": [
@@ -248,7 +253,7 @@
     ],
     [
      "amused",
-     "Hát, legalább készülünk."
+     "Hát, legalább készülhetünk."
     ]
    ],
    "lemmas": [
@@ -263,7 +268,7 @@
      "레걸랍"
     ],
     [
-     "készülünk",
+     "készülhetünk",
      "készül",
      "케쓸"
     ]

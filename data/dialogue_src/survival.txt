@@ -55,6 +55,6 @@ B | A patika? Menjen egyenesen, aztán balra. | 약국이요? 쭉 가다가 왼�
 C | Dehogy balra! Jobbra van, a posta mellett. | 무슨 왼쪽이야! 오른쪽이지, 우체국 옆. | dehogy = 천만에 | emotion=annoyed
 B | Ugyan, Feri! Az a régi patika volt. | 아이고, 페리! 그건 옛날 약국이고. | ugyan = 아이고 | emotion=tsukkomi
 C | Milyen régi? Tegnap is ott voltam! | 옛날은 무슨? 어제도 거기 갔었어! | tegnap is = 어제도 | emotion=annoyed
-A | Sajnos nem értem. Balra vagy jobbra? | 죄송한데 잘 모르겠어요. 왼쪽이에요, 오른쪽이에요? | sajnos = 안타깝게도 | emotion=worried
+A | Sajnos nem értem. Balra vagy jobbra? | 죄송한데 이해가 안 돼요. 왼쪽이에요, 오른쪽이에요? | sajnos = 안타깝게도 | emotion=worried
 B | Jöjjön velünk, mi is oda megyünk. | 우리랑 같이 가요, 우리도 거기 가요. | jöjjön = 오세요 | emotion=cheerful
 C | Igen. És majd meglátjuk, ki tudja jobban! | 그래요. 누가 더 잘 아는지 보자고! | meglátjuk = 두고 보자 | emotion=teasing

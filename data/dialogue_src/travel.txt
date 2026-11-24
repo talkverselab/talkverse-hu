@@ -36,7 +36,7 @@ B | Nem. Gyalog öt perc, közel van. | 아니요. 걸어서 5분, 가까워요.
 A | Merre menjek? | 어느 쪽으로 가야 해요? | merre = 어느 쪽으로 | emotion=polite
 B | Egyenesen előre, aztán balra. | 똑바로 가다가 왼쪽으로요. | balra = 왼쪽으로 | emotion=polite
 A | Köszönöm szépen! | 정말 감사합니다! | köszönöm szépen = 정말 감사합니다 | emotion=cheerful
-B | Várjon! Rossz irányba indult el. | 잠깐요! 반대쪽으로 가셨네요. | irány = 방향 | emotion=surprised+amused
+B | Várjon! Rossz irányba indult el. | 잠깐요! 잘못된 쪽으로 가셨네요. | irány = 방향 | emotion=surprised+amused
 
 === r1_travel_a3
 kind: short
@@ -54,7 +54,7 @@ B | Ez? Ezerkétszáz forint. | 이거요? 1200포린트예요. | mágnes = 자�
 A | És a paprika? Az mennyi? | 파프리카 가루는요? 그건 얼마예요? | paprika = 파프리카 가루 | emotion=cheerful
 B | Kétezer. Nagyon finom. | 2천이요. 진짜 맛있어요. | finom = 맛있는 | emotion=cheerful
 A | Akkor mindkettőből kettőt kérek, kártyával. | 그럼 둘 다 두 개씩 주세요, 카드로요. | kettőt = 두 개를 | emotion=cheerful
-B | Sajnos csak készpénzt fogadunk. | 죄송하지만 현금만 받아요. | készpénz = 현금 | emotion=polite
+B | Sajnos csak készpénzt fogadunk el. | 죄송하지만 현금만 받아요. | készpénz = 현금 | emotion=polite
 A | Jaj! Van itt valahol bankautomata? | 아이고! 이 근처에 ATM 있어요? | bankautomata = 현금인출기 | emotion=flustered
 B | Van, a sarkon. Addig félreteszem önnek. | 있어요, 모퉁이에. 그동안 따로 빼 둘게요. | félretesz = 따로 챙겨 두다 | emotion=gentle
 
@@ -71,7 +71,7 @@ goal: 체크인하기(Foglalásom van · Milyen névre?)
 expressions: Jó estét; Nem baj; Tényleg
 B | Jó estét! Miben segíthetek? | 안녕하세요! 무엇을 도와드릴까요? | segíthetek = 도와드릴까요 | emotion=polite
 A | Jó estét! Van foglalásom. | 안녕하세요! 예약이 있어요. | foglalás = 예약 | emotion=cheerful
-B | Milyen névre van? | 어떤 이름으로 되어 있어요? | névre = 이름으로 | emotion=polite
+B | Milyen névre van a foglalás? | 예약이 어떤 이름으로 되어 있어요? | névre = 이름으로 | emotion=polite
 A | {name} néven. Tessék, itt a papír. | {name}(으)로요. 여기 있어요. | néven = ~라는 이름으로 | emotion=neutral
 B | Hm. Ez a foglalás holnapra szól. | 음. 이 예약은 내일 날짜네요. | holnapra szól = 내일 것이다 | emotion=worried
 A | Holnapra? Jaj, ne már! | 내일요? 아이고, 이럴 수가! | ne már = 아이 참 | emotion=flustered

@@ -56,8 +56,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hű, sok kép! Melyik a legjobb?",
-   "rd": "휘, 쇽 케프! 메익 어 렉요브?",
+   "hu": "Hű, de sok kép! Melyik a legjobb?",
+   "rd": "휘, 데 쇽 케프! 메익 어 렉요브?",
    "ko": "와, 그림 많아! 어느 게 제일 좋아?",
    "note": "Melyik? = 어느 것?",
    "tags": [],
@@ -83,8 +83,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Mondd te. Melyik tetszik neked?",
-   "rd": "몬드 테. 메익 테트씩 네케드?",
+   "hu": "Mondd meg te. Melyik tetszik neked?",
+   "rd": "몬드 멕 테. 메익 테트씩 네케드?",
    "ko": "네가 말해. 어느 게 마음에 들어?",
    "note": "tetszik = 마음에 들다",
    "tags": [],
@@ -151,8 +151,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "hu": "Bocsánat! Csak szép.",
-   "rd": "보차너트! 척 쎄프.",
+   "hu": "Bocsánat! Csak túl szép.",
+   "rd": "보차너트! 척 툴 쎄프.",
    "ko": "죄송해요! 너무 예뻐서요.",
    "note": "bocsánat = 죄송해요",
    "tags": [
@@ -164,6 +164,11 @@
      "Bocsánat",
      "bocsánat",
      "버치너트"
+    ],
+    [
+     "túl",
+     "túl",
+     "툴"
     ],
     [
      "szép",

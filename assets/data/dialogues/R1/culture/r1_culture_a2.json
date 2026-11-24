@@ -89,27 +89,22 @@
   {
    "num": 3,
    "speaker": "A",
-   "hu": "A naptárban volt ma.",
-   "rd": "어 너프타르번 볼트 머.",
-   "ko": "달력에 오늘이라고 나왔어.",
+   "hu": "Benne volt a naptárban.",
+   "rd": "벤네 볼트 어 너프타르번.",
+   "ko": "달력에 나와 있었어.",
    "note": "naptár = 달력",
    "tags": [],
    "emotion": "amused",
    "lemmas": [
-    [
-     "naptárban",
-     "naptár",
-     ""
-    ],
     [
      "volt",
      "van",
      "번"
     ],
     [
-     "ma",
-     "ma",
-     "머"
+     "naptárban",
+     "naptár",
+     ""
     ]
    ]
   },

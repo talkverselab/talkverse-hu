@@ -66,7 +66,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "A mosógép meg Elromlott. 😟",
+   "hu": "A mosógép meg elromlott. 😟",
    "rd": "어 모쇼게프 멕 엘롬로트. 😟",
    "ko": "세탁기도 고장 났어요. 😟",
    "note": "Elromlott = 고장 났다",
@@ -81,14 +81,19 @@
      "mosógép",
      "mosógép",
      ""
+    ],
+    [
+     "elromlott",
+     "elromlik",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Megkaptam, köszi szépen! 👍",
-   "rd": "멕커프텀, 쾨씨 쎄펜! 👍",
+   "hu": "Megkaptam, köszönöm szépen! 👍",
+   "rd": "멕커프텀, 쾨쐬뇜 쎄펜! 👍",
    "ko": "받았어요, 정말 고마워요! 👍",
    "note": "Megkaptam = 받았다",
    "tags": [
@@ -104,9 +109,9 @@
      "메그커프"
     ],
     [
-     "köszi",
-     "köszi",
-     "쾨씨"
+     "köszönöm",
+     "köszön",
+     "쾨쇠니"
     ],
     [
      "szépen",
@@ -171,8 +176,8 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Bocsánat! Rúgjon bele egyszer a jobb oldalára.",
-   "rd": "보차너트! 룩욘 벨레 에지쎄르 어 요브 올덜라러.",
+   "hu": "Bocsánat! Rúgjon bele egyszer a jobb oldalába.",
+   "rd": "보차너트! 룩욘 벨레 에지쎄르 어 요브 올덜라버.",
    "ko": "미안해요! 오른쪽을 한 번 차 보세요.",
    "note": "rúgjon = 차 보세요",
    "tags": [],
@@ -196,7 +201,7 @@
      "요"
     ],
     [
-     "oldalára",
+     "oldalába",
      "oldal",
      "올덜"
     ]

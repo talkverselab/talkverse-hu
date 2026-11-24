@@ -227,7 +227,7 @@
    "speaker": "B",
    "hu": "Várjon! Rossz irányba indult el.",
    "rd": "바르욘! 로쓰 이라니버 인둘트 엘.",
-   "ko": "잠깐요! 반대쪽으로 가셨네요.",
+   "ko": "잠깐요! 잘못된 쪽으로 가셨네요.",
    "note": "irány = 방향",
    "tags": [],
    "emotion": "surprised",

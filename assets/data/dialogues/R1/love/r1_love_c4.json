@@ -130,8 +130,8 @@
   {
    "num": 5,
    "speaker": "B",
-   "hu": "Bocsi! Szombaton dolgozom, de kivettem szabadnapot.",
-   "rd": "보치! 쏨버톤 돌고좀, 데 키베뗌 써버드너포트.",
+   "hu": "Bocsi! Szombaton dolgozom, de kivettem egy szabadnapot.",
+   "rd": "보치! 쏨버톤 돌고좀, 데 키베뗌 에지 써버드너포트.",
    "ko": "미안! 토요일에 일하는데, 쉬는 날로 뺐어.",
    "note": "szabadnap = 쉬는 날",
    "tags": [

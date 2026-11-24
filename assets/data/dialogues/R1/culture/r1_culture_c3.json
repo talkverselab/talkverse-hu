@@ -65,19 +65,19 @@
   {
    "num": 2,
    "speaker": "A",
-   "hu": "Hány rész?",
-   "rd": "하니 레쓰?",
+   "hu": "Hány részes?",
+   "rd": "하니 레쎄시?",
    "ko": "몇 화야?",
-   "note": "rész = 화",
+   "note": "részes = ~부작",
    "tags": [],
    "at": "19:42",
    "emotion": "gentle",
    "ui": "bubble",
    "lemmas": [
     [
-     "rész",
-     "rész",
-     "레스"
+     "részes",
+     "részes",
+     ""
     ]
    ]
   },

@@ -88,9 +88,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "hu": "Milyen névre van?",
-   "rd": "미옌 네브레 번?",
-   "ko": "어떤 이름으로 되어 있어요?",
+   "hu": "Milyen névre van a foglalás?",
+   "rd": "미옌 네브레 번 어 폭럴라시?",
+   "ko": "예약이 어떤 이름으로 되어 있어요?",
    "note": "névre = 이름으로",
    "tags": [],
    "emotion": "polite",
@@ -104,6 +104,11 @@
      "van",
      "van",
      "번"
+    ],
+    [
+     "foglalás",
+     "foglalás",
+     ""
     ]
    ]
   },

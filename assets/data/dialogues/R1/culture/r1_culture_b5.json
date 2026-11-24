@@ -229,8 +229,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "hu": "Szóval tejföl nem tej? Mindegy, finom!",
-   "rd": "쏘벌 테이푈 넴 테이? 민데지, 피놈!",
+   "hu": "Szóval a tejföl nem tej? Mindegy, finom!",
+   "rd": "쏘벌 어 테이푈 넴 테이? 민데지, 피놈!",
    "ko": "그러니까 tejföl은 우유가 아니야? 아무튼, 맛있다!",
    "note": "mindegy = 아무래도 좋아",
    "tags": [
@@ -240,7 +240,7 @@
    "segs": [
     [
      "surprised",
-     "Szóval tejföl nem tej?"
+     "Szóval a tejföl nem tej?"
     ],
     [
      "cheerful",

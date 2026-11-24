@@ -154,8 +154,8 @@
   {
    "num": 6,
    "speaker": "B",
-   "hu": "Sajnos csak készpénzt fogadunk.",
-   "rd": "셔이노시 척 케쓰펜즈트 포거둔크.",
+   "hu": "Sajnos csak készpénzt fogadunk el.",
+   "rd": "셔이노시 척 케쓰펜즈트 포거둔크 엘.",
    "ko": "죄송하지만 현금만 받아요.",
    "note": "készpénz = 현금",
    "tags": [
@@ -182,6 +182,11 @@
      "fogadunk",
      "fogad",
      "퍼가드"
+    ],
+    [
+     "el",
+     "el",
+     "엘"
     ]
    ]
   },
