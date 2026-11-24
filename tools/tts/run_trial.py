@@ -104,6 +104,12 @@ for rnd in range(3):
     pc_run()
     for e in eps:
         fetch(f'retake/{e}', f'{wav}/retake')
+for e in eps:   # 마지막(3회째) 재생성본을 검사·반영한 뒤 묶는다(2026-11-24, fr a39cf4b)
+    try:
+        r = subprocess.run([sys.executable, f'{HERE}/qa.py', wav, e], capture_output=True, text=True, timeout=600)
+        log('마지막', e, r.stdout.strip() or r.stderr.strip()[-300:])
+    except subprocess.TimeoutExpired:
+        log('TIMEOUT', e)
 log('PC 끝')
 for e in eps:
     r = sh(sys.executable, f'{HERE}/pack.py', wav, e, '--upload', '--no-db', check=False)
