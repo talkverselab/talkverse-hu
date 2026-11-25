@@ -52,7 +52,7 @@
 "dialogues/R1/love/r1_love_b3.json": "a199cff89bdd",
 "dialogues/R1/love/r1_love_b4.json": "6a94c5f44b73",
 "dialogues/R1/love/r1_love_b5.json": "9791f510e703",
-"dialogues/R1/love/r1_love_c1.json": "d8a80081d92d",
+"dialogues/R1/love/r1_love_c1.json": "5893d2ade845",
 "dialogues/R1/love/r1_love_c2.json": "4f0b9ef248c7",
 "dialogues/R1/love/r1_love_c3.json": "9078c751b0fd",
 "dialogues/R1/love/r1_love_c4.json": "c280f0a4dc95",
@@ -153,5 +153,5 @@
 "grammar/lesson1.json": "669c384fab3e",
 "grammar/sense_course.json": "d437aeef222e"
 },
-"rev": 10
+"rev": 11
 }

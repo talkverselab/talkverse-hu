@@ -23,7 +23,7 @@ A | Komolyan? Akkor holnap együtt állunk sorba? | 진짜? 그럼 내일은 같
 kind: chat
 title: 충전기 먹은 강아지
 emoji: 📱
-scene: 데이팅앱에서 매칭된 Anna 가 먼저 말을 건다. 산책을 제안했더니 답이 없다
+scene: 언어교류앱에서 매칭된 Anna 가 먼저 말을 건다. 산책을 제안했더니 답이 없다
 b: Anna
 register: chat
 twist: 5 ignore
